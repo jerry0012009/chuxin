@@ -1,0 +1,12 @@
+*
+!scale-imports/
+!scale-imports/json/
+!scale-imports/json/*.json
+!scale-imports/huaxinyun-original/
+!scale-imports/huaxinyun-original/json/
+!scale-imports/huaxinyun-original/json/*.json
+!scale-imports/scripts/
+!scale-imports/scripts/*.py
+!deploy/
+!deploy/local/
+!deploy/local/seed-scales.py

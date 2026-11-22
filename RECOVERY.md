@@ -2,6 +2,8 @@
 
 本文档记录换服务器、重建数据库或误删数据后的恢复路径。
 
+如果只是从 GitHub 下载后本机试用，请用 [本地快速启动](README.md#本地快速启动)。Compose 会在新数据库自动导入全部量表，无需执行下文的手动恢复命令。手动恢复会覆盖同名量表，请只指向隔离的恢复库。
+
 ## 量表库
 
 项目历史里有两类量表来源，需要分开理解。
@@ -33,7 +35,7 @@
 恢复命令：
 
 ```bash
-cd /root/jry/chuxin
+# Run from the repository root.
 CHUXIN_BASE_URL=http://127.0.0.1:18080 \
 CHUXIN_ADMIN_USERNAME=admin \
 CHUXIN_ADMIN_PASSWORD=123456 \
