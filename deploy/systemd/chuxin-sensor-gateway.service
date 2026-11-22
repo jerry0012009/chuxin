@@ -1,0 +1,14 @@
+[Unit]
+Description=Chuxin sensor WebSocket gateway
+After=network.target
+
+[Service]
+Type=simple
+WorkingDirectory=/root/jry/chuxin
+Environment=PYTHONUNBUFFERED=1
+ExecStart=/root/jry/chuxin/sensor-gateway/.venv/bin/python /root/jry/chuxin/sensor-gateway/mock_sensor_gateway.py --host 127.0.0.1 --port 18081 --path /chuxin-vue/sensor-gateway/ws --batch-ms 250
+Restart=always
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target

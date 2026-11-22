@@ -1,0 +1,5637 @@
+{
+  "id": 129,
+  "title": "艾森克情绪稳定性测验(EES）",
+  "type": "basic",
+  "questions": [
+    {
+      "id": 3201,
+      "text": "你认为你能像大多数人那样行事吗？",
+      "type": "radio",
+      "orderNum": 1,
+      "options": [
+        {
+          "id": 12722,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 12723,
+          "optionNo": "B",
+          "text": "不一定",
+          "value": "0.5"
+        },
+        {
+          "id": 12724,
+          "optionNo": "C",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3202,
+      "text": "你似乎尽碰到倒霉事。",
+      "type": "radio",
+      "orderNum": 2,
+      "options": [
+        {
+          "id": 12725,
+          "optionNo": "A",
+          "text": "是",
+          "value": "0"
+        },
+        {
+          "id": 12726,
+          "optionNo": "B",
+          "text": "不一定",
+          "value": "0.5"
+        },
+        {
+          "id": 12727,
+          "optionNo": "C",
+          "text": "否",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 3203,
+      "text": "你比大多数人更容易脸红吗？",
+      "type": "radio",
+      "orderNum": 3,
+      "options": [
+        {
+          "id": 12728,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 12729,
+          "optionNo": "B",
+          "text": "不一定",
+          "value": "0.5"
+        },
+        {
+          "id": 12730,
+          "optionNo": "C",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3204,
+      "text": "有时一个思想总在你脑中反复出现，你想打消它，但是办不到。",
+      "type": "radio",
+      "orderNum": 4,
+      "options": [
+        {
+          "id": 12731,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 12732,
+          "optionNo": "B",
+          "text": "不一定",
+          "value": "0.5"
+        },
+        {
+          "id": 12733,
+          "optionNo": "C",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3205,
+      "text": "你有想戒除或戒掉不良的嗜好（如吸烟）吗？",
+      "type": "radio",
+      "orderNum": 5,
+      "options": [
+        {
+          "id": 12734,
+          "optionNo": "A",
+          "text": "是",
+          "value": "0"
+        },
+        {
+          "id": 12735,
+          "optionNo": "B",
+          "text": "不一定",
+          "value": "0.5"
+        },
+        {
+          "id": 12736,
+          "optionNo": "C",
+          "text": "否",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 3206,
+      "text": "你是否总是感觉良好并精力充沛？",
+      "type": "radio",
+      "orderNum": 6,
+      "options": [
+        {
+          "id": 12737,
+          "optionNo": "A",
+          "text": "是",
+          "value": "0"
+        },
+        {
+          "id": 12738,
+          "optionNo": "B",
+          "text": "不一定",
+          "value": "0.5"
+        },
+        {
+          "id": 12739,
+          "optionNo": "C",
+          "text": "否",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 3207,
+      "text": "你常常为负罪感而烦恼吗？",
+      "type": "radio",
+      "orderNum": 7,
+      "options": [
+        {
+          "id": 12740,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 12741,
+          "optionNo": "B",
+          "text": "不一定",
+          "value": "0.5"
+        },
+        {
+          "id": 12742,
+          "optionNo": "C",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3208,
+      "text": "你是否觉得有点儿骄傲？",
+      "type": "radio",
+      "orderNum": 8,
+      "options": [
+        {
+          "id": 12743,
+          "optionNo": "A",
+          "text": "是",
+          "value": "0"
+        },
+        {
+          "id": 12744,
+          "optionNo": "B",
+          "text": "不一定",
+          "value": "0.5"
+        },
+        {
+          "id": 12745,
+          "optionNo": "C",
+          "text": "否",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 3209,
+      "text": "早上醒来时，你是否经常感到心情抑郁？",
+      "type": "radio",
+      "orderNum": 9,
+      "options": [
+        {
+          "id": 12746,
+          "optionNo": "A",
+          "text": "是",
+          "value": "0"
+        },
+        {
+          "id": 12747,
+          "optionNo": "B",
+          "text": "不一定",
+          "value": "0.5"
+        },
+        {
+          "id": 12748,
+          "optionNo": "C",
+          "text": "否",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 3210,
+      "text": "即使在犯愁的时候，你也极少失眠吗？",
+      "type": "radio",
+      "orderNum": 10,
+      "options": [
+        {
+          "id": 12749,
+          "optionNo": "A",
+          "text": "是",
+          "value": "0"
+        },
+        {
+          "id": 12750,
+          "optionNo": "B",
+          "text": "不一定",
+          "value": "0.5"
+        },
+        {
+          "id": 12751,
+          "optionNo": "C",
+          "text": "否",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 3211,
+      "text": "你时常感到闹钟嘀哒声十分刺耳，难以忍受吗？",
+      "type": "radio",
+      "orderNum": 11,
+      "options": [
+        {
+          "id": 12752,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 12753,
+          "optionNo": "B",
+          "text": "不一定",
+          "value": "0.5"
+        },
+        {
+          "id": 12754,
+          "optionNo": "C",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3212,
+      "text": "对于那种看上去你很在行的游戏，你想学会并享受其乐趣吗？",
+      "type": "radio",
+      "orderNum": 12,
+      "options": [
+        {
+          "id": 12755,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 12756,
+          "optionNo": "B",
+          "text": "不一定",
+          "value": "0.5"
+        },
+        {
+          "id": 12757,
+          "optionNo": "C",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3213,
+      "text": "你是否食欲不佳？",
+      "type": "radio",
+      "orderNum": 13,
+      "options": [
+        {
+          "id": 12758,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 12759,
+          "optionNo": "B",
+          "text": "不一定",
+          "value": "0.5"
+        },
+        {
+          "id": 12760,
+          "optionNo": "C",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3214,
+      "text": "在你实际上没有错的时候，你是否常常寻找自己的不是？",
+      "type": "radio",
+      "orderNum": 14,
+      "options": [
+        {
+          "id": 12761,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 12762,
+          "optionNo": "B",
+          "text": "不一定",
+          "value": "0.5"
+        },
+        {
+          "id": 12763,
+          "optionNo": "C",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3215,
+      "text": "你常常觉得自己是失败者吗？",
+      "type": "radio",
+      "orderNum": 15,
+      "options": [
+        {
+          "id": 12764,
+          "optionNo": "A",
+          "text": "是",
+          "value": "0"
+        },
+        {
+          "id": 12765,
+          "optionNo": "B",
+          "text": "不一定",
+          "value": "0.5"
+        },
+        {
+          "id": 12766,
+          "optionNo": "C",
+          "text": "否",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 3216,
+      "text": "总的来说，你是否满足于你的生活？",
+      "type": "radio",
+      "orderNum": 16,
+      "options": [
+        {
+          "id": 12767,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 12768,
+          "optionNo": "B",
+          "text": "不一定",
+          "value": "0.5"
+        },
+        {
+          "id": 12769,
+          "optionNo": "C",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3217,
+      "text": "你通常是平静，不容易被烦扰吗？",
+      "type": "radio",
+      "orderNum": 17,
+      "options": [
+        {
+          "id": 12770,
+          "optionNo": "A",
+          "text": "是",
+          "value": "0"
+        },
+        {
+          "id": 12771,
+          "optionNo": "B",
+          "text": "不一定",
+          "value": "0.5"
+        },
+        {
+          "id": 12772,
+          "optionNo": "C",
+          "text": "否",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 3218,
+      "text": "在阅读的时候，如果发现标点错误，你是否觉得很难弄清句子的意思？",
+      "type": "radio",
+      "orderNum": 18,
+      "options": [
+        {
+          "id": 12773,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 12774,
+          "optionNo": "B",
+          "text": "不一定",
+          "value": "0.5"
+        },
+        {
+          "id": 12775,
+          "optionNo": "C",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3219,
+      "text": "你是否通过锻炼或限制饮食来有计划地控制体形？",
+      "type": "radio",
+      "orderNum": 19,
+      "options": [
+        {
+          "id": 12776,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 12777,
+          "optionNo": "B",
+          "text": "不一定",
+          "value": "0.5"
+        },
+        {
+          "id": 12778,
+          "optionNo": "C",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3220,
+      "text": "你的皮肤非常敏感和怕痛吗？",
+      "type": "radio",
+      "orderNum": 20,
+      "options": [
+        {
+          "id": 12779,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 12780,
+          "optionNo": "B",
+          "text": "不一定",
+          "value": "0.5"
+        },
+        {
+          "id": 12781,
+          "optionNo": "C",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3221,
+      "text": "你是否有时觉得你所过的生活是你父母失望的？",
+      "type": "radio",
+      "orderNum": 21,
+      "options": [
+        {
+          "id": 12782,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 12783,
+          "optionNo": "B",
+          "text": "不一定",
+          "value": "0.5"
+        },
+        {
+          "id": 12784,
+          "optionNo": "C",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3222,
+      "text": "你为你的自卑感而苦恼吗？",
+      "type": "radio",
+      "orderNum": 22,
+      "options": [
+        {
+          "id": 12785,
+          "optionNo": "A",
+          "text": "是",
+          "value": "0"
+        },
+        {
+          "id": 12786,
+          "optionNo": "B",
+          "text": "不一定",
+          "value": "0.5"
+        },
+        {
+          "id": 12787,
+          "optionNo": "C",
+          "text": "否",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 3223,
+      "text": "在生活中，你是否能发现许多愉快的事？",
+      "type": "radio",
+      "orderNum": 23,
+      "options": [
+        {
+          "id": 12788,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 12789,
+          "optionNo": "B",
+          "text": "不一定",
+          "value": "0.5"
+        },
+        {
+          "id": 12790,
+          "optionNo": "C",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3224,
+      "text": "你是否有时觉得你有许多无法克服的困难？",
+      "type": "radio",
+      "orderNum": 24,
+      "options": [
+        {
+          "id": 12791,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 12792,
+          "optionNo": "B",
+          "text": "不一定",
+          "value": "0.5"
+        },
+        {
+          "id": 12793,
+          "optionNo": "C",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3225,
+      "text": "你是否有时强迫自己洗手，尽管你明明知道你的手很干净？",
+      "type": "radio",
+      "orderNum": 25,
+      "options": [
+        {
+          "id": 12794,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 12795,
+          "optionNo": "B",
+          "text": "不一定",
+          "value": "0.5"
+        },
+        {
+          "id": 12796,
+          "optionNo": "C",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3226,
+      "text": "你是否相信你的性格已由童年时的经历所决定，所以无法改变？",
+      "type": "radio",
+      "orderNum": 26,
+      "options": [
+        {
+          "id": 12797,
+          "optionNo": "A",
+          "text": "是",
+          "value": "0"
+        },
+        {
+          "id": 12798,
+          "optionNo": "B",
+          "text": "不一定",
+          "value": "0.5"
+        },
+        {
+          "id": 12799,
+          "optionNo": "C",
+          "text": "否",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 3227,
+      "text": "你是否时常感到头脑发晕？",
+      "type": "radio",
+      "orderNum": 27,
+      "options": [
+        {
+          "id": 12800,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 12801,
+          "optionNo": "B",
+          "text": "不一定",
+          "value": "0.5"
+        },
+        {
+          "id": 12802,
+          "optionNo": "C",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3228,
+      "text": "你是否觉得自己犯了不可饶恕的罪过？",
+      "type": "radio",
+      "orderNum": 28,
+      "options": [
+        {
+          "id": 12803,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 12804,
+          "optionNo": "B",
+          "text": "不一定",
+          "value": "0.5"
+        },
+        {
+          "id": 12805,
+          "optionNo": "C",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3229,
+      "text": "总的来说，你是否很自信？",
+      "type": "radio",
+      "orderNum": 29,
+      "options": [
+        {
+          "id": 12806,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 12807,
+          "optionNo": "B",
+          "text": "不一定",
+          "value": "0.5"
+        },
+        {
+          "id": 12808,
+          "optionNo": "C",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3230,
+      "text": "有时你不在乎将来怎样？",
+      "type": "radio",
+      "orderNum": 30,
+      "options": [
+        {
+          "id": 12809,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 12810,
+          "optionNo": "B",
+          "text": "不一定",
+          "value": "0.5"
+        },
+        {
+          "id": 12811,
+          "optionNo": "C",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3231,
+      "text": "你是否总是感到生活非常紧张？",
+      "type": "radio",
+      "orderNum": 31,
+      "options": [
+        {
+          "id": 12812,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 12813,
+          "optionNo": "B",
+          "text": "不一定",
+          "value": "0.5"
+        },
+        {
+          "id": 12814,
+          "optionNo": "C",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3232,
+      "text": "你有时为一些细微末节的小事总缠绕在思想中而烦恼吗？",
+      "type": "radio",
+      "orderNum": 32,
+      "options": [
+        {
+          "id": 12815,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 12816,
+          "optionNo": "B",
+          "text": "不一定",
+          "value": "0.5"
+        },
+        {
+          "id": 12817,
+          "optionNo": "C",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3233,
+      "text": "不管别人怎么说，你总是按自己的决定行事吗？",
+      "type": "radio",
+      "orderNum": 33,
+      "options": [
+        {
+          "id": 12818,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 12819,
+          "optionNo": "B",
+          "text": "不一定",
+          "value": "0.5"
+        },
+        {
+          "id": 12820,
+          "optionNo": "C",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3234,
+      "text": "你比多数人更容易头痛吗？",
+      "type": "radio",
+      "orderNum": 34,
+      "options": [
+        {
+          "id": 12821,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 12822,
+          "optionNo": "B",
+          "text": "不一定",
+          "value": "0.5"
+        },
+        {
+          "id": 12823,
+          "optionNo": "C",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3235,
+      "text": "你常有对自己的所做所为进行忏悔的强烈愿望吗？",
+      "type": "radio",
+      "orderNum": 35,
+      "options": [
+        {
+          "id": 12824,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 12825,
+          "optionNo": "B",
+          "text": "不一定",
+          "value": "0.5"
+        },
+        {
+          "id": 12826,
+          "optionNo": "C",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3236,
+      "text": "你是否常常希望自己是另外一个人？",
+      "type": "radio",
+      "orderNum": 36,
+      "options": [
+        {
+          "id": 12827,
+          "optionNo": "A",
+          "text": "是",
+          "value": "0"
+        },
+        {
+          "id": 12828,
+          "optionNo": "B",
+          "text": "不一定",
+          "value": "0.5"
+        },
+        {
+          "id": 12829,
+          "optionNo": "C",
+          "text": "否",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 3237,
+      "text": "平时你感到精力充沛吗？",
+      "type": "radio",
+      "orderNum": 37,
+      "options": [
+        {
+          "id": 12830,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 12831,
+          "optionNo": "B",
+          "text": "不一定",
+          "value": "0.5"
+        },
+        {
+          "id": 12832,
+          "optionNo": "C",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3238,
+      "text": "你小时候害怕黑暗吗？",
+      "type": "radio",
+      "orderNum": 38,
+      "options": [
+        {
+          "id": 12833,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 12834,
+          "optionNo": "B",
+          "text": "不一定",
+          "value": "0.5"
+        },
+        {
+          "id": 12835,
+          "optionNo": "C",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3239,
+      "text": "你是否热衷于某种迷信仪式，以避免走路发出的劈啪声等诸如此类的不吉利事？",
+      "type": "radio",
+      "orderNum": 39,
+      "options": [
+        {
+          "id": 12836,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 12837,
+          "optionNo": "B",
+          "text": "不一定",
+          "value": "0.5"
+        },
+        {
+          "id": 12838,
+          "optionNo": "C",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3240,
+      "text": "你觉得控制体重困难吗？",
+      "type": "radio",
+      "orderNum": 40,
+      "options": [
+        {
+          "id": 12839,
+          "optionNo": "A",
+          "text": "是",
+          "value": "0"
+        },
+        {
+          "id": 12840,
+          "optionNo": "B",
+          "text": "不一定",
+          "value": "0.5"
+        },
+        {
+          "id": 12841,
+          "optionNo": "C",
+          "text": "否",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 3241,
+      "text": "你是否有时感到面部、头部、肩部抽搐？",
+      "type": "radio",
+      "orderNum": 41,
+      "options": [
+        {
+          "id": 12842,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 12843,
+          "optionNo": "B",
+          "text": "不一定",
+          "value": "0.5"
+        },
+        {
+          "id": 12844,
+          "optionNo": "C",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3242,
+      "text": "你是否常觉得别人非难你？",
+      "type": "radio",
+      "orderNum": 42,
+      "options": [
+        {
+          "id": 12845,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 12846,
+          "optionNo": "B",
+          "text": "不一定",
+          "value": "0.5"
+        },
+        {
+          "id": 12847,
+          "optionNo": "C",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3243,
+      "text": "当众讲话是否使你感到很不自在？",
+      "type": "radio",
+      "orderNum": 43,
+      "options": [
+        {
+          "id": 12848,
+          "optionNo": "A",
+          "text": "是",
+          "value": "0"
+        },
+        {
+          "id": 12849,
+          "optionNo": "B",
+          "text": "不一定",
+          "value": "0.5"
+        },
+        {
+          "id": 12850,
+          "optionNo": "C",
+          "text": "否",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 3244,
+      "text": "你是否曾经无缘无故地觉得自己很悲惨？",
+      "type": "radio",
+      "orderNum": 44,
+      "options": [
+        {
+          "id": 12851,
+          "optionNo": "A",
+          "text": "是",
+          "value": "0"
+        },
+        {
+          "id": 12852,
+          "optionNo": "B",
+          "text": "不一定",
+          "value": "0.5"
+        },
+        {
+          "id": 12853,
+          "optionNo": "C",
+          "text": "否",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 3245,
+      "text": "你是否常常忙忙碌碌似乎有所求，实际上不知所求？",
+      "type": "radio",
+      "orderNum": 45,
+      "options": [
+        {
+          "id": 12854,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 12855,
+          "optionNo": "B",
+          "text": "不一定",
+          "value": "0.5"
+        },
+        {
+          "id": 12856,
+          "optionNo": "C",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3246,
+      "text": "你常担心抽屉、窗子、门、箱子等东西是否锁好吗？",
+      "type": "radio",
+      "orderNum": 46,
+      "options": [
+        {
+          "id": 12857,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 12858,
+          "optionNo": "B",
+          "text": "不一定",
+          "value": "0.5"
+        },
+        {
+          "id": 12859,
+          "optionNo": "C",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3247,
+      "text": "你是否相信上帝、命运等超自然力量控制着你的生老病死？",
+      "type": "radio",
+      "orderNum": 47,
+      "options": [
+        {
+          "id": 12860,
+          "optionNo": "A",
+          "text": "是",
+          "value": "0"
+        },
+        {
+          "id": 12861,
+          "optionNo": "B",
+          "text": "不一定",
+          "value": "0.5"
+        },
+        {
+          "id": 12862,
+          "optionNo": "C",
+          "text": "否",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 3248,
+      "text": "你很担心自己得病吗？",
+      "type": "radio",
+      "orderNum": 48,
+      "options": [
+        {
+          "id": 12863,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 12864,
+          "optionNo": "B",
+          "text": "不一定",
+          "value": "0.5"
+        },
+        {
+          "id": 12865,
+          "optionNo": "C",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3249,
+      "text": "你是否相信此时此刻所得到的幸福，最终不得不偿还？",
+      "type": "radio",
+      "orderNum": 49,
+      "options": [
+        {
+          "id": 12866,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 12867,
+          "optionNo": "B",
+          "text": "不一定",
+          "value": "0.5"
+        },
+        {
+          "id": 12868,
+          "optionNo": "C",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3250,
+      "text": "如果可能的话，你将在许多方面改变自己吗？",
+      "type": "radio",
+      "orderNum": 50,
+      "options": [
+        {
+          "id": 12869,
+          "optionNo": "A",
+          "text": "是",
+          "value": "0"
+        },
+        {
+          "id": 12870,
+          "optionNo": "B",
+          "text": "不一定",
+          "value": "0.5"
+        },
+        {
+          "id": 12871,
+          "optionNo": "C",
+          "text": "否",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 3251,
+      "text": "你觉得自己前途乐观吗？",
+      "type": "radio",
+      "orderNum": 51,
+      "options": [
+        {
+          "id": 12872,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 12873,
+          "optionNo": "B",
+          "text": "不一定",
+          "value": "0.5"
+        },
+        {
+          "id": 12874,
+          "optionNo": "C",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3252,
+      "text": "面对艰难的任务，你是否会发抖、出汗？",
+      "type": "radio",
+      "orderNum": 52,
+      "options": [
+        {
+          "id": 12875,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 12876,
+          "optionNo": "B",
+          "text": "不一定",
+          "value": "0.5"
+        },
+        {
+          "id": 12877,
+          "optionNo": "C",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3253,
+      "text": "上床睡觉之前，你常按程序检查所有的电灯、用具和水管关好没有吗？",
+      "type": "radio",
+      "orderNum": 53,
+      "options": [
+        {
+          "id": 12878,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 12879,
+          "optionNo": "B",
+          "text": "不一定",
+          "value": "0.5"
+        },
+        {
+          "id": 12880,
+          "optionNo": "C",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3254,
+      "text": "如果事情出了差错，你是否常把它们归结为运气不佳，而不是方法不当？",
+      "type": "radio",
+      "orderNum": 54,
+      "options": [
+        {
+          "id": 12881,
+          "optionNo": "A",
+          "text": "是",
+          "value": "0"
+        },
+        {
+          "id": 12882,
+          "optionNo": "B",
+          "text": "不一定",
+          "value": "0.5"
+        },
+        {
+          "id": 12883,
+          "optionNo": "C",
+          "text": "否",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 3255,
+      "text": "即使你认为自己仅仅是着凉了，你也一定要去看病吗？",
+      "type": "radio",
+      "orderNum": 55,
+      "options": [
+        {
+          "id": 12884,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 12885,
+          "optionNo": "B",
+          "text": "不一定",
+          "value": "0.5"
+        },
+        {
+          "id": 12886,
+          "optionNo": "C",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3256,
+      "text": "你很关心自己是否比周围大多数人都生活得更好吗？",
+      "type": "radio",
+      "orderNum": 56,
+      "options": [
+        {
+          "id": 12887,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 12888,
+          "optionNo": "B",
+          "text": "不一定",
+          "value": "0.5"
+        },
+        {
+          "id": 12889,
+          "optionNo": "C",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3257,
+      "text": "在一般情况下，你是否觉得自己颇受大家的欢迎？",
+      "type": "radio",
+      "orderNum": 57,
+      "options": [
+        {
+          "id": 12890,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 12891,
+          "optionNo": "B",
+          "text": "不一定",
+          "value": "0.5"
+        },
+        {
+          "id": 12892,
+          "optionNo": "C",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3258,
+      "text": "你是否有过自己不如死了好的想法？",
+      "type": "radio",
+      "orderNum": 58,
+      "options": [
+        {
+          "id": 12893,
+          "optionNo": "A",
+          "text": "是",
+          "value": "0"
+        },
+        {
+          "id": 12894,
+          "optionNo": "B",
+          "text": "不一定",
+          "value": "0.5"
+        },
+        {
+          "id": 12895,
+          "optionNo": "C",
+          "text": "否",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 3259,
+      "text": "即使知道对你不会有伤害，你也对一些人或事担惊受怕吗？",
+      "type": "radio",
+      "orderNum": 59,
+      "options": [
+        {
+          "id": 12896,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 12897,
+          "optionNo": "B",
+          "text": "不一定",
+          "value": "0.5"
+        },
+        {
+          "id": 12898,
+          "optionNo": "C",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3260,
+      "text": "你是否小心翼翼地在家里储存一些食品或粮食，以防食物短缺？",
+      "type": "radio",
+      "orderNum": 60,
+      "options": [
+        {
+          "id": 12899,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 12900,
+          "optionNo": "B",
+          "text": "不一定",
+          "value": "0.5"
+        },
+        {
+          "id": 12901,
+          "optionNo": "C",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3261,
+      "text": "你是否曾感到有一种坏念头支配着你？",
+      "type": "radio",
+      "orderNum": 61,
+      "options": [
+        {
+          "id": 12902,
+          "optionNo": "A",
+          "text": "是",
+          "value": "0"
+        },
+        {
+          "id": 12903,
+          "optionNo": "B",
+          "text": "不一定",
+          "value": "0.5"
+        },
+        {
+          "id": 12904,
+          "optionNo": "C",
+          "text": "否",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 3262,
+      "text": "你是否常感到精疲力竭？",
+      "type": "radio",
+      "orderNum": 62,
+      "options": [
+        {
+          "id": 12905,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 12906,
+          "optionNo": "B",
+          "text": "不一定",
+          "value": "0.5"
+        },
+        {
+          "id": 12907,
+          "optionNo": "C",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3263,
+      "text": "你是否做过一些使你终生遗憾的事？",
+      "type": "radio",
+      "orderNum": 63,
+      "options": [
+        {
+          "id": 12908,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 12909,
+          "optionNo": "B",
+          "text": "不一定",
+          "value": "0.5"
+        },
+        {
+          "id": 12910,
+          "optionNo": "C",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3264,
+      "text": "对于你的决定，你是否总是充满信心？",
+      "type": "radio",
+      "orderNum": 64,
+      "options": [
+        {
+          "id": 12911,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 12912,
+          "optionNo": "B",
+          "text": "不一定",
+          "value": "0.5"
+        },
+        {
+          "id": 12913,
+          "optionNo": "C",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3265,
+      "text": "你常感到沮丧吗？",
+      "type": "radio",
+      "orderNum": 65,
+      "options": [
+        {
+          "id": 12914,
+          "optionNo": "A",
+          "text": "是",
+          "value": "0"
+        },
+        {
+          "id": 12915,
+          "optionNo": "B",
+          "text": "不一定",
+          "value": "0.5"
+        },
+        {
+          "id": 12916,
+          "optionNo": "C",
+          "text": "否",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 3266,
+      "text": "你比其他人更不容易焦虑吗？",
+      "type": "radio",
+      "orderNum": 66,
+      "options": [
+        {
+          "id": 12917,
+          "optionNo": "A",
+          "text": "是",
+          "value": "0"
+        },
+        {
+          "id": 12918,
+          "optionNo": "B",
+          "text": "不一定",
+          "value": "0.5"
+        },
+        {
+          "id": 12919,
+          "optionNo": "C",
+          "text": "否",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 3267,
+      "text": "你特别害怕和厌恶脏东西吗？",
+      "type": "radio",
+      "orderNum": 67,
+      "options": [
+        {
+          "id": 12920,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 12921,
+          "optionNo": "B",
+          "text": "不一定",
+          "value": "0.5"
+        },
+        {
+          "id": 12922,
+          "optionNo": "C",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3268,
+      "text": "你是否常感到自己是某种无法控制的外力的受害者？",
+      "type": "radio",
+      "orderNum": 68,
+      "options": [
+        {
+          "id": 12923,
+          "optionNo": "A",
+          "text": "是",
+          "value": "0"
+        },
+        {
+          "id": 12924,
+          "optionNo": "B",
+          "text": "不一定",
+          "value": "0.5"
+        },
+        {
+          "id": 12925,
+          "optionNo": "C",
+          "text": "否",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 3269,
+      "text": "你被认为是一个体弱多病的人吗？",
+      "type": "radio",
+      "orderNum": 69,
+      "options": [
+        {
+          "id": 12926,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 12927,
+          "optionNo": "B",
+          "text": "不一定",
+          "value": "0.5"
+        },
+        {
+          "id": 12928,
+          "optionNo": "C",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3270,
+      "text": "你常常无缘无故地受到责备和惩罚吗？",
+      "type": "radio",
+      "orderNum": 70,
+      "options": [
+        {
+          "id": 12929,
+          "optionNo": "A",
+          "text": "是",
+          "value": "0"
+        },
+        {
+          "id": 12930,
+          "optionNo": "B",
+          "text": "不一定",
+          "value": "0.5"
+        },
+        {
+          "id": 12931,
+          "optionNo": "C",
+          "text": "否",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 3271,
+      "text": "你是否觉得自己很有见地？",
+      "type": "radio",
+      "orderNum": 71,
+      "options": [
+        {
+          "id": 12932,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 12933,
+          "optionNo": "B",
+          "text": "不一定",
+          "value": "0.5"
+        },
+        {
+          "id": 12934,
+          "optionNo": "C",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3272,
+      "text": "对你来说，事情总是没有希望吗？",
+      "type": "radio",
+      "orderNum": 72,
+      "options": [
+        {
+          "id": 12935,
+          "optionNo": "A",
+          "text": "是",
+          "value": "0"
+        },
+        {
+          "id": 12936,
+          "optionNo": "B",
+          "text": "不一定",
+          "value": "0.5"
+        },
+        {
+          "id": 12937,
+          "optionNo": "C",
+          "text": "否",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 3273,
+      "text": "你常无缘无故地为一些不现实的东西担心吗？",
+      "type": "radio",
+      "orderNum": 73,
+      "options": [
+        {
+          "id": 12938,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 12939,
+          "optionNo": "B",
+          "text": "不一定",
+          "value": "0.5"
+        },
+        {
+          "id": 12940,
+          "optionNo": "C",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3274,
+      "text": "在外面，如果遇到火灾，你是否先计划怎样逃脱？",
+      "type": "radio",
+      "orderNum": 74,
+      "options": [
+        {
+          "id": 12941,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 12942,
+          "optionNo": "B",
+          "text": "不一定",
+          "value": "0.5"
+        },
+        {
+          "id": 12943,
+          "optionNo": "C",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3275,
+      "text": "做事前，你是否总是设计一个明确的计划而不是碰运气？",
+      "type": "radio",
+      "orderNum": 75,
+      "options": [
+        {
+          "id": 12944,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 12945,
+          "optionNo": "B",
+          "text": "不一定",
+          "value": "0.5"
+        },
+        {
+          "id": 12946,
+          "optionNo": "C",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3276,
+      "text": "你家里有一个小药箱来保存你以前看病剩余的各种药物吗？",
+      "type": "radio",
+      "orderNum": 76,
+      "options": [
+        {
+          "id": 12947,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 12948,
+          "optionNo": "B",
+          "text": "不一定",
+          "value": "0.5"
+        },
+        {
+          "id": 12949,
+          "optionNo": "C",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3277,
+      "text": "如果有人训斥你，你往心里去吗？",
+      "type": "radio",
+      "orderNum": 77,
+      "options": [
+        {
+          "id": 12950,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 12951,
+          "optionNo": "B",
+          "text": "不一定",
+          "value": "0.5"
+        },
+        {
+          "id": 12952,
+          "optionNo": "C",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3278,
+      "text": "你是否常为一些你做过的事情感到惭愧？",
+      "type": "radio",
+      "orderNum": 78,
+      "options": [
+        {
+          "id": 12953,
+          "optionNo": "A",
+          "text": "是",
+          "value": "0"
+        },
+        {
+          "id": 12954,
+          "optionNo": "B",
+          "text": "不一定",
+          "value": "0.5"
+        },
+        {
+          "id": 12955,
+          "optionNo": "C",
+          "text": "否",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 3279,
+      "text": "你和多数人一样爱笑吗？",
+      "type": "radio",
+      "orderNum": 79,
+      "options": [
+        {
+          "id": 12956,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 12957,
+          "optionNo": "B",
+          "text": "不一定",
+          "value": "0.5"
+        },
+        {
+          "id": 12958,
+          "optionNo": "C",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3280,
+      "text": "多数时间里你都为某些人或事感到忧心忡忡吗？",
+      "type": "radio",
+      "orderNum": 80,
+      "options": [
+        {
+          "id": 12959,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 12960,
+          "optionNo": "B",
+          "text": "不一定",
+          "value": "0.5"
+        },
+        {
+          "id": 12961,
+          "optionNo": "C",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3281,
+      "text": "你是否会因为东西放错了地方而烦躁难受？",
+      "type": "radio",
+      "orderNum": 81,
+      "options": [
+        {
+          "id": 12962,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 12963,
+          "optionNo": "B",
+          "text": "不一定",
+          "value": "0.5"
+        },
+        {
+          "id": 12964,
+          "optionNo": "C",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3282,
+      "text": "你曾经用扔硬币或类似的完全凭机率的方法来做决策吗？",
+      "type": "radio",
+      "orderNum": 82,
+      "options": [
+        {
+          "id": 12965,
+          "optionNo": "A",
+          "text": "是",
+          "value": "0"
+        },
+        {
+          "id": 12966,
+          "optionNo": "B",
+          "text": "不一定",
+          "value": "0.5"
+        },
+        {
+          "id": 12967,
+          "optionNo": "C",
+          "text": "否",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 3283,
+      "text": "你非常担心你的健康吗？",
+      "type": "radio",
+      "orderNum": 83,
+      "options": [
+        {
+          "id": 12968,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 12969,
+          "optionNo": "B",
+          "text": "不一定",
+          "value": "0.5"
+        },
+        {
+          "id": 12970,
+          "optionNo": "C",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3284,
+      "text": "如果你发生了意外事故，你是否觉得这是对你的报应？",
+      "type": "radio",
+      "orderNum": 84,
+      "options": [
+        {
+          "id": 12971,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 12972,
+          "optionNo": "B",
+          "text": "不一定",
+          "value": "0.5"
+        },
+        {
+          "id": 12973,
+          "optionNo": "C",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3285,
+      "text": "当你注视自己的照片时，你是否感到窘迫，并抱怨人们总不能公平地对待你？",
+      "type": "radio",
+      "orderNum": 85,
+      "options": [
+        {
+          "id": 12974,
+          "optionNo": "A",
+          "text": "是",
+          "value": "0"
+        },
+        {
+          "id": 12975,
+          "optionNo": "B",
+          "text": "不一定",
+          "value": "0.5"
+        },
+        {
+          "id": 12976,
+          "optionNo": "C",
+          "text": "否",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 3286,
+      "text": "你常常毫无原因地感到无精打采和疲倦吗？",
+      "type": "radio",
+      "orderNum": 86,
+      "options": [
+        {
+          "id": 12977,
+          "optionNo": "A",
+          "text": "是",
+          "value": "0"
+        },
+        {
+          "id": 12978,
+          "optionNo": "B",
+          "text": "不一定",
+          "value": "0.5"
+        },
+        {
+          "id": 12979,
+          "optionNo": "C",
+          "text": "否",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 3287,
+      "text": "如果你在社交场合出了丑，你能很容易忘却它吗？",
+      "type": "radio",
+      "orderNum": 87,
+      "options": [
+        {
+          "id": 12980,
+          "optionNo": "A",
+          "text": "是",
+          "value": "0"
+        },
+        {
+          "id": 12981,
+          "optionNo": "B",
+          "text": "不一定",
+          "value": "0.5"
+        },
+        {
+          "id": 12982,
+          "optionNo": "C",
+          "text": "否",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 3288,
+      "text": "对于你所有的花销，你都详细记帐吗？",
+      "type": "radio",
+      "orderNum": 88,
+      "options": [
+        {
+          "id": 12983,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 12984,
+          "optionNo": "B",
+          "text": "不一定",
+          "value": "0.5"
+        },
+        {
+          "id": 12985,
+          "optionNo": "C",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3289,
+      "text": "你的所做所为是否常与习俗和父母的希望相悖？",
+      "type": "radio",
+      "orderNum": 89,
+      "options": [
+        {
+          "id": 12986,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 12987,
+          "optionNo": "B",
+          "text": "不一定",
+          "value": "0.5"
+        },
+        {
+          "id": 12988,
+          "optionNo": "C",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3290,
+      "text": "强烈的痛苦和疼痛使你不可能把注意力集中在你的工作上吗？",
+      "type": "radio",
+      "orderNum": 90,
+      "options": [
+        {
+          "id": 12989,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 12990,
+          "optionNo": "B",
+          "text": "不一定",
+          "value": "0.5"
+        },
+        {
+          "id": 12991,
+          "optionNo": "C",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3291,
+      "text": "你是否为你过早的性行为而后悔？",
+      "type": "radio",
+      "orderNum": 91,
+      "options": [
+        {
+          "id": 12992,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 12993,
+          "optionNo": "B",
+          "text": "不一定",
+          "value": "0.5"
+        },
+        {
+          "id": 12994,
+          "optionNo": "C",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3292,
+      "text": "你家里是否有些成员使你感到自己不够好？",
+      "type": "radio",
+      "orderNum": 92,
+      "options": [
+        {
+          "id": 12995,
+          "optionNo": "A",
+          "text": "是",
+          "value": "0"
+        },
+        {
+          "id": 12996,
+          "optionNo": "B",
+          "text": "不一定",
+          "value": "0.5"
+        },
+        {
+          "id": 12997,
+          "optionNo": "C",
+          "text": "否",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 3293,
+      "text": "你常受到噪音的打扰吗？",
+      "type": "radio",
+      "orderNum": 93,
+      "options": [
+        {
+          "id": 12998,
+          "optionNo": "A",
+          "text": "是",
+          "value": "0"
+        },
+        {
+          "id": 12999,
+          "optionNo": "B",
+          "text": "不一定",
+          "value": "0.5"
+        },
+        {
+          "id": 13000,
+          "optionNo": "C",
+          "text": "否",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 3294,
+      "text": "坐着或躺下时，你很容易放松吗？",
+      "type": "radio",
+      "orderNum": 94,
+      "options": [
+        {
+          "id": 13001,
+          "optionNo": "A",
+          "text": "是",
+          "value": "0"
+        },
+        {
+          "id": 13002,
+          "optionNo": "B",
+          "text": "不一定",
+          "value": "0.5"
+        },
+        {
+          "id": 13003,
+          "optionNo": "C",
+          "text": "否",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 3295,
+      "text": "你是否很担心在公共场合所里传染上细菌？",
+      "type": "radio",
+      "orderNum": 95,
+      "options": [
+        {
+          "id": 13004,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 13005,
+          "optionNo": "B",
+          "text": "不一定",
+          "value": "0.5"
+        },
+        {
+          "id": 13006,
+          "optionNo": "C",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3296,
+      "text": "当你感到孤独时，你是否努力去友善待人？",
+      "type": "radio",
+      "orderNum": 96,
+      "options": [
+        {
+          "id": 13007,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 13008,
+          "optionNo": "B",
+          "text": "不一定",
+          "value": "0.5"
+        },
+        {
+          "id": 13009,
+          "optionNo": "C",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3297,
+      "text": "你是否经常为难以忍受的搔痒而烦恼？",
+      "type": "radio",
+      "orderNum": 97,
+      "options": [
+        {
+          "id": 13010,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 13011,
+          "optionNo": "B",
+          "text": "不一定",
+          "value": "0.5"
+        },
+        {
+          "id": 13012,
+          "optionNo": "C",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3298,
+      "text": "你是否有某些不可宽恕的坏习惯？",
+      "type": "radio",
+      "orderNum": 98,
+      "options": [
+        {
+          "id": 13013,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 13014,
+          "optionNo": "B",
+          "text": "不一定",
+          "value": "0.5"
+        },
+        {
+          "id": 13015,
+          "optionNo": "C",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3299,
+      "text": "如果有人批评你，你是否感到非常不快？",
+      "type": "radio",
+      "orderNum": 99,
+      "options": [
+        {
+          "id": 13016,
+          "optionNo": "A",
+          "text": "是",
+          "value": "0"
+        },
+        {
+          "id": 13017,
+          "optionNo": "B",
+          "text": "不一定",
+          "value": "0.5"
+        },
+        {
+          "id": 13018,
+          "optionNo": "C",
+          "text": "否",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 3300,
+      "text": "你是否常觉得自己受到生活的不公平待遇？",
+      "type": "radio",
+      "orderNum": 100,
+      "options": [
+        {
+          "id": 13019,
+          "optionNo": "A",
+          "text": "是",
+          "value": "0"
+        },
+        {
+          "id": 13020,
+          "optionNo": "B",
+          "text": "不一定",
+          "value": "0.5"
+        },
+        {
+          "id": 13021,
+          "optionNo": "C",
+          "text": "否",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 3301,
+      "text": "你很容易为一些意想不到的人的出现而吃惊吗？",
+      "type": "radio",
+      "orderNum": 101,
+      "options": [
+        {
+          "id": 13022,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 13023,
+          "optionNo": "B",
+          "text": "不一定",
+          "value": "0.5"
+        },
+        {
+          "id": 13024,
+          "optionNo": "C",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3302,
+      "text": "你总是很细心地归还借物吗，哪怕钱少得微不足道？",
+      "type": "radio",
+      "orderNum": 102,
+      "options": [
+        {
+          "id": 13025,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 13026,
+          "optionNo": "B",
+          "text": "不一定",
+          "value": "0.5"
+        },
+        {
+          "id": 13027,
+          "optionNo": "C",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3303,
+      "text": "你是否感到你不能左右你周围发生的事情？",
+      "type": "radio",
+      "orderNum": 103,
+      "options": [
+        {
+          "id": 13028,
+          "optionNo": "A",
+          "text": "是",
+          "value": "0"
+        },
+        {
+          "id": 13029,
+          "optionNo": "B",
+          "text": "不一定",
+          "value": "0.5"
+        },
+        {
+          "id": 13030,
+          "optionNo": "C",
+          "text": "否",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 3304,
+      "text": "你的身体健康吗？",
+      "type": "radio",
+      "orderNum": 104,
+      "options": [
+        {
+          "id": 13031,
+          "optionNo": "A",
+          "text": "是",
+          "value": "0"
+        },
+        {
+          "id": 13032,
+          "optionNo": "B",
+          "text": "不一定",
+          "value": "0.5"
+        },
+        {
+          "id": 13033,
+          "optionNo": "C",
+          "text": "否",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 3305,
+      "text": "你常受到良心的折磨吗？",
+      "type": "radio",
+      "orderNum": 105,
+      "options": [
+        {
+          "id": 13034,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 13035,
+          "optionNo": "B",
+          "text": "不一定",
+          "value": "0.5"
+        },
+        {
+          "id": 13036,
+          "optionNo": "C",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3306,
+      "text": "人们是否把你作为他们利用的对象？",
+      "type": "radio",
+      "orderNum": 106,
+      "options": [
+        {
+          "id": 13037,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 13038,
+          "optionNo": "B",
+          "text": "不一定",
+          "value": "0.5"
+        },
+        {
+          "id": 13039,
+          "optionNo": "C",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3307,
+      "text": "你是否认为人们实际上并不关心你？",
+      "type": "radio",
+      "orderNum": 107,
+      "options": [
+        {
+          "id": 13040,
+          "optionNo": "A",
+          "text": "是",
+          "value": "0"
+        },
+        {
+          "id": 13041,
+          "optionNo": "B",
+          "text": "不一定",
+          "value": "0.5"
+        },
+        {
+          "id": 13042,
+          "optionNo": "C",
+          "text": "否",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 3308,
+      "text": "安静地坐着呆一会儿，对你来说困难吗？",
+      "type": "radio",
+      "orderNum": 108,
+      "options": [
+        {
+          "id": 13043,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 13044,
+          "optionNo": "B",
+          "text": "不一定",
+          "value": "0.5"
+        },
+        {
+          "id": 13045,
+          "optionNo": "C",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3309,
+      "text": "你是否常常事必躬亲，而不相信别人也能把它做好？",
+      "type": "radio",
+      "orderNum": 109,
+      "options": [
+        {
+          "id": 13046,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 13047,
+          "optionNo": "B",
+          "text": "不一定",
+          "value": "0.5"
+        },
+        {
+          "id": 13048,
+          "optionNo": "C",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3310,
+      "text": "你很容易被别人说服吗？",
+      "type": "radio",
+      "orderNum": 110,
+      "options": [
+        {
+          "id": 13049,
+          "optionNo": "A",
+          "text": "是",
+          "value": "0"
+        },
+        {
+          "id": 13050,
+          "optionNo": "B",
+          "text": "不一定",
+          "value": "0.5"
+        },
+        {
+          "id": 13051,
+          "optionNo": "C",
+          "text": "否",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 3311,
+      "text": "你的家人是否多有肠胃不适的毛病？",
+      "type": "radio",
+      "orderNum": 111,
+      "options": [
+        {
+          "id": 13052,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 13053,
+          "optionNo": "B",
+          "text": "不一定",
+          "value": "0.5"
+        },
+        {
+          "id": 13054,
+          "optionNo": "C",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3312,
+      "text": "你是否觉得你荒度了自己的青春？",
+      "type": "radio",
+      "orderNum": 112,
+      "options": [
+        {
+          "id": 13055,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 13056,
+          "optionNo": "B",
+          "text": "不一定",
+          "value": "0.5"
+        },
+        {
+          "id": 13057,
+          "optionNo": "C",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3313,
+      "text": "你是否喜欢提一些关于你自己作为一个人的价值的问题？",
+      "type": "radio",
+      "orderNum": 113,
+      "options": [
+        {
+          "id": 13058,
+          "optionNo": "A",
+          "text": "是",
+          "value": "0"
+        },
+        {
+          "id": 13059,
+          "optionNo": "B",
+          "text": "不一定",
+          "value": "0.5"
+        },
+        {
+          "id": 13060,
+          "optionNo": "C",
+          "text": "否",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 3314,
+      "text": "你常常感到孤独吗？",
+      "type": "radio",
+      "orderNum": 114,
+      "options": [
+        {
+          "id": 13061,
+          "optionNo": "A",
+          "text": "是",
+          "value": "0"
+        },
+        {
+          "id": 13062,
+          "optionNo": "B",
+          "text": "不一定",
+          "value": "0.5"
+        },
+        {
+          "id": 13063,
+          "optionNo": "C",
+          "text": "否",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 3315,
+      "text": "你过分地担心钱的问题吗？",
+      "type": "radio",
+      "orderNum": 115,
+      "options": [
+        {
+          "id": 13064,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 13065,
+          "optionNo": "B",
+          "text": "不一定",
+          "value": "0.5"
+        },
+        {
+          "id": 13066,
+          "optionNo": "C",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3316,
+      "text": "你宁肯从马路旁的栏杆下面钻过去，而不愿意绕道而行吗？",
+      "type": "radio",
+      "orderNum": 116,
+      "options": [
+        {
+          "id": 13067,
+          "optionNo": "A",
+          "text": "是",
+          "value": "0"
+        },
+        {
+          "id": 13068,
+          "optionNo": "B",
+          "text": "不一定",
+          "value": "0.5"
+        },
+        {
+          "id": 13069,
+          "optionNo": "C",
+          "text": "否",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 3317,
+      "text": "你常感到生活难以应付吗？",
+      "type": "radio",
+      "orderNum": 117,
+      "options": [
+        {
+          "id": 13070,
+          "optionNo": "A",
+          "text": "是",
+          "value": "0"
+        },
+        {
+          "id": 13071,
+          "optionNo": "B",
+          "text": "不一定",
+          "value": "0.5"
+        },
+        {
+          "id": 13072,
+          "optionNo": "C",
+          "text": "否",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 3318,
+      "text": "当你不舒服时，别人是否表示同情？",
+      "type": "radio",
+      "orderNum": 118,
+      "options": [
+        {
+          "id": 13073,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 13074,
+          "optionNo": "B",
+          "text": "不一定",
+          "value": "0.5"
+        },
+        {
+          "id": 13075,
+          "optionNo": "C",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3319,
+      "text": "你是否认为自己不配得到别人的信任和友情？",
+      "type": "radio",
+      "orderNum": 119,
+      "options": [
+        {
+          "id": 13076,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 13077,
+          "optionNo": "B",
+          "text": "不一定",
+          "value": "0.5"
+        },
+        {
+          "id": 13078,
+          "optionNo": "C",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3320,
+      "text": "当人们说起你的优点时，你是否觉得他们在恭维你？",
+      "type": "radio",
+      "orderNum": 120,
+      "options": [
+        {
+          "id": 13079,
+          "optionNo": "A",
+          "text": "是",
+          "value": "0"
+        },
+        {
+          "id": 13080,
+          "optionNo": "B",
+          "text": "不一定",
+          "value": "0.5"
+        },
+        {
+          "id": 13081,
+          "optionNo": "C",
+          "text": "否",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 3321,
+      "text": "你是否认为自己对世界有所贡献并过着有意义的生活？",
+      "type": "radio",
+      "orderNum": 121,
+      "options": [
+        {
+          "id": 13082,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 13083,
+          "optionNo": "B",
+          "text": "不一定",
+          "value": "0.5"
+        },
+        {
+          "id": 13084,
+          "optionNo": "C",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3322,
+      "text": "你是否很容易入睡？",
+      "type": "radio",
+      "orderNum": 122,
+      "options": [
+        {
+          "id": 13085,
+          "optionNo": "A",
+          "text": "是",
+          "value": "0"
+        },
+        {
+          "id": 13086,
+          "optionNo": "B",
+          "text": "不一定",
+          "value": "0.5"
+        },
+        {
+          "id": 13087,
+          "optionNo": "C",
+          "text": "否",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 3323,
+      "text": "你不拘小节吗？",
+      "type": "radio",
+      "orderNum": 123,
+      "options": [
+        {
+          "id": 13088,
+          "optionNo": "A",
+          "text": "是",
+          "value": "0"
+        },
+        {
+          "id": 13089,
+          "optionNo": "B",
+          "text": "不一定",
+          "value": "0.5"
+        },
+        {
+          "id": 13090,
+          "optionNo": "C",
+          "text": "否",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 3324,
+      "text": "你做的大多数事情都能使他人愉快吗？",
+      "type": "radio",
+      "orderNum": 124,
+      "options": [
+        {
+          "id": 13091,
+          "optionNo": "A",
+          "text": "是",
+          "value": "0"
+        },
+        {
+          "id": 13092,
+          "optionNo": "B",
+          "text": "不一定",
+          "value": "0.5"
+        },
+        {
+          "id": 13093,
+          "optionNo": "C",
+          "text": "否",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 3325,
+      "text": "你长期便秘吗？",
+      "type": "radio",
+      "orderNum": 125,
+      "options": [
+        {
+          "id": 13094,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 13095,
+          "optionNo": "B",
+          "text": "不一定",
+          "value": "0.5"
+        },
+        {
+          "id": 13096,
+          "optionNo": "C",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3326,
+      "text": "你是否总是考虑过去发生的事情，并惋惜自己没能做得更好？",
+      "type": "radio",
+      "orderNum": 126,
+      "options": [
+        {
+          "id": 13097,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 13098,
+          "optionNo": "B",
+          "text": "不一定",
+          "value": "0.5"
+        },
+        {
+          "id": 13099,
+          "optionNo": "C",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3327,
+      "text": "你是否有时因怕别人嘲笑或批评而隐瞒自己的意见？",
+      "type": "radio",
+      "orderNum": 127,
+      "options": [
+        {
+          "id": 13100,
+          "optionNo": "A",
+          "text": "是",
+          "value": "0"
+        },
+        {
+          "id": 13101,
+          "optionNo": "B",
+          "text": "不一定",
+          "value": "0.5"
+        },
+        {
+          "id": 13102,
+          "optionNo": "C",
+          "text": "否",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 3328,
+      "text": "你觉得世界上没有一个人爱你吗？",
+      "type": "radio",
+      "orderNum": 128,
+      "options": [
+        {
+          "id": 13103,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 13104,
+          "optionNo": "B",
+          "text": "不一定",
+          "value": "0.5"
+        },
+        {
+          "id": 13105,
+          "optionNo": "C",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3329,
+      "text": "在社交场合中，你很容易感到窘迫吗？",
+      "type": "radio",
+      "orderNum": 129,
+      "options": [
+        {
+          "id": 13106,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 13107,
+          "optionNo": "B",
+          "text": "不一定",
+          "value": "0.5"
+        },
+        {
+          "id": 13108,
+          "optionNo": "C",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3330,
+      "text": "你是否把废旧的物品留着，以便将来派上用场？",
+      "type": "radio",
+      "orderNum": 130,
+      "options": [
+        {
+          "id": 13109,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 13110,
+          "optionNo": "B",
+          "text": "不一定",
+          "value": "0.5"
+        },
+        {
+          "id": 13111,
+          "optionNo": "C",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3331,
+      "text": "你相信你的未来掌握在你的手中吗？",
+      "type": "radio",
+      "orderNum": 131,
+      "options": [
+        {
+          "id": 13112,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 13113,
+          "optionNo": "B",
+          "text": "不一定",
+          "value": "0.5"
+        },
+        {
+          "id": 13114,
+          "optionNo": "C",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3332,
+      "text": "你曾经有过神经衰弱吗？",
+      "type": "radio",
+      "orderNum": 132,
+      "options": [
+        {
+          "id": 13115,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 13116,
+          "optionNo": "B",
+          "text": "不一定",
+          "value": "0.5"
+        },
+        {
+          "id": 13117,
+          "optionNo": "C",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3333,
+      "text": "你内心是否隐藏着某种内疚，而且担心总有一天必定会被别人知道？",
+      "type": "radio",
+      "orderNum": 133,
+      "options": [
+        {
+          "id": 13118,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 13119,
+          "optionNo": "B",
+          "text": "不一定",
+          "value": "0.5"
+        },
+        {
+          "id": 13120,
+          "optionNo": "C",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3334,
+      "text": "在社交场合你是否感到害羞，并且自己意识到这种害羞？",
+      "type": "radio",
+      "orderNum": 134,
+      "options": [
+        {
+          "id": 13121,
+          "optionNo": "A",
+          "text": "是",
+          "value": "0"
+        },
+        {
+          "id": 13122,
+          "optionNo": "B",
+          "text": "不一定",
+          "value": "0.5"
+        },
+        {
+          "id": 13123,
+          "optionNo": "C",
+          "text": "否",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 3335,
+      "text": "你认为把一个孩子带到世界上来是一件很艰难的事情吗？",
+      "type": "radio",
+      "orderNum": 135,
+      "options": [
+        {
+          "id": 13124,
+          "optionNo": "A",
+          "text": "是",
+          "value": "0"
+        },
+        {
+          "id": 13125,
+          "optionNo": "B",
+          "text": "不一定",
+          "value": "0.5"
+        },
+        {
+          "id": 13126,
+          "optionNo": "C",
+          "text": "否",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 3336,
+      "text": "如果事情没有按照预定计划进行，你是否容易感到手足无措？",
+      "type": "radio",
+      "orderNum": 136,
+      "options": [
+        {
+          "id": 13127,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 13128,
+          "optionNo": "B",
+          "text": "不一定",
+          "value": "0.5"
+        },
+        {
+          "id": 13129,
+          "optionNo": "C",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3337,
+      "text": "房间里很乱时，你是否感到不舒服？",
+      "type": "radio",
+      "orderNum": 137,
+      "options": [
+        {
+          "id": 13130,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 13131,
+          "optionNo": "B",
+          "text": "不一定",
+          "value": "0.5"
+        },
+        {
+          "id": 13132,
+          "optionNo": "C",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3338,
+      "text": "你是否和别人一样有意志？",
+      "type": "radio",
+      "orderNum": 138,
+      "options": [
+        {
+          "id": 13133,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 13134,
+          "optionNo": "B",
+          "text": "不一定",
+          "value": "0.5"
+        },
+        {
+          "id": 13135,
+          "optionNo": "C",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3339,
+      "text": "你常感到心悸吗？",
+      "type": "radio",
+      "orderNum": 139,
+      "options": [
+        {
+          "id": 13136,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 13137,
+          "optionNo": "B",
+          "text": "不一定",
+          "value": "0.5"
+        },
+        {
+          "id": 13138,
+          "optionNo": "C",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3340,
+      "text": "你相信恶有恶报吗？",
+      "type": "radio",
+      "orderNum": 140,
+      "options": [
+        {
+          "id": 13139,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 13140,
+          "optionNo": "B",
+          "text": "不一定",
+          "value": "0.5"
+        },
+        {
+          "id": 13141,
+          "optionNo": "C",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3341,
+      "text": "与你遇到的人相比，你是否感到自卑，尽管客观上你并不比他差？",
+      "type": "radio",
+      "orderNum": 141,
+      "options": [
+        {
+          "id": 13142,
+          "optionNo": "A",
+          "text": "是",
+          "value": "0"
+        },
+        {
+          "id": 13143,
+          "optionNo": "B",
+          "text": "不一定",
+          "value": "0.5"
+        },
+        {
+          "id": 13144,
+          "optionNo": "C",
+          "text": "否",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 3342,
+      "text": "一般来讲，你是否成功地实现了你的生活目标？",
+      "type": "radio",
+      "orderNum": 142,
+      "options": [
+        {
+          "id": 13145,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 13146,
+          "optionNo": "B",
+          "text": "不一定",
+          "value": "0.5"
+        },
+        {
+          "id": 13147,
+          "optionNo": "C",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3343,
+      "text": "你常为恶梦所惊醒并吓出一身大汗吗？",
+      "type": "radio",
+      "orderNum": 143,
+      "options": [
+        {
+          "id": 13148,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 13149,
+          "optionNo": "B",
+          "text": "不一定",
+          "value": "0.5"
+        },
+        {
+          "id": 13150,
+          "optionNo": "C",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3344,
+      "text": "若别人的狗舔了你的脸，你感到恶心吗？",
+      "type": "radio",
+      "orderNum": 144,
+      "options": [
+        {
+          "id": 13151,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 13152,
+          "optionNo": "B",
+          "text": "不一定",
+          "value": "0.5"
+        },
+        {
+          "id": 13153,
+          "optionNo": "C",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3345,
+      "text": "由于总有一些事情干扰，使你不得不改变计划，因此，你觉得订计划是浪费时间吗？",
+      "type": "radio",
+      "orderNum": 145,
+      "options": [
+        {
+          "id": 13154,
+          "optionNo": "A",
+          "text": "是",
+          "value": "0"
+        },
+        {
+          "id": 13155,
+          "optionNo": "B",
+          "text": "不一定",
+          "value": "0.5"
+        },
+        {
+          "id": 13156,
+          "optionNo": "C",
+          "text": "否",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 3346,
+      "text": "你总是担心家里人会生病吗？",
+      "type": "radio",
+      "orderNum": 146,
+      "options": [
+        {
+          "id": 13157,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 13158,
+          "optionNo": "B",
+          "text": "不一定",
+          "value": "0.5"
+        },
+        {
+          "id": 13159,
+          "optionNo": "C",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3347,
+      "text": "如果你做了某些受道德谴责的事，你能否很快地忘掉，并放眼未来？",
+      "type": "radio",
+      "orderNum": 147,
+      "options": [
+        {
+          "id": 13160,
+          "optionNo": "A",
+          "text": "是",
+          "value": "0"
+        },
+        {
+          "id": 13161,
+          "optionNo": "B",
+          "text": "不一定",
+          "value": "0.5"
+        },
+        {
+          "id": 13162,
+          "optionNo": "C",
+          "text": "否",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 3348,
+      "text": "通常你觉得你能实现你想要达到的目标吗？",
+      "type": "radio",
+      "orderNum": 148,
+      "options": [
+        {
+          "id": 13163,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 13164,
+          "optionNo": "B",
+          "text": "不一定",
+          "value": "0.5"
+        },
+        {
+          "id": 13165,
+          "optionNo": "C",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3349,
+      "text": "你常容易感伤吗？",
+      "type": "radio",
+      "orderNum": 149,
+      "options": [
+        {
+          "id": 13166,
+          "optionNo": "A",
+          "text": "是",
+          "value": "0"
+        },
+        {
+          "id": 13167,
+          "optionNo": "B",
+          "text": "不一定",
+          "value": "0.5"
+        },
+        {
+          "id": 13168,
+          "optionNo": "C",
+          "text": "否",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 3350,
+      "text": "当你和别人谈话，并特别想给人留下深刻印象时，你的声音是否会变得擅抖？",
+      "type": "radio",
+      "orderNum": 150,
+      "options": [
+        {
+          "id": 13169,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 13170,
+          "optionNo": "B",
+          "text": "不一定",
+          "value": "0.5"
+        },
+        {
+          "id": 13171,
+          "optionNo": "C",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3351,
+      "text": "你是不是那种万事不求人的人？",
+      "type": "radio",
+      "orderNum": 151,
+      "options": [
+        {
+          "id": 13172,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 13173,
+          "optionNo": "B",
+          "text": "不一定",
+          "value": "0.5"
+        },
+        {
+          "id": 13174,
+          "optionNo": "C",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3352,
+      "text": "你更喜欢那种由他人决策，并告诉你该怎么做的工作吗？",
+      "type": "radio",
+      "orderNum": 152,
+      "options": [
+        {
+          "id": 13175,
+          "optionNo": "A",
+          "text": "是",
+          "value": "0"
+        },
+        {
+          "id": 13176,
+          "optionNo": "B",
+          "text": "不一定",
+          "value": "0.5"
+        },
+        {
+          "id": 13177,
+          "optionNo": "C",
+          "text": "否",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 3353,
+      "text": "甚至在天气暖和时你也时常手脚冰凉吗？",
+      "type": "radio",
+      "orderNum": 153,
+      "options": [
+        {
+          "id": 13178,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 13179,
+          "optionNo": "B",
+          "text": "不一定",
+          "value": "0.5"
+        },
+        {
+          "id": 13180,
+          "optionNo": "C",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3354,
+      "text": "你常通过祈祷来请求得到宽恕吗？",
+      "type": "radio",
+      "orderNum": 154,
+      "options": [
+        {
+          "id": 13181,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 13182,
+          "optionNo": "B",
+          "text": "不一定",
+          "value": "0.5"
+        },
+        {
+          "id": 13183,
+          "optionNo": "C",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3355,
+      "text": "你对你的相貌感到满意吗？",
+      "type": "radio",
+      "orderNum": 155,
+      "options": [
+        {
+          "id": 13184,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 13185,
+          "optionNo": "B",
+          "text": "不一定",
+          "value": "0.5"
+        },
+        {
+          "id": 13186,
+          "optionNo": "C",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3356,
+      "text": "你是否觉得别人老是碰到好运气？",
+      "type": "radio",
+      "orderNum": 156,
+      "options": [
+        {
+          "id": 13187,
+          "optionNo": "A",
+          "text": "是",
+          "value": "0"
+        },
+        {
+          "id": 13188,
+          "optionNo": "B",
+          "text": "不一定",
+          "value": "0.5"
+        },
+        {
+          "id": 13189,
+          "optionNo": "C",
+          "text": "否",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 3357,
+      "text": "在紧急情况下你能保持镇静吗？",
+      "type": "radio",
+      "orderNum": 157,
+      "options": [
+        {
+          "id": 13190,
+          "optionNo": "A",
+          "text": "是",
+          "value": "0"
+        },
+        {
+          "id": 13191,
+          "optionNo": "B",
+          "text": "不一定",
+          "value": "0.5"
+        },
+        {
+          "id": 13192,
+          "optionNo": "C",
+          "text": "否",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 3358,
+      "text": "你是否把所有的约会和同一天所必须做的事都记在本子上？",
+      "type": "radio",
+      "orderNum": 158,
+      "options": [
+        {
+          "id": 13193,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 13194,
+          "optionNo": "B",
+          "text": "不一定",
+          "value": "0.5"
+        },
+        {
+          "id": 13195,
+          "optionNo": "C",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3359,
+      "text": "你是否感到在生活中变换环境也是徒劳的？",
+      "type": "radio",
+      "orderNum": 159,
+      "options": [
+        {
+          "id": 13196,
+          "optionNo": "A",
+          "text": "是",
+          "value": "0"
+        },
+        {
+          "id": 13197,
+          "optionNo": "B",
+          "text": "不一定",
+          "value": "0.5"
+        },
+        {
+          "id": 13198,
+          "optionNo": "C",
+          "text": "否",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 3360,
+      "text": "你常感到呼吸困难吗？",
+      "type": "radio",
+      "orderNum": 160,
+      "options": [
+        {
+          "id": 13199,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 13200,
+          "optionNo": "B",
+          "text": "不一定",
+          "value": "0.5"
+        },
+        {
+          "id": 13201,
+          "optionNo": "C",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3361,
+      "text": "听到下流故事时，你感到窘迫吗？",
+      "type": "radio",
+      "orderNum": 161,
+      "options": [
+        {
+          "id": 13202,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 13203,
+          "optionNo": "B",
+          "text": "不一定",
+          "value": "0.5"
+        },
+        {
+          "id": 13204,
+          "optionNo": "C",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3362,
+      "text": "对于你不喜欢的人，你是否保持缄默？",
+      "type": "radio",
+      "orderNum": 162,
+      "options": [
+        {
+          "id": 13205,
+          "optionNo": "A",
+          "text": "是",
+          "value": "0"
+        },
+        {
+          "id": 13206,
+          "optionNo": "B",
+          "text": "不一定",
+          "value": "0.5"
+        },
+        {
+          "id": 13207,
+          "optionNo": "C",
+          "text": "否",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 3363,
+      "text": "你感到有很长时间你无法驾驭你周围环境了吗？",
+      "type": "radio",
+      "orderNum": 163,
+      "options": [
+        {
+          "id": 13208,
+          "optionNo": "A",
+          "text": "是",
+          "value": "0"
+        },
+        {
+          "id": 13209,
+          "optionNo": "B",
+          "text": "不一定",
+          "value": "0.5"
+        },
+        {
+          "id": 13210,
+          "optionNo": "C",
+          "text": "否",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 3364,
+      "text": "当你想到自己所面临的困难时，你是否有时觉得紧张和不知所措？",
+      "type": "radio",
+      "orderNum": 164,
+      "options": [
+        {
+          "id": 13211,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 13212,
+          "optionNo": "B",
+          "text": "不一定",
+          "value": "0.5"
+        },
+        {
+          "id": 13213,
+          "optionNo": "C",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3365,
+      "text": "拜访别人时，进门之前，是否总要整理一下头发和衣服？",
+      "type": "radio",
+      "orderNum": 165,
+      "options": [
+        {
+          "id": 13214,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 13215,
+          "optionNo": "B",
+          "text": "不一定",
+          "value": "0.5"
+        },
+        {
+          "id": 13216,
+          "optionNo": "C",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3366,
+      "text": "你是否常常觉得难以控制你的生活方向？",
+      "type": "radio",
+      "orderNum": 166,
+      "options": [
+        {
+          "id": 13217,
+          "optionNo": "A",
+          "text": "是",
+          "value": "0"
+        },
+        {
+          "id": 13218,
+          "optionNo": "B",
+          "text": "不一定",
+          "value": "0.5"
+        },
+        {
+          "id": 13219,
+          "optionNo": "C",
+          "text": "否",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 3367,
+      "text": "你是否认为因轻微的不舒服，如咳嗽、着凉、感冒去看病是浪费时间？",
+      "type": "radio",
+      "orderNum": 167,
+      "options": [
+        {
+          "id": 13220,
+          "optionNo": "A",
+          "text": "是",
+          "value": "0"
+        },
+        {
+          "id": 13221,
+          "optionNo": "B",
+          "text": "不一定",
+          "value": "0.5"
+        },
+        {
+          "id": 13222,
+          "optionNo": "C",
+          "text": "否",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 3368,
+      "text": "你是否时常感到好像做错了什么事情，尽管这种感觉没有确实根据？",
+      "type": "radio",
+      "orderNum": 168,
+      "options": [
+        {
+          "id": 13223,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 13224,
+          "optionNo": "B",
+          "text": "不一定",
+          "value": "0.5"
+        },
+        {
+          "id": 13225,
+          "optionNo": "C",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3369,
+      "text": "你是否觉得为了赢得别人的关注和称赞而做事非常困难？",
+      "type": "radio",
+      "orderNum": 169,
+      "options": [
+        {
+          "id": 13226,
+          "optionNo": "A",
+          "text": "是",
+          "value": "0"
+        },
+        {
+          "id": 13227,
+          "optionNo": "B",
+          "text": "不一定",
+          "value": "0.5"
+        },
+        {
+          "id": 13228,
+          "optionNo": "C",
+          "text": "否",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 3370,
+      "text": "回首往事，你是否觉得受了欺骗？",
+      "type": "radio",
+      "orderNum": 170,
+      "options": [
+        {
+          "id": 13229,
+          "optionNo": "A",
+          "text": "是",
+          "value": "0"
+        },
+        {
+          "id": 13230,
+          "optionNo": "B",
+          "text": "不一定",
+          "value": "0.5"
+        },
+        {
+          "id": 13231,
+          "optionNo": "C",
+          "text": "否",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 3371,
+      "text": "受到羞辱使你难受很长时间吗？",
+      "type": "radio",
+      "orderNum": 171,
+      "options": [
+        {
+          "id": 13232,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 13233,
+          "optionNo": "B",
+          "text": "不一定",
+          "value": "0.5"
+        },
+        {
+          "id": 13234,
+          "optionNo": "C",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3372,
+      "text": "和别人说话时，你是否总是试图纠正别人的语法错误，尽管礼貌可能不允许这样做？",
+      "type": "radio",
+      "orderNum": 172,
+      "options": [
+        {
+          "id": 13235,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 13236,
+          "optionNo": "B",
+          "text": "不一定",
+          "value": "0.5"
+        },
+        {
+          "id": 13237,
+          "optionNo": "C",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3373,
+      "text": "你是否觉得现在的事情如此变化莫测，以致简直找不出规律？",
+      "type": "radio",
+      "orderNum": 173,
+      "options": [
+        {
+          "id": 13238,
+          "optionNo": "A",
+          "text": "是",
+          "value": "0"
+        },
+        {
+          "id": 13239,
+          "optionNo": "B",
+          "text": "不一定",
+          "value": "0.5"
+        },
+        {
+          "id": 13240,
+          "optionNo": "C",
+          "text": "否",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 3374,
+      "text": "如果你得了感冒，你是否马上上床休息？",
+      "type": "radio",
+      "orderNum": 174,
+      "options": [
+        {
+          "id": 13241,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 13242,
+          "optionNo": "B",
+          "text": "不一定",
+          "value": "0.5"
+        },
+        {
+          "id": 13243,
+          "optionNo": "C",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3375,
+      "text": "你是否由于你的老师没有充分备课而对他感到失望？",
+      "type": "radio",
+      "orderNum": 175,
+      "options": [
+        {
+          "id": 13244,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 13245,
+          "optionNo": "B",
+          "text": "不一定",
+          "value": "0.5"
+        },
+        {
+          "id": 13246,
+          "optionNo": "C",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3376,
+      "text": "你是否常常把自己设想得比实际上更好？",
+      "type": "radio",
+      "orderNum": 176,
+      "options": [
+        {
+          "id": 13247,
+          "optionNo": "A",
+          "text": "是",
+          "value": "0"
+        },
+        {
+          "id": 13248,
+          "optionNo": "B",
+          "text": "不一定",
+          "value": "0.5"
+        },
+        {
+          "id": 13249,
+          "optionNo": "C",
+          "text": "否",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 3377,
+      "text": "你和别人一样生活得快乐吗？",
+      "type": "radio",
+      "orderNum": 177,
+      "options": [
+        {
+          "id": 13250,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 13251,
+          "optionNo": "B",
+          "text": "不一定",
+          "value": "0.5"
+        },
+        {
+          "id": 13252,
+          "optionNo": "C",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3378,
+      "text": "你能够通过描述自己来认识自己吗？",
+      "type": "radio",
+      "orderNum": 178,
+      "options": [
+        {
+          "id": 13253,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 13254,
+          "optionNo": "B",
+          "text": "不一定",
+          "value": "0.5"
+        },
+        {
+          "id": 13255,
+          "optionNo": "C",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3379,
+      "text": "你是否把自己描述成一个完美的人？",
+      "type": "radio",
+      "orderNum": 179,
+      "options": [
+        {
+          "id": 13256,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 13257,
+          "optionNo": "B",
+          "text": "不一定",
+          "value": "0.5"
+        },
+        {
+          "id": 13258,
+          "optionNo": "C",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3380,
+      "text": "你总是有明确的生活目标吗？",
+      "type": "radio",
+      "orderNum": 180,
+      "options": [
+        {
+          "id": 13259,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 13260,
+          "optionNo": "B",
+          "text": "不一定",
+          "value": "0.5"
+        },
+        {
+          "id": 13261,
+          "optionNo": "C",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3381,
+      "text": "早上你是否常看看你舌头的颜色？",
+      "type": "radio",
+      "orderNum": 181,
+      "options": [
+        {
+          "id": 13262,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 13263,
+          "optionNo": "B",
+          "text": "不一定",
+          "value": "0.5"
+        },
+        {
+          "id": 13264,
+          "optionNo": "C",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3382,
+      "text": "你是否常在回忆过去时，觉得自己以前对待别人太不好？",
+      "type": "radio",
+      "orderNum": 182,
+      "options": [
+        {
+          "id": 13265,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 13266,
+          "optionNo": "B",
+          "text": "不一定",
+          "value": "0.5"
+        },
+        {
+          "id": 13267,
+          "optionNo": "C",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3383,
+      "text": "你是否有时觉得你从来没做过任何好事？",
+      "type": "radio",
+      "orderNum": 183,
+      "options": [
+        {
+          "id": 13268,
+          "optionNo": "A",
+          "text": "是",
+          "value": "0"
+        },
+        {
+          "id": 13269,
+          "optionNo": "B",
+          "text": "不一定",
+          "value": "0.5"
+        },
+        {
+          "id": 13270,
+          "optionNo": "C",
+          "text": "否",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 3384,
+      "text": "你是否经常感到你是生活中多余的人？",
+      "type": "radio",
+      "orderNum": 184,
+      "options": [
+        {
+          "id": 13271,
+          "optionNo": "A",
+          "text": "是",
+          "value": "0"
+        },
+        {
+          "id": 13272,
+          "optionNo": "B",
+          "text": "不一定",
+          "value": "0.5"
+        },
+        {
+          "id": 13273,
+          "optionNo": "C",
+          "text": "否",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 3385,
+      "text": "你是否为可能会发生的事而操不必要的心？",
+      "type": "radio",
+      "orderNum": 185,
+      "options": [
+        {
+          "id": 13274,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 13275,
+          "optionNo": "B",
+          "text": "不一定",
+          "value": "0.5"
+        },
+        {
+          "id": 13276,
+          "optionNo": "C",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3386,
+      "text": "当烦恼的事情使你无法入睡时，你是否按照习惯离开睡床？",
+      "type": "radio",
+      "orderNum": 186,
+      "options": [
+        {
+          "id": 13277,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 13278,
+          "optionNo": "B",
+          "text": "不一定",
+          "value": "0.5"
+        },
+        {
+          "id": 13279,
+          "optionNo": "C",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3387,
+      "text": "你是否常常感觉别人在利用你？",
+      "type": "radio",
+      "orderNum": 187,
+      "options": [
+        {
+          "id": 13280,
+          "optionNo": "A",
+          "text": "是",
+          "value": "0"
+        },
+        {
+          "id": 13281,
+          "optionNo": "B",
+          "text": "不一定",
+          "value": "0.5"
+        },
+        {
+          "id": 13282,
+          "optionNo": "C",
+          "text": "否",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 3388,
+      "text": "你每天都称体重吗？",
+      "type": "radio",
+      "orderNum": 188,
+      "options": [
+        {
+          "id": 13283,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 13284,
+          "optionNo": "B",
+          "text": "不一定",
+          "value": "0.5"
+        },
+        {
+          "id": 13285,
+          "optionNo": "C",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3389,
+      "text": "你是否期望上帝在来世惩罚你的罪过？",
+      "type": "radio",
+      "orderNum": 189,
+      "options": [
+        {
+          "id": 13286,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 13287,
+          "optionNo": "B",
+          "text": "不一定",
+          "value": "0.5"
+        },
+        {
+          "id": 13288,
+          "optionNo": "C",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3390,
+      "text": "你是否常常怀疑你的性能力？",
+      "type": "radio",
+      "orderNum": 190,
+      "options": [
+        {
+          "id": 13289,
+          "optionNo": "A",
+          "text": "是",
+          "value": "0"
+        },
+        {
+          "id": 13290,
+          "optionNo": "B",
+          "text": "不一定",
+          "value": "0.5"
+        },
+        {
+          "id": 13291,
+          "optionNo": "C",
+          "text": "否",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 3391,
+      "text": "你的睡眠通常是不规则的吗？",
+      "type": "radio",
+      "orderNum": 191,
+      "options": [
+        {
+          "id": 13292,
+          "optionNo": "A",
+          "text": "是",
+          "value": "0"
+        },
+        {
+          "id": 13293,
+          "optionNo": "B",
+          "text": "不一定",
+          "value": "0.5"
+        },
+        {
+          "id": 13294,
+          "optionNo": "C",
+          "text": "否",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 3392,
+      "text": "你是否常常无缘无故地变得很激动？",
+      "type": "radio",
+      "orderNum": 192,
+      "options": [
+        {
+          "id": 13295,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 13296,
+          "optionNo": "B",
+          "text": "不一定",
+          "value": "0.5"
+        },
+        {
+          "id": 13297,
+          "optionNo": "C",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3393,
+      "text": "保持整洁有序对你来说是至关重要的吗？",
+      "type": "radio",
+      "orderNum": 193,
+      "options": [
+        {
+          "id": 13298,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 13299,
+          "optionNo": "B",
+          "text": "不一定",
+          "value": "0.5"
+        },
+        {
+          "id": 13300,
+          "optionNo": "C",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3394,
+      "text": "你是否有时受广告的影响而买一些你实际上并不想买的东西？",
+      "type": "radio",
+      "orderNum": 194,
+      "options": [
+        {
+          "id": 13301,
+          "optionNo": "A",
+          "text": "是",
+          "value": "0"
+        },
+        {
+          "id": 13302,
+          "optionNo": "B",
+          "text": "不一定",
+          "value": "0.5"
+        },
+        {
+          "id": 13303,
+          "optionNo": "C",
+          "text": "否",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 3395,
+      "text": "你是否常常为噪音而烦恼？",
+      "type": "radio",
+      "orderNum": 195,
+      "options": [
+        {
+          "id": 13304,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 13305,
+          "optionNo": "B",
+          "text": "不一定",
+          "value": "0.5"
+        },
+        {
+          "id": 13306,
+          "optionNo": "C",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3396,
+      "text": "如果在人际交往中遇到挫折，你总是责备自己吗？",
+      "type": "radio",
+      "orderNum": 196,
+      "options": [
+        {
+          "id": 13307,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 13308,
+          "optionNo": "B",
+          "text": "不一定",
+          "value": "0.5"
+        },
+        {
+          "id": 13309,
+          "optionNo": "C",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3397,
+      "text": "你有起码的自尊心吗？",
+      "type": "radio",
+      "orderNum": 197,
+      "options": [
+        {
+          "id": 13310,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 13311,
+          "optionNo": "B",
+          "text": "不一定",
+          "value": "0.5"
+        },
+        {
+          "id": 13312,
+          "optionNo": "C",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3398,
+      "text": "即使当你和其他人在一起时，你也常感到孤独吗？",
+      "type": "radio",
+      "orderNum": 198,
+      "options": [
+        {
+          "id": 13313,
+          "optionNo": "A",
+          "text": "是",
+          "value": "0"
+        },
+        {
+          "id": 13314,
+          "optionNo": "B",
+          "text": "不一定",
+          "value": "0.5"
+        },
+        {
+          "id": 13315,
+          "optionNo": "C",
+          "text": "否",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 3399,
+      "text": "你曾经觉得你需要服一些镇静剂吗？",
+      "type": "radio",
+      "orderNum": 199,
+      "options": [
+        {
+          "id": 13316,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 13317,
+          "optionNo": "B",
+          "text": "不一定",
+          "value": "0.5"
+        },
+        {
+          "id": 13318,
+          "optionNo": "C",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3400,
+      "text": "如果你的生活日程被一些预料之外的事情所打乱，你感到非常不快吗？",
+      "type": "radio",
+      "orderNum": 200,
+      "options": [
+        {
+          "id": 13319,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 13320,
+          "optionNo": "B",
+          "text": "不一定",
+          "value": "0.5"
+        },
+        {
+          "id": 13321,
+          "optionNo": "C",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3401,
+      "text": "你是否通过占卜算卦来预测自己的未来？",
+      "type": "radio",
+      "orderNum": 201,
+      "options": [
+        {
+          "id": 13322,
+          "optionNo": "A",
+          "text": "是",
+          "value": "0"
+        },
+        {
+          "id": 13323,
+          "optionNo": "B",
+          "text": "不一定",
+          "value": "0.5"
+        },
+        {
+          "id": 13324,
+          "optionNo": "C",
+          "text": "否",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 3402,
+      "text": "你是否感到有块东西堵在喉咙里？",
+      "type": "radio",
+      "orderNum": 202,
+      "options": [
+        {
+          "id": 13325,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 13326,
+          "optionNo": "B",
+          "text": "不一定",
+          "value": "0.5"
+        },
+        {
+          "id": 13327,
+          "optionNo": "C",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3403,
+      "text": "你是否有时对你自己的性欲望和性幻想感到厌恶？",
+      "type": "radio",
+      "orderNum": 203,
+      "options": [
+        {
+          "id": 13328,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 13329,
+          "optionNo": "B",
+          "text": "不一定",
+          "value": "0.5"
+        },
+        {
+          "id": 13330,
+          "optionNo": "C",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3404,
+      "text": "你认为你的个性对异性有吸引力吗？",
+      "type": "radio",
+      "orderNum": 204,
+      "options": [
+        {
+          "id": 13331,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 13332,
+          "optionNo": "B",
+          "text": "不一定",
+          "value": "0.5"
+        },
+        {
+          "id": 13333,
+          "optionNo": "C",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3405,
+      "text": "在多数时间里，你内心感到宁静和满足吗？",
+      "type": "radio",
+      "orderNum": 205,
+      "options": [
+        {
+          "id": 13334,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 13335,
+          "optionNo": "B",
+          "text": "不一定",
+          "value": "0.5"
+        },
+        {
+          "id": 13336,
+          "optionNo": "C",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3406,
+      "text": "你是一个神经质的人吗？",
+      "type": "radio",
+      "orderNum": 206,
+      "options": [
+        {
+          "id": 13337,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 13338,
+          "optionNo": "B",
+          "text": "不一定",
+          "value": "0.5"
+        },
+        {
+          "id": 13339,
+          "optionNo": "C",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3407,
+      "text": "你是否常常花大量的时间整理书稿，这样你可以在需要的时候知道它们在哪儿？",
+      "type": "radio",
+      "orderNum": 207,
+      "options": [
+        {
+          "id": 13340,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 13341,
+          "optionNo": "B",
+          "text": "不一定",
+          "value": "0.5"
+        },
+        {
+          "id": 13342,
+          "optionNo": "C",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3408,
+      "text": "你是否总是由别人来决定你看什么电影或节目？",
+      "type": "radio",
+      "orderNum": 208,
+      "options": [
+        {
+          "id": 13343,
+          "optionNo": "A",
+          "text": "是",
+          "value": "0"
+        },
+        {
+          "id": 13344,
+          "optionNo": "B",
+          "text": "不一定",
+          "value": "0.5"
+        },
+        {
+          "id": 13345,
+          "optionNo": "C",
+          "text": "否",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 3409,
+      "text": "你有过忽冷忽热的感觉吗？",
+      "type": "radio",
+      "orderNum": 209,
+      "options": [
+        {
+          "id": 13346,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 13347,
+          "optionNo": "B",
+          "text": "不一定",
+          "value": "0.5"
+        },
+        {
+          "id": 13348,
+          "optionNo": "C",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3410,
+      "text": "你能很容易地忘掉你所做错的事吗？",
+      "type": "radio",
+      "orderNum": 210,
+      "options": [
+        {
+          "id": 13349,
+          "optionNo": "A",
+          "text": "是",
+          "value": "0"
+        },
+        {
+          "id": 13350,
+          "optionNo": "B",
+          "text": "不一定",
+          "value": "0.5"
+        },
+        {
+          "id": 13351,
+          "optionNo": "C",
+          "text": "否",
+          "value": "1"
+        }
+      ]
+    }
+  ],
+  "dimensions": [
+    {
+      "id": 383,
+      "num": 1,
+      "dimensionName": "自卑感",
+      "dimensionCode": "A",
+      "evaluateExpression": "hx_t_1 + hx_t_8 + hx_t_15 + hx_t_22 + hx_t_29 + hx_t_36 + hx_t_43 + hx_t_50 + hx_t_57 + hx_t_64 + hx_t_71 + hx_t_78 + hx_t_85 + hx_t_92 + hx_t_99 + hx_t_106 + hx_t_113 + hx_t_120 + hx_t_127 + hx_t_134 + hx_t_141 + hx_t_148 + hx_t_155 + hx_t_162 + hx_t_169 + hx_t_176 + hx_t_183 + hx_t_190 + hx_t_197 + hx_t_204",
+      "standardScoreFormula": "0",
+      "results": [
+        {
+          "id": 815,
+          "evaluateExpression": "hx_wd_y_1 >= 0&& hx_wd_y_1 <= 20.99",
+          "conclusionAnalysis": "您的测试得分属于低分范围：低分者表现为自卑，他对自己评价不高，认为自己缺乏魅力。",
+          "suggestion": "得分较低者对自己评价不高，认为自己缺乏魅力，建议能全面客观地看待自己，人无完人，努力发现自己的长处。挑战自己做一些难度适中的任务，建设性地反省自己，寻求外界的鼓励和支持，多观察自己的努力进步，放大优点，忽略不足，提高自我效能感，逐渐培养起良好的自信自尊。",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 816,
+          "evaluateExpression": "hx_wd_y_1 >= 21&& hx_wd_y_1 <= 30",
+          "conclusionAnalysis": "您的测试得分属于高分范围：高分者表现为自尊，他对本人及自己的能力非常自信，视自己为有价值的人，相信自己是受欢迎的，颇欣赏自己。",
+          "suggestion": "高分者非常自信，视自己为有价值的人，希望可以继续保持，多加努力，用实际行动展示自己的价值。",
+          "assessmentWarning": "none"
+        }
+      ]
+    },
+    {
+      "id": 384,
+      "num": 2,
+      "dimensionName": "抑郁性",
+      "dimensionCode": "B",
+      "evaluateExpression": "hx_t_2 + hx_t_9 + hx_t_16 + hx_t_23 + hx_t_30 + hx_t_37 + hx_t_44 + hx_t_51 + hx_t_58 + hx_t_65 + hx_t_72 + hx_t_79 + hx_t_86 + hx_t_93 + hx_t_100 + hx_t_107 + hx_t_114 + hx_t_121 + hx_t_128 + hx_t_135 + hx_t_142 + hx_t_149 + hx_t_156 + hx_t_163 + hx_t_170 + hx_t_177 + hx_t_184 + hx_t_191 + hx_t_198 + hx_t_205",
+      "standardScoreFormula": "0",
+      "results": [
+        {
+          "id": 817,
+          "evaluateExpression": "hx_wd_y_2 >= 0&& hx_wd_y_2 <= 21.99",
+          "conclusionAnalysis": "您的测试得分属于低分范围：低分者则比较沮丧，表现为对生存状况悲观，厌世、抑郁、绝望，且与现实世界格格不入。",
+          "suggestion": "低分者容易悲观厌世、抑郁绝望，建议多扩展自己的生活空间，学习辩证思考，转移注意力，或者暂时换一个环境，做一些自己感兴趣做的事情，体验其中的乐趣，多一些畅想和自我规划，使自己看到生活的希望。另外，学习人际沟通的技巧，与人为善，团结互助，感受归属的温暖，培养良好的人际网络。",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 818,
+          "evaluateExpression": "hx_wd_y_2 >= 22&& hx_wd_y_2 <= 30",
+          "conclusionAnalysis": "您的测试得分属于高分范围：高分者表现为愉快、喜悦、乐观、健康，他对自己的生活状况满意，感觉得到了生活的报偿，并与世无争。",
+          "suggestion": "高分者乐观健康，希望可以继续保持。",
+          "assessmentWarning": "none"
+        }
+      ]
+    },
+    {
+      "id": 385,
+      "num": 3,
+      "dimensionName": "焦虑",
+      "dimensionCode": "C",
+      "evaluateExpression": "hx_t_3 + hx_t_10 + hx_t_17 + hx_t_24 + hx_t_31 + hx_t_38 + hx_t_45 + hx_t_52 + hx_t_59 + hx_t_66 + hx_t_73 + hx_t_80 + hx_t_87 + hx_t_94 + hx_t_101 + hx_t_108 + hx_t_115 + hx_t_122 + hx_t_129 + hx_t_136 + hx_t_143 + hx_t_150 + hx_t_157 + hx_t_164 + hx_t_171 + hx_t_178 + hx_t_185 + hx_t_192 + hx_t_199 + hx_t_206",
+      "standardScoreFormula": "0",
+      "results": [
+        {
+          "id": 819,
+          "evaluateExpression": "hx_wd_y_3 >= 0&& hx_wd_y_3 <= 15.99",
+          "conclusionAnalysis": "您的测试得分属于低分范围。低分者比较沉静，表现为心绪平和、安详，并且对不合理的恐惧、焦虑有抵抗能力。",
+          "suggestion": "测评得分处于低分范围，可能偶尔有些焦虑、烦躁不安的情绪。被测者在生活中遇到压力时，会产生程度不一的焦虑情绪，适度的焦虑会使人调动自己的防御机制应对问题，这是健康的，不需要为之担忧。只有存在较长时间的过度的焦虑才会影响到生活工作并且无助于问题解决，这时才需要加以调适。建议可在相关心理学知识的指导下，掌握一些简便易行的放松方法，自己做一些宣泄和放松，以防焦虑进一步加重。另外，也可以找心理老师聊聊。",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 820,
+          "evaluateExpression": "hx_wd_y_3 >= 16&& hx_wd_y_3 <= 30",
+          "conclusionAnalysis": "您的测试得分属于高分范围：高分者是焦虑的，表现为因事情出错而心烦意乱，并且对一些可能发生的不幸事件存在着毫无必要的担忧。",
+          "suggestion": "高分者焦虑症状较严重。如果被测者在较长时间感到过度的焦虑，并影响到自己的正常的生活工作，如果自己无法有效调节，建议尽快接受系统的心理咨询和治疗。被测者在生活中遇到压力时，会产生程度不一的焦虑情绪，适度的焦虑会使人调动自己的防御机制应对问题，这是健康的，不需要为之担忧。只有存在较长时间的过度的焦虑才会影响到生活工作并且无助于问题解决，这时才需要加以调适。建议可在相关心理学知识的指导下，掌握一些简便易行的放松方法，自己做一些宣泄和放松，以防焦虑进一步加重。另外，也可以找心理老师聊聊。",
+          "assessmentWarning": "none"
+        }
+      ]
+    },
+    {
+      "id": 386,
+      "num": 4,
+      "dimensionName": "强迫性",
+      "dimensionCode": "D",
+      "evaluateExpression": "hx_t_4 + hx_t_11 + hx_t_18 + hx_t_25 + hx_t_32 + hx_t_39 + hx_t_46 + hx_t_53 + hx_t_60 + hx_t_67 + hx_t_74 + hx_t_81 + hx_t_88 + hx_t_95 + hx_t_102 + hx_t_109 + hx_t_116 + hx_t_123 + hx_t_130 + hx_t_137 + hx_t_144 + hx_t_151 + hx_t_158 + hx_t_165 + hx_t_172 + hx_t_179 + hx_t_186 + hx_t_193 + hx_t_200 + hx_t_207",
+      "standardScoreFormula": "0",
+      "results": [
+        {
+          "id": 821,
+          "evaluateExpression": "hx_wd_y_4 >= 0&& hx_wd_y_4 <= 9.99",
+          "conclusionAnalysis": "您的测试得分属于低分范围。低分者漫不经心，随遇而安，不喜欢规则、常规或礼仪等。",
+          "suggestion": "在生活学习中习惯于漫不经心，不过度追求极致，习惯于随遇而安，不喜欢规则和条条框框，不习惯受到常规或礼仪等束缚。适当的保持强迫性状态有助于个人良好状态的养成，过度的漫不经心可能会影响个人的发展，希望你能适当保持适度状态。",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 822,
+          "evaluateExpression": "hx_wd_y_4 >= 10&& hx_wd_y_4 <= 30",
+          "conclusionAnalysis": "您的测试得分属于高分范围。高分者谨小慎微，认真仔细，追求细节的完美，严于责己，过分讲究，很易因不干净、不整洁、或东西零乱无序而烦恼不安。",
+          "suggestion": "如果觉得自己喜欢求全责备，可以了解一些必要的心理知识，为今后保持健康的心理奠定基础。在相关心理学知识的指导下，做一些调节和改善，以防问题进一步发展；若是觉得情况比较严重，可向心理老师求助。平时不要过分克制和自我关注，做事不要过分疑虑，太追求细节和完美，思想得不到松弛，会陷入焦虑、紧张和痛苦中。如果觉得通过自身努力无法改善目前状况，应向心理老师求助。",
+          "assessmentWarning": "none"
+        }
+      ]
+    },
+    {
+      "id": 387,
+      "num": 5,
+      "dimensionName": "自主性",
+      "dimensionCode": "E",
+      "evaluateExpression": "hx_t_5 + hx_t_12 + hx_t_19 + hx_t_26 + hx_t_33 + hx_t_40 + hx_t_47 + hx_t_54 + hx_t_61 + hx_t_68 + hx_t_75 + hx_t_82 + hx_t_89 + hx_t_96 + hx_t_103 + hx_t_110 + hx_t_117 + hx_t_124 + hx_t_131 + hx_t_138 + hx_t_145 + hx_t_152 + hx_t_159 + hx_t_166 + hx_t_173 + hx_t_180 + hx_t_187 + hx_t_194 + hx_t_201 + hx_t_208",
+      "standardScoreFormula": "0",
+      "results": [
+        {
+          "id": 823,
+          "evaluateExpression": "hx_wd_y_5 >= 0&& hx_wd_y_5 <= 19.99",
+          "conclusionAnalysis": "您的测试得分属于低分范围。低分者比较依赖，表现为缺乏自信心，视自己为受命运支配的无助小卒，比较被动，易受别人和环境的摆布。",
+          "suggestion": "低分者比较依赖，表现为缺乏自信心，建议创造环境培养其独立做事情的能力，提高技能和自我效能感。周围的亲人不必事无巨细，一概代劳，使其学习为自己负责，锻炼克服困难的意志，培养开朗的性格，增强处理生活事件的能力，渐渐成为一个独立自主的人。",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 824,
+          "evaluateExpression": "hx_wd_y_5 >= 20&& hx_wd_y_5 <= 30",
+          "conclusionAnalysis": "您的测试得分属于高分范围。高分者独立自由，受自己意志支配，独立，自己做决定，视自己为命运的主人，并采取现实的行动解决自己的问题。",
+          "suggestion": "高分者独立，视自己为命运的主人，并采取现实的行动解决自己的问题。希望继续保持。",
+          "assessmentWarning": "none"
+        }
+      ]
+    },
+    {
+      "id": 388,
+      "num": 6,
+      "dimensionName": "疑病症",
+      "dimensionCode": "F",
+      "evaluateExpression": "hx_t_6 + hx_t_13 + hx_t_20 + hx_t_27 + hx_t_34 + hx_t_41 + hx_t_48 + hx_t_55 + hx_t_62 + hx_t_69 + hx_t_76 + hx_t_83 + hx_t_90 + hx_t_97 + hx_t_104 + hx_t_111 + hx_t_118 + hx_t_125 + hx_t_132 + hx_t_139 + hx_t_146 + hx_t_153 + hx_t_160 + hx_t_167 + hx_t_174 + hx_t_181 + hx_t_188 + hx_t_195 + hx_t_202 + hx_t_209",
+      "standardScoreFormula": "0",
+      "results": [
+        {
+          "id": 825,
+          "evaluateExpression": "hx_wd_y_6 >= 0&& hx_wd_y_6 <= 5.99",
+          "conclusionAnalysis": "您的测试得分属于低分范围。低分者感觉健康，很少生病，也不太为身体的健康操心忧虑。",
+          "suggestion": "把注意力及能量投向自己生活中有确定意义，且能见成效的事情上，努力做应做之事，把注意力集中在行动上。积极参加集体活动，消除紧张心理。",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 826,
+          "evaluateExpression": "hx_wd_y_6 >= 6&& hx_wd_y_6 <= 30",
+          "conclusionAnalysis": "您的测试得分属于高分范围。高分者有较明显的疑病症倾向，常抱怨身上有各种扩散、移动症状，老在担忧自己的健康状况，经常需要医生、家人朋友的同情和安慰。",
+          "suggestion": "建议可作定期健康检查。同时，把注意力及能量投向自己生活中有确定意义，且能见成效的事情上，努力做应做之事，把注意力集中在行动上。积极参加集体活动，消除紧张心理，如果自己无法摆脱疑病的倾向，请尽快找心理老师咨询。",
+          "assessmentWarning": "none"
+        }
+      ]
+    },
+    {
+      "id": 389,
+      "num": 7,
+      "dimensionName": "自罪感",
+      "dimensionCode": "G",
+      "evaluateExpression": "hx_t_7 + hx_t_14 + hx_t_21 + hx_t_28 + hx_t_35 + hx_t_42 + hx_t_49 + hx_t_56 + hx_t_63 + hx_t_70 + hx_t_77 + hx_t_84 + hx_t_91 + hx_t_98 + hx_t_105 + hx_t_112 + hx_t_119 + hx_t_126 + hx_t_133 + hx_t_140 + hx_t_147 + hx_t_154 + hx_t_161 + hx_t_168 + hx_t_175 + hx_t_182 + hx_t_189 + hx_t_196 + hx_t_203 + hx_t_210",
+      "standardScoreFormula": "0",
+      "results": [
+        {
+          "id": 827,
+          "evaluateExpression": "hx_wd_y_7 >= 0&& hx_wd_y_7 <= 7.99",
+          "conclusionAnalysis": "您的测试得分属于低分范围。低分者则比较坦然，少有自我惩罚或为自己过去行为后悔的倾向。",
+          "suggestion": "可在相关心理学知识的指导下校正认知偏差，允许自己和别人犯错误，建立合理的归因方式，不要让自己总处于愧疚和紧张的状态之中，多一些宽容，尽量把事情朝好的方面想，努力去相信别人，信任自己。如果觉得通过自身努力实在无法改善目前状况，可向心理老师求助。",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 828,
+          "evaluateExpression": "hx_wd_y_7 >= 8&& hx_wd_y_7 <= 30",
+          "conclusionAnalysis": "您的测试得分属于高分范围。高分者有较强的负疚感，表现为常自责、自卑，无论其行为是否真正负有道义责任，都受到自己的良心谴责。",
+          "suggestion": "可在相关心理学知识的指导下校正认知偏差，允许自己和别人犯错误，建立合理的归因方式，不要让自己总处于愧疚和紧张的状态之中，多一些宽容，尽量把事情朝好的方面想，努力去相信别人，信任自己。如果觉得通过自身努力实在无法改善目前状况，可向心理老师求助。",
+          "assessmentWarning": "none"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,407 @@
+{
+  "id": "sassv",
+  "title": "智能手机成瘾量表-简版(SAS-SV)",
+  "description": "本量表帮助评估您使用智能手机的习惯和可能的成瘾倾向。共10题，大约需要2分钟完成。",
+  "type": "basic",
+  "questions": [
+    {
+      "text": "玩智能手机的时间比原计划的要长。",
+      "type": "radio",
+      "orderNum": 1,
+      "options": [
+        {
+          "text": "非常不符合",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "不符合",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "有点不符合",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "有点符合",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "符合",
+          "value": "5",
+          "optionNo": "E"
+        },
+        {
+          "text": "非常符合",
+          "value": "6",
+          "optionNo": "F"
+        }
+      ]
+    },
+    {
+      "text": "经常把智能手机放在触手可及的地方。",
+      "type": "radio",
+      "orderNum": 2,
+      "options": [
+        {
+          "text": "非常不符合",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "不符合",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "有点不符合",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "有点符合",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "符合",
+          "value": "5",
+          "optionNo": "E"
+        },
+        {
+          "text": "非常符合",
+          "value": "6",
+          "optionNo": "F"
+        }
+      ]
+    },
+    {
+      "text": "因为使用智能手机而导致学习或工作效率下降。",
+      "type": "radio",
+      "orderNum": 3,
+      "options": [
+        {
+          "text": "非常不符合",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "不符合",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "有点不符合",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "有点符合",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "符合",
+          "value": "5",
+          "optionNo": "E"
+        },
+        {
+          "text": "非常符合",
+          "value": "6",
+          "optionNo": "F"
+        }
+      ]
+    },
+    {
+      "text": "周围的人曾对我说我花了太多时间在智能手机上。",
+      "type": "radio",
+      "orderNum": 4,
+      "options": [
+        {
+          "text": "非常不符合",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "不符合",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "有点不符合",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "有点符合",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "符合",
+          "value": "5",
+          "optionNo": "E"
+        },
+        {
+          "text": "非常符合",
+          "value": "6",
+          "optionNo": "F"
+        }
+      ]
+    },
+    {
+      "text": "有人打扰你使用智能手机时你会不耐烦。",
+      "type": "radio",
+      "orderNum": 5,
+      "options": [
+        {
+          "text": "非常不符合",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "不符合",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "有点不符合",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "有点符合",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "符合",
+          "value": "5",
+          "optionNo": "E"
+        },
+        {
+          "text": "非常符合",
+          "value": "6",
+          "optionNo": "F"
+        }
+      ]
+    },
+    {
+      "text": "总觉得少了智能手机会坐立不安。",
+      "type": "radio",
+      "orderNum": 6,
+      "options": [
+        {
+          "text": "非常不符合",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "不符合",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "有点不符合",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "有点符合",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "符合",
+          "value": "5",
+          "optionNo": "E"
+        },
+        {
+          "text": "非常符合",
+          "value": "6",
+          "optionNo": "F"
+        }
+      ]
+    },
+    {
+      "text": "当手机没带在身边时，会感到焦虑不安。",
+      "type": "radio",
+      "orderNum": 7,
+      "options": [
+        {
+          "text": "非常不符合",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "不符合",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "有点不符合",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "有点符合",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "符合",
+          "value": "5",
+          "optionNo": "E"
+        },
+        {
+          "text": "非常符合",
+          "value": "6",
+          "optionNo": "F"
+        }
+      ]
+    },
+    {
+      "text": "使用智能手机影响了你的人际关系。",
+      "type": "radio",
+      "orderNum": 8,
+      "options": [
+        {
+          "text": "非常不符合",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "不符合",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "有点不符合",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "有点符合",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "符合",
+          "value": "5",
+          "optionNo": "E"
+        },
+        {
+          "text": "非常符合",
+          "value": "6",
+          "optionNo": "F"
+        }
+      ]
+    },
+    {
+      "text": "即使没有通知也忍不住想要查看智能手机。",
+      "type": "radio",
+      "orderNum": 9,
+      "options": [
+        {
+          "text": "非常不符合",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "不符合",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "有点不符合",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "有点符合",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "符合",
+          "value": "5",
+          "optionNo": "E"
+        },
+        {
+          "text": "非常符合",
+          "value": "6",
+          "optionNo": "F"
+        }
+      ]
+    },
+    {
+      "text": "因为使用智能手机而影响了睡眠。",
+      "type": "radio",
+      "orderNum": 10,
+      "options": [
+        {
+          "text": "非常不符合",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "不符合",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "有点不符合",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "有点符合",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "符合",
+          "value": "5",
+          "optionNo": "E"
+        },
+        {
+          "text": "非常符合",
+          "value": "6",
+          "optionNo": "F"
+        }
+      ]
+    }
+  ],
+  "dimensions": [
+    {
+      "dimensionName": "智能手机成瘾倾向",
+      "dimensionCode": "smartphone_addiction",
+      "num": 1,
+      "evaluateExpression": "hx_t_1 + hx_t_2 + hx_t_3 + hx_t_4 + hx_t_5 + hx_t_6 + hx_t_7 + hx_t_8 + hx_t_9 + hx_t_10 / 10",
+      "standardScoreFormula": "",
+      "results": [
+        {
+          "evaluateExpression": "hx_wd_y_1 <= 2.5",
+          "conclusionAnalysis": "智能手机成瘾倾向较低",
+          "suggestion": "您使用智能手机的程度较为适度，未表现出明显的成瘾特征。建议继续保持良好的手机使用习惯。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_1 > 2.5 && hx_wd_y_1 <= 4.0",
+          "conclusionAnalysis": "智能手机成瘾倾向中等",
+          "suggestion": "您存在一定程度的智能手机过度使用现象，可能已经影响到日常生活。建议设定使用时间限制，培养其他兴趣爱好。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_1 > 4.0",
+          "conclusionAnalysis": "智能手机成瘾倾向较高",
+          "suggestion": "您表现出较强的智能手机成瘾倾向，过度使用可能已严重影响学习、工作和人际关系。建议寻求专业帮助，制定戒断计划。",
+          "assessmentWarning": "none"
+        }
+      ]
+    }
+  ]
+}

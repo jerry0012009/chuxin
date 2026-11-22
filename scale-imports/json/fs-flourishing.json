@@ -1,0 +1,379 @@
+{
+  "id": "fs-flourishing",
+  "title": "繁荣感量表(FS)",
+  "description": "繁荣感量表(FS)，Diener等人(2010)编制，测量心理社会功能繁荣程度。8题，7点计分(1=非常不同意到7=非常同意)，总分8-56分。",
+  "type": "basic",
+  "questions": [
+    {
+      "text": "我的生活有明确的意义和目标。",
+      "type": "radio",
+      "orderNum": 1,
+      "options": [
+        {
+          "text": "非常不同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "不同意",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "有些不同意",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "不确定",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "有些同意",
+          "value": "5",
+          "optionNo": "E"
+        },
+        {
+          "text": "同意",
+          "value": "6",
+          "optionNo": "F"
+        },
+        {
+          "text": "非常同意",
+          "value": "7",
+          "optionNo": "G"
+        }
+      ]
+    },
+    {
+      "text": "我的社交关系能给我支持和鼓励。",
+      "type": "radio",
+      "orderNum": 2,
+      "options": [
+        {
+          "text": "非常不同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "不同意",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "有些不同意",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "不确定",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "有些同意",
+          "value": "5",
+          "optionNo": "E"
+        },
+        {
+          "text": "同意",
+          "value": "6",
+          "optionNo": "F"
+        },
+        {
+          "text": "非常同意",
+          "value": "7",
+          "optionNo": "G"
+        }
+      ]
+    },
+    {
+      "text": "我对日常生活很投入、很积极。",
+      "type": "radio",
+      "orderNum": 3,
+      "options": [
+        {
+          "text": "非常不同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "不同意",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "有些不同意",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "不确定",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "有些同意",
+          "value": "5",
+          "optionNo": "E"
+        },
+        {
+          "text": "同意",
+          "value": "6",
+          "optionNo": "F"
+        },
+        {
+          "text": "非常同意",
+          "value": "7",
+          "optionNo": "G"
+        }
+      ]
+    },
+    {
+      "text": "我积极地为他人的幸福做贡献。",
+      "type": "radio",
+      "orderNum": 4,
+      "options": [
+        {
+          "text": "非常不同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "不同意",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "有些不同意",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "不确定",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "有些同意",
+          "value": "5",
+          "optionNo": "E"
+        },
+        {
+          "text": "同意",
+          "value": "6",
+          "optionNo": "F"
+        },
+        {
+          "text": "非常同意",
+          "value": "7",
+          "optionNo": "G"
+        }
+      ]
+    },
+    {
+      "text": "我有能力胜任生活中的重要事情。",
+      "type": "radio",
+      "orderNum": 5,
+      "options": [
+        {
+          "text": "非常不同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "不同意",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "有些不同意",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "不确定",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "有些同意",
+          "value": "5",
+          "optionNo": "E"
+        },
+        {
+          "text": "同意",
+          "value": "6",
+          "optionNo": "F"
+        },
+        {
+          "text": "非常同意",
+          "value": "7",
+          "optionNo": "G"
+        }
+      ]
+    },
+    {
+      "text": "我是一个好人，过着美好的生活。",
+      "type": "radio",
+      "orderNum": 6,
+      "options": [
+        {
+          "text": "非常不同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "不同意",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "有些不同意",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "不确定",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "有些同意",
+          "value": "5",
+          "optionNo": "E"
+        },
+        {
+          "text": "同意",
+          "value": "6",
+          "optionNo": "F"
+        },
+        {
+          "text": "非常同意",
+          "value": "7",
+          "optionNo": "G"
+        }
+      ]
+    },
+    {
+      "text": "我对未来充满乐观。",
+      "type": "radio",
+      "orderNum": 7,
+      "options": [
+        {
+          "text": "非常不同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "不同意",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "有些不同意",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "不确定",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "有些同意",
+          "value": "5",
+          "optionNo": "E"
+        },
+        {
+          "text": "同意",
+          "value": "6",
+          "optionNo": "F"
+        },
+        {
+          "text": "非常同意",
+          "value": "7",
+          "optionNo": "G"
+        }
+      ]
+    },
+    {
+      "text": "别人尊重我。",
+      "type": "radio",
+      "orderNum": 8,
+      "options": [
+        {
+          "text": "非常不同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "不同意",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "有些不同意",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "不确定",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "有些同意",
+          "value": "5",
+          "optionNo": "E"
+        },
+        {
+          "text": "同意",
+          "value": "6",
+          "optionNo": "F"
+        },
+        {
+          "text": "非常同意",
+          "value": "7",
+          "optionNo": "G"
+        }
+      ]
+    }
+  ],
+  "dimensions": [
+    {
+      "dimensionName": "繁荣感总分",
+      "dimensionCode": "flourishing_total",
+      "num": 1,
+      "evaluateExpression": "(hx_t_1 + hx_t_2 + hx_t_3 + hx_t_4 + hx_t_5 + hx_t_6 + hx_t_7 + hx_t_8)",
+      "standardScoreFormula": "",
+      "results": [
+        {
+          "evaluateExpression": "hx_wd_y_1 <= 24",
+          "conclusionAnalysis": "繁荣感水平较低",
+          "suggestion": "您的繁荣感得分较低，在生活意义感和积极功能方面有提升空间。",
+          "assessmentWarning": "low"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_1 > 24 && hx_wd_y_1 <= 36",
+          "conclusionAnalysis": "繁荣感水平中等",
+          "suggestion": "您的繁荣感处于中等水平，心理社会功能总体尚可。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_1 > 36 && hx_wd_y_1 <= 48",
+          "conclusionAnalysis": "繁荣感水平较高",
+          "suggestion": "您的繁荣感得分较高，在生活意义、人际关系和自我实现方面表现良好。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_1 > 48",
+          "conclusionAnalysis": "繁荣感水平很高",
+          "suggestion": "您的繁荣感得分非常高，表明您在各方面都感受到蓬勃发展的状态。",
+          "assessmentWarning": "none"
+        }
+      ]
+    }
+  ]
+}

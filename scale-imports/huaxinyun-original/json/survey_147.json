@@ -1,0 +1,781 @@
+{
+  "id": 147,
+  "title": "社会支持评定量表(SSRS)",
+  "type": "basic",
+  "questions": [
+    {
+      "id": 4665,
+      "text": "您有多少关系密切，可以得到支持和帮助的朋友（只选一项）？",
+      "type": "radio",
+      "orderNum": 1,
+      "options": [
+        {
+          "id": 17023,
+          "optionNo": "A",
+          "text": "一个也没有",
+          "value": "1"
+        },
+        {
+          "id": 17024,
+          "optionNo": "B",
+          "text": "1－2个",
+          "value": "2"
+        },
+        {
+          "id": 17025,
+          "optionNo": "C",
+          "text": "3－5个",
+          "value": "3"
+        },
+        {
+          "id": 17026,
+          "optionNo": "D",
+          "text": "6个或6个以上",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 4666,
+      "text": "近一年来，您(只选一项)：",
+      "type": "radio",
+      "orderNum": 2,
+      "options": [
+        {
+          "id": 17027,
+          "optionNo": "A",
+          "text": "远离家人，且独居一室",
+          "value": "1"
+        },
+        {
+          "id": 17028,
+          "optionNo": "B",
+          "text": "住处经常变动，多数时间和陌生人住在一起",
+          "value": "2"
+        },
+        {
+          "id": 17029,
+          "optionNo": "C",
+          "text": "和同学、同事或朋友住在一起",
+          "value": "3"
+        },
+        {
+          "id": 17030,
+          "optionNo": "D",
+          "text": "和家人住在一起",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 4667,
+      "text": "您和邻居：(只选一项)",
+      "type": "radio",
+      "orderNum": 3,
+      "options": [
+        {
+          "id": 17031,
+          "optionNo": "A",
+          "text": "相互之间从不关心，只是点头之交",
+          "value": "1"
+        },
+        {
+          "id": 17032,
+          "optionNo": "B",
+          "text": "遇到困难可能稍微关心",
+          "value": "2"
+        },
+        {
+          "id": 17033,
+          "optionNo": "C",
+          "text": "有些邻居很关心您",
+          "value": "3"
+        },
+        {
+          "id": 17034,
+          "optionNo": "D",
+          "text": "大多数邻居都很关心您",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 4668,
+      "text": "您和同事：(只选一项)",
+      "type": "radio",
+      "orderNum": 4,
+      "options": [
+        {
+          "id": 17035,
+          "optionNo": "A",
+          "text": "相互之间从不关心，只是点头之交",
+          "value": "1"
+        },
+        {
+          "id": 17036,
+          "optionNo": "B",
+          "text": "遇到困难可能稍微关心",
+          "value": "2"
+        },
+        {
+          "id": 17037,
+          "optionNo": "C",
+          "text": "有些同事很关心您",
+          "value": "3"
+        },
+        {
+          "id": 17038,
+          "optionNo": "D",
+          "text": "大多数同事都很关心您",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 4669,
+      "text": "1 从家庭成员得到的支持和照顾，如夫妻(恋人)",
+      "type": "radio",
+      "orderNum": 5,
+      "options": [
+        {
+          "id": 17039,
+          "optionNo": "A",
+          "text": "无",
+          "value": "1"
+        },
+        {
+          "id": 17040,
+          "optionNo": "B",
+          "text": "极少",
+          "value": "2"
+        },
+        {
+          "id": 17041,
+          "optionNo": "C",
+          "text": "一般",
+          "value": "3"
+        },
+        {
+          "id": 17042,
+          "optionNo": "D",
+          "text": "全力支持",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 4670,
+      "text": "2 从家庭成员得到的支持和照顾，如父母",
+      "type": "radio",
+      "orderNum": 6,
+      "options": [
+        {
+          "id": 17043,
+          "optionNo": "A",
+          "text": "无",
+          "value": "1"
+        },
+        {
+          "id": 17044,
+          "optionNo": "B",
+          "text": "极少",
+          "value": "2"
+        },
+        {
+          "id": 17045,
+          "optionNo": "C",
+          "text": "一般",
+          "value": "3"
+        },
+        {
+          "id": 17046,
+          "optionNo": "D",
+          "text": "全力支持",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 4671,
+      "text": "3 从家庭成员得到的支持和照顾，如儿女",
+      "type": "radio",
+      "orderNum": 7,
+      "options": [
+        {
+          "id": 17047,
+          "optionNo": "A",
+          "text": "无",
+          "value": "1"
+        },
+        {
+          "id": 17048,
+          "optionNo": "B",
+          "text": "极少",
+          "value": "2"
+        },
+        {
+          "id": 17049,
+          "optionNo": "C",
+          "text": "一般",
+          "value": "3"
+        },
+        {
+          "id": 17050,
+          "optionNo": "D",
+          "text": "全力支持",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 4672,
+      "text": "4 从家庭成员得到的支持和照顾，如兄弟姐妹",
+      "type": "radio",
+      "orderNum": 8,
+      "options": [
+        {
+          "id": 17051,
+          "optionNo": "A",
+          "text": "无",
+          "value": "1"
+        },
+        {
+          "id": 17052,
+          "optionNo": "B",
+          "text": "极少",
+          "value": "2"
+        },
+        {
+          "id": 17053,
+          "optionNo": "C",
+          "text": "一般",
+          "value": "3"
+        },
+        {
+          "id": 17054,
+          "optionNo": "D",
+          "text": "全力支持",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 4673,
+      "text": "5 从家庭成员得到的支持和照顾，如其他成员(如嫂子)",
+      "type": "radio",
+      "orderNum": 9,
+      "options": [
+        {
+          "id": 17055,
+          "optionNo": "A",
+          "text": "无",
+          "value": "1"
+        },
+        {
+          "id": 17056,
+          "optionNo": "B",
+          "text": "极少",
+          "value": "2"
+        },
+        {
+          "id": 17057,
+          "optionNo": "C",
+          "text": "一般",
+          "value": "3"
+        },
+        {
+          "id": 17058,
+          "optionNo": "D",
+          "text": "全力支持",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 4674,
+      "text": "1 过去，在您遇到急难情况时，曾经得到的经济支持和解决实际问题的帮助的来源有",
+      "type": "radio",
+      "orderNum": 10,
+      "options": [
+        {
+          "id": 17059,
+          "optionNo": "A",
+          "text": "无任何来源",
+          "value": "0"
+        },
+        {
+          "id": 17060,
+          "optionNo": "B",
+          "text": "配偶",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 4675,
+      "text": "2 过去，在您遇到急难情况时，曾经得到的经济支持和解决实际问题的帮助的来源有",
+      "type": "radio",
+      "orderNum": 11,
+      "options": [
+        {
+          "id": 17061,
+          "optionNo": "A",
+          "text": "无任何来源",
+          "value": "0"
+        },
+        {
+          "id": 17062,
+          "optionNo": "B",
+          "text": "其他家人",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 4676,
+      "text": "3 过去，在您遇到急难情况时，曾经得到的经济支持和解决实际问题的帮助的来源有",
+      "type": "radio",
+      "orderNum": 12,
+      "options": [
+        {
+          "id": 17063,
+          "optionNo": "A",
+          "text": "无任何来源",
+          "value": "0"
+        },
+        {
+          "id": 17064,
+          "optionNo": "B",
+          "text": "亲戚",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 4677,
+      "text": "4 过去，在您遇到急难情况时，曾经得到的经济支持和解决实际问题的帮助的来源有",
+      "type": "radio",
+      "orderNum": 13,
+      "options": [
+        {
+          "id": 17065,
+          "optionNo": "A",
+          "text": "无任何来源",
+          "value": "0"
+        },
+        {
+          "id": 17066,
+          "optionNo": "B",
+          "text": "同事",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 4678,
+      "text": "5 过去，在您遇到急难情况时，曾经得到的经济支持和解决实际问题的帮助的来源有",
+      "type": "radio",
+      "orderNum": 14,
+      "options": [
+        {
+          "id": 17067,
+          "optionNo": "A",
+          "text": "无任何来源",
+          "value": "0"
+        },
+        {
+          "id": 17068,
+          "optionNo": "B",
+          "text": "工作单位",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 4679,
+      "text": "6 过去，在您遇到急难情况时，曾经得到的经济支持和解决实际问题的帮助的来源有",
+      "type": "radio",
+      "orderNum": 15,
+      "options": [
+        {
+          "id": 17069,
+          "optionNo": "A",
+          "text": "无任何来源",
+          "value": "0"
+        },
+        {
+          "id": 17070,
+          "optionNo": "B",
+          "text": "党团工会等官方或半官方组织",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 4680,
+      "text": "7 过去，在您遇到急难情况时，曾经得到的经济支持和解决实际问题的帮助的来源有",
+      "type": "radio",
+      "orderNum": 16,
+      "options": [
+        {
+          "id": 17071,
+          "optionNo": "A",
+          "text": "无任何来源",
+          "value": "0"
+        },
+        {
+          "id": 17072,
+          "optionNo": "B",
+          "text": "宗教、社会团体等非官方组织",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 4681,
+      "text": "8 过去，在您遇到急难情况时，曾经得到的经济支持和解决实际问题的帮助的来源有",
+      "type": "radio",
+      "orderNum": 17,
+      "options": [
+        {
+          "id": 17073,
+          "optionNo": "A",
+          "text": "无任何来源",
+          "value": "0"
+        },
+        {
+          "id": 17074,
+          "optionNo": "B",
+          "text": "其它",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 4682,
+      "text": "1 过去，在您遇到急难情况时，曾经得到的安慰和关心的来源有",
+      "type": "radio",
+      "orderNum": 18,
+      "options": [
+        {
+          "id": 17075,
+          "optionNo": "A",
+          "text": "无任何来源",
+          "value": "0"
+        },
+        {
+          "id": 17076,
+          "optionNo": "B",
+          "text": "配偶",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 4683,
+      "text": "2 过去，在您遇到急难情况时，曾经得到的安慰和关心的来源有",
+      "type": "radio",
+      "orderNum": 19,
+      "options": [
+        {
+          "id": 17077,
+          "optionNo": "A",
+          "text": "无任何来源",
+          "value": "0"
+        },
+        {
+          "id": 17078,
+          "optionNo": "B",
+          "text": "其他家人",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 4684,
+      "text": "3 过去，在您遇到急难情况时，曾经得到的安慰和关心的来源有",
+      "type": "radio",
+      "orderNum": 20,
+      "options": [
+        {
+          "id": 17079,
+          "optionNo": "A",
+          "text": "无任何来源",
+          "value": "0"
+        },
+        {
+          "id": 17080,
+          "optionNo": "B",
+          "text": "亲戚",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 4685,
+      "text": "4 过去，在您遇到急难情况时，曾经得到的安慰和关心的来源有",
+      "type": "radio",
+      "orderNum": 21,
+      "options": [
+        {
+          "id": 17081,
+          "optionNo": "A",
+          "text": "无任何来源",
+          "value": "0"
+        },
+        {
+          "id": 17082,
+          "optionNo": "B",
+          "text": "同事",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 4686,
+      "text": "5 过去，在您遇到急难情况时，曾经得到的安慰和关心的来源有",
+      "type": "radio",
+      "orderNum": 22,
+      "options": [
+        {
+          "id": 17083,
+          "optionNo": "A",
+          "text": "无任何来源",
+          "value": "0"
+        },
+        {
+          "id": 17084,
+          "optionNo": "B",
+          "text": "工作单位",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 4687,
+      "text": "6 过去，在您遇到急难情况时，曾经得到的安慰和关心的来源有",
+      "type": "radio",
+      "orderNum": 23,
+      "options": [
+        {
+          "id": 17085,
+          "optionNo": "A",
+          "text": "无任何来源",
+          "value": "0"
+        },
+        {
+          "id": 17086,
+          "optionNo": "B",
+          "text": "党团工会等官方或半官方组织",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 4688,
+      "text": "7 过去，在您遇到急难情况时，曾经得到的安慰和关心的来源有",
+      "type": "radio",
+      "orderNum": 24,
+      "options": [
+        {
+          "id": 17087,
+          "optionNo": "A",
+          "text": "无任何来源",
+          "value": "0"
+        },
+        {
+          "id": 17088,
+          "optionNo": "B",
+          "text": "宗教、社会团体等非官方组织",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 4689,
+      "text": "8 过去，在您遇到急难情况时，曾经得到的安慰和关心的来源有",
+      "type": "radio",
+      "orderNum": 25,
+      "options": [
+        {
+          "id": 17089,
+          "optionNo": "A",
+          "text": "无任何来源",
+          "value": "0"
+        },
+        {
+          "id": 17090,
+          "optionNo": "B",
+          "text": "其它",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 4690,
+      "text": " 您遇到烦恼时的倾诉方式：(只选一项)",
+      "type": "radio",
+      "orderNum": 26,
+      "options": [
+        {
+          "id": 17091,
+          "optionNo": "A",
+          "text": "从不向任何人诉说",
+          "value": "1"
+        },
+        {
+          "id": 17092,
+          "optionNo": "B",
+          "text": "只向关系极为密切的1－2个人诉说",
+          "value": "2"
+        },
+        {
+          "id": 17093,
+          "optionNo": "C",
+          "text": "如果朋友主动询问您会说出来",
+          "value": "3"
+        },
+        {
+          "id": 17094,
+          "optionNo": "D",
+          "text": "主动诉说自己的烦恼，以获得支持和理解",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 4691,
+      "text": " 您遇到烦恼时的求助方式：(只选一项)",
+      "type": "radio",
+      "orderNum": 27,
+      "options": [
+        {
+          "id": 17095,
+          "optionNo": "A",
+          "text": "只靠自己，不接受别人帮助",
+          "value": "1"
+        },
+        {
+          "id": 17096,
+          "optionNo": "B",
+          "text": "很少请求别人帮助",
+          "value": "2"
+        },
+        {
+          "id": 17097,
+          "optionNo": "C",
+          "text": "有时请求别人帮助",
+          "value": "3"
+        },
+        {
+          "id": 17098,
+          "optionNo": "D",
+          "text": "有困难时经常向家人、亲友或组织求援",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 4692,
+      "text": " 对于团体（如党组织、宗教组织、工会、学生会等）组织活动，您：(只选一项)",
+      "type": "radio",
+      "orderNum": 28,
+      "options": [
+        {
+          "id": 17099,
+          "optionNo": "A",
+          "text": "从不参加",
+          "value": "1"
+        },
+        {
+          "id": 17100,
+          "optionNo": "B",
+          "text": "偶尔参加",
+          "value": "2"
+        },
+        {
+          "id": 17101,
+          "optionNo": "C",
+          "text": "经常参加",
+          "value": "3"
+        },
+        {
+          "id": 17102,
+          "optionNo": "D",
+          "text": "主动参加并积极活动",
+          "value": "4"
+        }
+      ]
+    }
+  ],
+  "dimensions": [
+    {
+      "id": 502,
+      "num": 1,
+      "dimensionName": "总分",
+      "dimensionCode": "A",
+      "evaluateExpression": "hx_t_1 + hx_t_2 + hx_t_3 + hx_t_4 + hx_t_5 + hx_t_6 + hx_t_7 + hx_t_8 + hx_t_9 + hx_t_10 + hx_t_11 + hx_t_12 + hx_t_13 + hx_t_14 + hx_t_15 + hx_t_16 + hx_t_17 + hx_t_18 + hx_t_19 + hx_t_20 + hx_t_21 + hx_t_22 + hx_t_23 + hx_t_24 + hx_t_25 + hx_t_26 + hx_t_27 + hx_t_28",
+      "standardScoreFormula": "0",
+      "results": [
+        {
+          "id": 1154,
+          "evaluateExpression": "hx_wd_y_1 >= 12&& hx_wd_y_1 <= 64",
+          "conclusionAnalysis": "分数越高，社会支持度越高。",
+          "suggestion": "社会支持系统是个体通过与环境中人物的互动，所建立的一种关系网络，个体能从中获取情绪情感心理的支持，能够缓解心理压力，提高自身对环境的适应能力和对变化的应对能力。社会支持系统对个体的身心健康有显著的影响。社会支持是个体与社会大环境之间的关系，建立良好的社会支持系统会增进心理健康，也是释放不良情绪的最佳途径。反之没有良好的社会支持系统，恶性情绪不良积压就会导致各种心理问题，心理健康会受到威胁。",
+          "assessmentWarning": "none"
+        }
+      ]
+    },
+    {
+      "id": 503,
+      "num": 2,
+      "dimensionName": "客观支持分",
+      "dimensionCode": "B",
+      "evaluateExpression": "hx_t_2 + hx_t_10 + hx_t_11 + hx_t_12 + hx_t_13 + hx_t_14 + hx_t_15 + hx_t_16 + hx_t_17 + hx_t_18 + hx_t_19 + hx_t_20 + hx_t_21 + hx_t_22 + hx_t_23 + hx_t_24 + hx_t_25",
+      "standardScoreFormula": "0",
+      "results": [
+        {
+          "id": 1155,
+          "evaluateExpression": "hx_wd_y_2 >= 1&& hx_wd_y_2 <= 20",
+          "conclusionAnalysis": "客观支持是指实际的可见的支持，包括物质上的直接援助和社会网络、团体关系的存在和参与，后者是指稳定的婚姻（如家庭、婚姻、朋友、同事等）或不稳定的社会联系非正式团体、暂时性的社会交际的大小和可获得的程度，这种支持独立与个体的感受是客观存在的现实，得分越高表示客观支持越多。",
+          "suggestion": "高分建议：您在生活中得到了来自社会、家庭、朋友、同事等的很多支持，希望您在处理生活中的问题时，能好好利用这些支持，让自己更有力量。\r\n低分建议：您在生活中得到来自社会、家庭、朋友、同事等的支持很少，建议您多与他人接触和发展友谊，并给予别人自己的支持，相信您会得到应有的回报。",
+          "assessmentWarning": "none"
+        }
+      ]
+    },
+    {
+      "id": 504,
+      "num": 3,
+      "dimensionName": "主观支持分",
+      "dimensionCode": "C",
+      "evaluateExpression": "hx_t_1 + hx_t_3 + hx_t_4 + hx_t_5 + hx_t_6 + hx_t_7 + hx_t_8 + hx_t_9",
+      "standardScoreFormula": "0",
+      "results": [
+        {
+          "id": 1156,
+          "evaluateExpression": "hx_wd_y_3 >= 8&& hx_wd_y_3 <= 32",
+          "conclusionAnalysis": "主观支持是指体验到的情感上的支持，指的是个体在社会中受尊重、被支持、理解的情感体验和满意程度。得分越高表示主观支持越多。",
+          "suggestion": "高分建议：您得到比较多的情感方面的支持，希望您能够利用这些情感上的支持让自己的内心更强大，并保持这种良好的状态！\r\n低分建议：您得到的情感方面的支持比较少，建议您多与他人交流自己的内心体验，并在别人需要时给予别人情感上的关怀，相信您也会得到他人更多的情感支持。",
+          "assessmentWarning": "none"
+        }
+      ]
+    },
+    {
+      "id": 505,
+      "num": 4,
+      "dimensionName": "对支持的利用度",
+      "dimensionCode": "D",
+      "evaluateExpression": "hx_t_26 + hx_t_27 + hx_t_28",
+      "standardScoreFormula": "0",
+      "results": [
+        {
+          "id": 1157,
+          "evaluateExpression": "hx_wd_y_4 >= 3&& hx_wd_y_4 <= 12",
+          "conclusionAnalysis": "指个体对主观与客观支持的利用情况，得分越高，利用程度越高。",
+          "suggestion": "高分建议：您在遇到烦恼时乐于向别人倾诉和求助，也积极参加各种组织活动，建议您继续保持这种开放的心态和积极的态度，相信这会让您在今后的生活中更有力量！\r\n低分建议：您无法很好地利用来自社会和他人的支持，建议您在遇到烦恼的时候不妨多向他人倾诉和求助，并积极参与一些感兴趣的集体活动。",
+          "assessmentWarning": "none"
+        }
+      ]
+    }
+  ]
+}

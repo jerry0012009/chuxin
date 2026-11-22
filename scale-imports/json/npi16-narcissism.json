@@ -1,0 +1,315 @@
+{
+  "id": "npi16-narcissism",
+  "title": "自恋人格量表简版(NPI-16)",
+  "description": "Narcissistic Personality Inventory 16-item version (NPI-16)，Ames, Rose & Anderson (2006) 基于Raskin & Terry (1988) NPI-40编制的简版量表。共16题，迫选式计分，均分范围0-1。分数越高表示自恋特质越明显。常模参考：大学生样本均值0.33(SD=0.17)。",
+  "type": "basic",
+  "questions": [
+    {
+      "text": "以下两个描述，哪一个更符合你？\nA. 我知道我很优秀，因为大家都这么说。\nB. 当别人夸奖我时，我有时会感到尴尬。",
+      "type": "radio",
+      "orderNum": 1,
+      "options": [
+        {
+          "text": "我知道我很优秀，因为大家都这么说。",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "当别人夸奖我时，我有时会感到尴尬。",
+          "value": "0",
+          "optionNo": "B"
+        }
+      ]
+    },
+    {
+      "text": "以下两个描述，哪一个更符合你？\nA. 统治世界的想法让我感到恐惧。\nB. 如果我统治世界，世界会变得更美好。",
+      "type": "radio",
+      "orderNum": 2,
+      "options": [
+        {
+          "text": "统治世界的想法让我感到恐惧。",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "如果我统治世界，世界会变得更美好。",
+          "value": "1",
+          "optionNo": "B"
+        }
+      ]
+    },
+    {
+      "text": "以下两个描述，哪一个更符合你？\nA. 我通常能靠口才摆脱任何困境。\nB. 我努力承担自己行为的后果。",
+      "type": "radio",
+      "orderNum": 3,
+      "options": [
+        {
+          "text": "我通常能靠口才摆脱任何困境。",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "我努力承担自己行为的后果。",
+          "value": "0",
+          "optionNo": "B"
+        }
+      ]
+    },
+    {
+      "text": "以下两个描述，哪一个更符合你？\nA. 我喜欢成为众人关注的焦点。\nB. 我更喜欢融入人群中。",
+      "type": "radio",
+      "orderNum": 4,
+      "options": [
+        {
+          "text": "我喜欢成为众人关注的焦点。",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "我更喜欢融入人群中。",
+          "value": "0",
+          "optionNo": "B"
+        }
+      ]
+    },
+    {
+      "text": "以下两个描述，哪一个更符合你？\nA. 我认为自己是一个与众不同的人。\nB. 我不比大多数人好，也不比大多数人差。",
+      "type": "radio",
+      "orderNum": 5,
+      "options": [
+        {
+          "text": "我认为自己是一个与众不同的人。",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "我不比大多数人好，也不比大多数人差。",
+          "value": "0",
+          "optionNo": "B"
+        }
+      ]
+    },
+    {
+      "text": "以下两个描述，哪一个更符合你？\nA. 我认为自己是一个好的领导者。\nB. 我认为自己是一个好的追随者。",
+      "type": "radio",
+      "orderNum": 6,
+      "options": [
+        {
+          "text": "我认为自己是一个好的领导者。",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "我认为自己是一个好的追随者。",
+          "value": "0",
+          "optionNo": "B"
+        }
+      ]
+    },
+    {
+      "text": "以下两个描述，哪一个更符合你？\nA. 我是一个果断自信的人。\nB. 我希望自己能更加果断自信。",
+      "type": "radio",
+      "orderNum": 7,
+      "options": [
+        {
+          "text": "我是一个果断自信的人。",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "我希望自己能更加果断自信。",
+          "value": "0",
+          "optionNo": "B"
+        }
+      ]
+    },
+    {
+      "text": "以下两个描述，哪一个更符合你？\nA. 我喜欢拥有支配他人的权力。\nB. 我不介意服从命令。",
+      "type": "radio",
+      "orderNum": 8,
+      "options": [
+        {
+          "text": "我喜欢拥有支配他人的权力。",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "我不介意服从命令。",
+          "value": "0",
+          "optionNo": "B"
+        }
+      ]
+    },
+    {
+      "text": "以下两个描述，哪一个更符合你？\nA. 我觉得操纵别人很容易。\nB. 当我发现自己在操纵别人时，我会感到不舒服。",
+      "type": "radio",
+      "orderNum": 9,
+      "options": [
+        {
+          "text": "我觉得操纵别人很容易。",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "当我发现自己在操纵别人时，我会感到不舒服。",
+          "value": "0",
+          "optionNo": "B"
+        }
+      ]
+    },
+    {
+      "text": "以下两个描述，哪一个更符合你？\nA. 我坚持获得应得的尊重。\nB. 我通常能得到应有的尊重。",
+      "type": "radio",
+      "orderNum": 10,
+      "options": [
+        {
+          "text": "我坚持获得应得的尊重。",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "我通常能得到应有的尊重。",
+          "value": "0",
+          "optionNo": "B"
+        }
+      ]
+    },
+    {
+      "text": "以下两个描述，哪一个更符合你？\nA. 如果有机会，我倾向于炫耀自己。\nB. 我不是那种喜欢炫耀的人。",
+      "type": "radio",
+      "orderNum": 11,
+      "options": [
+        {
+          "text": "如果有机会，我倾向于炫耀自己。",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "我不是那种喜欢炫耀的人。",
+          "value": "0",
+          "optionNo": "B"
+        }
+      ]
+    },
+    {
+      "text": "以下两个描述，哪一个更符合你？\nA. 我总是很清楚自己在做什么。\nB. 有时我并不确定自己在做什么。",
+      "type": "radio",
+      "orderNum": 12,
+      "options": [
+        {
+          "text": "我总是很清楚自己在做什么。",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "有时我并不确定自己在做什么。",
+          "value": "0",
+          "optionNo": "B"
+        }
+      ]
+    },
+    {
+      "text": "以下两个描述，哪一个更符合你？\nA. 我比其他人更有能力。\nB. 我可以从别人身上学到很多东西。",
+      "type": "radio",
+      "orderNum": 13,
+      "options": [
+        {
+          "text": "我比其他人更有能力。",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "我可以从别人身上学到很多东西。",
+          "value": "0",
+          "optionNo": "B"
+        }
+      ]
+    },
+    {
+      "text": "以下两个描述，哪一个更符合你？\nA. 我注定会成为一个了不起的人。\nB. 我希望自己能够取得成功。",
+      "type": "radio",
+      "orderNum": 14,
+      "options": [
+        {
+          "text": "我注定会成为一个了不起的人。",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "我希望自己能够取得成功。",
+          "value": "0",
+          "optionNo": "B"
+        }
+      ]
+    },
+    {
+      "text": "以下两个描述，哪一个更符合你？\nA. 我能让别人相信我想让他们相信的任何事情。\nB. 我不喜欢操纵别人。",
+      "type": "radio",
+      "orderNum": 15,
+      "options": [
+        {
+          "text": "我能让别人相信我想让他们相信的任何事情。",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "我不喜欢操纵别人。",
+          "value": "0",
+          "optionNo": "B"
+        }
+      ]
+    },
+    {
+      "text": "以下两个描述，哪一个更符合你？\nA. 我是一个天生的领导者。\nB. 领导力是需要后天赢得的。",
+      "type": "radio",
+      "orderNum": 16,
+      "options": [
+        {
+          "text": "我是一个天生的领导者。",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "领导力是需要后天赢得的。",
+          "value": "0",
+          "optionNo": "B"
+        }
+      ]
+    }
+  ],
+  "dimensions": [
+    {
+      "dimensionName": "自恋",
+      "dimensionCode": "narcissism",
+      "num": 1,
+      "evaluateExpression": "(hx_t_1 + hx_t_2 + hx_t_3 + hx_t_4 + hx_t_5 + hx_t_6 + hx_t_7 + hx_t_8 + hx_t_9 + hx_t_10 + hx_t_11 + hx_t_12 + hx_t_13 + hx_t_14 + hx_t_15 + hx_t_16) / 16",
+      "standardScoreFormula": "",
+      "results": [
+        {
+          "evaluateExpression": "hx_wd_y_1 <= 0.25",
+          "conclusionAnalysis": "自恋水平较低",
+          "suggestion": "您的自恋水平较低，表明您具有较为谦逊和务实的自我认知。您能够客观地看待自己的优缺点，在人际关系中倾向于平等和真诚。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_1 > 0.25 && hx_wd_y_1 <= 0.50",
+          "conclusionAnalysis": "自恋水平正常偏低",
+          "suggestion": "您的自恋水平处于正常范围的较低端，表明您具有适度的自信，同时保持了良好的自我觉察能力和共情能力。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_1 > 0.50 && hx_wd_y_1 <= 0.75",
+          "conclusionAnalysis": "自恋水平偏高",
+          "suggestion": "您的自恋水平偏高，表明您对自我重要性有较强的感受，可能倾向于自我中心化和夸大自我。建议关注他人的感受和需求，培养共情能力。",
+          "assessmentWarning": "low"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_1 > 0.75",
+          "conclusionAnalysis": "自恋水平显著偏高",
+          "suggestion": "您的自恋水平显著偏高，表明您具有较强的自我中心倾向、对赞美的渴望以及对权力的追求。这可能影响您的人际关系质量。建议进行深入的自我反思，如有需要可寻求专业心理咨询。",
+          "assessmentWarning": "middle"
+        }
+      ]
+    }
+  ]
+}

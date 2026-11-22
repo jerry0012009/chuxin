@@ -1,0 +1,545 @@
+{
+  "id": 111,
+  "title": "自我接纳问卷（SQA）",
+  "type": "basic",
+  "questions": [
+    {
+      "id": 2511,
+      "text": "我内心的愿望从不敢说出来",
+      "type": "radio",
+      "orderNum": 1,
+      "options": [
+        {
+          "id": 9895,
+          "optionNo": "A",
+          "text": "非常相同",
+          "value": "1"
+        },
+        {
+          "id": 9896,
+          "optionNo": "B",
+          "text": "基本相同",
+          "value": "2"
+        },
+        {
+          "id": 9897,
+          "optionNo": "C",
+          "text": "基本相反",
+          "value": "3"
+        },
+        {
+          "id": 9898,
+          "optionNo": "D",
+          "text": "非常相反",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 2512,
+      "text": "我几乎全是优点和长处",
+      "type": "radio",
+      "orderNum": 2,
+      "options": [
+        {
+          "id": 9899,
+          "optionNo": "A",
+          "text": "非常相同",
+          "value": "4"
+        },
+        {
+          "id": 9900,
+          "optionNo": "B",
+          "text": "基本相同",
+          "value": "3"
+        },
+        {
+          "id": 9901,
+          "optionNo": "C",
+          "text": "基本相反",
+          "value": "2"
+        },
+        {
+          "id": 9902,
+          "optionNo": "D",
+          "text": "非常相反",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 2513,
+      "text": "我认为异性肯定会喜欢我",
+      "type": "radio",
+      "orderNum": 3,
+      "options": [
+        {
+          "id": 9903,
+          "optionNo": "A",
+          "text": "非常相同",
+          "value": "4"
+        },
+        {
+          "id": 9904,
+          "optionNo": "B",
+          "text": "基本相同",
+          "value": "3"
+        },
+        {
+          "id": 9905,
+          "optionNo": "C",
+          "text": "基本相反",
+          "value": "2"
+        },
+        {
+          "id": 9906,
+          "optionNo": "D",
+          "text": "非常相反",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 2514,
+      "text": "我总是因害怕做不好而不敢做事",
+      "type": "radio",
+      "orderNum": 4,
+      "options": [
+        {
+          "id": 9907,
+          "optionNo": "A",
+          "text": "非常相同",
+          "value": "1"
+        },
+        {
+          "id": 9908,
+          "optionNo": "B",
+          "text": "基本相同",
+          "value": "2"
+        },
+        {
+          "id": 9909,
+          "optionNo": "C",
+          "text": "基本相反",
+          "value": "3"
+        },
+        {
+          "id": 9910,
+          "optionNo": "D",
+          "text": "非常相反",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 2515,
+      "text": "我对自己的身材相貌感到很满意",
+      "type": "radio",
+      "orderNum": 5,
+      "options": [
+        {
+          "id": 9911,
+          "optionNo": "A",
+          "text": "非常相同",
+          "value": "4"
+        },
+        {
+          "id": 9912,
+          "optionNo": "B",
+          "text": "基本相同",
+          "value": "3"
+        },
+        {
+          "id": 9913,
+          "optionNo": "C",
+          "text": "基本相反",
+          "value": "2"
+        },
+        {
+          "id": 9914,
+          "optionNo": "D",
+          "text": "非常相反",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 2516,
+      "text": "总的来说，我对自己很满意",
+      "type": "radio",
+      "orderNum": 6,
+      "options": [
+        {
+          "id": 9915,
+          "optionNo": "A",
+          "text": "非常相同",
+          "value": "4"
+        },
+        {
+          "id": 9916,
+          "optionNo": "B",
+          "text": "基本相同",
+          "value": "3"
+        },
+        {
+          "id": 9917,
+          "optionNo": "C",
+          "text": "基本相反",
+          "value": "2"
+        },
+        {
+          "id": 9918,
+          "optionNo": "D",
+          "text": "非常相反",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 2517,
+      "text": "做任何事情只有得到别人的肯定我才放心",
+      "type": "radio",
+      "orderNum": 7,
+      "options": [
+        {
+          "id": 9919,
+          "optionNo": "A",
+          "text": "非常相同",
+          "value": "1"
+        },
+        {
+          "id": 9920,
+          "optionNo": "B",
+          "text": "基本相同",
+          "value": "2"
+        },
+        {
+          "id": 9921,
+          "optionNo": "C",
+          "text": "基本相反",
+          "value": "3"
+        },
+        {
+          "id": 9922,
+          "optionNo": "D",
+          "text": "非常相反",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 2518,
+      "text": "我总是担心会受到别人的批评",
+      "type": "radio",
+      "orderNum": 8,
+      "options": [
+        {
+          "id": 9923,
+          "optionNo": "A",
+          "text": "非常相同",
+          "value": "1"
+        },
+        {
+          "id": 9924,
+          "optionNo": "B",
+          "text": "基本相同",
+          "value": "2"
+        },
+        {
+          "id": 9925,
+          "optionNo": "C",
+          "text": "基本相反",
+          "value": "3"
+        },
+        {
+          "id": 9926,
+          "optionNo": "D",
+          "text": "非常相反",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 2519,
+      "text": "学新东西时我总比别人学得快",
+      "type": "radio",
+      "orderNum": 9,
+      "options": [
+        {
+          "id": 9927,
+          "optionNo": "A",
+          "text": "非常相同",
+          "value": "4"
+        },
+        {
+          "id": 9928,
+          "optionNo": "B",
+          "text": "基本相同",
+          "value": "3"
+        },
+        {
+          "id": 9929,
+          "optionNo": "C",
+          "text": "基本相反",
+          "value": "2"
+        },
+        {
+          "id": 9930,
+          "optionNo": "D",
+          "text": "非常相反",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 2520,
+      "text": "我对自己的口才感到满意",
+      "type": "radio",
+      "orderNum": 10,
+      "options": [
+        {
+          "id": 9931,
+          "optionNo": "A",
+          "text": "非常相同",
+          "value": "4"
+        },
+        {
+          "id": 9932,
+          "optionNo": "B",
+          "text": "基本相同",
+          "value": "3"
+        },
+        {
+          "id": 9933,
+          "optionNo": "C",
+          "text": "基本相反",
+          "value": "2"
+        },
+        {
+          "id": 9934,
+          "optionNo": "D",
+          "text": "非常相反",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 2521,
+      "text": "做任何事情之前我总是预想到自己会失败",
+      "type": "radio",
+      "orderNum": 11,
+      "options": [
+        {
+          "id": 9935,
+          "optionNo": "A",
+          "text": "非常相同",
+          "value": "1"
+        },
+        {
+          "id": 9936,
+          "optionNo": "B",
+          "text": "基本相同",
+          "value": "2"
+        },
+        {
+          "id": 9937,
+          "optionNo": "C",
+          "text": "基本相反",
+          "value": "3"
+        },
+        {
+          "id": 9938,
+          "optionNo": "D",
+          "text": "非常相反",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 2522,
+      "text": "我能做好自己所有的事情",
+      "type": "radio",
+      "orderNum": 12,
+      "options": [
+        {
+          "id": 9939,
+          "optionNo": "A",
+          "text": "非常相同",
+          "value": "4"
+        },
+        {
+          "id": 9940,
+          "optionNo": "B",
+          "text": "基本相同",
+          "value": "3"
+        },
+        {
+          "id": 9941,
+          "optionNo": "C",
+          "text": "基本相反",
+          "value": "2"
+        },
+        {
+          "id": 9942,
+          "optionNo": "D",
+          "text": "非常相反",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 2523,
+      "text": "我认为别人都不喜欢我",
+      "type": "radio",
+      "orderNum": 13,
+      "options": [
+        {
+          "id": 9943,
+          "optionNo": "A",
+          "text": "非常相同",
+          "value": "1"
+        },
+        {
+          "id": 9944,
+          "optionNo": "B",
+          "text": "基本相同",
+          "value": "2"
+        },
+        {
+          "id": 9945,
+          "optionNo": "C",
+          "text": "基本相反",
+          "value": "3"
+        },
+        {
+          "id": 9946,
+          "optionNo": "D",
+          "text": "非常相反",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 2524,
+      "text": "我总担心自己会惹别人不高兴",
+      "type": "radio",
+      "orderNum": 14,
+      "options": [
+        {
+          "id": 9947,
+          "optionNo": "A",
+          "text": "非常相同",
+          "value": "1"
+        },
+        {
+          "id": 9948,
+          "optionNo": "B",
+          "text": "基本相同",
+          "value": "2"
+        },
+        {
+          "id": 9949,
+          "optionNo": "C",
+          "text": "基本相反",
+          "value": "3"
+        },
+        {
+          "id": 9950,
+          "optionNo": "D",
+          "text": "非常相反",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 2525,
+      "text": "我很喜欢自己的性格特点",
+      "type": "radio",
+      "orderNum": 15,
+      "options": [
+        {
+          "id": 9951,
+          "optionNo": "A",
+          "text": "非常相同",
+          "value": "4"
+        },
+        {
+          "id": 9952,
+          "optionNo": "B",
+          "text": "基本相同",
+          "value": "3"
+        },
+        {
+          "id": 9953,
+          "optionNo": "C",
+          "text": "基本相反",
+          "value": "2"
+        },
+        {
+          "id": 9954,
+          "optionNo": "D",
+          "text": "非常相反",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 2526,
+      "text": "我总是担心别人会看不起我",
+      "type": "radio",
+      "orderNum": 16,
+      "options": [
+        {
+          "id": 9955,
+          "optionNo": "A",
+          "text": "非常相同",
+          "value": "1"
+        },
+        {
+          "id": 9956,
+          "optionNo": "B",
+          "text": "基本相同",
+          "value": "2"
+        },
+        {
+          "id": 9957,
+          "optionNo": "C",
+          "text": "基本相反",
+          "value": "3"
+        },
+        {
+          "id": 9958,
+          "optionNo": "D",
+          "text": "非常相反",
+          "value": "4"
+        }
+      ]
+    }
+  ],
+  "dimensions": [
+    {
+      "id": 311,
+      "num": 1,
+      "dimensionName": "总分",
+      "dimensionCode": "A",
+      "evaluateExpression": "hx_t_1 + hx_t_2 + hx_t_3 + hx_t_4 + hx_t_5 + hx_t_6 + hx_t_7 + hx_t_8 + hx_t_9 + hx_t_10 + hx_t_11 + hx_t_12 + hx_t_13 + hx_t_14 + hx_t_15 + hx_t_16",
+      "standardScoreFormula": "0",
+      "results": [
+        {
+          "id": 604,
+          "evaluateExpression": "hx_wd_y_1 >= 16&& hx_wd_y_1 <= 42",
+          "conclusionAnalysis": "自我接纳程度较低，对自我的评价也较低，",
+          "suggestion": "建议通过日常生活的积累和实践能力的提升，增加对自己的认识和了解，对自己做出更客观的评价，客观地接受他人对自己的评价，不要完全受到他人影响。",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 605,
+          "evaluateExpression": "hx_wd_y_1 >= 43&& hx_wd_y_1 <= 64",
+          "conclusionAnalysis": "自我接纳程度较高，对自我的评价较高",
+          "suggestion": "能够正确认和悦纳自己身体、能力和性格等方面，能欣然正视和接受自己现实的一切，不因存在的某种缺点、失误而自卑。当前状态较好，请继续保持。",
+          "assessmentWarning": "none"
+        }
+      ]
+    }
+  ]
+}

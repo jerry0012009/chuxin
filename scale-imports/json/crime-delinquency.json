@@ -1,0 +1,1745 @@
+{
+  "id": "crime-delinquency",
+  "title": "犯罪与违法行为量表",
+  "description": "本问卷了解您在过去一年中的各种行为发生频率，帮助评估行为风险。共48题，大约需要10分钟完成。",
+  "type": "basic",
+  "questions": [
+    {
+      "text": "在过去一年中，您动手打过别人（包括扇耳光、推搡等）。",
+      "type": "radio",
+      "orderNum": 1,
+      "options": [
+        {
+          "text": "0次（没有做过）",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "1次",
+          "value": "1",
+          "optionNo": "B"
+        },
+        {
+          "text": "2-3次",
+          "value": "2",
+          "optionNo": "C"
+        },
+        {
+          "text": "4-5次",
+          "value": "3",
+          "optionNo": "D"
+        },
+        {
+          "text": "6次或更多",
+          "value": "4",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "在过去一年中，您参与过群体斗殴。",
+      "type": "radio",
+      "orderNum": 2,
+      "options": [
+        {
+          "text": "0次（没有做过）",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "1次",
+          "value": "1",
+          "optionNo": "B"
+        },
+        {
+          "text": "2-3次",
+          "value": "2",
+          "optionNo": "C"
+        },
+        {
+          "text": "4-5次",
+          "value": "3",
+          "optionNo": "D"
+        },
+        {
+          "text": "6次或更多",
+          "value": "4",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "在过去一年中，您威胁过要伤害他人。",
+      "type": "radio",
+      "orderNum": 3,
+      "options": [
+        {
+          "text": "0次（没有做过）",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "1次",
+          "value": "1",
+          "optionNo": "B"
+        },
+        {
+          "text": "2-3次",
+          "value": "2",
+          "optionNo": "C"
+        },
+        {
+          "text": "4-5次",
+          "value": "3",
+          "optionNo": "D"
+        },
+        {
+          "text": "6次或更多",
+          "value": "4",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "在过去一年中，您使用武器（如刀具、棍棒等）威胁过他人。",
+      "type": "radio",
+      "orderNum": 4,
+      "options": [
+        {
+          "text": "0次（没有做过）",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "1次",
+          "value": "1",
+          "optionNo": "B"
+        },
+        {
+          "text": "2-3次",
+          "value": "2",
+          "optionNo": "C"
+        },
+        {
+          "text": "4-5次",
+          "value": "3",
+          "optionNo": "D"
+        },
+        {
+          "text": "6次或更多",
+          "value": "4",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "在过去一年中，您故意损坏过他人的财物以发泄愤怒。",
+      "type": "radio",
+      "orderNum": 5,
+      "options": [
+        {
+          "text": "0次（没有做过）",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "1次",
+          "value": "1",
+          "optionNo": "B"
+        },
+        {
+          "text": "2-3次",
+          "value": "2",
+          "optionNo": "C"
+        },
+        {
+          "text": "4-5次",
+          "value": "3",
+          "optionNo": "D"
+        },
+        {
+          "text": "6次或更多",
+          "value": "4",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "在过去一年中，您对家人或亲密伴侣动过手。",
+      "type": "radio",
+      "orderNum": 6,
+      "options": [
+        {
+          "text": "0次（没有做过）",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "1次",
+          "value": "1",
+          "optionNo": "B"
+        },
+        {
+          "text": "2-3次",
+          "value": "2",
+          "optionNo": "C"
+        },
+        {
+          "text": "4-5次",
+          "value": "3",
+          "optionNo": "D"
+        },
+        {
+          "text": "6次或更多",
+          "value": "4",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "在过去一年中，您欺凌或恐吓过他人（包括网络欺凌）。",
+      "type": "radio",
+      "orderNum": 7,
+      "options": [
+        {
+          "text": "0次（没有做过）",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "1次",
+          "value": "1",
+          "optionNo": "B"
+        },
+        {
+          "text": "2-3次",
+          "value": "2",
+          "optionNo": "C"
+        },
+        {
+          "text": "4-5次",
+          "value": "3",
+          "optionNo": "D"
+        },
+        {
+          "text": "6次或更多",
+          "value": "4",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "在过去一年中，您故意伤害过动物。",
+      "type": "radio",
+      "orderNum": 8,
+      "options": [
+        {
+          "text": "0次（没有做过）",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "1次",
+          "value": "1",
+          "optionNo": "B"
+        },
+        {
+          "text": "2-3次",
+          "value": "2",
+          "optionNo": "C"
+        },
+        {
+          "text": "4-5次",
+          "value": "3",
+          "optionNo": "D"
+        },
+        {
+          "text": "6次或更多",
+          "value": "4",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "在过去一年中，您在愤怒中扔过东西或砸过物品。",
+      "type": "radio",
+      "orderNum": 9,
+      "options": [
+        {
+          "text": "0次（没有做过）",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "1次",
+          "value": "1",
+          "optionNo": "B"
+        },
+        {
+          "text": "2-3次",
+          "value": "2",
+          "optionNo": "C"
+        },
+        {
+          "text": "4-5次",
+          "value": "3",
+          "optionNo": "D"
+        },
+        {
+          "text": "6次或更多",
+          "value": "4",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "在过去一年中，您因打架导致他人受伤。",
+      "type": "radio",
+      "orderNum": 10,
+      "options": [
+        {
+          "text": "0次（没有做过）",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "1次",
+          "value": "1",
+          "optionNo": "B"
+        },
+        {
+          "text": "2-3次",
+          "value": "2",
+          "optionNo": "C"
+        },
+        {
+          "text": "4-5次",
+          "value": "3",
+          "optionNo": "D"
+        },
+        {
+          "text": "6次或更多",
+          "value": "4",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "在过去一年中，您胁迫他人做他们不愿意做的事情。",
+      "type": "radio",
+      "orderNum": 11,
+      "options": [
+        {
+          "text": "0次（没有做过）",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "1次",
+          "value": "1",
+          "optionNo": "B"
+        },
+        {
+          "text": "2-3次",
+          "value": "2",
+          "optionNo": "C"
+        },
+        {
+          "text": "4-5次",
+          "value": "3",
+          "optionNo": "D"
+        },
+        {
+          "text": "6次或更多",
+          "value": "4",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "在过去一年中，您参与过任何形式的人身攻击或伤人行为。",
+      "type": "radio",
+      "orderNum": 12,
+      "options": [
+        {
+          "text": "0次（没有做过）",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "1次",
+          "value": "1",
+          "optionNo": "B"
+        },
+        {
+          "text": "2-3次",
+          "value": "2",
+          "optionNo": "C"
+        },
+        {
+          "text": "4-5次",
+          "value": "3",
+          "optionNo": "D"
+        },
+        {
+          "text": "6次或更多",
+          "value": "4",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "在过去一年中，您从商店偷过东西（入店行窃）。",
+      "type": "radio",
+      "orderNum": 13,
+      "options": [
+        {
+          "text": "0次（没有做过）",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "1次",
+          "value": "1",
+          "optionNo": "B"
+        },
+        {
+          "text": "2-3次",
+          "value": "2",
+          "optionNo": "C"
+        },
+        {
+          "text": "4-5次",
+          "value": "3",
+          "optionNo": "D"
+        },
+        {
+          "text": "6次或更多",
+          "value": "4",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "在过去一年中，您偷过他人的钱包、手机或其他个人物品。",
+      "type": "radio",
+      "orderNum": 14,
+      "options": [
+        {
+          "text": "0次（没有做过）",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "1次",
+          "value": "1",
+          "optionNo": "B"
+        },
+        {
+          "text": "2-3次",
+          "value": "2",
+          "optionNo": "C"
+        },
+        {
+          "text": "4-5次",
+          "value": "3",
+          "optionNo": "D"
+        },
+        {
+          "text": "6次或更多",
+          "value": "4",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "在过去一年中，您未经允许进入过他人的建筑或车辆。",
+      "type": "radio",
+      "orderNum": 15,
+      "options": [
+        {
+          "text": "0次（没有做过）",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "1次",
+          "value": "1",
+          "optionNo": "B"
+        },
+        {
+          "text": "2-3次",
+          "value": "2",
+          "optionNo": "C"
+        },
+        {
+          "text": "4-5次",
+          "value": "3",
+          "optionNo": "D"
+        },
+        {
+          "text": "6次或更多",
+          "value": "4",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "在过去一年中，您偷过自行车、摩托车或汽车。",
+      "type": "radio",
+      "orderNum": 16,
+      "options": [
+        {
+          "text": "0次（没有做过）",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "1次",
+          "value": "1",
+          "optionNo": "B"
+        },
+        {
+          "text": "2-3次",
+          "value": "2",
+          "optionNo": "C"
+        },
+        {
+          "text": "4-5次",
+          "value": "3",
+          "optionNo": "D"
+        },
+        {
+          "text": "6次或更多",
+          "value": "4",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "在过去一年中，您伪造过文件或签名。",
+      "type": "radio",
+      "orderNum": 17,
+      "options": [
+        {
+          "text": "0次（没有做过）",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "1次",
+          "value": "1",
+          "optionNo": "B"
+        },
+        {
+          "text": "2-3次",
+          "value": "2",
+          "optionNo": "C"
+        },
+        {
+          "text": "4-5次",
+          "value": "3",
+          "optionNo": "D"
+        },
+        {
+          "text": "6次或更多",
+          "value": "4",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "在过去一年中，您在网上实施过诈骗或欺诈行为。",
+      "type": "radio",
+      "orderNum": 18,
+      "options": [
+        {
+          "text": "0次（没有做过）",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "1次",
+          "value": "1",
+          "optionNo": "B"
+        },
+        {
+          "text": "2-3次",
+          "value": "2",
+          "optionNo": "C"
+        },
+        {
+          "text": "4-5次",
+          "value": "3",
+          "optionNo": "D"
+        },
+        {
+          "text": "6次或更多",
+          "value": "4",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "在过去一年中，您故意损坏过公共设施或他人财物。",
+      "type": "radio",
+      "orderNum": 19,
+      "options": [
+        {
+          "text": "0次（没有做过）",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "1次",
+          "value": "1",
+          "optionNo": "B"
+        },
+        {
+          "text": "2-3次",
+          "value": "2",
+          "optionNo": "C"
+        },
+        {
+          "text": "4-5次",
+          "value": "3",
+          "optionNo": "D"
+        },
+        {
+          "text": "6次或更多",
+          "value": "4",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "在过去一年中，您使用过他人的信用卡或银行卡信息进行消费。",
+      "type": "radio",
+      "orderNum": 20,
+      "options": [
+        {
+          "text": "0次（没有做过）",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "1次",
+          "value": "1",
+          "optionNo": "B"
+        },
+        {
+          "text": "2-3次",
+          "value": "2",
+          "optionNo": "C"
+        },
+        {
+          "text": "4-5次",
+          "value": "3",
+          "optionNo": "D"
+        },
+        {
+          "text": "6次或更多",
+          "value": "4",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "在过去一年中，您参与过抢劫或抢夺行为。",
+      "type": "radio",
+      "orderNum": 21,
+      "options": [
+        {
+          "text": "0次（没有做过）",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "1次",
+          "value": "1",
+          "optionNo": "B"
+        },
+        {
+          "text": "2-3次",
+          "value": "2",
+          "optionNo": "C"
+        },
+        {
+          "text": "4-5次",
+          "value": "3",
+          "optionNo": "D"
+        },
+        {
+          "text": "6次或更多",
+          "value": "4",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "在过去一年中，您通过纵火来损坏财物。",
+      "type": "radio",
+      "orderNum": 22,
+      "options": [
+        {
+          "text": "0次（没有做过）",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "1次",
+          "value": "1",
+          "optionNo": "B"
+        },
+        {
+          "text": "2-3次",
+          "value": "2",
+          "optionNo": "C"
+        },
+        {
+          "text": "4-5次",
+          "value": "3",
+          "optionNo": "D"
+        },
+        {
+          "text": "6次或更多",
+          "value": "4",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "在过去一年中，您使用过非法药物（如大麻、摇头丸、冰毒等）。",
+      "type": "radio",
+      "orderNum": 23,
+      "options": [
+        {
+          "text": "0次（没有做过）",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "1次",
+          "value": "1",
+          "optionNo": "B"
+        },
+        {
+          "text": "2-3次",
+          "value": "2",
+          "optionNo": "C"
+        },
+        {
+          "text": "4-5次",
+          "value": "3",
+          "optionNo": "D"
+        },
+        {
+          "text": "6次或更多",
+          "value": "4",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "在过去一年中，您出售或分发过非法药物。",
+      "type": "radio",
+      "orderNum": 24,
+      "options": [
+        {
+          "text": "0次（没有做过）",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "1次",
+          "value": "1",
+          "optionNo": "B"
+        },
+        {
+          "text": "2-3次",
+          "value": "2",
+          "optionNo": "C"
+        },
+        {
+          "text": "4-5次",
+          "value": "3",
+          "optionNo": "D"
+        },
+        {
+          "text": "6次或更多",
+          "value": "4",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "在过去一年中，您持有过非法药物。",
+      "type": "radio",
+      "orderNum": 25,
+      "options": [
+        {
+          "text": "0次（没有做过）",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "1次",
+          "value": "1",
+          "optionNo": "B"
+        },
+        {
+          "text": "2-3次",
+          "value": "2",
+          "optionNo": "C"
+        },
+        {
+          "text": "4-5次",
+          "value": "3",
+          "optionNo": "D"
+        },
+        {
+          "text": "6次或更多",
+          "value": "4",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "在过去一年中，您在醉酒或药物影响下驾驶过车辆。",
+      "type": "radio",
+      "orderNum": 26,
+      "options": [
+        {
+          "text": "0次（没有做过）",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "1次",
+          "value": "1",
+          "optionNo": "B"
+        },
+        {
+          "text": "2-3次",
+          "value": "2",
+          "optionNo": "C"
+        },
+        {
+          "text": "4-5次",
+          "value": "3",
+          "optionNo": "D"
+        },
+        {
+          "text": "6次或更多",
+          "value": "4",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "在过去一年中，您使用过他人的处方药物。",
+      "type": "radio",
+      "orderNum": 27,
+      "options": [
+        {
+          "text": "0次（没有做过）",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "1次",
+          "value": "1",
+          "optionNo": "B"
+        },
+        {
+          "text": "2-3次",
+          "value": "2",
+          "optionNo": "C"
+        },
+        {
+          "text": "4-5次",
+          "value": "3",
+          "optionNo": "D"
+        },
+        {
+          "text": "6次或更多",
+          "value": "4",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "在过去一年中，您参与过非法药物的运输。",
+      "type": "radio",
+      "orderNum": 28,
+      "options": [
+        {
+          "text": "0次（没有做过）",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "1次",
+          "value": "1",
+          "optionNo": "B"
+        },
+        {
+          "text": "2-3次",
+          "value": "2",
+          "optionNo": "C"
+        },
+        {
+          "text": "4-5次",
+          "value": "3",
+          "optionNo": "D"
+        },
+        {
+          "text": "6次或更多",
+          "value": "4",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "在过去一年中，您为了获得药物而做过违法的事情。",
+      "type": "radio",
+      "orderNum": 29,
+      "options": [
+        {
+          "text": "0次（没有做过）",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "1次",
+          "value": "1",
+          "optionNo": "B"
+        },
+        {
+          "text": "2-3次",
+          "value": "2",
+          "optionNo": "C"
+        },
+        {
+          "text": "4-5次",
+          "value": "3",
+          "optionNo": "D"
+        },
+        {
+          "text": "6次或更多",
+          "value": "4",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "在过去一年中，您尝试过制造或合成非法药物。",
+      "type": "radio",
+      "orderNum": 30,
+      "options": [
+        {
+          "text": "0次（没有做过）",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "1次",
+          "value": "1",
+          "optionNo": "B"
+        },
+        {
+          "text": "2-3次",
+          "value": "2",
+          "optionNo": "C"
+        },
+        {
+          "text": "4-5次",
+          "value": "3",
+          "optionNo": "D"
+        },
+        {
+          "text": "6次或更多",
+          "value": "4",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "在过去一年中，您提供过场所供他人使用非法药物。",
+      "type": "radio",
+      "orderNum": 31,
+      "options": [
+        {
+          "text": "0次（没有做过）",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "1次",
+          "value": "1",
+          "optionNo": "B"
+        },
+        {
+          "text": "2-3次",
+          "value": "2",
+          "optionNo": "C"
+        },
+        {
+          "text": "4-5次",
+          "value": "3",
+          "optionNo": "D"
+        },
+        {
+          "text": "6次或更多",
+          "value": "4",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "在过去一年中，您在公共场所醉酒闹事。",
+      "type": "radio",
+      "orderNum": 32,
+      "options": [
+        {
+          "text": "0次（没有做过）",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "1次",
+          "value": "1",
+          "optionNo": "B"
+        },
+        {
+          "text": "2-3次",
+          "value": "2",
+          "optionNo": "C"
+        },
+        {
+          "text": "4-5次",
+          "value": "3",
+          "optionNo": "D"
+        },
+        {
+          "text": "6次或更多",
+          "value": "4",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "在过去一年中，您对他人实施过性骚扰（包括言语和肢体）。",
+      "type": "radio",
+      "orderNum": 33,
+      "options": [
+        {
+          "text": "0次（没有做过）",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "1次",
+          "value": "1",
+          "optionNo": "B"
+        },
+        {
+          "text": "2-3次",
+          "value": "2",
+          "optionNo": "C"
+        },
+        {
+          "text": "4-5次",
+          "value": "3",
+          "optionNo": "D"
+        },
+        {
+          "text": "6次或更多",
+          "value": "4",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "在过去一年中，您在对方不同意的情况下触摸过他人的身体。",
+      "type": "radio",
+      "orderNum": 34,
+      "options": [
+        {
+          "text": "0次（没有做过）",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "1次",
+          "value": "1",
+          "optionNo": "B"
+        },
+        {
+          "text": "2-3次",
+          "value": "2",
+          "optionNo": "C"
+        },
+        {
+          "text": "4-5次",
+          "value": "3",
+          "optionNo": "D"
+        },
+        {
+          "text": "6次或更多",
+          "value": "4",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "在过去一年中，您传播过他人的私密照片或视频。",
+      "type": "radio",
+      "orderNum": 35,
+      "options": [
+        {
+          "text": "0次（没有做过）",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "1次",
+          "value": "1",
+          "optionNo": "B"
+        },
+        {
+          "text": "2-3次",
+          "value": "2",
+          "optionNo": "C"
+        },
+        {
+          "text": "4-5次",
+          "value": "3",
+          "optionNo": "D"
+        },
+        {
+          "text": "6次或更多",
+          "value": "4",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "在过去一年中，您观看或传播过非法的色情内容。",
+      "type": "radio",
+      "orderNum": 36,
+      "options": [
+        {
+          "text": "0次（没有做过）",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "1次",
+          "value": "1",
+          "optionNo": "B"
+        },
+        {
+          "text": "2-3次",
+          "value": "2",
+          "optionNo": "C"
+        },
+        {
+          "text": "4-5次",
+          "value": "3",
+          "optionNo": "D"
+        },
+        {
+          "text": "6次或更多",
+          "value": "4",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "在过去一年中，您暴露过自己的身体以引起他人不适。",
+      "type": "radio",
+      "orderNum": 37,
+      "options": [
+        {
+          "text": "0次（没有做过）",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "1次",
+          "value": "1",
+          "optionNo": "B"
+        },
+        {
+          "text": "2-3次",
+          "value": "2",
+          "optionNo": "C"
+        },
+        {
+          "text": "4-5次",
+          "value": "3",
+          "optionNo": "D"
+        },
+        {
+          "text": "6次或更多",
+          "value": "4",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "在过去一年中，您在网上对他人进行过性方面的骚扰或跟踪。",
+      "type": "radio",
+      "orderNum": 38,
+      "options": [
+        {
+          "text": "0次（没有做过）",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "1次",
+          "value": "1",
+          "optionNo": "B"
+        },
+        {
+          "text": "2-3次",
+          "value": "2",
+          "optionNo": "C"
+        },
+        {
+          "text": "4-5次",
+          "value": "3",
+          "optionNo": "D"
+        },
+        {
+          "text": "6次或更多",
+          "value": "4",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "在过去一年中，您逃过票（如公交、地铁、火车等）。",
+      "type": "radio",
+      "orderNum": 39,
+      "options": [
+        {
+          "text": "0次（没有做过）",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "1次",
+          "value": "1",
+          "optionNo": "B"
+        },
+        {
+          "text": "2-3次",
+          "value": "2",
+          "optionNo": "C"
+        },
+        {
+          "text": "4-5次",
+          "value": "3",
+          "optionNo": "D"
+        },
+        {
+          "text": "6次或更多",
+          "value": "4",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "在过去一年中，您使用过假证件（如假身份证、假学生证等）。",
+      "type": "radio",
+      "orderNum": 40,
+      "options": [
+        {
+          "text": "0次（没有做过）",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "1次",
+          "value": "1",
+          "optionNo": "B"
+        },
+        {
+          "text": "2-3次",
+          "value": "2",
+          "optionNo": "C"
+        },
+        {
+          "text": "4-5次",
+          "value": "3",
+          "optionNo": "D"
+        },
+        {
+          "text": "6次或更多",
+          "value": "4",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "在过去一年中，您在考试中作弊。",
+      "type": "radio",
+      "orderNum": 41,
+      "options": [
+        {
+          "text": "0次（没有做过）",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "1次",
+          "value": "1",
+          "optionNo": "B"
+        },
+        {
+          "text": "2-3次",
+          "value": "2",
+          "optionNo": "C"
+        },
+        {
+          "text": "4-5次",
+          "value": "3",
+          "optionNo": "D"
+        },
+        {
+          "text": "6次或更多",
+          "value": "4",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "在过去一年中，您故意散布过谣言或诽谤他人。",
+      "type": "radio",
+      "orderNum": 42,
+      "options": [
+        {
+          "text": "0次（没有做过）",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "1次",
+          "value": "1",
+          "optionNo": "B"
+        },
+        {
+          "text": "2-3次",
+          "value": "2",
+          "optionNo": "C"
+        },
+        {
+          "text": "4-5次",
+          "value": "3",
+          "optionNo": "D"
+        },
+        {
+          "text": "6次或更多",
+          "value": "4",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "在过去一年中，您参与过赌博活动。",
+      "type": "radio",
+      "orderNum": 43,
+      "options": [
+        {
+          "text": "0次（没有做过）",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "1次",
+          "value": "1",
+          "optionNo": "B"
+        },
+        {
+          "text": "2-3次",
+          "value": "2",
+          "optionNo": "C"
+        },
+        {
+          "text": "4-5次",
+          "value": "3",
+          "optionNo": "D"
+        },
+        {
+          "text": "6次或更多",
+          "value": "4",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "在过去一年中，您向执法人员提供过虚假信息。",
+      "type": "radio",
+      "orderNum": 44,
+      "options": [
+        {
+          "text": "0次（没有做过）",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "1次",
+          "value": "1",
+          "optionNo": "B"
+        },
+        {
+          "text": "2-3次",
+          "value": "2",
+          "optionNo": "C"
+        },
+        {
+          "text": "4-5次",
+          "value": "3",
+          "optionNo": "D"
+        },
+        {
+          "text": "6次或更多",
+          "value": "4",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "在过去一年中，您在没有许可的情况下参加过非法集会。",
+      "type": "radio",
+      "orderNum": 45,
+      "options": [
+        {
+          "text": "0次（没有做过）",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "1次",
+          "value": "1",
+          "optionNo": "B"
+        },
+        {
+          "text": "2-3次",
+          "value": "2",
+          "optionNo": "C"
+        },
+        {
+          "text": "4-5次",
+          "value": "3",
+          "optionNo": "D"
+        },
+        {
+          "text": "6次或更多",
+          "value": "4",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "在过去一年中，您违反过交通法规（如闯红灯、酒驾等）。",
+      "type": "radio",
+      "orderNum": 46,
+      "options": [
+        {
+          "text": "0次（没有做过）",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "1次",
+          "value": "1",
+          "optionNo": "B"
+        },
+        {
+          "text": "2-3次",
+          "value": "2",
+          "optionNo": "C"
+        },
+        {
+          "text": "4-5次",
+          "value": "3",
+          "optionNo": "D"
+        },
+        {
+          "text": "6次或更多",
+          "value": "4",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "在过去一年中，您非法下载或复制过受版权保护的软件或内容。",
+      "type": "radio",
+      "orderNum": 47,
+      "options": [
+        {
+          "text": "0次（没有做过）",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "1次",
+          "value": "1",
+          "optionNo": "B"
+        },
+        {
+          "text": "2-3次",
+          "value": "2",
+          "optionNo": "C"
+        },
+        {
+          "text": "4-5次",
+          "value": "3",
+          "optionNo": "D"
+        },
+        {
+          "text": "6次或更多",
+          "value": "4",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "在过去一年中，您参与过任何其他形式的违法活动。",
+      "type": "radio",
+      "orderNum": 48,
+      "options": [
+        {
+          "text": "0次（没有做过）",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "1次",
+          "value": "1",
+          "optionNo": "B"
+        },
+        {
+          "text": "2-3次",
+          "value": "2",
+          "optionNo": "C"
+        },
+        {
+          "text": "4-5次",
+          "value": "3",
+          "optionNo": "D"
+        },
+        {
+          "text": "6次或更多",
+          "value": "4",
+          "optionNo": "E"
+        }
+      ]
+    }
+  ],
+  "dimensions": [
+    {
+      "dimensionName": "暴力犯罪",
+      "dimensionCode": "violent_crime",
+      "num": 1,
+      "evaluateExpression": "hx_t_1 + hx_t_2 + hx_t_3 + hx_t_4 + hx_t_5 + hx_t_6 + hx_t_7 + hx_t_8 + hx_t_9 + hx_t_10 + hx_t_11 + hx_t_12",
+      "standardScoreFormula": "",
+      "results": [
+        {
+          "evaluateExpression": "hx_wd_y_1 == 0",
+          "conclusionAnalysis": "无暴力行为",
+          "suggestion": "在过去一年中未报告任何暴力行为。目前来看您在暴力犯罪方面没有风险。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_1 > 0 && hx_wd_y_1 <= 6",
+          "conclusionAnalysis": "暴力行为轻微",
+          "suggestion": "在过去一年中存在少量的暴力行为（如推搡、争吵中的肢体冲突等）。建议学习愤怒管理和冲突解决技巧。",
+          "assessmentWarning": "low"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_1 > 6 && hx_wd_y_1 <= 18",
+          "conclusionAnalysis": "暴力行为中等",
+          "suggestion": "在过去一年中存在较频繁的暴力行为，这可能对他人造成伤害并带来法律风险。强烈建议寻求专业的愤怒管理和情绪调节帮助。",
+          "assessmentWarning": "middle"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_1 > 18",
+          "conclusionAnalysis": "暴力行为严重",
+          "suggestion": "在过去一年中存在非常频繁的暴力行为，已经构成严重的社会风险。请立即寻求专业的行为干预和心理评估服务。",
+          "assessmentWarning": "high"
+        }
+      ]
+    },
+    {
+      "dimensionName": "财产犯罪",
+      "dimensionCode": "property_crime",
+      "num": 2,
+      "evaluateExpression": "hx_t_13 + hx_t_14 + hx_t_15 + hx_t_16 + hx_t_17 + hx_t_18 + hx_t_19 + hx_t_20 + hx_t_21 + hx_t_22",
+      "standardScoreFormula": "",
+      "results": [
+        {
+          "evaluateExpression": "hx_wd_y_2 == 0",
+          "conclusionAnalysis": "无财产犯罪行为",
+          "suggestion": "在过去一年中未报告任何财产犯罪行为。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_2 > 0 && hx_wd_y_2 <= 5",
+          "conclusionAnalysis": "财产犯罪行为轻微",
+          "suggestion": "在过去一年中存在少量的财产相关违法行为。请认识到这些行为的法律风险，建议停止此类行为。",
+          "assessmentWarning": "low"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_2 > 5 && hx_wd_y_2 <= 15",
+          "conclusionAnalysis": "财产犯罪行为中等",
+          "suggestion": "在过去一年中存在较频繁的财产犯罪行为。这些行为具有法律风险，建议寻求帮助以改变行为模式。",
+          "assessmentWarning": "middle"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_2 > 15",
+          "conclusionAnalysis": "财产犯罪行为严重",
+          "suggestion": "在过去一年中存在非常频繁的财产犯罪行为。强烈建议立即停止违法行为并寻求专业帮助。",
+          "assessmentWarning": "high"
+        }
+      ]
+    },
+    {
+      "dimensionName": "药物相关",
+      "dimensionCode": "drug_related",
+      "num": 3,
+      "evaluateExpression": "hx_t_23 + hx_t_24 + hx_t_25 + hx_t_26 + hx_t_27 + hx_t_28 + hx_t_29 + hx_t_30 + hx_t_31 + hx_t_32",
+      "standardScoreFormula": "",
+      "results": [
+        {
+          "evaluateExpression": "hx_wd_y_3 == 0",
+          "conclusionAnalysis": "无药物相关行为",
+          "suggestion": "在过去一年中未报告任何药物相关的违法行为。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_3 > 0 && hx_wd_y_3 <= 5",
+          "conclusionAnalysis": "药物相关行为轻微",
+          "suggestion": "在过去一年中存在少量的药物使用或相关行为。建议了解药物滥用的健康和法律风险，必要时寻求戒断支持。",
+          "assessmentWarning": "low"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_3 > 5 && hx_wd_y_3 <= 15",
+          "conclusionAnalysis": "药物相关行为中等",
+          "suggestion": "在过去一年中存在较频繁的药物使用或相关违法行为。药物滥用可能严重影响健康和社会功能，建议尽快寻求专业的药物依赖治疗。",
+          "assessmentWarning": "middle"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_3 > 15",
+          "conclusionAnalysis": "药物相关行为严重",
+          "suggestion": "在过去一年中存在非常频繁的药物使用和相关违法行为。请立即寻求专业的药物依赖治疗和行为干预服务。",
+          "assessmentWarning": "high"
+        }
+      ]
+    },
+    {
+      "dimensionName": "性犯罪",
+      "dimensionCode": "sex_crime",
+      "num": 4,
+      "evaluateExpression": "hx_t_33 + hx_t_34 + hx_t_35 + hx_t_36 + hx_t_37 + hx_t_38",
+      "standardScoreFormula": "",
+      "results": [
+        {
+          "evaluateExpression": "hx_wd_y_4 == 0",
+          "conclusionAnalysis": "无性犯罪行为",
+          "suggestion": "在过去一年中未报告任何性方面的违法行为。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_4 > 0 && hx_wd_y_4 <= 3",
+          "conclusionAnalysis": "性犯罪行为轻微",
+          "suggestion": "在过去一年中存在少量的性骚扰或不当行为。请认识到此类行为对他人造成的伤害和法律后果，建议立即停止并反思。",
+          "assessmentWarning": "low"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_4 > 3 && hx_wd_y_4 <= 10",
+          "conclusionAnalysis": "性犯罪行为中等",
+          "suggestion": "在过去一年中存在较频繁的性相关违法行为。这些行为对受害者造成严重伤害，强烈建议寻求专业的行为评估和干预。",
+          "assessmentWarning": "middle"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_4 > 10",
+          "conclusionAnalysis": "性犯罪行为严重",
+          "suggestion": "在过去一年中存在非常频繁的性犯罪行为。这是非常严重的问题，请立即寻求专业的行为治疗和法律咨询。",
+          "assessmentWarning": "high"
+        }
+      ]
+    },
+    {
+      "dimensionName": "其他违法行为",
+      "dimensionCode": "other_delinquency",
+      "num": 5,
+      "evaluateExpression": "hx_t_39 + hx_t_40 + hx_t_41 + hx_t_42 + hx_t_43 + hx_t_44 + hx_t_45 + hx_t_46 + hx_t_47 + hx_t_48",
+      "standardScoreFormula": "",
+      "results": [
+        {
+          "evaluateExpression": "hx_wd_y_5 == 0",
+          "conclusionAnalysis": "无其他违法行为",
+          "suggestion": "在过去一年中未报告其他类型的违法行为。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_5 > 0 && hx_wd_y_5 <= 5",
+          "conclusionAnalysis": "其他违法行为轻微",
+          "suggestion": "在过去一年中存在少量的轻微违法行为。建议增强法律意识，避免这些行为升级。",
+          "assessmentWarning": "low"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_5 > 5 && hx_wd_y_5 <= 15",
+          "conclusionAnalysis": "其他违法行为中等",
+          "suggestion": "在过去一年中存在较频繁的违法行为。建议反思这些行为的根源，必要时寻求专业帮助来改善行为模式。",
+          "assessmentWarning": "middle"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_5 > 15",
+          "conclusionAnalysis": "其他违法行为严重",
+          "suggestion": "在过去一年中存在非常频繁的违法行为。建议认真审视自己的行为，并寻求专业的评估和干预。",
+          "assessmentWarning": "high"
+        }
+      ]
+    },
+    {
+      "dimensionName": "违法行为总分",
+      "dimensionCode": "total_crime",
+      "num": 6,
+      "evaluateExpression": "hx_t_1 + hx_t_2 + hx_t_3 + hx_t_4 + hx_t_5 + hx_t_6 + hx_t_7 + hx_t_8 + hx_t_9 + hx_t_10 + hx_t_11 + hx_t_12 + hx_t_13 + hx_t_14 + hx_t_15 + hx_t_16 + hx_t_17 + hx_t_18 + hx_t_19 + hx_t_20 + hx_t_21 + hx_t_22 + hx_t_23 + hx_t_24 + hx_t_25 + hx_t_26 + hx_t_27 + hx_t_28 + hx_t_29 + hx_t_30 + hx_t_31 + hx_t_32 + hx_t_33 + hx_t_34 + hx_t_35 + hx_t_36 + hx_t_37 + hx_t_38 + hx_t_39 + hx_t_40 + hx_t_41 + hx_t_42 + hx_t_43 + hx_t_44 + hx_t_45 + hx_t_46 + hx_t_47 + hx_t_48",
+      "standardScoreFormula": "",
+      "results": [
+        {
+          "evaluateExpression": "hx_wd_y_6 == 0",
+          "conclusionAnalysis": "无违法行为",
+          "suggestion": "在过去一年中未报告任何违法行为。您遵守法律法规，行为表现良好。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_6 > 0 && hx_wd_y_6 <= 12",
+          "conclusionAnalysis": "违法行为轻微",
+          "suggestion": "在过去一年中存在少量的违法行为。建议增强法律意识，认识到违法行为的后果，并积极改正。",
+          "assessmentWarning": "low"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_6 > 12 && hx_wd_y_6 <= 48",
+          "conclusionAnalysis": "违法行为中等",
+          "suggestion": "在过去一年中存在较频繁的违法行为，涵盖多个领域。建议认真反思并寻求专业帮助来改善行为模式，避免进一步的法律风险。",
+          "assessmentWarning": "middle"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_6 > 48",
+          "conclusionAnalysis": "违法行为严重",
+          "suggestion": "在过去一年中存在非常频繁的违法行为。您的行为模式已经构成严重的法律和社会风险。强烈建议尽快寻求专业的行为评估、心理干预和法律咨询。",
+          "assessmentWarning": "high"
+        }
+      ]
+    }
+  ],
+  "answer": "custom"
+}

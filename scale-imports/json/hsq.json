@@ -1,0 +1,1462 @@
+{
+  "id": "hsq",
+  "title": "幽默风格问卷(HSQ)",
+  "description": "本问卷帮助了解您使用幽默的方式和风格。共32题，大约需要8分钟完成。",
+  "type": "basic",
+  "questions": [
+    {
+      "text": "我通常不会和别人开玩笑。",
+      "type": "radio",
+      "orderNum": 1,
+      "options": [
+        {
+          "text": "完全同意",
+          "value": "7",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较同意",
+          "value": "6",
+          "optionNo": "B"
+        },
+        {
+          "text": "稍微同意",
+          "value": "5",
+          "optionNo": "C"
+        },
+        {
+          "text": "不确定",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "稍微不同意",
+          "value": "3",
+          "optionNo": "E"
+        },
+        {
+          "text": "比较不同意",
+          "value": "2",
+          "optionNo": "F"
+        },
+        {
+          "text": "完全不同意",
+          "value": "1",
+          "optionNo": "G"
+        }
+      ]
+    },
+    {
+      "text": "如果我感到难过或不开心，我通常会试着想一些有趣的事情来让自己高兴起来。",
+      "type": "radio",
+      "orderNum": 2,
+      "options": [
+        {
+          "text": "完全不同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较不同意",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "稍微不同意",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "不确定",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "稍微同意",
+          "value": "5",
+          "optionNo": "E"
+        },
+        {
+          "text": "比较同意",
+          "value": "6",
+          "optionNo": "F"
+        },
+        {
+          "text": "完全同意",
+          "value": "7",
+          "optionNo": "G"
+        }
+      ]
+    },
+    {
+      "text": "如果有人犯了错误，我常常会取笑他们。",
+      "type": "radio",
+      "orderNum": 3,
+      "options": [
+        {
+          "text": "完全不同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较不同意",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "稍微不同意",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "不确定",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "稍微同意",
+          "value": "5",
+          "optionNo": "E"
+        },
+        {
+          "text": "比较同意",
+          "value": "6",
+          "optionNo": "F"
+        },
+        {
+          "text": "完全同意",
+          "value": "7",
+          "optionNo": "G"
+        }
+      ]
+    },
+    {
+      "text": "我经常让自己成为别人取笑的对象来逗大家开心。",
+      "type": "radio",
+      "orderNum": 4,
+      "options": [
+        {
+          "text": "完全不同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较不同意",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "稍微不同意",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "不确定",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "稍微同意",
+          "value": "5",
+          "optionNo": "E"
+        },
+        {
+          "text": "比较同意",
+          "value": "6",
+          "optionNo": "F"
+        },
+        {
+          "text": "完全同意",
+          "value": "7",
+          "optionNo": "G"
+        }
+      ]
+    },
+    {
+      "text": "我和周围的人开的玩笑不会伤害到任何人。",
+      "type": "radio",
+      "orderNum": 5,
+      "options": [
+        {
+          "text": "完全不同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较不同意",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "稍微不同意",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "不确定",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "稍微同意",
+          "value": "5",
+          "optionNo": "E"
+        },
+        {
+          "text": "比较同意",
+          "value": "6",
+          "optionNo": "F"
+        },
+        {
+          "text": "完全同意",
+          "value": "7",
+          "optionNo": "G"
+        }
+      ]
+    },
+    {
+      "text": "当我独自一人感到不开心时，我通常会想一些有趣的事情来让自己感觉好一些。",
+      "type": "radio",
+      "orderNum": 6,
+      "options": [
+        {
+          "text": "完全不同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较不同意",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "稍微不同意",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "不确定",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "稍微同意",
+          "value": "5",
+          "optionNo": "E"
+        },
+        {
+          "text": "比较同意",
+          "value": "6",
+          "optionNo": "F"
+        },
+        {
+          "text": "完全同意",
+          "value": "7",
+          "optionNo": "G"
+        }
+      ]
+    },
+    {
+      "text": "有时我在讲笑话或说一些有趣的事情时，会不由自主地取笑别人。",
+      "type": "radio",
+      "orderNum": 7,
+      "options": [
+        {
+          "text": "完全不同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较不同意",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "稍微不同意",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "不确定",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "稍微同意",
+          "value": "5",
+          "optionNo": "E"
+        },
+        {
+          "text": "比较同意",
+          "value": "6",
+          "optionNo": "F"
+        },
+        {
+          "text": "完全同意",
+          "value": "7",
+          "optionNo": "G"
+        }
+      ]
+    },
+    {
+      "text": "我经常用自我贬低的方式来逗大家笑。",
+      "type": "radio",
+      "orderNum": 8,
+      "options": [
+        {
+          "text": "完全不同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较不同意",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "稍微不同意",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "不确定",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "稍微同意",
+          "value": "5",
+          "optionNo": "E"
+        },
+        {
+          "text": "比较同意",
+          "value": "6",
+          "optionNo": "F"
+        },
+        {
+          "text": "完全同意",
+          "value": "7",
+          "optionNo": "G"
+        }
+      ]
+    },
+    {
+      "text": "我很少讲关于自己好玩的事情来逗大家笑。",
+      "type": "radio",
+      "orderNum": 9,
+      "options": [
+        {
+          "text": "完全同意",
+          "value": "7",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较同意",
+          "value": "6",
+          "optionNo": "B"
+        },
+        {
+          "text": "稍微同意",
+          "value": "5",
+          "optionNo": "C"
+        },
+        {
+          "text": "不确定",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "稍微不同意",
+          "value": "3",
+          "optionNo": "E"
+        },
+        {
+          "text": "比较不同意",
+          "value": "2",
+          "optionNo": "F"
+        },
+        {
+          "text": "完全不同意",
+          "value": "1",
+          "optionNo": "G"
+        }
+      ]
+    },
+    {
+      "text": "如果我感到沮丧，我通常会试着想一些有趣的事情来让自己高兴起来。",
+      "type": "radio",
+      "orderNum": 10,
+      "options": [
+        {
+          "text": "完全不同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较不同意",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "稍微不同意",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "不确定",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "稍微同意",
+          "value": "5",
+          "optionNo": "E"
+        },
+        {
+          "text": "比较同意",
+          "value": "6",
+          "optionNo": "F"
+        },
+        {
+          "text": "完全同意",
+          "value": "7",
+          "optionNo": "G"
+        }
+      ]
+    },
+    {
+      "text": "我的幽默常常会让别人感到不舒服或被冒犯。",
+      "type": "radio",
+      "orderNum": 11,
+      "options": [
+        {
+          "text": "完全不同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较不同意",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "稍微不同意",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "不确定",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "稍微同意",
+          "value": "5",
+          "optionNo": "E"
+        },
+        {
+          "text": "比较同意",
+          "value": "6",
+          "optionNo": "F"
+        },
+        {
+          "text": "完全同意",
+          "value": "7",
+          "optionNo": "G"
+        }
+      ]
+    },
+    {
+      "text": "我经常拿自己的弱点、错误或过失开玩笑。",
+      "type": "radio",
+      "orderNum": 12,
+      "options": [
+        {
+          "text": "完全不同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较不同意",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "稍微不同意",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "不确定",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "稍微同意",
+          "value": "5",
+          "optionNo": "E"
+        },
+        {
+          "text": "比较同意",
+          "value": "6",
+          "optionNo": "F"
+        },
+        {
+          "text": "完全同意",
+          "value": "7",
+          "optionNo": "G"
+        }
+      ]
+    },
+    {
+      "text": "我喜欢和别人开玩笑来促进彼此之间的友谊。",
+      "type": "radio",
+      "orderNum": 13,
+      "options": [
+        {
+          "text": "完全不同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较不同意",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "稍微不同意",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "不确定",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "稍微同意",
+          "value": "5",
+          "optionNo": "E"
+        },
+        {
+          "text": "比较同意",
+          "value": "6",
+          "optionNo": "F"
+        },
+        {
+          "text": "完全同意",
+          "value": "7",
+          "optionNo": "G"
+        }
+      ]
+    },
+    {
+      "text": "我善于发现生活中有趣的一面。",
+      "type": "radio",
+      "orderNum": 14,
+      "options": [
+        {
+          "text": "完全不同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较不同意",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "稍微不同意",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "不确定",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "稍微同意",
+          "value": "5",
+          "optionNo": "E"
+        },
+        {
+          "text": "比较同意",
+          "value": "6",
+          "optionNo": "F"
+        },
+        {
+          "text": "完全同意",
+          "value": "7",
+          "optionNo": "G"
+        }
+      ]
+    },
+    {
+      "text": "我不喜欢批评或贬低别人的幽默方式。",
+      "type": "radio",
+      "orderNum": 15,
+      "options": [
+        {
+          "text": "完全同意",
+          "value": "7",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较同意",
+          "value": "6",
+          "optionNo": "B"
+        },
+        {
+          "text": "稍微同意",
+          "value": "5",
+          "optionNo": "C"
+        },
+        {
+          "text": "不确定",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "稍微不同意",
+          "value": "3",
+          "optionNo": "E"
+        },
+        {
+          "text": "比较不同意",
+          "value": "2",
+          "optionNo": "F"
+        },
+        {
+          "text": "完全不同意",
+          "value": "1",
+          "optionNo": "G"
+        }
+      ]
+    },
+    {
+      "text": "我很少讲有关自己生活中的趣事。",
+      "type": "radio",
+      "orderNum": 16,
+      "options": [
+        {
+          "text": "完全同意",
+          "value": "7",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较同意",
+          "value": "6",
+          "optionNo": "B"
+        },
+        {
+          "text": "稍微同意",
+          "value": "5",
+          "optionNo": "C"
+        },
+        {
+          "text": "不确定",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "稍微不同意",
+          "value": "3",
+          "optionNo": "E"
+        },
+        {
+          "text": "比较不同意",
+          "value": "2",
+          "optionNo": "F"
+        },
+        {
+          "text": "完全不同意",
+          "value": "1",
+          "optionNo": "G"
+        }
+      ]
+    },
+    {
+      "text": "我通常不讲笑话或取笑别人。",
+      "type": "radio",
+      "orderNum": 17,
+      "options": [
+        {
+          "text": "完全同意",
+          "value": "7",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较同意",
+          "value": "6",
+          "optionNo": "B"
+        },
+        {
+          "text": "稍微同意",
+          "value": "5",
+          "optionNo": "C"
+        },
+        {
+          "text": "不确定",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "稍微不同意",
+          "value": "3",
+          "optionNo": "E"
+        },
+        {
+          "text": "比较不同意",
+          "value": "2",
+          "optionNo": "F"
+        },
+        {
+          "text": "完全不同意",
+          "value": "1",
+          "optionNo": "G"
+        }
+      ]
+    },
+    {
+      "text": "如果我感到紧张或焦虑，我通常会试着想一些有趣的事情来让自己放松。",
+      "type": "radio",
+      "orderNum": 18,
+      "options": [
+        {
+          "text": "完全不同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较不同意",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "稍微不同意",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "不确定",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "稍微同意",
+          "value": "5",
+          "optionNo": "E"
+        },
+        {
+          "text": "比较同意",
+          "value": "6",
+          "optionNo": "F"
+        },
+        {
+          "text": "完全同意",
+          "value": "7",
+          "optionNo": "G"
+        }
+      ]
+    },
+    {
+      "text": "我常常讲一些笑话来取笑我认识的人。",
+      "type": "radio",
+      "orderNum": 19,
+      "options": [
+        {
+          "text": "完全不同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较不同意",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "稍微不同意",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "不确定",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "稍微同意",
+          "value": "5",
+          "optionNo": "E"
+        },
+        {
+          "text": "比较同意",
+          "value": "6",
+          "optionNo": "F"
+        },
+        {
+          "text": "完全同意",
+          "value": "7",
+          "optionNo": "G"
+        }
+      ]
+    },
+    {
+      "text": "我经常自嘲来让大家觉得好笑。",
+      "type": "radio",
+      "orderNum": 20,
+      "options": [
+        {
+          "text": "完全不同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较不同意",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "稍微不同意",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "不确定",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "稍微同意",
+          "value": "5",
+          "optionNo": "E"
+        },
+        {
+          "text": "比较同意",
+          "value": "6",
+          "optionNo": "F"
+        },
+        {
+          "text": "完全同意",
+          "value": "7",
+          "optionNo": "G"
+        }
+      ]
+    },
+    {
+      "text": "我能用自己的幽默来让大家开心。",
+      "type": "radio",
+      "orderNum": 21,
+      "options": [
+        {
+          "text": "完全不同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较不同意",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "稍微不同意",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "不确定",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "稍微同意",
+          "value": "5",
+          "optionNo": "E"
+        },
+        {
+          "text": "比较同意",
+          "value": "6",
+          "optionNo": "F"
+        },
+        {
+          "text": "完全同意",
+          "value": "7",
+          "optionNo": "G"
+        }
+      ]
+    },
+    {
+      "text": "我从不缺乏幽默感。",
+      "type": "radio",
+      "orderNum": 22,
+      "options": [
+        {
+          "text": "完全不同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较不同意",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "稍微不同意",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "不确定",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "稍微同意",
+          "value": "5",
+          "optionNo": "E"
+        },
+        {
+          "text": "比较同意",
+          "value": "6",
+          "optionNo": "F"
+        },
+        {
+          "text": "完全同意",
+          "value": "7",
+          "optionNo": "G"
+        }
+      ]
+    },
+    {
+      "text": "我从不用幽默来贬低或攻击别人。",
+      "type": "radio",
+      "orderNum": 23,
+      "options": [
+        {
+          "text": "完全同意",
+          "value": "7",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较同意",
+          "value": "6",
+          "optionNo": "B"
+        },
+        {
+          "text": "稍微同意",
+          "value": "5",
+          "optionNo": "C"
+        },
+        {
+          "text": "不确定",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "稍微不同意",
+          "value": "3",
+          "optionNo": "E"
+        },
+        {
+          "text": "比较不同意",
+          "value": "2",
+          "optionNo": "F"
+        },
+        {
+          "text": "完全不同意",
+          "value": "1",
+          "optionNo": "G"
+        }
+      ]
+    },
+    {
+      "text": "我经常让别人拿我开玩笑或取笑我。",
+      "type": "radio",
+      "orderNum": 24,
+      "options": [
+        {
+          "text": "完全不同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较不同意",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "稍微不同意",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "不确定",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "稍微同意",
+          "value": "5",
+          "optionNo": "E"
+        },
+        {
+          "text": "比较同意",
+          "value": "6",
+          "optionNo": "F"
+        },
+        {
+          "text": "完全同意",
+          "value": "7",
+          "optionNo": "G"
+        }
+      ]
+    },
+    {
+      "text": "我不怎么开玩笑。",
+      "type": "radio",
+      "orderNum": 25,
+      "options": [
+        {
+          "text": "完全同意",
+          "value": "7",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较同意",
+          "value": "6",
+          "optionNo": "B"
+        },
+        {
+          "text": "稍微同意",
+          "value": "5",
+          "optionNo": "C"
+        },
+        {
+          "text": "不确定",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "稍微不同意",
+          "value": "3",
+          "optionNo": "E"
+        },
+        {
+          "text": "比较不同意",
+          "value": "2",
+          "optionNo": "F"
+        },
+        {
+          "text": "完全不同意",
+          "value": "1",
+          "optionNo": "G"
+        }
+      ]
+    },
+    {
+      "text": "如果我感到紧张或焦虑，我会用幽默来让自己开心。",
+      "type": "radio",
+      "orderNum": 26,
+      "options": [
+        {
+          "text": "完全不同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较不同意",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "稍微不同意",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "不确定",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "稍微同意",
+          "value": "5",
+          "optionNo": "E"
+        },
+        {
+          "text": "比较同意",
+          "value": "6",
+          "optionNo": "F"
+        },
+        {
+          "text": "完全同意",
+          "value": "7",
+          "optionNo": "G"
+        }
+      ]
+    },
+    {
+      "text": "我经常用幽默来调侃或取笑别人。",
+      "type": "radio",
+      "orderNum": 27,
+      "options": [
+        {
+          "text": "完全不同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较不同意",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "稍微不同意",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "不确定",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "稍微同意",
+          "value": "5",
+          "optionNo": "E"
+        },
+        {
+          "text": "比较同意",
+          "value": "6",
+          "optionNo": "F"
+        },
+        {
+          "text": "完全同意",
+          "value": "7",
+          "optionNo": "G"
+        }
+      ]
+    },
+    {
+      "text": "当我遇到问题时，我通常不会用幽默来应对。",
+      "type": "radio",
+      "orderNum": 28,
+      "options": [
+        {
+          "text": "完全同意",
+          "value": "7",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较同意",
+          "value": "6",
+          "optionNo": "B"
+        },
+        {
+          "text": "稍微同意",
+          "value": "5",
+          "optionNo": "C"
+        },
+        {
+          "text": "不确定",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "稍微不同意",
+          "value": "3",
+          "optionNo": "E"
+        },
+        {
+          "text": "比较不同意",
+          "value": "2",
+          "optionNo": "F"
+        },
+        {
+          "text": "完全不同意",
+          "value": "1",
+          "optionNo": "G"
+        }
+      ]
+    },
+    {
+      "text": "我通常想不到诙谐幽默的事情来说。",
+      "type": "radio",
+      "orderNum": 29,
+      "options": [
+        {
+          "text": "完全同意",
+          "value": "7",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较同意",
+          "value": "6",
+          "optionNo": "B"
+        },
+        {
+          "text": "稍微同意",
+          "value": "5",
+          "optionNo": "C"
+        },
+        {
+          "text": "不确定",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "稍微不同意",
+          "value": "3",
+          "optionNo": "E"
+        },
+        {
+          "text": "比较不同意",
+          "value": "2",
+          "optionNo": "F"
+        },
+        {
+          "text": "完全不同意",
+          "value": "1",
+          "optionNo": "G"
+        }
+      ]
+    },
+    {
+      "text": "我经常用幽默来使自己走出低落的情绪。",
+      "type": "radio",
+      "orderNum": 30,
+      "options": [
+        {
+          "text": "完全不同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较不同意",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "稍微不同意",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "不确定",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "稍微同意",
+          "value": "5",
+          "optionNo": "E"
+        },
+        {
+          "text": "比较同意",
+          "value": "6",
+          "optionNo": "F"
+        },
+        {
+          "text": "完全同意",
+          "value": "7",
+          "optionNo": "G"
+        }
+      ]
+    },
+    {
+      "text": "我有时候会拿别人的缺点来开玩笑。",
+      "type": "radio",
+      "orderNum": 31,
+      "options": [
+        {
+          "text": "完全不同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较不同意",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "稍微不同意",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "不确定",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "稍微同意",
+          "value": "5",
+          "optionNo": "E"
+        },
+        {
+          "text": "比较同意",
+          "value": "6",
+          "optionNo": "F"
+        },
+        {
+          "text": "完全同意",
+          "value": "7",
+          "optionNo": "G"
+        }
+      ]
+    },
+    {
+      "text": "我愿意让别人拿我开玩笑，只要能让大家开心。",
+      "type": "radio",
+      "orderNum": 32,
+      "options": [
+        {
+          "text": "完全不同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较不同意",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "稍微不同意",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "不确定",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "稍微同意",
+          "value": "5",
+          "optionNo": "E"
+        },
+        {
+          "text": "比较同意",
+          "value": "6",
+          "optionNo": "F"
+        },
+        {
+          "text": "完全同意",
+          "value": "7",
+          "optionNo": "G"
+        }
+      ]
+    }
+  ],
+  "dimensions": [
+    {
+      "dimensionName": "亲和型幽默",
+      "dimensionCode": "affiliative",
+      "num": 1,
+      "evaluateExpression": "(hx_t_1 + hx_t_5 + hx_t_9 + hx_t_13 + hx_t_17 + hx_t_21 + hx_t_25) / 7",
+      "standardScoreFormula": "",
+      "results": [
+        {
+          "evaluateExpression": "hx_wd_y_1 <= 3.0",
+          "conclusionAnalysis": "亲和型幽默较低",
+          "suggestion": "您较少使用幽默来增进人际关系，在社交场合中不太倾向于用玩笑来拉近与他人的距离。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_1 > 3.0 && hx_wd_y_1 <= 5.0",
+          "conclusionAnalysis": "亲和型幽默中等",
+          "suggestion": "您在社交中适度使用幽默来增进关系，能够在一定程度上用幽默拉近与他人的距离。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_1 > 5.0",
+          "conclusionAnalysis": "亲和型幽默较高",
+          "suggestion": "您善于在社交中使用友善的幽默来增进人际关系，能以温和可接受的方式与他人开玩笑。",
+          "assessmentWarning": "none"
+        }
+      ]
+    },
+    {
+      "dimensionName": "自我提升型幽默",
+      "dimensionCode": "self_enhancing",
+      "num": 2,
+      "evaluateExpression": "(hx_t_2 + hx_t_6 + hx_t_10 + hx_t_14 + hx_t_18 + hx_t_22 + hx_t_26 + hx_t_30) / 8",
+      "standardScoreFormula": "",
+      "results": [
+        {
+          "evaluateExpression": "hx_wd_y_2 <= 3.0",
+          "conclusionAnalysis": "自我提升型幽默较低",
+          "suggestion": "您较少使用幽默来调节自己的情绪，在面对压力和困境时不太倾向于用幽默来应对。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_2 > 3.0 && hx_wd_y_2 <= 5.0",
+          "conclusionAnalysis": "自我提升型幽默中等",
+          "suggestion": "您在一定程度上能够用幽默来调节自己的情绪，面对困境时偶尔会用幽默来缓解压力。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_2 > 5.0",
+          "conclusionAnalysis": "自我提升型幽默较高",
+          "suggestion": "您善于用幽默来调节情绪和应对压力，面对困境时能以幽默的态度看待生活。",
+          "assessmentWarning": "none"
+        }
+      ]
+    },
+    {
+      "dimensionName": "攻击型幽默",
+      "dimensionCode": "aggressive",
+      "num": 3,
+      "evaluateExpression": "(hx_t_3 + hx_t_7 + hx_t_11 + hx_t_15 + hx_t_19 + hx_t_23 + hx_t_27 + hx_t_31) / 8",
+      "standardScoreFormula": "",
+      "results": [
+        {
+          "evaluateExpression": "hx_wd_y_3 <= 2.5",
+          "conclusionAnalysis": "攻击型幽默较低",
+          "suggestion": "您很少使用攻击性或讽刺性的幽默来对待他人，人际交往中的幽默方式较为友善。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_3 > 2.5 && hx_wd_y_3 <= 4.5",
+          "conclusionAnalysis": "攻击型幽默中等",
+          "suggestion": "您有时会使用带有攻击性或讽刺性的幽默，需要注意不要无意中伤害到他人。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_3 > 4.5",
+          "conclusionAnalysis": "攻击型幽默较高",
+          "suggestion": "您经常使用攻击性或讽刺性的幽默来对待他人，这种幽默方式可能会影响人际关系。建议适当调整幽默方式。",
+          "assessmentWarning": "none"
+        }
+      ]
+    },
+    {
+      "dimensionName": "自我贬低型幽默",
+      "dimensionCode": "self_defeating",
+      "num": 4,
+      "evaluateExpression": "(hx_t_4 + hx_t_8 + hx_t_12 + hx_t_16 + hx_t_20 + hx_t_24 + hx_t_28 + hx_t_32) / 8",
+      "standardScoreFormula": "",
+      "results": [
+        {
+          "evaluateExpression": "hx_wd_y_4 <= 2.5",
+          "conclusionAnalysis": "自我贬低型幽默较低",
+          "suggestion": "您很少通过贬低自己来取悦他人，在人际交往中保持较为积极的自我形象。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_4 > 2.5 && hx_wd_y_4 <= 4.5",
+          "conclusionAnalysis": "自我贬低型幽默中等",
+          "suggestion": "您有时会通过自嘲来逗大家开心，适度的自嘲有助于社交，但需注意不要过度贬低自己。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_4 > 4.5",
+          "conclusionAnalysis": "自我贬低型幽默较高",
+          "suggestion": "您经常通过贬低自己来让别人发笑，这种幽默方式可能反映出较低的自尊水平。建议关注自我价值感的提升。",
+          "assessmentWarning": "none"
+        }
+      ]
+    }
+  ]
+}

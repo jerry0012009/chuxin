@@ -1,0 +1,1133 @@
+{
+  "id": "cwbc-counterproductive-work",
+  "title": "反生产行为检查表(CWB-C)",
+  "description": "Counterproductive Work Behavior Checklist (CWB-C)，Spector (2006)编制，测量针对他人的反生产行为（20题）和针对组织的反生产行为（12题）。5点频率计分（1=从不，5=每天），总分32-160。",
+  "type": "basic",
+  "questions": [
+    {
+      "text": "在工作中公开羞辱同事。",
+      "type": "radio",
+      "orderNum": 1,
+      "options": [
+        {
+          "text": "从不",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "一年几次",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "每月几次",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "每周几次",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "每天",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "对同事发表伤人或侮辱性的评论。",
+      "type": "radio",
+      "orderNum": 2,
+      "options": [
+        {
+          "text": "从不",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "一年几次",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "每月几次",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "每周几次",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "每天",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "在工作中对同事大喊大叫。",
+      "type": "radio",
+      "orderNum": 3,
+      "options": [
+        {
+          "text": "从不",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "一年几次",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "每月几次",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "每周几次",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "每天",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "在工作中对同事恶语相向。",
+      "type": "radio",
+      "orderNum": 4,
+      "options": [
+        {
+          "text": "从不",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "一年几次",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "每月几次",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "每周几次",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "每天",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "故意制造让同事难堪的尴尬场面。",
+      "type": "radio",
+      "orderNum": 5,
+      "options": [
+        {
+          "text": "从不",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "一年几次",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "每月几次",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "每周几次",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "每天",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "对同事发出威胁恐吓。",
+      "type": "radio",
+      "orderNum": 6,
+      "options": [
+        {
+          "text": "从不",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "一年几次",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "每月几次",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "每周几次",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "每天",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "在工作中对同事使用粗俗语言或脏话。",
+      "type": "radio",
+      "orderNum": 7,
+      "options": [
+        {
+          "text": "从不",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "一年几次",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "每月几次",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "每周几次",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "每天",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "对同事做出不雅或冒犯性的手势。",
+      "type": "radio",
+      "orderNum": 8,
+      "options": [
+        {
+          "text": "从不",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "一年几次",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "每月几次",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "每周几次",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "每天",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "对同事散布流言蜚语。",
+      "type": "radio",
+      "orderNum": 9,
+      "options": [
+        {
+          "text": "从不",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "一年几次",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "每月几次",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "每周几次",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "每天",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "在工作中与同事发生激烈争吵。",
+      "type": "radio",
+      "orderNum": 10,
+      "options": [
+        {
+          "text": "从不",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "一年几次",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "每月几次",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "每周几次",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "每天",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "对同事的工作成果发表贬低性评论。",
+      "type": "radio",
+      "orderNum": 11,
+      "options": [
+        {
+          "text": "从不",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "一年几次",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "每月几次",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "每周几次",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "每天",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "故意忽视或排挤同事。",
+      "type": "radio",
+      "orderNum": 12,
+      "options": [
+        {
+          "text": "从不",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "一年几次",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "每月几次",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "每周几次",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "每天",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "在工作中对同事进行人身攻击。",
+      "type": "radio",
+      "orderNum": 13,
+      "options": [
+        {
+          "text": "从不",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "一年几次",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "每月几次",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "每周几次",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "每天",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "故意阻碍同事完成工作任务。",
+      "type": "radio",
+      "orderNum": 14,
+      "options": [
+        {
+          "text": "从不",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "一年几次",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "每月几次",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "每周几次",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "每天",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "在工作中对同事表现出不尊重的态度。",
+      "type": "radio",
+      "orderNum": 15,
+      "options": [
+        {
+          "text": "从不",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "一年几次",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "每月几次",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "每周几次",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "每天",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "以粗暴或无礼的方式对待同事。",
+      "type": "radio",
+      "orderNum": 16,
+      "options": [
+        {
+          "text": "从不",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "一年几次",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "每月几次",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "每周几次",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "每天",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "在背后说同事坏话。",
+      "type": "radio",
+      "orderNum": 17,
+      "options": [
+        {
+          "text": "从不",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "一年几次",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "每月几次",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "每周几次",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "每天",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "对同事进行种族、性别或其他歧视性言行。",
+      "type": "radio",
+      "orderNum": 18,
+      "options": [
+        {
+          "text": "从不",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "一年几次",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "每月几次",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "每周几次",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "每天",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "在工作中对同事恶作剧或戏弄同事。",
+      "type": "radio",
+      "orderNum": 19,
+      "options": [
+        {
+          "text": "从不",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "一年几次",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "每月几次",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "每周几次",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "每天",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "故意拒绝与某些同事合作。",
+      "type": "radio",
+      "orderNum": 20,
+      "options": [
+        {
+          "text": "从不",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "一年几次",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "每月几次",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "每周几次",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "每天",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "故意放慢工作速度以降低效率。",
+      "type": "radio",
+      "orderNum": 21,
+      "options": [
+        {
+          "text": "从不",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "一年几次",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "每月几次",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "每周几次",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "每天",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "故意不按照工作要求工作。",
+      "type": "radio",
+      "orderNum": 22,
+      "options": [
+        {
+          "text": "从不",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "一年几次",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "每月几次",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "每周几次",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "每天",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "在工作时间做私人事情。",
+      "type": "radio",
+      "orderNum": 23,
+      "options": [
+        {
+          "text": "从不",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "一年几次",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "每月几次",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "每周几次",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "每天",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "故意推迟或拖延工作任务。",
+      "type": "radio",
+      "orderNum": 24,
+      "options": [
+        {
+          "text": "从不",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "一年几次",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "每月几次",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "每周几次",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "每天",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "伪造病假条或其他证明文件。",
+      "type": "radio",
+      "orderNum": 25,
+      "options": [
+        {
+          "text": "从不",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "一年几次",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "每月几次",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "每周几次",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "每天",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "未经允许早退。",
+      "type": "radio",
+      "orderNum": 26,
+      "options": [
+        {
+          "text": "从不",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "一年几次",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "每月几次",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "每周几次",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "每天",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "未经允许迟到。",
+      "type": "radio",
+      "orderNum": 27,
+      "options": [
+        {
+          "text": "从不",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "一年几次",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "每月几次",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "每周几次",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "每天",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "在工作中偷懒。",
+      "type": "radio",
+      "orderNum": 28,
+      "options": [
+        {
+          "text": "从不",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "一年几次",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "每月几次",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "每周几次",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "每天",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "偷窃公司物品或资源。",
+      "type": "radio",
+      "orderNum": 29,
+      "options": [
+        {
+          "text": "从不",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "一年几次",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "每月几次",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "每周几次",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "每天",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "未经授权使用公司设备或车辆。",
+      "type": "radio",
+      "orderNum": 30,
+      "options": [
+        {
+          "text": "从不",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "一年几次",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "每月几次",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "每周几次",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "每天",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "故意浪费公司材料或物资。",
+      "type": "radio",
+      "orderNum": 31,
+      "options": [
+        {
+          "text": "从不",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "一年几次",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "每月几次",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "每周几次",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "每天",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "故意损坏公司设备或财产。",
+      "type": "radio",
+      "orderNum": 32,
+      "options": [
+        {
+          "text": "从不",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "一年几次",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "每月几次",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "每周几次",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "每天",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    }
+  ],
+  "dimensions": [
+    {
+      "dimensionName": "人际反生产行为",
+      "dimensionCode": "cwb_interpersonal",
+      "num": 1,
+      "evaluateExpression": "(hx_t_1 + hx_t_2 + hx_t_3 + hx_t_4 + hx_t_5 + hx_t_6 + hx_t_7 + hx_t_8 + hx_t_9 + hx_t_10 + hx_t_11 + hx_t_12 + hx_t_13 + hx_t_14 + hx_t_15 + hx_t_16 + hx_t_17 + hx_t_18 + hx_t_19 + hx_t_20) / 20",
+      "standardScoreFormula": "",
+      "results": [
+        {
+          "evaluateExpression": "hx_wd_y_1 <= 1.5",
+          "conclusionAnalysis": "人际反生产行为水平极低",
+          "suggestion": "您几乎没有针对同事的反生产行为，人际关系行为良好。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_1 > 1.5 && hx_wd_y_1 <= 2.0",
+          "conclusionAnalysis": "人际反生产行为水平较低",
+          "suggestion": "您针对同事的反生产行为频率较低。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_1 > 2.0 && hx_wd_y_1 <= 3.0",
+          "conclusionAnalysis": "人际反生产行为水平中等",
+          "suggestion": "您偶尔会出现针对同事的反生产行为，建议注意职场人际互动方式。",
+          "assessmentWarning": "low"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_1 > 3.0",
+          "conclusionAnalysis": "人际反生产行为水平偏高",
+          "suggestion": "您针对同事的反生产行为频率较高，建议反思职场人际行为并寻求改善。",
+          "assessmentWarning": "middle"
+        }
+      ]
+    },
+    {
+      "dimensionName": "组织反生产行为",
+      "dimensionCode": "cwb_organization",
+      "num": 2,
+      "evaluateExpression": "(hx_t_21 + hx_t_22 + hx_t_23 + hx_t_24 + hx_t_25 + hx_t_26 + hx_t_27 + hx_t_28 + hx_t_29 + hx_t_30 + hx_t_31 + hx_t_32) / 12",
+      "standardScoreFormula": "",
+      "results": [
+        {
+          "evaluateExpression": "hx_wd_y_2 <= 1.5",
+          "conclusionAnalysis": "组织反生产行为水平极低",
+          "suggestion": "您几乎没有针对组织的反生产行为，工作态度积极。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_2 > 1.5 && hx_wd_y_2 <= 2.0",
+          "conclusionAnalysis": "组织反生产行为水平较低",
+          "suggestion": "您针对组织的反生产行为频率较低。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_2 > 2.0 && hx_wd_y_2 <= 3.0",
+          "conclusionAnalysis": "组织反生产行为水平中等",
+          "suggestion": "您偶尔会出现针对组织的反生产行为，建议关注工作纪律和职业规范。",
+          "assessmentWarning": "low"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_2 > 3.0",
+          "conclusionAnalysis": "组织反生产行为水平偏高",
+          "suggestion": "您针对组织的反生产行为频率较高，建议反思工作态度并寻求职业咨询。",
+          "assessmentWarning": "middle"
+        }
+      ]
+    },
+    {
+      "dimensionName": "反生产行为总分",
+      "dimensionCode": "cwb_total",
+      "num": 3,
+      "evaluateExpression": "(hx_t_1 + hx_t_2 + hx_t_3 + hx_t_4 + hx_t_5 + hx_t_6 + hx_t_7 + hx_t_8 + hx_t_9 + hx_t_10 + hx_t_11 + hx_t_12 + hx_t_13 + hx_t_14 + hx_t_15 + hx_t_16 + hx_t_17 + hx_t_18 + hx_t_19 + hx_t_20 + hx_t_21 + hx_t_22 + hx_t_23 + hx_t_24 + hx_t_25 + hx_t_26 + hx_t_27 + hx_t_28 + hx_t_29 + hx_t_30 + hx_t_31 + hx_t_32)",
+      "standardScoreFormula": "",
+      "results": [
+        {
+          "evaluateExpression": "hx_wd_y_3 <= 48",
+          "conclusionAnalysis": "反生产行为总分很低",
+          "suggestion": "您的反生产行为总体水平很低，工作行为规范。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_3 > 48 && hx_wd_y_3 <= 64",
+          "conclusionAnalysis": "反生产行为总分较低",
+          "suggestion": "您的反生产行为总体水平较低。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_3 > 64 && hx_wd_y_3 <= 96",
+          "conclusionAnalysis": "反生产行为总分中等",
+          "suggestion": "您的反生产行为处于中等水平，建议注意减少工作场所中的不当行为。",
+          "assessmentWarning": "low"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_3 > 96",
+          "conclusionAnalysis": "反生产行为总分偏高",
+          "suggestion": "您的反生产行为总分偏高，建议寻求专业帮助以改善工作行为。",
+          "assessmentWarning": "middle"
+        }
+      ]
+    }
+  ]
+}

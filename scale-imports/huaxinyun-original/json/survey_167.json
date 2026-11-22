@@ -1,0 +1,3169 @@
+{
+  "id": 167,
+  "title": "校园生活调查表",
+  "description": "包括校园满意度、情绪自评等",
+  "type": "basic",
+  "questions": [
+    {
+      "id": 5696,
+      "text": "你住在哪里？",
+      "type": "radio",
+      "orderNum": 1,
+      "options": [
+        {
+          "id": 21447,
+          "optionNo": "A",
+          "text": "德馨苑",
+          "value": "1"
+        },
+        {
+          "id": 21448,
+          "optionNo": "B",
+          "text": "锦地苑",
+          "value": "2"
+        },
+        {
+          "id": 21449,
+          "optionNo": "C",
+          "text": "临江苑",
+          "value": "3"
+        },
+        {
+          "id": 21450,
+          "optionNo": "D",
+          "text": "舍",
+          "value": "4"
+        },
+        {
+          "id": 21451,
+          "optionNo": "E",
+          "text": "租房",
+          "value": "5"
+        },
+        {
+          "id": 21452,
+          "optionNo": "F",
+          "text": "其他",
+          "value": "6"
+        }
+      ]
+    },
+    {
+      "id": 5697,
+      "text": "你所住的宿舍条件是？",
+      "type": "radio",
+      "orderNum": 2,
+      "options": [
+        {
+          "id": 21453,
+          "optionNo": "A",
+          "text": "8人间",
+          "value": "1"
+        },
+        {
+          "id": 21454,
+          "optionNo": "B",
+          "text": "6人间",
+          "value": "2"
+        },
+        {
+          "id": 21455,
+          "optionNo": "C",
+          "text": "4人间",
+          "value": "3"
+        },
+        {
+          "id": 21456,
+          "optionNo": "D",
+          "text": "2人间",
+          "value": "4"
+        },
+        {
+          "id": 21457,
+          "optionNo": "E",
+          "text": "独居",
+          "value": "5"
+        },
+        {
+          "id": 21458,
+          "optionNo": "F",
+          "text": "其他",
+          "value": "6"
+        }
+      ]
+    },
+    {
+      "id": 5698,
+      "text": "你最经常选择的就餐方式是？",
+      "type": "radio",
+      "orderNum": 3,
+      "options": [
+        {
+          "id": 21459,
+          "optionNo": "A",
+          "text": "一食堂",
+          "value": "1"
+        },
+        {
+          "id": 21460,
+          "optionNo": "B",
+          "text": "二食堂",
+          "value": "2"
+        },
+        {
+          "id": 21461,
+          "optionNo": "C",
+          "text": "三食堂",
+          "value": "3"
+        },
+        {
+          "id": 21462,
+          "optionNo": "D",
+          "text": "四食堂",
+          "value": "4"
+        },
+        {
+          "id": 21463,
+          "optionNo": "E",
+          "text": "校内其他餐馆",
+          "value": "5"
+        },
+        {
+          "id": 21464,
+          "optionNo": "F",
+          "text": "校外就餐",
+          "value": "6"
+        },
+        {
+          "id": 21465,
+          "optionNo": "G",
+          "text": "点外卖",
+          "value": "7"
+        },
+        {
+          "id": 21466,
+          "optionNo": "H",
+          "text": "其他",
+          "value": "8"
+        }
+      ]
+    },
+    {
+      "id": 5699,
+      "text": "宿管人员的工作情况和工作态度",
+      "type": "radio",
+      "orderNum": 4,
+      "options": [
+        {
+          "id": 21467,
+          "optionNo": "A",
+          "text": "非常不满意",
+          "value": "1"
+        },
+        {
+          "id": 21468,
+          "optionNo": "B",
+          "text": "比较不满意",
+          "value": "2"
+        },
+        {
+          "id": 21469,
+          "optionNo": "C",
+          "text": "一般",
+          "value": "3"
+        },
+        {
+          "id": 21470,
+          "optionNo": "D",
+          "text": "比较满意",
+          "value": "4"
+        },
+        {
+          "id": 21471,
+          "optionNo": "E",
+          "text": "非常满意",
+          "value": "5"
+        },
+        {
+          "id": 21472,
+          "optionNo": "F",
+          "text": "不了解/不关心",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "id": 5700,
+      "text": "和舍友以及附近宿舍同学的关系",
+      "type": "radio",
+      "orderNum": 5,
+      "options": [
+        {
+          "id": 21473,
+          "optionNo": "A",
+          "text": "非常不满意",
+          "value": "1"
+        },
+        {
+          "id": 21474,
+          "optionNo": "B",
+          "text": "比较不满意",
+          "value": "2"
+        },
+        {
+          "id": 21475,
+          "optionNo": "C",
+          "text": "一般",
+          "value": "3"
+        },
+        {
+          "id": 21476,
+          "optionNo": "D",
+          "text": "比较满意",
+          "value": "4"
+        },
+        {
+          "id": 21477,
+          "optionNo": "E",
+          "text": "非常满意",
+          "value": "5"
+        },
+        {
+          "id": 21478,
+          "optionNo": "F",
+          "text": "不了解/不关心",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "id": 5701,
+      "text": "寝室洗衣房/洗衣机的服务和收费",
+      "type": "radio",
+      "orderNum": 6,
+      "options": [
+        {
+          "id": 21479,
+          "optionNo": "A",
+          "text": "非常不满意",
+          "value": "1"
+        },
+        {
+          "id": 21480,
+          "optionNo": "B",
+          "text": "比较不满意",
+          "value": "2"
+        },
+        {
+          "id": 21481,
+          "optionNo": "C",
+          "text": "一般",
+          "value": "3"
+        },
+        {
+          "id": 21482,
+          "optionNo": "D",
+          "text": "比较满意",
+          "value": "4"
+        },
+        {
+          "id": 21483,
+          "optionNo": "E",
+          "text": "非常满意",
+          "value": "5"
+        },
+        {
+          "id": 21484,
+          "optionNo": "F",
+          "text": "不了解/不关心",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "id": 5702,
+      "text": "寝室的供电和断电规定（熄灯时间等）",
+      "type": "radio",
+      "orderNum": 7,
+      "options": [
+        {
+          "id": 21485,
+          "optionNo": "A",
+          "text": "非常不满意",
+          "value": "1"
+        },
+        {
+          "id": 21486,
+          "optionNo": "B",
+          "text": "比较不满意",
+          "value": "2"
+        },
+        {
+          "id": 21487,
+          "optionNo": "C",
+          "text": "一般",
+          "value": "3"
+        },
+        {
+          "id": 21488,
+          "optionNo": "D",
+          "text": "比较满意",
+          "value": "4"
+        },
+        {
+          "id": 21489,
+          "optionNo": "E",
+          "text": "非常满意",
+          "value": "5"
+        },
+        {
+          "id": 21490,
+          "optionNo": "F",
+          "text": "不了解/不关心",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "id": 5703,
+      "text": "整体而言，对于寝室的基本设施和住宿条件",
+      "type": "radio",
+      "orderNum": 8,
+      "options": [
+        {
+          "id": 21491,
+          "optionNo": "A",
+          "text": "非常不满意",
+          "value": "1"
+        },
+        {
+          "id": 21492,
+          "optionNo": "B",
+          "text": "比较不满意",
+          "value": "2"
+        },
+        {
+          "id": 21493,
+          "optionNo": "C",
+          "text": "一般",
+          "value": "3"
+        },
+        {
+          "id": 21494,
+          "optionNo": "D",
+          "text": "比较满意",
+          "value": "4"
+        },
+        {
+          "id": 21495,
+          "optionNo": "E",
+          "text": "非常满意",
+          "value": "5"
+        },
+        {
+          "id": 21496,
+          "optionNo": "F",
+          "text": "不了解/不关心",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "id": 5704,
+      "text": "食堂菜品的价格（对于你经常去就餐的食堂）",
+      "type": "radio",
+      "orderNum": 9,
+      "options": [
+        {
+          "id": 21497,
+          "optionNo": "A",
+          "text": "非常不满意",
+          "value": "1"
+        },
+        {
+          "id": 21498,
+          "optionNo": "B",
+          "text": "比较不满意",
+          "value": "2"
+        },
+        {
+          "id": 21499,
+          "optionNo": "C",
+          "text": "一般",
+          "value": "3"
+        },
+        {
+          "id": 21500,
+          "optionNo": "D",
+          "text": "比较满意",
+          "value": "4"
+        },
+        {
+          "id": 21501,
+          "optionNo": "E",
+          "text": "非常满意",
+          "value": "5"
+        },
+        {
+          "id": 21502,
+          "optionNo": "F",
+          "text": "不了解/不关心",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "id": 5705,
+      "text": "食堂的卫生情况、菜品质量、菜品味道和服务（对于你经常去就餐的食堂）",
+      "type": "radio",
+      "orderNum": 10,
+      "options": [
+        {
+          "id": 21503,
+          "optionNo": "A",
+          "text": "非常不满意",
+          "value": "1"
+        },
+        {
+          "id": 21504,
+          "optionNo": "B",
+          "text": "比较不满意",
+          "value": "2"
+        },
+        {
+          "id": 21505,
+          "optionNo": "C",
+          "text": "一般",
+          "value": "3"
+        },
+        {
+          "id": 21506,
+          "optionNo": "D",
+          "text": "比较满意",
+          "value": "4"
+        },
+        {
+          "id": 21507,
+          "optionNo": "E",
+          "text": "非常满意",
+          "value": "5"
+        },
+        {
+          "id": 21508,
+          "optionNo": "F",
+          "text": "不了解/不关心",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "id": 5706,
+      "text": "外卖进出校管理情况",
+      "type": "radio",
+      "orderNum": 11,
+      "options": [
+        {
+          "id": 21509,
+          "optionNo": "A",
+          "text": "非常不满意",
+          "value": "1"
+        },
+        {
+          "id": 21510,
+          "optionNo": "B",
+          "text": "比较不满意",
+          "value": "2"
+        },
+        {
+          "id": 21511,
+          "optionNo": "C",
+          "text": "一般",
+          "value": "3"
+        },
+        {
+          "id": 21512,
+          "optionNo": "D",
+          "text": "比较满意",
+          "value": "4"
+        },
+        {
+          "id": 21513,
+          "optionNo": "E",
+          "text": "非常满意",
+          "value": "5"
+        },
+        {
+          "id": 21514,
+          "optionNo": "F",
+          "text": "不了解/不关心",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "id": 5707,
+      "text": "图书馆藏书（纸质）资源丰富且借阅便捷",
+      "type": "radio",
+      "orderNum": 12,
+      "options": [
+        {
+          "id": 21515,
+          "optionNo": "A",
+          "text": "非常不满意",
+          "value": "1"
+        },
+        {
+          "id": 21516,
+          "optionNo": "B",
+          "text": "比较不满意",
+          "value": "2"
+        },
+        {
+          "id": 21517,
+          "optionNo": "C",
+          "text": "一般",
+          "value": "3"
+        },
+        {
+          "id": 21518,
+          "optionNo": "D",
+          "text": "比较满意",
+          "value": "4"
+        },
+        {
+          "id": 21519,
+          "optionNo": "E",
+          "text": "非常满意",
+          "value": "5"
+        },
+        {
+          "id": 21520,
+          "optionNo": "F",
+          "text": "不了解/不关心",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "id": 5708,
+      "text": "现有的电子文献、数据库等资源的丰富充足",
+      "type": "radio",
+      "orderNum": 13,
+      "options": [
+        {
+          "id": 21521,
+          "optionNo": "A",
+          "text": "非常不满意",
+          "value": "1"
+        },
+        {
+          "id": 21522,
+          "optionNo": "B",
+          "text": "比较不满意",
+          "value": "2"
+        },
+        {
+          "id": 21523,
+          "optionNo": "C",
+          "text": "一般",
+          "value": "3"
+        },
+        {
+          "id": 21524,
+          "optionNo": "D",
+          "text": "比较满意",
+          "value": "4"
+        },
+        {
+          "id": 21525,
+          "optionNo": "E",
+          "text": "非常满意",
+          "value": "5"
+        },
+        {
+          "id": 21526,
+          "optionNo": "F",
+          "text": "不了解/不关心",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "id": 5709,
+      "text": "学校或学院统一安排的各类讲座和学术交流活动",
+      "type": "radio",
+      "orderNum": 14,
+      "options": [
+        {
+          "id": 21527,
+          "optionNo": "A",
+          "text": "非常不满意",
+          "value": "1"
+        },
+        {
+          "id": 21528,
+          "optionNo": "B",
+          "text": "比较不满意",
+          "value": "2"
+        },
+        {
+          "id": 21529,
+          "optionNo": "C",
+          "text": "一般",
+          "value": "3"
+        },
+        {
+          "id": 21530,
+          "optionNo": "D",
+          "text": "比较满意",
+          "value": "4"
+        },
+        {
+          "id": 21531,
+          "optionNo": "E",
+          "text": "非常满意",
+          "value": "5"
+        },
+        {
+          "id": 21532,
+          "optionNo": "F",
+          "text": "不了解/不关心",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "id": 5710,
+      "text": "本专业的课程安排以及培养方案",
+      "type": "radio",
+      "orderNum": 15,
+      "options": [
+        {
+          "id": 21533,
+          "optionNo": "A",
+          "text": "非常不满意",
+          "value": "1"
+        },
+        {
+          "id": 21534,
+          "optionNo": "B",
+          "text": "比较不满意",
+          "value": "2"
+        },
+        {
+          "id": 21535,
+          "optionNo": "C",
+          "text": "一般",
+          "value": "3"
+        },
+        {
+          "id": 21536,
+          "optionNo": "D",
+          "text": "比较满意",
+          "value": "4"
+        },
+        {
+          "id": 21537,
+          "optionNo": "E",
+          "text": "非常满意",
+          "value": "5"
+        },
+        {
+          "id": 21538,
+          "optionNo": "F",
+          "text": "不了解/不关心",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "id": 5711,
+      "text": "总体而言，课堂的活跃度和趣味性",
+      "type": "radio",
+      "orderNum": 16,
+      "options": [
+        {
+          "id": 21539,
+          "optionNo": "A",
+          "text": "非常不满意",
+          "value": "1"
+        },
+        {
+          "id": 21540,
+          "optionNo": "B",
+          "text": "比较不满意",
+          "value": "2"
+        },
+        {
+          "id": 21541,
+          "optionNo": "C",
+          "text": "一般",
+          "value": "3"
+        },
+        {
+          "id": 21542,
+          "optionNo": "D",
+          "text": "比较满意",
+          "value": "4"
+        },
+        {
+          "id": 21543,
+          "optionNo": "E",
+          "text": "非常满意",
+          "value": "5"
+        },
+        {
+          "id": 21544,
+          "optionNo": "F",
+          "text": "不了解/不关心",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "id": 5712,
+      "text": "总体而言，教师授课和教学的专业性",
+      "type": "radio",
+      "orderNum": 17,
+      "options": [
+        {
+          "id": 21545,
+          "optionNo": "A",
+          "text": "非常不满意",
+          "value": "1"
+        },
+        {
+          "id": 21546,
+          "optionNo": "B",
+          "text": "比较不满意",
+          "value": "2"
+        },
+        {
+          "id": 21547,
+          "optionNo": "C",
+          "text": "一般",
+          "value": "3"
+        },
+        {
+          "id": 21548,
+          "optionNo": "D",
+          "text": "比较满意",
+          "value": "4"
+        },
+        {
+          "id": 21549,
+          "optionNo": "E",
+          "text": "非常满意",
+          "value": "5"
+        },
+        {
+          "id": 21550,
+          "optionNo": "F",
+          "text": "不了解/不关心",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "id": 5713,
+      "text": "总体而言，教师授课和教学的方式方法",
+      "type": "radio",
+      "orderNum": 18,
+      "options": [
+        {
+          "id": 21551,
+          "optionNo": "A",
+          "text": "非常不满意",
+          "value": "1"
+        },
+        {
+          "id": 21552,
+          "optionNo": "B",
+          "text": "比较不满意",
+          "value": "2"
+        },
+        {
+          "id": 21553,
+          "optionNo": "C",
+          "text": "一般",
+          "value": "3"
+        },
+        {
+          "id": 21554,
+          "optionNo": "D",
+          "text": "比较满意",
+          "value": "4"
+        },
+        {
+          "id": 21555,
+          "optionNo": "E",
+          "text": "非常满意",
+          "value": "5"
+        },
+        {
+          "id": 21556,
+          "optionNo": "F",
+          "text": "不了解/不关心",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "id": 5714,
+      "text": "总体而言，教师授课和教学的态度",
+      "type": "radio",
+      "orderNum": 19,
+      "options": [
+        {
+          "id": 21557,
+          "optionNo": "A",
+          "text": "非常不满意",
+          "value": "1"
+        },
+        {
+          "id": 21558,
+          "optionNo": "B",
+          "text": "比较不满意",
+          "value": "2"
+        },
+        {
+          "id": 21559,
+          "optionNo": "C",
+          "text": "一般",
+          "value": "3"
+        },
+        {
+          "id": 21560,
+          "optionNo": "D",
+          "text": "比较满意",
+          "value": "4"
+        },
+        {
+          "id": 21561,
+          "optionNo": "E",
+          "text": "非常满意",
+          "value": "5"
+        },
+        {
+          "id": 21562,
+          "optionNo": "F",
+          "text": "不了解/不关心",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "id": 5715,
+      "text": "总体而言，布置的课后作业对学习有益且数量合适",
+      "type": "radio",
+      "orderNum": 20,
+      "options": [
+        {
+          "id": 21563,
+          "optionNo": "A",
+          "text": "非常不满意",
+          "value": "1"
+        },
+        {
+          "id": 21564,
+          "optionNo": "B",
+          "text": "比较不满意",
+          "value": "2"
+        },
+        {
+          "id": 21565,
+          "optionNo": "C",
+          "text": "一般",
+          "value": "3"
+        },
+        {
+          "id": 21566,
+          "optionNo": "D",
+          "text": "比较满意",
+          "value": "4"
+        },
+        {
+          "id": 21567,
+          "optionNo": "E",
+          "text": "非常满意",
+          "value": "5"
+        },
+        {
+          "id": 21568,
+          "optionNo": "F",
+          "text": "不了解/不关心",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "id": 5716,
+      "text": "总体而言，教师对学生成绩的评定方式",
+      "type": "radio",
+      "orderNum": 21,
+      "options": [
+        {
+          "id": 21569,
+          "optionNo": "A",
+          "text": "非常不满意",
+          "value": "1"
+        },
+        {
+          "id": 21570,
+          "optionNo": "B",
+          "text": "比较不满意",
+          "value": "2"
+        },
+        {
+          "id": 21571,
+          "optionNo": "C",
+          "text": "一般",
+          "value": "3"
+        },
+        {
+          "id": 21572,
+          "optionNo": "D",
+          "text": "比较满意",
+          "value": "4"
+        },
+        {
+          "id": 21573,
+          "optionNo": "E",
+          "text": "非常满意",
+          "value": "5"
+        },
+        {
+          "id": 21574,
+          "optionNo": "F",
+          "text": "不了解/不关心",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "id": 5717,
+      "text": "学校或学院组织的实践或实习活动",
+      "type": "radio",
+      "orderNum": 22,
+      "options": [
+        {
+          "id": 21575,
+          "optionNo": "A",
+          "text": "非常不满意",
+          "value": "1"
+        },
+        {
+          "id": 21576,
+          "optionNo": "B",
+          "text": "比较不满意",
+          "value": "2"
+        },
+        {
+          "id": 21577,
+          "optionNo": "C",
+          "text": "一般",
+          "value": "3"
+        },
+        {
+          "id": 21578,
+          "optionNo": "D",
+          "text": "比较满意",
+          "value": "4"
+        },
+        {
+          "id": 21579,
+          "optionNo": "E",
+          "text": "非常满意",
+          "value": "5"
+        },
+        {
+          "id": 21580,
+          "optionNo": "F",
+          "text": "不了解/不关心",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "id": 5718,
+      "text": "学校的学习氛围（同学的学习氛围、是否有作弊情况等）",
+      "type": "radio",
+      "orderNum": 23,
+      "options": [
+        {
+          "id": 21581,
+          "optionNo": "A",
+          "text": "非常不满意",
+          "value": "1"
+        },
+        {
+          "id": 21582,
+          "optionNo": "B",
+          "text": "比较不满意",
+          "value": "2"
+        },
+        {
+          "id": 21583,
+          "optionNo": "C",
+          "text": "一般",
+          "value": "3"
+        },
+        {
+          "id": 21584,
+          "optionNo": "D",
+          "text": "比较满意",
+          "value": "4"
+        },
+        {
+          "id": 21585,
+          "optionNo": "E",
+          "text": "非常满意",
+          "value": "5"
+        },
+        {
+          "id": 21586,
+          "optionNo": "F",
+          "text": "不了解/不关心",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "id": 5719,
+      "text": "学院和学校能尊重并重视同学们的想法建议",
+      "type": "radio",
+      "orderNum": 24,
+      "options": [
+        {
+          "id": 21587,
+          "optionNo": "A",
+          "text": "非常不满意",
+          "value": "1"
+        },
+        {
+          "id": 21588,
+          "optionNo": "B",
+          "text": "比较不满意",
+          "value": "2"
+        },
+        {
+          "id": 21589,
+          "optionNo": "C",
+          "text": "一般",
+          "value": "3"
+        },
+        {
+          "id": 21590,
+          "optionNo": "D",
+          "text": "比较满意",
+          "value": "4"
+        },
+        {
+          "id": 21591,
+          "optionNo": "E",
+          "text": "非常满意",
+          "value": "5"
+        },
+        {
+          "id": 21592,
+          "optionNo": "F",
+          "text": "不了解/不关心",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "id": 5720,
+      "text": "辅导员的工作态度（认真负责，并能给同学们提供帮助和支持）",
+      "type": "radio",
+      "orderNum": 25,
+      "options": [
+        {
+          "id": 21593,
+          "optionNo": "A",
+          "text": "非常不满意",
+          "value": "1"
+        },
+        {
+          "id": 21594,
+          "optionNo": "B",
+          "text": "比较不满意",
+          "value": "2"
+        },
+        {
+          "id": 21595,
+          "optionNo": "C",
+          "text": "一般",
+          "value": "3"
+        },
+        {
+          "id": 21596,
+          "optionNo": "D",
+          "text": "比较满意",
+          "value": "4"
+        },
+        {
+          "id": 21597,
+          "optionNo": "E",
+          "text": "非常满意",
+          "value": "5"
+        },
+        {
+          "id": 21598,
+          "optionNo": "F",
+          "text": "不了解/不关心",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "id": 5721,
+      "text": "学校或学院行政机构的办事效率和态度",
+      "type": "radio",
+      "orderNum": 26,
+      "options": [
+        {
+          "id": 21599,
+          "optionNo": "A",
+          "text": "非常不满意",
+          "value": "1"
+        },
+        {
+          "id": 21600,
+          "optionNo": "B",
+          "text": "比较不满意",
+          "value": "2"
+        },
+        {
+          "id": 21601,
+          "optionNo": "C",
+          "text": "一般",
+          "value": "3"
+        },
+        {
+          "id": 21602,
+          "optionNo": "D",
+          "text": "比较满意",
+          "value": "4"
+        },
+        {
+          "id": 21603,
+          "optionNo": "E",
+          "text": "非常满意",
+          "value": "5"
+        },
+        {
+          "id": 21604,
+          "optionNo": "F",
+          "text": "不了解/不关心",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "id": 5722,
+      "text": "奖学金/助学金的评定制度与流程",
+      "type": "radio",
+      "orderNum": 27,
+      "options": [
+        {
+          "id": 21605,
+          "optionNo": "A",
+          "text": "非常不满意",
+          "value": "1"
+        },
+        {
+          "id": 21606,
+          "optionNo": "B",
+          "text": "比较不满意",
+          "value": "2"
+        },
+        {
+          "id": 21607,
+          "optionNo": "C",
+          "text": "一般",
+          "value": "3"
+        },
+        {
+          "id": 21608,
+          "optionNo": "D",
+          "text": "比较满意",
+          "value": "4"
+        },
+        {
+          "id": 21609,
+          "optionNo": "E",
+          "text": "非常满意",
+          "value": "5"
+        },
+        {
+          "id": 21610,
+          "optionNo": "F",
+          "text": "不了解/不关心",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "id": 5723,
+      "text": "学校对进出校门的管理管控",
+      "type": "radio",
+      "orderNum": 28,
+      "options": [
+        {
+          "id": 21611,
+          "optionNo": "A",
+          "text": "非常不满意",
+          "value": "1"
+        },
+        {
+          "id": 21612,
+          "optionNo": "B",
+          "text": "比较不满意",
+          "value": "2"
+        },
+        {
+          "id": 21613,
+          "optionNo": "C",
+          "text": "一般",
+          "value": "3"
+        },
+        {
+          "id": 21614,
+          "optionNo": "D",
+          "text": "比较满意",
+          "value": "4"
+        },
+        {
+          "id": 21615,
+          "optionNo": "E",
+          "text": "非常满意",
+          "value": "5"
+        },
+        {
+          "id": 21616,
+          "optionNo": "F",
+          "text": "不了解/不关心",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "id": 5724,
+      "text": "学校卫生环境及绿化",
+      "type": "radio",
+      "orderNum": 29,
+      "options": [
+        {
+          "id": 21617,
+          "optionNo": "A",
+          "text": "非常不满意",
+          "value": "1"
+        },
+        {
+          "id": 21618,
+          "optionNo": "B",
+          "text": "比较不满意",
+          "value": "2"
+        },
+        {
+          "id": 21619,
+          "optionNo": "C",
+          "text": "一般",
+          "value": "3"
+        },
+        {
+          "id": 21620,
+          "optionNo": "D",
+          "text": "比较满意",
+          "value": "4"
+        },
+        {
+          "id": 21621,
+          "optionNo": "E",
+          "text": "非常满意",
+          "value": "5"
+        },
+        {
+          "id": 21622,
+          "optionNo": "F",
+          "text": "不了解/不关心",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "id": 5725,
+      "text": "学校社团生活或竞赛活动的丰富性",
+      "type": "radio",
+      "orderNum": 30,
+      "options": [
+        {
+          "id": 21623,
+          "optionNo": "A",
+          "text": "非常不满意",
+          "value": "1"
+        },
+        {
+          "id": 21624,
+          "optionNo": "B",
+          "text": "比较不满意",
+          "value": "2"
+        },
+        {
+          "id": 21625,
+          "optionNo": "C",
+          "text": "一般",
+          "value": "3"
+        },
+        {
+          "id": 21626,
+          "optionNo": "D",
+          "text": "比较满意",
+          "value": "4"
+        },
+        {
+          "id": 21627,
+          "optionNo": "E",
+          "text": "非常满意",
+          "value": "5"
+        },
+        {
+          "id": 21628,
+          "optionNo": "F",
+          "text": "不了解/不关心",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "id": 5726,
+      "text": "学校内供同学讨论的公共空间",
+      "type": "radio",
+      "orderNum": 31,
+      "options": [
+        {
+          "id": 21629,
+          "optionNo": "A",
+          "text": "非常不满意",
+          "value": "1"
+        },
+        {
+          "id": 21630,
+          "optionNo": "B",
+          "text": "比较不满意",
+          "value": "2"
+        },
+        {
+          "id": 21631,
+          "optionNo": "C",
+          "text": "一般",
+          "value": "3"
+        },
+        {
+          "id": 21632,
+          "optionNo": "D",
+          "text": "比较满意",
+          "value": "4"
+        },
+        {
+          "id": 21633,
+          "optionNo": "E",
+          "text": "非常满意",
+          "value": "5"
+        },
+        {
+          "id": 21634,
+          "optionNo": "F",
+          "text": "不了解/不关心",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "id": 5727,
+      "text": "学校的安全保障工作",
+      "type": "radio",
+      "orderNum": 32,
+      "options": [
+        {
+          "id": 21635,
+          "optionNo": "A",
+          "text": "非常不满意",
+          "value": "1"
+        },
+        {
+          "id": 21636,
+          "optionNo": "B",
+          "text": "比较不满意",
+          "value": "2"
+        },
+        {
+          "id": 21637,
+          "optionNo": "C",
+          "text": "一般",
+          "value": "3"
+        },
+        {
+          "id": 21638,
+          "optionNo": "D",
+          "text": "比较满意",
+          "value": "4"
+        },
+        {
+          "id": 21639,
+          "optionNo": "E",
+          "text": "非常满意",
+          "value": "5"
+        },
+        {
+          "id": 21640,
+          "optionNo": "F",
+          "text": "不了解/不关心",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "id": 5728,
+      "text": "体育活动与体育场地的丰富性",
+      "type": "radio",
+      "orderNum": 33,
+      "options": [
+        {
+          "id": 21641,
+          "optionNo": "A",
+          "text": "非常不满意",
+          "value": "1"
+        },
+        {
+          "id": 21642,
+          "optionNo": "B",
+          "text": "比较不满意",
+          "value": "2"
+        },
+        {
+          "id": 21643,
+          "optionNo": "C",
+          "text": "一般",
+          "value": "3"
+        },
+        {
+          "id": 21644,
+          "optionNo": "D",
+          "text": "比较满意",
+          "value": "4"
+        },
+        {
+          "id": 21645,
+          "optionNo": "E",
+          "text": "非常满意",
+          "value": "5"
+        },
+        {
+          "id": 21646,
+          "optionNo": "F",
+          "text": "不了解/不关心",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "id": 5729,
+      "text": "学校内快递配送/快递点/自提柜方便快捷",
+      "type": "radio",
+      "orderNum": 34,
+      "options": [
+        {
+          "id": 21647,
+          "optionNo": "A",
+          "text": "非常不满意",
+          "value": "1"
+        },
+        {
+          "id": 21648,
+          "optionNo": "B",
+          "text": "比较不满意",
+          "value": "2"
+        },
+        {
+          "id": 21649,
+          "optionNo": "C",
+          "text": "一般",
+          "value": "3"
+        },
+        {
+          "id": 21650,
+          "optionNo": "D",
+          "text": "比较满意",
+          "value": "4"
+        },
+        {
+          "id": 21651,
+          "optionNo": "E",
+          "text": "非常满意",
+          "value": "5"
+        },
+        {
+          "id": 21652,
+          "optionNo": "F",
+          "text": "不了解/不关心",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "id": 5730,
+      "text": "提供心理咨询/心理讲座/心理课程的情况",
+      "type": "radio",
+      "orderNum": 35,
+      "options": [
+        {
+          "id": 21653,
+          "optionNo": "A",
+          "text": "非常不满意",
+          "value": "1"
+        },
+        {
+          "id": 21654,
+          "optionNo": "B",
+          "text": "比较不满意",
+          "value": "2"
+        },
+        {
+          "id": 21655,
+          "optionNo": "C",
+          "text": "一般",
+          "value": "3"
+        },
+        {
+          "id": 21656,
+          "optionNo": "D",
+          "text": "比较满意",
+          "value": "4"
+        },
+        {
+          "id": 21657,
+          "optionNo": "E",
+          "text": "非常满意",
+          "value": "5"
+        },
+        {
+          "id": 21658,
+          "optionNo": "F",
+          "text": "不了解/不关心",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "id": 5731,
+      "text": "有机会参加勤工俭学且报酬合理",
+      "type": "radio",
+      "orderNum": 36,
+      "options": [
+        {
+          "id": 21659,
+          "optionNo": "A",
+          "text": "非常不满意",
+          "value": "1"
+        },
+        {
+          "id": 21660,
+          "optionNo": "B",
+          "text": "比较不满意",
+          "value": "2"
+        },
+        {
+          "id": 21661,
+          "optionNo": "C",
+          "text": "一般",
+          "value": "3"
+        },
+        {
+          "id": 21662,
+          "optionNo": "D",
+          "text": "比较满意",
+          "value": "4"
+        },
+        {
+          "id": 21663,
+          "optionNo": "E",
+          "text": "非常满意",
+          "value": "5"
+        },
+        {
+          "id": 21664,
+          "optionNo": "F",
+          "text": "不了解/不关心",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "id": 5732,
+      "text": "提供的就业指导与帮助",
+      "type": "radio",
+      "orderNum": 37,
+      "options": [
+        {
+          "id": 21665,
+          "optionNo": "A",
+          "text": "非常不满意",
+          "value": "1"
+        },
+        {
+          "id": 21666,
+          "optionNo": "B",
+          "text": "比较不满意",
+          "value": "2"
+        },
+        {
+          "id": 21667,
+          "optionNo": "C",
+          "text": "一般",
+          "value": "3"
+        },
+        {
+          "id": 21668,
+          "optionNo": "D",
+          "text": "比较满意",
+          "value": "4"
+        },
+        {
+          "id": 21669,
+          "optionNo": "E",
+          "text": "非常满意",
+          "value": "5"
+        },
+        {
+          "id": 21670,
+          "optionNo": "F",
+          "text": "不了解/不关心",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "id": 5733,
+      "text": "提供的医疗条件和服务",
+      "type": "radio",
+      "orderNum": 38,
+      "options": [
+        {
+          "id": 21671,
+          "optionNo": "A",
+          "text": "非常不满意",
+          "value": "1"
+        },
+        {
+          "id": 21672,
+          "optionNo": "B",
+          "text": "比较不满意",
+          "value": "2"
+        },
+        {
+          "id": 21673,
+          "optionNo": "C",
+          "text": "一般",
+          "value": "3"
+        },
+        {
+          "id": 21674,
+          "optionNo": "D",
+          "text": "比较满意",
+          "value": "4"
+        },
+        {
+          "id": 21675,
+          "optionNo": "E",
+          "text": "非常满意",
+          "value": "5"
+        },
+        {
+          "id": 21676,
+          "optionNo": "F",
+          "text": "不了解/不关心",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "id": 5734,
+      "text": "校内交通/校车便捷实惠",
+      "type": "radio",
+      "orderNum": 39,
+      "options": [
+        {
+          "id": 21677,
+          "optionNo": "A",
+          "text": "非常不满意",
+          "value": "1"
+        },
+        {
+          "id": 21678,
+          "optionNo": "B",
+          "text": "比较不满意",
+          "value": "2"
+        },
+        {
+          "id": 21679,
+          "optionNo": "C",
+          "text": "一般",
+          "value": "3"
+        },
+        {
+          "id": 21680,
+          "optionNo": "D",
+          "text": "比较满意",
+          "value": "4"
+        },
+        {
+          "id": 21681,
+          "optionNo": "E",
+          "text": "非常满意",
+          "value": "5"
+        },
+        {
+          "id": 21682,
+          "optionNo": "F",
+          "text": "不了解/不关心",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "id": 5735,
+      "text": "我觉得很难让自己安静下来",
+      "type": "radio",
+      "orderNum": 40,
+      "options": [
+        {
+          "id": 21683,
+          "optionNo": "A",
+          "text": "不符合",
+          "value": "1"
+        },
+        {
+          "id": 21684,
+          "optionNo": "B",
+          "text": "有时符合",
+          "value": "2"
+        },
+        {
+          "id": 21685,
+          "optionNo": "C",
+          "text": "常常符合",
+          "value": "3"
+        },
+        {
+          "id": 21686,
+          "optionNo": "D",
+          "text": "总是符合",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 5736,
+      "text": "我感到口干舌燥",
+      "type": "radio",
+      "orderNum": 41,
+      "options": [
+        {
+          "id": 21687,
+          "optionNo": "A",
+          "text": "不符合",
+          "value": "1"
+        },
+        {
+          "id": 21688,
+          "optionNo": "B",
+          "text": "有时符合",
+          "value": "2"
+        },
+        {
+          "id": 21689,
+          "optionNo": "C",
+          "text": "常常符合",
+          "value": "3"
+        },
+        {
+          "id": 21690,
+          "optionNo": "D",
+          "text": "总是符合",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 5737,
+      "text": "我好像一点都没有感觉到任何愉快、舒畅",
+      "type": "radio",
+      "orderNum": 42,
+      "options": [
+        {
+          "id": 21691,
+          "optionNo": "A",
+          "text": "不符合",
+          "value": "1"
+        },
+        {
+          "id": 21692,
+          "optionNo": "B",
+          "text": "有时符合",
+          "value": "2"
+        },
+        {
+          "id": 21693,
+          "optionNo": "C",
+          "text": "常常符合",
+          "value": "3"
+        },
+        {
+          "id": 21694,
+          "optionNo": "D",
+          "text": "总是符合",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 5738,
+      "text": "我感到呼吸困难（例如：气喘或透不过气来）",
+      "type": "radio",
+      "orderNum": 43,
+      "options": [
+        {
+          "id": 21695,
+          "optionNo": "A",
+          "text": "不符合",
+          "value": "1"
+        },
+        {
+          "id": 21696,
+          "optionNo": "B",
+          "text": "有时符合",
+          "value": "2"
+        },
+        {
+          "id": 21697,
+          "optionNo": "C",
+          "text": "常常符合",
+          "value": "3"
+        },
+        {
+          "id": 21698,
+          "optionNo": "D",
+          "text": "总是符合",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 5739,
+      "text": "我感到很难主动去开始工作",
+      "type": "radio",
+      "orderNum": 44,
+      "options": [
+        {
+          "id": 21699,
+          "optionNo": "A",
+          "text": "不符合",
+          "value": "1"
+        },
+        {
+          "id": 21700,
+          "optionNo": "B",
+          "text": "有时符合",
+          "value": "2"
+        },
+        {
+          "id": 21701,
+          "optionNo": "C",
+          "text": "常常符合",
+          "value": "3"
+        },
+        {
+          "id": 21702,
+          "optionNo": "D",
+          "text": "总是符合",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 5740,
+      "text": "我对事情往往做出过敏反应",
+      "type": "radio",
+      "orderNum": 45,
+      "options": [
+        {
+          "id": 21703,
+          "optionNo": "A",
+          "text": "不符合",
+          "value": "1"
+        },
+        {
+          "id": 21704,
+          "optionNo": "B",
+          "text": "有时符合",
+          "value": "2"
+        },
+        {
+          "id": 21705,
+          "optionNo": "C",
+          "text": "常常符合",
+          "value": "3"
+        },
+        {
+          "id": 21706,
+          "optionNo": "D",
+          "text": "总是符合",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 5741,
+      "text": "我感到颤抖（例如，手抖）",
+      "type": "radio",
+      "orderNum": 46,
+      "options": [
+        {
+          "id": 21707,
+          "optionNo": "A",
+          "text": "不符合",
+          "value": "1"
+        },
+        {
+          "id": 21708,
+          "optionNo": "B",
+          "text": "有时符合",
+          "value": "2"
+        },
+        {
+          "id": 21709,
+          "optionNo": "C",
+          "text": "常常符合",
+          "value": "3"
+        },
+        {
+          "id": 21710,
+          "optionNo": "D",
+          "text": "总是符合",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 5742,
+      "text": "我觉得自己消耗了很多精力",
+      "type": "radio",
+      "orderNum": 47,
+      "options": [
+        {
+          "id": 21711,
+          "optionNo": "A",
+          "text": "不符合",
+          "value": "1"
+        },
+        {
+          "id": 21712,
+          "optionNo": "B",
+          "text": "有时符合",
+          "value": "2"
+        },
+        {
+          "id": 21713,
+          "optionNo": "C",
+          "text": "常常符合",
+          "value": "3"
+        },
+        {
+          "id": 21714,
+          "optionNo": "D",
+          "text": "总是符合",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 5743,
+      "text": "我担心一些可能让自己恐慌或出丑的场合",
+      "type": "radio",
+      "orderNum": 48,
+      "options": [
+        {
+          "id": 21715,
+          "optionNo": "A",
+          "text": "不符合",
+          "value": "1"
+        },
+        {
+          "id": 21716,
+          "optionNo": "B",
+          "text": "有时符合",
+          "value": "2"
+        },
+        {
+          "id": 21717,
+          "optionNo": "C",
+          "text": "常常符合",
+          "value": "3"
+        },
+        {
+          "id": 21718,
+          "optionNo": "D",
+          "text": "总是符合",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 5744,
+      "text": "我觉得自己对不久的将来没有什么可期盼的",
+      "type": "radio",
+      "orderNum": 49,
+      "options": [
+        {
+          "id": 21719,
+          "optionNo": "A",
+          "text": "不符合",
+          "value": "1"
+        },
+        {
+          "id": 21720,
+          "optionNo": "B",
+          "text": "有时符合",
+          "value": "2"
+        },
+        {
+          "id": 21721,
+          "optionNo": "C",
+          "text": "常常符合",
+          "value": "3"
+        },
+        {
+          "id": 21722,
+          "optionNo": "D",
+          "text": "总是符合",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 5745,
+      "text": "我感到忐忑不安",
+      "type": "radio",
+      "orderNum": 50,
+      "options": [
+        {
+          "id": 21723,
+          "optionNo": "A",
+          "text": "不符合",
+          "value": "1"
+        },
+        {
+          "id": 21724,
+          "optionNo": "B",
+          "text": "有时符合",
+          "value": "2"
+        },
+        {
+          "id": 21725,
+          "optionNo": "C",
+          "text": "常常符合",
+          "value": "3"
+        },
+        {
+          "id": 21726,
+          "optionNo": "D",
+          "text": "总是符合",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 5746,
+      "text": "我感到很难放松自己",
+      "type": "radio",
+      "orderNum": 51,
+      "options": [
+        {
+          "id": 21727,
+          "optionNo": "A",
+          "text": "不符合",
+          "value": "1"
+        },
+        {
+          "id": 21728,
+          "optionNo": "B",
+          "text": "有时符合",
+          "value": "2"
+        },
+        {
+          "id": 21729,
+          "optionNo": "C",
+          "text": "常常符合",
+          "value": "3"
+        },
+        {
+          "id": 21730,
+          "optionNo": "D",
+          "text": "总是符合",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 5747,
+      "text": "我感到忧郁沮丧",
+      "type": "radio",
+      "orderNum": 52,
+      "options": [
+        {
+          "id": 21731,
+          "optionNo": "A",
+          "text": "不符合",
+          "value": "1"
+        },
+        {
+          "id": 21732,
+          "optionNo": "B",
+          "text": "有时符合",
+          "value": "2"
+        },
+        {
+          "id": 21733,
+          "optionNo": "C",
+          "text": "常常符合",
+          "value": "3"
+        },
+        {
+          "id": 21734,
+          "optionNo": "D",
+          "text": "总是符合",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 5748,
+      "text": "我无法容忍任何阻碍我继续工作的事情",
+      "type": "radio",
+      "orderNum": 53,
+      "options": [
+        {
+          "id": 21735,
+          "optionNo": "A",
+          "text": "不符合",
+          "value": "1"
+        },
+        {
+          "id": 21736,
+          "optionNo": "B",
+          "text": "有时符合",
+          "value": "2"
+        },
+        {
+          "id": 21737,
+          "optionNo": "C",
+          "text": "常常符合",
+          "value": "3"
+        },
+        {
+          "id": 21738,
+          "optionNo": "D",
+          "text": "总是符合",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 5749,
+      "text": "我感到快要崩溃了",
+      "type": "radio",
+      "orderNum": 54,
+      "options": [
+        {
+          "id": 21739,
+          "optionNo": "A",
+          "text": "不符合",
+          "value": "1"
+        },
+        {
+          "id": 21740,
+          "optionNo": "B",
+          "text": "有时符合",
+          "value": "2"
+        },
+        {
+          "id": 21741,
+          "optionNo": "C",
+          "text": "常常符合",
+          "value": "3"
+        },
+        {
+          "id": 21742,
+          "optionNo": "D",
+          "text": "总是符合",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 5750,
+      "text": "我对任何事情都不能产生热情",
+      "type": "radio",
+      "orderNum": 55,
+      "options": [
+        {
+          "id": 21743,
+          "optionNo": "A",
+          "text": "不符合",
+          "value": "1"
+        },
+        {
+          "id": 21744,
+          "optionNo": "B",
+          "text": "有时符合",
+          "value": "2"
+        },
+        {
+          "id": 21745,
+          "optionNo": "C",
+          "text": "常常符合",
+          "value": "3"
+        },
+        {
+          "id": 21746,
+          "optionNo": "D",
+          "text": "总是符合",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 5751,
+      "text": "我觉得自己不怎么配做人",
+      "type": "radio",
+      "orderNum": 56,
+      "options": [
+        {
+          "id": 21747,
+          "optionNo": "A",
+          "text": "不符合",
+          "value": "1"
+        },
+        {
+          "id": 21748,
+          "optionNo": "B",
+          "text": "有时符合",
+          "value": "2"
+        },
+        {
+          "id": 21749,
+          "optionNo": "C",
+          "text": "常常符合",
+          "value": "3"
+        },
+        {
+          "id": 21750,
+          "optionNo": "D",
+          "text": "总是符合",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 5752,
+      "text": "我发觉自己很容易被触怒",
+      "type": "radio",
+      "orderNum": 57,
+      "options": [
+        {
+          "id": 21751,
+          "optionNo": "A",
+          "text": "不符合",
+          "value": "1"
+        },
+        {
+          "id": 21752,
+          "optionNo": "B",
+          "text": "有时符合",
+          "value": "2"
+        },
+        {
+          "id": 21753,
+          "optionNo": "C",
+          "text": "常常符合",
+          "value": "3"
+        },
+        {
+          "id": 21754,
+          "optionNo": "D",
+          "text": "总是符合",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 5753,
+      "text": "即使在没有明显的体力活动时，我也感到心律不正常",
+      "type": "radio",
+      "orderNum": 58,
+      "options": [
+        {
+          "id": 21755,
+          "optionNo": "A",
+          "text": "不符合",
+          "value": "1"
+        },
+        {
+          "id": 21756,
+          "optionNo": "B",
+          "text": "有时符合",
+          "value": "2"
+        },
+        {
+          "id": 21757,
+          "optionNo": "C",
+          "text": "常常符合",
+          "value": "3"
+        },
+        {
+          "id": 21758,
+          "optionNo": "D",
+          "text": "总是符合",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 5754,
+      "text": "我无缘无故地感到害怕",
+      "type": "radio",
+      "orderNum": 59,
+      "options": [
+        {
+          "id": 21759,
+          "optionNo": "A",
+          "text": "不符合",
+          "value": "1"
+        },
+        {
+          "id": 21760,
+          "optionNo": "B",
+          "text": "有时符合",
+          "value": "2"
+        },
+        {
+          "id": 21761,
+          "optionNo": "C",
+          "text": "常常符合",
+          "value": "3"
+        },
+        {
+          "id": 21762,
+          "optionNo": "D",
+          "text": "总是符合",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 5755,
+      "text": "我感到生命毫无意义",
+      "type": "radio",
+      "orderNum": 60,
+      "options": [
+        {
+          "id": 21763,
+          "optionNo": "A",
+          "text": "不符合",
+          "value": "1"
+        },
+        {
+          "id": 21764,
+          "optionNo": "B",
+          "text": "有时符合",
+          "value": "2"
+        },
+        {
+          "id": 21765,
+          "optionNo": "C",
+          "text": "常常符合",
+          "value": "3"
+        },
+        {
+          "id": 21766,
+          "optionNo": "D",
+          "text": "总是符合",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 5756,
+      "text": "上课听讲的时候我从来不走神。",
+      "type": "radio",
+      "orderNum": 61,
+      "options": [
+        {
+          "id": 21767,
+          "optionNo": "A",
+          "text": "完全不符合",
+          "value": "1"
+        },
+        {
+          "id": 21768,
+          "optionNo": "B",
+          "text": "基本不符合",
+          "value": "2"
+        },
+        {
+          "id": 21769,
+          "optionNo": "C",
+          "text": "不确定",
+          "value": "3"
+        },
+        {
+          "id": 21770,
+          "optionNo": "D",
+          "text": "基本符合",
+          "value": "4"
+        },
+        {
+          "id": 21771,
+          "optionNo": "E",
+          "text": "完全符合",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 5757,
+      "text": "有时我会将今天该做的事情拖到明天再做。",
+      "type": "radio",
+      "orderNum": 62,
+      "options": [
+        {
+          "id": 21772,
+          "optionNo": "A",
+          "text": "完全不符合",
+          "value": "1"
+        },
+        {
+          "id": 21773,
+          "optionNo": "B",
+          "text": "基本不符合",
+          "value": "2"
+        },
+        {
+          "id": 21774,
+          "optionNo": "C",
+          "text": "不确定",
+          "value": "3"
+        },
+        {
+          "id": 21775,
+          "optionNo": "D",
+          "text": "基本符合",
+          "value": "4"
+        },
+        {
+          "id": 21776,
+          "optionNo": "E",
+          "text": "完全符合",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 5758,
+      "text": "有时候我说出的话并不是我内心的真实想法。",
+      "type": "radio",
+      "orderNum": 63,
+      "options": [
+        {
+          "id": 21777,
+          "optionNo": "A",
+          "text": "完全不符合",
+          "value": "1"
+        },
+        {
+          "id": 21778,
+          "optionNo": "B",
+          "text": "基本不符合",
+          "value": "2"
+        },
+        {
+          "id": 21779,
+          "optionNo": "C",
+          "text": "不确定",
+          "value": "3"
+        },
+        {
+          "id": 21780,
+          "optionNo": "D",
+          "text": "基本符合",
+          "value": "4"
+        },
+        {
+          "id": 21781,
+          "optionNo": "E",
+          "text": "完全符合",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 5759,
+      "text": "大人吩咐我做什么我总是心甘情愿地去做。",
+      "type": "radio",
+      "orderNum": 64,
+      "options": [
+        {
+          "id": 21782,
+          "optionNo": "A",
+          "text": "完全不符合",
+          "value": "1"
+        },
+        {
+          "id": 21783,
+          "optionNo": "B",
+          "text": "基本不符合",
+          "value": "2"
+        },
+        {
+          "id": 21784,
+          "optionNo": "C",
+          "text": "不确定",
+          "value": "3"
+        },
+        {
+          "id": 21785,
+          "optionNo": "D",
+          "text": "基本符合",
+          "value": "4"
+        },
+        {
+          "id": 21786,
+          "optionNo": "E",
+          "text": "完全符合",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 5760,
+      "text": "我曾经怨恨过某个人。",
+      "type": "radio",
+      "orderNum": 65,
+      "options": [
+        {
+          "id": 21787,
+          "optionNo": "A",
+          "text": "完全不符合",
+          "value": "1"
+        },
+        {
+          "id": 21788,
+          "optionNo": "B",
+          "text": "基本不符合",
+          "value": "2"
+        },
+        {
+          "id": 21789,
+          "optionNo": "C",
+          "text": "不确定",
+          "value": "3"
+        },
+        {
+          "id": 21790,
+          "optionNo": "D",
+          "text": "基本符合",
+          "value": "4"
+        },
+        {
+          "id": 21791,
+          "optionNo": "E",
+          "text": "完全符合",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 5761,
+      "text": "我对生活感到绝望。",
+      "type": "radio",
+      "orderNum": 66,
+      "options": [
+        {
+          "id": 21792,
+          "optionNo": "A",
+          "text": "完全不符合",
+          "value": "1"
+        },
+        {
+          "id": 21793,
+          "optionNo": "B",
+          "text": "基本不符合",
+          "value": "2"
+        },
+        {
+          "id": 21794,
+          "optionNo": "C",
+          "text": "不确定",
+          "value": "3"
+        },
+        {
+          "id": 21795,
+          "optionNo": "D",
+          "text": "基本符合",
+          "value": "4"
+        },
+        {
+          "id": 21796,
+          "optionNo": "E",
+          "text": "完全符合",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 5762,
+      "text": "我觉得自己一无是处。",
+      "type": "radio",
+      "orderNum": 67,
+      "options": [
+        {
+          "id": 21797,
+          "optionNo": "A",
+          "text": "完全不符合",
+          "value": "1"
+        },
+        {
+          "id": 21798,
+          "optionNo": "B",
+          "text": "基本不符合",
+          "value": "2"
+        },
+        {
+          "id": 21799,
+          "optionNo": "C",
+          "text": "不确定",
+          "value": "3"
+        },
+        {
+          "id": 21800,
+          "optionNo": "D",
+          "text": "基本符合",
+          "value": "4"
+        },
+        {
+          "id": 21801,
+          "optionNo": "E",
+          "text": "完全符合",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 5763,
+      "text": "我觉得自己很失败。",
+      "type": "radio",
+      "orderNum": 68,
+      "options": [
+        {
+          "id": 21802,
+          "optionNo": "A",
+          "text": "完全不符合",
+          "value": "1"
+        },
+        {
+          "id": 21803,
+          "optionNo": "B",
+          "text": "基本不符合",
+          "value": "2"
+        },
+        {
+          "id": 21804,
+          "optionNo": "C",
+          "text": "不确定",
+          "value": "3"
+        },
+        {
+          "id": 21805,
+          "optionNo": "D",
+          "text": "基本符合",
+          "value": "4"
+        },
+        {
+          "id": 21806,
+          "optionNo": "E",
+          "text": "完全符合",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 5764,
+      "text": "我认为未来没有希望。",
+      "type": "radio",
+      "orderNum": 69,
+      "options": [
+        {
+          "id": 21807,
+          "optionNo": "A",
+          "text": "完全不符合",
+          "value": "1"
+        },
+        {
+          "id": 21808,
+          "optionNo": "B",
+          "text": "基本不符合",
+          "value": "2"
+        },
+        {
+          "id": 21809,
+          "optionNo": "C",
+          "text": "不确定",
+          "value": "3"
+        },
+        {
+          "id": 21810,
+          "optionNo": "D",
+          "text": "基本符合",
+          "value": "4"
+        },
+        {
+          "id": 21811,
+          "optionNo": "E",
+          "text": "完全符合",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 5765,
+      "text": "我想好好活着。",
+      "type": "radio",
+      "orderNum": 70,
+      "options": [
+        {
+          "id": 21812,
+          "optionNo": "A",
+          "text": "完全不符合",
+          "value": "1"
+        },
+        {
+          "id": 21813,
+          "optionNo": "B",
+          "text": "基本不符合",
+          "value": "2"
+        },
+        {
+          "id": 21814,
+          "optionNo": "C",
+          "text": "不确定",
+          "value": "3"
+        },
+        {
+          "id": 21815,
+          "optionNo": "D",
+          "text": "基本符合",
+          "value": "4"
+        },
+        {
+          "id": 21816,
+          "optionNo": "E",
+          "text": "完全符合",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 5766,
+      "text": "我对前途比较乐观。",
+      "type": "radio",
+      "orderNum": 71,
+      "options": [
+        {
+          "id": 21817,
+          "optionNo": "A",
+          "text": "完全不符合",
+          "value": "1"
+        },
+        {
+          "id": 21818,
+          "optionNo": "B",
+          "text": "基本不符合",
+          "value": "2"
+        },
+        {
+          "id": 21819,
+          "optionNo": "C",
+          "text": "不确定",
+          "value": "3"
+        },
+        {
+          "id": 21820,
+          "optionNo": "D",
+          "text": "基本符合",
+          "value": "4"
+        },
+        {
+          "id": 21821,
+          "optionNo": "E",
+          "text": "完全符合",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 5767,
+      "text": "自杀违背我的信仰。",
+      "type": "radio",
+      "orderNum": 72,
+      "options": [
+        {
+          "id": 21822,
+          "optionNo": "A",
+          "text": "完全不符合",
+          "value": "1"
+        },
+        {
+          "id": 21823,
+          "optionNo": "B",
+          "text": "基本不符合",
+          "value": "2"
+        },
+        {
+          "id": 21824,
+          "optionNo": "C",
+          "text": "不确定",
+          "value": "3"
+        },
+        {
+          "id": 21825,
+          "optionNo": "D",
+          "text": "基本符合",
+          "value": "4"
+        },
+        {
+          "id": 21826,
+          "optionNo": "E",
+          "text": "完全符合",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 5768,
+      "text": "我不想再继续活下去。",
+      "type": "radio",
+      "orderNum": 73,
+      "options": [
+        {
+          "id": 21827,
+          "optionNo": "A",
+          "text": "完全不符合",
+          "value": "1"
+        },
+        {
+          "id": 21828,
+          "optionNo": "B",
+          "text": "基本不符合",
+          "value": "2"
+        },
+        {
+          "id": 21829,
+          "optionNo": "C",
+          "text": "不确定",
+          "value": "3"
+        },
+        {
+          "id": 21830,
+          "optionNo": "D",
+          "text": "基本符合",
+          "value": "4"
+        },
+        {
+          "id": 21831,
+          "optionNo": "E",
+          "text": "完全符合",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 5769,
+      "text": "我想自杀的想法已经有很长时间了。",
+      "type": "radio",
+      "orderNum": 74,
+      "options": [
+        {
+          "id": 21832,
+          "optionNo": "A",
+          "text": "完全不符合",
+          "value": "1"
+        },
+        {
+          "id": 21833,
+          "optionNo": "B",
+          "text": "基本不符合",
+          "value": "2"
+        },
+        {
+          "id": 21834,
+          "optionNo": "C",
+          "text": "不确定",
+          "value": "3"
+        },
+        {
+          "id": 21835,
+          "optionNo": "D",
+          "text": "基本符合",
+          "value": "4"
+        },
+        {
+          "id": 21836,
+          "optionNo": "E",
+          "text": "完全符合",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 5770,
+      "text": "自杀是一个人的自由别人无权干涉。",
+      "type": "radio",
+      "orderNum": 75,
+      "options": [
+        {
+          "id": 21837,
+          "optionNo": "A",
+          "text": "完全不符合",
+          "value": "1"
+        },
+        {
+          "id": 21838,
+          "optionNo": "B",
+          "text": "基本不符合",
+          "value": "2"
+        },
+        {
+          "id": 21839,
+          "optionNo": "C",
+          "text": "不确定",
+          "value": "3"
+        },
+        {
+          "id": 21840,
+          "optionNo": "D",
+          "text": "基本符合",
+          "value": "4"
+        },
+        {
+          "id": 21841,
+          "optionNo": "E",
+          "text": "完全符合",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 5771,
+      "text": "我为自杀做好了具体的计划。",
+      "type": "radio",
+      "orderNum": 76,
+      "options": [
+        {
+          "id": 21842,
+          "optionNo": "A",
+          "text": "完全不符合",
+          "value": "1"
+        },
+        {
+          "id": 21843,
+          "optionNo": "B",
+          "text": "基本不符合",
+          "value": "2"
+        },
+        {
+          "id": 21844,
+          "optionNo": "C",
+          "text": "不确定",
+          "value": "3"
+        },
+        {
+          "id": 21845,
+          "optionNo": "D",
+          "text": "基本符合",
+          "value": "4"
+        },
+        {
+          "id": 21846,
+          "optionNo": "E",
+          "text": "完全符合",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 5772,
+      "text": "我确定了自杀的时间。",
+      "type": "radio",
+      "orderNum": 77,
+      "options": [
+        {
+          "id": 21847,
+          "optionNo": "A",
+          "text": "完全不符合",
+          "value": "1"
+        },
+        {
+          "id": 21848,
+          "optionNo": "B",
+          "text": "基本不符合",
+          "value": "2"
+        },
+        {
+          "id": 21849,
+          "optionNo": "C",
+          "text": "不确定",
+          "value": "3"
+        },
+        {
+          "id": 21850,
+          "optionNo": "D",
+          "text": "基本符合",
+          "value": "4"
+        },
+        {
+          "id": 21851,
+          "optionNo": "E",
+          "text": "完全符合",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 5773,
+      "text": "我过去曾经自杀过。",
+      "type": "radio",
+      "orderNum": 78,
+      "options": [
+        {
+          "id": 21852,
+          "optionNo": "A",
+          "text": "完全不符合",
+          "value": "1"
+        },
+        {
+          "id": 21853,
+          "optionNo": "B",
+          "text": "基本不符合",
+          "value": "2"
+        },
+        {
+          "id": 21854,
+          "optionNo": "C",
+          "text": "不确定",
+          "value": "3"
+        },
+        {
+          "id": 21855,
+          "optionNo": "D",
+          "text": "基本符合",
+          "value": "4"
+        },
+        {
+          "id": 21856,
+          "optionNo": "E",
+          "text": "完全符合",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 5774,
+      "text": "我一定会自杀成功的。",
+      "type": "radio",
+      "orderNum": 79,
+      "options": [
+        {
+          "id": 21857,
+          "optionNo": "A",
+          "text": "完全不符合",
+          "value": "1"
+        },
+        {
+          "id": 21858,
+          "optionNo": "B",
+          "text": "基本不符合",
+          "value": "2"
+        },
+        {
+          "id": 21859,
+          "optionNo": "C",
+          "text": "不确定",
+          "value": "3"
+        },
+        {
+          "id": 21860,
+          "optionNo": "D",
+          "text": "基本符合",
+          "value": "4"
+        },
+        {
+          "id": 21861,
+          "optionNo": "E",
+          "text": "完全符合",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 5775,
+      "text": "我安排好了自己的身后事。",
+      "type": "radio",
+      "orderNum": 80,
+      "options": [
+        {
+          "id": 21862,
+          "optionNo": "A",
+          "text": "完全不符合",
+          "value": "1"
+        },
+        {
+          "id": 21863,
+          "optionNo": "B",
+          "text": "基本不符合",
+          "value": "2"
+        },
+        {
+          "id": 21864,
+          "optionNo": "C",
+          "text": "不确定",
+          "value": "3"
+        },
+        {
+          "id": 21865,
+          "optionNo": "D",
+          "text": "基本符合",
+          "value": "4"
+        },
+        {
+          "id": 21866,
+          "optionNo": "E",
+          "text": "完全符合",
+          "value": "5"
+        }
+      ]
+    }
+  ],
+  "dimensions": []
+}

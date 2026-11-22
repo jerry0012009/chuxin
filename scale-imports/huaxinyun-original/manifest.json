@@ -1,0 +1,541 @@
+{
+  "source": "https://psy.rooteam.cn",
+  "tenant_id": 168,
+  "tenant_name": "演示租户",
+  "exported_at": "2026-07-02",
+  "count": 66,
+  "notes": [
+    "Exported with /admin-api/pss/surveys/page?pageNo=1&pageSize=100 and /admin-api/pss/surveys/getSurveysJSon?id=<id>.",
+    "Imported into Chuxin as huaxinyun-<source id>; published but self_test_enabled remains false by default."
+  ],
+  "surveys": [
+    {
+      "id": 47,
+      "title": "性别测试",
+      "type": "basic",
+      "question_count": 1,
+      "dimension_count": 1,
+      "result_count": 1
+    },
+    {
+      "id": 103,
+      "title": "生活满意度自测问卷(SWLS)",
+      "type": "basic",
+      "question_count": 5,
+      "dimension_count": 1,
+      "result_count": 7
+    },
+    {
+      "id": 104,
+      "title": "父母教养方式(EMBU)",
+      "type": "basic",
+      "question_count": 132,
+      "dimension_count": 11,
+      "result_count": 33
+    },
+    {
+      "id": 105,
+      "title": "职业价值观测验",
+      "type": "basic",
+      "question_count": 52,
+      "dimension_count": 13,
+      "result_count": 13
+    },
+    {
+      "id": 106,
+      "title": "青少年气质量表",
+      "type": "basic",
+      "question_count": 60,
+      "dimension_count": 4,
+      "result_count": 20
+    },
+    {
+      "id": 107,
+      "title": "抑郁症状自评量表（PHQ-9）",
+      "type": "basic",
+      "question_count": 9,
+      "dimension_count": 4,
+      "result_count": 11
+    },
+    {
+      "id": 108,
+      "title": "阿森斯失眠量表(AIS)",
+      "type": "basic",
+      "question_count": 8,
+      "dimension_count": 1,
+      "result_count": 3
+    },
+    {
+      "id": 109,
+      "title": "霍兰德职业倾向测验",
+      "type": "basic",
+      "question_count": 192,
+      "dimension_count": 7,
+      "result_count": 12
+    },
+    {
+      "id": 110,
+      "title": "匹兹堡睡眠质量指数（PSQI）",
+      "type": "basic",
+      "question_count": 19,
+      "dimension_count": 8,
+      "result_count": 3
+    },
+    {
+      "id": 111,
+      "title": "自我接纳问卷（SQA）",
+      "type": "basic",
+      "question_count": 16,
+      "dimension_count": 1,
+      "result_count": 2
+    },
+    {
+      "id": 112,
+      "title": "心理弹性量表（CD-RISC）",
+      "type": "basic",
+      "question_count": 25,
+      "dimension_count": 4,
+      "result_count": 12
+    },
+    {
+      "id": 113,
+      "title": "幸福指数自评量表",
+      "type": "basic",
+      "question_count": 27,
+      "dimension_count": 1,
+      "result_count": 4
+    },
+    {
+      "id": 114,
+      "title": "自尊量表（SES）",
+      "type": "basic",
+      "question_count": 10,
+      "dimension_count": 1,
+      "result_count": 5
+    },
+    {
+      "id": 115,
+      "title": "压力知觉量表（PSTR）",
+      "type": "basic",
+      "question_count": 50,
+      "dimension_count": 1,
+      "result_count": 4
+    },
+    {
+      "id": 116,
+      "title": "职业倦怠量表（MBI-GS）",
+      "type": "basic",
+      "question_count": 15,
+      "dimension_count": 4,
+      "result_count": 12
+    },
+    {
+      "id": 117,
+      "title": "正念注意觉知量表 (MAAS)",
+      "type": "basic",
+      "question_count": 15,
+      "dimension_count": 1,
+      "result_count": 3
+    },
+    {
+      "id": 118,
+      "title": "暴力倾向测验",
+      "type": "basic",
+      "question_count": 14,
+      "dimension_count": 1,
+      "result_count": 3
+    },
+    {
+      "id": 119,
+      "title": "密西根酒精依赖量表（MAST）",
+      "type": "basic",
+      "question_count": 24,
+      "dimension_count": 4,
+      "result_count": 9
+    },
+    {
+      "id": 120,
+      "title": "大学生主动拖延量表",
+      "type": "basic",
+      "question_count": 15,
+      "dimension_count": 1,
+      "result_count": 2
+    },
+    {
+      "id": 121,
+      "title": "抑郁-焦虑-压力量表（DASS-21）",
+      "type": "basic",
+      "question_count": 21,
+      "dimension_count": 3,
+      "result_count": 12
+    },
+    {
+      "id": 122,
+      "title": "睡眠状况自评量表（SRSS）",
+      "type": "basic",
+      "question_count": 10,
+      "dimension_count": 1,
+      "result_count": 4
+    },
+    {
+      "id": 123,
+      "title": "自杀行为筛查问卷",
+      "type": "basic",
+      "question_count": 8,
+      "dimension_count": 9,
+      "result_count": 11
+    },
+    {
+      "id": 124,
+      "title": "危机干预量表",
+      "type": "basic",
+      "question_count": 96,
+      "dimension_count": 7,
+      "result_count": 25
+    },
+    {
+      "id": 125,
+      "title": "90项症状清单(SCL-90)",
+      "type": "basic",
+      "question_count": 90,
+      "dimension_count": 14,
+      "result_count": 36
+    },
+    {
+      "id": 126,
+      "title": "MBTI人格量表",
+      "type": "basic",
+      "question_count": 93,
+      "dimension_count": 5,
+      "result_count": 48
+    },
+    {
+      "id": 127,
+      "title": "OLSON婚姻质量问卷(ENRICH)",
+      "type": "basic",
+      "question_count": 124,
+      "dimension_count": 13,
+      "result_count": 16
+    },
+    {
+      "id": 128,
+      "title": "Sarason考试焦虑量表(TAS)",
+      "type": "basic",
+      "question_count": 37,
+      "dimension_count": 1,
+      "result_count": 3
+    },
+    {
+      "id": 129,
+      "title": "艾森克情绪稳定性测验(EES）",
+      "type": "basic",
+      "question_count": 210,
+      "dimension_count": 7,
+      "result_count": 14
+    },
+    {
+      "id": 130,
+      "title": "艾森克人格问卷(成人EPQ)",
+      "type": "basic",
+      "question_count": 88,
+      "dimension_count": 5,
+      "result_count": 26
+    },
+    {
+      "id": 131,
+      "title": "艾森克人格问卷(儿童EPQ)",
+      "type": "basic",
+      "question_count": 88,
+      "dimension_count": 5,
+      "result_count": 26
+    },
+    {
+      "id": 132,
+      "title": "贝克焦虑量表(BAI)",
+      "type": "basic",
+      "question_count": 21,
+      "dimension_count": 1,
+      "result_count": 2
+    },
+    {
+      "id": 133,
+      "title": "贝克抑郁自评问卷(BDI-21)",
+      "type": "basic",
+      "question_count": 21,
+      "dimension_count": 1,
+      "result_count": 4
+    },
+    {
+      "id": 134,
+      "title": "成人内-外控制量表(ANSIE)",
+      "type": "basic",
+      "question_count": 40,
+      "dimension_count": 1,
+      "result_count": 2
+    },
+    {
+      "id": 135,
+      "title": "大学生心理健康调查表(UPI)",
+      "type": "basic",
+      "question_count": 64,
+      "dimension_count": 7,
+      "result_count": 13
+    },
+    {
+      "id": 136,
+      "title": "儿童期孤独症评定量表(CARS)",
+      "type": "basic",
+      "question_count": 15,
+      "dimension_count": 1,
+      "result_count": 3
+    },
+    {
+      "id": 137,
+      "title": "汉密顿焦虑量表(HAMA)",
+      "type": "basic",
+      "question_count": 14,
+      "dimension_count": 3,
+      "result_count": 7
+    },
+    {
+      "id": 138,
+      "title": "汉密顿抑郁量表(HAMD)",
+      "type": "basic",
+      "question_count": 26,
+      "dimension_count": 8,
+      "result_count": 11
+    },
+    {
+      "id": 139,
+      "title": "简明精神病量表(BPRS)",
+      "type": "basic",
+      "question_count": 18,
+      "dimension_count": 6,
+      "result_count": 12
+    },
+    {
+      "id": 140,
+      "title": "焦虑自评量表(SAS)",
+      "type": "basic",
+      "question_count": 20,
+      "dimension_count": 1,
+      "result_count": 4
+    },
+    {
+      "id": 141,
+      "title": "卡特尔16种人格测验(16PF-成人)",
+      "type": "basic",
+      "question_count": 187,
+      "dimension_count": 24,
+      "result_count": 68
+    },
+    {
+      "id": 142,
+      "title": "卡特尔16种人格测验(16PF-大学)",
+      "type": "basic",
+      "question_count": 187,
+      "dimension_count": 24,
+      "result_count": 71
+    },
+    {
+      "id": 143,
+      "title": "明尼苏达多相个性测验表(MMPI399)",
+      "type": "basic",
+      "question_count": 399,
+      "dimension_count": 14,
+      "result_count": 55
+    },
+    {
+      "id": 144,
+      "title": "纽芬兰幸福度量表(MUNSH)",
+      "type": "basic",
+      "question_count": 24,
+      "dimension_count": 5,
+      "result_count": 4
+    },
+    {
+      "id": 145,
+      "title": "人际关系综合诊断量表(IRIDS)",
+      "type": "basic",
+      "question_count": 28,
+      "dimension_count": 5,
+      "result_count": 15
+    },
+    {
+      "id": 146,
+      "title": "日常生活能力评定量表(ADL)",
+      "type": "basic",
+      "question_count": 14,
+      "dimension_count": 1,
+      "result_count": 2
+    },
+    {
+      "id": 147,
+      "title": "社会支持评定量表(SSRS)",
+      "type": "basic",
+      "question_count": 28,
+      "dimension_count": 4,
+      "result_count": 4
+    },
+    {
+      "id": 148,
+      "title": "生活满意度指数A量表(LSIA)",
+      "type": "basic",
+      "question_count": 20,
+      "dimension_count": 1,
+      "result_count": 4
+    },
+    {
+      "id": 149,
+      "title": "生活满意度指数B量表(LSIB)",
+      "type": "basic",
+      "question_count": 12,
+      "dimension_count": 1,
+      "result_count": 2
+    },
+    {
+      "id": 150,
+      "title": "生活事件量表(LES)",
+      "type": "basic",
+      "question_count": 192,
+      "dimension_count": 3,
+      "result_count": 5
+    },
+    {
+      "id": 151,
+      "title": "心境障碍问卷(MDQ)",
+      "type": "basic",
+      "question_count": 13,
+      "dimension_count": 1,
+      "result_count": 2
+    },
+    {
+      "id": 152,
+      "title": "抑郁自评量表(SDS)",
+      "type": "basic",
+      "question_count": 20,
+      "dimension_count": 1,
+      "result_count": 4
+    },
+    {
+      "id": 153,
+      "title": "中学生心理健康量表(MSSMHS)",
+      "type": "basic",
+      "question_count": 60,
+      "dimension_count": 11,
+      "result_count": 55
+    },
+    {
+      "id": 154,
+      "title": "自杀态度调查问卷(QSA)",
+      "type": "basic",
+      "question_count": 29,
+      "dimension_count": 5,
+      "result_count": 15
+    },
+    {
+      "id": 155,
+      "title": "自我和谐量表(SCCS)",
+      "type": "basic",
+      "question_count": 35,
+      "dimension_count": 4,
+      "result_count": 9
+    },
+    {
+      "id": 156,
+      "title": "总体幸福感量表(GWB)",
+      "type": "basic",
+      "question_count": 33,
+      "dimension_count": 7,
+      "result_count": 7
+    },
+    {
+      "id": 157,
+      "title": "Rutter儿童行为问卷-父母问卷",
+      "type": "basic",
+      "question_count": 31,
+      "dimension_count": 3,
+      "result_count": 5
+    },
+    {
+      "id": 167,
+      "title": "校园生活调查表",
+      "type": "basic",
+      "question_count": 80,
+      "dimension_count": 0,
+      "result_count": 0
+    },
+    {
+      "id": 169,
+      "title": "个人情况调查表",
+      "type": "basic",
+      "question_count": 28,
+      "dimension_count": 5,
+      "result_count": 20
+    },
+    {
+      "id": 172,
+      "title": "个人性格调查表",
+      "type": "basic",
+      "question_count": 125,
+      "dimension_count": 11,
+      "result_count": 46
+    },
+    {
+      "id": 173,
+      "title": "校园生活调查表",
+      "type": "basic",
+      "question_count": 80,
+      "dimension_count": 5,
+      "result_count": 15
+    },
+    {
+      "id": 176,
+      "title": "个人性格调查表",
+      "type": "basic",
+      "question_count": 125,
+      "dimension_count": 11,
+      "result_count": 46
+    },
+    {
+      "id": 180,
+      "title": "新生情绪健康问卷",
+      "type": "basic",
+      "question_count": 196,
+      "dimension_count": 37,
+      "result_count": 3
+    },
+    {
+      "id": 182,
+      "title": "大学生心理特质多维测评",
+      "type": "basic",
+      "question_count": 196,
+      "dimension_count": 37,
+      "result_count": 3
+    },
+    {
+      "id": 185,
+      "title": "测试量表",
+      "type": "basic",
+      "question_count": 1,
+      "dimension_count": 2,
+      "result_count": 1
+    },
+    {
+      "id": 186,
+      "title": "新生情绪健康问卷",
+      "type": "basic",
+      "question_count": 196,
+      "dimension_count": 37,
+      "result_count": 30
+    },
+    {
+      "id": 187,
+      "title": "90项症状清单(SCL-90)",
+      "type": "basic",
+      "question_count": 90,
+      "dimension_count": 14,
+      "result_count": 36
+    }
+  ]
+}

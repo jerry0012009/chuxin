@@ -1,0 +1,1051 @@
+{
+  "id": "loc-control",
+  "title": "控制源量表(LOC)",
+  "description": "本问卷帮助了解您对生活中事件归因方式的倾向，是内控还是外控。共30题，大约需要6分钟完成。",
+  "type": "basic",
+  "questions": [
+    {
+      "text": "我能否得到晋升主要取决于我的能力",
+      "type": "radio",
+      "orderNum": 1,
+      "options": [
+        {
+          "text": "非常不准确",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较不准确",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较准确",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常准确",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "当我制定计划时，我几乎肯定能实现它",
+      "type": "radio",
+      "orderNum": 2,
+      "options": [
+        {
+          "text": "非常不准确",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较不准确",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较准确",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常准确",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "我的成绩完全取决于我的努力程度",
+      "type": "radio",
+      "orderNum": 3,
+      "options": [
+        {
+          "text": "非常不准确",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较不准确",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较准确",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常准确",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "对我来说，坚持自己的理想和目标是可能的",
+      "type": "radio",
+      "orderNum": 4,
+      "options": [
+        {
+          "text": "非常不准确",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较不准确",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较准确",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常准确",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "只要我下定决心，就能影响身边发生的事",
+      "type": "radio",
+      "orderNum": 5,
+      "options": [
+        {
+          "text": "非常不准确",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较不准确",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较准确",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常准确",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "我过着的生活很大程度上是由我自己决定的",
+      "type": "radio",
+      "orderNum": 6,
+      "options": [
+        {
+          "text": "非常不准确",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较不准确",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较准确",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常准确",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "在与人交往时，我通常能掌控局面",
+      "type": "radio",
+      "orderNum": 7,
+      "options": [
+        {
+          "text": "非常不准确",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较不准确",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较准确",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常准确",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "我的命运由自己掌握",
+      "type": "radio",
+      "orderNum": 8,
+      "options": [
+        {
+          "text": "非常不准确",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较不准确",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较准确",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常准确",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "只要足够努力，我就能实现目标",
+      "type": "radio",
+      "orderNum": 9,
+      "options": [
+        {
+          "text": "非常不准确",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较不准确",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较准确",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常准确",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "我在生活中取得的成就完全取决于我的能力",
+      "type": "radio",
+      "orderNum": 10,
+      "options": [
+        {
+          "text": "非常不准确",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较不准确",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较准确",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常准确",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "能否得到我想要的晋升取决于有影响力的人",
+      "type": "radio",
+      "orderNum": 11,
+      "options": [
+        {
+          "text": "非常不准确",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较不准确",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较准确",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常准确",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "我生活中发生的事大多是由有权势的人决定的",
+      "type": "radio",
+      "orderNum": 12,
+      "options": [
+        {
+          "text": "非常不准确",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较不准确",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较准确",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常准确",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "在制定计划时，我需要确保它们不会触怒有权势的人",
+      "type": "radio",
+      "orderNum": 13,
+      "options": [
+        {
+          "text": "非常不准确",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较不准确",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较准确",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常准确",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "为了实现目标，我需要获得有影响力的人的支持",
+      "type": "radio",
+      "orderNum": 14,
+      "options": [
+        {
+          "text": "非常不准确",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较不准确",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较准确",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常准确",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "我的人生道路很大程度上取决于有权势的人",
+      "type": "radio",
+      "orderNum": 15,
+      "options": [
+        {
+          "text": "非常不准确",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较不准确",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较准确",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常准确",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "有影响力的人决定了我能否成功",
+      "type": "radio",
+      "orderNum": 16,
+      "options": [
+        {
+          "text": "非常不准确",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较不准确",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较准确",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常准确",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "要升职加薪，我必须讨好上司",
+      "type": "radio",
+      "orderNum": 17,
+      "options": [
+        {
+          "text": "非常不准确",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较不准确",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较准确",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常准确",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "那些有权力的人掌控着我的生活",
+      "type": "radio",
+      "orderNum": 18,
+      "options": [
+        {
+          "text": "非常不准确",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较不准确",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较准确",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常准确",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "我感到自己无法改变与权威人士的关系",
+      "type": "radio",
+      "orderNum": 19,
+      "options": [
+        {
+          "text": "非常不准确",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较不准确",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较准确",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常准确",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "在社会中，普通人很难影响决策者",
+      "type": "radio",
+      "orderNum": 20,
+      "options": [
+        {
+          "text": "非常不准确",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较不准确",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较准确",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常准确",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "很多事情的发生纯属偶然",
+      "type": "radio",
+      "orderNum": 21,
+      "options": [
+        {
+          "text": "非常不准确",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较不准确",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较准确",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常准确",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "我的人生很大程度上取决于运气",
+      "type": "radio",
+      "orderNum": 22,
+      "options": [
+        {
+          "text": "非常不准确",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较不准确",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较准确",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常准确",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "我常常发现好事会自然而然地发生",
+      "type": "radio",
+      "orderNum": 23,
+      "options": [
+        {
+          "text": "非常不准确",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较不准确",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较准确",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常准确",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "我很难理解为什么有些事情会发生在我身上",
+      "type": "radio",
+      "orderNum": 24,
+      "options": [
+        {
+          "text": "非常不准确",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较不准确",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较准确",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常准确",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "命运对我有很大影响",
+      "type": "radio",
+      "orderNum": 25,
+      "options": [
+        {
+          "text": "非常不准确",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较不准确",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较准确",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常准确",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "运气在决定我的人生方向中起重要作用",
+      "type": "radio",
+      "orderNum": 26,
+      "options": [
+        {
+          "text": "非常不准确",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较不准确",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较准确",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常准确",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "我生活中很多好事都是碰巧发生的",
+      "type": "radio",
+      "orderNum": 27,
+      "options": [
+        {
+          "text": "非常不准确",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较不准确",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较准确",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常准确",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "我觉得很多事情都无法预料和控制",
+      "type": "radio",
+      "orderNum": 28,
+      "options": [
+        {
+          "text": "非常不准确",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较不准确",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较准确",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常准确",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "我经常凭运气做成事情",
+      "type": "radio",
+      "orderNum": 29,
+      "options": [
+        {
+          "text": "非常不准确",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较不准确",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较准确",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常准确",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "机遇决定了我人生中的大部分事情",
+      "type": "radio",
+      "orderNum": 30,
+      "options": [
+        {
+          "text": "非常不准确",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较不准确",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较准确",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常准确",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    }
+  ],
+  "dimensions": [
+    {
+      "dimensionName": "内控性",
+      "dimensionCode": "internality",
+      "num": 1,
+      "evaluateExpression": "(hx_t_1 + hx_t_2 + hx_t_3 + hx_t_4 + hx_t_5 + hx_t_6 + hx_t_7 + hx_t_8 + hx_t_9 + hx_t_10) / 10",
+      "standardScoreFormula": "",
+      "results": [
+        {
+          "evaluateExpression": "hx_wd_y_1 <= 2.0",
+          "conclusionAnalysis": "低",
+          "suggestion": "您倾向于认为外部因素决定事件结果，较少相信自己能掌控局面。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_1 > 2.0 && hx_wd_y_1 <= 3.5",
+          "conclusionAnalysis": "中",
+          "suggestion": "您对内外控制源的看法较为平衡。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_1 > 3.5",
+          "conclusionAnalysis": "高",
+          "suggestion": "您倾向于认为自己的行为和努力能够影响事件结果，具有较强的自主感。",
+          "assessmentWarning": "none"
+        }
+      ]
+    },
+    {
+      "dimensionName": "权威他人",
+      "dimensionCode": "powerful_others",
+      "num": 2,
+      "evaluateExpression": "(hx_t_11 + hx_t_12 + hx_t_13 + hx_t_14 + hx_t_15 + hx_t_16 + hx_t_17 + hx_t_18 + hx_t_19 + hx_t_20) / 10",
+      "standardScoreFormula": "",
+      "results": [
+        {
+          "evaluateExpression": "hx_wd_y_2 <= 2.0",
+          "conclusionAnalysis": "低",
+          "suggestion": "您较少认为他人（权威、领导）控制着自己的生活。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_2 > 2.0 && hx_wd_y_2 <= 3.5",
+          "conclusionAnalysis": "中",
+          "suggestion": "您对权威他人影响力的感知中等。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_2 > 3.5",
+          "conclusionAnalysis": "高",
+          "suggestion": "您倾向于认为有权势的人掌控着自己的生活方向。",
+          "assessmentWarning": "none"
+        }
+      ]
+    },
+    {
+      "dimensionName": "机遇",
+      "dimensionCode": "chance",
+      "num": 3,
+      "evaluateExpression": "(hx_t_21 + hx_t_22 + hx_t_23 + hx_t_24 + hx_t_25 + hx_t_26 + hx_t_27 + hx_t_28 + hx_t_29 + hx_t_30) / 10",
+      "standardScoreFormula": "",
+      "results": [
+        {
+          "evaluateExpression": "hx_wd_y_3 <= 2.0",
+          "conclusionAnalysis": "低",
+          "suggestion": "您较少将生活事件归因于运气或偶然。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_3 > 2.0 && hx_wd_y_3 <= 3.5",
+          "conclusionAnalysis": "中",
+          "suggestion": "您对机遇因素的看法较为中立。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_3 > 3.5",
+          "conclusionAnalysis": "高",
+          "suggestion": "您倾向于认为运气和机遇在生活中起重要作用。",
+          "assessmentWarning": "none"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,363 @@
+{
+  "id": "ipip-ocd-order",
+  "title": "强迫性秩序量表(IPIP OCD-Order)",
+  "description": "本问卷帮助了解您对秩序、整洁和规则的重视程度。共10题，大约需要2分钟完成。",
+  "type": "basic",
+  "questions": [
+    {
+      "text": "我做事非常有条理。",
+      "type": "radio",
+      "orderNum": 1,
+      "options": [
+        {
+          "text": "非常不同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "不同意",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "同意",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常同意",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "我希望一切都能恰到好处。",
+      "type": "radio",
+      "orderNum": 2,
+      "options": [
+        {
+          "text": "非常不同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "不同意",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "同意",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常同意",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "我对杂乱无序不太在意。",
+      "type": "radio",
+      "orderNum": 3,
+      "options": [
+        {
+          "text": "非常同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "同意",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "不同意",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常不同意",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "我喜欢秩序和规律。",
+      "type": "radio",
+      "orderNum": 4,
+      "options": [
+        {
+          "text": "非常不同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "不同意",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "同意",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常同意",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "我喜欢保持物品整齐。",
+      "type": "radio",
+      "orderNum": 5,
+      "options": [
+        {
+          "text": "非常不同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "不同意",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "同意",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常同意",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "我注意不到周围的凌乱。",
+      "type": "radio",
+      "orderNum": 6,
+      "options": [
+        {
+          "text": "非常同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "同意",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "不同意",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常不同意",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "我希望一切都完美无缺。",
+      "type": "radio",
+      "orderNum": 7,
+      "options": [
+        {
+          "text": "非常不同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "不同意",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "同意",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常同意",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "我会确保规则得到遵守。",
+      "type": "radio",
+      "orderNum": 8,
+      "options": [
+        {
+          "text": "非常不同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "不同意",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "同意",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常同意",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "我不会被混乱的人所困扰。",
+      "type": "radio",
+      "orderNum": 9,
+      "options": [
+        {
+          "text": "非常同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "同意",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "不同意",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常不同意",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "我会持续努力直到一切完美。",
+      "type": "radio",
+      "orderNum": 10,
+      "options": [
+        {
+          "text": "非常不同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "不同意",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "同意",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常同意",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    }
+  ],
+  "dimensions": [
+    {
+      "dimensionName": "秩序与清洁",
+      "dimensionCode": "order_cleanliness",
+      "num": 1,
+      "evaluateExpression": "(hx_t_1 + hx_t_2 + hx_t_3 + hx_t_4 + hx_t_5 + hx_t_6 + hx_t_7 + hx_t_8 + hx_t_9 + hx_t_10) / 10",
+      "standardScoreFormula": "",
+      "results": [
+        {
+          "evaluateExpression": "hx_wd_y_1 <= 2.0",
+          "conclusionAnalysis": "秩序需求较低",
+          "suggestion": "您对秩序和整洁的要求不高，对环境的杂乱容忍度较高，更注重灵活性和随性的生活方式。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_1 > 2.0 && hx_wd_y_1 <= 3.0",
+          "conclusionAnalysis": "秩序需求中等",
+          "suggestion": "您在秩序和灵活性之间保持平衡，能够适应不同的环境状态。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_1 > 3.0 && hx_wd_y_1 <= 4.0",
+          "conclusionAnalysis": "秩序需求较高",
+          "suggestion": "您比较注重秩序和整洁，喜欢有条理的生活和工作环境，做事倾向于追求完美。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_1 > 4.0",
+          "conclusionAnalysis": "秩序需求很高",
+          "suggestion": "您对秩序和整洁有很高的要求，追求一切井井有条。这种特质有助于提升工作效率，但也要注意不要过度追求完美而给自己带来压力。",
+          "assessmentWarning": "none"
+        }
+      ]
+    }
+  ]
+}

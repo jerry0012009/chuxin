@@ -1,0 +1,551 @@
+{
+  "id": "cpss14-stress",
+  "title": "中文版知觉压力量表(CPSS-14)",
+  "description": "本问卷帮助了解您近一个月来的压力感受，包括紧张感和对生活的控制感。共14题，大约需要3分钟完成。",
+  "type": "basic",
+  "questions": [
+    {
+      "text": "在过去一个月中，有多少时候您因为发生了意想不到的事情而感到心烦意乱？",
+      "type": "radio",
+      "orderNum": 1,
+      "options": [
+        {
+          "text": "从不",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "很少",
+          "value": "1",
+          "optionNo": "B"
+        },
+        {
+          "text": "有时",
+          "value": "2",
+          "optionNo": "C"
+        },
+        {
+          "text": "经常",
+          "value": "3",
+          "optionNo": "D"
+        },
+        {
+          "text": "总是",
+          "value": "4",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "在过去一个月中，有多少时候您感到自己无法控制生活中的重要事情？",
+      "type": "radio",
+      "orderNum": 2,
+      "options": [
+        {
+          "text": "从不",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "很少",
+          "value": "1",
+          "optionNo": "B"
+        },
+        {
+          "text": "有时",
+          "value": "2",
+          "optionNo": "C"
+        },
+        {
+          "text": "经常",
+          "value": "3",
+          "optionNo": "D"
+        },
+        {
+          "text": "总是",
+          "value": "4",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "在过去一个月中，有多少时候您感到紧张和有压力？",
+      "type": "radio",
+      "orderNum": 3,
+      "options": [
+        {
+          "text": "从不",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "很少",
+          "value": "1",
+          "optionNo": "B"
+        },
+        {
+          "text": "有时",
+          "value": "2",
+          "optionNo": "C"
+        },
+        {
+          "text": "经常",
+          "value": "3",
+          "optionNo": "D"
+        },
+        {
+          "text": "总是",
+          "value": "4",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "在过去一个月中，有多少时候您感到自己有信心能够处理好个人问题？",
+      "type": "radio",
+      "orderNum": 4,
+      "options": [
+        {
+          "text": "从不",
+          "value": "4",
+          "optionNo": "A"
+        },
+        {
+          "text": "很少",
+          "value": "3",
+          "optionNo": "B"
+        },
+        {
+          "text": "有时",
+          "value": "2",
+          "optionNo": "C"
+        },
+        {
+          "text": "经常",
+          "value": "1",
+          "optionNo": "D"
+        },
+        {
+          "text": "总是",
+          "value": "0",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "在过去一个月中，有多少时候您感到事情正按照您的意愿发展？",
+      "type": "radio",
+      "orderNum": 5,
+      "options": [
+        {
+          "text": "从不",
+          "value": "4",
+          "optionNo": "A"
+        },
+        {
+          "text": "很少",
+          "value": "3",
+          "optionNo": "B"
+        },
+        {
+          "text": "有时",
+          "value": "2",
+          "optionNo": "C"
+        },
+        {
+          "text": "经常",
+          "value": "1",
+          "optionNo": "D"
+        },
+        {
+          "text": "总是",
+          "value": "0",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "在过去一个月中，有多少时候您能够控制生活中令您生气的事情？",
+      "type": "radio",
+      "orderNum": 6,
+      "options": [
+        {
+          "text": "从不",
+          "value": "4",
+          "optionNo": "A"
+        },
+        {
+          "text": "很少",
+          "value": "3",
+          "optionNo": "B"
+        },
+        {
+          "text": "有时",
+          "value": "2",
+          "optionNo": "C"
+        },
+        {
+          "text": "经常",
+          "value": "1",
+          "optionNo": "D"
+        },
+        {
+          "text": "总是",
+          "value": "0",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "在过去一个月中，有多少时候您感到自己能够掌控生活中发生的事情？",
+      "type": "radio",
+      "orderNum": 7,
+      "options": [
+        {
+          "text": "从不",
+          "value": "4",
+          "optionNo": "A"
+        },
+        {
+          "text": "很少",
+          "value": "3",
+          "optionNo": "B"
+        },
+        {
+          "text": "有时",
+          "value": "2",
+          "optionNo": "C"
+        },
+        {
+          "text": "经常",
+          "value": "1",
+          "optionNo": "D"
+        },
+        {
+          "text": "总是",
+          "value": "0",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "在过去一个月中，有多少时候您因为事情超出您的控制范围而感到不安？",
+      "type": "radio",
+      "orderNum": 8,
+      "options": [
+        {
+          "text": "从不",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "很少",
+          "value": "1",
+          "optionNo": "B"
+        },
+        {
+          "text": "有时",
+          "value": "2",
+          "optionNo": "C"
+        },
+        {
+          "text": "经常",
+          "value": "3",
+          "optionNo": "D"
+        },
+        {
+          "text": "总是",
+          "value": "4",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "在过去一个月中，有多少时候您能够有效地处理日常生活中的烦恼？",
+      "type": "radio",
+      "orderNum": 9,
+      "options": [
+        {
+          "text": "从不",
+          "value": "4",
+          "optionNo": "A"
+        },
+        {
+          "text": "很少",
+          "value": "3",
+          "optionNo": "B"
+        },
+        {
+          "text": "有时",
+          "value": "2",
+          "optionNo": "C"
+        },
+        {
+          "text": "经常",
+          "value": "1",
+          "optionNo": "D"
+        },
+        {
+          "text": "总是",
+          "value": "0",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "在过去一个月中，有多少时候您觉得自己能够应对生活中出现的大部分问题？",
+      "type": "radio",
+      "orderNum": 10,
+      "options": [
+        {
+          "text": "从不",
+          "value": "4",
+          "optionNo": "A"
+        },
+        {
+          "text": "很少",
+          "value": "3",
+          "optionNo": "B"
+        },
+        {
+          "text": "有时",
+          "value": "2",
+          "optionNo": "C"
+        },
+        {
+          "text": "经常",
+          "value": "1",
+          "optionNo": "D"
+        },
+        {
+          "text": "总是",
+          "value": "0",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "在过去一个月中，有多少时候您感到困难重重无法克服？",
+      "type": "radio",
+      "orderNum": 11,
+      "options": [
+        {
+          "text": "从不",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "很少",
+          "value": "1",
+          "optionNo": "B"
+        },
+        {
+          "text": "有时",
+          "value": "2",
+          "optionNo": "C"
+        },
+        {
+          "text": "经常",
+          "value": "3",
+          "optionNo": "D"
+        },
+        {
+          "text": "总是",
+          "value": "4",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "在过去一个月中，有多少时候您因为担心某些事情而感到焦虑？",
+      "type": "radio",
+      "orderNum": 12,
+      "options": [
+        {
+          "text": "从不",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "很少",
+          "value": "1",
+          "optionNo": "B"
+        },
+        {
+          "text": "有时",
+          "value": "2",
+          "optionNo": "C"
+        },
+        {
+          "text": "经常",
+          "value": "3",
+          "optionNo": "D"
+        },
+        {
+          "text": "总是",
+          "value": "4",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "在过去一个月中，有多少时候您觉得自己能够控制自己利用时间的方式？",
+      "type": "radio",
+      "orderNum": 13,
+      "options": [
+        {
+          "text": "从不",
+          "value": "4",
+          "optionNo": "A"
+        },
+        {
+          "text": "很少",
+          "value": "3",
+          "optionNo": "B"
+        },
+        {
+          "text": "有时",
+          "value": "2",
+          "optionNo": "C"
+        },
+        {
+          "text": "经常",
+          "value": "1",
+          "optionNo": "D"
+        },
+        {
+          "text": "总是",
+          "value": "0",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "在过去一个月中，有多少时候您感到自己处于极大的压力之下？",
+      "type": "radio",
+      "orderNum": 14,
+      "options": [
+        {
+          "text": "从不",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "很少",
+          "value": "1",
+          "optionNo": "B"
+        },
+        {
+          "text": "有时",
+          "value": "2",
+          "optionNo": "C"
+        },
+        {
+          "text": "经常",
+          "value": "3",
+          "optionNo": "D"
+        },
+        {
+          "text": "总是",
+          "value": "4",
+          "optionNo": "E"
+        }
+      ]
+    }
+  ],
+  "dimensions": [
+    {
+      "dimensionName": "紧张感",
+      "dimensionCode": "tension",
+      "num": 1,
+      "evaluateExpression": "hx_t_1 + hx_t_2 + hx_t_3 + hx_t_8 + hx_t_11 + hx_t_12 + hx_t_14",
+      "standardScoreFormula": "",
+      "results": [
+        {
+          "evaluateExpression": "hx_wd_y_1 <= 7",
+          "conclusionAnalysis": "紧张感较低",
+          "suggestion": "您的紧张感水平较低，说明您近期在情绪上较为放松，没有明显的紧张和焦虑。请继续保持良好的心态。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_1 > 7 && hx_wd_y_1 <= 14",
+          "conclusionAnalysis": "紧张感中等",
+          "suggestion": "您的紧张感处于中等水平，说明您近期经历了一定程度的紧张和压力。建议关注自身的压力来源，适当采取放松措施，如深呼吸、运动或与朋友交流。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_1 > 14 && hx_wd_y_1 <= 21",
+          "conclusionAnalysis": "紧张感较高",
+          "suggestion": "您的紧张感水平较高，说明您近期承受了较大的心理压力，经常感到紧张和焦虑。建议积极寻求减压方式，必要时可向心理咨询师寻求帮助。",
+          "assessmentWarning": "low"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_1 > 21",
+          "conclusionAnalysis": "紧张感非常高",
+          "suggestion": "您的紧张感水平非常高，说明您近期持续处于高度紧张和焦虑的状态。强烈建议尽快寻求专业的心理咨询或医疗帮助，以避免长期压力对身心健康的不良影响。",
+          "assessmentWarning": "high"
+        }
+      ]
+    },
+    {
+      "dimensionName": "失控感",
+      "dimensionCode": "loss_of_control",
+      "num": 2,
+      "evaluateExpression": "hx_t_4 + hx_t_5 + hx_t_6 + hx_t_7 + hx_t_9 + hx_t_10 + hx_t_13",
+      "standardScoreFormula": "",
+      "results": [
+        {
+          "evaluateExpression": "hx_wd_y_2 <= 7",
+          "conclusionAnalysis": "失控感较低",
+          "suggestion": "您的失控感水平较低，说明您对自己生活中的事情有较好的掌控感，能够有效处理日常问题。请继续保持。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_2 > 7 && hx_wd_y_2 <= 14",
+          "conclusionAnalysis": "失控感中等",
+          "suggestion": "您的失控感处于中等水平，说明您在某些时候可能会感到对生活缺乏掌控。建议重新审视自己的目标和优先事项，提升自我效能感。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_2 > 14 && hx_wd_y_2 <= 21",
+          "conclusionAnalysis": "失控感较高",
+          "suggestion": "您的失控感水平较高，说明您近期经常感到无法掌控生活中的重要事情。建议学习时间管理和问题解决技巧，提升对生活的掌控感。",
+          "assessmentWarning": "low"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_2 > 21",
+          "conclusionAnalysis": "失控感非常高",
+          "suggestion": "您的失控感水平非常高，说明您近期持续感到对生活缺乏掌控。这可能与长期压力和无力感有关。强烈建议寻求专业心理咨询，学习有效的应对策略。",
+          "assessmentWarning": "high"
+        }
+      ]
+    },
+    {
+      "dimensionName": "知觉压力总分",
+      "dimensionCode": "total_stress",
+      "num": 3,
+      "evaluateExpression": "hx_t_1 + hx_t_2 + hx_t_3 + hx_t_4 + hx_t_5 + hx_t_6 + hx_t_7 + hx_t_8 + hx_t_9 + hx_t_10 + hx_t_11 + hx_t_12 + hx_t_13 + hx_t_14",
+      "standardScoreFormula": "",
+      "results": [
+        {
+          "evaluateExpression": "hx_wd_y_3 <= 18",
+          "conclusionAnalysis": "低压力水平",
+          "suggestion": "您的总体知觉压力水平较低，说明您近期的生活压力较小，心理状态较为轻松。建议继续保持积极的生活方式和有效的压力管理习惯。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_3 > 18 && hx_wd_y_3 <= 36",
+          "conclusionAnalysis": "中等压力水平",
+          "suggestion": "您的总体知觉压力处于中等水平，说明您近期经历了一定程度的生活压力。建议关注自身的压力来源，适当采取减压措施，如规律运动、充足睡眠和社交活动。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_3 > 36 && hx_wd_y_3 <= 56",
+          "conclusionAnalysis": "高压力水平",
+          "suggestion": "您的总体知觉压力水平较高，说明您近期承受了较大的生活压力，可能已经影响到身心健康。建议积极寻求减压方式，必要时可向专业心理咨询师寻求帮助，以避免长期压力对身体和心理造成不良影响。",
+          "assessmentWarning": "high"
+        }
+      ]
+    }
+  ]
+}

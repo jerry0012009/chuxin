@@ -1,0 +1,778 @@
+{
+  "id": "lsrp-psychopathy",
+  "title": "莱文森自我报告精神病态量表(LSRP)",
+  "description": "本问卷帮助了解您在人际互动和自我管理方面的某些特征。共26题，大约需要5分钟完成。",
+  "type": "basic",
+  "questions": [
+    {
+      "text": "成功对我来说比如何对待他人更重要。",
+      "type": "radio",
+      "orderNum": 1,
+      "options": [
+        {
+          "text": "非常不同意",
+          "value": "4",
+          "optionNo": "A"
+        },
+        {
+          "text": "不同意",
+          "value": "3",
+          "optionNo": "B"
+        },
+        {
+          "text": "同意",
+          "value": "2",
+          "optionNo": "C"
+        },
+        {
+          "text": "非常同意",
+          "value": "1",
+          "optionNo": "D"
+        }
+      ]
+    },
+    {
+      "text": "对我来说，对竞争对手仁慈就是对自己残忍。",
+      "type": "radio",
+      "orderNum": 2,
+      "options": [
+        {
+          "text": "非常不同意",
+          "value": "4",
+          "optionNo": "A"
+        },
+        {
+          "text": "不同意",
+          "value": "3",
+          "optionNo": "B"
+        },
+        {
+          "text": "同意",
+          "value": "2",
+          "optionNo": "C"
+        },
+        {
+          "text": "非常同意",
+          "value": "1",
+          "optionNo": "D"
+        }
+      ]
+    },
+    {
+      "text": "我冷酷无情地追求自己的目标。",
+      "type": "radio",
+      "orderNum": 3,
+      "options": [
+        {
+          "text": "非常不同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "不同意",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "同意",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "非常同意",
+          "value": "4",
+          "optionNo": "D"
+        }
+      ]
+    },
+    {
+      "text": "我有时会为了得到自己想要的东西而操纵他人。",
+      "type": "radio",
+      "orderNum": 4,
+      "options": [
+        {
+          "text": "非常不同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "不同意",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "同意",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "非常同意",
+          "value": "4",
+          "optionNo": "D"
+        }
+      ]
+    },
+    {
+      "text": "我假装关心他人来达到自己的目的。",
+      "type": "radio",
+      "orderNum": 5,
+      "options": [
+        {
+          "text": "非常不同意",
+          "value": "4",
+          "optionNo": "A"
+        },
+        {
+          "text": "不同意",
+          "value": "3",
+          "optionNo": "B"
+        },
+        {
+          "text": "同意",
+          "value": "2",
+          "optionNo": "C"
+        },
+        {
+          "text": "非常同意",
+          "value": "1",
+          "optionNo": "D"
+        }
+      ]
+    },
+    {
+      "text": "我经常感到无聊，需要刺激。",
+      "type": "radio",
+      "orderNum": 6,
+      "options": [
+        {
+          "text": "非常不同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "不同意",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "同意",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "非常同意",
+          "value": "4",
+          "optionNo": "D"
+        }
+      ]
+    },
+    {
+      "text": "我对自己行为的后果不太担心。",
+      "type": "radio",
+      "orderNum": 7,
+      "options": [
+        {
+          "text": "非常不同意",
+          "value": "4",
+          "optionNo": "A"
+        },
+        {
+          "text": "不同意",
+          "value": "3",
+          "optionNo": "B"
+        },
+        {
+          "text": "同意",
+          "value": "2",
+          "optionNo": "C"
+        },
+        {
+          "text": "非常同意",
+          "value": "1",
+          "optionNo": "D"
+        }
+      ]
+    },
+    {
+      "text": "我相信人生就是适者生存。",
+      "type": "radio",
+      "orderNum": 8,
+      "options": [
+        {
+          "text": "非常不同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "不同意",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "同意",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "非常同意",
+          "value": "4",
+          "optionNo": "D"
+        }
+      ]
+    },
+    {
+      "text": "我经常感到一种权力感和优越感。",
+      "type": "radio",
+      "orderNum": 9,
+      "options": [
+        {
+          "text": "非常不同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "不同意",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "同意",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "非常同意",
+          "value": "4",
+          "optionNo": "D"
+        }
+      ]
+    },
+    {
+      "text": "我享受掌控他人的感觉。",
+      "type": "radio",
+      "orderNum": 10,
+      "options": [
+        {
+          "text": "非常不同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "不同意",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "同意",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "非常同意",
+          "value": "4",
+          "optionNo": "D"
+        }
+      ]
+    },
+    {
+      "text": "我很容易对他人产生厌倦。",
+      "type": "radio",
+      "orderNum": 11,
+      "options": [
+        {
+          "text": "非常不同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "不同意",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "同意",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "非常同意",
+          "value": "4",
+          "optionNo": "D"
+        }
+      ]
+    },
+    {
+      "text": "我有时会说谎或欺骗来获得自己想要的东西。",
+      "type": "radio",
+      "orderNum": 12,
+      "options": [
+        {
+          "text": "非常不同意",
+          "value": "4",
+          "optionNo": "A"
+        },
+        {
+          "text": "不同意",
+          "value": "3",
+          "optionNo": "B"
+        },
+        {
+          "text": "同意",
+          "value": "2",
+          "optionNo": "C"
+        },
+        {
+          "text": "非常同意",
+          "value": "1",
+          "optionNo": "D"
+        }
+      ]
+    },
+    {
+      "text": "我倾向于冲动行事。",
+      "type": "radio",
+      "orderNum": 13,
+      "options": [
+        {
+          "text": "非常不同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "不同意",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "同意",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "非常同意",
+          "value": "4",
+          "optionNo": "D"
+        }
+      ]
+    },
+    {
+      "text": "我认为自己是一个冷酷的人。",
+      "type": "radio",
+      "orderNum": 14,
+      "options": [
+        {
+          "text": "非常不同意",
+          "value": "4",
+          "optionNo": "A"
+        },
+        {
+          "text": "不同意",
+          "value": "3",
+          "optionNo": "B"
+        },
+        {
+          "text": "同意",
+          "value": "2",
+          "optionNo": "C"
+        },
+        {
+          "text": "非常同意",
+          "value": "1",
+          "optionNo": "D"
+        }
+      ]
+    },
+    {
+      "text": "我做事情时很少感到内疚。",
+      "type": "radio",
+      "orderNum": 15,
+      "options": [
+        {
+          "text": "非常不同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "不同意",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "同意",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "非常同意",
+          "value": "4",
+          "optionNo": "D"
+        }
+      ]
+    },
+    {
+      "text": "我对他人的感受缺乏关心。",
+      "type": "radio",
+      "orderNum": 16,
+      "options": [
+        {
+          "text": "非常不同意",
+          "value": "4",
+          "optionNo": "A"
+        },
+        {
+          "text": "不同意",
+          "value": "3",
+          "optionNo": "B"
+        },
+        {
+          "text": "同意",
+          "value": "2",
+          "optionNo": "C"
+        },
+        {
+          "text": "非常同意",
+          "value": "1",
+          "optionNo": "D"
+        }
+      ]
+    },
+    {
+      "text": "我经常发现自己在做自己明知是错的事情。",
+      "type": "radio",
+      "orderNum": 17,
+      "options": [
+        {
+          "text": "非常不同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "不同意",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "同意",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "非常同意",
+          "value": "4",
+          "optionNo": "D"
+        }
+      ]
+    },
+    {
+      "text": "当我犯错时，我会责怪他人。",
+      "type": "radio",
+      "orderNum": 18,
+      "options": [
+        {
+          "text": "非常不同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "不同意",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "同意",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "非常同意",
+          "value": "4",
+          "optionNo": "D"
+        }
+      ]
+    },
+    {
+      "text": "我发现自己很难控制自己的愤怒。",
+      "type": "radio",
+      "orderNum": 19,
+      "options": [
+        {
+          "text": "非常不同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "不同意",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "同意",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "非常同意",
+          "value": "4",
+          "optionNo": "D"
+        }
+      ]
+    },
+    {
+      "text": "我做事情时很少考虑后果。",
+      "type": "radio",
+      "orderNum": 20,
+      "options": [
+        {
+          "text": "非常不同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "不同意",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "同意",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "非常同意",
+          "value": "4",
+          "optionNo": "D"
+        }
+      ]
+    },
+    {
+      "text": "我经常与权威人物发生冲突。",
+      "type": "radio",
+      "orderNum": 21,
+      "options": [
+        {
+          "text": "非常不同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "不同意",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "同意",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "非常同意",
+          "value": "4",
+          "optionNo": "D"
+        }
+      ]
+    },
+    {
+      "text": "我的生活方式可以被描述为'及时行乐'。",
+      "type": "radio",
+      "orderNum": 22,
+      "options": [
+        {
+          "text": "非常不同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "不同意",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "同意",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "非常同意",
+          "value": "4",
+          "optionNo": "D"
+        }
+      ]
+    },
+    {
+      "text": "我在规划未来方面有困难。",
+      "type": "radio",
+      "orderNum": 23,
+      "options": [
+        {
+          "text": "非常不同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "不同意",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "同意",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "非常同意",
+          "value": "4",
+          "optionNo": "D"
+        }
+      ]
+    },
+    {
+      "text": "我容易感到沮丧和不耐烦。",
+      "type": "radio",
+      "orderNum": 24,
+      "options": [
+        {
+          "text": "非常不同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "不同意",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "同意",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "非常同意",
+          "value": "4",
+          "optionNo": "D"
+        }
+      ]
+    },
+    {
+      "text": "我有时会做一些非常鲁莽的事情。",
+      "type": "radio",
+      "orderNum": 25,
+      "options": [
+        {
+          "text": "非常不同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "不同意",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "同意",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "非常同意",
+          "value": "4",
+          "optionNo": "D"
+        }
+      ]
+    },
+    {
+      "text": "我在控制自己行为方面有困难。",
+      "type": "radio",
+      "orderNum": 26,
+      "options": [
+        {
+          "text": "非常不同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "不同意",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "同意",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "非常同意",
+          "value": "4",
+          "optionNo": "D"
+        }
+      ]
+    }
+  ],
+  "dimensions": [
+    {
+      "dimensionName": "原发性精神病态",
+      "dimensionCode": "primary_psychopathy",
+      "num": 1,
+      "evaluateExpression": "hx_t_1 + hx_t_2 + hx_t_3 + hx_t_4 + hx_t_5 + hx_t_6 + hx_t_7 + hx_t_8 + hx_t_9 + hx_t_10 + hx_t_11 + hx_t_12 + hx_t_13 + hx_t_14 + hx_t_15 + hx_t_16",
+      "standardScoreFormula": "",
+      "results": [
+        {
+          "evaluateExpression": "hx_wd_y_1 <= 24",
+          "conclusionAnalysis": "原发性精神病态水平较低",
+          "suggestion": "您的操控性、冷酷和缺乏共情特质较低，人际关系健康。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_1 > 24 && hx_wd_y_1 <= 33",
+          "conclusionAnalysis": "原发性精神病态水平中等",
+          "suggestion": "您的原发性精神病态特质处于正常范围。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_1 > 33 && hx_wd_y_1 <= 42",
+          "conclusionAnalysis": "原发性精神病态水平偏高",
+          "suggestion": "您在操控性和冷酷方面得分偏高，建议关注共情能力的培养。",
+          "assessmentWarning": "low"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_1 > 42",
+          "conclusionAnalysis": "原发性精神病态水平异常偏高",
+          "suggestion": "您的得分显著高于常模（男32.96，女27.67），建议寻求专业心理评估。",
+          "assessmentWarning": "high"
+        }
+      ]
+    },
+    {
+      "dimensionName": "继发性精神病态",
+      "dimensionCode": "secondary_psychopathy",
+      "num": 2,
+      "evaluateExpression": "hx_t_17 + hx_t_18 + hx_t_19 + hx_t_20 + hx_t_21 + hx_t_22 + hx_t_23 + hx_t_24 + hx_t_25 + hx_t_26",
+      "standardScoreFormula": "",
+      "results": [
+        {
+          "evaluateExpression": "hx_wd_y_2 <= 15",
+          "conclusionAnalysis": "继发性精神病态水平较低",
+          "suggestion": "您的冲动控制和情绪调节能力良好。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_2 > 15 && hx_wd_y_2 <= 20",
+          "conclusionAnalysis": "继发性精神病态水平中等",
+          "suggestion": "您的继发性精神病态特质处于正常范围。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_2 > 20 && hx_wd_y_2 <= 26",
+          "conclusionAnalysis": "继发性精神病态水平偏高",
+          "suggestion": "您在冲动性和情绪不稳定方面得分偏高，建议关注情绪管理和行为控制。",
+          "assessmentWarning": "low"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_2 > 26",
+          "conclusionAnalysis": "继发性精神病态水平异常偏高",
+          "suggestion": "您的得分显著高于常模（男20.04，女19.03），建议寻求专业心理评估和干预。",
+          "assessmentWarning": "high"
+        }
+      ]
+    }
+  ]
+}

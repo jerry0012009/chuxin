@@ -1,0 +1,567 @@
+{
+  "id": 148,
+  "title": "生活满意度指数A量表(LSIA)",
+  "type": "basic",
+  "questions": [
+    {
+      "id": 4693,
+      "text": "当我老了以后发现事情似乎要比原先想得好。",
+      "type": "radio",
+      "orderNum": 1,
+      "options": [
+        {
+          "id": 17103,
+          "optionNo": "A",
+          "text": "同意",
+          "value": "2"
+        },
+        {
+          "id": 17104,
+          "optionNo": "B",
+          "text": "不同意",
+          "value": "0"
+        },
+        {
+          "id": 17105,
+          "optionNo": "C",
+          "text": "？",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 4694,
+      "text": "与我所认识的多数人相比，我更好地把握了生活中的机遇。",
+      "type": "radio",
+      "orderNum": 2,
+      "options": [
+        {
+          "id": 17106,
+          "optionNo": "A",
+          "text": "同意",
+          "value": "2"
+        },
+        {
+          "id": 17107,
+          "optionNo": "B",
+          "text": "不同意",
+          "value": "0"
+        },
+        {
+          "id": 17108,
+          "optionNo": "C",
+          "text": "？",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 4695,
+      "text": "现在我是一生中最郁闷的时期。",
+      "type": "radio",
+      "orderNum": 3,
+      "options": [
+        {
+          "id": 17109,
+          "optionNo": "A",
+          "text": "同意",
+          "value": "0"
+        },
+        {
+          "id": 17110,
+          "optionNo": "B",
+          "text": "不同意",
+          "value": "2"
+        },
+        {
+          "id": 17111,
+          "optionNo": "C",
+          "text": "？",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 4696,
+      "text": "我现在和年轻时一样幸福。",
+      "type": "radio",
+      "orderNum": 4,
+      "options": [
+        {
+          "id": 17112,
+          "optionNo": "A",
+          "text": "同意",
+          "value": "2"
+        },
+        {
+          "id": 17113,
+          "optionNo": "B",
+          "text": "不同意",
+          "value": "0"
+        },
+        {
+          "id": 17114,
+          "optionNo": "C",
+          "text": "？",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 4697,
+      "text": "我的生活原本应该是更好的时光。",
+      "type": "radio",
+      "orderNum": 5,
+      "options": [
+        {
+          "id": 17115,
+          "optionNo": "A",
+          "text": "同意",
+          "value": "0"
+        },
+        {
+          "id": 17116,
+          "optionNo": "B",
+          "text": "不同意",
+          "value": "2"
+        },
+        {
+          "id": 17117,
+          "optionNo": "C",
+          "text": "？",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 4698,
+      "text": "现在是我一生中最美好的时光。",
+      "type": "radio",
+      "orderNum": 6,
+      "options": [
+        {
+          "id": 17118,
+          "optionNo": "A",
+          "text": "同意",
+          "value": "2"
+        },
+        {
+          "id": 17119,
+          "optionNo": "B",
+          "text": "不同意",
+          "value": "0"
+        },
+        {
+          "id": 17120,
+          "optionNo": "C",
+          "text": "？",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 4699,
+      "text": "我所做的是多半是令人厌烦和乏味的。",
+      "type": "radio",
+      "orderNum": 7,
+      "options": [
+        {
+          "id": 17121,
+          "optionNo": "A",
+          "text": "同意",
+          "value": "0"
+        },
+        {
+          "id": 17122,
+          "optionNo": "B",
+          "text": "不同意",
+          "value": "2"
+        },
+        {
+          "id": 17123,
+          "optionNo": "C",
+          "text": "？",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 4700,
+      "text": "我估计最近能遇到一些有趣的令人愉快的事。",
+      "type": "radio",
+      "orderNum": 8,
+      "options": [
+        {
+          "id": 17124,
+          "optionNo": "A",
+          "text": "同意",
+          "value": "2"
+        },
+        {
+          "id": 17125,
+          "optionNo": "B",
+          "text": "不同意",
+          "value": "0"
+        },
+        {
+          "id": 17126,
+          "optionNo": "C",
+          "text": "？",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 4701,
+      "text": "我现在做的事和以前做的事一样有趣。",
+      "type": "radio",
+      "orderNum": 9,
+      "options": [
+        {
+          "id": 17127,
+          "optionNo": "A",
+          "text": "同意",
+          "value": "2"
+        },
+        {
+          "id": 17128,
+          "optionNo": "B",
+          "text": "不同意",
+          "value": "0"
+        },
+        {
+          "id": 17129,
+          "optionNo": "C",
+          "text": "？",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 4702,
+      "text": "我感到老了，有些累了。",
+      "type": "radio",
+      "orderNum": 10,
+      "options": [
+        {
+          "id": 17130,
+          "optionNo": "A",
+          "text": "同意",
+          "value": "0"
+        },
+        {
+          "id": 17131,
+          "optionNo": "B",
+          "text": "不同意",
+          "value": "2"
+        },
+        {
+          "id": 17132,
+          "optionNo": "C",
+          "text": "？",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 4703,
+      "text": "我感到自己确实上了年纪，但我并不为此而烦恼。",
+      "type": "radio",
+      "orderNum": 11,
+      "options": [
+        {
+          "id": 17133,
+          "optionNo": "A",
+          "text": "同意",
+          "value": "2"
+        },
+        {
+          "id": 17134,
+          "optionNo": "B",
+          "text": "不同意",
+          "value": "0"
+        },
+        {
+          "id": 17135,
+          "optionNo": "C",
+          "text": "？",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 4704,
+      "text": "回首往事，我相当满足。",
+      "type": "radio",
+      "orderNum": 12,
+      "options": [
+        {
+          "id": 17136,
+          "optionNo": "A",
+          "text": "同意",
+          "value": "2"
+        },
+        {
+          "id": 17137,
+          "optionNo": "B",
+          "text": "不同意",
+          "value": "0"
+        },
+        {
+          "id": 17138,
+          "optionNo": "C",
+          "text": "？",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 4705,
+      "text": "即使能改变自己的过去，我也不愿有所改变。",
+      "type": "radio",
+      "orderNum": 13,
+      "options": [
+        {
+          "id": 17139,
+          "optionNo": "A",
+          "text": "同意",
+          "value": "2"
+        },
+        {
+          "id": 17140,
+          "optionNo": "B",
+          "text": "不同意",
+          "value": "0"
+        },
+        {
+          "id": 17141,
+          "optionNo": "C",
+          "text": "？",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 4706,
+      "text": "与其他同龄人相比，我曾经做过较多的愚蠢的决定。",
+      "type": "radio",
+      "orderNum": 14,
+      "options": [
+        {
+          "id": 17142,
+          "optionNo": "A",
+          "text": "同意",
+          "value": "0"
+        },
+        {
+          "id": 17143,
+          "optionNo": "B",
+          "text": "不同意",
+          "value": "2"
+        },
+        {
+          "id": 17144,
+          "optionNo": "C",
+          "text": "？",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 4707,
+      "text": "与其他同龄人相比，我的外表较年轻。",
+      "type": "radio",
+      "orderNum": 15,
+      "options": [
+        {
+          "id": 17145,
+          "optionNo": "A",
+          "text": "同意",
+          "value": "2"
+        },
+        {
+          "id": 17146,
+          "optionNo": "B",
+          "text": "不同意",
+          "value": "0"
+        },
+        {
+          "id": 17147,
+          "optionNo": "C",
+          "text": "？",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 4708,
+      "text": "我已经为一个月甚至一年后该做的事制定了计划。",
+      "type": "radio",
+      "orderNum": 16,
+      "options": [
+        {
+          "id": 17148,
+          "optionNo": "A",
+          "text": "同意",
+          "value": "2"
+        },
+        {
+          "id": 17149,
+          "optionNo": "B",
+          "text": "不同意",
+          "value": "0"
+        },
+        {
+          "id": 17150,
+          "optionNo": "C",
+          "text": "？",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 4709,
+      "text": "回首往事，我有许多想得到的东西均未得到。",
+      "type": "radio",
+      "orderNum": 17,
+      "options": [
+        {
+          "id": 17151,
+          "optionNo": "A",
+          "text": "同意",
+          "value": "0"
+        },
+        {
+          "id": 17152,
+          "optionNo": "B",
+          "text": "不同意",
+          "value": "2"
+        },
+        {
+          "id": 17153,
+          "optionNo": "C",
+          "text": "？",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 4710,
+      "text": "与其他人相比，我惨遭失败的次数太多了。",
+      "type": "radio",
+      "orderNum": 18,
+      "options": [
+        {
+          "id": 17154,
+          "optionNo": "A",
+          "text": "同意",
+          "value": "0"
+        },
+        {
+          "id": 17155,
+          "optionNo": "B",
+          "text": "不同意",
+          "value": "2"
+        },
+        {
+          "id": 17156,
+          "optionNo": "C",
+          "text": "？",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 4711,
+      "text": "我在生活中得到了相当多我所期望的东西。",
+      "type": "radio",
+      "orderNum": 19,
+      "options": [
+        {
+          "id": 17157,
+          "optionNo": "A",
+          "text": "同意",
+          "value": "2"
+        },
+        {
+          "id": 17158,
+          "optionNo": "B",
+          "text": "不同意",
+          "value": "0"
+        },
+        {
+          "id": 17159,
+          "optionNo": "C",
+          "text": "？",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 4712,
+      "text": "不管人们怎样说，许多普通人是越过越糟，而不是越过越好了。",
+      "type": "radio",
+      "orderNum": 20,
+      "options": [
+        {
+          "id": 17160,
+          "optionNo": "A",
+          "text": "同意",
+          "value": "0"
+        },
+        {
+          "id": 17161,
+          "optionNo": "B",
+          "text": "不同意",
+          "value": "2"
+        },
+        {
+          "id": 17162,
+          "optionNo": "C",
+          "text": "？",
+          "value": "1"
+        }
+      ]
+    }
+  ],
+  "dimensions": [
+    {
+      "id": 506,
+      "num": 1,
+      "dimensionName": "总分",
+      "dimensionCode": "A",
+      "evaluateExpression": "hx_t_1 + hx_t_2 + hx_t_3 + hx_t_4 + hx_t_5 + hx_t_6 + hx_t_7 + hx_t_8 + hx_t_9 + hx_t_10 + hx_t_11 + hx_t_12 + hx_t_13 + hx_t_14 + hx_t_15 + hx_t_16 + hx_t_17 + hx_t_18 + hx_t_19 + hx_t_20",
+      "standardScoreFormula": "0",
+      "results": [
+        {
+          "id": 1158,
+          "evaluateExpression": "hx_wd_y_1 >= 16&& hx_wd_y_1 <= 34",
+          "conclusionAnalysis": "你的生活状态一般，有喜有忧的日子使得你和多数人一样。",
+          "suggestion": "建议你积极投入各项社会活动，加强人际交流。生活中充满点滴的快乐，就看你能否细心地发现它，你可以有意识地去发现、感受生活中的快乐！",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 1159,
+          "evaluateExpression": "hx_wd_y_1 >= 35&& hx_wd_y_1 <= 40",
+          "conclusionAnalysis": "对当前的生活充满热情，非常满意，认为实现了自己的目标。",
+          "suggestion": "希望您继续保持当前的生活态度，幸福地生活！",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 1160,
+          "evaluateExpression": "hx_wd_y_1 >= 0&& hx_wd_y_1 <= 7",
+          "conclusionAnalysis": "非常不满意当前的生活，达不到自己的期望，对过去的事情充满懊悔。",
+          "suggestion": "学会放弃过去，才能更好地把握当下，建议你更加积极地投入到当前的生活中，努力发现、感受生活的美好！",
+          "assessmentWarning": "high"
+        },
+        {
+          "id": 1161,
+          "evaluateExpression": "hx_wd_y_1 >= 8&& hx_wd_y_1 <= 15",
+          "conclusionAnalysis": "对于自己的当前生活不太满意，未能获得较多的乐趣，对于过去的事情有一定的懊悔。",
+          "suggestion": "建议你积极投入各项社会活动，加强人际交流。生活中充满点滴的快乐，就看你能否细心地发现它，你可以有意识地去发现、感受生活中的快乐！",
+          "assessmentWarning": "none"
+        }
+      ]
+    }
+  ]
+}

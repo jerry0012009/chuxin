@@ -1,0 +1,1583 @@
+{
+  "id": "bfi-big-five",
+  "title": "大五人格量表(BFI)",
+  "description": "本问卷帮助了解您在五个核心人格维度上的特征：外倾性、宜人性、责任感、神经质和开放性。共44题，大约需要8分钟完成。",
+  "type": "basic",
+  "questions": [
+    {
+      "text": "是一个健谈的人。",
+      "type": "radio",
+      "orderNum": 1,
+      "options": [
+        {
+          "text": "完全不同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "不太同意",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "既不同意也不否定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较同意",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "完全同意",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "倾向于挑别人的毛病。",
+      "type": "radio",
+      "orderNum": 2,
+      "options": [
+        {
+          "text": "完全不同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "不太同意",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "既不同意也不否定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较同意",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "完全同意",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "做事认真仔细。",
+      "type": "radio",
+      "orderNum": 3,
+      "options": [
+        {
+          "text": "完全不同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "不太同意",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "既不同意也不否定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较同意",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "完全同意",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "情绪容易低落、忧郁。",
+      "type": "radio",
+      "orderNum": 4,
+      "options": [
+        {
+          "text": "完全不同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "不太同意",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "既不同意也不否定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较同意",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "完全同意",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "有独创性，能提出新想法。",
+      "type": "radio",
+      "orderNum": 5,
+      "options": [
+        {
+          "text": "完全不同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "不太同意",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "既不同意也不否定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较同意",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "完全同意",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "性格内向、沉默寡言。",
+      "type": "radio",
+      "orderNum": 6,
+      "options": [
+        {
+          "text": "完全同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较同意",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "既不同意也不否定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "不太同意",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "完全不同意",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "乐于助人、不自私。",
+      "type": "radio",
+      "orderNum": 7,
+      "options": [
+        {
+          "text": "完全不同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "不太同意",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "既不同意也不否定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较同意",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "完全同意",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "做事比较懒散。",
+      "type": "radio",
+      "orderNum": 8,
+      "options": [
+        {
+          "text": "完全不同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "不太同意",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "既不同意也不否定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较同意",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "完全同意",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "情绪稳定、不易心烦。",
+      "type": "radio",
+      "orderNum": 9,
+      "options": [
+        {
+          "text": "完全同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较同意",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "既不同意也不否定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "不太同意",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "完全不同意",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "对很多事物充满好奇。",
+      "type": "radio",
+      "orderNum": 10,
+      "options": [
+        {
+          "text": "完全不同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "不太同意",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "既不同意也不否定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较同意",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "完全同意",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "精力充沛。",
+      "type": "radio",
+      "orderNum": 11,
+      "options": [
+        {
+          "text": "完全不同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "不太同意",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "既不同意也不否定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较同意",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "完全同意",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "经常和别人起冲突。",
+      "type": "radio",
+      "orderNum": 12,
+      "options": [
+        {
+          "text": "完全不同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "不太同意",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "既不同意也不否定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较同意",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "完全同意",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "是可靠的、可信赖的人。",
+      "type": "radio",
+      "orderNum": 13,
+      "options": [
+        {
+          "text": "完全不同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "不太同意",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "既不同意也不否定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较同意",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "完全同意",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "情绪波动很大。",
+      "type": "radio",
+      "orderNum": 14,
+      "options": [
+        {
+          "text": "完全不同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "不太同意",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "既不同意也不否定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较同意",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "完全同意",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "善于用艺术、音乐或文学表达自己。",
+      "type": "radio",
+      "orderNum": 15,
+      "options": [
+        {
+          "text": "完全不同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "不太同意",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "既不同意也不否定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较同意",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "完全同意",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "比较安静。",
+      "type": "radio",
+      "orderNum": 16,
+      "options": [
+        {
+          "text": "完全同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较同意",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "既不同意也不否定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "不太同意",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "完全不同意",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "对人有同情心。",
+      "type": "radio",
+      "orderNum": 17,
+      "options": [
+        {
+          "text": "完全不同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "不太同意",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "既不同意也不否定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较同意",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "完全同意",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "做事有条理。",
+      "type": "radio",
+      "orderNum": 18,
+      "options": [
+        {
+          "text": "完全不同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "不太同意",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "既不同意也不否定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较同意",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "完全同意",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "遇事沉着冷静。",
+      "type": "radio",
+      "orderNum": 19,
+      "options": [
+        {
+          "text": "完全同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较同意",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "既不同意也不否定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "不太同意",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "完全不同意",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "对抽象概念感兴趣。",
+      "type": "radio",
+      "orderNum": 20,
+      "options": [
+        {
+          "text": "完全不同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "不太同意",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "既不同意也不否定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较同意",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "完全同意",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "精力旺盛。",
+      "type": "radio",
+      "orderNum": 21,
+      "options": [
+        {
+          "text": "完全不同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "不太同意",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "既不同意也不否定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较同意",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "完全同意",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "对人比较冷淡。",
+      "type": "radio",
+      "orderNum": 22,
+      "options": [
+        {
+          "text": "完全不同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "不太同意",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "既不同意也不否定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较同意",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "完全同意",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "做事有持久性、能坚持到底。",
+      "type": "radio",
+      "orderNum": 23,
+      "options": [
+        {
+          "text": "完全不同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "不太同意",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "既不同意也不否定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较同意",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "完全同意",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "容易感到紧张。",
+      "type": "radio",
+      "orderNum": 24,
+      "options": [
+        {
+          "text": "完全不同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "不太同意",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "既不同意也不否定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较同意",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "完全同意",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "想象力丰富。",
+      "type": "radio",
+      "orderNum": 25,
+      "options": [
+        {
+          "text": "完全不同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "不太同意",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "既不同意也不否定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较同意",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "完全同意",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "喜欢和别人在一起。",
+      "type": "radio",
+      "orderNum": 26,
+      "options": [
+        {
+          "text": "完全不同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "不太同意",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "既不同意也不否定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较同意",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "完全同意",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "对人态度粗鲁。",
+      "type": "radio",
+      "orderNum": 27,
+      "options": [
+        {
+          "text": "完全不同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "不太同意",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "既不同意也不否定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较同意",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "完全同意",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "做事有效率。",
+      "type": "radio",
+      "orderNum": 28,
+      "options": [
+        {
+          "text": "完全不同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "不太同意",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "既不同意也不否定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较同意",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "完全同意",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "遇事不担心。",
+      "type": "radio",
+      "orderNum": 29,
+      "options": [
+        {
+          "text": "完全同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较同意",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "既不同意也不否定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "不太同意",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "完全不同意",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "对艺术品不感兴趣。",
+      "type": "radio",
+      "orderNum": 30,
+      "options": [
+        {
+          "text": "完全同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较同意",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "既不同意也不否定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "不太同意",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "完全不同意",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "喜欢和人交往。",
+      "type": "radio",
+      "orderNum": 31,
+      "options": [
+        {
+          "text": "完全不同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "不太同意",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "既不同意也不否定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较同意",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "完全同意",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "经常为别人着想。",
+      "type": "radio",
+      "orderNum": 32,
+      "options": [
+        {
+          "text": "完全不同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "不太同意",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "既不同意也不否定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较同意",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "完全同意",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "经常迟到。",
+      "type": "radio",
+      "orderNum": 33,
+      "options": [
+        {
+          "text": "完全不同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "不太同意",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "既不同意也不否定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较同意",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "完全同意",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "容易担忧。",
+      "type": "radio",
+      "orderNum": 34,
+      "options": [
+        {
+          "text": "完全不同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "不太同意",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "既不同意也不否定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较同意",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "完全同意",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "思维方式新颖独特。",
+      "type": "radio",
+      "orderNum": 35,
+      "options": [
+        {
+          "text": "完全不同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "不太同意",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "既不同意也不否定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较同意",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "完全同意",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "喜欢合作而非竞争。",
+      "type": "radio",
+      "orderNum": 36,
+      "options": [
+        {
+          "text": "完全不同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "不太同意",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "既不同意也不否定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较同意",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "完全同意",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "容易原谅别人。",
+      "type": "radio",
+      "orderNum": 37,
+      "options": [
+        {
+          "text": "完全不同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "不太同意",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "既不同意也不否定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较同意",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "完全同意",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "注重细节。",
+      "type": "radio",
+      "orderNum": 38,
+      "options": [
+        {
+          "text": "完全不同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "不太同意",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "既不同意也不否定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较同意",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "完全同意",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "遇事不焦虑。",
+      "type": "radio",
+      "orderNum": 39,
+      "options": [
+        {
+          "text": "完全同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较同意",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "既不同意也不否定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "不太同意",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "完全不同意",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "对文化体验不感兴趣。",
+      "type": "radio",
+      "orderNum": 40,
+      "options": [
+        {
+          "text": "完全同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较同意",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "既不同意也不否定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "不太同意",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "完全不同意",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "对艺术和审美不感兴趣。",
+      "type": "radio",
+      "orderNum": 41,
+      "options": [
+        {
+          "text": "完全同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较同意",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "既不同意也不否定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "不太同意",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "完全不同意",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "喜欢与人合作。",
+      "type": "radio",
+      "orderNum": 42,
+      "options": [
+        {
+          "text": "完全不同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "不太同意",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "既不同意也不否定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较同意",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "完全同意",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "容易分心。",
+      "type": "radio",
+      "orderNum": 43,
+      "options": [
+        {
+          "text": "完全不同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "不太同意",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "既不同意也不否定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较同意",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "完全同意",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "对新事物持开放态度。",
+      "type": "radio",
+      "orderNum": 44,
+      "options": [
+        {
+          "text": "完全不同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "不太同意",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "既不同意也不否定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较同意",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "完全同意",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    }
+  ],
+  "dimensions": [
+    {
+      "dimensionName": "外倾性",
+      "dimensionCode": "extraversion",
+      "num": 1,
+      "evaluateExpression": "(hx_t_1 + hx_t_6 + hx_t_11 + hx_t_16 + hx_t_21 + hx_t_26 + hx_t_31 + hx_t_36) / 8",
+      "standardScoreFormula": "",
+      "results": [
+        {
+          "evaluateExpression": "hx_wd_y_1 <= 2.0",
+          "conclusionAnalysis": "外倾性较低",
+          "suggestion": "您倾向于安静和内敛，更喜欢独处或小范围社交。您可能在社交场合中感到消耗精力，更享受独处的时间。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_1 > 2.0 && hx_wd_y_1 <= 3.0",
+          "conclusionAnalysis": "外倾性中等",
+          "suggestion": "您的外倾性处于中等水平，在社交和独处之间能较好地平衡。在熟悉的人面前您会比较活跃，但也能享受独处。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_1 > 3.0 && hx_wd_y_1 <= 4.0",
+          "conclusionAnalysis": "外倾性较高",
+          "suggestion": "您是一个比较外向的人，喜欢社交活动，善于与人互动。社交能给您带来能量和积极情绪。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_1 > 4.0",
+          "conclusionAnalysis": "外倾性很高",
+          "suggestion": "您是一个非常外向的人，热爱社交，精力充沛，善于表达。您在群体中通常比较活跃，喜欢成为关注的中心。",
+          "assessmentWarning": "none"
+        }
+      ]
+    },
+    {
+      "dimensionName": "宜人性",
+      "dimensionCode": "agreeableness",
+      "num": 2,
+      "evaluateExpression": "(hx_t_2 + hx_t_7 + hx_t_12 + hx_t_17 + hx_t_22 + hx_t_27 + hx_t_32 + hx_t_37 + hx_t_42) / 9",
+      "standardScoreFormula": "",
+      "results": [
+        {
+          "evaluateExpression": "hx_wd_y_2 <= 2.0",
+          "conclusionAnalysis": "宜人性较低",
+          "suggestion": "您在人际交往中倾向于直接和独立，可能不太在意他人的感受或不太愿意迁就他人。建议在保持自我的同时适当关注他人需求。",
+          "assessmentWarning": "low"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_2 > 2.0 && hx_wd_y_2 <= 3.0",
+          "conclusionAnalysis": "宜人性中等",
+          "suggestion": "您的宜人性处于中等水平，能够在维护自身利益和关心他人之间取得平衡。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_2 > 3.0 && hx_wd_y_2 <= 4.0",
+          "conclusionAnalysis": "宜人性较高",
+          "suggestion": "您是一个温和友善、富有同情心的人，善于理解和关心他人。您通常能够与不同类型的人和谐相处。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_2 > 4.0",
+          "conclusionAnalysis": "宜人性很高",
+          "suggestion": "您是一个非常友善和有同情心的人，总是为他人着想。但也要注意在必要时坚持自己的立场和需求。",
+          "assessmentWarning": "none"
+        }
+      ]
+    },
+    {
+      "dimensionName": "责任感",
+      "dimensionCode": "conscientiousness",
+      "num": 3,
+      "evaluateExpression": "(hx_t_3 + hx_t_8 + hx_t_13 + hx_t_18 + hx_t_23 + hx_t_28 + hx_t_33 + hx_t_38 + hx_t_43) / 9",
+      "standardScoreFormula": "",
+      "results": [
+        {
+          "evaluateExpression": "hx_wd_y_3 <= 2.0",
+          "conclusionAnalysis": "责任感较低",
+          "suggestion": "您在组织和自律方面可能存在一些挑战，做事可能不太注重计划和细节。建议尝试建立日常规律和制定小目标来提升效率。",
+          "assessmentWarning": "low"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_3 > 2.0 && hx_wd_y_3 <= 3.0",
+          "conclusionAnalysis": "责任感中等",
+          "suggestion": "您的责任感处于中等水平，能够在需要时保持专注和有条理，但也有灵活放松的一面。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_3 > 3.0 && hx_wd_y_3 <= 4.0",
+          "conclusionAnalysis": "责任感较高",
+          "suggestion": "您是一个认真负责、有条理的人，能够有效地计划和执行任务。您的可靠性和自律性帮助您在学业和工作中取得好成绩。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_3 > 4.0",
+          "conclusionAnalysis": "责任感很高",
+          "suggestion": "您是一个非常有责任感的人，做事严谨有序，自律性强。您注重计划和细节，是值得信赖的人。但也注意不要给自己过大的压力。",
+          "assessmentWarning": "none"
+        }
+      ]
+    },
+    {
+      "dimensionName": "神经质",
+      "dimensionCode": "neuroticism",
+      "num": 4,
+      "evaluateExpression": "(hx_t_4 + hx_t_9 + hx_t_14 + hx_t_19 + hx_t_24 + hx_t_29 + hx_t_34 + hx_t_39) / 8",
+      "standardScoreFormula": "",
+      "results": [
+        {
+          "evaluateExpression": "hx_wd_y_4 <= 2.0",
+          "conclusionAnalysis": "情绪稳定性高",
+          "suggestion": "您的情绪非常稳定，面对压力和挫折时能够保持冷静和理性。您很少感到焦虑或沮丧，心理韧性较强。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_4 > 2.0 && hx_wd_y_4 <= 3.0",
+          "conclusionAnalysis": "情绪稳定性中等",
+          "suggestion": "您的情绪稳定性处于中等水平，在大多数情况下能保持平稳，但偶尔也会感到焦虑或情绪波动。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_4 > 3.0 && hx_wd_y_4 <= 4.0",
+          "conclusionAnalysis": "情绪敏感性较高",
+          "suggestion": "您是一个情绪比较敏感的人，容易受到压力和负面事件的影响。建议学习情绪调节技巧，如正念冥想和深呼吸等。",
+          "assessmentWarning": "low"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_4 > 4.0",
+          "conclusionAnalysis": "情绪敏感性很高",
+          "suggestion": "您的情绪波动较大，容易感到焦虑、担忧或沮丧。这可能影响到日常生活和决策。建议关注心理健康，学习有效的情绪管理方法，必要时可寻求专业支持。",
+          "assessmentWarning": "middle"
+        }
+      ]
+    },
+    {
+      "dimensionName": "开放性",
+      "dimensionCode": "openness",
+      "num": 5,
+      "evaluateExpression": "(hx_t_5 + hx_t_10 + hx_t_15 + hx_t_20 + hx_t_25 + hx_t_30 + hx_t_35 + hx_t_40 + hx_t_41 + hx_t_44) / 10",
+      "standardScoreFormula": "",
+      "results": [
+        {
+          "evaluateExpression": "hx_wd_y_5 <= 2.0",
+          "conclusionAnalysis": "开放性较低",
+          "suggestion": "您倾向于传统和务实的生活方式，对新奇事物和抽象概念的兴趣较低。您更喜欢熟悉和可预测的环境。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_5 > 2.0 && hx_wd_y_5 <= 3.0",
+          "conclusionAnalysis": "开放性中等",
+          "suggestion": "您的开放性处于中等水平，对新事物有一定的接受能力，但也不会过度追求新奇体验。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_5 > 3.0 && hx_wd_y_5 <= 4.0",
+          "conclusionAnalysis": "开放性较高",
+          "suggestion": "您是一个思想开放、好奇心强的人，喜欢探索新想法和体验。您对艺术、文化和创造性活动有较高的兴趣。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_5 > 4.0",
+          "conclusionAnalysis": "开放性很高",
+          "suggestion": "您是一个非常开放和富有创造力的人，对各种新奇事物充满好奇。您善于抽象思考，对艺术和文化有深厚的兴趣和鉴赏力。",
+          "assessmentWarning": "none"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,2469 @@
+{
+  "id": 106,
+  "title": "青少年气质量表",
+  "type": "basic",
+  "questions": [
+    {
+      "id": 2223,
+      "text": " 遇到可气的事就怒气冲天，想把心里话全说出来。",
+      "type": "radio",
+      "orderNum": 1,
+      "options": [
+        {
+          "id": 9007,
+          "optionNo": "A",
+          "text": "很符合自己情况",
+          "value": "5"
+        },
+        {
+          "id": 9008,
+          "optionNo": "B",
+          "text": "比较符合自己情况",
+          "value": "4"
+        },
+        {
+          "id": 9009,
+          "optionNo": "C",
+          "text": "介乎于符合与不符合之间",
+          "value": "3"
+        },
+        {
+          "id": 9010,
+          "optionNo": "D",
+          "text": "比较不符合自己情况",
+          "value": "2"
+        },
+        {
+          "id": 9011,
+          "optionNo": "E",
+          "text": "完全不符合自己情况",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 2224,
+      "text": " 到一个新环境很快能适应。",
+      "type": "radio",
+      "orderNum": 2,
+      "options": [
+        {
+          "id": 9012,
+          "optionNo": "A",
+          "text": "很符合自己情况",
+          "value": "5"
+        },
+        {
+          "id": 9013,
+          "optionNo": "B",
+          "text": "比较符合自己情况",
+          "value": "4"
+        },
+        {
+          "id": 9014,
+          "optionNo": "C",
+          "text": "介乎于符合与不符合之间",
+          "value": "3"
+        },
+        {
+          "id": 9015,
+          "optionNo": "D",
+          "text": "比较不符合自己情况",
+          "value": "2"
+        },
+        {
+          "id": 9016,
+          "optionNo": "E",
+          "text": "完全不符合自己情况",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 2225,
+      "text": " 做事力求稳妥，不做无把握的事。",
+      "type": "radio",
+      "orderNum": 3,
+      "options": [
+        {
+          "id": 9017,
+          "optionNo": "A",
+          "text": "很符合自己情况",
+          "value": "5"
+        },
+        {
+          "id": 9018,
+          "optionNo": "B",
+          "text": "比较符合自己情况",
+          "value": "4"
+        },
+        {
+          "id": 9019,
+          "optionNo": "C",
+          "text": "介乎于符合与不符合之间",
+          "value": "3"
+        },
+        {
+          "id": 9020,
+          "optionNo": "D",
+          "text": "比较不符合自己情况",
+          "value": "2"
+        },
+        {
+          "id": 9021,
+          "optionNo": "E",
+          "text": "完全不符合自己情况",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 2226,
+      "text": " 讨厌那些强烈的刺激，如尖叫、噪音和危险镜头等。",
+      "type": "radio",
+      "orderNum": 4,
+      "options": [
+        {
+          "id": 9022,
+          "optionNo": "A",
+          "text": "很符合自己情况",
+          "value": "5"
+        },
+        {
+          "id": 9023,
+          "optionNo": "B",
+          "text": "比较符合自己情况",
+          "value": "4"
+        },
+        {
+          "id": 9024,
+          "optionNo": "C",
+          "text": "介乎于符合与不符合之间",
+          "value": "3"
+        },
+        {
+          "id": 9025,
+          "optionNo": "D",
+          "text": "比较不符合自己情况",
+          "value": "2"
+        },
+        {
+          "id": 9026,
+          "optionNo": "E",
+          "text": "完全不符合自己情况",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 2227,
+      "text": " 和别人争吵时爱先发制人，喜欢挑衅。",
+      "type": "radio",
+      "orderNum": 5,
+      "options": [
+        {
+          "id": 9027,
+          "optionNo": "A",
+          "text": "很符合自己情况",
+          "value": "5"
+        },
+        {
+          "id": 9028,
+          "optionNo": "B",
+          "text": "比较符合自己情况",
+          "value": "4"
+        },
+        {
+          "id": 9029,
+          "optionNo": "C",
+          "text": "介乎于符合与不符合之间",
+          "value": "3"
+        },
+        {
+          "id": 9030,
+          "optionNo": "D",
+          "text": "比较不符合自己情况",
+          "value": "2"
+        },
+        {
+          "id": 9031,
+          "optionNo": "E",
+          "text": "完全不符合自己情况",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 2228,
+      "text": " 善于和人们交往。",
+      "type": "radio",
+      "orderNum": 6,
+      "options": [
+        {
+          "id": 9032,
+          "optionNo": "A",
+          "text": "很符合自己情况",
+          "value": "5"
+        },
+        {
+          "id": 9033,
+          "optionNo": "B",
+          "text": "比较符合自己情况",
+          "value": "4"
+        },
+        {
+          "id": 9034,
+          "optionNo": "C",
+          "text": "介乎于符合与不符合之间",
+          "value": "3"
+        },
+        {
+          "id": 9035,
+          "optionNo": "D",
+          "text": "比较不符合自己情况",
+          "value": "2"
+        },
+        {
+          "id": 9036,
+          "optionNo": "E",
+          "text": "完全不符合自己情况",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 2229,
+      "text": " 喜欢安宁的环境。",
+      "type": "radio",
+      "orderNum": 7,
+      "options": [
+        {
+          "id": 9037,
+          "optionNo": "A",
+          "text": "很符合自己情况",
+          "value": "5"
+        },
+        {
+          "id": 9038,
+          "optionNo": "B",
+          "text": "比较符合自己情况",
+          "value": "4"
+        },
+        {
+          "id": 9039,
+          "optionNo": "C",
+          "text": "介乎于符合与不符合之间",
+          "value": "3"
+        },
+        {
+          "id": 9040,
+          "optionNo": "D",
+          "text": "比较不符合自己情况",
+          "value": "2"
+        },
+        {
+          "id": 9041,
+          "optionNo": "E",
+          "text": "完全不符合自己情况",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 2230,
+      "text": " 遇到陌生人感到拘谨。",
+      "type": "radio",
+      "orderNum": 8,
+      "options": [
+        {
+          "id": 9042,
+          "optionNo": "A",
+          "text": "很符合自己情况",
+          "value": "5"
+        },
+        {
+          "id": 9043,
+          "optionNo": "B",
+          "text": "比较符合自己情况",
+          "value": "4"
+        },
+        {
+          "id": 9044,
+          "optionNo": "C",
+          "text": "介乎于符合与不符合之间",
+          "value": "3"
+        },
+        {
+          "id": 9045,
+          "optionNo": "D",
+          "text": "比较不符合自己情况",
+          "value": "2"
+        },
+        {
+          "id": 9046,
+          "optionNo": "E",
+          "text": "完全不符合自己情况",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 2231,
+      "text": " 羡慕那些善于克制自己感情的人。",
+      "type": "radio",
+      "orderNum": 9,
+      "options": [
+        {
+          "id": 9047,
+          "optionNo": "A",
+          "text": "很符合自己情况",
+          "value": "5"
+        },
+        {
+          "id": 9048,
+          "optionNo": "B",
+          "text": "比较符合自己情况",
+          "value": "4"
+        },
+        {
+          "id": 9049,
+          "optionNo": "C",
+          "text": "介乎于符合与不符合之间",
+          "value": "3"
+        },
+        {
+          "id": 9050,
+          "optionNo": "D",
+          "text": "比较不符合自己情况",
+          "value": "2"
+        },
+        {
+          "id": 9051,
+          "optionNo": "E",
+          "text": "完全不符合自己情况",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 2232,
+      "text": " 感兴趣的事情干起来劲头十足，否则就不想干。",
+      "type": "radio",
+      "orderNum": 10,
+      "options": [
+        {
+          "id": 9052,
+          "optionNo": "A",
+          "text": "很符合自己情况",
+          "value": "5"
+        },
+        {
+          "id": 9053,
+          "optionNo": "B",
+          "text": "比较符合自己情况",
+          "value": "4"
+        },
+        {
+          "id": 9054,
+          "optionNo": "C",
+          "text": "介乎于符合与不符合之间",
+          "value": "3"
+        },
+        {
+          "id": 9055,
+          "optionNo": "D",
+          "text": "比较不符合自己情况",
+          "value": "2"
+        },
+        {
+          "id": 9056,
+          "optionNo": "E",
+          "text": "完全不符合自己情况",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 2233,
+      "text": " 生活有规律，很少违反作息制度。",
+      "type": "radio",
+      "orderNum": 11,
+      "options": [
+        {
+          "id": 9057,
+          "optionNo": "A",
+          "text": "很符合自己情况",
+          "value": "5"
+        },
+        {
+          "id": 9058,
+          "optionNo": "B",
+          "text": "比较符合自己情况",
+          "value": "4"
+        },
+        {
+          "id": 9059,
+          "optionNo": "C",
+          "text": "介乎于符合与不符合之间",
+          "value": "3"
+        },
+        {
+          "id": 9060,
+          "optionNo": "D",
+          "text": "比较不符合自己情况",
+          "value": "2"
+        },
+        {
+          "id": 9061,
+          "optionNo": "E",
+          "text": "完全不符合自己情况",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 2234,
+      "text": " 遇到问题优柔寡断，举棋不定。",
+      "type": "radio",
+      "orderNum": 12,
+      "options": [
+        {
+          "id": 9062,
+          "optionNo": "A",
+          "text": "很符合自己情况",
+          "value": "5"
+        },
+        {
+          "id": 9063,
+          "optionNo": "B",
+          "text": "比较符合自己情况",
+          "value": "4"
+        },
+        {
+          "id": 9064,
+          "optionNo": "C",
+          "text": "介乎于符合与不符合之间",
+          "value": "3"
+        },
+        {
+          "id": 9065,
+          "optionNo": "D",
+          "text": "比较不符合自己情况",
+          "value": "2"
+        },
+        {
+          "id": 9066,
+          "optionNo": "E",
+          "text": "完全不符合自己情况",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 2235,
+      "text": " 做事有旺盛的精力。",
+      "type": "radio",
+      "orderNum": 13,
+      "options": [
+        {
+          "id": 9067,
+          "optionNo": "A",
+          "text": "很符合自己情况",
+          "value": "5"
+        },
+        {
+          "id": 9068,
+          "optionNo": "B",
+          "text": "比较符合自己情况",
+          "value": "4"
+        },
+        {
+          "id": 9069,
+          "optionNo": "C",
+          "text": "介乎于符合与不符合之间",
+          "value": "3"
+        },
+        {
+          "id": 9070,
+          "optionNo": "D",
+          "text": "比较不符合自己情况",
+          "value": "2"
+        },
+        {
+          "id": 9071,
+          "optionNo": "E",
+          "text": "完全不符合自己情况",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 2236,
+      "text": " 在人群中不觉得拘谨。",
+      "type": "radio",
+      "orderNum": 14,
+      "options": [
+        {
+          "id": 9072,
+          "optionNo": "A",
+          "text": "很符合自己情况",
+          "value": "5"
+        },
+        {
+          "id": 9073,
+          "optionNo": "B",
+          "text": "比较符合自己情况",
+          "value": "4"
+        },
+        {
+          "id": 9074,
+          "optionNo": "C",
+          "text": "介乎于符合与不符合之间",
+          "value": "3"
+        },
+        {
+          "id": 9075,
+          "optionNo": "D",
+          "text": "比较不符合自己情况",
+          "value": "2"
+        },
+        {
+          "id": 9076,
+          "optionNo": "E",
+          "text": "完全不符合自己情况",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 2237,
+      "text": " 遇到生气的事能很好地克制自己。",
+      "type": "radio",
+      "orderNum": 15,
+      "options": [
+        {
+          "id": 9077,
+          "optionNo": "A",
+          "text": "很符合自己情况",
+          "value": "5"
+        },
+        {
+          "id": 9078,
+          "optionNo": "B",
+          "text": "比较符合自己情况",
+          "value": "4"
+        },
+        {
+          "id": 9079,
+          "optionNo": "C",
+          "text": "介乎于符合与不符合之间",
+          "value": "3"
+        },
+        {
+          "id": 9080,
+          "optionNo": "D",
+          "text": "比较不符合自己情况",
+          "value": "2"
+        },
+        {
+          "id": 9081,
+          "optionNo": "E",
+          "text": "完全不符合自己情况",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 2238,
+      "text": " 遇到危险情况感到非常恐惧。",
+      "type": "radio",
+      "orderNum": 16,
+      "options": [
+        {
+          "id": 9082,
+          "optionNo": "A",
+          "text": "很符合自己情况",
+          "value": "5"
+        },
+        {
+          "id": 9083,
+          "optionNo": "B",
+          "text": "比较符合自己情况",
+          "value": "4"
+        },
+        {
+          "id": 9084,
+          "optionNo": "C",
+          "text": "介乎于符合与不符合之间",
+          "value": "3"
+        },
+        {
+          "id": 9085,
+          "optionNo": "D",
+          "text": "比较不符合自己情况",
+          "value": "2"
+        },
+        {
+          "id": 9086,
+          "optionNo": "E",
+          "text": "完全不符合自己情况",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 2239,
+      "text": " 情绪高干什么都有趣，情绪低什么都没劲。",
+      "type": "radio",
+      "orderNum": 17,
+      "options": [
+        {
+          "id": 9087,
+          "optionNo": "A",
+          "text": "很符合自己情况",
+          "value": "5"
+        },
+        {
+          "id": 9088,
+          "optionNo": "B",
+          "text": "比较符合自己情况",
+          "value": "4"
+        },
+        {
+          "id": 9089,
+          "optionNo": "C",
+          "text": "介乎于符合与不符合之间",
+          "value": "3"
+        },
+        {
+          "id": 9090,
+          "optionNo": "D",
+          "text": "比较不符合自己情况",
+          "value": "2"
+        },
+        {
+          "id": 9091,
+          "optionNo": "E",
+          "text": "完全不符合自己情况",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 2240,
+      "text": " 理解问题比别人快。",
+      "type": "radio",
+      "orderNum": 18,
+      "options": [
+        {
+          "id": 9092,
+          "optionNo": "A",
+          "text": "很符合自己情况",
+          "value": "5"
+        },
+        {
+          "id": 9093,
+          "optionNo": "B",
+          "text": "比较符合自己情况",
+          "value": "4"
+        },
+        {
+          "id": 9094,
+          "optionNo": "C",
+          "text": "介乎于符合与不符合之间",
+          "value": "3"
+        },
+        {
+          "id": 9095,
+          "optionNo": "D",
+          "text": "比较不符合自己情况",
+          "value": "2"
+        },
+        {
+          "id": 9096,
+          "optionNo": "E",
+          "text": "完全不符合自己情况",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 2241,
+      "text": " 能控制自己的感情，不发脾气。",
+      "type": "radio",
+      "orderNum": 19,
+      "options": [
+        {
+          "id": 9097,
+          "optionNo": "A",
+          "text": "很符合自己情况",
+          "value": "5"
+        },
+        {
+          "id": 9098,
+          "optionNo": "B",
+          "text": "比较符合自己情况",
+          "value": "4"
+        },
+        {
+          "id": 9099,
+          "optionNo": "C",
+          "text": "介乎于符合与不符合之间",
+          "value": "3"
+        },
+        {
+          "id": 9100,
+          "optionNo": "D",
+          "text": "比较不符合自己情况",
+          "value": "2"
+        },
+        {
+          "id": 9101,
+          "optionNo": "E",
+          "text": "完全不符合自己情况",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 2242,
+      "text": " 一点小事就引起情绪波动。",
+      "type": "radio",
+      "orderNum": 20,
+      "options": [
+        {
+          "id": 9102,
+          "optionNo": "A",
+          "text": "很符合自己情况",
+          "value": "5"
+        },
+        {
+          "id": 9103,
+          "optionNo": "B",
+          "text": "比较符合自己情况",
+          "value": "4"
+        },
+        {
+          "id": 9104,
+          "optionNo": "C",
+          "text": "介乎于符合与不符合之间",
+          "value": "3"
+        },
+        {
+          "id": 9105,
+          "optionNo": "D",
+          "text": "比较不符合自己情况",
+          "value": "2"
+        },
+        {
+          "id": 9106,
+          "optionNo": "E",
+          "text": "完全不符合自己情况",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 2243,
+      "text": " 对学习，工作有热情。",
+      "type": "radio",
+      "orderNum": 21,
+      "options": [
+        {
+          "id": 9107,
+          "optionNo": "A",
+          "text": "很符合自己情况",
+          "value": "5"
+        },
+        {
+          "id": 9108,
+          "optionNo": "B",
+          "text": "比较符合自己情况",
+          "value": "4"
+        },
+        {
+          "id": 9109,
+          "optionNo": "C",
+          "text": "介乎于符合与不符合之间",
+          "value": "3"
+        },
+        {
+          "id": 9110,
+          "optionNo": "D",
+          "text": "比较不符合自己情况",
+          "value": "2"
+        },
+        {
+          "id": 9111,
+          "optionNo": "E",
+          "text": "完全不符合自己情况",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 2244,
+      "text": " 讨厌那些需要耐心、细致的工作。",
+      "type": "radio",
+      "orderNum": 22,
+      "options": [
+        {
+          "id": 9112,
+          "optionNo": "A",
+          "text": "很符合自己情况",
+          "value": "5"
+        },
+        {
+          "id": 9113,
+          "optionNo": "B",
+          "text": "比较符合自己情况",
+          "value": "4"
+        },
+        {
+          "id": 9114,
+          "optionNo": "C",
+          "text": "介乎于符合与不符合之间",
+          "value": "3"
+        },
+        {
+          "id": 9115,
+          "optionNo": "D",
+          "text": "比较不符合自己情况",
+          "value": "2"
+        },
+        {
+          "id": 9116,
+          "optionNo": "E",
+          "text": "完全不符合自己情况",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 2245,
+      "text": " 能长时间做枯燥、单调的工作。",
+      "type": "radio",
+      "orderNum": 23,
+      "options": [
+        {
+          "id": 9117,
+          "optionNo": "A",
+          "text": "很符合自己情况",
+          "value": "5"
+        },
+        {
+          "id": 9118,
+          "optionNo": "B",
+          "text": "比较符合自己情况",
+          "value": "4"
+        },
+        {
+          "id": 9119,
+          "optionNo": "C",
+          "text": "介乎于符合与不符合之间",
+          "value": "3"
+        },
+        {
+          "id": 9120,
+          "optionNo": "D",
+          "text": "比较不符合自己情况",
+          "value": "2"
+        },
+        {
+          "id": 9121,
+          "optionNo": "E",
+          "text": "完全不符合自己情况",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 2246,
+      "text": " 爱看感情细腻、描写人物内心活动的文学作品。",
+      "type": "radio",
+      "orderNum": 24,
+      "options": [
+        {
+          "id": 9122,
+          "optionNo": "A",
+          "text": "很符合自己情况",
+          "value": "5"
+        },
+        {
+          "id": 9123,
+          "optionNo": "B",
+          "text": "比较符合自己情况",
+          "value": "4"
+        },
+        {
+          "id": 9124,
+          "optionNo": "C",
+          "text": "介乎于符合与不符合之间",
+          "value": "3"
+        },
+        {
+          "id": 9125,
+          "optionNo": "D",
+          "text": "比较不符合自己情况",
+          "value": "2"
+        },
+        {
+          "id": 9126,
+          "optionNo": "E",
+          "text": "完全不符合自己情况",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 2247,
+      "text": " 喜欢参加气氛热烈的活动。",
+      "type": "radio",
+      "orderNum": 25,
+      "options": [
+        {
+          "id": 9127,
+          "optionNo": "A",
+          "text": "很符合自己情况",
+          "value": "5"
+        },
+        {
+          "id": 9128,
+          "optionNo": "B",
+          "text": "比较符合自己情况",
+          "value": "4"
+        },
+        {
+          "id": 9129,
+          "optionNo": "C",
+          "text": "介乎于符合与不符合之间",
+          "value": "3"
+        },
+        {
+          "id": 9130,
+          "optionNo": "D",
+          "text": "比较不符合自己情况",
+          "value": "2"
+        },
+        {
+          "id": 9131,
+          "optionNo": "E",
+          "text": "完全不符合自己情况",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 2248,
+      "text": " 做事不沉着，缺乏耐性。",
+      "type": "radio",
+      "orderNum": 26,
+      "options": [
+        {
+          "id": 9132,
+          "optionNo": "A",
+          "text": "很符合自己情况",
+          "value": "5"
+        },
+        {
+          "id": 9133,
+          "optionNo": "B",
+          "text": "比较符合自己情况",
+          "value": "4"
+        },
+        {
+          "id": 9134,
+          "optionNo": "C",
+          "text": "介乎于符合与不符合之间",
+          "value": "3"
+        },
+        {
+          "id": 9135,
+          "optionNo": "D",
+          "text": "比较不符合自己情况",
+          "value": "2"
+        },
+        {
+          "id": 9136,
+          "optionNo": "E",
+          "text": "完全不符合自己情况",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 2249,
+      "text": " 走到哪里都能遵守纪律。",
+      "type": "radio",
+      "orderNum": 27,
+      "options": [
+        {
+          "id": 9137,
+          "optionNo": "A",
+          "text": "很符合自己情况",
+          "value": "5"
+        },
+        {
+          "id": 9138,
+          "optionNo": "B",
+          "text": "比较符合自己情况",
+          "value": "4"
+        },
+        {
+          "id": 9139,
+          "optionNo": "C",
+          "text": "介乎于符合与不符合之间",
+          "value": "3"
+        },
+        {
+          "id": 9140,
+          "optionNo": "D",
+          "text": "比较不符合自己情况",
+          "value": "2"
+        },
+        {
+          "id": 9141,
+          "optionNo": "E",
+          "text": "完全不符合自己情况",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 2250,
+      "text": " 经常感到闷闷不乐。",
+      "type": "radio",
+      "orderNum": 28,
+      "options": [
+        {
+          "id": 9142,
+          "optionNo": "A",
+          "text": "很符合自己情况",
+          "value": "5"
+        },
+        {
+          "id": 9143,
+          "optionNo": "B",
+          "text": "比较符合自己情况",
+          "value": "4"
+        },
+        {
+          "id": 9144,
+          "optionNo": "C",
+          "text": "介乎于符合与不符合之间",
+          "value": "3"
+        },
+        {
+          "id": 9145,
+          "optionNo": "D",
+          "text": "比较不符合自己情况",
+          "value": "2"
+        },
+        {
+          "id": 9146,
+          "optionNo": "E",
+          "text": "完全不符合自己情况",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 2251,
+      "text": " 喜欢坦率、大声地和别人谈话，不喜欢窃窃私语。",
+      "type": "radio",
+      "orderNum": 29,
+      "options": [
+        {
+          "id": 9147,
+          "optionNo": "A",
+          "text": "很符合自己情况",
+          "value": "5"
+        },
+        {
+          "id": 9148,
+          "optionNo": "B",
+          "text": "比较符合自己情况",
+          "value": "4"
+        },
+        {
+          "id": 9149,
+          "optionNo": "C",
+          "text": "介乎于符合与不符合之间",
+          "value": "3"
+        },
+        {
+          "id": 9150,
+          "optionNo": "D",
+          "text": "比较不符合自己情况",
+          "value": "2"
+        },
+        {
+          "id": 9151,
+          "optionNo": "E",
+          "text": "完全不符合自己情况",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 2252,
+      "text": " 疲倦时只要短时间休息就能恢复过来。",
+      "type": "radio",
+      "orderNum": 30,
+      "options": [
+        {
+          "id": 9152,
+          "optionNo": "A",
+          "text": "很符合自己情况",
+          "value": "5"
+        },
+        {
+          "id": 9153,
+          "optionNo": "B",
+          "text": "比较符合自己情况",
+          "value": "4"
+        },
+        {
+          "id": 9154,
+          "optionNo": "C",
+          "text": "介乎于符合与不符合之间",
+          "value": "3"
+        },
+        {
+          "id": 9155,
+          "optionNo": "D",
+          "text": "比较不符合自己情况",
+          "value": "2"
+        },
+        {
+          "id": 9156,
+          "optionNo": "E",
+          "text": "完全不符合自己情况",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 2253,
+      "text": " 不喜欢长时间谈论一个问题，喜欢动手干。",
+      "type": "radio",
+      "orderNum": 31,
+      "options": [
+        {
+          "id": 9157,
+          "optionNo": "A",
+          "text": "很符合自己情况",
+          "value": "5"
+        },
+        {
+          "id": 9158,
+          "optionNo": "B",
+          "text": "比较符合自己情况",
+          "value": "4"
+        },
+        {
+          "id": 9159,
+          "optionNo": "C",
+          "text": "介乎于符合与不符合之间",
+          "value": "3"
+        },
+        {
+          "id": 9160,
+          "optionNo": "D",
+          "text": "比较不符合自己情况",
+          "value": "2"
+        },
+        {
+          "id": 9161,
+          "optionNo": "E",
+          "text": "完全不符合自己情况",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 2254,
+      "text": " 心里有事宁愿自己想，不愿说出来。",
+      "type": "radio",
+      "orderNum": 32,
+      "options": [
+        {
+          "id": 9162,
+          "optionNo": "A",
+          "text": "很符合自己情况",
+          "value": "5"
+        },
+        {
+          "id": 9163,
+          "optionNo": "B",
+          "text": "比较符合自己情况",
+          "value": "4"
+        },
+        {
+          "id": 9164,
+          "optionNo": "C",
+          "text": "介乎于符合与不符合之间",
+          "value": "3"
+        },
+        {
+          "id": 9165,
+          "optionNo": "D",
+          "text": "比较不符合自己情况",
+          "value": "2"
+        },
+        {
+          "id": 9166,
+          "optionNo": "E",
+          "text": "完全不符合自己情况",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 2255,
+      "text": " 认准一个目标就希望尽快实现，不达目的不罢休。",
+      "type": "radio",
+      "orderNum": 33,
+      "options": [
+        {
+          "id": 9167,
+          "optionNo": "A",
+          "text": "很符合自己情况",
+          "value": "5"
+        },
+        {
+          "id": 9168,
+          "optionNo": "B",
+          "text": "比较符合自己情况",
+          "value": "4"
+        },
+        {
+          "id": 9169,
+          "optionNo": "C",
+          "text": "介乎于符合与不符合之间",
+          "value": "3"
+        },
+        {
+          "id": 9170,
+          "optionNo": "D",
+          "text": "比较不符合自己情况",
+          "value": "2"
+        },
+        {
+          "id": 9171,
+          "optionNo": "E",
+          "text": "完全不符合自己情况",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 2256,
+      "text": " 能很快地忘掉那些不愉快的事情。",
+      "type": "radio",
+      "orderNum": 34,
+      "options": [
+        {
+          "id": 9172,
+          "optionNo": "A",
+          "text": "很符合自己情况",
+          "value": "5"
+        },
+        {
+          "id": 9173,
+          "optionNo": "B",
+          "text": "比较符合自己情况",
+          "value": "4"
+        },
+        {
+          "id": 9174,
+          "optionNo": "C",
+          "text": "介乎于符合与不符合之间",
+          "value": "3"
+        },
+        {
+          "id": 9175,
+          "optionNo": "D",
+          "text": "比较不符合自己情况",
+          "value": "2"
+        },
+        {
+          "id": 9176,
+          "optionNo": "E",
+          "text": "完全不符合自己情况",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 2257,
+      "text": " 理解问题比别人慢。",
+      "type": "radio",
+      "orderNum": 35,
+      "options": [
+        {
+          "id": 9177,
+          "optionNo": "A",
+          "text": "很符合自己情况",
+          "value": "5"
+        },
+        {
+          "id": 9178,
+          "optionNo": "B",
+          "text": "比较符合自己情况",
+          "value": "4"
+        },
+        {
+          "id": 9179,
+          "optionNo": "C",
+          "text": "介乎于符合与不符合之间",
+          "value": "3"
+        },
+        {
+          "id": 9180,
+          "optionNo": "D",
+          "text": "比较不符合自己情况",
+          "value": "2"
+        },
+        {
+          "id": 9181,
+          "optionNo": "E",
+          "text": "完全不符合自己情况",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 2258,
+      "text": " 学习、工作一段时间后比别人更疲倦。",
+      "type": "radio",
+      "orderNum": 36,
+      "options": [
+        {
+          "id": 9182,
+          "optionNo": "A",
+          "text": "很符合自己情况",
+          "value": "5"
+        },
+        {
+          "id": 9183,
+          "optionNo": "B",
+          "text": "比较符合自己情况",
+          "value": "4"
+        },
+        {
+          "id": 9184,
+          "optionNo": "C",
+          "text": "介乎于符合与不符合之间",
+          "value": "3"
+        },
+        {
+          "id": 9185,
+          "optionNo": "D",
+          "text": "比较不符合自己情况",
+          "value": "2"
+        },
+        {
+          "id": 9186,
+          "optionNo": "E",
+          "text": "完全不符合自己情况",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 2259,
+      "text": " 做事有些莽撞，不考虑后果。",
+      "type": "radio",
+      "orderNum": 37,
+      "options": [
+        {
+          "id": 9187,
+          "optionNo": "A",
+          "text": "很符合自己情况",
+          "value": "5"
+        },
+        {
+          "id": 9188,
+          "optionNo": "B",
+          "text": "比较符合自己情况",
+          "value": "4"
+        },
+        {
+          "id": 9189,
+          "optionNo": "C",
+          "text": "介乎于符合与不符合之间",
+          "value": "3"
+        },
+        {
+          "id": 9190,
+          "optionNo": "D",
+          "text": "比较不符合自己情况",
+          "value": "2"
+        },
+        {
+          "id": 9191,
+          "optionNo": "E",
+          "text": "完全不符合自己情况",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 2260,
+      "text": " 喜欢讲笑话和滑稽有趣的事。",
+      "type": "radio",
+      "orderNum": 38,
+      "options": [
+        {
+          "id": 9192,
+          "optionNo": "A",
+          "text": "很符合自己情况",
+          "value": "5"
+        },
+        {
+          "id": 9193,
+          "optionNo": "B",
+          "text": "比较符合自己情况",
+          "value": "4"
+        },
+        {
+          "id": 9194,
+          "optionNo": "C",
+          "text": "介乎于符合与不符合之间",
+          "value": "3"
+        },
+        {
+          "id": 9195,
+          "optionNo": "D",
+          "text": "比较不符合自己情况",
+          "value": "2"
+        },
+        {
+          "id": 9196,
+          "optionNo": "E",
+          "text": "完全不符合自己情况",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 2261,
+      "text": " 老师讲新课时，希望他讲慢些，多重复几遍。",
+      "type": "radio",
+      "orderNum": 39,
+      "options": [
+        {
+          "id": 9197,
+          "optionNo": "A",
+          "text": "很符合自己情况",
+          "value": "5"
+        },
+        {
+          "id": 9198,
+          "optionNo": "B",
+          "text": "比较符合自己情况",
+          "value": "4"
+        },
+        {
+          "id": 9199,
+          "optionNo": "C",
+          "text": "介乎于符合与不符合之间",
+          "value": "3"
+        },
+        {
+          "id": 9200,
+          "optionNo": "D",
+          "text": "比较不符合自己情况",
+          "value": "2"
+        },
+        {
+          "id": 9201,
+          "optionNo": "E",
+          "text": "完全不符合自己情况",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 2262,
+      "text": " 做事情比别人花的时间多。",
+      "type": "radio",
+      "orderNum": 40,
+      "options": [
+        {
+          "id": 9202,
+          "optionNo": "A",
+          "text": "很符合自己情况",
+          "value": "5"
+        },
+        {
+          "id": 9203,
+          "optionNo": "B",
+          "text": "比较符合自己情况",
+          "value": "4"
+        },
+        {
+          "id": 9204,
+          "optionNo": "C",
+          "text": "介乎于符合与不符合之间",
+          "value": "3"
+        },
+        {
+          "id": 9205,
+          "optionNo": "D",
+          "text": "比较不符合自己情况",
+          "value": "2"
+        },
+        {
+          "id": 9206,
+          "optionNo": "E",
+          "text": "完全不符合自己情况",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 2263,
+      "text": " 喜欢运动量大的剧烈体育文娱活动。",
+      "type": "radio",
+      "orderNum": 41,
+      "options": [
+        {
+          "id": 9207,
+          "optionNo": "A",
+          "text": "很符合自己情况",
+          "value": "5"
+        },
+        {
+          "id": 9208,
+          "optionNo": "B",
+          "text": "比较符合自己情况",
+          "value": "4"
+        },
+        {
+          "id": 9209,
+          "optionNo": "C",
+          "text": "介乎于符合与不符合之间",
+          "value": "3"
+        },
+        {
+          "id": 9210,
+          "optionNo": "D",
+          "text": "比较不符合自己情况",
+          "value": "2"
+        },
+        {
+          "id": 9211,
+          "optionNo": "E",
+          "text": "完全不符合自己情况",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 2264,
+      "text": " 能同时注意几个事物。",
+      "type": "radio",
+      "orderNum": 42,
+      "options": [
+        {
+          "id": 9212,
+          "optionNo": "A",
+          "text": "很符合自己情况",
+          "value": "5"
+        },
+        {
+          "id": 9213,
+          "optionNo": "B",
+          "text": "比较符合自己情况",
+          "value": "4"
+        },
+        {
+          "id": 9214,
+          "optionNo": "C",
+          "text": "介乎于符合与不符合之间",
+          "value": "3"
+        },
+        {
+          "id": 9215,
+          "optionNo": "D",
+          "text": "比较不符合自己情况",
+          "value": "2"
+        },
+        {
+          "id": 9216,
+          "optionNo": "E",
+          "text": "完全不符合自己情况",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 2265,
+      "text": " 能很快地把注意力从一件事转移到另一件事。",
+      "type": "radio",
+      "orderNum": 43,
+      "options": [
+        {
+          "id": 9217,
+          "optionNo": "A",
+          "text": "很符合自己情况",
+          "value": "5"
+        },
+        {
+          "id": 9218,
+          "optionNo": "B",
+          "text": "比较符合自己情况",
+          "value": "4"
+        },
+        {
+          "id": 9219,
+          "optionNo": "C",
+          "text": "介乎于符合与不符合之间",
+          "value": "3"
+        },
+        {
+          "id": 9220,
+          "optionNo": "D",
+          "text": "比较不符合自己情况",
+          "value": "2"
+        },
+        {
+          "id": 9221,
+          "optionNo": "E",
+          "text": "完全不符合自己情况",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 2266,
+      "text": " 对不愉快的事情总是忘不掉。",
+      "type": "radio",
+      "orderNum": 44,
+      "options": [
+        {
+          "id": 9222,
+          "optionNo": "A",
+          "text": "很符合自己情况",
+          "value": "5"
+        },
+        {
+          "id": 9223,
+          "optionNo": "B",
+          "text": "比较符合自己情况",
+          "value": "4"
+        },
+        {
+          "id": 9224,
+          "optionNo": "C",
+          "text": "介乎于符合与不符合之间",
+          "value": "3"
+        },
+        {
+          "id": 9225,
+          "optionNo": "D",
+          "text": "比较不符合自己情况",
+          "value": "2"
+        },
+        {
+          "id": 9226,
+          "optionNo": "E",
+          "text": "完全不符合自己情况",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 2267,
+      "text": " 是个勇敢而精力充沛的人。",
+      "type": "radio",
+      "orderNum": 45,
+      "options": [
+        {
+          "id": 9227,
+          "optionNo": "A",
+          "text": "很符合自己情况",
+          "value": "5"
+        },
+        {
+          "id": 9228,
+          "optionNo": "B",
+          "text": "比较符合自己情况",
+          "value": "4"
+        },
+        {
+          "id": 9229,
+          "optionNo": "C",
+          "text": "介乎于符合与不符合之间",
+          "value": "3"
+        },
+        {
+          "id": 9230,
+          "optionNo": "D",
+          "text": "比较不符合自己情况",
+          "value": "2"
+        },
+        {
+          "id": 9231,
+          "optionNo": "E",
+          "text": "完全不符合自己情况",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 2268,
+      "text": " 愿做变化大、花样多的数学习题。",
+      "type": "radio",
+      "orderNum": 46,
+      "options": [
+        {
+          "id": 9232,
+          "optionNo": "A",
+          "text": "很符合自己情况",
+          "value": "5"
+        },
+        {
+          "id": 9233,
+          "optionNo": "B",
+          "text": "比较符合自己情况",
+          "value": "4"
+        },
+        {
+          "id": 9234,
+          "optionNo": "C",
+          "text": "介乎于符合与不符合之间",
+          "value": "3"
+        },
+        {
+          "id": 9235,
+          "optionNo": "D",
+          "text": "比较不符合自己情况",
+          "value": "2"
+        },
+        {
+          "id": 9236,
+          "optionNo": "E",
+          "text": "完全不符合自己情况",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 2269,
+      "text": " 认为墨守成规比冒风险强。",
+      "type": "radio",
+      "orderNum": 47,
+      "options": [
+        {
+          "id": 9237,
+          "optionNo": "A",
+          "text": "很符合自己情况",
+          "value": "5"
+        },
+        {
+          "id": 9238,
+          "optionNo": "B",
+          "text": "比较符合自己情况",
+          "value": "4"
+        },
+        {
+          "id": 9239,
+          "optionNo": "C",
+          "text": "介乎于符合与不符合之间",
+          "value": "3"
+        },
+        {
+          "id": 9240,
+          "optionNo": "D",
+          "text": "比较不符合自己情况",
+          "value": "2"
+        },
+        {
+          "id": 9241,
+          "optionNo": "E",
+          "text": "完全不符合自己情况",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 2270,
+      "text": " 喜欢复习学过的知识，重复做已经掌握的工作。",
+      "type": "radio",
+      "orderNum": 48,
+      "options": [
+        {
+          "id": 9242,
+          "optionNo": "A",
+          "text": "很符合自己情况",
+          "value": "5"
+        },
+        {
+          "id": 9243,
+          "optionNo": "B",
+          "text": "比较符合自己情况",
+          "value": "4"
+        },
+        {
+          "id": 9244,
+          "optionNo": "C",
+          "text": "介乎于符合与不符合之间",
+          "value": "3"
+        },
+        {
+          "id": 9245,
+          "optionNo": "D",
+          "text": "比较不符合自己情况",
+          "value": "2"
+        },
+        {
+          "id": 9246,
+          "optionNo": "E",
+          "text": "完全不符合自己情况",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 2271,
+      "text": " 喜欢参加各种活动并在活动中当“头儿”。",
+      "type": "radio",
+      "orderNum": 49,
+      "options": [
+        {
+          "id": 9247,
+          "optionNo": "A",
+          "text": "很符合自己情况",
+          "value": "5"
+        },
+        {
+          "id": 9248,
+          "optionNo": "B",
+          "text": "比较符合自己情况",
+          "value": "4"
+        },
+        {
+          "id": 9249,
+          "optionNo": "C",
+          "text": "介乎于符合与不符合之间",
+          "value": "3"
+        },
+        {
+          "id": 9250,
+          "optionNo": "D",
+          "text": "比较不符合自己情况",
+          "value": "2"
+        },
+        {
+          "id": 9251,
+          "optionNo": "E",
+          "text": "完全不符合自己情况",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 2272,
+      "text": " 情绪经常是乐观、开朗的。",
+      "type": "radio",
+      "orderNum": 50,
+      "options": [
+        {
+          "id": 9252,
+          "optionNo": "A",
+          "text": "很符合自己情况",
+          "value": "5"
+        },
+        {
+          "id": 9253,
+          "optionNo": "B",
+          "text": "比较符合自己情况",
+          "value": "4"
+        },
+        {
+          "id": 9254,
+          "optionNo": "C",
+          "text": "介乎于符合与不符合之间",
+          "value": "3"
+        },
+        {
+          "id": 9255,
+          "optionNo": "D",
+          "text": "比较不符合自己情况",
+          "value": "2"
+        },
+        {
+          "id": 9256,
+          "optionNo": "E",
+          "text": "完全不符合自己情况",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 2273,
+      "text": " 对学习一向持认真严谨、始终一贯的态度。",
+      "type": "radio",
+      "orderNum": 51,
+      "options": [
+        {
+          "id": 9257,
+          "optionNo": "A",
+          "text": "很符合自己情况",
+          "value": "5"
+        },
+        {
+          "id": 9258,
+          "optionNo": "B",
+          "text": "比较符合自己情况",
+          "value": "4"
+        },
+        {
+          "id": 9259,
+          "optionNo": "C",
+          "text": "介乎于符合与不符合之间",
+          "value": "3"
+        },
+        {
+          "id": 9260,
+          "optionNo": "D",
+          "text": "比较不符合自己情况",
+          "value": "2"
+        },
+        {
+          "id": 9261,
+          "optionNo": "E",
+          "text": "完全不符合自己情况",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 2274,
+      "text": " 是个腼腆、害羞、爱脸红的人。",
+      "type": "radio",
+      "orderNum": 52,
+      "options": [
+        {
+          "id": 9262,
+          "optionNo": "A",
+          "text": "很符合自己情况",
+          "value": "5"
+        },
+        {
+          "id": 9263,
+          "optionNo": "B",
+          "text": "比较符合自己情况",
+          "value": "4"
+        },
+        {
+          "id": 9264,
+          "optionNo": "C",
+          "text": "介乎于符合与不符合之间",
+          "value": "3"
+        },
+        {
+          "id": 9265,
+          "optionNo": "D",
+          "text": "比较不符合自己情况",
+          "value": "2"
+        },
+        {
+          "id": 9266,
+          "optionNo": "E",
+          "text": "完全不符合自己情况",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 2275,
+      "text": " 无意中常常出语伤人。",
+      "type": "radio",
+      "orderNum": 53,
+      "options": [
+        {
+          "id": 9267,
+          "optionNo": "A",
+          "text": "很符合自己情况",
+          "value": "5"
+        },
+        {
+          "id": 9268,
+          "optionNo": "B",
+          "text": "比较符合自己情况",
+          "value": "4"
+        },
+        {
+          "id": 9269,
+          "optionNo": "C",
+          "text": "介乎于符合与不符合之间",
+          "value": "3"
+        },
+        {
+          "id": 9270,
+          "optionNo": "D",
+          "text": "比较不符合自己情况",
+          "value": "2"
+        },
+        {
+          "id": 9271,
+          "optionNo": "E",
+          "text": "完全不符合自己情况",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 2276,
+      "text": " 假如学习枯燥无味，马上就情绪低落。",
+      "type": "radio",
+      "orderNum": 54,
+      "options": [
+        {
+          "id": 9272,
+          "optionNo": "A",
+          "text": "很符合自己情况",
+          "value": "5"
+        },
+        {
+          "id": 9273,
+          "optionNo": "B",
+          "text": "比较符合自己情况",
+          "value": "4"
+        },
+        {
+          "id": 9274,
+          "optionNo": "C",
+          "text": "介乎于符合与不符合之间",
+          "value": "3"
+        },
+        {
+          "id": 9275,
+          "optionNo": "D",
+          "text": "比较不符合自己情况",
+          "value": "2"
+        },
+        {
+          "id": 9276,
+          "optionNo": "E",
+          "text": "完全不符合自己情况",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 2277,
+      "text": " 做事善始善终。",
+      "type": "radio",
+      "orderNum": 55,
+      "options": [
+        {
+          "id": 9277,
+          "optionNo": "A",
+          "text": "很符合自己情况",
+          "value": "5"
+        },
+        {
+          "id": 9278,
+          "optionNo": "B",
+          "text": "比较符合自己情况",
+          "value": "4"
+        },
+        {
+          "id": 9279,
+          "optionNo": "C",
+          "text": "介乎于符合与不符合之间",
+          "value": "3"
+        },
+        {
+          "id": 9280,
+          "optionNo": "D",
+          "text": "比较不符合自己情况",
+          "value": "2"
+        },
+        {
+          "id": 9281,
+          "optionNo": "E",
+          "text": "完全不符合自己情况",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 2278,
+      "text": " 遇事常常感到惊惶失措。",
+      "type": "radio",
+      "orderNum": 56,
+      "options": [
+        {
+          "id": 9282,
+          "optionNo": "A",
+          "text": "很符合自己情况",
+          "value": "5"
+        },
+        {
+          "id": 9283,
+          "optionNo": "B",
+          "text": "比较符合自己情况",
+          "value": "4"
+        },
+        {
+          "id": 9284,
+          "optionNo": "C",
+          "text": "介乎于符合与不符合之间",
+          "value": "3"
+        },
+        {
+          "id": 9285,
+          "optionNo": "D",
+          "text": "比较不符合自己情况",
+          "value": "2"
+        },
+        {
+          "id": 9286,
+          "optionNo": "E",
+          "text": "完全不符合自己情况",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 2279,
+      "text": " 遇到兴奋的事，比别人更容易失眠。",
+      "type": "radio",
+      "orderNum": 57,
+      "options": [
+        {
+          "id": 9287,
+          "optionNo": "A",
+          "text": "很符合自己情况",
+          "value": "5"
+        },
+        {
+          "id": 9288,
+          "optionNo": "B",
+          "text": "比较符合自己情况",
+          "value": "4"
+        },
+        {
+          "id": 9289,
+          "optionNo": "C",
+          "text": "介乎于符合与不符合之间",
+          "value": "3"
+        },
+        {
+          "id": 9290,
+          "optionNo": "D",
+          "text": "比较不符合自己情况",
+          "value": "2"
+        },
+        {
+          "id": 9291,
+          "optionNo": "E",
+          "text": "完全不符合自己情况",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 2280,
+      "text": " 反应敏捷，头脑机智。",
+      "type": "radio",
+      "orderNum": 58,
+      "options": [
+        {
+          "id": 9292,
+          "optionNo": "A",
+          "text": "很符合自己情况",
+          "value": "5"
+        },
+        {
+          "id": 9293,
+          "optionNo": "B",
+          "text": "比较符合自己情况",
+          "value": "4"
+        },
+        {
+          "id": 9294,
+          "optionNo": "C",
+          "text": "介乎于符合与不符合之间",
+          "value": "3"
+        },
+        {
+          "id": 9295,
+          "optionNo": "D",
+          "text": "比较不符合自己情况",
+          "value": "2"
+        },
+        {
+          "id": 9296,
+          "optionNo": "E",
+          "text": "完全不符合自己情况",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 2281,
+      "text": " 喜欢不太复杂但推理严密的数学题。",
+      "type": "radio",
+      "orderNum": 59,
+      "options": [
+        {
+          "id": 9297,
+          "optionNo": "A",
+          "text": "很符合自己情况",
+          "value": "5"
+        },
+        {
+          "id": 9298,
+          "optionNo": "B",
+          "text": "比较符合自己情况",
+          "value": "4"
+        },
+        {
+          "id": 9299,
+          "optionNo": "C",
+          "text": "介乎于符合与不符合之间",
+          "value": "3"
+        },
+        {
+          "id": 9300,
+          "optionNo": "D",
+          "text": "比较不符合自己情况",
+          "value": "2"
+        },
+        {
+          "id": 9301,
+          "optionNo": "E",
+          "text": "完全不符合自己情况",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 2282,
+      "text": " 老师讲新概念常听不懂，但懂了以后很难忘记。",
+      "type": "radio",
+      "orderNum": 60,
+      "options": [
+        {
+          "id": 9302,
+          "optionNo": "A",
+          "text": "很符合自己情况",
+          "value": "5"
+        },
+        {
+          "id": 9303,
+          "optionNo": "B",
+          "text": "比较符合自己情况",
+          "value": "4"
+        },
+        {
+          "id": 9304,
+          "optionNo": "C",
+          "text": "介乎于符合与不符合之间",
+          "value": "3"
+        },
+        {
+          "id": 9305,
+          "optionNo": "D",
+          "text": "比较不符合自己情况",
+          "value": "2"
+        },
+        {
+          "id": 9306,
+          "optionNo": "E",
+          "text": "完全不符合自己情况",
+          "value": "1"
+        }
+      ]
+    }
+  ],
+  "dimensions": [
+    {
+      "id": 287,
+      "num": 1,
+      "dimensionName": "胆汁质",
+      "dimensionCode": "A",
+      "evaluateExpression": "hx_t_1 + hx_t_5 + hx_t_9 + hx_t_13 + hx_t_17 + hx_t_21 + hx_t_25 + hx_t_29 + hx_t_33 + hx_t_37 + hx_t_41 + hx_t_45 + hx_t_49 + hx_t_53 + hx_t_57",
+      "standardScoreFormula": "0",
+      "results": [
+        {
+          "id": 555,
+          "evaluateExpression": "hx_wd_y_1 >= 15&& hx_wd_y_1 <= 40",
+          "conclusionAnalysis": "您在胆汁质类型上表现很不明显。\n胆汁质类型的人直率，热情，易冲动，精力旺盛，情绪表露于外，急躁，反应迅速，持续时间短。\n主要特点：兴奋性高，行为表现不均衡。",
+          "suggestion": "气质本身并无优劣、好坏之分。与一个人活动的社会价值和成就高低也无直接关系。然而气质与一个人处理问题的方式及反应是有关联的，因此气质对所从事的工作的性质和效率有一定的影响。",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 556,
+          "evaluateExpression": "hx_wd_y_1 >= 41&& hx_wd_y_1 <= 47",
+          "conclusionAnalysis": "您在胆汁质类型上表现比较不明显。\n胆汁质类型的人直率，热情，易冲动，精力旺盛，情绪表露于外，急躁，反应迅速，持续时间短。\n主要特点：兴奋性高，行为表现不均衡。",
+          "suggestion": "气质是一个人表现在心理活动和动作方面的动力特征，即心理过程和动作发生的强度、速度、灵活性、持久性和心理指向性等方面特点的总和。气质本身并无优劣、好坏之分。与一个人活动的社会价值和成就高低也无直接关系。然而气质与一个人处理问题的方式及反应是有关联的，因此气质对所从事的工作的性质和效率有一定的影响。",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 557,
+          "evaluateExpression": "hx_wd_y_1 >= 48&& hx_wd_y_1 <= 54",
+          "conclusionAnalysis": "您在胆汁质类型上表现中等。\n胆汁质类型的人直率，热情，易冲动，精力旺盛，情绪表露于外，急躁，反应迅速，持续时间短。\n主要特点：兴奋性高，行为表现不均衡。",
+          "suggestion": "气质是一个人表现在心理活动和动作方面的动力特征，即心理过程和动作发生的强度、速度、灵活性、持久性和心理指向性等方面特点的总和。气质本身并无优劣、好坏之分。与一个人活动的社会价值和成就高低也无直接关系。然而气质与一个人处理问题的方式及反应是有关联的，因此气质对所从事的工作的性质和效率有一定的影响。",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 558,
+          "evaluateExpression": "hx_wd_y_1 >= 55&& hx_wd_y_1 <= 61",
+          "conclusionAnalysis": "您在胆汁质类型上表现比较明显。\n胆汁质类型的人直率，热情，易冲动，精力旺盛，情绪表露于外，急躁，反应迅速，持续时间短。\n主要特点：兴奋性高，行为表现不均衡。",
+          "suggestion": "气质是一个人表现在心理活动和动作方面的动力特征，即心理过程和动作发生的强度、速度、灵活性、持久性和心理指向性等方面特点的总和。气质本身并无优劣、好坏之分。与一个人活动的社会价值和成就高低也无直接关系。然而气质与一个人处理问题的方式及反应是有关联的，因此气质对所从事的工作的性质和效率有一定的影响。",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 559,
+          "evaluateExpression": "hx_wd_y_1 >= 62&& hx_wd_y_1 <= 75",
+          "conclusionAnalysis": "您在胆汁质类型上表现很明显。\n胆汁质类型的人直率，热情，易冲动，精力旺盛，情绪表露于外，急躁，反应迅速，持续时间短。\n主要特点：兴奋性高，行为表现不均衡。",
+          "suggestion": "气质是一个人表现在心理活动和动作方面的动力特征，即心理过程和动作发生的强度、速度、灵活性、持久性和心理指向性等方面特点的总和。气质本身并无优劣、好坏之分。与一个人活动的社会价值和成就高低也无直接关系。然而气质与一个人处理问题的方式及反应是有关联的，因此气质对所从事的工作的性质和效率有一定的影响。",
+          "assessmentWarning": "none"
+        }
+      ]
+    },
+    {
+      "id": 288,
+      "num": 2,
+      "dimensionName": "多血质",
+      "dimensionCode": "B",
+      "evaluateExpression": "hx_t_2 + hx_t_6 + hx_t_10 + hx_t_14 + hx_t_18 + hx_t_22 + hx_t_26 + hx_t_30 + hx_t_34 + hx_t_38 + hx_t_42 + hx_t_46 + hx_t_50 + hx_t_54 + hx_t_58",
+      "standardScoreFormula": "0",
+      "results": [
+        {
+          "id": 560,
+          "evaluateExpression": "hx_wd_y_2 >= 38&& hx_wd_y_2 <= 44",
+          "conclusionAnalysis": "您在多血质类型上表现比较不明显。\n多血质类型的人活泼好动，反应迅速，表情丰富，易与人接近，情绪不稳定，多变，不持久，体验不深，注意力不够稳定。 \n主要特点：灵活性高，比较容易适应变化的条件。",
+          "suggestion": "气质是一个人表现在心理活动和动作方面的动力特征，即心理过程和动作发生的强度、速度、灵活性、持久性和心理指向性等方面特点的总和。气质本身并无优劣、好坏之分。与一个人活动的社会价值和成就高低也无直接关系。然而气质与一个人处理问题的方式及反应是有关联的，因此气质对所从事的工作的性质和效率有一定的影响。",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 561,
+          "evaluateExpression": "hx_wd_y_2 >= 45&& hx_wd_y_2 <= 52",
+          "conclusionAnalysis": "您在多血质类型上表现中等。\n多血质类型的人活泼好动，反应迅速，表情丰富，易与人接近，情绪不稳定，多变，不持久，体验不深，注意力不够稳定。  \n主要特点：灵活性高，比较容易适应变化的条件。",
+          "suggestion": "气质是一个人表现在心理活动和动作方面的动力特征，即心理过程和动作发生的强度、速度、灵活性、持久性和心理指向性等方面特点的总和。气质本身并无优劣、好坏之分。与一个人活动的社会价值和成就高低也无直接关系。然而气质与一个人处理问题的方式及反应是有关联的，因此气质对所从事的工作的性质和效率有一定的影响。",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 562,
+          "evaluateExpression": "hx_wd_y_2 >= 53&& hx_wd_y_2 <= 59",
+          "conclusionAnalysis": "您在多血质类型上表现比较明显。\n多血质类型的人活泼好动，反应迅速，表情丰富，易与人接近，情绪不稳定，多变，不持久，体验不深，注意力不够稳定。   主要特点：灵活性高，比较容易适应变化的条件。",
+          "suggestion": "气质是一个人表现在心理活动和动作方面的动力特征，即心理过程和动作发生的强度、速度、灵活性、持久性和心理指向性等方面特点的总和。气质本身并无优劣、好坏之分。与一个人活动的社会价值和成就高低也无直接关系。然而气质与一个人处理问题的方式及反应是有关联的，因此气质对所从事的工作的性质和效率有一定的影响。",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 563,
+          "evaluateExpression": "hx_wd_y_2 >= 60&& hx_wd_y_2 <= 75",
+          "conclusionAnalysis": "您在多血质类型上表现很明显。\n多血质类型的人活泼好动，反应迅速，表情丰富，易与人接近，情绪不稳定，多变，不持久，体验不深，注意力不够稳定。   主要特点：灵活性高，比较容易适应变化的条件。",
+          "suggestion": "气质是一个人表现在心理活动和动作方面的动力特征，即心理过程和动作发生的强度、速度、灵活性、持久性和心理指向性等方面特点的总和。气质本身并无优劣、好坏之分。与一个人活动的社会价值和成就高低也无直接关系。然而气质与一个人处理问题的方式及反应是有关联的，因此气质对所从事的工作的性质和效率有一定的影响。",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 564,
+          "evaluateExpression": "hx_wd_y_2 >= 15&& hx_wd_y_2 <= 37",
+          "conclusionAnalysis": "您在多血质类型上表现很不明显。\n多血质类型的人活泼好动，反应迅速，表情丰富，易与人接近，情绪不稳定，多变，不持久，体验不深，注意力不够稳定。 \n主要特点：灵活性高，比较容易适应变化的条件。",
+          "suggestion": "气质是一个人表现在心理活动和动作方面的动力特征，即心理过程和动作发生的强度、速度、灵活性、持久性和心理指向性等方面特点的总和。气质本身并无优劣、好坏之分。与一个人活动的社会价值和成就高低也无直接关系。然而气质与一个人处理问题的方式及反应是有关联的，因此气质对所从事的工作的性质和效率有一定的影响。",
+          "assessmentWarning": "none"
+        }
+      ]
+    },
+    {
+      "id": 289,
+      "num": 3,
+      "dimensionName": "粘液质",
+      "dimensionCode": "C",
+      "evaluateExpression": "hx_t_3 + hx_t_7 + hx_t_11 + hx_t_15 + hx_t_19 + hx_t_23 + hx_t_27 + hx_t_31 + hx_t_35 + hx_t_39 + hx_t_43 + hx_t_47 + hx_t_51 + hx_t_55 + hx_t_59",
+      "standardScoreFormula": "0",
+      "results": [
+        {
+          "id": 565,
+          "evaluateExpression": "hx_wd_y_3 >= 15&& hx_wd_y_3 <= 42",
+          "conclusionAnalysis": "您在粘液质类型上表现很不明显。\n粘液质类型的人安静稳重，沉默寡言，善于克制自己，注意稳定，反应缓慢，动作缓慢，情绪不外露，虽然注意稳定，但难于转移。  \n主要特点：安静、均衡。",
+          "suggestion": "气质是一个人表现在心理活动和动作方面的动力特征，即心理过程和动作发生的强度、速度、灵活性、持久性和心理指向性等方面特点的总和。气质本身并无优劣、好坏之分。与一个人活动的社会价值和成就高低也无直接关系。然而气质与一个人处理问题的方式及反应是有关联的，因此气质对所从事的工作的性质和效率有一定的影响。",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 566,
+          "evaluateExpression": "hx_wd_y_3 >= 43&& hx_wd_y_3 <= 48",
+          "conclusionAnalysis": "您在粘液质类型上表现比较不明显。\n粘液质类型的人安静稳重，沉默寡言，善于克制自己，注意稳定，反应缓慢，动作缓慢，情绪不外露，虽然注意稳定，但难于转移。  \n主要特点：安静、均衡。",
+          "suggestion": "气质是一个人表现在心理活动和动作方面的动力特征，即心理过程和动作发生的强度、速度、灵活性、持久性和心理指向性等方面特点的总和。气质本身并无优劣、好坏之分。与一个人活动的社会价值和成就高低也无直接关系。然而气质与一个人处理问题的方式及反应是有关联的，因此气质对所从事的工作的性质和效率有一定的影响。",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 567,
+          "evaluateExpression": "hx_wd_y_3 >= 49&& hx_wd_y_3 <= 55",
+          "conclusionAnalysis": "您在粘液质类型上表现中等。\n粘液质类型的人安静稳重，沉默寡言，善于克制自己，注意稳定，反应缓慢，动作缓慢，情绪不外露，虽然注意稳定，但难于转移。   主要特点：安静、均衡。",
+          "suggestion": "气质是一个人表现在心理活动和动作方面的动力特征，即心理过程和动作发生的强度、速度、灵活性、持久性和心理指向性等方面特点的总和。气质本身并无优劣、好坏之分。与一个人活动的社会价值和成就高低也无直接关系。然而气质与一个人处理问题的方式及反应是有关联的，因此气质对所从事的工作的性质和效率有一定的影响。",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 568,
+          "evaluateExpression": "hx_wd_y_3 >= 56&& hx_wd_y_3 <= 61",
+          "conclusionAnalysis": "您在粘液质类型上表现比较明显。\n粘液质类型的人安静稳重，沉默寡言，善于克制自己，注意稳定，反应缓慢，动作缓慢，情绪不外露，虽然注意稳定，但难于转移。 主要特点：安静、均衡。",
+          "suggestion": "气质是一个人表现在心理活动和动作方面的动力特征，即心理过程和动作发生的强度、速度、灵活性、持久性和心理指向性等方面特点的总和。气质本身并无优劣、好坏之分。与一个人活动的社会价值和成就高低也无直接关系。然而气质与一个人处理问题的方式及反应是有关联的，因此气质对所从事的工作的性质和效率有一定的影响。",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 569,
+          "evaluateExpression": "hx_wd_y_3 >= 62&& hx_wd_y_3 <= 75",
+          "conclusionAnalysis": "您在粘液质类型上表现很明显。\n粘液质类型的人安静稳重，沉默寡言，善于克制自己，注意稳定，反应缓慢，动作缓慢，情绪不外露，虽然注意稳定，但难于转移。 主要特点：安静、均衡。",
+          "suggestion": "气质是一个人表现在心理活动和动作方面的动力特征，即心理过程和动作发生的强度、速度、灵活性、持久性和心理指向性等方面特点的总和。气质本身并无优劣、好坏之分。与一个人活动的社会价值和成就高低也无直接关系。然而气质与一个人处理问题的方式及反应是有关联的，因此气质对所从事的工作的性质和效率有一定的影响。",
+          "assessmentWarning": "none"
+        }
+      ]
+    },
+    {
+      "id": 290,
+      "num": 4,
+      "dimensionName": "抑郁质",
+      "dimensionCode": "D",
+      "evaluateExpression": "hx_t_4 + hx_t_8 + hx_t_12 + hx_t_16 + hx_t_20 + hx_t_24 + hx_t_28 + hx_t_32 + hx_t_36 + hx_t_40 + hx_t_44 + hx_t_48 + hx_t_52 + hx_t_56 + hx_t_60",
+      "standardScoreFormula": "0",
+      "results": [
+        {
+          "id": 570,
+          "evaluateExpression": "hx_wd_y_4 >= 44&& hx_wd_y_4 <= 49",
+          "conclusionAnalysis": "您在抑郁质类型上表现比较不明显。\n抑郁质类型的人感受性高，敏感，观察事物细致，体验深刻，情绪不外露，行为孤僻。\n主要特点：细致，不灵活。",
+          "suggestion": "气质是一个人表现在心理活动和动作方面的动力特征，即心理过程和动作发生的强度、速度、灵活性、持久性和心理指向性等方面特点的总和。气质本身并无优劣、好坏之分。与一个人活动的社会价值和成就高低也无直接关系。然而气质与一个人处理问题的方式及反应是有关联的，因此气质对所从事的工作的性质和效率有一定的影响。",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 571,
+          "evaluateExpression": "hx_wd_y_4 >= 50&& hx_wd_y_4 <= 56",
+          "conclusionAnalysis": "您在抑郁质类型上表现中等。\n抑郁质类型的人感受性高，敏感，观察事物细致，体验深刻，情绪不外露，行为孤僻。\n主要特点：细致，不灵活。",
+          "suggestion": "气质是一个人表现在心理活动和动作方面的动力特征，即心理过程和动作发生的强度、速度、灵活性、持久性和心理指向性等方面特点的总和。气质本身并无优劣、好坏之分。与一个人活动的社会价值和成就高低也无直接关系。然而气质与一个人处理问题的方式及反应是有关联的，因此气质对所从事的工作的性质和效率有一定的影响。",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 572,
+          "evaluateExpression": "hx_wd_y_4 >= 57&& hx_wd_y_4 <= 62",
+          "conclusionAnalysis": "您在抑郁质类型上表现比较明显。\n抑郁质类型的人感受性高，敏感，观察事物细致，体验深刻，情绪不外露，行为孤僻。\n主要特点：细致，不灵活。",
+          "suggestion": "气质是一个人表现在心理活动和动作方面的动力特征，即心理过程和动作发生的强度、速度、灵活性、持久性和心理指向性等方面特点的总和。气质本身并无优劣、好坏之分。与一个人活动的社会价值和成就高低也无直接关系。然而气质与一个人处理问题的方式及反应是有关联的，因此气质对所从事的工作的性质和效率有一定的影响。",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 573,
+          "evaluateExpression": "hx_wd_y_4 >= 63&& hx_wd_y_4 <= 75",
+          "conclusionAnalysis": "您在抑郁质类型上表现很明显。\n抑郁质类型的人感受性高，敏感，观察事物细致，体验深刻，情绪不外露，行为孤僻。\n主要特点：细致，不灵活。",
+          "suggestion": "气质是一个人表现在心理活动和动作方面的动力特征，即心理过程和动作发生的强度、速度、灵活性、持久性和心理指向性等方面特点的总和。气质本身并无优劣、好坏之分。与一个人活动的社会价值和成就高低也无直接关系。然而气质与一个人处理问题的方式及反应是有关联的，因此气质对所从事的工作的性质和效率有一定的影响。",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 574,
+          "evaluateExpression": "hx_wd_y_4 >= 15&& hx_wd_y_4 <= 43",
+          "conclusionAnalysis": "您在抑郁质类型上表现很不明显。\n抑郁质类型的人感受性高，敏感，观察事物细致，体验深刻，情绪不外露，行为孤僻。\n主要特点：细致，不灵活。",
+          "suggestion": "气质是一个人表现在心理活动和动作方面的动力特征，即心理过程和动作发生的强度、速度、灵活性、持久性和心理指向性等方面特点的总和。气质本身并无优劣、好坏之分。与一个人活动的社会价值和成就高低也无直接关系。然而气质与一个人处理问题的方式及反应是有关联的，因此气质对所从事的工作的性质和效率有一定的影响。",
+          "assessmentWarning": "none"
+        }
+      ]
+    }
+  ]
+}

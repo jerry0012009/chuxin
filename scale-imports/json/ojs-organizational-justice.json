@@ -1,0 +1,782 @@
+{
+  "id": "ojs-organizational-justice",
+  "title": "组织公正量表(OJS)",
+  "description": "Colquitt Organizational Justice Scale (OJS)，Colquitt (2001)编制，测量分配公正（4题）、程序公正（7题）、人际公正（4题）、信息公正（5题）四个维度。5点计分（1=极小程度到5=极大程度），各维度均分1-5，中点=3。",
+  "type": "basic",
+  "questions": [
+    {
+      "text": "您的工作结果是否反映了您付出的努力？",
+      "type": "radio",
+      "orderNum": 1,
+      "options": [
+        {
+          "text": "在极小程度上",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "在较小程度上",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "在中等程度上",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "在较大程度上",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "在极大程度上",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "您的工作结果是否与您的工作职责相称？",
+      "type": "radio",
+      "orderNum": 2,
+      "options": [
+        {
+          "text": "在极小程度上",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "在较小程度上",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "在中等程度上",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "在较大程度上",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "在极大程度上",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "您的工作结果是否反映了您对工作的贡献？",
+      "type": "radio",
+      "orderNum": 3,
+      "options": [
+        {
+          "text": "在极小程度上",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "在较小程度上",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "在中等程度上",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "在较大程度上",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "在极大程度上",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "您的工作结果是否对于您的工作表现来说是合理的？",
+      "type": "radio",
+      "orderNum": 4,
+      "options": [
+        {
+          "text": "在极小程度上",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "在较小程度上",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "在中等程度上",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "在较大程度上",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "在极大程度上",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "您能否对上级的决策程序发表自己的意见？",
+      "type": "radio",
+      "orderNum": 5,
+      "options": [
+        {
+          "text": "在极小程度上",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "在较小程度上",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "在中等程度上",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "在较大程度上",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "在极大程度上",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "您能否在决策程序中表达自己的意见和看法？",
+      "type": "radio",
+      "orderNum": 6,
+      "options": [
+        {
+          "text": "在极小程度上",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "在较小程度上",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "在中等程度上",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "在较大程度上",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "在极大程度上",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "决策程序是否基于准确的信息？",
+      "type": "radio",
+      "orderNum": 7,
+      "options": [
+        {
+          "text": "在极小程度上",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "在较小程度上",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "在中等程度上",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "在较大程度上",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "在极大程度上",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "决策程序是否允许提出申诉或质疑？",
+      "type": "radio",
+      "orderNum": 8,
+      "options": [
+        {
+          "text": "在极小程度上",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "在较小程度上",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "在中等程度上",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "在较大程度上",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "在极大程度上",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "决策程序是否遵循道德和伦理标准？",
+      "type": "radio",
+      "orderNum": 9,
+      "options": [
+        {
+          "text": "在极小程度上",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "在较小程度上",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "在中等程度上",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "在较大程度上",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "在极大程度上",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "决策程序对所有员工是否一视同仁？",
+      "type": "radio",
+      "orderNum": 10,
+      "options": [
+        {
+          "text": "在极小程度上",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "在较小程度上",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "在中等程度上",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "在较大程度上",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "在极大程度上",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "决策程序是否考虑到各方的利益和关切？",
+      "type": "radio",
+      "orderNum": 11,
+      "options": [
+        {
+          "text": "在极小程度上",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "在较小程度上",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "在中等程度上",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "在较大程度上",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "在极大程度上",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "上级在决策过程中是否对您表现出尊重？",
+      "type": "radio",
+      "orderNum": 12,
+      "options": [
+        {
+          "text": "在极小程度上",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "在较小程度上",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "在中等程度上",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "在较大程度上",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "在极大程度上",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "上级在决策过程中是否维护了您的尊严？",
+      "type": "radio",
+      "orderNum": 13,
+      "options": [
+        {
+          "text": "在极小程度上",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "在较小程度上",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "在中等程度上",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "在较大程度上",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "在极大程度上",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "上级在决策过程中是否对您表现出礼貌？",
+      "type": "radio",
+      "orderNum": 14,
+      "options": [
+        {
+          "text": "在极小程度上",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "在较小程度上",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "在中等程度上",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "在较大程度上",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "在极大程度上",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "上级在决策过程中是否避免了不恰当的言论或行为？",
+      "type": "radio",
+      "orderNum": 15,
+      "options": [
+        {
+          "text": "在极小程度上",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "在较小程度上",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "在中等程度上",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "在较大程度上",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "在极大程度上",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "上级是否详细解释了决策的理由？",
+      "type": "radio",
+      "orderNum": 16,
+      "options": [
+        {
+          "text": "在极小程度上",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "在较小程度上",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "在中等程度上",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "在较大程度上",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "在极大程度上",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "上级的解释是否合理？",
+      "type": "radio",
+      "orderNum": 17,
+      "options": [
+        {
+          "text": "在极小程度上",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "在较小程度上",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "在中等程度上",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "在较大程度上",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "在极大程度上",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "上级是否坦诚地与您沟通？",
+      "type": "radio",
+      "orderNum": 18,
+      "options": [
+        {
+          "text": "在极小程度上",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "在较小程度上",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "在中等程度上",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "在较大程度上",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "在极大程度上",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "上级是否及时向您传达了相关信息？",
+      "type": "radio",
+      "orderNum": 19,
+      "options": [
+        {
+          "text": "在极小程度上",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "在较小程度上",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "在中等程度上",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "在较大程度上",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "在极大程度上",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "上级的解释是否有助于您理解决策过程？",
+      "type": "radio",
+      "orderNum": 20,
+      "options": [
+        {
+          "text": "在极小程度上",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "在较小程度上",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "在中等程度上",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "在较大程度上",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "在极大程度上",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    }
+  ],
+  "dimensions": [
+    {
+      "dimensionName": "分配公正",
+      "dimensionCode": "distributive_justice",
+      "num": 1,
+      "evaluateExpression": "(hx_t_1 + hx_t_2 + hx_t_3 + hx_t_4) / 4",
+      "standardScoreFormula": "",
+      "results": [
+        {
+          "evaluateExpression": "hx_wd_y_1 <= 2.0",
+          "conclusionAnalysis": "分配公正水平较低",
+          "suggestion": "您认为工作分配结果不够公平，建议与上级沟通期望和需求。",
+          "assessmentWarning": "low"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_1 > 2.0 && hx_wd_y_1 <= 3.0",
+          "conclusionAnalysis": "分配公正水平中等",
+          "suggestion": "您对工作分配结果的公平感处于中等水平。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_1 > 3.0 && hx_wd_y_1 <= 4.0",
+          "conclusionAnalysis": "分配公正水平较高",
+          "suggestion": "您认为工作分配结果较为公平。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_1 > 4.0",
+          "conclusionAnalysis": "分配公正水平很高",
+          "suggestion": "您对工作分配结果有很高的公平感。",
+          "assessmentWarning": "none"
+        }
+      ]
+    },
+    {
+      "dimensionName": "程序公正",
+      "dimensionCode": "procedural_justice",
+      "num": 2,
+      "evaluateExpression": "(hx_t_5 + hx_t_6 + hx_t_7 + hx_t_8 + hx_t_9 + hx_t_10 + hx_t_11) / 7",
+      "standardScoreFormula": "",
+      "results": [
+        {
+          "evaluateExpression": "hx_wd_y_2 <= 2.0",
+          "conclusionAnalysis": "程序公正水平较低",
+          "suggestion": "您认为组织决策程序不够公平透明，建议向上级反映改善建议。",
+          "assessmentWarning": "low"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_2 > 2.0 && hx_wd_y_2 <= 3.0",
+          "conclusionAnalysis": "程序公正水平中等",
+          "suggestion": "您对组织决策程序的公平感处于中等水平。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_2 > 3.0 && hx_wd_y_2 <= 4.0",
+          "conclusionAnalysis": "程序公正水平较高",
+          "suggestion": "您认为组织决策程序较为公平合理。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_2 > 4.0",
+          "conclusionAnalysis": "程序公正水平很高",
+          "suggestion": "您对组织决策程序有很高的公平感。",
+          "assessmentWarning": "none"
+        }
+      ]
+    },
+    {
+      "dimensionName": "人际公正",
+      "dimensionCode": "interpersonal_justice",
+      "num": 3,
+      "evaluateExpression": "(hx_t_12 + hx_t_13 + hx_t_14 + hx_t_15) / 4",
+      "standardScoreFormula": "",
+      "results": [
+        {
+          "evaluateExpression": "hx_wd_y_3 <= 2.0",
+          "conclusionAnalysis": "人际公正水平较低",
+          "suggestion": "您在工作中感受到的人际尊重不足，建议与上级或HR沟通。",
+          "assessmentWarning": "low"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_3 > 2.0 && hx_wd_y_3 <= 3.0",
+          "conclusionAnalysis": "人际公正水平中等",
+          "suggestion": "您在工作中感受到的人际尊重处于中等水平。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_3 > 3.0 && hx_wd_y_3 <= 4.0",
+          "conclusionAnalysis": "人际公正水平较高",
+          "suggestion": "您在工作中感受到较高的人际尊重。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_3 > 4.0",
+          "conclusionAnalysis": "人际公正水平很高",
+          "suggestion": "您在工作中感受到很高的人际尊重。",
+          "assessmentWarning": "none"
+        }
+      ]
+    },
+    {
+      "dimensionName": "信息公正",
+      "dimensionCode": "informational_justice",
+      "num": 4,
+      "evaluateExpression": "(hx_t_16 + hx_t_17 + hx_t_18 + hx_t_19 + hx_t_20) / 5",
+      "standardScoreFormula": "",
+      "results": [
+        {
+          "evaluateExpression": "hx_wd_y_4 <= 2.0",
+          "conclusionAnalysis": "信息公正水平较低",
+          "suggestion": "您认为组织的信息沟通不够充分透明，建议向上级反映沟通需求。",
+          "assessmentWarning": "low"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_4 > 2.0 && hx_wd_y_4 <= 3.0",
+          "conclusionAnalysis": "信息公正水平中等",
+          "suggestion": "您对组织信息沟通的满意度处于中等水平。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_4 > 3.0 && hx_wd_y_4 <= 4.0",
+          "conclusionAnalysis": "信息公正水平较高",
+          "suggestion": "您认为组织的信息沟通较为充分。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_4 > 4.0",
+          "conclusionAnalysis": "信息公正水平很高",
+          "suggestion": "您对组织的信息沟通有很高的满意度。",
+          "assessmentWarning": "none"
+        }
+      ]
+    }
+  ]
+}

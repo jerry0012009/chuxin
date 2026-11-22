@@ -1,0 +1,783 @@
+{
+  "id": 120,
+  "title": "大学生主动拖延量表",
+  "type": "basic",
+  "questions": [
+    {
+      "id": 2707,
+      "text": "当任务接近最后期限时，我的表现也不会糟糕",
+      "type": "radio",
+      "orderNum": 1,
+      "options": [
+        {
+          "id": 10753,
+          "optionNo": "A",
+          "text": "非常不同意",
+          "value": "1"
+        },
+        {
+          "id": 10754,
+          "optionNo": "B",
+          "text": "不同意",
+          "value": "2"
+        },
+        {
+          "id": 10755,
+          "optionNo": "C",
+          "text": "有点不同意",
+          "value": "3"
+        },
+        {
+          "id": 10756,
+          "optionNo": "D",
+          "text": "不确定",
+          "value": "4"
+        },
+        {
+          "id": 10757,
+          "optionNo": "E",
+          "text": "有点同意",
+          "value": "5"
+        },
+        {
+          "id": 10758,
+          "optionNo": "F",
+          "text": "同意",
+          "value": "6"
+        },
+        {
+          "id": 10759,
+          "optionNo": "G",
+          "text": "非常同意",
+          "value": "7"
+        }
+      ]
+    },
+    {
+      "id": 2708,
+      "text": "即使赶着完成一件事，我也能做好",
+      "type": "radio",
+      "orderNum": 2,
+      "options": [
+        {
+          "id": 10760,
+          "optionNo": "A",
+          "text": "非常不同意",
+          "value": "1"
+        },
+        {
+          "id": 10761,
+          "optionNo": "B",
+          "text": "不同意",
+          "value": "2"
+        },
+        {
+          "id": 10762,
+          "optionNo": "C",
+          "text": "有点不同意",
+          "value": "3"
+        },
+        {
+          "id": 10763,
+          "optionNo": "D",
+          "text": "不确定",
+          "value": "4"
+        },
+        {
+          "id": 10764,
+          "optionNo": "E",
+          "text": "有点同意",
+          "value": "5"
+        },
+        {
+          "id": 10765,
+          "optionNo": "F",
+          "text": "同意",
+          "value": "6"
+        },
+        {
+          "id": 10766,
+          "optionNo": "G",
+          "text": "非常同意",
+          "value": "7"
+        }
+      ]
+    },
+    {
+      "id": 2709,
+      "text": "即使任务拖到最后一刻才完成，我也会对结果满意",
+      "type": "radio",
+      "orderNum": 3,
+      "options": [
+        {
+          "id": 10767,
+          "optionNo": "A",
+          "text": "非常不同意",
+          "value": "1"
+        },
+        {
+          "id": 10768,
+          "optionNo": "B",
+          "text": "不同意",
+          "value": "2"
+        },
+        {
+          "id": 10769,
+          "optionNo": "C",
+          "text": "有点不同意",
+          "value": "3"
+        },
+        {
+          "id": 10770,
+          "optionNo": "D",
+          "text": "不确定",
+          "value": "4"
+        },
+        {
+          "id": 10771,
+          "optionNo": "E",
+          "text": "有点同意",
+          "value": "5"
+        },
+        {
+          "id": 10772,
+          "optionNo": "F",
+          "text": "同意",
+          "value": "6"
+        },
+        {
+          "id": 10773,
+          "optionNo": "G",
+          "text": "非常同意",
+          "value": "7"
+        }
+      ]
+    },
+    {
+      "id": 2710,
+      "text": "在任务截止日期逼近的情况下工作，对我而言是件痛苦的事",
+      "type": "radio",
+      "orderNum": 4,
+      "options": [
+        {
+          "id": 10774,
+          "optionNo": "A",
+          "text": "非常不同意",
+          "value": "1"
+        },
+        {
+          "id": 10775,
+          "optionNo": "B",
+          "text": "不同意",
+          "value": "2"
+        },
+        {
+          "id": 10776,
+          "optionNo": "C",
+          "text": "有点不同意",
+          "value": "3"
+        },
+        {
+          "id": 10777,
+          "optionNo": "D",
+          "text": "不确定",
+          "value": "4"
+        },
+        {
+          "id": 10778,
+          "optionNo": "E",
+          "text": "有点同意",
+          "value": "5"
+        },
+        {
+          "id": 10779,
+          "optionNo": "F",
+          "text": "同意",
+          "value": "6"
+        },
+        {
+          "id": 10780,
+          "optionNo": "G",
+          "text": "非常同意",
+          "value": "7"
+        }
+      ]
+    },
+    {
+      "id": 2711,
+      "text": "当被迫在压力下工作时，我感到心烦意乱又极不情愿",
+      "type": "radio",
+      "orderNum": 5,
+      "options": [
+        {
+          "id": 10781,
+          "optionNo": "A",
+          "text": "非常不同意",
+          "value": "1"
+        },
+        {
+          "id": 10782,
+          "optionNo": "B",
+          "text": "不同意",
+          "value": "2"
+        },
+        {
+          "id": 10783,
+          "optionNo": "C",
+          "text": "有点不同意",
+          "value": "3"
+        },
+        {
+          "id": 10784,
+          "optionNo": "D",
+          "text": "不确定",
+          "value": "4"
+        },
+        {
+          "id": 10785,
+          "optionNo": "E",
+          "text": "有点同意",
+          "value": "5"
+        },
+        {
+          "id": 10786,
+          "optionNo": "F",
+          "text": "同意",
+          "value": "6"
+        },
+        {
+          "id": 10787,
+          "optionNo": "G",
+          "text": "非常同意",
+          "value": "7"
+        }
+      ]
+    },
+    {
+      "id": 2712,
+      "text": "当时间压力特别大时，我感觉紧张，很难集中精力工作",
+      "type": "radio",
+      "orderNum": 6,
+      "options": [
+        {
+          "id": 10788,
+          "optionNo": "A",
+          "text": "非常不同意",
+          "value": "1"
+        },
+        {
+          "id": 10789,
+          "optionNo": "B",
+          "text": "不同意",
+          "value": "2"
+        },
+        {
+          "id": 10790,
+          "optionNo": "C",
+          "text": "有点不同意",
+          "value": "3"
+        },
+        {
+          "id": 10791,
+          "optionNo": "D",
+          "text": "不确定",
+          "value": "4"
+        },
+        {
+          "id": 10792,
+          "optionNo": "E",
+          "text": "有点同意",
+          "value": "5"
+        },
+        {
+          "id": 10793,
+          "optionNo": "F",
+          "text": "同意",
+          "value": "6"
+        },
+        {
+          "id": 10794,
+          "optionNo": "G",
+          "text": "非常同意",
+          "value": "7"
+        }
+      ]
+    },
+    {
+      "id": 2713,
+      "text": "当必须赶在最后期限前完成任务时，我感觉很沮丧",
+      "type": "radio",
+      "orderNum": 7,
+      "options": [
+        {
+          "id": 10795,
+          "optionNo": "A",
+          "text": "非常不同意",
+          "value": "1"
+        },
+        {
+          "id": 10796,
+          "optionNo": "B",
+          "text": "不同意",
+          "value": "2"
+        },
+        {
+          "id": 10797,
+          "optionNo": "C",
+          "text": "有点不同意",
+          "value": "3"
+        },
+        {
+          "id": 10798,
+          "optionNo": "D",
+          "text": "不确定",
+          "value": "4"
+        },
+        {
+          "id": 10799,
+          "optionNo": "E",
+          "text": "有点同意",
+          "value": "5"
+        },
+        {
+          "id": 10800,
+          "optionNo": "F",
+          "text": "同意",
+          "value": "6"
+        },
+        {
+          "id": 10801,
+          "optionNo": "G",
+          "text": "非常同意",
+          "value": "7"
+        }
+      ]
+    },
+    {
+      "id": 2714,
+      "text": "为了更高效地利用时间，我故意拖延一些任务",
+      "type": "radio",
+      "orderNum": 8,
+      "options": [
+        {
+          "id": 10802,
+          "optionNo": "A",
+          "text": "非常不同意",
+          "value": "1"
+        },
+        {
+          "id": 10803,
+          "optionNo": "B",
+          "text": "不同意",
+          "value": "2"
+        },
+        {
+          "id": 10804,
+          "optionNo": "C",
+          "text": "有点不同意",
+          "value": "3"
+        },
+        {
+          "id": 10805,
+          "optionNo": "D",
+          "text": "不确定",
+          "value": "4"
+        },
+        {
+          "id": 10806,
+          "optionNo": "E",
+          "text": "有点同意",
+          "value": "5"
+        },
+        {
+          "id": 10807,
+          "optionNo": "F",
+          "text": "同意",
+          "value": "6"
+        },
+        {
+          "id": 10808,
+          "optionNo": "G",
+          "text": "非常同意",
+          "value": "7"
+        }
+      ]
+    },
+    {
+      "id": 2715,
+      "text": "为使我的动机最大化，我有意地推迟一些工作",
+      "type": "radio",
+      "orderNum": 9,
+      "options": [
+        {
+          "id": 10809,
+          "optionNo": "A",
+          "text": "非常不同意",
+          "value": "1"
+        },
+        {
+          "id": 10810,
+          "optionNo": "B",
+          "text": "不同意",
+          "value": "2"
+        },
+        {
+          "id": 10811,
+          "optionNo": "C",
+          "text": "有点不同意",
+          "value": "3"
+        },
+        {
+          "id": 10812,
+          "optionNo": "D",
+          "text": "不确定",
+          "value": "4"
+        },
+        {
+          "id": 10813,
+          "optionNo": "E",
+          "text": "有点同意",
+          "value": "5"
+        },
+        {
+          "id": 10814,
+          "optionNo": "F",
+          "text": "同意",
+          "value": "6"
+        },
+        {
+          "id": 10815,
+          "optionNo": "G",
+          "text": "非常同意",
+          "value": "7"
+        }
+      ]
+    },
+    {
+      "id": 2716,
+      "text": "为了更好地利用时间，我有意地推迟一些任务",
+      "type": "radio",
+      "orderNum": 10,
+      "options": [
+        {
+          "id": 10816,
+          "optionNo": "A",
+          "text": "非常不同意",
+          "value": "1"
+        },
+        {
+          "id": 10817,
+          "optionNo": "B",
+          "text": "不同意",
+          "value": "2"
+        },
+        {
+          "id": 10818,
+          "optionNo": "C",
+          "text": "有点不同意",
+          "value": "3"
+        },
+        {
+          "id": 10819,
+          "optionNo": "D",
+          "text": "不确定",
+          "value": "4"
+        },
+        {
+          "id": 10820,
+          "optionNo": "E",
+          "text": "有点同意",
+          "value": "5"
+        },
+        {
+          "id": 10821,
+          "optionNo": "F",
+          "text": "同意",
+          "value": "6"
+        },
+        {
+          "id": 10822,
+          "optionNo": "G",
+          "text": "非常同意",
+          "value": "7"
+        }
+      ]
+    },
+    {
+      "id": 2717,
+      "text": "对我而言某些考试没有太大价值，我总是将这些考试的任务延到最后才做",
+      "type": "radio",
+      "orderNum": 11,
+      "options": [
+        {
+          "id": 10823,
+          "optionNo": "A",
+          "text": "非常不同意",
+          "value": "1"
+        },
+        {
+          "id": 10824,
+          "optionNo": "B",
+          "text": "不同意",
+          "value": "2"
+        },
+        {
+          "id": 10825,
+          "optionNo": "C",
+          "text": "有点不同意",
+          "value": "3"
+        },
+        {
+          "id": 10826,
+          "optionNo": "D",
+          "text": "不确定",
+          "value": "4"
+        },
+        {
+          "id": 10827,
+          "optionNo": "E",
+          "text": "有点同意",
+          "value": "5"
+        },
+        {
+          "id": 10828,
+          "optionNo": "F",
+          "text": "同意",
+          "value": "6"
+        },
+        {
+          "id": 10829,
+          "optionNo": "G",
+          "text": "非常同意",
+          "value": "7"
+        }
+      ]
+    },
+    {
+      "id": 2718,
+      "text": "我经常在最后一刻才开始工作，发现很难准时完成。",
+      "type": "radio",
+      "orderNum": 12,
+      "options": [
+        {
+          "id": 10830,
+          "optionNo": "A",
+          "text": "非常不同意",
+          "value": "1"
+        },
+        {
+          "id": 10831,
+          "optionNo": "B",
+          "text": "不同意",
+          "value": "2"
+        },
+        {
+          "id": 10832,
+          "optionNo": "C",
+          "text": "有点不同意",
+          "value": "3"
+        },
+        {
+          "id": 10833,
+          "optionNo": "D",
+          "text": "不确定",
+          "value": "4"
+        },
+        {
+          "id": 10834,
+          "optionNo": "E",
+          "text": "有点同意",
+          "value": "5"
+        },
+        {
+          "id": 10835,
+          "optionNo": "F",
+          "text": "同意",
+          "value": "6"
+        },
+        {
+          "id": 10836,
+          "optionNo": "G",
+          "text": "非常同意",
+          "value": "7"
+        }
+      ]
+    },
+    {
+      "id": 2719,
+      "text": "我经常无法完成自己设定的目标",
+      "type": "radio",
+      "orderNum": 13,
+      "options": [
+        {
+          "id": 10837,
+          "optionNo": "A",
+          "text": "非常不同意",
+          "value": "1"
+        },
+        {
+          "id": 10838,
+          "optionNo": "B",
+          "text": "不同意",
+          "value": "2"
+        },
+        {
+          "id": 10839,
+          "optionNo": "C",
+          "text": "有点不同意",
+          "value": "3"
+        },
+        {
+          "id": 10840,
+          "optionNo": "D",
+          "text": "不确定",
+          "value": "4"
+        },
+        {
+          "id": 10841,
+          "optionNo": "E",
+          "text": "有点同意",
+          "value": "5"
+        },
+        {
+          "id": 10842,
+          "optionNo": "F",
+          "text": "同意",
+          "value": "6"
+        },
+        {
+          "id": 10843,
+          "optionNo": "G",
+          "text": "非常同意",
+          "value": "7"
+        }
+      ]
+    },
+    {
+      "id": 2720,
+      "text": "当任务完成时，我经常落在同事（同学）的后面",
+      "type": "radio",
+      "orderNum": 14,
+      "options": [
+        {
+          "id": 10844,
+          "optionNo": "A",
+          "text": "非常不同意",
+          "value": "1"
+        },
+        {
+          "id": 10845,
+          "optionNo": "B",
+          "text": "不同意",
+          "value": "2"
+        },
+        {
+          "id": 10846,
+          "optionNo": "C",
+          "text": "有点不同意",
+          "value": "3"
+        },
+        {
+          "id": 10847,
+          "optionNo": "D",
+          "text": "不确定",
+          "value": "4"
+        },
+        {
+          "id": 10848,
+          "optionNo": "E",
+          "text": "有点同意",
+          "value": "5"
+        },
+        {
+          "id": 10849,
+          "optionNo": "F",
+          "text": "同意",
+          "value": "6"
+        },
+        {
+          "id": 10850,
+          "optionNo": "G",
+          "text": "非常同意",
+          "value": "7"
+        }
+      ]
+    },
+    {
+      "id": 2721,
+      "text": "一旦开始做某项任务，我总感到很难完成",
+      "type": "radio",
+      "orderNum": 15,
+      "options": [
+        {
+          "id": 10851,
+          "optionNo": "A",
+          "text": "非常不同意",
+          "value": "1"
+        },
+        {
+          "id": 10852,
+          "optionNo": "B",
+          "text": "不同意",
+          "value": "2"
+        },
+        {
+          "id": 10853,
+          "optionNo": "C",
+          "text": "有点不同意",
+          "value": "3"
+        },
+        {
+          "id": 10854,
+          "optionNo": "D",
+          "text": "不确定",
+          "value": "4"
+        },
+        {
+          "id": 10855,
+          "optionNo": "E",
+          "text": "有点同意",
+          "value": "5"
+        },
+        {
+          "id": 10856,
+          "optionNo": "F",
+          "text": "同意",
+          "value": "6"
+        },
+        {
+          "id": 10857,
+          "optionNo": "G",
+          "text": "非常同意",
+          "value": "7"
+        }
+      ]
+    }
+  ],
+  "dimensions": [
+    {
+      "id": 329,
+      "num": 1,
+      "dimensionName": "总分",
+      "dimensionCode": "A",
+      "evaluateExpression": "hx_t_1 + hx_t_2 + hx_t_3 + hx_t_4 + hx_t_5 + hx_t_6 + hx_t_7 + hx_t_8 + hx_t_9 + hx_t_10 + hx_t_11 + hx_t_12 + hx_t_13 + hx_t_14 + hx_t_15",
+      "standardScoreFormula": "0",
+      "results": [
+        {
+          "id": 658,
+          "evaluateExpression": "hx_wd_y_1 >= 15&& hx_wd_y_1 <= 54",
+          "conclusionAnalysis": "低主动拖延，能够按时完成本人任务",
+          "suggestion": "不要制定过于严格的时间表。当时间表被精确到以半个小时为单位时，任何一次发呆、闲聊或者堵车都有可能导致某个任务的执行被彻底打乱，这就给了自己自暴自弃的借口。\n       时间表应该是以任务的重要性和类别相似度来大致设定的。重点是明确当天一定要完成的任务，而不是制定时刻表。花太多时间做计划，潜意识里面会出现“我已经做了”的错觉。",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 659,
+          "evaluateExpression": "hx_wd_y_1 >= 55&& hx_wd_y_1 <= 105",
+          "conclusionAnalysis": "高主动拖延，难以按时完成本人任务",
+          "suggestion": "1、直面拖延。要想克服拖延，首先就要承认拖延是一种有害的生活方式，拖延将你自己置于一个自卑的情绪氛围中，只有直面你的错误，才能改正错误。\n2、化整为零。把大工作分成许多小工作，这不仅可以通过细分工作有效减轻工作的压力，更可以让一切尽在掌握中，这样会增强你的自信心，不知不觉中，会在理想的生活状态中战胜拖延。\n3、预先热身。有时候身体自发的小动作，正是需要去进行大工作前的情绪培养，提前热身，让身体中的潜力被提前激发出来，这样会做得更好。",
+          "assessmentWarning": "none"
+        }
+      ]
+    }
+  ]
+}

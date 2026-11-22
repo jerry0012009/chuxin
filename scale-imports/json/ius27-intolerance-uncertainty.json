@@ -1,0 +1,973 @@
+{
+  "id": "ius27-intolerance-uncertainty",
+  "title": "不确定性不耐受量表(IUS-27)",
+  "description": "本问卷帮助了解您面对不确定性时的情绪反应和行为倾向。共27题，大约需要5分钟完成。",
+  "type": "basic",
+  "questions": [
+    {
+      "text": "不确定的事情会让我感到不安。",
+      "type": "radio",
+      "orderNum": 1,
+      "options": [
+        {
+          "text": "完全不符合",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "基本不符合",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "一般",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "基本符合",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "完全符合",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "不受自己掌控的事情会让我感到沮丧。",
+      "type": "radio",
+      "orderNum": 2,
+      "options": [
+        {
+          "text": "完全不符合",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "基本不符合",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "一般",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "基本符合",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "完全符合",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "不确定的未来会让我感到焦虑。",
+      "type": "radio",
+      "orderNum": 3,
+      "options": [
+        {
+          "text": "完全不符合",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "基本不符合",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "一般",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "基本符合",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "完全符合",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "当事情不确定时，我无法放松下来。",
+      "type": "radio",
+      "orderNum": 4,
+      "options": [
+        {
+          "text": "完全不符合",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "基本不符合",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "一般",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "基本符合",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "完全符合",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "当我不知道事情会怎样发展时，我很难集中注意力。",
+      "type": "radio",
+      "orderNum": 5,
+      "options": [
+        {
+          "text": "完全不符合",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "基本不符合",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "一般",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "基本符合",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "完全符合",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "一个不确定的情境会让我感到很紧张。",
+      "type": "radio",
+      "orderNum": 6,
+      "options": [
+        {
+          "text": "完全不符合",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "基本不符合",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "一般",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "基本符合",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "完全符合",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "面对不确定的结果时，我会变得烦躁不安。",
+      "type": "radio",
+      "orderNum": 7,
+      "options": [
+        {
+          "text": "完全不符合",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "基本不符合",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "一般",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "基本符合",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "完全符合",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "不确定的状况会阻碍我行动。",
+      "type": "radio",
+      "orderNum": 8,
+      "options": [
+        {
+          "text": "完全不符合",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "基本不符合",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "一般",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "基本符合",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "完全符合",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "当我感到不确定时，我会回避采取行动。",
+      "type": "radio",
+      "orderNum": 9,
+      "options": [
+        {
+          "text": "完全不符合",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "基本不符合",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "一般",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "基本符合",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "完全符合",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "我应该能够提前规划好一切，避免意外。",
+      "type": "radio",
+      "orderNum": 10,
+      "options": [
+        {
+          "text": "完全不符合",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "基本不符合",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "一般",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "基本符合",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "完全符合",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "当我对某件事不确定时，我很难开始做这件事。",
+      "type": "radio",
+      "orderNum": 11,
+      "options": [
+        {
+          "text": "完全不符合",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "基本不符合",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "一般",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "基本符合",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "完全符合",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "不确定感让我无法正常生活。",
+      "type": "radio",
+      "orderNum": 12,
+      "options": [
+        {
+          "text": "完全不符合",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "基本不符合",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "一般",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "基本符合",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "完全符合",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "当结果不确定时，我会一直感到不安。",
+      "type": "radio",
+      "orderNum": 13,
+      "options": [
+        {
+          "text": "完全不符合",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "基本不符合",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "一般",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "基本符合",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "完全符合",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "面对不确定性时，我会感到自己被束缚住了。",
+      "type": "radio",
+      "orderNum": 14,
+      "options": [
+        {
+          "text": "完全不符合",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "基本不符合",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "一般",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "基本符合",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "完全符合",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "我必须把所有的不确定性消除掉才能感到安心。",
+      "type": "radio",
+      "orderNum": 15,
+      "options": [
+        {
+          "text": "完全不符合",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "基本不符合",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "一般",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "基本符合",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "完全符合",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "生活中充满了不确定的事情。",
+      "type": "radio",
+      "orderNum": 16,
+      "options": [
+        {
+          "text": "完全不符合",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "基本不符合",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "一般",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "基本符合",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "完全符合",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "我无法忍受事情不在自己的掌控之中。",
+      "type": "radio",
+      "orderNum": 17,
+      "options": [
+        {
+          "text": "完全不符合",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "基本不符合",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "一般",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "基本符合",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "完全符合",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "当我不确定一件事是否会发生时，我会一直关注它。",
+      "type": "radio",
+      "orderNum": 18,
+      "options": [
+        {
+          "text": "完全不符合",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "基本不符合",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "一般",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "基本符合",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "完全符合",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "不确定感让我无法前进。",
+      "type": "radio",
+      "orderNum": 19,
+      "options": [
+        {
+          "text": "完全不符合",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "基本不符合",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "一般",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "基本符合",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "完全符合",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "在不确定的情况下做决定让我感到困难。",
+      "type": "radio",
+      "orderNum": 20,
+      "options": [
+        {
+          "text": "完全不符合",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "基本不符合",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "一般",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "基本符合",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "完全符合",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "我需要确切知道将来会发生什么。",
+      "type": "radio",
+      "orderNum": 21,
+      "options": [
+        {
+          "text": "完全不符合",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "基本不符合",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "一般",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "基本符合",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "完全符合",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "我讨厌在最后一刻才知道计划变了。",
+      "type": "radio",
+      "orderNum": 22,
+      "options": [
+        {
+          "text": "完全不符合",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "基本不符合",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "一般",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "基本符合",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "完全符合",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "对未来可能发生的事情感到焦虑。",
+      "type": "radio",
+      "orderNum": 23,
+      "options": [
+        {
+          "text": "完全不符合",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "基本不符合",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "一般",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "基本符合",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "完全符合",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "当事情不按计划进行时，我会感到非常沮丧。",
+      "type": "radio",
+      "orderNum": 24,
+      "options": [
+        {
+          "text": "完全不符合",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "基本不符合",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "一般",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "基本符合",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "完全符合",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "一点点的不确定性就足以让我不安。",
+      "type": "radio",
+      "orderNum": 25,
+      "options": [
+        {
+          "text": "完全不符合",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "基本不符合",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "一般",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "基本符合",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "完全符合",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "在做决定之前，我需要知道所有可能的结果。",
+      "type": "radio",
+      "orderNum": 26,
+      "options": [
+        {
+          "text": "完全不符合",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "基本不符合",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "一般",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "基本符合",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "完全符合",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "当面对新的或陌生的情况时，我会感到紧张。",
+      "type": "radio",
+      "orderNum": 27,
+      "options": [
+        {
+          "text": "完全不符合",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "基本不符合",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "一般",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "基本符合",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "完全符合",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    }
+  ],
+  "dimensions": [
+    {
+      "dimensionName": "前瞻性焦虑",
+      "dimensionCode": "prospective_anxiety",
+      "num": 1,
+      "evaluateExpression": "hx_t_1 + hx_t_3 + hx_t_4 + hx_t_5 + hx_t_6 + hx_t_7 + hx_t_17 + hx_t_23 + hx_t_26",
+      "standardScoreFormula": "",
+      "results": [
+        {
+          "evaluateExpression": "hx_wd_y_1 <= 15",
+          "conclusionAnalysis": "前瞻性焦虑低",
+          "suggestion": "您对不确定事件的预期性焦虑较低，面对未知情况时能保持相对平静。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_1 > 15 && hx_wd_y_1 <= 25",
+          "conclusionAnalysis": "前瞻性焦虑中等",
+          "suggestion": "您对不确定事件存在一定程度的预期性焦虑，这是常见的心理反应。建议学习放松技巧来应对焦虑。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_1 > 25 && hx_wd_y_1 <= 35",
+          "conclusionAnalysis": "前瞻性焦虑较高",
+          "suggestion": "您对不确定事件的预期性焦虑较高，可能影响到日常决策和情绪状态。建议关注焦虑管理，必要时可寻求心理咨询。",
+          "assessmentWarning": "low"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_1 > 35",
+          "conclusionAnalysis": "前瞻性焦虑很高",
+          "suggestion": "您对不确定事件存在强烈的预期性焦虑，这可能严重影响您的生活质量和决策能力。建议寻求专业的心理评估和干预。",
+          "assessmentWarning": "middle"
+        }
+      ]
+    },
+    {
+      "dimensionName": "抑制性焦虑",
+      "dimensionCode": "inhibitory_anxiety",
+      "num": 2,
+      "evaluateExpression": "hx_t_8 + hx_t_9 + hx_t_11 + hx_t_12 + hx_t_13 + hx_t_14 + hx_t_19 + hx_t_20 + hx_t_24",
+      "standardScoreFormula": "",
+      "results": [
+        {
+          "evaluateExpression": "hx_wd_y_2 <= 15",
+          "conclusionAnalysis": "抑制性焦虑低",
+          "suggestion": "不确定感很少阻碍您的行动和决策，您能够较好地在不确定情境中前进。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_2 > 15 && hx_wd_y_2 <= 25",
+          "conclusionAnalysis": "抑制性焦虑中等",
+          "suggestion": "不确定性在一定程度上会影响您的行动和决策。建议练习在不确定情境下采取小步行动。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_2 > 25 && hx_wd_y_3 <= 35",
+          "conclusionAnalysis": "抑制性焦虑较高",
+          "suggestion": "不确定性明显阻碍了您的行动能力和日常生活。建议学习接纳不确定性的方法，如正念练习。",
+          "assessmentWarning": "low"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_2 > 35",
+          "conclusionAnalysis": "抑制性焦虑很高",
+          "suggestion": "不确定性严重阻碍了您的行动能力，可能已经影响到日常生活和社会功能。建议寻求专业的认知行为治疗帮助。",
+          "assessmentWarning": "middle"
+        }
+      ]
+    },
+    {
+      "dimensionName": "不确定性不耐受总分",
+      "dimensionCode": "total_iu",
+      "num": 3,
+      "evaluateExpression": "hx_t_1 + hx_t_2 + hx_t_3 + hx_t_4 + hx_t_5 + hx_t_6 + hx_t_7 + hx_t_8 + hx_t_9 + hx_t_10 + hx_t_11 + hx_t_12 + hx_t_13 + hx_t_14 + hx_t_15 + hx_t_16 + hx_t_17 + hx_t_18 + hx_t_19 + hx_t_20 + hx_t_21 + hx_t_22 + hx_t_23 + hx_t_24 + hx_t_25 + hx_t_26 + hx_t_27",
+      "standardScoreFormula": "",
+      "results": [
+        {
+          "evaluateExpression": "hx_wd_y_3 <= 53",
+          "conclusionAnalysis": "低不耐受",
+          "suggestion": "您的不确定性不耐受程度较低，表明您能够较好地容忍和应对生活中的不确定情境。这是心理弹性的重要表现。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_3 > 53 && hx_wd_y_3 <= 80",
+          "conclusionAnalysis": "中等不耐受",
+          "suggestion": "您的不确定性不耐受程度处于中等水平，在某些情况下您可能会感到不安或焦虑。建议发展应对不确定性的策略，如认知重评和正念练习。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_3 > 80 && hx_wd_y_3 <= 107",
+          "conclusionAnalysis": "高不耐受",
+          "suggestion": "您的不确定性不耐受程度较高，不确定性可能经常导致您感到焦虑、担忧或行动受限。建议积极学习接纳不确定性的方法，必要时寻求专业心理咨询。",
+          "assessmentWarning": "low"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_3 > 107",
+          "conclusionAnalysis": "极高不耐受",
+          "suggestion": "您的不确定性不耐受程度极高，这可能与广泛性焦虑、强迫症或其他焦虑障碍相关。不确定性可能严重影响您的生活质量和日常功能。强烈建议寻求专业的心理评估和认知行为治疗。",
+          "assessmentWarning": "middle"
+        }
+      ]
+    }
+  ]
+}

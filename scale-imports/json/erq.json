@@ -1,0 +1,484 @@
+{
+  "id": "erq",
+  "title": "情绪调节问卷(ERQ)",
+  "description": "本问卷帮助了解您常用的情绪调节策略。共10题，大约需要3分钟完成。",
+  "type": "basic",
+  "questions": [
+    {
+      "text": "当我想感受一些积极的情绪（如快乐或高兴）时，我会改变自己思考问题的角度。",
+      "type": "radio",
+      "orderNum": 1,
+      "options": [
+        {
+          "text": "非常不同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较不同意",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "有点不同意",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "不确定",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "有点同意",
+          "value": "5",
+          "optionNo": "E"
+        },
+        {
+          "text": "比较同意",
+          "value": "6",
+          "optionNo": "F"
+        },
+        {
+          "text": "非常同意",
+          "value": "7",
+          "optionNo": "G"
+        }
+      ]
+    },
+    {
+      "text": "我不会表露自己的情绪。",
+      "type": "radio",
+      "orderNum": 2,
+      "options": [
+        {
+          "text": "非常不同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较不同意",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "有点不同意",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "不确定",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "有点同意",
+          "value": "5",
+          "optionNo": "E"
+        },
+        {
+          "text": "比较同意",
+          "value": "6",
+          "optionNo": "F"
+        },
+        {
+          "text": "非常同意",
+          "value": "7",
+          "optionNo": "G"
+        }
+      ]
+    },
+    {
+      "text": "当我想少感受一些消极的情绪（如悲伤或愤怒）时，我会改变自己思考问题的角度。",
+      "type": "radio",
+      "orderNum": 3,
+      "options": [
+        {
+          "text": "非常不同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较不同意",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "有点不同意",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "不确定",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "有点同意",
+          "value": "5",
+          "optionNo": "E"
+        },
+        {
+          "text": "比较同意",
+          "value": "6",
+          "optionNo": "F"
+        },
+        {
+          "text": "非常同意",
+          "value": "7",
+          "optionNo": "G"
+        }
+      ]
+    },
+    {
+      "text": "当感受到积极情绪时，我会很小心地不让它们表露出来。",
+      "type": "radio",
+      "orderNum": 4,
+      "options": [
+        {
+          "text": "非常不同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较不同意",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "有点不同意",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "不确定",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "有点同意",
+          "value": "5",
+          "optionNo": "E"
+        },
+        {
+          "text": "比较同意",
+          "value": "6",
+          "optionNo": "F"
+        },
+        {
+          "text": "非常同意",
+          "value": "7",
+          "optionNo": "G"
+        }
+      ]
+    },
+    {
+      "text": "在面对压力情境时，我会使自己以一种有助于保持平静的方式来考虑它。",
+      "type": "radio",
+      "orderNum": 5,
+      "options": [
+        {
+          "text": "非常不同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较不同意",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "有点不同意",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "不确定",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "有点同意",
+          "value": "5",
+          "optionNo": "E"
+        },
+        {
+          "text": "比较同意",
+          "value": "6",
+          "optionNo": "F"
+        },
+        {
+          "text": "非常同意",
+          "value": "7",
+          "optionNo": "G"
+        }
+      ]
+    },
+    {
+      "text": "我控制自己情绪的方式是不表达它们。",
+      "type": "radio",
+      "orderNum": 6,
+      "options": [
+        {
+          "text": "非常不同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较不同意",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "有点不同意",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "不确定",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "有点同意",
+          "value": "5",
+          "optionNo": "E"
+        },
+        {
+          "text": "比较同意",
+          "value": "6",
+          "optionNo": "F"
+        },
+        {
+          "text": "非常同意",
+          "value": "7",
+          "optionNo": "G"
+        }
+      ]
+    },
+    {
+      "text": "当我想多感受一些积极的情绪时，我会改变自己对情境的考虑方式。",
+      "type": "radio",
+      "orderNum": 7,
+      "options": [
+        {
+          "text": "非常不同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较不同意",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "有点不同意",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "不确定",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "有点同意",
+          "value": "5",
+          "optionNo": "E"
+        },
+        {
+          "text": "比较同意",
+          "value": "6",
+          "optionNo": "F"
+        },
+        {
+          "text": "非常同意",
+          "value": "7",
+          "optionNo": "G"
+        }
+      ]
+    },
+    {
+      "text": "我会通过改变对情境的考虑方式来控制自己的情绪。",
+      "type": "radio",
+      "orderNum": 8,
+      "options": [
+        {
+          "text": "非常不同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较不同意",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "有点不同意",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "不确定",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "有点同意",
+          "value": "5",
+          "optionNo": "E"
+        },
+        {
+          "text": "比较同意",
+          "value": "6",
+          "optionNo": "F"
+        },
+        {
+          "text": "非常同意",
+          "value": "7",
+          "optionNo": "G"
+        }
+      ]
+    },
+    {
+      "text": "当感受到消极的情绪时，我确定不会表露它们。",
+      "type": "radio",
+      "orderNum": 9,
+      "options": [
+        {
+          "text": "非常不同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较不同意",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "有点不同意",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "不确定",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "有点同意",
+          "value": "5",
+          "optionNo": "E"
+        },
+        {
+          "text": "比较同意",
+          "value": "6",
+          "optionNo": "F"
+        },
+        {
+          "text": "非常同意",
+          "value": "7",
+          "optionNo": "G"
+        }
+      ]
+    },
+    {
+      "text": "当我想少感受一些消极的情绪时，我会改变自己对情境的考虑方式。",
+      "type": "radio",
+      "orderNum": 10,
+      "options": [
+        {
+          "text": "非常不同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较不同意",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "有点不同意",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "不确定",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "有点同意",
+          "value": "5",
+          "optionNo": "E"
+        },
+        {
+          "text": "比较同意",
+          "value": "6",
+          "optionNo": "F"
+        },
+        {
+          "text": "非常同意",
+          "value": "7",
+          "optionNo": "G"
+        }
+      ]
+    }
+  ],
+  "dimensions": [
+    {
+      "dimensionName": "认知重评",
+      "dimensionCode": "reappraisal",
+      "num": 1,
+      "evaluateExpression": "(hx_t_1 + hx_t_3 + hx_t_5 + hx_t_7 + hx_t_8 + hx_t_10) / 6",
+      "standardScoreFormula": "",
+      "results": [
+        {
+          "evaluateExpression": "hx_wd_y_1 <= 3.0",
+          "conclusionAnalysis": "认知重评使用较少",
+          "suggestion": "您较少使用改变思维方式来调节情绪，可能更多依赖其他情绪调节策略。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_1 > 3.0 && hx_wd_y_1 <= 5.0",
+          "conclusionAnalysis": "认知重评使用中等",
+          "suggestion": "您有时会通过改变对情境的看法来调节情绪，这是一种较为适应性的情绪调节方式。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_1 > 5.0",
+          "conclusionAnalysis": "认知重评使用较多",
+          "suggestion": "您善于通过改变对情境的看法来调节情绪，这是一种适应性的情绪调节策略，有助于维护心理健康。",
+          "assessmentWarning": "none"
+        }
+      ]
+    },
+    {
+      "dimensionName": "表达抑制",
+      "dimensionCode": "suppression",
+      "num": 2,
+      "evaluateExpression": "(hx_t_2 + hx_t_4 + hx_t_6 + hx_t_9) / 4",
+      "standardScoreFormula": "",
+      "results": [
+        {
+          "evaluateExpression": "hx_wd_y_2 <= 3.0",
+          "conclusionAnalysis": "表达抑制使用较少",
+          "suggestion": "您倾向于自然地表达自己的情绪，不太压抑情感的外在表达。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_2 > 3.0 && hx_wd_y_2 <= 5.0",
+          "conclusionAnalysis": "表达抑制使用中等",
+          "suggestion": "您在某些情况下会抑制情绪的表达，但不会过度压抑。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_2 > 5.0",
+          "conclusionAnalysis": "表达抑制使用较多",
+          "suggestion": "您经常抑制情绪的外在表达，长期使用此策略可能影响身心健康，建议适当练习情绪的自然表达。",
+          "assessmentWarning": "none"
+        }
+      ]
+    }
+  ]
+}

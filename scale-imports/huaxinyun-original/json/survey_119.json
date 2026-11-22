@@ -1,0 +1,592 @@
+{
+  "id": 119,
+  "title": "密西根酒精依赖量表（MAST）",
+  "type": "basic",
+  "questions": [
+    {
+      "id": 2683,
+      "text": "你认为你的饮酒习惯是正常的。",
+      "type": "radio",
+      "orderNum": 1,
+      "options": [
+        {
+          "id": 10705,
+          "optionNo": "A",
+          "text": "是",
+          "value": "0"
+        },
+        {
+          "id": 10706,
+          "optionNo": "B",
+          "text": "否",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 2684,
+      "text": "你曾有过头天晚上喝酒，次日醒来想不起头晚经历的一部分事情吗？",
+      "type": "radio",
+      "orderNum": 2,
+      "options": [
+        {
+          "id": 10707,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 10708,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2685,
+      "text": "你的配偶、父母或其他近亲曾对你饮酒担心或抱怨吗？",
+      "type": "radio",
+      "orderNum": 3,
+      "options": [
+        {
+          "id": 10709,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 10710,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2686,
+      "text": "当你喝了1—2杯酒后，你能不费力就克制自己停止喝酒吗？",
+      "type": "radio",
+      "orderNum": 4,
+      "options": [
+        {
+          "id": 10711,
+          "optionNo": "A",
+          "text": "是",
+          "value": "0"
+        },
+        {
+          "id": 10712,
+          "optionNo": "B",
+          "text": "否",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 2687,
+      "text": "你曾对饮酒感到内疚吗？",
+      "type": "radio",
+      "orderNum": 5,
+      "options": [
+        {
+          "id": 10713,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 10714,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2688,
+      "text": "你的亲友认为你饮酒的习惯正常吗？",
+      "type": "radio",
+      "orderNum": 6,
+      "options": [
+        {
+          "id": 10715,
+          "optionNo": "A",
+          "text": "是",
+          "value": "0"
+        },
+        {
+          "id": 10716,
+          "optionNo": "B",
+          "text": "否",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 2689,
+      "text": "当你打算不喝酒的时候，你可以做到吗？",
+      "type": "radio",
+      "orderNum": 7,
+      "options": [
+        {
+          "id": 10717,
+          "optionNo": "A",
+          "text": "是",
+          "value": "0"
+        },
+        {
+          "id": 10718,
+          "optionNo": "B",
+          "text": "否",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 2690,
+      "text": "你参加过戒酒的活动吗？",
+      "type": "radio",
+      "orderNum": 8,
+      "options": [
+        {
+          "id": 10719,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 10720,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2691,
+      "text": "曾在饮酒后与人斗殴吗？",
+      "type": "radio",
+      "orderNum": 9,
+      "options": [
+        {
+          "id": 10721,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 10722,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2692,
+      "text": "你曾因饮酒问题而与配偶、父母或其他近亲之间产生矛盾吗？",
+      "type": "radio",
+      "orderNum": 10,
+      "options": [
+        {
+          "id": 10723,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 10724,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2693,
+      "text": "你的配偶（或其他家庭成员）曾为你饮酒的事情而求助他人吗？",
+      "type": "radio",
+      "orderNum": 11,
+      "options": [
+        {
+          "id": 10725,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 10726,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2694,
+      "text": "你曾因饮酒而导致与好友分手吗？",
+      "type": "radio",
+      "orderNum": 12,
+      "options": [
+        {
+          "id": 10727,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 10728,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2695,
+      "text": "你曾因饮酒而在工作、学习上出问题吗？",
+      "type": "radio",
+      "orderNum": 13,
+      "options": [
+        {
+          "id": 10729,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 10730,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2696,
+      "text": "你曾因饮酒受到过处分、警告或被开除吗？",
+      "type": "radio",
+      "orderNum": 14,
+      "options": [
+        {
+          "id": 10731,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 10732,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2697,
+      "text": "你曾因饮酒而持续两天以上耽误工作或不照顾家庭吗？",
+      "type": "radio",
+      "orderNum": 15,
+      "options": [
+        {
+          "id": 10733,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 10734,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2698,
+      "text": "你经常在上午饮酒吗？",
+      "type": "radio",
+      "orderNum": 16,
+      "options": [
+        {
+          "id": 10735,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 10736,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2699,
+      "text": "医生曾说你的肝有问题或有肝硬化吗？",
+      "type": "radio",
+      "orderNum": 17,
+      "options": [
+        {
+          "id": 10737,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 10738,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2700,
+      "text": "在大量饮酒，你曾有过出现震颤谵妄或严重震颤或幻听幻视吗？",
+      "type": "radio",
+      "orderNum": 18,
+      "options": [
+        {
+          "id": 10739,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 10740,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2701,
+      "text": "你曾因为饮酒引起的问题去求助他人吗？",
+      "type": "radio",
+      "orderNum": 19,
+      "options": [
+        {
+          "id": 10741,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 10742,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2702,
+      "text": "你曾因为饮酒引起的问题而住过院吗？",
+      "type": "radio",
+      "orderNum": 20,
+      "options": [
+        {
+          "id": 10743,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 10744,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2703,
+      "text": "你曾因为饮酒引起的问题而在精神院或综合医院精神科住过院吗？",
+      "type": "radio",
+      "orderNum": 21,
+      "options": [
+        {
+          "id": 10745,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 10746,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2704,
+      "text": "你曾因饮酒导致的情绪问题而求助于精神科、其他医生社会工作者、心理咨询人员吗？",
+      "type": "radio",
+      "orderNum": 22,
+      "options": [
+        {
+          "id": 10747,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 10748,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2705,
+      "text": "你曾因饮酒后或醉后驾车而被拘留吗？",
+      "type": "radio",
+      "orderNum": 23,
+      "options": [
+        {
+          "id": 10749,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 10750,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2706,
+      "text": "你曾因其他的饮酒行为而被拘留几小时吗？",
+      "type": "radio",
+      "orderNum": 24,
+      "options": [
+        {
+          "id": 10751,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 10752,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    }
+  ],
+  "dimensions": [
+    {
+      "id": 325,
+      "num": 1,
+      "dimensionName": "自我或他人所认识到的饮酒问题",
+      "dimensionCode": "A",
+      "evaluateExpression": "hx_t_1 + hx_t_3 + hx_t_4 + hx_t_5 + hx_t_6 + hx_t_7 + hx_t_15",
+      "standardScoreFormula": "0",
+      "results": [
+        {
+          "id": 649,
+          "evaluateExpression": "hx_wd_y_1 >= 0&& hx_wd_y_1 <= 4",
+          "conclusionAnalysis": "得分≤4分，饮酒者认为自己是一个正常的饮酒者，并没有因为喝酒而失去其家庭、工作的责任、义务，对其饮酒行为不感到内疚。",
+          "suggestion": "建议减少酒精摄入",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 650,
+          "evaluateExpression": "hx_wd_y_1 >= 5&& hx_wd_y_1 <= 7",
+          "conclusionAnalysis": "得分>4分，饮酒者对饮酒的失控感到不安、焦虑",
+          "suggestion": "建议减少酒精的摄入",
+          "assessmentWarning": "none"
+        }
+      ]
+    },
+    {
+      "id": 326,
+      "num": 2,
+      "dimensionName": "工作、社会问题",
+      "dimensionCode": "B",
+      "evaluateExpression": "hx_t_9 + hx_t_12 + hx_t_13 + hx_t_14 + hx_t_18 + hx_t_23 + hx_t_24",
+      "standardScoreFormula": "0",
+      "results": [
+        {
+          "id": 651,
+          "evaluateExpression": "hx_wd_y_2 >= 0&& hx_wd_y_2 <= 4",
+          "conclusionAnalysis": "得分≤4分，饮酒者在社会中及工作单位里未遇到矛盾、冲突。",
+          "suggestion": "饮酒暂未影响工作生活，请注意饮酒程度",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 652,
+          "evaluateExpression": "hx_wd_y_2 >= 5&& hx_wd_y_2 <= 7",
+          "conclusionAnalysis": "得分>4分，个体在社会中及工作单位里遇到矛盾、冲突。",
+          "suggestion": "因饮酒已导致人际冲突、工作问题等，建议减少酒精摄入。",
+          "assessmentWarning": "none"
+        }
+      ]
+    },
+    {
+      "id": 327,
+      "num": 3,
+      "dimensionName": "因饮酒问题寻求帮助",
+      "dimensionCode": "C",
+      "evaluateExpression": "hx_t_8 + hx_t_19 + hx_t_20 + hx_t_21 + hx_t_22",
+      "standardScoreFormula": "0",
+      "results": [
+        {
+          "id": 653,
+          "evaluateExpression": "hx_wd_y_3 >= 0&& hx_wd_y_3 <= 1",
+          "conclusionAnalysis": "饮酒者未出现因饮酒导致的躯体、心理问题。",
+          "suggestion": "建议注意自身心理、身体健康状况，如有不适，请及时就医",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 654,
+          "evaluateExpression": "hx_wd_y_3 >= 1&& hx_wd_y_3 <= 5",
+          "conclusionAnalysis": "饮酒者因饮酒出现诸如躯体、心理问题",
+          "suggestion": "应及时求助于专业机构、专业人员",
+          "assessmentWarning": "none"
+        }
+      ]
+    },
+    {
+      "id": 328,
+      "num": 4,
+      "dimensionName": "总分",
+      "dimensionCode": "D",
+      "evaluateExpression": "hx_t_1 + hx_t_2 + hx_t_3 + hx_t_4 + hx_t_5 + hx_t_6 + hx_t_7 + hx_t_8 + hx_t_9 + hx_t_10 + hx_t_11 + hx_t_12 + hx_t_13 + hx_t_14 + hx_t_15 + hx_t_16 + hx_t_17 + hx_t_18 + hx_t_19 + hx_t_20 + hx_t_21 + hx_t_22 + hx_t_23 + hx_t_24",
+      "standardScoreFormula": "0",
+      "results": [
+        {
+          "id": 655,
+          "evaluateExpression": "hx_wd_y_4 >= 0&& hx_wd_y_4 <= 3",
+          "conclusionAnalysis": "饮酒者未有因饮酒而出现问题的情况",
+          "suggestion": "当前情况较好，建议继续保持",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 656,
+          "evaluateExpression": "hx_wd_y_4 >= 4&& hx_wd_y_4 <= 4",
+          "conclusionAnalysis": "疑似酒精依赖",
+          "suggestion": "无",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 657,
+          "evaluateExpression": "hx_wd_y_4 >= 5&& hx_wd_y_4 <= 24",
+          "conclusionAnalysis": "存在酒精依赖",
+          "suggestion": "无",
+          "assessmentWarning": "high"
+        }
+      ]
+    }
+  ]
+}

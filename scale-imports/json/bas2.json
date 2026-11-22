@@ -1,0 +1,357 @@
+{
+  "id": "bas2",
+  "title": "身体欣赏量表-2(BAS-2)",
+  "description": "本量表帮助了解您对自己身体的积极态度和感受。共10题，大约需要2分钟完成。",
+  "type": "basic",
+  "questions": [
+    {
+      "text": "我尊重自己的身体。",
+      "type": "radio",
+      "orderNum": 1,
+      "options": [
+        {
+          "text": "从不",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "很少",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "有时",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "经常",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "总是",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "我对自己的身体感觉良好。",
+      "type": "radio",
+      "orderNum": 2,
+      "options": [
+        {
+          "text": "从不",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "很少",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "有时",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "经常",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "总是",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "我觉得我的身体至少有一些优点。",
+      "type": "radio",
+      "orderNum": 3,
+      "options": [
+        {
+          "text": "从不",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "很少",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "有时",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "经常",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "总是",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "我对自己的身体持积极态度。",
+      "type": "radio",
+      "orderNum": 4,
+      "options": [
+        {
+          "text": "从不",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "很少",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "有时",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "经常",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "总是",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "我关注自己身体的需求。",
+      "type": "radio",
+      "orderNum": 5,
+      "options": [
+        {
+          "text": "从不",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "很少",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "有时",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "经常",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "总是",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "我爱自己的身体。",
+      "type": "radio",
+      "orderNum": 6,
+      "options": [
+        {
+          "text": "从不",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "很少",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "有时",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "经常",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "总是",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "我欣赏自己身体的不同和独特之处。",
+      "type": "radio",
+      "orderNum": 7,
+      "options": [
+        {
+          "text": "从不",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "很少",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "有时",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "经常",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "总是",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "我的行为透露出我对自己身体的积极态度（例如，昂首挺胸、面带微笑）。",
+      "type": "radio",
+      "orderNum": 8,
+      "options": [
+        {
+          "text": "从不",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "很少",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "有时",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "经常",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "总是",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "我对自己的身体感到舒适。",
+      "type": "radio",
+      "orderNum": 9,
+      "options": [
+        {
+          "text": "从不",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "很少",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "有时",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "经常",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "总是",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "我觉得自己是美丽的，即使我与媒体上的魅力人物形象不同。",
+      "type": "radio",
+      "orderNum": 10,
+      "options": [
+        {
+          "text": "从不",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "很少",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "有时",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "经常",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "总是",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    }
+  ],
+  "dimensions": [
+    {
+      "dimensionName": "身体欣赏",
+      "dimensionCode": "body_appreciation",
+      "num": 1,
+      "evaluateExpression": "hx_t_1 + hx_t_2 + hx_t_3 + hx_t_4 + hx_t_5 + hx_t_6 + hx_t_7 + hx_t_8 + hx_t_9 + hx_t_10 / 10",
+      "standardScoreFormula": "",
+      "results": [
+        {
+          "evaluateExpression": "hx_wd_y_1 <= 2.0",
+          "conclusionAnalysis": "身体欣赏水平较低",
+          "suggestion": "您对身体的积极感受较低，可能对自己的身体形象存在较多不满。建议尝试关注身体的功能和能力，而非外表。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_1 > 2.0 && hx_wd_y_1 <= 3.5",
+          "conclusionAnalysis": "身体欣赏水平中等",
+          "suggestion": "您对自己的身体持有一定的积极态度，但仍有提升空间。建议进一步培养对身体的感恩和欣赏。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_1 > 3.5",
+          "conclusionAnalysis": "身体欣赏水平较高",
+          "suggestion": "您对自己的身体持有积极的态度和情感，能够欣赏和尊重自己的身体。这种积极的身体意象有助于整体心理健康。",
+          "assessmentWarning": "none"
+        }
+      ]
+    }
+  ]
+}

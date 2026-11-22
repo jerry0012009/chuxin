@@ -1,0 +1,766 @@
+{
+  "id": "icu-callous-unemotional",
+  "title": "无情特质量表(ICU)",
+  "description": "本问卷帮助了解您在人际互动中对他人情感的敏感程度和共情能力。共24题，大约需要5分钟完成。",
+  "type": "basic",
+  "questions": [
+    {
+      "text": "别人的感受对我来说无关紧要。",
+      "type": "radio",
+      "orderNum": 1,
+      "options": [
+        {
+          "text": "完全不符合",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "有点符合",
+          "value": "1",
+          "optionNo": "B"
+        },
+        {
+          "text": "基本符合",
+          "value": "2",
+          "optionNo": "C"
+        },
+        {
+          "text": "完全符合",
+          "value": "3",
+          "optionNo": "D"
+        }
+      ]
+    },
+    {
+      "text": "我会为别人的不幸感到难过。",
+      "type": "radio",
+      "orderNum": 2,
+      "options": [
+        {
+          "text": "完全符合",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "基本符合",
+          "value": "1",
+          "optionNo": "B"
+        },
+        {
+          "text": "有点符合",
+          "value": "2",
+          "optionNo": "C"
+        },
+        {
+          "text": "完全不符合",
+          "value": "3",
+          "optionNo": "D"
+        }
+      ]
+    },
+    {
+      "text": "我总是很在意别人是否开心。",
+      "type": "radio",
+      "orderNum": 3,
+      "options": [
+        {
+          "text": "完全符合",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "基本符合",
+          "value": "1",
+          "optionNo": "B"
+        },
+        {
+          "text": "有点符合",
+          "value": "2",
+          "optionNo": "C"
+        },
+        {
+          "text": "完全不符合",
+          "value": "3",
+          "optionNo": "D"
+        }
+      ]
+    },
+    {
+      "text": "我对别人的感受不太关心。",
+      "type": "radio",
+      "orderNum": 4,
+      "options": [
+        {
+          "text": "完全不符合",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "有点符合",
+          "value": "1",
+          "optionNo": "B"
+        },
+        {
+          "text": "基本符合",
+          "value": "2",
+          "optionNo": "C"
+        },
+        {
+          "text": "完全符合",
+          "value": "3",
+          "optionNo": "D"
+        }
+      ]
+    },
+    {
+      "text": "我会努力去帮助受伤的人。",
+      "type": "radio",
+      "orderNum": 5,
+      "options": [
+        {
+          "text": "完全符合",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "基本符合",
+          "value": "1",
+          "optionNo": "B"
+        },
+        {
+          "text": "有点符合",
+          "value": "2",
+          "optionNo": "C"
+        },
+        {
+          "text": "完全不符合",
+          "value": "3",
+          "optionNo": "D"
+        }
+      ]
+    },
+    {
+      "text": "我觉得去关心别人是浪费时间。",
+      "type": "radio",
+      "orderNum": 6,
+      "options": [
+        {
+          "text": "完全不符合",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "有点符合",
+          "value": "1",
+          "optionNo": "B"
+        },
+        {
+          "text": "基本符合",
+          "value": "2",
+          "optionNo": "C"
+        },
+        {
+          "text": "完全符合",
+          "value": "3",
+          "optionNo": "D"
+        }
+      ]
+    },
+    {
+      "text": "看到别人哭的时候，我也想哭。",
+      "type": "radio",
+      "orderNum": 7,
+      "options": [
+        {
+          "text": "完全不符合",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "有点符合",
+          "value": "1",
+          "optionNo": "B"
+        },
+        {
+          "text": "基本符合",
+          "value": "2",
+          "optionNo": "C"
+        },
+        {
+          "text": "完全符合",
+          "value": "3",
+          "optionNo": "D"
+        }
+      ]
+    },
+    {
+      "text": "对别人温柔和善对我来说很重要。",
+      "type": "radio",
+      "orderNum": 8,
+      "options": [
+        {
+          "text": "完全不符合",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "有点符合",
+          "value": "1",
+          "optionNo": "B"
+        },
+        {
+          "text": "基本符合",
+          "value": "2",
+          "optionNo": "C"
+        },
+        {
+          "text": "完全符合",
+          "value": "3",
+          "optionNo": "D"
+        }
+      ]
+    },
+    {
+      "text": "我不会因为伤害了别人而感到难过。",
+      "type": "radio",
+      "orderNum": 9,
+      "options": [
+        {
+          "text": "完全不符合",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "有点符合",
+          "value": "1",
+          "optionNo": "B"
+        },
+        {
+          "text": "基本符合",
+          "value": "2",
+          "optionNo": "C"
+        },
+        {
+          "text": "完全符合",
+          "value": "3",
+          "optionNo": "D"
+        }
+      ]
+    },
+    {
+      "text": "别人的情绪不会影响到我。",
+      "type": "radio",
+      "orderNum": 10,
+      "options": [
+        {
+          "text": "完全不符合",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "有点符合",
+          "value": "1",
+          "optionNo": "B"
+        },
+        {
+          "text": "基本符合",
+          "value": "2",
+          "optionNo": "C"
+        },
+        {
+          "text": "完全符合",
+          "value": "3",
+          "optionNo": "D"
+        }
+      ]
+    },
+    {
+      "text": "我会故意说一些伤害别人的话。",
+      "type": "radio",
+      "orderNum": 11,
+      "options": [
+        {
+          "text": "完全不符合",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "有点符合",
+          "value": "1",
+          "optionNo": "B"
+        },
+        {
+          "text": "基本符合",
+          "value": "2",
+          "optionNo": "C"
+        },
+        {
+          "text": "完全符合",
+          "value": "3",
+          "optionNo": "D"
+        }
+      ]
+    },
+    {
+      "text": "即使别人请求帮助，我也不太愿意去帮。",
+      "type": "radio",
+      "orderNum": 12,
+      "options": [
+        {
+          "text": "完全不符合",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "有点符合",
+          "value": "1",
+          "optionNo": "B"
+        },
+        {
+          "text": "基本符合",
+          "value": "2",
+          "optionNo": "C"
+        },
+        {
+          "text": "完全符合",
+          "value": "3",
+          "optionNo": "D"
+        }
+      ]
+    },
+    {
+      "text": "我会认真倾听别人的想法和感受。",
+      "type": "radio",
+      "orderNum": 13,
+      "options": [
+        {
+          "text": "完全符合",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "基本符合",
+          "value": "1",
+          "optionNo": "B"
+        },
+        {
+          "text": "有点符合",
+          "value": "2",
+          "optionNo": "C"
+        },
+        {
+          "text": "完全不符合",
+          "value": "3",
+          "optionNo": "D"
+        }
+      ]
+    },
+    {
+      "text": "我很在意别人对我的看法。",
+      "type": "radio",
+      "orderNum": 14,
+      "options": [
+        {
+          "text": "完全符合",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "基本符合",
+          "value": "1",
+          "optionNo": "B"
+        },
+        {
+          "text": "有点符合",
+          "value": "2",
+          "optionNo": "C"
+        },
+        {
+          "text": "完全不符合",
+          "value": "3",
+          "optionNo": "D"
+        }
+      ]
+    },
+    {
+      "text": "我对生活中发生的事情很无所谓。",
+      "type": "radio",
+      "orderNum": 15,
+      "options": [
+        {
+          "text": "完全不符合",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "有点符合",
+          "value": "1",
+          "optionNo": "B"
+        },
+        {
+          "text": "基本符合",
+          "value": "2",
+          "optionNo": "C"
+        },
+        {
+          "text": "完全符合",
+          "value": "3",
+          "optionNo": "D"
+        }
+      ]
+    },
+    {
+      "text": "我会积极参加各种活动。",
+      "type": "radio",
+      "orderNum": 16,
+      "options": [
+        {
+          "text": "完全符合",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "基本符合",
+          "value": "1",
+          "optionNo": "B"
+        },
+        {
+          "text": "有点符合",
+          "value": "2",
+          "optionNo": "C"
+        },
+        {
+          "text": "完全不符合",
+          "value": "3",
+          "optionNo": "D"
+        }
+      ]
+    },
+    {
+      "text": "我不太会表达自己的情感。",
+      "type": "radio",
+      "orderNum": 17,
+      "options": [
+        {
+          "text": "完全不符合",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "有点符合",
+          "value": "1",
+          "optionNo": "B"
+        },
+        {
+          "text": "基本符合",
+          "value": "2",
+          "optionNo": "C"
+        },
+        {
+          "text": "完全符合",
+          "value": "3",
+          "optionNo": "D"
+        }
+      ]
+    },
+    {
+      "text": "我善于表达自己的感情。",
+      "type": "radio",
+      "orderNum": 18,
+      "options": [
+        {
+          "text": "完全符合",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "基本符合",
+          "value": "1",
+          "optionNo": "B"
+        },
+        {
+          "text": "有点符合",
+          "value": "2",
+          "optionNo": "C"
+        },
+        {
+          "text": "完全不符合",
+          "value": "3",
+          "optionNo": "D"
+        }
+      ]
+    },
+    {
+      "text": "我很少流露出强烈的情感。",
+      "type": "radio",
+      "orderNum": 19,
+      "options": [
+        {
+          "text": "完全不符合",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "有点符合",
+          "value": "1",
+          "optionNo": "B"
+        },
+        {
+          "text": "基本符合",
+          "value": "2",
+          "optionNo": "C"
+        },
+        {
+          "text": "完全符合",
+          "value": "3",
+          "optionNo": "D"
+        }
+      ]
+    },
+    {
+      "text": "别人觉得我是一个冷漠的人。",
+      "type": "radio",
+      "orderNum": 20,
+      "options": [
+        {
+          "text": "完全不符合",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "有点符合",
+          "value": "1",
+          "optionNo": "B"
+        },
+        {
+          "text": "基本符合",
+          "value": "2",
+          "optionNo": "C"
+        },
+        {
+          "text": "完全符合",
+          "value": "3",
+          "optionNo": "D"
+        }
+      ]
+    },
+    {
+      "text": "我对别人总是很热情。",
+      "type": "radio",
+      "orderNum": 21,
+      "options": [
+        {
+          "text": "完全符合",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "基本符合",
+          "value": "1",
+          "optionNo": "B"
+        },
+        {
+          "text": "有点符合",
+          "value": "2",
+          "optionNo": "C"
+        },
+        {
+          "text": "完全不符合",
+          "value": "3",
+          "optionNo": "D"
+        }
+      ]
+    },
+    {
+      "text": "在社交场合中我表现得很自然。",
+      "type": "radio",
+      "orderNum": 22,
+      "options": [
+        {
+          "text": "完全符合",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "基本符合",
+          "value": "1",
+          "optionNo": "B"
+        },
+        {
+          "text": "有点符合",
+          "value": "2",
+          "optionNo": "C"
+        },
+        {
+          "text": "完全不符合",
+          "value": "3",
+          "optionNo": "D"
+        }
+      ]
+    },
+    {
+      "text": "我很少因为别人的故事而感动。",
+      "type": "radio",
+      "orderNum": 23,
+      "options": [
+        {
+          "text": "完全不符合",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "有点符合",
+          "value": "1",
+          "optionNo": "B"
+        },
+        {
+          "text": "基本符合",
+          "value": "2",
+          "optionNo": "C"
+        },
+        {
+          "text": "完全符合",
+          "value": "3",
+          "optionNo": "D"
+        }
+      ]
+    },
+    {
+      "text": "别人觉得我很难接近。",
+      "type": "radio",
+      "orderNum": 24,
+      "options": [
+        {
+          "text": "完全不符合",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "有点符合",
+          "value": "1",
+          "optionNo": "B"
+        },
+        {
+          "text": "基本符合",
+          "value": "2",
+          "optionNo": "C"
+        },
+        {
+          "text": "完全符合",
+          "value": "3",
+          "optionNo": "D"
+        }
+      ]
+    }
+  ],
+  "dimensions": [
+    {
+      "dimensionName": "冷酷",
+      "dimensionCode": "callous",
+      "num": 1,
+      "evaluateExpression": "hx_t_1 + hx_t_4 + hx_t_7 + hx_t_8 + hx_t_9 + hx_t_10 + hx_t_11 + hx_t_12",
+      "standardScoreFormula": "",
+      "results": [
+        {
+          "evaluateExpression": "hx_wd_y_1 <= 8",
+          "conclusionAnalysis": "冷酷特质低",
+          "suggestion": "您对他人的情感有较好的感知和关注，能够体谅和理解他人的感受。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_1 > 8 && hx_wd_y_1 <= 16",
+          "conclusionAnalysis": "冷酷特质中等",
+          "suggestion": "您在某些情况下对他人的感受关注不够，但总体处于正常范围。建议在人际交往中多练习换位思考。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_1 > 16",
+          "conclusionAnalysis": "冷酷特质高",
+          "suggestion": "您在关注和理解他人情感方面存在较明显的困难，这可能影响您的人际关系。建议寻求专业评估以了解更多。",
+          "assessmentWarning": "low"
+        }
+      ]
+    },
+    {
+      "dimensionName": "淡漠",
+      "dimensionCode": "uncaring",
+      "num": 2,
+      "evaluateExpression": "hx_t_2 + hx_t_3 + hx_t_5 + hx_t_6 + hx_t_13 + hx_t_14 + hx_t_15 + hx_t_16",
+      "standardScoreFormula": "",
+      "results": [
+        {
+          "evaluateExpression": "hx_wd_y_2 <= 8",
+          "conclusionAnalysis": "淡漠特质低",
+          "suggestion": "您对他人和周围事务表现出足够的关心和投入，具有良好的情感参与度。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_2 > 8 && hx_wd_y_2 <= 16",
+          "conclusionAnalysis": "淡漠特质中等",
+          "suggestion": "您在某些情况下可能显得不太关心他人或事务，但总体处于正常范围。建议关注自己的情感投入程度。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_2 > 16",
+          "conclusionAnalysis": "淡漠特质高",
+          "suggestion": "您对他人和事务表现出较高的淡漠程度，可能影响您的社交和情感生活。建议关注这一倾向并寻求适当支持。",
+          "assessmentWarning": "low"
+        }
+      ]
+    },
+    {
+      "dimensionName": "无情",
+      "dimensionCode": "unemotional",
+      "num": 3,
+      "evaluateExpression": "hx_t_17 + hx_t_18 + hx_t_19 + hx_t_20 + hx_t_21 + hx_t_22 + hx_t_23 + hx_t_24",
+      "standardScoreFormula": "",
+      "results": [
+        {
+          "evaluateExpression": "hx_wd_y_3 <= 8",
+          "conclusionAnalysis": "情感表达正常",
+          "suggestion": "您能够适当地表达和体验情感，在社交中表现出自然的情感反应。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_3 > 8 && hx_wd_y_3 <= 16",
+          "conclusionAnalysis": "情感表达中等",
+          "suggestion": "您在情感表达方面可能较为内敛，但总体处于正常范围。建议适当练习情感表达。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_3 > 16",
+          "conclusionAnalysis": "情感表达受限",
+          "suggestion": "您在情感表达和体验方面存在较明显的限制，可能被他人视为冷漠或难以接近。建议关注自己的情感发展。",
+          "assessmentWarning": "low"
+        }
+      ]
+    },
+    {
+      "dimensionName": "无情特质总分",
+      "dimensionCode": "total_cu",
+      "num": 4,
+      "evaluateExpression": "hx_t_1 + hx_t_2 + hx_t_3 + hx_t_4 + hx_t_5 + hx_t_6 + hx_t_7 + hx_t_8 + hx_t_9 + hx_t_10 + hx_t_11 + hx_t_12 + hx_t_13 + hx_t_14 + hx_t_15 + hx_t_16 + hx_t_17 + hx_t_18 + hx_t_19 + hx_t_20 + hx_t_21 + hx_t_22 + hx_t_23 + hx_t_24",
+      "standardScoreFormula": "",
+      "results": [
+        {
+          "evaluateExpression": "hx_wd_y_4 <= 24",
+          "conclusionAnalysis": "无情特质水平低",
+          "suggestion": "您的总体得分较低，表明您具有良好的共情能力和情感反应。您能够理解和回应他人的情感需求，人际关系方面表现良好。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_4 > 24 && hx_wd_y_4 <= 48",
+          "conclusionAnalysis": "无情特质水平中等",
+          "suggestion": "您的得分处于中等水平，表明您在共情和情感反应方面有一定的特征。在某些情境下可能表现得较为淡漠或不太关注他人感受。建议保持自我觉察，在人际交往中多关注他人的情感需求。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_4 > 49",
+          "conclusionAnalysis": "无情特质水平高",
+          "suggestion": "您的得分较高，表明在共情、情感反应和关心他人方面存在较明显的特征。这些特质可能影响您的人际关系和社会功能。建议寻求专业的心理评估，了解更多关于自身情感特点的信息，并探索改善人际关系的方法。",
+          "assessmentWarning": "middle"
+        }
+      ]
+    }
+  ]
+}

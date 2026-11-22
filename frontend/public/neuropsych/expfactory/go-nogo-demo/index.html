@@ -1,0 +1,58 @@
+<!DOCTYPE html><html class='' data-chuxin-test='go-nogo-demo'>
+<head>
+    <meta charset='UTF-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1, viewport-fit=cover'>
+    <meta name="robots" content="noindex">
+    <title>Go-NoGo反应抑制任务</title>
+    
+<link rel='stylesheet' type='text/css' href='jspsych.css'>
+<link rel='stylesheet' type='text/css' href='default_style.css'>
+<link rel='stylesheet' type='text/css' href='style.css'>
+<link rel='stylesheet' type='text/css' href='../../mobile-adapter/base.css'>
+</head>
+
+<body>
+<script src='js/jquery.min.js'></script>
+<script src="js/math.min.js"></script>
+<script src='js/jspsych/jspsych.js'></script>
+<script src='js/jspsych/plugins/jspsych-text.js'></script>
+<script src='js/jspsych/poldrack_plugins/jspsych-poldrack-text.js'></script>
+<script src='js/jspsych/poldrack_plugins/jspsych-poldrack-categorize.js'></script>
+<script src='js/jspsych/poldrack_plugins/jspsych-poldrack-instructions.js'></script>
+<script src='js/jspsych/plugins/jspsych-call-function.js'></script>
+<script src='js/jspsych/poldrack_plugins/jspsych-attention-check.js'></script>
+<script src='js/jspsych/poldrack_plugins/jspsych-poldrack-single-stim.js'></script>
+<script src='js/jspsych/plugins/jspsych-survey-text.js'></script>
+<script src='js/jspsych/poldrack_plugins/jspsych-single-stim-button.js'></script>
+<script src='js/jspsych/poldrack_plugins/poldrack_utils.js'></script>
+<script src='experiment.js'></script>
+<script src='../../mobile-adapter/presets.js'></script>
+<script src='../../mobile-adapter/adapter.js'></script>
+
+<script>
+$( document ).ready(function() {
+
+    jsPsych.init({
+             timeline: go_nogo_experiment,
+             display_element: "getDisplayElement",
+             fullscreen: false,
+             on_trial_finish: function(data){
+               addID('go-nogo-demo')
+             },
+
+             on_finish: function(){
+                 var rawJson = jsPsych.data.dataAsJSON();
+                 var rawCsv = jsPsych.data.dataAsCSV ? jsPsych.data.dataAsCSV() : '';
+                 window.parent.postMessage({
+                     type: 'chuxin-neuropsych-finished',
+                     testCode: 'go-nogo-demo',
+                     rawJson: rawJson,
+                     rawCsv: rawCsv
+                 }, window.location.origin);
+             }
+
+      });
+});
+</script>
+</body>
+</html>

@@ -1,0 +1,637 @@
+{
+  "id": "rrs-rumination",
+  "title": "反刍思维量表(RRS)",
+  "description": "Rumination Response Scale (RRS)，Nolen-Hoeksema & Morrow (1991)编制，测量反刍思维倾向（22题）。4点计分（1=从不到4=几乎总是），总分22-88。常模：女性约42分，男性约39.6分。",
+  "type": "basic",
+  "questions": [
+    {
+      "text": "我会想：我为什么总是遇到这样的事情？",
+      "type": "radio",
+      "orderNum": 1,
+      "options": [
+        {
+          "text": "从不",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "偶尔",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "经常",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "几乎总是",
+          "value": "4",
+          "optionNo": "D"
+        }
+      ]
+    },
+    {
+      "text": "我会想：我到底出了什么问题？",
+      "type": "radio",
+      "orderNum": 2,
+      "options": [
+        {
+          "text": "从不",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "偶尔",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "经常",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "几乎总是",
+          "value": "4",
+          "optionNo": "D"
+        }
+      ]
+    },
+    {
+      "text": "我会独自思考自己的感受。",
+      "type": "radio",
+      "orderNum": 3,
+      "options": [
+        {
+          "text": "从不",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "偶尔",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "经常",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "几乎总是",
+          "value": "4",
+          "optionNo": "D"
+        }
+      ]
+    },
+    {
+      "text": "我会分析自己最近的经历，试图理解为什么会感到沮丧。",
+      "type": "radio",
+      "orderNum": 4,
+      "options": [
+        {
+          "text": "从不",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "偶尔",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "经常",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "几乎总是",
+          "value": "4",
+          "optionNo": "D"
+        }
+      ]
+    },
+    {
+      "text": "我会写日记来理解自己的感受。",
+      "type": "radio",
+      "orderNum": 5,
+      "options": [
+        {
+          "text": "从不",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "偶尔",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "经常",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "几乎总是",
+          "value": "4",
+          "optionNo": "D"
+        }
+      ]
+    },
+    {
+      "text": "我会想：集中注意力很困难。",
+      "type": "radio",
+      "orderNum": 6,
+      "options": [
+        {
+          "text": "从不",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "偶尔",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "经常",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "几乎总是",
+          "value": "4",
+          "optionNo": "D"
+        }
+      ]
+    },
+    {
+      "text": "我会想：我对正在做的事情无法集中注意力。",
+      "type": "radio",
+      "orderNum": 7,
+      "options": [
+        {
+          "text": "从不",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "偶尔",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "经常",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "几乎总是",
+          "value": "4",
+          "optionNo": "D"
+        }
+      ]
+    },
+    {
+      "text": "我会想：我为什么反应这么强烈。",
+      "type": "radio",
+      "orderNum": 8,
+      "options": [
+        {
+          "text": "从不",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "偶尔",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "经常",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "几乎总是",
+          "value": "4",
+          "optionNo": "D"
+        }
+      ]
+    },
+    {
+      "text": "我会独自待着，思考自己的感受。",
+      "type": "radio",
+      "orderNum": 9,
+      "options": [
+        {
+          "text": "从不",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "偶尔",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "经常",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "几乎总是",
+          "value": "4",
+          "optionNo": "D"
+        }
+      ]
+    },
+    {
+      "text": "我会想：我无法把事情做好，因为我记不住东西。",
+      "type": "radio",
+      "orderNum": 10,
+      "options": [
+        {
+          "text": "从不",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "偶尔",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "经常",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "几乎总是",
+          "value": "4",
+          "optionNo": "D"
+        }
+      ]
+    },
+    {
+      "text": "我会退一步来审视自己的感受。",
+      "type": "radio",
+      "orderNum": 11,
+      "options": [
+        {
+          "text": "从不",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "偶尔",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "经常",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "几乎总是",
+          "value": "4",
+          "optionNo": "D"
+        }
+      ]
+    },
+    {
+      "text": "我会去一个安静的地方思考自己的感受。",
+      "type": "radio",
+      "orderNum": 12,
+      "options": [
+        {
+          "text": "从不",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "偶尔",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "经常",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "几乎总是",
+          "value": "4",
+          "optionNo": "D"
+        }
+      ]
+    },
+    {
+      "text": "我会想：我为什么不能开始做事情？",
+      "type": "radio",
+      "orderNum": 13,
+      "options": [
+        {
+          "text": "从不",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "偶尔",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "经常",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "几乎总是",
+          "value": "4",
+          "optionNo": "D"
+        }
+      ]
+    },
+    {
+      "text": "我会想：我总是把事情搞砸。",
+      "type": "radio",
+      "orderNum": 14,
+      "options": [
+        {
+          "text": "从不",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "偶尔",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "经常",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "几乎总是",
+          "value": "4",
+          "optionNo": "D"
+        }
+      ]
+    },
+    {
+      "text": "我会想：我感到非常疲惫。",
+      "type": "radio",
+      "orderNum": 15,
+      "options": [
+        {
+          "text": "从不",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "偶尔",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "经常",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "几乎总是",
+          "value": "4",
+          "optionNo": "D"
+        }
+      ]
+    },
+    {
+      "text": "我会思考自己是否有身体疾病。",
+      "type": "radio",
+      "orderNum": 16,
+      "options": [
+        {
+          "text": "从不",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "偶尔",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "经常",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "几乎总是",
+          "value": "4",
+          "optionNo": "D"
+        }
+      ]
+    },
+    {
+      "text": "我会想：我无法完成任务，因为我总是记不住东西。",
+      "type": "radio",
+      "orderNum": 17,
+      "options": [
+        {
+          "text": "从不",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "偶尔",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "经常",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "几乎总是",
+          "value": "4",
+          "optionNo": "D"
+        }
+      ]
+    },
+    {
+      "text": "我会分析自己的性格，试图理解自己的沮丧。",
+      "type": "radio",
+      "orderNum": 18,
+      "options": [
+        {
+          "text": "从不",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "偶尔",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "经常",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "几乎总是",
+          "value": "4",
+          "optionNo": "D"
+        }
+      ]
+    },
+    {
+      "text": "我会想：我在社交场合中感到不自在。",
+      "type": "radio",
+      "orderNum": 19,
+      "options": [
+        {
+          "text": "从不",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "偶尔",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "经常",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "几乎总是",
+          "value": "4",
+          "optionNo": "D"
+        }
+      ]
+    },
+    {
+      "text": "我会想：我对自己的生活不满。",
+      "type": "radio",
+      "orderNum": 20,
+      "options": [
+        {
+          "text": "从不",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "偶尔",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "经常",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "几乎总是",
+          "value": "4",
+          "optionNo": "D"
+        }
+      ]
+    },
+    {
+      "text": "我会独自思考为什么我会这样感受。",
+      "type": "radio",
+      "orderNum": 21,
+      "options": [
+        {
+          "text": "从不",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "偶尔",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "经常",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "几乎总是",
+          "value": "4",
+          "optionNo": "D"
+        }
+      ]
+    },
+    {
+      "text": "我会想：我好像对什么都没有动力。",
+      "type": "radio",
+      "orderNum": 22,
+      "options": [
+        {
+          "text": "从不",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "偶尔",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "经常",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "几乎总是",
+          "value": "4",
+          "optionNo": "D"
+        }
+      ]
+    }
+  ],
+  "dimensions": [
+    {
+      "dimensionName": "反刍思维",
+      "dimensionCode": "rumination",
+      "num": 1,
+      "evaluateExpression": "hx_t_1 + hx_t_2 + hx_t_3 + hx_t_4 + hx_t_5 + hx_t_6 + hx_t_7 + hx_t_8 + hx_t_9 + hx_t_10 + hx_t_11 + hx_t_12 + hx_t_13 + hx_t_14 + hx_t_15 + hx_t_16 + hx_t_17 + hx_t_18 + hx_t_19 + hx_t_20 + hx_t_21 + hx_t_22",
+      "standardScoreFormula": "",
+      "results": [
+        {
+          "evaluateExpression": "hx_wd_y_1 <= 32",
+          "conclusionAnalysis": "反刍思维水平较低",
+          "suggestion": "您的反刍思维水平较低，面对困境时较少陷入反复思考，应对方式较为健康。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_1 > 32 && hx_wd_y_1 <= 40",
+          "conclusionAnalysis": "反刍思维水平中等",
+          "suggestion": "您的反刍思维处于正常范围，偶尔会陷入对消极事件的反复思考。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_1 > 40 && hx_wd_y_1 <= 52",
+          "conclusionAnalysis": "反刍思维水平偏高",
+          "suggestion": "您的反刍思维得分高于平均水平（男均值39.6，女均值42），建议关注是否经常陷入消极思维循环。",
+          "assessmentWarning": "low"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_1 > 52",
+          "conclusionAnalysis": "反刍思维水平异常偏高",
+          "suggestion": "您的反刍思维得分明显偏高，过度的反刍思维与抑郁和焦虑密切相关，建议寻求专业心理帮助。",
+          "assessmentWarning": "middle"
+        }
+      ]
+    }
+  ]
+}

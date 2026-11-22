@@ -1,0 +1,158 @@
+{
+  "id": "cssrs-suicide-risk",
+  "title": "哥伦比亚自杀严重程度评定量表筛查版(C-SSRS)",
+  "description": "本问卷是国际通用的自杀风险筛查工具，帮助专业人员快速评估自杀风险等级。共6题，大约需要2分钟完成。",
+  "type": "basic",
+  "questions": [
+    {
+      "text": "最近一个月内，您是否希望死去，或者希望自己能以某种方式死去？",
+      "type": "radio",
+      "orderNum": 1,
+      "options": [
+        {
+          "text": "否",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "是",
+          "value": "1",
+          "optionNo": "B"
+        }
+      ]
+    },
+    {
+      "text": "最近一个月内，您是否曾有主动的自杀想法，但没有具体的方法或计划？",
+      "type": "radio",
+      "orderNum": 2,
+      "options": [
+        {
+          "text": "否",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "是",
+          "value": "1",
+          "optionNo": "B"
+        }
+      ]
+    },
+    {
+      "text": "最近一个月内，您是否曾想过自杀的具体方法，但没有打算去实施？",
+      "type": "radio",
+      "orderNum": 3,
+      "options": [
+        {
+          "text": "否",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "是",
+          "value": "1",
+          "optionNo": "B"
+        }
+      ]
+    },
+    {
+      "text": "最近一个月内，您是否曾想过自杀，并且有过一些去实施的打算？",
+      "type": "radio",
+      "orderNum": 4,
+      "options": [
+        {
+          "text": "否",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "是",
+          "value": "1",
+          "optionNo": "B"
+        }
+      ]
+    },
+    {
+      "text": "最近一个月内，您是否曾想过自杀，并且有具体的计划和明确的意图去实施？",
+      "type": "radio",
+      "orderNum": 5,
+      "options": [
+        {
+          "text": "否",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "是",
+          "value": "1",
+          "optionNo": "B"
+        }
+      ]
+    },
+    {
+      "text": "最近一个月内，您是否曾经实际尝试过自杀，或做出过自杀的准备行为（如收集药片、写遗书、选择地点等）？",
+      "type": "radio",
+      "orderNum": 6,
+      "options": [
+        {
+          "text": "否",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "是",
+          "value": "1",
+          "optionNo": "B"
+        }
+      ]
+    }
+  ],
+  "dimensions": [
+    {
+      "dimensionName": "自杀风险等级",
+      "dimensionCode": "suicide_risk",
+      "num": 1,
+      "evaluateExpression": "hx_t_6 * 100 + hx_t_5 * 20 + hx_t_4 * 15 + hx_t_3 * 10 + hx_t_2 * 5 + hx_t_1 * 1",
+      "standardScoreFormula": "",
+      "results": [
+        {
+          "evaluateExpression": "hx_wd_y_1 == 0",
+          "conclusionAnalysis": "无自杀风险",
+          "suggestion": "筛查结果未发现自杀意念或自杀行为。目前来看您没有自杀方面的风险。如果您今后出现相关想法，请及时寻求帮助。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_1 > 0 && hx_wd_y_1 < 5",
+          "conclusionAnalysis": "低风险",
+          "suggestion": "筛查发现您存在轻度的自杀意念（如希望死去的想法）。虽然目前风险较低，但请关注自身的情绪变化。建议与信任的人分享您的感受，必要时寻求心理咨询支持。",
+          "assessmentWarning": "low"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_1 >= 5 && hx_wd_y_1 < 10",
+          "conclusionAnalysis": "中等风险",
+          "suggestion": "筛查发现您存在主动的自杀想法。建议您尽快联系专业的心理健康服务机构或拨打心理援助热线（如24小时热线：400-161-9995），与专业人员进行深入评估和沟通。",
+          "assessmentWarning": "middle"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_1 >= 10 && hx_wd_y_1 < 20",
+          "conclusionAnalysis": "较高风险",
+          "suggestion": "筛查发现您存在有一定意图或方法的自杀想法，风险较高。强烈建议您立即联系专业的心理危机干预机构或前往医院精神科/心理科就诊。请记住，您并不孤单，专业的帮助可以有效缓解您的痛苦。",
+          "assessmentWarning": "high"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_1 >= 20 && hx_wd_y_1 < 100",
+          "conclusionAnalysis": "高风险",
+          "suggestion": "筛查发现您存在有具体计划和实施意图的自杀想法，风险很高。请立即联系心理危机干预热线（24小时：400-161-9995）或前往最近的医院急诊科。请确保身边有人陪伴，远离可能用于自我伤害的物品。",
+          "assessmentWarning": "high"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_1 >= 100",
+          "conclusionAnalysis": "极高风险",
+          "suggestion": "筛查发现您近期有自杀行为或准备行为，风险极高。请立即拨打急救电话（120）或前往最近的医院急诊科。如果您目前处于危险中，请立即联系家人、朋友或拨打心理危机热线（24小时：400-161-9995）。您的生命非常重要，请让专业人员帮助您。",
+          "assessmentWarning": "high"
+        }
+      ]
+    }
+  ],
+  "answer": "custom"
+}

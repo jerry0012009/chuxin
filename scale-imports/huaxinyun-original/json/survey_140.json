@@ -1,0 +1,687 @@
+{
+  "id": 140,
+  "title": "焦虑自评量表(SAS)",
+  "type": "basic",
+  "questions": [
+    {
+      "id": 3806,
+      "text": " 我觉得比平常容易紧张和着急。",
+      "type": "radio",
+      "orderNum": 1,
+      "options": [
+        {
+          "id": 14442,
+          "optionNo": "A",
+          "text": "没有或很少时间",
+          "value": "1"
+        },
+        {
+          "id": 14443,
+          "optionNo": "B",
+          "text": "小部分时间",
+          "value": "2"
+        },
+        {
+          "id": 14444,
+          "optionNo": "C",
+          "text": "相当多时间",
+          "value": "3"
+        },
+        {
+          "id": 14445,
+          "optionNo": "D",
+          "text": "绝大部分或全部时间",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 3807,
+      "text": " 我无缘无故地感到害怕。",
+      "type": "radio",
+      "orderNum": 2,
+      "options": [
+        {
+          "id": 14446,
+          "optionNo": "A",
+          "text": "没有或很少时间",
+          "value": "1"
+        },
+        {
+          "id": 14447,
+          "optionNo": "B",
+          "text": "小部分时间",
+          "value": "2"
+        },
+        {
+          "id": 14448,
+          "optionNo": "C",
+          "text": "相当多时间",
+          "value": "3"
+        },
+        {
+          "id": 14449,
+          "optionNo": "D",
+          "text": "绝大部分或全部时间",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 3808,
+      "text": " 我容易心里烦乱或觉得惊恐。",
+      "type": "radio",
+      "orderNum": 3,
+      "options": [
+        {
+          "id": 14450,
+          "optionNo": "A",
+          "text": "没有或很少时间",
+          "value": "1"
+        },
+        {
+          "id": 14451,
+          "optionNo": "B",
+          "text": "小部分时间",
+          "value": "2"
+        },
+        {
+          "id": 14452,
+          "optionNo": "C",
+          "text": "相当多时间",
+          "value": "3"
+        },
+        {
+          "id": 14453,
+          "optionNo": "D",
+          "text": "绝大部分或全部时间",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 3809,
+      "text": " 我觉得我可能将要发疯。",
+      "type": "radio",
+      "orderNum": 4,
+      "options": [
+        {
+          "id": 14454,
+          "optionNo": "A",
+          "text": "没有或很少时间",
+          "value": "1"
+        },
+        {
+          "id": 14455,
+          "optionNo": "B",
+          "text": "小部分时间",
+          "value": "2"
+        },
+        {
+          "id": 14456,
+          "optionNo": "C",
+          "text": "相当多时间",
+          "value": "3"
+        },
+        {
+          "id": 14457,
+          "optionNo": "D",
+          "text": "绝大部分或全部时间",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 3810,
+      "text": " 我觉得一切都很好，也不会发生什么不幸。",
+      "type": "radio",
+      "orderNum": 5,
+      "options": [
+        {
+          "id": 14458,
+          "optionNo": "A",
+          "text": "没有或很少时间",
+          "value": "4"
+        },
+        {
+          "id": 14459,
+          "optionNo": "B",
+          "text": "小部分时间",
+          "value": "3"
+        },
+        {
+          "id": 14460,
+          "optionNo": "C",
+          "text": "相当多时间",
+          "value": "2"
+        },
+        {
+          "id": 14461,
+          "optionNo": "D",
+          "text": "绝大部分或全部时间",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 3811,
+      "text": " 我手脚发抖打颤。",
+      "type": "radio",
+      "orderNum": 6,
+      "options": [
+        {
+          "id": 14462,
+          "optionNo": "A",
+          "text": "没有或很少时间",
+          "value": "1"
+        },
+        {
+          "id": 14463,
+          "optionNo": "B",
+          "text": "小部分时间",
+          "value": "2"
+        },
+        {
+          "id": 14464,
+          "optionNo": "C",
+          "text": "相当多时间",
+          "value": "3"
+        },
+        {
+          "id": 14465,
+          "optionNo": "D",
+          "text": "绝大部分或全部时间",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 3812,
+      "text": " 我因为头痛、头颈痛和背痛而苦恼。",
+      "type": "radio",
+      "orderNum": 7,
+      "options": [
+        {
+          "id": 14466,
+          "optionNo": "A",
+          "text": "没有或很少时间",
+          "value": "1"
+        },
+        {
+          "id": 14467,
+          "optionNo": "B",
+          "text": "小部分时间",
+          "value": "2"
+        },
+        {
+          "id": 14468,
+          "optionNo": "C",
+          "text": "相当多时间",
+          "value": "3"
+        },
+        {
+          "id": 14469,
+          "optionNo": "D",
+          "text": "绝大部分或全部时间",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 3813,
+      "text": " 我感觉容易衰弱和疲乏。",
+      "type": "radio",
+      "orderNum": 8,
+      "options": [
+        {
+          "id": 14470,
+          "optionNo": "A",
+          "text": "没有或很少时间",
+          "value": "1"
+        },
+        {
+          "id": 14471,
+          "optionNo": "B",
+          "text": "小部分时间",
+          "value": "2"
+        },
+        {
+          "id": 14472,
+          "optionNo": "C",
+          "text": "相当多时间",
+          "value": "3"
+        },
+        {
+          "id": 14473,
+          "optionNo": "D",
+          "text": "绝大部分或全部时间",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 3814,
+      "text": " 我觉得心平气和，并且容易安静坐着。",
+      "type": "radio",
+      "orderNum": 9,
+      "options": [
+        {
+          "id": 14474,
+          "optionNo": "A",
+          "text": "没有或很少时间",
+          "value": "4"
+        },
+        {
+          "id": 14475,
+          "optionNo": "B",
+          "text": "小部分时间",
+          "value": "3"
+        },
+        {
+          "id": 14476,
+          "optionNo": "C",
+          "text": "相当多时间",
+          "value": "2"
+        },
+        {
+          "id": 14477,
+          "optionNo": "D",
+          "text": "绝大部分或全部时间",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 3815,
+      "text": " 我觉得心跳很快。",
+      "type": "radio",
+      "orderNum": 10,
+      "options": [
+        {
+          "id": 14478,
+          "optionNo": "A",
+          "text": "没有或很少时间",
+          "value": "1"
+        },
+        {
+          "id": 14479,
+          "optionNo": "B",
+          "text": "小部分时间",
+          "value": "2"
+        },
+        {
+          "id": 14480,
+          "optionNo": "C",
+          "text": "相当多时间",
+          "value": "3"
+        },
+        {
+          "id": 14481,
+          "optionNo": "D",
+          "text": "绝大部分或全部时间",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 3816,
+      "text": " 我因为一阵阵头晕而苦恼。",
+      "type": "radio",
+      "orderNum": 11,
+      "options": [
+        {
+          "id": 14482,
+          "optionNo": "A",
+          "text": "没有或很少时间",
+          "value": "1"
+        },
+        {
+          "id": 14483,
+          "optionNo": "B",
+          "text": "小部分时间",
+          "value": "2"
+        },
+        {
+          "id": 14484,
+          "optionNo": "C",
+          "text": "相当多时间",
+          "value": "3"
+        },
+        {
+          "id": 14485,
+          "optionNo": "D",
+          "text": "绝大部分或全部时间",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 3817,
+      "text": " 我有晕倒发作或觉得要晕倒似的。",
+      "type": "radio",
+      "orderNum": 12,
+      "options": [
+        {
+          "id": 14486,
+          "optionNo": "A",
+          "text": "没有或很少时间",
+          "value": "1"
+        },
+        {
+          "id": 14487,
+          "optionNo": "B",
+          "text": "小部分时间",
+          "value": "2"
+        },
+        {
+          "id": 14488,
+          "optionNo": "C",
+          "text": "相当多时间",
+          "value": "3"
+        },
+        {
+          "id": 14489,
+          "optionNo": "D",
+          "text": "绝大部分或全部时间",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 3818,
+      "text": " 我呼气、吸气都感到很容易。",
+      "type": "radio",
+      "orderNum": 13,
+      "options": [
+        {
+          "id": 14490,
+          "optionNo": "A",
+          "text": "没有或很少时间",
+          "value": "4"
+        },
+        {
+          "id": 14491,
+          "optionNo": "B",
+          "text": "小部分时间",
+          "value": "3"
+        },
+        {
+          "id": 14492,
+          "optionNo": "C",
+          "text": "相当多时间",
+          "value": "2"
+        },
+        {
+          "id": 14493,
+          "optionNo": "D",
+          "text": "绝大部分或全部时间",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 3819,
+      "text": " 我手脚麻木和刺痛。",
+      "type": "radio",
+      "orderNum": 14,
+      "options": [
+        {
+          "id": 14494,
+          "optionNo": "A",
+          "text": "没有或很少时间",
+          "value": "1"
+        },
+        {
+          "id": 14495,
+          "optionNo": "B",
+          "text": "小部分时间",
+          "value": "2"
+        },
+        {
+          "id": 14496,
+          "optionNo": "C",
+          "text": "相当多时间",
+          "value": "3"
+        },
+        {
+          "id": 14497,
+          "optionNo": "D",
+          "text": "绝大部分或全部时间",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 3820,
+      "text": " 我因为胃痛和消化不良而苦恼。",
+      "type": "radio",
+      "orderNum": 15,
+      "options": [
+        {
+          "id": 14498,
+          "optionNo": "A",
+          "text": "没有或很少时间",
+          "value": "1"
+        },
+        {
+          "id": 14499,
+          "optionNo": "B",
+          "text": "小部分时间",
+          "value": "2"
+        },
+        {
+          "id": 14500,
+          "optionNo": "C",
+          "text": "相当多时间",
+          "value": "3"
+        },
+        {
+          "id": 14501,
+          "optionNo": "D",
+          "text": "绝大部分或全部时间",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 3821,
+      "text": " 我常常要小便。",
+      "type": "radio",
+      "orderNum": 16,
+      "options": [
+        {
+          "id": 14502,
+          "optionNo": "A",
+          "text": "没有或很少时间",
+          "value": "1"
+        },
+        {
+          "id": 14503,
+          "optionNo": "B",
+          "text": "小部分时间",
+          "value": "2"
+        },
+        {
+          "id": 14504,
+          "optionNo": "C",
+          "text": "相当多时间",
+          "value": "3"
+        },
+        {
+          "id": 14505,
+          "optionNo": "D",
+          "text": "绝大部分或全部时间",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 3822,
+      "text": " 我的手常常是干燥温暖的。",
+      "type": "radio",
+      "orderNum": 17,
+      "options": [
+        {
+          "id": 14506,
+          "optionNo": "A",
+          "text": "没有或很少时间",
+          "value": "4"
+        },
+        {
+          "id": 14507,
+          "optionNo": "B",
+          "text": "小部分时间",
+          "value": "3"
+        },
+        {
+          "id": 14508,
+          "optionNo": "C",
+          "text": "相当多时间",
+          "value": "2"
+        },
+        {
+          "id": 14509,
+          "optionNo": "D",
+          "text": "绝大部分或全部时间",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 3823,
+      "text": " 我脸红发热。",
+      "type": "radio",
+      "orderNum": 18,
+      "options": [
+        {
+          "id": 14510,
+          "optionNo": "A",
+          "text": "没有或很少时间",
+          "value": "1"
+        },
+        {
+          "id": 14511,
+          "optionNo": "B",
+          "text": "小部分时间",
+          "value": "2"
+        },
+        {
+          "id": 14512,
+          "optionNo": "C",
+          "text": "相当多时间",
+          "value": "3"
+        },
+        {
+          "id": 14513,
+          "optionNo": "D",
+          "text": "绝大部分或全部时间",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 3824,
+      "text": " 我容易入睡，并且一夜睡得很好。",
+      "type": "radio",
+      "orderNum": 19,
+      "options": [
+        {
+          "id": 14514,
+          "optionNo": "A",
+          "text": "没有或很少时间",
+          "value": "4"
+        },
+        {
+          "id": 14515,
+          "optionNo": "B",
+          "text": "小部分时间",
+          "value": "3"
+        },
+        {
+          "id": 14516,
+          "optionNo": "C",
+          "text": "相当多时间",
+          "value": "2"
+        },
+        {
+          "id": 14517,
+          "optionNo": "D",
+          "text": "绝大部分或全部时间",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 3825,
+      "text": " 我做噩梦。",
+      "type": "radio",
+      "orderNum": 20,
+      "options": [
+        {
+          "id": 14518,
+          "optionNo": "A",
+          "text": "没有或很少时间",
+          "value": "1"
+        },
+        {
+          "id": 14519,
+          "optionNo": "B",
+          "text": "小部分时间",
+          "value": "2"
+        },
+        {
+          "id": 14520,
+          "optionNo": "C",
+          "text": "相当多时间",
+          "value": "3"
+        },
+        {
+          "id": 14521,
+          "optionNo": "D",
+          "text": "绝大部分或全部时间",
+          "value": "4"
+        }
+      ]
+    }
+  ],
+  "dimensions": [
+    {
+      "id": 428,
+      "num": 1,
+      "dimensionName": "总分",
+      "dimensionCode": "A",
+      "evaluateExpression": "hx_t_1 + hx_t_2 + hx_t_3 + hx_t_4 + hx_t_5 + hx_t_6 + hx_t_7 + hx_t_8 + hx_t_9 + hx_t_10 + hx_t_11 + hx_t_12 + hx_t_13 + hx_t_14 + hx_t_15 + hx_t_16 + hx_t_17 + hx_t_18 + hx_t_19 + hx_t_20",
+      "standardScoreFormula": "0",
+      "results": [
+        {
+          "id": 935,
+          "evaluateExpression": "hx_wd_y_1 >= 0&& hx_wd_y_1 <= 49",
+          "conclusionAnalysis": "无焦虑体验：被测试者在最近一段时间里心境状态较为放松，一般情况下，不大容易紧张或着急，心里觉得心平气和，也不会因为身体的稍微不适而紧张烦躁，甚至害怕；睡眠质量比较高。总之，很少或几乎不大焦虑。被测试者处于正常焦虑水平范围内。",
+          "suggestion": "希望被测试者能继续保持这样的心理状态。\n同时也提醒：\n(1)被测试者注意预防过度焦虑状态的产生，积极参加体育运动，培养广泛的兴趣爱好，掌握一些身心放松的方法，保持轻松愉快的心境。\n(2)适度的焦虑有利于提高工作效率，对凡事都放心当然是好的，有时候对自己的过分相信可能会使自己忽视一些小事，可能有些事不可太大意，建议在保持这种轻松状态的同时，不要沉迷于安逸的环境中，要树立新的目标，挑战自我，以求更高的发展。",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 936,
+          "evaluateExpression": "hx_wd_y_1 >= 50&& hx_wd_y_1 <= 59",
+          "conclusionAnalysis": "轻度焦虑：被测试者在最近一段时间里偶有焦虑，在面临极大压力或者心情不好的时候，会在一定程度上产生焦虑感觉，但是其焦虑症状轻微，经过及时的调试，一般都会迅速缓解。",
+          "suggestion": "轻度焦虑需要适当的调试，建议：\n(1)调整自我认识，多看自己的优点，总结成功体验，提高自我效能感和控制感。\n(2)掌握一些心理保健的知识和技巧，也可以采用换个环境、改善饮食、欣赏音乐、增强体育锻炼等方法。\n(3)放下一些生活中不必要的负担、学习常用的放松技巧、如肌肉放松法和想象式放松等。预防焦虑加重，对自己造成负面影响。",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 937,
+          "evaluateExpression": "hx_wd_y_1 >= 60&& hx_wd_y_1 <= 69",
+          "conclusionAnalysis": "中度焦虑：被测试者在最近一段时间里时常会有一些焦虑。有时候一些事可能会令你感到莫名的紧张或不安，但一般还是能自己进行调节；对身体上出现的不适有些担心，但不过分；有时会有失眠；总之，这种紧张、厌烦、失落等负面情绪已经在某种程度上影响了他的生活及社会功能,工作和学习效率直接受到了影响。",
+          "suggestion": "建议要充分关注自己的心理状态，在有焦虑、不安的时候，审视自己的观念是否有错误，或进行合适的宣泄，比如进行创作或运动，使自己放松；做几次深呼吸也是迅速缓解紧张情绪的简单、有效的方法。另外，在舒缓情绪的基础上，多发现自己的优点，总结的成功体验，提高自我效能感和控制感。同时，一些能交心的知心朋友，经常谈心，加强体育锻炼，必要的话尽快寻求专业心理咨询师的帮助。",
+          "assessmentWarning": "high"
+        },
+        {
+          "id": 938,
+          "evaluateExpression": "hx_wd_y_1 >= 70&& hx_wd_y_1 <= 100",
+          "conclusionAnalysis": "重度焦虑：被测试者在最近一段时间里被严重的焦虑感所笼罩而不能自拔，不但存在情绪的困挠，而且其认知功能和社会行为也受到比较严重的损害，还有可能伴随一些生理的反应，其症状如紧张焦虑、无因的惊恐和可能不幸的预感、手足颤抖、躯体疼痛、乏力、无法静坐、心悸、头昏、呼吸困难、手足麻木刺痛、胃痛或消化不良、尿意频繁、多汗、面部潮红、睡眠障碍和噩梦等。",
+          "suggestion": "建议要充分重视自己现在的心理问题，积极进行自我调适，转移注意力，进行积极的自我暗示，也需要迅速寻求亲友的支持，如果持续时间较长仍无好转迹象，需尽快进入专业心理治疗机构进行治疗。",
+          "assessmentWarning": "high"
+        }
+      ]
+    }
+  ]
+}

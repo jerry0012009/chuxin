@@ -1,0 +1,8167 @@
+{
+  "id": 186,
+  "title": "新生情绪健康问卷",
+  "description": "包含简版积极和消极反刍思维量表、认知情绪调节量表等",
+  "type": "basic",
+  "questions": [
+    {
+      "id": 7902,
+      "text": "无法预料的事情会让我心烦意乱",
+      "type": "radio",
+      "orderNum": 1,
+      "options": [
+        {
+          "id": 32383,
+          "optionNo": "A",
+          "text": "极为符合",
+          "value": "1"
+        },
+        {
+          "id": 32384,
+          "optionNo": "B",
+          "text": "符合",
+          "value": "2"
+        },
+        {
+          "id": 32385,
+          "optionNo": "C",
+          "text": "不确定",
+          "value": "3"
+        },
+        {
+          "id": 32386,
+          "optionNo": "D",
+          "text": "不符合",
+          "value": "4"
+        },
+        {
+          "id": 32387,
+          "optionNo": "E",
+          "text": "极不符合",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 7903,
+      "text": "如果不能拥有我所需要的全部信息，我会很沮丧",
+      "type": "radio",
+      "orderNum": 2,
+      "options": [
+        {
+          "id": 32388,
+          "optionNo": "A",
+          "text": "极为符合",
+          "value": "1"
+        },
+        {
+          "id": 32389,
+          "optionNo": "B",
+          "text": "符合",
+          "value": "2"
+        },
+        {
+          "id": 32390,
+          "optionNo": "C",
+          "text": "不确定",
+          "value": "3"
+        },
+        {
+          "id": 32391,
+          "optionNo": "D",
+          "text": "不符合",
+          "value": "4"
+        },
+        {
+          "id": 32392,
+          "optionNo": "E",
+          "text": "极不符合",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 7904,
+      "text": "不确定性使我很难拥有一个完美的生活",
+      "type": "radio",
+      "orderNum": 3,
+      "options": [
+        {
+          "id": 32393,
+          "optionNo": "A",
+          "text": "极为符合",
+          "value": "1"
+        },
+        {
+          "id": 32394,
+          "optionNo": "B",
+          "text": "符合",
+          "value": "2"
+        },
+        {
+          "id": 32395,
+          "optionNo": "C",
+          "text": "不确定",
+          "value": "3"
+        },
+        {
+          "id": 32396,
+          "optionNo": "D",
+          "text": "不符合",
+          "value": "4"
+        },
+        {
+          "id": 32397,
+          "optionNo": "E",
+          "text": "极不符合",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 7905,
+      "text": "我做事总会未雨绸缪，以避免措手不及",
+      "type": "radio",
+      "orderNum": 4,
+      "options": [
+        {
+          "id": 32398,
+          "optionNo": "A",
+          "text": "极为符合",
+          "value": "1"
+        },
+        {
+          "id": 32399,
+          "optionNo": "B",
+          "text": "符合",
+          "value": "2"
+        },
+        {
+          "id": 32400,
+          "optionNo": "C",
+          "text": "不确定",
+          "value": "3"
+        },
+        {
+          "id": 32401,
+          "optionNo": "D",
+          "text": "不符合",
+          "value": "4"
+        },
+        {
+          "id": 32402,
+          "optionNo": "E",
+          "text": "极不符合",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 7906,
+      "text": "即使有最好的计划，一个小意外也能搞砸我的全盘计划",
+      "type": "radio",
+      "orderNum": 5,
+      "options": [
+        {
+          "id": 32403,
+          "optionNo": "A",
+          "text": "极为符合",
+          "value": "1"
+        },
+        {
+          "id": 32404,
+          "optionNo": "B",
+          "text": "符合",
+          "value": "2"
+        },
+        {
+          "id": 32405,
+          "optionNo": "C",
+          "text": "不确定",
+          "value": "3"
+        },
+        {
+          "id": 32406,
+          "optionNo": "D",
+          "text": "不符合",
+          "value": "4"
+        },
+        {
+          "id": 32407,
+          "optionNo": "E",
+          "text": "极不符合",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 7907,
+      "text": "当到了采取行动的时候，不确定性会使我停滞不前",
+      "type": "radio",
+      "orderNum": 6,
+      "options": [
+        {
+          "id": 32408,
+          "optionNo": "A",
+          "text": "极为符合",
+          "value": "1"
+        },
+        {
+          "id": 32409,
+          "optionNo": "B",
+          "text": "符合",
+          "value": "2"
+        },
+        {
+          "id": 32410,
+          "optionNo": "C",
+          "text": "不确定",
+          "value": "3"
+        },
+        {
+          "id": 32411,
+          "optionNo": "D",
+          "text": "不符合",
+          "value": "4"
+        },
+        {
+          "id": 32412,
+          "optionNo": "E",
+          "text": "极不符合",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 7908,
+      "text": "当我感到不确定时，我就不能很好的表现自己。",
+      "type": "radio",
+      "orderNum": 7,
+      "options": [
+        {
+          "id": 32413,
+          "optionNo": "A",
+          "text": "极为符合",
+          "value": "1"
+        },
+        {
+          "id": 32414,
+          "optionNo": "B",
+          "text": "符合",
+          "value": "2"
+        },
+        {
+          "id": 32415,
+          "optionNo": "C",
+          "text": "不确定",
+          "value": "3"
+        },
+        {
+          "id": 32416,
+          "optionNo": "D",
+          "text": "不符合",
+          "value": "4"
+        },
+        {
+          "id": 32417,
+          "optionNo": "E",
+          "text": "极不符合",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 7909,
+      "text": "我总是想知道我的未来是什么样子的",
+      "type": "radio",
+      "orderNum": 8,
+      "options": [
+        {
+          "id": 32418,
+          "optionNo": "A",
+          "text": "极为符合",
+          "value": "1"
+        },
+        {
+          "id": 32419,
+          "optionNo": "B",
+          "text": "符合",
+          "value": "2"
+        },
+        {
+          "id": 32420,
+          "optionNo": "C",
+          "text": "不确定",
+          "value": "3"
+        },
+        {
+          "id": 32421,
+          "optionNo": "D",
+          "text": "不符合",
+          "value": "4"
+        },
+        {
+          "id": 32422,
+          "optionNo": "E",
+          "text": "极不符合",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 7910,
+      "text": "我无法忍受突发状况",
+      "type": "radio",
+      "orderNum": 9,
+      "options": [
+        {
+          "id": 32423,
+          "optionNo": "A",
+          "text": "极为符合",
+          "value": "1"
+        },
+        {
+          "id": 32424,
+          "optionNo": "B",
+          "text": "符合",
+          "value": "2"
+        },
+        {
+          "id": 32425,
+          "optionNo": "C",
+          "text": "不确定",
+          "value": "3"
+        },
+        {
+          "id": 32426,
+          "optionNo": "D",
+          "text": "不符合",
+          "value": "4"
+        },
+        {
+          "id": 32427,
+          "optionNo": "E",
+          "text": "极不符合",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 7911,
+      "text": "一点点的疑虑都会阻止我行动",
+      "type": "radio",
+      "orderNum": 10,
+      "options": [
+        {
+          "id": 32428,
+          "optionNo": "A",
+          "text": "极为符合",
+          "value": "1"
+        },
+        {
+          "id": 32429,
+          "optionNo": "B",
+          "text": "符合",
+          "value": "2"
+        },
+        {
+          "id": 32430,
+          "optionNo": "C",
+          "text": "不确定",
+          "value": "3"
+        },
+        {
+          "id": 32431,
+          "optionNo": "D",
+          "text": "不符合",
+          "value": "4"
+        },
+        {
+          "id": 32432,
+          "optionNo": "E",
+          "text": "极不符合",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 7912,
+      "text": "在做事之前，我应该能够规划好一切",
+      "type": "radio",
+      "orderNum": 11,
+      "options": [
+        {
+          "id": 32433,
+          "optionNo": "A",
+          "text": "极为符合",
+          "value": "1"
+        },
+        {
+          "id": 32434,
+          "optionNo": "B",
+          "text": "符合",
+          "value": "2"
+        },
+        {
+          "id": 32435,
+          "optionNo": "C",
+          "text": "不确定",
+          "value": "3"
+        },
+        {
+          "id": 32436,
+          "optionNo": "D",
+          "text": "不符合",
+          "value": "4"
+        },
+        {
+          "id": 32437,
+          "optionNo": "E",
+          "text": "极不符合",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 7913,
+      "text": "我必须摆脱所有不确定的情形",
+      "type": "radio",
+      "orderNum": 12,
+      "options": [
+        {
+          "id": 32438,
+          "optionNo": "A",
+          "text": "极为符合",
+          "value": "1"
+        },
+        {
+          "id": 32439,
+          "optionNo": "B",
+          "text": "符合",
+          "value": "2"
+        },
+        {
+          "id": 32440,
+          "optionNo": "C",
+          "text": "不确定",
+          "value": "3"
+        },
+        {
+          "id": 32441,
+          "optionNo": "D",
+          "text": "不符合",
+          "value": "4"
+        },
+        {
+          "id": 32442,
+          "optionNo": "E",
+          "text": "极不符合",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 7914,
+      "text": "有人在你面前摔门。形容词：侮辱的",
+      "type": "radio",
+      "orderNum": 13,
+      "options": [
+        {
+          "id": 32443,
+          "optionNo": "A",
+          "text": "完全不相关",
+          "value": "1"
+        },
+        {
+          "id": 32444,
+          "optionNo": "B",
+          "text": "比较不相关",
+          "value": "2"
+        },
+        {
+          "id": 32445,
+          "optionNo": "C",
+          "text": "有点不相关",
+          "value": "3"
+        },
+        {
+          "id": 32446,
+          "optionNo": "D",
+          "text": "有点相关",
+          "value": "4"
+        },
+        {
+          "id": 32447,
+          "optionNo": "E",
+          "text": "比较相关",
+          "value": "5"
+        },
+        {
+          "id": 32448,
+          "optionNo": "F",
+          "text": "非常相关",
+          "value": "6"
+        }
+      ]
+    },
+    {
+      "id": 7915,
+      "text": "有人抓了你的胳膊。形容词：粗暴的",
+      "type": "radio",
+      "orderNum": 14,
+      "options": [
+        {
+          "id": 32449,
+          "optionNo": "A",
+          "text": "完全不相关",
+          "value": "1"
+        },
+        {
+          "id": 32450,
+          "optionNo": "B",
+          "text": "比较不相关",
+          "value": "2"
+        },
+        {
+          "id": 32451,
+          "optionNo": "C",
+          "text": "有点不相关",
+          "value": "3"
+        },
+        {
+          "id": 32452,
+          "optionNo": "D",
+          "text": "有点相关",
+          "value": "4"
+        },
+        {
+          "id": 32453,
+          "optionNo": "E",
+          "text": "比较相关",
+          "value": "5"
+        },
+        {
+          "id": 32454,
+          "optionNo": "F",
+          "text": "非常相关",
+          "value": "6"
+        }
+      ]
+    },
+    {
+      "id": 7916,
+      "text": "一个朋友笑话你。形容词：不尊重的",
+      "type": "radio",
+      "orderNum": 15,
+      "options": [
+        {
+          "id": 32455,
+          "optionNo": "A",
+          "text": "完全不相关",
+          "value": "1"
+        },
+        {
+          "id": 32456,
+          "optionNo": "B",
+          "text": "比较不相关",
+          "value": "2"
+        },
+        {
+          "id": 32457,
+          "optionNo": "C",
+          "text": "有点不相关",
+          "value": "3"
+        },
+        {
+          "id": 32458,
+          "optionNo": "D",
+          "text": "有点相关",
+          "value": "4"
+        },
+        {
+          "id": 32459,
+          "optionNo": "E",
+          "text": "比较相关",
+          "value": "5"
+        },
+        {
+          "id": 32460,
+          "optionNo": "F",
+          "text": "非常相关",
+          "value": "6"
+        }
+      ]
+    },
+    {
+      "id": 7917,
+      "text": "当你在阅读的时候，有人在说话。形容词：粗鲁的",
+      "type": "radio",
+      "orderNum": 16,
+      "options": [
+        {
+          "id": 32461,
+          "optionNo": "A",
+          "text": "完全不相关",
+          "value": "1"
+        },
+        {
+          "id": 32462,
+          "optionNo": "B",
+          "text": "比较不相关",
+          "value": "2"
+        },
+        {
+          "id": 32463,
+          "optionNo": "C",
+          "text": "有点不相关",
+          "value": "3"
+        },
+        {
+          "id": 32464,
+          "optionNo": "D",
+          "text": "有点相关",
+          "value": "4"
+        },
+        {
+          "id": 32465,
+          "optionNo": "E",
+          "text": "比较相关",
+          "value": "5"
+        },
+        {
+          "id": 32466,
+          "optionNo": "F",
+          "text": "非常相关",
+          "value": "6"
+        }
+      ]
+    },
+    {
+      "id": 7918,
+      "text": "有人弄脏了你的地毯。形容词：不尊重的",
+      "type": "radio",
+      "orderNum": 17,
+      "options": [
+        {
+          "id": 32467,
+          "optionNo": "A",
+          "text": "完全不相关",
+          "value": "1"
+        },
+        {
+          "id": 32468,
+          "optionNo": "B",
+          "text": "比较不相关",
+          "value": "2"
+        },
+        {
+          "id": 32469,
+          "optionNo": "C",
+          "text": "有点不相关",
+          "value": "3"
+        },
+        {
+          "id": 32470,
+          "optionNo": "D",
+          "text": "有点相关",
+          "value": "4"
+        },
+        {
+          "id": 32471,
+          "optionNo": "E",
+          "text": "比较相关",
+          "value": "5"
+        },
+        {
+          "id": 32472,
+          "optionNo": "F",
+          "text": "非常相关",
+          "value": "6"
+        }
+      ]
+    },
+    {
+      "id": 7919,
+      "text": "你的朋友没有回应你说的话。形容词：不懂事的",
+      "type": "radio",
+      "orderNum": 18,
+      "options": [
+        {
+          "id": 32473,
+          "optionNo": "A",
+          "text": "完全不相关",
+          "value": "1"
+        },
+        {
+          "id": 32474,
+          "optionNo": "B",
+          "text": "比较不相关",
+          "value": "2"
+        },
+        {
+          "id": 32475,
+          "optionNo": "C",
+          "text": "有点不相关",
+          "value": "3"
+        },
+        {
+          "id": 32476,
+          "optionNo": "D",
+          "text": "有点相关",
+          "value": "4"
+        },
+        {
+          "id": 32477,
+          "optionNo": "E",
+          "text": "比较相关",
+          "value": "5"
+        },
+        {
+          "id": 32478,
+          "optionNo": "F",
+          "text": "非常相关",
+          "value": "6"
+        }
+      ]
+    },
+    {
+      "id": 7920,
+      "text": "有人向你皱眉。形容词：敌意的",
+      "type": "radio",
+      "orderNum": 19,
+      "options": [
+        {
+          "id": 32479,
+          "optionNo": "A",
+          "text": "完全不相关",
+          "value": "1"
+        },
+        {
+          "id": 32480,
+          "optionNo": "B",
+          "text": "比较不相关",
+          "value": "2"
+        },
+        {
+          "id": 32481,
+          "optionNo": "C",
+          "text": "有点不相关",
+          "value": "3"
+        },
+        {
+          "id": 32482,
+          "optionNo": "D",
+          "text": "有点相关",
+          "value": "4"
+        },
+        {
+          "id": 32483,
+          "optionNo": "E",
+          "text": "比较相关",
+          "value": "5"
+        },
+        {
+          "id": 32484,
+          "optionNo": "F",
+          "text": "非常相关",
+          "value": "6"
+        }
+      ]
+    },
+    {
+      "id": 7921,
+      "text": "有人挡了你的路。形容词：不顾他人的",
+      "type": "radio",
+      "orderNum": 20,
+      "options": [
+        {
+          "id": 32485,
+          "optionNo": "A",
+          "text": "完全不相关",
+          "value": "1"
+        },
+        {
+          "id": 32486,
+          "optionNo": "B",
+          "text": "比较不相关",
+          "value": "2"
+        },
+        {
+          "id": 32487,
+          "optionNo": "C",
+          "text": "有点不相关",
+          "value": "3"
+        },
+        {
+          "id": 32488,
+          "optionNo": "D",
+          "text": "有点相关",
+          "value": "4"
+        },
+        {
+          "id": 32489,
+          "optionNo": "E",
+          "text": "比较相关",
+          "value": "5"
+        },
+        {
+          "id": 32490,
+          "optionNo": "F",
+          "text": "非常相关",
+          "value": "6"
+        }
+      ]
+    },
+    {
+      "id": 7922,
+      "text": "一位朋友拒绝了你的晚餐邀请。形容词：无礼的",
+      "type": "radio",
+      "orderNum": 21,
+      "options": [
+        {
+          "id": 32491,
+          "optionNo": "A",
+          "text": "完全不相关",
+          "value": "1"
+        },
+        {
+          "id": 32492,
+          "optionNo": "B",
+          "text": "比较不相关",
+          "value": "2"
+        },
+        {
+          "id": 32493,
+          "optionNo": "C",
+          "text": "有点不相关",
+          "value": "3"
+        },
+        {
+          "id": 32494,
+          "optionNo": "D",
+          "text": "有点相关",
+          "value": "4"
+        },
+        {
+          "id": 32495,
+          "optionNo": "E",
+          "text": "比较相关",
+          "value": "5"
+        },
+        {
+          "id": 32496,
+          "optionNo": "F",
+          "text": "非常相关",
+          "value": "6"
+        }
+      ]
+    },
+    {
+      "id": 7923,
+      "text": "一辆购物车撞到了你。形容词：侵犯的",
+      "type": "radio",
+      "orderNum": 22,
+      "options": [
+        {
+          "id": 32497,
+          "optionNo": "A",
+          "text": "完全不相关",
+          "value": "1"
+        },
+        {
+          "id": 32498,
+          "optionNo": "B",
+          "text": "比较不相关",
+          "value": "2"
+        },
+        {
+          "id": 32499,
+          "optionNo": "C",
+          "text": "有点不相关",
+          "value": "3"
+        },
+        {
+          "id": 32500,
+          "optionNo": "D",
+          "text": "有点相关",
+          "value": "4"
+        },
+        {
+          "id": 32501,
+          "optionNo": "E",
+          "text": "比较相关",
+          "value": "5"
+        },
+        {
+          "id": 32502,
+          "optionNo": "F",
+          "text": "非常相关",
+          "value": "6"
+        }
+      ]
+    },
+    {
+      "id": 7924,
+      "text": "在你前面的车开的非常慢。形容词：不顾及他人的",
+      "type": "radio",
+      "orderNum": 23,
+      "options": [
+        {
+          "id": 32503,
+          "optionNo": "A",
+          "text": "完全不相关",
+          "value": "1"
+        },
+        {
+          "id": 32504,
+          "optionNo": "B",
+          "text": "比较不相关",
+          "value": "2"
+        },
+        {
+          "id": 32505,
+          "optionNo": "C",
+          "text": "有点不相关",
+          "value": "3"
+        },
+        {
+          "id": 32506,
+          "optionNo": "D",
+          "text": "有点相关",
+          "value": "4"
+        },
+        {
+          "id": 32507,
+          "optionNo": "E",
+          "text": "比较相关",
+          "value": "5"
+        },
+        {
+          "id": 32508,
+          "optionNo": "F",
+          "text": "非常相关",
+          "value": "6"
+        }
+      ]
+    },
+    {
+      "id": 7925,
+      "text": "有人撞到了你。形容词：攻击性的",
+      "type": "radio",
+      "orderNum": 24,
+      "options": [
+        {
+          "id": 32509,
+          "optionNo": "A",
+          "text": "完全不相关",
+          "value": "1"
+        },
+        {
+          "id": 32510,
+          "optionNo": "B",
+          "text": "比较不相关",
+          "value": "2"
+        },
+        {
+          "id": 32511,
+          "optionNo": "C",
+          "text": "有点不相关",
+          "value": "3"
+        },
+        {
+          "id": 32512,
+          "optionNo": "D",
+          "text": "有点相关",
+          "value": "4"
+        },
+        {
+          "id": 32513,
+          "optionNo": "E",
+          "text": "比较相关",
+          "value": "5"
+        },
+        {
+          "id": 32514,
+          "optionNo": "F",
+          "text": "非常相关",
+          "value": "6"
+        }
+      ]
+    },
+    {
+      "id": 7926,
+      "text": "有人扔的球砸到了你。形容词：不尊重的",
+      "type": "radio",
+      "orderNum": 25,
+      "options": [
+        {
+          "id": 32515,
+          "optionNo": "A",
+          "text": "完全不相关",
+          "value": "1"
+        },
+        {
+          "id": 32516,
+          "optionNo": "B",
+          "text": "比较不相关",
+          "value": "2"
+        },
+        {
+          "id": 32517,
+          "optionNo": "C",
+          "text": "有点不相关",
+          "value": "3"
+        },
+        {
+          "id": 32518,
+          "optionNo": "D",
+          "text": "有点相关",
+          "value": "4"
+        },
+        {
+          "id": 32519,
+          "optionNo": "E",
+          "text": "比较相关",
+          "value": "5"
+        },
+        {
+          "id": 32520,
+          "optionNo": "F",
+          "text": "非常相关",
+          "value": "6"
+        }
+      ]
+    },
+    {
+      "id": 7927,
+      "text": "你的朋友把垃圾留在了你的车上。形容词：无礼的",
+      "type": "radio",
+      "orderNum": 26,
+      "options": [
+        {
+          "id": 32521,
+          "optionNo": "A",
+          "text": "完全不相关",
+          "value": "1"
+        },
+        {
+          "id": 32522,
+          "optionNo": "B",
+          "text": "比较不相关",
+          "value": "2"
+        },
+        {
+          "id": 32523,
+          "optionNo": "C",
+          "text": "有点不相关",
+          "value": "3"
+        },
+        {
+          "id": 32524,
+          "optionNo": "D",
+          "text": "有点相关",
+          "value": "4"
+        },
+        {
+          "id": 32525,
+          "optionNo": "E",
+          "text": "比较相关",
+          "value": "5"
+        },
+        {
+          "id": 32526,
+          "optionNo": "F",
+          "text": "非常相关",
+          "value": "6"
+        }
+      ]
+    },
+    {
+      "id": 7928,
+      "text": "有人堵住了你的去路。形容词：不顾及他人的",
+      "type": "radio",
+      "orderNum": 27,
+      "options": [
+        {
+          "id": 32527,
+          "optionNo": "A",
+          "text": "完全不相关",
+          "value": "1"
+        },
+        {
+          "id": 32528,
+          "optionNo": "B",
+          "text": "比较不相关",
+          "value": "2"
+        },
+        {
+          "id": 32529,
+          "optionNo": "C",
+          "text": "有点不相关",
+          "value": "3"
+        },
+        {
+          "id": 32530,
+          "optionNo": "D",
+          "text": "有点相关",
+          "value": "4"
+        },
+        {
+          "id": 32531,
+          "optionNo": "E",
+          "text": "比较相关",
+          "value": "5"
+        },
+        {
+          "id": 32532,
+          "optionNo": "F",
+          "text": "非常相关",
+          "value": "6"
+        }
+      ]
+    },
+    {
+      "id": 7929,
+      "text": "有个朋友没有给你打招呼。形容词：不理睬的",
+      "type": "radio",
+      "orderNum": 28,
+      "options": [
+        {
+          "id": 32533,
+          "optionNo": "A",
+          "text": "完全不相关",
+          "value": "1"
+        },
+        {
+          "id": 32534,
+          "optionNo": "B",
+          "text": "比较不相关",
+          "value": "2"
+        },
+        {
+          "id": 32535,
+          "optionNo": "C",
+          "text": "有点不相关",
+          "value": "3"
+        },
+        {
+          "id": 32536,
+          "optionNo": "D",
+          "text": "有点相关",
+          "value": "4"
+        },
+        {
+          "id": 32537,
+          "optionNo": "E",
+          "text": "比较相关",
+          "value": "5"
+        },
+        {
+          "id": 32538,
+          "optionNo": "F",
+          "text": "非常相关",
+          "value": "6"
+        }
+      ]
+    },
+    {
+      "id": 7930,
+      "text": "我常常搞不清自己有什么样的感受。",
+      "type": "radio",
+      "orderNum": 29,
+      "options": [
+        {
+          "id": 32539,
+          "optionNo": "A",
+          "text": "很不同意",
+          "value": "1"
+        },
+        {
+          "id": 32540,
+          "optionNo": "B",
+          "text": "不同意",
+          "value": "2"
+        },
+        {
+          "id": 32541,
+          "optionNo": "C",
+          "text": "部分同意",
+          "value": "3"
+        },
+        {
+          "id": 32542,
+          "optionNo": "D",
+          "text": "同意",
+          "value": "4"
+        },
+        {
+          "id": 32543,
+          "optionNo": "E",
+          "text": "很同意",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 7931,
+      "text": "我感到难以用恰当的词语来描述我的感受。",
+      "type": "radio",
+      "orderNum": 30,
+      "options": [
+        {
+          "id": 32544,
+          "optionNo": "A",
+          "text": "很不同意",
+          "value": "1"
+        },
+        {
+          "id": 32545,
+          "optionNo": "B",
+          "text": "不同意",
+          "value": "2"
+        },
+        {
+          "id": 32546,
+          "optionNo": "C",
+          "text": "部分同意",
+          "value": "3"
+        },
+        {
+          "id": 32547,
+          "optionNo": "D",
+          "text": "同意",
+          "value": "4"
+        },
+        {
+          "id": 32548,
+          "optionNo": "E",
+          "text": "很同意",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 7932,
+      "text": "我有一些即使是医生也不能理解的身体感觉。",
+      "type": "radio",
+      "orderNum": 31,
+      "options": [
+        {
+          "id": 32549,
+          "optionNo": "A",
+          "text": "很不同意",
+          "value": "1"
+        },
+        {
+          "id": 32550,
+          "optionNo": "B",
+          "text": "不同意",
+          "value": "2"
+        },
+        {
+          "id": 32551,
+          "optionNo": "C",
+          "text": "部分同意",
+          "value": "3"
+        },
+        {
+          "id": 32552,
+          "optionNo": "D",
+          "text": "同意",
+          "value": "4"
+        },
+        {
+          "id": 32553,
+          "optionNo": "E",
+          "text": "很同意",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 7933,
+      "text": "我能容易地描述出自己的感受。",
+      "type": "radio",
+      "orderNum": 32,
+      "options": [
+        {
+          "id": 32554,
+          "optionNo": "A",
+          "text": "很不同意",
+          "value": "1"
+        },
+        {
+          "id": 32555,
+          "optionNo": "B",
+          "text": "不同意",
+          "value": "2"
+        },
+        {
+          "id": 32556,
+          "optionNo": "C",
+          "text": "部分同意",
+          "value": "3"
+        },
+        {
+          "id": 32557,
+          "optionNo": "D",
+          "text": "同意",
+          "value": "4"
+        },
+        {
+          "id": 32558,
+          "optionNo": "E",
+          "text": "很同意",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 7934,
+      "text": "我更喜欢分析问题而不仅仅是描述它们。",
+      "type": "radio",
+      "orderNum": 33,
+      "options": [
+        {
+          "id": 32559,
+          "optionNo": "A",
+          "text": "很不同意",
+          "value": "1"
+        },
+        {
+          "id": 32560,
+          "optionNo": "B",
+          "text": "不同意",
+          "value": "2"
+        },
+        {
+          "id": 32561,
+          "optionNo": "C",
+          "text": "部分同意",
+          "value": "3"
+        },
+        {
+          "id": 32562,
+          "optionNo": "D",
+          "text": "同意",
+          "value": "4"
+        },
+        {
+          "id": 32563,
+          "optionNo": "E",
+          "text": "很同意",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 7935,
+      "text": "当我心里难受时，我不知道究竟是悲伤，害怕，还是恼怒。",
+      "type": "radio",
+      "orderNum": 34,
+      "options": [
+        {
+          "id": 32564,
+          "optionNo": "A",
+          "text": "很不同意",
+          "value": "1"
+        },
+        {
+          "id": 32565,
+          "optionNo": "B",
+          "text": "不同意",
+          "value": "2"
+        },
+        {
+          "id": 32566,
+          "optionNo": "C",
+          "text": "部分同意",
+          "value": "3"
+        },
+        {
+          "id": 32567,
+          "optionNo": "D",
+          "text": "同意",
+          "value": "4"
+        },
+        {
+          "id": 32568,
+          "optionNo": "E",
+          "text": "很同意",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 7936,
+      "text": "我常常被我身体的一些感觉所困惑。",
+      "type": "radio",
+      "orderNum": 35,
+      "options": [
+        {
+          "id": 32569,
+          "optionNo": "A",
+          "text": "很不同意",
+          "value": "1"
+        },
+        {
+          "id": 32570,
+          "optionNo": "B",
+          "text": "不同意",
+          "value": "2"
+        },
+        {
+          "id": 32571,
+          "optionNo": "C",
+          "text": "部分同意",
+          "value": "3"
+        },
+        {
+          "id": 32572,
+          "optionNo": "D",
+          "text": "同意",
+          "value": "4"
+        },
+        {
+          "id": 32573,
+          "optionNo": "E",
+          "text": "很同意",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 7937,
+      "text": "我偏向于任随事情发生，而不是去了解它们为何会发展成那样。",
+      "type": "radio",
+      "orderNum": 36,
+      "options": [
+        {
+          "id": 32574,
+          "optionNo": "A",
+          "text": "很不同意",
+          "value": "1"
+        },
+        {
+          "id": 32575,
+          "optionNo": "B",
+          "text": "不同意",
+          "value": "2"
+        },
+        {
+          "id": 32576,
+          "optionNo": "C",
+          "text": "部分同意",
+          "value": "3"
+        },
+        {
+          "id": 32577,
+          "optionNo": "D",
+          "text": "同意",
+          "value": "4"
+        },
+        {
+          "id": 32578,
+          "optionNo": "E",
+          "text": "很同意",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 7938,
+      "text": "我有一些自己难以识别的感受。",
+      "type": "radio",
+      "orderNum": 37,
+      "options": [
+        {
+          "id": 32579,
+          "optionNo": "A",
+          "text": "很不同意",
+          "value": "1"
+        },
+        {
+          "id": 32580,
+          "optionNo": "B",
+          "text": "不同意",
+          "value": "2"
+        },
+        {
+          "id": 32581,
+          "optionNo": "C",
+          "text": "部分同意",
+          "value": "3"
+        },
+        {
+          "id": 32582,
+          "optionNo": "D",
+          "text": "同意",
+          "value": "4"
+        },
+        {
+          "id": 32583,
+          "optionNo": "E",
+          "text": "很同意",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 7939,
+      "text": "知道自己有何内心体验，对我来说很重要。",
+      "type": "radio",
+      "orderNum": 38,
+      "options": [
+        {
+          "id": 32584,
+          "optionNo": "A",
+          "text": "很不同意",
+          "value": "1"
+        },
+        {
+          "id": 32585,
+          "optionNo": "B",
+          "text": "不同意",
+          "value": "2"
+        },
+        {
+          "id": 32586,
+          "optionNo": "C",
+          "text": "部分同意",
+          "value": "3"
+        },
+        {
+          "id": 32587,
+          "optionNo": "D",
+          "text": "同意",
+          "value": "4"
+        },
+        {
+          "id": 32588,
+          "optionNo": "E",
+          "text": "很同意",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 7940,
+      "text": "我难以描述我对别人有何感受。",
+      "type": "radio",
+      "orderNum": 39,
+      "options": [
+        {
+          "id": 32589,
+          "optionNo": "A",
+          "text": "很不同意",
+          "value": "1"
+        },
+        {
+          "id": 32590,
+          "optionNo": "B",
+          "text": "不同意",
+          "value": "2"
+        },
+        {
+          "id": 32591,
+          "optionNo": "C",
+          "text": "部分同意",
+          "value": "3"
+        },
+        {
+          "id": 32592,
+          "optionNo": "D",
+          "text": "同意",
+          "value": "4"
+        },
+        {
+          "id": 32593,
+          "optionNo": "E",
+          "text": "很同意",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 7941,
+      "text": "人们要我多描述一些我的感受。",
+      "type": "radio",
+      "orderNum": 40,
+      "options": [
+        {
+          "id": 32594,
+          "optionNo": "A",
+          "text": "很不同意",
+          "value": "1"
+        },
+        {
+          "id": 32595,
+          "optionNo": "B",
+          "text": "不同意",
+          "value": "2"
+        },
+        {
+          "id": 32596,
+          "optionNo": "C",
+          "text": "部分同意",
+          "value": "3"
+        },
+        {
+          "id": 32597,
+          "optionNo": "D",
+          "text": "同意",
+          "value": "4"
+        },
+        {
+          "id": 32598,
+          "optionNo": "E",
+          "text": "很同意",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 7942,
+      "text": "我不知道自己内心在发生一些什么活动。",
+      "type": "radio",
+      "orderNum": 41,
+      "options": [
+        {
+          "id": 32599,
+          "optionNo": "A",
+          "text": "很不同意",
+          "value": "1"
+        },
+        {
+          "id": 32600,
+          "optionNo": "B",
+          "text": "不同意",
+          "value": "2"
+        },
+        {
+          "id": 32601,
+          "optionNo": "C",
+          "text": "部分同意",
+          "value": "3"
+        },
+        {
+          "id": 32602,
+          "optionNo": "D",
+          "text": "同意",
+          "value": "4"
+        },
+        {
+          "id": 32603,
+          "optionNo": "E",
+          "text": "很同意",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 7943,
+      "text": "我常常不知道我为何会气愤。",
+      "type": "radio",
+      "orderNum": 42,
+      "options": [
+        {
+          "id": 32604,
+          "optionNo": "A",
+          "text": "很不同意",
+          "value": "1"
+        },
+        {
+          "id": 32605,
+          "optionNo": "B",
+          "text": "不同意",
+          "value": "2"
+        },
+        {
+          "id": 32606,
+          "optionNo": "C",
+          "text": "部分同意",
+          "value": "3"
+        },
+        {
+          "id": 32607,
+          "optionNo": "D",
+          "text": "同意",
+          "value": "4"
+        },
+        {
+          "id": 32608,
+          "optionNo": "E",
+          "text": "很同意",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 7944,
+      "text": "我喜欢与别人谈论他们的日常活动而不是他们的感受。",
+      "type": "radio",
+      "orderNum": 43,
+      "options": [
+        {
+          "id": 32609,
+          "optionNo": "A",
+          "text": "很不同意",
+          "value": "1"
+        },
+        {
+          "id": 32610,
+          "optionNo": "B",
+          "text": "不同意",
+          "value": "2"
+        },
+        {
+          "id": 32611,
+          "optionNo": "C",
+          "text": "部分同意",
+          "value": "3"
+        },
+        {
+          "id": 32612,
+          "optionNo": "D",
+          "text": "同意",
+          "value": "4"
+        },
+        {
+          "id": 32613,
+          "optionNo": "E",
+          "text": "很同意",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 7945,
+      "text": "我喜欢看轻松的“娱乐片”胜过看关于个人命运的情节片。",
+      "type": "radio",
+      "orderNum": 44,
+      "options": [
+        {
+          "id": 32614,
+          "optionNo": "A",
+          "text": "很不同意",
+          "value": "1"
+        },
+        {
+          "id": 32615,
+          "optionNo": "B",
+          "text": "不同意",
+          "value": "2"
+        },
+        {
+          "id": 32616,
+          "optionNo": "C",
+          "text": "部分同意",
+          "value": "3"
+        },
+        {
+          "id": 32617,
+          "optionNo": "D",
+          "text": "同意",
+          "value": "4"
+        },
+        {
+          "id": 32618,
+          "optionNo": "E",
+          "text": "很同意",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 7946,
+      "text": "即使是对密友，我也难以表露我内心深处的感受。",
+      "type": "radio",
+      "orderNum": 45,
+      "options": [
+        {
+          "id": 32619,
+          "optionNo": "A",
+          "text": "很不同意",
+          "value": "1"
+        },
+        {
+          "id": 32620,
+          "optionNo": "B",
+          "text": "不同意",
+          "value": "2"
+        },
+        {
+          "id": 32621,
+          "optionNo": "C",
+          "text": "部分同意",
+          "value": "3"
+        },
+        {
+          "id": 32622,
+          "optionNo": "D",
+          "text": "同意",
+          "value": "4"
+        },
+        {
+          "id": 32623,
+          "optionNo": "E",
+          "text": "很同意",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 7947,
+      "text": "我能感到与某人有亲切感，即使在我们沉默无言之时。",
+      "type": "radio",
+      "orderNum": 46,
+      "options": [
+        {
+          "id": 32624,
+          "optionNo": "A",
+          "text": "很不同意",
+          "value": "1"
+        },
+        {
+          "id": 32625,
+          "optionNo": "B",
+          "text": "不同意",
+          "value": "2"
+        },
+        {
+          "id": 32626,
+          "optionNo": "C",
+          "text": "部分同意",
+          "value": "3"
+        },
+        {
+          "id": 32627,
+          "optionNo": "D",
+          "text": "同意",
+          "value": "4"
+        },
+        {
+          "id": 32628,
+          "optionNo": "E",
+          "text": "很同意",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 7948,
+      "text": "我觉得省察自己的感受对于解决个人问题是有用的。",
+      "type": "radio",
+      "orderNum": 47,
+      "options": [
+        {
+          "id": 32629,
+          "optionNo": "A",
+          "text": "很不同意",
+          "value": "1"
+        },
+        {
+          "id": 32630,
+          "optionNo": "B",
+          "text": "不同意",
+          "value": "2"
+        },
+        {
+          "id": 32631,
+          "optionNo": "C",
+          "text": "部分同意",
+          "value": "3"
+        },
+        {
+          "id": 32632,
+          "optionNo": "D",
+          "text": "同意",
+          "value": "4"
+        },
+        {
+          "id": 32633,
+          "optionNo": "E",
+          "text": "很同意",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 7949,
+      "text": "寻找电影或戏剧中隐藏的意义会使人从娱乐中分心。",
+      "type": "radio",
+      "orderNum": 48,
+      "options": [
+        {
+          "id": 32634,
+          "optionNo": "A",
+          "text": "很不同意",
+          "value": "1"
+        },
+        {
+          "id": 32635,
+          "optionNo": "B",
+          "text": "不同意",
+          "value": "2"
+        },
+        {
+          "id": 32636,
+          "optionNo": "C",
+          "text": "部分同意",
+          "value": "3"
+        },
+        {
+          "id": 32637,
+          "optionNo": "D",
+          "text": "同意",
+          "value": "4"
+        },
+        {
+          "id": 32638,
+          "optionNo": "E",
+          "text": "很同意",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 7950,
+      "text": "在商店结账时，售货员没有注意到他找给你多余的零钱后，你决定把这笔钱留下而不是将多余的钱还给售货员。你认为，你因为保留这笔钱而感到心里不舒服的可能性有多大？",
+      "type": "radio",
+      "orderNum": 49,
+      "options": [
+        {
+          "id": 32639,
+          "optionNo": "A",
+          "text": "非常不可能",
+          "value": "1"
+        },
+        {
+          "id": 32640,
+          "optionNo": "B",
+          "text": "不可能",
+          "value": "2"
+        },
+        {
+          "id": 32641,
+          "optionNo": "C",
+          "text": "比较不可能",
+          "value": "3"
+        },
+        {
+          "id": 32642,
+          "optionNo": "D",
+          "text": "不确定",
+          "value": "4"
+        },
+        {
+          "id": 32643,
+          "optionNo": "E",
+          "text": "比较可能",
+          "value": "5"
+        },
+        {
+          "id": 32644,
+          "optionNo": "F",
+          "text": "可能",
+          "value": "6"
+        },
+        {
+          "id": 32645,
+          "optionNo": "G",
+          "text": "非常可能",
+          "value": "7"
+        }
+      ]
+    },
+    {
+      "id": 7951,
+      "text": "因为你翘了太多的课，你私下被告知，你是你们组唯一一个没有评优的人。因为此事，在这之后你对你的课业更加认真且负责任的可能性有多大？",
+      "type": "radio",
+      "orderNum": 50,
+      "options": [
+        {
+          "id": 32646,
+          "optionNo": "A",
+          "text": "非常不可能",
+          "value": "1"
+        },
+        {
+          "id": 32647,
+          "optionNo": "B",
+          "text": "不可能",
+          "value": "2"
+        },
+        {
+          "id": 32648,
+          "optionNo": "C",
+          "text": "比较不可能",
+          "value": "3"
+        },
+        {
+          "id": 32649,
+          "optionNo": "D",
+          "text": "不确定",
+          "value": "4"
+        },
+        {
+          "id": 32650,
+          "optionNo": "E",
+          "text": "比较可能",
+          "value": "5"
+        },
+        {
+          "id": 32651,
+          "optionNo": "F",
+          "text": "可能",
+          "value": "6"
+        },
+        {
+          "id": 32652,
+          "optionNo": "G",
+          "text": "非常可能",
+          "value": "7"
+        }
+      ]
+    },
+    {
+      "id": 7952,
+      "text": "你从图书馆的期刊上撕下一篇文章并带走。你的老师发现了你的所作所为，并告诉了工作人员和你的全班同学这件事，会让你觉得自己是个坏人的可能性有多大？",
+      "type": "radio",
+      "orderNum": 51,
+      "options": [
+        {
+          "id": 32653,
+          "optionNo": "A",
+          "text": "非常不可能",
+          "value": "1"
+        },
+        {
+          "id": 32654,
+          "optionNo": "B",
+          "text": "不可能",
+          "value": "2"
+        },
+        {
+          "id": 32655,
+          "optionNo": "C",
+          "text": "比较不可能",
+          "value": "3"
+        },
+        {
+          "id": 32656,
+          "optionNo": "D",
+          "text": "不确定",
+          "value": "4"
+        },
+        {
+          "id": 32657,
+          "optionNo": "E",
+          "text": "比较可能",
+          "value": "5"
+        },
+        {
+          "id": 32658,
+          "optionNo": "F",
+          "text": "可能",
+          "value": "6"
+        },
+        {
+          "id": 32659,
+          "optionNo": "G",
+          "text": "非常可能",
+          "value": "7"
+        }
+      ]
+    },
+    {
+      "id": 7953,
+      "text": "你在一个你主导的非常重要的工作项目上犯了大错之后，你的老板在你的所有同事面前批评你。你因此假装生病请假的可能性有多大？",
+      "type": "radio",
+      "orderNum": 52,
+      "options": [
+        {
+          "id": 32660,
+          "optionNo": "A",
+          "text": "非常不可能",
+          "value": "1"
+        },
+        {
+          "id": 32661,
+          "optionNo": "B",
+          "text": "不可能",
+          "value": "2"
+        },
+        {
+          "id": 32662,
+          "optionNo": "C",
+          "text": "比较不可能",
+          "value": "3"
+        },
+        {
+          "id": 32663,
+          "optionNo": "D",
+          "text": "不确定",
+          "value": "4"
+        },
+        {
+          "id": 32664,
+          "optionNo": "E",
+          "text": "比较可能",
+          "value": "5"
+        },
+        {
+          "id": 32665,
+          "optionNo": "F",
+          "text": "可能",
+          "value": "6"
+        },
+        {
+          "id": 32666,
+          "optionNo": "G",
+          "text": "非常可能",
+          "value": "7"
+        }
+      ]
+    },
+    {
+      "id": 7954,
+      "text": "你泄露了朋友的秘密,但你的朋友永远不会发现。因为此事,在将来你可能会付出额外的努力来保守一切秘密吗?",
+      "type": "radio",
+      "orderNum": 53,
+      "options": [
+        {
+          "id": 32667,
+          "optionNo": "A",
+          "text": "非常不可能",
+          "value": "1"
+        },
+        {
+          "id": 32668,
+          "optionNo": "B",
+          "text": "不可能",
+          "value": "2"
+        },
+        {
+          "id": 32669,
+          "optionNo": "C",
+          "text": "比较不可能",
+          "value": "3"
+        },
+        {
+          "id": 32670,
+          "optionNo": "D",
+          "text": "不确定",
+          "value": "4"
+        },
+        {
+          "id": 32671,
+          "optionNo": "E",
+          "text": "比较可能",
+          "value": "5"
+        },
+        {
+          "id": 32672,
+          "optionNo": "F",
+          "text": "可能",
+          "value": "6"
+        },
+        {
+          "id": 32673,
+          "optionNo": "G",
+          "text": "非常可能",
+          "value": "7"
+        }
+      ]
+    },
+    {
+      "id": 7955,
+      "text": "你的工作汇报做得很糟糕。之后,你的老板告诉你的同事,因为你的错,公司才失去了这个合同。你因此感到自己无能的可能性有多大?",
+      "type": "radio",
+      "orderNum": 54,
+      "options": [
+        {
+          "id": 32674,
+          "optionNo": "A",
+          "text": "非常不可能",
+          "value": "1"
+        },
+        {
+          "id": 32675,
+          "optionNo": "B",
+          "text": "不可能",
+          "value": "2"
+        },
+        {
+          "id": 32676,
+          "optionNo": "C",
+          "text": "比较不可能",
+          "value": "3"
+        },
+        {
+          "id": 32677,
+          "optionNo": "D",
+          "text": "不确定",
+          "value": "4"
+        },
+        {
+          "id": 32678,
+          "optionNo": "E",
+          "text": "比较可能",
+          "value": "5"
+        },
+        {
+          "id": 32679,
+          "optionNo": "F",
+          "text": "可能",
+          "value": "6"
+        },
+        {
+          "id": 32680,
+          "optionNo": "G",
+          "text": "非常可能",
+          "value": "7"
+        }
+      ]
+    },
+    {
+      "id": 7956,
+      "text": "一个朋友告诉你,你经常夸夸其谈,大肆鼓吹。你日后不再花时间和那个朋友在一起玩的可能性有多大？",
+      "type": "radio",
+      "orderNum": 55,
+      "options": [
+        {
+          "id": 32681,
+          "optionNo": "A",
+          "text": "非常不可能",
+          "value": "1"
+        },
+        {
+          "id": 32682,
+          "optionNo": "B",
+          "text": "不可能",
+          "value": "2"
+        },
+        {
+          "id": 32683,
+          "optionNo": "C",
+          "text": "比较不可能",
+          "value": "3"
+        },
+        {
+          "id": 32684,
+          "optionNo": "D",
+          "text": "不确定",
+          "value": "4"
+        },
+        {
+          "id": 32685,
+          "optionNo": "E",
+          "text": "比较可能",
+          "value": "5"
+        },
+        {
+          "id": 32686,
+          "optionNo": "F",
+          "text": "可能",
+          "value": "6"
+        },
+        {
+          "id": 32687,
+          "optionNo": "G",
+          "text": "非常可能",
+          "value": "7"
+        }
+      ]
+    },
+    {
+      "id": 7957,
+      "text": "你的家很乱,你认识但你未曾邀请的人在敲你的门。你躲着他们直到他们离开的可能性有多大？",
+      "type": "radio",
+      "orderNum": 56,
+      "options": [
+        {
+          "id": 32688,
+          "optionNo": "A",
+          "text": "非常不可能",
+          "value": "1"
+        },
+        {
+          "id": 32689,
+          "optionNo": "B",
+          "text": "不可能",
+          "value": "2"
+        },
+        {
+          "id": 32690,
+          "optionNo": "C",
+          "text": "比较不可能",
+          "value": "3"
+        },
+        {
+          "id": 32691,
+          "optionNo": "D",
+          "text": "不确定",
+          "value": "4"
+        },
+        {
+          "id": 32692,
+          "optionNo": "E",
+          "text": "比较可能",
+          "value": "5"
+        },
+        {
+          "id": 32693,
+          "optionNo": "F",
+          "text": "可能",
+          "value": "6"
+        },
+        {
+          "id": 32694,
+          "optionNo": "G",
+          "text": "非常可能",
+          "value": "7"
+        }
+      ]
+    },
+    {
+      "id": 7958,
+      "text": "你犯了重罪,但未被任何人发现。你对违法行为感到懊悔的可能性有多大?",
+      "type": "radio",
+      "orderNum": 57,
+      "options": [
+        {
+          "id": 32695,
+          "optionNo": "A",
+          "text": "非常不可能",
+          "value": "1"
+        },
+        {
+          "id": 32696,
+          "optionNo": "B",
+          "text": "不可能",
+          "value": "2"
+        },
+        {
+          "id": 32697,
+          "optionNo": "C",
+          "text": "比较不可能",
+          "value": "3"
+        },
+        {
+          "id": 32698,
+          "optionNo": "D",
+          "text": "不确定",
+          "value": "4"
+        },
+        {
+          "id": 32699,
+          "optionNo": "E",
+          "text": "比较可能",
+          "value": "5"
+        },
+        {
+          "id": 32700,
+          "optionNo": "F",
+          "text": "可能",
+          "value": "6"
+        },
+        {
+          "id": 32701,
+          "optionNo": "G",
+          "text": "非常可能",
+          "value": "7"
+        }
+      ]
+    },
+    {
+      "id": 7959,
+      "text": "你在一起官司中向法官成功夸大了你的损失。但几个月后,你的谎言被揭露,你被指控作伪证。你认为自己是一个卑鄙的人的可能性有多大?",
+      "type": "radio",
+      "orderNum": 58,
+      "options": [
+        {
+          "id": 32702,
+          "optionNo": "A",
+          "text": "非常不可能",
+          "value": "1"
+        },
+        {
+          "id": 32703,
+          "optionNo": "B",
+          "text": "不可能",
+          "value": "2"
+        },
+        {
+          "id": 32704,
+          "optionNo": "C",
+          "text": "比较不可能",
+          "value": "3"
+        },
+        {
+          "id": 32705,
+          "optionNo": "D",
+          "text": "不确定",
+          "value": "4"
+        },
+        {
+          "id": 32706,
+          "optionNo": "E",
+          "text": "比较可能",
+          "value": "5"
+        },
+        {
+          "id": 32707,
+          "optionNo": "F",
+          "text": "可能",
+          "value": "6"
+        },
+        {
+          "id": 32708,
+          "optionNo": "G",
+          "text": "非常可能",
+          "value": "7"
+        }
+      ]
+    },
+    {
+      "id": 7960,
+      "text": "你在和大家的讨论中极力捍卫一个观点,但在别人发现之前,你就意识到自己观点是错的。这会让你日后在说话前,更仔细地思考自己观点是否正确的可能性有多大?",
+      "type": "radio",
+      "orderNum": 59,
+      "options": [
+        {
+          "id": 32709,
+          "optionNo": "A",
+          "text": "非常不可能",
+          "value": "1"
+        },
+        {
+          "id": 32710,
+          "optionNo": "B",
+          "text": "不可能",
+          "value": "2"
+        },
+        {
+          "id": 32711,
+          "optionNo": "C",
+          "text": "比较不可能",
+          "value": "3"
+        },
+        {
+          "id": 32712,
+          "optionNo": "D",
+          "text": "不确定",
+          "value": "4"
+        },
+        {
+          "id": 32713,
+          "optionNo": "E",
+          "text": "比较可能",
+          "value": "5"
+        },
+        {
+          "id": 32714,
+          "optionNo": "F",
+          "text": "可能",
+          "value": "6"
+        },
+        {
+          "id": 32715,
+          "optionNo": "G",
+          "text": "非常可能",
+          "value": "7"
+        }
+      ]
+    },
+    {
+      "id": 7961,
+      "text": "你把办公用品带回家自用,结果被老板发现了。这会导致你辞职的可能性有多大?",
+      "type": "radio",
+      "orderNum": 60,
+      "options": [
+        {
+          "id": 32716,
+          "optionNo": "A",
+          "text": "非常不可能",
+          "value": "1"
+        },
+        {
+          "id": 32717,
+          "optionNo": "B",
+          "text": "不可能",
+          "value": "2"
+        },
+        {
+          "id": 32718,
+          "optionNo": "C",
+          "text": "比较不可能",
+          "value": "3"
+        },
+        {
+          "id": 32719,
+          "optionNo": "D",
+          "text": "不确定",
+          "value": "4"
+        },
+        {
+          "id": 32720,
+          "optionNo": "E",
+          "text": "比较可能",
+          "value": "5"
+        },
+        {
+          "id": 32721,
+          "optionNo": "F",
+          "text": "可能",
+          "value": "6"
+        },
+        {
+          "id": 32722,
+          "optionNo": "G",
+          "text": "非常可能",
+          "value": "7"
+        }
+      ]
+    },
+    {
+      "id": 7962,
+      "text": "你在工作中犯了一个错误,但发现是你同事的责任,你并没有告知任何人。但在之后,你的这个同事却就你的错误质问你。你觉得自己是个懦夫的可能性有多大?",
+      "type": "radio",
+      "orderNum": 61,
+      "options": [
+        {
+          "id": 32723,
+          "optionNo": "A",
+          "text": "非常不可能",
+          "value": "1"
+        },
+        {
+          "id": 32724,
+          "optionNo": "B",
+          "text": "不可能",
+          "value": "2"
+        },
+        {
+          "id": 32725,
+          "optionNo": "C",
+          "text": "比较不可能",
+          "value": "3"
+        },
+        {
+          "id": 32726,
+          "optionNo": "D",
+          "text": "不确定",
+          "value": "4"
+        },
+        {
+          "id": 32727,
+          "optionNo": "E",
+          "text": "比较可能",
+          "value": "5"
+        },
+        {
+          "id": 32728,
+          "optionNo": "F",
+          "text": "可能",
+          "value": "6"
+        },
+        {
+          "id": 32729,
+          "optionNo": "G",
+          "text": "非常可能",
+          "value": "7"
+        }
+      ]
+    },
+    {
+      "id": 7963,
+      "text": "在同事的乔迁派对上,你把红酒洒在了他们新买的米色地毯上,但你用一把椅子成功盖住了污渍,这样就没人注意到你制造的脏乱。你觉得自己的行为很可耻的可能性有多大?",
+      "type": "radio",
+      "orderNum": 62,
+      "options": [
+        {
+          "id": 32730,
+          "optionNo": "A",
+          "text": "非常不可能",
+          "value": "1"
+        },
+        {
+          "id": 32731,
+          "optionNo": "B",
+          "text": "不可能",
+          "value": "2"
+        },
+        {
+          "id": 32732,
+          "optionNo": "C",
+          "text": "比较不可能",
+          "value": "3"
+        },
+        {
+          "id": 32733,
+          "optionNo": "D",
+          "text": "不确定",
+          "value": "4"
+        },
+        {
+          "id": 32734,
+          "optionNo": "E",
+          "text": "比较可能",
+          "value": "5"
+        },
+        {
+          "id": 32735,
+          "optionNo": "F",
+          "text": "可能",
+          "value": "6"
+        },
+        {
+          "id": 32736,
+          "optionNo": "G",
+          "text": "非常可能",
+          "value": "7"
+        }
+      ]
+    },
+    {
+      "id": 7964,
+      "text": "在和朋友讨论一个激烈的话题时,尽管你的朋友未曾注意,但你突然意识到自己在对朋友大喊大叫。因为意识到此事,将来你对朋友表现得更体贴的可能性有多大?",
+      "type": "radio",
+      "orderNum": 63,
+      "options": [
+        {
+          "id": 32737,
+          "optionNo": "A",
+          "text": "非常不可能",
+          "value": "1"
+        },
+        {
+          "id": 32738,
+          "optionNo": "B",
+          "text": "不可能",
+          "value": "2"
+        },
+        {
+          "id": 32739,
+          "optionNo": "C",
+          "text": "比较不可能",
+          "value": "3"
+        },
+        {
+          "id": 32740,
+          "optionNo": "D",
+          "text": "不确定",
+          "value": "4"
+        },
+        {
+          "id": 32741,
+          "optionNo": "E",
+          "text": "比较可能",
+          "value": "5"
+        },
+        {
+          "id": 32742,
+          "optionNo": "F",
+          "text": "可能",
+          "value": "6"
+        },
+        {
+          "id": 32743,
+          "optionNo": "G",
+          "text": "非常可能",
+          "value": "7"
+        }
+      ]
+    },
+    {
+      "id": 7965,
+      "text": "你对别人撒谎,但他们永远不会发现。你为自己撒的谎感到羞愧的可能性有多大?",
+      "type": "radio",
+      "orderNum": 64,
+      "options": [
+        {
+          "id": 32744,
+          "optionNo": "A",
+          "text": "非常不可能",
+          "value": "1"
+        },
+        {
+          "id": 32745,
+          "optionNo": "B",
+          "text": "不可能",
+          "value": "2"
+        },
+        {
+          "id": 32746,
+          "optionNo": "C",
+          "text": "比较不可能",
+          "value": "3"
+        },
+        {
+          "id": 32747,
+          "optionNo": "D",
+          "text": "不确定",
+          "value": "4"
+        },
+        {
+          "id": 32748,
+          "optionNo": "E",
+          "text": "比较可能",
+          "value": "5"
+        },
+        {
+          "id": 32749,
+          "optionNo": "F",
+          "text": "可能",
+          "value": "6"
+        },
+        {
+          "id": 32750,
+          "optionNo": "G",
+          "text": "非常可能",
+          "value": "7"
+        }
+      ]
+    },
+    {
+      "id": 7966,
+      "text": "会觉得生活很美好",
+      "type": "radio",
+      "orderNum": 65,
+      "options": [
+        {
+          "id": 32751,
+          "optionNo": "A",
+          "text": "从不",
+          "value": "1"
+        },
+        {
+          "id": 32752,
+          "optionNo": "B",
+          "text": "有时",
+          "value": "2"
+        },
+        {
+          "id": 32753,
+          "optionNo": "C",
+          "text": "经常",
+          "value": "3"
+        },
+        {
+          "id": 32754,
+          "optionNo": "D",
+          "text": "总是",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 7967,
+      "text": "会想到“好景不长好花不常”",
+      "type": "radio",
+      "orderNum": 66,
+      "options": [
+        {
+          "id": 32755,
+          "optionNo": "A",
+          "text": "从不",
+          "value": "1"
+        },
+        {
+          "id": 32756,
+          "optionNo": "B",
+          "text": "有时",
+          "value": "2"
+        },
+        {
+          "id": 32757,
+          "optionNo": "C",
+          "text": "经常",
+          "value": "3"
+        },
+        {
+          "id": 32758,
+          "optionNo": "D",
+          "text": "总是",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 7968,
+      "text": "会为自己感到骄傲",
+      "type": "radio",
+      "orderNum": 67,
+      "options": [
+        {
+          "id": 32759,
+          "optionNo": "A",
+          "text": "从不",
+          "value": "1"
+        },
+        {
+          "id": 32760,
+          "optionNo": "B",
+          "text": "有时",
+          "value": "2"
+        },
+        {
+          "id": 32761,
+          "optionNo": "C",
+          "text": "经常",
+          "value": "3"
+        },
+        {
+          "id": 32762,
+          "optionNo": "D",
+          "text": "总是",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 7969,
+      "text": "会感到自己精力充沛",
+      "type": "radio",
+      "orderNum": 68,
+      "options": [
+        {
+          "id": 32763,
+          "optionNo": "A",
+          "text": "从不",
+          "value": "1"
+        },
+        {
+          "id": 32764,
+          "optionNo": "B",
+          "text": "有时",
+          "value": "2"
+        },
+        {
+          "id": 32765,
+          "optionNo": "C",
+          "text": "经常",
+          "value": "3"
+        },
+        {
+          "id": 32766,
+          "optionNo": "D",
+          "text": "总是",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 7970,
+      "text": "会想到“盛极必衰“",
+      "type": "radio",
+      "orderNum": 69,
+      "options": [
+        {
+          "id": 32767,
+          "optionNo": "A",
+          "text": "从不",
+          "value": "1"
+        },
+        {
+          "id": 32768,
+          "optionNo": "B",
+          "text": "有时",
+          "value": "2"
+        },
+        {
+          "id": 32769,
+          "optionNo": "C",
+          "text": "经常",
+          "value": "3"
+        },
+        {
+          "id": 32770,
+          "optionNo": "D",
+          "text": "总是",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 7971,
+      "text": "会觉得好幸福",
+      "type": "radio",
+      "orderNum": 70,
+      "options": [
+        {
+          "id": 32771,
+          "optionNo": "A",
+          "text": "从不",
+          "value": "1"
+        },
+        {
+          "id": 32772,
+          "optionNo": "B",
+          "text": "有时",
+          "value": "2"
+        },
+        {
+          "id": 32773,
+          "optionNo": "C",
+          "text": "经常",
+          "value": "3"
+        },
+        {
+          "id": 32774,
+          "optionNo": "D",
+          "text": "总是",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 7972,
+      "text": "会觉得自己很棒",
+      "type": "radio",
+      "orderNum": 71,
+      "options": [
+        {
+          "id": 32775,
+          "optionNo": "A",
+          "text": "从不",
+          "value": "1"
+        },
+        {
+          "id": 32776,
+          "optionNo": "B",
+          "text": "有时",
+          "value": "2"
+        },
+        {
+          "id": 32777,
+          "optionNo": "C",
+          "text": "经常",
+          "value": "3"
+        },
+        {
+          "id": 32778,
+          "optionNo": "D",
+          "text": "总是",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 7973,
+      "text": "会觉得我不会一直这么幸运",
+      "type": "radio",
+      "orderNum": 72,
+      "options": [
+        {
+          "id": 32779,
+          "optionNo": "A",
+          "text": "从不",
+          "value": "1"
+        },
+        {
+          "id": 32780,
+          "optionNo": "B",
+          "text": "有时",
+          "value": "2"
+        },
+        {
+          "id": 32781,
+          "optionNo": "C",
+          "text": "经常",
+          "value": "3"
+        },
+        {
+          "id": 32782,
+          "optionNo": "D",
+          "text": "总是",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 7974,
+      "text": "会想到“乐极生悲”",
+      "type": "radio",
+      "orderNum": 73,
+      "options": [
+        {
+          "id": 32783,
+          "optionNo": "A",
+          "text": "从不",
+          "value": "1"
+        },
+        {
+          "id": 32784,
+          "optionNo": "B",
+          "text": "有时",
+          "value": "2"
+        },
+        {
+          "id": 32785,
+          "optionNo": "C",
+          "text": "经常",
+          "value": "3"
+        },
+        {
+          "id": 32786,
+          "optionNo": "D",
+          "text": "总是",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 7975,
+      "text": "会觉得前途一片光明",
+      "type": "radio",
+      "orderNum": 74,
+      "options": [
+        {
+          "id": 32787,
+          "optionNo": "A",
+          "text": "从不",
+          "value": "1"
+        },
+        {
+          "id": 32788,
+          "optionNo": "B",
+          "text": "有时",
+          "value": "2"
+        },
+        {
+          "id": 32789,
+          "optionNo": "C",
+          "text": "经常",
+          "value": "3"
+        },
+        {
+          "id": 32790,
+          "optionNo": "D",
+          "text": "总是",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 7976,
+      "text": "会觉得太高兴了不是好事",
+      "type": "radio",
+      "orderNum": 75,
+      "options": [
+        {
+          "id": 32791,
+          "optionNo": "A",
+          "text": "从不",
+          "value": "1"
+        },
+        {
+          "id": 32792,
+          "optionNo": "B",
+          "text": "有时",
+          "value": "2"
+        },
+        {
+          "id": 32793,
+          "optionNo": "C",
+          "text": "经常",
+          "value": "3"
+        },
+        {
+          "id": 32794,
+          "optionNo": "D",
+          "text": "总是",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 7977,
+      "text": "会不太认可自己",
+      "type": "radio",
+      "orderNum": 76,
+      "options": [
+        {
+          "id": 32795,
+          "optionNo": "A",
+          "text": "从不",
+          "value": "1"
+        },
+        {
+          "id": 32796,
+          "optionNo": "B",
+          "text": "有时",
+          "value": "2"
+        },
+        {
+          "id": 32797,
+          "optionNo": "C",
+          "text": "经常",
+          "value": "3"
+        },
+        {
+          "id": 32798,
+          "optionNo": "D",
+          "text": "总是",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 7978,
+      "text": "会觉得自己没用",
+      "type": "radio",
+      "orderNum": 77,
+      "options": [
+        {
+          "id": 32799,
+          "optionNo": "A",
+          "text": "从不",
+          "value": "1"
+        },
+        {
+          "id": 32800,
+          "optionNo": "B",
+          "text": "有时",
+          "value": "2"
+        },
+        {
+          "id": 32801,
+          "optionNo": "C",
+          "text": "经常",
+          "value": "3"
+        },
+        {
+          "id": 32802,
+          "optionNo": "D",
+          "text": "总是",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 7979,
+      "text": "会提醒自己保持冷静",
+      "type": "radio",
+      "orderNum": 78,
+      "options": [
+        {
+          "id": 32803,
+          "optionNo": "A",
+          "text": "从不",
+          "value": "1"
+        },
+        {
+          "id": 32804,
+          "optionNo": "B",
+          "text": "有时",
+          "value": "2"
+        },
+        {
+          "id": 32805,
+          "optionNo": "C",
+          "text": "经常",
+          "value": "3"
+        },
+        {
+          "id": 32806,
+          "optionNo": "D",
+          "text": "总是",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 7980,
+      "text": "会想想有什么可以做的",
+      "type": "radio",
+      "orderNum": 79,
+      "options": [
+        {
+          "id": 32807,
+          "optionNo": "A",
+          "text": "从不",
+          "value": "1"
+        },
+        {
+          "id": 32808,
+          "optionNo": "B",
+          "text": "有时",
+          "value": "2"
+        },
+        {
+          "id": 32809,
+          "optionNo": "C",
+          "text": "经常",
+          "value": "3"
+        },
+        {
+          "id": 32810,
+          "optionNo": "D",
+          "text": "总是",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 7981,
+      "text": "会想躲起来",
+      "type": "radio",
+      "orderNum": 80,
+      "options": [
+        {
+          "id": 32811,
+          "optionNo": "A",
+          "text": "从不",
+          "value": "1"
+        },
+        {
+          "id": 32812,
+          "optionNo": "B",
+          "text": "有时",
+          "value": "2"
+        },
+        {
+          "id": 32813,
+          "optionNo": "C",
+          "text": "经常",
+          "value": "3"
+        },
+        {
+          "id": 32814,
+          "optionNo": "D",
+          "text": "总是",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 7982,
+      "text": "会想到“船迟又遇打头风”",
+      "type": "radio",
+      "orderNum": 81,
+      "options": [
+        {
+          "id": 32815,
+          "optionNo": "A",
+          "text": "从不",
+          "value": "1"
+        },
+        {
+          "id": 32816,
+          "optionNo": "B",
+          "text": "有时",
+          "value": "2"
+        },
+        {
+          "id": 32817,
+          "optionNo": "C",
+          "text": "经常",
+          "value": "3"
+        },
+        {
+          "id": 32818,
+          "optionNo": "D",
+          "text": "总是",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 7983,
+      "text": "会想到“吃一堑长一智”",
+      "type": "radio",
+      "orderNum": 82,
+      "options": [
+        {
+          "id": 32819,
+          "optionNo": "A",
+          "text": "从不",
+          "value": "1"
+        },
+        {
+          "id": 32820,
+          "optionNo": "B",
+          "text": "有时",
+          "value": "2"
+        },
+        {
+          "id": 32821,
+          "optionNo": "C",
+          "text": "经常",
+          "value": "3"
+        },
+        {
+          "id": 32822,
+          "optionNo": "D",
+          "text": "总是",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 7984,
+      "text": "会想真是“祸不单行”",
+      "type": "radio",
+      "orderNum": 83,
+      "options": [
+        {
+          "id": 32823,
+          "optionNo": "A",
+          "text": "从不",
+          "value": "1"
+        },
+        {
+          "id": 32824,
+          "optionNo": "B",
+          "text": "有时",
+          "value": "2"
+        },
+        {
+          "id": 32825,
+          "optionNo": "C",
+          "text": "经常",
+          "value": "3"
+        },
+        {
+          "id": 32826,
+          "optionNo": "D",
+          "text": "总是",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 7985,
+      "text": "会激励自己振作起来",
+      "type": "radio",
+      "orderNum": 84,
+      "options": [
+        {
+          "id": 32827,
+          "optionNo": "A",
+          "text": "从不",
+          "value": "1"
+        },
+        {
+          "id": 32828,
+          "optionNo": "B",
+          "text": "有时",
+          "value": "2"
+        },
+        {
+          "id": 32829,
+          "optionNo": "C",
+          "text": "经常",
+          "value": "3"
+        },
+        {
+          "id": 32830,
+          "optionNo": "D",
+          "text": "总是",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 7986,
+      "text": "会想这件事偏偏发生在我身上",
+      "type": "radio",
+      "orderNum": 85,
+      "options": [
+        {
+          "id": 32831,
+          "optionNo": "A",
+          "text": "从不",
+          "value": "1"
+        },
+        {
+          "id": 32832,
+          "optionNo": "B",
+          "text": "有时",
+          "value": "2"
+        },
+        {
+          "id": 32833,
+          "optionNo": "C",
+          "text": "经常",
+          "value": "3"
+        },
+        {
+          "id": 32834,
+          "optionNo": "D",
+          "text": "总是",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 7987,
+      "text": "会想：我就知道会这样",
+      "type": "radio",
+      "orderNum": 86,
+      "options": [
+        {
+          "id": 32835,
+          "optionNo": "A",
+          "text": "从不",
+          "value": "1"
+        },
+        {
+          "id": 32836,
+          "optionNo": "B",
+          "text": "有时",
+          "value": "2"
+        },
+        {
+          "id": 32837,
+          "optionNo": "C",
+          "text": "经常",
+          "value": "3"
+        },
+        {
+          "id": 32838,
+          "optionNo": "D",
+          "text": "总是",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 7988,
+      "text": "会想到“屋漏偏逢连夜雨”",
+      "type": "radio",
+      "orderNum": 87,
+      "options": [
+        {
+          "id": 32839,
+          "optionNo": "A",
+          "text": "从不",
+          "value": "1"
+        },
+        {
+          "id": 32840,
+          "optionNo": "B",
+          "text": "有时",
+          "value": "2"
+        },
+        {
+          "id": 32841,
+          "optionNo": "C",
+          "text": "经常",
+          "value": "3"
+        },
+        {
+          "id": 32842,
+          "optionNo": "D",
+          "text": "总是",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 7989,
+      "text": "我觉得很难让自己安静下来",
+      "type": "radio",
+      "orderNum": 88,
+      "options": [
+        {
+          "id": 32843,
+          "optionNo": "A",
+          "text": "不符合",
+          "value": "0"
+        },
+        {
+          "id": 32844,
+          "optionNo": "B",
+          "text": "有时符合",
+          "value": "1"
+        },
+        {
+          "id": 32845,
+          "optionNo": "C",
+          "text": "常常符合",
+          "value": "2"
+        },
+        {
+          "id": 32846,
+          "optionNo": "D",
+          "text": "总是符合",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "id": 7990,
+      "text": "我感到口干舌燥",
+      "type": "radio",
+      "orderNum": 89,
+      "options": [
+        {
+          "id": 32847,
+          "optionNo": "A",
+          "text": "不符合",
+          "value": "0"
+        },
+        {
+          "id": 32848,
+          "optionNo": "B",
+          "text": "有时符合",
+          "value": "1"
+        },
+        {
+          "id": 32849,
+          "optionNo": "C",
+          "text": "常常符合",
+          "value": "2"
+        },
+        {
+          "id": 32850,
+          "optionNo": "D",
+          "text": "总是符合",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "id": 7991,
+      "text": "我好像不再有任何愉快、舒畅的感觉",
+      "type": "radio",
+      "orderNum": 90,
+      "options": [
+        {
+          "id": 32851,
+          "optionNo": "A",
+          "text": "不符合",
+          "value": "0"
+        },
+        {
+          "id": 32852,
+          "optionNo": "B",
+          "text": "有时符合",
+          "value": "1"
+        },
+        {
+          "id": 32853,
+          "optionNo": "C",
+          "text": "常常符合",
+          "value": "2"
+        },
+        {
+          "id": 32854,
+          "optionNo": "D",
+          "text": "总是符合",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "id": 7992,
+      "text": "我感到呼吸困难（例如：不做运动时也感到气促或透不过气来）",
+      "type": "radio",
+      "orderNum": 91,
+      "options": [
+        {
+          "id": 32855,
+          "optionNo": "A",
+          "text": "不符合",
+          "value": "0"
+        },
+        {
+          "id": 32856,
+          "optionNo": "B",
+          "text": "有时符合",
+          "value": "1"
+        },
+        {
+          "id": 32857,
+          "optionNo": "C",
+          "text": "常常符合",
+          "value": "2"
+        },
+        {
+          "id": 32858,
+          "optionNo": "D",
+          "text": "总是符合",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "id": 7993,
+      "text": "我感到很难主动去开始工作",
+      "type": "radio",
+      "orderNum": 92,
+      "options": [
+        {
+          "id": 32859,
+          "optionNo": "A",
+          "text": "不符合",
+          "value": "0"
+        },
+        {
+          "id": 32860,
+          "optionNo": "B",
+          "text": "有时符合",
+          "value": "1"
+        },
+        {
+          "id": 32861,
+          "optionNo": "C",
+          "text": "常常符合",
+          "value": "2"
+        },
+        {
+          "id": 32862,
+          "optionNo": "D",
+          "text": "总是符合",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "id": 7994,
+      "text": "我对事情往往做出过敏反应",
+      "type": "radio",
+      "orderNum": 93,
+      "options": [
+        {
+          "id": 32863,
+          "optionNo": "A",
+          "text": "不符合",
+          "value": "0"
+        },
+        {
+          "id": 32864,
+          "optionNo": "B",
+          "text": "有时符合",
+          "value": "1"
+        },
+        {
+          "id": 32865,
+          "optionNo": "C",
+          "text": "常常符合",
+          "value": "2"
+        },
+        {
+          "id": 32866,
+          "optionNo": "D",
+          "text": "总是符合",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "id": 7995,
+      "text": "我感到颤抖（例如手震）",
+      "type": "radio",
+      "orderNum": 94,
+      "options": [
+        {
+          "id": 32867,
+          "optionNo": "A",
+          "text": "不符合",
+          "value": "0"
+        },
+        {
+          "id": 32868,
+          "optionNo": "B",
+          "text": "有时符合",
+          "value": "1"
+        },
+        {
+          "id": 32869,
+          "optionNo": "C",
+          "text": "常常符合",
+          "value": "2"
+        },
+        {
+          "id": 32870,
+          "optionNo": "D",
+          "text": "总是符合",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "id": 7996,
+      "text": "我觉得自己消耗很多精神",
+      "type": "radio",
+      "orderNum": 95,
+      "options": [
+        {
+          "id": 32871,
+          "optionNo": "A",
+          "text": "不符合",
+          "value": "0"
+        },
+        {
+          "id": 32872,
+          "optionNo": "B",
+          "text": "有时符合",
+          "value": "1"
+        },
+        {
+          "id": 32873,
+          "optionNo": "C",
+          "text": "常常符合",
+          "value": "2"
+        },
+        {
+          "id": 32874,
+          "optionNo": "D",
+          "text": "总是符合",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "id": 7997,
+      "text": "我担心一些令自己恐慌或出丑的场合",
+      "type": "radio",
+      "orderNum": 96,
+      "options": [
+        {
+          "id": 32875,
+          "optionNo": "A",
+          "text": "不符合",
+          "value": "0"
+        },
+        {
+          "id": 32876,
+          "optionNo": "B",
+          "text": "有时符合",
+          "value": "1"
+        },
+        {
+          "id": 32877,
+          "optionNo": "C",
+          "text": "常常符合",
+          "value": "2"
+        },
+        {
+          "id": 32878,
+          "optionNo": "D",
+          "text": "总是符合",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "id": 7998,
+      "text": "我觉得自己对将来没有什么可盼望",
+      "type": "radio",
+      "orderNum": 97,
+      "options": [
+        {
+          "id": 32879,
+          "optionNo": "A",
+          "text": "不符合",
+          "value": "0"
+        },
+        {
+          "id": 32880,
+          "optionNo": "B",
+          "text": "有时符合",
+          "value": "1"
+        },
+        {
+          "id": 32881,
+          "optionNo": "C",
+          "text": "常常符合",
+          "value": "2"
+        },
+        {
+          "id": 32882,
+          "optionNo": "D",
+          "text": "总是符合",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "id": 7999,
+      "text": "我感到忐忑不安",
+      "type": "radio",
+      "orderNum": 98,
+      "options": [
+        {
+          "id": 32883,
+          "optionNo": "A",
+          "text": "不符合",
+          "value": "0"
+        },
+        {
+          "id": 32884,
+          "optionNo": "B",
+          "text": "有时符合",
+          "value": "1"
+        },
+        {
+          "id": 32885,
+          "optionNo": "C",
+          "text": "常常符合",
+          "value": "2"
+        },
+        {
+          "id": 32886,
+          "optionNo": "D",
+          "text": "总是符合",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "id": 8000,
+      "text": "我感到很难放松自己",
+      "type": "radio",
+      "orderNum": 99,
+      "options": [
+        {
+          "id": 32887,
+          "optionNo": "A",
+          "text": "不符合",
+          "value": "0"
+        },
+        {
+          "id": 32888,
+          "optionNo": "B",
+          "text": "有时符合",
+          "value": "1"
+        },
+        {
+          "id": 32889,
+          "optionNo": "C",
+          "text": "常常符合",
+          "value": "2"
+        },
+        {
+          "id": 32890,
+          "optionNo": "D",
+          "text": "总是符合",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "id": 8001,
+      "text": "我感到忧郁沮丧",
+      "type": "radio",
+      "orderNum": 100,
+      "options": [
+        {
+          "id": 32891,
+          "optionNo": "A",
+          "text": "不符合",
+          "value": "0"
+        },
+        {
+          "id": 32892,
+          "optionNo": "B",
+          "text": "有时符合",
+          "value": "1"
+        },
+        {
+          "id": 32893,
+          "optionNo": "C",
+          "text": "常常符合",
+          "value": "2"
+        },
+        {
+          "id": 32894,
+          "optionNo": "D",
+          "text": "总是符合",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "id": 8002,
+      "text": "我无法容忍任何阻碍我继续工作的事情",
+      "type": "radio",
+      "orderNum": 101,
+      "options": [
+        {
+          "id": 32895,
+          "optionNo": "A",
+          "text": "不符合",
+          "value": "0"
+        },
+        {
+          "id": 32896,
+          "optionNo": "B",
+          "text": "有时符合",
+          "value": "1"
+        },
+        {
+          "id": 32897,
+          "optionNo": "C",
+          "text": "常常符合",
+          "value": "2"
+        },
+        {
+          "id": 32898,
+          "optionNo": "D",
+          "text": "总是符合",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "id": 8003,
+      "text": "我感到快要恐慌了",
+      "type": "radio",
+      "orderNum": 102,
+      "options": [
+        {
+          "id": 32899,
+          "optionNo": "A",
+          "text": "不符合",
+          "value": "0"
+        },
+        {
+          "id": 32900,
+          "optionNo": "B",
+          "text": "有时符合",
+          "value": "1"
+        },
+        {
+          "id": 32901,
+          "optionNo": "C",
+          "text": "常常符合",
+          "value": "2"
+        },
+        {
+          "id": 32902,
+          "optionNo": "D",
+          "text": "总是符合",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "id": 8004,
+      "text": "我对任何事也不热衷",
+      "type": "radio",
+      "orderNum": 103,
+      "options": [
+        {
+          "id": 32903,
+          "optionNo": "A",
+          "text": "不符合",
+          "value": "0"
+        },
+        {
+          "id": 32904,
+          "optionNo": "B",
+          "text": "有时符合",
+          "value": "1"
+        },
+        {
+          "id": 32905,
+          "optionNo": "C",
+          "text": "常常符合",
+          "value": "2"
+        },
+        {
+          "id": 32906,
+          "optionNo": "D",
+          "text": "总是符合",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "id": 8005,
+      "text": "我觉得自己不怎么配做人",
+      "type": "radio",
+      "orderNum": 104,
+      "options": [
+        {
+          "id": 32907,
+          "optionNo": "A",
+          "text": "不符合",
+          "value": "0"
+        },
+        {
+          "id": 32908,
+          "optionNo": "B",
+          "text": "有时符合",
+          "value": "1"
+        },
+        {
+          "id": 32909,
+          "optionNo": "C",
+          "text": "常常符合",
+          "value": "2"
+        },
+        {
+          "id": 32910,
+          "optionNo": "D",
+          "text": "总是符合",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "id": 8006,
+      "text": "我发觉自己很容易被触怒",
+      "type": "radio",
+      "orderNum": 105,
+      "options": [
+        {
+          "id": 32911,
+          "optionNo": "A",
+          "text": "不符合",
+          "value": "0"
+        },
+        {
+          "id": 32912,
+          "optionNo": "B",
+          "text": "有时符合",
+          "value": "1"
+        },
+        {
+          "id": 32913,
+          "optionNo": "C",
+          "text": "常常符合",
+          "value": "2"
+        },
+        {
+          "id": 32914,
+          "optionNo": "D",
+          "text": "总是符合",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "id": 8007,
+      "text": "我察觉自己在没有明显的体力劳动时，也感到心律不正常",
+      "type": "radio",
+      "orderNum": 106,
+      "options": [
+        {
+          "id": 32915,
+          "optionNo": "A",
+          "text": "不符合",
+          "value": "0"
+        },
+        {
+          "id": 32916,
+          "optionNo": "B",
+          "text": "有时符合",
+          "value": "1"
+        },
+        {
+          "id": 32917,
+          "optionNo": "C",
+          "text": "常常符合",
+          "value": "2"
+        },
+        {
+          "id": 32918,
+          "optionNo": "D",
+          "text": "总是符合",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "id": 8008,
+      "text": "我无缘无故地感到害怕",
+      "type": "radio",
+      "orderNum": 107,
+      "options": [
+        {
+          "id": 32919,
+          "optionNo": "A",
+          "text": "不符合",
+          "value": "0"
+        },
+        {
+          "id": 32920,
+          "optionNo": "B",
+          "text": "有时符合",
+          "value": "1"
+        },
+        {
+          "id": 32921,
+          "optionNo": "C",
+          "text": "常常符合",
+          "value": "2"
+        },
+        {
+          "id": 32922,
+          "optionNo": "D",
+          "text": "总是符合",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "id": 8009,
+      "text": "我感到生命毫无意义",
+      "type": "radio",
+      "orderNum": 108,
+      "options": [
+        {
+          "id": 32923,
+          "optionNo": "A",
+          "text": "不符合",
+          "value": "0"
+        },
+        {
+          "id": 32924,
+          "optionNo": "B",
+          "text": "有时符合",
+          "value": "1"
+        },
+        {
+          "id": 32925,
+          "optionNo": "C",
+          "text": "常常符合",
+          "value": "2"
+        },
+        {
+          "id": 32926,
+          "optionNo": "D",
+          "text": "总是符合",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "id": 8010,
+      "text": "当情况变糟糕时，我能明白挫折是人生经历的一部分",
+      "type": "radio",
+      "orderNum": 109,
+      "options": [
+        {
+          "id": 32927,
+          "optionNo": "A",
+          "text": "没有",
+          "value": "1"
+        },
+        {
+          "id": 32928,
+          "optionNo": "B",
+          "text": "偶尔",
+          "value": "2"
+        },
+        {
+          "id": 32929,
+          "optionNo": "C",
+          "text": "有时",
+          "value": "3"
+        },
+        {
+          "id": 32930,
+          "optionNo": "D",
+          "text": "经常",
+          "value": "4"
+        },
+        {
+          "id": 32931,
+          "optionNo": "E",
+          "text": "总是",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 8011,
+      "text": "想到自己的不足，我觉得自己和别人有很大的距离",
+      "type": "radio",
+      "orderNum": 110,
+      "options": [
+        {
+          "id": 32932,
+          "optionNo": "A",
+          "text": "没有",
+          "value": "1"
+        },
+        {
+          "id": 32933,
+          "optionNo": "B",
+          "text": "偶尔",
+          "value": "2"
+        },
+        {
+          "id": 32934,
+          "optionNo": "C",
+          "text": "有时",
+          "value": "3"
+        },
+        {
+          "id": 32935,
+          "optionNo": "D",
+          "text": "经常",
+          "value": "4"
+        },
+        {
+          "id": 32936,
+          "optionNo": "E",
+          "text": "总是",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 8012,
+      "text": "当令我不安的事情发生时，我尽力保持情绪平和",
+      "type": "radio",
+      "orderNum": 111,
+      "options": [
+        {
+          "id": 32937,
+          "optionNo": "A",
+          "text": "没有",
+          "value": "1"
+        },
+        {
+          "id": 32938,
+          "optionNo": "B",
+          "text": "偶尔",
+          "value": "2"
+        },
+        {
+          "id": 32939,
+          "optionNo": "C",
+          "text": "有时",
+          "value": "3"
+        },
+        {
+          "id": 32940,
+          "optionNo": "D",
+          "text": "经常",
+          "value": "4"
+        },
+        {
+          "id": 32941,
+          "optionNo": "E",
+          "text": "总是",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 8013,
+      "text": "对于自己个性中我不喜欢的方面，我不能容忍和接纳",
+      "type": "radio",
+      "orderNum": 112,
+      "options": [
+        {
+          "id": 32942,
+          "optionNo": "A",
+          "text": "没有",
+          "value": "1"
+        },
+        {
+          "id": 32943,
+          "optionNo": "B",
+          "text": "偶尔",
+          "value": "2"
+        },
+        {
+          "id": 32944,
+          "optionNo": "C",
+          "text": "有时",
+          "value": "3"
+        },
+        {
+          "id": 32945,
+          "optionNo": "D",
+          "text": "经常",
+          "value": "4"
+        },
+        {
+          "id": 32946,
+          "optionNo": "E",
+          "text": "总是",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 8014,
+      "text": "在心情沮丧的时候，我觉得可能大多数人比我幸福",
+      "type": "radio",
+      "orderNum": 113,
+      "options": [
+        {
+          "id": 32947,
+          "optionNo": "A",
+          "text": "没有",
+          "value": "1"
+        },
+        {
+          "id": 32948,
+          "optionNo": "B",
+          "text": "偶尔",
+          "value": "2"
+        },
+        {
+          "id": 32949,
+          "optionNo": "C",
+          "text": "有时",
+          "value": "3"
+        },
+        {
+          "id": 32950,
+          "optionNo": "D",
+          "text": "经常",
+          "value": "4"
+        },
+        {
+          "id": 32951,
+          "optionNo": "E",
+          "text": "总是",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 8015,
+      "text": "当痛苦的事发生时，我尝试客观地看待问题",
+      "type": "radio",
+      "orderNum": 114,
+      "options": [
+        {
+          "id": 32952,
+          "optionNo": "A",
+          "text": "没有",
+          "value": "1"
+        },
+        {
+          "id": 32953,
+          "optionNo": "B",
+          "text": "偶尔",
+          "value": "2"
+        },
+        {
+          "id": 32954,
+          "optionNo": "C",
+          "text": "有时",
+          "value": "3"
+        },
+        {
+          "id": 32955,
+          "optionNo": "D",
+          "text": "经常",
+          "value": "4"
+        },
+        {
+          "id": 32956,
+          "optionNo": "E",
+          "text": "总是",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 8016,
+      "text": "在处理重要的事情时，即使失败了，我仍能正确看待自己",
+      "type": "radio",
+      "orderNum": 115,
+      "options": [
+        {
+          "id": 32957,
+          "optionNo": "A",
+          "text": "没有",
+          "value": "1"
+        },
+        {
+          "id": 32958,
+          "optionNo": "B",
+          "text": "偶尔",
+          "value": "2"
+        },
+        {
+          "id": 32959,
+          "optionNo": "C",
+          "text": "有时",
+          "value": "3"
+        },
+        {
+          "id": 32960,
+          "optionNo": "D",
+          "text": "经常",
+          "value": "4"
+        },
+        {
+          "id": 32961,
+          "optionNo": "E",
+          "text": "总是",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 8017,
+      "text": "当我在困难中挣扎时，我觉得其他人更容易度过这个难关",
+      "type": "radio",
+      "orderNum": 116,
+      "options": [
+        {
+          "id": 32962,
+          "optionNo": "A",
+          "text": "没有",
+          "value": "1"
+        },
+        {
+          "id": 32963,
+          "optionNo": "B",
+          "text": "偶尔",
+          "value": "2"
+        },
+        {
+          "id": 32964,
+          "optionNo": "C",
+          "text": "有时",
+          "value": "3"
+        },
+        {
+          "id": 32965,
+          "optionNo": "D",
+          "text": "经常",
+          "value": "4"
+        },
+        {
+          "id": 32966,
+          "optionNo": "E",
+          "text": "总是",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 8018,
+      "text": "当心情沮丧时，我试着用积极、豁达的心态调节情绪",
+      "type": "radio",
+      "orderNum": 117,
+      "options": [
+        {
+          "id": 32967,
+          "optionNo": "A",
+          "text": "没有",
+          "value": "1"
+        },
+        {
+          "id": 32968,
+          "optionNo": "B",
+          "text": "偶尔",
+          "value": "2"
+        },
+        {
+          "id": 32969,
+          "optionNo": "C",
+          "text": "有时",
+          "value": "3"
+        },
+        {
+          "id": 32970,
+          "optionNo": "D",
+          "text": "经常",
+          "value": "4"
+        },
+        {
+          "id": 32971,
+          "optionNo": "E",
+          "text": "总是",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 8019,
+      "text": "我能接受自身存在的缺点和不足",
+      "type": "radio",
+      "orderNum": 118,
+      "options": [
+        {
+          "id": 32972,
+          "optionNo": "A",
+          "text": "没有",
+          "value": "1"
+        },
+        {
+          "id": 32973,
+          "optionNo": "B",
+          "text": "偶尔",
+          "value": "2"
+        },
+        {
+          "id": 32974,
+          "optionNo": "C",
+          "text": "有时",
+          "value": "3"
+        },
+        {
+          "id": 32975,
+          "optionNo": "D",
+          "text": "经常",
+          "value": "4"
+        },
+        {
+          "id": 32976,
+          "optionNo": "E",
+          "text": "总是",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 8020,
+      "text": "在重要的事情上失败时，我会感到孤立无援",
+      "type": "radio",
+      "orderNum": 119,
+      "options": [
+        {
+          "id": 32977,
+          "optionNo": "A",
+          "text": "没有",
+          "value": "1"
+        },
+        {
+          "id": 32978,
+          "optionNo": "B",
+          "text": "偶尔",
+          "value": "2"
+        },
+        {
+          "id": 32979,
+          "optionNo": "C",
+          "text": "有时",
+          "value": "3"
+        },
+        {
+          "id": 32980,
+          "optionNo": "D",
+          "text": "经常",
+          "value": "4"
+        },
+        {
+          "id": 32981,
+          "optionNo": "E",
+          "text": "总是",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 8021,
+      "text": "我能容忍和接纳自己个性中那些自己不喜欢的方面",
+      "type": "radio",
+      "orderNum": 120,
+      "options": [
+        {
+          "id": 32982,
+          "optionNo": "A",
+          "text": "没有",
+          "value": "1"
+        },
+        {
+          "id": 32983,
+          "optionNo": "B",
+          "text": "偶尔",
+          "value": "2"
+        },
+        {
+          "id": 32984,
+          "optionNo": "C",
+          "text": "有时",
+          "value": "3"
+        },
+        {
+          "id": 32985,
+          "optionNo": "D",
+          "text": "经常",
+          "value": "4"
+        },
+        {
+          "id": 32986,
+          "optionNo": "E",
+          "text": "总是",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 8022,
+      "text": "当别人得了原本我该得的东西时，我会感到恼火",
+      "type": "radio",
+      "orderNum": 121,
+      "options": [
+        {
+          "id": 32987,
+          "optionNo": "A",
+          "text": "完全不符",
+          "value": "0"
+        },
+        {
+          "id": 32988,
+          "optionNo": "B",
+          "text": "基本不符",
+          "value": "1"
+        },
+        {
+          "id": 32989,
+          "optionNo": "C",
+          "text": "有点不符",
+          "value": "2"
+        },
+        {
+          "id": 32990,
+          "optionNo": "D",
+          "text": "有点符合",
+          "value": "3"
+        },
+        {
+          "id": 32991,
+          "optionNo": "E",
+          "text": "基本符合",
+          "value": "4"
+        },
+        {
+          "id": 32992,
+          "optionNo": "F",
+          "text": "完全符合",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 8023,
+      "text": "当别人拿了我的劳动成果时，我会感到生气",
+      "type": "radio",
+      "orderNum": 122,
+      "options": [
+        {
+          "id": 32993,
+          "optionNo": "A",
+          "text": "完全不符",
+          "value": "0"
+        },
+        {
+          "id": 32994,
+          "optionNo": "B",
+          "text": "基本不符",
+          "value": "1"
+        },
+        {
+          "id": 32995,
+          "optionNo": "C",
+          "text": "有点不符",
+          "value": "2"
+        },
+        {
+          "id": 32996,
+          "optionNo": "D",
+          "text": "有点符合",
+          "value": "3"
+        },
+        {
+          "id": 32997,
+          "optionNo": "E",
+          "text": "基本符合",
+          "value": "4"
+        },
+        {
+          "id": 32998,
+          "optionNo": "F",
+          "text": "完全符合",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 8024,
+      "text": "我难以忍受别人单方面从我身上获利",
+      "type": "radio",
+      "orderNum": 123,
+      "options": [
+        {
+          "id": 32999,
+          "optionNo": "A",
+          "text": "完全不符",
+          "value": "0"
+        },
+        {
+          "id": 33000,
+          "optionNo": "B",
+          "text": "基本不符",
+          "value": "1"
+        },
+        {
+          "id": 33001,
+          "optionNo": "C",
+          "text": "有点不符",
+          "value": "2"
+        },
+        {
+          "id": 33002,
+          "optionNo": "D",
+          "text": "有点符合",
+          "value": "3"
+        },
+        {
+          "id": 33003,
+          "optionNo": "E",
+          "text": "基本符合",
+          "value": "4"
+        },
+        {
+          "id": 33004,
+          "optionNo": "F",
+          "text": "完全符合",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 8025,
+      "text": "当我不得不收拾因为别人的粗心造成的残局时，我会久久不能释怀",
+      "type": "radio",
+      "orderNum": 124,
+      "options": [
+        {
+          "id": 33005,
+          "optionNo": "A",
+          "text": "完全不符",
+          "value": "0"
+        },
+        {
+          "id": 33006,
+          "optionNo": "B",
+          "text": "基本不符",
+          "value": "1"
+        },
+        {
+          "id": 33007,
+          "optionNo": "C",
+          "text": "有点不符",
+          "value": "2"
+        },
+        {
+          "id": 33008,
+          "optionNo": "D",
+          "text": "有点符合",
+          "value": "3"
+        },
+        {
+          "id": 33009,
+          "optionNo": "E",
+          "text": "基本符合",
+          "value": "4"
+        },
+        {
+          "id": 33010,
+          "optionNo": "F",
+          "text": "完全符合",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 8026,
+      "text": "当我得到的发展机会比别人少时，我会感到郁闷",
+      "type": "radio",
+      "orderNum": 125,
+      "options": [
+        {
+          "id": 33011,
+          "optionNo": "A",
+          "text": "完全不符",
+          "value": "0"
+        },
+        {
+          "id": 33012,
+          "optionNo": "B",
+          "text": "基本不符",
+          "value": "1"
+        },
+        {
+          "id": 33013,
+          "optionNo": "C",
+          "text": "有点不符",
+          "value": "2"
+        },
+        {
+          "id": 33014,
+          "optionNo": "D",
+          "text": "有点符合",
+          "value": "3"
+        },
+        {
+          "id": 33015,
+          "optionNo": "E",
+          "text": "基本符合",
+          "value": "4"
+        },
+        {
+          "id": 33016,
+          "optionNo": "F",
+          "text": "完全符合",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 8027,
+      "text": "别人原本不该过得比我好，这让我感到生气",
+      "type": "radio",
+      "orderNum": 126,
+      "options": [
+        {
+          "id": 33017,
+          "optionNo": "A",
+          "text": "完全不符",
+          "value": "0"
+        },
+        {
+          "id": 33018,
+          "optionNo": "B",
+          "text": "基本不符",
+          "value": "1"
+        },
+        {
+          "id": 33019,
+          "optionNo": "C",
+          "text": "有点不符",
+          "value": "2"
+        },
+        {
+          "id": 33020,
+          "optionNo": "D",
+          "text": "有点符合",
+          "value": "3"
+        },
+        {
+          "id": 33021,
+          "optionNo": "E",
+          "text": "基本符合",
+          "value": "4"
+        },
+        {
+          "id": 33022,
+          "optionNo": "F",
+          "text": "完全符合",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 8028,
+      "text": "我要费好大劲才能得到别人轻易获得的东西，这让我感到揪心",
+      "type": "radio",
+      "orderNum": 127,
+      "options": [
+        {
+          "id": 33023,
+          "optionNo": "A",
+          "text": "完全不符",
+          "value": "0"
+        },
+        {
+          "id": 33024,
+          "optionNo": "B",
+          "text": "基本不符",
+          "value": "1"
+        },
+        {
+          "id": 33025,
+          "optionNo": "C",
+          "text": "有点不符",
+          "value": "2"
+        },
+        {
+          "id": 33026,
+          "optionNo": "D",
+          "text": "有点符合",
+          "value": "3"
+        },
+        {
+          "id": 33027,
+          "optionNo": "E",
+          "text": "基本符合",
+          "value": "4"
+        },
+        {
+          "id": 33028,
+          "optionNo": "F",
+          "text": "完全符合",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 8029,
+      "text": "当别人的待遇无缘无故比我好时，我会耿耿于怀",
+      "type": "radio",
+      "orderNum": 128,
+      "options": [
+        {
+          "id": 33029,
+          "optionNo": "A",
+          "text": "完全不符",
+          "value": "0"
+        },
+        {
+          "id": 33030,
+          "optionNo": "B",
+          "text": "基本不符",
+          "value": "1"
+        },
+        {
+          "id": 33031,
+          "optionNo": "C",
+          "text": "有点不符",
+          "value": "2"
+        },
+        {
+          "id": 33032,
+          "optionNo": "D",
+          "text": "有点符合",
+          "value": "3"
+        },
+        {
+          "id": 33033,
+          "optionNo": "E",
+          "text": "基本符合",
+          "value": "4"
+        },
+        {
+          "id": 33034,
+          "optionNo": "F",
+          "text": "完全符合",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 8030,
+      "text": "有些事发生在别人身上没有人在意，而发生在我身上时我却为此挨批评，我会为此愤愤不平",
+      "type": "radio",
+      "orderNum": 129,
+      "options": [
+        {
+          "id": 33035,
+          "optionNo": "A",
+          "text": "完全不符",
+          "value": "0"
+        },
+        {
+          "id": 33036,
+          "optionNo": "B",
+          "text": "基本不符",
+          "value": "1"
+        },
+        {
+          "id": 33037,
+          "optionNo": "C",
+          "text": "有点不符",
+          "value": "2"
+        },
+        {
+          "id": 33038,
+          "optionNo": "D",
+          "text": "有点符合",
+          "value": "3"
+        },
+        {
+          "id": 33039,
+          "optionNo": "E",
+          "text": "基本符合",
+          "value": "4"
+        },
+        {
+          "id": 33040,
+          "optionNo": "F",
+          "text": "完全符合",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 8031,
+      "text": "当我的待遇比别人差时，我会生气",
+      "type": "radio",
+      "orderNum": 130,
+      "options": [
+        {
+          "id": 33041,
+          "optionNo": "A",
+          "text": "完全不符",
+          "value": "0"
+        },
+        {
+          "id": 33042,
+          "optionNo": "B",
+          "text": "基本不符",
+          "value": "1"
+        },
+        {
+          "id": 33043,
+          "optionNo": "C",
+          "text": "有点不符",
+          "value": "2"
+        },
+        {
+          "id": 33044,
+          "optionNo": "D",
+          "text": "有点符合",
+          "value": "3"
+        },
+        {
+          "id": 33045,
+          "optionNo": "E",
+          "text": "基本符合",
+          "value": "4"
+        },
+        {
+          "id": 33046,
+          "optionNo": "F",
+          "text": "完全符合",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 8032,
+      "text": "当某个人没有得到原本他该得的东西时，我会感到恼火",
+      "type": "radio",
+      "orderNum": 131,
+      "options": [
+        {
+          "id": 33047,
+          "optionNo": "A",
+          "text": "完全不符",
+          "value": "0"
+        },
+        {
+          "id": 33048,
+          "optionNo": "B",
+          "text": "基本不符",
+          "value": "1"
+        },
+        {
+          "id": 33049,
+          "optionNo": "C",
+          "text": "有点不符",
+          "value": "2"
+        },
+        {
+          "id": 33050,
+          "optionNo": "D",
+          "text": "有点符合",
+          "value": "3"
+        },
+        {
+          "id": 33051,
+          "optionNo": "E",
+          "text": "基本符合",
+          "value": "4"
+        },
+        {
+          "id": 33052,
+          "optionNo": "F",
+          "text": "完全符合",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 8033,
+      "text": "当某个人没有得到应有的劳动成果时，我会感到不安",
+      "type": "radio",
+      "orderNum": 132,
+      "options": [
+        {
+          "id": 33053,
+          "optionNo": "A",
+          "text": "完全不符",
+          "value": "0"
+        },
+        {
+          "id": 33054,
+          "optionNo": "B",
+          "text": "基本不符",
+          "value": "1"
+        },
+        {
+          "id": 33055,
+          "optionNo": "C",
+          "text": "有点不符",
+          "value": "2"
+        },
+        {
+          "id": 33056,
+          "optionNo": "D",
+          "text": "有点符合",
+          "value": "3"
+        },
+        {
+          "id": 33057,
+          "optionNo": "E",
+          "text": "基本符合",
+          "value": "4"
+        },
+        {
+          "id": 33058,
+          "optionNo": "F",
+          "text": "完全符合",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 8034,
+      "text": "我难以忍受其他人单方面从某个人身上获利",
+      "type": "radio",
+      "orderNum": 133,
+      "options": [
+        {
+          "id": 33059,
+          "optionNo": "A",
+          "text": "完全不符",
+          "value": "0"
+        },
+        {
+          "id": 33060,
+          "optionNo": "B",
+          "text": "基本不符",
+          "value": "1"
+        },
+        {
+          "id": 33061,
+          "optionNo": "C",
+          "text": "有点不符",
+          "value": "2"
+        },
+        {
+          "id": 33062,
+          "optionNo": "D",
+          "text": "有点符合",
+          "value": "3"
+        },
+        {
+          "id": 33063,
+          "optionNo": "E",
+          "text": "基本符合",
+          "value": "4"
+        },
+        {
+          "id": 33064,
+          "optionNo": "F",
+          "text": "完全符合",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 8035,
+      "text": "当某个人不得不收拾因为别人的粗心造成的残局时，我会久久不能释怀",
+      "type": "radio",
+      "orderNum": 134,
+      "options": [
+        {
+          "id": 33065,
+          "optionNo": "A",
+          "text": "完全不符",
+          "value": "0"
+        },
+        {
+          "id": 33066,
+          "optionNo": "B",
+          "text": "基本不符",
+          "value": "1"
+        },
+        {
+          "id": 33067,
+          "optionNo": "C",
+          "text": "有点不符",
+          "value": "2"
+        },
+        {
+          "id": 33068,
+          "optionNo": "D",
+          "text": "有点符合",
+          "value": "3"
+        },
+        {
+          "id": 33069,
+          "optionNo": "E",
+          "text": "基本符合",
+          "value": "4"
+        },
+        {
+          "id": 33070,
+          "optionNo": "F",
+          "text": "完全符合",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 8036,
+      "text": "当某个人得到的发展机会比别人少时，我会感到不安",
+      "type": "radio",
+      "orderNum": 135,
+      "options": [
+        {
+          "id": 33071,
+          "optionNo": "A",
+          "text": "完全不符",
+          "value": "0"
+        },
+        {
+          "id": 33072,
+          "optionNo": "B",
+          "text": "基本不符",
+          "value": "1"
+        },
+        {
+          "id": 33073,
+          "optionNo": "C",
+          "text": "有点不符",
+          "value": "2"
+        },
+        {
+          "id": 33074,
+          "optionNo": "D",
+          "text": "有点符合",
+          "value": "3"
+        },
+        {
+          "id": 33075,
+          "optionNo": "E",
+          "text": "基本符合",
+          "value": "4"
+        },
+        {
+          "id": 33076,
+          "optionNo": "F",
+          "text": "完全符合",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 8037,
+      "text": "某个人原本不该比别人过得差，这让我感到不安",
+      "type": "radio",
+      "orderNum": 136,
+      "options": [
+        {
+          "id": 33077,
+          "optionNo": "A",
+          "text": "完全不符",
+          "value": "0"
+        },
+        {
+          "id": 33078,
+          "optionNo": "B",
+          "text": "基本不符",
+          "value": "1"
+        },
+        {
+          "id": 33079,
+          "optionNo": "C",
+          "text": "有点不符",
+          "value": "2"
+        },
+        {
+          "id": 33080,
+          "optionNo": "D",
+          "text": "有点符合",
+          "value": "3"
+        },
+        {
+          "id": 33081,
+          "optionNo": "E",
+          "text": "基本符合",
+          "value": "4"
+        },
+        {
+          "id": 33082,
+          "optionNo": "F",
+          "text": "完全符合",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 8038,
+      "text": "某个人要费好大劲才能得到别人轻易获得的东西，这让我感到揪心",
+      "type": "radio",
+      "orderNum": 137,
+      "options": [
+        {
+          "id": 33083,
+          "optionNo": "A",
+          "text": "完全不符",
+          "value": "0"
+        },
+        {
+          "id": 33084,
+          "optionNo": "B",
+          "text": "基本不符",
+          "value": "1"
+        },
+        {
+          "id": 33085,
+          "optionNo": "C",
+          "text": "有点不符",
+          "value": "2"
+        },
+        {
+          "id": 33086,
+          "optionNo": "D",
+          "text": "有点符合",
+          "value": "3"
+        },
+        {
+          "id": 33087,
+          "optionNo": "E",
+          "text": "基本符合",
+          "value": "4"
+        },
+        {
+          "id": 33088,
+          "optionNo": "F",
+          "text": "完全符合",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 8039,
+      "text": "当其他人无缘无故得到比某个人更好的待遇时，我会耿耿于怀",
+      "type": "radio",
+      "orderNum": 138,
+      "options": [
+        {
+          "id": 33089,
+          "optionNo": "A",
+          "text": "完全不符",
+          "value": "0"
+        },
+        {
+          "id": 33090,
+          "optionNo": "B",
+          "text": "基本不符",
+          "value": "1"
+        },
+        {
+          "id": 33091,
+          "optionNo": "C",
+          "text": "有点不符",
+          "value": "2"
+        },
+        {
+          "id": 33092,
+          "optionNo": "D",
+          "text": "有点符合",
+          "value": "3"
+        },
+        {
+          "id": 33093,
+          "optionNo": "E",
+          "text": "基本符合",
+          "value": "4"
+        },
+        {
+          "id": 33094,
+          "optionNo": "F",
+          "text": "完全符合",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 8040,
+      "text": "有些事发生在别人身上没有人在意，而发生在某个人身上时，他却要为此挨批评，我感到郁闷",
+      "type": "radio",
+      "orderNum": 139,
+      "options": [
+        {
+          "id": 33095,
+          "optionNo": "A",
+          "text": "完全不符",
+          "value": "0"
+        },
+        {
+          "id": 33096,
+          "optionNo": "B",
+          "text": "基本不符",
+          "value": "1"
+        },
+        {
+          "id": 33097,
+          "optionNo": "C",
+          "text": "有点不符",
+          "value": "2"
+        },
+        {
+          "id": 33098,
+          "optionNo": "D",
+          "text": "有点符合",
+          "value": "3"
+        },
+        {
+          "id": 33099,
+          "optionNo": "E",
+          "text": "基本符合",
+          "value": "4"
+        },
+        {
+          "id": 33100,
+          "optionNo": "F",
+          "text": "完全符合",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 8041,
+      "text": "当某个人受到的对待比别人差时，我会感到不安",
+      "type": "radio",
+      "orderNum": 140,
+      "options": [
+        {
+          "id": 33101,
+          "optionNo": "A",
+          "text": "完全不符",
+          "value": "0"
+        },
+        {
+          "id": 33102,
+          "optionNo": "B",
+          "text": "基本不符",
+          "value": "1"
+        },
+        {
+          "id": 33103,
+          "optionNo": "C",
+          "text": "有点不符",
+          "value": "2"
+        },
+        {
+          "id": 33104,
+          "optionNo": "D",
+          "text": "有点符合",
+          "value": "3"
+        },
+        {
+          "id": 33105,
+          "optionNo": "E",
+          "text": "基本符合",
+          "value": "4"
+        },
+        {
+          "id": 33106,
+          "optionNo": "F",
+          "text": "完全符合",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 8042,
+      "text": "当我得到原本别人该得的东西时，我会感到不安",
+      "type": "radio",
+      "orderNum": 141,
+      "options": [
+        {
+          "id": 33107,
+          "optionNo": "A",
+          "text": "完全不符",
+          "value": "0"
+        },
+        {
+          "id": 33108,
+          "optionNo": "B",
+          "text": "基本不符",
+          "value": "1"
+        },
+        {
+          "id": 33109,
+          "optionNo": "C",
+          "text": "有点不符",
+          "value": "2"
+        },
+        {
+          "id": 33110,
+          "optionNo": "D",
+          "text": "有点符合",
+          "value": "3"
+        },
+        {
+          "id": 33111,
+          "optionNo": "E",
+          "text": "基本符合",
+          "value": "4"
+        },
+        {
+          "id": 33112,
+          "optionNo": "F",
+          "text": "完全符合",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 8043,
+      "text": "当我拿了他人的劳动成果时，我会有愧疚感",
+      "type": "radio",
+      "orderNum": 142,
+      "options": [
+        {
+          "id": 33113,
+          "optionNo": "A",
+          "text": "完全不符",
+          "value": "0"
+        },
+        {
+          "id": 33114,
+          "optionNo": "B",
+          "text": "基本不符",
+          "value": "1"
+        },
+        {
+          "id": 33115,
+          "optionNo": "C",
+          "text": "有点不符",
+          "value": "2"
+        },
+        {
+          "id": 33116,
+          "optionNo": "D",
+          "text": "有点符合",
+          "value": "3"
+        },
+        {
+          "id": 33117,
+          "optionNo": "E",
+          "text": "基本符合",
+          "value": "4"
+        },
+        {
+          "id": 33118,
+          "optionNo": "F",
+          "text": "完全符合",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 8044,
+      "text": "我难以忍受自己单方面从别人身上获利",
+      "type": "radio",
+      "orderNum": 143,
+      "options": [
+        {
+          "id": 33119,
+          "optionNo": "A",
+          "text": "完全不符",
+          "value": "0"
+        },
+        {
+          "id": 33120,
+          "optionNo": "B",
+          "text": "基本不符",
+          "value": "1"
+        },
+        {
+          "id": 33121,
+          "optionNo": "C",
+          "text": "有点不符",
+          "value": "2"
+        },
+        {
+          "id": 33122,
+          "optionNo": "D",
+          "text": "有点符合",
+          "value": "3"
+        },
+        {
+          "id": 33123,
+          "optionNo": "E",
+          "text": "基本符合",
+          "value": "4"
+        },
+        {
+          "id": 33124,
+          "optionNo": "F",
+          "text": "完全符合",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 8045,
+      "text": "当别人不得不收拾因为我的粗心造成的残局时，我会久久不能释怀",
+      "type": "radio",
+      "orderNum": 144,
+      "options": [
+        {
+          "id": 33125,
+          "optionNo": "A",
+          "text": "完全不符",
+          "value": "0"
+        },
+        {
+          "id": 33126,
+          "optionNo": "B",
+          "text": "基本不符",
+          "value": "1"
+        },
+        {
+          "id": 33127,
+          "optionNo": "C",
+          "text": "有点不符",
+          "value": "2"
+        },
+        {
+          "id": 33128,
+          "optionNo": "D",
+          "text": "有点符合",
+          "value": "3"
+        },
+        {
+          "id": 33129,
+          "optionNo": "E",
+          "text": "基本符合",
+          "value": "4"
+        },
+        {
+          "id": 33130,
+          "optionNo": "F",
+          "text": "完全符合",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 8046,
+      "text": "当我得到的发展机会比别人多时，我会感到不安",
+      "type": "radio",
+      "orderNum": 145,
+      "options": [
+        {
+          "id": 33131,
+          "optionNo": "A",
+          "text": "完全不符",
+          "value": "0"
+        },
+        {
+          "id": 33132,
+          "optionNo": "B",
+          "text": "基本不符",
+          "value": "1"
+        },
+        {
+          "id": 33133,
+          "optionNo": "C",
+          "text": "有点不符",
+          "value": "2"
+        },
+        {
+          "id": 33134,
+          "optionNo": "D",
+          "text": "有点符合",
+          "value": "3"
+        },
+        {
+          "id": 33135,
+          "optionNo": "E",
+          "text": "基本符合",
+          "value": "4"
+        },
+        {
+          "id": 33136,
+          "optionNo": "F",
+          "text": "完全符合",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 8047,
+      "text": "自己无缘无故过得比别人好，会让我有负罪感",
+      "type": "radio",
+      "orderNum": 146,
+      "options": [
+        {
+          "id": 33137,
+          "optionNo": "A",
+          "text": "完全不符",
+          "value": "0"
+        },
+        {
+          "id": 33138,
+          "optionNo": "B",
+          "text": "基本不符",
+          "value": "1"
+        },
+        {
+          "id": 33139,
+          "optionNo": "C",
+          "text": "有点不符",
+          "value": "2"
+        },
+        {
+          "id": 33140,
+          "optionNo": "D",
+          "text": "有点符合",
+          "value": "3"
+        },
+        {
+          "id": 33141,
+          "optionNo": "E",
+          "text": "基本符合",
+          "value": "4"
+        },
+        {
+          "id": 33142,
+          "optionNo": "F",
+          "text": "完全符合",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 8048,
+      "text": "自己轻易得到了别人费好大劲才能得到的东西，这让我感到不安",
+      "type": "radio",
+      "orderNum": 147,
+      "options": [
+        {
+          "id": 33143,
+          "optionNo": "A",
+          "text": "完全不符",
+          "value": "0"
+        },
+        {
+          "id": 33144,
+          "optionNo": "B",
+          "text": "基本不符",
+          "value": "1"
+        },
+        {
+          "id": 33145,
+          "optionNo": "C",
+          "text": "有点不符",
+          "value": "2"
+        },
+        {
+          "id": 33146,
+          "optionNo": "D",
+          "text": "有点符合",
+          "value": "3"
+        },
+        {
+          "id": 33147,
+          "optionNo": "E",
+          "text": "基本符合",
+          "value": "4"
+        },
+        {
+          "id": 33148,
+          "optionNo": "F",
+          "text": "完全符合",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 8049,
+      "text": "当自己无缘无故得到比别人更好的待遇时，我会耿耿于怀",
+      "type": "radio",
+      "orderNum": 148,
+      "options": [
+        {
+          "id": 33149,
+          "optionNo": "A",
+          "text": "完全不符",
+          "value": "0"
+        },
+        {
+          "id": 33150,
+          "optionNo": "B",
+          "text": "基本不符",
+          "value": "1"
+        },
+        {
+          "id": 33151,
+          "optionNo": "C",
+          "text": "有点不符",
+          "value": "2"
+        },
+        {
+          "id": 33152,
+          "optionNo": "D",
+          "text": "有点符合",
+          "value": "3"
+        },
+        {
+          "id": 33153,
+          "optionNo": "E",
+          "text": "基本符合",
+          "value": "4"
+        },
+        {
+          "id": 33154,
+          "optionNo": "F",
+          "text": "完全符合",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 8050,
+      "text": "有些事发生在我身上没有人在意，而发生在别人身上时他们却要为此受到批评，这让我感到不安",
+      "type": "radio",
+      "orderNum": 149,
+      "options": [
+        {
+          "id": 33155,
+          "optionNo": "A",
+          "text": "完全不符",
+          "value": "0"
+        },
+        {
+          "id": 33156,
+          "optionNo": "B",
+          "text": "基本不符",
+          "value": "1"
+        },
+        {
+          "id": 33157,
+          "optionNo": "C",
+          "text": "有点不符",
+          "value": "2"
+        },
+        {
+          "id": 33158,
+          "optionNo": "D",
+          "text": "有点符合",
+          "value": "3"
+        },
+        {
+          "id": 33159,
+          "optionNo": "E",
+          "text": "基本符合",
+          "value": "4"
+        },
+        {
+          "id": 33160,
+          "optionNo": "F",
+          "text": "完全符合",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 8051,
+      "text": "当我得到的待遇比别人好时，我会有负罪感",
+      "type": "radio",
+      "orderNum": 150,
+      "options": [
+        {
+          "id": 33161,
+          "optionNo": "A",
+          "text": "完全不符",
+          "value": "0"
+        },
+        {
+          "id": 33162,
+          "optionNo": "B",
+          "text": "基本不符",
+          "value": "1"
+        },
+        {
+          "id": 33163,
+          "optionNo": "C",
+          "text": "有点不符",
+          "value": "2"
+        },
+        {
+          "id": 33164,
+          "optionNo": "D",
+          "text": "有点符合",
+          "value": "3"
+        },
+        {
+          "id": 33165,
+          "optionNo": "E",
+          "text": "基本符合",
+          "value": "4"
+        },
+        {
+          "id": 33166,
+          "optionNo": "F",
+          "text": "完全符合",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 8052,
+      "text": "当我从别人那里拿走了原本我不该得的东西时，我会感到压抑",
+      "type": "radio",
+      "orderNum": 151,
+      "options": [
+        {
+          "id": 33167,
+          "optionNo": "A",
+          "text": "完全不符",
+          "value": "0"
+        },
+        {
+          "id": 33168,
+          "optionNo": "B",
+          "text": "基本不符",
+          "value": "1"
+        },
+        {
+          "id": 33169,
+          "optionNo": "C",
+          "text": "有点不符",
+          "value": "2"
+        },
+        {
+          "id": 33170,
+          "optionNo": "D",
+          "text": "有点符合",
+          "value": "3"
+        },
+        {
+          "id": 33171,
+          "optionNo": "E",
+          "text": "基本符合",
+          "value": "4"
+        },
+        {
+          "id": 33172,
+          "optionNo": "F",
+          "text": "完全符合",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 8053,
+      "text": "当我在本该感谢别人却不肯致谢时，我会有愧疚感",
+      "type": "radio",
+      "orderNum": 152,
+      "options": [
+        {
+          "id": 33173,
+          "optionNo": "A",
+          "text": "完全不符",
+          "value": "0"
+        },
+        {
+          "id": 33174,
+          "optionNo": "B",
+          "text": "基本不符",
+          "value": "1"
+        },
+        {
+          "id": 33175,
+          "optionNo": "C",
+          "text": "有点不符",
+          "value": "2"
+        },
+        {
+          "id": 33176,
+          "optionNo": "D",
+          "text": "有点符合",
+          "value": "3"
+        },
+        {
+          "id": 33177,
+          "optionNo": "E",
+          "text": "基本符合",
+          "value": "4"
+        },
+        {
+          "id": 33178,
+          "optionNo": "F",
+          "text": "完全符合",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 8054,
+      "text": "我不能忍受利用他人的感觉",
+      "type": "radio",
+      "orderNum": 153,
+      "options": [
+        {
+          "id": 33179,
+          "optionNo": "A",
+          "text": "完全不符",
+          "value": "0"
+        },
+        {
+          "id": 33180,
+          "optionNo": "B",
+          "text": "基本不符",
+          "value": "1"
+        },
+        {
+          "id": 33181,
+          "optionNo": "C",
+          "text": "有点不符",
+          "value": "2"
+        },
+        {
+          "id": 33182,
+          "optionNo": "D",
+          "text": "有点符合",
+          "value": "3"
+        },
+        {
+          "id": 33183,
+          "optionNo": "E",
+          "text": "基本符合",
+          "value": "4"
+        },
+        {
+          "id": 33184,
+          "optionNo": "F",
+          "text": "完全符合",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 8055,
+      "text": "当自己坐视他人蒙受损失时，我会久久不能释怀",
+      "type": "radio",
+      "orderNum": 154,
+      "options": [
+        {
+          "id": 33185,
+          "optionNo": "A",
+          "text": "完全不符",
+          "value": "0"
+        },
+        {
+          "id": 33186,
+          "optionNo": "B",
+          "text": "基本不符",
+          "value": "1"
+        },
+        {
+          "id": 33187,
+          "optionNo": "C",
+          "text": "有点不符",
+          "value": "2"
+        },
+        {
+          "id": 33188,
+          "optionNo": "D",
+          "text": "有点符合",
+          "value": "3"
+        },
+        {
+          "id": 33189,
+          "optionNo": "E",
+          "text": "基本符合",
+          "value": "4"
+        },
+        {
+          "id": 33190,
+          "optionNo": "F",
+          "text": "完全符合",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 8056,
+      "text": "当我剥夺了他人的发展机会时，我会感到不安",
+      "type": "radio",
+      "orderNum": 155,
+      "options": [
+        {
+          "id": 33191,
+          "optionNo": "A",
+          "text": "完全不符",
+          "value": "0"
+        },
+        {
+          "id": 33192,
+          "optionNo": "B",
+          "text": "基本不符",
+          "value": "1"
+        },
+        {
+          "id": 33193,
+          "optionNo": "C",
+          "text": "有点不符",
+          "value": "2"
+        },
+        {
+          "id": 33194,
+          "optionNo": "D",
+          "text": "有点符合",
+          "value": "3"
+        },
+        {
+          "id": 33195,
+          "optionNo": "E",
+          "text": "基本符合",
+          "value": "4"
+        },
+        {
+          "id": 33196,
+          "optionNo": "F",
+          "text": "完全符合",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 8057,
+      "text": "以牺牲他人为代价来谋取自己的利益，我会有负罪感",
+      "type": "radio",
+      "orderNum": 156,
+      "options": [
+        {
+          "id": 33197,
+          "optionNo": "A",
+          "text": "完全不符",
+          "value": "0"
+        },
+        {
+          "id": 33198,
+          "optionNo": "B",
+          "text": "基本不符",
+          "value": "1"
+        },
+        {
+          "id": 33199,
+          "optionNo": "C",
+          "text": "有点不符",
+          "value": "2"
+        },
+        {
+          "id": 33200,
+          "optionNo": "D",
+          "text": "有点符合",
+          "value": "3"
+        },
+        {
+          "id": 33201,
+          "optionNo": "E",
+          "text": "基本符合",
+          "value": "4"
+        },
+        {
+          "id": 33202,
+          "optionNo": "F",
+          "text": "完全符合",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 8058,
+      "text": "使用伎俩使自己得到别人费好大劲才能得到的东西，我会感到不安",
+      "type": "radio",
+      "orderNum": 157,
+      "options": [
+        {
+          "id": 33203,
+          "optionNo": "A",
+          "text": "完全不符",
+          "value": "0"
+        },
+        {
+          "id": 33204,
+          "optionNo": "B",
+          "text": "基本不符",
+          "value": "1"
+        },
+        {
+          "id": 33205,
+          "optionNo": "C",
+          "text": "有点不符",
+          "value": "2"
+        },
+        {
+          "id": 33206,
+          "optionNo": "D",
+          "text": "有点符合",
+          "value": "3"
+        },
+        {
+          "id": 33207,
+          "optionNo": "E",
+          "text": "基本符合",
+          "value": "4"
+        },
+        {
+          "id": 33208,
+          "optionNo": "F",
+          "text": "完全符合",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 8059,
+      "text": "当我无缘无故地对某个人比对其他人更不友好的话，我会耿耿于怀",
+      "type": "radio",
+      "orderNum": 158,
+      "options": [
+        {
+          "id": 33209,
+          "optionNo": "A",
+          "text": "完全不符",
+          "value": "0"
+        },
+        {
+          "id": 33210,
+          "optionNo": "B",
+          "text": "基本不符",
+          "value": "1"
+        },
+        {
+          "id": 33211,
+          "optionNo": "C",
+          "text": "有点不符",
+          "value": "2"
+        },
+        {
+          "id": 33212,
+          "optionNo": "D",
+          "text": "有点符合",
+          "value": "3"
+        },
+        {
+          "id": 33213,
+          "optionNo": "E",
+          "text": "基本符合",
+          "value": "4"
+        },
+        {
+          "id": 33214,
+          "optionNo": "F",
+          "text": "完全符合",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 8060,
+      "text": "有些事发生在其他人身上我不会在意，而发生在某个人身上时我却要批评他（她），这让我良心不安",
+      "type": "radio",
+      "orderNum": 159,
+      "options": [
+        {
+          "id": 33215,
+          "optionNo": "A",
+          "text": "完全不符",
+          "value": "0"
+        },
+        {
+          "id": 33216,
+          "optionNo": "B",
+          "text": "基本不符",
+          "value": "1"
+        },
+        {
+          "id": 33217,
+          "optionNo": "C",
+          "text": "有点不符",
+          "value": "2"
+        },
+        {
+          "id": 33218,
+          "optionNo": "D",
+          "text": "有点符合",
+          "value": "3"
+        },
+        {
+          "id": 33219,
+          "optionNo": "E",
+          "text": "基本符合",
+          "value": "4"
+        },
+        {
+          "id": 33220,
+          "optionNo": "F",
+          "text": "完全符合",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 8061,
+      "text": "当我对待某个人比对其他人差时，我会有负罪感",
+      "type": "radio",
+      "orderNum": 160,
+      "options": [
+        {
+          "id": 33221,
+          "optionNo": "A",
+          "text": "完全不符",
+          "value": "0"
+        },
+        {
+          "id": 33222,
+          "optionNo": "B",
+          "text": "基本不符",
+          "value": "1"
+        },
+        {
+          "id": 33223,
+          "optionNo": "C",
+          "text": "有点不符",
+          "value": "2"
+        },
+        {
+          "id": 33224,
+          "optionNo": "D",
+          "text": "有点符合",
+          "value": "3"
+        },
+        {
+          "id": 33225,
+          "optionNo": "E",
+          "text": "基本符合",
+          "value": "4"
+        },
+        {
+          "id": 33226,
+          "optionNo": "F",
+          "text": "完全符合",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 8062,
+      "text": "我会尽其所能去得到我想要的东西",
+      "type": "radio",
+      "orderNum": 161,
+      "options": [
+        {
+          "id": 33227,
+          "optionNo": "A",
+          "text": "完全同意",
+          "value": "1"
+        },
+        {
+          "id": 33228,
+          "optionNo": "B",
+          "text": "部分同意",
+          "value": "2"
+        },
+        {
+          "id": 33229,
+          "optionNo": "C",
+          "text": "部分不同意",
+          "value": "3"
+        },
+        {
+          "id": 33230,
+          "optionNo": "D",
+          "text": "完全不同意",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 8063,
+      "text": "当我把某件事情做得很好时我会喜欢继续做它",
+      "type": "radio",
+      "orderNum": 162,
+      "options": [
+        {
+          "id": 33231,
+          "optionNo": "A",
+          "text": "完全同意",
+          "value": "1"
+        },
+        {
+          "id": 33232,
+          "optionNo": "B",
+          "text": "部分同意",
+          "value": "2"
+        },
+        {
+          "id": 33233,
+          "optionNo": "C",
+          "text": "部分不同意",
+          "value": "3"
+        },
+        {
+          "id": 33234,
+          "optionNo": "D",
+          "text": "完全不同意",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 8064,
+      "text": "只要我觉得某件事情可能有趣我就会去尝试它",
+      "type": "radio",
+      "orderNum": 163,
+      "options": [
+        {
+          "id": 33235,
+          "optionNo": "A",
+          "text": "完全同意",
+          "value": "1"
+        },
+        {
+          "id": 33236,
+          "optionNo": "B",
+          "text": "部分同意",
+          "value": "2"
+        },
+        {
+          "id": 33237,
+          "optionNo": "C",
+          "text": "部分不同意",
+          "value": "3"
+        },
+        {
+          "id": 33238,
+          "optionNo": "D",
+          "text": "完全不同意",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 8065,
+      "text": "当我得到想要的事物时我觉得很兴奋并充满能量",
+      "type": "radio",
+      "orderNum": 164,
+      "options": [
+        {
+          "id": 33239,
+          "optionNo": "A",
+          "text": "完全同意",
+          "value": "1"
+        },
+        {
+          "id": 33240,
+          "optionNo": "B",
+          "text": "部分同意",
+          "value": "2"
+        },
+        {
+          "id": 33241,
+          "optionNo": "C",
+          "text": "部分不同意",
+          "value": "3"
+        },
+        {
+          "id": 33242,
+          "optionNo": "D",
+          "text": "完全不同意",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 8066,
+      "text": "被批评或指责会让我感到很难过",
+      "type": "radio",
+      "orderNum": 165,
+      "options": [
+        {
+          "id": 33243,
+          "optionNo": "A",
+          "text": "完全同意",
+          "value": "1"
+        },
+        {
+          "id": 33244,
+          "optionNo": "B",
+          "text": "部分同意",
+          "value": "2"
+        },
+        {
+          "id": 33245,
+          "optionNo": "C",
+          "text": "部分不同意",
+          "value": "3"
+        },
+        {
+          "id": 33246,
+          "optionNo": "D",
+          "text": "完全不同意",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 8067,
+      "text": "当我想要某件东西时我会想方设法去得到它",
+      "type": "radio",
+      "orderNum": 166,
+      "options": [
+        {
+          "id": 33247,
+          "optionNo": "A",
+          "text": "完全同意",
+          "value": "1"
+        },
+        {
+          "id": 33248,
+          "optionNo": "B",
+          "text": "部分同意",
+          "value": "2"
+        },
+        {
+          "id": 33249,
+          "optionNo": "C",
+          "text": "部分不同意",
+          "value": "3"
+        },
+        {
+          "id": 33250,
+          "optionNo": "D",
+          "text": "完全不同意",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 8068,
+      "text": "我常只因为好玩或有趣就去做某些事",
+      "type": "radio",
+      "orderNum": 167,
+      "options": [
+        {
+          "id": 33251,
+          "optionNo": "A",
+          "text": "完全同意",
+          "value": "1"
+        },
+        {
+          "id": 33252,
+          "optionNo": "B",
+          "text": "部分同意",
+          "value": "2"
+        },
+        {
+          "id": 33253,
+          "optionNo": "C",
+          "text": "部分不同意",
+          "value": "3"
+        },
+        {
+          "id": 33254,
+          "optionNo": "D",
+          "text": "完全不同意",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 8069,
+      "text": "当我有机会获得我想要的东西时我会马上行动起来",
+      "type": "radio",
+      "orderNum": 168,
+      "options": [
+        {
+          "id": 33255,
+          "optionNo": "A",
+          "text": "完全同意",
+          "value": "1"
+        },
+        {
+          "id": 33256,
+          "optionNo": "B",
+          "text": "部分同意",
+          "value": "2"
+        },
+        {
+          "id": 33257,
+          "optionNo": "C",
+          "text": "部分不同意",
+          "value": "3"
+        },
+        {
+          "id": 33258,
+          "optionNo": "D",
+          "text": "完全不同意",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 8070,
+      "text": "如果我想到或知道有人生我的气我就觉得很紧张或心情不好",
+      "type": "radio",
+      "orderNum": 169,
+      "options": [
+        {
+          "id": 33259,
+          "optionNo": "A",
+          "text": "完全同意",
+          "value": "1"
+        },
+        {
+          "id": 33260,
+          "optionNo": "B",
+          "text": "部分同意",
+          "value": "2"
+        },
+        {
+          "id": 33261,
+          "optionNo": "C",
+          "text": "部分不同意",
+          "value": "3"
+        },
+        {
+          "id": 33262,
+          "optionNo": "D",
+          "text": "完全不同意",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 8071,
+      "text": "当有机会得到我想要的东西时我会立刻兴奋起来",
+      "type": "radio",
+      "orderNum": 170,
+      "options": [
+        {
+          "id": 33263,
+          "optionNo": "A",
+          "text": "完全同意",
+          "value": "1"
+        },
+        {
+          "id": 33264,
+          "optionNo": "B",
+          "text": "部分同意",
+          "value": "2"
+        },
+        {
+          "id": 33265,
+          "optionNo": "C",
+          "text": "部分不同意",
+          "value": "3"
+        },
+        {
+          "id": 33266,
+          "optionNo": "D",
+          "text": "完全不同意",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 8072,
+      "text": "我常因一时冲动就行动",
+      "type": "radio",
+      "orderNum": 171,
+      "options": [
+        {
+          "id": 33267,
+          "optionNo": "A",
+          "text": "完全同意",
+          "value": "1"
+        },
+        {
+          "id": 33268,
+          "optionNo": "B",
+          "text": "部分同意",
+          "value": "2"
+        },
+        {
+          "id": 33269,
+          "optionNo": "C",
+          "text": "部分不同意",
+          "value": "3"
+        },
+        {
+          "id": 33270,
+          "optionNo": "D",
+          "text": "完全不同意",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 8073,
+      "text": "如果我觉得有不愉快的事情可能会发生那我就会变得坐立不安",
+      "type": "radio",
+      "orderNum": 172,
+      "options": [
+        {
+          "id": 33271,
+          "optionNo": "A",
+          "text": "完全同意",
+          "value": "1"
+        },
+        {
+          "id": 33272,
+          "optionNo": "B",
+          "text": "部分同意",
+          "value": "2"
+        },
+        {
+          "id": 33273,
+          "optionNo": "C",
+          "text": "部分不同意",
+          "value": "3"
+        },
+        {
+          "id": 33274,
+          "optionNo": "D",
+          "text": "完全不同意",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 8074,
+      "text": "有好事情发生在我身上时我会受到很大的影响",
+      "type": "radio",
+      "orderNum": 173,
+      "options": [
+        {
+          "id": 33275,
+          "optionNo": "A",
+          "text": "完全同意",
+          "value": "1"
+        },
+        {
+          "id": 33276,
+          "optionNo": "B",
+          "text": "部分同意",
+          "value": "2"
+        },
+        {
+          "id": 33277,
+          "optionNo": "C",
+          "text": "部分不同意",
+          "value": "3"
+        },
+        {
+          "id": 33278,
+          "optionNo": "D",
+          "text": "完全不同意",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 8075,
+      "text": "如果我想到没把某件事情做好我就觉得紧张",
+      "type": "radio",
+      "orderNum": 174,
+      "options": [
+        {
+          "id": 33279,
+          "optionNo": "A",
+          "text": "完全同意",
+          "value": "1"
+        },
+        {
+          "id": 33280,
+          "optionNo": "B",
+          "text": "部分同意",
+          "value": "2"
+        },
+        {
+          "id": 33281,
+          "optionNo": "C",
+          "text": "部分不同意",
+          "value": "3"
+        },
+        {
+          "id": 33282,
+          "optionNo": "D",
+          "text": "完全不同意",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 8076,
+      "text": "我喜欢刺激及新鲜感",
+      "type": "radio",
+      "orderNum": 175,
+      "options": [
+        {
+          "id": 33283,
+          "optionNo": "A",
+          "text": "完全同意",
+          "value": "1"
+        },
+        {
+          "id": 33284,
+          "optionNo": "B",
+          "text": "部分同意",
+          "value": "2"
+        },
+        {
+          "id": 33285,
+          "optionNo": "C",
+          "text": "部分不同意",
+          "value": "3"
+        },
+        {
+          "id": 33286,
+          "optionNo": "D",
+          "text": "完全不同意",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 8077,
+      "text": "我会以排除万难的态度追求我想要的东西",
+      "type": "radio",
+      "orderNum": 176,
+      "options": [
+        {
+          "id": 33287,
+          "optionNo": "A",
+          "text": "完全同意",
+          "value": "1"
+        },
+        {
+          "id": 33288,
+          "optionNo": "B",
+          "text": "部分同意",
+          "value": "2"
+        },
+        {
+          "id": 33289,
+          "optionNo": "C",
+          "text": "部分不同意",
+          "value": "3"
+        },
+        {
+          "id": 33290,
+          "optionNo": "D",
+          "text": "完全不同意",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 8078,
+      "text": "赢得比赛让我很兴奋",
+      "type": "radio",
+      "orderNum": 177,
+      "options": [
+        {
+          "id": 33291,
+          "optionNo": "A",
+          "text": "完全同意",
+          "value": "1"
+        },
+        {
+          "id": 33292,
+          "optionNo": "B",
+          "text": "部分同意",
+          "value": "2"
+        },
+        {
+          "id": 33293,
+          "optionNo": "C",
+          "text": "部分不同意",
+          "value": "3"
+        },
+        {
+          "id": 33294,
+          "optionNo": "D",
+          "text": "完全不同意",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 8079,
+      "text": "我担心我会犯错",
+      "type": "radio",
+      "orderNum": 178,
+      "options": [
+        {
+          "id": 33295,
+          "optionNo": "A",
+          "text": "完全同意",
+          "value": "1"
+        },
+        {
+          "id": 33296,
+          "optionNo": "B",
+          "text": "部分同意",
+          "value": "2"
+        },
+        {
+          "id": 33297,
+          "optionNo": "C",
+          "text": "部分不同意",
+          "value": "3"
+        },
+        {
+          "id": 33298,
+          "optionNo": "D",
+          "text": "完全不同意",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 8080,
+      "text": "我感到我是一个对发生过的事负责任的人",
+      "type": "radio",
+      "orderNum": 179,
+      "options": [
+        {
+          "id": 33299,
+          "optionNo": "A",
+          "text": "从不",
+          "value": "1"
+        },
+        {
+          "id": 33300,
+          "optionNo": "B",
+          "text": "几乎不",
+          "value": "2"
+        },
+        {
+          "id": 33301,
+          "optionNo": "C",
+          "text": "有时",
+          "value": "3"
+        },
+        {
+          "id": 33302,
+          "optionNo": "D",
+          "text": "几乎总是",
+          "value": "4"
+        },
+        {
+          "id": 33303,
+          "optionNo": "E",
+          "text": "总是",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 8081,
+      "text": "我想事情的基本原因在我自己",
+      "type": "radio",
+      "orderNum": 180,
+      "options": [
+        {
+          "id": 33304,
+          "optionNo": "A",
+          "text": "从不",
+          "value": "1"
+        },
+        {
+          "id": 33305,
+          "optionNo": "B",
+          "text": "几乎不",
+          "value": "2"
+        },
+        {
+          "id": 33306,
+          "optionNo": "C",
+          "text": "有时",
+          "value": "3"
+        },
+        {
+          "id": 33307,
+          "optionNo": "D",
+          "text": "几乎总是",
+          "value": "4"
+        },
+        {
+          "id": 33308,
+          "optionNo": "E",
+          "text": "总是",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 8082,
+      "text": "我想我必须接受已经发生的事",
+      "type": "radio",
+      "orderNum": 181,
+      "options": [
+        {
+          "id": 33309,
+          "optionNo": "A",
+          "text": "从不",
+          "value": "1"
+        },
+        {
+          "id": 33310,
+          "optionNo": "B",
+          "text": "几乎不",
+          "value": "2"
+        },
+        {
+          "id": 33311,
+          "optionNo": "C",
+          "text": "有时",
+          "value": "3"
+        },
+        {
+          "id": 33312,
+          "optionNo": "D",
+          "text": "几乎总是",
+          "value": "4"
+        },
+        {
+          "id": 33313,
+          "optionNo": "E",
+          "text": "总是",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 8083,
+      "text": "我想我必须接受这种状况",
+      "type": "radio",
+      "orderNum": 182,
+      "options": [
+        {
+          "id": 33314,
+          "optionNo": "A",
+          "text": "从不",
+          "value": "1"
+        },
+        {
+          "id": 33315,
+          "optionNo": "B",
+          "text": "几乎不",
+          "value": "2"
+        },
+        {
+          "id": 33316,
+          "optionNo": "C",
+          "text": "有时",
+          "value": "3"
+        },
+        {
+          "id": 33317,
+          "optionNo": "D",
+          "text": "几乎总是",
+          "value": "4"
+        },
+        {
+          "id": 33318,
+          "optionNo": "E",
+          "text": "总是",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 8084,
+      "text": "我常常回想对我已经经历的事是怎样的感觉",
+      "type": "radio",
+      "orderNum": 183,
+      "options": [
+        {
+          "id": 33319,
+          "optionNo": "A",
+          "text": "从不",
+          "value": "1"
+        },
+        {
+          "id": 33320,
+          "optionNo": "B",
+          "text": "几乎不",
+          "value": "2"
+        },
+        {
+          "id": 33321,
+          "optionNo": "C",
+          "text": "有时",
+          "value": "3"
+        },
+        {
+          "id": 33322,
+          "optionNo": "D",
+          "text": "几乎总是",
+          "value": "4"
+        },
+        {
+          "id": 33323,
+          "optionNo": "E",
+          "text": "总是",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 8085,
+      "text": "我沉迷于对我已经经历的事的感觉和想法中",
+      "type": "radio",
+      "orderNum": 184,
+      "options": [
+        {
+          "id": 33324,
+          "optionNo": "A",
+          "text": "从不",
+          "value": "1"
+        },
+        {
+          "id": 33325,
+          "optionNo": "B",
+          "text": "几乎不",
+          "value": "2"
+        },
+        {
+          "id": 33326,
+          "optionNo": "C",
+          "text": "有时",
+          "value": "3"
+        },
+        {
+          "id": 33327,
+          "optionNo": "D",
+          "text": "几乎总是",
+          "value": "4"
+        },
+        {
+          "id": 33328,
+          "optionNo": "E",
+          "text": "总是",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 8086,
+      "text": "我去想那些与现在事情无关的愉快的事",
+      "type": "radio",
+      "orderNum": 185,
+      "options": [
+        {
+          "id": 33329,
+          "optionNo": "A",
+          "text": "从不",
+          "value": "1"
+        },
+        {
+          "id": 33330,
+          "optionNo": "B",
+          "text": "几乎不",
+          "value": "2"
+        },
+        {
+          "id": 33331,
+          "optionNo": "C",
+          "text": "有时",
+          "value": "3"
+        },
+        {
+          "id": 33332,
+          "optionNo": "D",
+          "text": "几乎总是",
+          "value": "4"
+        },
+        {
+          "id": 33333,
+          "optionNo": "E",
+          "text": "总是",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 8087,
+      "text": "我去想某些好事而不是所发生的事",
+      "type": "radio",
+      "orderNum": 186,
+      "options": [
+        {
+          "id": 33334,
+          "optionNo": "A",
+          "text": "从不",
+          "value": "1"
+        },
+        {
+          "id": 33335,
+          "optionNo": "B",
+          "text": "几乎不",
+          "value": "2"
+        },
+        {
+          "id": 33336,
+          "optionNo": "C",
+          "text": "有时",
+          "value": "3"
+        },
+        {
+          "id": 33337,
+          "optionNo": "D",
+          "text": "几乎总是",
+          "value": "4"
+        },
+        {
+          "id": 33338,
+          "optionNo": "E",
+          "text": "总是",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 8088,
+      "text": "我在想怎样去改变这种情况",
+      "type": "radio",
+      "orderNum": 187,
+      "options": [
+        {
+          "id": 33339,
+          "optionNo": "A",
+          "text": "从不",
+          "value": "1"
+        },
+        {
+          "id": 33340,
+          "optionNo": "B",
+          "text": "几乎不",
+          "value": "2"
+        },
+        {
+          "id": 33341,
+          "optionNo": "C",
+          "text": "有时",
+          "value": "3"
+        },
+        {
+          "id": 33342,
+          "optionNo": "D",
+          "text": "几乎总是",
+          "value": "4"
+        },
+        {
+          "id": 33343,
+          "optionNo": "E",
+          "text": "总是",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 8089,
+      "text": "我在想一个我怎样能够做得最好的计划",
+      "type": "radio",
+      "orderNum": 188,
+      "options": [
+        {
+          "id": 33344,
+          "optionNo": "A",
+          "text": "从不",
+          "value": "1"
+        },
+        {
+          "id": 33345,
+          "optionNo": "B",
+          "text": "几乎不",
+          "value": "2"
+        },
+        {
+          "id": 33346,
+          "optionNo": "C",
+          "text": "有时",
+          "value": "3"
+        },
+        {
+          "id": 33347,
+          "optionNo": "D",
+          "text": "几乎总是",
+          "value": "4"
+        },
+        {
+          "id": 33348,
+          "optionNo": "E",
+          "text": "总是",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 8090,
+      "text": "我想我能从这些事情中学到一些东西",
+      "type": "radio",
+      "orderNum": 189,
+      "options": [
+        {
+          "id": 33349,
+          "optionNo": "A",
+          "text": "从不",
+          "value": "1"
+        },
+        {
+          "id": 33350,
+          "optionNo": "B",
+          "text": "几乎不",
+          "value": "2"
+        },
+        {
+          "id": 33351,
+          "optionNo": "C",
+          "text": "有时",
+          "value": "3"
+        },
+        {
+          "id": 33352,
+          "optionNo": "D",
+          "text": "几乎总是",
+          "value": "4"
+        },
+        {
+          "id": 33353,
+          "optionNo": "E",
+          "text": "总是",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 8091,
+      "text": "我想所发生的事情能让我成为更强的人",
+      "type": "radio",
+      "orderNum": 190,
+      "options": [
+        {
+          "id": 33354,
+          "optionNo": "A",
+          "text": "从不",
+          "value": "1"
+        },
+        {
+          "id": 33355,
+          "optionNo": "B",
+          "text": "几乎不",
+          "value": "2"
+        },
+        {
+          "id": 33356,
+          "optionNo": "C",
+          "text": "有时",
+          "value": "3"
+        },
+        {
+          "id": 33357,
+          "optionNo": "D",
+          "text": "几乎总是",
+          "value": "4"
+        },
+        {
+          "id": 33358,
+          "optionNo": "E",
+          "text": "总是",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 8092,
+      "text": "我想和其他事情相比，这还不是太坏",
+      "type": "radio",
+      "orderNum": 191,
+      "options": [
+        {
+          "id": 33359,
+          "optionNo": "A",
+          "text": "从不",
+          "value": "1"
+        },
+        {
+          "id": 33360,
+          "optionNo": "B",
+          "text": "几乎不",
+          "value": "2"
+        },
+        {
+          "id": 33361,
+          "optionNo": "C",
+          "text": "有时",
+          "value": "3"
+        },
+        {
+          "id": 33362,
+          "optionNo": "D",
+          "text": "几乎总是",
+          "value": "4"
+        },
+        {
+          "id": 33363,
+          "optionNo": "E",
+          "text": "总是",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 8093,
+      "text": "我告诉自己生命中有更坏的事情",
+      "type": "radio",
+      "orderNum": 192,
+      "options": [
+        {
+          "id": 33364,
+          "optionNo": "A",
+          "text": "从不",
+          "value": "1"
+        },
+        {
+          "id": 33365,
+          "optionNo": "B",
+          "text": "几乎不",
+          "value": "2"
+        },
+        {
+          "id": 33366,
+          "optionNo": "C",
+          "text": "有时",
+          "value": "3"
+        },
+        {
+          "id": 33367,
+          "optionNo": "D",
+          "text": "几乎总是",
+          "value": "4"
+        },
+        {
+          "id": 33368,
+          "optionNo": "E",
+          "text": "总是",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 8094,
+      "text": "我不断地想我经历的事情是多么的可怕",
+      "type": "radio",
+      "orderNum": 193,
+      "options": [
+        {
+          "id": 33369,
+          "optionNo": "A",
+          "text": "从不",
+          "value": "1"
+        },
+        {
+          "id": 33370,
+          "optionNo": "B",
+          "text": "几乎不",
+          "value": "2"
+        },
+        {
+          "id": 33371,
+          "optionNo": "C",
+          "text": "有时",
+          "value": "3"
+        },
+        {
+          "id": 33372,
+          "optionNo": "D",
+          "text": "几乎总是",
+          "value": "4"
+        },
+        {
+          "id": 33373,
+          "optionNo": "E",
+          "text": "总是",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 8095,
+      "text": "我不断地想这情况是多么的可怕",
+      "type": "radio",
+      "orderNum": 194,
+      "options": [
+        {
+          "id": 33374,
+          "optionNo": "A",
+          "text": "从不",
+          "value": "1"
+        },
+        {
+          "id": 33375,
+          "optionNo": "B",
+          "text": "几乎不",
+          "value": "2"
+        },
+        {
+          "id": 33376,
+          "optionNo": "C",
+          "text": "有时",
+          "value": "3"
+        },
+        {
+          "id": 33377,
+          "optionNo": "D",
+          "text": "几乎总是",
+          "value": "4"
+        },
+        {
+          "id": 33378,
+          "optionNo": "E",
+          "text": "总是",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 8096,
+      "text": "我感到别人应对发生的事情负责",
+      "type": "radio",
+      "orderNum": 195,
+      "options": [
+        {
+          "id": 33379,
+          "optionNo": "A",
+          "text": "从不",
+          "value": "1"
+        },
+        {
+          "id": 33380,
+          "optionNo": "B",
+          "text": "几乎不",
+          "value": "2"
+        },
+        {
+          "id": 33381,
+          "optionNo": "C",
+          "text": "有时",
+          "value": "3"
+        },
+        {
+          "id": 33382,
+          "optionNo": "D",
+          "text": "几乎总是",
+          "value": "4"
+        },
+        {
+          "id": 33383,
+          "optionNo": "E",
+          "text": "总是",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 8097,
+      "text": "我感到事情发生的根本原因在别人身上",
+      "type": "radio",
+      "orderNum": 196,
+      "options": [
+        {
+          "id": 33384,
+          "optionNo": "A",
+          "text": "从不",
+          "value": "1"
+        },
+        {
+          "id": 33385,
+          "optionNo": "B",
+          "text": "几乎不",
+          "value": "2"
+        },
+        {
+          "id": 33386,
+          "optionNo": "C",
+          "text": "有时",
+          "value": "3"
+        },
+        {
+          "id": 33387,
+          "optionNo": "D",
+          "text": "几乎总是",
+          "value": "4"
+        },
+        {
+          "id": 33388,
+          "optionNo": "E",
+          "text": "总是",
+          "value": "5"
+        }
+      ]
+    }
+  ],
+  "dimensions": [
+    {
+      "id": 852,
+      "num": 1,
+      "dimensionName": "无法忍受不确定性",
+      "dimensionCode": "无法忍受不确定性",
+      "evaluateExpression": "hx_t_1 + hx_t_2 + hx_t_3 + hx_t_4 + hx_t_5 + hx_t_6 + hx_t_7 + hx_t_8 + hx_t_9 + hx_t_10 + hx_t_11 + hx_t_12",
+      "standardScoreFormula": "hx_t_1 + hx_t_2 + hx_t_3 + hx_t_4 + hx_t_5 + hx_t_6 + hx_t_7 + hx_t_8 + hx_t_9 + hx_t_10 + hx_t_11 + hx_t_12",
+      "results": []
+    },
+    {
+      "id": 853,
+      "num": 2,
+      "dimensionName": "特质敌意归因偏向水平总分",
+      "dimensionCode": "特质敌意归因偏向水平总分",
+      "evaluateExpression": "(hx_t_13 + hx_t_14 + hx_t_15 + hx_t_16 + hx_t_17 + hx_t_18 + hx_t_19 + hx_t_20 + hx_t_21 + hx_t_22 + hx_t_23 + hx_t_24 + hx_t_25 + hx_t_26 + hx_t_27 + hx_t_28) / 16",
+      "standardScoreFormula": "(hx_t_13 + hx_t_14 + hx_t_15 + hx_t_16 + hx_t_17 + hx_t_18 + hx_t_19 + hx_t_20 + hx_t_21 + hx_t_22 + hx_t_23 + hx_t_24 + hx_t_25 + hx_t_26 + hx_t_27 + hx_t_28) / 16",
+      "results": []
+    },
+    {
+      "id": 854,
+      "num": 3,
+      "dimensionName": "抒情障碍总分",
+      "dimensionCode": "抒情障碍总分",
+      "evaluateExpression": "hx_t_29 + hx_t_30 + hx_t_31 + (6-hx_t_32) + (6-hx_t_33) + hx_t_34 + hx_t_35 + hx_t_36 + hx_t_37 + (6-hx_t_38) + hx_t_39 + hx_t_40 + hx_t_41 + hx_t_42 + hx_t_43 + hx_t_44 + hx_t_45 + (6-hx_t_46) + (6-hx_t_47) + hx_t_48",
+      "standardScoreFormula": "hx_t_29 + hx_t_30 + hx_t_31 + (6-hx_t_32) + (6-hx_t_33) + hx_t_34 + hx_t_35 + hx_t_36 + hx_t_37 + (6-hx_t_38) + hx_t_39 + hx_t_40 + hx_t_41 + hx_t_42 + hx_t_43 + hx_t_44 + hx_t_45 + (6-hx_t_46) + (6-hx_t_47) + hx_t_48",
+      "results": [
+        {
+          "id": 1581,
+          "evaluateExpression": "hx_wd_y_3 < 52",
+          "conclusionAnalysis": "个体在抒情障碍中的得分“低”",
+          "suggestion": "无",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 1582,
+          "evaluateExpression": "hx_wd_y_3 >= 52 && hx_wd_y_8 <= 60",
+          "conclusionAnalysis": "个体在抒情障碍中的得分“中等”",
+          "suggestion": "无",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 1583,
+          "evaluateExpression": "hx_wd_y_3 >= 61 && hx_wd_y_8 <= 100",
+          "conclusionAnalysis": "个体在抒情障碍中的得分“高”",
+          "suggestion": "无",
+          "assessmentWarning": "none"
+        }
+      ]
+    },
+    {
+      "id": 855,
+      "num": 4,
+      "dimensionName": "情感识别困难",
+      "dimensionCode": "情感识别困难",
+      "evaluateExpression": "hx_t_29 + hx_t_31 + hx_t_34 + hx_t_35 + hx_t_37 + hx_t_41 + hx_t_42",
+      "standardScoreFormula": "hx_t_29 + hx_t_31 + hx_t_34 + hx_t_35 + hx_t_37 + hx_t_41 + hx_t_42",
+      "results": []
+    },
+    {
+      "id": 856,
+      "num": 5,
+      "dimensionName": "情感描述困难",
+      "dimensionCode": "情感描述困难",
+      "evaluateExpression": "hx_t_30 + (6-hx_t_32) + hx_t_39 + hx_t_40 + hx_t_45",
+      "standardScoreFormula": "hx_t_30 + (6-hx_t_32) + hx_t_39 + hx_t_40 + hx_t_45",
+      "results": []
+    },
+    {
+      "id": 857,
+      "num": 6,
+      "dimensionName": "外向型思维",
+      "dimensionCode": "外向型思维",
+      "evaluateExpression": "(6-hx_t_33) + hx_t_36 + (6-hx_t_38) + hx_t_43 + hx_t_44 + (6-hx_t_46) + (6-hx_t_47) + hx_t_48",
+      "standardScoreFormula": "(6-hx_t_33) + hx_t_36 + (6-hx_t_38) + hx_t_43 + hx_t_44 + (6-hx_t_46) + (6-hx_t_47) + hx_t_48",
+      "results": []
+    },
+    {
+      "id": 858,
+      "num": 7,
+      "dimensionName": "内疚和羞耻倾向",
+      "dimensionCode": "内疚和羞耻倾向",
+      "evaluateExpression": "(hx_t_49 + hx_t_50 + hx_t_51 + hx_t_52 + hx_t_53 + hx_t_54 + hx_t_55 + hx_t_56 + hx_t_57 + hx_t_58 + hx_t_59 + hx_t_60 + hx_t_61 + hx_t_62 + hx_t_63 + hx_t_64) / 16",
+      "standardScoreFormula": "(hx_t_49 + hx_t_50 + hx_t_51 + hx_t_52 + hx_t_53 + hx_t_54 + hx_t_55 + hx_t_56 + hx_t_57 + hx_t_58 + hx_t_59 + hx_t_60 + hx_t_61 + hx_t_62 + hx_t_63 + hx_t_64) / 16",
+      "results": []
+    },
+    {
+      "id": 859,
+      "num": 8,
+      "dimensionName": "积极反刍思维总分",
+      "dimensionCode": "积极反刍思维总分",
+      "evaluateExpression": "hx_t_65 + hx_t_66 + hx_t_67 + hx_t_68 + hx_t_69 + hx_t_70 + hx_t_71 + hx_t_72 + hx_t_73 + hx_t_74 + hx_t_75",
+      "standardScoreFormula": "hx_t_65 + hx_t_66 + hx_t_67 + hx_t_68 + hx_t_69 + hx_t_70 + hx_t_71 + hx_t_72 + hx_t_73 + hx_t_74 + hx_t_75",
+      "results": []
+    },
+    {
+      "id": 860,
+      "num": 9,
+      "dimensionName": "消极反刍思维总分",
+      "dimensionCode": "消极反刍思维总分",
+      "evaluateExpression": "hx_t_76 + hx_t_77 + hx_t_78 + hx_t_79 + hx_t_80 + hx_t_81 + hx_t_82 + hx_t_83 + hx_t_84 + hx_t_85 + hx_t_86 + hx_t_87",
+      "standardScoreFormula": "hx_t_76 + hx_t_77 + hx_t_78 + hx_t_79 + hx_t_80 + hx_t_81 + hx_t_82 + hx_t_83 + hx_t_84 + hx_t_85 + hx_t_86 + hx_t_87",
+      "results": []
+    },
+    {
+      "id": 861,
+      "num": 10,
+      "dimensionName": "享受快乐",
+      "dimensionCode": "享受快乐",
+      "evaluateExpression": "hx_t_65 + hx_t_67 + hx_t_68 + hx_t_70 + hx_t_71 + hx_t_74",
+      "standardScoreFormula": "hx_t_65 + hx_t_67 + hx_t_68 + hx_t_70 + hx_t_71 + hx_t_74",
+      "results": []
+    },
+    {
+      "id": 862,
+      "num": 11,
+      "dimensionName": "抑制快乐",
+      "dimensionCode": "抑制快乐",
+      "evaluateExpression": "hx_t_66 + hx_t_69 + hx_t_72 + hx_t_73 + hx_t_75",
+      "standardScoreFormula": "hx_t_66 + hx_t_69 + hx_t_72 + hx_t_73 + hx_t_75",
+      "results": []
+    },
+    {
+      "id": 863,
+      "num": 12,
+      "dimensionName": "否定自我",
+      "dimensionCode": "否定自我",
+      "evaluateExpression": "hx_t_76 + hx_t_77 + hx_t_80",
+      "standardScoreFormula": "hx_t_76 + hx_t_77 + hx_t_80",
+      "results": []
+    },
+    {
+      "id": 864,
+      "num": 13,
+      "dimensionName": "积极应对",
+      "dimensionCode": "积极应对",
+      "evaluateExpression": "hx_t_78 + hx_t_79 + hx_t_82 + hx_t_84",
+      "standardScoreFormula": "hx_t_78 + hx_t_79 + hx_t_82 + hx_t_84",
+      "results": []
+    },
+    {
+      "id": 865,
+      "num": 14,
+      "dimensionName": "消极归因",
+      "dimensionCode": "消极归因",
+      "evaluateExpression": "hx_t_81 + hx_t_83 + hx_t_85 + hx_t_86 + hx_t_87",
+      "standardScoreFormula": "hx_t_81 + hx_t_83 + hx_t_85 + hx_t_86 + hx_t_87",
+      "results": []
+    },
+    {
+      "id": 866,
+      "num": 15,
+      "dimensionName": "抑郁分量",
+      "dimensionCode": "抑郁分量",
+      "evaluateExpression": "(hx_t_90 + hx_t_92 + hx_t_97 + hx_t_100 + hx_t_103 + hx_t_104 + hx_t_108)",
+      "standardScoreFormula": "(hx_t_90 + hx_t_92 + hx_t_97 + hx_t_100 + hx_t_103 + hx_t_104 + hx_t_108)",
+      "results": []
+    },
+    {
+      "id": 867,
+      "num": 16,
+      "dimensionName": "焦虑分量",
+      "dimensionCode": "焦虑分量",
+      "evaluateExpression": "hx_t_89 + hx_t_91 + hx_t_94 + hx_t_96 + hx_t_102 + hx_t_106 + hx_t_107",
+      "standardScoreFormula": "hx_t_89 + hx_t_91 + hx_t_94 + hx_t_96 + hx_t_102 + hx_t_106 + hx_t_107",
+      "results": []
+    },
+    {
+      "id": 868,
+      "num": 17,
+      "dimensionName": "压力分量",
+      "dimensionCode": "压力分量",
+      "evaluateExpression": "hx_t_88 + hx_t_93 + hx_t_95 + hx_t_98 + hx_t_99 + hx_t_101 + hx_t_105",
+      "standardScoreFormula": "hx_t_88 + hx_t_93 + hx_t_95 + hx_t_98 + hx_t_99 + hx_t_101 + hx_t_105",
+      "results": []
+    },
+    {
+      "id": 869,
+      "num": 18,
+      "dimensionName": "普遍人性",
+      "dimensionCode": "普遍人性",
+      "evaluateExpression": "6 - hx_t_110 + 6 - hx_t_113 + 6 - hx_t_116 + 6 - hx_t_119",
+      "standardScoreFormula": "6 - hx_t_110 + 6 - hx_t_113 + 6 - hx_t_116 + 6 - hx_t_119",
+      "results": []
+    },
+    {
+      "id": 870,
+      "num": 19,
+      "dimensionName": "自我宽容",
+      "dimensionCode": "自我宽容",
+      "evaluateExpression": "6 - hx_t_112 + hx_t_118 + hx_t_120",
+      "standardScoreFormula": "6 - hx_t_112 + hx_t_118 + hx_t_120",
+      "results": []
+    },
+    {
+      "id": 871,
+      "num": 20,
+      "dimensionName": "正念",
+      "dimensionCode": "正念",
+      "evaluateExpression": "hx_t_109 + hx_t_111 + hx_t_114 + hx_t_115 + hx_t_117",
+      "standardScoreFormula": "hx_t_109 + hx_t_111 + hx_t_114 + hx_t_115 + hx_t_117",
+      "results": []
+    },
+    {
+      "id": 872,
+      "num": 21,
+      "dimensionName": "受害者敏感性",
+      "dimensionCode": "受害者敏感性 ",
+      "evaluateExpression": "hx_t_121 + hx_t_122 + hx_t_123 + hx_t_124 + hx_t_125+ hx_t_126 + hx_t_127+ hx_t_128 + hx_t_129 + hx_t_130",
+      "standardScoreFormula": "hx_t_121 + hx_t_122 + hx_t_123 + hx_t_124 + hx_t_125+ hx_t_126 + hx_t_127+ hx_t_128 + hx_t_129 + hx_t_130",
+      "results": []
+    },
+    {
+      "id": 873,
+      "num": 22,
+      "dimensionName": "观察者敏感性",
+      "dimensionCode": "观察者敏感性 ",
+      "evaluateExpression": "hx_t_131 + hx_t_132 + hx_t_133 + hx_t_134 + hx_t_135+ hx_t_136 + hx_t_137+ hx_t_138 + hx_t_139 + hx_t_140",
+      "standardScoreFormula": "hx_t_131 + hx_t_132 + hx_t_133 + hx_t_134 + hx_t_135+ hx_t_136 + hx_t_137+ hx_t_138 + hx_t_139 + hx_t_140",
+      "results": []
+    },
+    {
+      "id": 874,
+      "num": 23,
+      "dimensionName": "受益者敏感性",
+      "dimensionCode": "受益者敏感性 ",
+      "evaluateExpression": "hx_t_141 + hx_t_142 + hx_t_143 + hx_t_144 + hx_t_145+ hx_t_146 + hx_t_147+ hx_t_148 + hx_t_149 + hx_t_150",
+      "standardScoreFormula": "hx_t_141 + hx_t_142 + hx_t_143 + hx_t_144 + hx_t_145+ hx_t_146 + hx_t_147+ hx_t_148 + hx_t_149 + hx_t_150",
+      "results": []
+    },
+    {
+      "id": 875,
+      "num": 24,
+      "dimensionName": "加害者敏感性",
+      "dimensionCode": "加害者敏感性 ",
+      "evaluateExpression": "hx_t_151 + hx_t_152 + hx_t_153 + hx_t_154 + hx_t_155+ hx_t_156 + hx_t_157+ hx_t_158 + hx_t_159 + hx_t_160",
+      "standardScoreFormula": "hx_t_151 + hx_t_152 + hx_t_153 + hx_t_154 + hx_t_155+ hx_t_156 + hx_t_157+ hx_t_158 + hx_t_159 + hx_t_160",
+      "results": []
+    },
+    {
+      "id": 876,
+      "num": 25,
+      "dimensionName": "行为激活－奖赏反应",
+      "dimensionCode": "行为激活－奖赏反应 ",
+      "evaluateExpression": "hx_t_162 + hx_t_164 + hx_t_173 + hx_t_177",
+      "standardScoreFormula": "hx_t_162 + hx_t_164 + hx_t_173 + hx_t_177",
+      "results": []
+    },
+    {
+      "id": 877,
+      "num": 26,
+      "dimensionName": "行为激活－驱力",
+      "dimensionCode": "行为激活－驱力 ",
+      "evaluateExpression": "hx_t_161 + hx_t_166 + hx_t_168 + hx_t_176",
+      "standardScoreFormula": "hx_t_161 + hx_t_166 + hx_t_168 + hx_t_176",
+      "results": []
+    },
+    {
+      "id": 878,
+      "num": 27,
+      "dimensionName": "行为激活－愉悦追求",
+      "dimensionCode": "行为激活－愉悦追求",
+      "evaluateExpression": "hx_t_163 + hx_t_167 + hx_t_170 + hx_t_171 + hx_t_175",
+      "standardScoreFormula": "hx_t_163 + hx_t_167 + hx_t_170 + hx_t_171 + hx_t_175",
+      "results": []
+    },
+    {
+      "id": 879,
+      "num": 28,
+      "dimensionName": "行为抑制",
+      "dimensionCode": "行为抑制",
+      "evaluateExpression": "hx_t_165 + hx_t_169 + hx_t_172 + hx_t_174 + hx_t_178",
+      "standardScoreFormula": "hx_t_165 + hx_t_169 + hx_t_172 + hx_t_174 + hx_t_178",
+      "results": []
+    },
+    {
+      "id": 880,
+      "num": 29,
+      "dimensionName": "责难自己",
+      "dimensionCode": "责难自己",
+      "evaluateExpression": "hx_t_179 + hx_t_180",
+      "standardScoreFormula": "hx_t_179 + hx_t_180",
+      "results": [
+        {
+          "id": 1584,
+          "evaluateExpression": "hx_wd_y_29 >= 2 && hx_wd_y_29 <= 4",
+          "conclusionAnalysis": "低分，被试很少使用责难自己的策略。遇到负性事件时，通常能够较客观地归因，合理区分自身责任与外部因素，不会过度把问题归咎于自己，自我接纳和自我价值感相对稳定。",
+          "suggestion": "在责难自己维度上，被试得分较低，说明其较少陷入过度自责，这是较健康的归因状态。建议继续保持客观反思的习惯，在总结自身可改进之处的同时，也看到情境、资源和他人因素，避免把所有责任都压在自己身上。",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 1585,
+          "evaluateExpression": "hx_wd_y_29 >= 5 && hx_wd_y_29 <= 7",
+          "conclusionAnalysis": "中等得分，被试在负性事件后会适度反思自身责任，具有一定自省能力。但有时可能会过度归因于自己，产生内疚、自责或自我否定的倾向，自我价值感容易随事件结果而波动。",
+          "suggestion": "在责难自己维度上，被试得分处于中等水平，说明其有一定自省能力，但也可能在压力下放大自身责任。建议把反思聚焦在可改进的具体行为上，同时区分自身责任与外部因素，减少“都是我的错”等绝对化想法。",
+          "assessmentWarning": "high"
+        },
+        {
+          "id": 1586,
+          "evaluateExpression": "hx_wd_y_29 >= 8 && hx_wd_y_29 <= 10",
+          "conclusionAnalysis": "高分，被试频繁使用责难自己的策略。遇到负性事件时，容易把主要责任甚至全部责任归咎于自己，产生明显内疚、自责、自我贬低或自我否定，长期可能影响情绪状态和自我价值感。",
+          "suggestion": "在责难自己维度上，被试得分较高，提示其存在明显过度自责倾向，需要引起重视。建议练习更平衡的归因方式，把事件原因拆分为自身、他人、环境和偶然因素；若自责情绪持续影响学习、生活或睡眠，建议及时寻求心理咨询支持。",
+          "assessmentWarning": "high"
+        }
+      ]
+    },
+    {
+      "id": 881,
+      "num": 30,
+      "dimensionName": "接受",
+      "dimensionCode": "接受",
+      "evaluateExpression": "hx_t_181 + hx_t_182",
+      "standardScoreFormula": "hx_t_181 + hx_t_182",
+      "results": [
+        {
+          "id": 1587,
+          "evaluateExpression": "hx_wd_y_30 >= 2 && hx_wd_y_30 <= 4",
+          "conclusionAnalysis": "低分，被试对负性事件和无法改变的现实接纳能力较弱，可能习惯抗拒、否认或反复纠结已经发生的事实。面对挫折时，容易出现不甘心、内耗和情绪波动，较难把注意力转向可控制的部分。",
+          "suggestion": "在接受维度上，被试得分较低，说明其面对已发生事实时接纳不足，容易因抗拒现实而增加情绪消耗。建议先承认事件已经发生，再区分“无法改变的结果”和“仍可采取的行动”，通过记录事实、表达情绪和制定下一步安排来逐步提升接纳能力。",
+          "assessmentWarning": "high"
+        },
+        {
+          "id": 1588,
+          "evaluateExpression": "hx_wd_y_30 >= 5 && hx_wd_y_30 <= 7",
+          "conclusionAnalysis": "中等得分，被试对负性事件和无法改变的现实具有一定接纳能力，通常能够理性看待已经发生的结果。但在压力较大、影响较深或情绪波动明显时，仍可能出现纠结、难以释怀或轻微内心冲突。",
+          "suggestion": "在接受维度上，被试得分处于中等水平，说明其具备基本接纳能力，但稳定性仍可提升。建议在情绪较强时给自己留出缓冲时间，用事实核对、呼吸放松和自我安抚帮助情绪降温，再把精力转向可以调整和改善的部分。",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 1589,
+          "evaluateExpression": "hx_wd_y_30 >= 8 && hx_wd_y_30 <= 10",
+          "conclusionAnalysis": "高分，被试具备较强的接纳能力，能够较坦然地面对负性事件和无法改变的现实，不容易长期纠结于既定结果。面对挫折时，能较快调整心态，把注意力聚焦于可控制、可改变的部分。",
+          "suggestion": "在接受维度上，被试得分较高，说明其能够较成熟地接纳现实并减少无效内耗。建议继续保持这种理性、平和的应对方式，同时在接纳现实的基础上主动规划行动，避免把“接受”误用为消极忍受或放弃改变。",
+          "assessmentWarning": "none"
+        }
+      ]
+    },
+    {
+      "id": 882,
+      "num": 31,
+      "dimensionName": "沉思",
+      "dimensionCode": "沉思",
+      "evaluateExpression": "hx_t_183 + hx_t_184",
+      "standardScoreFormula": "hx_t_183 + hx_t_184",
+      "results": [
+        {
+          "id": 1590,
+          "evaluateExpression": "hx_wd_y_31 >= 2 && hx_wd_y_31 <= 4",
+          "conclusionAnalysis": "低分，被试很少出现沉思或反刍思维。遇到不愉快事件时，通常能够较快把注意力从事件细节、负面感受中抽离，回到当下生活、学习或工作，情绪恢复能力相对较好。",
+          "suggestion": "在沉思维度上，被试得分较低，说明其较少反复纠缠负性事件，这是较健康的思维调节状态。建议继续保持把注意力带回现实任务的习惯，同时在必要时进行适度复盘，既避免过度反刍，也不忽视经验总结。",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 1591,
+          "evaluateExpression": "hx_wd_y_31 >= 5 && hx_wd_y_31 <= 7",
+          "conclusionAnalysis": "中等得分，被试偶尔会反复回想不愉快事件及相关感受，尤其在安静、睡前或压力较大时更明显。这种沉思可能对注意力和情绪产生一定干扰，但通常仍能维持基本生活节奏。",
+          "suggestion": "在沉思维度上，被试得分处于中等水平，提示其有一定反刍倾向。建议为复盘设定时间边界，把“反复想”转化为“写下问题、总结原因、列出行动”；睡前或情绪波动时，可通过放松训练、转移注意力和规律作息减少反复思考。",
+          "assessmentWarning": "high"
+        },
+        {
+          "id": 1592,
+          "evaluateExpression": "hx_wd_y_31 >= 8 && hx_wd_y_31 <= 10",
+          "conclusionAnalysis": "高分，被试频繁出现沉思或反刍思维，容易无法控制地反复回想负性事件、细节和感受。该状态可能明显干扰学习、生活、睡眠和情绪恢复，长期可能加重焦虑、低落等心理困扰。",
+          "suggestion": "在沉思维度上，被试得分较高，提示其反刍思维较明显，需要重点关注。建议减少独处时的无边界反复思考，使用书面记录、问题拆解、正念练习和具体行动替代反复回想；若已出现持续失眠、注意力下降或情绪低落，建议寻求心理咨询支持。",
+          "assessmentWarning": "high"
+        }
+      ]
+    },
+    {
+      "id": 883,
+      "num": 32,
+      "dimensionName": "积极重新关注",
+      "dimensionCode": "积极重新关注",
+      "evaluateExpression": "hx_t_185 + hx_t_186",
+      "standardScoreFormula": "hx_t_185 + hx_t_186",
+      "results": [
+        {
+          "id": 1593,
+          "evaluateExpression": "hx_wd_y_32 >= 2 && hx_wd_y_32 <= 4",
+          "conclusionAnalysis": "低分，被试主动将注意力转向积极、愉快事物的能力较弱。面对负性事件时，注意力容易被负面感受或负面细节困住，较难主动发现生活中的积极元素，情绪缓冲能力不足。",
+          "suggestion": "在积极重新关注维度上，被试得分较低，说明其在负性情绪中较难主动转移注意力。建议有意识地安排能带来愉悦和恢复感的活动，如运动、整理环境、听音乐、与支持性同伴交流，并练习每天记录具体的积极事件，逐步增强积极关注能力。",
+          "assessmentWarning": "high"
+        },
+        {
+          "id": 1594,
+          "evaluateExpression": "hx_wd_y_32 >= 5 && hx_wd_y_32 <= 7",
+          "conclusionAnalysis": "中等得分，被试能够在一定程度上把注意力从负性事件转向积极、愉快的事物，具备基本的注意力转移能力。但在情绪强烈或压力较大时，仍可能被负面情绪困住，需要外部提醒或环境变化才能恢复。",
+          "suggestion": "在积极重新关注维度上，被试得分处于中等水平，说明其已有一定积极转移注意力的能力，但主动性和持续性仍可提升。建议提前准备适合自己的情绪调节清单，在情绪升高时按清单行动，帮助自己更稳定地从负面状态中抽离。",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 1595,
+          "evaluateExpression": "hx_wd_y_32 >= 8 && hx_wd_y_32 <= 10",
+          "conclusionAnalysis": "高分，被试具备较强的积极重新关注能力。面对负性事件时，能够较主动地把注意力从负面感受转向积极、愉快或有恢复感的事物，不容易长时间被负面情绪困住。",
+          "suggestion": "在积极重新关注维度上，被试得分较高，说明其善于通过积极内容缓冲负性情绪。建议继续保持这种调节方式，同时注意在情绪稳定后适度回到问题本身，完成必要的复盘和处理，避免只转移注意而忽略实际问题。",
+          "assessmentWarning": "none"
+        }
+      ]
+    },
+    {
+      "id": 884,
+      "num": 33,
+      "dimensionName": "重新关注计划",
+      "dimensionCode": "重新关注计划",
+      "evaluateExpression": "hx_t_187 + hx_t_188",
+      "standardScoreFormula": "hx_t_187 + hx_t_188",
+      "results": [
+        {
+          "id": 1596,
+          "evaluateExpression": "hx_wd_y_33 >= 2 && hx_wd_y_33 <= 4",
+          "conclusionAnalysis": "低分，被试面对压力和负性事件时，问题解决倾向和规划意识较弱，容易陷入被动、无助或拖延状态。遇到问题时，可能难以主动梳理思路和制定应对方案，掌控感不足。",
+          "suggestion": "在重新关注计划维度上，被试得分较低，说明其在压力下较少主动制定解决方案。建议先把问题拆成可执行的小步骤，写下当前最需要处理的一件事和下一步行动；必要时请老师、同伴或咨询人员协助梳理方案，逐步提升行动感和掌控感。",
+          "assessmentWarning": "high"
+        },
+        {
+          "id": 1597,
+          "evaluateExpression": "hx_wd_y_33 >= 5 && hx_wd_y_33 <= 7",
+          "conclusionAnalysis": "中等得分，被试面对压力和负性事件时具有一定问题解决倾向，能够尝试思考应对方法和梳理问题思路。但在情绪较强、任务较难或情况复杂时，可能出现犹豫、拖延或计划难以落地。",
+          "suggestion": "在重新关注计划维度上，被试得分处于中等水平，说明其具备基本规划意识，但执行稳定性仍可提升。建议把计划写得更具体，包括时间、地点、步骤和可求助对象，并定期检查进展，减少“想得多、做得少”的情况。",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 1598,
+          "evaluateExpression": "hx_wd_y_33 >= 8 && hx_wd_y_33 <= 10",
+          "conclusionAnalysis": "高分，被试具备较强的问题解决倾向和计划能力。面对压力和负性事件时，通常能够较快冷静下来，梳理问题、制定行动方案，并把情绪转化为解决问题的动力。",
+          "suggestion": "在重新关注计划维度上，被试得分较高，说明其善于通过规划和行动应对压力。建议继续保持这种积极应对方式，同时注意计划要符合现实资源和精力水平，避免因目标过多或要求过高造成新的压力。",
+          "assessmentWarning": "none"
+        }
+      ]
+    },
+    {
+      "id": 885,
+      "num": 34,
+      "dimensionName": "积极重新评价",
+      "dimensionCode": "积极重新评价",
+      "evaluateExpression": "hx_t_189 + hx_t_190",
+      "standardScoreFormula": "hx_t_189 + hx_t_190",
+      "results": [
+        {
+          "id": 1599,
+          "evaluateExpression": "hx_wd_y_34 >= 2 && hx_wd_y_34 <= 4",
+          "conclusionAnalysis": "低分，被试从挫折或负性事件中发现成长、经验和积极意义的能力较弱，容易聚焦于损失、失败和负面影响。事件平复后，也可能较难跳出负面感受，心理韧性有待提升。",
+          "suggestion": "在积极重新评价维度上，被试得分较低，说明其较难主动从负性事件中看到经验和积极意义。建议在情绪稳定后尝试回答“这件事让我学到了什么”“下次可以怎样做得更好”，把挫折转化为具体经验，减少长期自我否定。",
+          "assessmentWarning": "high"
+        },
+        {
+          "id": 1600,
+          "evaluateExpression": "hx_wd_y_34 >= 5 && hx_wd_y_34 <= 7",
+          "conclusionAnalysis": "中等得分，被试能够在一定程度上从负性事件中看到成长、经验或积极意义，具备基本的积极解读能力。但这种解读可能偏被动，通常需要在事件平复、情绪稳定后才逐渐形成。",
+          "suggestion": "在积极重新评价维度上，被试得分处于中等水平，说明其具备一定积极解读能力，但主动性仍可提升。建议在遇到挫折后先处理情绪，再进行积极复盘，主动寻找事件中的经验、资源和可成长之处，增强心理韧性。",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 1601,
+          "evaluateExpression": "hx_wd_y_34 >= 8 && hx_wd_y_34 <= 10",
+          "conclusionAnalysis": "高分，被试具备较强的积极重新评价能力。面对挫折和负性事件时，通常能够主动从事件中寻找成长、经验与积极意义，不容易被单次失败长期打击，成长型思维较明显。",
+          "suggestion": "在积极重新评价维度上，被试得分较高，说明其善于把挫折转化为成长资源。建议继续保持这种积极解读方式，同时保留对困难本身的真实评估，既看到意义，也及时处理现实问题和真实情绪。",
+          "assessmentWarning": "none"
+        }
+      ]
+    },
+    {
+      "id": 886,
+      "num": 35,
+      "dimensionName": "理性分析",
+      "dimensionCode": "理性分析",
+      "evaluateExpression": "hx_t_191 + hx_t_192",
+      "standardScoreFormula": "hx_t_191 + hx_t_192",
+      "results": [
+        {
+          "id": 1602,
+          "evaluateExpression": "hx_wd_y_35 >= 2 && hx_wd_y_35 <= 4",
+          "conclusionAnalysis": "低分，被试较少使用理性分析或向下比较的方式调节情绪。面对压力和负性事件时，可能更习惯直接面对自身困境，但也容易因持续聚焦当前困难而使压力难以及时缓解。",
+          "suggestion": "在理性分析维度上，被试得分较低，说明其较少通过比较和重新看待情境来缓冲压力。建议在情绪强烈时适度拓宽视角，提醒自己事件仍有可承受、可处理的部分，同时结合具体行动解决问题，避免长时间只盯着自身困境。",
+          "assessmentWarning": "high"
+        },
+        {
+          "id": 1603,
+          "evaluateExpression": "hx_wd_y_35 >= 5 && hx_wd_y_35 <= 7",
+          "conclusionAnalysis": "中等得分，被试偶尔会通过理性分析或与更困难的情况对比来缓解压力，能够获得一定情绪缓冲。该策略使用频率较为适中，通常不会因此忽视自身问题或产生过度自我满足。",
+          "suggestion": "在理性分析维度上，被试得分处于中等水平，说明其能适度通过比较和换角度看问题来调节情绪。建议继续保持这种相对平衡的方式，在缓解压力后仍回到自身问题和成长空间，避免停留在短暂安慰中。",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 1604,
+          "evaluateExpression": "hx_wd_y_35 >= 8 && hx_wd_y_35 <= 10",
+          "conclusionAnalysis": "高分，被试频繁使用理性分析或向下比较来获得心理平衡。该方式能在短期内缓解压力，但若过度依赖，可能导致安于现状、忽视自身问题，或用比较替代真正的问题解决。",
+          "suggestion": "在理性分析维度上，被试得分较高，说明其较常通过比较和理性化来调节情绪。建议保留这种缓冲方式的同时，关注是否存在逃避现实问题的情况；在获得情绪平衡后，应进一步制定改进计划并采取行动。",
+          "assessmentWarning": "high"
+        }
+      ]
+    },
+    {
+      "id": 887,
+      "num": 36,
+      "dimensionName": "灾难化",
+      "dimensionCode": "灾难化",
+      "evaluateExpression": "hx_t_193 + hx_t_194",
+      "standardScoreFormula": "hx_t_193 + hx_t_194",
+      "results": [
+        {
+          "id": 1605,
+          "evaluateExpression": "hx_wd_y_36 >= 2 && hx_wd_y_36 <= 4",
+          "conclusionAnalysis": "低分，被试较少出现灾难化思维。面对压力情境和负性事件时，通常能够较客观、理性地评估事件影响，不会明显放大负面结果或过度担心最坏情况，情绪稳定性较好。",
+          "suggestion": "在灾难化维度上，被试得分较低，说明其较少把问题想象到最坏程度，这是较健康的认知状态。建议继续保持基于事实的判断方式，在遇到压力时用证据核对、风险评估和具体计划帮助自己稳定应对。",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 1606,
+          "evaluateExpression": "hx_wd_y_36 >= 5 && hx_wd_y_36 <= 7",
+          "conclusionAnalysis": "中等得分，被试在压力情境下偶尔会放大事件的负面影响，担心出现最坏结果，并产生一定焦虑或紧张。但通常能在他人提醒或自我冷静后恢复较理性的判断。",
+          "suggestion": "在灾难化维度上，被试得分处于中等水平，提示其在压力下有一定灾难化倾向。建议练习区分“事实、想法和担忧”，用更具体的问题替代最坏想象，例如“最可能发生什么”“我能准备什么”，以降低不必要的焦虑。",
+          "assessmentWarning": "high"
+        },
+        {
+          "id": 1607,
+          "evaluateExpression": "hx_wd_y_36 >= 8 && hx_wd_y_36 <= 10",
+          "conclusionAnalysis": "高分，被试频繁出现灾难化思维。面对压力和负性事件时，容易过度放大后果、担心最坏情况，陷入极端悲观想象，并可能产生明显焦虑、紧张、恐慌或无助感。",
+          "suggestion": "在灾难化维度上，被试得分较高，提示其灾难化思维较明显，需要重点关注。建议及时进行事实核对和情绪降温，列出证据、替代解释和可执行方案；若最坏想象持续影响学习、生活、睡眠或安全感，建议寻求心理咨询支持。",
+          "assessmentWarning": "high"
+        }
+      ]
+    },
+    {
+      "id": 888,
+      "num": 37,
+      "dimensionName": "责难他人",
+      "dimensionCode": "责难他人",
+      "evaluateExpression": "hx_t_195 + hx_t_196",
+      "standardScoreFormula": "hx_t_195 + hx_t_196",
+      "results": [
+        {
+          "id": 1608,
+          "evaluateExpression": "hx_wd_y_37 >= 2 && hx_wd_y_37 <= 4",
+          "conclusionAnalysis": "低分，被试很少使用责难他人的策略。遇到负性事件时，通常能够较客观地归因，不会轻易把责任推给他人或环境，责任意识和问题解决倾向较好，人际关系风险较低。",
+          "suggestion": "在责难他人维度上，被试得分较低，说明其较少把问题归咎于他人，这是较健康的归因方式。建议继续保持客观、负责的态度，同时也要合理识别他人和环境因素，避免把所有压力都独自承担。",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 1609,
+          "evaluateExpression": "hx_wd_y_37 >= 5 && hx_wd_y_37 <= 7",
+          "conclusionAnalysis": "中等得分，被试在负性事件中偶尔会把部分原因归于他人或环境，多数情况下仍能保持相对客观的归因态度。但在情绪激动、受挫或感到委屈时，可能出现抱怨、指责他人的倾向。",
+          "suggestion": "在责难他人维度上，被试得分处于中等水平，说明其有时会将负面情绪转向他人。建议在表达不满前先区分事实、感受和需求，用沟通与协商代替指责，并同步反思自己可以调整的部分，以减少人际摩擦。",
+          "assessmentWarning": "high"
+        },
+        {
+          "id": 1610,
+          "evaluateExpression": "hx_wd_y_37 >= 8 && hx_wd_y_37 <= 10",
+          "conclusionAnalysis": "高分，被试频繁使用责难他人的策略。遇到负性事件时，容易把主要责任推给他人或环境，情绪激动时可能频繁抱怨、指责，将负面情绪转嫁给他人，增加人际冲突风险。",
+          "suggestion": "在责难他人维度上，被试得分较高，提示其责难他人的倾向较明显，需要引起重视。建议先稳定情绪，再客观梳理事件中自己、他人和环境各自的影响；沟通时尽量表达具体事实和需求，减少攻击性指责，必要时寻求心理咨询或人际沟通辅导。",
+          "assessmentWarning": "high"
+        }
+      ]
+    }
+  ]
+}

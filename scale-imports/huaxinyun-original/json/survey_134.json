@@ -1,0 +1,833 @@
+{
+  "id": 134,
+  "title": "成人内-外控制量表(ANSIE)",
+  "type": "basic",
+  "questions": [
+    {
+      "id": 3629,
+      "text": "你是否相信, 大多数问题只要你不是敷衍了事，就会自行解决?",
+      "type": "radio",
+      "orderNum": 1,
+      "options": [
+        {
+          "id": 13872,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 13873,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3630,
+      "text": "你是否相信能使自己不患上感冒？",
+      "type": "radio",
+      "orderNum": 2,
+      "options": [
+        {
+          "id": 13874,
+          "optionNo": "A",
+          "text": "是",
+          "value": "0"
+        },
+        {
+          "id": 13875,
+          "optionNo": "B",
+          "text": "否",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 3631,
+      "text": "是不是有些人生来就走运?",
+      "type": "radio",
+      "orderNum": 3,
+      "options": [
+        {
+          "id": 13876,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 13877,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3632,
+      "text": "大多数时间，你是否认为获得一个好分数对你意味着一件大事?",
+      "type": "radio",
+      "orderNum": 4,
+      "options": [
+        {
+          "id": 13878,
+          "optionNo": "A",
+          "text": "是",
+          "value": "0"
+        },
+        {
+          "id": 13879,
+          "optionNo": "B",
+          "text": "否",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 3633,
+      "text": "你是否常因为错本不在你的事而受到责备?",
+      "type": "radio",
+      "orderNum": 5,
+      "options": [
+        {
+          "id": 13880,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 13881,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3634,
+      "text": "你是否相信只要一个人努力学习，他/她总会顺利过关。",
+      "type": "radio",
+      "orderNum": 6,
+      "options": [
+        {
+          "id": 13882,
+          "optionNo": "A",
+          "text": "是",
+          "value": "0"
+        },
+        {
+          "id": 13883,
+          "optionNo": "B",
+          "text": "否",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 3635,
+      "text": "你是否认为大多数情况下，不值得努力尝试，因为事情从来不会有正常的结果。",
+      "type": "radio",
+      "orderNum": 7,
+      "options": [
+        {
+          "id": 13884,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 13885,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3636,
+      "text": "你是否觉得如果早晨一切开端顺利，那么不管你做什么，这一天都会一帆风顺?",
+      "type": "radio",
+      "orderNum": 8,
+      "options": [
+        {
+          "id": 13886,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 13887,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3637,
+      "text": "你是否认为， 大多数情况下，父母会倾听他们的子女所说的话?",
+      "type": "radio",
+      "orderNum": 9,
+      "options": [
+        {
+          "id": 13888,
+          "optionNo": "A",
+          "text": "是",
+          "value": "0"
+        },
+        {
+          "id": 13889,
+          "optionNo": "B",
+          "text": "否",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 3638,
+      "text": "你是否相信，盼望会带来点好的结果?",
+      "type": "radio",
+      "orderNum": 10,
+      "options": [
+        {
+          "id": 13890,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 13891,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3639,
+      "text": "当你受到责备时，是否常常出于一些根本站不住脚的理由?",
+      "type": "radio",
+      "orderNum": 11,
+      "options": [
+        {
+          "id": 13892,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 13893,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3640,
+      "text": "在大多数情况下，你是否发现很难改变一位朋友的观点?",
+      "type": "radio",
+      "orderNum": 12,
+      "options": [
+        {
+          "id": 13894,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 13895,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3641,
+      "text": "你是否认为，士气比运气更有助于一个球队获胜?",
+      "type": "radio",
+      "orderNum": 13,
+      "options": [
+        {
+          "id": 13896,
+          "optionNo": "A",
+          "text": "是",
+          "value": "0"
+        },
+        {
+          "id": 13897,
+          "optionNo": "B",
+          "text": "否",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 3642,
+      "text": "你是否感到，想改变你父母的任何看法简直是不可能的?",
+      "type": "radio",
+      "orderNum": 14,
+      "options": [
+        {
+          "id": 13898,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 13899,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3643,
+      "text": "你是否认为，父母应当允许孩子们自己为大多数事情拿主意?",
+      "type": "radio",
+      "orderNum": 15,
+      "options": [
+        {
+          "id": 13900,
+          "optionNo": "A",
+          "text": "是",
+          "value": "0"
+        },
+        {
+          "id": 13901,
+          "optionNo": "B",
+          "text": "否",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 3644,
+      "text": "你是否觉得，当你做错什么事时，你几乎没办法加以改正?",
+      "type": "radio",
+      "orderNum": 16,
+      "options": [
+        {
+          "id": 13902,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 13903,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3645,
+      "text": "你是否认为， 大多数人生来就擅长体育运动?",
+      "type": "radio",
+      "orderNum": 17,
+      "options": [
+        {
+          "id": 13904,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 13905,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3646,
+      "text": "是否同龄的大多数人都比你强壮?",
+      "type": "radio",
+      "orderNum": 18,
+      "options": [
+        {
+          "id": 13906,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 13907,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3647,
+      "text": "你是否觉得，处理大多数问题的最佳方式之一就是不去理会它们?",
+      "type": "radio",
+      "orderNum": 19,
+      "options": [
+        {
+          "id": 13908,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 13909,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3648,
+      "text": "你是否觉得， 在挑选你的朋友时，你有很大的选择余地?",
+      "type": "radio",
+      "orderNum": 20,
+      "options": [
+        {
+          "id": 13910,
+          "optionNo": "A",
+          "text": "是",
+          "value": "0"
+        },
+        {
+          "id": 13911,
+          "optionNo": "B",
+          "text": "否",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 3649,
+      "text": "如果你找到了一株幸运草， 你是否相信这会给你带来好运气?",
+      "type": "radio",
+      "orderNum": 21,
+      "options": [
+        {
+          "id": 13912,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 13913,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3650,
+      "text": "你是否认为， 你做家庭功课与否，同你所得分数的高低有关系?",
+      "type": "radio",
+      "orderNum": 22,
+      "options": [
+        {
+          "id": 13914,
+          "optionNo": "A",
+          "text": "是",
+          "value": "0"
+        },
+        {
+          "id": 13915,
+          "optionNo": "B",
+          "text": "否",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 3651,
+      "text": "你是否觉得，如果你的一位同龄人冲你发脾气， 你没办法阻止他/她。",
+      "type": "radio",
+      "orderNum": 23,
+      "options": [
+        {
+          "id": 13916,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 13917,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3652,
+      "text": "你是否佩戴过什么幸运符?",
+      "type": "radio",
+      "orderNum": 24,
+      "options": [
+        {
+          "id": 13918,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 13919,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3653,
+      "text": "你是否认为，人们喜不喜欢你，取决你的所作所为?",
+      "type": "radio",
+      "orderNum": 25,
+      "options": [
+        {
+          "id": 13920,
+          "optionNo": "A",
+          "text": "是",
+          "value": "0"
+        },
+        {
+          "id": 13921,
+          "optionNo": "B",
+          "text": "否",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 3654,
+      "text": "如果你向父母求援， 他们是否会帮你?",
+      "type": "radio",
+      "orderNum": 26,
+      "options": [
+        {
+          "id": 13922,
+          "optionNo": "A",
+          "text": "是",
+          "value": "0"
+        },
+        {
+          "id": 13923,
+          "optionNo": "B",
+          "text": "否",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 3655,
+      "text": "你是否觉得， 当人们对你不友善时，通常根本没有任何理由?",
+      "type": "radio",
+      "orderNum": 27,
+      "options": [
+        {
+          "id": 13924,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 13925,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3656,
+      "text": "你是否认为， 大多数情况下凭借今天你的所作所为，可以改变明天可能发生的事?",
+      "type": "radio",
+      "orderNum": 28,
+      "options": [
+        {
+          "id": 13926,
+          "optionNo": "A",
+          "text": "是",
+          "value": "0"
+        },
+        {
+          "id": 13927,
+          "optionNo": "B",
+          "text": "否",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 3657,
+      "text": "你是否认为，如果倒霉事将要发生，那么不管你试图做什么事阻止， 也还是会发生?",
+      "type": "radio",
+      "orderNum": 29,
+      "options": [
+        {
+          "id": 13928,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 13929,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3658,
+      "text": "你是否认为，人们通过不断努力， 可以掌握自己的命运?",
+      "type": "radio",
+      "orderNum": 30,
+      "options": [
+        {
+          "id": 13930,
+          "optionNo": "A",
+          "text": "是",
+          "value": "0"
+        },
+        {
+          "id": 13931,
+          "optionNo": "B",
+          "text": "否",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 3659,
+      "text": "你是否发现， 大多数情况下你在家中根本没办法做到随心所欲?",
+      "type": "radio",
+      "orderNum": 31,
+      "options": [
+        {
+          "id": 13932,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 13933,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3660,
+      "text": "你是否觉得事情之所以有了好结果， 是辛勤努力的结果?",
+      "type": "radio",
+      "orderNum": 32,
+      "options": [
+        {
+          "id": 13934,
+          "optionNo": "A",
+          "text": "是",
+          "value": "0"
+        },
+        {
+          "id": 13935,
+          "optionNo": "B",
+          "text": "否",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 3661,
+      "text": "你是否觉得，一旦你的某位同龄人同你做对，你对此束手无策?",
+      "type": "radio",
+      "orderNum": 33,
+      "options": [
+        {
+          "id": 13936,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 13937,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3662,
+      "text": "你是否觉得， 让朋友做你想让他们做的事很容易?",
+      "type": "radio",
+      "orderNum": 34,
+      "options": [
+        {
+          "id": 13938,
+          "optionNo": "A",
+          "text": "是",
+          "value": "0"
+        },
+        {
+          "id": 13939,
+          "optionNo": "B",
+          "text": "否",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 3663,
+      "text": "你是否常常感到， 在家里你对准备吃什么很少发表看法?",
+      "type": "radio",
+      "orderNum": 35,
+      "options": [
+        {
+          "id": 13940,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 13941,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3664,
+      "text": "你是否觉得， 如果有人不喜欢你， 你对此无能为力?",
+      "type": "radio",
+      "orderNum": 36,
+      "options": [
+        {
+          "id": 13942,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 13943,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3665,
+      "text": "你是否常常感到， 在学校里用功也没什么用，因为大多数学生就是比你聪明?",
+      "type": "radio",
+      "orderNum": 37,
+      "options": [
+        {
+          "id": 13944,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 13945,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3666,
+      "text": "你是不是相信事先做好计划会取得更出色的结果?",
+      "type": "radio",
+      "orderNum": 38,
+      "options": [
+        {
+          "id": 13946,
+          "optionNo": "A",
+          "text": "是",
+          "value": "0"
+        },
+        {
+          "id": 13947,
+          "optionNo": "B",
+          "text": "否",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 3667,
+      "text": "大多数情况下， 你是否感到你对家里决定要做什么事没什么要说的?",
+      "type": "radio",
+      "orderNum": 39,
+      "options": [
+        {
+          "id": 13948,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 13949,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3668,
+      "text": "你是否认为，做个聪明人比走运更好?",
+      "type": "radio",
+      "orderNum": 40,
+      "options": [
+        {
+          "id": 13950,
+          "optionNo": "A",
+          "text": "是",
+          "value": "0"
+        },
+        {
+          "id": 13951,
+          "optionNo": "B",
+          "text": "否",
+          "value": "1"
+        }
+      ]
+    }
+  ],
+  "dimensions": [
+    {
+      "id": 402,
+      "num": 1,
+      "dimensionName": "内外控",
+      "dimensionCode": "A",
+      "evaluateExpression": "hx_t_1 + hx_t_2 + hx_t_3 + hx_t_4 + hx_t_5 + hx_t_6 + hx_t_7 + hx_t_8 + hx_t_9 + hx_t_10 + hx_t_11 + hx_t_12 + hx_t_13 + hx_t_14 + hx_t_15 + hx_t_16 + hx_t_17 + hx_t_18 + hx_t_19 + hx_t_20 + hx_t_21 + hx_t_22 + hx_t_23 + hx_t_24 + hx_t_25 + hx_t_26 + hx_t_27 + hx_t_28 + hx_t_29 + hx_t_30 + hx_t_31 + hx_t_32 + hx_t_33 + hx_t_34 + hx_t_35 + hx_t_36 + hx_t_37 + hx_t_38 + hx_t_39 + hx_t_40",
+      "standardScoreFormula": "0",
+      "results": [
+        {
+          "id": 887,
+          "evaluateExpression": "hx_wd_y_1 >= 0&& hx_wd_y_1 <= 13",
+          "conclusionAnalysis": "测评表明，你倾向于外在控制。你总是感到无法控制周围的环境，无论成败都归因为他人的影响或运气等外在因素，往往对自己的行为不愿承担责任。外在控制与焦虑、抑郁情绪有关，容易抱怨他人，较难应付紧张的生活环境；立场不坚定，容易人云亦云，改变自己的观点。",
+          "suggestion": "外控者建议从小事做起，培养自己的控制力，例如给自己制定学习或工作计划，并每天检查该计划的完成情况；遇事要坚持自己的观点，不要人云亦云，当发现观点要发生动摇时，一定要进行自我反省“他说的很对，但是我的观点也有道理”；培养自己的责任感，勇于对自己的行为负责任。虽然改变对于你来说比较缓慢，但是相信自己，只要坚持，没有什么不可改变的。",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 888,
+          "evaluateExpression": "hx_wd_y_1 >= 14&& hx_wd_y_1 <= 40",
+          "conclusionAnalysis": "测评表明，你倾向于内在控制。认为自己可以控制周围的环境，无论成功还是失败，都是由于自己的能力或努力等内部因素造成的；乐于对自己的行为负责；能够较积极地追求有价值的目标，成就动机强，对生活和工作中都有很好的计划和安排；较多地投身社会活动、求知欲强、有灵活性、更有主见，幸福感也较常见；容易说服他人，而很难被他人说服。",
+          "suggestion": "内控者喜欢将成功归结为自己的性格特征，或者能力等内在因素。这固然可以提高自信，自我感觉良好。然而也要考虑他人的感受，不要过于在他人面前炫耀自己的成功；另外，对于那些不可控的因素，例如天灾等，尽量不要和自己联系在一起。可以不断地给自己暗示“这不是我的错”，“它的发生与否与我做什么没有任何关系”，并去想象一些美好的事情。",
+          "assessmentWarning": "none"
+        }
+      ]
+    }
+  ]
+}

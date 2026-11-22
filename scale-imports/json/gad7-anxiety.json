@@ -1,0 +1,232 @@
+{
+  "id": "gad7-anxiety",
+  "title": "广泛性焦虑量表(GAD-7)",
+  "description": "Generalized Anxiety Disorder 7-item Scale (GAD-7)，Spitzer, Kroenke, Williams & Lowe (2006) 编制，用于筛查和评估广泛性焦虑症状的严重程度。共7题，4点计分（0-3），总分0-21分。0-4分：无或极轻微焦虑；5-9分：轻度焦虑；10-14分：中度焦虑；15-21分：重度焦虑。",
+  "type": "basic",
+  "questions": [
+    {
+      "text": "在过去两周里，有多少时候您受到以下问题所困扰？\n感到紧张、焦虑或急切",
+      "type": "radio",
+      "orderNum": 1,
+      "options": [
+        {
+          "text": "完全不会",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "好几天",
+          "value": "1",
+          "optionNo": "B"
+        },
+        {
+          "text": "一半以上的天数",
+          "value": "2",
+          "optionNo": "C"
+        },
+        {
+          "text": "几乎每天",
+          "value": "3",
+          "optionNo": "D"
+        }
+      ]
+    },
+    {
+      "text": "在过去两周里，有多少时候您受到以下问题所困扰？\n不能够停止或控制担忧",
+      "type": "radio",
+      "orderNum": 2,
+      "options": [
+        {
+          "text": "完全不会",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "好几天",
+          "value": "1",
+          "optionNo": "B"
+        },
+        {
+          "text": "一半以上的天数",
+          "value": "2",
+          "optionNo": "C"
+        },
+        {
+          "text": "几乎每天",
+          "value": "3",
+          "optionNo": "D"
+        }
+      ]
+    },
+    {
+      "text": "在过去两周里，有多少时候您受到以下问题所困扰？\n对各种各样的事情担忧过多",
+      "type": "radio",
+      "orderNum": 3,
+      "options": [
+        {
+          "text": "完全不会",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "好几天",
+          "value": "1",
+          "optionNo": "B"
+        },
+        {
+          "text": "一半以上的天数",
+          "value": "2",
+          "optionNo": "C"
+        },
+        {
+          "text": "几乎每天",
+          "value": "3",
+          "optionNo": "D"
+        }
+      ]
+    },
+    {
+      "text": "在过去两周里，有多少时候您受到以下问题所困扰？\n很难放松下来",
+      "type": "radio",
+      "orderNum": 4,
+      "options": [
+        {
+          "text": "完全不会",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "好几天",
+          "value": "1",
+          "optionNo": "B"
+        },
+        {
+          "text": "一半以上的天数",
+          "value": "2",
+          "optionNo": "C"
+        },
+        {
+          "text": "几乎每天",
+          "value": "3",
+          "optionNo": "D"
+        }
+      ]
+    },
+    {
+      "text": "在过去两周里，有多少时候您受到以下问题所困扰？\n由于不安而无法静坐",
+      "type": "radio",
+      "orderNum": 5,
+      "options": [
+        {
+          "text": "完全不会",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "好几天",
+          "value": "1",
+          "optionNo": "B"
+        },
+        {
+          "text": "一半以上的天数",
+          "value": "2",
+          "optionNo": "C"
+        },
+        {
+          "text": "几乎每天",
+          "value": "3",
+          "optionNo": "D"
+        }
+      ]
+    },
+    {
+      "text": "在过去两周里，有多少时候您受到以下问题所困扰？\n变得容易烦恼或急躁",
+      "type": "radio",
+      "orderNum": 6,
+      "options": [
+        {
+          "text": "完全不会",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "好几天",
+          "value": "1",
+          "optionNo": "B"
+        },
+        {
+          "text": "一半以上的天数",
+          "value": "2",
+          "optionNo": "C"
+        },
+        {
+          "text": "几乎每天",
+          "value": "3",
+          "optionNo": "D"
+        }
+      ]
+    },
+    {
+      "text": "在过去两周里，有多少时候您受到以下问题所困扰？\n感到似乎将有可怕的事情发生",
+      "type": "radio",
+      "orderNum": 7,
+      "options": [
+        {
+          "text": "完全不会",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "好几天",
+          "value": "1",
+          "optionNo": "B"
+        },
+        {
+          "text": "一半以上的天数",
+          "value": "2",
+          "optionNo": "C"
+        },
+        {
+          "text": "几乎每天",
+          "value": "3",
+          "optionNo": "D"
+        }
+      ]
+    }
+  ],
+  "dimensions": [
+    {
+      "dimensionName": "广泛性焦虑",
+      "dimensionCode": "gad_total",
+      "num": 1,
+      "evaluateExpression": "hx_t_1 + hx_t_2 + hx_t_3 + hx_t_4 + hx_t_5 + hx_t_6 + hx_t_7",
+      "standardScoreFormula": "",
+      "results": [
+        {
+          "evaluateExpression": "hx_wd_y_1 <= 4",
+          "conclusionAnalysis": "无或极轻微焦虑",
+          "suggestion": "您的焦虑症状处于正常范围，说明您的心理状态良好。建议继续保持健康的生活方式和积极的心态。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_1 > 4 && hx_wd_y_1 <= 9",
+          "conclusionAnalysis": "轻度焦虑",
+          "suggestion": "您存在轻度焦虑症状。建议关注自己的情绪变化，尝试通过运动、冥想、规律作息等方式缓解压力。如症状持续或加重，建议寻求专业心理咨询。",
+          "assessmentWarning": "low"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_1 > 9 && hx_wd_y_1 <= 14",
+          "conclusionAnalysis": "中度焦虑",
+          "suggestion": "您存在中度焦虑症状，建议尽快寻求专业心理咨询或就医评估。中度焦虑可能影响您的日常生活、工作效率和人际关系。专业的心理干预（如认知行为疗法）能有效帮助缓解症状。",
+          "assessmentWarning": "middle"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_1 > 14 && hx_wd_y_1 <= 21",
+          "conclusionAnalysis": "重度焦虑",
+          "suggestion": "您的焦虑症状已达到重度水平，强烈建议尽快就医或寻求专业心理治疗。重度焦虑可能严重影响您的日常生活和社会功能。请不要忽视这些症状，及时的专业帮助对您的康复非常重要。",
+          "assessmentWarning": "high"
+        }
+      ]
+    }
+  ]
+}

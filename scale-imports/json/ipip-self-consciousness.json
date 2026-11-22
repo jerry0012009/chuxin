@@ -1,0 +1,780 @@
+{
+  "id": "ipip-self-consciousness",
+  "title": "自我意识量表(IPIP-SC)",
+  "description": "本问卷帮助了解您对自身内在感受和外在形象的关注程度。共22题，大约需要4分钟完成。",
+  "type": "basic",
+  "questions": [
+    {
+      "text": "我总是审视自己的内心感受。",
+      "type": "radio",
+      "orderNum": 1,
+      "options": [
+        {
+          "text": "非常不同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "不同意",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "同意",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常同意",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "我经常注意自己的情绪变化。",
+      "type": "radio",
+      "orderNum": 2,
+      "options": [
+        {
+          "text": "非常不同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "不同意",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "同意",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常同意",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "我对自己的内在动机感到好奇。",
+      "type": "radio",
+      "orderNum": 3,
+      "options": [
+        {
+          "text": "非常不同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "不同意",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "同意",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常同意",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "我经常反思自己的行为。",
+      "type": "radio",
+      "orderNum": 4,
+      "options": [
+        {
+          "text": "非常不同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "不同意",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "同意",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常同意",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "我很少关注自己的内心想法。",
+      "type": "radio",
+      "orderNum": 5,
+      "options": [
+        {
+          "text": "非常同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "同意",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "不同意",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常不同意",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "我会花时间审视自己的优缺点。",
+      "type": "radio",
+      "orderNum": 6,
+      "options": [
+        {
+          "text": "非常不同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "不同意",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "同意",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常同意",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "我对自己的感受有很清楚的认识。",
+      "type": "radio",
+      "orderNum": 7,
+      "options": [
+        {
+          "text": "非常不同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "不同意",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "同意",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常同意",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "我不太关注自己的内心世界。",
+      "type": "radio",
+      "orderNum": 8,
+      "options": [
+        {
+          "text": "非常同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "同意",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "不同意",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常不同意",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "我会分析自己的想法和行为。",
+      "type": "radio",
+      "orderNum": 9,
+      "options": [
+        {
+          "text": "非常不同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "不同意",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "同意",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常同意",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "我对自己有深入的了解。",
+      "type": "radio",
+      "orderNum": 10,
+      "options": [
+        {
+          "text": "非常不同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "不同意",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "同意",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常同意",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "我很在意别人如何看待我。",
+      "type": "radio",
+      "orderNum": 11,
+      "options": [
+        {
+          "text": "非常不同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "不同意",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "同意",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常同意",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "我通常很关注自己的外表。",
+      "type": "radio",
+      "orderNum": 12,
+      "options": [
+        {
+          "text": "非常不同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "不同意",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "同意",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常同意",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "我在社交场合中会注意自己的言行举止。",
+      "type": "radio",
+      "orderNum": 13,
+      "options": [
+        {
+          "text": "非常不同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "不同意",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "同意",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常同意",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "我在别人面前会感到紧张。",
+      "type": "radio",
+      "orderNum": 14,
+      "options": [
+        {
+          "text": "非常不同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "不同意",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "同意",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常同意",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "我不太在意别人对我的看法。",
+      "type": "radio",
+      "orderNum": 15,
+      "options": [
+        {
+          "text": "非常同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "同意",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "不同意",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常不同意",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "我会注意别人对我的反应。",
+      "type": "radio",
+      "orderNum": 16,
+      "options": [
+        {
+          "text": "非常不同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "不同意",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "同意",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常同意",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "我经常担心自己给别人留下什么印象。",
+      "type": "radio",
+      "orderNum": 17,
+      "options": [
+        {
+          "text": "非常不同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "不同意",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "同意",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常同意",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "我知道自己在别人眼中是什么样的。",
+      "type": "radio",
+      "orderNum": 18,
+      "options": [
+        {
+          "text": "非常不同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "不同意",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "同意",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常同意",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "我在与人交往时会注意自己的表情。",
+      "type": "radio",
+      "orderNum": 19,
+      "options": [
+        {
+          "text": "非常不同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "不同意",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "同意",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常同意",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "我对别人的评价不太敏感。",
+      "type": "radio",
+      "orderNum": 20,
+      "options": [
+        {
+          "text": "非常同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "同意",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "不同意",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常不同意",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "我在穿衣服时很注意形象。",
+      "type": "radio",
+      "orderNum": 21,
+      "options": [
+        {
+          "text": "非常不同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "不同意",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "同意",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常同意",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "我经常思考别人对我的看法。",
+      "type": "radio",
+      "orderNum": 22,
+      "options": [
+        {
+          "text": "非常不同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "不同意",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "同意",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常同意",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    }
+  ],
+  "dimensions": [
+    {
+      "dimensionName": "私我意识",
+      "dimensionCode": "private_sc",
+      "num": 1,
+      "evaluateExpression": "(hx_t_1 + hx_t_2 + hx_t_3 + hx_t_4 + hx_t_5 + hx_t_6 + hx_t_7 + hx_t_8 + hx_t_9 + hx_t_10) / 10",
+      "standardScoreFormula": "",
+      "results": [
+        {
+          "evaluateExpression": "hx_wd_y_1 <= 2.0",
+          "conclusionAnalysis": "私我意识较低",
+          "suggestion": "您较少关注自己的内心感受和想法，更倾向于关注外部世界。这可能意味着您比较随性自然，不太会过度思考自己的状态。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_1 > 2.0 && hx_wd_y_1 <= 3.0",
+          "conclusionAnalysis": "私我意识中等",
+          "suggestion": "您对自身内心世界有一定的关注，能够适度地觉察和反思自己的感受和想法。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_1 > 3.0 && hx_wd_y_1 <= 4.0",
+          "conclusionAnalysis": "私我意识较高",
+          "suggestion": "您经常审视和反思自己的内心感受和动机，对自己有较为深入的了解。这种自我觉察有助于个人成长。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_1 > 4.0",
+          "conclusionAnalysis": "私我意识很高",
+          "suggestion": "您非常关注自己的内心世界，经常分析和反思自己的想法与感受。这种高度的自我觉察能力有助于深入了解自己，但也要注意不要过度内省。",
+          "assessmentWarning": "none"
+        }
+      ]
+    },
+    {
+      "dimensionName": "公我意识",
+      "dimensionCode": "public_sc",
+      "num": 2,
+      "evaluateExpression": "(hx_t_11 + hx_t_12 + hx_t_13 + hx_t_14 + hx_t_15 + hx_t_16 + hx_t_17 + hx_t_18 + hx_t_19 + hx_t_20 + hx_t_21 + hx_t_22) / 12",
+      "standardScoreFormula": "",
+      "results": [
+        {
+          "evaluateExpression": "hx_wd_y_2 <= 2.0",
+          "conclusionAnalysis": "公我意识较低",
+          "suggestion": "您不太关注别人如何看待自己，在社交场合中比较放松自然，不会过分在意他人评价。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_2 > 2.0 && hx_wd_y_2 <= 3.0",
+          "conclusionAnalysis": "公我意识中等",
+          "suggestion": "您对他人如何看待自己有一定的关注，在社交场合中能保持适度的自我监控。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_2 > 3.0 && hx_wd_y_2 <= 4.0",
+          "conclusionAnalysis": "公我意识较高",
+          "suggestion": "您比较在意自己的外在形象和别人对您的看法。这有助于您在社交场合中表现得体，但有时可能会感到社交压力。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_2 > 4.0",
+          "conclusionAnalysis": "公我意识很高",
+          "suggestion": "您非常关注自己在他人眼中的形象，对社交反馈很敏感。这种特质使您善于社交管理，但也可能带来社交焦虑。建议适当放松对他人评价的关注。",
+          "assessmentWarning": "low"
+        }
+      ]
+    }
+  ]
+}

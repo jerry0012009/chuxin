@@ -1,0 +1,1053 @@
+{
+  "id": 139,
+  "title": "简明精神病量表(BPRS)",
+  "type": "basic",
+  "questions": [
+    {
+      "id": 3788,
+      "text": "关心身体健康（依据口头叙述）:指对自身健康的过分关心，不考虑其主诉有无客观基础。",
+      "type": "radio",
+      "orderNum": 1,
+      "options": [
+        {
+          "id": 14316,
+          "optionNo": "A",
+          "text": "1、无症状",
+          "value": "1"
+        },
+        {
+          "id": 14317,
+          "optionNo": "B",
+          "text": "2、很轻",
+          "value": "2"
+        },
+        {
+          "id": 14318,
+          "optionNo": "C",
+          "text": "3、轻度",
+          "value": "3"
+        },
+        {
+          "id": 14319,
+          "optionNo": "D",
+          "text": "4、中度",
+          "value": "4"
+        },
+        {
+          "id": 14320,
+          "optionNo": "E",
+          "text": "5、偏重",
+          "value": "5"
+        },
+        {
+          "id": 14321,
+          "optionNo": "F",
+          "text": "6、重度",
+          "value": "6"
+        },
+        {
+          "id": 14322,
+          "optionNo": "G",
+          "text": "7、极重",
+          "value": "7"
+        }
+      ]
+    },
+    {
+      "id": 3789,
+      "text": "焦虑（依据口头叙述）:指精神性焦虑，即对当前及未来情况的担心，恐惧或过分关注。",
+      "type": "radio",
+      "orderNum": 2,
+      "options": [
+        {
+          "id": 14323,
+          "optionNo": "A",
+          "text": "1、无症状",
+          "value": "1"
+        },
+        {
+          "id": 14324,
+          "optionNo": "B",
+          "text": "2、很轻",
+          "value": "2"
+        },
+        {
+          "id": 14325,
+          "optionNo": "C",
+          "text": "3、轻度",
+          "value": "3"
+        },
+        {
+          "id": 14326,
+          "optionNo": "D",
+          "text": "4、中度",
+          "value": "4"
+        },
+        {
+          "id": 14327,
+          "optionNo": "E",
+          "text": "5、偏重",
+          "value": "5"
+        },
+        {
+          "id": 14328,
+          "optionNo": "F",
+          "text": "6、重度",
+          "value": "6"
+        },
+        {
+          "id": 14329,
+          "optionNo": "G",
+          "text": "7、极重",
+          "value": "7"
+        }
+      ]
+    },
+    {
+      "id": 3790,
+      "text": "情感交流障碍（依据检测观察）:指与检查者之间如同存在无形隔膜，无法实现正常的情感交流。",
+      "type": "radio",
+      "orderNum": 3,
+      "options": [
+        {
+          "id": 14330,
+          "optionNo": "A",
+          "text": "1、无症状",
+          "value": "1"
+        },
+        {
+          "id": 14331,
+          "optionNo": "B",
+          "text": "2、很轻",
+          "value": "2"
+        },
+        {
+          "id": 14332,
+          "optionNo": "C",
+          "text": "3、轻度",
+          "value": "3"
+        },
+        {
+          "id": 14333,
+          "optionNo": "D",
+          "text": "4、中度",
+          "value": "4"
+        },
+        {
+          "id": 14334,
+          "optionNo": "E",
+          "text": "5、偏重",
+          "value": "5"
+        },
+        {
+          "id": 14335,
+          "optionNo": "F",
+          "text": "6、重度",
+          "value": "6"
+        },
+        {
+          "id": 14336,
+          "optionNo": "G",
+          "text": "7、极重",
+          "value": "7"
+        }
+      ]
+    },
+    {
+      "id": 3791,
+      "text": "概念紊乱（依据口头叙述）:指联想散漫，零乱和解体的程度。",
+      "type": "radio",
+      "orderNum": 4,
+      "options": [
+        {
+          "id": 14337,
+          "optionNo": "A",
+          "text": "1、无症状",
+          "value": "1"
+        },
+        {
+          "id": 14338,
+          "optionNo": "B",
+          "text": "2、很轻",
+          "value": "2"
+        },
+        {
+          "id": 14339,
+          "optionNo": "C",
+          "text": "3、轻度",
+          "value": "3"
+        },
+        {
+          "id": 14340,
+          "optionNo": "D",
+          "text": "4、中度",
+          "value": "4"
+        },
+        {
+          "id": 14341,
+          "optionNo": "E",
+          "text": "5、偏重",
+          "value": "5"
+        },
+        {
+          "id": 14342,
+          "optionNo": "F",
+          "text": "6、重度",
+          "value": "6"
+        },
+        {
+          "id": 14343,
+          "optionNo": "G",
+          "text": "7、极重",
+          "value": "7"
+        }
+      ]
+    },
+    {
+      "id": 3792,
+      "text": "罪恶观念（依据口头叙述）:指对以往言行的过分关心内疚和悔恨。",
+      "type": "radio",
+      "orderNum": 5,
+      "options": [
+        {
+          "id": 14344,
+          "optionNo": "A",
+          "text": "1、无症状",
+          "value": "1"
+        },
+        {
+          "id": 14345,
+          "optionNo": "B",
+          "text": "2、很轻",
+          "value": "2"
+        },
+        {
+          "id": 14346,
+          "optionNo": "C",
+          "text": "3、轻度",
+          "value": "3"
+        },
+        {
+          "id": 14347,
+          "optionNo": "D",
+          "text": "4、中度",
+          "value": "4"
+        },
+        {
+          "id": 14348,
+          "optionNo": "E",
+          "text": "5、偏重",
+          "value": "5"
+        },
+        {
+          "id": 14349,
+          "optionNo": "F",
+          "text": "6、重度",
+          "value": "6"
+        },
+        {
+          "id": 14350,
+          "optionNo": "G",
+          "text": "7、极重",
+          "value": "7"
+        }
+      ]
+    },
+    {
+      "id": 3793,
+      "text": "紧张（依据检测观察）:指焦虑性运动表现。",
+      "type": "radio",
+      "orderNum": 6,
+      "options": [
+        {
+          "id": 14351,
+          "optionNo": "A",
+          "text": "1、无症状",
+          "value": "1"
+        },
+        {
+          "id": 14352,
+          "optionNo": "B",
+          "text": "2、很轻",
+          "value": "2"
+        },
+        {
+          "id": 14353,
+          "optionNo": "C",
+          "text": "3、轻度",
+          "value": "3"
+        },
+        {
+          "id": 14354,
+          "optionNo": "D",
+          "text": "4、中度",
+          "value": "4"
+        },
+        {
+          "id": 14355,
+          "optionNo": "E",
+          "text": "5、偏重",
+          "value": "5"
+        },
+        {
+          "id": 14356,
+          "optionNo": "F",
+          "text": "6、重度",
+          "value": "6"
+        },
+        {
+          "id": 14357,
+          "optionNo": "G",
+          "text": "7、极重",
+          "value": "7"
+        }
+      ]
+    },
+    {
+      "id": 3794,
+      "text": "装相作态（依据检测观察）:指不寻常的或不自然的运动性行为。",
+      "type": "radio",
+      "orderNum": 7,
+      "options": [
+        {
+          "id": 14358,
+          "optionNo": "A",
+          "text": "1、无症状",
+          "value": "1"
+        },
+        {
+          "id": 14359,
+          "optionNo": "B",
+          "text": "2、很轻",
+          "value": "2"
+        },
+        {
+          "id": 14360,
+          "optionNo": "C",
+          "text": "3、轻度",
+          "value": "3"
+        },
+        {
+          "id": 14361,
+          "optionNo": "D",
+          "text": "4、中度",
+          "value": "4"
+        },
+        {
+          "id": 14362,
+          "optionNo": "E",
+          "text": "5、偏重",
+          "value": "5"
+        },
+        {
+          "id": 14363,
+          "optionNo": "F",
+          "text": "6、重度",
+          "value": "6"
+        },
+        {
+          "id": 14364,
+          "optionNo": "G",
+          "text": "7、极重",
+          "value": "7"
+        }
+      ]
+    },
+    {
+      "id": 3795,
+      "text": "夸大（依据口头叙述）:即过分自负，确信具有不寻常的才能和权力等。",
+      "type": "radio",
+      "orderNum": 8,
+      "options": [
+        {
+          "id": 14365,
+          "optionNo": "A",
+          "text": "1、无症状",
+          "value": "1"
+        },
+        {
+          "id": 14366,
+          "optionNo": "B",
+          "text": "2、很轻",
+          "value": "2"
+        },
+        {
+          "id": 14367,
+          "optionNo": "C",
+          "text": "3、轻度",
+          "value": "3"
+        },
+        {
+          "id": 14368,
+          "optionNo": "D",
+          "text": "4、中度",
+          "value": "4"
+        },
+        {
+          "id": 14369,
+          "optionNo": "E",
+          "text": "5、偏重",
+          "value": "5"
+        },
+        {
+          "id": 14370,
+          "optionNo": "F",
+          "text": "6、重度",
+          "value": "6"
+        },
+        {
+          "id": 14371,
+          "optionNo": "G",
+          "text": "7、极重",
+          "value": "7"
+        }
+      ]
+    },
+    {
+      "id": 3796,
+      "text": "心境抑郁（依据口头叙述）:即心境不佳，悲伤，沮丧或情绪低落的程度。",
+      "type": "radio",
+      "orderNum": 9,
+      "options": [
+        {
+          "id": 14372,
+          "optionNo": "A",
+          "text": "1、无症状",
+          "value": "1"
+        },
+        {
+          "id": 14373,
+          "optionNo": "B",
+          "text": "2、很轻",
+          "value": "2"
+        },
+        {
+          "id": 14374,
+          "optionNo": "C",
+          "text": "3、轻度",
+          "value": "3"
+        },
+        {
+          "id": 14375,
+          "optionNo": "D",
+          "text": "4、中度",
+          "value": "4"
+        },
+        {
+          "id": 14376,
+          "optionNo": "E",
+          "text": "5、偏重",
+          "value": "5"
+        },
+        {
+          "id": 14377,
+          "optionNo": "F",
+          "text": "6、重度",
+          "value": "6"
+        },
+        {
+          "id": 14378,
+          "optionNo": "G",
+          "text": "7、极重",
+          "value": "7"
+        }
+      ]
+    },
+    {
+      "id": 3797,
+      "text": "敌对性（依据口头叙述）:指对他人(不包括检查者)的仇恨，敌对和蔑视。",
+      "type": "radio",
+      "orderNum": 10,
+      "options": [
+        {
+          "id": 14379,
+          "optionNo": "A",
+          "text": "1、无症状",
+          "value": "1"
+        },
+        {
+          "id": 14380,
+          "optionNo": "B",
+          "text": "2、很轻",
+          "value": "2"
+        },
+        {
+          "id": 14381,
+          "optionNo": "C",
+          "text": "3、轻度",
+          "value": "3"
+        },
+        {
+          "id": 14382,
+          "optionNo": "D",
+          "text": "4、中度",
+          "value": "4"
+        },
+        {
+          "id": 14383,
+          "optionNo": "E",
+          "text": "5、偏重",
+          "value": "5"
+        },
+        {
+          "id": 14384,
+          "optionNo": "F",
+          "text": "6、重度",
+          "value": "6"
+        },
+        {
+          "id": 14385,
+          "optionNo": "G",
+          "text": "7、极重",
+          "value": "7"
+        }
+      ]
+    },
+    {
+      "id": 3798,
+      "text": "猜疑（依据口头叙述）:指检查当时认为有人正在或曾经恶意地对待他。",
+      "type": "radio",
+      "orderNum": 11,
+      "options": [
+        {
+          "id": 14386,
+          "optionNo": "A",
+          "text": "1、无症状",
+          "value": "1"
+        },
+        {
+          "id": 14387,
+          "optionNo": "B",
+          "text": "2、很轻",
+          "value": "2"
+        },
+        {
+          "id": 14388,
+          "optionNo": "C",
+          "text": "3、轻度",
+          "value": "3"
+        },
+        {
+          "id": 14389,
+          "optionNo": "D",
+          "text": "4、中度",
+          "value": "4"
+        },
+        {
+          "id": 14390,
+          "optionNo": "E",
+          "text": "5、偏重",
+          "value": "5"
+        },
+        {
+          "id": 14391,
+          "optionNo": "F",
+          "text": "6、重度",
+          "value": "6"
+        },
+        {
+          "id": 14392,
+          "optionNo": "G",
+          "text": "7、极重",
+          "value": "7"
+        }
+      ]
+    },
+    {
+      "id": 3799,
+      "text": "幻觉（依据口头叙述）:指没有相应外界刺激的感知。",
+      "type": "radio",
+      "orderNum": 12,
+      "options": [
+        {
+          "id": 14393,
+          "optionNo": "A",
+          "text": "1、无症状",
+          "value": "1"
+        },
+        {
+          "id": 14394,
+          "optionNo": "B",
+          "text": "2、很轻",
+          "value": "2"
+        },
+        {
+          "id": 14395,
+          "optionNo": "C",
+          "text": "3、轻度",
+          "value": "3"
+        },
+        {
+          "id": 14396,
+          "optionNo": "D",
+          "text": "4、中度",
+          "value": "4"
+        },
+        {
+          "id": 14397,
+          "optionNo": "E",
+          "text": "5、偏重",
+          "value": "5"
+        },
+        {
+          "id": 14398,
+          "optionNo": "F",
+          "text": "6、重度",
+          "value": "6"
+        },
+        {
+          "id": 14399,
+          "optionNo": "G",
+          "text": "7、极重",
+          "value": "7"
+        }
+      ]
+    },
+    {
+      "id": 3800,
+      "text": "运动迟缓（依据检测观察）:指言语，动作和行为的减少和缓慢。",
+      "type": "radio",
+      "orderNum": 13,
+      "options": [
+        {
+          "id": 14400,
+          "optionNo": "A",
+          "text": "1、无症状",
+          "value": "1"
+        },
+        {
+          "id": 14401,
+          "optionNo": "B",
+          "text": "2、很轻",
+          "value": "2"
+        },
+        {
+          "id": 14402,
+          "optionNo": "C",
+          "text": "3、轻度",
+          "value": "3"
+        },
+        {
+          "id": 14403,
+          "optionNo": "D",
+          "text": "4、中度",
+          "value": "4"
+        },
+        {
+          "id": 14404,
+          "optionNo": "E",
+          "text": "5、偏重",
+          "value": "5"
+        },
+        {
+          "id": 14405,
+          "optionNo": "F",
+          "text": "6、重度",
+          "value": "6"
+        },
+        {
+          "id": 14406,
+          "optionNo": "G",
+          "text": "7、极重",
+          "value": "7"
+        }
+      ]
+    },
+    {
+      "id": 3801,
+      "text": "不合作（依据检测观察）:指会谈时对检查者的对立，不友好，不满意或不合作。",
+      "type": "radio",
+      "orderNum": 14,
+      "options": [
+        {
+          "id": 14407,
+          "optionNo": "A",
+          "text": "1、无症状",
+          "value": "1"
+        },
+        {
+          "id": 14408,
+          "optionNo": "B",
+          "text": "2、很轻",
+          "value": "2"
+        },
+        {
+          "id": 14409,
+          "optionNo": "C",
+          "text": "3、轻度",
+          "value": "3"
+        },
+        {
+          "id": 14410,
+          "optionNo": "D",
+          "text": "4、中度",
+          "value": "4"
+        },
+        {
+          "id": 14411,
+          "optionNo": "E",
+          "text": "5、偏重",
+          "value": "5"
+        },
+        {
+          "id": 14412,
+          "optionNo": "F",
+          "text": "6、重度",
+          "value": "6"
+        },
+        {
+          "id": 14413,
+          "optionNo": "G",
+          "text": "7、极重",
+          "value": "7"
+        }
+      ]
+    },
+    {
+      "id": 3802,
+      "text": "不寻常思维内容（依据口头叙述）:即荒谬古怪的思维内容。",
+      "type": "radio",
+      "orderNum": 15,
+      "options": [
+        {
+          "id": 14414,
+          "optionNo": "A",
+          "text": "1、无症状",
+          "value": "1"
+        },
+        {
+          "id": 14415,
+          "optionNo": "B",
+          "text": "2、很轻",
+          "value": "2"
+        },
+        {
+          "id": 14416,
+          "optionNo": "C",
+          "text": "3、轻度",
+          "value": "3"
+        },
+        {
+          "id": 14417,
+          "optionNo": "D",
+          "text": "4、中度",
+          "value": "4"
+        },
+        {
+          "id": 14418,
+          "optionNo": "E",
+          "text": "5、偏重",
+          "value": "5"
+        },
+        {
+          "id": 14419,
+          "optionNo": "F",
+          "text": "6、重度",
+          "value": "6"
+        },
+        {
+          "id": 14420,
+          "optionNo": "G",
+          "text": "7、极重",
+          "value": "7"
+        }
+      ]
+    },
+    {
+      "id": 3803,
+      "text": "情感平淡（依据检测观察）:指情感基调低，明显缺乏相应的正常情感反应。",
+      "type": "radio",
+      "orderNum": 16,
+      "options": [
+        {
+          "id": 14421,
+          "optionNo": "A",
+          "text": "1、无症状",
+          "value": "1"
+        },
+        {
+          "id": 14422,
+          "optionNo": "B",
+          "text": "2、很轻",
+          "value": "2"
+        },
+        {
+          "id": 14423,
+          "optionNo": "C",
+          "text": "3、轻度",
+          "value": "3"
+        },
+        {
+          "id": 14424,
+          "optionNo": "D",
+          "text": "4、中度",
+          "value": "4"
+        },
+        {
+          "id": 14425,
+          "optionNo": "E",
+          "text": "5、偏重",
+          "value": "5"
+        },
+        {
+          "id": 14426,
+          "optionNo": "F",
+          "text": "6、重度",
+          "value": "6"
+        },
+        {
+          "id": 14427,
+          "optionNo": "G",
+          "text": "7、极重",
+          "value": "7"
+        }
+      ]
+    },
+    {
+      "id": 3804,
+      "text": "兴奋（依据检测观察）:指情感基调增高，激动，对外界反应增强。",
+      "type": "radio",
+      "orderNum": 17,
+      "options": [
+        {
+          "id": 14428,
+          "optionNo": "A",
+          "text": "1、无症状",
+          "value": "1"
+        },
+        {
+          "id": 14429,
+          "optionNo": "B",
+          "text": "2、很轻",
+          "value": "2"
+        },
+        {
+          "id": 14430,
+          "optionNo": "C",
+          "text": "3、轻度",
+          "value": "3"
+        },
+        {
+          "id": 14431,
+          "optionNo": "D",
+          "text": "4、中度",
+          "value": "4"
+        },
+        {
+          "id": 14432,
+          "optionNo": "E",
+          "text": "5、偏重",
+          "value": "5"
+        },
+        {
+          "id": 14433,
+          "optionNo": "F",
+          "text": "6、重度",
+          "value": "6"
+        },
+        {
+          "id": 14434,
+          "optionNo": "G",
+          "text": "7、极重",
+          "value": "7"
+        }
+      ]
+    },
+    {
+      "id": 3805,
+      "text": "定向障碍（依据口头叙述）:指对人物，地点或时间分辨不清。",
+      "type": "radio",
+      "orderNum": 18,
+      "options": [
+        {
+          "id": 14435,
+          "optionNo": "A",
+          "text": "1、无症状",
+          "value": "1"
+        },
+        {
+          "id": 14436,
+          "optionNo": "B",
+          "text": "2、很轻",
+          "value": "2"
+        },
+        {
+          "id": 14437,
+          "optionNo": "C",
+          "text": "3、轻度",
+          "value": "3"
+        },
+        {
+          "id": 14438,
+          "optionNo": "D",
+          "text": "4、中度",
+          "value": "4"
+        },
+        {
+          "id": 14439,
+          "optionNo": "E",
+          "text": "5、偏重",
+          "value": "5"
+        },
+        {
+          "id": 14440,
+          "optionNo": "F",
+          "text": "6、重度",
+          "value": "6"
+        },
+        {
+          "id": 14441,
+          "optionNo": "G",
+          "text": "7、极重",
+          "value": "7"
+        }
+      ]
+    }
+  ],
+  "dimensions": [
+    {
+      "id": 422,
+      "num": 1,
+      "dimensionName": "总分",
+      "dimensionCode": "A",
+      "evaluateExpression": "hx_t_1 + hx_t_2 + hx_t_3 + hx_t_4 + hx_t_5 + hx_t_6 + hx_t_7 + hx_t_8 + hx_t_9 + hx_t_10 + hx_t_11 + hx_t_12 + hx_t_13 + hx_t_14 + hx_t_15 + hx_t_16 + hx_t_17 + hx_t_18",
+      "standardScoreFormula": "0",
+      "results": [
+        {
+          "id": 923,
+          "evaluateExpression": "hx_wd_y_1 >= 18&& hx_wd_y_1 <= 35.99",
+          "conclusionAnalysis": "总分得分范围在18～35（包括35）分之间，表明患者疾病程度较轻，不需归为病人组。",
+          "suggestion": "量表总分反应疾病的严重性，总分越高，病情越重。该患者症状程度较轻，说话减少，对过去喜欢的事物兴趣降低，不愿与人交往。",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 924,
+          "evaluateExpression": "hx_wd_y_1 >= 36&& hx_wd_y_1 <= 126",
+          "conclusionAnalysis": "患者总分>35，疾病程度较重，需归为病人组。",
+          "suggestion": "量表总分反应疾病的严重性，总分越高，病情越重。该患者症状程度较重，患者心理能量低，少与人进行交往，对过去曾经感兴趣、追求的东西毫无兴趣，对日常目标、社会接触或感情表达缺乏渴望。",
+          "assessmentWarning": "none"
+        }
+      ]
+    },
+    {
+      "id": 423,
+      "num": 2,
+      "dimensionName": "焦虑忧郁",
+      "dimensionCode": "B",
+      "evaluateExpression": "(hx_t_1 + hx_t_2 + hx_t_5 + hx_t_9)/4",
+      "standardScoreFormula": "0",
+      "results": [
+        {
+          "id": 925,
+          "evaluateExpression": "hx_wd_y_2 >= 1&& hx_wd_y_2 <= 2.99",
+          "conclusionAnalysis": "患者得分在1-3（不包括3）分之间，焦虑忧虑症状较轻",
+          "suggestion": "因子得分越高，则该项症状越明显。患者对自己的身体健康存在过度担心；对以往的言行存在内疚和悔恨；有时会沮丧，情绪低落",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 926,
+          "evaluateExpression": "hx_wd_y_2 >= 3&& hx_wd_y_2 <= 7",
+          "conclusionAnalysis": "患者得分≥3分，焦虑忧虑症状较重。若患者仅此因子得分≥3分，需考虑患者是否患有抑郁症/神经症",
+          "suggestion": "因子得分越高，则该项症状越明显。患者对自己当前及未来的情况过分担心，过分关注自身健康，不考虑其主述有无客观基础，常表现出悲伤、沮丧或情绪低落。",
+          "assessmentWarning": "none"
+        }
+      ]
+    },
+    {
+      "id": 424,
+      "num": 3,
+      "dimensionName": "缺乏活力",
+      "dimensionCode": "C",
+      "evaluateExpression": "(hx_t_3 + hx_t_13 + hx_t_16 + hx_t_18)/4",
+      "standardScoreFormula": "0",
+      "results": [
+        {
+          "id": 927,
+          "evaluateExpression": "hx_wd_y_3 >= 1&& hx_wd_y_3 <= 2.99",
+          "conclusionAnalysis": "患者得分在1-3（不包括3）分之间，症状程度较轻",
+          "suggestion": "得分越高，则该项症状越明显。患者与检查者之间存在一定隔阂，不愿意进行过多反应，不愿意与他人交谈。",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 928,
+          "evaluateExpression": "hx_wd_y_3 >= 3&& hx_wd_y_3 <= 7",
+          "conclusionAnalysis": "患者得分≥3分，症状程度较重，需格外注意。",
+          "suggestion": "因子得分越高，则该项症状越明显。患者与检查者难以进行正常的情感交流，缺乏正常的情感反应；动作、言语缓慢；对人物、地点、时间难以分辨",
+          "assessmentWarning": "none"
+        }
+      ]
+    },
+    {
+      "id": 425,
+      "num": 4,
+      "dimensionName": "思维障碍",
+      "dimensionCode": "D",
+      "evaluateExpression": "(hx_t_4 + hx_t_8 + hx_t_12 + hx_t_15)/4",
+      "standardScoreFormula": "0",
+      "results": [
+        {
+          "id": 929,
+          "evaluateExpression": "hx_wd_y_4 >= 1&& hx_wd_y_4 <= 2.99",
+          "conclusionAnalysis": "患者得分在1-3（不包括3）分之间，思维障碍症状较轻，临床表现相对较少。",
+          "suggestion": "该因子得分越高，则该项症状越明显。患者思维散漫，思维内容有时脱离现实，但整体能够理解和接受；对外界刺激有时难以做出正确反应和感知。",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 930,
+          "evaluateExpression": "hx_wd_y_4 >= 3&& hx_wd_y_4 <= 7",
+          "conclusionAnalysis": "患者得分≥3分，思维障碍症状较重。",
+          "suggestion": "该因子得分越高，则该项症状越明显。患者存在明显的思维混乱，甚至达到思维解体程度；思维内容脱离现实，有时认为自己具有不寻常的能力；难以对外界刺激做出正确反应。",
+          "assessmentWarning": "none"
+        }
+      ]
+    },
+    {
+      "id": 426,
+      "num": 5,
+      "dimensionName": "激活性",
+      "dimensionCode": "E",
+      "evaluateExpression": "(hx_t_6 + hx_t_7 + hx_t_17)/3",
+      "standardScoreFormula": "0",
+      "results": [
+        {
+          "id": 931,
+          "evaluateExpression": "hx_wd_y_5 >= 1&& hx_wd_y_5 <= 2.99",
+          "conclusionAnalysis": "患者得分在1-3（不包括3）分之间，激活性症状较轻。\n患者对外界刺激反应增强，表现出与以往不同的兴奋，有时会出现不寻常或不自然的运动性行为",
+          "suggestion": "该因子得分越高，则该项症状越明显。患者对外界刺激反应增强，表现出与以往不同的兴奋，有时会出现不寻常或不自然的运动性行为。",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 932,
+          "evaluateExpression": "hx_wd_y_5 >= 3&& hx_wd_y_5 <= 7",
+          "conclusionAnalysis": "患者得分≥3分，激活性症状较重，需留意患者是否存在焦虑症、精神分裂症。",
+          "suggestion": "该因子得分越高，则该项症状越明显。患者表现出运动性焦虑；表现出不自然或不寻常的运动行为；表现出过度的兴奋状态，对外界反应增强",
+          "assessmentWarning": "none"
+        }
+      ]
+    },
+    {
+      "id": 427,
+      "num": 6,
+      "dimensionName": "敌对猜疑",
+      "dimensionCode": "F",
+      "evaluateExpression": "(hx_t_10 + hx_t_11 + hx_t_14)/3",
+      "standardScoreFormula": "0",
+      "results": [
+        {
+          "id": 933,
+          "evaluateExpression": "hx_wd_y_6 >= 1&& hx_wd_y_6 <= 2.99",
+          "conclusionAnalysis": "患者得分在1-3（不包括3）分之间，此项症状较轻",
+          "suggestion": "该因子得分越高，则该项症状越明显。患者难以与他人合作，检查当时认为有人症在恶意针对自己。",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 934,
+          "evaluateExpression": "hx_wd_y_6 >= 3&& hx_wd_y_6 <= 7",
+          "conclusionAnalysis": "患者得分≥3，敌对猜疑症状较重，需要留心注意。",
+          "suggestion": "该因子得分越高，则该项症状越明显。患者对他人（不包括检查者）存在明显的仇恨和敌对，认为有人曾经或正在恶意对待自己。会谈时对检查者表现出不友好。",
+          "assessmentWarning": "none"
+        }
+      ]
+    }
+  ]
+}

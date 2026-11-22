@@ -1,0 +1,1552 @@
+{
+  "id": "aq-autism",
+  "title": "自闭谱系商数量表(AQ)",
+  "description": "本问卷帮助了解您在社交沟通、注意力、想象力等方面的特点，用于自闭谱系特征的初步筛查。共50题，大约需要10分钟完成。",
+  "type": "basic",
+  "questions": [
+    {
+      "text": "比起和人在一起，我更喜欢和事物打交道。",
+      "type": "radio",
+      "orderNum": 1,
+      "options": [
+        {
+          "text": "完全同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "稍微同意",
+          "value": "1",
+          "optionNo": "B"
+        },
+        {
+          "text": "稍微不同意",
+          "value": "0",
+          "optionNo": "C"
+        },
+        {
+          "text": "完全不同意",
+          "value": "0",
+          "optionNo": "D"
+        }
+      ]
+    },
+    {
+      "text": "我觉得社交活动很容易。",
+      "type": "radio",
+      "orderNum": 11,
+      "options": [
+        {
+          "text": "完全同意",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "稍微同意",
+          "value": "0",
+          "optionNo": "B"
+        },
+        {
+          "text": "稍微不同意",
+          "value": "1",
+          "optionNo": "C"
+        },
+        {
+          "text": "完全不同意",
+          "value": "1",
+          "optionNo": "D"
+        }
+      ]
+    },
+    {
+      "text": "比起自己编故事，我更喜欢编事实。",
+      "type": "radio",
+      "orderNum": 13,
+      "options": [
+        {
+          "text": "完全同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "稍微同意",
+          "value": "1",
+          "optionNo": "B"
+        },
+        {
+          "text": "稍微不同意",
+          "value": "0",
+          "optionNo": "C"
+        },
+        {
+          "text": "完全不同意",
+          "value": "0",
+          "optionNo": "D"
+        }
+      ]
+    },
+    {
+      "text": "我觉得自己自然而然地就了解了别人在想什么或感受什么。",
+      "type": "radio",
+      "orderNum": 15,
+      "options": [
+        {
+          "text": "完全同意",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "稍微同意",
+          "value": "0",
+          "optionNo": "B"
+        },
+        {
+          "text": "稍微不同意",
+          "value": "1",
+          "optionNo": "C"
+        },
+        {
+          "text": "完全不同意",
+          "value": "1",
+          "optionNo": "D"
+        }
+      ]
+    },
+    {
+      "text": "我觉得交新朋友很容易。",
+      "type": "radio",
+      "orderNum": 22,
+      "options": [
+        {
+          "text": "完全同意",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "稍微同意",
+          "value": "0",
+          "optionNo": "B"
+        },
+        {
+          "text": "稍微不同意",
+          "value": "1",
+          "optionNo": "C"
+        },
+        {
+          "text": "完全不同意",
+          "value": "1",
+          "optionNo": "D"
+        }
+      ]
+    },
+    {
+      "text": "我喜欢和别人在一起。",
+      "type": "radio",
+      "orderNum": 36,
+      "options": [
+        {
+          "text": "完全同意",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "稍微同意",
+          "value": "0",
+          "optionNo": "B"
+        },
+        {
+          "text": "稍微不同意",
+          "value": "1",
+          "optionNo": "C"
+        },
+        {
+          "text": "完全不同意",
+          "value": "1",
+          "optionNo": "D"
+        }
+      ]
+    },
+    {
+      "text": "我喜欢假装自己是别人，即使只是在想象中。",
+      "type": "radio",
+      "orderNum": 44,
+      "options": [
+        {
+          "text": "完全同意",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "稍微同意",
+          "value": "0",
+          "optionNo": "B"
+        },
+        {
+          "text": "稍微不同意",
+          "value": "1",
+          "optionNo": "C"
+        },
+        {
+          "text": "完全不同意",
+          "value": "1",
+          "optionNo": "D"
+        }
+      ]
+    },
+    {
+      "text": "我对别人的故事很感兴趣。",
+      "type": "radio",
+      "orderNum": 45,
+      "options": [
+        {
+          "text": "完全同意",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "稍微同意",
+          "value": "0",
+          "optionNo": "B"
+        },
+        {
+          "text": "稍微不同意",
+          "value": "1",
+          "optionNo": "C"
+        },
+        {
+          "text": "完全不同意",
+          "value": "1",
+          "optionNo": "D"
+        }
+      ]
+    },
+    {
+      "text": "我喜欢不按常规办事。",
+      "type": "radio",
+      "orderNum": 47,
+      "options": [
+        {
+          "text": "完全同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "稍微同意",
+          "value": "1",
+          "optionNo": "B"
+        },
+        {
+          "text": "稍微不同意",
+          "value": "0",
+          "optionNo": "C"
+        },
+        {
+          "text": "完全不同意",
+          "value": "0",
+          "optionNo": "D"
+        }
+      ]
+    },
+    {
+      "text": "我在社交场合不知道该怎么表现。",
+      "type": "radio",
+      "orderNum": 48,
+      "options": [
+        {
+          "text": "完全同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "稍微同意",
+          "value": "1",
+          "optionNo": "B"
+        },
+        {
+          "text": "稍微不同意",
+          "value": "0",
+          "optionNo": "C"
+        },
+        {
+          "text": "完全不同意",
+          "value": "0",
+          "optionNo": "D"
+        }
+      ]
+    },
+    {
+      "text": "我更喜欢反复做同样的事情，而不是尝试新的体验。",
+      "type": "radio",
+      "orderNum": 2,
+      "options": [
+        {
+          "text": "完全同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "稍微同意",
+          "value": "1",
+          "optionNo": "B"
+        },
+        {
+          "text": "稍微不同意",
+          "value": "0",
+          "optionNo": "C"
+        },
+        {
+          "text": "完全不同意",
+          "value": "0",
+          "optionNo": "D"
+        }
+      ]
+    },
+    {
+      "text": "我会努力把一件事情做好，即使不太实际。",
+      "type": "radio",
+      "orderNum": 4,
+      "options": [
+        {
+          "text": "完全同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "稍微同意",
+          "value": "1",
+          "optionNo": "B"
+        },
+        {
+          "text": "稍微不同意",
+          "value": "0",
+          "optionNo": "C"
+        },
+        {
+          "text": "完全不同意",
+          "value": "0",
+          "optionNo": "D"
+        }
+      ]
+    },
+    {
+      "text": "在社交聚会上，我可以很容易地融入不同的人群中。",
+      "type": "radio",
+      "orderNum": 10,
+      "options": [
+        {
+          "text": "完全同意",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "稍微同意",
+          "value": "0",
+          "optionNo": "B"
+        },
+        {
+          "text": "稍微不同意",
+          "value": "1",
+          "optionNo": "C"
+        },
+        {
+          "text": "完全不同意",
+          "value": "1",
+          "optionNo": "D"
+        }
+      ]
+    },
+    {
+      "text": "我倾向于注意别人注意不到的细节。",
+      "type": "radio",
+      "orderNum": 16,
+      "options": [
+        {
+          "text": "完全同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "稍微同意",
+          "value": "1",
+          "optionNo": "B"
+        },
+        {
+          "text": "稍微不同意",
+          "value": "0",
+          "optionNo": "C"
+        },
+        {
+          "text": "完全不同意",
+          "value": "0",
+          "optionNo": "D"
+        }
+      ]
+    },
+    {
+      "text": "我觉得很难判断别人是否对我所说的话感到无聊。",
+      "type": "radio",
+      "orderNum": 25,
+      "options": [
+        {
+          "text": "完全同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "稍微同意",
+          "value": "1",
+          "optionNo": "B"
+        },
+        {
+          "text": "稍微不同意",
+          "value": "0",
+          "optionNo": "C"
+        },
+        {
+          "text": "完全不同意",
+          "value": "0",
+          "optionNo": "D"
+        }
+      ]
+    },
+    {
+      "text": "我觉得同时做两件以上的事情很困难。",
+      "type": "radio",
+      "orderNum": 32,
+      "options": [
+        {
+          "text": "完全同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "稍微同意",
+          "value": "1",
+          "optionNo": "B"
+        },
+        {
+          "text": "稍微不同意",
+          "value": "0",
+          "optionNo": "C"
+        },
+        {
+          "text": "完全不同意",
+          "value": "0",
+          "optionNo": "D"
+        }
+      ]
+    },
+    {
+      "text": "我比较喜欢按部就班地做事。",
+      "type": "radio",
+      "orderNum": 34,
+      "options": [
+        {
+          "text": "完全同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "稍微同意",
+          "value": "1",
+          "optionNo": "B"
+        },
+        {
+          "text": "稍微不同意",
+          "value": "0",
+          "optionNo": "C"
+        },
+        {
+          "text": "完全不同意",
+          "value": "0",
+          "optionNo": "D"
+        }
+      ]
+    },
+    {
+      "text": "当别人改变计划时，我会感到不安。",
+      "type": "radio",
+      "orderNum": 37,
+      "options": [
+        {
+          "text": "完全同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "稍微同意",
+          "value": "1",
+          "optionNo": "B"
+        },
+        {
+          "text": "稍微不同意",
+          "value": "0",
+          "optionNo": "C"
+        },
+        {
+          "text": "完全不同意",
+          "value": "0",
+          "optionNo": "D"
+        }
+      ]
+    },
+    {
+      "text": "我喜欢按固定的路线去熟悉的地方。",
+      "type": "radio",
+      "orderNum": 43,
+      "options": [
+        {
+          "text": "完全同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "稍微同意",
+          "value": "1",
+          "optionNo": "B"
+        },
+        {
+          "text": "稍微不同意",
+          "value": "0",
+          "optionNo": "C"
+        },
+        {
+          "text": "完全不同意",
+          "value": "0",
+          "optionNo": "D"
+        }
+      ]
+    },
+    {
+      "text": "当我在做日常事务时，我讨厌被打断。",
+      "type": "radio",
+      "orderNum": 46,
+      "options": [
+        {
+          "text": "完全同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "稍微同意",
+          "value": "1",
+          "optionNo": "B"
+        },
+        {
+          "text": "稍微不同意",
+          "value": "0",
+          "optionNo": "C"
+        },
+        {
+          "text": "完全不同意",
+          "value": "0",
+          "optionNo": "D"
+        }
+      ]
+    },
+    {
+      "text": "我经常注意到别人没有注意到的声音或气味。",
+      "type": "radio",
+      "orderNum": 5,
+      "options": [
+        {
+          "text": "完全同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "稍微同意",
+          "value": "1",
+          "optionNo": "B"
+        },
+        {
+          "text": "稍微不同意",
+          "value": "0",
+          "optionNo": "C"
+        },
+        {
+          "text": "完全不同意",
+          "value": "0",
+          "optionNo": "D"
+        }
+      ]
+    },
+    {
+      "text": "我通常关注车牌号或类似的序列信息。",
+      "type": "radio",
+      "orderNum": 6,
+      "options": [
+        {
+          "text": "完全同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "稍微同意",
+          "value": "1",
+          "optionNo": "B"
+        },
+        {
+          "text": "稍微不同意",
+          "value": "0",
+          "optionNo": "C"
+        },
+        {
+          "text": "完全不同意",
+          "value": "0",
+          "optionNo": "D"
+        }
+      ]
+    },
+    {
+      "text": "我对日期很着迷。",
+      "type": "radio",
+      "orderNum": 9,
+      "options": [
+        {
+          "text": "完全同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "稍微同意",
+          "value": "1",
+          "optionNo": "B"
+        },
+        {
+          "text": "稍微不同意",
+          "value": "0",
+          "optionNo": "C"
+        },
+        {
+          "text": "完全不同意",
+          "value": "0",
+          "optionNo": "D"
+        }
+      ]
+    },
+    {
+      "text": "我对数字很感兴趣。",
+      "type": "radio",
+      "orderNum": 12,
+      "options": [
+        {
+          "text": "完全同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "稍微同意",
+          "value": "1",
+          "optionNo": "B"
+        },
+        {
+          "text": "稍微不同意",
+          "value": "0",
+          "optionNo": "C"
+        },
+        {
+          "text": "完全不同意",
+          "value": "0",
+          "optionNo": "D"
+        }
+      ]
+    },
+    {
+      "text": "我对电话号码之类的数字信息很感兴趣。",
+      "type": "radio",
+      "orderNum": 19,
+      "options": [
+        {
+          "text": "完全同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "稍微同意",
+          "value": "1",
+          "optionNo": "B"
+        },
+        {
+          "text": "稍微不同意",
+          "value": "0",
+          "optionNo": "C"
+        },
+        {
+          "text": "完全不同意",
+          "value": "0",
+          "optionNo": "D"
+        }
+      ]
+    },
+    {
+      "text": "我在阅读故事时很难弄清楚人物的意图。",
+      "type": "radio",
+      "orderNum": 23,
+      "options": [
+        {
+          "text": "完全同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "稍微同意",
+          "value": "1",
+          "optionNo": "B"
+        },
+        {
+          "text": "稍微不同意",
+          "value": "0",
+          "optionNo": "C"
+        },
+        {
+          "text": "完全不同意",
+          "value": "0",
+          "optionNo": "D"
+        }
+      ]
+    },
+    {
+      "text": "阅读时，我很难从字里行间读出别人的真正意图。",
+      "type": "radio",
+      "orderNum": 28,
+      "options": [
+        {
+          "text": "完全同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "稍微同意",
+          "value": "1",
+          "optionNo": "B"
+        },
+        {
+          "text": "稍微不同意",
+          "value": "0",
+          "optionNo": "C"
+        },
+        {
+          "text": "完全不同意",
+          "value": "0",
+          "optionNo": "D"
+        }
+      ]
+    },
+    {
+      "text": "我善于在社交场合中读懂别人的心思。",
+      "type": "radio",
+      "orderNum": 29,
+      "options": [
+        {
+          "text": "完全同意",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "稍微同意",
+          "value": "0",
+          "optionNo": "B"
+        },
+        {
+          "text": "稍微不同意",
+          "value": "1",
+          "optionNo": "C"
+        },
+        {
+          "text": "完全不同意",
+          "value": "1",
+          "optionNo": "D"
+        }
+      ]
+    },
+    {
+      "text": "我更愿意去图书馆或博物馆，而不是去聚会。",
+      "type": "radio",
+      "orderNum": 30,
+      "options": [
+        {
+          "text": "完全同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "稍微同意",
+          "value": "1",
+          "optionNo": "B"
+        },
+        {
+          "text": "稍微不同意",
+          "value": "0",
+          "optionNo": "C"
+        },
+        {
+          "text": "完全不同意",
+          "value": "0",
+          "optionNo": "D"
+        }
+      ]
+    },
+    {
+      "text": "我喜欢收集关于事物分类的信息（如各种汽车型号、鸟类种类等）。",
+      "type": "radio",
+      "orderNum": 49,
+      "options": [
+        {
+          "text": "完全同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "稍微同意",
+          "value": "1",
+          "optionNo": "B"
+        },
+        {
+          "text": "稍微不同意",
+          "value": "0",
+          "optionNo": "C"
+        },
+        {
+          "text": "完全不同意",
+          "value": "0",
+          "optionNo": "D"
+        }
+      ]
+    },
+    {
+      "text": "如果我试着想象什么东西，对我来说这很容易形成一个画面。",
+      "type": "radio",
+      "orderNum": 3,
+      "options": [
+        {
+          "text": "完全同意",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "稍微同意",
+          "value": "0",
+          "optionNo": "B"
+        },
+        {
+          "text": "稍微不同意",
+          "value": "1",
+          "optionNo": "C"
+        },
+        {
+          "text": "完全不同意",
+          "value": "1",
+          "optionNo": "D"
+        }
+      ]
+    },
+    {
+      "text": "别人经常说我做事的方式有些特别。",
+      "type": "radio",
+      "orderNum": 7,
+      "options": [
+        {
+          "text": "完全同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "稍微同意",
+          "value": "1",
+          "optionNo": "B"
+        },
+        {
+          "text": "稍微不同意",
+          "value": "0",
+          "optionNo": "C"
+        },
+        {
+          "text": "完全不同意",
+          "value": "0",
+          "optionNo": "D"
+        }
+      ]
+    },
+    {
+      "text": "我喜欢参加社交活动。",
+      "type": "radio",
+      "orderNum": 17,
+      "options": [
+        {
+          "text": "完全同意",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "稍微同意",
+          "value": "0",
+          "optionNo": "B"
+        },
+        {
+          "text": "稍微不同意",
+          "value": "1",
+          "optionNo": "C"
+        },
+        {
+          "text": "完全不同意",
+          "value": "1",
+          "optionNo": "D"
+        }
+      ]
+    },
+    {
+      "text": "我说话的方式经常被别人说太正式或太刻板。",
+      "type": "radio",
+      "orderNum": 18,
+      "options": [
+        {
+          "text": "完全同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "稍微同意",
+          "value": "1",
+          "optionNo": "B"
+        },
+        {
+          "text": "稍微不同意",
+          "value": "0",
+          "optionNo": "C"
+        },
+        {
+          "text": "完全不同意",
+          "value": "0",
+          "optionNo": "D"
+        }
+      ]
+    },
+    {
+      "text": "我喜欢做有固定规则的活动。",
+      "type": "radio",
+      "orderNum": 26,
+      "options": [
+        {
+          "text": "完全同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "稍微同意",
+          "value": "1",
+          "optionNo": "B"
+        },
+        {
+          "text": "稍微不同意",
+          "value": "0",
+          "optionNo": "C"
+        },
+        {
+          "text": "完全不同意",
+          "value": "0",
+          "optionNo": "D"
+        }
+      ]
+    },
+    {
+      "text": "在和别人交谈时，我很难判断对方是否感兴趣。",
+      "type": "radio",
+      "orderNum": 27,
+      "options": [
+        {
+          "text": "完全同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "稍微同意",
+          "value": "1",
+          "optionNo": "B"
+        },
+        {
+          "text": "稍微不同意",
+          "value": "0",
+          "optionNo": "C"
+        },
+        {
+          "text": "完全不同意",
+          "value": "0",
+          "optionNo": "D"
+        }
+      ]
+    },
+    {
+      "text": "我不太善于记住别人的生日。",
+      "type": "radio",
+      "orderNum": 31,
+      "options": [
+        {
+          "text": "完全同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "稍微同意",
+          "value": "1",
+          "optionNo": "B"
+        },
+        {
+          "text": "稍微不同意",
+          "value": "0",
+          "optionNo": "C"
+        },
+        {
+          "text": "完全不同意",
+          "value": "0",
+          "optionNo": "D"
+        }
+      ]
+    },
+    {
+      "text": "别人经常觉得我的言行让他们感到不舒服。",
+      "type": "radio",
+      "orderNum": 35,
+      "options": [
+        {
+          "text": "完全同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "稍微同意",
+          "value": "1",
+          "optionNo": "B"
+        },
+        {
+          "text": "稍微不同意",
+          "value": "0",
+          "optionNo": "C"
+        },
+        {
+          "text": "完全不同意",
+          "value": "0",
+          "optionNo": "D"
+        }
+      ]
+    },
+    {
+      "text": "当我在和别人交谈时，我很难同时注意对方的面部表情。",
+      "type": "radio",
+      "orderNum": 38,
+      "options": [
+        {
+          "text": "完全同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "稍微同意",
+          "value": "1",
+          "optionNo": "B"
+        },
+        {
+          "text": "稍微不同意",
+          "value": "0",
+          "optionNo": "C"
+        },
+        {
+          "text": "完全不同意",
+          "value": "0",
+          "optionNo": "D"
+        }
+      ]
+    },
+    {
+      "text": "我倾向于对别人的话进行非常字面的理解。",
+      "type": "radio",
+      "orderNum": 39,
+      "options": [
+        {
+          "text": "完全同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "稍微同意",
+          "value": "1",
+          "optionNo": "B"
+        },
+        {
+          "text": "稍微不同意",
+          "value": "0",
+          "optionNo": "C"
+        },
+        {
+          "text": "完全不同意",
+          "value": "0",
+          "optionNo": "D"
+        }
+      ]
+    },
+    {
+      "text": "当我阅读故事时，我很难想象故事中人物的样子。",
+      "type": "radio",
+      "orderNum": 8,
+      "options": [
+        {
+          "text": "完全同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "稍微同意",
+          "value": "1",
+          "optionNo": "B"
+        },
+        {
+          "text": "稍微不同意",
+          "value": "0",
+          "optionNo": "C"
+        },
+        {
+          "text": "完全不同意",
+          "value": "0",
+          "optionNo": "D"
+        }
+      ]
+    },
+    {
+      "text": "我喜欢阅读小说。",
+      "type": "radio",
+      "orderNum": 14,
+      "options": [
+        {
+          "text": "完全同意",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "稍微同意",
+          "value": "0",
+          "optionNo": "B"
+        },
+        {
+          "text": "稍微不同意",
+          "value": "1",
+          "optionNo": "C"
+        },
+        {
+          "text": "完全不同意",
+          "value": "1",
+          "optionNo": "D"
+        }
+      ]
+    },
+    {
+      "text": "当我读故事时，我很难理解人物之间的关系。",
+      "type": "radio",
+      "orderNum": 20,
+      "options": [
+        {
+          "text": "完全同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "稍微同意",
+          "value": "1",
+          "optionNo": "B"
+        },
+        {
+          "text": "稍微不同意",
+          "value": "0",
+          "optionNo": "C"
+        },
+        {
+          "text": "完全不同意",
+          "value": "0",
+          "optionNo": "D"
+        }
+      ]
+    },
+    {
+      "text": "我不太善于记住电话号码。",
+      "type": "radio",
+      "orderNum": 21,
+      "options": [
+        {
+          "text": "完全同意",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "稍微同意",
+          "value": "0",
+          "optionNo": "B"
+        },
+        {
+          "text": "稍微不同意",
+          "value": "1",
+          "optionNo": "C"
+        },
+        {
+          "text": "完全不同意",
+          "value": "1",
+          "optionNo": "D"
+        }
+      ]
+    },
+    {
+      "text": "我不太善于记住别人的长相。",
+      "type": "radio",
+      "orderNum": 24,
+      "options": [
+        {
+          "text": "完全同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "稍微同意",
+          "value": "1",
+          "optionNo": "B"
+        },
+        {
+          "text": "稍微不同意",
+          "value": "0",
+          "optionNo": "C"
+        },
+        {
+          "text": "完全不同意",
+          "value": "0",
+          "optionNo": "D"
+        }
+      ]
+    },
+    {
+      "text": "别人经常告诉我我说了不礼貌的话，但我自己并不觉得。",
+      "type": "radio",
+      "orderNum": 33,
+      "options": [
+        {
+          "text": "完全同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "稍微同意",
+          "value": "1",
+          "optionNo": "B"
+        },
+        {
+          "text": "稍微不同意",
+          "value": "0",
+          "optionNo": "C"
+        },
+        {
+          "text": "完全不同意",
+          "value": "0",
+          "optionNo": "D"
+        }
+      ]
+    },
+    {
+      "text": "小时候，我喜欢和其他小朋友一起玩假装游戏。",
+      "type": "radio",
+      "orderNum": 40,
+      "options": [
+        {
+          "text": "完全同意",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "稍微同意",
+          "value": "0",
+          "optionNo": "B"
+        },
+        {
+          "text": "稍微不同意",
+          "value": "1",
+          "optionNo": "C"
+        },
+        {
+          "text": "完全不同意",
+          "value": "1",
+          "optionNo": "D"
+        }
+      ]
+    },
+    {
+      "text": "我喜欢收集信息，按类别整理。",
+      "type": "radio",
+      "orderNum": 41,
+      "options": [
+        {
+          "text": "完全同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "稍微同意",
+          "value": "1",
+          "optionNo": "B"
+        },
+        {
+          "text": "稍微不同意",
+          "value": "0",
+          "optionNo": "C"
+        },
+        {
+          "text": "完全不同意",
+          "value": "0",
+          "optionNo": "D"
+        }
+      ]
+    },
+    {
+      "text": "我觉得想象自己成为别人会很困难。",
+      "type": "radio",
+      "orderNum": 42,
+      "options": [
+        {
+          "text": "完全同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "稍微同意",
+          "value": "1",
+          "optionNo": "B"
+        },
+        {
+          "text": "稍微不同意",
+          "value": "0",
+          "optionNo": "C"
+        },
+        {
+          "text": "完全不同意",
+          "value": "0",
+          "optionNo": "D"
+        }
+      ]
+    },
+    {
+      "text": "小时候，我喜欢玩假装游戏（如过家家）。",
+      "type": "radio",
+      "orderNum": 50,
+      "options": [
+        {
+          "text": "完全同意",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "稍微同意",
+          "value": "0",
+          "optionNo": "B"
+        },
+        {
+          "text": "稍微不同意",
+          "value": "1",
+          "optionNo": "C"
+        },
+        {
+          "text": "完全不同意",
+          "value": "1",
+          "optionNo": "D"
+        }
+      ]
+    }
+  ],
+  "dimensions": [
+    {
+      "dimensionName": "社交技能",
+      "dimensionCode": "social_skills",
+      "num": 1,
+      "evaluateExpression": "hx_t_1 + hx_t_11 + hx_t_13 + hx_t_15 + hx_t_22 + hx_t_36 + hx_t_44 + hx_t_45 + hx_t_47 + hx_t_48",
+      "standardScoreFormula": "",
+      "results": [
+        {
+          "evaluateExpression": "hx_wd_y_1 <= 2",
+          "conclusionAnalysis": "社交技能正常",
+          "suggestion": "您在社交互动方面表现自然，能够较好地理解和回应他人。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_1 > 2 && hx_wd_y_1 <= 4",
+          "conclusionAnalysis": "社交技能轻微困难",
+          "suggestion": "您在某些社交场合可能感到不太自在，但整体社交能力正常。建议多参与社交活动以增强信心。",
+          "assessmentWarning": "low"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_1 > 4 && hx_wd_y_1 <= 6",
+          "conclusionAnalysis": "社交技能存在困难",
+          "suggestion": "您在社交方面存在一些困难，可能需要更多努力来理解社交线索。建议通过社交技能训练来提升。",
+          "assessmentWarning": "middle"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_1 > 6",
+          "conclusionAnalysis": "社交技能显著困难",
+          "suggestion": "您在社交方面存在明显困难，这可能是自闭谱系特征的表现。建议寻求专业评估和支持。",
+          "assessmentWarning": "high"
+        }
+      ]
+    },
+    {
+      "dimensionName": "注意力转换",
+      "dimensionCode": "attention_switching",
+      "num": 2,
+      "evaluateExpression": "hx_t_2 + hx_t_4 + hx_t_10 + hx_t_16 + hx_t_25 + hx_t_32 + hx_t_34 + hx_t_37 + hx_t_43 + hx_t_46",
+      "standardScoreFormula": "",
+      "results": [
+        {
+          "evaluateExpression": "hx_wd_y_2 <= 2",
+          "conclusionAnalysis": "注意力转换正常",
+          "suggestion": "您能够灵活地转换注意力，适应变化的能力良好。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_2 > 2 && hx_wd_y_2 <= 4",
+          "conclusionAnalysis": "注意力转换轻微困难",
+          "suggestion": "您在面对变化时可能需要一些时间来调整，但整体适应能力正常。",
+          "assessmentWarning": "low"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_2 > 4 && hx_wd_y_2 <= 6",
+          "conclusionAnalysis": "注意力转换存在困难",
+          "suggestion": "您在转换注意力和适应变化方面存在一些困难，可能更喜欢固定的日常安排。建议尝试逐步引入小变化。",
+          "assessmentWarning": "middle"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_2 > 6",
+          "conclusionAnalysis": "注意力转换显著困难",
+          "suggestion": "您在注意力转换和适应变化方面存在明显困难。建议寻求专业评估，了解是否需要额外支持。",
+          "assessmentWarning": "high"
+        }
+      ]
+    },
+    {
+      "dimensionName": "细节注意力",
+      "dimensionCode": "attention_to_detail",
+      "num": 3,
+      "evaluateExpression": "hx_t_5 + hx_t_6 + hx_t_9 + hx_t_12 + hx_t_19 + hx_t_23 + hx_t_28 + hx_t_29 + hx_t_30 + hx_t_49",
+      "standardScoreFormula": "",
+      "results": [
+        {
+          "evaluateExpression": "hx_wd_y_3 <= 2",
+          "conclusionAnalysis": "细节注意力正常",
+          "suggestion": "您对细节的关注处于正常范围。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_3 > 2 && hx_wd_y_3 <= 4",
+          "conclusionAnalysis": "细节注意力稍高",
+          "suggestion": "您倾向于关注细节，这在某些工作中可能是优势。",
+          "assessmentWarning": "low"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_3 > 4 && hx_wd_y_3 <= 6",
+          "conclusionAnalysis": "细节注意力较高",
+          "suggestion": "您对细节有很强的关注能力，这可能是您的特长。建议将这一优势应用到适合的领域。",
+          "assessmentWarning": "middle"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_3 > 6",
+          "conclusionAnalysis": "细节注意力非常高",
+          "suggestion": "您对细节有极高的关注度，这是自闭谱系的一个常见特征。如果这不影响日常生活，可以视为个人优势。",
+          "assessmentWarning": "high"
+        }
+      ]
+    },
+    {
+      "dimensionName": "沟通能力",
+      "dimensionCode": "communication",
+      "num": 4,
+      "evaluateExpression": "hx_t_3 + hx_t_7 + hx_t_17 + hx_t_18 + hx_t_26 + hx_t_27 + hx_t_31 + hx_t_35 + hx_t_38 + hx_t_39",
+      "standardScoreFormula": "",
+      "results": [
+        {
+          "evaluateExpression": "hx_wd_y_4 <= 2",
+          "conclusionAnalysis": "沟通能力正常",
+          "suggestion": "您在语言沟通方面表现良好，能够理解言外之意和隐含信息。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_4 > 2 && hx_wd_y_4 <= 4",
+          "conclusionAnalysis": "沟通能力轻微困难",
+          "suggestion": "您在某些沟通场合可能需要注意，但整体沟通能力正常。",
+          "assessmentWarning": "low"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_4 > 4 && hx_wd_y_4 <= 6",
+          "conclusionAnalysis": "沟通能力存在困难",
+          "suggestion": "您在理解隐含信息和非字面意思方面存在一些困难。建议在重要沟通中多确认对方的意图。",
+          "assessmentWarning": "middle"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_4 > 6",
+          "conclusionAnalysis": "沟通能力显著困难",
+          "suggestion": "您在沟通方面存在明显困难，这可能是自闭谱系特征的表现。建议寻求专业评估和支持。",
+          "assessmentWarning": "high"
+        }
+      ]
+    },
+    {
+      "dimensionName": "想象力",
+      "dimensionCode": "imagination",
+      "num": 5,
+      "evaluateExpression": "hx_t_8 + hx_t_14 + hx_t_20 + hx_t_21 + hx_t_24 + hx_t_33 + hx_t_40 + hx_t_41 + hx_t_42 + hx_t_50",
+      "standardScoreFormula": "",
+      "results": [
+        {
+          "evaluateExpression": "hx_wd_y_5 <= 2",
+          "conclusionAnalysis": "想象力正常",
+          "suggestion": "您在想象力和创造力方面表现正常。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_5 > 2 && hx_wd_y_5 <= 4",
+          "conclusionAnalysis": "想象力轻微受限",
+          "suggestion": "您在某些需要想象力的任务上可能感到不太自在，但整体想象力正常。",
+          "assessmentWarning": "low"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_5 > 4 && hx_wd_y_5 <= 6",
+          "conclusionAnalysis": "想象力存在困难",
+          "suggestion": "您在想象力和假装游戏方面存在一些困难。建议通过阅读小说、参与创意活动来锻炼想象力。",
+          "assessmentWarning": "middle"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_5 > 6",
+          "conclusionAnalysis": "想象力显著困难",
+          "suggestion": "您在想象力方面存在明显困难，这可能是自闭谱系特征的表现。建议寻求专业评估。",
+          "assessmentWarning": "high"
+        }
+      ]
+    },
+    {
+      "dimensionName": "AQ总分",
+      "dimensionCode": "total",
+      "num": 6,
+      "evaluateExpression": "hx_t_1 + hx_t_2 + hx_t_3 + hx_t_4 + hx_t_5 + hx_t_6 + hx_t_7 + hx_t_8 + hx_t_9 + hx_t_10 + hx_t_11 + hx_t_12 + hx_t_13 + hx_t_14 + hx_t_15 + hx_t_16 + hx_t_17 + hx_t_18 + hx_t_19 + hx_t_20 + hx_t_21 + hx_t_22 + hx_t_23 + hx_t_24 + hx_t_25 + hx_t_26 + hx_t_27 + hx_t_28 + hx_t_29 + hx_t_30 + hx_t_31 + hx_t_32 + hx_t_33 + hx_t_34 + hx_t_35 + hx_t_36 + hx_t_37 + hx_t_38 + hx_t_39 + hx_t_40 + hx_t_41 + hx_t_42 + hx_t_43 + hx_t_44 + hx_t_45 + hx_t_46 + hx_t_47 + hx_t_48 + hx_t_49 + hx_t_50",
+      "standardScoreFormula": "",
+      "results": [
+        {
+          "evaluateExpression": "hx_wd_y_6 < 26",
+          "conclusionAnalysis": "不太可能有自闭谱系特征",
+          "suggestion": "您的AQ得分较低，不太可能有自闭谱系障碍（ASD）。您在社交、沟通和想象力等方面的表现处于正常范围。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_6 >= 26 && hx_wd_y_6 < 32",
+          "conclusionAnalysis": "可能有自闭谱系特征",
+          "suggestion": "您的AQ得分处于中间范围，可能存在一些自闭谱系特征。如果这些特征影响了您的日常生活，建议寻求专业评估以了解更多。",
+          "assessmentWarning": "low"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_6 >= 32",
+          "conclusionAnalysis": "提示可能存在自闭谱系特征",
+          "suggestion": "您的AQ得分较高，提示可能存在自闭谱系特征。这并不意味着确诊，但建议寻求专业的心理评估，以获得更全面的了解和支持。",
+          "assessmentWarning": "high"
+        }
+      ]
+    }
+  ]
+}

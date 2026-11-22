@@ -1,0 +1,635 @@
+{
+  "id": "dissociation",
+  "title": "解离体验量表(Dissociation)",
+  "description": "本问卷帮助了解您是否存在解离体验，如感觉不真实、记忆空白或过度沉浸。共17题，大约需要4分钟完成。",
+  "type": "basic",
+  "questions": [
+    {
+      "text": "有时候我感觉自己的身体好像不是自己的",
+      "type": "radio",
+      "orderNum": 1,
+      "options": [
+        {
+          "text": "非常不准确",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较不准确",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较准确",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常准确",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "我有时会感觉自己像在做梦一样",
+      "type": "radio",
+      "orderNum": 2,
+      "options": [
+        {
+          "text": "非常不准确",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较不准确",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较准确",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常准确",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "我有时会觉得自己在从远处观察自己",
+      "type": "radio",
+      "orderNum": 3,
+      "options": [
+        {
+          "text": "非常不准确",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较不准确",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较准确",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常准确",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "有时候我感觉自己和周围的世界之间有一层隔膜",
+      "type": "radio",
+      "orderNum": 4,
+      "options": [
+        {
+          "text": "非常不准确",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较不准确",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较准确",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常准确",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "我有时会经历一种不真实的感觉",
+      "type": "radio",
+      "orderNum": 5,
+      "options": [
+        {
+          "text": "非常不准确",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较不准确",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较准确",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常准确",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "有时候我感觉自己像是一个旁观者在看自己的生活",
+      "type": "radio",
+      "orderNum": 6,
+      "options": [
+        {
+          "text": "非常不准确",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较不准确",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较准确",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常准确",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "我会完全沉浸在白日梦中以至于忘记周围的一切",
+      "type": "radio",
+      "orderNum": 7,
+      "options": [
+        {
+          "text": "非常不准确",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较不准确",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较准确",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常准确",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "我经常陷入自己的想象中",
+      "type": "radio",
+      "orderNum": 8,
+      "options": [
+        {
+          "text": "非常不准确",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较不准确",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较准确",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常准确",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "我会沉浸在电影或书中以至于完全意识不到周围发生的事",
+      "type": "radio",
+      "orderNum": 9,
+      "options": [
+        {
+          "text": "非常不准确",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较不准确",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较准确",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常准确",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "听音乐时我会完全忘记自己的存在",
+      "type": "radio",
+      "orderNum": 10,
+      "options": [
+        {
+          "text": "非常不准确",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较不准确",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较准确",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常准确",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "有时我会完全沉浸在自己的思绪中",
+      "type": "radio",
+      "orderNum": 11,
+      "options": [
+        {
+          "text": "非常不准确",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较不准确",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较准确",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常准确",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "我会被自己的幻想深深吸引",
+      "type": "radio",
+      "orderNum": 12,
+      "options": [
+        {
+          "text": "非常不准确",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较不准确",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较准确",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常准确",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "我有时会忘记自己刚才说了什么",
+      "type": "radio",
+      "orderNum": 13,
+      "options": [
+        {
+          "text": "非常不准确",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较不准确",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较准确",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常准确",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "我有时想不起自己是否做过某件事",
+      "type": "radio",
+      "orderNum": 14,
+      "options": [
+        {
+          "text": "非常不准确",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较不准确",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较准确",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常准确",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "我有时会忘记最近发生的事的细节",
+      "type": "radio",
+      "orderNum": 15,
+      "options": [
+        {
+          "text": "非常不准确",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较不准确",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较准确",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常准确",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "我会忘记自己是否告诉过别人某件事",
+      "type": "radio",
+      "orderNum": 16,
+      "options": [
+        {
+          "text": "非常不准确",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较不准确",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较准确",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常准确",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "我有时会忘记自己把东西放在哪里了",
+      "type": "radio",
+      "orderNum": 17,
+      "options": [
+        {
+          "text": "非常不准确",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较不准确",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较准确",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常准确",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    }
+  ],
+  "dimensions": [
+    {
+      "dimensionName": "去人格化",
+      "dimensionCode": "depersonalization",
+      "num": 1,
+      "evaluateExpression": "(hx_t_1 + hx_t_2 + hx_t_3 + hx_t_4 + hx_t_5 + hx_t_6) / 6",
+      "standardScoreFormula": "",
+      "results": [
+        {
+          "evaluateExpression": "hx_wd_y_1 <= 2.0",
+          "conclusionAnalysis": "低",
+          "suggestion": "您很少有不真实的自我体验。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_1 > 2.0 && hx_wd_y_1 <= 3.5",
+          "conclusionAnalysis": "中",
+          "suggestion": "您偶尔会有轻微的不真实感。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_1 > 3.5",
+          "conclusionAnalysis": "高",
+          "suggestion": "您经常体验到不真实感或与自身分离的感觉。",
+          "assessmentWarning": "none"
+        }
+      ]
+    },
+    {
+      "dimensionName": "吸收",
+      "dimensionCode": "absorption",
+      "num": 2,
+      "evaluateExpression": "(hx_t_7 + hx_t_8 + hx_t_9 + hx_t_10 + hx_t_11 + hx_t_12) / 6",
+      "standardScoreFormula": "",
+      "results": [
+        {
+          "evaluateExpression": "hx_wd_y_2 <= 2.0",
+          "conclusionAnalysis": "低",
+          "suggestion": "您较少沉浸在想象或幻想中。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_2 > 2.0 && hx_wd_y_2 <= 3.5",
+          "conclusionAnalysis": "中",
+          "suggestion": "您的想象力和沉浸程度适中。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_2 > 3.5",
+          "conclusionAnalysis": "高",
+          "suggestion": "您容易完全沉浸在想象、幻想或体验中。",
+          "assessmentWarning": "none"
+        }
+      ]
+    },
+    {
+      "dimensionName": "遗忘",
+      "dimensionCode": "amnesia",
+      "num": 3,
+      "evaluateExpression": "(hx_t_13 + hx_t_14 + hx_t_15 + hx_t_16 + hx_t_17) / 5",
+      "standardScoreFormula": "",
+      "results": [
+        {
+          "evaluateExpression": "hx_wd_y_3 <= 2.0",
+          "conclusionAnalysis": "低",
+          "suggestion": "您的日常记忆力正常。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_3 > 2.0 && hx_wd_y_3 <= 3.5",
+          "conclusionAnalysis": "中",
+          "suggestion": "您偶尔会出现记忆空白。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_3 > 3.5",
+          "conclusionAnalysis": "高",
+          "suggestion": "您经常出现记忆空白或遗忘近期事件的情况。",
+          "assessmentWarning": "none"
+        }
+      ]
+    }
+  ]
+}

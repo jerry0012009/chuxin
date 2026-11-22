@@ -1,0 +1,880 @@
+{
+  "id": "spsrq-sensitivity",
+  "title": "强化敏感性量表(SPSRQ)",
+  "description": "本问卷帮助了解您对奖赏和惩罚的敏感程度，反映行为动机系统的特征。共48题，大约需要8分钟完成。",
+  "type": "basic",
+  "questions": [
+    {
+      "text": "你是否会因为害怕被拒绝而避免向别人提出请求？",
+      "type": "radio",
+      "orderNum": 1,
+      "options": [
+        {
+          "text": "否",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "是",
+          "value": "1",
+          "optionNo": "B"
+        }
+      ]
+    },
+    {
+      "text": "你是否会因为害怕犯错而在做决定时犹豫不决？",
+      "type": "radio",
+      "orderNum": 2,
+      "options": [
+        {
+          "text": "否",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "是",
+          "value": "1",
+          "optionNo": "B"
+        }
+      ]
+    },
+    {
+      "text": "你是否经常被身边有魅力的人所吸引？",
+      "type": "radio",
+      "orderNum": 3,
+      "options": [
+        {
+          "text": "否",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "是",
+          "value": "1",
+          "optionNo": "B"
+        }
+      ]
+    },
+    {
+      "text": "当你受到批评时，你是否会难过很长时间？",
+      "type": "radio",
+      "orderNum": 4,
+      "options": [
+        {
+          "text": "否",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "是",
+          "value": "1",
+          "optionNo": "B"
+        }
+      ]
+    },
+    {
+      "text": "你是否会因为想到可能获得的奖励而感到兴奋？",
+      "type": "radio",
+      "orderNum": 5,
+      "options": [
+        {
+          "text": "否",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "是",
+          "value": "1",
+          "optionNo": "B"
+        }
+      ]
+    },
+    {
+      "text": "你是否经常担心自己会让别人失望？",
+      "type": "radio",
+      "orderNum": 6,
+      "options": [
+        {
+          "text": "否",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "是",
+          "value": "1",
+          "optionNo": "B"
+        }
+      ]
+    },
+    {
+      "text": "你是否会为了得到自己想要的东西而努力争取？",
+      "type": "radio",
+      "orderNum": 7,
+      "options": [
+        {
+          "text": "否",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "是",
+          "value": "1",
+          "optionNo": "B"
+        }
+      ]
+    },
+    {
+      "text": "你是否经常因为害怕冲突而避免表达自己的真实想法？",
+      "type": "radio",
+      "orderNum": 8,
+      "options": [
+        {
+          "text": "否",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "是",
+          "value": "1",
+          "optionNo": "B"
+        }
+      ]
+    },
+    {
+      "text": "你是否很容易被新的有趣的活动所吸引？",
+      "type": "radio",
+      "orderNum": 9,
+      "options": [
+        {
+          "text": "否",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "是",
+          "value": "1",
+          "optionNo": "B"
+        }
+      ]
+    },
+    {
+      "text": "当面临有风险的情况时，你是否会感到非常焦虑？",
+      "type": "radio",
+      "orderNum": 10,
+      "options": [
+        {
+          "text": "否",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "是",
+          "value": "1",
+          "optionNo": "B"
+        }
+      ]
+    },
+    {
+      "text": "你是否会因为害怕受到惩罚而遵守所有的规则？",
+      "type": "radio",
+      "orderNum": 11,
+      "options": [
+        {
+          "text": "否",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "是",
+          "value": "1",
+          "optionNo": "B"
+        }
+      ]
+    },
+    {
+      "text": "当有机会赢钱时，你是否会感到非常激动？",
+      "type": "radio",
+      "orderNum": 12,
+      "options": [
+        {
+          "text": "否",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "是",
+          "value": "1",
+          "optionNo": "B"
+        }
+      ]
+    },
+    {
+      "text": "你是否会因为害怕别人的负面评价而感到不安？",
+      "type": "radio",
+      "orderNum": 13,
+      "options": [
+        {
+          "text": "否",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "是",
+          "value": "1",
+          "optionNo": "B"
+        }
+      ]
+    },
+    {
+      "text": "你是否经常为自己设定新的目标和挑战？",
+      "type": "radio",
+      "orderNum": 14,
+      "options": [
+        {
+          "text": "否",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "是",
+          "value": "1",
+          "optionNo": "B"
+        }
+      ]
+    },
+    {
+      "text": "你是否会因为害怕出错而在公开场合保持沉默？",
+      "type": "radio",
+      "orderNum": 15,
+      "options": [
+        {
+          "text": "否",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "是",
+          "value": "1",
+          "optionNo": "B"
+        }
+      ]
+    },
+    {
+      "text": "当你感到有压力时，你是否会变得非常谨慎？",
+      "type": "radio",
+      "orderNum": 16,
+      "options": [
+        {
+          "text": "否",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "是",
+          "value": "1",
+          "optionNo": "B"
+        }
+      ]
+    },
+    {
+      "text": "你是否会因为想到即将得到的奖励而难以入睡？",
+      "type": "radio",
+      "orderNum": 17,
+      "options": [
+        {
+          "text": "否",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "是",
+          "value": "1",
+          "optionNo": "B"
+        }
+      ]
+    },
+    {
+      "text": "你是否会因为担心未来的困难而感到焦虑？",
+      "type": "radio",
+      "orderNum": 18,
+      "options": [
+        {
+          "text": "否",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "是",
+          "value": "1",
+          "optionNo": "B"
+        }
+      ]
+    },
+    {
+      "text": "当你做错了事时，你是否会感到强烈的内疚感？",
+      "type": "radio",
+      "orderNum": 19,
+      "options": [
+        {
+          "text": "否",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "是",
+          "value": "1",
+          "optionNo": "B"
+        }
+      ]
+    },
+    {
+      "text": "你是否经常寻找新的刺激和体验？",
+      "type": "radio",
+      "orderNum": 20,
+      "options": [
+        {
+          "text": "否",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "是",
+          "value": "1",
+          "optionNo": "B"
+        }
+      ]
+    },
+    {
+      "text": "你是否会因为害怕被嘲笑而不敢表达自己的想法？",
+      "type": "radio",
+      "orderNum": 21,
+      "options": [
+        {
+          "text": "否",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "是",
+          "value": "1",
+          "optionNo": "B"
+        }
+      ]
+    },
+    {
+      "text": "当你看到别人拥有你想要的东西时，你是否会感到强烈的渴望？",
+      "type": "radio",
+      "orderNum": 22,
+      "options": [
+        {
+          "text": "否",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "是",
+          "value": "1",
+          "optionNo": "B"
+        }
+      ]
+    },
+    {
+      "text": "你是否会因为害怕令人不愉快的后果而避免冒险？",
+      "type": "radio",
+      "orderNum": 23,
+      "options": [
+        {
+          "text": "否",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "是",
+          "value": "1",
+          "optionNo": "B"
+        }
+      ]
+    },
+    {
+      "text": "你是否会因为对奖励的渴望而改变自己的行为？",
+      "type": "radio",
+      "orderNum": 24,
+      "options": [
+        {
+          "text": "否",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "是",
+          "value": "1",
+          "optionNo": "B"
+        }
+      ]
+    },
+    {
+      "text": "当你有机会参加有趣的活动时，你是否会立刻答应？",
+      "type": "radio",
+      "orderNum": 25,
+      "options": [
+        {
+          "text": "否",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "是",
+          "value": "1",
+          "optionNo": "B"
+        }
+      ]
+    },
+    {
+      "text": "你是否经常因为担心自己的安全而避免某些活动？",
+      "type": "radio",
+      "orderNum": 26,
+      "options": [
+        {
+          "text": "否",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "是",
+          "value": "1",
+          "optionNo": "B"
+        }
+      ]
+    },
+    {
+      "text": "你是否会为了获得赞许和认可而改变自己的行为？",
+      "type": "radio",
+      "orderNum": 27,
+      "options": [
+        {
+          "text": "否",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "是",
+          "value": "1",
+          "optionNo": "B"
+        }
+      ]
+    },
+    {
+      "text": "当你面临可能失败的情境时，你是否会感到极度不安？",
+      "type": "radio",
+      "orderNum": 28,
+      "options": [
+        {
+          "text": "否",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "是",
+          "value": "1",
+          "optionNo": "B"
+        }
+      ]
+    },
+    {
+      "text": "你是否会因为追求快乐而不顾可能的风险？",
+      "type": "radio",
+      "orderNum": 29,
+      "options": [
+        {
+          "text": "否",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "是",
+          "value": "1",
+          "optionNo": "B"
+        }
+      ]
+    },
+    {
+      "text": "你是否会因为害怕承担后果而在行动前反复思考？",
+      "type": "radio",
+      "orderNum": 30,
+      "options": [
+        {
+          "text": "否",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "是",
+          "value": "1",
+          "optionNo": "B"
+        }
+      ]
+    },
+    {
+      "text": "当别人邀请你参加聚会或社交活动时，你通常是否会欣然接受？",
+      "type": "radio",
+      "orderNum": 31,
+      "options": [
+        {
+          "text": "否",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "是",
+          "value": "1",
+          "optionNo": "B"
+        }
+      ]
+    },
+    {
+      "text": "你是否会因为害怕被拒绝而不敢主动接近别人？",
+      "type": "radio",
+      "orderNum": 32,
+      "options": [
+        {
+          "text": "否",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "是",
+          "value": "1",
+          "optionNo": "B"
+        }
+      ]
+    },
+    {
+      "text": "你是否经常被新的机会和可能性所吸引？",
+      "type": "radio",
+      "orderNum": 33,
+      "options": [
+        {
+          "text": "否",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "是",
+          "value": "1",
+          "optionNo": "B"
+        }
+      ]
+    },
+    {
+      "text": "当你需要在众人面前发言时，你是否会感到紧张和不安？",
+      "type": "radio",
+      "orderNum": 34,
+      "options": [
+        {
+          "text": "否",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "是",
+          "value": "1",
+          "optionNo": "B"
+        }
+      ]
+    },
+    {
+      "text": "你是否会因为对物质奖励的渴望而努力工作？",
+      "type": "radio",
+      "orderNum": 35,
+      "options": [
+        {
+          "text": "否",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "是",
+          "value": "1",
+          "optionNo": "B"
+        }
+      ]
+    },
+    {
+      "text": "你是否会因为害怕负面结果而放弃已经计划好的事情？",
+      "type": "radio",
+      "orderNum": 36,
+      "options": [
+        {
+          "text": "否",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "是",
+          "value": "1",
+          "optionNo": "B"
+        }
+      ]
+    },
+    {
+      "text": "当你取得成就时，你是否会感到非常自豪和满足？",
+      "type": "radio",
+      "orderNum": 37,
+      "options": [
+        {
+          "text": "否",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "是",
+          "value": "1",
+          "optionNo": "B"
+        }
+      ]
+    },
+    {
+      "text": "你是否会因为担心犯错而在工作中变得犹豫不决？",
+      "type": "radio",
+      "orderNum": 38,
+      "options": [
+        {
+          "text": "否",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "是",
+          "value": "1",
+          "optionNo": "B"
+        }
+      ]
+    },
+    {
+      "text": "你是否会因为渴望体验新事物而去旅行或尝试新活动？",
+      "type": "radio",
+      "orderNum": 39,
+      "options": [
+        {
+          "text": "否",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "是",
+          "value": "1",
+          "optionNo": "B"
+        }
+      ]
+    },
+    {
+      "text": "你是否会因为害怕意外事件而经常做最坏的打算？",
+      "type": "radio",
+      "orderNum": 40,
+      "options": [
+        {
+          "text": "否",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "是",
+          "value": "1",
+          "optionNo": "B"
+        }
+      ]
+    },
+    {
+      "text": "当你看到诱人的广告时，你是否会产生强烈的购买欲望？",
+      "type": "radio",
+      "orderNum": 41,
+      "options": [
+        {
+          "text": "否",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "是",
+          "value": "1",
+          "optionNo": "B"
+        }
+      ]
+    },
+    {
+      "text": "你是否会因为追求浪漫关系而主动出击？",
+      "type": "radio",
+      "orderNum": 42,
+      "options": [
+        {
+          "text": "否",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "是",
+          "value": "1",
+          "optionNo": "B"
+        }
+      ]
+    },
+    {
+      "text": "当有人对你表示好感时，你是否会感到特别开心？",
+      "type": "radio",
+      "orderNum": 43,
+      "options": [
+        {
+          "text": "否",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "是",
+          "value": "1",
+          "optionNo": "B"
+        }
+      ]
+    },
+    {
+      "text": "你是否会因为害怕失去而不敢拥有或投入？",
+      "type": "radio",
+      "orderNum": 44,
+      "options": [
+        {
+          "text": "否",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "是",
+          "value": "1",
+          "optionNo": "B"
+        }
+      ]
+    },
+    {
+      "text": "你是否经常被竞争和获胜的机会所激励？",
+      "type": "radio",
+      "orderNum": 45,
+      "options": [
+        {
+          "text": "否",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "是",
+          "value": "1",
+          "optionNo": "B"
+        }
+      ]
+    },
+    {
+      "text": "当你想到可能会收到礼物或惊喜时，你是否会感到兴奋？",
+      "type": "radio",
+      "orderNum": 46,
+      "options": [
+        {
+          "text": "否",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "是",
+          "value": "1",
+          "optionNo": "B"
+        }
+      ]
+    },
+    {
+      "text": "你是否会因为对未来的美好期待而感到快乐？",
+      "type": "radio",
+      "orderNum": 47,
+      "options": [
+        {
+          "text": "否",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "是",
+          "value": "1",
+          "optionNo": "B"
+        }
+      ]
+    },
+    {
+      "text": "当你发现一个有趣的新爱好时，你是否会投入大量时间和精力？",
+      "type": "radio",
+      "orderNum": 48,
+      "options": [
+        {
+          "text": "否",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "是",
+          "value": "1",
+          "optionNo": "B"
+        }
+      ]
+    }
+  ],
+  "dimensions": [
+    {
+      "dimensionName": "惩罚敏感性",
+      "dimensionCode": "sp",
+      "num": 1,
+      "evaluateExpression": "hx_t_1 + hx_t_2 + hx_t_4 + hx_t_6 + hx_t_8 + hx_t_10 + hx_t_11 + hx_t_13 + hx_t_15 + hx_t_16 + hx_t_18 + hx_t_19 + hx_t_21 + hx_t_23 + hx_t_26 + hx_t_28 + hx_t_30 + hx_t_32 + hx_t_34 + hx_t_36 + hx_t_38 + hx_t_40 + hx_t_44",
+      "standardScoreFormula": "",
+      "results": [
+        {
+          "evaluateExpression": "hx_wd_y_1 <= 8",
+          "conclusionAnalysis": "低惩罚敏感性",
+          "suggestion": "您对惩罚和威胁的敏感程度较低，面对可能的负面后果时不太容易感到焦虑或恐惧。这表明您具有较好的情绪稳定性和抗压能力。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_1 > 8 && hx_wd_y_1 <= 15",
+          "conclusionAnalysis": "中等惩罚敏感性",
+          "suggestion": "您对惩罚和威胁的敏感程度处于中等水平，在面对潜在的负面后果时会有一定的焦虑反应。这是正常范围内的反应模式。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_1 > 15 && hx_wd_y_1 <= 24",
+          "conclusionAnalysis": "高惩罚敏感性",
+          "suggestion": "您对惩罚和威胁的敏感程度较高，面对可能的负面后果时容易感到焦虑、恐惧和不安。建议学习焦虑管理技巧，如正念冥想、认知重评等方法来调节情绪反应。",
+          "assessmentWarning": "low"
+        }
+      ]
+    },
+    {
+      "dimensionName": "奖励敏感性",
+      "dimensionCode": "sr",
+      "num": 2,
+      "evaluateExpression": "hx_t_3 + hx_t_5 + hx_t_7 + hx_t_9 + hx_t_12 + hx_t_14 + hx_t_17 + hx_t_20 + hx_t_22 + hx_t_24 + hx_t_25 + hx_t_27 + hx_t_29 + hx_t_31 + hx_t_33 + hx_t_35 + hx_t_37 + hx_t_39 + hx_t_41 + hx_t_42 + hx_t_43 + hx_t_45 + hx_t_46 + hx_t_47 + hx_t_48",
+      "standardScoreFormula": "",
+      "results": [
+        {
+          "evaluateExpression": "hx_wd_y_2 <= 8",
+          "conclusionAnalysis": "低奖励敏感性",
+          "suggestion": "您对奖励和正向反馈的敏感程度较低，对外在激励的反应不太强烈。您的行为更多由内在动机驱动。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_2 > 8 && hx_wd_y_2 <= 15",
+          "conclusionAnalysis": "中等奖励敏感性",
+          "suggestion": "您对奖励和正向反馈的敏感程度处于中等水平，能够在追求目标时受到适度的外在激励驱动。这是正常范围内的动机模式。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_2 > 15 && hx_wd_y_2 <= 24",
+          "conclusionAnalysis": "高奖励敏感性",
+          "suggestion": "您对奖励和正向反馈的敏感程度较高，对可能获得的回报和认可有强烈的追求动机。建议在追求奖励的同时保持理性的判断，避免因过度追求即时满足而忽视长远利益。",
+          "assessmentWarning": "low"
+        }
+      ]
+    }
+  ]
+}

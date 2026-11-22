@@ -1,0 +1,363 @@
+{
+  "id": "hsns-narcissism",
+  "title": "高敏感性自恋量表(HSNS)",
+  "description": "Hypersensitive Narcissism Scale (HSNS)，Hendin & Cheek (1997)编制，测量高敏感性自恋特质。共10题，5点计分，总分10-50。美国大学生常模均值29.4。",
+  "type": "basic",
+  "questions": [
+    {
+      "text": "我很容易对他人感到失望，因为别人总是达不到我的标准。",
+      "type": "radio",
+      "orderNum": 1,
+      "options": [
+        {
+          "text": "非常不符合",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "不太符合",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较符合",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常符合",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "我常常觉得自己在与他人比较时更有能力。",
+      "type": "radio",
+      "orderNum": 2,
+      "options": [
+        {
+          "text": "非常不符合",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "不太符合",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较符合",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常符合",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "当别人没有给予我应有的重视时，我会感到非常不满。",
+      "type": "radio",
+      "orderNum": 3,
+      "options": [
+        {
+          "text": "非常不符合",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "不太符合",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较符合",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常符合",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "我觉得自己应该得到特殊的待遇。",
+      "type": "radio",
+      "orderNum": 4,
+      "options": [
+        {
+          "text": "非常不符合",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "不太符合",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较符合",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常符合",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "我发现自己很难接受他人的批评。",
+      "type": "radio",
+      "orderNum": 5,
+      "options": [
+        {
+          "text": "非常不符合",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "不太符合",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较符合",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常符合",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "我经常感到自己比周围的人更优秀。",
+      "type": "radio",
+      "orderNum": 6,
+      "options": [
+        {
+          "text": "非常不符合",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "不太符合",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较符合",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常符合",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "当我走进一个房间时，我感觉自己应该成为关注的焦点。",
+      "type": "radio",
+      "orderNum": 7,
+      "options": [
+        {
+          "text": "非常不符合",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "不太符合",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较符合",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常符合",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "我有时会幻想自己拥有巨大的成就、影响力或权力。",
+      "type": "radio",
+      "orderNum": 8,
+      "options": [
+        {
+          "text": "非常不符合",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "不太符合",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较符合",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常符合",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "我觉得自己有很多未被赏识的才能。",
+      "type": "radio",
+      "orderNum": 9,
+      "options": [
+        {
+          "text": "非常不符合",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "不太符合",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较符合",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常符合",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "我对他人的需求和感受不太关心。",
+      "type": "radio",
+      "orderNum": 10,
+      "options": [
+        {
+          "text": "非常不符合",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "不太符合",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较符合",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常符合",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    }
+  ],
+  "dimensions": [
+    {
+      "dimensionName": "高敏感性自恋",
+      "dimensionCode": "hsns",
+      "num": 1,
+      "evaluateExpression": "hx_t_1 + hx_t_2 + hx_t_3 + hx_t_4 + hx_t_5 + hx_t_6 + hx_t_7 + hx_t_8 + hx_t_9 + hx_t_10",
+      "standardScoreFormula": "",
+      "results": [
+        {
+          "evaluateExpression": "hx_wd_y_1 <= 20",
+          "conclusionAnalysis": "高敏感性自恋水平较低",
+          "suggestion": "您的自恋特质较低，自我认知较为务实和平衡。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_1 > 20 && hx_wd_y_1 <= 29",
+          "conclusionAnalysis": "高敏感性自恋水平中等",
+          "suggestion": "您的自恋特质处于正常范围（常模均值29.4）。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_1 > 29 && hx_wd_y_1 <= 38",
+          "conclusionAnalysis": "高敏感性自恋水平偏高",
+          "suggestion": "您在自我重要性和对他人的敏感方面得分偏高，建议关注共情能力和自我觉察。",
+          "assessmentWarning": "low"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_1 > 38",
+          "conclusionAnalysis": "高敏感性自恋水平异常偏高",
+          "suggestion": "您的得分显著高于常模均值（29.4），建议进行专业心理评估。",
+          "assessmentWarning": "middle"
+        }
+      ]
+    }
+  ]
+}

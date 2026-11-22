@@ -1,0 +1,26 @@
+[Unit]
+Description=Chuxin Spring Boot Backend
+After=docker.service
+Requires=docker.service
+
+[Service]
+User=chuxin
+Group=chuxin
+WorkingDirectory=/var/lib/chuxin
+Environment=SERVER_FORWARD_HEADERS_STRATEGY=framework
+Environment=APP_CORS_ORIGINS_0=https://eu.jerrypsy.top
+Environment=APP_CORS_ORIGINS_1=https://chuxin.31-220-80-196.sslip.io
+Environment=APP_OPTIONAL_ENDPOINTS_ENABLED=false
+EnvironmentFile=/etc/chuxin/backend.env
+ExecStart=/usr/bin/java -Xms128m -Xmx640m -jar /opt/chuxin/current/backend.jar
+Restart=on-failure
+RestartSec=8
+NoNewPrivileges=yes
+PrivateTmp=yes
+ProtectSystem=strict
+ProtectHome=yes
+ReadWritePaths=/var/lib/chuxin
+UMask=0077
+
+[Install]
+WantedBy=multi-user.target

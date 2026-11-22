@@ -1,0 +1,3038 @@
+{
+  "id": 124,
+  "title": "危机干预量表",
+  "type": "basic",
+  "questions": [
+    {
+      "id": 2761,
+      "text": "请从以下选项中选出一条(最近两周)最适合你情况的选项",
+      "type": "radio",
+      "orderNum": 1,
+      "options": [
+        {
+          "id": 11056,
+          "optionNo": "A",
+          "text": "我不感到悲伤",
+          "value": "0"
+        },
+        {
+          "id": 11057,
+          "optionNo": "B",
+          "text": "我感到悲伤",
+          "value": "1"
+        },
+        {
+          "id": 11058,
+          "optionNo": "C",
+          "text": "我始终悲伤，不能自制",
+          "value": "2"
+        },
+        {
+          "id": 11059,
+          "optionNo": "D",
+          "text": "我太悲伤或不愉快，不堪忍受",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "id": 2762,
+      "text": "请从以下选项中选出一条(最近两周)最适合你情况的选项",
+      "type": "radio",
+      "orderNum": 2,
+      "options": [
+        {
+          "id": 11060,
+          "optionNo": "A",
+          "text": "我对将来并不失望",
+          "value": "0"
+        },
+        {
+          "id": 11061,
+          "optionNo": "B",
+          "text": "对未来我感到心灰意冷",
+          "value": "1"
+        },
+        {
+          "id": 11062,
+          "optionNo": "C",
+          "text": "我感到前景黯淡",
+          "value": "2"
+        },
+        {
+          "id": 11063,
+          "optionNo": "D",
+          "text": "我觉得将来毫无希望，无法改善",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "id": 2763,
+      "text": "请从以下选项中选出一条(最近两周)最适合你情况的选项",
+      "type": "radio",
+      "orderNum": 3,
+      "options": [
+        {
+          "id": 11064,
+          "optionNo": "A",
+          "text": "我没有感到失败",
+          "value": "0"
+        },
+        {
+          "id": 11065,
+          "optionNo": "B",
+          "text": "我觉得比一般人失败要多一些",
+          "value": "1"
+        },
+        {
+          "id": 11066,
+          "optionNo": "C",
+          "text": "回首往事，我能看到的是很多次失败",
+          "value": "2"
+        },
+        {
+          "id": 11067,
+          "optionNo": "D",
+          "text": "我觉得我是一个完全失败的人",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "id": 2764,
+      "text": "请从以下选项中选出一条(最近两周)最适合你情况的选项",
+      "type": "radio",
+      "orderNum": 4,
+      "options": [
+        {
+          "id": 11068,
+          "optionNo": "A",
+          "text": "我和以前一样，从各种事件中得到满足",
+          "value": "0"
+        },
+        {
+          "id": 11069,
+          "optionNo": "B",
+          "text": "我不像往常一样从各种事件中得到满足",
+          "value": "1"
+        },
+        {
+          "id": 11070,
+          "optionNo": "C",
+          "text": "我不再能从各种事件中得到真正的满足",
+          "value": "2"
+        },
+        {
+          "id": 11071,
+          "optionNo": "D",
+          "text": "我对一切事情都不满意或感到枯燥无味",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "id": 2765,
+      "text": "请从以下选项中选出一条(最近两周)最适合你情况的选项",
+      "type": "radio",
+      "orderNum": 5,
+      "options": [
+        {
+          "id": 11072,
+          "optionNo": "A",
+          "text": "我不感到罪过",
+          "value": "0"
+        },
+        {
+          "id": 11073,
+          "optionNo": "B",
+          "text": "我在相当部分的时间里感到罪过",
+          "value": "1"
+        },
+        {
+          "id": 11074,
+          "optionNo": "C",
+          "text": "我在大部分时间里觉得有罪",
+          "value": "2"
+        },
+        {
+          "id": 11075,
+          "optionNo": "D",
+          "text": "我在任何时候都觉得有罪",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "id": 2766,
+      "text": "请从以下选项中选出一条(最近两周)最适合你情况的选项",
+      "type": "radio",
+      "orderNum": 6,
+      "options": [
+        {
+          "id": 11076,
+          "optionNo": "A",
+          "text": "我没有觉得受到惩罚",
+          "value": "0"
+        },
+        {
+          "id": 11077,
+          "optionNo": "B",
+          "text": "我觉得可能受到惩罚",
+          "value": "1"
+        },
+        {
+          "id": 11078,
+          "optionNo": "C",
+          "text": "我预料将受到惩罚",
+          "value": "2"
+        },
+        {
+          "id": 11079,
+          "optionNo": "D",
+          "text": "我觉得正受到惩罚",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "id": 2767,
+      "text": "请从以下选项中选出一条(最近两周)最适合你情况的选项",
+      "type": "radio",
+      "orderNum": 7,
+      "options": [
+        {
+          "id": 11080,
+          "optionNo": "A",
+          "text": "我对自己并不失望",
+          "value": "0"
+        },
+        {
+          "id": 11081,
+          "optionNo": "B",
+          "text": "我对自己感到失望",
+          "value": "1"
+        },
+        {
+          "id": 11082,
+          "optionNo": "C",
+          "text": "我对自己感到讨厌",
+          "value": "2"
+        },
+        {
+          "id": 11083,
+          "optionNo": "D",
+          "text": "我恨我自己",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "id": 2768,
+      "text": "请从以下选项中选出一条(最近两周)最适合你情况的选项",
+      "type": "radio",
+      "orderNum": 8,
+      "options": [
+        {
+          "id": 11084,
+          "optionNo": "A",
+          "text": "我并不觉得自己比其他人更糟糕",
+          "value": "0"
+        },
+        {
+          "id": 11085,
+          "optionNo": "B",
+          "text": "我对自己的弱点和错误要批判",
+          "value": "1"
+        },
+        {
+          "id": 11086,
+          "optionNo": "C",
+          "text": "我在所有的时间里都责备自己的过错",
+          "value": "2"
+        },
+        {
+          "id": 11087,
+          "optionNo": "D",
+          "text": "我责备自己所有的事情都弄坏了",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "id": 2769,
+      "text": "请从以下选项中选出一条(最近两周)最适合你情况的选项",
+      "type": "radio",
+      "orderNum": 9,
+      "options": [
+        {
+          "id": 11088,
+          "optionNo": "A",
+          "text": "我没有任何想弄死自己的想法",
+          "value": "0"
+        },
+        {
+          "id": 11089,
+          "optionNo": "B",
+          "text": "我有自杀的想法，但我不会去做",
+          "value": "1"
+        },
+        {
+          "id": 11090,
+          "optionNo": "C",
+          "text": "我想自杀",
+          "value": "2"
+        },
+        {
+          "id": 11091,
+          "optionNo": "D",
+          "text": "如果有机会我就自杀",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "id": 2770,
+      "text": "请从以下选项中选出一条(最近两周)最适合你情况的选项",
+      "type": "radio",
+      "orderNum": 10,
+      "options": [
+        {
+          "id": 11092,
+          "optionNo": "A",
+          "text": "我哭泣和往常一样",
+          "value": "0"
+        },
+        {
+          "id": 11093,
+          "optionNo": "B",
+          "text": "我比往常哭的多",
+          "value": "1"
+        },
+        {
+          "id": 11094,
+          "optionNo": "C",
+          "text": "我现在一直要哭",
+          "value": "2"
+        },
+        {
+          "id": 11095,
+          "optionNo": "D",
+          "text": "我过去能哭，但现在要哭也哭不出来",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "id": 2771,
+      "text": "请从以下选项中选出一条(最近两周)最适合你情况的选项",
+      "type": "radio",
+      "orderNum": 11,
+      "options": [
+        {
+          "id": 11096,
+          "optionNo": "A",
+          "text": "和过去相比，我现在生气并不多",
+          "value": "0"
+        },
+        {
+          "id": 11097,
+          "optionNo": "B",
+          "text": "我现在稍微比往常更容易生气发火",
+          "value": "1"
+        },
+        {
+          "id": 11098,
+          "optionNo": "C",
+          "text": "我在很多时间里都相当容易生气",
+          "value": "2"
+        },
+        {
+          "id": 11099,
+          "optionNo": "D",
+          "text": "我所有时间里都感觉容易生气发火",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "id": 2772,
+      "text": "请从以下选项中选出一条(最近两周)最适合你情况的选项",
+      "type": "radio",
+      "orderNum": 12,
+      "options": [
+        {
+          "id": 11100,
+          "optionNo": "A",
+          "text": "我对其他人没有失去兴趣",
+          "value": "0"
+        },
+        {
+          "id": 11101,
+          "optionNo": "B",
+          "text": "和过去相比，我对别人的兴趣减少了",
+          "value": "1"
+        },
+        {
+          "id": 11102,
+          "optionNo": "C",
+          "text": "我对别人的兴趣大部分失去了",
+          "value": "2"
+        },
+        {
+          "id": 11103,
+          "optionNo": "D",
+          "text": "我对别人的兴趣已全部丧失了",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "id": 2773,
+      "text": "请从以下选项中选出一条(最近两周)最适合你情况的选项",
+      "type": "radio",
+      "orderNum": 13,
+      "options": [
+        {
+          "id": 11104,
+          "optionNo": "A",
+          "text": "我作决定和过去一样好",
+          "value": "0"
+        },
+        {
+          "id": 11105,
+          "optionNo": "B",
+          "text": "我推迟作出决定比过去多了",
+          "value": "1"
+        },
+        {
+          "id": 11106,
+          "optionNo": "C",
+          "text": "我作决定比以前困难大的多",
+          "value": "2"
+        },
+        {
+          "id": 11107,
+          "optionNo": "D",
+          "text": "我再也不能作出决定了",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "id": 2774,
+      "text": "请从以下选项中选出一条(最近两周)最适合你情况的选项",
+      "type": "radio",
+      "orderNum": 14,
+      "options": [
+        {
+          "id": 11108,
+          "optionNo": "A",
+          "text": "我觉得看上去我的外表并不比过去差",
+          "value": "0"
+        },
+        {
+          "id": 11109,
+          "optionNo": "B",
+          "text": "我担心看上去我显得老了，没有吸引力了",
+          "value": "1"
+        },
+        {
+          "id": 11110,
+          "optionNo": "C",
+          "text": "我觉得我的外貌有些固定的变化，使我难看了",
+          "value": "2"
+        },
+        {
+          "id": 11111,
+          "optionNo": "D",
+          "text": "我相信我看起来很丑陋",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "id": 2775,
+      "text": "请从以下选项中选出一条(最近两周)最适合你情况的选项",
+      "type": "radio",
+      "orderNum": 15,
+      "options": [
+        {
+          "id": 11112,
+          "optionNo": "A",
+          "text": "我工作和以前一样好",
+          "value": "0"
+        },
+        {
+          "id": 11113,
+          "optionNo": "B",
+          "text": "要着手做事，我现在要额外花些力气",
+          "value": "1"
+        },
+        {
+          "id": 11114,
+          "optionNo": "C",
+          "text": "无论做什么事我必须努力催促自己才行",
+          "value": "2"
+        },
+        {
+          "id": 11115,
+          "optionNo": "D",
+          "text": "我什么工作也不能做了",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "id": 2776,
+      "text": "请从以下选项中选出一条(最近两周)最适合你情况的选项",
+      "type": "radio",
+      "orderNum": 16,
+      "options": [
+        {
+          "id": 11116,
+          "optionNo": "A",
+          "text": "我睡觉与往常一样好",
+          "value": "0"
+        },
+        {
+          "id": 11117,
+          "optionNo": "B",
+          "text": "我睡觉不如过去好",
+          "value": "1"
+        },
+        {
+          "id": 11118,
+          "optionNo": "C",
+          "text": "我比往常早醒1～2小时，难以再入睡",
+          "value": "2"
+        },
+        {
+          "id": 11119,
+          "optionNo": "D",
+          "text": "我比往常早醒几个小时，不能再睡",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "id": 2777,
+      "text": "请从以下选项中选出一条(最近两周)最适合你情况的选项",
+      "type": "radio",
+      "orderNum": 17,
+      "options": [
+        {
+          "id": 11120,
+          "optionNo": "A",
+          "text": "我并不感到比往常更疲乏",
+          "value": "0"
+        },
+        {
+          "id": 11121,
+          "optionNo": "B",
+          "text": "我比过去更容易感到疲乏",
+          "value": "1"
+        },
+        {
+          "id": 11122,
+          "optionNo": "C",
+          "text": "几乎不管做什么，我都感到疲乏无力",
+          "value": "2"
+        },
+        {
+          "id": 11123,
+          "optionNo": "D",
+          "text": "我太疲乏无力，不能做任何事情",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "id": 2778,
+      "text": "请从以下选项中选出一条(最近两周)最适合你情况的选项",
+      "type": "radio",
+      "orderNum": 18,
+      "options": [
+        {
+          "id": 11124,
+          "optionNo": "A",
+          "text": "我的食欲与往常一样",
+          "value": "0"
+        },
+        {
+          "id": 11125,
+          "optionNo": "B",
+          "text": "我的食欲不如过去好",
+          "value": "1"
+        },
+        {
+          "id": 11126,
+          "optionNo": "C",
+          "text": "我现在的食欲差得多了",
+          "value": "2"
+        },
+        {
+          "id": 11127,
+          "optionNo": "D",
+          "text": "我一点也没有食欲了",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "id": 2779,
+      "text": "请从以下选项中选出一条(最近两周)最适合你情况的选项",
+      "type": "radio",
+      "orderNum": 19,
+      "options": [
+        {
+          "id": 11128,
+          "optionNo": "A",
+          "text": "最近我的体重并无很大减轻",
+          "value": "0"
+        },
+        {
+          "id": 11129,
+          "optionNo": "B",
+          "text": "我的体重下降了5磅（约2.25kg）以上",
+          "value": "1"
+        },
+        {
+          "id": 11130,
+          "optionNo": "C",
+          "text": "我的体重下降了10 磅（约4.5kg）以上",
+          "value": "2"
+        },
+        {
+          "id": 11131,
+          "optionNo": "D",
+          "text": "我的体重下降15磅（约6.75kg）以上",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "id": 2780,
+      "text": "请从以下选项中选出一条(最近两周)最适合你情况的选项",
+      "type": "radio",
+      "orderNum": 20,
+      "options": [
+        {
+          "id": 11132,
+          "optionNo": "A",
+          "text": "我对最近的健康状况并不比往常更担心",
+          "value": "0"
+        },
+        {
+          "id": 11133,
+          "optionNo": "B",
+          "text": "我担心身体上的问题，如疼痛、胃不适或便秘",
+          "value": "1"
+        },
+        {
+          "id": 11134,
+          "optionNo": "C",
+          "text": "我非常担心身体问题，想别的事情很难",
+          "value": "2"
+        },
+        {
+          "id": 11135,
+          "optionNo": "D",
+          "text": "我对身体问题如此担忧，以致不能想其他任何事情",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "id": 2781,
+      "text": "请从以下选项中选出一条(最近两周)最适合你情况的选项",
+      "type": "radio",
+      "orderNum": 21,
+      "options": [
+        {
+          "id": 11136,
+          "optionNo": "A",
+          "text": "我没有发现我对性的兴趣最近有什么变化",
+          "value": "0"
+        },
+        {
+          "id": 11137,
+          "optionNo": "B",
+          "text": "我对性的兴趣比过去降低了",
+          "value": "1"
+        },
+        {
+          "id": 11138,
+          "optionNo": "C",
+          "text": "现在我对性的兴趣大大降低了",
+          "value": "2"
+        },
+        {
+          "id": 11139,
+          "optionNo": "D",
+          "text": "我对性的兴趣已经完全丧失",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "id": 2782,
+      "text": "我父母的婚姻状况是",
+      "type": "radio",
+      "orderNum": 22,
+      "options": [
+        {
+          "id": 11140,
+          "optionNo": "A",
+          "text": "未离异",
+          "value": "0"
+        },
+        {
+          "id": 11141,
+          "optionNo": "B",
+          "text": "父母在我7岁后离异",
+          "value": "4"
+        },
+        {
+          "id": 11142,
+          "optionNo": "C",
+          "text": "父母在我3-7岁间离异",
+          "value": "5"
+        },
+        {
+          "id": 11143,
+          "optionNo": "D",
+          "text": "父母在我3岁前离异",
+          "value": "6"
+        }
+      ]
+    },
+    {
+      "id": 2783,
+      "text": "我父母的关系",
+      "type": "radio",
+      "orderNum": 23,
+      "options": [
+        {
+          "id": 11144,
+          "optionNo": "A",
+          "text": "和睦",
+          "value": "0"
+        },
+        {
+          "id": 11145,
+          "optionNo": "B",
+          "text": "经常争吵",
+          "value": "1"
+        },
+        {
+          "id": 11146,
+          "optionNo": "C",
+          "text": "经常打架",
+          "value": "2"
+        },
+        {
+          "id": 11147,
+          "optionNo": "D",
+          "text": "长期冷战",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "id": 2784,
+      "text": "我七岁前曾经超过1周时间住在别人家里",
+      "type": "radio",
+      "orderNum": 24,
+      "options": [
+        {
+          "id": 11148,
+          "optionNo": "A",
+          "text": "否",
+          "value": "0"
+        },
+        {
+          "id": 11149,
+          "optionNo": "B",
+          "text": "住在爷爷奶奶/姥姥姥爷家",
+          "value": "1"
+        },
+        {
+          "id": 11150,
+          "optionNo": "C",
+          "text": "住在其他亲戚家",
+          "value": "2"
+        },
+        {
+          "id": 11151,
+          "optionNo": "D",
+          "text": "住在无血缘关系人家",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "id": 2785,
+      "text": "我小时候曾经被寄养在别人家",
+      "type": "radio",
+      "orderNum": 25,
+      "options": [
+        {
+          "id": 11152,
+          "optionNo": "A",
+          "text": "否",
+          "value": "0"
+        },
+        {
+          "id": 11153,
+          "optionNo": "B",
+          "text": "七岁后有寄养经历",
+          "value": "3"
+        },
+        {
+          "id": 11154,
+          "optionNo": "C",
+          "text": "在3-7岁间有寄养经历",
+          "value": "4"
+        },
+        {
+          "id": 11155,
+          "optionNo": "D",
+          "text": "3岁前有过寄养经历",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 2786,
+      "text": "我的家人中经常有人挨打",
+      "type": "radio",
+      "orderNum": 26,
+      "options": [
+        {
+          "id": 11156,
+          "optionNo": "A",
+          "text": "否",
+          "value": "0"
+        },
+        {
+          "id": 11157,
+          "optionNo": "B",
+          "text": "是",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "id": 2787,
+      "text": "我的家人中有人酗酒或者吸毒",
+      "type": "radio",
+      "orderNum": 27,
+      "options": [
+        {
+          "id": 11158,
+          "optionNo": "A",
+          "text": "否",
+          "value": "0"
+        },
+        {
+          "id": 11159,
+          "optionNo": "B",
+          "text": "是",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "id": 2788,
+      "text": "我的家人中有人坐牢或离家出走",
+      "type": "radio",
+      "orderNum": 28,
+      "options": [
+        {
+          "id": 11160,
+          "optionNo": "A",
+          "text": "否",
+          "value": "0"
+        },
+        {
+          "id": 11161,
+          "optionNo": "B",
+          "text": "是",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "id": 2789,
+      "text": "我的家人中有人已经去世了",
+      "type": "radio",
+      "orderNum": 29,
+      "options": [
+        {
+          "id": 11162,
+          "optionNo": "A",
+          "text": "否",
+          "value": "0"
+        },
+        {
+          "id": 11163,
+          "optionNo": "B",
+          "text": "我有兄弟姐妹去世",
+          "value": "1"
+        },
+        {
+          "id": 11164,
+          "optionNo": "C",
+          "text": "我的父亲/母亲在我七岁之后去世",
+          "value": "2"
+        },
+        {
+          "id": 11165,
+          "optionNo": "D",
+          "text": "我的父亲/母亲在我七岁之前去世",
+          "value": "3"
+        },
+        {
+          "id": 11166,
+          "optionNo": "E",
+          "text": "我父母均已经去世",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 2790,
+      "text": "我吃不饱",
+      "type": "radio",
+      "orderNum": 30,
+      "options": [
+        {
+          "id": 11167,
+          "optionNo": "A",
+          "text": "否",
+          "value": "0"
+        },
+        {
+          "id": 11168,
+          "optionNo": "B",
+          "text": "是",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 2791,
+      "text": "我觉得父母希望从来没有生过我",
+      "type": "radio",
+      "orderNum": 31,
+      "options": [
+        {
+          "id": 11169,
+          "optionNo": "A",
+          "text": "否",
+          "value": "0"
+        },
+        {
+          "id": 11170,
+          "optionNo": "B",
+          "text": "是",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "id": 2792,
+      "text": "我的父母或者养育者经常羞辱我",
+      "type": "radio",
+      "orderNum": 32,
+      "options": [
+        {
+          "id": 11171,
+          "optionNo": "A",
+          "text": "否",
+          "value": "0"
+        },
+        {
+          "id": 11172,
+          "optionNo": "B",
+          "text": "是",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "id": 2793,
+      "text": "我曾经被打得很重，周围有人都注意到了",
+      "type": "radio",
+      "orderNum": 33,
+      "options": [
+        {
+          "id": 11173,
+          "optionNo": "A",
+          "text": "否",
+          "value": "0"
+        },
+        {
+          "id": 11174,
+          "optionNo": "B",
+          "text": "是",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "id": 2794,
+      "text": "有人曾经威逼或引诱我做性方面的事情",
+      "type": "radio",
+      "orderNum": 34,
+      "options": [
+        {
+          "id": 11175,
+          "optionNo": "A",
+          "text": "否",
+          "value": "0"
+        },
+        {
+          "id": 11176,
+          "optionNo": "B",
+          "text": "是",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "id": 2795,
+      "text": "我难过的时候会弄伤自己",
+      "type": "radio",
+      "orderNum": 35,
+      "options": [
+        {
+          "id": 11177,
+          "optionNo": "A",
+          "text": "否",
+          "value": "0"
+        },
+        {
+          "id": 11178,
+          "optionNo": "B",
+          "text": "是",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "id": 2796,
+      "text": "我心情不好的时候会去做一些刺激的事情，例如轻微违法行为",
+      "type": "radio",
+      "orderNum": 36,
+      "options": [
+        {
+          "id": 11179,
+          "optionNo": "A",
+          "text": "否",
+          "value": "0"
+        },
+        {
+          "id": 11180,
+          "optionNo": "B",
+          "text": "是",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "id": 2797,
+      "text": "我需要用长时间打游戏或上网来调节自己的心情",
+      "type": "radio",
+      "orderNum": 37,
+      "options": [
+        {
+          "id": 11181,
+          "optionNo": "A",
+          "text": "否",
+          "value": "0"
+        },
+        {
+          "id": 11182,
+          "optionNo": "B",
+          "text": "是",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "id": 2798,
+      "text": "我曾经被医院诊断为以下疾病",
+      "type": "radio",
+      "orderNum": 38,
+      "options": [
+        {
+          "id": 11183,
+          "optionNo": "A",
+          "text": "否",
+          "value": "0"
+        },
+        {
+          "id": 11184,
+          "optionNo": "B",
+          "text": "焦虑症",
+          "value": "1"
+        },
+        {
+          "id": 11185,
+          "optionNo": "C",
+          "text": "疑病症",
+          "value": "1"
+        },
+        {
+          "id": 11186,
+          "optionNo": "D",
+          "text": "癔症",
+          "value": "1"
+        },
+        {
+          "id": 11187,
+          "optionNo": "E",
+          "text": "强迫症",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "id": 2799,
+      "text": "我曾经被医院诊断为以下疾病",
+      "type": "radio",
+      "orderNum": 39,
+      "options": [
+        {
+          "id": 11188,
+          "optionNo": "A",
+          "text": "否",
+          "value": "0"
+        },
+        {
+          "id": 11189,
+          "optionNo": "B",
+          "text": "进食障碍",
+          "value": "1"
+        },
+        {
+          "id": 11190,
+          "optionNo": "C",
+          "text": "神经衰弱",
+          "value": "1"
+        },
+        {
+          "id": 11191,
+          "optionNo": "D",
+          "text": "躯体形式障碍",
+          "value": "2"
+        },
+        {
+          "id": 11192,
+          "optionNo": "E",
+          "text": "其他精神障碍",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 2800,
+      "text": "我曾经被医院诊断为以下疾病",
+      "type": "radio",
+      "orderNum": 40,
+      "options": [
+        {
+          "id": 11193,
+          "optionNo": "A",
+          "text": "否",
+          "value": "0"
+        },
+        {
+          "id": 11194,
+          "optionNo": "B",
+          "text": "精神分裂症",
+          "value": "3"
+        },
+        {
+          "id": 11195,
+          "optionNo": "C",
+          "text": "抑郁障碍",
+          "value": "3"
+        },
+        {
+          "id": 11196,
+          "optionNo": "D",
+          "text": "双相障碍",
+          "value": "3"
+        },
+        {
+          "id": 11197,
+          "optionNo": "E",
+          "text": "人格障碍",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "id": 2801,
+      "text": "我曾经有过心理咨询或心理治疗的经历",
+      "type": "radio",
+      "orderNum": 41,
+      "options": [
+        {
+          "id": 11198,
+          "optionNo": "A",
+          "text": "否",
+          "value": "0"
+        },
+        {
+          "id": 11199,
+          "optionNo": "B",
+          "text": "是",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "id": 2802,
+      "text": "我曾经有过自杀的经历",
+      "type": "radio",
+      "orderNum": 42,
+      "options": [
+        {
+          "id": 11200,
+          "optionNo": "A",
+          "text": "否",
+          "value": "0"
+        },
+        {
+          "id": 11201,
+          "optionNo": "B",
+          "text": "一年以前有过",
+          "value": "2"
+        },
+        {
+          "id": 11202,
+          "optionNo": "C",
+          "text": "在最近一年有过",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 2803,
+      "text": "我患有某种致命性疾病",
+      "type": "radio",
+      "orderNum": 43,
+      "options": [
+        {
+          "id": 11203,
+          "optionNo": "A",
+          "text": "否",
+          "value": "0"
+        },
+        {
+          "id": 11204,
+          "optionNo": "B",
+          "text": "是",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 2804,
+      "text": "我患有某种传染性疾病",
+      "type": "radio",
+      "orderNum": 44,
+      "options": [
+        {
+          "id": 11205,
+          "optionNo": "A",
+          "text": "否",
+          "value": "0"
+        },
+        {
+          "id": 11206,
+          "optionNo": "B",
+          "text": "是",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 2805,
+      "text": "我和家人的关系状况是",
+      "type": "radio",
+      "orderNum": 45,
+      "options": [
+        {
+          "id": 11207,
+          "optionNo": "A",
+          "text": "关系好，在我需要的时候可以及时得到帮助",
+          "value": "0"
+        },
+        {
+          "id": 11208,
+          "optionNo": "B",
+          "text": "关系好，但他们帮不到我",
+          "value": "1"
+        },
+        {
+          "id": 11209,
+          "optionNo": "C",
+          "text": "关系一般",
+          "value": "2"
+        },
+        {
+          "id": 11210,
+          "optionNo": "D",
+          "text": "关系差",
+          "value": "3"
+        },
+        {
+          "id": 11211,
+          "optionNo": "E",
+          "text": "关系恶劣，冷漠",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 2806,
+      "text": "我和朋友的关系状况是",
+      "type": "radio",
+      "orderNum": 46,
+      "options": [
+        {
+          "id": 11212,
+          "optionNo": "A",
+          "text": "关系好，我可以在需要时及时得到他们的帮助",
+          "value": "0"
+        },
+        {
+          "id": 11213,
+          "optionNo": "B",
+          "text": "关系好，但是在需要时难以及时得到他们的帮助",
+          "value": "1"
+        },
+        {
+          "id": 11214,
+          "optionNo": "C",
+          "text": "关系一般",
+          "value": "2"
+        },
+        {
+          "id": 11215,
+          "optionNo": "D",
+          "text": "我没有什么朋友",
+          "value": "3"
+        },
+        {
+          "id": 11216,
+          "optionNo": "E",
+          "text": "我不需要朋友",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 2807,
+      "text": "如果是我的错误，我都会承认",
+      "type": "radio",
+      "orderNum": 47,
+      "options": [
+        {
+          "id": 11217,
+          "optionNo": "A",
+          "text": "否",
+          "value": "0"
+        },
+        {
+          "id": 11218,
+          "optionNo": "B",
+          "text": "是",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 2808,
+      "text": "我是一个诚实守信、言行一致的人",
+      "type": "radio",
+      "orderNum": 48,
+      "options": [
+        {
+          "id": 11219,
+          "optionNo": "A",
+          "text": "否",
+          "value": "0"
+        },
+        {
+          "id": 11220,
+          "optionNo": "B",
+          "text": "是",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 2809,
+      "text": "我从来没有闯过红绿灯",
+      "type": "radio",
+      "orderNum": 49,
+      "options": [
+        {
+          "id": 11221,
+          "optionNo": "A",
+          "text": "否",
+          "value": "0"
+        },
+        {
+          "id": 11222,
+          "optionNo": "B",
+          "text": "是",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 2810,
+      "text": "我在饭前便后都必定会洗手",
+      "type": "radio",
+      "orderNum": 50,
+      "options": [
+        {
+          "id": 11223,
+          "optionNo": "A",
+          "text": "否",
+          "value": "0"
+        },
+        {
+          "id": 11224,
+          "optionNo": "B",
+          "text": "是",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 2811,
+      "text": "我是一个做任何事情都会说到做到的人",
+      "type": "radio",
+      "orderNum": 51,
+      "options": [
+        {
+          "id": 11225,
+          "optionNo": "A",
+          "text": "否",
+          "value": "0"
+        },
+        {
+          "id": 11226,
+          "optionNo": "B",
+          "text": "是",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 2812,
+      "text": "当别人做了好事，而周围的人却认为是我做的时候，我不会说出来",
+      "type": "radio",
+      "orderNum": 52,
+      "options": [
+        {
+          "id": 11227,
+          "optionNo": "A",
+          "text": "否",
+          "value": "1"
+        },
+        {
+          "id": 11228,
+          "optionNo": "B",
+          "text": "是",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2813,
+      "text": "我从不占别人便宜",
+      "type": "radio",
+      "orderNum": 53,
+      "options": [
+        {
+          "id": 11229,
+          "optionNo": "A",
+          "text": "否",
+          "value": "0"
+        },
+        {
+          "id": 11230,
+          "optionNo": "B",
+          "text": "是",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 2814,
+      "text": "我曾经有过自己做错了事反倒责备别人的经历",
+      "type": "radio",
+      "orderNum": 54,
+      "options": [
+        {
+          "id": 11231,
+          "optionNo": "A",
+          "text": "否",
+          "value": "0"
+        },
+        {
+          "id": 11232,
+          "optionNo": "B",
+          "text": "是",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 2815,
+      "text": "即便是在微博上，我也从不骂人",
+      "type": "radio",
+      "orderNum": 55,
+      "options": [
+        {
+          "id": 11233,
+          "optionNo": "A",
+          "text": "否",
+          "value": "0"
+        },
+        {
+          "id": 11234,
+          "optionNo": "B",
+          "text": "是",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 2816,
+      "text": "我有时候谈论一些事情显得很了解实际上自己并不清楚",
+      "type": "radio",
+      "orderNum": 56,
+      "options": [
+        {
+          "id": 11235,
+          "optionNo": "A",
+          "text": "否",
+          "value": "0"
+        },
+        {
+          "id": 11236,
+          "optionNo": "B",
+          "text": "是",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 2817,
+      "text": "我在小时候曾经是一个非常听大人话的乖孩子，对大人从无怨言",
+      "type": "radio",
+      "orderNum": 57,
+      "options": [
+        {
+          "id": 11237,
+          "optionNo": "A",
+          "text": "否",
+          "value": "0"
+        },
+        {
+          "id": 11238,
+          "optionNo": "B",
+          "text": "是",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 2818,
+      "text": "我曾经有多次在地铁或公交车上，尽管身边有老人但我没有起身让座的经历",
+      "type": "radio",
+      "orderNum": 58,
+      "options": [
+        {
+          "id": 11239,
+          "optionNo": "A",
+          "text": "否",
+          "value": "1"
+        },
+        {
+          "id": 11240,
+          "optionNo": "B",
+          "text": "是",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2819,
+      "text": "我从来不抱怨别人",
+      "type": "radio",
+      "orderNum": 59,
+      "options": [
+        {
+          "id": 11241,
+          "optionNo": "A",
+          "text": "否",
+          "value": "0"
+        },
+        {
+          "id": 11242,
+          "optionNo": "B",
+          "text": "是",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 2820,
+      "text": "我做事情从不拖延",
+      "type": "radio",
+      "orderNum": 60,
+      "options": [
+        {
+          "id": 11243,
+          "optionNo": "A",
+          "text": "否",
+          "value": "0"
+        },
+        {
+          "id": 11244,
+          "optionNo": "B",
+          "text": "是",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 2821,
+      "text": "我在打电脑游戏或打牌时，曾经有过作弊的行为",
+      "type": "radio",
+      "orderNum": 61,
+      "options": [
+        {
+          "id": 11245,
+          "optionNo": "A",
+          "text": "否",
+          "value": "0"
+        },
+        {
+          "id": 11246,
+          "optionNo": "B",
+          "text": "是",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 2822,
+      "text": "我曾经利用过别人以使得自己获益",
+      "type": "radio",
+      "orderNum": 62,
+      "options": [
+        {
+          "id": 11247,
+          "optionNo": "A",
+          "text": "否",
+          "value": "0"
+        },
+        {
+          "id": 11248,
+          "optionNo": "B",
+          "text": "是",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 2823,
+      "text": "如果有不认识的人微信里错误转钱或者发红包给我，我可能会不退还给对方",
+      "type": "radio",
+      "orderNum": 63,
+      "options": [
+        {
+          "id": 11249,
+          "optionNo": "A",
+          "text": "否",
+          "value": "0"
+        },
+        {
+          "id": 11250,
+          "optionNo": "B",
+          "text": "是",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 2824,
+      "text": "我从来不和别人争吵或发生冲突",
+      "type": "radio",
+      "orderNum": 64,
+      "options": [
+        {
+          "id": 11251,
+          "optionNo": "A",
+          "text": "否",
+          "value": "0"
+        },
+        {
+          "id": 11252,
+          "optionNo": "B",
+          "text": "是",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 2825,
+      "text": "我从来没有迟到过，无论是上学还是约会",
+      "type": "radio",
+      "orderNum": 65,
+      "options": [
+        {
+          "id": 11253,
+          "optionNo": "A",
+          "text": "否",
+          "value": "0"
+        },
+        {
+          "id": 11254,
+          "optionNo": "B",
+          "text": "是",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 2826,
+      "text": "我曾经有吹嘘自己的经历",
+      "type": "radio",
+      "orderNum": 66,
+      "options": [
+        {
+          "id": 11255,
+          "optionNo": "A",
+          "text": "否",
+          "value": "1"
+        },
+        {
+          "id": 11256,
+          "optionNo": "B",
+          "text": "是",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2827,
+      "text": "我曾经占过别人小便宜",
+      "type": "radio",
+      "orderNum": 67,
+      "options": [
+        {
+          "id": 11257,
+          "optionNo": "A",
+          "text": "否",
+          "value": "1"
+        },
+        {
+          "id": 11258,
+          "optionNo": "B",
+          "text": "是",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2828,
+      "text": "在公交车上，我总是能主动让座给老幼病残孕",
+      "type": "radio",
+      "orderNum": 68,
+      "options": [
+        {
+          "id": 11259,
+          "optionNo": "A",
+          "text": "否",
+          "value": "0"
+        },
+        {
+          "id": 11260,
+          "optionNo": "B",
+          "text": "是",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 2829,
+      "text": "我曾经闯过红绿灯",
+      "type": "radio",
+      "orderNum": 69,
+      "options": [
+        {
+          "id": 11261,
+          "optionNo": "A",
+          "text": "否",
+          "value": "1"
+        },
+        {
+          "id": 11262,
+          "optionNo": "B",
+          "text": "是",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2830,
+      "text": "我曾经和人发生过冲突",
+      "type": "radio",
+      "orderNum": 70,
+      "options": [
+        {
+          "id": 11263,
+          "optionNo": "A",
+          "text": "否",
+          "value": "1"
+        },
+        {
+          "id": 11264,
+          "optionNo": "B",
+          "text": "是",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2831,
+      "text": "有时我完成一项工作会超过原来规定的期限",
+      "type": "radio",
+      "orderNum": 71,
+      "options": [
+        {
+          "id": 11265,
+          "optionNo": "A",
+          "text": "否",
+          "value": "1"
+        },
+        {
+          "id": 11266,
+          "optionNo": "B",
+          "text": "是",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2832,
+      "text": "我常常愿意帮助别人",
+      "type": "radio",
+      "orderNum": 72,
+      "options": [
+        {
+          "id": 11267,
+          "optionNo": "A",
+          "text": "完全符合",
+          "value": "0"
+        },
+        {
+          "id": 11268,
+          "optionNo": "B",
+          "text": "基本符合",
+          "value": "1"
+        },
+        {
+          "id": 11269,
+          "optionNo": "C",
+          "text": "不确定",
+          "value": "2"
+        },
+        {
+          "id": 11270,
+          "optionNo": "D",
+          "text": "基本不符合",
+          "value": "3"
+        },
+        {
+          "id": 11271,
+          "optionNo": "E",
+          "text": "完全不符合",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 2833,
+      "text": "我很了解自己人生的意义",
+      "type": "radio",
+      "orderNum": 73,
+      "options": [
+        {
+          "id": 11272,
+          "optionNo": "A",
+          "text": "完全符合",
+          "value": "0"
+        },
+        {
+          "id": 11273,
+          "optionNo": "B",
+          "text": "基本符合",
+          "value": "1"
+        },
+        {
+          "id": 11274,
+          "optionNo": "C",
+          "text": "不确定",
+          "value": "2"
+        },
+        {
+          "id": 11275,
+          "optionNo": "D",
+          "text": "基本不符合",
+          "value": "3"
+        },
+        {
+          "id": 11276,
+          "optionNo": "E",
+          "text": "完全不符合",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 2834,
+      "text": "我的生活有很明确的目标",
+      "type": "radio",
+      "orderNum": 74,
+      "options": [
+        {
+          "id": 11277,
+          "optionNo": "A",
+          "text": "完全符合",
+          "value": "0"
+        },
+        {
+          "id": 11278,
+          "optionNo": "B",
+          "text": "基本符合",
+          "value": "1"
+        },
+        {
+          "id": 11279,
+          "optionNo": "C",
+          "text": "不确定",
+          "value": "2"
+        },
+        {
+          "id": 11280,
+          "optionNo": "D",
+          "text": "基本不符合",
+          "value": "3"
+        },
+        {
+          "id": 11281,
+          "optionNo": "E",
+          "text": "完全不符合",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 2835,
+      "text": "对我来说学习是一件有意义的事",
+      "type": "radio",
+      "orderNum": 75,
+      "options": [
+        {
+          "id": 11282,
+          "optionNo": "A",
+          "text": "完全符合",
+          "value": "0"
+        },
+        {
+          "id": 11283,
+          "optionNo": "B",
+          "text": "基本符合",
+          "value": "1"
+        },
+        {
+          "id": 11284,
+          "optionNo": "C",
+          "text": "不确定",
+          "value": "2"
+        },
+        {
+          "id": 11285,
+          "optionNo": "D",
+          "text": "基本不符合",
+          "value": "3"
+        },
+        {
+          "id": 11286,
+          "optionNo": "E",
+          "text": "完全不符合",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 2836,
+      "text": "对我来说学习令我感到烦恼",
+      "type": "radio",
+      "orderNum": 76,
+      "options": [
+        {
+          "id": 11287,
+          "optionNo": "A",
+          "text": "完全符合",
+          "value": "4"
+        },
+        {
+          "id": 11288,
+          "optionNo": "B",
+          "text": "基本符合",
+          "value": "3"
+        },
+        {
+          "id": 11289,
+          "optionNo": "C",
+          "text": "不确定",
+          "value": "2"
+        },
+        {
+          "id": 11290,
+          "optionNo": "D",
+          "text": "基本不符合",
+          "value": "1"
+        },
+        {
+          "id": 11291,
+          "optionNo": "E",
+          "text": "完全不符合",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2837,
+      "text": "我厌恶学习并极力逃避学习",
+      "type": "radio",
+      "orderNum": 77,
+      "options": [
+        {
+          "id": 11292,
+          "optionNo": "A",
+          "text": "完全符合",
+          "value": "4"
+        },
+        {
+          "id": 11293,
+          "optionNo": "B",
+          "text": "基本符合",
+          "value": "3"
+        },
+        {
+          "id": 11294,
+          "optionNo": "C",
+          "text": "不确定",
+          "value": "2"
+        },
+        {
+          "id": 11295,
+          "optionNo": "D",
+          "text": "基本不符合",
+          "value": "1"
+        },
+        {
+          "id": 11296,
+          "optionNo": "E",
+          "text": "完全不符合",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2838,
+      "text": "学习是无意义的",
+      "type": "radio",
+      "orderNum": 78,
+      "options": [
+        {
+          "id": 11297,
+          "optionNo": "A",
+          "text": "完全符合",
+          "value": "4"
+        },
+        {
+          "id": 11298,
+          "optionNo": "B",
+          "text": "基本符合",
+          "value": "3"
+        },
+        {
+          "id": 11299,
+          "optionNo": "C",
+          "text": "不确定",
+          "value": "2"
+        },
+        {
+          "id": 11300,
+          "optionNo": "D",
+          "text": "基本不符合",
+          "value": "1"
+        },
+        {
+          "id": 11301,
+          "optionNo": "E",
+          "text": "完全不符合",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2839,
+      "text": "我习惯于努力学习但又厌恶学习",
+      "type": "radio",
+      "orderNum": 79,
+      "options": [
+        {
+          "id": 11302,
+          "optionNo": "A",
+          "text": "完全符合",
+          "value": "4"
+        },
+        {
+          "id": 11303,
+          "optionNo": "B",
+          "text": "基本符合",
+          "value": "3"
+        },
+        {
+          "id": 11304,
+          "optionNo": "C",
+          "text": "不确定",
+          "value": "2"
+        },
+        {
+          "id": 11305,
+          "optionNo": "D",
+          "text": "基本不符合",
+          "value": "1"
+        },
+        {
+          "id": 11306,
+          "optionNo": "E",
+          "text": "完全不符合",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2840,
+      "text": "我感觉到自己情绪低落已经超过一个月了",
+      "type": "radio",
+      "orderNum": 80,
+      "options": [
+        {
+          "id": 11307,
+          "optionNo": "A",
+          "text": "完全符合",
+          "value": "4"
+        },
+        {
+          "id": 11308,
+          "optionNo": "B",
+          "text": "基本符合",
+          "value": "3"
+        },
+        {
+          "id": 11309,
+          "optionNo": "C",
+          "text": "不确定",
+          "value": "2"
+        },
+        {
+          "id": 11310,
+          "optionNo": "D",
+          "text": "基本不符合",
+          "value": "1"
+        },
+        {
+          "id": 11311,
+          "optionNo": "E",
+          "text": "完全不符合",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2841,
+      "text": "我对自己的未来感到有希望",
+      "type": "radio",
+      "orderNum": 81,
+      "options": [
+        {
+          "id": 11312,
+          "optionNo": "A",
+          "text": "完全符合",
+          "value": "0"
+        },
+        {
+          "id": 11313,
+          "optionNo": "B",
+          "text": "基本符合",
+          "value": "1"
+        },
+        {
+          "id": 11314,
+          "optionNo": "C",
+          "text": "不确定",
+          "value": "2"
+        },
+        {
+          "id": 11315,
+          "optionNo": "D",
+          "text": "基本不符合",
+          "value": "3"
+        },
+        {
+          "id": 11316,
+          "optionNo": "E",
+          "text": "完全不符合",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 2842,
+      "text": "我感到自己是有用的和不可缺少的人",
+      "type": "radio",
+      "orderNum": 82,
+      "options": [
+        {
+          "id": 11317,
+          "optionNo": "A",
+          "text": "完全符合",
+          "value": "0"
+        },
+        {
+          "id": 11318,
+          "optionNo": "B",
+          "text": "基本符合",
+          "value": "1"
+        },
+        {
+          "id": 11319,
+          "optionNo": "C",
+          "text": "不确定",
+          "value": "2"
+        },
+        {
+          "id": 11320,
+          "optionNo": "D",
+          "text": "基本不符合",
+          "value": "3"
+        },
+        {
+          "id": 11321,
+          "optionNo": "E",
+          "text": "完全不符合",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 2843,
+      "text": "我的生活很有意义",
+      "type": "radio",
+      "orderNum": 83,
+      "options": [
+        {
+          "id": 11322,
+          "optionNo": "A",
+          "text": "完全符合",
+          "value": "0"
+        },
+        {
+          "id": 11323,
+          "optionNo": "B",
+          "text": "基本符合",
+          "value": "1"
+        },
+        {
+          "id": 11324,
+          "optionNo": "C",
+          "text": "不确定",
+          "value": "2"
+        },
+        {
+          "id": 11325,
+          "optionNo": "D",
+          "text": "基本不符合",
+          "value": "3"
+        },
+        {
+          "id": 11326,
+          "optionNo": "E",
+          "text": "完全不符合",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 2844,
+      "text": "我仍旧对自己平时喜欢做的事情感兴趣",
+      "type": "radio",
+      "orderNum": 84,
+      "options": [
+        {
+          "id": 11327,
+          "optionNo": "A",
+          "text": "完全符合",
+          "value": "0"
+        },
+        {
+          "id": 11328,
+          "optionNo": "B",
+          "text": "基本符合",
+          "value": "1"
+        },
+        {
+          "id": 11329,
+          "optionNo": "C",
+          "text": "不确定",
+          "value": "2"
+        },
+        {
+          "id": 11330,
+          "optionNo": "D",
+          "text": "基本不符合",
+          "value": "3"
+        },
+        {
+          "id": 11331,
+          "optionNo": "E",
+          "text": "完全不符合",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 2845,
+      "text": "我感到很孤独，没有人能真正理解我",
+      "type": "radio",
+      "orderNum": 85,
+      "options": [
+        {
+          "id": 11332,
+          "optionNo": "A",
+          "text": "完全符合",
+          "value": "4"
+        },
+        {
+          "id": 11333,
+          "optionNo": "B",
+          "text": "基本符合",
+          "value": "3"
+        },
+        {
+          "id": 11334,
+          "optionNo": "C",
+          "text": "不确定",
+          "value": "2"
+        },
+        {
+          "id": 11335,
+          "optionNo": "D",
+          "text": "基本不符合",
+          "value": "1"
+        },
+        {
+          "id": 11336,
+          "optionNo": "E",
+          "text": "完全不符合",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2846,
+      "text": "我和周围人关系都很好",
+      "type": "radio",
+      "orderNum": 86,
+      "options": [
+        {
+          "id": 11337,
+          "optionNo": "A",
+          "text": "完全符合",
+          "value": "0"
+        },
+        {
+          "id": 11338,
+          "optionNo": "B",
+          "text": "基本符合",
+          "value": "1"
+        },
+        {
+          "id": 11339,
+          "optionNo": "C",
+          "text": "不确定",
+          "value": "2"
+        },
+        {
+          "id": 11340,
+          "optionNo": "D",
+          "text": "基本不符合",
+          "value": "3"
+        },
+        {
+          "id": 11341,
+          "optionNo": "E",
+          "text": "完全不符合",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 2847,
+      "text": "我在努力使得别人觉得我是一个好学生",
+      "type": "radio",
+      "orderNum": 87,
+      "options": [
+        {
+          "id": 11342,
+          "optionNo": "A",
+          "text": "完全符合",
+          "value": "4"
+        },
+        {
+          "id": 11343,
+          "optionNo": "B",
+          "text": "基本符合",
+          "value": "3"
+        },
+        {
+          "id": 11344,
+          "optionNo": "C",
+          "text": "不确定",
+          "value": "2"
+        },
+        {
+          "id": 11345,
+          "optionNo": "D",
+          "text": "基本不符合",
+          "value": "1"
+        },
+        {
+          "id": 11346,
+          "optionNo": "E",
+          "text": "完全不符合",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2848,
+      "text": "对自己特别不满足，总是觉得要各方面做的更好",
+      "type": "radio",
+      "orderNum": 88,
+      "options": [
+        {
+          "id": 11347,
+          "optionNo": "A",
+          "text": "完全符合",
+          "value": "4"
+        },
+        {
+          "id": 11348,
+          "optionNo": "B",
+          "text": "基本符合",
+          "value": "3"
+        },
+        {
+          "id": 11349,
+          "optionNo": "C",
+          "text": "不确定",
+          "value": "2"
+        },
+        {
+          "id": 11350,
+          "optionNo": "D",
+          "text": "基本不符合",
+          "value": "1"
+        },
+        {
+          "id": 11351,
+          "optionNo": "E",
+          "text": "完全不符合",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2849,
+      "text": "学习成绩好使得我有成就感",
+      "type": "radio",
+      "orderNum": 89,
+      "options": [
+        {
+          "id": 11352,
+          "optionNo": "A",
+          "text": "完全符合",
+          "value": "0"
+        },
+        {
+          "id": 11353,
+          "optionNo": "B",
+          "text": "基本符合",
+          "value": "1"
+        },
+        {
+          "id": 11354,
+          "optionNo": "C",
+          "text": "不确定",
+          "value": "2"
+        },
+        {
+          "id": 11355,
+          "optionNo": "D",
+          "text": "基本不符合",
+          "value": "3"
+        },
+        {
+          "id": 11356,
+          "optionNo": "E",
+          "text": "完全不符合",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 2850,
+      "text": "我觉得自己一直在为别人学习甚至活着",
+      "type": "radio",
+      "orderNum": 90,
+      "options": [
+        {
+          "id": 11357,
+          "optionNo": "A",
+          "text": "完全符合",
+          "value": "4"
+        },
+        {
+          "id": 11358,
+          "optionNo": "B",
+          "text": "基本符合",
+          "value": "3"
+        },
+        {
+          "id": 11359,
+          "optionNo": "C",
+          "text": "不确定",
+          "value": "2"
+        },
+        {
+          "id": 11360,
+          "optionNo": "D",
+          "text": "基本不符合",
+          "value": "1"
+        },
+        {
+          "id": 11361,
+          "optionNo": "E",
+          "text": "完全不符合",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2851,
+      "text": "我找不到自己，不知道自己想要成为怎样的人",
+      "type": "radio",
+      "orderNum": 91,
+      "options": [
+        {
+          "id": 11362,
+          "optionNo": "A",
+          "text": "完全符合",
+          "value": "4"
+        },
+        {
+          "id": 11363,
+          "optionNo": "B",
+          "text": "基本符合",
+          "value": "3"
+        },
+        {
+          "id": 11364,
+          "optionNo": "C",
+          "text": "不确定",
+          "value": "2"
+        },
+        {
+          "id": 11365,
+          "optionNo": "D",
+          "text": "基本不符合",
+          "value": "1"
+        },
+        {
+          "id": 11366,
+          "optionNo": "E",
+          "text": "完全不符合",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2852,
+      "text": "我有自己认可和敬重的人",
+      "type": "radio",
+      "orderNum": 92,
+      "options": [
+        {
+          "id": 11367,
+          "optionNo": "A",
+          "text": "完全符合",
+          "value": "0"
+        },
+        {
+          "id": 11368,
+          "optionNo": "B",
+          "text": "基本符合",
+          "value": "1"
+        },
+        {
+          "id": 11369,
+          "optionNo": "C",
+          "text": "不确定",
+          "value": "2"
+        },
+        {
+          "id": 11370,
+          "optionNo": "D",
+          "text": "基本不符合",
+          "value": "3"
+        },
+        {
+          "id": 11371,
+          "optionNo": "E",
+          "text": "完全不符合",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 2853,
+      "text": "我有时想要结束自己的生命",
+      "type": "radio",
+      "orderNum": 93,
+      "options": [
+        {
+          "id": 11372,
+          "optionNo": "A",
+          "text": "完全符合",
+          "value": "4"
+        },
+        {
+          "id": 11373,
+          "optionNo": "B",
+          "text": "基本符合",
+          "value": "3"
+        },
+        {
+          "id": 11374,
+          "optionNo": "C",
+          "text": "不确定",
+          "value": "2"
+        },
+        {
+          "id": 11375,
+          "optionNo": "D",
+          "text": "基本不符合",
+          "value": "1"
+        },
+        {
+          "id": 11376,
+          "optionNo": "E",
+          "text": "完全不符合",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2854,
+      "text": "我不知道自己为什么要活下去",
+      "type": "radio",
+      "orderNum": 94,
+      "options": [
+        {
+          "id": 11377,
+          "optionNo": "A",
+          "text": "完全符合",
+          "value": "4"
+        },
+        {
+          "id": 11378,
+          "optionNo": "B",
+          "text": "基本符合",
+          "value": "3"
+        },
+        {
+          "id": 11379,
+          "optionNo": "C",
+          "text": "不确定",
+          "value": "2"
+        },
+        {
+          "id": 11380,
+          "optionNo": "D",
+          "text": "基本不符合",
+          "value": "1"
+        },
+        {
+          "id": 11381,
+          "optionNo": "E",
+          "text": "完全不符合",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2855,
+      "text": "我曾经尝试过伤害自己",
+      "type": "radio",
+      "orderNum": 95,
+      "options": [
+        {
+          "id": 11382,
+          "optionNo": "A",
+          "text": "完全符合",
+          "value": "4"
+        },
+        {
+          "id": 11383,
+          "optionNo": "B",
+          "text": "基本符合",
+          "value": "3"
+        },
+        {
+          "id": 11384,
+          "optionNo": "C",
+          "text": "不确定",
+          "value": "2"
+        },
+        {
+          "id": 11385,
+          "optionNo": "D",
+          "text": "基本不符合",
+          "value": "1"
+        },
+        {
+          "id": 11386,
+          "optionNo": "E",
+          "text": "完全不符合",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2856,
+      "text": "当生命已无价值可言时，自杀是可以理解的",
+      "type": "radio",
+      "orderNum": 96,
+      "options": [
+        {
+          "id": 11387,
+          "optionNo": "A",
+          "text": "完全符合",
+          "value": "4"
+        },
+        {
+          "id": 11388,
+          "optionNo": "B",
+          "text": "基本符合",
+          "value": "3"
+        },
+        {
+          "id": 11389,
+          "optionNo": "C",
+          "text": "不确定",
+          "value": "2"
+        },
+        {
+          "id": 11390,
+          "optionNo": "D",
+          "text": "基本不符合",
+          "value": "1"
+        },
+        {
+          "id": 11391,
+          "optionNo": "E",
+          "text": "完全不符合",
+          "value": "0"
+        }
+      ]
+    }
+  ],
+  "dimensions": [
+    {
+      "id": 343,
+      "num": 1,
+      "dimensionName": "近期风险",
+      "dimensionCode": "D",
+      "evaluateExpression": "hx_t_1 + hx_t_2 + hx_t_3 + hx_t_4 + hx_t_5 + hx_t_6 + hx_t_7 + hx_t_8 + hx_t_9 + hx_t_10 + hx_t_11 + hx_t_12 + hx_t_13 + hx_t_14 + hx_t_15 + hx_t_16 + hx_t_17 + hx_t_18 + hx_t_19 + hx_t_20 + hx_t_21",
+      "standardScoreFormula": "0",
+      "results": [
+        {
+          "id": 687,
+          "evaluateExpression": "hx_wd_y_1 >= 0&& hx_wd_y_1 <= 14",
+          "conclusionAnalysis": "该因子请查看具体答题内容",
+          "suggestion": "暂无",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 688,
+          "evaluateExpression": "hx_wd_y_1 >= 15&& hx_wd_y_1 <= 20",
+          "conclusionAnalysis": "该因子请查看具体答题内容",
+          "suggestion": "暂无",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 689,
+          "evaluateExpression": "hx_wd_y_1 >= 21&& hx_wd_y_1 <= 41",
+          "conclusionAnalysis": "该因子请查看具体答题内容",
+          "suggestion": "暂无",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 690,
+          "evaluateExpression": "hx_wd_y_1 >= 42&& hx_wd_y_1 <= 63",
+          "conclusionAnalysis": "该因子请查看具体答题内容",
+          "suggestion": "暂无",
+          "assessmentWarning": "none"
+        }
+      ]
+    },
+    {
+      "id": 344,
+      "num": 2,
+      "dimensionName": "长期风险",
+      "dimensionCode": "S",
+      "evaluateExpression": "hx_t_22 + hx_t_23 + hx_t_24 + hx_t_25 + hx_t_26 + hx_t_27 + hx_t_28 + hx_t_29 + hx_t_30 + hx_t_31 + hx_t_32 + hx_t_33 + hx_t_34 + hx_t_35 + hx_t_36 + hx_t_37 + hx_t_38 + hx_t_39 + hx_t_40 + hx_t_41 + hx_t_42 + hx_t_43 + hx_t_44 + hx_t_45 + hx_t_46",
+      "standardScoreFormula": "0",
+      "results": [
+        {
+          "id": 691,
+          "evaluateExpression": "hx_wd_y_2 >= 0&& hx_wd_y_2 <= 67",
+          "conclusionAnalysis": "该因子请查看具体答题内容",
+          "suggestion": "暂无",
+          "assessmentWarning": "none"
+        }
+      ]
+    },
+    {
+      "id": 345,
+      "num": 3,
+      "dimensionName": "空心总分（价值观与态度）",
+      "dimensionCode": "K",
+      "evaluateExpression": "hx_t_72 + hx_t_73 + hx_t_74 + hx_t_75 + hx_t_76 + hx_t_77 + hx_t_78 + hx_t_79 + hx_t_80 + hx_t_81 + hx_t_82 + hx_t_83 + hx_t_84 + hx_t_85 + hx_t_86 + hx_t_87 + hx_t_88 + hx_t_89 + hx_t_90 + hx_t_91 + hx_t_92 + hx_t_93 + hx_t_94 + hx_t_95 + hx_t_96",
+      "standardScoreFormula": "0",
+      "results": [
+        {
+          "id": 692,
+          "evaluateExpression": "hx_wd_y_3 >= 0&& hx_wd_y_3 <= 25",
+          "conclusionAnalysis": "该因子请查看具体答题内容",
+          "suggestion": "暂无",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 693,
+          "evaluateExpression": "hx_wd_y_3 >= 26&& hx_wd_y_3 <= 50",
+          "conclusionAnalysis": "该因子请查看具体答题内容",
+          "suggestion": "暂无",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 694,
+          "evaluateExpression": "hx_wd_y_3 >= 51&& hx_wd_y_3 <= 75",
+          "conclusionAnalysis": "该因子请查看具体答题内容",
+          "suggestion": "暂无",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 695,
+          "evaluateExpression": "hx_wd_y_3 >= 76&& hx_wd_y_3 <= 100",
+          "conclusionAnalysis": "该因子请查看具体答题内容",
+          "suggestion": "暂无",
+          "assessmentWarning": "none"
+        }
+      ]
+    },
+    {
+      "id": 346,
+      "num": 4,
+      "dimensionName": "测谎（效度）",
+      "dimensionCode": "L",
+      "evaluateExpression": "hx_t_47 + hx_t_48 + hx_t_49 + hx_t_50 + hx_t_51 + hx_t_52 + hx_t_53 + hx_t_54 + hx_t_55 + hx_t_56 + hx_t_57 + hx_t_58 + hx_t_59 + hx_t_60 + hx_t_61 + hx_t_62 + hx_t_63 + hx_t_64 + hx_t_65 + hx_t_66",
+      "standardScoreFormula": "0",
+      "results": [
+        {
+          "id": 696,
+          "evaluateExpression": "hx_wd_y_4 >= 0&& hx_wd_y_4 <= 17",
+          "conclusionAnalysis": "答卷正常（大于等于18分，可认为答卷无效）",
+          "suggestion": "暂无",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 697,
+          "evaluateExpression": "hx_wd_y_4 >= 18&& hx_wd_y_4 <= 20",
+          "conclusionAnalysis": "答卷无效（大于等于18分，可认为答卷无效）",
+          "suggestion": "暂无",
+          "assessmentWarning": "high"
+        }
+      ]
+    },
+    {
+      "id": 347,
+      "num": 5,
+      "dimensionName": "一致性（效度）",
+      "dimensionCode": "E",
+      "evaluateExpression": "(hx_t_67 == hx_t_53 ? 1 : 0) + (hx_t_68 == hx_t_58 ? 1 : 0) + (hx_t_69 == hx_t_49 ? 1 : 0) + (hx_t_70 == hx_t_64 ? 1 : 0) + (hx_t_71 == hx_t_60 ? 1 : 0)",
+      "standardScoreFormula": "0",
+      "results": [
+        {
+          "id": 698,
+          "evaluateExpression": "hx_wd_y_5 >= 0&& hx_wd_y_5 <= 2",
+          "conclusionAnalysis": "答卷无效（小于3分，可认为答卷无效）",
+          "suggestion": "暂无",
+          "assessmentWarning": "high"
+        },
+        {
+          "id": 699,
+          "evaluateExpression": "hx_wd_y_5 >= 3&& hx_wd_y_5 <= 5",
+          "conclusionAnalysis": "答卷正常（小于3分，可认为答卷无效）",
+          "suggestion": "暂无",
+          "assessmentWarning": "none"
+        }
+      ]
+    },
+    {
+      "id": 348,
+      "num": 6,
+      "dimensionName": "预警等级",
+      "dimensionCode": "W",
+      "evaluateExpression": "max(((hx_wd_y_s >= 41 && hx_wd_y_s <= 67 ? 1 : 0) + (hx_t_42 == 5 ? 1 : 0) + (hx_t_9 == 3 ? 1 : 0) > 0 ? 5 : 0), ((hx_wd_y_s >= 31 && hx_wd_y_s <= 40 ? 1 : 0) + (hx_t_42 == 2 ? 1 : 0) + (hx_wd_y_k >= 70 && hx_wd_y_k <= 100 ? 1 : 0) + (hx_wd_y_d >= 42 && hx_wd_y_d <= 63 ? 1 : 0) + (hx_t_9 == 2 ? 1 : 0) > 0 ? 4 : 0), ((hx_wd_y_s >= 21 && hx_wd_y_s <= 30 ? 1 : 0) + (hx_t_40 == 3 ? 1 : 0) + (hx_wd_y_k >= 47 && hx_wd_y_k <= 70 ? 1 : 0) + (hx_wd_y_d >= 21 && hx_wd_y_d <= 41 ? 1 : 0) + (hx_t_9 == 1 ? 1 : 0) > 0 ? 3 : 0), ((hx_wd_y_s >= 11 && hx_wd_y_s <= 20 ? 1 : 0) + (hx_t_38 == 2 ? 1 : 0) + (hx_wd_y_k >= 36 && hx_wd_y_k <= 47 ? 1 : 0) + (hx_wd_y_d >= 15 && hx_wd_y_d <= 20 ? 1 : 0) > 0 ? 2 : 0), ((hx_wd_y_s >= 0 && hx_wd_y_s <= 10 ? 1 : 0) + (hx_wd_y_k >= 0 && hx_wd_y_k <= 36 ? 1 : 0) + (hx_wd_y_d >= 0 && hx_wd_y_d <= 14 ? 1 : 0) + (hx_t_9 == 0 ? 1 : 0) > 0 ? 1 : 0))",
+      "standardScoreFormula": "0",
+      "results": [
+        {
+          "id": 700,
+          "evaluateExpression": "hx_wd_y_6 >= 5&& hx_wd_y_6 <= 5",
+          "conclusionAnalysis": "红色警戒，根据测评结果该同学目前心理健康状况很不稳定，很可能有自杀倾向，需要即时接受心理中心评估，或者接受精神科专科医师的评估诊断。通过评估来确定其是否确实存在心理危机和自杀或者攻击他人风险，或严重精神疾病。也有可能该结果是同学胡乱答题或者故意装坏所致。无论哪种情况，都必须要审慎评估，持续关注。评估可以根据测评的具体结果数据和阳性题题项答题情况来进行。主要是家庭问题，社会支持，目前抑郁情绪和空心病问题，请具体参见测评结果。在解除警戒状态之前，必须保证已经采取必要的保护措施，并每周评估了解这位同学的情况。",
+          "suggestion": "暂无",
+          "assessmentWarning": "high"
+        },
+        {
+          "id": 701,
+          "evaluateExpression": "hx_wd_y_6 >= 4&& hx_wd_y_6 <= 4",
+          "conclusionAnalysis": "橙色高危，该同学目前心理健康状况不稳定，有高度危险的倾向，需要即时接受心理中心评估，或者接受精神科专科医师的评估诊断。评估可以根据测评的具体结果数据和阳性题题项答题情况来进行。主要是家庭问题，社会支持，目前抑郁情绪和空心病问题，请具体参见测评结果。在解除高危状态之前，必须保证已经采取必要的保护措施，并每周评估了解这位同学的情况。",
+          "suggestion": "暂无",
+          "assessmentWarning": "high"
+        },
+        {
+          "id": 702,
+          "evaluateExpression": "hx_wd_y_6 >= 3&& hx_wd_y_6 <= 3",
+          "conclusionAnalysis": "黄色追踪，该同学存在有一些比较严重的心理困扰，需要定期的心理评估。评估可以根据测评的具体结果数据和阳性题题项答题情况来进行。主要是家庭问题，社会支持，目前抑郁情绪和空心病问题，请具体参见测评结果。请每个学期都至少和该同学深入访谈一次，如果该同学出现特殊情况，例如考试不及格，失恋，家庭问题等，请及时了解影响情况。",
+          "suggestion": "暂无",
+          "assessmentWarning": "high"
+        },
+        {
+          "id": 703,
+          "evaluateExpression": "hx_wd_y_6 >= 2&& hx_wd_y_6 <= 2",
+          "conclusionAnalysis": "蓝色关注，该同学也许最近遇到了一些困难，也可能此前经历过一些痛苦，在和该同学的访谈中可以鼓励其来心理咨询中心做咨询，或者和辅导员深入讨论。",
+          "suggestion": "暂无",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 704,
+          "evaluateExpression": "hx_wd_y_6 >= 1&& hx_wd_y_6 <= 1",
+          "conclusionAnalysis": "绿色正常，目前根据测评结果，该同学目前无严重心理危机或者情绪困扰。近期出现极端心理危机可能性不大。",
+          "suggestion": "暂无",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 705,
+          "evaluateExpression": "hx_wd_y_6 >= 0&& hx_wd_y_6 <= 0",
+          "conclusionAnalysis": "计算错误，请检查公式",
+          "suggestion": "暂无",
+          "assessmentWarning": "none"
+        }
+      ]
+    },
+    {
+      "id": 349,
+      "num": 7,
+      "dimensionName": "测评结果",
+      "dimensionCode": "R",
+      "evaluateExpression": "hx_wd_y_w",
+      "standardScoreFormula": "0",
+      "results": [
+        {
+          "id": 706,
+          "evaluateExpression": "hx_wd_y_7 >= 5&& hx_wd_y_7 <= 5",
+          "conclusionAnalysis": "亲爱的同学，看起来你可能最近过得不太好，或许遇到了一些困难，请你尽快和我们联系，心理中心的老师们会给您进一步的帮助。",
+          "suggestion": "暂无",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 707,
+          "evaluateExpression": "hx_wd_y_7 >= 4&& hx_wd_y_7 <= 4",
+          "conclusionAnalysis": "亲爱的同学，看起来目前你的情绪状态不好，或许遇到了一些问题，请您和我们联系，以获得进一步对自己的了解和帮助。",
+          "suggestion": "暂无",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 708,
+          "evaluateExpression": "hx_wd_y_7 >= 3&& hx_wd_y_7 <= 3",
+          "conclusionAnalysis": "亲爱的同学，了解自己并不容易，理解这个世界有时更难，心理咨询有时可以帮助到你，请与我们联系预约进一步的帮助和支持。",
+          "suggestion": "暂无",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 709,
+          "evaluateExpression": "hx_wd_y_7 >= 2&& hx_wd_y_7 <= 2",
+          "conclusionAnalysis": "亲爱的同学，也许你最近遇到了一些困难，也许此前经历过一些痛苦，自我探索是一个毕生的课题，欢迎你来我们中心，有专业的老师或许可以帮助到你。",
+          "suggestion": "暂无",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 710,
+          "evaluateExpression": "hx_wd_y_7 >= 1&& hx_wd_y_7 <= 1",
+          "conclusionAnalysis": "亲爱的同学，看起来你这次心理测评的结果说明你目前过得挺好的，自我探索是人一生的课题，在这个园子里，也许未来几年你会有不顺心的时候，不开心的时候，任何时候，在你需要的时候，来找我们吧，我们心理中心的老师们会热忱地给予你帮助和指导的。",
+          "suggestion": "暂无",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 711,
+          "evaluateExpression": "hx_wd_y_7 >= 0&& hx_wd_y_7 <= 0",
+          "conclusionAnalysis": "报告生成错误，请联系管理员",
+          "suggestion": "暂无",
+          "assessmentWarning": "none"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,136 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --radius: 0.75rem;
+    --background: 210 20% 98%;
+    --foreground: 215 25% 20%;
+    --card: 0 0% 100%;
+    --card-foreground: 215 25% 20%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 215 25% 20%;
+    --primary: 214 100% 50%;
+    --primary-foreground: 0 0% 100%;
+    --primary-glow: 214 100% 60%;
+    --secondary: 210 100% 96%;
+    --secondary-foreground: 214 100% 40%;
+    --muted: 210 20% 96%;
+    --muted-foreground: 215 16% 50%;
+    --accent: 142 76% 96%;
+    --accent-foreground: 142 76% 36%;
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 100%;
+    --border: 214 20% 90%;
+    --input: 214 20% 90%;
+    --ring: 214 100% 50%;
+    --success: 142 76% 36%;
+    --success-foreground: 0 0% 100%;
+    --warning: 38 92% 50%;
+    --warning-foreground: 0 0% 100%;
+    --info: 199 89% 48%;
+    --info-foreground: 0 0% 100%;
+  }
+
+  .dark {
+    --background: 215 28% 12%;
+    --foreground: 210 40% 98%;
+    --card: 215 28% 16%;
+    --card-foreground: 210 40% 98%;
+    --popover: 215 28% 16%;
+    --popover-foreground: 210 40% 98%;
+    --primary: 214 100% 55%;
+    --primary-foreground: 0 0% 100%;
+    --primary-glow: 214 100% 65%;
+    --secondary: 215 28% 22%;
+    --secondary-foreground: 214 100% 60%;
+    --muted: 215 28% 22%;
+    --muted-foreground: 215 20% 65%;
+    --accent: 142 76% 22%;
+    --accent-foreground: 142 76% 50%;
+    --destructive: 0 63% 50%;
+    --destructive-foreground: 210 40% 98%;
+    --border: 215 28% 22%;
+    --input: 215 28% 22%;
+    --ring: 214 100% 55%;
+    --success: 142 76% 45%;
+    --success-foreground: 0 0% 100%;
+    --warning: 38 92% 55%;
+    --warning-foreground: 0 0% 100%;
+    --info: 199 89% 53%;
+    --info-foreground: 0 0% 100%;
+  }
+
+  * {
+    @apply border-border;
+  }
+
+  html {
+    color-scheme: light;
+  }
+
+  body {
+    @apply bg-background text-foreground antialiased;
+    font-family:
+      Inter,
+      "PingFang SC",
+      "Hiragino Sans GB",
+      "Microsoft YaHei",
+      system-ui,
+      sans-serif;
+    font-feature-settings: "rlig" 1, "calt" 1;
+    margin: 0;
+  }
+
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+
+  button,
+  input,
+  textarea,
+  select {
+    font: inherit;
+  }
+}
+
+@layer utilities {
+  .glass {
+    background: hsla(var(--card) / 0.72);
+    backdrop-filter: blur(16px);
+  }
+
+  .gradient-text {
+    background: linear-gradient(135deg, hsl(var(--primary)), hsl(var(--info)));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+
+  .page-grid {
+    @apply mx-auto max-w-7xl px-5 md:px-8 lg:px-12;
+  }
+
+  .soft-panel {
+    @apply rounded-3xl border border-white/60 bg-white/85 shadow-sm backdrop-blur dark:border-slate-800 dark:bg-slate-900/75;
+  }
+
+  .edge-fade-x {
+    mask-image: linear-gradient(to right, transparent, black 4%, black 96%, transparent);
+  }
+
+  .scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
+
+  .mobile-safe {
+    padding-bottom: calc(env(safe-area-inset-bottom) + 1rem);
+  }
+}

@@ -1,0 +1,583 @@
+{
+  "id": "ucla-loneliness",
+  "title": "孤独感量表(UCLA)",
+  "description": "本问卷帮助了解您近期的孤独感体验，包括社交联系和情感归属等方面。共20题，大约需要4分钟完成。",
+  "type": "basic",
+  "questions": [
+    {
+      "text": "您是否经常感到与周围的人很亲近？",
+      "type": "radio",
+      "orderNum": 1,
+      "options": [
+        {
+          "text": "从未有此感觉",
+          "value": "4",
+          "optionNo": "A"
+        },
+        {
+          "text": "很少有此感觉",
+          "value": "3",
+          "optionNo": "B"
+        },
+        {
+          "text": "有时有此感觉",
+          "value": "2",
+          "optionNo": "C"
+        },
+        {
+          "text": "一直有此感觉",
+          "value": "1",
+          "optionNo": "D"
+        }
+      ]
+    },
+    {
+      "text": "您是否经常感到缺少陪伴？",
+      "type": "radio",
+      "orderNum": 2,
+      "options": [
+        {
+          "text": "从未有此感觉",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "很少有此感觉",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "有时有此感觉",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "一直有此感觉",
+          "value": "4",
+          "optionNo": "D"
+        }
+      ]
+    },
+    {
+      "text": "您是否经常感到没有人真正了解您？",
+      "type": "radio",
+      "orderNum": 3,
+      "options": [
+        {
+          "text": "从未有此感觉",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "很少有此感觉",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "有时有此感觉",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "一直有此感觉",
+          "value": "4",
+          "optionNo": "D"
+        }
+      ]
+    },
+    {
+      "text": "您是否经常感到自己被孤立？",
+      "type": "radio",
+      "orderNum": 4,
+      "options": [
+        {
+          "text": "从未有此感觉",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "很少有此感觉",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "有时有此感觉",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "一直有此感觉",
+          "value": "4",
+          "optionNo": "D"
+        }
+      ]
+    },
+    {
+      "text": "您是否经常感到自己属于某个群体的一部分？",
+      "type": "radio",
+      "orderNum": 5,
+      "options": [
+        {
+          "text": "从未有此感觉",
+          "value": "4",
+          "optionNo": "A"
+        },
+        {
+          "text": "很少有此感觉",
+          "value": "3",
+          "optionNo": "B"
+        },
+        {
+          "text": "有时有此感觉",
+          "value": "2",
+          "optionNo": "C"
+        },
+        {
+          "text": "一直有此感觉",
+          "value": "1",
+          "optionNo": "D"
+        }
+      ]
+    },
+    {
+      "text": "您是否经常感到自己有很多共同话题可以和别人分享？",
+      "type": "radio",
+      "orderNum": 6,
+      "options": [
+        {
+          "text": "从未有此感觉",
+          "value": "4",
+          "optionNo": "A"
+        },
+        {
+          "text": "很少有此感觉",
+          "value": "3",
+          "optionNo": "B"
+        },
+        {
+          "text": "有时有此感觉",
+          "value": "2",
+          "optionNo": "C"
+        },
+        {
+          "text": "一直有此感觉",
+          "value": "1",
+          "optionNo": "D"
+        }
+      ]
+    },
+    {
+      "text": "您是否经常感到自己不再亲近任何人？",
+      "type": "radio",
+      "orderNum": 7,
+      "options": [
+        {
+          "text": "从未有此感觉",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "很少有此感觉",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "有时有此感觉",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "一直有此感觉",
+          "value": "4",
+          "optionNo": "D"
+        }
+      ]
+    },
+    {
+      "text": "您是否经常感到自己的兴趣和想法与周围的人不同？",
+      "type": "radio",
+      "orderNum": 8,
+      "options": [
+        {
+          "text": "从未有此感觉",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "很少有此感觉",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "有时有此感觉",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "一直有此感觉",
+          "value": "4",
+          "optionNo": "D"
+        }
+      ]
+    },
+    {
+      "text": "您是否经常感到自己是外向和友好的？",
+      "type": "radio",
+      "orderNum": 9,
+      "options": [
+        {
+          "text": "从未有此感觉",
+          "value": "4",
+          "optionNo": "A"
+        },
+        {
+          "text": "很少有此感觉",
+          "value": "3",
+          "optionNo": "B"
+        },
+        {
+          "text": "有时有此感觉",
+          "value": "2",
+          "optionNo": "C"
+        },
+        {
+          "text": "一直有此感觉",
+          "value": "1",
+          "optionNo": "D"
+        }
+      ]
+    },
+    {
+      "text": "您是否经常感到自己很容易与人亲近？",
+      "type": "radio",
+      "orderNum": 10,
+      "options": [
+        {
+          "text": "从未有此感觉",
+          "value": "4",
+          "optionNo": "A"
+        },
+        {
+          "text": "很少有此感觉",
+          "value": "3",
+          "optionNo": "B"
+        },
+        {
+          "text": "有时有此感觉",
+          "value": "2",
+          "optionNo": "C"
+        },
+        {
+          "text": "一直有此感觉",
+          "value": "1",
+          "optionNo": "D"
+        }
+      ]
+    },
+    {
+      "text": "您是否经常感到被冷落？",
+      "type": "radio",
+      "orderNum": 11,
+      "options": [
+        {
+          "text": "从未有此感觉",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "很少有此感觉",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "有时有此感觉",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "一直有此感觉",
+          "value": "4",
+          "optionNo": "D"
+        }
+      ]
+    },
+    {
+      "text": "您是否经常感到自己与他人的关系没有意义？",
+      "type": "radio",
+      "orderNum": 12,
+      "options": [
+        {
+          "text": "从未有此感觉",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "很少有此感觉",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "有时有此感觉",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "一直有此感觉",
+          "value": "4",
+          "optionNo": "D"
+        }
+      ]
+    },
+    {
+      "text": "您是否经常感到没有人可以求助？",
+      "type": "radio",
+      "orderNum": 13,
+      "options": [
+        {
+          "text": "从未有此感觉",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "很少有此感觉",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "有时有此感觉",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "一直有此感觉",
+          "value": "4",
+          "optionNo": "D"
+        }
+      ]
+    },
+    {
+      "text": "您是否经常感到自己孤独寂寞？",
+      "type": "radio",
+      "orderNum": 14,
+      "options": [
+        {
+          "text": "从未有此感觉",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "很少有此感觉",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "有时有此感觉",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "一直有此感觉",
+          "value": "4",
+          "optionNo": "D"
+        }
+      ]
+    },
+    {
+      "text": "您是否经常感到自己是快乐的？",
+      "type": "radio",
+      "orderNum": 15,
+      "options": [
+        {
+          "text": "从未有此感觉",
+          "value": "4",
+          "optionNo": "A"
+        },
+        {
+          "text": "很少有此感觉",
+          "value": "3",
+          "optionNo": "B"
+        },
+        {
+          "text": "有时有此感觉",
+          "value": "2",
+          "optionNo": "C"
+        },
+        {
+          "text": "一直有此感觉",
+          "value": "1",
+          "optionNo": "D"
+        }
+      ]
+    },
+    {
+      "text": "您是否经常感到自己与周围的人很合得来？",
+      "type": "radio",
+      "orderNum": 16,
+      "options": [
+        {
+          "text": "从未有此感觉",
+          "value": "4",
+          "optionNo": "A"
+        },
+        {
+          "text": "很少有此感觉",
+          "value": "3",
+          "optionNo": "B"
+        },
+        {
+          "text": "有时有此感觉",
+          "value": "2",
+          "optionNo": "C"
+        },
+        {
+          "text": "一直有此感觉",
+          "value": "1",
+          "optionNo": "D"
+        }
+      ]
+    },
+    {
+      "text": "您是否经常感到自己感到不舒服和不自在？",
+      "type": "radio",
+      "orderNum": 17,
+      "options": [
+        {
+          "text": "从未有此感觉",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "很少有此感觉",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "有时有此感觉",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "一直有此感觉",
+          "value": "4",
+          "optionNo": "D"
+        }
+      ]
+    },
+    {
+      "text": "您是否经常感到人们在身边但不在一起？",
+      "type": "radio",
+      "orderNum": 18,
+      "options": [
+        {
+          "text": "从未有此感觉",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "很少有此感觉",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "有时有此感觉",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "一直有此感觉",
+          "value": "4",
+          "optionNo": "D"
+        }
+      ]
+    },
+    {
+      "text": "您是否经常感到自己有很多可以信赖的人？",
+      "type": "radio",
+      "orderNum": 19,
+      "options": [
+        {
+          "text": "从未有此感觉",
+          "value": "4",
+          "optionNo": "A"
+        },
+        {
+          "text": "很少有此感觉",
+          "value": "3",
+          "optionNo": "B"
+        },
+        {
+          "text": "有时有此感觉",
+          "value": "2",
+          "optionNo": "C"
+        },
+        {
+          "text": "一直有此感觉",
+          "value": "1",
+          "optionNo": "D"
+        }
+      ]
+    },
+    {
+      "text": "您是否经常感到自己和别人之间有真正的亲密感？",
+      "type": "radio",
+      "orderNum": 20,
+      "options": [
+        {
+          "text": "从未有此感觉",
+          "value": "4",
+          "optionNo": "A"
+        },
+        {
+          "text": "很少有此感觉",
+          "value": "3",
+          "optionNo": "B"
+        },
+        {
+          "text": "有时有此感觉",
+          "value": "2",
+          "optionNo": "C"
+        },
+        {
+          "text": "一直有此感觉",
+          "value": "1",
+          "optionNo": "D"
+        }
+      ]
+    }
+  ],
+  "dimensions": [
+    {
+      "dimensionName": "孤独感",
+      "dimensionCode": "loneliness",
+      "num": 1,
+      "evaluateExpression": "hx_t_1 + hx_t_2 + hx_t_3 + hx_t_4 + hx_t_5 + hx_t_6 + hx_t_7 + hx_t_8 + hx_t_9 + hx_t_10 + hx_t_11 + hx_t_12 + hx_t_13 + hx_t_14 + hx_t_15 + hx_t_16 + hx_t_17 + hx_t_18 + hx_t_19 + hx_t_20",
+      "standardScoreFormula": "",
+      "results": [
+        {
+          "evaluateExpression": "hx_wd_y_1 <= 34",
+          "conclusionAnalysis": "低孤独感",
+          "suggestion": "您的孤独感水平较低，说明您有良好的社交联系和情感归属。您能够从周围的人际关系中获得足够的支持和温暖。建议继续保持积极的社交生活。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_1 > 34 && hx_wd_y_1 <= 44",
+          "conclusionAnalysis": "中等孤独感",
+          "suggestion": "您的孤独感处于中等水平，说明您在某些时候会感到社交联系不足。建议主动拓展社交圈，尝试参加社区活动或兴趣小组，加强与朋友和家人的联系。",
+          "assessmentWarning": "low"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_1 > 44 && hx_wd_y_1 <= 54",
+          "conclusionAnalysis": "较高孤独感",
+          "suggestion": "您的孤独感水平较高，说明您经常感到与他人疏离或缺乏情感支持。长期的孤独感可能影响身心健康。建议主动寻求社交机会，也可以考虑寻求心理咨询来探索改善人际关系的方法。",
+          "assessmentWarning": "middle"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_1 > 54",
+          "conclusionAnalysis": "非常高孤独感",
+          "suggestion": "您的孤独感水平非常高，说明您在社交联系和情感归属方面存在显著困难。长期的孤独感可能对身心健康产生不良影响。强烈建议寻求专业心理咨询或支持，帮助您建立更有意义的人际关系。",
+          "assessmentWarning": "high"
+        }
+      ]
+    }
+  ]
+}

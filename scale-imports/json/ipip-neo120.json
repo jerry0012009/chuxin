@@ -1,0 +1,4795 @@
+{
+  "id": "ipip-neo120",
+  "title": "IPIP大五人格120题(IPIP-NEO-120)",
+  "description": "本问卷帮助全面了解您在30个人格特质维度上的表现，是大五人格的精细评估工具。共120题，大约需要20分钟完成。",
+  "type": "basic",
+  "questions": [
+    {
+      "text": "为很多事情感到担心",
+      "type": "radio",
+      "orderNum": 1,
+      "options": [
+        {
+          "text": "非常不准确",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较不准确",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较准确",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常准确",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "很容易交到朋友",
+      "type": "radio",
+      "orderNum": 2,
+      "options": [
+        {
+          "text": "非常不准确",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较不准确",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较准确",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常准确",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "有丰富的想象力",
+      "type": "radio",
+      "orderNum": 3,
+      "options": [
+        {
+          "text": "非常不准确",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较不准确",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较准确",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常准确",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "信任其他人",
+      "type": "radio",
+      "orderNum": 4,
+      "options": [
+        {
+          "text": "非常不准确",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较不准确",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较准确",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常准确",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "能成功完成任务",
+      "type": "radio",
+      "orderNum": 5,
+      "options": [
+        {
+          "text": "非常不准确",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较不准确",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较准确",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常准确",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "很容易生气",
+      "type": "radio",
+      "orderNum": 6,
+      "options": [
+        {
+          "text": "非常不准确",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较不准确",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较准确",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常准确",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "喜欢参加大型聚会",
+      "type": "radio",
+      "orderNum": 7,
+      "options": [
+        {
+          "text": "非常不准确",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较不准确",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较准确",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常准确",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "认为艺术是很重要的",
+      "type": "radio",
+      "orderNum": 8,
+      "options": [
+        {
+          "text": "非常不准确",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较不准确",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较准确",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常准确",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "会利用他人来达成自己的目的",
+      "type": "radio",
+      "orderNum": 9,
+      "options": [
+        {
+          "text": "非常不准确",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较不准确",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较准确",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常准确",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "喜欢整洁",
+      "type": "radio",
+      "orderNum": 10,
+      "options": [
+        {
+          "text": "非常不准确",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较不准确",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较准确",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常准确",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "时常感到忧郁",
+      "type": "radio",
+      "orderNum": 11,
+      "options": [
+        {
+          "text": "非常不准确",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较不准确",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较准确",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常准确",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "承担责任",
+      "type": "radio",
+      "orderNum": 12,
+      "options": [
+        {
+          "text": "非常不准确",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较不准确",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较准确",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常准确",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "能强烈感受到自己的情绪",
+      "type": "radio",
+      "orderNum": 13,
+      "options": [
+        {
+          "text": "非常不准确",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较不准确",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较准确",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常准确",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "乐于帮助他人",
+      "type": "radio",
+      "orderNum": 14,
+      "options": [
+        {
+          "text": "非常不准确",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较不准确",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较准确",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常准确",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "信守承诺",
+      "type": "radio",
+      "orderNum": 15,
+      "options": [
+        {
+          "text": "非常不准确",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较不准确",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较准确",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常准确",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "感觉自己很难接近别人",
+      "type": "radio",
+      "orderNum": 16,
+      "options": [
+        {
+          "text": "非常不准确",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较不准确",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较准确",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常准确",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "总是是很忙碌",
+      "type": "radio",
+      "orderNum": 17,
+      "options": [
+        {
+          "text": "非常不准确",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较不准确",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较准确",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常准确",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "相比墨守成规，我更喜欢有变化",
+      "type": "radio",
+      "orderNum": 18,
+      "options": [
+        {
+          "text": "非常不准确",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较不准确",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较准确",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常准确",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "喜欢和别人比试",
+      "type": "radio",
+      "orderNum": 19,
+      "options": [
+        {
+          "text": "非常不准确",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较不准确",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较准确",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常准确",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "工作努力",
+      "type": "radio",
+      "orderNum": 20,
+      "options": [
+        {
+          "text": "非常不准确",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较不准确",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较准确",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常准确",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "大吃大喝寻欢作乐",
+      "type": "radio",
+      "orderNum": 21,
+      "options": [
+        {
+          "text": "非常不准确",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较不准确",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较准确",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常准确",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "喜欢追求刺激",
+      "type": "radio",
+      "orderNum": 22,
+      "options": [
+        {
+          "text": "非常不准确",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较不准确",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较准确",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常准确",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "喜欢阅读有挑战性的材料",
+      "type": "radio",
+      "orderNum": 23,
+      "options": [
+        {
+          "text": "非常不准确",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较不准确",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较准确",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常准确",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "相信自己比别人更好",
+      "type": "radio",
+      "orderNum": 24,
+      "options": [
+        {
+          "text": "非常不准确",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较不准确",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较准确",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常准确",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "我总是有所准备",
+      "type": "radio",
+      "orderNum": 25,
+      "options": [
+        {
+          "text": "非常不准确",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较不准确",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较准确",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常准确",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "容易慌张",
+      "type": "radio",
+      "orderNum": 26,
+      "options": [
+        {
+          "text": "非常不准确",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较不准确",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较准确",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常准确",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "我的快乐会感染周围的人",
+      "type": "radio",
+      "orderNum": 27,
+      "options": [
+        {
+          "text": "非常不准确",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较不准确",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较准确",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常准确",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "认为自己在政治方面非常自由开放",
+      "type": "radio",
+      "orderNum": 28,
+      "options": [
+        {
+          "text": "非常不准确",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较不准确",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较准确",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常准确",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "同情流浪汉",
+      "type": "radio",
+      "orderNum": 29,
+      "options": [
+        {
+          "text": "非常不准确",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较不准确",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较准确",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常准确",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "会不经过思考就开始行动",
+      "type": "radio",
+      "orderNum": 30,
+      "options": [
+        {
+          "text": "非常不准确",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较不准确",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较准确",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常准确",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "担心会发生最糟糕的情况",
+      "type": "radio",
+      "orderNum": 31,
+      "options": [
+        {
+          "text": "非常不准确",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较不准确",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较准确",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常准确",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "和其他人待在一起时我觉得很自在",
+      "type": "radio",
+      "orderNum": 32,
+      "options": [
+        {
+          "text": "非常不准确",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较不准确",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较准确",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常准确",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "喜欢天马行空地幻想",
+      "type": "radio",
+      "orderNum": 33,
+      "options": [
+        {
+          "text": "非常不准确",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较不准确",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较准确",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常准确",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "相信他人的出发点是好的",
+      "type": "radio",
+      "orderNum": 34,
+      "options": [
+        {
+          "text": "非常不准确",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较不准确",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较准确",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常准确",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "在自己所从事的领域出类拔萃",
+      "type": "radio",
+      "orderNum": 35,
+      "options": [
+        {
+          "text": "非常不准确",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较不准确",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较准确",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常准确",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "容易被激怒",
+      "type": "radio",
+      "orderNum": 36,
+      "options": [
+        {
+          "text": "非常不准确",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较不准确",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较准确",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常准确",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "在聚会上我会和很多不同的人交谈",
+      "type": "radio",
+      "orderNum": 37,
+      "options": [
+        {
+          "text": "非常不准确",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较不准确",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较准确",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常准确",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "我能发现别人看不到的美",
+      "type": "radio",
+      "orderNum": 38,
+      "options": [
+        {
+          "text": "非常不准确",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较不准确",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较准确",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常准确",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "为了领先别人我会采用作弊的方式",
+      "type": "radio",
+      "orderNum": 39,
+      "options": [
+        {
+          "text": "非常不准确",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较不准确",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较准确",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常准确",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "经常忘记把东西放回原处",
+      "type": "radio",
+      "orderNum": 40,
+      "options": [
+        {
+          "text": "非常准确",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较准确",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较不准确",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常不准确",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "不喜欢自己",
+      "type": "radio",
+      "orderNum": 41,
+      "options": [
+        {
+          "text": "非常不准确",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较不准确",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较准确",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常准确",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "我会尝试去领导他人",
+      "type": "radio",
+      "orderNum": 42,
+      "options": [
+        {
+          "text": "非常不准确",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较不准确",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较准确",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常准确",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "能感受到他人的情绪",
+      "type": "radio",
+      "orderNum": 43,
+      "options": [
+        {
+          "text": "非常不准确",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较不准确",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较准确",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常准确",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "关心他人",
+      "type": "radio",
+      "orderNum": 44,
+      "options": [
+        {
+          "text": "非常不准确",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较不准确",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较准确",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常准确",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "我会实话实说",
+      "type": "radio",
+      "orderNum": 45,
+      "options": [
+        {
+          "text": "非常不准确",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较不准确",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较准确",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常准确",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "害怕引起他人的注意",
+      "type": "radio",
+      "orderNum": 46,
+      "options": [
+        {
+          "text": "非常不准确",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较不准确",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较准确",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常准确",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "总是是在奔波",
+      "type": "radio",
+      "orderNum": 47,
+      "options": [
+        {
+          "text": "非常不准确",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较不准确",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较准确",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常准确",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "我更喜欢做自己熟悉的事情",
+      "type": "radio",
+      "orderNum": 48,
+      "options": [
+        {
+          "text": "非常准确",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较准确",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较不准确",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常不准确",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "会冲人大喊大叫",
+      "type": "radio",
+      "orderNum": 49,
+      "options": [
+        {
+          "text": "非常不准确",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较不准确",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较准确",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常准确",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "我会超出预期地完成任务或工作",
+      "type": "radio",
+      "orderNum": 50,
+      "options": [
+        {
+          "text": "非常不准确",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较不准确",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较准确",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常准确",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "很少过度放纵自己",
+      "type": "radio",
+      "orderNum": 51,
+      "options": [
+        {
+          "text": "非常准确",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较准确",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较不准确",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常不准确",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "喜欢冒险",
+      "type": "radio",
+      "orderNum": 52,
+      "options": [
+        {
+          "text": "非常不准确",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较不准确",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较准确",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常准确",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "会避免参与关于哲学的讨论",
+      "type": "radio",
+      "orderNum": 53,
+      "options": [
+        {
+          "text": "非常准确",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较准确",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较不准确",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常不准确",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "觉得自己很了不起",
+      "type": "radio",
+      "orderNum": 54,
+      "options": [
+        {
+          "text": "非常不准确",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较不准确",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较准确",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常准确",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "能执行自己制定的计划",
+      "type": "radio",
+      "orderNum": 55,
+      "options": [
+        {
+          "text": "非常不准确",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较不准确",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较准确",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常准确",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "感到被各种事情压得喘不过气来",
+      "type": "radio",
+      "orderNum": 56,
+      "options": [
+        {
+          "text": "非常不准确",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较不准确",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较准确",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常准确",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "我的生活很快乐",
+      "type": "radio",
+      "orderNum": 57,
+      "options": [
+        {
+          "text": "非常不准确",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较不准确",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较准确",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常准确",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "相信没有绝对的对错之分",
+      "type": "radio",
+      "orderNum": 58,
+      "options": [
+        {
+          "text": "非常不准确",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较不准确",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较准确",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常准确",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "我同情那些处境不如自己的人",
+      "type": "radio",
+      "orderNum": 59,
+      "options": [
+        {
+          "text": "非常不准确",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较不准确",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较准确",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常准确",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "会做出草率的决定",
+      "type": "radio",
+      "orderNum": 60,
+      "options": [
+        {
+          "text": "非常不准确",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较不准确",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较准确",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常准确",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "对很多事情感到害怕",
+      "type": "radio",
+      "orderNum": 61,
+      "options": [
+        {
+          "text": "非常不准确",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较不准确",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较准确",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常准确",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "避免和他人接触",
+      "type": "radio",
+      "orderNum": 62,
+      "options": [
+        {
+          "text": "非常准确",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较准确",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较不准确",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常不准确",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "喜欢做白日梦",
+      "type": "radio",
+      "orderNum": 63,
+      "options": [
+        {
+          "text": "非常不准确",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较不准确",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较准确",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常准确",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "相信他人说的话",
+      "type": "radio",
+      "orderNum": 64,
+      "options": [
+        {
+          "text": "非常不准确",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较不准确",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较准确",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常准确",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "能轻松完成任务",
+      "type": "radio",
+      "orderNum": 65,
+      "options": [
+        {
+          "text": "非常不准确",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较不准确",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较准确",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常准确",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "发脾气",
+      "type": "radio",
+      "orderNum": 66,
+      "options": [
+        {
+          "text": "非常不准确",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较不准确",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较准确",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常准确",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "更喜欢一个人独处",
+      "type": "radio",
+      "orderNum": 67,
+      "options": [
+        {
+          "text": "非常准确",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较准确",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较不准确",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常不准确",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "不喜欢诗歌",
+      "type": "radio",
+      "orderNum": 68,
+      "options": [
+        {
+          "text": "非常准确",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较准确",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较不准确",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常不准确",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "占别人的便宜",
+      "type": "radio",
+      "orderNum": 69,
+      "options": [
+        {
+          "text": "非常不准确",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较不准确",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较准确",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常准确",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "我的房间很乱",
+      "type": "radio",
+      "orderNum": 70,
+      "options": [
+        {
+          "text": "非常准确",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较准确",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较不准确",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常不准确",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "经常情绪低落",
+      "type": "radio",
+      "orderNum": 71,
+      "options": [
+        {
+          "text": "非常不准确",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较不准确",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较准确",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常准确",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "掌控局面",
+      "type": "radio",
+      "orderNum": 72,
+      "options": [
+        {
+          "text": "非常不准确",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较不准确",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较准确",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常准确",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "很少察觉到自己的情绪反应",
+      "type": "radio",
+      "orderNum": 73,
+      "options": [
+        {
+          "text": "非常准确",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较准确",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较不准确",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常不准确",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "对他人的感受漠不关心",
+      "type": "radio",
+      "orderNum": 74,
+      "options": [
+        {
+          "text": "非常准确",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较准确",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较不准确",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常不准确",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "破坏规则",
+      "type": "radio",
+      "orderNum": 75,
+      "options": [
+        {
+          "text": "非常准确",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较准确",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较不准确",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常不准确",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "只有和朋友在一起的时候我才会感到自在",
+      "type": "radio",
+      "orderNum": 76,
+      "options": [
+        {
+          "text": "非常不准确",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较不准确",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较准确",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常准确",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "我的闲暇时间非常充实",
+      "type": "radio",
+      "orderNum": 77,
+      "options": [
+        {
+          "text": "非常不准确",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较不准确",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较准确",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常准确",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "不喜欢改变",
+      "type": "radio",
+      "orderNum": 78,
+      "options": [
+        {
+          "text": "非常准确",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较准确",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较不准确",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常不准确",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "侮辱他人",
+      "type": "radio",
+      "orderNum": 79,
+      "options": [
+        {
+          "text": "非常不准确",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较不准确",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较准确",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常准确",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "在工作或学习上我不会多做过得去就行",
+      "type": "radio",
+      "orderNum": 80,
+      "options": [
+        {
+          "text": "非常准确",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较准确",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较不准确",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常不准确",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "能轻松抵御诱惑",
+      "type": "radio",
+      "orderNum": 81,
+      "options": [
+        {
+          "text": "非常准确",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较准确",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较不准确",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常不准确",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "喜欢不计后果地行事",
+      "type": "radio",
+      "orderNum": 82,
+      "options": [
+        {
+          "text": "非常不准确",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较不准确",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较准确",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常准确",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "理解抽象概念对我来说有些困难",
+      "type": "radio",
+      "orderNum": 83,
+      "options": [
+        {
+          "text": "非常准确",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较准确",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较不准确",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常不准确",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "对自己的评价很高",
+      "type": "radio",
+      "orderNum": 84,
+      "options": [
+        {
+          "text": "非常不准确",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较不准确",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较准确",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常准确",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "浪费时间",
+      "type": "radio",
+      "orderNum": 85,
+      "options": [
+        {
+          "text": "非常准确",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较准确",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较不准确",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常不准确",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "感觉自己处理事情力不从心",
+      "type": "radio",
+      "orderNum": 86,
+      "options": [
+        {
+          "text": "非常不准确",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较不准确",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较准确",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常准确",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "热爱生活",
+      "type": "radio",
+      "orderNum": 87,
+      "options": [
+        {
+          "text": "非常不准确",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较不准确",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较准确",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常准确",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "我在政治上比较保守",
+      "type": "radio",
+      "orderNum": 88,
+      "options": [
+        {
+          "text": "非常准确",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较准确",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较不准确",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常不准确",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "对别人遇到的麻烦事不感兴趣",
+      "type": "radio",
+      "orderNum": 89,
+      "options": [
+        {
+          "text": "非常准确",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较准确",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较不准确",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常不准确",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "仓促行事",
+      "type": "radio",
+      "orderNum": 90,
+      "options": [
+        {
+          "text": "非常不准确",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较不准确",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较准确",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常准确",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "我很容易觉得压力大",
+      "type": "radio",
+      "orderNum": 91,
+      "options": [
+        {
+          "text": "非常不准确",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较不准确",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较准确",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常准确",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "和他人保持距离",
+      "type": "radio",
+      "orderNum": 92,
+      "options": [
+        {
+          "text": "非常准确",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较准确",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较不准确",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常不准确",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "喜欢陷入沉思",
+      "type": "radio",
+      "orderNum": 93,
+      "options": [
+        {
+          "text": "非常不准确",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较不准确",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较准确",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常准确",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "不相信别人",
+      "type": "radio",
+      "orderNum": 94,
+      "options": [
+        {
+          "text": "非常准确",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较准确",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较不准确",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常不准确",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "知道如何完成任务",
+      "type": "radio",
+      "orderNum": 95,
+      "options": [
+        {
+          "text": "非常不准确",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较不准确",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较准确",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常准确",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "不会轻易被惹恼",
+      "type": "radio",
+      "orderNum": 96,
+      "options": [
+        {
+          "text": "非常准确",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较准确",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较不准确",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常不准确",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "避开人多的地方",
+      "type": "radio",
+      "orderNum": 97,
+      "options": [
+        {
+          "text": "非常准确",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较准确",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较不准确",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常不准确",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "不喜欢去美术馆",
+      "type": "radio",
+      "orderNum": 98,
+      "options": [
+        {
+          "text": "非常准确",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较准确",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较不准确",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常不准确",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "给别人使坏",
+      "type": "radio",
+      "orderNum": 99,
+      "options": [
+        {
+          "text": "非常不准确",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较不准确",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较准确",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常准确",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "我的东西放得到处都是",
+      "type": "radio",
+      "orderNum": 100,
+      "options": [
+        {
+          "text": "非常准确",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较准确",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较不准确",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常不准确",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "对自己感到满意",
+      "type": "radio",
+      "orderNum": 101,
+      "options": [
+        {
+          "text": "非常准确",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较准确",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较不准确",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常不准确",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "等着别人来带头",
+      "type": "radio",
+      "orderNum": 102,
+      "options": [
+        {
+          "text": "非常准确",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较准确",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较不准确",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常不准确",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "不理解那些情绪化的人",
+      "type": "radio",
+      "orderNum": 103,
+      "options": [
+        {
+          "text": "非常准确",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较准确",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较不准确",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常不准确",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "不愿为他人花费时间",
+      "type": "radio",
+      "orderNum": 104,
+      "options": [
+        {
+          "text": "非常准确",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较准确",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较不准确",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常不准确",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "违背自己的承诺",
+      "type": "radio",
+      "orderNum": 105,
+      "options": [
+        {
+          "text": "非常准确",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较准确",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较不准确",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常不准确",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "不会被复杂的社交情境所困扰",
+      "type": "radio",
+      "orderNum": 106,
+      "options": [
+        {
+          "text": "非常准确",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较准确",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较不准确",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常不准确",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "喜欢慢慢来",
+      "type": "radio",
+      "orderNum": 107,
+      "options": [
+        {
+          "text": "非常准确",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较准确",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较不准确",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常不准确",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "我喜欢传统的方式",
+      "type": "radio",
+      "orderNum": 108,
+      "options": [
+        {
+          "text": "非常准确",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较准确",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较不准确",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常不准确",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "报复别人",
+      "type": "radio",
+      "orderNum": 109,
+      "options": [
+        {
+          "text": "非常不准确",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较不准确",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较准确",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常准确",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "对工作或学业不怎么投入时间和精力",
+      "type": "radio",
+      "orderNum": 110,
+      "options": [
+        {
+          "text": "非常准确",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较准确",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较不准确",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常不准确",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "可以控制自己的欲望",
+      "type": "radio",
+      "orderNum": 111,
+      "options": [
+        {
+          "text": "非常准确",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较准确",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较不准确",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常不准确",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "我的行为狂放不羁",
+      "type": "radio",
+      "orderNum": 112,
+      "options": [
+        {
+          "text": "非常不准确",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较不准确",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较准确",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常准确",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "对理论性的讨论不感兴趣",
+      "type": "radio",
+      "orderNum": 113,
+      "options": [
+        {
+          "text": "非常准确",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较准确",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较不准确",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常不准确",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "吹嘘自己的美德",
+      "type": "radio",
+      "orderNum": 114,
+      "options": [
+        {
+          "text": "非常不准确",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较不准确",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较准确",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常准确",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "拖很久才开始做一件事",
+      "type": "radio",
+      "orderNum": 115,
+      "options": [
+        {
+          "text": "非常准确",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较准确",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较不准确",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常不准确",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "在压力下能保持冷静",
+      "type": "radio",
+      "orderNum": 116,
+      "options": [
+        {
+          "text": "非常准确",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较准确",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较不准确",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常不准确",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "看到生活中好的一面",
+      "type": "radio",
+      "orderNum": 117,
+      "options": [
+        {
+          "text": "非常不准确",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较不准确",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较准确",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常准确",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "认为我们应该严惩犯罪",
+      "type": "radio",
+      "orderNum": 118,
+      "options": [
+        {
+          "text": "非常准确",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较准确",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较不准确",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常不准确",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "我尽量不去想那些需要帮助的人",
+      "type": "radio",
+      "orderNum": 119,
+      "options": [
+        {
+          "text": "非常准确",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较准确",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较不准确",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常不准确",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "做事不经过思考",
+      "type": "radio",
+      "orderNum": 120,
+      "options": [
+        {
+          "text": "非常不准确",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较不准确",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较准确",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常准确",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    }
+  ],
+  "dimensions": [
+    {
+      "dimensionName": "N1_焦虑",
+      "dimensionCode": "N1",
+      "num": 1,
+      "evaluateExpression": "(hx_t_1 + hx_t_31 + hx_t_61 + hx_t_91) / 4",
+      "standardScoreFormula": "",
+      "results": [
+        {
+          "evaluateExpression": "hx_wd_y_1 <= 2.0",
+          "conclusionAnalysis": "低",
+          "suggestion": "您在该维度上得分较低。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_1 > 2.0 && hx_wd_y_1 <= 3.5",
+          "conclusionAnalysis": "中",
+          "suggestion": "您在该维度上得分中等。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_1 > 3.5",
+          "conclusionAnalysis": "高",
+          "suggestion": "您在该维度上得分较高。",
+          "assessmentWarning": "none"
+        }
+      ]
+    },
+    {
+      "dimensionName": "N2_愤怒",
+      "dimensionCode": "N2",
+      "num": 2,
+      "evaluateExpression": "(hx_t_6 + hx_t_36 + hx_t_66 + hx_t_96) / 4",
+      "standardScoreFormula": "",
+      "results": [
+        {
+          "evaluateExpression": "hx_wd_y_2 <= 2.0",
+          "conclusionAnalysis": "低",
+          "suggestion": "您在该维度上得分较低。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_2 > 2.0 && hx_wd_y_2 <= 3.5",
+          "conclusionAnalysis": "中",
+          "suggestion": "您在该维度上得分中等。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_2 > 3.5",
+          "conclusionAnalysis": "高",
+          "suggestion": "您在该维度上得分较高。",
+          "assessmentWarning": "none"
+        }
+      ]
+    },
+    {
+      "dimensionName": "N3_抑郁",
+      "dimensionCode": "N3",
+      "num": 3,
+      "evaluateExpression": "(hx_t_11 + hx_t_41 + hx_t_71 + hx_t_101) / 4",
+      "standardScoreFormula": "",
+      "results": [
+        {
+          "evaluateExpression": "hx_wd_y_3 <= 2.0",
+          "conclusionAnalysis": "低",
+          "suggestion": "您在该维度上得分较低。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_3 > 2.0 && hx_wd_y_3 <= 3.5",
+          "conclusionAnalysis": "中",
+          "suggestion": "您在该维度上得分中等。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_3 > 3.5",
+          "conclusionAnalysis": "高",
+          "suggestion": "您在该维度上得分较高。",
+          "assessmentWarning": "none"
+        }
+      ]
+    },
+    {
+      "dimensionName": "N4_自我意识",
+      "dimensionCode": "N4",
+      "num": 4,
+      "evaluateExpression": "(hx_t_16 + hx_t_46 + hx_t_76 + hx_t_106) / 4",
+      "standardScoreFormula": "",
+      "results": [
+        {
+          "evaluateExpression": "hx_wd_y_4 <= 2.0",
+          "conclusionAnalysis": "低",
+          "suggestion": "您在该维度上得分较低。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_4 > 2.0 && hx_wd_y_4 <= 3.5",
+          "conclusionAnalysis": "中",
+          "suggestion": "您在该维度上得分中等。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_4 > 3.5",
+          "conclusionAnalysis": "高",
+          "suggestion": "您在该维度上得分较高。",
+          "assessmentWarning": "none"
+        }
+      ]
+    },
+    {
+      "dimensionName": "N5_冲动性",
+      "dimensionCode": "N5",
+      "num": 5,
+      "evaluateExpression": "(hx_t_21 + hx_t_51 + hx_t_81 + hx_t_111) / 4",
+      "standardScoreFormula": "",
+      "results": [
+        {
+          "evaluateExpression": "hx_wd_y_5 <= 2.0",
+          "conclusionAnalysis": "低",
+          "suggestion": "您在该维度上得分较低。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_5 > 2.0 && hx_wd_y_5 <= 3.5",
+          "conclusionAnalysis": "中",
+          "suggestion": "您在该维度上得分中等。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_5 > 3.5",
+          "conclusionAnalysis": "高",
+          "suggestion": "您在该维度上得分较高。",
+          "assessmentWarning": "none"
+        }
+      ]
+    },
+    {
+      "dimensionName": "N6_脆弱性",
+      "dimensionCode": "N6",
+      "num": 6,
+      "evaluateExpression": "(hx_t_26 + hx_t_56 + hx_t_86 + hx_t_116) / 4",
+      "standardScoreFormula": "",
+      "results": [
+        {
+          "evaluateExpression": "hx_wd_y_6 <= 2.0",
+          "conclusionAnalysis": "低",
+          "suggestion": "您在该维度上得分较低。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_6 > 2.0 && hx_wd_y_6 <= 3.5",
+          "conclusionAnalysis": "中",
+          "suggestion": "您在该维度上得分中等。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_6 > 3.5",
+          "conclusionAnalysis": "高",
+          "suggestion": "您在该维度上得分较高。",
+          "assessmentWarning": "none"
+        }
+      ]
+    },
+    {
+      "dimensionName": "E1_热情",
+      "dimensionCode": "E1",
+      "num": 7,
+      "evaluateExpression": "(hx_t_2 + hx_t_32 + hx_t_62 + hx_t_92) / 4",
+      "standardScoreFormula": "",
+      "results": [
+        {
+          "evaluateExpression": "hx_wd_y_7 <= 2.0",
+          "conclusionAnalysis": "低",
+          "suggestion": "您在该维度上得分较低。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_7 > 2.0 && hx_wd_y_7 <= 3.5",
+          "conclusionAnalysis": "中",
+          "suggestion": "您在该维度上得分中等。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_7 > 3.5",
+          "conclusionAnalysis": "高",
+          "suggestion": "您在该维度上得分较高。",
+          "assessmentWarning": "none"
+        }
+      ]
+    },
+    {
+      "dimensionName": "E2_合群",
+      "dimensionCode": "E2",
+      "num": 8,
+      "evaluateExpression": "(hx_t_7 + hx_t_37 + hx_t_67 + hx_t_97) / 4",
+      "standardScoreFormula": "",
+      "results": [
+        {
+          "evaluateExpression": "hx_wd_y_8 <= 2.0",
+          "conclusionAnalysis": "低",
+          "suggestion": "您在该维度上得分较低。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_8 > 2.0 && hx_wd_y_8 <= 3.5",
+          "conclusionAnalysis": "中",
+          "suggestion": "您在该维度上得分中等。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_8 > 3.5",
+          "conclusionAnalysis": "高",
+          "suggestion": "您在该维度上得分较高。",
+          "assessmentWarning": "none"
+        }
+      ]
+    },
+    {
+      "dimensionName": "E3_果断",
+      "dimensionCode": "E3",
+      "num": 9,
+      "evaluateExpression": "(hx_t_12 + hx_t_42 + hx_t_72 + hx_t_102) / 4",
+      "standardScoreFormula": "",
+      "results": [
+        {
+          "evaluateExpression": "hx_wd_y_9 <= 2.0",
+          "conclusionAnalysis": "低",
+          "suggestion": "您在该维度上得分较低。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_9 > 2.0 && hx_wd_y_9 <= 3.5",
+          "conclusionAnalysis": "中",
+          "suggestion": "您在该维度上得分中等。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_9 > 3.5",
+          "conclusionAnalysis": "高",
+          "suggestion": "您在该维度上得分较高。",
+          "assessmentWarning": "none"
+        }
+      ]
+    },
+    {
+      "dimensionName": "E4_活跃",
+      "dimensionCode": "E4",
+      "num": 10,
+      "evaluateExpression": "(hx_t_17 + hx_t_47 + hx_t_77 + hx_t_107) / 4",
+      "standardScoreFormula": "",
+      "results": [
+        {
+          "evaluateExpression": "hx_wd_y_10 <= 2.0",
+          "conclusionAnalysis": "低",
+          "suggestion": "您在该维度上得分较低。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_10 > 2.0 && hx_wd_y_10 <= 3.5",
+          "conclusionAnalysis": "中",
+          "suggestion": "您在该维度上得分中等。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_10 > 3.5",
+          "conclusionAnalysis": "高",
+          "suggestion": "您在该维度上得分较高。",
+          "assessmentWarning": "none"
+        }
+      ]
+    },
+    {
+      "dimensionName": "E5_寻求刺激",
+      "dimensionCode": "E5",
+      "num": 11,
+      "evaluateExpression": "(hx_t_22 + hx_t_52 + hx_t_82 + hx_t_112) / 4",
+      "standardScoreFormula": "",
+      "results": [
+        {
+          "evaluateExpression": "hx_wd_y_11 <= 2.0",
+          "conclusionAnalysis": "低",
+          "suggestion": "您在该维度上得分较低。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_11 > 2.0 && hx_wd_y_11 <= 3.5",
+          "conclusionAnalysis": "中",
+          "suggestion": "您在该维度上得分中等。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_11 > 3.5",
+          "conclusionAnalysis": "高",
+          "suggestion": "您在该维度上得分较高。",
+          "assessmentWarning": "none"
+        }
+      ]
+    },
+    {
+      "dimensionName": "E6_积极情绪",
+      "dimensionCode": "E6",
+      "num": 12,
+      "evaluateExpression": "(hx_t_27 + hx_t_57 + hx_t_87 + hx_t_117) / 4",
+      "standardScoreFormula": "",
+      "results": [
+        {
+          "evaluateExpression": "hx_wd_y_12 <= 2.0",
+          "conclusionAnalysis": "低",
+          "suggestion": "您在该维度上得分较低。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_12 > 2.0 && hx_wd_y_12 <= 3.5",
+          "conclusionAnalysis": "中",
+          "suggestion": "您在该维度上得分中等。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_12 > 3.5",
+          "conclusionAnalysis": "高",
+          "suggestion": "您在该维度上得分较高。",
+          "assessmentWarning": "none"
+        }
+      ]
+    },
+    {
+      "dimensionName": "O1_想象力",
+      "dimensionCode": "O1",
+      "num": 13,
+      "evaluateExpression": "(hx_t_3 + hx_t_33 + hx_t_63 + hx_t_93) / 4",
+      "standardScoreFormula": "",
+      "results": [
+        {
+          "evaluateExpression": "hx_wd_y_13 <= 2.0",
+          "conclusionAnalysis": "低",
+          "suggestion": "您在该维度上得分较低。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_13 > 2.0 && hx_wd_y_13 <= 3.5",
+          "conclusionAnalysis": "中",
+          "suggestion": "您在该维度上得分中等。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_13 > 3.5",
+          "conclusionAnalysis": "高",
+          "suggestion": "您在该维度上得分较高。",
+          "assessmentWarning": "none"
+        }
+      ]
+    },
+    {
+      "dimensionName": "O2_审美",
+      "dimensionCode": "O2",
+      "num": 14,
+      "evaluateExpression": "(hx_t_8 + hx_t_38 + hx_t_68 + hx_t_98) / 4",
+      "standardScoreFormula": "",
+      "results": [
+        {
+          "evaluateExpression": "hx_wd_y_14 <= 2.0",
+          "conclusionAnalysis": "低",
+          "suggestion": "您在该维度上得分较低。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_14 > 2.0 && hx_wd_y_14 <= 3.5",
+          "conclusionAnalysis": "中",
+          "suggestion": "您在该维度上得分中等。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_14 > 3.5",
+          "conclusionAnalysis": "高",
+          "suggestion": "您在该维度上得分较高。",
+          "assessmentWarning": "none"
+        }
+      ]
+    },
+    {
+      "dimensionName": "O3_情感",
+      "dimensionCode": "O3",
+      "num": 15,
+      "evaluateExpression": "(hx_t_13 + hx_t_43 + hx_t_73 + hx_t_103) / 4",
+      "standardScoreFormula": "",
+      "results": [
+        {
+          "evaluateExpression": "hx_wd_y_15 <= 2.0",
+          "conclusionAnalysis": "低",
+          "suggestion": "您在该维度上得分较低。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_15 > 2.0 && hx_wd_y_15 <= 3.5",
+          "conclusionAnalysis": "中",
+          "suggestion": "您在该维度上得分中等。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_15 > 3.5",
+          "conclusionAnalysis": "高",
+          "suggestion": "您在该维度上得分较高。",
+          "assessmentWarning": "none"
+        }
+      ]
+    },
+    {
+      "dimensionName": "O4_冒险",
+      "dimensionCode": "O4",
+      "num": 16,
+      "evaluateExpression": "(hx_t_18 + hx_t_48 + hx_t_78 + hx_t_108) / 4",
+      "standardScoreFormula": "",
+      "results": [
+        {
+          "evaluateExpression": "hx_wd_y_16 <= 2.0",
+          "conclusionAnalysis": "低",
+          "suggestion": "您在该维度上得分较低。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_16 > 2.0 && hx_wd_y_16 <= 3.5",
+          "conclusionAnalysis": "中",
+          "suggestion": "您在该维度上得分中等。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_16 > 3.5",
+          "conclusionAnalysis": "高",
+          "suggestion": "您在该维度上得分较高。",
+          "assessmentWarning": "none"
+        }
+      ]
+    },
+    {
+      "dimensionName": "O5_思想",
+      "dimensionCode": "O5",
+      "num": 17,
+      "evaluateExpression": "(hx_t_23 + hx_t_53 + hx_t_83 + hx_t_113) / 4",
+      "standardScoreFormula": "",
+      "results": [
+        {
+          "evaluateExpression": "hx_wd_y_17 <= 2.0",
+          "conclusionAnalysis": "低",
+          "suggestion": "您在该维度上得分较低。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_17 > 2.0 && hx_wd_y_17 <= 3.5",
+          "conclusionAnalysis": "中",
+          "suggestion": "您在该维度上得分中等。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_17 > 3.5",
+          "conclusionAnalysis": "高",
+          "suggestion": "您在该维度上得分较高。",
+          "assessmentWarning": "none"
+        }
+      ]
+    },
+    {
+      "dimensionName": "O6_价值",
+      "dimensionCode": "O6",
+      "num": 18,
+      "evaluateExpression": "(hx_t_28 + hx_t_58 + hx_t_88 + hx_t_118) / 4",
+      "standardScoreFormula": "",
+      "results": [
+        {
+          "evaluateExpression": "hx_wd_y_18 <= 2.0",
+          "conclusionAnalysis": "低",
+          "suggestion": "您在该维度上得分较低。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_18 > 2.0 && hx_wd_y_18 <= 3.5",
+          "conclusionAnalysis": "中",
+          "suggestion": "您在该维度上得分中等。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_18 > 3.5",
+          "conclusionAnalysis": "高",
+          "suggestion": "您在该维度上得分较高。",
+          "assessmentWarning": "none"
+        }
+      ]
+    },
+    {
+      "dimensionName": "A1_信任",
+      "dimensionCode": "A1",
+      "num": 19,
+      "evaluateExpression": "(hx_t_4 + hx_t_34 + hx_t_64 + hx_t_94) / 4",
+      "standardScoreFormula": "",
+      "results": [
+        {
+          "evaluateExpression": "hx_wd_y_19 <= 2.0",
+          "conclusionAnalysis": "低",
+          "suggestion": "您在该维度上得分较低。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_19 > 2.0 && hx_wd_y_19 <= 3.5",
+          "conclusionAnalysis": "中",
+          "suggestion": "您在该维度上得分中等。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_19 > 3.5",
+          "conclusionAnalysis": "高",
+          "suggestion": "您在该维度上得分较高。",
+          "assessmentWarning": "none"
+        }
+      ]
+    },
+    {
+      "dimensionName": "A2_坦率",
+      "dimensionCode": "A2",
+      "num": 20,
+      "evaluateExpression": "(hx_t_9 + hx_t_39 + hx_t_69 + hx_t_99) / 4",
+      "standardScoreFormula": "",
+      "results": [
+        {
+          "evaluateExpression": "hx_wd_y_20 <= 2.0",
+          "conclusionAnalysis": "低",
+          "suggestion": "您在该维度上得分较低。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_20 > 2.0 && hx_wd_y_20 <= 3.5",
+          "conclusionAnalysis": "中",
+          "suggestion": "您在该维度上得分中等。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_20 > 3.5",
+          "conclusionAnalysis": "高",
+          "suggestion": "您在该维度上得分较高。",
+          "assessmentWarning": "none"
+        }
+      ]
+    },
+    {
+      "dimensionName": "A3_利他",
+      "dimensionCode": "A3",
+      "num": 21,
+      "evaluateExpression": "(hx_t_14 + hx_t_44 + hx_t_74 + hx_t_104) / 4",
+      "standardScoreFormula": "",
+      "results": [
+        {
+          "evaluateExpression": "hx_wd_y_21 <= 2.0",
+          "conclusionAnalysis": "低",
+          "suggestion": "您在该维度上得分较低。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_21 > 2.0 && hx_wd_y_21 <= 3.5",
+          "conclusionAnalysis": "中",
+          "suggestion": "您在该维度上得分中等。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_21 > 3.5",
+          "conclusionAnalysis": "高",
+          "suggestion": "您在该维度上得分较高。",
+          "assessmentWarning": "none"
+        }
+      ]
+    },
+    {
+      "dimensionName": "A4_顺从",
+      "dimensionCode": "A4",
+      "num": 22,
+      "evaluateExpression": "(hx_t_19 + hx_t_49 + hx_t_79 + hx_t_109) / 4",
+      "standardScoreFormula": "",
+      "results": [
+        {
+          "evaluateExpression": "hx_wd_y_22 <= 2.0",
+          "conclusionAnalysis": "低",
+          "suggestion": "您在该维度上得分较低。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_22 > 2.0 && hx_wd_y_22 <= 3.5",
+          "conclusionAnalysis": "中",
+          "suggestion": "您在该维度上得分中等。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_22 > 3.5",
+          "conclusionAnalysis": "高",
+          "suggestion": "您在该维度上得分较高。",
+          "assessmentWarning": "none"
+        }
+      ]
+    },
+    {
+      "dimensionName": "A5_谦逊",
+      "dimensionCode": "A5",
+      "num": 23,
+      "evaluateExpression": "(hx_t_24 + hx_t_54 + hx_t_84 + hx_t_114) / 4",
+      "standardScoreFormula": "",
+      "results": [
+        {
+          "evaluateExpression": "hx_wd_y_23 <= 2.0",
+          "conclusionAnalysis": "低",
+          "suggestion": "您在该维度上得分较低。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_23 > 2.0 && hx_wd_y_23 <= 3.5",
+          "conclusionAnalysis": "中",
+          "suggestion": "您在该维度上得分中等。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_23 > 3.5",
+          "conclusionAnalysis": "高",
+          "suggestion": "您在该维度上得分较高。",
+          "assessmentWarning": "none"
+        }
+      ]
+    },
+    {
+      "dimensionName": "A6_敏感",
+      "dimensionCode": "A6",
+      "num": 24,
+      "evaluateExpression": "(hx_t_29 + hx_t_59 + hx_t_89 + hx_t_119) / 4",
+      "standardScoreFormula": "",
+      "results": [
+        {
+          "evaluateExpression": "hx_wd_y_24 <= 2.0",
+          "conclusionAnalysis": "低",
+          "suggestion": "您在该维度上得分较低。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_24 > 2.0 && hx_wd_y_24 <= 3.5",
+          "conclusionAnalysis": "中",
+          "suggestion": "您在该维度上得分中等。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_24 > 3.5",
+          "conclusionAnalysis": "高",
+          "suggestion": "您在该维度上得分较高。",
+          "assessmentWarning": "none"
+        }
+      ]
+    },
+    {
+      "dimensionName": "C1_胜任",
+      "dimensionCode": "C1",
+      "num": 25,
+      "evaluateExpression": "(hx_t_5 + hx_t_35 + hx_t_65 + hx_t_95) / 4",
+      "standardScoreFormula": "",
+      "results": [
+        {
+          "evaluateExpression": "hx_wd_y_25 <= 2.0",
+          "conclusionAnalysis": "低",
+          "suggestion": "您在该维度上得分较低。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_25 > 2.0 && hx_wd_y_25 <= 3.5",
+          "conclusionAnalysis": "中",
+          "suggestion": "您在该维度上得分中等。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_25 > 3.5",
+          "conclusionAnalysis": "高",
+          "suggestion": "您在该维度上得分较高。",
+          "assessmentWarning": "none"
+        }
+      ]
+    },
+    {
+      "dimensionName": "C2_秩序",
+      "dimensionCode": "C2",
+      "num": 26,
+      "evaluateExpression": "(hx_t_10 + hx_t_40 + hx_t_70 + hx_t_100) / 4",
+      "standardScoreFormula": "",
+      "results": [
+        {
+          "evaluateExpression": "hx_wd_y_26 <= 2.0",
+          "conclusionAnalysis": "低",
+          "suggestion": "您在该维度上得分较低。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_26 > 2.0 && hx_wd_y_26 <= 3.5",
+          "conclusionAnalysis": "中",
+          "suggestion": "您在该维度上得分中等。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_26 > 3.5",
+          "conclusionAnalysis": "高",
+          "suggestion": "您在该维度上得分较高。",
+          "assessmentWarning": "none"
+        }
+      ]
+    },
+    {
+      "dimensionName": "C3_责任感",
+      "dimensionCode": "C3",
+      "num": 27,
+      "evaluateExpression": "(hx_t_15 + hx_t_45 + hx_t_75 + hx_t_105) / 4",
+      "standardScoreFormula": "",
+      "results": [
+        {
+          "evaluateExpression": "hx_wd_y_27 <= 2.0",
+          "conclusionAnalysis": "低",
+          "suggestion": "您在该维度上得分较低。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_27 > 2.0 && hx_wd_y_27 <= 3.5",
+          "conclusionAnalysis": "中",
+          "suggestion": "您在该维度上得分中等。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_27 > 3.5",
+          "conclusionAnalysis": "高",
+          "suggestion": "您在该维度上得分较高。",
+          "assessmentWarning": "none"
+        }
+      ]
+    },
+    {
+      "dimensionName": "C4_成就努力",
+      "dimensionCode": "C4",
+      "num": 28,
+      "evaluateExpression": "(hx_t_20 + hx_t_50 + hx_t_80 + hx_t_110) / 4",
+      "standardScoreFormula": "",
+      "results": [
+        {
+          "evaluateExpression": "hx_wd_y_28 <= 2.0",
+          "conclusionAnalysis": "低",
+          "suggestion": "您在该维度上得分较低。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_28 > 2.0 && hx_wd_y_28 <= 3.5",
+          "conclusionAnalysis": "中",
+          "suggestion": "您在该维度上得分中等。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_28 > 3.5",
+          "conclusionAnalysis": "高",
+          "suggestion": "您在该维度上得分较高。",
+          "assessmentWarning": "none"
+        }
+      ]
+    },
+    {
+      "dimensionName": "C5_自律",
+      "dimensionCode": "C5",
+      "num": 29,
+      "evaluateExpression": "(hx_t_25 + hx_t_55 + hx_t_85 + hx_t_115) / 4",
+      "standardScoreFormula": "",
+      "results": [
+        {
+          "evaluateExpression": "hx_wd_y_29 <= 2.0",
+          "conclusionAnalysis": "低",
+          "suggestion": "您在该维度上得分较低。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_29 > 2.0 && hx_wd_y_29 <= 3.5",
+          "conclusionAnalysis": "中",
+          "suggestion": "您在该维度上得分中等。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_29 > 3.5",
+          "conclusionAnalysis": "高",
+          "suggestion": "您在该维度上得分较高。",
+          "assessmentWarning": "none"
+        }
+      ]
+    },
+    {
+      "dimensionName": "C6_审慎",
+      "dimensionCode": "C6",
+      "num": 30,
+      "evaluateExpression": "(hx_t_30 + hx_t_60 + hx_t_90 + hx_t_120) / 4",
+      "standardScoreFormula": "",
+      "results": [
+        {
+          "evaluateExpression": "hx_wd_y_30 <= 2.0",
+          "conclusionAnalysis": "低",
+          "suggestion": "您在该维度上得分较低。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_30 > 2.0 && hx_wd_y_30 <= 3.5",
+          "conclusionAnalysis": "中",
+          "suggestion": "您在该维度上得分中等。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_30 > 3.5",
+          "conclusionAnalysis": "高",
+          "suggestion": "您在该维度上得分较高。",
+          "assessmentWarning": "none"
+        }
+      ]
+    },
+    {
+      "dimensionName": "神经质",
+      "dimensionCode": "N_total",
+      "num": 31,
+      "evaluateExpression": "(hx_t_1 + hx_t_31 + hx_t_61 + hx_t_91 + hx_t_6 + hx_t_36 + hx_t_66 + hx_t_96 + hx_t_11 + hx_t_41 + hx_t_71 + hx_t_101 + hx_t_16 + hx_t_46 + hx_t_76 + hx_t_106 + hx_t_21 + hx_t_51 + hx_t_81 + hx_t_111 + hx_t_26 + hx_t_56 + hx_t_86 + hx_t_116) / 24",
+      "standardScoreFormula": "",
+      "results": [
+        {
+          "evaluateExpression": "hx_wd_y_31 <= 2.0",
+          "conclusionAnalysis": "低",
+          "suggestion": "您在该维度上得分较低。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_31 > 2.0 && hx_wd_y_31 <= 3.5",
+          "conclusionAnalysis": "中",
+          "suggestion": "您在该维度上得分中等。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_31 > 3.5",
+          "conclusionAnalysis": "高",
+          "suggestion": "您在该维度上得分较高。",
+          "assessmentWarning": "none"
+        }
+      ]
+    },
+    {
+      "dimensionName": "外向性",
+      "dimensionCode": "E_total",
+      "num": 32,
+      "evaluateExpression": "(hx_t_2 + hx_t_32 + hx_t_62 + hx_t_92 + hx_t_7 + hx_t_37 + hx_t_67 + hx_t_97 + hx_t_12 + hx_t_42 + hx_t_72 + hx_t_102 + hx_t_17 + hx_t_47 + hx_t_77 + hx_t_107 + hx_t_22 + hx_t_52 + hx_t_82 + hx_t_112 + hx_t_27 + hx_t_57 + hx_t_87 + hx_t_117) / 24",
+      "standardScoreFormula": "",
+      "results": [
+        {
+          "evaluateExpression": "hx_wd_y_32 <= 2.0",
+          "conclusionAnalysis": "低",
+          "suggestion": "您在该维度上得分较低。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_32 > 2.0 && hx_wd_y_32 <= 3.5",
+          "conclusionAnalysis": "中",
+          "suggestion": "您在该维度上得分中等。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_32 > 3.5",
+          "conclusionAnalysis": "高",
+          "suggestion": "您在该维度上得分较高。",
+          "assessmentWarning": "none"
+        }
+      ]
+    },
+    {
+      "dimensionName": "开放性",
+      "dimensionCode": "O_total",
+      "num": 33,
+      "evaluateExpression": "(hx_t_3 + hx_t_33 + hx_t_63 + hx_t_93 + hx_t_8 + hx_t_38 + hx_t_68 + hx_t_98 + hx_t_13 + hx_t_43 + hx_t_73 + hx_t_103 + hx_t_18 + hx_t_48 + hx_t_78 + hx_t_108 + hx_t_23 + hx_t_53 + hx_t_83 + hx_t_113 + hx_t_28 + hx_t_58 + hx_t_88 + hx_t_118) / 24",
+      "standardScoreFormula": "",
+      "results": [
+        {
+          "evaluateExpression": "hx_wd_y_33 <= 2.0",
+          "conclusionAnalysis": "低",
+          "suggestion": "您在该维度上得分较低。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_33 > 2.0 && hx_wd_y_33 <= 3.5",
+          "conclusionAnalysis": "中",
+          "suggestion": "您在该维度上得分中等。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_33 > 3.5",
+          "conclusionAnalysis": "高",
+          "suggestion": "您在该维度上得分较高。",
+          "assessmentWarning": "none"
+        }
+      ]
+    },
+    {
+      "dimensionName": "宜人性",
+      "dimensionCode": "A_total",
+      "num": 34,
+      "evaluateExpression": "(hx_t_4 + hx_t_34 + hx_t_64 + hx_t_94 + hx_t_9 + hx_t_39 + hx_t_69 + hx_t_99 + hx_t_14 + hx_t_44 + hx_t_74 + hx_t_104 + hx_t_19 + hx_t_49 + hx_t_79 + hx_t_109 + hx_t_24 + hx_t_54 + hx_t_84 + hx_t_114 + hx_t_29 + hx_t_59 + hx_t_89 + hx_t_119) / 24",
+      "standardScoreFormula": "",
+      "results": [
+        {
+          "evaluateExpression": "hx_wd_y_34 <= 2.0",
+          "conclusionAnalysis": "低",
+          "suggestion": "您在该维度上得分较低。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_34 > 2.0 && hx_wd_y_34 <= 3.5",
+          "conclusionAnalysis": "中",
+          "suggestion": "您在该维度上得分中等。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_34 > 3.5",
+          "conclusionAnalysis": "高",
+          "suggestion": "您在该维度上得分较高。",
+          "assessmentWarning": "none"
+        }
+      ]
+    },
+    {
+      "dimensionName": "尽责性",
+      "dimensionCode": "C_total",
+      "num": 35,
+      "evaluateExpression": "(hx_t_5 + hx_t_35 + hx_t_65 + hx_t_95 + hx_t_10 + hx_t_40 + hx_t_70 + hx_t_100 + hx_t_15 + hx_t_45 + hx_t_75 + hx_t_105 + hx_t_20 + hx_t_50 + hx_t_80 + hx_t_110 + hx_t_25 + hx_t_55 + hx_t_85 + hx_t_115 + hx_t_30 + hx_t_60 + hx_t_90 + hx_t_120) / 24",
+      "standardScoreFormula": "",
+      "results": [
+        {
+          "evaluateExpression": "hx_wd_y_35 <= 2.0",
+          "conclusionAnalysis": "低",
+          "suggestion": "您在该维度上得分较低。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_35 > 2.0 && hx_wd_y_35 <= 3.5",
+          "conclusionAnalysis": "中",
+          "suggestion": "您在该维度上得分中等。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_35 > 3.5",
+          "conclusionAnalysis": "高",
+          "suggestion": "您在该维度上得分较高。",
+          "assessmentWarning": "none"
+        }
+      ]
+    }
+  ]
+}

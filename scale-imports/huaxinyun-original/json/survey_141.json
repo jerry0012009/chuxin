@@ -1,0 +1,5587 @@
+{
+  "id": 141,
+  "title": "卡特尔16种人格测验(16PF-成人)",
+  "type": "basic",
+  "questions": [
+    {
+      "id": 3826,
+      "text": " 我很明了本测验的说明：",
+      "type": "radio",
+      "orderNum": 1,
+      "options": [
+        {
+          "id": 14522,
+          "optionNo": "A",
+          "text": "是的",
+          "value": "0"
+        },
+        {
+          "id": 14523,
+          "optionNo": "B",
+          "text": "不一定",
+          "value": "0"
+        },
+        {
+          "id": 14524,
+          "optionNo": "C",
+          "text": "不是的",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3827,
+      "text": " 我对本测验的每一个问题，都能做到诚实地回答：",
+      "type": "radio",
+      "orderNum": 2,
+      "options": [
+        {
+          "id": 14525,
+          "optionNo": "A",
+          "text": "是的",
+          "value": "0"
+        },
+        {
+          "id": 14526,
+          "optionNo": "B",
+          "text": "不一定",
+          "value": "0"
+        },
+        {
+          "id": 14527,
+          "optionNo": "C",
+          "text": "不同意",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3828,
+      "text": " 如果我有机会度假的话，我愿意：",
+      "type": "radio",
+      "orderNum": 3,
+      "options": [
+        {
+          "id": 14528,
+          "optionNo": "A",
+          "text": "到一个繁华的城市去旅游",
+          "value": "2"
+        },
+        {
+          "id": 14529,
+          "optionNo": "B",
+          "text": "介于A，C之间",
+          "value": "1"
+        },
+        {
+          "id": 14530,
+          "optionNo": "C",
+          "text": "闲居清静而偏僻的郊区",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3829,
+      "text": " 我有足够的能力应付困难：",
+      "type": "radio",
+      "orderNum": 4,
+      "options": [
+        {
+          "id": 14531,
+          "optionNo": "A",
+          "text": "是的",
+          "value": "2"
+        },
+        {
+          "id": 14532,
+          "optionNo": "B",
+          "text": "不一定",
+          "value": "1"
+        },
+        {
+          "id": 14533,
+          "optionNo": "C",
+          "text": "不是的",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3830,
+      "text": " 即使是关在铁笼里的猛兽，我见了也会感到惴惴不安：",
+      "type": "radio",
+      "orderNum": 5,
+      "options": [
+        {
+          "id": 14534,
+          "optionNo": "A",
+          "text": "是的",
+          "value": "0"
+        },
+        {
+          "id": 14535,
+          "optionNo": "B",
+          "text": "不一定",
+          "value": "1"
+        },
+        {
+          "id": 14536,
+          "optionNo": "C",
+          "text": "不是的",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "id": 3831,
+      "text": " 我总避免批评别人的言行：",
+      "type": "radio",
+      "orderNum": 6,
+      "options": [
+        {
+          "id": 14537,
+          "optionNo": "A",
+          "text": "是的",
+          "value": "0"
+        },
+        {
+          "id": 14538,
+          "optionNo": "B",
+          "text": "有时如此",
+          "value": "1"
+        },
+        {
+          "id": 14539,
+          "optionNo": "C",
+          "text": "不是的",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "id": 3832,
+      "text": " 我的思想似乎：",
+      "type": "radio",
+      "orderNum": 7,
+      "options": [
+        {
+          "id": 14540,
+          "optionNo": "A",
+          "text": "比较先进",
+          "value": "2"
+        },
+        {
+          "id": 14541,
+          "optionNo": "B",
+          "text": "一般",
+          "value": "1"
+        },
+        {
+          "id": 14542,
+          "optionNo": "C",
+          "text": "比较保守",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3833,
+      "text": " 我不擅长说笑话、讲有趣的事：",
+      "type": "radio",
+      "orderNum": 8,
+      "options": [
+        {
+          "id": 14543,
+          "optionNo": "A",
+          "text": "是的",
+          "value": "0"
+        },
+        {
+          "id": 14544,
+          "optionNo": "B",
+          "text": "介于A、C之间",
+          "value": "1"
+        },
+        {
+          "id": 14545,
+          "optionNo": "C",
+          "text": "不是的",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "id": 3834,
+      "text": " 当我见到亲友或邻居争吵时，我总是：",
+      "type": "radio",
+      "orderNum": 9,
+      "options": [
+        {
+          "id": 14546,
+          "optionNo": "A",
+          "text": "任其自己解决",
+          "value": "0"
+        },
+        {
+          "id": 14547,
+          "optionNo": "B",
+          "text": "介于A、C之间",
+          "value": "1"
+        },
+        {
+          "id": 14548,
+          "optionNo": "C",
+          "text": "予以劝解",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "id": 3835,
+      "text": " 在社交场合中，我：",
+      "type": "radio",
+      "orderNum": 10,
+      "options": [
+        {
+          "id": 14549,
+          "optionNo": "A",
+          "text": "谈吐自如",
+          "value": "2"
+        },
+        {
+          "id": 14550,
+          "optionNo": "B",
+          "text": "介于A、C之间",
+          "value": "1"
+        },
+        {
+          "id": 14551,
+          "optionNo": "C",
+          "text": "退避三舍，保持沉默",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3836,
+      "text": " 我愿意做一个：",
+      "type": "radio",
+      "orderNum": 11,
+      "options": [
+        {
+          "id": 14552,
+          "optionNo": "A",
+          "text": "建筑工程师",
+          "value": "0"
+        },
+        {
+          "id": 14553,
+          "optionNo": "B",
+          "text": "不确定",
+          "value": "1"
+        },
+        {
+          "id": 14554,
+          "optionNo": "C",
+          "text": "社会科学研究者",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "id": 3837,
+      "text": " 阅读时，我喜欢选读：",
+      "type": "radio",
+      "orderNum": 12,
+      "options": [
+        {
+          "id": 14555,
+          "optionNo": "A",
+          "text": "著名的宗教教义",
+          "value": "2"
+        },
+        {
+          "id": 14556,
+          "optionNo": "B",
+          "text": "不确定",
+          "value": "1"
+        },
+        {
+          "id": 14557,
+          "optionNo": "C",
+          "text": "政治理论书籍",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3838,
+      "text": " 我认为很多人都有些心理不正常，只是他们不愿意承认：",
+      "type": "radio",
+      "orderNum": 13,
+      "options": [
+        {
+          "id": 14558,
+          "optionNo": "A",
+          "text": "是的",
+          "value": "2"
+        },
+        {
+          "id": 14559,
+          "optionNo": "B",
+          "text": "介于A、C之间",
+          "value": "1"
+        },
+        {
+          "id": 14560,
+          "optionNo": "C",
+          "text": "不是的",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3839,
+      "text": " 我希望我的结婚对象擅长交际而无须具有文艺才能：",
+      "type": "radio",
+      "orderNum": 14,
+      "options": [
+        {
+          "id": 14561,
+          "optionNo": "A",
+          "text": "是的",
+          "value": "0"
+        },
+        {
+          "id": 14562,
+          "optionNo": "B",
+          "text": "不一定",
+          "value": "1"
+        },
+        {
+          "id": 14563,
+          "optionNo": "C",
+          "text": "不是的",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "id": 3840,
+      "text": " 对于头脑简单和不讲理的人，我仍然能待之以礼：",
+      "type": "radio",
+      "orderNum": 15,
+      "options": [
+        {
+          "id": 14564,
+          "optionNo": "A",
+          "text": "是的",
+          "value": "0"
+        },
+        {
+          "id": 14565,
+          "optionNo": "B",
+          "text": "介于A、C之间",
+          "value": "1"
+        },
+        {
+          "id": 14566,
+          "optionNo": "C",
+          "text": "不是的",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "id": 3841,
+      "text": " 受人侍奉时我常常局促不安：",
+      "type": "radio",
+      "orderNum": 16,
+      "options": [
+        {
+          "id": 14567,
+          "optionNo": "A",
+          "text": "是的",
+          "value": "0"
+        },
+        {
+          "id": 14568,
+          "optionNo": "B",
+          "text": "介于A、C之间",
+          "value": "1"
+        },
+        {
+          "id": 14569,
+          "optionNo": "C",
+          "text": "不是的",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "id": 3842,
+      "text": " 在从事体力或脑力劳动之后，我总是需要有比别人更多的休息时间，才能保持工作效率：",
+      "type": "radio",
+      "orderNum": 17,
+      "options": [
+        {
+          "id": 14570,
+          "optionNo": "A",
+          "text": "是的",
+          "value": "2"
+        },
+        {
+          "id": 14571,
+          "optionNo": "B",
+          "text": "介于A、C之间",
+          "value": "1"
+        },
+        {
+          "id": 14572,
+          "optionNo": "C",
+          "text": "不是的",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3843,
+      "text": " 半夜醒来，我常常为种种忧虑而不能再入睡：",
+      "type": "radio",
+      "orderNum": 18,
+      "options": [
+        {
+          "id": 14573,
+          "optionNo": "A",
+          "text": "常常如此",
+          "value": "2"
+        },
+        {
+          "id": 14574,
+          "optionNo": "B",
+          "text": "有时如此",
+          "value": "1"
+        },
+        {
+          "id": 14575,
+          "optionNo": "C",
+          "text": "极少如此",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3844,
+      "text": " 事情进行得不顺利时，我常常急得涕泪直流：",
+      "type": "radio",
+      "orderNum": 19,
+      "options": [
+        {
+          "id": 14576,
+          "optionNo": "A",
+          "text": "从不如此",
+          "value": "0"
+        },
+        {
+          "id": 14577,
+          "optionNo": "B",
+          "text": "有时如此",
+          "value": "1"
+        },
+        {
+          "id": 14578,
+          "optionNo": "C",
+          "text": "常常如此",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "id": 3845,
+      "text": " 我认为只要双方同意可以离婚，可以不受传统观念的束缚：",
+      "type": "radio",
+      "orderNum": 20,
+      "options": [
+        {
+          "id": 14579,
+          "optionNo": "A",
+          "text": "是的",
+          "value": "2"
+        },
+        {
+          "id": 14580,
+          "optionNo": "B",
+          "text": "介于A、C之间",
+          "value": "1"
+        },
+        {
+          "id": 14581,
+          "optionNo": "C",
+          "text": "不是的",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3846,
+      "text": " 我对人或物的兴趣都很容易改变：",
+      "type": "radio",
+      "orderNum": 21,
+      "options": [
+        {
+          "id": 14582,
+          "optionNo": "A",
+          "text": "是的",
+          "value": "2"
+        },
+        {
+          "id": 14583,
+          "optionNo": "B",
+          "text": "介于A、C之间",
+          "value": "1"
+        },
+        {
+          "id": 14584,
+          "optionNo": "C",
+          "text": "不是的",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3847,
+      "text": " 筹划事务时，我宁愿：",
+      "type": "radio",
+      "orderNum": 22,
+      "options": [
+        {
+          "id": 14585,
+          "optionNo": "A",
+          "text": "和别人合作",
+          "value": "0"
+        },
+        {
+          "id": 14586,
+          "optionNo": "B",
+          "text": "不确定",
+          "value": "1"
+        },
+        {
+          "id": 14587,
+          "optionNo": "C",
+          "text": "自己单独进行",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "id": 3848,
+      "text": " 我常会无端地自言自语：",
+      "type": "radio",
+      "orderNum": 23,
+      "options": [
+        {
+          "id": 14588,
+          "optionNo": "A",
+          "text": "常常如此",
+          "value": "0"
+        },
+        {
+          "id": 14589,
+          "optionNo": "B",
+          "text": "偶然如此",
+          "value": "1"
+        },
+        {
+          "id": 14590,
+          "optionNo": "C",
+          "text": "从不如此",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "id": 3849,
+      "text": " 无论是工作、饮食或外出游览，我总是：",
+      "type": "radio",
+      "orderNum": 24,
+      "options": [
+        {
+          "id": 14591,
+          "optionNo": "A",
+          "text": "匆匆忙忙，不能尽兴",
+          "value": "0"
+        },
+        {
+          "id": 14592,
+          "optionNo": "B",
+          "text": "介于A、C之间",
+          "value": "1"
+        },
+        {
+          "id": 14593,
+          "optionNo": "C",
+          "text": "从容不迫",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "id": 3850,
+      "text": " 有时我会怀疑别人是否真正地对我的言谈有兴趣：",
+      "type": "radio",
+      "orderNum": 25,
+      "options": [
+        {
+          "id": 14594,
+          "optionNo": "A",
+          "text": "是的",
+          "value": "2"
+        },
+        {
+          "id": 14595,
+          "optionNo": "B",
+          "text": "介于A、C之间",
+          "value": "1"
+        },
+        {
+          "id": 14596,
+          "optionNo": "C",
+          "text": "不是的",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3851,
+      "text": " 如果我在工厂里工作，我愿做：",
+      "type": "radio",
+      "orderNum": 26,
+      "options": [
+        {
+          "id": 14597,
+          "optionNo": "A",
+          "text": "机械组的工作",
+          "value": "0"
+        },
+        {
+          "id": 14598,
+          "optionNo": "B",
+          "text": "介于A、C之间",
+          "value": "1"
+        },
+        {
+          "id": 14599,
+          "optionNo": "C",
+          "text": "人事组的工作",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "id": 3852,
+      "text": " 在阅读时，我愿阅读：",
+      "type": "radio",
+      "orderNum": 27,
+      "options": [
+        {
+          "id": 14600,
+          "optionNo": "A",
+          "text": "有关太空旅行的书籍",
+          "value": "0"
+        },
+        {
+          "id": 14601,
+          "optionNo": "B",
+          "text": "不太确定",
+          "value": "1"
+        },
+        {
+          "id": 14602,
+          "optionNo": "C",
+          "text": "有关家庭教育的书籍",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "id": 3853,
+      "text": " 本题后面列出的三个词，哪个与其他两个词不类同：",
+      "type": "radio",
+      "orderNum": 28,
+      "options": [
+        {
+          "id": 14603,
+          "optionNo": "A",
+          "text": "狗",
+          "value": "0"
+        },
+        {
+          "id": 14604,
+          "optionNo": "B",
+          "text": "石头",
+          "value": "1"
+        },
+        {
+          "id": 14605,
+          "optionNo": "C",
+          "text": "牛",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3854,
+      "text": " 如果我能重新做人，我要：",
+      "type": "radio",
+      "orderNum": 29,
+      "options": [
+        {
+          "id": 14606,
+          "optionNo": "A",
+          "text": "把生活安排得和从前不一样",
+          "value": "0"
+        },
+        {
+          "id": 14607,
+          "optionNo": "B",
+          "text": "不确定",
+          "value": "1"
+        },
+        {
+          "id": 14608,
+          "optionNo": "C",
+          "text": "和从前相仿",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "id": 3855,
+      "text": " 在一生中，我总觉得我能达到我所预期的目标：",
+      "type": "radio",
+      "orderNum": 30,
+      "options": [
+        {
+          "id": 14609,
+          "optionNo": "A",
+          "text": "是的",
+          "value": "2"
+        },
+        {
+          "id": 14610,
+          "optionNo": "B",
+          "text": "不一定",
+          "value": "1"
+        },
+        {
+          "id": 14611,
+          "optionNo": "C",
+          "text": "不是的",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3856,
+      "text": " 当我说谎时，总觉得内心羞愧，不敢正视对方：",
+      "type": "radio",
+      "orderNum": 31,
+      "options": [
+        {
+          "id": 14612,
+          "optionNo": "A",
+          "text": "是的",
+          "value": "0"
+        },
+        {
+          "id": 14613,
+          "optionNo": "B",
+          "text": "不一定",
+          "value": "1"
+        },
+        {
+          "id": 14614,
+          "optionNo": "C",
+          "text": "不是的",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "id": 3857,
+      "text": " 假使我手里拿着一把装有子弹的手枪，我必须把子弹取出来才能安心：",
+      "type": "radio",
+      "orderNum": 32,
+      "options": [
+        {
+          "id": 14615,
+          "optionNo": "A",
+          "text": "是的",
+          "value": "0"
+        },
+        {
+          "id": 14616,
+          "optionNo": "B",
+          "text": "介于A、C之间",
+          "value": "1"
+        },
+        {
+          "id": 14617,
+          "optionNo": "C",
+          "text": "不是的",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "id": 3858,
+      "text": " 多数人认为我是一个说话有风趣的人：",
+      "type": "radio",
+      "orderNum": 33,
+      "options": [
+        {
+          "id": 14618,
+          "optionNo": "A",
+          "text": "是的",
+          "value": "2"
+        },
+        {
+          "id": 14619,
+          "optionNo": "B",
+          "text": "不一定",
+          "value": "1"
+        },
+        {
+          "id": 14620,
+          "optionNo": "C",
+          "text": "不是的",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3859,
+      "text": " 如果人们知道我内心世界，他们会大吃一惊：",
+      "type": "radio",
+      "orderNum": 34,
+      "options": [
+        {
+          "id": 14621,
+          "optionNo": "A",
+          "text": "是的",
+          "value": "0"
+        },
+        {
+          "id": 14622,
+          "optionNo": "B",
+          "text": "不一定",
+          "value": "1"
+        },
+        {
+          "id": 14623,
+          "optionNo": "C",
+          "text": "不是的",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "id": 3860,
+      "text": " 在公共场合中，如果我突然成为大家注意的中心，就会感到局促不安：",
+      "type": "radio",
+      "orderNum": 35,
+      "options": [
+        {
+          "id": 14624,
+          "optionNo": "A",
+          "text": "是的",
+          "value": "0"
+        },
+        {
+          "id": 14625,
+          "optionNo": "B",
+          "text": "介于A、C之间",
+          "value": "1"
+        },
+        {
+          "id": 14626,
+          "optionNo": "C",
+          "text": "不是的",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "id": 3861,
+      "text": " 我总喜欢参加规模庞大的聚会、舞会或公共集会：",
+      "type": "radio",
+      "orderNum": 36,
+      "options": [
+        {
+          "id": 14627,
+          "optionNo": "A",
+          "text": "是的",
+          "value": "2"
+        },
+        {
+          "id": 14628,
+          "optionNo": "B",
+          "text": "介于A、C之间",
+          "value": "1"
+        },
+        {
+          "id": 14629,
+          "optionNo": "C",
+          "text": "不是的",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3862,
+      "text": " 在下列工作中，我喜欢的是：",
+      "type": "radio",
+      "orderNum": 37,
+      "options": [
+        {
+          "id": 14630,
+          "optionNo": "A",
+          "text": "音乐",
+          "value": "2"
+        },
+        {
+          "id": 14631,
+          "optionNo": "B",
+          "text": "不一定",
+          "value": "1"
+        },
+        {
+          "id": 14632,
+          "optionNo": "C",
+          "text": "手工劳动",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3863,
+      "text": " 我常常怀疑那些过于友善的人动机是否如此：",
+      "type": "radio",
+      "orderNum": 38,
+      "options": [
+        {
+          "id": 14633,
+          "optionNo": "A",
+          "text": "是的",
+          "value": "2"
+        },
+        {
+          "id": 14634,
+          "optionNo": "B",
+          "text": "介于A、C之间",
+          "value": "1"
+        },
+        {
+          "id": 14635,
+          "optionNo": "C",
+          "text": "不是的",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3864,
+      "text": " 我愿意把我的生活安排得像一个：",
+      "type": "radio",
+      "orderNum": 39,
+      "options": [
+        {
+          "id": 14636,
+          "optionNo": "A",
+          "text": "艺术家",
+          "value": "2"
+        },
+        {
+          "id": 14637,
+          "optionNo": "B",
+          "text": "不确定",
+          "value": "1"
+        },
+        {
+          "id": 14638,
+          "optionNo": "C",
+          "text": "会计师",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3865,
+      "text": " 我认为目前世界所需要的是：",
+      "type": "radio",
+      "orderNum": 40,
+      "options": [
+        {
+          "id": 14639,
+          "optionNo": "A",
+          "text": "多出现一些改造世界的理想家",
+          "value": "2"
+        },
+        {
+          "id": 14640,
+          "optionNo": "B",
+          "text": "不确定",
+          "value": "1"
+        },
+        {
+          "id": 14641,
+          "optionNo": "C",
+          "text": "脚踏实地的实干家",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3866,
+      "text": " 有时候我觉得我需要做剧烈的体力活动：",
+      "type": "radio",
+      "orderNum": 41,
+      "options": [
+        {
+          "id": 14642,
+          "optionNo": "A",
+          "text": "是的",
+          "value": "0"
+        },
+        {
+          "id": 14643,
+          "optionNo": "B",
+          "text": "介于A、C之间",
+          "value": "1"
+        },
+        {
+          "id": 14644,
+          "optionNo": "C",
+          "text": "不是的",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "id": 3867,
+      "text": " 我愿意跟有教养的人来往，而不愿意同粗鲁的人交往：",
+      "type": "radio",
+      "orderNum": 42,
+      "options": [
+        {
+          "id": 14645,
+          "optionNo": "A",
+          "text": "是的",
+          "value": "2"
+        },
+        {
+          "id": 14646,
+          "optionNo": "B",
+          "text": "介于A、C之间",
+          "value": "1"
+        },
+        {
+          "id": 14647,
+          "optionNo": "C",
+          "text": "不是的",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3868,
+      "text": " 在处理一些必须凭借智慧的事务中，我的父母的确：",
+      "type": "radio",
+      "orderNum": 43,
+      "options": [
+        {
+          "id": 14648,
+          "optionNo": "A",
+          "text": "表现得比一般人差",
+          "value": "2"
+        },
+        {
+          "id": 14649,
+          "optionNo": "B",
+          "text": "普通",
+          "value": "1"
+        },
+        {
+          "id": 14650,
+          "optionNo": "C",
+          "text": "表现得超人一等",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3869,
+      "text": " 当领导（或教师）召见我时，我：",
+      "type": "radio",
+      "orderNum": 44,
+      "options": [
+        {
+          "id": 14651,
+          "optionNo": "A",
+          "text": "觉得可以趁机提建议",
+          "value": "0"
+        },
+        {
+          "id": 14652,
+          "optionNo": "B",
+          "text": "介于A、C之间",
+          "value": "1"
+        },
+        {
+          "id": 14653,
+          "optionNo": "C",
+          "text": "总怀疑自己做错了事",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "id": 3870,
+      "text": " 如果待遇优厚，我愿意做护理精神病人的工作：",
+      "type": "radio",
+      "orderNum": 45,
+      "options": [
+        {
+          "id": 14654,
+          "optionNo": "A",
+          "text": "是的",
+          "value": "0"
+        },
+        {
+          "id": 14655,
+          "optionNo": "B",
+          "text": "介于A、C之间",
+          "value": "1"
+        },
+        {
+          "id": 14656,
+          "optionNo": "C",
+          "text": "不是的",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "id": 3871,
+      "text": " 读报时，我喜欢读：",
+      "type": "radio",
+      "orderNum": 46,
+      "options": [
+        {
+          "id": 14657,
+          "optionNo": "A",
+          "text": "当前世界上的基本问题",
+          "value": "2"
+        },
+        {
+          "id": 14658,
+          "optionNo": "B",
+          "text": "介于A、C之间",
+          "value": "1"
+        },
+        {
+          "id": 14659,
+          "optionNo": "C",
+          "text": "地方新闻",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3872,
+      "text": " 在接受困难任务时，我总是：",
+      "type": "radio",
+      "orderNum": 47,
+      "options": [
+        {
+          "id": 14660,
+          "optionNo": "A",
+          "text": "有独立完成的信心",
+          "value": "2"
+        },
+        {
+          "id": 14661,
+          "optionNo": "B",
+          "text": "不确定",
+          "value": "1"
+        },
+        {
+          "id": 14662,
+          "optionNo": "C",
+          "text": "希望有别人帮助和指导",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3873,
+      "text": " 在游览时，我宁愿观看一个画家的写生，也不愿听人家的辩论：",
+      "type": "radio",
+      "orderNum": 48,
+      "options": [
+        {
+          "id": 14663,
+          "optionNo": "A",
+          "text": "是的",
+          "value": "2"
+        },
+        {
+          "id": 14664,
+          "optionNo": "B",
+          "text": "不一定",
+          "value": "1"
+        },
+        {
+          "id": 14665,
+          "optionNo": "C",
+          "text": "不是的",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3874,
+      "text": " 我的神经脆弱，稍有点刺激就会使我战栗：",
+      "type": "radio",
+      "orderNum": 49,
+      "options": [
+        {
+          "id": 14666,
+          "optionNo": "A",
+          "text": "时常如此地",
+          "value": "2"
+        },
+        {
+          "id": 14667,
+          "optionNo": "B",
+          "text": "有时如此",
+          "value": "1"
+        },
+        {
+          "id": 14668,
+          "optionNo": "C",
+          "text": "从未如此",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3875,
+      "text": " 早晨起来，常常感到疲乏不堪：",
+      "type": "radio",
+      "orderNum": 50,
+      "options": [
+        {
+          "id": 14669,
+          "optionNo": "A",
+          "text": "是的",
+          "value": "2"
+        },
+        {
+          "id": 14670,
+          "optionNo": "B",
+          "text": "介于A、C之间",
+          "value": "1"
+        },
+        {
+          "id": 14671,
+          "optionNo": "C",
+          "text": "不是的",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3876,
+      "text": " 如果待遇相同，我愿选做：",
+      "type": "radio",
+      "orderNum": 51,
+      "options": [
+        {
+          "id": 14672,
+          "optionNo": "A",
+          "text": "森林管理员",
+          "value": "0"
+        },
+        {
+          "id": 14673,
+          "optionNo": "B",
+          "text": "不一定",
+          "value": "1"
+        },
+        {
+          "id": 14674,
+          "optionNo": "C",
+          "text": "中小学教员",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "id": 3877,
+      "text": " 每逢过年过节或亲友结婚时，我：",
+      "type": "radio",
+      "orderNum": 52,
+      "options": [
+        {
+          "id": 14675,
+          "optionNo": "A",
+          "text": "喜欢赠送礼品",
+          "value": "2"
+        },
+        {
+          "id": 14676,
+          "optionNo": "B",
+          "text": "不太确定",
+          "value": "1"
+        },
+        {
+          "id": 14677,
+          "optionNo": "C",
+          "text": "不愿相互送礼",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3878,
+      "text": " 本题后面列有三个数字中，哪个数字与其他两个数字不类同：",
+      "type": "radio",
+      "orderNum": 53,
+      "options": [
+        {
+          "id": 14678,
+          "optionNo": "A",
+          "text": "5",
+          "value": "0"
+        },
+        {
+          "id": 14679,
+          "optionNo": "B",
+          "text": "2",
+          "value": "1"
+        },
+        {
+          "id": 14680,
+          "optionNo": "C",
+          "text": "7",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3879,
+      "text": " 猫和鱼就象牛和：",
+      "type": "radio",
+      "orderNum": 54,
+      "options": [
+        {
+          "id": 14681,
+          "optionNo": "A",
+          "text": "牛奶",
+          "value": "0"
+        },
+        {
+          "id": 14682,
+          "optionNo": "B",
+          "text": "牧草",
+          "value": "1"
+        },
+        {
+          "id": 14683,
+          "optionNo": "C",
+          "text": "盐",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3880,
+      "text": " 在做人处世的各个方面，我的父母很令人敬佩：",
+      "type": "radio",
+      "orderNum": 55,
+      "options": [
+        {
+          "id": 14684,
+          "optionNo": "A",
+          "text": "是的",
+          "value": "2"
+        },
+        {
+          "id": 14685,
+          "optionNo": "B",
+          "text": "不一定",
+          "value": "1"
+        },
+        {
+          "id": 14686,
+          "optionNo": "C",
+          "text": "不是的",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3881,
+      "text": " 我觉得我确实有一些别人所不及的优良品质：",
+      "type": "radio",
+      "orderNum": 56,
+      "options": [
+        {
+          "id": 14687,
+          "optionNo": "A",
+          "text": "是的",
+          "value": "2"
+        },
+        {
+          "id": 14688,
+          "optionNo": "B",
+          "text": "不一定",
+          "value": "1"
+        },
+        {
+          "id": 14689,
+          "optionNo": "C",
+          "text": "不是的",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3882,
+      "text": " 根据我的能力，即使让我做一些平凡的工作，我也会安心的：",
+      "type": "radio",
+      "orderNum": 57,
+      "options": [
+        {
+          "id": 14690,
+          "optionNo": "A",
+          "text": "是的",
+          "value": "0"
+        },
+        {
+          "id": 14691,
+          "optionNo": "B",
+          "text": "不太确定",
+          "value": "1"
+        },
+        {
+          "id": 14692,
+          "optionNo": "C",
+          "text": "不是的",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "id": 3883,
+      "text": " 我喜欢看电影或参加其它娱乐活动的次数：",
+      "type": "radio",
+      "orderNum": 58,
+      "options": [
+        {
+          "id": 14693,
+          "optionNo": "A",
+          "text": "比一般人多",
+          "value": "2"
+        },
+        {
+          "id": 14694,
+          "optionNo": "B",
+          "text": "和一般人相同",
+          "value": "1"
+        },
+        {
+          "id": 14695,
+          "optionNo": "C",
+          "text": "比一般人少",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3884,
+      "text": " 我喜欢从事需要精密技术的工作：",
+      "type": "radio",
+      "orderNum": 59,
+      "options": [
+        {
+          "id": 14696,
+          "optionNo": "A",
+          "text": "是的",
+          "value": "2"
+        },
+        {
+          "id": 14697,
+          "optionNo": "B",
+          "text": "介于A、C之间",
+          "value": "1"
+        },
+        {
+          "id": 14698,
+          "optionNo": "C",
+          "text": "不是的",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3885,
+      "text": " 在有威望、有地位的人面前，我总是较为局促、谨慎：",
+      "type": "radio",
+      "orderNum": 60,
+      "options": [
+        {
+          "id": 14699,
+          "optionNo": "A",
+          "text": "是的",
+          "value": "0"
+        },
+        {
+          "id": 14700,
+          "optionNo": "B",
+          "text": "介于A、C之间",
+          "value": "1"
+        },
+        {
+          "id": 14701,
+          "optionNo": "C",
+          "text": "不是的",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "id": 3886,
+      "text": " 对于我来说在大众面前演讲或表演，是一件难事：",
+      "type": "radio",
+      "orderNum": 61,
+      "options": [
+        {
+          "id": 14702,
+          "optionNo": "A",
+          "text": "是的",
+          "value": "0"
+        },
+        {
+          "id": 14703,
+          "optionNo": "B",
+          "text": "介于A、C之间",
+          "value": "1"
+        },
+        {
+          "id": 14704,
+          "optionNo": "C",
+          "text": "不是的",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "id": 3887,
+      "text": " 我愿意：",
+      "type": "radio",
+      "orderNum": 62,
+      "options": [
+        {
+          "id": 14705,
+          "optionNo": "A",
+          "text": "指挥几个人工作",
+          "value": "0"
+        },
+        {
+          "id": 14706,
+          "optionNo": "B",
+          "text": "不确定",
+          "value": "1"
+        },
+        {
+          "id": 14707,
+          "optionNo": "C",
+          "text": "和大家一起工作",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "id": 3888,
+      "text": " 即使我做了一件让别人笑话的事，我也能坦然处之：",
+      "type": "radio",
+      "orderNum": 63,
+      "options": [
+        {
+          "id": 14708,
+          "optionNo": "A",
+          "text": "是的",
+          "value": "0"
+        },
+        {
+          "id": 14709,
+          "optionNo": "B",
+          "text": "介于A、C之间",
+          "value": "1"
+        },
+        {
+          "id": 14710,
+          "optionNo": "C",
+          "text": "不是的",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "id": 3889,
+      "text": " 我认为没有人会幸灾乐祸地希望我遇到困难：",
+      "type": "radio",
+      "orderNum": 64,
+      "options": [
+        {
+          "id": 14711,
+          "optionNo": "A",
+          "text": "是的",
+          "value": "0"
+        },
+        {
+          "id": 14712,
+          "optionNo": "B",
+          "text": "不确定",
+          "value": "1"
+        },
+        {
+          "id": 14713,
+          "optionNo": "C",
+          "text": "不是的",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "id": 3890,
+      "text": " 一个人应该：",
+      "type": "radio",
+      "orderNum": 65,
+      "options": [
+        {
+          "id": 14714,
+          "optionNo": "A",
+          "text": "考虑人生的真正意义",
+          "value": "2"
+        },
+        {
+          "id": 14715,
+          "optionNo": "B",
+          "text": "不确定",
+          "value": "1"
+        },
+        {
+          "id": 14716,
+          "optionNo": "C",
+          "text": "踏踏实实地工作和学习",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3891,
+      "text": " 我喜欢去处理被别人弄的一塌糊涂的工作：",
+      "type": "radio",
+      "orderNum": 66,
+      "options": [
+        {
+          "id": 14717,
+          "optionNo": "A",
+          "text": "是的",
+          "value": "0"
+        },
+        {
+          "id": 14718,
+          "optionNo": "B",
+          "text": "介于A，C之间",
+          "value": "1"
+        },
+        {
+          "id": 14719,
+          "optionNo": "C",
+          "text": "不是的",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "id": 3892,
+      "text": " 当我非常高兴时，却总有一种\"好景不长\"的感觉：",
+      "type": "radio",
+      "orderNum": 67,
+      "options": [
+        {
+          "id": 14720,
+          "optionNo": "A",
+          "text": "是的",
+          "value": "0"
+        },
+        {
+          "id": 14721,
+          "optionNo": "B",
+          "text": "介于A，C之间",
+          "value": "1"
+        },
+        {
+          "id": 14722,
+          "optionNo": "C",
+          "text": "不是的",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "id": 3893,
+      "text": " 在一般困难情境中，我总能保持乐观：",
+      "type": "radio",
+      "orderNum": 68,
+      "options": [
+        {
+          "id": 14723,
+          "optionNo": "A",
+          "text": "是的",
+          "value": "0"
+        },
+        {
+          "id": 14724,
+          "optionNo": "B",
+          "text": "不一定",
+          "value": "1"
+        },
+        {
+          "id": 14725,
+          "optionNo": "C",
+          "text": "不是的",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "id": 3894,
+      "text": " 迁居是一件极不愉快的事：",
+      "type": "radio",
+      "orderNum": 69,
+      "options": [
+        {
+          "id": 14726,
+          "optionNo": "A",
+          "text": "是的",
+          "value": "2"
+        },
+        {
+          "id": 14727,
+          "optionNo": "B",
+          "text": "介于A、C之间",
+          "value": "1"
+        },
+        {
+          "id": 14728,
+          "optionNo": "C",
+          "text": "不是的",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3895,
+      "text": " 在年轻的时候，当我和父母的意见不同时，我经常：",
+      "type": "radio",
+      "orderNum": 70,
+      "options": [
+        {
+          "id": 14729,
+          "optionNo": "A",
+          "text": "保留自己的意见",
+          "value": "2"
+        },
+        {
+          "id": 14730,
+          "optionNo": "B",
+          "text": "介于A、C之间",
+          "value": "1"
+        },
+        {
+          "id": 14731,
+          "optionNo": "C",
+          "text": "接受父母的意见",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3896,
+      "text": " 我希望把我的家庭：",
+      "type": "radio",
+      "orderNum": 71,
+      "options": [
+        {
+          "id": 14732,
+          "optionNo": "A",
+          "text": "建设成适合自身活动和娱乐的地方",
+          "value": "2"
+        },
+        {
+          "id": 14733,
+          "optionNo": "B",
+          "text": "介于A、C之间",
+          "value": "1"
+        },
+        {
+          "id": 14734,
+          "optionNo": "C",
+          "text": "成为邻里交往活动的一部分",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3897,
+      "text": " 我解决问题时，多借助于：",
+      "type": "radio",
+      "orderNum": 72,
+      "options": [
+        {
+          "id": 14735,
+          "optionNo": "A",
+          "text": "个人独立思考",
+          "value": "2"
+        },
+        {
+          "id": 14736,
+          "optionNo": "B",
+          "text": "介于A、C之间",
+          "value": "1"
+        },
+        {
+          "id": 14737,
+          "optionNo": "C",
+          "text": "和别人互相讨论",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3898,
+      "text": " 在需要当机立断时，我总是：",
+      "type": "radio",
+      "orderNum": 73,
+      "options": [
+        {
+          "id": 14738,
+          "optionNo": "A",
+          "text": "镇静地运用理智",
+          "value": "2"
+        },
+        {
+          "id": 14739,
+          "optionNo": "B",
+          "text": "介于A、C之间",
+          "value": "1"
+        },
+        {
+          "id": 14740,
+          "optionNo": "C",
+          "text": "常常紧张兴奋，不能冷静思考",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3899,
+      "text": " 最近在一两件事情上，我觉得我是无辜受累的：",
+      "type": "radio",
+      "orderNum": 74,
+      "options": [
+        {
+          "id": 14741,
+          "optionNo": "A",
+          "text": "是的",
+          "value": "2"
+        },
+        {
+          "id": 14742,
+          "optionNo": "B",
+          "text": "介于A、C之间",
+          "value": "1"
+        },
+        {
+          "id": 14743,
+          "optionNo": "C",
+          "text": "不是的",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3900,
+      "text": " 我善于控制我的表情：",
+      "type": "radio",
+      "orderNum": 75,
+      "options": [
+        {
+          "id": 14744,
+          "optionNo": "A",
+          "text": "是的",
+          "value": "0"
+        },
+        {
+          "id": 14745,
+          "optionNo": "B",
+          "text": "介于A、C之间",
+          "value": "1"
+        },
+        {
+          "id": 14746,
+          "optionNo": "C",
+          "text": "不是的",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "id": 3901,
+      "text": " 如果待遇相同，我愿做一个：",
+      "type": "radio",
+      "orderNum": 76,
+      "options": [
+        {
+          "id": 14747,
+          "optionNo": "A",
+          "text": "化学研究工作者",
+          "value": "0"
+        },
+        {
+          "id": 14748,
+          "optionNo": "B",
+          "text": "不确定",
+          "value": "1"
+        },
+        {
+          "id": 14749,
+          "optionNo": "C",
+          "text": "旅行社经理",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "id": 3902,
+      "text": " 以“惊讶”与“新奇”搭配为例，我认为“惧怕”与：",
+      "type": "radio",
+      "orderNum": 77,
+      "options": [
+        {
+          "id": 14750,
+          "optionNo": "A",
+          "text": "“勇敢”搭配",
+          "value": "0"
+        },
+        {
+          "id": 14751,
+          "optionNo": "B",
+          "text": "“焦虑”搭配",
+          "value": "0"
+        },
+        {
+          "id": 14752,
+          "optionNo": "C",
+          "text": "“恐怖”搭配",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 3903,
+      "text": " 本题后面列出的三个分数，哪一个分数与其他两个分数不类同：",
+      "type": "radio",
+      "orderNum": 78,
+      "options": [
+        {
+          "id": 14753,
+          "optionNo": "A",
+          "text": "3/7",
+          "value": "0"
+        },
+        {
+          "id": 14754,
+          "optionNo": "B",
+          "text": "3/9",
+          "value": "1"
+        },
+        {
+          "id": 14755,
+          "optionNo": "C",
+          "text": "3/11",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3904,
+      "text": " 不知为什么，有些人总是回避或冷淡我：",
+      "type": "radio",
+      "orderNum": 79,
+      "options": [
+        {
+          "id": 14756,
+          "optionNo": "A",
+          "text": "是的",
+          "value": "0"
+        },
+        {
+          "id": 14757,
+          "optionNo": "B",
+          "text": "不一定",
+          "value": "1"
+        },
+        {
+          "id": 14758,
+          "optionNo": "C",
+          "text": "不是的",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "id": 3905,
+      "text": " 我虽好意待人，但常常得不到好报：",
+      "type": "radio",
+      "orderNum": 80,
+      "options": [
+        {
+          "id": 14759,
+          "optionNo": "A",
+          "text": "是的",
+          "value": "0"
+        },
+        {
+          "id": 14760,
+          "optionNo": "B",
+          "text": "不一定",
+          "value": "1"
+        },
+        {
+          "id": 14761,
+          "optionNo": "C",
+          "text": "不是的",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "id": 3906,
+      "text": " 我不喜欢那些夜郎自大，目空一切的人：",
+      "type": "radio",
+      "orderNum": 81,
+      "options": [
+        {
+          "id": 14762,
+          "optionNo": "A",
+          "text": "是的",
+          "value": "0"
+        },
+        {
+          "id": 14763,
+          "optionNo": "B",
+          "text": "介于A，C之间",
+          "value": "1"
+        },
+        {
+          "id": 14764,
+          "optionNo": "C",
+          "text": "不是的",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "id": 3907,
+      "text": " 和一般人相比，我的朋友的确太少：",
+      "type": "radio",
+      "orderNum": 82,
+      "options": [
+        {
+          "id": 14765,
+          "optionNo": "A",
+          "text": "是的",
+          "value": "0"
+        },
+        {
+          "id": 14766,
+          "optionNo": "B",
+          "text": "介于A、C之间",
+          "value": "1"
+        },
+        {
+          "id": 14767,
+          "optionNo": "C",
+          "text": "不是的",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "id": 3908,
+      "text": " 不在万不得已的情况下，我总是回避参加应酬性活动：",
+      "type": "radio",
+      "orderNum": 83,
+      "options": [
+        {
+          "id": 14768,
+          "optionNo": "A",
+          "text": "是的",
+          "value": "0"
+        },
+        {
+          "id": 14769,
+          "optionNo": "B",
+          "text": "不一定",
+          "value": "1"
+        },
+        {
+          "id": 14770,
+          "optionNo": "C",
+          "text": "不是的",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "id": 3909,
+      "text": " 我认为对领导逢迎得当比工作表现更重要：",
+      "type": "radio",
+      "orderNum": 84,
+      "options": [
+        {
+          "id": 14771,
+          "optionNo": "A",
+          "text": "是的",
+          "value": "0"
+        },
+        {
+          "id": 14772,
+          "optionNo": "B",
+          "text": "介于A、C之间",
+          "value": "1"
+        },
+        {
+          "id": 14773,
+          "optionNo": "C",
+          "text": "不是的",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "id": 3910,
+      "text": " 参加竞赛时，我总是着重在竞赛的活动，而不计较其成败：",
+      "type": "radio",
+      "orderNum": 85,
+      "options": [
+        {
+          "id": 14774,
+          "optionNo": "A",
+          "text": "总是如此",
+          "value": "0"
+        },
+        {
+          "id": 14775,
+          "optionNo": "B",
+          "text": "一般如此",
+          "value": "1"
+        },
+        {
+          "id": 14776,
+          "optionNo": "C",
+          "text": "偶然如此",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "id": 3911,
+      "text": " 按照我个人的意愿，我希望做的工作是：",
+      "type": "radio",
+      "orderNum": 86,
+      "options": [
+        {
+          "id": 14777,
+          "optionNo": "A",
+          "text": "有固定而可靠的工资收入",
+          "value": "0"
+        },
+        {
+          "id": 14778,
+          "optionNo": "B",
+          "text": "介于A、C之间",
+          "value": "1"
+        },
+        {
+          "id": 14779,
+          "optionNo": "C",
+          "text": "工资高低应随我的工作表现而随时调整",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "id": 3912,
+      "text": " 我愿意阅读：",
+      "type": "radio",
+      "orderNum": 87,
+      "options": [
+        {
+          "id": 14780,
+          "optionNo": "A",
+          "text": "军事与政治的实事记载",
+          "value": "0"
+        },
+        {
+          "id": 14781,
+          "optionNo": "B",
+          "text": "不一定",
+          "value": "1"
+        },
+        {
+          "id": 14782,
+          "optionNo": "C",
+          "text": "富有情感和幻想的作品",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "id": 3913,
+      "text": " 我认为有许多人之所以不敢犯罪，其主要原因是怕被惩罚：",
+      "type": "radio",
+      "orderNum": 88,
+      "options": [
+        {
+          "id": 14783,
+          "optionNo": "A",
+          "text": "是的",
+          "value": "2"
+        },
+        {
+          "id": 14784,
+          "optionNo": "B",
+          "text": "介于A、C之间",
+          "value": "1"
+        },
+        {
+          "id": 14785,
+          "optionNo": "C",
+          "text": "不是的",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3914,
+      "text": " 我的父母从来不严格要求我事事顺从：",
+      "type": "radio",
+      "orderNum": 89,
+      "options": [
+        {
+          "id": 14786,
+          "optionNo": "A",
+          "text": "是的",
+          "value": "0"
+        },
+        {
+          "id": 14787,
+          "optionNo": "B",
+          "text": "不一定",
+          "value": "1"
+        },
+        {
+          "id": 14788,
+          "optionNo": "C",
+          "text": "不是的",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "id": 3915,
+      "text": " “百折不挠”、“再接再厉”的精神似乎完全被现代人忽视了：",
+      "type": "radio",
+      "orderNum": 90,
+      "options": [
+        {
+          "id": 14789,
+          "optionNo": "A",
+          "text": "是的",
+          "value": "0"
+        },
+        {
+          "id": 14790,
+          "optionNo": "B",
+          "text": "不一定",
+          "value": "1"
+        },
+        {
+          "id": 14791,
+          "optionNo": "C",
+          "text": "不是的",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "id": 3916,
+      "text": " 当有人对我发火时，我总是：",
+      "type": "radio",
+      "orderNum": 91,
+      "options": [
+        {
+          "id": 14792,
+          "optionNo": "A",
+          "text": "设法使他镇静下来",
+          "value": "2"
+        },
+        {
+          "id": 14793,
+          "optionNo": "B",
+          "text": "不太确定",
+          "value": "1"
+        },
+        {
+          "id": 14794,
+          "optionNo": "C",
+          "text": "自己也会发起火来",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3917,
+      "text": " 我希望大家都提倡：",
+      "type": "radio",
+      "orderNum": 92,
+      "options": [
+        {
+          "id": 14795,
+          "optionNo": "A",
+          "text": "多吃蔬菜以避免杀生",
+          "value": "0"
+        },
+        {
+          "id": 14796,
+          "optionNo": "B",
+          "text": "不一定",
+          "value": "1"
+        },
+        {
+          "id": 14797,
+          "optionNo": "C",
+          "text": "发展农业，扑灭对农产品有害的动物",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "id": 3918,
+      "text": " 不论是在极高的屋顶上还是在极深的隧道中，我很少感到胆怯不安：",
+      "type": "radio",
+      "orderNum": 93,
+      "options": [
+        {
+          "id": 14798,
+          "optionNo": "A",
+          "text": "是的",
+          "value": "0"
+        },
+        {
+          "id": 14799,
+          "optionNo": "B",
+          "text": "介于A、C之间",
+          "value": "1"
+        },
+        {
+          "id": 14800,
+          "optionNo": "C",
+          "text": "不是的",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "id": 3919,
+      "text": " 只要没有过错，不管别人怎样说，我总能心安理得：",
+      "type": "radio",
+      "orderNum": 94,
+      "options": [
+        {
+          "id": 14801,
+          "optionNo": "A",
+          "text": "是的",
+          "value": "0"
+        },
+        {
+          "id": 14802,
+          "optionNo": "B",
+          "text": "不一定",
+          "value": "1"
+        },
+        {
+          "id": 14803,
+          "optionNo": "C",
+          "text": "不是的",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "id": 3920,
+      "text": " 我认为凡是无法用理智来解决的问题，有时就不得不靠强权处理：",
+      "type": "radio",
+      "orderNum": 95,
+      "options": [
+        {
+          "id": 14804,
+          "optionNo": "A",
+          "text": "是的",
+          "value": "0"
+        },
+        {
+          "id": 14805,
+          "optionNo": "B",
+          "text": "介于A、C之间",
+          "value": "1"
+        },
+        {
+          "id": 14806,
+          "optionNo": "C",
+          "text": "不是的",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "id": 3921,
+      "text": " 我在年轻的时候，和异性朋友交往：",
+      "type": "radio",
+      "orderNum": 96,
+      "options": [
+        {
+          "id": 14807,
+          "optionNo": "A",
+          "text": "较多",
+          "value": "0"
+        },
+        {
+          "id": 14808,
+          "optionNo": "B",
+          "text": "介于A、C之间",
+          "value": "1"
+        },
+        {
+          "id": 14809,
+          "optionNo": "C",
+          "text": "较别人少",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "id": 3922,
+      "text": " 我在交际场或所参加的组织中是一个活跃分子：",
+      "type": "radio",
+      "orderNum": 97,
+      "options": [
+        {
+          "id": 14810,
+          "optionNo": "A",
+          "text": "是的",
+          "value": "0"
+        },
+        {
+          "id": 14811,
+          "optionNo": "B",
+          "text": "介于A、C之间",
+          "value": "1"
+        },
+        {
+          "id": 14812,
+          "optionNo": "C",
+          "text": "不是的",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "id": 3923,
+      "text": " 在人声嘈杂中，我仍能不受干扰，专心工作：",
+      "type": "radio",
+      "orderNum": 98,
+      "options": [
+        {
+          "id": 14813,
+          "optionNo": "A",
+          "text": "是的",
+          "value": "2"
+        },
+        {
+          "id": 14814,
+          "optionNo": "B",
+          "text": "介于A、C之间",
+          "value": "1"
+        },
+        {
+          "id": 14815,
+          "optionNo": "C",
+          "text": "不是的",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3924,
+      "text": " 在某些心境下，我常因困惑引起幻想而将工作搁置下来：",
+      "type": "radio",
+      "orderNum": 99,
+      "options": [
+        {
+          "id": 14816,
+          "optionNo": "A",
+          "text": "是的",
+          "value": "2"
+        },
+        {
+          "id": 14817,
+          "optionNo": "B",
+          "text": "介于A、C之间",
+          "value": "1"
+        },
+        {
+          "id": 14818,
+          "optionNo": "C",
+          "text": "不是的",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3925,
+      "text": " 我很少用令人难堪的话去伤别人的感情：",
+      "type": "radio",
+      "orderNum": 100,
+      "options": [
+        {
+          "id": 14819,
+          "optionNo": "A",
+          "text": "是的",
+          "value": "0"
+        },
+        {
+          "id": 14820,
+          "optionNo": "B",
+          "text": "不太确定",
+          "value": "1"
+        },
+        {
+          "id": 14821,
+          "optionNo": "C",
+          "text": "不是的",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "id": 3926,
+      "text": " 如果让我选择，我宁愿选做：",
+      "type": "radio",
+      "orderNum": 101,
+      "options": [
+        {
+          "id": 14822,
+          "optionNo": "A",
+          "text": "商店经理",
+          "value": "2"
+        },
+        {
+          "id": 14823,
+          "optionNo": "B",
+          "text": "不确定",
+          "value": "1"
+        },
+        {
+          "id": 14824,
+          "optionNo": "C",
+          "text": "建筑师",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3927,
+      "text": " \"理不胜辞\"的意思是：",
+      "type": "radio",
+      "orderNum": 102,
+      "options": [
+        {
+          "id": 14825,
+          "optionNo": "A",
+          "text": "理不如辞",
+          "value": "0"
+        },
+        {
+          "id": 14826,
+          "optionNo": "B",
+          "text": "理多而辞寡",
+          "value": "0"
+        },
+        {
+          "id": 14827,
+          "optionNo": "C",
+          "text": "辞藻华丽而理由不足",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 3928,
+      "text": " 以\"铁锹\"与\"挖掘\"搭配为例，我认为\"刀子\"与：",
+      "type": "radio",
+      "orderNum": 103,
+      "options": [
+        {
+          "id": 14828,
+          "optionNo": "A",
+          "text": "琢磨搭配",
+          "value": "0"
+        },
+        {
+          "id": 14829,
+          "optionNo": "B",
+          "text": "切割搭配",
+          "value": "1"
+        },
+        {
+          "id": 14830,
+          "optionNo": "C",
+          "text": "铲除搭配",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3929,
+      "text": " 我在大街上，常常避开我所不愿意打招呼的人：",
+      "type": "radio",
+      "orderNum": 104,
+      "options": [
+        {
+          "id": 14831,
+          "optionNo": "A",
+          "text": "极少如此",
+          "value": "2"
+        },
+        {
+          "id": 14832,
+          "optionNo": "B",
+          "text": "偶然如此",
+          "value": "1"
+        },
+        {
+          "id": 14833,
+          "optionNo": "C",
+          "text": "有时如此",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3930,
+      "text": " 我在聚精会神地听音乐时，假使有人在旁边高谈阔论：",
+      "type": "radio",
+      "orderNum": 105,
+      "options": [
+        {
+          "id": 14834,
+          "optionNo": "A",
+          "text": "我仍然能够专心听音乐",
+          "value": "2"
+        },
+        {
+          "id": 14835,
+          "optionNo": "B",
+          "text": "介于A、C之间",
+          "value": "1"
+        },
+        {
+          "id": 14836,
+          "optionNo": "C",
+          "text": "不能专心而感到恼怒",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3931,
+      "text": " 在课堂上，如果我的意见与教师不同，我常常：",
+      "type": "radio",
+      "orderNum": 106,
+      "options": [
+        {
+          "id": 14837,
+          "optionNo": "A",
+          "text": "保持沉默",
+          "value": "0"
+        },
+        {
+          "id": 14838,
+          "optionNo": "B",
+          "text": "不一定",
+          "value": "1"
+        },
+        {
+          "id": 14839,
+          "optionNo": "C",
+          "text": "当场表明自己的看法",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "id": 3932,
+      "text": " 我和异性友伴交谈时，极力避免有关“性”的话题：",
+      "type": "radio",
+      "orderNum": 107,
+      "options": [
+        {
+          "id": 14840,
+          "optionNo": "A",
+          "text": "是的",
+          "value": "0"
+        },
+        {
+          "id": 14841,
+          "optionNo": "B",
+          "text": "介于A、C之间",
+          "value": "1"
+        },
+        {
+          "id": 14842,
+          "optionNo": "C",
+          "text": "不是的",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "id": 3933,
+      "text": " 我在待人接物方面的确不太成功：",
+      "type": "radio",
+      "orderNum": 108,
+      "options": [
+        {
+          "id": 14843,
+          "optionNo": "A",
+          "text": "是的",
+          "value": "0"
+        },
+        {
+          "id": 14844,
+          "optionNo": "B",
+          "text": "不尽然",
+          "value": "1"
+        },
+        {
+          "id": 14845,
+          "optionNo": "C",
+          "text": "不是的",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "id": 3934,
+      "text": " 每当做一件困难工作时，我总是：",
+      "type": "radio",
+      "orderNum": 109,
+      "options": [
+        {
+          "id": 14846,
+          "optionNo": "A",
+          "text": "预先做好准备",
+          "value": "2"
+        },
+        {
+          "id": 14847,
+          "optionNo": "B",
+          "text": "介于A、C之间",
+          "value": "1"
+        },
+        {
+          "id": 14848,
+          "optionNo": "C",
+          "text": "相信到时候总会有办法解决的",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3935,
+      "text": " 在我所结交的朋友中，男女各占一半：",
+      "type": "radio",
+      "orderNum": 110,
+      "options": [
+        {
+          "id": 14849,
+          "optionNo": "A",
+          "text": "是的",
+          "value": "2"
+        },
+        {
+          "id": 14850,
+          "optionNo": "B",
+          "text": "介于A、C之间",
+          "value": "1"
+        },
+        {
+          "id": 14851,
+          "optionNo": "C",
+          "text": "不是的",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3936,
+      "text": " 我在结交朋友方面，我宁可：",
+      "type": "radio",
+      "orderNum": 111,
+      "options": [
+        {
+          "id": 14852,
+          "optionNo": "A",
+          "text": "结识很多的人",
+          "value": "2"
+        },
+        {
+          "id": 14853,
+          "optionNo": "B",
+          "text": "不一定",
+          "value": "1"
+        },
+        {
+          "id": 14854,
+          "optionNo": "C",
+          "text": "维持几个深交的朋友",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3937,
+      "text": " 我愿意做一个哲学家，而不愿做一个机械工程师：",
+      "type": "radio",
+      "orderNum": 112,
+      "options": [
+        {
+          "id": 14855,
+          "optionNo": "A",
+          "text": "是的",
+          "value": "2"
+        },
+        {
+          "id": 14856,
+          "optionNo": "B",
+          "text": "不确定",
+          "value": "1"
+        },
+        {
+          "id": 14857,
+          "optionNo": "C",
+          "text": "不是的",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3938,
+      "text": " 如果我发现了别人的缺点，我是不计一切的提出指责：",
+      "type": "radio",
+      "orderNum": 113,
+      "options": [
+        {
+          "id": 14858,
+          "optionNo": "A",
+          "text": "是的",
+          "value": "2"
+        },
+        {
+          "id": 14859,
+          "optionNo": "B",
+          "text": "介于A、C之间",
+          "value": "1"
+        },
+        {
+          "id": 14860,
+          "optionNo": "C",
+          "text": "不是的",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3939,
+      "text": " 我喜欢设法影响和我一起工作的同伴，使他们能协助我实现我所计划的目标：",
+      "type": "radio",
+      "orderNum": 114,
+      "options": [
+        {
+          "id": 14861,
+          "optionNo": "A",
+          "text": "是的",
+          "value": "2"
+        },
+        {
+          "id": 14862,
+          "optionNo": "B",
+          "text": "介于A、C之间",
+          "value": "1"
+        },
+        {
+          "id": 14863,
+          "optionNo": "C",
+          "text": "不是的",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3940,
+      "text": " 我喜欢做戏剧、音乐、歌舞、新闻采访等工作：",
+      "type": "radio",
+      "orderNum": 115,
+      "options": [
+        {
+          "id": 14864,
+          "optionNo": "A",
+          "text": "是的",
+          "value": "2"
+        },
+        {
+          "id": 14865,
+          "optionNo": "B",
+          "text": "不一定",
+          "value": "1"
+        },
+        {
+          "id": 14866,
+          "optionNo": "C",
+          "text": "不是的",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3941,
+      "text": " 当人们表扬我的时候，我总觉得羞愧窘促：",
+      "type": "radio",
+      "orderNum": 116,
+      "options": [
+        {
+          "id": 14867,
+          "optionNo": "A",
+          "text": "是的",
+          "value": "0"
+        },
+        {
+          "id": 14868,
+          "optionNo": "B",
+          "text": "介于A、C之间",
+          "value": "1"
+        },
+        {
+          "id": 14869,
+          "optionNo": "C",
+          "text": "不是的",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "id": 3942,
+      "text": " 我认为现代最需要解决的问题是：",
+      "type": "radio",
+      "orderNum": 117,
+      "options": [
+        {
+          "id": 14870,
+          "optionNo": "A",
+          "text": "政治问题",
+          "value": "2"
+        },
+        {
+          "id": 14871,
+          "optionNo": "B",
+          "text": "不太确定",
+          "value": "1"
+        },
+        {
+          "id": 14872,
+          "optionNo": "C",
+          "text": "道德问题",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3943,
+      "text": " 有时候我会无故地产生一种面临大祸的恐惧：",
+      "type": "radio",
+      "orderNum": 118,
+      "options": [
+        {
+          "id": 14873,
+          "optionNo": "A",
+          "text": "是的",
+          "value": "2"
+        },
+        {
+          "id": 14874,
+          "optionNo": "B",
+          "text": "有时如此",
+          "value": "1"
+        },
+        {
+          "id": 14875,
+          "optionNo": "C",
+          "text": "不是的",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3944,
+      "text": " 我在童年时，害怕黑暗的次数：",
+      "type": "radio",
+      "orderNum": 119,
+      "options": [
+        {
+          "id": 14876,
+          "optionNo": "A",
+          "text": "极多",
+          "value": "2"
+        },
+        {
+          "id": 14877,
+          "optionNo": "B",
+          "text": "不太多",
+          "value": "1"
+        },
+        {
+          "id": 14878,
+          "optionNo": "C",
+          "text": "几乎没有",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3945,
+      "text": " 在闲暇的时候，我喜欢：",
+      "type": "radio",
+      "orderNum": 120,
+      "options": [
+        {
+          "id": 14879,
+          "optionNo": "A",
+          "text": "看一部历史性的探险电影",
+          "value": "0"
+        },
+        {
+          "id": 14880,
+          "optionNo": "B",
+          "text": "不一定",
+          "value": "1"
+        },
+        {
+          "id": 14881,
+          "optionNo": "C",
+          "text": "读一本科学性的幻想小说",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "id": 3946,
+      "text": " 当人们批评我古怪不正常时，我：",
+      "type": "radio",
+      "orderNum": 121,
+      "options": [
+        {
+          "id": 14882,
+          "optionNo": "A",
+          "text": "非常气恼",
+          "value": "0"
+        },
+        {
+          "id": 14883,
+          "optionNo": "B",
+          "text": "有些气恼",
+          "value": "1"
+        },
+        {
+          "id": 14884,
+          "optionNo": "C",
+          "text": "无所谓",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "id": 3947,
+      "text": " 到一个新城市里去找地址：",
+      "type": "radio",
+      "orderNum": 122,
+      "options": [
+        {
+          "id": 14885,
+          "optionNo": "A",
+          "text": "见人问路",
+          "value": "0"
+        },
+        {
+          "id": 14886,
+          "optionNo": "B",
+          "text": "介于A、C之间",
+          "value": "1"
+        },
+        {
+          "id": 14887,
+          "optionNo": "C",
+          "text": "参考市区地图",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "id": 3948,
+      "text": " 当朋友声明他要在家休息时，我总是设法怂恿他同我一起到外面去游览：",
+      "type": "radio",
+      "orderNum": 123,
+      "options": [
+        {
+          "id": 14888,
+          "optionNo": "A",
+          "text": "是的",
+          "value": "0"
+        },
+        {
+          "id": 14889,
+          "optionNo": "B",
+          "text": "不一定",
+          "value": "1"
+        },
+        {
+          "id": 14890,
+          "optionNo": "C",
+          "text": "不是的",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "id": 3949,
+      "text": " 在就寝时，我常常：",
+      "type": "radio",
+      "orderNum": 124,
+      "options": [
+        {
+          "id": 14891,
+          "optionNo": "A",
+          "text": "不易入睡",
+          "value": "2"
+        },
+        {
+          "id": 14892,
+          "optionNo": "B",
+          "text": "介于A、C之间",
+          "value": "1"
+        },
+        {
+          "id": 14893,
+          "optionNo": "C",
+          "text": "极易入睡",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3950,
+      "text": " 有人烦扰我时，我：",
+      "type": "radio",
+      "orderNum": 125,
+      "options": [
+        {
+          "id": 14894,
+          "optionNo": "A",
+          "text": "能不露声色",
+          "value": "0"
+        },
+        {
+          "id": 14895,
+          "optionNo": "B",
+          "text": "介于A、C之间",
+          "value": "1"
+        },
+        {
+          "id": 14896,
+          "optionNo": "C",
+          "text": "总能说给别人听，以泄气愤",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "id": 3951,
+      "text": " 如果待遇相同，我愿做一个：",
+      "type": "radio",
+      "orderNum": 126,
+      "options": [
+        {
+          "id": 14897,
+          "optionNo": "A",
+          "text": "律师",
+          "value": "2"
+        },
+        {
+          "id": 14898,
+          "optionNo": "B",
+          "text": "不确定",
+          "value": "1"
+        },
+        {
+          "id": 14899,
+          "optionNo": "C",
+          "text": "飞行员或航海员",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3952,
+      "text": " “时间变成了永恒”这是是比喻：",
+      "type": "radio",
+      "orderNum": 127,
+      "options": [
+        {
+          "id": 14900,
+          "optionNo": "A",
+          "text": "时间过得很快",
+          "value": "0"
+        },
+        {
+          "id": 14901,
+          "optionNo": "B",
+          "text": "忘了时间",
+          "value": "0"
+        },
+        {
+          "id": 14902,
+          "optionNo": "C",
+          "text": "光阴一去不复返",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 3953,
+      "text": " 本题后面列出的哪一项，应接在\"*OOOO**OOO***\"的后面：",
+      "type": "radio",
+      "orderNum": 128,
+      "options": [
+        {
+          "id": 14903,
+          "optionNo": "A",
+          "text": "*O*",
+          "value": "0"
+        },
+        {
+          "id": 14904,
+          "optionNo": "B",
+          "text": "OO*",
+          "value": "1"
+        },
+        {
+          "id": 14905,
+          "optionNo": "C",
+          "text": "O**",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3954,
+      "text": " 我不论到什么地方，都能清楚地辨别方向：",
+      "type": "radio",
+      "orderNum": 129,
+      "options": [
+        {
+          "id": 14906,
+          "optionNo": "A",
+          "text": "是的",
+          "value": "2"
+        },
+        {
+          "id": 14907,
+          "optionNo": "B",
+          "text": "介于A、C之间",
+          "value": "1"
+        },
+        {
+          "id": 14908,
+          "optionNo": "C",
+          "text": "不是的",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3955,
+      "text": " 我的确比一般人幸运，因为我能从事自己所喜欢的工作：",
+      "type": "radio",
+      "orderNum": 130,
+      "options": [
+        {
+          "id": 14909,
+          "optionNo": "A",
+          "text": "是的",
+          "value": "2"
+        },
+        {
+          "id": 14910,
+          "optionNo": "B",
+          "text": "不一定",
+          "value": "1"
+        },
+        {
+          "id": 14911,
+          "optionNo": "C",
+          "text": "不是的",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3956,
+      "text": " 如果我急于想借朋友的东西，而朋友又不在家时，我认为不告而取也没有关系：",
+      "type": "radio",
+      "orderNum": 131,
+      "options": [
+        {
+          "id": 14912,
+          "optionNo": "A",
+          "text": "是的",
+          "value": "2"
+        },
+        {
+          "id": 14913,
+          "optionNo": "B",
+          "text": "介于A、C之间",
+          "value": "1"
+        },
+        {
+          "id": 14914,
+          "optionNo": "C",
+          "text": "不是的",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3957,
+      "text": " 我喜欢向朋友讲述一些我个人有趣的经历：",
+      "type": "radio",
+      "orderNum": 132,
+      "options": [
+        {
+          "id": 14915,
+          "optionNo": "A",
+          "text": "是的",
+          "value": "2"
+        },
+        {
+          "id": 14916,
+          "optionNo": "B",
+          "text": "介于A、C之间",
+          "value": "1"
+        },
+        {
+          "id": 14917,
+          "optionNo": "C",
+          "text": "不是的",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3958,
+      "text": " 我宁愿做一个：",
+      "type": "radio",
+      "orderNum": 133,
+      "options": [
+        {
+          "id": 14918,
+          "optionNo": "A",
+          "text": "演员",
+          "value": "2"
+        },
+        {
+          "id": 14919,
+          "optionNo": "B",
+          "text": "不确定",
+          "value": "1"
+        },
+        {
+          "id": 14920,
+          "optionNo": "C",
+          "text": "建筑师",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3959,
+      "text": " 业余时间，我总是做好安排，不使时间浪费：",
+      "type": "radio",
+      "orderNum": 134,
+      "options": [
+        {
+          "id": 14921,
+          "optionNo": "A",
+          "text": "是的",
+          "value": "2"
+        },
+        {
+          "id": 14922,
+          "optionNo": "B",
+          "text": "介于A、C之间",
+          "value": "1"
+        },
+        {
+          "id": 14923,
+          "optionNo": "C",
+          "text": "不是的",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3960,
+      "text": " 在和别人交往时，我常常会无缘无故地产生一种自卑感：",
+      "type": "radio",
+      "orderNum": 135,
+      "options": [
+        {
+          "id": 14924,
+          "optionNo": "A",
+          "text": "是的",
+          "value": "0"
+        },
+        {
+          "id": 14925,
+          "optionNo": "B",
+          "text": "介于A、C之间",
+          "value": "1"
+        },
+        {
+          "id": 14926,
+          "optionNo": "C",
+          "text": "不是的",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "id": 3961,
+      "text": " 和不熟识的人交谈，对我来说：",
+      "type": "radio",
+      "orderNum": 136,
+      "options": [
+        {
+          "id": 14927,
+          "optionNo": "A",
+          "text": "毫不困难",
+          "value": "2"
+        },
+        {
+          "id": 14928,
+          "optionNo": "B",
+          "text": "介于A、C之间",
+          "value": "1"
+        },
+        {
+          "id": 14929,
+          "optionNo": "C",
+          "text": "是一件难事",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3962,
+      "text": " 我所喜欢的音乐是：",
+      "type": "radio",
+      "orderNum": 137,
+      "options": [
+        {
+          "id": 14930,
+          "optionNo": "A",
+          "text": "轻快活泼的",
+          "value": "0"
+        },
+        {
+          "id": 14931,
+          "optionNo": "B",
+          "text": "介于A、C之间",
+          "value": "1"
+        },
+        {
+          "id": 14932,
+          "optionNo": "C",
+          "text": "富有情感的",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "id": 3963,
+      "text": " 我爱想入非非：",
+      "type": "radio",
+      "orderNum": 138,
+      "options": [
+        {
+          "id": 14933,
+          "optionNo": "A",
+          "text": "是的",
+          "value": "2"
+        },
+        {
+          "id": 14934,
+          "optionNo": "B",
+          "text": "不一定",
+          "value": "1"
+        },
+        {
+          "id": 14935,
+          "optionNo": "C",
+          "text": "不是的",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3964,
+      "text": " 我认为未来二十年的世界局势，定将好转：",
+      "type": "radio",
+      "orderNum": 139,
+      "options": [
+        {
+          "id": 14936,
+          "optionNo": "A",
+          "text": "是的",
+          "value": "0"
+        },
+        {
+          "id": 14937,
+          "optionNo": "B",
+          "text": "不一定",
+          "value": "1"
+        },
+        {
+          "id": 14938,
+          "optionNo": "C",
+          "text": "不是的",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "id": 3965,
+      "text": " 在童年时，我喜欢阅读：",
+      "type": "radio",
+      "orderNum": 140,
+      "options": [
+        {
+          "id": 14939,
+          "optionNo": "A",
+          "text": "神话幻想故事",
+          "value": "2"
+        },
+        {
+          "id": 14940,
+          "optionNo": "B",
+          "text": "不确定",
+          "value": "1"
+        },
+        {
+          "id": 14941,
+          "optionNo": "C",
+          "text": "战争故事",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3966,
+      "text": " 我向来对机械、汽车等发生兴趣：",
+      "type": "radio",
+      "orderNum": 141,
+      "options": [
+        {
+          "id": 14942,
+          "optionNo": "A",
+          "text": "是的",
+          "value": "0"
+        },
+        {
+          "id": 14943,
+          "optionNo": "B",
+          "text": "介于A、C之间",
+          "value": "1"
+        },
+        {
+          "id": 14944,
+          "optionNo": "C",
+          "text": "不是的",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "id": 3967,
+      "text": " 即使让我做一个缓刑释放的罪犯的管理人，我也会把工作搞得较好：",
+      "type": "radio",
+      "orderNum": 142,
+      "options": [
+        {
+          "id": 14945,
+          "optionNo": "A",
+          "text": "是的",
+          "value": "2"
+        },
+        {
+          "id": 14946,
+          "optionNo": "B",
+          "text": "介于A、C之间",
+          "value": "1"
+        },
+        {
+          "id": 14947,
+          "optionNo": "C",
+          "text": "不是的",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3968,
+      "text": " 我仅仅被认为是一个能够苦干而稍有成就的人而已：",
+      "type": "radio",
+      "orderNum": 143,
+      "options": [
+        {
+          "id": 14948,
+          "optionNo": "A",
+          "text": "是的",
+          "value": "2"
+        },
+        {
+          "id": 14949,
+          "optionNo": "B",
+          "text": "介于A、C之间",
+          "value": "1"
+        },
+        {
+          "id": 14950,
+          "optionNo": "C",
+          "text": "不是的",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3969,
+      "text": " 就是在不顺利的情况下，我仍能保持精神振奋：",
+      "type": "radio",
+      "orderNum": 144,
+      "options": [
+        {
+          "id": 14951,
+          "optionNo": "A",
+          "text": "是的",
+          "value": "0"
+        },
+        {
+          "id": 14952,
+          "optionNo": "B",
+          "text": "介于A、C之间",
+          "value": "1"
+        },
+        {
+          "id": 14953,
+          "optionNo": "C",
+          "text": "不是的",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "id": 3970,
+      "text": " 我认为节制生育是解决经济与和平问题的重要条件：",
+      "type": "radio",
+      "orderNum": 145,
+      "options": [
+        {
+          "id": 14954,
+          "optionNo": "A",
+          "text": "是的",
+          "value": "2"
+        },
+        {
+          "id": 14955,
+          "optionNo": "B",
+          "text": "不太确定",
+          "value": "1"
+        },
+        {
+          "id": 14956,
+          "optionNo": "C",
+          "text": "不是的",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3971,
+      "text": " 在工作中，我喜欢独自筹划，不愿受别人干涉：",
+      "type": "radio",
+      "orderNum": 146,
+      "options": [
+        {
+          "id": 14957,
+          "optionNo": "A",
+          "text": "是的",
+          "value": "2"
+        },
+        {
+          "id": 14958,
+          "optionNo": "B",
+          "text": "介于A、C之间",
+          "value": "1"
+        },
+        {
+          "id": 14959,
+          "optionNo": "C",
+          "text": "不是的",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3972,
+      "text": " 尽管有的人和我的意见不和，但仍能跟他搞好团结：",
+      "type": "radio",
+      "orderNum": 147,
+      "options": [
+        {
+          "id": 14960,
+          "optionNo": "A",
+          "text": "是的",
+          "value": "2"
+        },
+        {
+          "id": 14961,
+          "optionNo": "B",
+          "text": "不一定",
+          "value": "1"
+        },
+        {
+          "id": 14962,
+          "optionNo": "C",
+          "text": "不是的",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3973,
+      "text": " 我在工作和学习上，总是使自己不粗心大意、忽略细节：",
+      "type": "radio",
+      "orderNum": 148,
+      "options": [
+        {
+          "id": 14963,
+          "optionNo": "A",
+          "text": "是的",
+          "value": "2"
+        },
+        {
+          "id": 14964,
+          "optionNo": "B",
+          "text": "介于A、C之间",
+          "value": "1"
+        },
+        {
+          "id": 14965,
+          "optionNo": "C",
+          "text": "不是的",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3974,
+      "text": " 在和人争辩或险遭事故后，我常常表现出震颤、精疲力竭、不能安心工作：",
+      "type": "radio",
+      "orderNum": 149,
+      "options": [
+        {
+          "id": 14966,
+          "optionNo": "A",
+          "text": "是的",
+          "value": "2"
+        },
+        {
+          "id": 14967,
+          "optionNo": "B",
+          "text": "介于A、C之间",
+          "value": "1"
+        },
+        {
+          "id": 14968,
+          "optionNo": "C",
+          "text": "不是的",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3975,
+      "text": " 未经医生处方，我是从不乱吃药的：",
+      "type": "radio",
+      "orderNum": 150,
+      "options": [
+        {
+          "id": 14969,
+          "optionNo": "A",
+          "text": "是的",
+          "value": "2"
+        },
+        {
+          "id": 14970,
+          "optionNo": "B",
+          "text": "介于A、C之间",
+          "value": "1"
+        },
+        {
+          "id": 14971,
+          "optionNo": "C",
+          "text": "不是的",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3976,
+      "text": " 根据我个人的兴趣，我愿参加：",
+      "type": "radio",
+      "orderNum": 151,
+      "options": [
+        {
+          "id": 14972,
+          "optionNo": "A",
+          "text": "摄影组活动",
+          "value": "0"
+        },
+        {
+          "id": 14973,
+          "optionNo": "B",
+          "text": "不确定",
+          "value": "1"
+        },
+        {
+          "id": 14974,
+          "optionNo": "C",
+          "text": "文娱队活动",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "id": 3977,
+      "text": " 以“星火”与“燎原”搭配为例，我认为等于姑息与：",
+      "type": "radio",
+      "orderNum": 152,
+      "options": [
+        {
+          "id": 14975,
+          "optionNo": "A",
+          "text": "“同情”搭配",
+          "value": "0"
+        },
+        {
+          "id": 14976,
+          "optionNo": "B",
+          "text": "“养奸”搭配",
+          "value": "1"
+        },
+        {
+          "id": 14977,
+          "optionNo": "C",
+          "text": "“纵容”搭配",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3978,
+      "text": " “钟表”与“时间”的关系犹如“裁缝”与：",
+      "type": "radio",
+      "orderNum": 153,
+      "options": [
+        {
+          "id": 14978,
+          "optionNo": "A",
+          "text": "“服装”的关系",
+          "value": "0"
+        },
+        {
+          "id": 14979,
+          "optionNo": "B",
+          "text": "“剪刀”的关系",
+          "value": "0"
+        },
+        {
+          "id": 14980,
+          "optionNo": "C",
+          "text": "“布料”的关系",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 3979,
+      "text": " 生动的梦境，常常干扰我的睡眠：",
+      "type": "radio",
+      "orderNum": 154,
+      "options": [
+        {
+          "id": 14981,
+          "optionNo": "A",
+          "text": "经常如此",
+          "value": "0"
+        },
+        {
+          "id": 14982,
+          "optionNo": "B",
+          "text": "偶然如此",
+          "value": "1"
+        },
+        {
+          "id": 14983,
+          "optionNo": "C",
+          "text": "从不如此",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "id": 3980,
+      "text": " 我爱打抱不平",
+      "type": "radio",
+      "orderNum": 155,
+      "options": [
+        {
+          "id": 14984,
+          "optionNo": "A",
+          "text": "是的",
+          "value": "2"
+        },
+        {
+          "id": 14985,
+          "optionNo": "B",
+          "text": "介于A、C之间",
+          "value": "1"
+        },
+        {
+          "id": 14986,
+          "optionNo": "C",
+          "text": "不是的",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3981,
+      "text": " 如果我要到一个新城市，我将要：",
+      "type": "radio",
+      "orderNum": 156,
+      "options": [
+        {
+          "id": 14987,
+          "optionNo": "A",
+          "text": "到处闲逛",
+          "value": "2"
+        },
+        {
+          "id": 14988,
+          "optionNo": "B",
+          "text": "不太确定",
+          "value": "1"
+        },
+        {
+          "id": 14989,
+          "optionNo": "C",
+          "text": "避免去不安全的地方",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3982,
+      "text": " 我爱穿朴素的衣服，不愿穿华丽的服装：",
+      "type": "radio",
+      "orderNum": 157,
+      "options": [
+        {
+          "id": 14990,
+          "optionNo": "A",
+          "text": "是的",
+          "value": "0"
+        },
+        {
+          "id": 14991,
+          "optionNo": "B",
+          "text": "不太确定",
+          "value": "1"
+        },
+        {
+          "id": 14992,
+          "optionNo": "C",
+          "text": "不是的",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "id": 3983,
+      "text": " 我认为安静的娱乐远远胜过热闹的宴会：",
+      "type": "radio",
+      "orderNum": 158,
+      "options": [
+        {
+          "id": 14993,
+          "optionNo": "A",
+          "text": "是的",
+          "value": "0"
+        },
+        {
+          "id": 14994,
+          "optionNo": "B",
+          "text": "不太确定",
+          "value": "1"
+        },
+        {
+          "id": 14995,
+          "optionNo": "C",
+          "text": "不是的",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "id": 3984,
+      "text": " 我明知自己有缺点，但不愿意接受别人的批评：",
+      "type": "radio",
+      "orderNum": 159,
+      "options": [
+        {
+          "id": 14996,
+          "optionNo": "A",
+          "text": "偶然如此",
+          "value": "0"
+        },
+        {
+          "id": 14997,
+          "optionNo": "B",
+          "text": "极少如此",
+          "value": "1"
+        },
+        {
+          "id": 14998,
+          "optionNo": "C",
+          "text": "从不如此",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "id": 3985,
+      "text": " 我总是把“是、非、善、恶”作为处理问题的原则：",
+      "type": "radio",
+      "orderNum": 160,
+      "options": [
+        {
+          "id": 14999,
+          "optionNo": "A",
+          "text": "是的",
+          "value": "2"
+        },
+        {
+          "id": 15000,
+          "optionNo": "B",
+          "text": "介于A、C之间",
+          "value": "1"
+        },
+        {
+          "id": 15001,
+          "optionNo": "C",
+          "text": "不是的",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3986,
+      "text": " 当我工作时，我不喜欢有许多人在旁边参观：",
+      "type": "radio",
+      "orderNum": 161,
+      "options": [
+        {
+          "id": 15002,
+          "optionNo": "A",
+          "text": "是的",
+          "value": "0"
+        },
+        {
+          "id": 15003,
+          "optionNo": "B",
+          "text": "介于A、C之间",
+          "value": "1"
+        },
+        {
+          "id": 15004,
+          "optionNo": "C",
+          "text": "不是的",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "id": 3987,
+      "text": " 我认为侮辱那些即使有错误的有文化教养的人，如医生、教师等，也是不应该的：",
+      "type": "radio",
+      "orderNum": 162,
+      "options": [
+        {
+          "id": 15005,
+          "optionNo": "A",
+          "text": "是的",
+          "value": "0"
+        },
+        {
+          "id": 15006,
+          "optionNo": "B",
+          "text": "介于A、C之间",
+          "value": "1"
+        },
+        {
+          "id": 15007,
+          "optionNo": "C",
+          "text": "不是的",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "id": 3988,
+      "text": " 在各种课程中，我喜欢：",
+      "type": "radio",
+      "orderNum": 163,
+      "options": [
+        {
+          "id": 15008,
+          "optionNo": "A",
+          "text": "语文",
+          "value": "2"
+        },
+        {
+          "id": 15009,
+          "optionNo": "B",
+          "text": "不确定",
+          "value": "1"
+        },
+        {
+          "id": 15010,
+          "optionNo": "C",
+          "text": "数学",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3989,
+      "text": " 那些自以为是、道貌岸然的人使我生气：",
+      "type": "radio",
+      "orderNum": 164,
+      "options": [
+        {
+          "id": 15011,
+          "optionNo": "A",
+          "text": "是的",
+          "value": "2"
+        },
+        {
+          "id": 15012,
+          "optionNo": "B",
+          "text": "介于A、C之间",
+          "value": "1"
+        },
+        {
+          "id": 15013,
+          "optionNo": "C",
+          "text": "不是的",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3990,
+      "text": " 和循规蹈矩的人交谈：",
+      "type": "radio",
+      "orderNum": 165,
+      "options": [
+        {
+          "id": 15014,
+          "optionNo": "A",
+          "text": "很有兴趣，并有所得",
+          "value": "0"
+        },
+        {
+          "id": 15015,
+          "optionNo": "B",
+          "text": "介于A、C之间",
+          "value": "1"
+        },
+        {
+          "id": 15016,
+          "optionNo": "C",
+          "text": "他们的思想简单，使我厌烦",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "id": 3991,
+      "text": " 我喜欢：",
+      "type": "radio",
+      "orderNum": 166,
+      "options": [
+        {
+          "id": 15017,
+          "optionNo": "A",
+          "text": "有几个有时对我很苛求但富有感情的朋友",
+          "value": "0"
+        },
+        {
+          "id": 15018,
+          "optionNo": "B",
+          "text": "介于A、C之间",
+          "value": "1"
+        },
+        {
+          "id": 15019,
+          "optionNo": "C",
+          "text": "不受别人的干涉",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "id": 3992,
+      "text": " 如果征求我的意见，我赞同：",
+      "type": "radio",
+      "orderNum": 167,
+      "options": [
+        {
+          "id": 15020,
+          "optionNo": "A",
+          "text": "切实制止精神病患者和智能低下的人生育",
+          "value": "2"
+        },
+        {
+          "id": 15021,
+          "optionNo": "B",
+          "text": "不确定",
+          "value": "1"
+        },
+        {
+          "id": 15022,
+          "optionNo": "C",
+          "text": "杀人犯必须判处死刑",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3993,
+      "text": " 我有时会无缘无故地感到沮丧、痛苦：",
+      "type": "radio",
+      "orderNum": 168,
+      "options": [
+        {
+          "id": 15023,
+          "optionNo": "A",
+          "text": "是的",
+          "value": "2"
+        },
+        {
+          "id": 15024,
+          "optionNo": "B",
+          "text": "介于A、C之间",
+          "value": "1"
+        },
+        {
+          "id": 15025,
+          "optionNo": "C",
+          "text": "不是的",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3994,
+      "text": " 当和立场相反的人争辩时，我主张：",
+      "type": "radio",
+      "orderNum": 169,
+      "options": [
+        {
+          "id": 15026,
+          "optionNo": "A",
+          "text": "尽量找出基本概念的差异",
+          "value": "2"
+        },
+        {
+          "id": 15027,
+          "optionNo": "B",
+          "text": "不一定",
+          "value": "1"
+        },
+        {
+          "id": 15028,
+          "optionNo": "C",
+          "text": "彼此让步",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3995,
+      "text": " 我一向重感情而不重理智，因而我的观点常常动摇不定：",
+      "type": "radio",
+      "orderNum": 170,
+      "options": [
+        {
+          "id": 15029,
+          "optionNo": "A",
+          "text": "是的",
+          "value": "0"
+        },
+        {
+          "id": 15030,
+          "optionNo": "B",
+          "text": "不敢如此",
+          "value": "1"
+        },
+        {
+          "id": 15031,
+          "optionNo": "C",
+          "text": "不是的",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "id": 3996,
+      "text": " 我的学习多赖于：",
+      "type": "radio",
+      "orderNum": 171,
+      "options": [
+        {
+          "id": 15032,
+          "optionNo": "A",
+          "text": "阅读书刊",
+          "value": "2"
+        },
+        {
+          "id": 15033,
+          "optionNo": "B",
+          "text": "介于A、C之间",
+          "value": "1"
+        },
+        {
+          "id": 15034,
+          "optionNo": "C",
+          "text": "参加集体讨论",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3997,
+      "text": " 我宁愿选择一个工资较高的工作，不在乎是否有保障，而不愿做工资低的固定工作：",
+      "type": "radio",
+      "orderNum": 172,
+      "options": [
+        {
+          "id": 15035,
+          "optionNo": "A",
+          "text": "是的",
+          "value": "0"
+        },
+        {
+          "id": 15036,
+          "optionNo": "B",
+          "text": "不太确定",
+          "value": "1"
+        },
+        {
+          "id": 15037,
+          "optionNo": "C",
+          "text": "不是的",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "id": 3998,
+      "text": " 在参加讨论时，我总是能把握住自己的立场：",
+      "type": "radio",
+      "orderNum": 173,
+      "options": [
+        {
+          "id": 15038,
+          "optionNo": "A",
+          "text": "经常如此",
+          "value": "2"
+        },
+        {
+          "id": 15039,
+          "optionNo": "B",
+          "text": "一般如此",
+          "value": "1"
+        },
+        {
+          "id": 15040,
+          "optionNo": "C",
+          "text": "必要时才如此",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3999,
+      "text": " 我常常被一些无所谓的小事所烦扰：",
+      "type": "radio",
+      "orderNum": 174,
+      "options": [
+        {
+          "id": 15041,
+          "optionNo": "A",
+          "text": "是的",
+          "value": "2"
+        },
+        {
+          "id": 15042,
+          "optionNo": "B",
+          "text": "介于A、C之间",
+          "value": "1"
+        },
+        {
+          "id": 15043,
+          "optionNo": "C",
+          "text": "不是的",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 4000,
+      "text": " 我宁愿住在嘈杂的闹市区，而不愿住在僻静的郊区：",
+      "type": "radio",
+      "orderNum": 175,
+      "options": [
+        {
+          "id": 15044,
+          "optionNo": "A",
+          "text": "是的",
+          "value": "0"
+        },
+        {
+          "id": 15045,
+          "optionNo": "B",
+          "text": "不太确定",
+          "value": "1"
+        },
+        {
+          "id": 15046,
+          "optionNo": "C",
+          "text": "不是的",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "id": 4001,
+      "text": " 下列工作如果任我挑选的话，我愿做：",
+      "type": "radio",
+      "orderNum": 176,
+      "options": [
+        {
+          "id": 15047,
+          "optionNo": "A",
+          "text": "少先队辅导员",
+          "value": "2"
+        },
+        {
+          "id": 15048,
+          "optionNo": "B",
+          "text": "不太确定",
+          "value": "1"
+        },
+        {
+          "id": 15049,
+          "optionNo": "C",
+          "text": "修表工作",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 4002,
+      "text": " 一人（）事，众人受累。",
+      "type": "radio",
+      "orderNum": 177,
+      "options": [
+        {
+          "id": 15050,
+          "optionNo": "A",
+          "text": "偾",
+          "value": "1"
+        },
+        {
+          "id": 15051,
+          "optionNo": "B",
+          "text": "愤",
+          "value": "0"
+        },
+        {
+          "id": 15052,
+          "optionNo": "C",
+          "text": "喷",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 4003,
+      "text": " 望子成龙的家长往往（）苗助长：",
+      "type": "radio",
+      "orderNum": 178,
+      "options": [
+        {
+          "id": 15053,
+          "optionNo": "A",
+          "text": "揠",
+          "value": "1"
+        },
+        {
+          "id": 15054,
+          "optionNo": "B",
+          "text": "堰",
+          "value": "0"
+        },
+        {
+          "id": 15055,
+          "optionNo": "C",
+          "text": "偃",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 4004,
+      "text": " 气候的变化并不影响我的情绪：",
+      "type": "radio",
+      "orderNum": 179,
+      "options": [
+        {
+          "id": 15056,
+          "optionNo": "A",
+          "text": "是的",
+          "value": "2"
+        },
+        {
+          "id": 15057,
+          "optionNo": "B",
+          "text": "介于A、C之间",
+          "value": "1"
+        },
+        {
+          "id": 15058,
+          "optionNo": "C",
+          "text": "不是的",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 4005,
+      "text": " 因为我对一切问题都有一些见解，所以大家都认为我是一个有头脑的人：",
+      "type": "radio",
+      "orderNum": 180,
+      "options": [
+        {
+          "id": 15059,
+          "optionNo": "A",
+          "text": "是的",
+          "value": "2"
+        },
+        {
+          "id": 15060,
+          "optionNo": "B",
+          "text": "介于A、C之间",
+          "value": "1"
+        },
+        {
+          "id": 15061,
+          "optionNo": "C",
+          "text": "不是的",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 4006,
+      "text": " 我讲话的声音：",
+      "type": "radio",
+      "orderNum": 181,
+      "options": [
+        {
+          "id": 15062,
+          "optionNo": "A",
+          "text": "宏亮",
+          "value": "2"
+        },
+        {
+          "id": 15063,
+          "optionNo": "B",
+          "text": "介于A、C之间",
+          "value": "1"
+        },
+        {
+          "id": 15064,
+          "optionNo": "C",
+          "text": "低沉",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 4007,
+      "text": " 人们都认为我是一个活跃热情的人：",
+      "type": "radio",
+      "orderNum": 182,
+      "options": [
+        {
+          "id": 15065,
+          "optionNo": "A",
+          "text": "是的",
+          "value": "2"
+        },
+        {
+          "id": 15066,
+          "optionNo": "B",
+          "text": "介于A、C之间",
+          "value": "1"
+        },
+        {
+          "id": 15067,
+          "optionNo": "C",
+          "text": "不是的",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 4008,
+      "text": " 我喜欢做出差机会较多的工作，而不计较工作是否有保障：",
+      "type": "radio",
+      "orderNum": 183,
+      "options": [
+        {
+          "id": 15068,
+          "optionNo": "A",
+          "text": "是的",
+          "value": "2"
+        },
+        {
+          "id": 15069,
+          "optionNo": "B",
+          "text": "介于A、C之间",
+          "value": "1"
+        },
+        {
+          "id": 15070,
+          "optionNo": "C",
+          "text": "不是的",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 4009,
+      "text": " 我做事严格，力求把事情办得尽善尽美：",
+      "type": "radio",
+      "orderNum": 184,
+      "options": [
+        {
+          "id": 15071,
+          "optionNo": "A",
+          "text": "是的",
+          "value": "2"
+        },
+        {
+          "id": 15072,
+          "optionNo": "B",
+          "text": "介于A、C之间",
+          "value": "1"
+        },
+        {
+          "id": 15073,
+          "optionNo": "C",
+          "text": "不是的",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 4010,
+      "text": " 在取回或归还借的东西时，我总是仔细检查，看是否保持原样：",
+      "type": "radio",
+      "orderNum": 185,
+      "options": [
+        {
+          "id": 15074,
+          "optionNo": "A",
+          "text": "是的",
+          "value": "2"
+        },
+        {
+          "id": 15075,
+          "optionNo": "B",
+          "text": "介于A、C之间",
+          "value": "1"
+        },
+        {
+          "id": 15076,
+          "optionNo": "C",
+          "text": "不是的",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 4011,
+      "text": " 我通常精力充沛，忙碌多事：",
+      "type": "radio",
+      "orderNum": 186,
+      "options": [
+        {
+          "id": 15077,
+          "optionNo": "A",
+          "text": "是的",
+          "value": "2"
+        },
+        {
+          "id": 15078,
+          "optionNo": "B",
+          "text": "介于A、C之间",
+          "value": "1"
+        },
+        {
+          "id": 15079,
+          "optionNo": "C",
+          "text": "不是的",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 4012,
+      "text": " 我确信我没有遗漏或漫不经心回答上面的任何问题：",
+      "type": "radio",
+      "orderNum": 187,
+      "options": [
+        {
+          "id": 15080,
+          "optionNo": "A",
+          "text": "是的",
+          "value": "0"
+        },
+        {
+          "id": 15081,
+          "optionNo": "B",
+          "text": "不确定",
+          "value": "0"
+        },
+        {
+          "id": 15082,
+          "optionNo": "C",
+          "text": "不是的",
+          "value": "0"
+        }
+      ]
+    }
+  ],
+  "dimensions": [
+    {
+      "id": 429,
+      "num": 1,
+      "dimensionName": "乐群性",
+      "dimensionCode": "A",
+      "evaluateExpression": "hx_t_3 + hx_t_26 + hx_t_27 + hx_t_51 + hx_t_52 + hx_t_76 + hx_t_101 + hx_t_126 + hx_t_151 + hx_t_176",
+      "standardScoreFormula": "0",
+      "results": [
+        {
+          "id": 939,
+          "evaluateExpression": "hx_wd_y_1 >= 1&& hx_wd_y_1 <= 3",
+          "conclusionAnalysis": "乐群性低，被试人倾向于生硬、冷酷、多疑、离群。对物品比对人更喜爱，常独自做事情，对不同意见不愿和解，按刻板生硬的方式和个人的准则做事。",
+          "suggestion": "被测试需要增强人际交往的主动性，并学习与陌生人进行交往的技巧，这样有助于其更加游刃有余地处理身边的人际关系，从而建立更为亲近的关系,并扩展交往范围。",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 940,
+          "evaluateExpression": "hx_wd_y_1 >= 4&& hx_wd_y_1 <= 7",
+          "conclusionAnalysis": "乐群性中等，在与人交往上，你待人不算冷淡，但也不够热情。你不太在乎是独立工作还是与人合作，有好静的一面，也有乐于与人共处的一面。你对待事物有自己的见解，但也能够听取意见，可以放弃和改变自己的观点。",
+          "suggestion": "保持适当的乐群性有利于个体的发展。在社会交往和独处之间寻求一种平衡，进而能够比较好地处理人际交往与独善其身之间的关系，这是比较好的，请继续保持。",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 941,
+          "evaluateExpression": "hx_wd_y_1 >= 8&& hx_wd_y_1 <= 10",
+          "conclusionAnalysis": "乐群性高，被试人倾向于好脾气、情绪开朗、待人热情、易合作,心软慈爱，能适应环境。喜欢与人打交道的工作，会主动与陌生人攀谈，能迅速与人组成较活跃的集团，对人宽宏大量，怕批评，热切地盼望参加社交活动。",
+          "suggestion": "保持适当的乐群性有利于个体的发展。在社会交往和独处之间寻求一种平衡，进而能够比较好地处理人际交往与独善其身之间的关系，这是比较好的，请继续保持。",
+          "assessmentWarning": "none"
+        }
+      ]
+    },
+    {
+      "id": 430,
+      "num": 2,
+      "dimensionName": "聪慧性",
+      "dimensionCode": "B",
+      "evaluateExpression": "hx_t_28 + hx_t_53 + hx_t_54 + hx_t_77 + hx_t_78 + hx_t_102 + hx_t_103 + hx_t_127 + hx_t_128 + hx_t_152 + hx_t_153 + hx_t_177 + hx_t_178",
+      "standardScoreFormula": "0",
+      "results": [
+        {
+          "id": 942,
+          "evaluateExpression": "hx_wd_y_2 >= 1&& hx_wd_y_2 <= 3",
+          "conclusionAnalysis": "聪慧性低，被试倾向思维能力比较差。具体表现为思想迟钝，学识浅薄，抽象思考能力弱。被测者通常学习与理解能力不强，不能举一反三。该维度得分低的原因还可能是由于情绪不稳定，心理病态或失常所致。",
+          "suggestion": "被试者的思维能力较弱，建议做一全面的检查，以确定是否有重大的原因。在生活之中注意选择适合他的培养方案，给与所能胜任的任务。",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 943,
+          "evaluateExpression": "hx_wd_y_2 >= 4&& hx_wd_y_2 <= 7",
+          "conclusionAnalysis": "聪慧性中等，被试有一定的抽象思维能力、理解力和推理能力，处于平均水平，和大多数人差不多。你的学识和才能足以对付一般的学习任务，但对有些高级的智力活动可能存在难度。",
+          "suggestion": "被试在平常的生活中基本上能够解决遇到的各种问题，从而较好地适应于学习、工作和生活；但是可能不会给人以聪明伶俐、思维敏捷的印象。建议在日常生活中能够留心观察，随时补充知识,扩大知识面，努力提高自己的思维水平有利于被测试者在学业和工作上取得更大的成功。",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 944,
+          "evaluateExpression": "hx_wd_y_2 >= 8&& hx_wd_y_2 <= 10",
+          "conclusionAnalysis": "聪慧性高，被试倾向于能迅速领悟各种观念，学习敏捷而聪颖，善于抽象性思维，其聪明才智与文化水平相一致。",
+          "suggestion": "被试有很好的心智基础，很容易有好的表现。建议继续勤奋努力，戒骄戒躁，意人格各方面的协调和全面发展，使自己变得更加出色。",
+          "assessmentWarning": "none"
+        }
+      ]
+    },
+    {
+      "id": 431,
+      "num": 3,
+      "dimensionName": "稳定性",
+      "dimensionCode": "C",
+      "evaluateExpression": "hx_t_4 + hx_t_5 + hx_t_29 + hx_t_30 + hx_t_55 + hx_t_79 + hx_t_80 + hx_t_104 + hx_t_105 + hx_t_129 + hx_t_130 + hx_t_154 + hx_t_179",
+      "standardScoreFormula": "0",
+      "results": [
+        {
+          "id": 945,
+          "evaluateExpression": "hx_wd_y_3 >= 1&& hx_wd_y_3 <= 3",
+          "conclusionAnalysis": "稳定性低，被试趋向于在困难条件下表现出对挫折的耐受性差，易受情感影响，情绪不稳定，易颓废，疲倦，烦躁，有时显得幼稚。",
+          "suggestion": "被试对挫折的耐受性较差，情绪不稳定，易烦躁，建议生活中注意情绪自我调节能力的培养，被测试者不妨学习几种有效的宣泄不良情绪的方法，例如，深呼吸法、找人倾诉、写日记、参加体育锻炼等等。",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 946,
+          "evaluateExpression": "hx_wd_y_3 >= 4&& hx_wd_y_3 <= 7",
+          "conclusionAnalysis": "稳定性中等，被试的情绪经常在沉稳和激动之间摇摆，有的时候能够很稳重的处理面临的事务，也能很好的调节自己的情绪，但是有时候有很容易为一点小事而烦恼。",
+          "suggestion": "被试情绪稳定，一般能够冷静而理性地处理问题，但压力较大时难免情绪化，这种不良情绪往往会影响被测试者有效的解决问题。建议被测试者首先要对自己的情绪变化有所认识，当面临较大的压力和挑战时，有意识的控制自己的情绪波动，待情绪逐步平静时，再采用理性的态度来分析和解决问题，这样做会不断增加被测试者的情绪稳定性和抗挫折能力。",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 947,
+          "evaluateExpression": "hx_wd_y_3 >= 8&& hx_wd_y_3 <= 10",
+          "conclusionAnalysis": "稳定性高，被测者情绪稳定而成熟，能够始终保持以一种平静的心态来面对现实。通常以沉着的态度应付现实各项问题，以积极的态度应对压力和挑战，行动充满魄力。与此同时能够振作团体的勇气，维持团体的合作精神。有时也可能是由于长期不能彻底解决许多生活难题，而不得不勉强地自我宽解。",
+          "suggestion": "被试情绪发展比较成熟，是比较好的一种状态，但是要注意生活中不要过多地压抑自己，适当表达情绪有利于身心健康。",
+          "assessmentWarning": "none"
+        }
+      ]
+    },
+    {
+      "id": 432,
+      "num": 4,
+      "dimensionName": "恃强性",
+      "dimensionCode": "E",
+      "evaluateExpression": "hx_t_6 + hx_t_7 + hx_t_31 + hx_t_32 + hx_t_56 + hx_t_57 + hx_t_81 + hx_t_106 + hx_t_131 + hx_t_155 + hx_t_156 + hx_t_180 + hx_t_181",
+      "standardScoreFormula": "0",
+      "results": [
+        {
+          "id": 948,
+          "evaluateExpression": "hx_wd_y_4 >= 1&& hx_wd_y_4 <= 3",
+          "conclusionAnalysis": "恃强性低，被试倾向于谦让、温顺，安于现状，缺乏自信，易适应环境和依赖别人，对指责易产生焦虑，坦白而通融。",
+          "suggestion": "被试倾向于温顺而缺乏自信，易依赖别人。建议多创造机会令其自主选择，多给与鼓励，培养自信心和独立处理问题的能力。",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 949,
+          "evaluateExpression": "hx_wd_y_4 >= 4&& hx_wd_y_4 <= 7",
+          "conclusionAnalysis": "恃强性中等，在为人处事方面，你介于顺从和固执己见之间。你通常采取一种比较折中的姿态，在有些情况下坚持自己的意见，有时又服从他人。你有一定的自信，有时也会有不如别人的感觉。",
+          "suggestion": "被试能够在听取他人意见和主动表达个人意见之间取得一定的平衡。在今后的生活中，希望被测试者能够继续保持这一特征。",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 950,
+          "evaluateExpression": "hx_wd_y_4 >= 8&& hx_wd_y_4 <= 10",
+          "conclusionAnalysis": "恃强性高，被试倾向于严厉、独断专横、不友善、攻击、竞争、顽固。对别人责备过分，喜欢统治别人，不怕强权，主动且自视很高。",
+          "suggestion": "被试难以听从别人的意见，严于待人。建议他多看别人的长处，树立人人平等的观念，鼓励他充分意识到沟通的意义和团队合作的价值。",
+          "assessmentWarning": "none"
+        }
+      ]
+    },
+    {
+      "id": 433,
+      "num": 5,
+      "dimensionName": "兴奋性",
+      "dimensionCode": "F",
+      "evaluateExpression": "hx_t_8 + hx_t_33 + hx_t_58 + hx_t_82 + hx_t_83 + hx_t_107 + hx_t_108 + hx_t_132 + hx_t_133 + hx_t_157 + hx_t_158 + hx_t_182 + hx_t_183",
+      "standardScoreFormula": "0",
+      "results": [
+        {
+          "id": 951,
+          "evaluateExpression": "hx_wd_y_5 >= 1&& hx_wd_y_5 <= 3",
+          "conclusionAnalysis": "兴奋性低，被试倾向于克制、沉默、内省、严肃、认真、沉默寡言，有时会郁郁寡欢、抑郁、过分审慎。爱独处，甚至自我压抑。",
+          "suggestion": "被试倾向于不善言谈，郁郁寡欢，甚至自我压抑。建议他多一些机会和勇气去与人交往，轻松而愉快地与人交谈，做到热心而富有感情。必要时可以做一些放松训练。",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 952,
+          "evaluateExpression": "hx_wd_y_5 >= 4&& hx_wd_y_5 <= 7",
+          "conclusionAnalysis": "兴奋性中等，被试兴奋性处于中间水平，冷静和兴奋的特性同时存在，通常处事很严肃而且谨慎，但是在一些特殊的场合也会表现得很兴奋，把自己的情绪表现得很明显。",
+          "suggestion": "被试能够适当地分配自己的精力，注意分场合地表现自己的活泼性。希望继续保持。",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 953,
+          "evaluateExpression": "hx_wd_y_5 >= 8&& hx_wd_y_5 <= 10",
+          "conclusionAnalysis": "兴奋性高，被试倾向于愉悦、健谈、坦白、生机勃勃、活跃、热心、无忧无虑、富于表情。经常被选为领导，但可能有冲动、多变。",
+          "suggestion": "建议被试适当地展示自己的特点，在学习和工作方面，应注意保持认真、严肃而审慎的态度，从而较好地完成工作，在社会交往方面，被测试者应注意使自己的表现更为开朗而活泼，能够地与人交往，从而充分利用了个性方面的优势，避免其不良的影响。",
+          "assessmentWarning": "none"
+        }
+      ]
+    },
+    {
+      "id": 434,
+      "num": 6,
+      "dimensionName": "有恒性",
+      "dimensionCode": "G",
+      "evaluateExpression": "hx_t_9 + hx_t_34 + hx_t_59 + hx_t_84 + hx_t_109 + hx_t_134 + hx_t_159 + hx_t_160 + hx_t_184 + hx_t_185",
+      "standardScoreFormula": "0",
+      "results": [
+        {
+          "id": 954,
+          "evaluateExpression": "hx_wd_y_6 >= 1&& hx_wd_y_6 <= 3",
+          "conclusionAnalysis": "有恒性低，被试倾向于不审慎、轻浮，意志易动摇，缺乏奉公守法的精神。由于不受集体约束，故有可能发生反社会行为。但有时这却使他更健康，因为拒绝受规律约束使他在应激中发生较少躯体不适感。",
+          "suggestion": "被试责任性较差，不喜欢遵从各种规则、规范和道德准则。有时甚至不惜知法犯法，不择手段以达到某一目的。建议改进，被测试者要从主流文化中学习社会所提倡的道德和责任，并与自己的行为相对照；应当充分认识社会道德规范和义务要求的社会意义和必要性，树立高尚的行为榜样；与他人坦诚地交流对自己行为的看法，以便迅速修正自己的行为。如果继续放任自流，最终会遭致他人的反感和排斥，从而严重地影响到人际关系以及社会适应，严重时可能会被社会所淘汰。",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 955,
+          "evaluateExpression": "hx_wd_y_6 >= 4&& hx_wd_y_6 <= 7",
+          "conclusionAnalysis": "有恒性中等，被试的恒心和韧性处于平均水平。做事通常比较认真，有时很严谨，但有时也会觉得麻烦而应付了事。有一定的责任感，但不愿独立承担较重的责任。在做事上，有一定的原则性，但有时也会妥协。",
+          "suggestion": "被试有道德、稳重、守法,希望可以继续保持，在以后的生活中要注意放松，不要过多压抑自己。",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 956,
+          "evaluateExpression": "hx_wd_y_6 >= 8&& hx_wd_y_6 <= 10",
+          "conclusionAnalysis": "有恒性高，被试倾向于性格严峻，有强烈责任心，有道德、稳重、守法、有计划，善宽容，比较喜欢勤奋聪明的人，细心周到善始善终，这些特点是出自于内心的迫切需要。",
+          "suggestion": "被试有道德、稳重、守法，希望可以继续保持，在以后的生活中要注意放松，不要过多压抑自己。",
+          "assessmentWarning": "none"
+        }
+      ]
+    },
+    {
+      "id": 435,
+      "num": 7,
+      "dimensionName": "敢为性",
+      "dimensionCode": "H",
+      "evaluateExpression": "hx_t_10 + hx_t_35 + hx_t_36 + hx_t_60 + hx_t_61 + hx_t_85 + hx_t_86 + hx_t_110 + hx_t_111 + hx_t_135 + hx_t_136 + hx_t_161 + hx_t_186",
+      "standardScoreFormula": "0",
+      "results": [
+        {
+          "id": 957,
+          "evaluateExpression": "hx_wd_y_7 >= 1&& hx_wd_y_7 <= 3",
+          "conclusionAnalysis": "敢为性低，被试倾向于胆小退缩，羞怯、小心谨慎，保守求稳，常有自卑感。说话缓慢，缺乏自信心，特别对异性反应胆小，甚至不感兴趣。",
+          "suggestion": "被试倾向于胆小退缩，常有自卑感，不敢表现自己。鼓励其从熟悉的环境中努力大方起来，勇于交流，树立自信，而后在陌生环境中继续加以培养。",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 958,
+          "evaluateExpression": "hx_wd_y_7 >= 4&& hx_wd_y_7 <= 7",
+          "conclusionAnalysis": "敢为性中等，在遇到困难时一般可以应付，但有时也怀疑自己的能力，想要退缩。在人群中不太矫揉造作，但也有一些顾忌和掩饰，愿意参与一些活动，但不够热心，随时可以退出来旁观。",
+          "suggestion": "被试能正常应对一般的社交情境，在陌生的环境中会比较拘谨，并在一定程度上主动采取行动来表现自己。在今后的生活中，被测试者应该更加自信、坦然的与他人交往，真实的展现自己的性格特点和个人对事物的看法。被测试者不要过分顾及他人对自己言行的评价而试图掩饰和伪装自己，一个人的真实本相是无法掩饰的，如果勇敢的表现自己更容易使自己得到发展和进步，也更容易被大家理解和接受。",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 959,
+          "evaluateExpression": "hx_wd_y_7 >= 8&& hx_wd_y_7 <= 10",
+          "conclusionAnalysis": "敢为性高，被试倾向于好冒险，勇于社交,放任主动，喜欢探求新事物，并富于情绪反应，在与异性接触中会给人“脸皮较厚”的印象，常粗心大意，忽视细节。",
+          "suggestion": "被试好冒险，勇于社交，但是容易粗心大意，忽视细节，建议他扬长避短，凡事三思而后行，全面考虑，增添做事情的稳妥度。",
+          "assessmentWarning": "none"
+        }
+      ]
+    },
+    {
+      "id": 436,
+      "num": 8,
+      "dimensionName": "敏感性",
+      "dimensionCode": "I",
+      "evaluateExpression": "hx_t_11 + hx_t_12 + hx_t_37 + hx_t_62 + hx_t_87 + hx_t_112 + hx_t_137 + hx_t_138 + hx_t_162 + hx_t_163",
+      "standardScoreFormula": "0",
+      "results": [
+        {
+          "id": 960,
+          "evaluateExpression": "hx_wd_y_8 >= 1&& hx_wd_y_8 <= 3",
+          "conclusionAnalysis": "敏感性低，被试通常比较强硬、理智、注重逻辑。通常以客观、坚强、独立的态度处理当前的问题，强调现实，关心事物的运作，而忽略其中的艺术感以及主观上的感受。不易动感情，将精力完全集中于事物的效用以及客观性问题，而将情绪拒之门外。可能过分骄傲，冷酷无情。",
+          "suggestion": "被测者过于注重客观和逻辑，缺乏对生活和情绪的敏感性，这一特征有助于被测者以客观现实的态度来处理面临的问题，但是过分现实和理智会给人以铁石心肠、不近认清的感觉。在今后的生活中，希望被测者在通过客观途径解决问题的同时，也能够注意留心生活中的感性成分，留意存在于身边的艺术和美；需要理解和重视自己和他人的情感因素，这样被测者会感受到更多生活的丰富多彩和更多的幸福、快乐。",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 961,
+          "evaluateExpression": "hx_wd_y_8 >= 4&& hx_wd_y_8 <= 7",
+          "conclusionAnalysis": "敏感性中等。在待人接物的过程中，通常能够兼顾感性和理性，在关注事情客观进展的同时也可以看到其中的感性成分，从而在理智逻辑与感情之间寻得自己的平衡。在日常生活当中会注意到事物的实用性，也可以欣赏其艺术性因素。",
+          "suggestion": "被试在待人接物的过程中，通常能够兼顾感性和理性，在关注事情客观进展的同时也可以看到其中的感性成分，在日常生活当中会注意到事物的实用性，也可以欣赏其艺术性因素。这一特征有助于被测试者更好地感受和理解生活和世界,能够结合“情”与“理”来制定综合的决策，希望其继续保持。",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 962,
+          "evaluateExpression": "hx_wd_y_8 >= 8&& hx_wd_y_8 <= 10",
+          "conclusionAnalysis": "敏感性高。被试通常比较敏感，倚赖直觉。他们通常有着非常敏锐的感觉，容易感情用事；通常心肠软，富有同情心，易受感动。被测者有教养，不喜欢接近粗俗的人和做笨重的工作。被测者爱好艺术，耽于幻想，有时过分不切实际，缺乏耐性与恒心，在团体活动中，不着实际的看法与行为常常减低了团体的工作效率。",
+          "suggestion": "被试显得感性有余，理性不足。建议其增强做事情的耐心与恒心，同时尽量避免自己随性、随感情做事的习惯，凡事多一些客观现实理性的思考，以期在理智逻辑与感情之间寻得自己的平衡。",
+          "assessmentWarning": "none"
+        }
+      ]
+    },
+    {
+      "id": 437,
+      "num": 9,
+      "dimensionName": "怀疑性",
+      "dimensionCode": "L",
+      "evaluateExpression": "hx_t_13 + hx_t_38 + hx_t_63 + hx_t_64 + hx_t_88 + hx_t_89 + hx_t_113 + hx_t_114 + hx_t_139 + hx_t_164",
+      "standardScoreFormula": "0",
+      "results": [
+        {
+          "id": 963,
+          "evaluateExpression": "hx_wd_y_9 >= 1&& hx_wd_y_9 <= 3",
+          "conclusionAnalysis": "怀疑性低，被试倾向于依赖随和，安全感强，无嫉妒心，易接受别人的意见，易相处，但容易受人欺骗而上当。",
+          "suggestion": "被试者信赖随和、为人宽容，易于相信他人而很少有猜忌的念头，这一特征使得被测试者比较易于合作，并建立较好的人际关系，在今后的生活中，还希望被测试者能够继续保持信赖、随和的个性，并因此而赢得他人的尊敬和信赖。但是需要加以注意的是，在与人进行交往的过程中，可能会由于盲目信任而给自己带来伤害，因此还需对他人超出常理的行为多加留意和分析，提高警惕，谨防上当受骗或者被人利用。",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 964,
+          "evaluateExpression": "hx_wd_y_9 >= 4&& hx_wd_y_9 <= 7",
+          "conclusionAnalysis": "怀疑性中等，被试有一定的信任感和安全感，但是有时候也会猜忌别人，能为别人着想，但是有时候也会刚愎自用、固执己见。",
+          "suggestion": "被试者信赖随和、为人宽容，易于相信他人而很少有猜忌的念头，这一特征使得被测试者比较易于合作，并建立较好的人际关系，在今后的生活中，还希望被测试者能够继续保持信赖、随和的个性，并因此而赢得他人的尊敬和信赖。但是需要加以注意的是，在与人进行交往的过程中，可能会由于盲目信任而给自己带来伤害，因此还需对他人超出常理的行为多加留意和分析，提高警惕，谨防上当受骗或者被人利用。",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 965,
+          "evaluateExpression": "hx_wd_y_9 >= 8&& hx_wd_y_9 <= 10",
+          "conclusionAnalysis": "怀疑性高，被试倾向于刚愎多疑、固执己见，对人不信任，与人交往常斤斤计较，不考虑别人的利益，警惕性高。",
+          "suggestion": "被试人际信任度很低，对别人有较多的戒备与防御，不利于亲密关系的建立和合作的进行，建议受测试者在适当的情况下，放松自己的心情，关心周围的人，互助互爱，使自己成为值得信赖的一个人。",
+          "assessmentWarning": "none"
+        }
+      ]
+    },
+    {
+      "id": 438,
+      "num": 10,
+      "dimensionName": "幻想性",
+      "dimensionCode": "M",
+      "evaluateExpression": "hx_t_14 + hx_t_15 + hx_t_39 + hx_t_40 + hx_t_65 + hx_t_90 + hx_t_91 + hx_t_115 + hx_t_116 + hx_t_140 + hx_t_141 + hx_t_165 + hx_t_166",
+      "standardScoreFormula": "0",
+      "results": [
+        {
+          "id": 966,
+          "evaluateExpression": "hx_wd_y_10 >= 1&& hx_wd_y_10 <= 3",
+          "conclusionAnalysis": "幻想性低，被试倾向于注重现实，办事力求稳妥，踏实能干，对生活细节较重视，能考虑自己的行为活动是否合乎社会规范。",
+          "suggestion": "被测者的幻想水平较低，喜欢脚踏实地，但是这一特征也意味着缺乏想象力，不擅长处理需要创造性思维的问题，因而比较适合从事需要实际、机警、脚踏实地的工作。在今后的生活中，还希望被测者从更为广阔的角度来看待和思考问题，在日常生活中，也要尝试着从多方面想象事物的可能的发展变化，拓展自己的思路，将自己的想象与生活中现实因素相结合，从而增加自己创造性解决问题的能力。",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 967,
+          "evaluateExpression": "hx_wd_y_10 >= 4&& hx_wd_y_10 <= 7",
+          "conclusionAnalysis": "幻想性中等，被测者通常能够既关注现实的环境和事实，同时也不乏想象力，进而在关注外界环境因素与关注内在思维过程两者之间寻求一个平衡。在解决问题时即能关注事物的事实和细节，又会从更广阔的思路去思考。被测者不会让人觉得缺乏想象力，也不会给人留下过分冲动，不切实际的印象。",
+          "suggestion": "同大多数人一样，被测者的幻想性水平一般，通常能够既关注现实的环境和事实，同时也不乏想象力，在今后的生活中，还希望被测者能够更好地将两者有机地结合起来，在充分利用好发散思维的同时也要关注于现实生活中的具体情况，这样既可以创造性的解决问题又不会使自己的想法过分异想天开、脱离实际。",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 968,
+          "evaluateExpression": "hx_wd_y_10 >= 8&& hx_wd_y_10 <= 10",
+          "conclusionAnalysis": "幻想性高，被试倾向于幻想，狂放不羁，富于想象，往往心不在焉，自得其乐，自我陶醉，通常忽视生活细节和现状，做事情常从自己的动机兴趣出发。",
+          "suggestion": "被测者的想象力十分丰富，比较喜欢关注于抽象的观点和想法，具有较好的创造力，适合于从事艺术、写作、研究性等工作，但是这一特征也意味着不喜欢处理现实的问题，缺乏脚踏实地的精神。在今后的生活中，还希望被测者能够将更多的精力集中于现实情况，注重从客观现实的角度来分析并解决问题，而不是单纯地进行理论性思考。",
+          "assessmentWarning": "none"
+        }
+      ]
+    },
+    {
+      "id": 439,
+      "num": 11,
+      "dimensionName": "世故性",
+      "dimensionCode": "N",
+      "evaluateExpression": "hx_t_16 + hx_t_17 + hx_t_41 + hx_t_42 + hx_t_66 + hx_t_67 + hx_t_92 + hx_t_117 + hx_t_142 + hx_t_167",
+      "standardScoreFormula": "0",
+      "results": [
+        {
+          "id": 969,
+          "evaluateExpression": "hx_wd_y_11 >= 1&& hx_wd_y_11 <= 3",
+          "conclusionAnalysis": "世故性低，被试倾向于坦白直率、朴实无华、老实、易相信人，但有时处于被动状态，社交上较为笨拙，有时甚至对社交回避。",
+          "suggestion": "被试坦白直率、朴实无华，通常愿意较为公开地展现真实的自我，平等程度跟他人交换有关个人的信息和观点，但是会考虑到现实情况，口无遮拦，过分直言不讳而容易让他人感到尴尬和不满。建议其学习一些社交技巧，以维持更加良好的人际关系。",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 970,
+          "evaluateExpression": "hx_wd_y_11 >= 4&& hx_wd_y_11 <= 7",
+          "conclusionAnalysis": "世故性中等，待人接物时你有世故的一面，也有天真的一面，有时候会很谨慎，但是有时候也会很坦率，而且毫无顾虑的发表自己的见解。",
+          "suggestion": "被试能够保持自己言行的得体，不会让人感到过分直白、轻率，也不会让人感到虚伪世故，不可信任。同时兼俱率真与老练，往往给人留下成熟而真诚的印象，希望被测试者能够继续保持并发扬这一优势，并根据具体的社会情境来确定自己的态度倾向。",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 971,
+          "evaluateExpression": "hx_wd_y_11 >= 8&& hx_wd_y_11 <= 10",
+          "conclusionAnalysis": "世故性高，被试倾向于世故，为人机灵，办事老练，近乎于狡猾，聪明且善于社交，对别人有洞察力，善精打细算。",
+          "suggestion": "被试有洞察力，为人机灵，办事老练，容易由于显得过于精明而难以获得别人的信任。建议其在生活中，适当的场合多一些“大智若愚”，不要太斤斤计较，在表达自己意见和看法时应当本着有利于问题的解决的目的，采用利于其他人接受的方式；在众多情境中“真诚”往往是第一重要的因素。",
+          "assessmentWarning": "none"
+        }
+      ]
+    },
+    {
+      "id": 440,
+      "num": 12,
+      "dimensionName": "忧虑性",
+      "dimensionCode": "O",
+      "evaluateExpression": "hx_t_18 + hx_t_19 + hx_t_43 + hx_t_44 + hx_t_68 + hx_t_69 + hx_t_93 + hx_t_94 + hx_t_118 + hx_t_119 + hx_t_143 + hx_t_144 + hx_t_168",
+      "standardScoreFormula": "0",
+      "results": [
+        {
+          "id": 972,
+          "evaluateExpression": "hx_wd_y_12 >= 1&& hx_wd_y_12 <= 3",
+          "conclusionAnalysis": "忧虑性低，被试倾向于安静沉着，倾向于自信，生活自足快乐，悠然自得，少烦恼，信心充足，乐观安详。",
+          "suggestion": "被测者的忧虑性水平较低，具有很强的自信心，很少体验到烦恼和忧愁，总体上讲，这对完成工作和学习任务是有所裨益的，为此也希望被测者能够继续保持这一优势。但是应该特别引起注意的是，适度而有理由的自信是值得提倡的，自负和自大则不利于人际交流与任务完成，因此自信应建立在客观和理性的态度之上。另外，被测者有时会因为对他人的忧虑和担心缺乏同情和理解而引发他人的反感和恶意，被测者需要加以注意。",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 973,
+          "evaluateExpression": "hx_wd_y_12 >= 4&& hx_wd_y_12 <= 7",
+          "conclusionAnalysis": "忧虑性中等，被测者对自己的优点和缺陷有着较为现实的认识，不会盲目地自我怀疑或者自我推崇，因此有时会为自己的胜任能力而感到担忧、担心；但是他们不会轻易的自我否定，相信自己具有一定的解决问题的能力，因此不会经常的感到担心、忧愁，不会时时有患得患失。",
+          "suggestion": "和大多数人一样，被测者的忧虑性水平中等，对自己基本可以胜任的任务会保持平和的心态，但是面临有难度的任务时会感到紧张、忧虑。被测者应当认识到这些焦虑的情绪往往无益于问题的解决，相反过分的担心会影响正常能力的发挥。因此被测者在感受到自己过多的忧虑情绪时要自己为自己减压，研究证明，越是复杂的任务越需要身心相对放松的状态才有利于实际能力的发挥。",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 974,
+          "evaluateExpression": "hx_wd_y_12 >= 8&& hx_wd_y_12 <= 10",
+          "conclusionAnalysis": "忧虑性高，被试倾向于自我内疚，常烦恼自扰，甚至沮丧悲观，感到不如人，有时缺乏生活勇气，时有自罪感。",
+          "suggestion": "被试倾向于自我内疚，常烦恼自扰，甚至沮丧悲观，感到不如人。被测试者应当认识到这些焦虑的情绪往往无益于问题的解决，相反过分的担心会影响正常能力的发挥。因此被测试者在感受到自己过多的忧虑情绪时要自己为自己减压，研究证明，越是复杂的任务越需要身心相对放松的状态才有利于实际能力的发挥。",
+          "assessmentWarning": "none"
+        }
+      ]
+    },
+    {
+      "id": 441,
+      "num": 13,
+      "dimensionName": "实验性",
+      "dimensionCode": "Q1",
+      "evaluateExpression": "hx_t_20 + hx_t_21 + hx_t_45 + hx_t_46 + hx_t_70 + hx_t_95 + hx_t_120 + hx_t_145 + hx_t_169 + hx_t_170",
+      "standardScoreFormula": "0",
+      "results": [
+        {
+          "id": 975,
+          "evaluateExpression": "hx_wd_y_13 >= 1&& hx_wd_y_13 <= 3",
+          "conclusionAnalysis": "实验性低，被试倾向于尊重传统观念，坚持以往所受的教育，对新观念的接受小心谨慎，对新思潮不感兴趣，严守惯例，在宗教和政治上较保守。",
+          "suggestion": "被试尊重传统观念，对新思潮不感兴趣，严守惯例。新事物的出现必定有其合理性，建议他以开放，包容的心态去看待新的事物和观念。",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 976,
+          "evaluateExpression": "hx_wd_y_13 >= 4&& hx_wd_y_13 <= 7",
+          "conclusionAnalysis": "实验性中等，被试有时候比较传统，有时候也比较激进，崇尚自由，但是不会脱离现实，生活方式比较传统，但是也能了解新生事物，了解潮流发展的方向。",
+          "suggestion": "被试既服从于传统，同时又能够接受新的观点，但是可能还缺乏一些主动的创造精神，不会特别积极地倡导变革。在今后的生活中，希望被测试者能够对生活多一些观察，主动发现现实中的不足之处，并试着从不同的角度探索改善的方法，应该意识到变革虽然可能会有一定的风险，但是也有可能会促使生活向着更为积极的方向转变。",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 977,
+          "evaluateExpression": "hx_wd_y_13 >= 8&& hx_wd_y_13 <= 10",
+          "conclusionAnalysis": "实验性高，被试倾向于思想自由，不拘泥于现实，批评观点激进，喜欢多了解少说教，较多倾向于生活实践，较能耐受烦扰和变革，有分析批判能力。",
+          "suggestion": "被试不拘泥于现实，主动地去探索、寻求变革，希望其继续保持这种开拓创新的特点，同时建议其在接纳新的事物的时候多加辨别，能够吸取精华，剔去糟粕。",
+          "assessmentWarning": "none"
+        }
+      ]
+    },
+    {
+      "id": 442,
+      "num": 14,
+      "dimensionName": "独立性",
+      "dimensionCode": "Q2",
+      "evaluateExpression": "hx_t_22 + hx_t_47 + hx_t_71 + hx_t_72 + hx_t_96 + hx_t_97 + hx_t_121 + hx_t_122 + hx_t_146 + hx_t_171",
+      "standardScoreFormula": "0",
+      "results": [
+        {
+          "id": 978,
+          "evaluateExpression": "hx_wd_y_14 >= 1&& hx_wd_y_14 <= 3",
+          "conclusionAnalysis": "独立性低，被试倾向于依赖，随群附众，喜欢与别人一起工作和解决问题，喜欢寻求社会激励，缺乏个人决断，需要集体支持，但不一定要群居生活。",
+          "suggestion": "被试比较依赖，缺乏个人决断，容易随波逐流。建议其注意培养自己的自主能力，多依靠自己的内在动机和激励来寻求更加适合自己的发展，对于那些需要独立完成的工作，被测试者也要有信心和能力来独立地承担并完成任务。",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 979,
+          "evaluateExpression": "hx_wd_y_14 >= 4&& hx_wd_y_14 <= 7",
+          "conclusionAnalysis": "独立性中等，被试有独立的一面也有依赖性的一面，能够独立完成一些平常的任务，但是在面临非常具有挑战性的任务时，还是会求助于他人。基本能坚持自己的想法，但是在强烈的压力下，也容易放弃自己的看法。",
+          "suggestion": "像大多数人一样，被测者的独立性居于一般水平，被测者能够较好的承担起生活当中的任何角色，既保持一定的独立观点也愿意接受他人的正确看法。希望被测者能够在未来的生活中继续保持这种优势，达到独立与合作之间的平衡。为此，被测者应该首先意识到保持独立和与他人合作都是十分重要的，在需要群体合作的工作任务中，要尽力与他人建立良好合作的关系，并注意在合作的过程中保持自己的独立性，坚持自己的意见；同时，对于那些需要独立完成的工作，被测者也要有信心和能力来独立地承担并完成任务。",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 980,
+          "evaluateExpression": "hx_wd_y_14 >= 8&& hx_wd_y_14 <= 10",
+          "conclusionAnalysis": "独立性高，被试倾向于自立自恃，习惯于我行我素，不依赖他人，也无意支配或控制别人，不讨厌别人，也不需他人有好感，在性格上是独立的。",
+          "suggestion": "被试自立自恃，习惯于我行我素，不依赖他人。建议其继续保持，另外要意识到保持独立和与他人合作都是十分重要的，在需要群体合作的工作任务中，要尽力与他人建立良好合作的关系，并注意在合作的过程中保持自己的独立性，坚持自己的意见。",
+          "assessmentWarning": "none"
+        }
+      ]
+    },
+    {
+      "id": 443,
+      "num": 15,
+      "dimensionName": "自律性",
+      "dimensionCode": "Q3",
+      "evaluateExpression": "hx_t_23 + hx_t_24 + hx_t_48 + hx_t_73 + hx_t_98 + hx_t_123 + hx_t_147 + hx_t_148 + hx_t_172 + hx_t_173",
+      "standardScoreFormula": "0",
+      "results": [
+        {
+          "id": 981,
+          "evaluateExpression": "hx_wd_y_15 >= 1&& hx_wd_y_15 <= 3",
+          "conclusionAnalysis": "自律性低，被试倾向于不为意志的克制而操心，在矛盾冲突时难顾大体，很少考虑社会规范要求，常感不能适应环境。",
+          "suggestion": "被试易在遇到矛盾冲突时难顾大体，很少考虑社会规范要求，常感不能适应环境。建议培养理性思维和情绪的自我控制的能力，用社会规范来调整自己的行为。",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 982,
+          "evaluateExpression": "hx_wd_y_15 >= 4&& hx_wd_y_15 <= 7",
+          "conclusionAnalysis": "自律性中等，被试有一定的自我约束能力。一般情况下能较好地控制自己的行为，并对他人的需要给予一定尊重。但是难以始终如一地做到自律严谨、言行一致，有时会放弃对自己的克制。",
+          "suggestion": "被试多数时候能够处理好工作、学习与娱乐的关系，但是也会有时放松对自己的要求，因不能克制自己的欲望而违背规则或习俗。自律性高低与一个人最终的成就是成正比的，因此建议其继续努力，不断磨练自己的意志，坚定自己的目标，增强自己的勇气，只有这样才能使被测试者充分利用好自己的时间和经历在人生的道路上取得辉煌的成就。",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 983,
+          "evaluateExpression": "hx_wd_y_15 >= 8&& hx_wd_y_15 <= 10",
+          "conclusionAnalysis": "自律性高，被试倾向于自律严谨、对自己的情绪和行为一般有较强的控制能力，有社会规则的认识且处世谨慎，自尊心强，有时顽固。",
+          "suggestion": "被测者对自己要求很高，凡事追求完美，具有很好的自律性、组织性和计划性，这样的特征有助于被测者高效和有序地完成工作目标，对于被测者取得较大的成就是至关重要的。因此被测者要保持和发挥自己的这一优势，不断的达到和超越自己的一个个人生目标。同时需要注意的是不要对自己和他人过分的苛求，不要将目标制定得太高，否则会感到让自己或者他人感到无法承受的压力、挫折。",
+          "assessmentWarning": "none"
+        }
+      ]
+    },
+    {
+      "id": 444,
+      "num": 16,
+      "dimensionName": "紧张性",
+      "dimensionCode": "Q4",
+      "evaluateExpression": "hx_t_25 + hx_t_49 + hx_t_50 + hx_t_74 + hx_t_75 + hx_t_99 + hx_t_100 + hx_t_124 + hx_t_125 + hx_t_149 + hx_t_150 + hx_t_174 + hx_t_175",
+      "standardScoreFormula": "0",
+      "results": [
+        {
+          "id": 984,
+          "evaluateExpression": "hx_wd_y_16 >= 1&& hx_wd_y_16 <= 3",
+          "conclusionAnalysis": "紧张性低，被试倾向于平静松弛，生活愉快，不颓丧，有时由于过分满足反而导致懒惰和效率低。",
+          "suggestion": "被试很多时候可以心平气和地看待生活中发生的事情，很少体验到焦虑的感觉。但是有时由于过分满足反而导致懒惰和效率低。建议其为自己制定计划，不断努力寻求进步。",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 985,
+          "evaluateExpression": "hx_wd_y_16 >= 4&& hx_wd_y_16 <= 7",
+          "conclusionAnalysis": "紧张性中等，被试有时心平气和，有时容易紧张激动。可以在一定程度上保持心境不乱，平静地处理事务，但难免会受外界影响，引起情绪波动。",
+          "suggestion": "被试有时会体验到紧张与不安，但多数时候也能够保持内心的安稳和平静。被测试者需要注意的是，适度的紧张对于任务的完成能够起到一定的积极作用，过多和过少的紧张对于任务的完成都是不利的，因而被测试者应注意在紧张和平和之间保持一定的平衡。",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 986,
+          "evaluateExpression": "hx_wd_y_16 >= 8&& hx_wd_y_16 <= 10",
+          "conclusionAnalysis": "紧张性高，被测者紧张烦扰，激动挣扎，缺乏耐心。他们通常干劲十足，兴奋激动，在等待时会表现焦急不安，心神不定。时常感觉疲乏，又无法彻底放松和休息。每日生活战战兢兢，而不能自已。",
+          "suggestion": "被试容易紧张、兴奋、不安，无忍耐性，常匆匆忙忙而心神不安。时常感到疲劳、焦虑。建议其分清任务的轻重缓急，有序处理，同时要经常放松自己。在遇到苦难和挫折时，要注意保持冷静和平和的心态，努力地面对和解决问题。",
+          "assessmentWarning": "none"
+        }
+      ]
+    },
+    {
+      "id": 445,
+      "num": 17,
+      "dimensionName": "适应与焦虑型",
+      "dimensionCode": "X1",
+      "evaluateExpression": "((38 + 2 * hx_wd_y_l + 3 * hx_wd_y_o + 4 * {#Q4})-(2 * hx_wd_y_c + 2 * hx_wd_y_h + 2 * {#Q3}))/10",
+      "standardScoreFormula": "0",
+      "results": [
+        {
+          "id": 987,
+          "evaluateExpression": "hx_wd_y_17 >= 1&& hx_wd_y_17 <= 3",
+          "conclusionAnalysis": "焦虑水平低，被试能够较好的适应于当前的生活，对目前的状况比较满意，能够得到内心的平静和满足。如果分数极低时，说明对困难的工作缺乏动机。",
+          "suggestion": "被试对环境的适应性很好，对生活较满意，如果分数极低时则表现了对困难的工作缺乏动机，建议对其进行鼓励和引导。",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 988,
+          "evaluateExpression": "hx_wd_y_17 >= 3.01&& hx_wd_y_17 <= 7.99",
+          "conclusionAnalysis": "焦虑水平中等，被试容易适应环境，对生活较满意，能做好自己认为是重要的事情，能够得到内心的平静和满足。",
+          "suggestion": "被试一般情况下对生活较满意，在遇到困难时则有可能产生焦虑的情绪，建议其继续保持，另外在遇到挫折的时候，要对问题作客观的分析，放松心态，以平常心对待。",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 989,
+          "evaluateExpression": "hx_wd_y_17 >= 8&& hx_wd_y_17 <= 10",
+          "conclusionAnalysis": "焦虑水平较高，这可能是由于对当前生活的不满足或者不适应造成的。焦虑和不满足的心态不利于被测者顺利进行学习、工作和生活，必要时可能需要心理咨询专业人员来对自己的状况进行诊断和疏导。一般来讲，被测者首先要对自己的优劣势以及目前的主要困境有一个比较全面的认识，然后要分析自己的具体情况，制定可行的目标和计划，放弃不符合实际的幻想，同时也要疏导自己的不良情绪，一步步地向着目标努力。",
+          "suggestion": "被试易于激动焦虑，经常感到生活不太顺利。高度的焦虑不但减低工作的效率，而且也会影响身体和心理的健康，建议必要时可能需要心理咨询专业人员来对自己的状况进行诊断和疏导。一般来讲，被测试者首先要对自己的优劣势以及目前的主要困境有一个比较全面的认识，然后要分析自己的具体情况，制定可行的目标和计划，放弃不符合实际的幻想，同时也要疏导自己的不良情绪，一步步地向着目标努力。",
+          "assessmentWarning": "none"
+        }
+      ]
+    },
+    {
+      "id": 446,
+      "num": 18,
+      "dimensionName": "内向与外向型",
+      "dimensionCode": "X2",
+      "evaluateExpression": "((2 * hx_wd_y_a + 3 * hx_wd_y_e + 4 * hx_wd_y_f + 5 * hx_wd_y_h)-(2 * {#Q2} + 11))/10",
+      "standardScoreFormula": "0",
+      "results": [
+        {
+          "id": 990,
+          "evaluateExpression": "hx_wd_y_18 >= 1&& hx_wd_y_18 <= 3",
+          "conclusionAnalysis": "被试偏于内向，倾向于胆小，自足和在与别人接触中采取克制态度，喜欢进行独立的思考和工作，不喜欢进行社会交往。",
+          "suggestion": "内外向的性格特征无所谓好坏，被试比较内向，建议其在需要认真细致的场合继续保持，在内向不利的场合注意调整和克服，要学习一些人际技巧，勇于表达，形成良好的人际氛围。",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 991,
+          "evaluateExpression": "hx_wd_y_18 >= 3.01&& hx_wd_y_18 <= 7.99",
+          "conclusionAnalysis": "同大多数人一样，被测者的性格兼俱内外向的特征。",
+          "suggestion": "被测者的性格兼俱内外向的特征。在社会交往情境中，希望被测者能够更加大胆敢为，更加主动和热情，表现出开朗外向的一面，从而建立良好的人际关系；同时也要给自己留出独立的空间，使自己勤于思考，保持自己的独立性和主见，并不断地反思和总结，以此指导自己以后的行为。在选择工作岗位时，可以从事那些同时与人与物打交道的工作，这样可以更好地发挥自己的能力水平。",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 992,
+          "evaluateExpression": "hx_wd_y_18 >= 8&& hx_wd_y_18 <= 10",
+          "conclusionAnalysis": "倾向于外向型，被试常是社交上开朗，不受抑制的，与别人接触良好，在需要这种性格类型的情况下，这是很有利的，例如：在贸易上，但在诸如学术成就方面则不一定是有利的。",
+          "suggestion": "被试常是社交上开朗，与别人接触良好的人。建议继续保持，并注意勤于思考，保持自己的独立性和主见，并不断地反思和总结。",
+          "assessmentWarning": "none"
+        }
+      ]
+    },
+    {
+      "id": 447,
+      "num": 19,
+      "dimensionName": "感情用事与安详机警型",
+      "dimensionCode": "X3",
+      "evaluateExpression": "((77 + 2 * hx_wd_y_c + 2 * hx_wd_y_e + 2 * hx_wd_y_f + 2 * hx_wd_y_n)-(4 * hx_wd_y_a + 6 * hx_wd_y_i + 2 * hx_wd_y_m))/10",
+      "standardScoreFormula": "0",
+      "results": [
+        {
+          "id": 993,
+          "evaluateExpression": "hx_wd_y_19 >= 1&& hx_wd_y_19 <= 3",
+          "conclusionAnalysis": "被测者比较习惯于感情用事，这样的性格特征比较注重生活艺术，但是缺乏果断和实事求是的精神，这可能会造成决策过程的犹豫不决以及决策结果的不现实和不客观",
+          "suggestion": "希望被测者在享受生活情调的同时也要注意克服自己的感情用事，在意识到情绪产生变化的时候不妨先让自己“暂停”，然后待情绪冷静的时候再客观地分析问题，并克服困难；同时也要听取他人的意见和建议，这样才能有助于被测者从多个角度来看待问题。",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 994,
+          "evaluateExpression": "hx_wd_y_19 >= 3.01&& hx_wd_y_19 <= 7.99",
+          "conclusionAnalysis": "和大多数人一样，被测者兼俱感情用事和安详机警的特征，这使得被测者能够较好地处理一般化的问题，对于重大事件或紧急情况下的事情，被测者的处理方式可能还不太成熟。",
+          "suggestion": "对于重大事件或紧急情况下的事情，被测者的处理方式可能还不太成熟。这时需要被测者既要避免感情用事，需要控制情绪，在较为冷静的时候客观地分析问题，并解决困难；同时又不能在缺乏思考的情况下过于冒险地采取行动，需要多一些思考，并考虑一下其中的感性成分，最后需要听取他人的意见和建议，这样才能能有助于被测者从多个角度来看待问题。",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 995,
+          "evaluateExpression": "hx_wd_y_19 >= 8&& hx_wd_y_19 <= 10",
+          "conclusionAnalysis": "被测者比较习惯于采取冷静和客观的态度来分析并处理问题，这样的性格特征比较果断，具有实事求是的精神，但是可能忽略了生活情绪和生活艺术。",
+          "suggestion": "希望被测者在意欲以一种客观、过于果断和过于现实的态度来解决问题时，不妨再多做一下思考，并考虑一下其中的感性成分，留心生活中存在的情趣和美，同时也要听取他人的意见和建议，这样才能有助于被测者从多个角度来看待问题。",
+          "assessmentWarning": "none"
+        }
+      ]
+    },
+    {
+      "id": 448,
+      "num": 20,
+      "dimensionName": "怯懦与果断型",
+      "dimensionCode": "X4",
+      "evaluateExpression": "((4 * hx_wd_y_e + 3 * hx_wd_y_m + 4 * {#Q1} + 4 * {#Q2})-(3 * hx_wd_y_a + 2 * hx_wd_y_g))/10",
+      "standardScoreFormula": "0",
+      "results": [
+        {
+          "id": 996,
+          "evaluateExpression": "hx_wd_y_20 >= 1&& hx_wd_y_20 <= 3",
+          "conclusionAnalysis": "被测者比较怯懦依赖。通常人云亦云，优柔寡断，被动地受人驱使而不能独立。习惯于依赖别人的抉择，害怕自己做决定和承担责任，因而也事事迁就他人，以获取别人的欢心。被测者也时常因为自己的怯懦依赖而苦恼自卑，但是缺乏勇气和信心使他们无法摆脱困境。",
+          "suggestion": "被试个性被动，希望及需求别人支持。建议多创造机会，从小事情做起，培养其性格的独立性。",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 997,
+          "evaluateExpression": "hx_wd_y_20 >= 3.01&& hx_wd_y_20 <= 7.99",
+          "conclusionAnalysis": "被测者的果断性一般。被测者会受到社会期望以及社会规范的一些影响，在重要目标的选择和重大事件的决策上往往遵循多数人的看法或者权威人事的意见。但同时对于个人的一般性问题愿意自行作出判断、决策，通常会主动听取他人的建议，不会让人有锋芒毕露的感觉，也不会让人感到怯懦，缺乏主见。",
+          "suggestion": "被试在学习、工作和生活过程中表现出一定的果敢和魄力，但是有时也会优柔寡断、人云亦云。希望被测试者能够在今后的生活中更加独立和果断。人的果断性来源于丰富的经验和对事情全面细致的了解，因此被测试者需要积极观察和思考，不断从成功和失败中吸取经验、教训，同时要在决策之前尽量多的收集相关信息和他人的观点作为参考依据，一旦做出决策就要坚决实施，不需要过多的犹豫和反复权衡。",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 998,
+          "evaluateExpression": "hx_wd_y_20 >= 8&& hx_wd_y_20 <= 10",
+          "conclusionAnalysis": "被测者处事比较果断。被测者独立、果敢、敢于显露锋芒、有气魄。遇事沉重、冷静，善于分析情势，并会及时做出决断，而不会犹豫不决或者反复征求他人的建议。被测者通常会自动地寻找可以施展所长的环境或机会，愿意承担领导职责，以便充分表现自己的能力。",
+          "suggestion": "被测者比较独立果断，在制定决策的过程中能够表现出自己的气魄和魅力，容易在一个群体中担当起领导角色，希望被测者能够继续保持这一优势，在制定决策的过程中，注意结合多方面的信息来保证决策的正确性。另外，需要特别注意的是，一个人的想法终究是比较片面的，因此需要听取他人的意见和建议，这样才能有助于被测者从多个角度来看待和分析问题。",
+          "assessmentWarning": "none"
+        }
+      ]
+    },
+    {
+      "id": 449,
+      "num": 21,
+      "dimensionName": "心理健康因素",
+      "dimensionCode": "Y1",
+      "evaluateExpression": "hx_wd_y_c + hx_wd_y_f + (11-(hx_wd_y_o)) + (11-({#Q4})) * 1",
+      "standardScoreFormula": "0",
+      "results": [
+        {
+          "id": 999,
+          "evaluateExpression": "hx_wd_y_21 >= 4&& hx_wd_y_21 <= 11",
+          "conclusionAnalysis": "心理健康因素得分介于4--40分之间，均值为22分。得分属于低分范围，一般不及12分者仅占人数分布的10%，情绪不稳定的程度颇为显著。",
+          "suggestion": "情绪不稳定的程度颇为显著。",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 1000,
+          "evaluateExpression": "hx_wd_y_21 >= 12&& hx_wd_y_21 <= 40",
+          "conclusionAnalysis": "心理健康因素得分介于4--40分之间，均值为22分。结果代表了人格层次的心理健康水平。得分属于中等以上范围，有较高的心理健康标准。",
+          "suggestion": "有较高的心理健康标准。",
+          "assessmentWarning": "none"
+        }
+      ]
+    },
+    {
+      "id": 450,
+      "num": 22,
+      "dimensionName": "专业成就因素",
+      "dimensionCode": "Y2",
+      "evaluateExpression": "2 * {#Q3} + 2 * hx_wd_y_g + 2 * hx_wd_y_c + hx_wd_y_e + hx_wd_y_n + {#Q2} + {#Q1}",
+      "standardScoreFormula": "0",
+      "results": [
+        {
+          "id": 1001,
+          "evaluateExpression": "hx_wd_y_22 >= 10&& hx_wd_y_22 <= 67",
+          "conclusionAnalysis": "总分介于10-100分之间，均值为55.得分属于中等以下。专业成就因素指人格中的某些因素可能对将来的专业成就所具有的影响，它并不代表将来专业成就所达到的水平。",
+          "suggestion": "总分介于10-100分之间，均值为55.得分属于中等以下。",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 1002,
+          "evaluateExpression": "hx_wd_y_22 >= 68&& hx_wd_y_22 <= 100",
+          "conclusionAnalysis": "总分介于10-100分之间，均值为55.总分67分以上者应该有其成就。得分属于高分范围。",
+          "suggestion": "总分介于10-100分之间，均值为55.总分67分以上者应该有其成就。得分属于高分范围。",
+          "assessmentWarning": "none"
+        }
+      ]
+    },
+    {
+      "id": 451,
+      "num": 23,
+      "dimensionName": "创造能力因素",
+      "dimensionCode": "Y3",
+      "evaluateExpression": "2 * (11-(hx_wd_y_a)) + 2 * hx_wd_y_b + hx_wd_y_e + 2 * (11-(hx_wd_y_f)) + hx_wd_y_h + 2 * hx_wd_y_i + hx_wd_y_m + (11-(hx_wd_y_n)) + {#Q1} + 2 * {#Q2}",
+      "standardScoreFormula": "0",
+      "results": [
+        {
+          "id": 1003,
+          "evaluateExpression": "hx_wd_y_23 >= 1&& hx_wd_y_23 <= 10",
+          "conclusionAnalysis": "高于7分者属于创造力强者的范围，应有其成就。(创造能力因素因子标准分范围为1-10分，3分以下（含3分）属于低分，8分以上（含8分）属于高分，4-7分为中间状态）。",
+          "suggestion": "无",
+          "assessmentWarning": "none"
+        }
+      ]
+    },
+    {
+      "id": 452,
+      "num": 24,
+      "dimensionName": "环境适应因素",
+      "dimensionCode": "Y4",
+      "evaluateExpression": "hx_wd_y_b + hx_wd_y_g + {#Q3} + (11-(hx_wd_y_f)) * 1",
+      "standardScoreFormula": "0",
+      "results": [
+        {
+          "id": 1004,
+          "evaluateExpression": "hx_wd_y_24 >= 4&& hx_wd_y_24 <= 16",
+          "conclusionAnalysis": "在新环境中有成长能力的人格因素总分介于4-40分之间，均分为22分，17分以下者（约占10%）不太适应新环境。",
+          "suggestion": "无",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 1005,
+          "evaluateExpression": "hx_wd_y_24 >= 17&& hx_wd_y_24 <= 25",
+          "conclusionAnalysis": "环境适应能力一般，从事专业或训练成功的可能性不大。",
+          "suggestion": "无",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 1006,
+          "evaluateExpression": "hx_wd_y_24 >= 26&& hx_wd_y_24 <= 40",
+          "conclusionAnalysis": "在新环境中有成长能力的人格因素总分介于4-40分之间，均分为22分。27分以上者有成功的希望。",
+          "suggestion": "无",
+          "assessmentWarning": "none"
+        }
+      ]
+    }
+  ]
+}

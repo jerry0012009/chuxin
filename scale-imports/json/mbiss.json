@@ -1,0 +1,721 @@
+{
+  "id": "mbiss",
+  "title": "学生学业倦怠量表(MBI-SS)",
+  "description": "本量表帮助了解您在学习中的身心状态。共15题，大约需要3分钟完成。",
+  "type": "basic",
+  "questions": [
+    {
+      "text": "我对学习感到厌倦。",
+      "type": "radio",
+      "orderNum": 1,
+      "options": [
+        {
+          "text": "从不",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "极少(一年几次或更少)",
+          "value": "1",
+          "optionNo": "B"
+        },
+        {
+          "text": "偶尔(一个月一次或更少)",
+          "value": "2",
+          "optionNo": "C"
+        },
+        {
+          "text": "经常(一个月几次)",
+          "value": "3",
+          "optionNo": "D"
+        },
+        {
+          "text": "频繁(每星期一次)",
+          "value": "4",
+          "optionNo": "E"
+        },
+        {
+          "text": "非常频繁(一星期几次)",
+          "value": "5",
+          "optionNo": "F"
+        },
+        {
+          "text": "每天",
+          "value": "6",
+          "optionNo": "G"
+        }
+      ]
+    },
+    {
+      "text": "我对学习的热情减少了。",
+      "type": "radio",
+      "orderNum": 2,
+      "options": [
+        {
+          "text": "从不",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "极少(一年几次或更少)",
+          "value": "1",
+          "optionNo": "B"
+        },
+        {
+          "text": "偶尔(一个月一次或更少)",
+          "value": "2",
+          "optionNo": "C"
+        },
+        {
+          "text": "经常(一个月几次)",
+          "value": "3",
+          "optionNo": "D"
+        },
+        {
+          "text": "频繁(每星期一次)",
+          "value": "4",
+          "optionNo": "E"
+        },
+        {
+          "text": "非常频繁(一星期几次)",
+          "value": "5",
+          "optionNo": "F"
+        },
+        {
+          "text": "每天",
+          "value": "6",
+          "optionNo": "G"
+        }
+      ]
+    },
+    {
+      "text": "我对所学的东西越来越不感兴趣。",
+      "type": "radio",
+      "orderNum": 3,
+      "options": [
+        {
+          "text": "从不",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "极少(一年几次或更少)",
+          "value": "1",
+          "optionNo": "B"
+        },
+        {
+          "text": "偶尔(一个月一次或更少)",
+          "value": "2",
+          "optionNo": "C"
+        },
+        {
+          "text": "经常(一个月几次)",
+          "value": "3",
+          "optionNo": "D"
+        },
+        {
+          "text": "频繁(每星期一次)",
+          "value": "4",
+          "optionNo": "E"
+        },
+        {
+          "text": "非常频繁(一星期几次)",
+          "value": "5",
+          "optionNo": "F"
+        },
+        {
+          "text": "每天",
+          "value": "6",
+          "optionNo": "G"
+        }
+      ]
+    },
+    {
+      "text": "我对自己所学的内容持怀疑态度。",
+      "type": "radio",
+      "orderNum": 4,
+      "options": [
+        {
+          "text": "从不",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "极少(一年几次或更少)",
+          "value": "1",
+          "optionNo": "B"
+        },
+        {
+          "text": "偶尔(一个月一次或更少)",
+          "value": "2",
+          "optionNo": "C"
+        },
+        {
+          "text": "经常(一个月几次)",
+          "value": "3",
+          "optionNo": "D"
+        },
+        {
+          "text": "频繁(每星期一次)",
+          "value": "4",
+          "optionNo": "E"
+        },
+        {
+          "text": "非常频繁(一星期几次)",
+          "value": "5",
+          "optionNo": "F"
+        },
+        {
+          "text": "每天",
+          "value": "6",
+          "optionNo": "G"
+        }
+      ]
+    },
+    {
+      "text": "我觉得学习对我而言毫无意义。",
+      "type": "radio",
+      "orderNum": 5,
+      "options": [
+        {
+          "text": "从不",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "极少(一年几次或更少)",
+          "value": "1",
+          "optionNo": "B"
+        },
+        {
+          "text": "偶尔(一个月一次或更少)",
+          "value": "2",
+          "optionNo": "C"
+        },
+        {
+          "text": "经常(一个月几次)",
+          "value": "3",
+          "optionNo": "D"
+        },
+        {
+          "text": "频繁(每星期一次)",
+          "value": "4",
+          "optionNo": "E"
+        },
+        {
+          "text": "非常频繁(一星期几次)",
+          "value": "5",
+          "optionNo": "F"
+        },
+        {
+          "text": "每天",
+          "value": "6",
+          "optionNo": "G"
+        }
+      ]
+    },
+    {
+      "text": "学习让我感到身心俱疲。",
+      "type": "radio",
+      "orderNum": 6,
+      "options": [
+        {
+          "text": "从不",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "极少(一年几次或更少)",
+          "value": "1",
+          "optionNo": "B"
+        },
+        {
+          "text": "偶尔(一个月一次或更少)",
+          "value": "2",
+          "optionNo": "C"
+        },
+        {
+          "text": "经常(一个月几次)",
+          "value": "3",
+          "optionNo": "D"
+        },
+        {
+          "text": "频繁(每星期一次)",
+          "value": "4",
+          "optionNo": "E"
+        },
+        {
+          "text": "非常频繁(一星期几次)",
+          "value": "5",
+          "optionNo": "F"
+        },
+        {
+          "text": "每天",
+          "value": "6",
+          "optionNo": "G"
+        }
+      ]
+    },
+    {
+      "text": "一天的学习结束后，我感到精疲力竭。",
+      "type": "radio",
+      "orderNum": 7,
+      "options": [
+        {
+          "text": "从不",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "极少(一年几次或更少)",
+          "value": "1",
+          "optionNo": "B"
+        },
+        {
+          "text": "偶尔(一个月一次或更少)",
+          "value": "2",
+          "optionNo": "C"
+        },
+        {
+          "text": "经常(一个月几次)",
+          "value": "3",
+          "optionNo": "D"
+        },
+        {
+          "text": "频繁(每星期一次)",
+          "value": "4",
+          "optionNo": "E"
+        },
+        {
+          "text": "非常频繁(一星期几次)",
+          "value": "5",
+          "optionNo": "F"
+        },
+        {
+          "text": "每天",
+          "value": "6",
+          "optionNo": "G"
+        }
+      ]
+    },
+    {
+      "text": "早上起床后又要面对一整天的学习，我感到很累。",
+      "type": "radio",
+      "orderNum": 8,
+      "options": [
+        {
+          "text": "从不",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "极少(一年几次或更少)",
+          "value": "1",
+          "optionNo": "B"
+        },
+        {
+          "text": "偶尔(一个月一次或更少)",
+          "value": "2",
+          "optionNo": "C"
+        },
+        {
+          "text": "经常(一个月几次)",
+          "value": "3",
+          "optionNo": "D"
+        },
+        {
+          "text": "频繁(每星期一次)",
+          "value": "4",
+          "optionNo": "E"
+        },
+        {
+          "text": "非常频繁(一星期几次)",
+          "value": "5",
+          "optionNo": "F"
+        },
+        {
+          "text": "每天",
+          "value": "6",
+          "optionNo": "G"
+        }
+      ]
+    },
+    {
+      "text": "持续学习一整天对我来说压力很大。",
+      "type": "radio",
+      "orderNum": 9,
+      "options": [
+        {
+          "text": "从不",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "极少(一年几次或更少)",
+          "value": "1",
+          "optionNo": "B"
+        },
+        {
+          "text": "偶尔(一个月一次或更少)",
+          "value": "2",
+          "optionNo": "C"
+        },
+        {
+          "text": "经常(一个月几次)",
+          "value": "3",
+          "optionNo": "D"
+        },
+        {
+          "text": "频繁(每星期一次)",
+          "value": "4",
+          "optionNo": "E"
+        },
+        {
+          "text": "非常频繁(一星期几次)",
+          "value": "5",
+          "optionNo": "F"
+        },
+        {
+          "text": "每天",
+          "value": "6",
+          "optionNo": "G"
+        }
+      ]
+    },
+    {
+      "text": "学习让我有快要崩溃的感觉。",
+      "type": "radio",
+      "orderNum": 10,
+      "options": [
+        {
+          "text": "从不",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "极少(一年几次或更少)",
+          "value": "1",
+          "optionNo": "B"
+        },
+        {
+          "text": "偶尔(一个月一次或更少)",
+          "value": "2",
+          "optionNo": "C"
+        },
+        {
+          "text": "经常(一个月几次)",
+          "value": "3",
+          "optionNo": "D"
+        },
+        {
+          "text": "频繁(每星期一次)",
+          "value": "4",
+          "optionNo": "E"
+        },
+        {
+          "text": "非常频繁(一星期几次)",
+          "value": "5",
+          "optionNo": "F"
+        },
+        {
+          "text": "每天",
+          "value": "6",
+          "optionNo": "G"
+        }
+      ]
+    },
+    {
+      "text": "在学习中，我能有效地解决问题。",
+      "type": "radio",
+      "orderNum": 11,
+      "options": [
+        {
+          "text": "每天",
+          "value": "6",
+          "optionNo": "A"
+        },
+        {
+          "text": "非常频繁(一星期几次)",
+          "value": "5",
+          "optionNo": "B"
+        },
+        {
+          "text": "频繁(每星期一次)",
+          "value": "4",
+          "optionNo": "C"
+        },
+        {
+          "text": "经常(一个月几次)",
+          "value": "3",
+          "optionNo": "D"
+        },
+        {
+          "text": "偶尔(一个月一次或更少)",
+          "value": "2",
+          "optionNo": "E"
+        },
+        {
+          "text": "极少(一年几次或更少)",
+          "value": "1",
+          "optionNo": "F"
+        },
+        {
+          "text": "从不",
+          "value": "0",
+          "optionNo": "G"
+        }
+      ]
+    },
+    {
+      "text": "我觉得我的学习是有价值的。",
+      "type": "radio",
+      "orderNum": 12,
+      "options": [
+        {
+          "text": "每天",
+          "value": "6",
+          "optionNo": "A"
+        },
+        {
+          "text": "非常频繁(一星期几次)",
+          "value": "5",
+          "optionNo": "B"
+        },
+        {
+          "text": "频繁(每星期一次)",
+          "value": "4",
+          "optionNo": "C"
+        },
+        {
+          "text": "经常(一个月几次)",
+          "value": "3",
+          "optionNo": "D"
+        },
+        {
+          "text": "偶尔(一个月一次或更少)",
+          "value": "2",
+          "optionNo": "E"
+        },
+        {
+          "text": "极少(一年几次或更少)",
+          "value": "1",
+          "optionNo": "F"
+        },
+        {
+          "text": "从不",
+          "value": "0",
+          "optionNo": "G"
+        }
+      ]
+    },
+    {
+      "text": "我对学习感兴趣。",
+      "type": "radio",
+      "orderNum": 13,
+      "options": [
+        {
+          "text": "每天",
+          "value": "6",
+          "optionNo": "A"
+        },
+        {
+          "text": "非常频繁(一星期几次)",
+          "value": "5",
+          "optionNo": "B"
+        },
+        {
+          "text": "频繁(每星期一次)",
+          "value": "4",
+          "optionNo": "C"
+        },
+        {
+          "text": "经常(一个月几次)",
+          "value": "3",
+          "optionNo": "D"
+        },
+        {
+          "text": "偶尔(一个月一次或更少)",
+          "value": "2",
+          "optionNo": "E"
+        },
+        {
+          "text": "极少(一年几次或更少)",
+          "value": "1",
+          "optionNo": "F"
+        },
+        {
+          "text": "从不",
+          "value": "0",
+          "optionNo": "G"
+        }
+      ]
+    },
+    {
+      "text": "在学习时，我感到精力充沛。",
+      "type": "radio",
+      "orderNum": 14,
+      "options": [
+        {
+          "text": "每天",
+          "value": "6",
+          "optionNo": "A"
+        },
+        {
+          "text": "非常频繁(一星期几次)",
+          "value": "5",
+          "optionNo": "B"
+        },
+        {
+          "text": "频繁(每星期一次)",
+          "value": "4",
+          "optionNo": "C"
+        },
+        {
+          "text": "经常(一个月几次)",
+          "value": "3",
+          "optionNo": "D"
+        },
+        {
+          "text": "偶尔(一个月一次或更少)",
+          "value": "2",
+          "optionNo": "E"
+        },
+        {
+          "text": "极少(一年几次或更少)",
+          "value": "1",
+          "optionNo": "F"
+        },
+        {
+          "text": "从不",
+          "value": "0",
+          "optionNo": "G"
+        }
+      ]
+    },
+    {
+      "text": "在学习中，我感到自信。",
+      "type": "radio",
+      "orderNum": 15,
+      "options": [
+        {
+          "text": "每天",
+          "value": "6",
+          "optionNo": "A"
+        },
+        {
+          "text": "非常频繁(一星期几次)",
+          "value": "5",
+          "optionNo": "B"
+        },
+        {
+          "text": "频繁(每星期一次)",
+          "value": "4",
+          "optionNo": "C"
+        },
+        {
+          "text": "经常(一个月几次)",
+          "value": "3",
+          "optionNo": "D"
+        },
+        {
+          "text": "偶尔(一个月一次或更少)",
+          "value": "2",
+          "optionNo": "E"
+        },
+        {
+          "text": "极少(一年几次或更少)",
+          "value": "1",
+          "optionNo": "F"
+        },
+        {
+          "text": "从不",
+          "value": "0",
+          "optionNo": "G"
+        }
+      ]
+    }
+  ],
+  "dimensions": [
+    {
+      "dimensionName": "犬儒主义",
+      "dimensionCode": "cynicism",
+      "num": 1,
+      "evaluateExpression": "(hx_t_1 + hx_t_2 + hx_t_3 + hx_t_4 + hx_t_5) / 5",
+      "standardScoreFormula": "",
+      "results": [
+        {
+          "evaluateExpression": "hx_wd_y_1 <= 2.0",
+          "conclusionAnalysis": "犬儒主义较低",
+          "suggestion": "您对学习保持较好的热情和兴趣，较少出现消极和冷漠的态度。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_1 > 2.0 && hx_wd_y_1 <= 4.0",
+          "conclusionAnalysis": "犬儒主义中等",
+          "suggestion": "您对学习出现一定程度的消极和疏离感，可能会感到学习缺乏意义。建议寻找学习中的乐趣和意义。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_1 > 4.0",
+          "conclusionAnalysis": "犬儒主义较高",
+          "suggestion": "您对学习表现出较强的冷漠和消极态度，可能会感到学习毫无意义。建议与老师或辅导员交流，重新激发学习热情。",
+          "assessmentWarning": "none"
+        }
+      ]
+    },
+    {
+      "dimensionName": "耗竭",
+      "dimensionCode": "exhaustion",
+      "num": 2,
+      "evaluateExpression": "(hx_t_6 + hx_t_7 + hx_t_8 + hx_t_9 + hx_t_10) / 5",
+      "standardScoreFormula": "",
+      "results": [
+        {
+          "evaluateExpression": "hx_wd_y_2 <= 2.0",
+          "conclusionAnalysis": "耗竭感较低",
+          "suggestion": "您在学习中较少感到疲惫和精力耗尽，能够保持较好的身心状态。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_2 > 2.0 && hx_wd_y_2 <= 4.0",
+          "conclusionAnalysis": "耗竭感中等",
+          "suggestion": "您在学习中会出现一定程度的疲惫感，建议注意劳逸结合，合理安排学习和休息时间。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_2 > 4.0",
+          "conclusionAnalysis": "耗竭感较高",
+          "suggestion": "您在学习中感到严重的身心疲惫和精力耗尽。建议适当减轻学习负担，增加休息和放松活动。",
+          "assessmentWarning": "none"
+        }
+      ]
+    },
+    {
+      "dimensionName": "效能感",
+      "dimensionCode": "efficacy",
+      "num": 3,
+      "evaluateExpression": "(hx_t_11 + hx_t_12 + hx_t_13 + hx_t_14 + hx_t_15) / 5",
+      "standardScoreFormula": "",
+      "results": [
+        {
+          "evaluateExpression": "hx_wd_y_3 <= 2.0",
+          "conclusionAnalysis": "效能感较低",
+          "suggestion": "您对自己在学习中的能力和价值感到较低，可能缺乏学习的信心。建议设定小目标，逐步建立学习自信。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_3 > 2.0 && hx_wd_y_3 <= 4.0",
+          "conclusionAnalysis": "效能感中等",
+          "suggestion": "您对自己在学习中的能力和价值有一定的认识，但仍有提升空间。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_3 > 4.0",
+          "conclusionAnalysis": "效能感较高",
+          "suggestion": "您对自己的学习能力有较高的信心，认为学习是有价值和意义的。这有助于保持良好的学习动力。",
+          "assessmentWarning": "none"
+        }
+      ]
+    }
+  ]
+}

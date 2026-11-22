@@ -1,0 +1,716 @@
+{
+  "id": "panas-affect",
+  "title": "正负性情绪量表(PANAS)",
+  "description": "正负性情绪量表(PANAS)，Watson, Clark & Tellegen (1988)编制，测量正性情绪(10题)和负性情绪(10题)。5点计分(1=非常轻微到5=极其强烈)，各维度总分10-50分。",
+  "type": "basic",
+  "questions": [
+    {
+      "text": "感兴趣的",
+      "type": "radio",
+      "orderNum": 1,
+      "options": [
+        {
+          "text": "非常轻微",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较轻微",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "中等程度",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较强烈",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "极其强烈",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "心烦的",
+      "type": "radio",
+      "orderNum": 2,
+      "options": [
+        {
+          "text": "非常轻微",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较轻微",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "中等程度",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较强烈",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "极其强烈",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "兴奋的",
+      "type": "radio",
+      "orderNum": 3,
+      "options": [
+        {
+          "text": "非常轻微",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较轻微",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "中等程度",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较强烈",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "极其强烈",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "害怕的",
+      "type": "radio",
+      "orderNum": 4,
+      "options": [
+        {
+          "text": "非常轻微",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较轻微",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "中等程度",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较强烈",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "极其强烈",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "受到鼓舞的",
+      "type": "radio",
+      "orderNum": 5,
+      "options": [
+        {
+          "text": "非常轻微",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较轻微",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "中等程度",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较强烈",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "极其强烈",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "有敌意的",
+      "type": "radio",
+      "orderNum": 6,
+      "options": [
+        {
+          "text": "非常轻微",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较轻微",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "中等程度",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较强烈",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "极其强烈",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "热情的",
+      "type": "radio",
+      "orderNum": 7,
+      "options": [
+        {
+          "text": "非常轻微",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较轻微",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "中等程度",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较强烈",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "极其强烈",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "易怒的",
+      "type": "radio",
+      "orderNum": 8,
+      "options": [
+        {
+          "text": "非常轻微",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较轻微",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "中等程度",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较强烈",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "极其强烈",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "警觉的",
+      "type": "radio",
+      "orderNum": 9,
+      "options": [
+        {
+          "text": "非常轻微",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较轻微",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "中等程度",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较强烈",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "极其强烈",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "羞愧的",
+      "type": "radio",
+      "orderNum": 10,
+      "options": [
+        {
+          "text": "非常轻微",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较轻微",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "中等程度",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较强烈",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "极其强烈",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "受鼓舞的",
+      "type": "radio",
+      "orderNum": 11,
+      "options": [
+        {
+          "text": "非常轻微",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较轻微",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "中等程度",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较强烈",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "极其强烈",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "紧张的",
+      "type": "radio",
+      "orderNum": 12,
+      "options": [
+        {
+          "text": "非常轻微",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较轻微",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "中等程度",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较强烈",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "极其强烈",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "意志坚定的",
+      "type": "radio",
+      "orderNum": 13,
+      "options": [
+        {
+          "text": "非常轻微",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较轻微",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "中等程度",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较强烈",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "极其强烈",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "专注的",
+      "type": "radio",
+      "orderNum": 14,
+      "options": [
+        {
+          "text": "非常轻微",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较轻微",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "中等程度",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较强烈",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "极其强烈",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "坐立不安的",
+      "type": "radio",
+      "orderNum": 15,
+      "options": [
+        {
+          "text": "非常轻微",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较轻微",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "中等程度",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较强烈",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "极其强烈",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "有活力的",
+      "type": "radio",
+      "orderNum": 16,
+      "options": [
+        {
+          "text": "非常轻微",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较轻微",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "中等程度",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较强烈",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "极其强烈",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "恐惧的",
+      "type": "radio",
+      "orderNum": 17,
+      "options": [
+        {
+          "text": "非常轻微",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较轻微",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "中等程度",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较强烈",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "极其强烈",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "骄傲的",
+      "type": "radio",
+      "orderNum": 18,
+      "options": [
+        {
+          "text": "非常轻微",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较轻微",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "中等程度",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较强烈",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "极其强烈",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "警惕的",
+      "type": "radio",
+      "orderNum": 19,
+      "options": [
+        {
+          "text": "非常轻微",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较轻微",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "中等程度",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较强烈",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "极其强烈",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "神经质的",
+      "type": "radio",
+      "orderNum": 20,
+      "options": [
+        {
+          "text": "非常轻微",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较轻微",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "中等程度",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较强烈",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "极其强烈",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    }
+  ],
+  "dimensions": [
+    {
+      "dimensionName": "正性情绪",
+      "dimensionCode": "positive_affect",
+      "num": 1,
+      "evaluateExpression": "(hx_t_1 + hx_t_3 + hx_t_5 + hx_t_9 + hx_t_11 + hx_t_13 + hx_t_14 + hx_t_16 + hx_t_18 + hx_t_19)",
+      "standardScoreFormula": "",
+      "results": [
+        {
+          "evaluateExpression": "hx_wd_y_1 <= 20",
+          "conclusionAnalysis": "正性情绪水平较低",
+          "suggestion": "您的正性情绪得分较低，可能处于情绪低落状态，建议关注自身情绪健康。",
+          "assessmentWarning": "low"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_1 > 20 && hx_wd_y_1 <= 30",
+          "conclusionAnalysis": "正性情绪水平中等",
+          "suggestion": "您的正性情绪处于中等水平，总体情绪状态尚可。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_1 > 30 && hx_wd_y_1 <= 40",
+          "conclusionAnalysis": "正性情绪水平较高",
+          "suggestion": "您的正性情绪得分较高，情绪状态积极良好。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_1 > 40",
+          "conclusionAnalysis": "正性情绪水平很高",
+          "suggestion": "您的正性情绪得分非常高，情绪状态非常积极。",
+          "assessmentWarning": "none"
+        }
+      ]
+    },
+    {
+      "dimensionName": "负性情绪",
+      "dimensionCode": "negative_affect",
+      "num": 2,
+      "evaluateExpression": "(hx_t_2 + hx_t_4 + hx_t_6 + hx_t_7 + hx_t_8 + hx_t_10 + hx_t_12 + hx_t_15 + hx_t_17 + hx_t_20)",
+      "standardScoreFormula": "",
+      "results": [
+        {
+          "evaluateExpression": "hx_wd_y_2 <= 15",
+          "conclusionAnalysis": "负性情绪水平较低",
+          "suggestion": "您的负性情绪得分很低，情绪状态良好。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_2 > 15 && hx_wd_y_2 <= 25",
+          "conclusionAnalysis": "负性情绪水平中等",
+          "suggestion": "您的负性情绪处于中等水平，属于正常范围。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_2 > 25 && hx_wd_y_2 <= 35",
+          "conclusionAnalysis": "负性情绪水平偏高",
+          "suggestion": "您的负性情绪得分偏高，建议关注压力管理和情绪调节。",
+          "assessmentWarning": "low"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_2 > 35",
+          "conclusionAnalysis": "负性情绪水平很高",
+          "suggestion": "您的负性情绪得分很高，建议寻求专业心理支持。",
+          "assessmentWarning": "middle"
+        }
+      ]
+    }
+  ]
+}

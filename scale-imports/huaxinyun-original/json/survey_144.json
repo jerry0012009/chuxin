@@ -1,0 +1,698 @@
+{
+  "id": 144,
+  "title": "纽芬兰幸福度量表(MUNSH)",
+  "type": "basic",
+  "questions": [
+    {
+      "id": 4599,
+      "text": "最近几个月里，你处于巅峰状态吗？",
+      "type": "radio",
+      "orderNum": 1,
+      "options": [
+        {
+          "id": 16841,
+          "optionNo": "A",
+          "text": "是",
+          "value": "2"
+        },
+        {
+          "id": 16842,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        },
+        {
+          "id": 16843,
+          "optionNo": "C",
+          "text": "不知道",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 4600,
+      "text": "最近几个月里，你情绪很好吗？",
+      "type": "radio",
+      "orderNum": 2,
+      "options": [
+        {
+          "id": 16844,
+          "optionNo": "A",
+          "text": "是",
+          "value": "2"
+        },
+        {
+          "id": 16845,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        },
+        {
+          "id": 16846,
+          "optionNo": "C",
+          "text": "不知道",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 4601,
+      "text": "最近几个月里，你对自己的生活特别满意吗？",
+      "type": "radio",
+      "orderNum": 3,
+      "options": [
+        {
+          "id": 16847,
+          "optionNo": "A",
+          "text": "是",
+          "value": "2"
+        },
+        {
+          "id": 16848,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        },
+        {
+          "id": 16849,
+          "optionNo": "C",
+          "text": "不知道",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 4602,
+      "text": "最近几个月里，你感到很走运吗？",
+      "type": "radio",
+      "orderNum": 4,
+      "options": [
+        {
+          "id": 16850,
+          "optionNo": "A",
+          "text": "是",
+          "value": "2"
+        },
+        {
+          "id": 16851,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        },
+        {
+          "id": 16852,
+          "optionNo": "C",
+          "text": "不知道",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 4603,
+      "text": "最近几个月里，你烦恼吗?",
+      "type": "radio",
+      "orderNum": 5,
+      "options": [
+        {
+          "id": 16853,
+          "optionNo": "A",
+          "text": "是",
+          "value": "2"
+        },
+        {
+          "id": 16854,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        },
+        {
+          "id": 16855,
+          "optionNo": "C",
+          "text": "不知道",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 4604,
+      "text": "最近几个月里，你非常孤独或与人疏远吗 ？",
+      "type": "radio",
+      "orderNum": 6,
+      "options": [
+        {
+          "id": 16856,
+          "optionNo": "A",
+          "text": "是",
+          "value": "2"
+        },
+        {
+          "id": 16857,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        },
+        {
+          "id": 16858,
+          "optionNo": "C",
+          "text": "不知道",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 4605,
+      "text": "最近几个月里，你忧虑或非常不愉快吗？",
+      "type": "radio",
+      "orderNum": 7,
+      "options": [
+        {
+          "id": 16859,
+          "optionNo": "A",
+          "text": "是",
+          "value": "2"
+        },
+        {
+          "id": 16860,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        },
+        {
+          "id": 16861,
+          "optionNo": "C",
+          "text": "不知道",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 4606,
+      "text": "最近几个月里，你会因为不知道将会发生什么事情而担心吗?",
+      "type": "radio",
+      "orderNum": 8,
+      "options": [
+        {
+          "id": 16862,
+          "optionNo": "A",
+          "text": "是",
+          "value": "2"
+        },
+        {
+          "id": 16863,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        },
+        {
+          "id": 16864,
+          "optionNo": "C",
+          "text": "不知道",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 4607,
+      "text": "最近几个月里，你为自己目前的生活状态感到哀怨吗？",
+      "type": "radio",
+      "orderNum": 9,
+      "options": [
+        {
+          "id": 16865,
+          "optionNo": "A",
+          "text": "是",
+          "value": "2"
+        },
+        {
+          "id": 16866,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        },
+        {
+          "id": 16867,
+          "optionNo": "C",
+          "text": "不知道",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 4608,
+      "text": "最近几个月里，总的来说，生活处境变得使你满意吗，？",
+      "type": "radio",
+      "orderNum": 10,
+      "options": [
+        {
+          "id": 16868,
+          "optionNo": "A",
+          "text": "是",
+          "value": "2"
+        },
+        {
+          "id": 16869,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        },
+        {
+          "id": 16870,
+          "optionNo": "C",
+          "text": "不知道",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 4609,
+      "text": "最近几个月里，这段时间是你一生中最难受的时期吗？",
+      "type": "radio",
+      "orderNum": 11,
+      "options": [
+        {
+          "id": 16871,
+          "optionNo": "A",
+          "text": "是",
+          "value": "2"
+        },
+        {
+          "id": 16872,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        },
+        {
+          "id": 16873,
+          "optionNo": "C",
+          "text": "不知道",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 4610,
+      "text": "最近几个月里，你像年轻时一样高兴吗?",
+      "type": "radio",
+      "orderNum": 12,
+      "options": [
+        {
+          "id": 16874,
+          "optionNo": "A",
+          "text": "是",
+          "value": "2"
+        },
+        {
+          "id": 16875,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        },
+        {
+          "id": 16876,
+          "optionNo": "C",
+          "text": "不知道",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 4611,
+      "text": "最近几个月里，你所做的大多数事情都单调或令你厌烦吗 ?",
+      "type": "radio",
+      "orderNum": 13,
+      "options": [
+        {
+          "id": 16877,
+          "optionNo": "A",
+          "text": "是",
+          "value": "2"
+        },
+        {
+          "id": 16878,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        },
+        {
+          "id": 16879,
+          "optionNo": "C",
+          "text": "不知道",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 4612,
+      "text": "最近几个月里，过去你感兴趣做的事情，现在仍然乐在其中吗?",
+      "type": "radio",
+      "orderNum": 14,
+      "options": [
+        {
+          "id": 16880,
+          "optionNo": "A",
+          "text": "是",
+          "value": "2"
+        },
+        {
+          "id": 16881,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        },
+        {
+          "id": 16882,
+          "optionNo": "C",
+          "text": "不知道",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 4613,
+      "text": "当你回顾一生时，感到相当满意吗?",
+      "type": "radio",
+      "orderNum": 15,
+      "options": [
+        {
+          "id": 16883,
+          "optionNo": "A",
+          "text": "是",
+          "value": "2"
+        },
+        {
+          "id": 16884,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        },
+        {
+          "id": 16885,
+          "optionNo": "C",
+          "text": "不知道",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 4614,
+      "text": "随着年龄的增加，一切事情更加糟糕吗?",
+      "type": "radio",
+      "orderNum": 16,
+      "options": [
+        {
+          "id": 16886,
+          "optionNo": "A",
+          "text": "是",
+          "value": "2"
+        },
+        {
+          "id": 16887,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        },
+        {
+          "id": 16888,
+          "optionNo": "C",
+          "text": "不知道",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 4615,
+      "text": "最近几个月里，你感到很孤独吗？",
+      "type": "radio",
+      "orderNum": 17,
+      "options": [
+        {
+          "id": 16889,
+          "optionNo": "A",
+          "text": "是",
+          "value": "2"
+        },
+        {
+          "id": 16890,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        },
+        {
+          "id": 16891,
+          "optionNo": "C",
+          "text": "不知道",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 4616,
+      "text": "今年一些小事使你烦恼吗?",
+      "type": "radio",
+      "orderNum": 18,
+      "options": [
+        {
+          "id": 16892,
+          "optionNo": "A",
+          "text": "是",
+          "value": "2"
+        },
+        {
+          "id": 16893,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        },
+        {
+          "id": 16894,
+          "optionNo": "C",
+          "text": "不知道",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 4617,
+      "text": "如果你能随便选择自己的住处的话，你愿意选择哪里？",
+      "type": "radio",
+      "orderNum": 19,
+      "options": [
+        {
+          "id": 16895,
+          "optionNo": "A",
+          "text": "现在住地",
+          "value": "2"
+        },
+        {
+          "id": 16896,
+          "optionNo": "B",
+          "text": "别的住地",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 4618,
+      "text": "最近几个月里，有时你感到活着没意思?",
+      "type": "radio",
+      "orderNum": 20,
+      "options": [
+        {
+          "id": 16897,
+          "optionNo": "A",
+          "text": "是",
+          "value": "2"
+        },
+        {
+          "id": 16898,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        },
+        {
+          "id": 16899,
+          "optionNo": "C",
+          "text": "不知道",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 4619,
+      "text": "你现在和年轻时一样快乐吗？",
+      "type": "radio",
+      "orderNum": 21,
+      "options": [
+        {
+          "id": 16900,
+          "optionNo": "A",
+          "text": "是",
+          "value": "2"
+        },
+        {
+          "id": 16901,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        },
+        {
+          "id": 16902,
+          "optionNo": "C",
+          "text": "不知道",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 4620,
+      "text": "最近几个月里，大多数时候你感到生活是艰苦的?",
+      "type": "radio",
+      "orderNum": 22,
+      "options": [
+        {
+          "id": 16903,
+          "optionNo": "A",
+          "text": "是",
+          "value": "2"
+        },
+        {
+          "id": 16904,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        },
+        {
+          "id": 16905,
+          "optionNo": "C",
+          "text": "不知道",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 4621,
+      "text": "你对你当前的生活满意吗？",
+      "type": "radio",
+      "orderNum": 23,
+      "options": [
+        {
+          "id": 16906,
+          "optionNo": "A",
+          "text": "满意",
+          "value": "2"
+        },
+        {
+          "id": 16907,
+          "optionNo": "B",
+          "text": "不满意",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 4622,
+      "text": "和同龄人相比，你的健康状况与他们差不多，甚至更好些吗？",
+      "type": "radio",
+      "orderNum": 24,
+      "options": [
+        {
+          "id": 16908,
+          "optionNo": "A",
+          "text": "是",
+          "value": "2"
+        },
+        {
+          "id": 16909,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        },
+        {
+          "id": 16910,
+          "optionNo": "C",
+          "text": "不知道",
+          "value": "1"
+        }
+      ]
+    }
+  ],
+  "dimensions": [
+    {
+      "id": 491,
+      "num": 1,
+      "dimensionName": "正性情感",
+      "dimensionCode": "A",
+      "evaluateExpression": "hx_t_1 + hx_t_2 + hx_t_3 + hx_t_4 + hx_t_10",
+      "standardScoreFormula": "0",
+      "results": [
+        {
+          "id": 1133,
+          "evaluateExpression": "hx_wd_y_1 >= 0&& hx_wd_y_1 <= 10",
+          "conclusionAnalysis": "分值范围为0-10分，正性情感得分越高，幸福度越高。",
+          "suggestion": "高分建议：您在生活中的正性情感比较多，希望您继续保持这种对生活的满意的态度，保持愉快的情绪。\r\n低分建议：您在生活中的正性情感比较少，建议您努力去发现生活中美好的一面，使自己逐渐愉快起来。",
+          "assessmentWarning": "none"
+        }
+      ]
+    },
+    {
+      "id": 492,
+      "num": 2,
+      "dimensionName": "负性情感",
+      "dimensionCode": "B",
+      "evaluateExpression": "hx_t_5 + hx_t_6 + hx_t_7 + hx_t_8 + hx_t_9",
+      "standardScoreFormula": "0",
+      "results": []
+    },
+    {
+      "id": 493,
+      "num": 3,
+      "dimensionName": "一般正性体验",
+      "dimensionCode": "C",
+      "evaluateExpression": "hx_t_12 + hx_t_14 + hx_t_15 + hx_t_19 + hx_t_21 + hx_t_23 + hx_t_24",
+      "standardScoreFormula": "0",
+      "results": [
+        {
+          "id": 1134,
+          "evaluateExpression": "hx_wd_y_3 >= 0&& hx_wd_y_3 <= 14",
+          "conclusionAnalysis": "分值范围为0-14分，正性体验分值越高，幸福度越高。",
+          "suggestion": "高分建议：您的健康、情绪等各方面的体验都比较好，建议您继续保持这种身心愉悦的状态！\r\n低分建议：您的健康、情绪等各方面的体验都不太好，建议您多注意自己的健康状况，进行一些适当体育锻炼，调试自己的心情，改进自己的身心状态。",
+          "assessmentWarning": "none"
+        }
+      ]
+    },
+    {
+      "id": 494,
+      "num": 4,
+      "dimensionName": "一般负性体验",
+      "dimensionCode": "D",
+      "evaluateExpression": "hx_t_11 + hx_t_13 + hx_t_16 + hx_t_17 + hx_t_18 + hx_t_20 + hx_t_22",
+      "standardScoreFormula": "0",
+      "results": [
+        {
+          "id": 1135,
+          "evaluateExpression": "hx_wd_y_4 >= 0&& hx_wd_y_4 <= 14",
+          "conclusionAnalysis": "分值范围为0-14分，负性体验分值越高，幸福度越低。",
+          "suggestion": "高分建议：您在生活中常感到孤独和烦恼，建议您多跟亲人、朋友交流，培养一些兴趣爱好，相信您的状况会有所改进。\r\n低分建议：您在生活中很少感到孤独和烦恼，希望您能继续保持这种无忧无虑的状态！",
+          "assessmentWarning": "none"
+        }
+      ]
+    },
+    {
+      "id": 495,
+      "num": 5,
+      "dimensionName": "总的幸福度",
+      "dimensionCode": "E",
+      "evaluateExpression": "hx_wd_y_a-(hx_wd_y_b) + hx_wd_y_c-(hx_wd_y_d)",
+      "standardScoreFormula": "0",
+      "results": [
+        {
+          "id": 1136,
+          "evaluateExpression": "hx_wd_y_5 >= -24&& hx_wd_y_5 <= 24",
+          "conclusionAnalysis": "如果分值为负值，说明你的幸福度比较低；分值为正值，分值越高，幸福度越高。",
+          "suggestion": "高分建议：您总体的幸福度得分较高，希望您能把现在的好状态保持下去，保持这种对生活满意的态度和身心愉悦的状态！\r\n低分建议：您总体的幸福度得分较低，建议您多与人沟通交流，发展兴趣爱好，进行适当的体育锻炼。如果状况仍没有改善，建议您寻求专业人士的帮助。",
+          "assessmentWarning": "none"
+        }
+      ]
+    }
+  ]
+}

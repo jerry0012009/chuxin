@@ -1,0 +1,5642 @@
+{
+  "id": 150,
+  "title": "生活事件量表(LES)",
+  "type": "basic",
+  "questions": [
+    {
+      "id": 4725,
+      "text": "恋爱或订婚：发生的次数",
+      "type": "radio",
+      "orderNum": 1,
+      "options": [
+        {
+          "id": 17197,
+          "optionNo": "A",
+          "text": "A、未发生",
+          "value": "0"
+        },
+        {
+          "id": 17198,
+          "optionNo": "B",
+          "text": "B、1次",
+          "value": "1"
+        },
+        {
+          "id": 17199,
+          "optionNo": "C",
+          "text": "C、2次",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "id": 4726,
+      "text": "恋爱或订婚：此事件的性质",
+      "type": "radio",
+      "orderNum": 2,
+      "options": [
+        {
+          "id": 17200,
+          "optionNo": "A",
+          "text": "A、好事",
+          "value": "1"
+        },
+        {
+          "id": 17201,
+          "optionNo": "B",
+          "text": "B、坏事",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 4727,
+      "text": "恋爱或订婚：此事件对您的精神影响程度",
+      "type": "radio",
+      "orderNum": 3,
+      "options": [
+        {
+          "id": 17202,
+          "optionNo": "A",
+          "text": "A、无影响",
+          "value": "0"
+        },
+        {
+          "id": 17203,
+          "optionNo": "B",
+          "text": "B、轻度影响",
+          "value": "1"
+        },
+        {
+          "id": 17204,
+          "optionNo": "C",
+          "text": "C、中度影响",
+          "value": "2"
+        },
+        {
+          "id": 17205,
+          "optionNo": "D",
+          "text": "D、重度影响",
+          "value": "3"
+        },
+        {
+          "id": 17206,
+          "optionNo": "E",
+          "text": "E、极重影响",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 4728,
+      "text": "恋爱或订婚：此事件对您的影响持续时间",
+      "type": "radio",
+      "orderNum": 4,
+      "options": [
+        {
+          "id": 17207,
+          "optionNo": "A",
+          "text": "A、三个月",
+          "value": "1"
+        },
+        {
+          "id": 17208,
+          "optionNo": "B",
+          "text": "B、半年内",
+          "value": "2"
+        },
+        {
+          "id": 17209,
+          "optionNo": "C",
+          "text": "C、一年内",
+          "value": "3"
+        },
+        {
+          "id": 17210,
+          "optionNo": "D",
+          "text": "D、一年以上",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 4729,
+      "text": "恋爱失败、破裂：发生的次数",
+      "type": "radio",
+      "orderNum": 5,
+      "options": [
+        {
+          "id": 17211,
+          "optionNo": "A",
+          "text": "A、未发生",
+          "value": "0"
+        },
+        {
+          "id": 17212,
+          "optionNo": "B",
+          "text": "B、1次",
+          "value": "1"
+        },
+        {
+          "id": 17213,
+          "optionNo": "C",
+          "text": "C、2次",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "id": 4730,
+      "text": "恋爱失败、破裂：此事件的性质",
+      "type": "radio",
+      "orderNum": 6,
+      "options": [
+        {
+          "id": 17214,
+          "optionNo": "A",
+          "text": "A、好事",
+          "value": "1"
+        },
+        {
+          "id": 17215,
+          "optionNo": "B",
+          "text": "B、坏事",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 4731,
+      "text": "恋爱失败、破裂：此事件对您的精神影响程度",
+      "type": "radio",
+      "orderNum": 7,
+      "options": [
+        {
+          "id": 17216,
+          "optionNo": "A",
+          "text": "A、无影响",
+          "value": "0"
+        },
+        {
+          "id": 17217,
+          "optionNo": "B",
+          "text": "B、轻度影响",
+          "value": "1"
+        },
+        {
+          "id": 17218,
+          "optionNo": "C",
+          "text": "C、中度影响",
+          "value": "2"
+        },
+        {
+          "id": 17219,
+          "optionNo": "D",
+          "text": "D、重度影响",
+          "value": "3"
+        },
+        {
+          "id": 17220,
+          "optionNo": "E",
+          "text": "E、极重影响",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 4732,
+      "text": "恋爱失败、破裂：此事件对您的影响持续时间",
+      "type": "radio",
+      "orderNum": 8,
+      "options": [
+        {
+          "id": 17221,
+          "optionNo": "A",
+          "text": "A、三个月",
+          "value": "1"
+        },
+        {
+          "id": 17222,
+          "optionNo": "B",
+          "text": "B、半年内",
+          "value": "2"
+        },
+        {
+          "id": 17223,
+          "optionNo": "C",
+          "text": "C、一年内",
+          "value": "3"
+        },
+        {
+          "id": 17224,
+          "optionNo": "D",
+          "text": "D、一年以上",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 4733,
+      "text": "结婚：发生的次数",
+      "type": "radio",
+      "orderNum": 9,
+      "options": [
+        {
+          "id": 17225,
+          "optionNo": "A",
+          "text": "A、未发生",
+          "value": "0"
+        },
+        {
+          "id": 17226,
+          "optionNo": "B",
+          "text": "B、1次",
+          "value": "1"
+        },
+        {
+          "id": 17227,
+          "optionNo": "C",
+          "text": "C、2次",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "id": 4734,
+      "text": "结婚：此事件的性质",
+      "type": "radio",
+      "orderNum": 10,
+      "options": [
+        {
+          "id": 17228,
+          "optionNo": "A",
+          "text": "A、好事",
+          "value": "1"
+        },
+        {
+          "id": 17229,
+          "optionNo": "B",
+          "text": "B、坏事",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 4735,
+      "text": "结婚：此事件对您的精神影响程度",
+      "type": "radio",
+      "orderNum": 11,
+      "options": [
+        {
+          "id": 17230,
+          "optionNo": "A",
+          "text": "A、无影响",
+          "value": "0"
+        },
+        {
+          "id": 17231,
+          "optionNo": "B",
+          "text": "B、轻度影响",
+          "value": "1"
+        },
+        {
+          "id": 17232,
+          "optionNo": "C",
+          "text": "C、中度影响",
+          "value": "2"
+        },
+        {
+          "id": 17233,
+          "optionNo": "D",
+          "text": "D、重度影响",
+          "value": "3"
+        },
+        {
+          "id": 17234,
+          "optionNo": "E",
+          "text": "E、极重影响",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 4736,
+      "text": "结婚：此事件对您的影响持续时间",
+      "type": "radio",
+      "orderNum": 12,
+      "options": [
+        {
+          "id": 17235,
+          "optionNo": "A",
+          "text": "A、三个月",
+          "value": "1"
+        },
+        {
+          "id": 17236,
+          "optionNo": "B",
+          "text": "B、半年内",
+          "value": "2"
+        },
+        {
+          "id": 17237,
+          "optionNo": "C",
+          "text": "C、一年内",
+          "value": "3"
+        },
+        {
+          "id": 17238,
+          "optionNo": "D",
+          "text": "D、一年以上",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 4737,
+      "text": "自己（爱人）怀孕：发生的次数",
+      "type": "radio",
+      "orderNum": 13,
+      "options": [
+        {
+          "id": 17239,
+          "optionNo": "A",
+          "text": "A、未发生",
+          "value": "0"
+        },
+        {
+          "id": 17240,
+          "optionNo": "B",
+          "text": "B、1次",
+          "value": "1"
+        },
+        {
+          "id": 17241,
+          "optionNo": "C",
+          "text": "C、2次",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "id": 4738,
+      "text": "自己（爱人）怀孕：此事件的性质",
+      "type": "radio",
+      "orderNum": 14,
+      "options": [
+        {
+          "id": 17242,
+          "optionNo": "A",
+          "text": "A、好事",
+          "value": "1"
+        },
+        {
+          "id": 17243,
+          "optionNo": "B",
+          "text": "B、坏事",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 4739,
+      "text": "自己（爱人）怀孕：此事件对您的精神影响程度",
+      "type": "radio",
+      "orderNum": 15,
+      "options": [
+        {
+          "id": 17244,
+          "optionNo": "A",
+          "text": "A、无影响",
+          "value": "0"
+        },
+        {
+          "id": 17245,
+          "optionNo": "B",
+          "text": "B、轻度影响",
+          "value": "1"
+        },
+        {
+          "id": 17246,
+          "optionNo": "C",
+          "text": "C、中度影响",
+          "value": "2"
+        },
+        {
+          "id": 17247,
+          "optionNo": "D",
+          "text": "D、重度影响",
+          "value": "3"
+        },
+        {
+          "id": 17248,
+          "optionNo": "E",
+          "text": "E、极重影响",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 4740,
+      "text": "自己（爱人）怀孕：此事件对您的影响持续时间",
+      "type": "radio",
+      "orderNum": 16,
+      "options": [
+        {
+          "id": 17249,
+          "optionNo": "A",
+          "text": "A、三个月",
+          "value": "1"
+        },
+        {
+          "id": 17250,
+          "optionNo": "B",
+          "text": "B、半年内",
+          "value": "2"
+        },
+        {
+          "id": 17251,
+          "optionNo": "C",
+          "text": "C、一年内",
+          "value": "3"
+        },
+        {
+          "id": 17252,
+          "optionNo": "D",
+          "text": "D、一年以上",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 4741,
+      "text": "自己（爱人）流产：发生的次数",
+      "type": "radio",
+      "orderNum": 17,
+      "options": [
+        {
+          "id": 17253,
+          "optionNo": "A",
+          "text": "A、未发生",
+          "value": "0"
+        },
+        {
+          "id": 17254,
+          "optionNo": "B",
+          "text": "B、1次",
+          "value": "1"
+        },
+        {
+          "id": 17255,
+          "optionNo": "C",
+          "text": "C、2次",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "id": 4742,
+      "text": "自己（爱人）流产：此事件的性质",
+      "type": "radio",
+      "orderNum": 18,
+      "options": [
+        {
+          "id": 17256,
+          "optionNo": "A",
+          "text": "A、好事",
+          "value": "1"
+        },
+        {
+          "id": 17257,
+          "optionNo": "B",
+          "text": "B、坏事",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 4743,
+      "text": "自己（爱人）流产：此事件对您的精神影响程度",
+      "type": "radio",
+      "orderNum": 19,
+      "options": [
+        {
+          "id": 17258,
+          "optionNo": "A",
+          "text": "A、无影响",
+          "value": "0"
+        },
+        {
+          "id": 17259,
+          "optionNo": "B",
+          "text": "B、轻度影响",
+          "value": "1"
+        },
+        {
+          "id": 17260,
+          "optionNo": "C",
+          "text": "C、中度影响",
+          "value": "2"
+        },
+        {
+          "id": 17261,
+          "optionNo": "D",
+          "text": "D、重度影响",
+          "value": "3"
+        },
+        {
+          "id": 17262,
+          "optionNo": "E",
+          "text": "E、极重影响",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 4744,
+      "text": "自己（爱人）流产：此事件对您的影响持续时间",
+      "type": "radio",
+      "orderNum": 20,
+      "options": [
+        {
+          "id": 17263,
+          "optionNo": "A",
+          "text": "A、三个月",
+          "value": "1"
+        },
+        {
+          "id": 17264,
+          "optionNo": "B",
+          "text": "B、半年内",
+          "value": "2"
+        },
+        {
+          "id": 17265,
+          "optionNo": "C",
+          "text": "C、一年内",
+          "value": "3"
+        },
+        {
+          "id": 17266,
+          "optionNo": "D",
+          "text": "D、一年以上",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 4745,
+      "text": "家庭增添新成员：发生的次数",
+      "type": "radio",
+      "orderNum": 21,
+      "options": [
+        {
+          "id": 17267,
+          "optionNo": "A",
+          "text": "A、未发生",
+          "value": "0"
+        },
+        {
+          "id": 17268,
+          "optionNo": "B",
+          "text": "B、1次",
+          "value": "1"
+        },
+        {
+          "id": 17269,
+          "optionNo": "C",
+          "text": "C、2次",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "id": 4746,
+      "text": "家庭增添新成员：此事件的性质",
+      "type": "radio",
+      "orderNum": 22,
+      "options": [
+        {
+          "id": 17270,
+          "optionNo": "A",
+          "text": "A、好事",
+          "value": "1"
+        },
+        {
+          "id": 17271,
+          "optionNo": "B",
+          "text": "B、坏事",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 4747,
+      "text": "家庭增添新成员：此事件对您的精神影响程度",
+      "type": "radio",
+      "orderNum": 23,
+      "options": [
+        {
+          "id": 17272,
+          "optionNo": "A",
+          "text": "A、无影响",
+          "value": "0"
+        },
+        {
+          "id": 17273,
+          "optionNo": "B",
+          "text": "B、轻度影响",
+          "value": "1"
+        },
+        {
+          "id": 17274,
+          "optionNo": "C",
+          "text": "C、中度影响",
+          "value": "2"
+        },
+        {
+          "id": 17275,
+          "optionNo": "D",
+          "text": "D、重度影响",
+          "value": "3"
+        },
+        {
+          "id": 17276,
+          "optionNo": "E",
+          "text": "E、极重影响",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 4748,
+      "text": "家庭增添新成员：此事件对您的影响持续时间",
+      "type": "radio",
+      "orderNum": 24,
+      "options": [
+        {
+          "id": 17277,
+          "optionNo": "A",
+          "text": "A、三个月",
+          "value": "1"
+        },
+        {
+          "id": 17278,
+          "optionNo": "B",
+          "text": "B、半年内",
+          "value": "2"
+        },
+        {
+          "id": 17279,
+          "optionNo": "C",
+          "text": "C、一年内",
+          "value": "3"
+        },
+        {
+          "id": 17280,
+          "optionNo": "D",
+          "text": "D、一年以上",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 4749,
+      "text": "与爱人父母不和：发生的次数",
+      "type": "radio",
+      "orderNum": 25,
+      "options": [
+        {
+          "id": 17281,
+          "optionNo": "A",
+          "text": "A、未发生",
+          "value": "0"
+        },
+        {
+          "id": 17282,
+          "optionNo": "B",
+          "text": "B、1次",
+          "value": "1"
+        },
+        {
+          "id": 17283,
+          "optionNo": "C",
+          "text": "C、2次",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "id": 4750,
+      "text": "与爱人父母不和：此事件的性质",
+      "type": "radio",
+      "orderNum": 26,
+      "options": [
+        {
+          "id": 17284,
+          "optionNo": "A",
+          "text": "A、好事",
+          "value": "1"
+        },
+        {
+          "id": 17285,
+          "optionNo": "B",
+          "text": "B、坏事",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 4751,
+      "text": "与爱人父母不和：此事件对您的精神影响程度",
+      "type": "radio",
+      "orderNum": 27,
+      "options": [
+        {
+          "id": 17286,
+          "optionNo": "A",
+          "text": "A、无影响",
+          "value": "0"
+        },
+        {
+          "id": 17287,
+          "optionNo": "B",
+          "text": "B、轻度影响",
+          "value": "1"
+        },
+        {
+          "id": 17288,
+          "optionNo": "C",
+          "text": "C、中度影响",
+          "value": "2"
+        },
+        {
+          "id": 17289,
+          "optionNo": "D",
+          "text": "D、重度影响",
+          "value": "3"
+        },
+        {
+          "id": 17290,
+          "optionNo": "E",
+          "text": "E、极重影响",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 4752,
+      "text": "与爱人父母不和：此事件对您的影响持续时间",
+      "type": "radio",
+      "orderNum": 28,
+      "options": [
+        {
+          "id": 17291,
+          "optionNo": "A",
+          "text": "A、三个月",
+          "value": "1"
+        },
+        {
+          "id": 17292,
+          "optionNo": "B",
+          "text": "B、半年内",
+          "value": "2"
+        },
+        {
+          "id": 17293,
+          "optionNo": "C",
+          "text": "C、一年内",
+          "value": "3"
+        },
+        {
+          "id": 17294,
+          "optionNo": "D",
+          "text": "D、一年以上",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 4753,
+      "text": "夫妻感情不好：发生的次数",
+      "type": "radio",
+      "orderNum": 29,
+      "options": [
+        {
+          "id": 17295,
+          "optionNo": "A",
+          "text": "A、未发生",
+          "value": "0"
+        },
+        {
+          "id": 17296,
+          "optionNo": "B",
+          "text": "B、1次",
+          "value": "1"
+        },
+        {
+          "id": 17297,
+          "optionNo": "C",
+          "text": "C、2次",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "id": 4754,
+      "text": "夫妻感情不好：此事件的性质",
+      "type": "radio",
+      "orderNum": 30,
+      "options": [
+        {
+          "id": 17298,
+          "optionNo": "A",
+          "text": "A、好事",
+          "value": "1"
+        },
+        {
+          "id": 17299,
+          "optionNo": "B",
+          "text": "B、坏事",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 4755,
+      "text": "夫妻感情不好：此事件对您的精神影响程度",
+      "type": "radio",
+      "orderNum": 31,
+      "options": [
+        {
+          "id": 17300,
+          "optionNo": "A",
+          "text": "A、无影响",
+          "value": "0"
+        },
+        {
+          "id": 17301,
+          "optionNo": "B",
+          "text": "B、轻度影响",
+          "value": "1"
+        },
+        {
+          "id": 17302,
+          "optionNo": "C",
+          "text": "C、中度影响",
+          "value": "2"
+        },
+        {
+          "id": 17303,
+          "optionNo": "D",
+          "text": "D、重度影响",
+          "value": "3"
+        },
+        {
+          "id": 17304,
+          "optionNo": "E",
+          "text": "E、极重影响",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 4756,
+      "text": "夫妻感情不好：此事件对您的影响持续时间",
+      "type": "radio",
+      "orderNum": 32,
+      "options": [
+        {
+          "id": 17305,
+          "optionNo": "A",
+          "text": "A、三个月",
+          "value": "1"
+        },
+        {
+          "id": 17306,
+          "optionNo": "B",
+          "text": "B、半年内",
+          "value": "2"
+        },
+        {
+          "id": 17307,
+          "optionNo": "C",
+          "text": "C、一年内",
+          "value": "3"
+        },
+        {
+          "id": 17308,
+          "optionNo": "D",
+          "text": "D、一年以上",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 4757,
+      "text": "夫妻分居（因不和）：发生的次数",
+      "type": "radio",
+      "orderNum": 33,
+      "options": [
+        {
+          "id": 17309,
+          "optionNo": "A",
+          "text": "A、未发生",
+          "value": "0"
+        },
+        {
+          "id": 17310,
+          "optionNo": "B",
+          "text": "B、1次",
+          "value": "1"
+        },
+        {
+          "id": 17311,
+          "optionNo": "C",
+          "text": "C、2次",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "id": 4758,
+      "text": "夫妻分居（因不和）：此事件的性质",
+      "type": "radio",
+      "orderNum": 34,
+      "options": [
+        {
+          "id": 17312,
+          "optionNo": "A",
+          "text": "A、好事",
+          "value": "1"
+        },
+        {
+          "id": 17313,
+          "optionNo": "B",
+          "text": "B、坏事",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 4759,
+      "text": "夫妻分居（因不和）：此事件对您的精神影响程度",
+      "type": "radio",
+      "orderNum": 35,
+      "options": [
+        {
+          "id": 17314,
+          "optionNo": "A",
+          "text": "A、无影响",
+          "value": "0"
+        },
+        {
+          "id": 17315,
+          "optionNo": "B",
+          "text": "B、轻度影响",
+          "value": "1"
+        },
+        {
+          "id": 17316,
+          "optionNo": "C",
+          "text": "C、中度影响",
+          "value": "2"
+        },
+        {
+          "id": 17317,
+          "optionNo": "D",
+          "text": "D、重度影响",
+          "value": "3"
+        },
+        {
+          "id": 17318,
+          "optionNo": "E",
+          "text": "E、极重影响",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 4760,
+      "text": "夫妻分居（因不和）：此事件对您的影响持续时间",
+      "type": "radio",
+      "orderNum": 36,
+      "options": [
+        {
+          "id": 17319,
+          "optionNo": "A",
+          "text": "A、三个月",
+          "value": "1"
+        },
+        {
+          "id": 17320,
+          "optionNo": "B",
+          "text": "B、半年内",
+          "value": "2"
+        },
+        {
+          "id": 17321,
+          "optionNo": "C",
+          "text": "C、一年内",
+          "value": "3"
+        },
+        {
+          "id": 17322,
+          "optionNo": "D",
+          "text": "D、一年以上",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 4761,
+      "text": "夫妻两地分居（工作需要）：发生的次数",
+      "type": "radio",
+      "orderNum": 37,
+      "options": [
+        {
+          "id": 17323,
+          "optionNo": "A",
+          "text": "A、未发生",
+          "value": "0"
+        },
+        {
+          "id": 17324,
+          "optionNo": "B",
+          "text": "B、1次",
+          "value": "1"
+        },
+        {
+          "id": 17325,
+          "optionNo": "C",
+          "text": "C、2次",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "id": 4762,
+      "text": "夫妻两地分居（工作需要）：此事件的性质",
+      "type": "radio",
+      "orderNum": 38,
+      "options": [
+        {
+          "id": 17326,
+          "optionNo": "A",
+          "text": "A、好事",
+          "value": "1"
+        },
+        {
+          "id": 17327,
+          "optionNo": "B",
+          "text": "B、坏事",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 4763,
+      "text": "夫妻两地分居（工作需要）：此事件对您的精神影响程度",
+      "type": "radio",
+      "orderNum": 39,
+      "options": [
+        {
+          "id": 17328,
+          "optionNo": "A",
+          "text": "A、无影响",
+          "value": "0"
+        },
+        {
+          "id": 17329,
+          "optionNo": "B",
+          "text": "B、轻度影响",
+          "value": "1"
+        },
+        {
+          "id": 17330,
+          "optionNo": "C",
+          "text": "C、中度影响",
+          "value": "2"
+        },
+        {
+          "id": 17331,
+          "optionNo": "D",
+          "text": "D、重度影响",
+          "value": "3"
+        },
+        {
+          "id": 17332,
+          "optionNo": "E",
+          "text": "E、极重影响",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 4764,
+      "text": "夫妻两地分居（工作需要）：此事件对您的影响持续时间",
+      "type": "radio",
+      "orderNum": 40,
+      "options": [
+        {
+          "id": 17333,
+          "optionNo": "A",
+          "text": "A、三个月",
+          "value": "1"
+        },
+        {
+          "id": 17334,
+          "optionNo": "B",
+          "text": "B、半年内",
+          "value": "2"
+        },
+        {
+          "id": 17335,
+          "optionNo": "C",
+          "text": "C、一年内",
+          "value": "3"
+        },
+        {
+          "id": 17336,
+          "optionNo": "D",
+          "text": "D、一年以上",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 4765,
+      "text": "性生活不满意或独身：发生的次数",
+      "type": "radio",
+      "orderNum": 41,
+      "options": [
+        {
+          "id": 17337,
+          "optionNo": "A",
+          "text": "A、未发生",
+          "value": "0"
+        },
+        {
+          "id": 17338,
+          "optionNo": "B",
+          "text": "B、1次",
+          "value": "1"
+        },
+        {
+          "id": 17339,
+          "optionNo": "C",
+          "text": "C、2次",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "id": 4766,
+      "text": "性生活不满意或独身：此事件的性质",
+      "type": "radio",
+      "orderNum": 42,
+      "options": [
+        {
+          "id": 17340,
+          "optionNo": "A",
+          "text": "A、好事",
+          "value": "1"
+        },
+        {
+          "id": 17341,
+          "optionNo": "B",
+          "text": "B、坏事",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 4767,
+      "text": "性生活不满意或独身：此事件对您的精神影响程度",
+      "type": "radio",
+      "orderNum": 43,
+      "options": [
+        {
+          "id": 17342,
+          "optionNo": "A",
+          "text": "A、无影响",
+          "value": "0"
+        },
+        {
+          "id": 17343,
+          "optionNo": "B",
+          "text": "B、轻度影响",
+          "value": "1"
+        },
+        {
+          "id": 17344,
+          "optionNo": "C",
+          "text": "C、中度影响",
+          "value": "2"
+        },
+        {
+          "id": 17345,
+          "optionNo": "D",
+          "text": "D、重度影响",
+          "value": "3"
+        },
+        {
+          "id": 17346,
+          "optionNo": "E",
+          "text": "E、极重影响",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 4768,
+      "text": "性生活不满意或独身：此事件对您的影响持续时间",
+      "type": "radio",
+      "orderNum": 44,
+      "options": [
+        {
+          "id": 17347,
+          "optionNo": "A",
+          "text": "A、三个月",
+          "value": "1"
+        },
+        {
+          "id": 17348,
+          "optionNo": "B",
+          "text": "B、半年内",
+          "value": "2"
+        },
+        {
+          "id": 17349,
+          "optionNo": "C",
+          "text": "C、一年内",
+          "value": "3"
+        },
+        {
+          "id": 17350,
+          "optionNo": "D",
+          "text": "D、一年以上",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 4769,
+      "text": "配偶一方有外遇：发生的次数",
+      "type": "radio",
+      "orderNum": 45,
+      "options": [
+        {
+          "id": 17351,
+          "optionNo": "A",
+          "text": "A、未发生",
+          "value": "0"
+        },
+        {
+          "id": 17352,
+          "optionNo": "B",
+          "text": "B、1次",
+          "value": "1"
+        },
+        {
+          "id": 17353,
+          "optionNo": "C",
+          "text": "C、2次",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "id": 4770,
+      "text": "配偶一方有外遇：此事件的性质",
+      "type": "radio",
+      "orderNum": 46,
+      "options": [
+        {
+          "id": 17354,
+          "optionNo": "A",
+          "text": "A、好事",
+          "value": "1"
+        },
+        {
+          "id": 17355,
+          "optionNo": "B",
+          "text": "B、坏事",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 4771,
+      "text": "配偶一方有外遇：此事件对您的精神影响程度",
+      "type": "radio",
+      "orderNum": 47,
+      "options": [
+        {
+          "id": 17356,
+          "optionNo": "A",
+          "text": "A、无影响",
+          "value": "0"
+        },
+        {
+          "id": 17357,
+          "optionNo": "B",
+          "text": "B、轻度影响",
+          "value": "1"
+        },
+        {
+          "id": 17358,
+          "optionNo": "C",
+          "text": "C、中度影响",
+          "value": "2"
+        },
+        {
+          "id": 17359,
+          "optionNo": "D",
+          "text": "D、重度影响",
+          "value": "3"
+        },
+        {
+          "id": 17360,
+          "optionNo": "E",
+          "text": "E、极重影响",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 4772,
+      "text": "配偶一方有外遇：此事件对您的影响持续时间",
+      "type": "radio",
+      "orderNum": 48,
+      "options": [
+        {
+          "id": 17361,
+          "optionNo": "A",
+          "text": "A、三个月",
+          "value": "1"
+        },
+        {
+          "id": 17362,
+          "optionNo": "B",
+          "text": "B、半年内",
+          "value": "2"
+        },
+        {
+          "id": 17363,
+          "optionNo": "C",
+          "text": "C、一年内",
+          "value": "3"
+        },
+        {
+          "id": 17364,
+          "optionNo": "D",
+          "text": "D、一年以上",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 4773,
+      "text": "夫妻重归于好：发生的次数",
+      "type": "radio",
+      "orderNum": 49,
+      "options": [
+        {
+          "id": 17365,
+          "optionNo": "A",
+          "text": "A、未发生",
+          "value": "0"
+        },
+        {
+          "id": 17366,
+          "optionNo": "B",
+          "text": "B、1次",
+          "value": "1"
+        },
+        {
+          "id": 17367,
+          "optionNo": "C",
+          "text": "C、2次",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "id": 4774,
+      "text": "夫妻重归于好：此事件的性质",
+      "type": "radio",
+      "orderNum": 50,
+      "options": [
+        {
+          "id": 17368,
+          "optionNo": "A",
+          "text": "A、好事",
+          "value": "1"
+        },
+        {
+          "id": 17369,
+          "optionNo": "B",
+          "text": "B、坏事",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 4775,
+      "text": "夫妻重归于好：此事件对您的精神影响程度",
+      "type": "radio",
+      "orderNum": 51,
+      "options": [
+        {
+          "id": 17370,
+          "optionNo": "A",
+          "text": "A、无影响",
+          "value": "0"
+        },
+        {
+          "id": 17371,
+          "optionNo": "B",
+          "text": "B、轻度影响",
+          "value": "1"
+        },
+        {
+          "id": 17372,
+          "optionNo": "C",
+          "text": "C、中度影响",
+          "value": "2"
+        },
+        {
+          "id": 17373,
+          "optionNo": "D",
+          "text": "D、重度影响",
+          "value": "3"
+        },
+        {
+          "id": 17374,
+          "optionNo": "E",
+          "text": "E、极重影响",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 4776,
+      "text": "夫妻重归于好：此事件对您的影响持续时间",
+      "type": "radio",
+      "orderNum": 52,
+      "options": [
+        {
+          "id": 17375,
+          "optionNo": "A",
+          "text": "A、三个月",
+          "value": "1"
+        },
+        {
+          "id": 17376,
+          "optionNo": "B",
+          "text": "B、半年内",
+          "value": "2"
+        },
+        {
+          "id": 17377,
+          "optionNo": "C",
+          "text": "C、一年内",
+          "value": "3"
+        },
+        {
+          "id": 17378,
+          "optionNo": "D",
+          "text": "D、一年以上",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 4777,
+      "text": "超指标生育：发生的次数",
+      "type": "radio",
+      "orderNum": 53,
+      "options": [
+        {
+          "id": 17379,
+          "optionNo": "A",
+          "text": "A、未发生",
+          "value": "0"
+        },
+        {
+          "id": 17380,
+          "optionNo": "B",
+          "text": "B、1次",
+          "value": "1"
+        },
+        {
+          "id": 17381,
+          "optionNo": "C",
+          "text": "C、2次",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "id": 4778,
+      "text": "超指标生育：此事件的性质",
+      "type": "radio",
+      "orderNum": 54,
+      "options": [
+        {
+          "id": 17382,
+          "optionNo": "A",
+          "text": "A、好事",
+          "value": "1"
+        },
+        {
+          "id": 17383,
+          "optionNo": "B",
+          "text": "B、坏事",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 4779,
+      "text": "超指标生育：此事件对您的精神影响程度",
+      "type": "radio",
+      "orderNum": 55,
+      "options": [
+        {
+          "id": 17384,
+          "optionNo": "A",
+          "text": "A、无影响",
+          "value": "0"
+        },
+        {
+          "id": 17385,
+          "optionNo": "B",
+          "text": "B、轻度影响",
+          "value": "1"
+        },
+        {
+          "id": 17386,
+          "optionNo": "C",
+          "text": "C、中度影响",
+          "value": "2"
+        },
+        {
+          "id": 17387,
+          "optionNo": "D",
+          "text": "D、重度影响",
+          "value": "3"
+        },
+        {
+          "id": 17388,
+          "optionNo": "E",
+          "text": "E、极重影响",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 4780,
+      "text": "超指标生育：此事件对您的影响持续时间",
+      "type": "radio",
+      "orderNum": 56,
+      "options": [
+        {
+          "id": 17389,
+          "optionNo": "A",
+          "text": "A、三个月",
+          "value": "1"
+        },
+        {
+          "id": 17390,
+          "optionNo": "B",
+          "text": "B、半年内",
+          "value": "2"
+        },
+        {
+          "id": 17391,
+          "optionNo": "C",
+          "text": "C、一年内",
+          "value": "3"
+        },
+        {
+          "id": 17392,
+          "optionNo": "D",
+          "text": "D、一年以上",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 4781,
+      "text": "本人（爱人）作绝育手术：发生的次数",
+      "type": "radio",
+      "orderNum": 57,
+      "options": [
+        {
+          "id": 17393,
+          "optionNo": "A",
+          "text": "A、未发生",
+          "value": "0"
+        },
+        {
+          "id": 17394,
+          "optionNo": "B",
+          "text": "B、1次",
+          "value": "1"
+        },
+        {
+          "id": 17395,
+          "optionNo": "C",
+          "text": "C、2次",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "id": 4782,
+      "text": "本人（爱人）作绝育手术：此事件的性质",
+      "type": "radio",
+      "orderNum": 58,
+      "options": [
+        {
+          "id": 17396,
+          "optionNo": "A",
+          "text": "A、好事",
+          "value": "1"
+        },
+        {
+          "id": 17397,
+          "optionNo": "B",
+          "text": "B、坏事",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 4783,
+      "text": "本人（爱人）作绝育手术：此事件对您的精神影响程度",
+      "type": "radio",
+      "orderNum": 59,
+      "options": [
+        {
+          "id": 17398,
+          "optionNo": "A",
+          "text": "A、无影响",
+          "value": "0"
+        },
+        {
+          "id": 17399,
+          "optionNo": "B",
+          "text": "B、轻度影响",
+          "value": "1"
+        },
+        {
+          "id": 17400,
+          "optionNo": "C",
+          "text": "C、中度影响",
+          "value": "2"
+        },
+        {
+          "id": 17401,
+          "optionNo": "D",
+          "text": "D、重度影响",
+          "value": "3"
+        },
+        {
+          "id": 17402,
+          "optionNo": "E",
+          "text": "E、极重影响",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 4784,
+      "text": "本人（爱人）作绝育手术：此事件对您的影响持续时间",
+      "type": "radio",
+      "orderNum": 60,
+      "options": [
+        {
+          "id": 17403,
+          "optionNo": "A",
+          "text": "A、三个月",
+          "value": "1"
+        },
+        {
+          "id": 17404,
+          "optionNo": "B",
+          "text": "B、半年内",
+          "value": "2"
+        },
+        {
+          "id": 17405,
+          "optionNo": "C",
+          "text": "C、一年内",
+          "value": "3"
+        },
+        {
+          "id": 17406,
+          "optionNo": "D",
+          "text": "D、一年以上",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 4785,
+      "text": "配偶死亡：发生的次数",
+      "type": "radio",
+      "orderNum": 61,
+      "options": [
+        {
+          "id": 17407,
+          "optionNo": "A",
+          "text": "A、未发生",
+          "value": "0"
+        },
+        {
+          "id": 17408,
+          "optionNo": "B",
+          "text": "B、1次",
+          "value": "1"
+        },
+        {
+          "id": 17409,
+          "optionNo": "C",
+          "text": "C、2次",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "id": 4786,
+      "text": "配偶死亡：此事件的性质",
+      "type": "radio",
+      "orderNum": 62,
+      "options": [
+        {
+          "id": 17410,
+          "optionNo": "A",
+          "text": "A、好事",
+          "value": "1"
+        },
+        {
+          "id": 17411,
+          "optionNo": "B",
+          "text": "B、坏事",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 4787,
+      "text": "配偶死亡：此事件对您的精神影响程度",
+      "type": "radio",
+      "orderNum": 63,
+      "options": [
+        {
+          "id": 17412,
+          "optionNo": "A",
+          "text": "A、无影响",
+          "value": "0"
+        },
+        {
+          "id": 17413,
+          "optionNo": "B",
+          "text": "B、轻度影响",
+          "value": "1"
+        },
+        {
+          "id": 17414,
+          "optionNo": "C",
+          "text": "C、中度影响",
+          "value": "2"
+        },
+        {
+          "id": 17415,
+          "optionNo": "D",
+          "text": "D、重度影响",
+          "value": "3"
+        },
+        {
+          "id": 17416,
+          "optionNo": "E",
+          "text": "E、极重影响",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 4788,
+      "text": "配偶死亡：此事件对您的影响持续时间",
+      "type": "radio",
+      "orderNum": 64,
+      "options": [
+        {
+          "id": 17417,
+          "optionNo": "A",
+          "text": "A、三个月",
+          "value": "1"
+        },
+        {
+          "id": 17418,
+          "optionNo": "B",
+          "text": "B、半年内",
+          "value": "2"
+        },
+        {
+          "id": 17419,
+          "optionNo": "C",
+          "text": "C、一年内",
+          "value": "3"
+        },
+        {
+          "id": 17420,
+          "optionNo": "D",
+          "text": "D、一年以上",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 4789,
+      "text": "离婚：发生的次数",
+      "type": "radio",
+      "orderNum": 65,
+      "options": [
+        {
+          "id": 17421,
+          "optionNo": "A",
+          "text": "A、未发生",
+          "value": "0"
+        },
+        {
+          "id": 17422,
+          "optionNo": "B",
+          "text": "B、1次",
+          "value": "1"
+        },
+        {
+          "id": 17423,
+          "optionNo": "C",
+          "text": "C、2次",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "id": 4790,
+      "text": "离婚：此事件的性质",
+      "type": "radio",
+      "orderNum": 66,
+      "options": [
+        {
+          "id": 17424,
+          "optionNo": "A",
+          "text": "A、好事",
+          "value": "1"
+        },
+        {
+          "id": 17425,
+          "optionNo": "B",
+          "text": "B、坏事",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 4791,
+      "text": "离婚：此事件对您的精神影响程度",
+      "type": "radio",
+      "orderNum": 67,
+      "options": [
+        {
+          "id": 17426,
+          "optionNo": "A",
+          "text": "A、无影响",
+          "value": "0"
+        },
+        {
+          "id": 17427,
+          "optionNo": "B",
+          "text": "B、轻度影响",
+          "value": "1"
+        },
+        {
+          "id": 17428,
+          "optionNo": "C",
+          "text": "C、中度影响",
+          "value": "2"
+        },
+        {
+          "id": 17429,
+          "optionNo": "D",
+          "text": "D、重度影响",
+          "value": "3"
+        },
+        {
+          "id": 17430,
+          "optionNo": "E",
+          "text": "E、极重影响",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 4792,
+      "text": "离婚：此事件对您的影响持续时间",
+      "type": "radio",
+      "orderNum": 68,
+      "options": [
+        {
+          "id": 17431,
+          "optionNo": "A",
+          "text": "A、三个月",
+          "value": "1"
+        },
+        {
+          "id": 17432,
+          "optionNo": "B",
+          "text": "B、半年内",
+          "value": "2"
+        },
+        {
+          "id": 17433,
+          "optionNo": "C",
+          "text": "C、一年内",
+          "value": "3"
+        },
+        {
+          "id": 17434,
+          "optionNo": "D",
+          "text": "D、一年以上",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 4793,
+      "text": "子女升学（就业）失败：发生的次数",
+      "type": "radio",
+      "orderNum": 69,
+      "options": [
+        {
+          "id": 17435,
+          "optionNo": "A",
+          "text": "A、未发生",
+          "value": "0"
+        },
+        {
+          "id": 17436,
+          "optionNo": "B",
+          "text": "B、1次",
+          "value": "1"
+        },
+        {
+          "id": 17437,
+          "optionNo": "C",
+          "text": "C、2次",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "id": 4794,
+      "text": "子女升学（就业）失败：此事件的性质",
+      "type": "radio",
+      "orderNum": 70,
+      "options": [
+        {
+          "id": 17438,
+          "optionNo": "A",
+          "text": "A、好事",
+          "value": "1"
+        },
+        {
+          "id": 17439,
+          "optionNo": "B",
+          "text": "B、坏事",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 4795,
+      "text": "子女升学（就业）失败：此事件对您的精神影响程度",
+      "type": "radio",
+      "orderNum": 71,
+      "options": [
+        {
+          "id": 17440,
+          "optionNo": "A",
+          "text": "A、无影响",
+          "value": "0"
+        },
+        {
+          "id": 17441,
+          "optionNo": "B",
+          "text": "B、轻度影响",
+          "value": "1"
+        },
+        {
+          "id": 17442,
+          "optionNo": "C",
+          "text": "C、中度影响",
+          "value": "2"
+        },
+        {
+          "id": 17443,
+          "optionNo": "D",
+          "text": "D、重度影响",
+          "value": "3"
+        },
+        {
+          "id": 17444,
+          "optionNo": "E",
+          "text": "E、极重影响",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 4796,
+      "text": "子女升学（就业）失败：此事件对您的影响持续时间",
+      "type": "radio",
+      "orderNum": 72,
+      "options": [
+        {
+          "id": 17445,
+          "optionNo": "A",
+          "text": "A、三个月",
+          "value": "1"
+        },
+        {
+          "id": 17446,
+          "optionNo": "B",
+          "text": "B、半年内",
+          "value": "2"
+        },
+        {
+          "id": 17447,
+          "optionNo": "C",
+          "text": "C、一年内",
+          "value": "3"
+        },
+        {
+          "id": 17448,
+          "optionNo": "D",
+          "text": "D、一年以上",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 4797,
+      "text": "子女管教困难：发生的次数",
+      "type": "radio",
+      "orderNum": 73,
+      "options": [
+        {
+          "id": 17449,
+          "optionNo": "A",
+          "text": "A、未发生",
+          "value": "0"
+        },
+        {
+          "id": 17450,
+          "optionNo": "B",
+          "text": "B、1次",
+          "value": "1"
+        },
+        {
+          "id": 17451,
+          "optionNo": "C",
+          "text": "C、2次",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "id": 4798,
+      "text": "子女管教困难：此事件的性质",
+      "type": "radio",
+      "orderNum": 74,
+      "options": [
+        {
+          "id": 17452,
+          "optionNo": "A",
+          "text": "A、好事",
+          "value": "1"
+        },
+        {
+          "id": 17453,
+          "optionNo": "B",
+          "text": "B、坏事",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 4799,
+      "text": "子女管教困难：此事件对您的精神影响程度",
+      "type": "radio",
+      "orderNum": 75,
+      "options": [
+        {
+          "id": 17454,
+          "optionNo": "A",
+          "text": "A、无影响",
+          "value": "0"
+        },
+        {
+          "id": 17455,
+          "optionNo": "B",
+          "text": "B、轻度影响",
+          "value": "1"
+        },
+        {
+          "id": 17456,
+          "optionNo": "C",
+          "text": "C、中度影响",
+          "value": "2"
+        },
+        {
+          "id": 17457,
+          "optionNo": "D",
+          "text": "D、重度影响",
+          "value": "3"
+        },
+        {
+          "id": 17458,
+          "optionNo": "E",
+          "text": "E、极重影响",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 4800,
+      "text": "子女管教困难：此事件对您的影响持续时间",
+      "type": "radio",
+      "orderNum": 76,
+      "options": [
+        {
+          "id": 17459,
+          "optionNo": "A",
+          "text": "A、三个月",
+          "value": "1"
+        },
+        {
+          "id": 17460,
+          "optionNo": "B",
+          "text": "B、半年内",
+          "value": "2"
+        },
+        {
+          "id": 17461,
+          "optionNo": "C",
+          "text": "C、一年内",
+          "value": "3"
+        },
+        {
+          "id": 17462,
+          "optionNo": "D",
+          "text": "D、一年以上",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 4801,
+      "text": "子女长期离家：发生的次数",
+      "type": "radio",
+      "orderNum": 77,
+      "options": [
+        {
+          "id": 17463,
+          "optionNo": "A",
+          "text": "A、未发生",
+          "value": "0"
+        },
+        {
+          "id": 17464,
+          "optionNo": "B",
+          "text": "B、1次",
+          "value": "1"
+        },
+        {
+          "id": 17465,
+          "optionNo": "C",
+          "text": "C、2次",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "id": 4802,
+      "text": "子女长期离家：此事件的性质",
+      "type": "radio",
+      "orderNum": 78,
+      "options": [
+        {
+          "id": 17466,
+          "optionNo": "A",
+          "text": "A、好事",
+          "value": "1"
+        },
+        {
+          "id": 17467,
+          "optionNo": "B",
+          "text": "B、坏事",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 4803,
+      "text": "子女长期离家：此事件对您的精神影响程度",
+      "type": "radio",
+      "orderNum": 79,
+      "options": [
+        {
+          "id": 17468,
+          "optionNo": "A",
+          "text": "A、无影响",
+          "value": "0"
+        },
+        {
+          "id": 17469,
+          "optionNo": "B",
+          "text": "B、轻度影响",
+          "value": "1"
+        },
+        {
+          "id": 17470,
+          "optionNo": "C",
+          "text": "C、中度影响",
+          "value": "2"
+        },
+        {
+          "id": 17471,
+          "optionNo": "D",
+          "text": "D、重度影响",
+          "value": "3"
+        },
+        {
+          "id": 17472,
+          "optionNo": "E",
+          "text": "E、极重影响",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 4804,
+      "text": "子女长期离家：此事件对您的影响持续时间",
+      "type": "radio",
+      "orderNum": 80,
+      "options": [
+        {
+          "id": 17473,
+          "optionNo": "A",
+          "text": "A、三个月",
+          "value": "1"
+        },
+        {
+          "id": 17474,
+          "optionNo": "B",
+          "text": "B、半年内",
+          "value": "2"
+        },
+        {
+          "id": 17475,
+          "optionNo": "C",
+          "text": "C、一年内",
+          "value": "3"
+        },
+        {
+          "id": 17476,
+          "optionNo": "D",
+          "text": "D、一年以上",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 4805,
+      "text": "父母不和：发生的次数",
+      "type": "radio",
+      "orderNum": 81,
+      "options": [
+        {
+          "id": 17477,
+          "optionNo": "A",
+          "text": "A、未发生",
+          "value": "0"
+        },
+        {
+          "id": 17478,
+          "optionNo": "B",
+          "text": "B、1次",
+          "value": "1"
+        },
+        {
+          "id": 17479,
+          "optionNo": "C",
+          "text": "C、2次",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "id": 4806,
+      "text": "父母不和：此事件的性质",
+      "type": "radio",
+      "orderNum": 82,
+      "options": [
+        {
+          "id": 17480,
+          "optionNo": "A",
+          "text": "A、好事",
+          "value": "1"
+        },
+        {
+          "id": 17481,
+          "optionNo": "B",
+          "text": "B、坏事",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 4807,
+      "text": "父母不和：此事件对您的精神影响程度",
+      "type": "radio",
+      "orderNum": 83,
+      "options": [
+        {
+          "id": 17482,
+          "optionNo": "A",
+          "text": "A、无影响",
+          "value": "0"
+        },
+        {
+          "id": 17483,
+          "optionNo": "B",
+          "text": "B、轻度影响",
+          "value": "1"
+        },
+        {
+          "id": 17484,
+          "optionNo": "C",
+          "text": "C、中度影响",
+          "value": "2"
+        },
+        {
+          "id": 17485,
+          "optionNo": "D",
+          "text": "D、重度影响",
+          "value": "3"
+        },
+        {
+          "id": 17486,
+          "optionNo": "E",
+          "text": "E、极重影响",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 4808,
+      "text": "父母不和：此事件对您的影响持续时间",
+      "type": "radio",
+      "orderNum": 84,
+      "options": [
+        {
+          "id": 17487,
+          "optionNo": "A",
+          "text": "A、三个月",
+          "value": "1"
+        },
+        {
+          "id": 17488,
+          "optionNo": "B",
+          "text": "B、半年内",
+          "value": "2"
+        },
+        {
+          "id": 17489,
+          "optionNo": "C",
+          "text": "C、一年内",
+          "value": "3"
+        },
+        {
+          "id": 17490,
+          "optionNo": "D",
+          "text": "D、一年以上",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 4809,
+      "text": "家庭经济困难：发生的次数",
+      "type": "radio",
+      "orderNum": 85,
+      "options": [
+        {
+          "id": 17491,
+          "optionNo": "A",
+          "text": "A、未发生",
+          "value": "0"
+        },
+        {
+          "id": 17492,
+          "optionNo": "B",
+          "text": "B、1次",
+          "value": "1"
+        },
+        {
+          "id": 17493,
+          "optionNo": "C",
+          "text": "C、2次",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "id": 4810,
+      "text": "家庭经济困难：此事件的性质",
+      "type": "radio",
+      "orderNum": 86,
+      "options": [
+        {
+          "id": 17494,
+          "optionNo": "A",
+          "text": "A、好事",
+          "value": "1"
+        },
+        {
+          "id": 17495,
+          "optionNo": "B",
+          "text": "B、坏事",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 4811,
+      "text": "家庭经济困难：此事件对您的精神影响程度",
+      "type": "radio",
+      "orderNum": 87,
+      "options": [
+        {
+          "id": 17496,
+          "optionNo": "A",
+          "text": "A、无影响",
+          "value": "0"
+        },
+        {
+          "id": 17497,
+          "optionNo": "B",
+          "text": "B、轻度影响",
+          "value": "1"
+        },
+        {
+          "id": 17498,
+          "optionNo": "C",
+          "text": "C、中度影响",
+          "value": "2"
+        },
+        {
+          "id": 17499,
+          "optionNo": "D",
+          "text": "D、重度影响",
+          "value": "3"
+        },
+        {
+          "id": 17500,
+          "optionNo": "E",
+          "text": "E、极重影响",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 4812,
+      "text": "家庭经济困难：此事件对您的影响持续时间",
+      "type": "radio",
+      "orderNum": 88,
+      "options": [
+        {
+          "id": 17501,
+          "optionNo": "A",
+          "text": "A、三个月",
+          "value": "1"
+        },
+        {
+          "id": 17502,
+          "optionNo": "B",
+          "text": "B、半年内",
+          "value": "2"
+        },
+        {
+          "id": 17503,
+          "optionNo": "C",
+          "text": "C、一年内",
+          "value": "3"
+        },
+        {
+          "id": 17504,
+          "optionNo": "D",
+          "text": "D、一年以上",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 4813,
+      "text": "欠债500元以上：发生的次数",
+      "type": "radio",
+      "orderNum": 89,
+      "options": [
+        {
+          "id": 17505,
+          "optionNo": "A",
+          "text": "A、未发生",
+          "value": "0"
+        },
+        {
+          "id": 17506,
+          "optionNo": "B",
+          "text": "B、1次",
+          "value": "1"
+        },
+        {
+          "id": 17507,
+          "optionNo": "C",
+          "text": "C、2次",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "id": 4814,
+      "text": "欠债500元以上：此事件的性质",
+      "type": "radio",
+      "orderNum": 90,
+      "options": [
+        {
+          "id": 17508,
+          "optionNo": "A",
+          "text": "A、好事",
+          "value": "1"
+        },
+        {
+          "id": 17509,
+          "optionNo": "B",
+          "text": "B、坏事",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 4815,
+      "text": "欠债500元以上：此事件对您的精神影响程度",
+      "type": "radio",
+      "orderNum": 91,
+      "options": [
+        {
+          "id": 17510,
+          "optionNo": "A",
+          "text": "A、无影响",
+          "value": "0"
+        },
+        {
+          "id": 17511,
+          "optionNo": "B",
+          "text": "B、轻度影响",
+          "value": "1"
+        },
+        {
+          "id": 17512,
+          "optionNo": "C",
+          "text": "C、中度影响",
+          "value": "2"
+        },
+        {
+          "id": 17513,
+          "optionNo": "D",
+          "text": "D、重度影响",
+          "value": "3"
+        },
+        {
+          "id": 17514,
+          "optionNo": "E",
+          "text": "E、极重影响",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 4816,
+      "text": "欠债500元以上：此事件对您的影响持续时间",
+      "type": "radio",
+      "orderNum": 92,
+      "options": [
+        {
+          "id": 17515,
+          "optionNo": "A",
+          "text": "A、三个月",
+          "value": "1"
+        },
+        {
+          "id": 17516,
+          "optionNo": "B",
+          "text": "B、半年内",
+          "value": "2"
+        },
+        {
+          "id": 17517,
+          "optionNo": "C",
+          "text": "C、一年内",
+          "value": "3"
+        },
+        {
+          "id": 17518,
+          "optionNo": "D",
+          "text": "D、一年以上",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 4817,
+      "text": "经济情况显著改善：发生的次数",
+      "type": "radio",
+      "orderNum": 93,
+      "options": [
+        {
+          "id": 17519,
+          "optionNo": "A",
+          "text": "A、未发生",
+          "value": "0"
+        },
+        {
+          "id": 17520,
+          "optionNo": "B",
+          "text": "B、1次",
+          "value": "1"
+        },
+        {
+          "id": 17521,
+          "optionNo": "C",
+          "text": "C、2次",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "id": 4818,
+      "text": "经济情况显著改善：此事件的性质",
+      "type": "radio",
+      "orderNum": 94,
+      "options": [
+        {
+          "id": 17522,
+          "optionNo": "A",
+          "text": "A、好事",
+          "value": "1"
+        },
+        {
+          "id": 17523,
+          "optionNo": "B",
+          "text": "B、坏事",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 4819,
+      "text": "经济情况显著改善：此事件对您的精神影响程度",
+      "type": "radio",
+      "orderNum": 95,
+      "options": [
+        {
+          "id": 17524,
+          "optionNo": "A",
+          "text": "A、无影响",
+          "value": "0"
+        },
+        {
+          "id": 17525,
+          "optionNo": "B",
+          "text": "B、轻度影响",
+          "value": "1"
+        },
+        {
+          "id": 17526,
+          "optionNo": "C",
+          "text": "C、中度影响",
+          "value": "2"
+        },
+        {
+          "id": 17527,
+          "optionNo": "D",
+          "text": "D、重度影响",
+          "value": "3"
+        },
+        {
+          "id": 17528,
+          "optionNo": "E",
+          "text": "E、极重影响",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 4820,
+      "text": "经济情况显著改善：此事件对您的影响持续时间",
+      "type": "radio",
+      "orderNum": 96,
+      "options": [
+        {
+          "id": 17529,
+          "optionNo": "A",
+          "text": "A、三个月",
+          "value": "1"
+        },
+        {
+          "id": 17530,
+          "optionNo": "B",
+          "text": "B、半年内",
+          "value": "2"
+        },
+        {
+          "id": 17531,
+          "optionNo": "C",
+          "text": "C、一年内",
+          "value": "3"
+        },
+        {
+          "id": 17532,
+          "optionNo": "D",
+          "text": "D、一年以上",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 4821,
+      "text": "家庭成员重病、重伤：发生的次数",
+      "type": "radio",
+      "orderNum": 97,
+      "options": [
+        {
+          "id": 17533,
+          "optionNo": "A",
+          "text": "A、未发生",
+          "value": "0"
+        },
+        {
+          "id": 17534,
+          "optionNo": "B",
+          "text": "B、1次",
+          "value": "1"
+        },
+        {
+          "id": 17535,
+          "optionNo": "C",
+          "text": "C、2次",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "id": 4822,
+      "text": "家庭成员重病、重伤：此事件的性质",
+      "type": "radio",
+      "orderNum": 98,
+      "options": [
+        {
+          "id": 17536,
+          "optionNo": "A",
+          "text": "A、好事",
+          "value": "1"
+        },
+        {
+          "id": 17537,
+          "optionNo": "B",
+          "text": "B、坏事",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 4823,
+      "text": "家庭成员重病、重伤：此事件对您的精神影响程度",
+      "type": "radio",
+      "orderNum": 99,
+      "options": [
+        {
+          "id": 17538,
+          "optionNo": "A",
+          "text": "A、无影响",
+          "value": "0"
+        },
+        {
+          "id": 17539,
+          "optionNo": "B",
+          "text": "B、轻度影响",
+          "value": "1"
+        },
+        {
+          "id": 17540,
+          "optionNo": "C",
+          "text": "C、中度影响",
+          "value": "2"
+        },
+        {
+          "id": 17541,
+          "optionNo": "D",
+          "text": "D、重度影响",
+          "value": "3"
+        },
+        {
+          "id": 17542,
+          "optionNo": "E",
+          "text": "E、极重影响",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 4824,
+      "text": "家庭成员重病、重伤：此事件对您的影响持续时间",
+      "type": "radio",
+      "orderNum": 100,
+      "options": [
+        {
+          "id": 17543,
+          "optionNo": "A",
+          "text": "A、三个月",
+          "value": "1"
+        },
+        {
+          "id": 17544,
+          "optionNo": "B",
+          "text": "B、半年内",
+          "value": "2"
+        },
+        {
+          "id": 17545,
+          "optionNo": "C",
+          "text": "C、一年内",
+          "value": "3"
+        },
+        {
+          "id": 17546,
+          "optionNo": "D",
+          "text": "D、一年以上",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 4825,
+      "text": "家庭成员死亡：发生的次数",
+      "type": "radio",
+      "orderNum": 101,
+      "options": [
+        {
+          "id": 17547,
+          "optionNo": "A",
+          "text": "A、未发生",
+          "value": "0"
+        },
+        {
+          "id": 17548,
+          "optionNo": "B",
+          "text": "B、1次",
+          "value": "1"
+        },
+        {
+          "id": 17549,
+          "optionNo": "C",
+          "text": "C、2次",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "id": 4826,
+      "text": "家庭成员死亡：此事件的性质",
+      "type": "radio",
+      "orderNum": 102,
+      "options": [
+        {
+          "id": 17550,
+          "optionNo": "A",
+          "text": "A、好事",
+          "value": "1"
+        },
+        {
+          "id": 17551,
+          "optionNo": "B",
+          "text": "B、坏事",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 4827,
+      "text": "家庭成员死亡：此事件对您的精神影响程度",
+      "type": "radio",
+      "orderNum": 103,
+      "options": [
+        {
+          "id": 17552,
+          "optionNo": "A",
+          "text": "A、无影响",
+          "value": "0"
+        },
+        {
+          "id": 17553,
+          "optionNo": "B",
+          "text": "B、轻度影响",
+          "value": "1"
+        },
+        {
+          "id": 17554,
+          "optionNo": "C",
+          "text": "C、中度影响",
+          "value": "2"
+        },
+        {
+          "id": 17555,
+          "optionNo": "D",
+          "text": "D、重度影响",
+          "value": "3"
+        },
+        {
+          "id": 17556,
+          "optionNo": "E",
+          "text": "E、极重影响",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 4828,
+      "text": "家庭成员死亡：此事件对您的影响持续时间",
+      "type": "radio",
+      "orderNum": 104,
+      "options": [
+        {
+          "id": 17557,
+          "optionNo": "A",
+          "text": "A、三个月",
+          "value": "1"
+        },
+        {
+          "id": 17558,
+          "optionNo": "B",
+          "text": "B、半年内",
+          "value": "2"
+        },
+        {
+          "id": 17559,
+          "optionNo": "C",
+          "text": "C、一年内",
+          "value": "3"
+        },
+        {
+          "id": 17560,
+          "optionNo": "D",
+          "text": "D、一年以上",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 4829,
+      "text": "本人重病或重伤：发生的次数",
+      "type": "radio",
+      "orderNum": 105,
+      "options": [
+        {
+          "id": 17561,
+          "optionNo": "A",
+          "text": "A、未发生",
+          "value": "0"
+        },
+        {
+          "id": 17562,
+          "optionNo": "B",
+          "text": "B、1次",
+          "value": "1"
+        },
+        {
+          "id": 17563,
+          "optionNo": "C",
+          "text": "C、2次",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "id": 4830,
+      "text": "本人重病或重伤：此事件的性质",
+      "type": "radio",
+      "orderNum": 106,
+      "options": [
+        {
+          "id": 17564,
+          "optionNo": "A",
+          "text": "A、好事",
+          "value": "1"
+        },
+        {
+          "id": 17565,
+          "optionNo": "B",
+          "text": "B、坏事",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 4831,
+      "text": "本人重病或重伤：此事件对您的精神影响程度",
+      "type": "radio",
+      "orderNum": 107,
+      "options": [
+        {
+          "id": 17566,
+          "optionNo": "A",
+          "text": "A、无影响",
+          "value": "0"
+        },
+        {
+          "id": 17567,
+          "optionNo": "B",
+          "text": "B、轻度影响",
+          "value": "1"
+        },
+        {
+          "id": 17568,
+          "optionNo": "C",
+          "text": "C、中度影响",
+          "value": "2"
+        },
+        {
+          "id": 17569,
+          "optionNo": "D",
+          "text": "D、重度影响",
+          "value": "3"
+        },
+        {
+          "id": 17570,
+          "optionNo": "E",
+          "text": "E、极重影响",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 4832,
+      "text": "本人重病或重伤：此事件对您的影响持续时间",
+      "type": "radio",
+      "orderNum": 108,
+      "options": [
+        {
+          "id": 17571,
+          "optionNo": "A",
+          "text": "A、三个月",
+          "value": "1"
+        },
+        {
+          "id": 17572,
+          "optionNo": "B",
+          "text": "B、半年内",
+          "value": "2"
+        },
+        {
+          "id": 17573,
+          "optionNo": "C",
+          "text": "C、一年内",
+          "value": "3"
+        },
+        {
+          "id": 17574,
+          "optionNo": "D",
+          "text": "D、一年以上",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 4833,
+      "text": "住房紧张：发生的次数",
+      "type": "radio",
+      "orderNum": 109,
+      "options": [
+        {
+          "id": 17575,
+          "optionNo": "A",
+          "text": "A、未发生",
+          "value": "0"
+        },
+        {
+          "id": 17576,
+          "optionNo": "B",
+          "text": "B、1次",
+          "value": "1"
+        },
+        {
+          "id": 17577,
+          "optionNo": "C",
+          "text": "C、2次",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "id": 4834,
+      "text": "住房紧张：此事件的性质",
+      "type": "radio",
+      "orderNum": 110,
+      "options": [
+        {
+          "id": 17578,
+          "optionNo": "A",
+          "text": "A、好事",
+          "value": "1"
+        },
+        {
+          "id": 17579,
+          "optionNo": "B",
+          "text": "B、坏事",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 4835,
+      "text": "住房紧张：此事件对您的精神影响程度",
+      "type": "radio",
+      "orderNum": 111,
+      "options": [
+        {
+          "id": 17580,
+          "optionNo": "A",
+          "text": "A、无影响",
+          "value": "0"
+        },
+        {
+          "id": 17581,
+          "optionNo": "B",
+          "text": "B、轻度影响",
+          "value": "1"
+        },
+        {
+          "id": 17582,
+          "optionNo": "C",
+          "text": "C、中度影响",
+          "value": "2"
+        },
+        {
+          "id": 17583,
+          "optionNo": "D",
+          "text": "D、重度影响",
+          "value": "3"
+        },
+        {
+          "id": 17584,
+          "optionNo": "E",
+          "text": "E、极重影响",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 4836,
+      "text": "住房紧张：此事件对您的影响持续时间",
+      "type": "radio",
+      "orderNum": 112,
+      "options": [
+        {
+          "id": 17585,
+          "optionNo": "A",
+          "text": "A、三个月",
+          "value": "1"
+        },
+        {
+          "id": 17586,
+          "optionNo": "B",
+          "text": "B、半年内",
+          "value": "2"
+        },
+        {
+          "id": 17587,
+          "optionNo": "C",
+          "text": "C、一年内",
+          "value": "3"
+        },
+        {
+          "id": 17588,
+          "optionNo": "D",
+          "text": "D、一年以上",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 4837,
+      "text": "待业、无业：发生的次数",
+      "type": "radio",
+      "orderNum": 113,
+      "options": [
+        {
+          "id": 17589,
+          "optionNo": "A",
+          "text": "A、未发生",
+          "value": "0"
+        },
+        {
+          "id": 17590,
+          "optionNo": "B",
+          "text": "B、1次",
+          "value": "1"
+        },
+        {
+          "id": 17591,
+          "optionNo": "C",
+          "text": "C、2次",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "id": 4838,
+      "text": "待业、无业：此事件的性质",
+      "type": "radio",
+      "orderNum": 114,
+      "options": [
+        {
+          "id": 17592,
+          "optionNo": "A",
+          "text": "A、好事",
+          "value": "1"
+        },
+        {
+          "id": 17593,
+          "optionNo": "B",
+          "text": "B、坏事",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 4839,
+      "text": "待业、无业：此事件对您的精神影响程度",
+      "type": "radio",
+      "orderNum": 115,
+      "options": [
+        {
+          "id": 17594,
+          "optionNo": "A",
+          "text": "A、无影响",
+          "value": "0"
+        },
+        {
+          "id": 17595,
+          "optionNo": "B",
+          "text": "B、轻度影响",
+          "value": "1"
+        },
+        {
+          "id": 17596,
+          "optionNo": "C",
+          "text": "C、中度影响",
+          "value": "2"
+        },
+        {
+          "id": 17597,
+          "optionNo": "D",
+          "text": "D、重度影响",
+          "value": "3"
+        },
+        {
+          "id": 17598,
+          "optionNo": "E",
+          "text": "E、极重影响",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 4840,
+      "text": "待业、无业：此事件对您的影响持续时间",
+      "type": "radio",
+      "orderNum": 116,
+      "options": [
+        {
+          "id": 17599,
+          "optionNo": "A",
+          "text": "A、三个月",
+          "value": "1"
+        },
+        {
+          "id": 17600,
+          "optionNo": "B",
+          "text": "B、半年内",
+          "value": "2"
+        },
+        {
+          "id": 17601,
+          "optionNo": "C",
+          "text": "C、一年内",
+          "value": "3"
+        },
+        {
+          "id": 17602,
+          "optionNo": "D",
+          "text": "D、一年以上",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 4841,
+      "text": "开始就业：发生的次数",
+      "type": "radio",
+      "orderNum": 117,
+      "options": [
+        {
+          "id": 17603,
+          "optionNo": "A",
+          "text": "A、未发生",
+          "value": "0"
+        },
+        {
+          "id": 17604,
+          "optionNo": "B",
+          "text": "B、1次",
+          "value": "1"
+        },
+        {
+          "id": 17605,
+          "optionNo": "C",
+          "text": "C、2次",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "id": 4842,
+      "text": "开始就业：此事件的性质",
+      "type": "radio",
+      "orderNum": 118,
+      "options": [
+        {
+          "id": 17606,
+          "optionNo": "A",
+          "text": "A、好事",
+          "value": "1"
+        },
+        {
+          "id": 17607,
+          "optionNo": "B",
+          "text": "B、坏事",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 4843,
+      "text": "开始就业：此事件对您的精神影响程度",
+      "type": "radio",
+      "orderNum": 119,
+      "options": [
+        {
+          "id": 17608,
+          "optionNo": "A",
+          "text": "A、无影响",
+          "value": "0"
+        },
+        {
+          "id": 17609,
+          "optionNo": "B",
+          "text": "B、轻度影响",
+          "value": "1"
+        },
+        {
+          "id": 17610,
+          "optionNo": "C",
+          "text": "C、中度影响",
+          "value": "2"
+        },
+        {
+          "id": 17611,
+          "optionNo": "D",
+          "text": "D、重度影响",
+          "value": "3"
+        },
+        {
+          "id": 17612,
+          "optionNo": "E",
+          "text": "E、极重影响",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 4844,
+      "text": "开始就业：此事件对您的影响持续时间",
+      "type": "radio",
+      "orderNum": 120,
+      "options": [
+        {
+          "id": 17613,
+          "optionNo": "A",
+          "text": "A、三个月",
+          "value": "1"
+        },
+        {
+          "id": 17614,
+          "optionNo": "B",
+          "text": "B、半年内",
+          "value": "2"
+        },
+        {
+          "id": 17615,
+          "optionNo": "C",
+          "text": "C、一年内",
+          "value": "3"
+        },
+        {
+          "id": 17616,
+          "optionNo": "D",
+          "text": "D、一年以上",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 4845,
+      "text": "高考失败：发生的次数",
+      "type": "radio",
+      "orderNum": 121,
+      "options": [
+        {
+          "id": 17617,
+          "optionNo": "A",
+          "text": "A、未发生",
+          "value": "0"
+        },
+        {
+          "id": 17618,
+          "optionNo": "B",
+          "text": "B、1次",
+          "value": "1"
+        },
+        {
+          "id": 17619,
+          "optionNo": "C",
+          "text": "C、2次",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "id": 4846,
+      "text": "高考失败：此事件的性质",
+      "type": "radio",
+      "orderNum": 122,
+      "options": [
+        {
+          "id": 17620,
+          "optionNo": "A",
+          "text": "A、好事",
+          "value": "1"
+        },
+        {
+          "id": 17621,
+          "optionNo": "B",
+          "text": "B、坏事",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 4847,
+      "text": "高考失败：此事件对您的精神影响程度",
+      "type": "radio",
+      "orderNum": 123,
+      "options": [
+        {
+          "id": 17622,
+          "optionNo": "A",
+          "text": "A、无影响",
+          "value": "0"
+        },
+        {
+          "id": 17623,
+          "optionNo": "B",
+          "text": "B、轻度影响",
+          "value": "1"
+        },
+        {
+          "id": 17624,
+          "optionNo": "C",
+          "text": "C、中度影响",
+          "value": "2"
+        },
+        {
+          "id": 17625,
+          "optionNo": "D",
+          "text": "D、重度影响",
+          "value": "3"
+        },
+        {
+          "id": 17626,
+          "optionNo": "E",
+          "text": "E、极重影响",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 4848,
+      "text": "高考失败：此事件对您的影响持续时间",
+      "type": "radio",
+      "orderNum": 124,
+      "options": [
+        {
+          "id": 17627,
+          "optionNo": "A",
+          "text": "A、三个月",
+          "value": "1"
+        },
+        {
+          "id": 17628,
+          "optionNo": "B",
+          "text": "B、半年内",
+          "value": "2"
+        },
+        {
+          "id": 17629,
+          "optionNo": "C",
+          "text": "C、一年内",
+          "value": "3"
+        },
+        {
+          "id": 17630,
+          "optionNo": "D",
+          "text": "D、一年以上",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 4849,
+      "text": "扣发奖金或罚款：发生的次数",
+      "type": "radio",
+      "orderNum": 125,
+      "options": [
+        {
+          "id": 17631,
+          "optionNo": "A",
+          "text": "A、未发生",
+          "value": "0"
+        },
+        {
+          "id": 17632,
+          "optionNo": "B",
+          "text": "B、1次",
+          "value": "1"
+        },
+        {
+          "id": 17633,
+          "optionNo": "C",
+          "text": "C、2次",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "id": 4850,
+      "text": "扣发奖金或罚款：此事件的性质",
+      "type": "radio",
+      "orderNum": 126,
+      "options": [
+        {
+          "id": 17634,
+          "optionNo": "A",
+          "text": "A、好事",
+          "value": "1"
+        },
+        {
+          "id": 17635,
+          "optionNo": "B",
+          "text": "B、坏事",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 4851,
+      "text": "扣发奖金或罚款：此事件对您的精神影响程度",
+      "type": "radio",
+      "orderNum": 127,
+      "options": [
+        {
+          "id": 17636,
+          "optionNo": "A",
+          "text": "A、无影响",
+          "value": "0"
+        },
+        {
+          "id": 17637,
+          "optionNo": "B",
+          "text": "B、轻度影响",
+          "value": "1"
+        },
+        {
+          "id": 17638,
+          "optionNo": "C",
+          "text": "C、中度影响",
+          "value": "2"
+        },
+        {
+          "id": 17639,
+          "optionNo": "D",
+          "text": "D、重度影响",
+          "value": "3"
+        },
+        {
+          "id": 17640,
+          "optionNo": "E",
+          "text": "E、极重影响",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 4852,
+      "text": "扣发奖金或罚款：此事件对您的影响持续时间",
+      "type": "radio",
+      "orderNum": 128,
+      "options": [
+        {
+          "id": 17641,
+          "optionNo": "A",
+          "text": "A、三个月",
+          "value": "1"
+        },
+        {
+          "id": 17642,
+          "optionNo": "B",
+          "text": "B、半年内",
+          "value": "2"
+        },
+        {
+          "id": 17643,
+          "optionNo": "C",
+          "text": "C、一年内",
+          "value": "3"
+        },
+        {
+          "id": 17644,
+          "optionNo": "D",
+          "text": "D、一年以上",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 4853,
+      "text": "突出的个人成就：发生的次数",
+      "type": "radio",
+      "orderNum": 129,
+      "options": [
+        {
+          "id": 17645,
+          "optionNo": "A",
+          "text": "A、未发生",
+          "value": "0"
+        },
+        {
+          "id": 17646,
+          "optionNo": "B",
+          "text": "B、1次",
+          "value": "1"
+        },
+        {
+          "id": 17647,
+          "optionNo": "C",
+          "text": "C、2次",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "id": 4854,
+      "text": "突出的个人成就：此事件的性质",
+      "type": "radio",
+      "orderNum": 130,
+      "options": [
+        {
+          "id": 17648,
+          "optionNo": "A",
+          "text": "A、好事",
+          "value": "1"
+        },
+        {
+          "id": 17649,
+          "optionNo": "B",
+          "text": "B、坏事",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 4855,
+      "text": "突出的个人成就：此事件对您的精神影响程度",
+      "type": "radio",
+      "orderNum": 131,
+      "options": [
+        {
+          "id": 17650,
+          "optionNo": "A",
+          "text": "A、无影响",
+          "value": "0"
+        },
+        {
+          "id": 17651,
+          "optionNo": "B",
+          "text": "B、轻度影响",
+          "value": "1"
+        },
+        {
+          "id": 17652,
+          "optionNo": "C",
+          "text": "C、中度影响",
+          "value": "2"
+        },
+        {
+          "id": 17653,
+          "optionNo": "D",
+          "text": "D、重度影响",
+          "value": "3"
+        },
+        {
+          "id": 17654,
+          "optionNo": "E",
+          "text": "E、极重影响",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 4856,
+      "text": "突出的个人成就：此事件对您的影响持续时间",
+      "type": "radio",
+      "orderNum": 132,
+      "options": [
+        {
+          "id": 17655,
+          "optionNo": "A",
+          "text": "A、三个月",
+          "value": "1"
+        },
+        {
+          "id": 17656,
+          "optionNo": "B",
+          "text": "B、半年内",
+          "value": "2"
+        },
+        {
+          "id": 17657,
+          "optionNo": "C",
+          "text": "C、一年内",
+          "value": "3"
+        },
+        {
+          "id": 17658,
+          "optionNo": "D",
+          "text": "D、一年以上",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 4857,
+      "text": "晋升、提级：发生的次数",
+      "type": "radio",
+      "orderNum": 133,
+      "options": [
+        {
+          "id": 17659,
+          "optionNo": "A",
+          "text": "A、未发生",
+          "value": "0"
+        },
+        {
+          "id": 17660,
+          "optionNo": "B",
+          "text": "B、1次",
+          "value": "1"
+        },
+        {
+          "id": 17661,
+          "optionNo": "C",
+          "text": "C、2次",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "id": 4858,
+      "text": "晋升、提级：此事件的性质",
+      "type": "radio",
+      "orderNum": 134,
+      "options": [
+        {
+          "id": 17662,
+          "optionNo": "A",
+          "text": "A、好事",
+          "value": "1"
+        },
+        {
+          "id": 17663,
+          "optionNo": "B",
+          "text": "B、坏事",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 4859,
+      "text": "晋升、提级：此事件对您的精神影响程度",
+      "type": "radio",
+      "orderNum": 135,
+      "options": [
+        {
+          "id": 17664,
+          "optionNo": "A",
+          "text": "A、无影响",
+          "value": "0"
+        },
+        {
+          "id": 17665,
+          "optionNo": "B",
+          "text": "B、轻度影响",
+          "value": "1"
+        },
+        {
+          "id": 17666,
+          "optionNo": "C",
+          "text": "C、中度影响",
+          "value": "2"
+        },
+        {
+          "id": 17667,
+          "optionNo": "D",
+          "text": "D、重度影响",
+          "value": "3"
+        },
+        {
+          "id": 17668,
+          "optionNo": "E",
+          "text": "E、极重影响",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 4860,
+      "text": "晋升、提级：此事件对您的影响持续时间",
+      "type": "radio",
+      "orderNum": 136,
+      "options": [
+        {
+          "id": 17669,
+          "optionNo": "A",
+          "text": "A、三个月",
+          "value": "1"
+        },
+        {
+          "id": 17670,
+          "optionNo": "B",
+          "text": "B、半年内",
+          "value": "2"
+        },
+        {
+          "id": 17671,
+          "optionNo": "C",
+          "text": "C、一年内",
+          "value": "3"
+        },
+        {
+          "id": 17672,
+          "optionNo": "D",
+          "text": "D、一年以上",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 4861,
+      "text": "对现职工作不满意：发生的次数",
+      "type": "radio",
+      "orderNum": 137,
+      "options": [
+        {
+          "id": 17673,
+          "optionNo": "A",
+          "text": "A、未发生",
+          "value": "0"
+        },
+        {
+          "id": 17674,
+          "optionNo": "B",
+          "text": "B、1次",
+          "value": "1"
+        },
+        {
+          "id": 17675,
+          "optionNo": "C",
+          "text": "C、2次",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "id": 4862,
+      "text": "对现职工作不满意：此事件的性质",
+      "type": "radio",
+      "orderNum": 138,
+      "options": [
+        {
+          "id": 17676,
+          "optionNo": "A",
+          "text": "A、好事",
+          "value": "1"
+        },
+        {
+          "id": 17677,
+          "optionNo": "B",
+          "text": "B、坏事",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 4863,
+      "text": "对现职工作不满意：此事件对您的精神影响程度",
+      "type": "radio",
+      "orderNum": 139,
+      "options": [
+        {
+          "id": 17678,
+          "optionNo": "A",
+          "text": "A、无影响",
+          "value": "0"
+        },
+        {
+          "id": 17679,
+          "optionNo": "B",
+          "text": "B、轻度影响",
+          "value": "1"
+        },
+        {
+          "id": 17680,
+          "optionNo": "C",
+          "text": "C、中度影响",
+          "value": "2"
+        },
+        {
+          "id": 17681,
+          "optionNo": "D",
+          "text": "D、重度影响",
+          "value": "3"
+        },
+        {
+          "id": 17682,
+          "optionNo": "E",
+          "text": "E、极重影响",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 4864,
+      "text": "对现职工作不满意：此事件对您的影响持续时间",
+      "type": "radio",
+      "orderNum": 140,
+      "options": [
+        {
+          "id": 17683,
+          "optionNo": "A",
+          "text": "A、三个月",
+          "value": "1"
+        },
+        {
+          "id": 17684,
+          "optionNo": "B",
+          "text": "B、半年内",
+          "value": "2"
+        },
+        {
+          "id": 17685,
+          "optionNo": "C",
+          "text": "C、一年内",
+          "value": "3"
+        },
+        {
+          "id": 17686,
+          "optionNo": "D",
+          "text": "D、一年以上",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 4865,
+      "text": "工作学习中压力大（如成绩不好）：发生的次数",
+      "type": "radio",
+      "orderNum": 141,
+      "options": [
+        {
+          "id": 17687,
+          "optionNo": "A",
+          "text": "A、未发生",
+          "value": "0"
+        },
+        {
+          "id": 17688,
+          "optionNo": "B",
+          "text": "B、1次",
+          "value": "1"
+        },
+        {
+          "id": 17689,
+          "optionNo": "C",
+          "text": "C、2次",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "id": 4866,
+      "text": "工作学习中压力大（如成绩不好）：此事件的性质",
+      "type": "radio",
+      "orderNum": 142,
+      "options": [
+        {
+          "id": 17690,
+          "optionNo": "A",
+          "text": "A、好事",
+          "value": "1"
+        },
+        {
+          "id": 17691,
+          "optionNo": "B",
+          "text": "B、坏事",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 4867,
+      "text": "工作学习中压力大（如成绩不好）：此事件对您的精神影响程度",
+      "type": "radio",
+      "orderNum": 143,
+      "options": [
+        {
+          "id": 17692,
+          "optionNo": "A",
+          "text": "A、无影响",
+          "value": "0"
+        },
+        {
+          "id": 17693,
+          "optionNo": "B",
+          "text": "B、轻度影响",
+          "value": "1"
+        },
+        {
+          "id": 17694,
+          "optionNo": "C",
+          "text": "C、中度影响",
+          "value": "2"
+        },
+        {
+          "id": 17695,
+          "optionNo": "D",
+          "text": "D、重度影响",
+          "value": "3"
+        },
+        {
+          "id": 17696,
+          "optionNo": "E",
+          "text": "E、极重影响",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 4868,
+      "text": "工作学习中压力大（如成绩不好）：此事件对您的影响持续时间",
+      "type": "radio",
+      "orderNum": 144,
+      "options": [
+        {
+          "id": 17697,
+          "optionNo": "A",
+          "text": "A、三个月",
+          "value": "1"
+        },
+        {
+          "id": 17698,
+          "optionNo": "B",
+          "text": "B、半年内",
+          "value": "2"
+        },
+        {
+          "id": 17699,
+          "optionNo": "C",
+          "text": "C、一年内",
+          "value": "3"
+        },
+        {
+          "id": 17700,
+          "optionNo": "D",
+          "text": "D、一年以上",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 4869,
+      "text": "与上级关系紧张：发生的次数",
+      "type": "radio",
+      "orderNum": 145,
+      "options": [
+        {
+          "id": 17701,
+          "optionNo": "A",
+          "text": "A、未发生",
+          "value": "0"
+        },
+        {
+          "id": 17702,
+          "optionNo": "B",
+          "text": "B、1次",
+          "value": "1"
+        },
+        {
+          "id": 17703,
+          "optionNo": "C",
+          "text": "C、2次",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "id": 4870,
+      "text": "与上级关系紧张：此事件的性质",
+      "type": "radio",
+      "orderNum": 146,
+      "options": [
+        {
+          "id": 17704,
+          "optionNo": "A",
+          "text": "A、好事",
+          "value": "1"
+        },
+        {
+          "id": 17705,
+          "optionNo": "B",
+          "text": "B、坏事",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 4871,
+      "text": "与上级关系紧张：此事件对您的精神影响程度",
+      "type": "radio",
+      "orderNum": 147,
+      "options": [
+        {
+          "id": 17706,
+          "optionNo": "A",
+          "text": "A、无影响",
+          "value": "0"
+        },
+        {
+          "id": 17707,
+          "optionNo": "B",
+          "text": "B、轻度影响",
+          "value": "1"
+        },
+        {
+          "id": 17708,
+          "optionNo": "C",
+          "text": "C、中度影响",
+          "value": "2"
+        },
+        {
+          "id": 17709,
+          "optionNo": "D",
+          "text": "D、重度影响",
+          "value": "3"
+        },
+        {
+          "id": 17710,
+          "optionNo": "E",
+          "text": "E、极重影响",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 4872,
+      "text": "与上级关系紧张：此事件对您的影响持续时间",
+      "type": "radio",
+      "orderNum": 148,
+      "options": [
+        {
+          "id": 17711,
+          "optionNo": "A",
+          "text": "A、三个月",
+          "value": "1"
+        },
+        {
+          "id": 17712,
+          "optionNo": "B",
+          "text": "B、半年内",
+          "value": "2"
+        },
+        {
+          "id": 17713,
+          "optionNo": "C",
+          "text": "C、一年内",
+          "value": "3"
+        },
+        {
+          "id": 17714,
+          "optionNo": "D",
+          "text": "D、一年以上",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 4873,
+      "text": "与同事邻居不和：发生的次数",
+      "type": "radio",
+      "orderNum": 149,
+      "options": [
+        {
+          "id": 17715,
+          "optionNo": "A",
+          "text": "A、未发生",
+          "value": "0"
+        },
+        {
+          "id": 17716,
+          "optionNo": "B",
+          "text": "B、1次",
+          "value": "1"
+        },
+        {
+          "id": 17717,
+          "optionNo": "C",
+          "text": "C、2次",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "id": 4874,
+      "text": "与同事邻居不和：此事件的性质",
+      "type": "radio",
+      "orderNum": 150,
+      "options": [
+        {
+          "id": 17718,
+          "optionNo": "A",
+          "text": "A、好事",
+          "value": "1"
+        },
+        {
+          "id": 17719,
+          "optionNo": "B",
+          "text": "B、坏事",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 4875,
+      "text": "与同事邻居不和：此事件对您的精神影响程度",
+      "type": "radio",
+      "orderNum": 151,
+      "options": [
+        {
+          "id": 17720,
+          "optionNo": "A",
+          "text": "A、无影响",
+          "value": "0"
+        },
+        {
+          "id": 17721,
+          "optionNo": "B",
+          "text": "B、轻度影响",
+          "value": "1"
+        },
+        {
+          "id": 17722,
+          "optionNo": "C",
+          "text": "C、中度影响",
+          "value": "2"
+        },
+        {
+          "id": 17723,
+          "optionNo": "D",
+          "text": "D、重度影响",
+          "value": "3"
+        },
+        {
+          "id": 17724,
+          "optionNo": "E",
+          "text": "E、极重影响",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 4876,
+      "text": "与同事邻居不和：此事件对您的影响持续时间",
+      "type": "radio",
+      "orderNum": 152,
+      "options": [
+        {
+          "id": 17725,
+          "optionNo": "A",
+          "text": "A、三个月",
+          "value": "1"
+        },
+        {
+          "id": 17726,
+          "optionNo": "B",
+          "text": "B、半年内",
+          "value": "2"
+        },
+        {
+          "id": 17727,
+          "optionNo": "C",
+          "text": "C、一年内",
+          "value": "3"
+        },
+        {
+          "id": 17728,
+          "optionNo": "D",
+          "text": "D、一年以上",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 4877,
+      "text": "第一次远走他乡异国：发生的次数",
+      "type": "radio",
+      "orderNum": 153,
+      "options": [
+        {
+          "id": 17729,
+          "optionNo": "A",
+          "text": "A、未发生",
+          "value": "0"
+        },
+        {
+          "id": 17730,
+          "optionNo": "B",
+          "text": "B、1次",
+          "value": "1"
+        },
+        {
+          "id": 17731,
+          "optionNo": "C",
+          "text": "C、2次",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "id": 4878,
+      "text": "第一次远走他乡异国：此事件的性质",
+      "type": "radio",
+      "orderNum": 154,
+      "options": [
+        {
+          "id": 17732,
+          "optionNo": "A",
+          "text": "A、好事",
+          "value": "1"
+        },
+        {
+          "id": 17733,
+          "optionNo": "B",
+          "text": "B、坏事",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 4879,
+      "text": "第一次远走他乡异国：此事件对您的精神影响程度",
+      "type": "radio",
+      "orderNum": 155,
+      "options": [
+        {
+          "id": 17734,
+          "optionNo": "A",
+          "text": "A、无影响",
+          "value": "0"
+        },
+        {
+          "id": 17735,
+          "optionNo": "B",
+          "text": "B、轻度影响",
+          "value": "1"
+        },
+        {
+          "id": 17736,
+          "optionNo": "C",
+          "text": "C、中度影响",
+          "value": "2"
+        },
+        {
+          "id": 17737,
+          "optionNo": "D",
+          "text": "D、重度影响",
+          "value": "3"
+        },
+        {
+          "id": 17738,
+          "optionNo": "E",
+          "text": "E、极重影响",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 4880,
+      "text": "第一次远走他乡异国：此事件对您的影响持续时间",
+      "type": "radio",
+      "orderNum": 156,
+      "options": [
+        {
+          "id": 17739,
+          "optionNo": "A",
+          "text": "A、三个月",
+          "value": "1"
+        },
+        {
+          "id": 17740,
+          "optionNo": "B",
+          "text": "B、半年内",
+          "value": "2"
+        },
+        {
+          "id": 17741,
+          "optionNo": "C",
+          "text": "C、一年内",
+          "value": "3"
+        },
+        {
+          "id": 17742,
+          "optionNo": "D",
+          "text": "D、一年以上",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 4881,
+      "text": "生活规律重大变动（饮食睡眠规律改变）：发生的次数",
+      "type": "radio",
+      "orderNum": 157,
+      "options": [
+        {
+          "id": 17743,
+          "optionNo": "A",
+          "text": "A、未发生",
+          "value": "0"
+        },
+        {
+          "id": 17744,
+          "optionNo": "B",
+          "text": "B、1次",
+          "value": "1"
+        },
+        {
+          "id": 17745,
+          "optionNo": "C",
+          "text": "C、2次",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "id": 4882,
+      "text": "生活规律重大变动（饮食睡眠规律改变）：此事件的性质",
+      "type": "radio",
+      "orderNum": 158,
+      "options": [
+        {
+          "id": 17746,
+          "optionNo": "A",
+          "text": "A、好事",
+          "value": "1"
+        },
+        {
+          "id": 17747,
+          "optionNo": "B",
+          "text": "B、坏事",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 4883,
+      "text": "生活规律重大变动（饮食睡眠规律改变）：此事件对您的精神影响程度",
+      "type": "radio",
+      "orderNum": 159,
+      "options": [
+        {
+          "id": 17748,
+          "optionNo": "A",
+          "text": "A、无影响",
+          "value": "0"
+        },
+        {
+          "id": 17749,
+          "optionNo": "B",
+          "text": "B、轻度影响",
+          "value": "1"
+        },
+        {
+          "id": 17750,
+          "optionNo": "C",
+          "text": "C、中度影响",
+          "value": "2"
+        },
+        {
+          "id": 17751,
+          "optionNo": "D",
+          "text": "D、重度影响",
+          "value": "3"
+        },
+        {
+          "id": 17752,
+          "optionNo": "E",
+          "text": "E、极重影响",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 4884,
+      "text": "生活规律重大变动（饮食睡眠规律改变）：此事件对您的影响持续时间",
+      "type": "radio",
+      "orderNum": 160,
+      "options": [
+        {
+          "id": 17753,
+          "optionNo": "A",
+          "text": "A、三个月",
+          "value": "1"
+        },
+        {
+          "id": 17754,
+          "optionNo": "B",
+          "text": "B、半年内",
+          "value": "2"
+        },
+        {
+          "id": 17755,
+          "optionNo": "C",
+          "text": "C、一年内",
+          "value": "3"
+        },
+        {
+          "id": 17756,
+          "optionNo": "D",
+          "text": "D、一年以上",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 4885,
+      "text": "本人退休离休或未安排具体工作：发生的次数",
+      "type": "radio",
+      "orderNum": 161,
+      "options": [
+        {
+          "id": 17757,
+          "optionNo": "A",
+          "text": "A、未发生",
+          "value": "0"
+        },
+        {
+          "id": 17758,
+          "optionNo": "B",
+          "text": "B、1次",
+          "value": "1"
+        },
+        {
+          "id": 17759,
+          "optionNo": "C",
+          "text": "C、2次",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "id": 4886,
+      "text": "本人退休离休或未安排具体工作：此事件的性质",
+      "type": "radio",
+      "orderNum": 162,
+      "options": [
+        {
+          "id": 17760,
+          "optionNo": "A",
+          "text": "A、好事",
+          "value": "1"
+        },
+        {
+          "id": 17761,
+          "optionNo": "B",
+          "text": "B、坏事",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 4887,
+      "text": "本人退休离休或未安排具体工作：此事件对您的精神影响程度",
+      "type": "radio",
+      "orderNum": 163,
+      "options": [
+        {
+          "id": 17762,
+          "optionNo": "A",
+          "text": "A、无影响",
+          "value": "0"
+        },
+        {
+          "id": 17763,
+          "optionNo": "B",
+          "text": "B、轻度影响",
+          "value": "1"
+        },
+        {
+          "id": 17764,
+          "optionNo": "C",
+          "text": "C、中度影响",
+          "value": "2"
+        },
+        {
+          "id": 17765,
+          "optionNo": "D",
+          "text": "D、重度影响",
+          "value": "3"
+        },
+        {
+          "id": 17766,
+          "optionNo": "E",
+          "text": "E、极重影响",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 4888,
+      "text": "本人退休离休或未安排具体工作：此事件对您的影响持续时间",
+      "type": "radio",
+      "orderNum": 164,
+      "options": [
+        {
+          "id": 17767,
+          "optionNo": "A",
+          "text": "A、三个月",
+          "value": "1"
+        },
+        {
+          "id": 17768,
+          "optionNo": "B",
+          "text": "B、半年内",
+          "value": "2"
+        },
+        {
+          "id": 17769,
+          "optionNo": "C",
+          "text": "C、一年内",
+          "value": "3"
+        },
+        {
+          "id": 17770,
+          "optionNo": "D",
+          "text": "D、一年以上",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 4889,
+      "text": "好友重病或重伤：发生的次数",
+      "type": "radio",
+      "orderNum": 165,
+      "options": [
+        {
+          "id": 17771,
+          "optionNo": "A",
+          "text": "A、未发生",
+          "value": "0"
+        },
+        {
+          "id": 17772,
+          "optionNo": "B",
+          "text": "B、1次",
+          "value": "1"
+        },
+        {
+          "id": 17773,
+          "optionNo": "C",
+          "text": "C、2次",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "id": 4890,
+      "text": "好友重病或重伤：此事件的性质",
+      "type": "radio",
+      "orderNum": 166,
+      "options": [
+        {
+          "id": 17774,
+          "optionNo": "A",
+          "text": "A、好事",
+          "value": "1"
+        },
+        {
+          "id": 17775,
+          "optionNo": "B",
+          "text": "B、坏事",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 4891,
+      "text": "好友重病或重伤：此事件对您的精神影响程度",
+      "type": "radio",
+      "orderNum": 167,
+      "options": [
+        {
+          "id": 17776,
+          "optionNo": "A",
+          "text": "A、无影响",
+          "value": "0"
+        },
+        {
+          "id": 17777,
+          "optionNo": "B",
+          "text": "B、轻度影响",
+          "value": "1"
+        },
+        {
+          "id": 17778,
+          "optionNo": "C",
+          "text": "C、中度影响",
+          "value": "2"
+        },
+        {
+          "id": 17779,
+          "optionNo": "D",
+          "text": "D、重度影响",
+          "value": "3"
+        },
+        {
+          "id": 17780,
+          "optionNo": "E",
+          "text": "E、极重影响",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 4892,
+      "text": "好友重病或重伤：此事件对您的影响持续时间",
+      "type": "radio",
+      "orderNum": 168,
+      "options": [
+        {
+          "id": 17781,
+          "optionNo": "A",
+          "text": "A、三个月",
+          "value": "1"
+        },
+        {
+          "id": 17782,
+          "optionNo": "B",
+          "text": "B、半年内",
+          "value": "2"
+        },
+        {
+          "id": 17783,
+          "optionNo": "C",
+          "text": "C、一年内",
+          "value": "3"
+        },
+        {
+          "id": 17784,
+          "optionNo": "D",
+          "text": "D、一年以上",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 4893,
+      "text": "好友死亡：发生的次数",
+      "type": "radio",
+      "orderNum": 169,
+      "options": [
+        {
+          "id": 17785,
+          "optionNo": "A",
+          "text": "A、未发生",
+          "value": "0"
+        },
+        {
+          "id": 17786,
+          "optionNo": "B",
+          "text": "B、1次",
+          "value": "1"
+        },
+        {
+          "id": 17787,
+          "optionNo": "C",
+          "text": "C、2次",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "id": 4894,
+      "text": "好友死亡：此事件的性质",
+      "type": "radio",
+      "orderNum": 170,
+      "options": [
+        {
+          "id": 17788,
+          "optionNo": "A",
+          "text": "A、好事",
+          "value": "1"
+        },
+        {
+          "id": 17789,
+          "optionNo": "B",
+          "text": "B、坏事",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 4895,
+      "text": "好友死亡：此事件对您的精神影响程度",
+      "type": "radio",
+      "orderNum": 171,
+      "options": [
+        {
+          "id": 17790,
+          "optionNo": "A",
+          "text": "A、无影响",
+          "value": "0"
+        },
+        {
+          "id": 17791,
+          "optionNo": "B",
+          "text": "B、轻度影响",
+          "value": "1"
+        },
+        {
+          "id": 17792,
+          "optionNo": "C",
+          "text": "C、中度影响",
+          "value": "2"
+        },
+        {
+          "id": 17793,
+          "optionNo": "D",
+          "text": "D、重度影响",
+          "value": "3"
+        },
+        {
+          "id": 17794,
+          "optionNo": "E",
+          "text": "E、极重影响",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 4896,
+      "text": "好友死亡：此事件对您的影响持续时间",
+      "type": "radio",
+      "orderNum": 172,
+      "options": [
+        {
+          "id": 17795,
+          "optionNo": "A",
+          "text": "A、三个月",
+          "value": "1"
+        },
+        {
+          "id": 17796,
+          "optionNo": "B",
+          "text": "B、半年内",
+          "value": "2"
+        },
+        {
+          "id": 17797,
+          "optionNo": "C",
+          "text": "C、一年内",
+          "value": "3"
+        },
+        {
+          "id": 17798,
+          "optionNo": "D",
+          "text": "D、一年以上",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 4897,
+      "text": "被人误会、错怪、诬告、议论：发生的次数",
+      "type": "radio",
+      "orderNum": 173,
+      "options": [
+        {
+          "id": 17799,
+          "optionNo": "A",
+          "text": "A、未发生",
+          "value": "0"
+        },
+        {
+          "id": 17800,
+          "optionNo": "B",
+          "text": "B、1次",
+          "value": "1"
+        },
+        {
+          "id": 17801,
+          "optionNo": "C",
+          "text": "C、2次",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "id": 4898,
+      "text": "被人误会、错怪、诬告、议论：此事件的性质",
+      "type": "radio",
+      "orderNum": 174,
+      "options": [
+        {
+          "id": 17802,
+          "optionNo": "A",
+          "text": "A、好事",
+          "value": "1"
+        },
+        {
+          "id": 17803,
+          "optionNo": "B",
+          "text": "B、坏事",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 4899,
+      "text": "被人误会、错怪、诬告、议论：此事件对您的精神影响程度",
+      "type": "radio",
+      "orderNum": 175,
+      "options": [
+        {
+          "id": 17804,
+          "optionNo": "A",
+          "text": "A、无影响",
+          "value": "0"
+        },
+        {
+          "id": 17805,
+          "optionNo": "B",
+          "text": "B、轻度影响",
+          "value": "1"
+        },
+        {
+          "id": 17806,
+          "optionNo": "C",
+          "text": "C、中度影响",
+          "value": "2"
+        },
+        {
+          "id": 17807,
+          "optionNo": "D",
+          "text": "D、重度影响",
+          "value": "3"
+        },
+        {
+          "id": 17808,
+          "optionNo": "E",
+          "text": "E、极重影响",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 4900,
+      "text": "被人误会、错怪、诬告、议论：此事件对您的影响持续时间",
+      "type": "radio",
+      "orderNum": 176,
+      "options": [
+        {
+          "id": 17809,
+          "optionNo": "A",
+          "text": "A、三个月",
+          "value": "1"
+        },
+        {
+          "id": 17810,
+          "optionNo": "B",
+          "text": "B、半年内",
+          "value": "2"
+        },
+        {
+          "id": 17811,
+          "optionNo": "C",
+          "text": "C、一年内",
+          "value": "3"
+        },
+        {
+          "id": 17812,
+          "optionNo": "D",
+          "text": "D、一年以上",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 4901,
+      "text": "介入民事法律纠纷：发生的次数",
+      "type": "radio",
+      "orderNum": 177,
+      "options": [
+        {
+          "id": 17813,
+          "optionNo": "A",
+          "text": "A、未发生",
+          "value": "0"
+        },
+        {
+          "id": 17814,
+          "optionNo": "B",
+          "text": "B、1次",
+          "value": "1"
+        },
+        {
+          "id": 17815,
+          "optionNo": "C",
+          "text": "C、2次",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "id": 4902,
+      "text": "介入民事法律纠纷：此事件的性质",
+      "type": "radio",
+      "orderNum": 178,
+      "options": [
+        {
+          "id": 17816,
+          "optionNo": "A",
+          "text": "A、好事",
+          "value": "1"
+        },
+        {
+          "id": 17817,
+          "optionNo": "B",
+          "text": "B、坏事",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 4903,
+      "text": "介入民事法律纠纷：此事件对您的精神影响程度",
+      "type": "radio",
+      "orderNum": 179,
+      "options": [
+        {
+          "id": 17818,
+          "optionNo": "A",
+          "text": "A、无影响",
+          "value": "0"
+        },
+        {
+          "id": 17819,
+          "optionNo": "B",
+          "text": "B、轻度影响",
+          "value": "1"
+        },
+        {
+          "id": 17820,
+          "optionNo": "C",
+          "text": "C、中度影响",
+          "value": "2"
+        },
+        {
+          "id": 17821,
+          "optionNo": "D",
+          "text": "D、重度影响",
+          "value": "3"
+        },
+        {
+          "id": 17822,
+          "optionNo": "E",
+          "text": "E、极重影响",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 4904,
+      "text": "介入民事法律纠纷：此事件对您的影响持续时间",
+      "type": "radio",
+      "orderNum": 180,
+      "options": [
+        {
+          "id": 17823,
+          "optionNo": "A",
+          "text": "A、三个月",
+          "value": "1"
+        },
+        {
+          "id": 17824,
+          "optionNo": "B",
+          "text": "B、半年内",
+          "value": "2"
+        },
+        {
+          "id": 17825,
+          "optionNo": "C",
+          "text": "C、一年内",
+          "value": "3"
+        },
+        {
+          "id": 17826,
+          "optionNo": "D",
+          "text": "D、一年以上",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 4905,
+      "text": "被拘留、受审：发生的次数",
+      "type": "radio",
+      "orderNum": 181,
+      "options": [
+        {
+          "id": 17827,
+          "optionNo": "A",
+          "text": "A、未发生",
+          "value": "0"
+        },
+        {
+          "id": 17828,
+          "optionNo": "B",
+          "text": "B、1次",
+          "value": "1"
+        },
+        {
+          "id": 17829,
+          "optionNo": "C",
+          "text": "C、2次",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "id": 4906,
+      "text": "被拘留、受审：此事件的性质",
+      "type": "radio",
+      "orderNum": 182,
+      "options": [
+        {
+          "id": 17830,
+          "optionNo": "A",
+          "text": "A、好事",
+          "value": "1"
+        },
+        {
+          "id": 17831,
+          "optionNo": "B",
+          "text": "B、坏事",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 4907,
+      "text": "被拘留、受审：此事件对您的精神影响程度",
+      "type": "radio",
+      "orderNum": 183,
+      "options": [
+        {
+          "id": 17832,
+          "optionNo": "A",
+          "text": "A、无影响",
+          "value": "0"
+        },
+        {
+          "id": 17833,
+          "optionNo": "B",
+          "text": "B、轻度影响",
+          "value": "1"
+        },
+        {
+          "id": 17834,
+          "optionNo": "C",
+          "text": "C、中度影响",
+          "value": "2"
+        },
+        {
+          "id": 17835,
+          "optionNo": "D",
+          "text": "D、重度影响",
+          "value": "3"
+        },
+        {
+          "id": 17836,
+          "optionNo": "E",
+          "text": "E、极重影响",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 4908,
+      "text": "被拘留、受审：此事件对您的影响持续时间",
+      "type": "radio",
+      "orderNum": 184,
+      "options": [
+        {
+          "id": 17837,
+          "optionNo": "A",
+          "text": "A、三个月",
+          "value": "1"
+        },
+        {
+          "id": 17838,
+          "optionNo": "B",
+          "text": "B、半年内",
+          "value": "2"
+        },
+        {
+          "id": 17839,
+          "optionNo": "C",
+          "text": "C、一年内",
+          "value": "3"
+        },
+        {
+          "id": 17840,
+          "optionNo": "D",
+          "text": "D、一年以上",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 4909,
+      "text": "失窃、财产损失：发生的次数",
+      "type": "radio",
+      "orderNum": 185,
+      "options": [
+        {
+          "id": 17841,
+          "optionNo": "A",
+          "text": "A、未发生",
+          "value": "0"
+        },
+        {
+          "id": 17842,
+          "optionNo": "B",
+          "text": "B、1次",
+          "value": "1"
+        },
+        {
+          "id": 17843,
+          "optionNo": "C",
+          "text": "C、2次",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "id": 4910,
+      "text": "失窃、财产损失：此事件的性质",
+      "type": "radio",
+      "orderNum": 186,
+      "options": [
+        {
+          "id": 17844,
+          "optionNo": "A",
+          "text": "A、好事",
+          "value": "1"
+        },
+        {
+          "id": 17845,
+          "optionNo": "B",
+          "text": "B、坏事",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 4911,
+      "text": "失窃、财产损失：此事件对您的精神影响程度",
+      "type": "radio",
+      "orderNum": 187,
+      "options": [
+        {
+          "id": 17846,
+          "optionNo": "A",
+          "text": "A、无影响",
+          "value": "0"
+        },
+        {
+          "id": 17847,
+          "optionNo": "B",
+          "text": "B、轻度影响",
+          "value": "1"
+        },
+        {
+          "id": 17848,
+          "optionNo": "C",
+          "text": "C、中度影响",
+          "value": "2"
+        },
+        {
+          "id": 17849,
+          "optionNo": "D",
+          "text": "D、重度影响",
+          "value": "3"
+        },
+        {
+          "id": 17850,
+          "optionNo": "E",
+          "text": "E、极重影响",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 4912,
+      "text": "失窃、财产损失：此事件对您的影响持续时间",
+      "type": "radio",
+      "orderNum": 188,
+      "options": [
+        {
+          "id": 17851,
+          "optionNo": "A",
+          "text": "A、三个月",
+          "value": "1"
+        },
+        {
+          "id": 17852,
+          "optionNo": "B",
+          "text": "B、半年内",
+          "value": "2"
+        },
+        {
+          "id": 17853,
+          "optionNo": "C",
+          "text": "C、一年内",
+          "value": "3"
+        },
+        {
+          "id": 17854,
+          "optionNo": "D",
+          "text": "D、一年以上",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 4913,
+      "text": "意外惊吓、发生事故，自然灾害：发生的次数",
+      "type": "radio",
+      "orderNum": 189,
+      "options": [
+        {
+          "id": 17855,
+          "optionNo": "A",
+          "text": "A、未发生",
+          "value": "0"
+        },
+        {
+          "id": 17856,
+          "optionNo": "B",
+          "text": "B、1次",
+          "value": "1"
+        },
+        {
+          "id": 17857,
+          "optionNo": "C",
+          "text": "C、2次",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "id": 4914,
+      "text": "意外惊吓、发生事故，自然灾害：此事件的性质",
+      "type": "radio",
+      "orderNum": 190,
+      "options": [
+        {
+          "id": 17858,
+          "optionNo": "A",
+          "text": "A、好事",
+          "value": "1"
+        },
+        {
+          "id": 17859,
+          "optionNo": "B",
+          "text": "B、坏事",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 4915,
+      "text": "意外惊吓、发生事故，自然灾害：此事件对您的精神影响程度",
+      "type": "radio",
+      "orderNum": 191,
+      "options": [
+        {
+          "id": 17860,
+          "optionNo": "A",
+          "text": "A、无影响",
+          "value": "0"
+        },
+        {
+          "id": 17861,
+          "optionNo": "B",
+          "text": "B、轻度影响",
+          "value": "1"
+        },
+        {
+          "id": 17862,
+          "optionNo": "C",
+          "text": "C、中度影响",
+          "value": "2"
+        },
+        {
+          "id": 17863,
+          "optionNo": "D",
+          "text": "D、重度影响",
+          "value": "3"
+        },
+        {
+          "id": 17864,
+          "optionNo": "E",
+          "text": "E、极重影响",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 4916,
+      "text": "意外惊吓、发生事故，自然灾害：此事件对您的影响持续时间",
+      "type": "radio",
+      "orderNum": 192,
+      "options": [
+        {
+          "id": 17865,
+          "optionNo": "A",
+          "text": "A、三个月",
+          "value": "1"
+        },
+        {
+          "id": 17866,
+          "optionNo": "B",
+          "text": "B、半年内",
+          "value": "2"
+        },
+        {
+          "id": 17867,
+          "optionNo": "C",
+          "text": "C、一年内",
+          "value": "3"
+        },
+        {
+          "id": 17868,
+          "optionNo": "D",
+          "text": "D、一年以上",
+          "value": "4"
+        }
+      ]
+    }
+  ],
+  "dimensions": [
+    {
+      "id": 508,
+      "num": 1,
+      "dimensionName": "正性事件值",
+      "dimensionCode": "A",
+      "evaluateExpression": "((hx_t_2 == 1 ? 1 : 0) * hx_t_1 * hx_t_3 * hx_t_4) + ((hx_t_6 == 1 ? 1 : 0) * hx_t_5 * hx_t_7 * hx_t_8) + ((hx_t_10 == 1 ? 1 : 0) * hx_t_9 * hx_t_11 * hx_t_12) + ((hx_t_14 == 1 ? 1 : 0) * hx_t_13 * hx_t_15 * hx_t_16) + ((hx_t_18 == 1 ? 1 : 0) * hx_t_17 * hx_t_19 * hx_t_20) + ((hx_t_22 == 1 ? 1 : 0) * hx_t_21 * hx_t_23 * hx_t_24) + ((hx_t_26 == 1 ? 1 : 0) * hx_t_25 * hx_t_27 * hx_t_28) + ((hx_t_30 == 1 ? 1 : 0) * hx_t_29 * hx_t_31 * hx_t_32) + ((hx_t_34 == 1 ? 1 : 0) * hx_t_33 * hx_t_35 * hx_t_36) + ((hx_t_38 == 1 ? 1 : 0) * hx_t_37 * hx_t_39 * hx_t_40) + ((hx_t_42 == 1 ? 1 : 0) * hx_t_41 * hx_t_43 * hx_t_44) + ((hx_t_46 == 1 ? 1 : 0) * hx_t_45 * hx_t_47 * hx_t_48) + ((hx_t_50 == 1 ? 1 : 0) * hx_t_49 * hx_t_51 * hx_t_52) + ((hx_t_54 == 1 ? 1 : 0) * hx_t_53 * hx_t_55 * hx_t_56) + ((hx_t_58 == 1 ? 1 : 0) * hx_t_57 * hx_t_59 * hx_t_60) + ((hx_t_62 == 1 ? 1 : 0) * hx_t_61 * hx_t_63 * hx_t_64) + ((hx_t_66 == 1 ? 1 : 0) * hx_t_65 * hx_t_67 * hx_t_68) + ((hx_t_70 == 1 ? 1 : 0) * hx_t_69 * hx_t_71 * hx_t_72) + ((hx_t_74 == 1 ? 1 : 0) * hx_t_73 * hx_t_75 * hx_t_76) + ((hx_t_78 == 1 ? 1 : 0) * hx_t_77 * hx_t_79 * hx_t_80) + ((hx_t_82 == 1 ? 1 : 0) * hx_t_81 * hx_t_83 * hx_t_84) + ((hx_t_86 == 1 ? 1 : 0) * hx_t_85 * hx_t_87 * hx_t_88) + ((hx_t_90 == 1 ? 1 : 0) * hx_t_89 * hx_t_91 * hx_t_92) + ((hx_t_94 == 1 ? 1 : 0) * hx_t_93 * hx_t_95 * hx_t_96) + ((hx_t_98 == 1 ? 1 : 0) * hx_t_97 * hx_t_99 * hx_t_100) + ((hx_t_102 == 1 ? 1 : 0) * hx_t_101 * hx_t_103 * hx_t_104) + ((hx_t_106 == 1 ? 1 : 0) * hx_t_105 * hx_t_107 * hx_t_108) + ((hx_t_110 == 1 ? 1 : 0) * hx_t_109 * hx_t_111 * hx_t_112) + ((hx_t_114 == 1 ? 1 : 0) * hx_t_113 * hx_t_115 * hx_t_116) + ((hx_t_118 == 1 ? 1 : 0) * hx_t_117 * hx_t_119 * hx_t_120) + ((hx_t_122 == 1 ? 1 : 0) * hx_t_121 * hx_t_123 * hx_t_124) + ((hx_t_126 == 1 ? 1 : 0) * hx_t_125 * hx_t_127 * hx_t_128) + ((hx_t_130 == 1 ? 1 : 0) * hx_t_129 * hx_t_131 * hx_t_132) + ((hx_t_134 == 1 ? 1 : 0) * hx_t_133 * hx_t_135 * hx_t_136) + ((hx_t_138 == 1 ? 1 : 0) * hx_t_137 * hx_t_139 * hx_t_140) + ((hx_t_142 == 1 ? 1 : 0) * hx_t_141 * hx_t_143 * hx_t_144) + ((hx_t_146 == 1 ? 1 : 0) * hx_t_145 * hx_t_147 * hx_t_148) + ((hx_t_150 == 1 ? 1 : 0) * hx_t_149 * hx_t_151 * hx_t_152) + ((hx_t_154 == 1 ? 1 : 0) * hx_t_153 * hx_t_155 * hx_t_156) + ((hx_t_158 == 1 ? 1 : 0) * hx_t_157 * hx_t_159 * hx_t_160) + ((hx_t_162 == 1 ? 1 : 0) * hx_t_161 * hx_t_163 * hx_t_164) + ((hx_t_166 == 1 ? 1 : 0) * hx_t_165 * hx_t_167 * hx_t_168) + ((hx_t_170 == 1 ? 1 : 0) * hx_t_169 * hx_t_171 * hx_t_172) + ((hx_t_174 == 1 ? 1 : 0) * hx_t_173 * hx_t_175 * hx_t_176) + ((hx_t_178 == 1 ? 1 : 0) * hx_t_177 * hx_t_179 * hx_t_180) + ((hx_t_182 == 1 ? 1 : 0) * hx_t_181 * hx_t_183 * hx_t_184) + ((hx_t_186 == 1 ? 1 : 0) * hx_t_185 * hx_t_187 * hx_t_188) + ((hx_t_190 == 1 ? 1 : 0) * hx_t_189 * hx_t_191 * hx_t_192)",
+      "standardScoreFormula": "0",
+      "results": [
+        {
+          "id": 1164,
+          "evaluateExpression": "hx_wd_y_1 >= 0&& hx_wd_y_1 <= 99999",
+          "conclusionAnalysis": "正性事件的分值分高低对健康影响不大，其意义在国内尚待进一步研究。",
+          "suggestion": "生活中不但负面事件、突发变故会给我们带来压力，好事情同样也可以带来压力，也就是说不论是积极事件还是消极事件都会造成精神紧张。个体的精神负荷过重,特别是负面压力过大会严重影响其心理健康状况。所以，我们在生活中需要时时关注自己的压力状况,进行适当的自我调适。",
+          "assessmentWarning": "none"
+        }
+      ]
+    },
+    {
+      "id": 509,
+      "num": 2,
+      "dimensionName": "负性事件值",
+      "dimensionCode": "B",
+      "evaluateExpression": "((hx_t_2 == 0 ? 1 : 0) * hx_t_1 * hx_t_3 * hx_t_4) + ((hx_t_6 == 0 ? 1 : 0) * hx_t_5 * hx_t_7 * hx_t_8) + ((hx_t_10 == 0 ? 1 : 0) * hx_t_9 * hx_t_11 * hx_t_12) + ((hx_t_14 == 0 ? 1 : 0) * hx_t_13 * hx_t_15 * hx_t_16) + ((hx_t_18 == 0 ? 1 : 0) * hx_t_17 * hx_t_19 * hx_t_20) + ((hx_t_22 == 0 ? 1 : 0) * hx_t_21 * hx_t_23 * hx_t_24) + ((hx_t_26 == 0 ? 1 : 0) * hx_t_25 * hx_t_27 * hx_t_28) + ((hx_t_30 == 0 ? 1 : 0) * hx_t_29 * hx_t_31 * hx_t_32) + ((hx_t_34 == 0 ? 1 : 0) * hx_t_33 * hx_t_35 * hx_t_36) + ((hx_t_38 == 0 ? 1 : 0) * hx_t_37 * hx_t_39 * hx_t_40) + ((hx_t_42 == 0 ? 1 : 0) * hx_t_41 * hx_t_43 * hx_t_44) + ((hx_t_46 == 0 ? 1 : 0) * hx_t_45 * hx_t_47 * hx_t_48) + ((hx_t_50 == 0 ? 1 : 0) * hx_t_49 * hx_t_51 * hx_t_52) + ((hx_t_54 == 0 ? 1 : 0) * hx_t_53 * hx_t_55 * hx_t_56) + ((hx_t_58 == 0 ? 1 : 0) * hx_t_57 * hx_t_59 * hx_t_60) + ((hx_t_62 == 0 ? 1 : 0) * hx_t_61 * hx_t_63 * hx_t_64) + ((hx_t_66 == 0 ? 1 : 0) * hx_t_65 * hx_t_67 * hx_t_68) + ((hx_t_70 == 0 ? 1 : 0) * hx_t_69 * hx_t_71 * hx_t_72) + ((hx_t_74 == 0 ? 1 : 0) * hx_t_73 * hx_t_75 * hx_t_76) + ((hx_t_78 == 0 ? 1 : 0) * hx_t_77 * hx_t_79 * hx_t_80) + ((hx_t_82 == 0 ? 1 : 0) * hx_t_81 * hx_t_83 * hx_t_84) + ((hx_t_86 == 0 ? 1 : 0) * hx_t_85 * hx_t_87 * hx_t_88) + ((hx_t_90 == 0 ? 1 : 0) * hx_t_89 * hx_t_91 * hx_t_92) + ((hx_t_94 == 0 ? 1 : 0) * hx_t_93 * hx_t_95 * hx_t_96) + ((hx_t_98 == 0 ? 1 : 0) * hx_t_97 * hx_t_99 * hx_t_100) + ((hx_t_102 == 0 ? 1 : 0) * hx_t_101 * hx_t_103 * hx_t_104) + ((hx_t_106 == 0 ? 1 : 0) * hx_t_105 * hx_t_107 * hx_t_108) + ((hx_t_110 == 0 ? 1 : 0) * hx_t_109 * hx_t_111 * hx_t_112) + ((hx_t_114 == 0 ? 1 : 0) * hx_t_113 * hx_t_115 * hx_t_116) + ((hx_t_118 == 0 ? 1 : 0) * hx_t_117 * hx_t_119 * hx_t_120) + ((hx_t_122 == 0 ? 1 : 0) * hx_t_121 * hx_t_123 * hx_t_124) + ((hx_t_126 == 0 ? 1 : 0) * hx_t_125 * hx_t_127 * hx_t_128) + ((hx_t_130 == 0 ? 1 : 0) * hx_t_129 * hx_t_131 * hx_t_132) + ((hx_t_134 == 0 ? 1 : 0) * hx_t_133 * hx_t_135 * hx_t_136) + ((hx_t_138 == 0 ? 1 : 0) * hx_t_137 * hx_t_139 * hx_t_140) + ((hx_t_142 == 0 ? 1 : 0) * hx_t_141 * hx_t_143 * hx_t_144) + ((hx_t_146 == 0 ? 1 : 0) * hx_t_145 * hx_t_147 * hx_t_148) + ((hx_t_150 == 0 ? 1 : 0) * hx_t_149 * hx_t_151 * hx_t_152) + ((hx_t_154 == 0 ? 1 : 0) * hx_t_153 * hx_t_155 * hx_t_156) + ((hx_t_158 == 0 ? 1 : 0) * hx_t_157 * hx_t_159 * hx_t_160) + ((hx_t_162 == 0 ? 1 : 0) * hx_t_161 * hx_t_163 * hx_t_164) + ((hx_t_166 == 0 ? 1 : 0) * hx_t_165 * hx_t_167 * hx_t_168) + ((hx_t_170 == 0 ? 1 : 0) * hx_t_169 * hx_t_171 * hx_t_172) + ((hx_t_174 == 0 ? 1 : 0) * hx_t_173 * hx_t_175 * hx_t_176) + ((hx_t_178 == 0 ? 1 : 0) * hx_t_177 * hx_t_179 * hx_t_180) + ((hx_t_182 == 0 ? 1 : 0) * hx_t_181 * hx_t_183 * hx_t_184) + ((hx_t_186 == 0 ? 1 : 0) * hx_t_185 * hx_t_187 * hx_t_188) + ((hx_t_190 == 0 ? 1 : 0) * hx_t_189 * hx_t_191 * hx_t_192)",
+      "standardScoreFormula": "0",
+      "results": [
+        {
+          "id": 1165,
+          "evaluateExpression": "hx_wd_y_2 >= 0&& hx_wd_y_2 <= 99999",
+          "conclusionAnalysis": "负性事件分值越高，对身心健康的影响越大。",
+          "suggestion": "生活中不但负面事件、突发变故会给我们带来压力，好事情同样也可以带来压力，也就是说不论是积极事件还是消极事件都会造成精神紧张。个体的精神负荷过重,特别是负面压力过大会严重影响其心理健康状况。所以，我们在生活中需要时时关注自己的压力状况,进行适当的自我调适。",
+          "assessmentWarning": "none"
+        }
+      ]
+    },
+    {
+      "id": 510,
+      "num": 3,
+      "dimensionName": "总分",
+      "dimensionCode": "C",
+      "evaluateExpression": "hx_wd_y_a + hx_wd_y_b",
+      "standardScoreFormula": "0",
+      "results": [
+        {
+          "id": 1166,
+          "evaluateExpression": "hx_wd_y_3 >= 0&& hx_wd_y_3 <= 19",
+          "conclusionAnalysis": "心理负荷较轻：近期生活比较轻松，基本没有遭遇重大变故或者突发事件，或者生活事件对您的影响比较小，情绪比较稳定，社会功能良好。",
+          "suggestion": "建议您保持这种良好的情绪状态，适当规划自己的生活，维持良好的人际关系，同时注意掌握一些日常的自我心理保健知识和技巧，以提高自己的抗压力抗挫折的能力，力图在未来任何时候都能保持内心的平衡和潜力的最大发挥。",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 1167,
+          "evaluateExpression": "hx_wd_y_3 >= 20&& hx_wd_y_3 <= 32",
+          "conclusionAnalysis": "心理负荷一般：得分水平一般，您在生活中承受着一定的压力，一般情况下可以自行克服困难，缓解压力。但是您应对压力的问题上的方式可能并不是十分有效，致使在重大事件发生之后仍旧在较长时间内受其影响。",
+          "suggestion": "1、注意关爱自己，掌握一些自我保健的方式，如良好的习惯，适当的运动，肌肉放松训练，情绪的自我调节。\n2、可以适当减少一些不必要的任务，校正自己对压力、对生活的认识，丰富自己的应对压力策略，构建自己良好的社会支持系统并加以充分的利用。\n3、调整认知，放宽心态。一般情况下，当外在要求超过自己的能力时，人们容易产生失控感，对自己失去信心，也有可能感到心力枯竭、缺乏热情。所以对自己要宽容一些，凡事不要操之过急，不要将太多要求加诸于自己身上，同时看到压力有利的一面，将压力看作是对自己的一种考验，用积极的心态面对生活中的问题。\n4、如果感到不胜压力的烦恼，且对自我调节效果不满意，则可以考虑寻求心理老师的帮助。",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 1168,
+          "evaluateExpression": "hx_wd_y_3 >= 33&& hx_wd_y_3 <= 99999",
+          "conclusionAnalysis": "心理负荷过重：您因为有太多事情萦绕心头而无法专注自己的精力，即使是日常琐事，也常犹豫不决，这种心理亚健康的状态可能已经持续了一段时间。",
+          "suggestion": "1、掌握自我保健的方法。学会关爱自己，选择合适的途径适当宣泄压力，如写日记，倾诉，运动。也可以通过转移注意力和放松训练来缓解压力。\n2、增强应对压力的能力。学习和掌握积极有效的压力应对策略，提高自我效能感。\n3、进一步了解自己生活事件的意义，及时向周围亲友寻求关心和支持，寻找对自   己影响较大的压力事件或者未竟事件，若持续时间较长，则需注意患身心疾病的可能。对于严重的情况应寻求专业人员进行危机干预或者心理辅导。",
+          "assessmentWarning": "none"
+        }
+      ]
+    }
+  ]
+}

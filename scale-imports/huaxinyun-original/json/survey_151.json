@@ -1,0 +1,293 @@
+{
+  "id": 151,
+  "title": "心境障碍问卷(MDQ)",
+  "type": "basic",
+  "questions": [
+    {
+      "id": 4917,
+      "text": "您是否曾经有一段时间与平时不一样，并且在那段时间里有下列表现：您感到非常好或非常开心，但其他人认为与您平时的状态不一样，或者还由于这种特别开心、兴奋而带来麻烦？",
+      "type": "radio",
+      "orderNum": 1,
+      "options": [
+        {
+          "id": 17869,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 17870,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 4918,
+      "text": "您是否曾经有一段时间与平时不一样，并且在那段时间里有下列表现：您容易发脾气，经常大声指责别人、或与别人争吵或打架？",
+      "type": "radio",
+      "orderNum": 2,
+      "options": [
+        {
+          "id": 17871,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 17872,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 4919,
+      "text": "您是否曾经有一段时间与平时不一样，并且在那段时间里有下列表现：您比平时更自信？",
+      "type": "radio",
+      "orderNum": 3,
+      "options": [
+        {
+          "id": 17873,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 17874,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 4920,
+      "text": "您是否曾经有一段时间与平时不一样，并且在那段时间里有下列表现：您睡觉比平时少，而且也不想睡？",
+      "type": "radio",
+      "orderNum": 4,
+      "options": [
+        {
+          "id": 17875,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 17876,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 4921,
+      "text": "您是否曾经有一段时间与平时不一样，并且在那段时间里有下列表现：您话比平时多，或说话速度比平时快？",
+      "type": "radio",
+      "orderNum": 5,
+      "options": [
+        {
+          "id": 17877,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 17878,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 4922,
+      "text": "您是否曾经有一段时间与平时不一样，并且在那段时间里有下列表现：您觉得脑子灵活、反应比平时快，或难以减慢您的思维？",
+      "type": "radio",
+      "orderNum": 6,
+      "options": [
+        {
+          "id": 17879,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 17880,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 4923,
+      "text": "您是否曾经有一段时间与平时不一样，并且在那段时间里有下列表现：您很容易被身边的事物分散注意力，难集中注意力或难专注于一项工作？",
+      "type": "radio",
+      "orderNum": 7,
+      "options": [
+        {
+          "id": 17881,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 17882,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 4924,
+      "text": "您是否曾经有一段时间与平时不一样，并且在那段时间里有下列表现：您的精力比平时好？",
+      "type": "radio",
+      "orderNum": 8,
+      "options": [
+        {
+          "id": 17883,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 17884,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 4925,
+      "text": "您是否曾经有一段时间与平时不一样，并且在那段时间里有下列表现：您比平时积极主动，或比平时做了更多的事情？",
+      "type": "radio",
+      "orderNum": 9,
+      "options": [
+        {
+          "id": 17885,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 17886,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 4926,
+      "text": "您是否曾经有一段时间与平时不一样，并且在那段时间里有下列表现：您比平时喜欢社交或外出，如在半夜仍给朋友打电话？",
+      "type": "radio",
+      "orderNum": 10,
+      "options": [
+        {
+          "id": 17887,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 17888,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 4927,
+      "text": "您是否曾经有一段时间与平时不一样，并且在那段时间里有下列表现：您的性欲比平时强？",
+      "type": "radio",
+      "orderNum": 11,
+      "options": [
+        {
+          "id": 17889,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 17890,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 4928,
+      "text": "您是否曾经有一段时间与平时不一样，并且在那段时间里有下列表现：您做了一些平时不会做的事情，别人认为那些事情有些过分、愚蠢或冒险？",
+      "type": "radio",
+      "orderNum": 12,
+      "options": [
+        {
+          "id": 17891,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 17892,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 4929,
+      "text": "您是否曾经有一段时间与平时不一样，并且在那段时间里有下列表现：您花钱太多，使自己或家庭陷入困境？",
+      "type": "radio",
+      "orderNum": 13,
+      "options": [
+        {
+          "id": 17893,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 17894,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    }
+  ],
+  "dimensions": [
+    {
+      "id": 511,
+      "num": 1,
+      "dimensionName": "总分",
+      "dimensionCode": "A",
+      "evaluateExpression": "hx_t_1 + hx_t_2 + hx_t_3 + hx_t_4 + hx_t_5 + hx_t_6 + hx_t_7 + hx_t_8 + hx_t_9 + hx_t_10 + hx_t_11 + hx_t_12 + hx_t_13",
+      "standardScoreFormula": "0",
+      "results": [
+        {
+          "id": 1169,
+          "evaluateExpression": "hx_wd_y_1 >= 0&& hx_wd_y_1 <= 6",
+          "conclusionAnalysis": "双向障碍特征不明显。",
+          "suggestion": "测验者目前不存在心境障碍，继续保持当前心理状态，烦闷时可通过放松训练进行自主调节。",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 1170,
+          "evaluateExpression": "hx_wd_y_1 >= 7&& hx_wd_y_1 <= 13",
+          "conclusionAnalysis": "双向障碍筛查阳性",
+          "suggestion": "测验者存在心境障碍，建议及时寻求专业人士帮。",
+          "assessmentWarning": "high"
+        }
+      ]
+    }
+  ]
+}

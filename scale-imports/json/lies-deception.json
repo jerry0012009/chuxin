@@ -1,0 +1,664 @@
+{
+  "id": "lies-deception",
+  "title": "日常说谎量表(LiES)",
+  "description": "Lying in Everyday Situations (LiES)，Lupoli等(2017)编制，测量关系性谎言（7题）和反社会性谎言（7题）两个维度。7点计分（1=非常不同意到7=非常同意），各维度总分7-49分。",
+  "type": "basic",
+  "questions": [
+    {
+      "text": "为了维护人际关系，我会说一些不完全真实的话。",
+      "type": "radio",
+      "orderNum": 1,
+      "options": [
+        {
+          "text": "非常不同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "不同意",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "有些不同意",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "不确定",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "有些同意",
+          "value": "5",
+          "optionNo": "E"
+        },
+        {
+          "text": "同意",
+          "value": "6",
+          "optionNo": "F"
+        },
+        {
+          "text": "非常同意",
+          "value": "7",
+          "optionNo": "G"
+        }
+      ]
+    },
+    {
+      "text": "为了避免伤害他人的感情，我会隐瞒真相。",
+      "type": "radio",
+      "orderNum": 2,
+      "options": [
+        {
+          "text": "非常不同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "不同意",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "有些不同意",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "不确定",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "有些同意",
+          "value": "5",
+          "optionNo": "E"
+        },
+        {
+          "text": "同意",
+          "value": "6",
+          "optionNo": "F"
+        },
+        {
+          "text": "非常同意",
+          "value": "7",
+          "optionNo": "G"
+        }
+      ]
+    },
+    {
+      "text": "我会对朋友说一些善意的谎言来让他们感觉好一些。",
+      "type": "radio",
+      "orderNum": 3,
+      "options": [
+        {
+          "text": "非常不同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "不同意",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "有些不同意",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "不确定",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "有些同意",
+          "value": "5",
+          "optionNo": "E"
+        },
+        {
+          "text": "同意",
+          "value": "6",
+          "optionNo": "F"
+        },
+        {
+          "text": "非常同意",
+          "value": "7",
+          "optionNo": "G"
+        }
+      ]
+    },
+    {
+      "text": "为了维持和谐的关系，我会在某些事情上不完全坦诚。",
+      "type": "radio",
+      "orderNum": 4,
+      "options": [
+        {
+          "text": "非常不同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "不同意",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "有些不同意",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "不确定",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "有些同意",
+          "value": "5",
+          "optionNo": "E"
+        },
+        {
+          "text": "同意",
+          "value": "6",
+          "optionNo": "F"
+        },
+        {
+          "text": "非常同意",
+          "value": "7",
+          "optionNo": "G"
+        }
+      ]
+    },
+    {
+      "text": "当真相可能让别人不开心时，我倾向于说一些好听的话。",
+      "type": "radio",
+      "orderNum": 5,
+      "options": [
+        {
+          "text": "非常不同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "不同意",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "有些不同意",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "不确定",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "有些同意",
+          "value": "5",
+          "optionNo": "E"
+        },
+        {
+          "text": "同意",
+          "value": "6",
+          "optionNo": "F"
+        },
+        {
+          "text": "非常同意",
+          "value": "7",
+          "optionNo": "G"
+        }
+      ]
+    },
+    {
+      "text": "我会夸大他人做得好的方面来鼓励他们。",
+      "type": "radio",
+      "orderNum": 6,
+      "options": [
+        {
+          "text": "非常不同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "不同意",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "有些不同意",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "不确定",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "有些同意",
+          "value": "5",
+          "optionNo": "E"
+        },
+        {
+          "text": "同意",
+          "value": "6",
+          "optionNo": "F"
+        },
+        {
+          "text": "非常同意",
+          "value": "7",
+          "optionNo": "G"
+        }
+      ]
+    },
+    {
+      "text": "为了避免冲突，我会在某些问题上表现出与内心不同的态度。",
+      "type": "radio",
+      "orderNum": 7,
+      "options": [
+        {
+          "text": "非常不同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "不同意",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "有些不同意",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "不确定",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "有些同意",
+          "value": "5",
+          "optionNo": "E"
+        },
+        {
+          "text": "同意",
+          "value": "6",
+          "optionNo": "F"
+        },
+        {
+          "text": "非常同意",
+          "value": "7",
+          "optionNo": "G"
+        }
+      ]
+    },
+    {
+      "text": "为了获得利益，我会在必要时对他人撒谎。",
+      "type": "radio",
+      "orderNum": 8,
+      "options": [
+        {
+          "text": "非常不同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "不同意",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "有些不同意",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "不确定",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "有些同意",
+          "value": "5",
+          "optionNo": "E"
+        },
+        {
+          "text": "同意",
+          "value": "6",
+          "optionNo": "F"
+        },
+        {
+          "text": "非常同意",
+          "value": "7",
+          "optionNo": "G"
+        }
+      ]
+    },
+    {
+      "text": "如果撒谎能让我避免麻烦，我会毫不犹豫地这样做。",
+      "type": "radio",
+      "orderNum": 9,
+      "options": [
+        {
+          "text": "非常不同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "不同意",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "有些不同意",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "不确定",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "有些同意",
+          "value": "5",
+          "optionNo": "E"
+        },
+        {
+          "text": "同意",
+          "value": "6",
+          "optionNo": "F"
+        },
+        {
+          "text": "非常同意",
+          "value": "7",
+          "optionNo": "G"
+        }
+      ]
+    },
+    {
+      "text": "我会对权威人物撒谎来保护自己的利益。",
+      "type": "radio",
+      "orderNum": 10,
+      "options": [
+        {
+          "text": "非常不同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "不同意",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "有些不同意",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "不确定",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "有些同意",
+          "value": "5",
+          "optionNo": "E"
+        },
+        {
+          "text": "同意",
+          "value": "6",
+          "optionNo": "F"
+        },
+        {
+          "text": "非常同意",
+          "value": "7",
+          "optionNo": "G"
+        }
+      ]
+    },
+    {
+      "text": "我在日常生活中经常说一些不真实的话。",
+      "type": "radio",
+      "orderNum": 11,
+      "options": [
+        {
+          "text": "非常不同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "不同意",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "有些不同意",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "不确定",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "有些同意",
+          "value": "5",
+          "optionNo": "E"
+        },
+        {
+          "text": "同意",
+          "value": "6",
+          "optionNo": "F"
+        },
+        {
+          "text": "非常同意",
+          "value": "7",
+          "optionNo": "G"
+        }
+      ]
+    },
+    {
+      "text": "欺骗他人对我来说是一件很容易的事情。",
+      "type": "radio",
+      "orderNum": 12,
+      "options": [
+        {
+          "text": "非常不同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "不同意",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "有些不同意",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "不确定",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "有些同意",
+          "value": "5",
+          "optionNo": "E"
+        },
+        {
+          "text": "同意",
+          "value": "6",
+          "optionNo": "F"
+        },
+        {
+          "text": "非常同意",
+          "value": "7",
+          "optionNo": "G"
+        }
+      ]
+    },
+    {
+      "text": "我会编造故事来让自己在社交场合中看起来更好。",
+      "type": "radio",
+      "orderNum": 13,
+      "options": [
+        {
+          "text": "非常不同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "不同意",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "有些不同意",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "不确定",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "有些同意",
+          "value": "5",
+          "optionNo": "E"
+        },
+        {
+          "text": "同意",
+          "value": "6",
+          "optionNo": "F"
+        },
+        {
+          "text": "非常同意",
+          "value": "7",
+          "optionNo": "G"
+        }
+      ]
+    },
+    {
+      "text": "为了达到目的，我会在简历或个人经历中夸大事实。",
+      "type": "radio",
+      "orderNum": 14,
+      "options": [
+        {
+          "text": "非常不同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "不同意",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "有些不同意",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "不确定",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "有些同意",
+          "value": "5",
+          "optionNo": "E"
+        },
+        {
+          "text": "同意",
+          "value": "6",
+          "optionNo": "F"
+        },
+        {
+          "text": "非常同意",
+          "value": "7",
+          "optionNo": "G"
+        }
+      ]
+    }
+  ],
+  "dimensions": [
+    {
+      "dimensionName": "关系性谎言",
+      "dimensionCode": "relational_lying",
+      "num": 1,
+      "evaluateExpression": "hx_t_1 + hx_t_2 + hx_t_3 + hx_t_4 + hx_t_5 + hx_t_6 + hx_t_7",
+      "standardScoreFormula": "",
+      "results": [
+        {
+          "evaluateExpression": "hx_wd_y_1 <= 14",
+          "conclusionAnalysis": "关系性谎言水平较低",
+          "suggestion": "您在人际关系中很少使用谎言来维护关系，沟通风格较为直接。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_1 > 14 && hx_wd_y_1 <= 24",
+          "conclusionAnalysis": "关系性谎言水平中等",
+          "suggestion": "您在人际关系中偶尔会使用善意的谎言，这在社交中较为常见。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_1 > 24 && hx_wd_y_1 <= 35",
+          "conclusionAnalysis": "关系性谎言水平偏高",
+          "suggestion": "您在人际关系中较频繁地使用谎言来维护关系，建议关注诚实沟通的重要性。",
+          "assessmentWarning": "low"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_1 > 35",
+          "conclusionAnalysis": "关系性谎言水平异常偏高",
+          "suggestion": "您在人际关系中过度依赖谎言，可能影响关系的真实性和深度。",
+          "assessmentWarning": "middle"
+        }
+      ]
+    },
+    {
+      "dimensionName": "反社会性谎言",
+      "dimensionCode": "antisocial_lying",
+      "num": 2,
+      "evaluateExpression": "hx_t_8 + hx_t_9 + hx_t_10 + hx_t_11 + hx_t_12 + hx_t_13 + hx_t_14",
+      "standardScoreFormula": "",
+      "results": [
+        {
+          "evaluateExpression": "hx_wd_y_2 <= 11",
+          "conclusionAnalysis": "反社会性谎言水平较低",
+          "suggestion": "您很少为了个人利益而欺骗他人，道德操守良好。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_2 > 11 && hx_wd_y_2 <= 20",
+          "conclusionAnalysis": "反社会性谎言水平中等",
+          "suggestion": "您偶尔会为了个人利益而使用欺骗手段，建议反思诚实的重要性。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_2 > 20 && hx_wd_y_2 <= 30",
+          "conclusionAnalysis": "反社会性谎言水平偏高",
+          "suggestion": "您较频繁地使用反社会性谎言，建议关注这种行为对人际关系和社会信任的影响。",
+          "assessmentWarning": "low"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_2 > 30",
+          "conclusionAnalysis": "反社会性谎言水平异常偏高",
+          "suggestion": "您的反社会性谎言得分明显偏高，这种行为模式可能对您的社会关系造成严重影响。",
+          "assessmentWarning": "middle"
+        }
+      ]
+    }
+  ]
+}

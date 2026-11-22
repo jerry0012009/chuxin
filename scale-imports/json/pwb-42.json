@@ -1,0 +1,1726 @@
+{
+  "id": "pwb-42",
+  "title": "Ryff心理幸福感量表",
+  "description": "本问卷帮助了解您在自主、环境掌控、个人成长、积极关系、生活目的和自我接纳六个方面的心理幸福感。共42题，大约需要10分钟完成。",
+  "type": "basic",
+  "questions": [
+    {
+      "text": "即使与多数人的意见分歧，我也不怕发表自己的意见。",
+      "type": "radio",
+      "orderNum": 1,
+      "options": [
+        {
+          "text": "非常同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "同意",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "有点同意",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "有点不同意",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "不同意",
+          "value": "5",
+          "optionNo": "E"
+        },
+        {
+          "text": "很不同意",
+          "value": "6",
+          "optionNo": "F"
+        }
+      ]
+    },
+    {
+      "text": "对我来说，生活是一个不断学习、变化和成长的过程。",
+      "type": "radio",
+      "orderNum": 2,
+      "options": [
+        {
+          "text": "非常同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "同意",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "有点同意",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "有点不同意",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "不同意",
+          "value": "5",
+          "optionNo": "E"
+        },
+        {
+          "text": "很不同意",
+          "value": "6",
+          "optionNo": "F"
+        }
+      ]
+    },
+    {
+      "text": "总的来说，我觉得我要对我的生活状况负责。",
+      "type": "radio",
+      "orderNum": 3,
+      "options": [
+        {
+          "text": "非常同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "同意",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "有点同意",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "有点不同意",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "不同意",
+          "value": "5",
+          "optionNo": "E"
+        },
+        {
+          "text": "很不同意",
+          "value": "6",
+          "optionNo": "F"
+        }
+      ]
+    },
+    {
+      "text": "人们认为我是一个肯付出并且愿意和他人分享自己的时间的人。",
+      "type": "radio",
+      "orderNum": 4,
+      "options": [
+        {
+          "text": "非常同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "同意",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "有点同意",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "有点不同意",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "不同意",
+          "value": "5",
+          "optionNo": "E"
+        },
+        {
+          "text": "很不同意",
+          "value": "6",
+          "optionNo": "F"
+        }
+      ]
+    },
+    {
+      "text": "对那些能扩展自己眼界的活动，我都不感兴趣。",
+      "type": "radio",
+      "orderNum": 5,
+      "options": [
+        {
+          "text": "很不同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "不同意",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "有点不同意",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "有点同意",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "同意",
+          "value": "5",
+          "optionNo": "E"
+        },
+        {
+          "text": "非常同意",
+          "value": "6",
+          "optionNo": "F"
+        }
+      ]
+    },
+    {
+      "text": "我喜欢为将来定下计划并努力去实践。",
+      "type": "radio",
+      "orderNum": 6,
+      "options": [
+        {
+          "text": "非常同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "同意",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "有点同意",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "有点不同意",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "不同意",
+          "value": "5",
+          "optionNo": "E"
+        },
+        {
+          "text": "很不同意",
+          "value": "6",
+          "optionNo": "F"
+        }
+      ]
+    },
+    {
+      "text": "依我看，无论什么年纪的人都能继续成长和发展。",
+      "type": "radio",
+      "orderNum": 7,
+      "options": [
+        {
+          "text": "非常同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "同意",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "有点同意",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "有点不同意",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "不同意",
+          "value": "5",
+          "optionNo": "E"
+        },
+        {
+          "text": "很不同意",
+          "value": "6",
+          "optionNo": "F"
+        }
+      ]
+    },
+    {
+      "text": "对我来说，与人保持亲密的关系很困难，而且令我感到沮丧。",
+      "type": "radio",
+      "orderNum": 8,
+      "options": [
+        {
+          "text": "很不同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "不同意",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "有点不同意",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "有点同意",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "同意",
+          "value": "5",
+          "optionNo": "E"
+        },
+        {
+          "text": "非常同意",
+          "value": "6",
+          "optionNo": "F"
+        }
+      ]
+    },
+    {
+      "text": "我得过且过，从没真正的思考过未来。",
+      "type": "radio",
+      "orderNum": 9,
+      "options": [
+        {
+          "text": "很不同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "不同意",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "有点不同意",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "有点同意",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "同意",
+          "value": "5",
+          "optionNo": "E"
+        },
+        {
+          "text": "非常同意",
+          "value": "6",
+          "optionNo": "F"
+        }
+      ]
+    },
+    {
+      "text": "我比较在意别人对我的看法。",
+      "type": "radio",
+      "orderNum": 10,
+      "options": [
+        {
+          "text": "很不同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "不同意",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "有点不同意",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "有点同意",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "同意",
+          "value": "5",
+          "optionNo": "E"
+        },
+        {
+          "text": "非常同意",
+          "value": "6",
+          "optionNo": "F"
+        }
+      ]
+    },
+    {
+      "text": "我并不很理解生活中我要做的事情的意义。",
+      "type": "radio",
+      "orderNum": 11,
+      "options": [
+        {
+          "text": "很不同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "不同意",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "有点不同意",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "有点同意",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "同意",
+          "value": "5",
+          "optionNo": "E"
+        },
+        {
+          "text": "非常同意",
+          "value": "6",
+          "optionNo": "F"
+        }
+      ]
+    },
+    {
+      "text": "我难以用一种令我满意的方式来安排生活。",
+      "type": "radio",
+      "orderNum": 12,
+      "options": [
+        {
+          "text": "很不同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "不同意",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "有点不同意",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "有点同意",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "同意",
+          "value": "5",
+          "optionNo": "E"
+        },
+        {
+          "text": "非常同意",
+          "value": "6",
+          "optionNo": "F"
+        }
+      ]
+    },
+    {
+      "text": "我的决定很少受他人的影响。",
+      "type": "radio",
+      "orderNum": 13,
+      "options": [
+        {
+          "text": "非常同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "同意",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "有点同意",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "有点不同意",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "不同意",
+          "value": "5",
+          "optionNo": "E"
+        },
+        {
+          "text": "很不同意",
+          "value": "6",
+          "optionNo": "F"
+        }
+      ]
+    },
+    {
+      "text": "我早就不想对自己的生活作出重大的改善或改变了。",
+      "type": "radio",
+      "orderNum": 14,
+      "options": [
+        {
+          "text": "很不同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "不同意",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "有点不同意",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "有点同意",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "同意",
+          "value": "5",
+          "optionNo": "E"
+        },
+        {
+          "text": "非常同意",
+          "value": "6",
+          "optionNo": "F"
+        }
+      ]
+    },
+    {
+      "text": "每天的生活需求经常令我感到沮丧。",
+      "type": "radio",
+      "orderNum": 15,
+      "options": [
+        {
+          "text": "很不同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "不同意",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "有点不同意",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "有点同意",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "同意",
+          "value": "5",
+          "optionNo": "E"
+        },
+        {
+          "text": "非常同意",
+          "value": "6",
+          "optionNo": "F"
+        }
+      ]
+    },
+    {
+      "text": "如果朋友和家人不同意，我常常会改变自己的决定。",
+      "type": "radio",
+      "orderNum": 16,
+      "options": [
+        {
+          "text": "很不同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "不同意",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "有点不同意",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "有点同意",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "同意",
+          "value": "5",
+          "optionNo": "E"
+        },
+        {
+          "text": "非常同意",
+          "value": "6",
+          "optionNo": "F"
+        }
+      ]
+    },
+    {
+      "text": "我认为，获得新经验是十分重要的。这些经验可以挑战我们对自己和对世界的既定看法。",
+      "type": "radio",
+      "orderNum": 17,
+      "options": [
+        {
+          "text": "非常同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "同意",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "有点同意",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "有点不同意",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "不同意",
+          "value": "5",
+          "optionNo": "E"
+        },
+        {
+          "text": "很不同意",
+          "value": "6",
+          "optionNo": "F"
+        }
+      ]
+    },
+    {
+      "text": "我很少与别人有彼此关怀、互相信任的关系。",
+      "type": "radio",
+      "orderNum": 18,
+      "options": [
+        {
+          "text": "很不同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "不同意",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "有点不同意",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "有点同意",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "同意",
+          "value": "5",
+          "optionNo": "E"
+        },
+        {
+          "text": "非常同意",
+          "value": "6",
+          "optionNo": "F"
+        }
+      ]
+    },
+    {
+      "text": "我很在意别人怎样评价我在生活中做出的选择。",
+      "type": "radio",
+      "orderNum": 19,
+      "options": [
+        {
+          "text": "很不同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "不同意",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "有点不同意",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "有点同意",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "同意",
+          "value": "5",
+          "optionNo": "E"
+        },
+        {
+          "text": "非常同意",
+          "value": "6",
+          "optionNo": "F"
+        }
+      ]
+    },
+    {
+      "text": "我对于日常生活中许多职责都处理得很好。",
+      "type": "radio",
+      "orderNum": 20,
+      "options": [
+        {
+          "text": "非常同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "同意",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "有点同意",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "有点不同意",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "不同意",
+          "value": "5",
+          "optionNo": "E"
+        },
+        {
+          "text": "很不同意",
+          "value": "6",
+          "optionNo": "F"
+        }
+      ]
+    },
+    {
+      "text": "我不是按别人的标准，而是按自己认为重要的标准来衡量自己。",
+      "type": "radio",
+      "orderNum": 21,
+      "options": [
+        {
+          "text": "非常同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "同意",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "有点同意",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "有点不同意",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "不同意",
+          "value": "5",
+          "optionNo": "E"
+        },
+        {
+          "text": "很不同意",
+          "value": "6",
+          "optionNo": "F"
+        }
+      ]
+    },
+    {
+      "text": "我很难融入周围的人及环境。",
+      "type": "radio",
+      "orderNum": 22,
+      "options": [
+        {
+          "text": "很不同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "不同意",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "有点不同意",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "有点同意",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "同意",
+          "value": "5",
+          "optionNo": "E"
+        },
+        {
+          "text": "非常同意",
+          "value": "6",
+          "optionNo": "F"
+        }
+      ]
+    },
+    {
+      "text": "我对于生活有明确的目标和方向。",
+      "type": "radio",
+      "orderNum": 23,
+      "options": [
+        {
+          "text": "非常同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "同意",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "有点同意",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "有点不同意",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "不同意",
+          "value": "5",
+          "optionNo": "E"
+        },
+        {
+          "text": "很不同意",
+          "value": "6",
+          "optionNo": "F"
+        }
+      ]
+    },
+    {
+      "text": "我很容易被那些很有主见的人影响。",
+      "type": "radio",
+      "orderNum": 24,
+      "options": [
+        {
+          "text": "很不同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "不同意",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "有点不同意",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "有点同意",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "同意",
+          "value": "5",
+          "optionNo": "E"
+        },
+        {
+          "text": "非常同意",
+          "value": "6",
+          "optionNo": "F"
+        }
+      ]
+    },
+    {
+      "text": "我不喜欢那些需要我改变以往处事方式的新环境。",
+      "type": "radio",
+      "orderNum": 25,
+      "options": [
+        {
+          "text": "很不同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "不同意",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "有点不同意",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "有点同意",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "同意",
+          "value": "5",
+          "optionNo": "E"
+        },
+        {
+          "text": "非常同意",
+          "value": "6",
+          "optionNo": "F"
+        }
+      ]
+    },
+    {
+      "text": "总的来说，我对自己是肯定的，并对自己充满信心。",
+      "type": "radio",
+      "orderNum": 26,
+      "options": [
+        {
+          "text": "非常同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "同意",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "有点同意",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "有点不同意",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "不同意",
+          "value": "5",
+          "optionNo": "E"
+        },
+        {
+          "text": "很不同意",
+          "value": "6",
+          "optionNo": "F"
+        }
+      ]
+    },
+    {
+      "text": "我和我的朋友都认为我们之间是可以互相信任的。",
+      "type": "radio",
+      "orderNum": 27,
+      "options": [
+        {
+          "text": "非常同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "同意",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "有点同意",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "有点不同意",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "不同意",
+          "value": "5",
+          "optionNo": "E"
+        },
+        {
+          "text": "很不同意",
+          "value": "6",
+          "optionNo": "F"
+        }
+      ]
+    },
+    {
+      "text": "回顾过去，我觉得自己并没有真正的取得进步。",
+      "type": "radio",
+      "orderNum": 28,
+      "options": [
+        {
+          "text": "很不同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "不同意",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "有点不同意",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "有点同意",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "同意",
+          "value": "5",
+          "optionNo": "E"
+        },
+        {
+          "text": "非常同意",
+          "value": "6",
+          "optionNo": "F"
+        }
+      ]
+    },
+    {
+      "text": "有些人生活没有目标，但我不是这样的人。",
+      "type": "radio",
+      "orderNum": 29,
+      "options": [
+        {
+          "text": "非常同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "同意",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "有点同意",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "有点不同意",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "不同意",
+          "value": "5",
+          "optionNo": "E"
+        },
+        {
+          "text": "很不同意",
+          "value": "6",
+          "optionNo": "F"
+        }
+      ]
+    },
+    {
+      "text": "我经常感到孤独，因为我很少有好朋友可以为我分忧。",
+      "type": "radio",
+      "orderNum": 30,
+      "options": [
+        {
+          "text": "很不同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "不同意",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "有点不同意",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "有点同意",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "同意",
+          "value": "5",
+          "optionNo": "E"
+        },
+        {
+          "text": "非常同意",
+          "value": "6",
+          "optionNo": "F"
+        }
+      ]
+    },
+    {
+      "text": "当我把自己和朋友、熟人相比时，我的自我感觉良好。",
+      "type": "radio",
+      "orderNum": 31,
+      "options": [
+        {
+          "text": "非常同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "同意",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "有点同意",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "有点不同意",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "不同意",
+          "value": "5",
+          "optionNo": "E"
+        },
+        {
+          "text": "很不同意",
+          "value": "6",
+          "optionNo": "F"
+        }
+      ]
+    },
+    {
+      "text": "我不太清楚自己的人生目标是什么。",
+      "type": "radio",
+      "orderNum": 32,
+      "options": [
+        {
+          "text": "很不同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "不同意",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "有点不同意",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "有点同意",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "同意",
+          "value": "5",
+          "optionNo": "E"
+        },
+        {
+          "text": "非常同意",
+          "value": "6",
+          "optionNo": "F"
+        }
+      ]
+    },
+    {
+      "text": "有时我感到已经做完了一生中所有要做的事情。",
+      "type": "radio",
+      "orderNum": 33,
+      "options": [
+        {
+          "text": "很不同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "不同意",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "有点不同意",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "有点同意",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "同意",
+          "value": "5",
+          "optionNo": "E"
+        },
+        {
+          "text": "非常同意",
+          "value": "6",
+          "optionNo": "F"
+        }
+      ]
+    },
+    {
+      "text": "我觉得我认识的许多人在生活中得到的比我多。",
+      "type": "radio",
+      "orderNum": 34,
+      "options": [
+        {
+          "text": "很不同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "不同意",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "有点不同意",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "有点同意",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "同意",
+          "value": "5",
+          "optionNo": "E"
+        },
+        {
+          "text": "非常同意",
+          "value": "6",
+          "optionNo": "F"
+        }
+      ]
+    },
+    {
+      "text": "即使与人们的观点相悖，我仍然坚信自己的观点。",
+      "type": "radio",
+      "orderNum": 35,
+      "options": [
+        {
+          "text": "非常同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "同意",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "有点同意",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "有点不同意",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "不同意",
+          "value": "5",
+          "optionNo": "E"
+        },
+        {
+          "text": "很不同意",
+          "value": "6",
+          "optionNo": "F"
+        }
+      ]
+    },
+    {
+      "text": "我已按照自己喜欢的方式营建家庭和生活方式。",
+      "type": "radio",
+      "orderNum": 36,
+      "options": [
+        {
+          "text": "非常同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "同意",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "有点同意",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "有点不同意",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "不同意",
+          "value": "5",
+          "optionNo": "E"
+        },
+        {
+          "text": "很不同意",
+          "value": "6",
+          "optionNo": "F"
+        }
+      ]
+    },
+    {
+      "text": "随着时间的流逝，我感到自己成长了很多。",
+      "type": "radio",
+      "orderNum": 37,
+      "options": [
+        {
+          "text": "非常同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "同意",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "有点同意",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "有点不同意",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "不同意",
+          "value": "5",
+          "optionNo": "E"
+        },
+        {
+          "text": "很不同意",
+          "value": "6",
+          "optionNo": "F"
+        }
+      ]
+    },
+    {
+      "text": "我很喜欢与家人或朋友作深入的沟通，彼此了解。",
+      "type": "radio",
+      "orderNum": 38,
+      "options": [
+        {
+          "text": "非常同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "同意",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "有点同意",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "有点不同意",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "不同意",
+          "value": "5",
+          "optionNo": "E"
+        },
+        {
+          "text": "很不同意",
+          "value": "6",
+          "optionNo": "F"
+        }
+      ]
+    },
+    {
+      "text": "我的日常活动看起来既琐碎又微不足道。",
+      "type": "radio",
+      "orderNum": 39,
+      "options": [
+        {
+          "text": "很不同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "不同意",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "有点不同意",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "有点同意",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "同意",
+          "value": "5",
+          "optionNo": "E"
+        },
+        {
+          "text": "非常同意",
+          "value": "6",
+          "optionNo": "F"
+        }
+      ]
+    },
+    {
+      "text": "我对自己的性格大致感到满意。",
+      "type": "radio",
+      "orderNum": 40,
+      "options": [
+        {
+          "text": "非常同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "同意",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "有点同意",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "有点不同意",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "不同意",
+          "value": "5",
+          "optionNo": "E"
+        },
+        {
+          "text": "很不同意",
+          "value": "6",
+          "optionNo": "F"
+        }
+      ]
+    },
+    {
+      "text": "对我来说很难在有争议的问题上发表自己的见解。",
+      "type": "radio",
+      "orderNum": 41,
+      "options": [
+        {
+          "text": "很不同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "不同意",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "有点不同意",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "有点同意",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "同意",
+          "value": "5",
+          "optionNo": "E"
+        },
+        {
+          "text": "非常同意",
+          "value": "6",
+          "optionNo": "F"
+        }
+      ]
+    },
+    {
+      "text": "我常常被自己所承担的责任压得喘不过气来。",
+      "type": "radio",
+      "orderNum": 42,
+      "options": [
+        {
+          "text": "很不同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "不同意",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "有点不同意",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "有点同意",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "同意",
+          "value": "5",
+          "optionNo": "E"
+        },
+        {
+          "text": "非常同意",
+          "value": "6",
+          "optionNo": "F"
+        }
+      ]
+    }
+  ],
+  "dimensions": [
+    {
+      "dimensionName": "自主",
+      "dimensionCode": "autonomy",
+      "num": 1,
+      "evaluateExpression": "(hx_t_1 + hx_t_10 + hx_t_13 + hx_t_16 + hx_t_19 + hx_t_21 + hx_t_24) / 7",
+      "standardScoreFormula": "",
+      "results": [
+        {
+          "evaluateExpression": "hx_wd_y_1 <= 2.5",
+          "conclusionAnalysis": "低",
+          "suggestion": "该维度得分较低，说明您在该方面的心理幸福感有待提升。建议关注自身需求，寻求积极的改变。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_1 > 2.5 && hx_wd_y_1 <= 4.5",
+          "conclusionAnalysis": "中",
+          "suggestion": "该维度得分中等，说明您在该方面的心理幸福感处于一般水平。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_1 > 4.5",
+          "conclusionAnalysis": "高",
+          "suggestion": "该维度得分较高，说明您在该方面具有较好的心理幸福感。",
+          "assessmentWarning": "none"
+        }
+      ]
+    },
+    {
+      "dimensionName": "环境掌控",
+      "dimensionCode": "env_mastery",
+      "num": 2,
+      "evaluateExpression": "(hx_t_3 + hx_t_12 + hx_t_15 + hx_t_20 + hx_t_22 + hx_t_25 + hx_t_42) / 7",
+      "standardScoreFormula": "",
+      "results": [
+        {
+          "evaluateExpression": "hx_wd_y_2 <= 2.5",
+          "conclusionAnalysis": "低",
+          "suggestion": "该维度得分较低，说明您在该方面的心理幸福感有待提升。建议关注自身需求，寻求积极的改变。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_2 > 2.5 && hx_wd_y_2 <= 4.5",
+          "conclusionAnalysis": "中",
+          "suggestion": "该维度得分中等，说明您在该方面的心理幸福感处于一般水平。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_2 > 4.5",
+          "conclusionAnalysis": "高",
+          "suggestion": "该维度得分较高，说明您在该方面具有较好的心理幸福感。",
+          "assessmentWarning": "none"
+        }
+      ]
+    },
+    {
+      "dimensionName": "个人成长",
+      "dimensionCode": "personal_growth",
+      "num": 3,
+      "evaluateExpression": "(hx_t_2 + hx_t_5 + hx_t_7 + hx_t_14 + hx_t_17 + hx_t_28 + hx_t_37) / 7",
+      "standardScoreFormula": "",
+      "results": [
+        {
+          "evaluateExpression": "hx_wd_y_3 <= 2.5",
+          "conclusionAnalysis": "低",
+          "suggestion": "该维度得分较低，说明您在该方面的心理幸福感有待提升。建议关注自身需求，寻求积极的改变。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_3 > 2.5 && hx_wd_y_3 <= 4.5",
+          "conclusionAnalysis": "中",
+          "suggestion": "该维度得分中等，说明您在该方面的心理幸福感处于一般水平。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_3 > 4.5",
+          "conclusionAnalysis": "高",
+          "suggestion": "该维度得分较高，说明您在该方面具有较好的心理幸福感。",
+          "assessmentWarning": "none"
+        }
+      ]
+    },
+    {
+      "dimensionName": "积极关系",
+      "dimensionCode": "positive_relations",
+      "num": 4,
+      "evaluateExpression": "(hx_t_4 + hx_t_8 + hx_t_18 + hx_t_27 + hx_t_30 + hx_t_38) / 6",
+      "standardScoreFormula": "",
+      "results": [
+        {
+          "evaluateExpression": "hx_wd_y_4 <= 2.5",
+          "conclusionAnalysis": "低",
+          "suggestion": "该维度得分较低，说明您在该方面的心理幸福感有待提升。建议关注自身需求，寻求积极的改变。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_4 > 2.5 && hx_wd_y_4 <= 4.5",
+          "conclusionAnalysis": "中",
+          "suggestion": "该维度得分中等，说明您在该方面的心理幸福感处于一般水平。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_4 > 4.5",
+          "conclusionAnalysis": "高",
+          "suggestion": "该维度得分较高，说明您在该方面具有较好的心理幸福感。",
+          "assessmentWarning": "none"
+        }
+      ]
+    },
+    {
+      "dimensionName": "生活目的",
+      "dimensionCode": "purpose_life",
+      "num": 5,
+      "evaluateExpression": "(hx_t_6 + hx_t_9 + hx_t_11 + hx_t_23 + hx_t_29 + hx_t_32 + hx_t_33 + hx_t_39) / 8",
+      "standardScoreFormula": "",
+      "results": [
+        {
+          "evaluateExpression": "hx_wd_y_5 <= 2.5",
+          "conclusionAnalysis": "低",
+          "suggestion": "该维度得分较低，说明您在该方面的心理幸福感有待提升。建议关注自身需求，寻求积极的改变。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_5 > 2.5 && hx_wd_y_5 <= 4.5",
+          "conclusionAnalysis": "中",
+          "suggestion": "该维度得分中等，说明您在该方面的心理幸福感处于一般水平。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_5 > 4.5",
+          "conclusionAnalysis": "高",
+          "suggestion": "该维度得分较高，说明您在该方面具有较好的心理幸福感。",
+          "assessmentWarning": "none"
+        }
+      ]
+    },
+    {
+      "dimensionName": "自我接纳",
+      "dimensionCode": "self_acceptance",
+      "num": 6,
+      "evaluateExpression": "(hx_t_26 + hx_t_31 + hx_t_34 + hx_t_35 + hx_t_36 + hx_t_40 + hx_t_41) / 7",
+      "standardScoreFormula": "",
+      "results": [
+        {
+          "evaluateExpression": "hx_wd_y_6 <= 2.5",
+          "conclusionAnalysis": "低",
+          "suggestion": "该维度得分较低，说明您在该方面的心理幸福感有待提升。建议关注自身需求，寻求积极的改变。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_6 > 2.5 && hx_wd_y_6 <= 4.5",
+          "conclusionAnalysis": "中",
+          "suggestion": "该维度得分中等，说明您在该方面的心理幸福感处于一般水平。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_6 > 4.5",
+          "conclusionAnalysis": "高",
+          "suggestion": "该维度得分较高，说明您在该方面具有较好的心理幸福感。",
+          "assessmentWarning": "none"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,320 @@
+{
+  "id": 118,
+  "title": "暴力倾向测验",
+  "type": "basic",
+  "questions": [
+    {
+      "id": 2669,
+      "text": "有时我有一种强烈的冲动，想去做有害的或惊人的事情",
+      "type": "radio",
+      "orderNum": 1,
+      "options": [
+        {
+          "id": 10677,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 10678,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2670,
+      "text": "有时我仿佛觉得我必须伤害自己或他人",
+      "type": "radio",
+      "orderNum": 2,
+      "options": [
+        {
+          "id": 10679,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 10680,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2671,
+      "text": "看到小动物受折磨我并不难受",
+      "type": "radio",
+      "orderNum": 3,
+      "options": [
+        {
+          "id": 10681,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 10682,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2672,
+      "text": "我没有真正想伤害我的仇人",
+      "type": "radio",
+      "orderNum": 4,
+      "options": [
+        {
+          "id": 10683,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 10684,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2673,
+      "text": "我能很容易让别人害怕我",
+      "type": "radio",
+      "orderNum": 5,
+      "options": [
+        {
+          "id": 10685,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 10686,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2674,
+      "text": "我喜欢看含有暴力内容的新闻、电视或电影",
+      "type": "radio",
+      "orderNum": 6,
+      "options": [
+        {
+          "id": 10687,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 10688,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2675,
+      "text": "别人得罪了我，我觉得只要有可能就应该报复他们，这是处理事情的原则",
+      "type": "radio",
+      "orderNum": 7,
+      "options": [
+        {
+          "id": 10689,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 10690,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2676,
+      "text": "看到血腥场面时，我既不怕也不难受",
+      "type": "radio",
+      "orderNum": 8,
+      "options": [
+        {
+          "id": 10691,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 10692,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2677,
+      "text": "有时我想和别人打架",
+      "type": "radio",
+      "orderNum": 9,
+      "options": [
+        {
+          "id": 10693,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 10694,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2678,
+      "text": "我有过在意识清醒的状态下，行动或言语失控的情况",
+      "type": "radio",
+      "orderNum": 10,
+      "options": [
+        {
+          "id": 10695,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 10696,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2679,
+      "text": "我通常很镇静，不容易激动",
+      "type": "radio",
+      "orderNum": 11,
+      "options": [
+        {
+          "id": 10697,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 10698,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2680,
+      "text": "排队时如果有人插到我前面，我会感到恼火并且指责他",
+      "type": "radio",
+      "orderNum": 12,
+      "options": [
+        {
+          "id": 10699,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 10700,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2681,
+      "text": "有时我会用不客气的态度对付那些粗鲁或令人厌恶的人",
+      "type": "radio",
+      "orderNum": 13,
+      "options": [
+        {
+          "id": 10701,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 10702,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2682,
+      "text": "火对我有一种吸引力",
+      "type": "radio",
+      "orderNum": 14,
+      "options": [
+        {
+          "id": 10703,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 10704,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    }
+  ],
+  "dimensions": [
+    {
+      "id": 324,
+      "num": 1,
+      "dimensionName": "暴力倾向",
+      "dimensionCode": "VIO",
+      "evaluateExpression": "hx_t_1 + hx_t_2 + hx_t_3 + hx_t_4 + hx_t_5 + hx_t_6 + hx_t_7 + hx_t_8 + hx_t_9 + hx_t_10 + hx_t_11 + hx_t_12 + hx_t_13 + hx_t_14",
+      "standardScoreFormula": "0",
+      "results": [
+        {
+          "id": 646,
+          "evaluateExpression": "hx_wd_y_1 >= 0&& hx_wd_y_1 <= 5",
+          "conclusionAnalysis": "未见暴力倾向",
+          "suggestion": "无",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 647,
+          "evaluateExpression": "hx_wd_y_1 >= 6&& hx_wd_y_1 <= 10",
+          "conclusionAnalysis": "可能存在一定的暴力倾向。",
+          "suggestion": "需要积极地自我调整，尤其是学会控制情绪。当遇到挫折或者当要发脾气的时候，可以通过在心里默数10个数等方式让自己变得冷静。",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 648,
+          "evaluateExpression": "hx_wd_y_1 >= 11&& hx_wd_y_1 <= 14",
+          "conclusionAnalysis": "可能存在较重的暴力倾向。",
+          "suggestion": "（1）进行合理地宣泄，去静坐冥想瑜伽或运动，让自己慢下来，让生活归于平静。\n（2）追根溯源，找到出现暴力的原因，通过换位思考改变自己的思维状态。\n（3）寻找专业帮助：难以自我调整的时候，通过专业心理咨询师调整自己的状",
+          "assessmentWarning": "high"
+        }
+      ]
+    }
+  ]
+}

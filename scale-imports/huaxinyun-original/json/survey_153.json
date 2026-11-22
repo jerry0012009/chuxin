@@ -1,0 +1,2784 @@
+{
+  "id": 153,
+  "title": "中学生心理健康量表(MSSMHS)",
+  "type": "basic",
+  "questions": [
+    {
+      "id": 4950,
+      "text": "我不喜欢参加学校的课外活动。",
+      "type": "radio",
+      "orderNum": 1,
+      "options": [
+        {
+          "id": 17975,
+          "optionNo": "A",
+          "text": "A、从无",
+          "value": "1"
+        },
+        {
+          "id": 17976,
+          "optionNo": "B",
+          "text": "B、轻度",
+          "value": "2"
+        },
+        {
+          "id": 17977,
+          "optionNo": "C",
+          "text": "C、中度",
+          "value": "3"
+        },
+        {
+          "id": 17978,
+          "optionNo": "D",
+          "text": "D、偏重",
+          "value": "4"
+        },
+        {
+          "id": 17979,
+          "optionNo": "E",
+          "text": "E、严重",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 4951,
+      "text": "我的心情时好时坏。",
+      "type": "radio",
+      "orderNum": 2,
+      "options": [
+        {
+          "id": 17980,
+          "optionNo": "A",
+          "text": "A、从无",
+          "value": "1"
+        },
+        {
+          "id": 17981,
+          "optionNo": "B",
+          "text": "B、轻度",
+          "value": "2"
+        },
+        {
+          "id": 17982,
+          "optionNo": "C",
+          "text": "C、中度",
+          "value": "3"
+        },
+        {
+          "id": 17983,
+          "optionNo": "D",
+          "text": "D、偏重",
+          "value": "4"
+        },
+        {
+          "id": 17984,
+          "optionNo": "E",
+          "text": "E、严重",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 4952,
+      "text": "做作业必须反复检查。",
+      "type": "radio",
+      "orderNum": 3,
+      "options": [
+        {
+          "id": 17985,
+          "optionNo": "A",
+          "text": "A、从无",
+          "value": "1"
+        },
+        {
+          "id": 17986,
+          "optionNo": "B",
+          "text": "B、轻度",
+          "value": "2"
+        },
+        {
+          "id": 17987,
+          "optionNo": "C",
+          "text": "C、中度",
+          "value": "3"
+        },
+        {
+          "id": 17988,
+          "optionNo": "D",
+          "text": "D、偏重",
+          "value": "4"
+        },
+        {
+          "id": 17989,
+          "optionNo": "E",
+          "text": "E、严重",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 4953,
+      "text": "感到人们对我不友好，不喜欢我。",
+      "type": "radio",
+      "orderNum": 4,
+      "options": [
+        {
+          "id": 17990,
+          "optionNo": "A",
+          "text": "A、从无",
+          "value": "1"
+        },
+        {
+          "id": 17991,
+          "optionNo": "B",
+          "text": "B、轻度",
+          "value": "2"
+        },
+        {
+          "id": 17992,
+          "optionNo": "C",
+          "text": "C、中度",
+          "value": "3"
+        },
+        {
+          "id": 17993,
+          "optionNo": "D",
+          "text": "D、偏重",
+          "value": "4"
+        },
+        {
+          "id": 17994,
+          "optionNo": "E",
+          "text": "E、严重",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 4954,
+      "text": "我感到苦闷。",
+      "type": "radio",
+      "orderNum": 5,
+      "options": [
+        {
+          "id": 17995,
+          "optionNo": "A",
+          "text": "A、从无",
+          "value": "1"
+        },
+        {
+          "id": 17996,
+          "optionNo": "B",
+          "text": "B、轻度",
+          "value": "2"
+        },
+        {
+          "id": 17997,
+          "optionNo": "C",
+          "text": "C、中度",
+          "value": "3"
+        },
+        {
+          "id": 17998,
+          "optionNo": "D",
+          "text": "D、偏重",
+          "value": "4"
+        },
+        {
+          "id": 17999,
+          "optionNo": "E",
+          "text": "E、严重",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 4955,
+      "text": "我感到紧张或容易紧张。",
+      "type": "radio",
+      "orderNum": 6,
+      "options": [
+        {
+          "id": 18000,
+          "optionNo": "A",
+          "text": "A、从无",
+          "value": "1"
+        },
+        {
+          "id": 18001,
+          "optionNo": "B",
+          "text": "B、轻度",
+          "value": "2"
+        },
+        {
+          "id": 18002,
+          "optionNo": "C",
+          "text": "C、中度",
+          "value": "3"
+        },
+        {
+          "id": 18003,
+          "optionNo": "D",
+          "text": "D、偏重",
+          "value": "4"
+        },
+        {
+          "id": 18004,
+          "optionNo": "E",
+          "text": "E、严重",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 4956,
+      "text": "我的学习劲头时高时低。",
+      "type": "radio",
+      "orderNum": 7,
+      "options": [
+        {
+          "id": 18005,
+          "optionNo": "A",
+          "text": "A、从无",
+          "value": "1"
+        },
+        {
+          "id": 18006,
+          "optionNo": "B",
+          "text": "B、轻度",
+          "value": "2"
+        },
+        {
+          "id": 18007,
+          "optionNo": "C",
+          "text": "C、中度",
+          "value": "3"
+        },
+        {
+          "id": 18008,
+          "optionNo": "D",
+          "text": "D、偏重",
+          "value": "4"
+        },
+        {
+          "id": 18009,
+          "optionNo": "E",
+          "text": "E、严重",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 4957,
+      "text": "我对现在的学校生活感到不适应。",
+      "type": "radio",
+      "orderNum": 8,
+      "options": [
+        {
+          "id": 18010,
+          "optionNo": "A",
+          "text": "A、从无",
+          "value": "1"
+        },
+        {
+          "id": 18011,
+          "optionNo": "B",
+          "text": "B、轻度",
+          "value": "2"
+        },
+        {
+          "id": 18012,
+          "optionNo": "C",
+          "text": "C、中度",
+          "value": "3"
+        },
+        {
+          "id": 18013,
+          "optionNo": "D",
+          "text": "D、偏重",
+          "value": "4"
+        },
+        {
+          "id": 18014,
+          "optionNo": "E",
+          "text": "E、严重",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 4958,
+      "text": "我看不惯现在的社会风气。",
+      "type": "radio",
+      "orderNum": 9,
+      "options": [
+        {
+          "id": 18015,
+          "optionNo": "A",
+          "text": "A、从无",
+          "value": "1"
+        },
+        {
+          "id": 18016,
+          "optionNo": "B",
+          "text": "B、轻度",
+          "value": "2"
+        },
+        {
+          "id": 18017,
+          "optionNo": "C",
+          "text": "C、中度",
+          "value": "3"
+        },
+        {
+          "id": 18018,
+          "optionNo": "D",
+          "text": "D、偏重",
+          "value": "4"
+        },
+        {
+          "id": 18019,
+          "optionNo": "E",
+          "text": "E、严重",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 4959,
+      "text": "为确保准确，做事必须做得很慢 。",
+      "type": "radio",
+      "orderNum": 10,
+      "options": [
+        {
+          "id": 18020,
+          "optionNo": "A",
+          "text": "A、从无",
+          "value": "1"
+        },
+        {
+          "id": 18021,
+          "optionNo": "B",
+          "text": "B、轻度",
+          "value": "2"
+        },
+        {
+          "id": 18022,
+          "optionNo": "C",
+          "text": "C、中度",
+          "value": "3"
+        },
+        {
+          "id": 18023,
+          "optionNo": "D",
+          "text": "D、偏重",
+          "value": "4"
+        },
+        {
+          "id": 18024,
+          "optionNo": "E",
+          "text": "E、严重",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 4960,
+      "text": "我的想法总与别人不一样。",
+      "type": "radio",
+      "orderNum": 11,
+      "options": [
+        {
+          "id": 18025,
+          "optionNo": "A",
+          "text": "A、从无",
+          "value": "1"
+        },
+        {
+          "id": 18026,
+          "optionNo": "B",
+          "text": "B、轻度",
+          "value": "2"
+        },
+        {
+          "id": 18027,
+          "optionNo": "C",
+          "text": "C、中度",
+          "value": "3"
+        },
+        {
+          "id": 18028,
+          "optionNo": "D",
+          "text": "D、偏重",
+          "value": "4"
+        },
+        {
+          "id": 18029,
+          "optionNo": "E",
+          "text": "E、严重",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 4961,
+      "text": "总担心自己的衣服是否整齐。",
+      "type": "radio",
+      "orderNum": 12,
+      "options": [
+        {
+          "id": 18030,
+          "optionNo": "A",
+          "text": "A、从无",
+          "value": "1"
+        },
+        {
+          "id": 18031,
+          "optionNo": "B",
+          "text": "B、轻度",
+          "value": "2"
+        },
+        {
+          "id": 18032,
+          "optionNo": "C",
+          "text": "C、中度",
+          "value": "3"
+        },
+        {
+          "id": 18033,
+          "optionNo": "D",
+          "text": "D、偏重",
+          "value": "4"
+        },
+        {
+          "id": 18034,
+          "optionNo": "E",
+          "text": "E、严重",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 4962,
+      "text": "容易哭泣。",
+      "type": "radio",
+      "orderNum": 13,
+      "options": [
+        {
+          "id": 18035,
+          "optionNo": "A",
+          "text": "A、从无",
+          "value": "1"
+        },
+        {
+          "id": 18036,
+          "optionNo": "B",
+          "text": "B、轻度",
+          "value": "2"
+        },
+        {
+          "id": 18037,
+          "optionNo": "C",
+          "text": "C、中度",
+          "value": "3"
+        },
+        {
+          "id": 18038,
+          "optionNo": "D",
+          "text": "D、偏重",
+          "value": "4"
+        },
+        {
+          "id": 18039,
+          "optionNo": "E",
+          "text": "E、严重",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 4963,
+      "text": "我感到前途没有希望。",
+      "type": "radio",
+      "orderNum": 14,
+      "options": [
+        {
+          "id": 18040,
+          "optionNo": "A",
+          "text": "A、从无",
+          "value": "1"
+        },
+        {
+          "id": 18041,
+          "optionNo": "B",
+          "text": "B、轻度",
+          "value": "2"
+        },
+        {
+          "id": 18042,
+          "optionNo": "C",
+          "text": "C、中度",
+          "value": "3"
+        },
+        {
+          "id": 18043,
+          "optionNo": "D",
+          "text": "D、偏重",
+          "value": "4"
+        },
+        {
+          "id": 18044,
+          "optionNo": "E",
+          "text": "E、严重",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 4964,
+      "text": "我感到坐立不安，心神不定。",
+      "type": "radio",
+      "orderNum": 15,
+      "options": [
+        {
+          "id": 18045,
+          "optionNo": "A",
+          "text": "A、从无",
+          "value": "1"
+        },
+        {
+          "id": 18046,
+          "optionNo": "B",
+          "text": "B、轻度",
+          "value": "2"
+        },
+        {
+          "id": 18047,
+          "optionNo": "C",
+          "text": "C、中度",
+          "value": "3"
+        },
+        {
+          "id": 18048,
+          "optionNo": "D",
+          "text": "D、偏重",
+          "value": "4"
+        },
+        {
+          "id": 18049,
+          "optionNo": "E",
+          "text": "E、严重",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 4965,
+      "text": "经常责怪自己。",
+      "type": "radio",
+      "orderNum": 16,
+      "options": [
+        {
+          "id": 18050,
+          "optionNo": "A",
+          "text": "A、从无",
+          "value": "1"
+        },
+        {
+          "id": 18051,
+          "optionNo": "B",
+          "text": "B、轻度",
+          "value": "2"
+        },
+        {
+          "id": 18052,
+          "optionNo": "C",
+          "text": "C、中度",
+          "value": "3"
+        },
+        {
+          "id": 18053,
+          "optionNo": "D",
+          "text": "D、偏重",
+          "value": "4"
+        },
+        {
+          "id": 18054,
+          "optionNo": "E",
+          "text": "E、严重",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 4966,
+      "text": "当别人看着我或议论我时，感到不自在。",
+      "type": "radio",
+      "orderNum": 17,
+      "options": [
+        {
+          "id": 18055,
+          "optionNo": "A",
+          "text": "A、从无",
+          "value": "1"
+        },
+        {
+          "id": 18056,
+          "optionNo": "B",
+          "text": "B、轻度",
+          "value": "2"
+        },
+        {
+          "id": 18057,
+          "optionNo": "C",
+          "text": "C、中度",
+          "value": "3"
+        },
+        {
+          "id": 18058,
+          "optionNo": "D",
+          "text": "D、偏重",
+          "value": "4"
+        },
+        {
+          "id": 18059,
+          "optionNo": "E",
+          "text": "E、严重",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 4967,
+      "text": "感到别人不理解我，不同情我。",
+      "type": "radio",
+      "orderNum": 18,
+      "options": [
+        {
+          "id": 18060,
+          "optionNo": "A",
+          "text": "A、从无",
+          "value": "1"
+        },
+        {
+          "id": 18061,
+          "optionNo": "B",
+          "text": "B、轻度",
+          "value": "2"
+        },
+        {
+          "id": 18062,
+          "optionNo": "C",
+          "text": "C、中度",
+          "value": "3"
+        },
+        {
+          "id": 18063,
+          "optionNo": "D",
+          "text": "D、偏重",
+          "value": "4"
+        },
+        {
+          "id": 18064,
+          "optionNo": "E",
+          "text": "E、严重",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 4968,
+      "text": "我常发脾气，想控制但控制不住。",
+      "type": "radio",
+      "orderNum": 19,
+      "options": [
+        {
+          "id": 18065,
+          "optionNo": "A",
+          "text": "A、从无",
+          "value": "1"
+        },
+        {
+          "id": 18066,
+          "optionNo": "B",
+          "text": "B、轻度",
+          "value": "2"
+        },
+        {
+          "id": 18067,
+          "optionNo": "C",
+          "text": "C、中度",
+          "value": "3"
+        },
+        {
+          "id": 18068,
+          "optionNo": "D",
+          "text": "D、偏重",
+          "value": "4"
+        },
+        {
+          "id": 18069,
+          "optionNo": "E",
+          "text": "E、严重",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 4969,
+      "text": "觉得别人想占我的便宜。",
+      "type": "radio",
+      "orderNum": 20,
+      "options": [
+        {
+          "id": 18070,
+          "optionNo": "A",
+          "text": "A、从无",
+          "value": "1"
+        },
+        {
+          "id": 18071,
+          "optionNo": "B",
+          "text": "B、轻度",
+          "value": "2"
+        },
+        {
+          "id": 18072,
+          "optionNo": "C",
+          "text": "C、中度",
+          "value": "3"
+        },
+        {
+          "id": 18073,
+          "optionNo": "D",
+          "text": "D、偏重",
+          "value": "4"
+        },
+        {
+          "id": 18074,
+          "optionNo": "E",
+          "text": "E、严重",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 4970,
+      "text": "大叫或摔东西 。",
+      "type": "radio",
+      "orderNum": 21,
+      "options": [
+        {
+          "id": 18075,
+          "optionNo": "A",
+          "text": "A、从无",
+          "value": "1"
+        },
+        {
+          "id": 18076,
+          "optionNo": "B",
+          "text": "B、轻度",
+          "value": "2"
+        },
+        {
+          "id": 18077,
+          "optionNo": "C",
+          "text": "C、中度",
+          "value": "3"
+        },
+        {
+          "id": 18078,
+          "optionNo": "D",
+          "text": "D、偏重",
+          "value": "4"
+        },
+        {
+          "id": 18079,
+          "optionNo": "E",
+          "text": "E、严重",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 4971,
+      "text": "总在想一些不必要的事情。",
+      "type": "radio",
+      "orderNum": 22,
+      "options": [
+        {
+          "id": 18080,
+          "optionNo": "A",
+          "text": "A、从无",
+          "value": "1"
+        },
+        {
+          "id": 18081,
+          "optionNo": "B",
+          "text": "B、轻度",
+          "value": "2"
+        },
+        {
+          "id": 18082,
+          "optionNo": "C",
+          "text": "C、中度",
+          "value": "3"
+        },
+        {
+          "id": 18083,
+          "optionNo": "D",
+          "text": "D、偏重",
+          "value": "4"
+        },
+        {
+          "id": 18084,
+          "optionNo": "E",
+          "text": "E、严重",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 4972,
+      "text": "必须反复洗手或反复数数。",
+      "type": "radio",
+      "orderNum": 23,
+      "options": [
+        {
+          "id": 18085,
+          "optionNo": "A",
+          "text": "A、从无",
+          "value": "1"
+        },
+        {
+          "id": 18086,
+          "optionNo": "B",
+          "text": "B、轻度",
+          "value": "2"
+        },
+        {
+          "id": 18087,
+          "optionNo": "C",
+          "text": "C、中度",
+          "value": "3"
+        },
+        {
+          "id": 18088,
+          "optionNo": "D",
+          "text": "D、偏重",
+          "value": "4"
+        },
+        {
+          "id": 18089,
+          "optionNo": "E",
+          "text": "E、严重",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 4973,
+      "text": "我总感到有人在背后议论我。",
+      "type": "radio",
+      "orderNum": 24,
+      "options": [
+        {
+          "id": 18090,
+          "optionNo": "A",
+          "text": "A、从无",
+          "value": "1"
+        },
+        {
+          "id": 18091,
+          "optionNo": "B",
+          "text": "B、轻度",
+          "value": "2"
+        },
+        {
+          "id": 18092,
+          "optionNo": "C",
+          "text": "C、中度",
+          "value": "3"
+        },
+        {
+          "id": 18093,
+          "optionNo": "D",
+          "text": "D、偏重",
+          "value": "4"
+        },
+        {
+          "id": 18094,
+          "optionNo": "E",
+          "text": "E、严重",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 4974,
+      "text": "时常与人争论、抬杠。",
+      "type": "radio",
+      "orderNum": 25,
+      "options": [
+        {
+          "id": 18095,
+          "optionNo": "A",
+          "text": "A、从无",
+          "value": "1"
+        },
+        {
+          "id": 18096,
+          "optionNo": "B",
+          "text": "B、轻度",
+          "value": "2"
+        },
+        {
+          "id": 18097,
+          "optionNo": "C",
+          "text": "C、中度",
+          "value": "3"
+        },
+        {
+          "id": 18098,
+          "optionNo": "D",
+          "text": "D、偏重",
+          "value": "4"
+        },
+        {
+          "id": 18099,
+          "optionNo": "E",
+          "text": "E、严重",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 4975,
+      "text": "我觉得大多数人都不可信任。",
+      "type": "radio",
+      "orderNum": 26,
+      "options": [
+        {
+          "id": 18100,
+          "optionNo": "A",
+          "text": "A、从无",
+          "value": "1"
+        },
+        {
+          "id": 18101,
+          "optionNo": "B",
+          "text": "B、轻度",
+          "value": "2"
+        },
+        {
+          "id": 18102,
+          "optionNo": "C",
+          "text": "C、中度",
+          "value": "3"
+        },
+        {
+          "id": 18103,
+          "optionNo": "D",
+          "text": "D、偏重",
+          "value": "4"
+        },
+        {
+          "id": 18104,
+          "optionNo": "E",
+          "text": "E、严重",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 4976,
+      "text": "我对做作业的热情忽高忽低。",
+      "type": "radio",
+      "orderNum": 27,
+      "options": [
+        {
+          "id": 18105,
+          "optionNo": "A",
+          "text": "A、从无",
+          "value": "1"
+        },
+        {
+          "id": 18106,
+          "optionNo": "B",
+          "text": "B、轻度",
+          "value": "2"
+        },
+        {
+          "id": 18107,
+          "optionNo": "C",
+          "text": "C、中度",
+          "value": "3"
+        },
+        {
+          "id": 18108,
+          "optionNo": "D",
+          "text": "D、偏重",
+          "value": "4"
+        },
+        {
+          "id": 18109,
+          "optionNo": "E",
+          "text": "E、严重",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 4977,
+      "text": "同学考试成绩比我高，我感到难过。",
+      "type": "radio",
+      "orderNum": 28,
+      "options": [
+        {
+          "id": 18110,
+          "optionNo": "A",
+          "text": "A、从无",
+          "value": "1"
+        },
+        {
+          "id": 18111,
+          "optionNo": "B",
+          "text": "B、轻度",
+          "value": "2"
+        },
+        {
+          "id": 18112,
+          "optionNo": "C",
+          "text": "C、中度",
+          "value": "3"
+        },
+        {
+          "id": 18113,
+          "optionNo": "D",
+          "text": "D、偏重",
+          "value": "4"
+        },
+        {
+          "id": 18114,
+          "optionNo": "E",
+          "text": "E、严重",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 4978,
+      "text": "我不适应老师的教学方法。",
+      "type": "radio",
+      "orderNum": 29,
+      "options": [
+        {
+          "id": 18115,
+          "optionNo": "A",
+          "text": "A、从无",
+          "value": "1"
+        },
+        {
+          "id": 18116,
+          "optionNo": "B",
+          "text": "B、轻度",
+          "value": "2"
+        },
+        {
+          "id": 18117,
+          "optionNo": "C",
+          "text": "C、中度",
+          "value": "3"
+        },
+        {
+          "id": 18118,
+          "optionNo": "D",
+          "text": "D、偏重",
+          "value": "4"
+        },
+        {
+          "id": 18119,
+          "optionNo": "E",
+          "text": "E、严重",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 4979,
+      "text": "老师对我不公平。",
+      "type": "radio",
+      "orderNum": 30,
+      "options": [
+        {
+          "id": 18120,
+          "optionNo": "A",
+          "text": "A、从无",
+          "value": "1"
+        },
+        {
+          "id": 18121,
+          "optionNo": "B",
+          "text": "B、轻度",
+          "value": "2"
+        },
+        {
+          "id": 18122,
+          "optionNo": "C",
+          "text": "C、中度",
+          "value": "3"
+        },
+        {
+          "id": 18123,
+          "optionNo": "D",
+          "text": "D、偏重",
+          "value": "4"
+        },
+        {
+          "id": 18124,
+          "optionNo": "E",
+          "text": "E、严重",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 4980,
+      "text": "我感到学习负担很重。",
+      "type": "radio",
+      "orderNum": 31,
+      "options": [
+        {
+          "id": 18125,
+          "optionNo": "A",
+          "text": "A、从无",
+          "value": "1"
+        },
+        {
+          "id": 18126,
+          "optionNo": "B",
+          "text": "B、轻度",
+          "value": "2"
+        },
+        {
+          "id": 18127,
+          "optionNo": "C",
+          "text": "C、中度",
+          "value": "3"
+        },
+        {
+          "id": 18128,
+          "optionNo": "D",
+          "text": "D、偏重",
+          "value": "4"
+        },
+        {
+          "id": 18129,
+          "optionNo": "E",
+          "text": "E、严重",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 4981,
+      "text": "我对同学忽冷忽热。",
+      "type": "radio",
+      "orderNum": 32,
+      "options": [
+        {
+          "id": 18130,
+          "optionNo": "A",
+          "text": "A、从无",
+          "value": "1"
+        },
+        {
+          "id": 18131,
+          "optionNo": "B",
+          "text": "B、轻度",
+          "value": "2"
+        },
+        {
+          "id": 18132,
+          "optionNo": "C",
+          "text": "C、中度",
+          "value": "3"
+        },
+        {
+          "id": 18133,
+          "optionNo": "D",
+          "text": "D、偏重",
+          "value": "4"
+        },
+        {
+          "id": 18134,
+          "optionNo": "E",
+          "text": "E、严重",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 4982,
+      "text": "上课时，总担心老师会提问自己。",
+      "type": "radio",
+      "orderNum": 33,
+      "options": [
+        {
+          "id": 18135,
+          "optionNo": "A",
+          "text": "A、从无",
+          "value": "1"
+        },
+        {
+          "id": 18136,
+          "optionNo": "B",
+          "text": "B、轻度",
+          "value": "2"
+        },
+        {
+          "id": 18137,
+          "optionNo": "C",
+          "text": "C、中度",
+          "value": "3"
+        },
+        {
+          "id": 18138,
+          "optionNo": "D",
+          "text": "D、偏重",
+          "value": "4"
+        },
+        {
+          "id": 18139,
+          "optionNo": "E",
+          "text": "E、严重",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 4983,
+      "text": "我无缘无故地突然感到害怕。",
+      "type": "radio",
+      "orderNum": 34,
+      "options": [
+        {
+          "id": 18140,
+          "optionNo": "A",
+          "text": "A、从无",
+          "value": "1"
+        },
+        {
+          "id": 18141,
+          "optionNo": "B",
+          "text": "B、轻度",
+          "value": "2"
+        },
+        {
+          "id": 18142,
+          "optionNo": "C",
+          "text": "C、中度",
+          "value": "3"
+        },
+        {
+          "id": 18143,
+          "optionNo": "D",
+          "text": "D、偏重",
+          "value": "4"
+        },
+        {
+          "id": 18144,
+          "optionNo": "E",
+          "text": "E、严重",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 4984,
+      "text": "我对老师时而亲近，时而疏远。",
+      "type": "radio",
+      "orderNum": 35,
+      "options": [
+        {
+          "id": 18145,
+          "optionNo": "A",
+          "text": "A、从无",
+          "value": "1"
+        },
+        {
+          "id": 18146,
+          "optionNo": "B",
+          "text": "B、轻度",
+          "value": "2"
+        },
+        {
+          "id": 18147,
+          "optionNo": "C",
+          "text": "C、中度",
+          "value": "3"
+        },
+        {
+          "id": 18148,
+          "optionNo": "D",
+          "text": "D、偏重",
+          "value": "4"
+        },
+        {
+          "id": 18149,
+          "optionNo": "E",
+          "text": "E、严重",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 4985,
+      "text": "一听说要考试，心里就感到紧张。",
+      "type": "radio",
+      "orderNum": 36,
+      "options": [
+        {
+          "id": 18150,
+          "optionNo": "A",
+          "text": "A、从无",
+          "value": "1"
+        },
+        {
+          "id": 18151,
+          "optionNo": "B",
+          "text": "B、轻度",
+          "value": "2"
+        },
+        {
+          "id": 18152,
+          "optionNo": "C",
+          "text": "C、中度",
+          "value": "3"
+        },
+        {
+          "id": 18153,
+          "optionNo": "D",
+          "text": "D、偏重",
+          "value": "4"
+        },
+        {
+          "id": 18154,
+          "optionNo": "E",
+          "text": "E、严重",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 4986,
+      "text": "别的同学穿戴比我好、有钱，我感到不舒服。",
+      "type": "radio",
+      "orderNum": 37,
+      "options": [
+        {
+          "id": 18155,
+          "optionNo": "A",
+          "text": "A、从无",
+          "value": "1"
+        },
+        {
+          "id": 18156,
+          "optionNo": "B",
+          "text": "B、轻度",
+          "value": "2"
+        },
+        {
+          "id": 18157,
+          "optionNo": "C",
+          "text": "C、中度",
+          "value": "3"
+        },
+        {
+          "id": 18158,
+          "optionNo": "D",
+          "text": "D、偏重",
+          "value": "4"
+        },
+        {
+          "id": 18159,
+          "optionNo": "E",
+          "text": "E、严重",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 4987,
+      "text": "我讨厌做作业。",
+      "type": "radio",
+      "orderNum": 38,
+      "options": [
+        {
+          "id": 18160,
+          "optionNo": "A",
+          "text": "A、从无",
+          "value": "1"
+        },
+        {
+          "id": 18161,
+          "optionNo": "B",
+          "text": "B、轻度",
+          "value": "2"
+        },
+        {
+          "id": 18162,
+          "optionNo": "C",
+          "text": "C、中度",
+          "value": "3"
+        },
+        {
+          "id": 18163,
+          "optionNo": "D",
+          "text": "D、偏重",
+          "value": "4"
+        },
+        {
+          "id": 18164,
+          "optionNo": "E",
+          "text": "E、严重",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 4988,
+      "text": "家里的环境干扰我的学习。",
+      "type": "radio",
+      "orderNum": 39,
+      "options": [
+        {
+          "id": 18165,
+          "optionNo": "A",
+          "text": "A、从无",
+          "value": "1"
+        },
+        {
+          "id": 18166,
+          "optionNo": "B",
+          "text": "B、轻度",
+          "value": "2"
+        },
+        {
+          "id": 18167,
+          "optionNo": "C",
+          "text": "C、中度",
+          "value": "3"
+        },
+        {
+          "id": 18168,
+          "optionNo": "D",
+          "text": "D、偏重",
+          "value": "4"
+        },
+        {
+          "id": 18169,
+          "optionNo": "E",
+          "text": "E、严重",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 4989,
+      "text": "我讨厌上学。",
+      "type": "radio",
+      "orderNum": 40,
+      "options": [
+        {
+          "id": 18170,
+          "optionNo": "A",
+          "text": "A、从无",
+          "value": "1"
+        },
+        {
+          "id": 18171,
+          "optionNo": "B",
+          "text": "B、轻度",
+          "value": "2"
+        },
+        {
+          "id": 18172,
+          "optionNo": "C",
+          "text": "C、中度",
+          "value": "3"
+        },
+        {
+          "id": 18173,
+          "optionNo": "D",
+          "text": "D、偏重",
+          "value": "4"
+        },
+        {
+          "id": 18174,
+          "optionNo": "E",
+          "text": "E、严重",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 4990,
+      "text": "不喜欢班里的风气。",
+      "type": "radio",
+      "orderNum": 41,
+      "options": [
+        {
+          "id": 18175,
+          "optionNo": "A",
+          "text": "A、从无",
+          "value": "1"
+        },
+        {
+          "id": 18176,
+          "optionNo": "B",
+          "text": "B、轻度",
+          "value": "2"
+        },
+        {
+          "id": 18177,
+          "optionNo": "C",
+          "text": "C、中度",
+          "value": "3"
+        },
+        {
+          "id": 18178,
+          "optionNo": "D",
+          "text": "D、偏重",
+          "value": "4"
+        },
+        {
+          "id": 18179,
+          "optionNo": "E",
+          "text": "E、严重",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 4991,
+      "text": "父母对我不公平。",
+      "type": "radio",
+      "orderNum": 42,
+      "options": [
+        {
+          "id": 18180,
+          "optionNo": "A",
+          "text": "A、从无",
+          "value": "1"
+        },
+        {
+          "id": 18181,
+          "optionNo": "B",
+          "text": "B、轻度",
+          "value": "2"
+        },
+        {
+          "id": 18182,
+          "optionNo": "C",
+          "text": "C、中度",
+          "value": "3"
+        },
+        {
+          "id": 18183,
+          "optionNo": "D",
+          "text": "D、偏重",
+          "value": "4"
+        },
+        {
+          "id": 18184,
+          "optionNo": "E",
+          "text": "E、严重",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 4992,
+      "text": "感到心里烦躁。",
+      "type": "radio",
+      "orderNum": 43,
+      "options": [
+        {
+          "id": 18185,
+          "optionNo": "A",
+          "text": "A、从无",
+          "value": "1"
+        },
+        {
+          "id": 18186,
+          "optionNo": "B",
+          "text": "B、轻度",
+          "value": "2"
+        },
+        {
+          "id": 18187,
+          "optionNo": "C",
+          "text": "C、中度",
+          "value": "3"
+        },
+        {
+          "id": 18188,
+          "optionNo": "D",
+          "text": "D、偏重",
+          "value": "4"
+        },
+        {
+          "id": 18189,
+          "optionNo": "E",
+          "text": "E、严重",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 4993,
+      "text": "我常常无精打采，提不起劲来。",
+      "type": "radio",
+      "orderNum": 44,
+      "options": [
+        {
+          "id": 18190,
+          "optionNo": "A",
+          "text": "A、从无",
+          "value": "1"
+        },
+        {
+          "id": 18191,
+          "optionNo": "B",
+          "text": "B、轻度",
+          "value": "2"
+        },
+        {
+          "id": 18192,
+          "optionNo": "C",
+          "text": "C、中度",
+          "value": "3"
+        },
+        {
+          "id": 18193,
+          "optionNo": "D",
+          "text": "D、偏重",
+          "value": "4"
+        },
+        {
+          "id": 18194,
+          "optionNo": "E",
+          "text": "E、严重",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 4994,
+      "text": "我的感情容易受到别人的伤害。",
+      "type": "radio",
+      "orderNum": 45,
+      "options": [
+        {
+          "id": 18195,
+          "optionNo": "A",
+          "text": "A、从无",
+          "value": "1"
+        },
+        {
+          "id": 18196,
+          "optionNo": "B",
+          "text": "B、轻度",
+          "value": "2"
+        },
+        {
+          "id": 18197,
+          "optionNo": "C",
+          "text": "C、中度",
+          "value": "3"
+        },
+        {
+          "id": 18198,
+          "optionNo": "D",
+          "text": "D、偏重",
+          "value": "4"
+        },
+        {
+          "id": 18199,
+          "optionNo": "E",
+          "text": "E、严重",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 4995,
+      "text": "觉得心里不踏实。",
+      "type": "radio",
+      "orderNum": 46,
+      "options": [
+        {
+          "id": 18200,
+          "optionNo": "A",
+          "text": "A、从无",
+          "value": "1"
+        },
+        {
+          "id": 18201,
+          "optionNo": "B",
+          "text": "B、轻度",
+          "value": "2"
+        },
+        {
+          "id": 18202,
+          "optionNo": "C",
+          "text": "C、中度",
+          "value": "3"
+        },
+        {
+          "id": 18203,
+          "optionNo": "D",
+          "text": "D、偏重",
+          "value": "4"
+        },
+        {
+          "id": 18204,
+          "optionNo": "E",
+          "text": "E、严重",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 4996,
+      "text": "别人对我的表现评价不当。",
+      "type": "radio",
+      "orderNum": 47,
+      "options": [
+        {
+          "id": 18205,
+          "optionNo": "A",
+          "text": "A、从无",
+          "value": "1"
+        },
+        {
+          "id": 18206,
+          "optionNo": "B",
+          "text": "B、轻度",
+          "value": "2"
+        },
+        {
+          "id": 18207,
+          "optionNo": "C",
+          "text": "C、中度",
+          "value": "3"
+        },
+        {
+          "id": 18208,
+          "optionNo": "D",
+          "text": "D、偏重",
+          "value": "4"
+        },
+        {
+          "id": 18209,
+          "optionNo": "E",
+          "text": "E、严重",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 4997,
+      "text": "明知担心没用，但总害怕考不好。",
+      "type": "radio",
+      "orderNum": 48,
+      "options": [
+        {
+          "id": 18210,
+          "optionNo": "A",
+          "text": "A、从无",
+          "value": "1"
+        },
+        {
+          "id": 18211,
+          "optionNo": "B",
+          "text": "B、轻度",
+          "value": "2"
+        },
+        {
+          "id": 18212,
+          "optionNo": "C",
+          "text": "C、中度",
+          "value": "3"
+        },
+        {
+          "id": 18213,
+          "optionNo": "D",
+          "text": "D、偏重",
+          "value": "4"
+        },
+        {
+          "id": 18214,
+          "optionNo": "E",
+          "text": "E、严重",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 4998,
+      "text": "总觉得别人在跟我作对。",
+      "type": "radio",
+      "orderNum": 49,
+      "options": [
+        {
+          "id": 18215,
+          "optionNo": "A",
+          "text": "A、从无",
+          "value": "1"
+        },
+        {
+          "id": 18216,
+          "optionNo": "B",
+          "text": "B、轻度",
+          "value": "2"
+        },
+        {
+          "id": 18217,
+          "optionNo": "C",
+          "text": "C、中度",
+          "value": "3"
+        },
+        {
+          "id": 18218,
+          "optionNo": "D",
+          "text": "D、偏重",
+          "value": "4"
+        },
+        {
+          "id": 18219,
+          "optionNo": "E",
+          "text": "E、严重",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 4999,
+      "text": "我容易激动和烦恼。",
+      "type": "radio",
+      "orderNum": 50,
+      "options": [
+        {
+          "id": 18220,
+          "optionNo": "A",
+          "text": "A、从无",
+          "value": "1"
+        },
+        {
+          "id": 18221,
+          "optionNo": "B",
+          "text": "B、轻度",
+          "value": "2"
+        },
+        {
+          "id": 18222,
+          "optionNo": "C",
+          "text": "C、中度",
+          "value": "3"
+        },
+        {
+          "id": 18223,
+          "optionNo": "D",
+          "text": "D、偏重",
+          "value": "4"
+        },
+        {
+          "id": 18224,
+          "optionNo": "E",
+          "text": "E、严重",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 5000,
+      "text": "同异性在一起时，感到害羞不自在。",
+      "type": "radio",
+      "orderNum": 51,
+      "options": [
+        {
+          "id": 18225,
+          "optionNo": "A",
+          "text": "A、从无",
+          "value": "1"
+        },
+        {
+          "id": 18226,
+          "optionNo": "B",
+          "text": "B、轻度",
+          "value": "2"
+        },
+        {
+          "id": 18227,
+          "optionNo": "C",
+          "text": "C、中度",
+          "value": "3"
+        },
+        {
+          "id": 18228,
+          "optionNo": "D",
+          "text": "D、偏重",
+          "value": "4"
+        },
+        {
+          "id": 18229,
+          "optionNo": "E",
+          "text": "E、严重",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 5001,
+      "text": "有想伤害他人或打人的冲动。",
+      "type": "radio",
+      "orderNum": 52,
+      "options": [
+        {
+          "id": 18230,
+          "optionNo": "A",
+          "text": "A、从无",
+          "value": "1"
+        },
+        {
+          "id": 18231,
+          "optionNo": "B",
+          "text": "B、轻度",
+          "value": "2"
+        },
+        {
+          "id": 18232,
+          "optionNo": "C",
+          "text": "C、中度",
+          "value": "3"
+        },
+        {
+          "id": 18233,
+          "optionNo": "D",
+          "text": "D、偏重",
+          "value": "4"
+        },
+        {
+          "id": 18234,
+          "optionNo": "E",
+          "text": "E、严重",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 5002,
+      "text": "我对父母时而亲热，时而冷淡。",
+      "type": "radio",
+      "orderNum": 53,
+      "options": [
+        {
+          "id": 18235,
+          "optionNo": "A",
+          "text": "A、从无",
+          "value": "1"
+        },
+        {
+          "id": 18236,
+          "optionNo": "B",
+          "text": "B、轻度",
+          "value": "2"
+        },
+        {
+          "id": 18237,
+          "optionNo": "C",
+          "text": "C、中度",
+          "value": "3"
+        },
+        {
+          "id": 18238,
+          "optionNo": "D",
+          "text": "D、偏重",
+          "value": "4"
+        },
+        {
+          "id": 18239,
+          "optionNo": "E",
+          "text": "E、严重",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 5003,
+      "text": "我对比我强的同学并不服气。",
+      "type": "radio",
+      "orderNum": 54,
+      "options": [
+        {
+          "id": 18240,
+          "optionNo": "A",
+          "text": "A、从无",
+          "value": "1"
+        },
+        {
+          "id": 18241,
+          "optionNo": "B",
+          "text": "B、轻度",
+          "value": "2"
+        },
+        {
+          "id": 18242,
+          "optionNo": "C",
+          "text": "C、中度",
+          "value": "3"
+        },
+        {
+          "id": 18243,
+          "optionNo": "D",
+          "text": "D、偏重",
+          "value": "4"
+        },
+        {
+          "id": 18244,
+          "optionNo": "E",
+          "text": "E、严重",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 5004,
+      "text": "我讨厌考试。",
+      "type": "radio",
+      "orderNum": 55,
+      "options": [
+        {
+          "id": 18245,
+          "optionNo": "A",
+          "text": "A、从无",
+          "value": "1"
+        },
+        {
+          "id": 18246,
+          "optionNo": "B",
+          "text": "B、轻度",
+          "value": "2"
+        },
+        {
+          "id": 18247,
+          "optionNo": "C",
+          "text": "C、中度",
+          "value": "3"
+        },
+        {
+          "id": 18248,
+          "optionNo": "D",
+          "text": "D、偏重",
+          "value": "4"
+        },
+        {
+          "id": 18249,
+          "optionNo": "E",
+          "text": "E、严重",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 5005,
+      "text": "心里总觉得有事。",
+      "type": "radio",
+      "orderNum": 56,
+      "options": [
+        {
+          "id": 18250,
+          "optionNo": "A",
+          "text": "A、从无",
+          "value": "1"
+        },
+        {
+          "id": 18251,
+          "optionNo": "B",
+          "text": "B、轻度",
+          "value": "2"
+        },
+        {
+          "id": 18252,
+          "optionNo": "C",
+          "text": "C、中度",
+          "value": "3"
+        },
+        {
+          "id": 18253,
+          "optionNo": "D",
+          "text": "D、偏重",
+          "value": "4"
+        },
+        {
+          "id": 18254,
+          "optionNo": "E",
+          "text": "E、严重",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 5006,
+      "text": "经常有自杀的念头。",
+      "type": "radio",
+      "orderNum": 57,
+      "options": [
+        {
+          "id": 18255,
+          "optionNo": "A",
+          "text": "A、从无",
+          "value": "1"
+        },
+        {
+          "id": 18256,
+          "optionNo": "B",
+          "text": "B、轻度",
+          "value": "2"
+        },
+        {
+          "id": 18257,
+          "optionNo": "C",
+          "text": "C、中度",
+          "value": "3"
+        },
+        {
+          "id": 18258,
+          "optionNo": "D",
+          "text": "D、偏重",
+          "value": "4"
+        },
+        {
+          "id": 18259,
+          "optionNo": "E",
+          "text": "E、严重",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 5007,
+      "text": "有想摔东西的冲动。",
+      "type": "radio",
+      "orderNum": 58,
+      "options": [
+        {
+          "id": 18260,
+          "optionNo": "A",
+          "text": "A、从无",
+          "value": "1"
+        },
+        {
+          "id": 18261,
+          "optionNo": "B",
+          "text": "B、轻度",
+          "value": "2"
+        },
+        {
+          "id": 18262,
+          "optionNo": "C",
+          "text": "C、中度",
+          "value": "3"
+        },
+        {
+          "id": 18263,
+          "optionNo": "D",
+          "text": "D、偏重",
+          "value": "4"
+        },
+        {
+          "id": 18264,
+          "optionNo": "E",
+          "text": "E、严重",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 5008,
+      "text": "要求别人十全十美。",
+      "type": "radio",
+      "orderNum": 59,
+      "options": [
+        {
+          "id": 18265,
+          "optionNo": "A",
+          "text": "A、从无",
+          "value": "1"
+        },
+        {
+          "id": 18266,
+          "optionNo": "B",
+          "text": "B、轻度",
+          "value": "2"
+        },
+        {
+          "id": 18267,
+          "optionNo": "C",
+          "text": "C、中度",
+          "value": "3"
+        },
+        {
+          "id": 18268,
+          "optionNo": "D",
+          "text": "D、偏重",
+          "value": "4"
+        },
+        {
+          "id": 18269,
+          "optionNo": "E",
+          "text": "E、严重",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 5009,
+      "text": "同学考试成绩比我高，但能力并不比我强。",
+      "type": "radio",
+      "orderNum": 60,
+      "options": [
+        {
+          "id": 18270,
+          "optionNo": "A",
+          "text": "A、从无",
+          "value": "1"
+        },
+        {
+          "id": 18271,
+          "optionNo": "B",
+          "text": "B、轻度",
+          "value": "2"
+        },
+        {
+          "id": 18272,
+          "optionNo": "C",
+          "text": "C、中度",
+          "value": "3"
+        },
+        {
+          "id": 18273,
+          "optionNo": "D",
+          "text": "D、偏重",
+          "value": "4"
+        },
+        {
+          "id": 18274,
+          "optionNo": "E",
+          "text": "E、严重",
+          "value": "5"
+        }
+      ]
+    }
+  ],
+  "dimensions": [
+    {
+      "id": 513,
+      "num": 1,
+      "dimensionName": "强迫症状",
+      "dimensionCode": "A",
+      "evaluateExpression": "(hx_t_3 + hx_t_10 + hx_t_12 + hx_t_22 + hx_t_23 + hx_t_48)/6",
+      "standardScoreFormula": "0",
+      "results": [
+        {
+          "id": 1175,
+          "evaluateExpression": "hx_wd_y_1 >= 0&& hx_wd_y_1 <= 1.99",
+          "conclusionAnalysis": "无明显症状。该因子反映受试者做作业必须反复检查，反复数数。总在想一些不必要的事情，总害怕考试成绩不好等强迫症状。",
+          "suggestion": "无",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 1176,
+          "evaluateExpression": "hx_wd_y_1 >= 2&& hx_wd_y_1 <= 2.99",
+          "conclusionAnalysis": "表示该因子存在轻度问题。该因子反映受试者做作业必须反复检查，反复数数。总在想一些不必要的事情，总害怕考试成绩不好等强迫症状。",
+          "suggestion": "无",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 1177,
+          "evaluateExpression": "hx_wd_y_1 >= 3&& hx_wd_y_1 <= 3.99",
+          "conclusionAnalysis": "表示该因子存在中等程度的症状。该因子反映受试者做作业必须反复检查，反复数数。总在想一些不必要的事情，总害怕考试成绩不好等强迫症状。",
+          "suggestion": "无",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 1178,
+          "evaluateExpression": "hx_wd_y_1 >= 4&& hx_wd_y_1 <= 4.99",
+          "conclusionAnalysis": "表示该因子存在较重的症状。该因子反映受试者做作业必须反复检查，反复数数。总在想一些不必要的事情，总害怕考试成绩不好等强迫症状。",
+          "suggestion": "无",
+          "assessmentWarning": "high"
+        },
+        {
+          "id": 1179,
+          "evaluateExpression": "hx_wd_y_1 >= 5&& hx_wd_y_1 <= 999",
+          "conclusionAnalysis": "表示该因子存在严重的心理症状。该因子反映受试者做作业必须反复检查，反复数数。总在想一些不必要的事情，总害怕考试成绩不好等强迫症状。",
+          "suggestion": "无",
+          "assessmentWarning": "high"
+        }
+      ]
+    },
+    {
+      "id": 514,
+      "num": 2,
+      "dimensionName": "偏执",
+      "dimensionCode": "B",
+      "evaluateExpression": "(hx_t_11 + hx_t_20 + hx_t_24 + hx_t_26 + hx_t_47 + hx_t_49)/6",
+      "standardScoreFormula": "0",
+      "results": [
+        {
+          "id": 1180,
+          "evaluateExpression": "hx_wd_y_2 >= 0&& hx_wd_y_2 <= 1.99",
+          "conclusionAnalysis": "无明显症状。该因子反映受试者觉得别人占自己便宜，别人在背后议论自己，对多数人不信任，别人对自己评价不适当，别人跟自己作对等偏执问题。",
+          "suggestion": "无",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 1181,
+          "evaluateExpression": "hx_wd_y_2 >= 2&& hx_wd_y_2 <= 2.99",
+          "conclusionAnalysis": "表示该因子存在轻度问题。该因子反映受试者觉得别人占自己便宜，别人在背后议论自己，对多数人不信任，别人对自己评价不适当，别人跟自己作对等偏执问题。",
+          "suggestion": "无",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 1182,
+          "evaluateExpression": "hx_wd_y_2 >= 3&& hx_wd_y_2 <= 3.99",
+          "conclusionAnalysis": "表示该因子存在中等程度的症状。该因子反映受试者觉得别人占自己便宜，别人在背后议论自己，对多数人不信任，别人对自己评价不适当，别人跟自己作对等偏执问题。",
+          "suggestion": "无",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 1183,
+          "evaluateExpression": "hx_wd_y_2 >= 4&& hx_wd_y_2 <= 4.99",
+          "conclusionAnalysis": "表示该因子存在较重的症状。该因子反映受试者觉得别人占自己便宜，别人在背后议论自己，对多数人不信任，别人对自己评价不适当，别人跟自己作对等偏执问题。",
+          "suggestion": "无",
+          "assessmentWarning": "high"
+        },
+        {
+          "id": 1184,
+          "evaluateExpression": "hx_wd_y_2 >= 5&& hx_wd_y_2 <= 999",
+          "conclusionAnalysis": "表示该因子存在严重的心理症状。该因子反映受试者觉得别人占自己便宜，别人在背后议论自己，对多数人不信任，别人对自己评价不适当，别人跟自己作对等偏执问题。",
+          "suggestion": "无",
+          "assessmentWarning": "high"
+        }
+      ]
+    },
+    {
+      "id": 515,
+      "num": 3,
+      "dimensionName": "敌对",
+      "dimensionCode": "C",
+      "evaluateExpression": "(hx_t_19 + hx_t_21 + hx_t_25 + hx_t_50 + hx_t_52 + hx_t_58)/6",
+      "standardScoreFormula": "0",
+      "results": [
+        {
+          "id": 1185,
+          "evaluateExpression": "hx_wd_y_3 >= 0&& hx_wd_y_3 <= 1.99",
+          "conclusionAnalysis": "无明显症状。该因子反映受试者控制不住自己脾气，经常与别人争论，容易激动，有摔东西的冲动等等。",
+          "suggestion": "无",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 1186,
+          "evaluateExpression": "hx_wd_y_3 >= 2&& hx_wd_y_3 <= 2.99",
+          "conclusionAnalysis": "表示该因子存在轻度问题。该因子反映受试者控制不住自己脾气，经常与别人争论，容易激动，有摔东西的冲动等等。",
+          "suggestion": "无",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 1187,
+          "evaluateExpression": "hx_wd_y_3 >= 3&& hx_wd_y_3 <= 3.99",
+          "conclusionAnalysis": "表示该因子存在中等程度的症状。该因子反映受试者控制不住自己脾气，经常与别人争论，容易激动，有摔东西的冲动等等。",
+          "suggestion": "无",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 1188,
+          "evaluateExpression": "hx_wd_y_3 >= 4&& hx_wd_y_3 <= 4.99",
+          "conclusionAnalysis": "表示该因子存在较重的症状。该因子反映受试者控制不住自己脾气，经常与别人争论，容易激动，有摔东西的冲动等等。",
+          "suggestion": "无",
+          "assessmentWarning": "high"
+        },
+        {
+          "id": 1189,
+          "evaluateExpression": "hx_wd_y_3 >= 5&& hx_wd_y_3 <= 999",
+          "conclusionAnalysis": "表示该因子存在严重的心理症状。该因子反映受试者控制不住自己脾气，经常与别人争论，容易激动，有摔东西的冲动等等。",
+          "suggestion": "无",
+          "assessmentWarning": "high"
+        }
+      ]
+    },
+    {
+      "id": 516,
+      "num": 4,
+      "dimensionName": "人际关系紧张与敏感",
+      "dimensionCode": "D",
+      "evaluateExpression": "(hx_t_4 + hx_t_17 + hx_t_18 + hx_t_45 + hx_t_51 + hx_t_59)/6",
+      "standardScoreFormula": "0",
+      "results": [
+        {
+          "id": 1190,
+          "evaluateExpression": "hx_wd_y_4 >= 0&& hx_wd_y_4 <= 1.99",
+          "conclusionAnalysis": "无明显症状。该因子反映受试者别人不理解自己，别人对自己不友好，感情容易受到别人伤害，对别人求全责备，同异性在一起感到不自在等问题。",
+          "suggestion": "无",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 1191,
+          "evaluateExpression": "hx_wd_y_4 >= 2&& hx_wd_y_4 <= 2.99",
+          "conclusionAnalysis": "表示该因子存在轻度问题。该因子反映受试者别人不理解自己，别人对自己不友好，感情容易受到别人伤害，对别人求全责备，同异性在一起感到不自在等问题。",
+          "suggestion": "无",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 1192,
+          "evaluateExpression": "hx_wd_y_4 >= 3&& hx_wd_y_4 <= 3.99",
+          "conclusionAnalysis": "表示该因子存在中等程度的症状。该因子反映受试者别人不理解自己，别人对自己不友好，感情容易受到别人伤害，对别人求全责备，同异性在一起感到不自在等问题。",
+          "suggestion": "无",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 1193,
+          "evaluateExpression": "hx_wd_y_4 >= 4&& hx_wd_y_4 <= 4.99",
+          "conclusionAnalysis": "表示该因子存在较重的症状。该因子反映受试者别人不理解自己，别人对自己不友好，感情容易受到别人伤害，对别人求全责备，同异性在一起感到不自在等问题。",
+          "suggestion": "无",
+          "assessmentWarning": "high"
+        },
+        {
+          "id": 1194,
+          "evaluateExpression": "hx_wd_y_4 >= 5&& hx_wd_y_4 <= 999",
+          "conclusionAnalysis": "表示该因子存在严重的心理症状。该因子反映受试者别人不理解自己，别人对自己不友好，感情容易受到别人伤害，对别人求全责备，同异性在一起感到不自在等问题。",
+          "suggestion": "无",
+          "assessmentWarning": "high"
+        }
+      ]
+    },
+    {
+      "id": 517,
+      "num": 5,
+      "dimensionName": "抑郁",
+      "dimensionCode": "E",
+      "evaluateExpression": "(hx_t_5 + hx_t_13 + hx_t_14 + hx_t_16 + hx_t_44 + hx_t_57)/6",
+      "standardScoreFormula": "0",
+      "results": [
+        {
+          "id": 1195,
+          "evaluateExpression": "hx_wd_y_5 >= 0&& hx_wd_y_5 <= 1.99",
+          "conclusionAnalysis": "无明显症状。该因子反映受试者感到生活单调，感到自己没有前途，容易哭泣，责备自己，无精打采等问题。",
+          "suggestion": "无",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 1196,
+          "evaluateExpression": "hx_wd_y_5 >= 2&& hx_wd_y_5 <= 2.99",
+          "conclusionAnalysis": "表示该因子存在轻度问题。该因子反映受试者感到生活单调，感到自己没有前途，容易哭泣，责备自己，无精打采等问题。",
+          "suggestion": "无",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 1197,
+          "evaluateExpression": "hx_wd_y_5 >= 3&& hx_wd_y_5 <= 3.99",
+          "conclusionAnalysis": "表示该因子存在中等程度的症状。该因子反映受试者感到生活单调，感到自己没有前途，容易哭泣，责备自己，无精打采等问题。",
+          "suggestion": "无",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 1198,
+          "evaluateExpression": "hx_wd_y_5 >= 4&& hx_wd_y_5 <= 4.99",
+          "conclusionAnalysis": "表示该因子存在较重的症状。该因子反映受试者感到生活单调，感到自己没有前途，容易哭泣，责备自己，无精打采等问题。",
+          "suggestion": "无",
+          "assessmentWarning": "high"
+        },
+        {
+          "id": 1199,
+          "evaluateExpression": "hx_wd_y_5 >= 5&& hx_wd_y_5 <= 999",
+          "conclusionAnalysis": "表示该因子存在严重的心理症状。该因子反映受试者感到生活单调，感到自己没有前途，容易哭泣，责备自己，无精打采等问题。",
+          "suggestion": "无",
+          "assessmentWarning": "high"
+        }
+      ]
+    },
+    {
+      "id": 518,
+      "num": 6,
+      "dimensionName": "焦虑",
+      "dimensionCode": "F",
+      "evaluateExpression": "(hx_t_6 + hx_t_15 + hx_t_34 + hx_t_43 + hx_t_46 + hx_t_56)/6",
+      "standardScoreFormula": "0",
+      "results": [
+        {
+          "id": 1200,
+          "evaluateExpression": "hx_wd_y_6 >= 0&& hx_wd_y_6 <= 1.99",
+          "conclusionAnalysis": "无明显症状。该因子反映受试者感到紧张，心神不定，无缘无故的害怕，心里烦躁，心里不踏实等问题。",
+          "suggestion": "无",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 1201,
+          "evaluateExpression": "hx_wd_y_6 >= 2&& hx_wd_y_6 <= 2.99",
+          "conclusionAnalysis": "表示该因子存在轻度问题。该因子反映受试者感到紧张，心神不定，无缘无故的害怕，心里烦躁，心里不踏实等问题。",
+          "suggestion": "无",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 1202,
+          "evaluateExpression": "hx_wd_y_6 >= 3&& hx_wd_y_6 <= 3.99",
+          "conclusionAnalysis": "表示该因子存在中等程度的症状。该因子反映受试者感到紧张，心神不定，无缘无故的害怕，心里烦躁，心里不踏实等问题。",
+          "suggestion": "无",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 1203,
+          "evaluateExpression": "hx_wd_y_6 >= 4&& hx_wd_y_6 <= 4.99",
+          "conclusionAnalysis": "表示该因子存在较重的症状。该因子反映受试者感到紧张，心神不定，无缘无故的害怕，心里烦躁，心里不踏实等问题。",
+          "suggestion": "无",
+          "assessmentWarning": "high"
+        },
+        {
+          "id": 1204,
+          "evaluateExpression": "hx_wd_y_6 >= 5&& hx_wd_y_6 <= 999",
+          "conclusionAnalysis": "表示该因子存在严重的心理症状。该因子反映受试者感到紧张，心神不定，无缘无故的害怕，心里烦躁，心里不踏实等问题。",
+          "suggestion": "无",
+          "assessmentWarning": "high"
+        }
+      ]
+    },
+    {
+      "id": 519,
+      "num": 7,
+      "dimensionName": "学习压力",
+      "dimensionCode": "G",
+      "evaluateExpression": "(hx_t_31 + hx_t_33 + hx_t_36 + hx_t_38 + hx_t_40 + hx_t_55)/6",
+      "standardScoreFormula": "0",
+      "results": [
+        {
+          "id": 1205,
+          "evaluateExpression": "hx_wd_y_7 >= 0&& hx_wd_y_7 <= 1.99",
+          "conclusionAnalysis": "无明显症状。该因子反映受试者感到学习负担重，怕老师提问，讨厌做作业，讨厌上学，害怕和讨厌考试等问题。",
+          "suggestion": "无",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 1206,
+          "evaluateExpression": "hx_wd_y_7 >= 2&& hx_wd_y_7 <= 2.99",
+          "conclusionAnalysis": "表示该因子存在轻度问题。该因子反映受试者感到学习负担重，怕老师提问，讨厌做作业，讨厌上学，害怕和讨厌考试等问题。",
+          "suggestion": "无",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 1207,
+          "evaluateExpression": "hx_wd_y_7 >= 3&& hx_wd_y_7 <= 3.99",
+          "conclusionAnalysis": "表示该因子存在中等程度的症状。该因子反映受试者感到学习负担重，怕老师提问，讨厌做作业，讨厌上学，害怕和讨厌考试等问题。",
+          "suggestion": "无",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 1208,
+          "evaluateExpression": "hx_wd_y_7 >= 4&& hx_wd_y_7 <= 4.99",
+          "conclusionAnalysis": "表示该因子存在较重的症状。该因子反映受试者感到学习负担重，怕老师提问，讨厌做作业，讨厌上学，害怕和讨厌考试等问题。",
+          "suggestion": "无",
+          "assessmentWarning": "high"
+        },
+        {
+          "id": 1209,
+          "evaluateExpression": "hx_wd_y_7 >= 5&& hx_wd_y_7 <= 999",
+          "conclusionAnalysis": "表示该因子存在严重的心理症状。该因子反映受试者感到学习负担重，怕老师提问，讨厌做作业，讨厌上学，害怕和讨厌考试等问题。",
+          "suggestion": "无",
+          "assessmentWarning": "high"
+        }
+      ]
+    },
+    {
+      "id": 520,
+      "num": 8,
+      "dimensionName": "适应不良",
+      "dimensionCode": "H",
+      "evaluateExpression": "(hx_t_1 + hx_t_8 + hx_t_9 + hx_t_29 + hx_t_39 + hx_t_41)/6",
+      "standardScoreFormula": "0",
+      "results": [
+        {
+          "id": 1210,
+          "evaluateExpression": "hx_wd_y_8 >= 0&& hx_wd_y_8 <= 1.99",
+          "conclusionAnalysis": "无明显症状。该因子反映受试者对学校生活不适应，不愿参加课外活动，不适应老师教学方法，不适应家里学习环境，情绪不平衡等问题。",
+          "suggestion": "无",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 1211,
+          "evaluateExpression": "hx_wd_y_8 >= 2&& hx_wd_y_8 <= 2.99",
+          "conclusionAnalysis": "表示该因子存在轻度问题。该因子反映受试者对学校生活不适应，不愿参加课外活动，不适应老师教学方法，不适应家里学习环境，情绪不平衡等问题。",
+          "suggestion": "无",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 1212,
+          "evaluateExpression": "hx_wd_y_8 >= 3&& hx_wd_y_8 <= 3.99",
+          "conclusionAnalysis": "表示该因子存在中等程度的症状。该因子反映受试者对学校生活不适应，不愿参加课外活动，不适应老师教学方法，不适应家里学习环境，情绪不平衡等问题。",
+          "suggestion": "无",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 1213,
+          "evaluateExpression": "hx_wd_y_8 >= 4&& hx_wd_y_8 <= 4.99",
+          "conclusionAnalysis": "表示该因子存在较重的症状。该因子反映受试者对学校生活不适应，不愿参加课外活动，不适应老师教学方法，不适应家里学习环境，情绪不平衡等问题。",
+          "suggestion": "无",
+          "assessmentWarning": "high"
+        },
+        {
+          "id": 1214,
+          "evaluateExpression": "hx_wd_y_8 >= 5&& hx_wd_y_8 <= 999",
+          "conclusionAnalysis": "表示该因子存在严重的心理症状。该因子反映受试者对学校生活不适应，不愿参加课外活动，不适应老师教学方法，不适应家里学习环境，情绪不平衡等问题。",
+          "suggestion": "无",
+          "assessmentWarning": "high"
+        }
+      ]
+    },
+    {
+      "id": 521,
+      "num": 9,
+      "dimensionName": "情绪不平衡",
+      "dimensionCode": "I",
+      "evaluateExpression": "(hx_t_2 + hx_t_7 + hx_t_27 + hx_t_32 + hx_t_35 + hx_t_53)/6",
+      "standardScoreFormula": "0",
+      "results": [
+        {
+          "id": 1215,
+          "evaluateExpression": "hx_wd_y_9 >= 0&& hx_wd_y_9 <= 1.99",
+          "conclusionAnalysis": "无明显症状。该因子反映受试者情绪不稳定，对老师和同学以及父母，学习忽高忽低等问题。",
+          "suggestion": "无",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 1216,
+          "evaluateExpression": "hx_wd_y_9 >= 2&& hx_wd_y_9 <= 2.99",
+          "conclusionAnalysis": "表示该因子存在轻度问题。该因子反映受试者情绪不稳定，对老师和同学以及父母，学习忽高忽低等问题。",
+          "suggestion": "无",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 1217,
+          "evaluateExpression": "hx_wd_y_9 >= 3&& hx_wd_y_9 <= 3.99",
+          "conclusionAnalysis": "表示该因子存在中等程度的症状。该因子反映受试者情绪不稳定，对老师和同学以及父母，学习忽高忽低等问题。",
+          "suggestion": "无",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 1218,
+          "evaluateExpression": "hx_wd_y_9 >= 4&& hx_wd_y_9 <= 4.99",
+          "conclusionAnalysis": "表示该因子存在较重的症状。该因子反映受试者情绪不稳定，对老师和同学以及父母，学习忽高忽低等问题。",
+          "suggestion": "无",
+          "assessmentWarning": "high"
+        },
+        {
+          "id": 1219,
+          "evaluateExpression": "hx_wd_y_9 >= 5&& hx_wd_y_9 <= 999",
+          "conclusionAnalysis": "表示该因子存在严重的心理症状。该因子反映受试者情绪不稳定，对老师和同学以及父母，学习忽高忽低等问题。",
+          "suggestion": "无",
+          "assessmentWarning": "high"
+        }
+      ]
+    },
+    {
+      "id": 522,
+      "num": 10,
+      "dimensionName": "心理不平衡",
+      "dimensionCode": "J",
+      "evaluateExpression": "(hx_t_28 + hx_t_30 + hx_t_37 + hx_t_42 + hx_t_54 + hx_t_60)/6",
+      "standardScoreFormula": "0",
+      "results": [
+        {
+          "id": 1220,
+          "evaluateExpression": "hx_wd_y_10 >= 0&& hx_wd_y_10 <= 1.99",
+          "conclusionAnalysis": "无明显症状。该因子反映受试者感到老师和父母对自己不公平、对同学比自己成绩好难过和不服气等问题。",
+          "suggestion": "无",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 1221,
+          "evaluateExpression": "hx_wd_y_10 >= 2&& hx_wd_y_10 <= 2.99",
+          "conclusionAnalysis": "表示该因子存在轻度问题。该因子反映受试者感到老师和父母对自己不公平、对同学比自己成绩好难过和不服气等问题。",
+          "suggestion": "无",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 1222,
+          "evaluateExpression": "hx_wd_y_10 >= 3&& hx_wd_y_10 <= 3.99",
+          "conclusionAnalysis": "表示该因子存在中等程度的症状。该因子反映受试者感到老师和父母对自己不公平、对同学比自己成绩好难过和不服气等问题。",
+          "suggestion": "无",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 1223,
+          "evaluateExpression": "hx_wd_y_10 >= 4&& hx_wd_y_10 <= 4.99",
+          "conclusionAnalysis": "表示该因子存在较重的症状。该因子反映受试者感到老师和父母对自己不公平、对同学比自己成绩好难过和不服气等问题。",
+          "suggestion": "无",
+          "assessmentWarning": "high"
+        },
+        {
+          "id": 1224,
+          "evaluateExpression": "hx_wd_y_10 >= 5&& hx_wd_y_10 <= 999",
+          "conclusionAnalysis": "表示该因子存在严重的心理症状。该因子反映受试者感到老师和父母对自己不公平、对同学比自己成绩好难过和不服气等问题。",
+          "suggestion": "无",
+          "assessmentWarning": "high"
+        }
+      ]
+    },
+    {
+      "id": 523,
+      "num": 11,
+      "dimensionName": "总均分",
+      "dimensionCode": "K",
+      "evaluateExpression": "(hx_t_1 + hx_t_2 + hx_t_3 + hx_t_4 + hx_t_5 + hx_t_6 + hx_t_7 + hx_t_8 + hx_t_9 + hx_t_10 + hx_t_11 + hx_t_12 + hx_t_13 + hx_t_14 + hx_t_15 + hx_t_16 + hx_t_17 + hx_t_18 + hx_t_19 + hx_t_20 + hx_t_21 + hx_t_22 + hx_t_23 + hx_t_24 + hx_t_25 + hx_t_26 + hx_t_27 + hx_t_28 + hx_t_29 + hx_t_30 + hx_t_31 + hx_t_32 + hx_t_33 + hx_t_34 + hx_t_35 + hx_t_36 + hx_t_37 + hx_t_38 + hx_t_39 + hx_t_40 + hx_t_41 + hx_t_42 + hx_t_43 + hx_t_44 + hx_t_45 + hx_t_46 + hx_t_47 + hx_t_48 + hx_t_49 + hx_t_50 + hx_t_51 + hx_t_52 + hx_t_53 + hx_t_54 + hx_t_55 + hx_t_56 + hx_t_57 + hx_t_58 + hx_t_59 + hx_t_60)/60",
+      "standardScoreFormula": "0",
+      "results": [
+        {
+          "id": 1225,
+          "evaluateExpression": "hx_wd_y_11 >= 0&& hx_wd_y_11 <= 1.99",
+          "conclusionAnalysis": "表示心理健康总体上是良好的。",
+          "suggestion": "无",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 1226,
+          "evaluateExpression": "hx_wd_y_11 >= 2&& hx_wd_y_11 <= 2.99",
+          "conclusionAnalysis": "表示心理健康总体上存在轻度问题。",
+          "suggestion": "无",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 1227,
+          "evaluateExpression": "hx_wd_y_11 >= 3&& hx_wd_y_11 <= 3.99",
+          "conclusionAnalysis": "表示心理健康存在中等程度的问题。",
+          "suggestion": "无",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 1228,
+          "evaluateExpression": "hx_wd_y_11 >= 4&& hx_wd_y_11 <= 4.99",
+          "conclusionAnalysis": "表示心理健康在总体上存在较重的问题。",
+          "suggestion": "无",
+          "assessmentWarning": "high"
+        },
+        {
+          "id": 1229,
+          "evaluateExpression": "hx_wd_y_11 >= 5&& hx_wd_y_11 <= 999",
+          "conclusionAnalysis": "表示心理健康存在着严重的问题。",
+          "suggestion": "无",
+          "assessmentWarning": "high"
+        }
+      ]
+    }
+  ]
+}

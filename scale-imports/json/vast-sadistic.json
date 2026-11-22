@@ -1,0 +1,940 @@
+{
+  "id": "vast-sadistic",
+  "title": "施虐倾向多样性量表(VAST)",
+  "description": "Varieties of Sadistic Tendencies (VAST)，Paulhus & Jones (2015)编制，测量直接施虐（9题）和替代施虐（7题）两种施虐倾向，另有11题填充题。5点计分。常模：直接施虐男1.95(SD=0.72)/女1.36(SD=0.56)，替代施虐男2.90(SD=0.80)/女2.34(SD=0.68)。",
+  "type": "basic",
+  "questions": [
+    {
+      "text": "看到别人受苦时我会感到愉悦。",
+      "type": "radio",
+      "orderNum": 1,
+      "options": [
+        {
+          "text": "非常不同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "不同意",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "同意",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常同意",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "我喜欢观看暴力电影或视频中的血腥场面。",
+      "type": "radio",
+      "orderNum": 2,
+      "options": [
+        {
+          "text": "非常不同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "不同意",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "同意",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常同意",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "我曾经享受过让他人感到痛苦的过程。",
+      "type": "radio",
+      "orderNum": 3,
+      "options": [
+        {
+          "text": "非常不同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "不同意",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "同意",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常同意",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "我通常能很好地控制自己的情绪。",
+      "type": "radio",
+      "orderNum": 4,
+      "options": [
+        {
+          "text": "非常不同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "不同意",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "同意",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常同意",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "伤害别人让我感到兴奋。",
+      "type": "radio",
+      "orderNum": 5,
+      "options": [
+        {
+          "text": "非常不同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "不同意",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "同意",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常同意",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "我喜欢结交新朋友。",
+      "type": "radio",
+      "orderNum": 6,
+      "options": [
+        {
+          "text": "非常不同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "不同意",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "同意",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常同意",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "我喜欢观看打架或格斗的视频。",
+      "type": "radio",
+      "orderNum": 7,
+      "options": [
+        {
+          "text": "非常不同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "不同意",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "同意",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常同意",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "如果能不受惩罚，我愿意伤害别人。",
+      "type": "radio",
+      "orderNum": 8,
+      "options": [
+        {
+          "text": "非常不同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "不同意",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "同意",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常同意",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "我喜欢在户外活动。",
+      "type": "radio",
+      "orderNum": 9,
+      "options": [
+        {
+          "text": "非常不同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "不同意",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "同意",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常同意",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "折磨别人的想法让我感到兴奋。",
+      "type": "radio",
+      "orderNum": 10,
+      "options": [
+        {
+          "text": "非常不同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "不同意",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "同意",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常同意",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "我觉得笑话通常是有趣的。",
+      "type": "radio",
+      "orderNum": 11,
+      "options": [
+        {
+          "text": "非常不同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "不同意",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "同意",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常同意",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "我喜欢看恐怖电影中角色遭受痛苦的情节。",
+      "type": "radio",
+      "orderNum": 12,
+      "options": [
+        {
+          "text": "非常不同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "不同意",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "同意",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常同意",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "我曾故意在身体上伤害过他人。",
+      "type": "radio",
+      "orderNum": 13,
+      "options": [
+        {
+          "text": "非常不同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "不同意",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "同意",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常同意",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "我很容易感到无聊。",
+      "type": "radio",
+      "orderNum": 14,
+      "options": [
+        {
+          "text": "非常不同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "不同意",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "同意",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常同意",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "我喜欢在网上观看真实的暴力事件视频。",
+      "type": "radio",
+      "orderNum": 15,
+      "options": [
+        {
+          "text": "非常不同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "不同意",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "同意",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常同意",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "我会享受对他人施加身体痛苦的过程。",
+      "type": "radio",
+      "orderNum": 16,
+      "options": [
+        {
+          "text": "非常不同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "不同意",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "同意",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常同意",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "我更喜欢和别人一起工作。",
+      "type": "radio",
+      "orderNum": 17,
+      "options": [
+        {
+          "text": "非常不同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "不同意",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "同意",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常同意",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "我曾经为了好玩而残忍地对待过别人。",
+      "type": "radio",
+      "orderNum": 18,
+      "options": [
+        {
+          "text": "非常不同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "不同意",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "同意",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常同意",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "看到有人被欺负时，我会感到一种快感。",
+      "type": "radio",
+      "orderNum": 19,
+      "options": [
+        {
+          "text": "非常不同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "不同意",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "同意",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常同意",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "如果可以不受惩罚，我愿意用暴力对待别人。",
+      "type": "radio",
+      "orderNum": 20,
+      "options": [
+        {
+          "text": "非常不同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "不同意",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "同意",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常同意",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "我喜欢听音乐。",
+      "type": "radio",
+      "orderNum": 21,
+      "options": [
+        {
+          "text": "非常不同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "不同意",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "同意",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常同意",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "我喜欢看别人经历尴尬或屈辱的场面。",
+      "type": "radio",
+      "orderNum": 22,
+      "options": [
+        {
+          "text": "非常不同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "不同意",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "同意",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常同意",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "我喜欢阅读。",
+      "type": "radio",
+      "orderNum": 23,
+      "options": [
+        {
+          "text": "非常不同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "不同意",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "同意",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常同意",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "我通常遵守规则。",
+      "type": "radio",
+      "orderNum": 24,
+      "options": [
+        {
+          "text": "非常不同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "不同意",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "同意",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常同意",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "我喜欢看灾难片中人们遭受痛苦的画面。",
+      "type": "radio",
+      "orderNum": 25,
+      "options": [
+        {
+          "text": "非常不同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "不同意",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "同意",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常同意",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "我喜欢户外运动。",
+      "type": "radio",
+      "orderNum": 26,
+      "options": [
+        {
+          "text": "非常不同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "不同意",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "同意",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常同意",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "我很容易和别人交朋友。",
+      "type": "radio",
+      "orderNum": 27,
+      "options": [
+        {
+          "text": "非常不同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "不同意",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "同意",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常同意",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    }
+  ],
+  "dimensions": [
+    {
+      "dimensionName": "直接施虐倾向",
+      "dimensionCode": "direct_sadism",
+      "num": 1,
+      "evaluateExpression": "(hx_t_1 + hx_t_3 + hx_t_5 + hx_t_8 + hx_t_10 + hx_t_13 + hx_t_16 + hx_t_18 + hx_t_20) / 9",
+      "standardScoreFormula": "",
+      "results": [
+        {
+          "evaluateExpression": "hx_wd_y_1 <= 1.36",
+          "conclusionAnalysis": "直接施虐倾向较低",
+          "suggestion": "您的直接施虐倾向低于女性平均水平，人际行为良好。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_1 > 1.36 && hx_wd_y_1 <= 1.95",
+          "conclusionAnalysis": "直接施虐倾向中等",
+          "suggestion": "您的直接施虐倾向处于常模范围（女1.36，男1.95）。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_1 > 1.95 && hx_wd_y_1 <= 2.67",
+          "conclusionAnalysis": "直接施虐倾向偏高",
+          "suggestion": "您的得分高于男性平均（1.95），建议关注对他人痛苦的态度。",
+          "assessmentWarning": "low"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_1 > 2.67",
+          "conclusionAnalysis": "直接施虐倾向异常偏高",
+          "suggestion": "您的得分显著高于常模（男1.95±0.72），建议寻求专业心理评估。",
+          "assessmentWarning": "middle"
+        }
+      ]
+    },
+    {
+      "dimensionName": "替代施虐倾向",
+      "dimensionCode": "vicarious_sadism",
+      "num": 2,
+      "evaluateExpression": "(hx_t_2 + hx_t_7 + hx_t_12 + hx_t_15 + hx_t_19 + hx_t_22 + hx_t_25) / 7",
+      "standardScoreFormula": "",
+      "results": [
+        {
+          "evaluateExpression": "hx_wd_y_2 <= 2.34",
+          "conclusionAnalysis": "替代施虐倾向较低",
+          "suggestion": "您的替代施虐倾向低于女性平均水平。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_2 > 2.34 && hx_wd_y_2 <= 2.90",
+          "conclusionAnalysis": "替代施虐倾向中等",
+          "suggestion": "您的替代施虐倾向处于常模范围（女2.34，男2.90）。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_2 > 2.90 && hx_wd_y_2 <= 3.70",
+          "conclusionAnalysis": "替代施虐倾向偏高",
+          "suggestion": "您的得分高于男性平均（2.90），建议关注观看暴力内容的倾向。",
+          "assessmentWarning": "low"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_2 > 3.70",
+          "conclusionAnalysis": "替代施虐倾向异常偏高",
+          "suggestion": "您的得分显著高于常模（男2.90±0.80），建议寻求专业心理评估。",
+          "assessmentWarning": "middle"
+        }
+      ]
+    }
+  ]
+}

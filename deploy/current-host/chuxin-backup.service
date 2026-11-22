@@ -1,0 +1,8 @@
+[Unit]
+Description=Back up the Chuxin MySQL database
+After=docker.service
+Requires=docker.service
+
+[Service]
+Type=oneshot
+ExecStart=/opt/chuxin/backup.sh

@@ -1,0 +1,411 @@
+{
+  "id": "lotr-optimism",
+  "title": "生活取向测验修订版(LOT-R)",
+  "description": "Life Orientation Test-Revised (LOT-R)，Scheier, Carver & Bridges (1994)编制，测量乐观与悲观倾向。10题，其中3题为填充题不计分，5点计分（0=非常不同意到4=非常同意）。乐观维度（3题）直接计分，悲观维度（4题）反向计分。有效计分范围0-24，0-10为悲观倾向，11-15为中等，16-24为乐观倾向。",
+  "type": "basic",
+  "questions": [
+    {
+      "text": "在不确定的时候，我通常会期望最好的结果。",
+      "type": "radio",
+      "orderNum": 1,
+      "options": [
+        {
+          "text": "非常不同意",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "不同意",
+          "value": "1",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "2",
+          "optionNo": "C"
+        },
+        {
+          "text": "同意",
+          "value": "3",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常同意",
+          "value": "4",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "对我来说，保持忙碌是很重要的。",
+      "type": "radio",
+      "orderNum": 2,
+      "options": [
+        {
+          "text": "非常不同意",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "不同意",
+          "value": "1",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "2",
+          "optionNo": "C"
+        },
+        {
+          "text": "同意",
+          "value": "3",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常同意",
+          "value": "4",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "我总是对自己的未来持乐观态度。",
+      "type": "radio",
+      "orderNum": 3,
+      "options": [
+        {
+          "text": "非常不同意",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "不同意",
+          "value": "1",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "2",
+          "optionNo": "C"
+        },
+        {
+          "text": "同意",
+          "value": "3",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常同意",
+          "value": "4",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "如果我认为某件事情会出错，那它通常确实会出错。（反向计分）",
+      "type": "radio",
+      "orderNum": 4,
+      "options": [
+        {
+          "text": "非常不同意",
+          "value": "4",
+          "optionNo": "A"
+        },
+        {
+          "text": "不同意",
+          "value": "3",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "2",
+          "optionNo": "C"
+        },
+        {
+          "text": "同意",
+          "value": "1",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常同意",
+          "value": "0",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "我很少指望好事会发生在我身上。（反向计分）",
+      "type": "radio",
+      "orderNum": 5,
+      "options": [
+        {
+          "text": "非常不同意",
+          "value": "4",
+          "optionNo": "A"
+        },
+        {
+          "text": "不同意",
+          "value": "3",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "2",
+          "optionNo": "C"
+        },
+        {
+          "text": "同意",
+          "value": "1",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常同意",
+          "value": "0",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "我总是预期最坏的结果。（反向计分）",
+      "type": "radio",
+      "orderNum": 6,
+      "options": [
+        {
+          "text": "非常不同意",
+          "value": "4",
+          "optionNo": "A"
+        },
+        {
+          "text": "不同意",
+          "value": "3",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "2",
+          "optionNo": "C"
+        },
+        {
+          "text": "同意",
+          "value": "1",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常同意",
+          "value": "0",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "总的来说，我期望更多好事而不是坏事发生在我身上。",
+      "type": "radio",
+      "orderNum": 7,
+      "options": [
+        {
+          "text": "非常不同意",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "不同意",
+          "value": "1",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "2",
+          "optionNo": "C"
+        },
+        {
+          "text": "同意",
+          "value": "3",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常同意",
+          "value": "4",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "事情很少按照我的意愿发展。（反向计分）",
+      "type": "radio",
+      "orderNum": 8,
+      "options": [
+        {
+          "text": "非常不同意",
+          "value": "4",
+          "optionNo": "A"
+        },
+        {
+          "text": "不同意",
+          "value": "3",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "2",
+          "optionNo": "C"
+        },
+        {
+          "text": "同意",
+          "value": "1",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常同意",
+          "value": "0",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "在大多数情况下，事情的结果都比我预期的好。",
+      "type": "radio",
+      "orderNum": 9,
+      "options": [
+        {
+          "text": "非常不同意",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "不同意",
+          "value": "1",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "2",
+          "optionNo": "C"
+        },
+        {
+          "text": "同意",
+          "value": "3",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常同意",
+          "value": "4",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "我很容易放松。",
+      "type": "radio",
+      "orderNum": 10,
+      "options": [
+        {
+          "text": "非常不同意",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "不同意",
+          "value": "1",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "2",
+          "optionNo": "C"
+        },
+        {
+          "text": "同意",
+          "value": "3",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常同意",
+          "value": "4",
+          "optionNo": "E"
+        }
+      ]
+    }
+  ],
+  "dimensions": [
+    {
+      "dimensionName": "乐观",
+      "dimensionCode": "optimism",
+      "num": 1,
+      "evaluateExpression": "hx_t_3 + hx_t_7 + hx_t_9",
+      "standardScoreFormula": "",
+      "results": [
+        {
+          "evaluateExpression": "hx_wd_y_1 <= 4",
+          "conclusionAnalysis": "乐观倾向较低",
+          "suggestion": "您的乐观得分较低，对未来积极事件的期望偏低。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_1 > 4 && hx_wd_y_1 <= 8",
+          "conclusionAnalysis": "乐观倾向中等",
+          "suggestion": "您的乐观得分处于中等水平。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_1 > 8 && hx_wd_y_1 <= 12",
+          "conclusionAnalysis": "乐观倾向较高",
+          "suggestion": "您的乐观得分较高，对未来抱有积极期望。",
+          "assessmentWarning": "none"
+        }
+      ]
+    },
+    {
+      "dimensionName": "悲观",
+      "dimensionCode": "pessimism",
+      "num": 2,
+      "evaluateExpression": "hx_t_4 + hx_t_5 + hx_t_6 + hx_t_8",
+      "standardScoreFormula": "",
+      "results": [
+        {
+          "evaluateExpression": "hx_wd_y_2 <= 4",
+          "conclusionAnalysis": "悲观倾向较低",
+          "suggestion": "您的悲观得分较低，较少预期消极结果。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_2 > 4 && hx_wd_y_2 <= 8",
+          "conclusionAnalysis": "悲观倾向中等",
+          "suggestion": "您的悲观得分处于中等水平。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_2 > 8",
+          "conclusionAnalysis": "悲观倾向较高",
+          "suggestion": "您的悲观得分较高，倾向于预期消极结果，建议关注心理健康。",
+          "assessmentWarning": "low"
+        }
+      ]
+    },
+    {
+      "dimensionName": "总分",
+      "dimensionCode": "total",
+      "num": 3,
+      "evaluateExpression": "hx_t_3 + hx_t_4 + hx_t_5 + hx_t_6 + hx_t_7 + hx_t_8 + hx_t_9",
+      "standardScoreFormula": "",
+      "results": [
+        {
+          "evaluateExpression": "hx_wd_y_3 <= 10",
+          "conclusionAnalysis": "悲观倾向",
+          "suggestion": "您的LOT-R总分较低（0-10），整体倾向于悲观。建议关注自身心态，培养积极的思维方式。",
+          "assessmentWarning": "low"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_3 > 10 && hx_wd_y_3 <= 15",
+          "conclusionAnalysis": "中等水平",
+          "suggestion": "您的LOT-R总分处于中等范围（11-15），乐观与悲观倾向较为平衡。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_3 > 15 && hx_wd_y_3 <= 24",
+          "conclusionAnalysis": "乐观倾向",
+          "suggestion": "您的LOT-R总分较高（16-24），整体倾向于乐观，对未来持积极态度。",
+          "assessmentWarning": "none"
+        }
+      ]
+    }
+  ]
+}

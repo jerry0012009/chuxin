@@ -1,0 +1,4963 @@
+{
+  "id": 127,
+  "title": "OLSON婚姻质量问卷(ENRICH)",
+  "type": "basic",
+  "questions": [
+    {
+      "id": 3040,
+      "text": "夫妻双方都喜爱同一类的社会活动",
+      "type": "radio",
+      "orderNum": 1,
+      "options": [
+        {
+          "id": 12028,
+          "optionNo": "A",
+          "text": "确实这样",
+          "value": "1"
+        },
+        {
+          "id": 12029,
+          "optionNo": "B",
+          "text": "可能这样",
+          "value": "2"
+        },
+        {
+          "id": 12030,
+          "optionNo": "C",
+          "text": "不同意不反对",
+          "value": "3"
+        },
+        {
+          "id": 12031,
+          "optionNo": "D",
+          "text": "可能不是这样",
+          "value": "4"
+        },
+        {
+          "id": 12032,
+          "optionNo": "E",
+          "text": "确实不是这样",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 3041,
+      "text": "向配偶表达我真实的感受是非常容易的",
+      "type": "radio",
+      "orderNum": 2,
+      "options": [
+        {
+          "id": 12033,
+          "optionNo": "A",
+          "text": "确实这样",
+          "value": "1"
+        },
+        {
+          "id": 12034,
+          "optionNo": "B",
+          "text": "可能这样",
+          "value": "2"
+        },
+        {
+          "id": 12035,
+          "optionNo": "C",
+          "text": "不同意不反对",
+          "value": "3"
+        },
+        {
+          "id": 12036,
+          "optionNo": "D",
+          "text": "可能不是这样",
+          "value": "4"
+        },
+        {
+          "id": 12037,
+          "optionNo": "E",
+          "text": "确实不是这样",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 3042,
+      "text": "对我所受到的有关宗教信仰的教育，我很难全盘接受",
+      "type": "radio",
+      "orderNum": 3,
+      "options": [
+        {
+          "id": 12038,
+          "optionNo": "A",
+          "text": "确实这样",
+          "value": "1"
+        },
+        {
+          "id": 12039,
+          "optionNo": "B",
+          "text": "可能这样",
+          "value": "2"
+        },
+        {
+          "id": 12040,
+          "optionNo": "C",
+          "text": "不同意不反对",
+          "value": "3"
+        },
+        {
+          "id": 12041,
+          "optionNo": "D",
+          "text": "可能不是这样",
+          "value": "4"
+        },
+        {
+          "id": 12042,
+          "optionNo": "E",
+          "text": "确实不是这样",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 3043,
+      "text": "为了尽早结束争吵，我常立即让步",
+      "type": "radio",
+      "orderNum": 4,
+      "options": [
+        {
+          "id": 12043,
+          "optionNo": "A",
+          "text": "确实这样",
+          "value": "1"
+        },
+        {
+          "id": 12044,
+          "optionNo": "B",
+          "text": "可能这样",
+          "value": "2"
+        },
+        {
+          "id": 12045,
+          "optionNo": "C",
+          "text": "不同意不反对",
+          "value": "3"
+        },
+        {
+          "id": 12046,
+          "optionNo": "D",
+          "text": "可能不是这样",
+          "value": "4"
+        },
+        {
+          "id": 12047,
+          "optionNo": "E",
+          "text": "确实不是这样",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 3044,
+      "text": "在我们家里，父亲和孩子呆在一起所花的时间不够",
+      "type": "radio",
+      "orderNum": 5,
+      "options": [
+        {
+          "id": 12048,
+          "optionNo": "A",
+          "text": "确实这样",
+          "value": "1"
+        },
+        {
+          "id": 12049,
+          "optionNo": "B",
+          "text": "可能这样",
+          "value": "2"
+        },
+        {
+          "id": 12050,
+          "optionNo": "C",
+          "text": "不同意不反对",
+          "value": "3"
+        },
+        {
+          "id": 12051,
+          "optionNo": "D",
+          "text": "可能不是这样",
+          "value": "4"
+        },
+        {
+          "id": 12052,
+          "optionNo": "E",
+          "text": "确实不是这样",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 3045,
+      "text": "当夫妻间出现矛盾时，我的配偶常沉默不语",
+      "type": "radio",
+      "orderNum": 6,
+      "options": [
+        {
+          "id": 12053,
+          "optionNo": "A",
+          "text": "确实这样",
+          "value": "1"
+        },
+        {
+          "id": 12054,
+          "optionNo": "B",
+          "text": "可能这样",
+          "value": "2"
+        },
+        {
+          "id": 12055,
+          "optionNo": "C",
+          "text": "不同意不反对",
+          "value": "3"
+        },
+        {
+          "id": 12056,
+          "optionNo": "D",
+          "text": "可能不是这样",
+          "value": "4"
+        },
+        {
+          "id": 12057,
+          "optionNo": "E",
+          "text": "确实不是这样",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 3046,
+      "text": "亲友中一些人使我们的婚姻变得紧张",
+      "type": "radio",
+      "orderNum": 7,
+      "options": [
+        {
+          "id": 12058,
+          "optionNo": "A",
+          "text": "确实这样",
+          "value": "1"
+        },
+        {
+          "id": 12059,
+          "optionNo": "B",
+          "text": "可能这样",
+          "value": "2"
+        },
+        {
+          "id": 12060,
+          "optionNo": "C",
+          "text": "不同意不反对",
+          "value": "3"
+        },
+        {
+          "id": 12061,
+          "optionNo": "D",
+          "text": "可能不是这样",
+          "value": "4"
+        },
+        {
+          "id": 12062,
+          "optionNo": "E",
+          "text": "确实不是这样",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 3047,
+      "text": "我的配偶过于挑剔或经常持否定的观点",
+      "type": "radio",
+      "orderNum": 8,
+      "options": [
+        {
+          "id": 12063,
+          "optionNo": "A",
+          "text": "确实这样",
+          "value": "1"
+        },
+        {
+          "id": 12064,
+          "optionNo": "B",
+          "text": "可能这样",
+          "value": "2"
+        },
+        {
+          "id": 12065,
+          "optionNo": "C",
+          "text": "不同意不反对",
+          "value": "3"
+        },
+        {
+          "id": 12066,
+          "optionNo": "D",
+          "text": "可能不是这样",
+          "value": "4"
+        },
+        {
+          "id": 12067,
+          "optionNo": "E",
+          "text": "确实不是这样",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 3048,
+      "text": "我完全满意配偶对我的感情",
+      "type": "radio",
+      "orderNum": 9,
+      "options": [
+        {
+          "id": 12068,
+          "optionNo": "A",
+          "text": "确实这样",
+          "value": "1"
+        },
+        {
+          "id": 12069,
+          "optionNo": "B",
+          "text": "可能这样",
+          "value": "2"
+        },
+        {
+          "id": 12070,
+          "optionNo": "C",
+          "text": "不同意不反对",
+          "value": "3"
+        },
+        {
+          "id": 12071,
+          "optionNo": "D",
+          "text": "可能不是这样",
+          "value": "4"
+        },
+        {
+          "id": 12072,
+          "optionNo": "E",
+          "text": "确实不是这样",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 3049,
+      "text": "我和配偶就如何采取最佳方法解决矛盾常常意见不一",
+      "type": "radio",
+      "orderNum": 10,
+      "options": [
+        {
+          "id": 12073,
+          "optionNo": "A",
+          "text": "确实这样",
+          "value": "1"
+        },
+        {
+          "id": 12074,
+          "optionNo": "B",
+          "text": "可能这样",
+          "value": "2"
+        },
+        {
+          "id": 12075,
+          "optionNo": "C",
+          "text": "不同意不反对",
+          "value": "3"
+        },
+        {
+          "id": 12076,
+          "optionNo": "D",
+          "text": "可能不是这样",
+          "value": "4"
+        },
+        {
+          "id": 12077,
+          "optionNo": "E",
+          "text": "确实不是这样",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 3050,
+      "text": "我认为夫妻双方对宗教应有相同的理解",
+      "type": "radio",
+      "orderNum": 11,
+      "options": [
+        {
+          "id": 12078,
+          "optionNo": "A",
+          "text": "确实这样",
+          "value": "1"
+        },
+        {
+          "id": 12079,
+          "optionNo": "B",
+          "text": "可能这样",
+          "value": "2"
+        },
+        {
+          "id": 12080,
+          "optionNo": "C",
+          "text": "不同意不反对",
+          "value": "3"
+        },
+        {
+          "id": 12081,
+          "optionNo": "D",
+          "text": "可能不是这样",
+          "value": "4"
+        },
+        {
+          "id": 12082,
+          "optionNo": "E",
+          "text": "确实不是这样",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 3051,
+      "text": "我认为妇女主要应呆在家里",
+      "type": "radio",
+      "orderNum": 12,
+      "options": [
+        {
+          "id": 12083,
+          "optionNo": "A",
+          "text": "确实这样",
+          "value": "1"
+        },
+        {
+          "id": 12084,
+          "optionNo": "B",
+          "text": "可能这样",
+          "value": "2"
+        },
+        {
+          "id": 12085,
+          "optionNo": "C",
+          "text": "不同意不反对",
+          "value": "3"
+        },
+        {
+          "id": 12086,
+          "optionNo": "D",
+          "text": "可能不是这样",
+          "value": "4"
+        },
+        {
+          "id": 12087,
+          "optionNo": "E",
+          "text": "确实不是这样",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 3052,
+      "text": "有时，我对配偶的脾气很在意",
+      "type": "radio",
+      "orderNum": 13,
+      "options": [
+        {
+          "id": 12088,
+          "optionNo": "A",
+          "text": "确实这样",
+          "value": "1"
+        },
+        {
+          "id": 12089,
+          "optionNo": "B",
+          "text": "可能这样",
+          "value": "2"
+        },
+        {
+          "id": 12090,
+          "optionNo": "C",
+          "text": "不同意不反对",
+          "value": "3"
+        },
+        {
+          "id": 12091,
+          "optionNo": "D",
+          "text": "可能不是这样",
+          "value": "4"
+        },
+        {
+          "id": 12092,
+          "optionNo": "E",
+          "text": "确实不是这样",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 3053,
+      "text": "我不喜欢配偶的性格和个人习惯",
+      "type": "radio",
+      "orderNum": 14,
+      "options": [
+        {
+          "id": 12093,
+          "optionNo": "A",
+          "text": "确实这样",
+          "value": "1"
+        },
+        {
+          "id": 12094,
+          "optionNo": "B",
+          "text": "可能这样",
+          "value": "2"
+        },
+        {
+          "id": 12095,
+          "optionNo": "C",
+          "text": "不同意不反对",
+          "value": "3"
+        },
+        {
+          "id": 12096,
+          "optionNo": "D",
+          "text": "可能不是这样",
+          "value": "4"
+        },
+        {
+          "id": 12097,
+          "optionNo": "E",
+          "text": "确实不是这样",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 3054,
+      "text": "为了使性关系保持乐趣，我们尝试找一些新的方法",
+      "type": "radio",
+      "orderNum": 15,
+      "options": [
+        {
+          "id": 12098,
+          "optionNo": "A",
+          "text": "确实这样",
+          "value": "1"
+        },
+        {
+          "id": 12099,
+          "optionNo": "B",
+          "text": "可能这样",
+          "value": "2"
+        },
+        {
+          "id": 12100,
+          "optionNo": "C",
+          "text": "不同意不反对",
+          "value": "3"
+        },
+        {
+          "id": 12101,
+          "optionNo": "D",
+          "text": "可能不是这样",
+          "value": "4"
+        },
+        {
+          "id": 12102,
+          "optionNo": "E",
+          "text": "确实不是这样",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 3055,
+      "text": "有时，我希望配偶别乱花钱",
+      "type": "radio",
+      "orderNum": 16,
+      "options": [
+        {
+          "id": 12103,
+          "optionNo": "A",
+          "text": "确实这样",
+          "value": "1"
+        },
+        {
+          "id": 12104,
+          "optionNo": "B",
+          "text": "可能这样",
+          "value": "2"
+        },
+        {
+          "id": 12105,
+          "optionNo": "C",
+          "text": "不同意不反对",
+          "value": "3"
+        },
+        {
+          "id": 12106,
+          "optionNo": "D",
+          "text": "可能不是这样",
+          "value": "4"
+        },
+        {
+          "id": 12107,
+          "optionNo": "E",
+          "text": "确实不是这样",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 3056,
+      "text": "我的配偶似乎缺少时间与精力与我一起娱乐",
+      "type": "radio",
+      "orderNum": 17,
+      "options": [
+        {
+          "id": 12108,
+          "optionNo": "A",
+          "text": "确实这样",
+          "value": "1"
+        },
+        {
+          "id": 12109,
+          "optionNo": "B",
+          "text": "可能这样",
+          "value": "2"
+        },
+        {
+          "id": 12110,
+          "optionNo": "C",
+          "text": "不同意不反对",
+          "value": "3"
+        },
+        {
+          "id": 12111,
+          "optionNo": "D",
+          "text": "可能不是这样",
+          "value": "4"
+        },
+        {
+          "id": 12112,
+          "optionNo": "E",
+          "text": "确实不是这样",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 3057,
+      "text": "我宁愿做别的任何事情，也不愿独自呆一个晚上",
+      "type": "radio",
+      "orderNum": 18,
+      "options": [
+        {
+          "id": 12113,
+          "optionNo": "A",
+          "text": "确实这样",
+          "value": "1"
+        },
+        {
+          "id": 12114,
+          "optionNo": "B",
+          "text": "可能这样",
+          "value": "2"
+        },
+        {
+          "id": 12115,
+          "optionNo": "C",
+          "text": "不同意不反对",
+          "value": "3"
+        },
+        {
+          "id": 12116,
+          "optionNo": "D",
+          "text": "可能不是这样",
+          "value": "4"
+        },
+        {
+          "id": 12117,
+          "optionNo": "E",
+          "text": "确实不是这样",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 3058,
+      "text": "我非常满意夫妻双方在婚姻中承担的责任",
+      "type": "radio",
+      "orderNum": 19,
+      "options": [
+        {
+          "id": 12118,
+          "optionNo": "A",
+          "text": "确实这样",
+          "value": "1"
+        },
+        {
+          "id": 12119,
+          "optionNo": "B",
+          "text": "可能这样",
+          "value": "2"
+        },
+        {
+          "id": 12120,
+          "optionNo": "C",
+          "text": "不同意不反对",
+          "value": "3"
+        },
+        {
+          "id": 12121,
+          "optionNo": "D",
+          "text": "可能不是这样",
+          "value": "4"
+        },
+        {
+          "id": 12122,
+          "optionNo": "E",
+          "text": "确实不是这样",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 3059,
+      "text": "我和配偶对怎样花钱总是意见一致",
+      "type": "radio",
+      "orderNum": 20,
+      "options": [
+        {
+          "id": 12123,
+          "optionNo": "A",
+          "text": "确实这样",
+          "value": "1"
+        },
+        {
+          "id": 12124,
+          "optionNo": "B",
+          "text": "可能这样",
+          "value": "2"
+        },
+        {
+          "id": 12125,
+          "optionNo": "C",
+          "text": "不同意不反对",
+          "value": "3"
+        },
+        {
+          "id": 12126,
+          "optionNo": "D",
+          "text": "可能不是这样",
+          "value": "4"
+        },
+        {
+          "id": 12127,
+          "optionNo": "E",
+          "text": "确实不是这样",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 3060,
+      "text": "我很满意我们对抚养子女的责任分工",
+      "type": "radio",
+      "orderNum": 21,
+      "options": [
+        {
+          "id": 12128,
+          "optionNo": "A",
+          "text": "确实这样",
+          "value": "1"
+        },
+        {
+          "id": 12129,
+          "optionNo": "B",
+          "text": "可能这样",
+          "value": "2"
+        },
+        {
+          "id": 12130,
+          "optionNo": "C",
+          "text": "不同意不反对",
+          "value": "3"
+        },
+        {
+          "id": 12131,
+          "optionNo": "D",
+          "text": "可能不是这样",
+          "value": "4"
+        },
+        {
+          "id": 12132,
+          "optionNo": "E",
+          "text": "确实不是这样",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 3061,
+      "text": "共同的信仰有助于我们的关系发展",
+      "type": "radio",
+      "orderNum": 22,
+      "options": [
+        {
+          "id": 12133,
+          "optionNo": "A",
+          "text": "确实这样",
+          "value": "1"
+        },
+        {
+          "id": 12134,
+          "optionNo": "B",
+          "text": "可能这样",
+          "value": "2"
+        },
+        {
+          "id": 12135,
+          "optionNo": "C",
+          "text": "不同意不反",
+          "value": "3"
+        },
+        {
+          "id": 12136,
+          "optionNo": "D",
+          "text": "可能不是这样",
+          "value": "4"
+        },
+        {
+          "id": 12137,
+          "optionNo": "E",
+          "text": "确实不是这样",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 3062,
+      "text": "如果夫妻双方都有工作，丈夫应该与妻子承担同样多的家务劳动",
+      "type": "radio",
+      "orderNum": 23,
+      "options": [
+        {
+          "id": 12138,
+          "optionNo": "A",
+          "text": "确实这样",
+          "value": "1"
+        },
+        {
+          "id": 12139,
+          "optionNo": "B",
+          "text": "可能这样",
+          "value": "2"
+        },
+        {
+          "id": 12140,
+          "optionNo": "C",
+          "text": "不同意不反对",
+          "value": "3"
+        },
+        {
+          "id": 12141,
+          "optionNo": "D",
+          "text": "可能不是这样",
+          "value": "4"
+        },
+        {
+          "id": 12142,
+          "optionNo": "E",
+          "text": "确实不是这样",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 3063,
+      "text": "有时，我对配偶显得不愉快和孤僻感到担心",
+      "type": "radio",
+      "orderNum": 24,
+      "options": [
+        {
+          "id": 12143,
+          "optionNo": "A",
+          "text": "确实这样",
+          "value": "1"
+        },
+        {
+          "id": 12144,
+          "optionNo": "B",
+          "text": "可能这样",
+          "value": "2"
+        },
+        {
+          "id": 12145,
+          "optionNo": "C",
+          "text": "不同意不反对",
+          "value": "3"
+        },
+        {
+          "id": 12146,
+          "optionNo": "D",
+          "text": "可能不是这样",
+          "value": "4"
+        },
+        {
+          "id": 12147,
+          "optionNo": "E",
+          "text": "确实不是这样",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 3064,
+      "text": "我担心配偶可能在性方面对我不感兴趣",
+      "type": "radio",
+      "orderNum": 25,
+      "options": [
+        {
+          "id": 12148,
+          "optionNo": "A",
+          "text": "确实这样",
+          "value": "1"
+        },
+        {
+          "id": 12149,
+          "optionNo": "B",
+          "text": "可能这样",
+          "value": "2"
+        },
+        {
+          "id": 12150,
+          "optionNo": "C",
+          "text": "不同意不反对",
+          "value": "3"
+        },
+        {
+          "id": 12151,
+          "optionNo": "D",
+          "text": "可能不是这样",
+          "value": "4"
+        },
+        {
+          "id": 12152,
+          "optionNo": "E",
+          "text": "确实不是这样",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 3065,
+      "text": "我们很难在经济安排上作出决定",
+      "type": "radio",
+      "orderNum": 26,
+      "options": [
+        {
+          "id": 12153,
+          "optionNo": "A",
+          "text": "确实这样",
+          "value": "1"
+        },
+        {
+          "id": 12154,
+          "optionNo": "B",
+          "text": "可能这样",
+          "value": "2"
+        },
+        {
+          "id": 12155,
+          "optionNo": "C",
+          "text": "不同意不反对",
+          "value": "3"
+        },
+        {
+          "id": 12156,
+          "optionNo": "D",
+          "text": "可能不是这样",
+          "value": "4"
+        },
+        {
+          "id": 12157,
+          "optionNo": "E",
+          "text": "确实不是这样",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 3066,
+      "text": "我们为亲友花费的时间很恰当",
+      "type": "radio",
+      "orderNum": 27,
+      "options": [
+        {
+          "id": 12158,
+          "optionNo": "A",
+          "text": "确实这样",
+          "value": "1"
+        },
+        {
+          "id": 12159,
+          "optionNo": "B",
+          "text": "可能这样",
+          "value": "2"
+        },
+        {
+          "id": 12160,
+          "optionNo": "C",
+          "text": "不同意不反对",
+          "value": "3"
+        },
+        {
+          "id": 12161,
+          "optionNo": "D",
+          "text": "可能不是这样",
+          "value": "4"
+        },
+        {
+          "id": 12162,
+          "optionNo": "E",
+          "text": "确实不是这样",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 3067,
+      "text": "对配偶兴趣或爱好过少，我很在意",
+      "type": "radio",
+      "orderNum": 28,
+      "options": [
+        {
+          "id": 12163,
+          "optionNo": "A",
+          "text": "确实这样",
+          "value": "1"
+        },
+        {
+          "id": 12164,
+          "optionNo": "B",
+          "text": "可能这样",
+          "value": "2"
+        },
+        {
+          "id": 12165,
+          "optionNo": "C",
+          "text": "不同意不反对",
+          "value": "3"
+        },
+        {
+          "id": 12166,
+          "optionNo": "D",
+          "text": "可能不是这样",
+          "value": "4"
+        },
+        {
+          "id": 12167,
+          "optionNo": "E",
+          "text": "确实不是这样",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 3068,
+      "text": "除非经济上需要，我的妻子不应外出工作",
+      "type": "radio",
+      "orderNum": 29,
+      "options": [
+        {
+          "id": 12168,
+          "optionNo": "A",
+          "text": "确实这样",
+          "value": "1"
+        },
+        {
+          "id": 12169,
+          "optionNo": "B",
+          "text": "可能这样",
+          "value": "2"
+        },
+        {
+          "id": 12170,
+          "optionNo": "C",
+          "text": "不同意不反对",
+          "value": "3"
+        },
+        {
+          "id": 12171,
+          "optionNo": "D",
+          "text": "可能不是这样",
+          "value": "4"
+        },
+        {
+          "id": 12172,
+          "optionNo": "E",
+          "text": "确实不是这样",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 3069,
+      "text": "我配偶抽烟和/或饮酒成问题",
+      "type": "radio",
+      "orderNum": 30,
+      "options": [
+        {
+          "id": 12173,
+          "optionNo": "A",
+          "text": "确实这样",
+          "value": "1"
+        },
+        {
+          "id": 12174,
+          "optionNo": "B",
+          "text": "可能这样",
+          "value": "2"
+        },
+        {
+          "id": 12175,
+          "optionNo": "C",
+          "text": "不同意不反对",
+          "value": "3"
+        },
+        {
+          "id": 12176,
+          "optionNo": "D",
+          "text": "可能不是这样",
+          "value": "4"
+        },
+        {
+          "id": 12177,
+          "optionNo": "E",
+          "text": "确实不是这样",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 3070,
+      "text": "与配偶参加社交活动，我很少感到压力",
+      "type": "radio",
+      "orderNum": 31,
+      "options": [
+        {
+          "id": 12178,
+          "optionNo": "A",
+          "text": "确实这样",
+          "value": "1"
+        },
+        {
+          "id": 12179,
+          "optionNo": "B",
+          "text": "可能这样",
+          "value": "2"
+        },
+        {
+          "id": 12180,
+          "optionNo": "C",
+          "text": "不同意不反对",
+          "value": "3"
+        },
+        {
+          "id": 12181,
+          "optionNo": "D",
+          "text": "可能不是这样",
+          "value": "4"
+        },
+        {
+          "id": 12182,
+          "optionNo": "E",
+          "text": "确实不是这样",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 3071,
+      "text": "我不满意夫妻间的交流，我的配偶并不理解我",
+      "type": "radio",
+      "orderNum": 32,
+      "options": [
+        {
+          "id": 12183,
+          "optionNo": "A",
+          "text": "确实这样",
+          "value": "1"
+        },
+        {
+          "id": 12184,
+          "optionNo": "B",
+          "text": "可能这样",
+          "value": "2"
+        },
+        {
+          "id": 12185,
+          "optionNo": "C",
+          "text": "不同意不反对",
+          "value": "3"
+        },
+        {
+          "id": 12186,
+          "optionNo": "D",
+          "text": "可能不是这样",
+          "value": "4"
+        },
+        {
+          "id": 12187,
+          "optionNo": "E",
+          "text": "确实不是这样",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 3072,
+      "text": "对于我们家怎样和在何处度假，我总是觉得满意",
+      "type": "radio",
+      "orderNum": 33,
+      "options": [
+        {
+          "id": 12188,
+          "optionNo": "A",
+          "text": "确实这样",
+          "value": "1"
+        },
+        {
+          "id": 12189,
+          "optionNo": "B",
+          "text": "可能这样",
+          "value": "2"
+        },
+        {
+          "id": 12190,
+          "optionNo": "C",
+          "text": "不同意不反对",
+          "value": "3"
+        },
+        {
+          "id": 12191,
+          "optionNo": "D",
+          "text": "可能不是这样",
+          "value": "4"
+        },
+        {
+          "id": 12192,
+          "optionNo": "E",
+          "text": "确实不是这样",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 3073,
+      "text": "我们夫妻间完全相互理解",
+      "type": "radio",
+      "orderNum": 34,
+      "options": [
+        {
+          "id": 12193,
+          "optionNo": "A",
+          "text": "确实这样",
+          "value": "1"
+        },
+        {
+          "id": 12194,
+          "optionNo": "B",
+          "text": "可能这样",
+          "value": "2"
+        },
+        {
+          "id": 12195,
+          "optionNo": "C",
+          "text": "不同意不反对",
+          "value": "3"
+        },
+        {
+          "id": 12196,
+          "optionNo": "D",
+          "text": "可能不是这样",
+          "value": "4"
+        },
+        {
+          "id": 12197,
+          "optionNo": "E",
+          "text": "确实不是这样",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 3074,
+      "text": "在管教子女方面，夫妻意见一致",
+      "type": "radio",
+      "orderNum": 35,
+      "options": [
+        {
+          "id": 12198,
+          "optionNo": "A",
+          "text": "确实这样",
+          "value": "1"
+        },
+        {
+          "id": 12199,
+          "optionNo": "B",
+          "text": "可能这样",
+          "value": "2"
+        },
+        {
+          "id": 12200,
+          "optionNo": "C",
+          "text": "不同意不反对",
+          "value": "3"
+        },
+        {
+          "id": 12201,
+          "optionNo": "D",
+          "text": "可能不是这样",
+          "value": "4"
+        },
+        {
+          "id": 12202,
+          "optionNo": "E",
+          "text": "确实不是这样",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 3075,
+      "text": "我非常满意我们作决定和解决冲突的方式",
+      "type": "radio",
+      "orderNum": 36,
+      "options": [
+        {
+          "id": 12203,
+          "optionNo": "A",
+          "text": "确实这样",
+          "value": "1"
+        },
+        {
+          "id": 12204,
+          "optionNo": "B",
+          "text": "可能这样",
+          "value": "2"
+        },
+        {
+          "id": 12205,
+          "optionNo": "C",
+          "text": "不同意不反对",
+          "value": "3"
+        },
+        {
+          "id": 12206,
+          "optionNo": "D",
+          "text": "可能不是这样",
+          "value": "4"
+        },
+        {
+          "id": 12207,
+          "optionNo": "E",
+          "text": "确实不是这样",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 3076,
+      "text": "有时，我的配偶不依赖我，不总是人云亦云",
+      "type": "radio",
+      "orderNum": 37,
+      "options": [
+        {
+          "id": 12208,
+          "optionNo": "A",
+          "text": "确实这样",
+          "value": "1"
+        },
+        {
+          "id": 12209,
+          "optionNo": "B",
+          "text": "可能这样",
+          "value": "2"
+        },
+        {
+          "id": 12210,
+          "optionNo": "C",
+          "text": "不同意不反对",
+          "value": "3"
+        },
+        {
+          "id": 12211,
+          "optionNo": "D",
+          "text": "可能不是这样",
+          "value": "4"
+        },
+        {
+          "id": 12212,
+          "optionNo": "E",
+          "text": "确实不是这样",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 3077,
+      "text": "对于家庭应储蓄多少钱的决定，我感到满意",
+      "type": "radio",
+      "orderNum": 38,
+      "options": [
+        {
+          "id": 12213,
+          "optionNo": "A",
+          "text": "确实这样",
+          "value": "1"
+        },
+        {
+          "id": 12214,
+          "optionNo": "B",
+          "text": "可能这样",
+          "value": "2"
+        },
+        {
+          "id": 12215,
+          "optionNo": "C",
+          "text": "不同意不反对",
+          "value": "3"
+        },
+        {
+          "id": 12216,
+          "optionNo": "D",
+          "text": "可能不是这样",
+          "value": "4"
+        },
+        {
+          "id": 12217,
+          "optionNo": "E",
+          "text": "确实不是这样",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 3078,
+      "text": "当讨论某一问题时，我通常感到配偶是理解我的",
+      "type": "radio",
+      "orderNum": 39,
+      "options": [
+        {
+          "id": 12218,
+          "optionNo": "A",
+          "text": "确实这样",
+          "value": "1"
+        },
+        {
+          "id": 12219,
+          "optionNo": "B",
+          "text": "可能这样",
+          "value": "2"
+        },
+        {
+          "id": 12220,
+          "optionNo": "C",
+          "text": "不同意不反对",
+          "value": "3"
+        },
+        {
+          "id": 12221,
+          "optionNo": "D",
+          "text": "可能不是这样",
+          "value": "4"
+        },
+        {
+          "id": 12222,
+          "optionNo": "E",
+          "text": "确实不是这样",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 3079,
+      "text": "我的配偶有时发表一些贬低我的意见",
+      "type": "radio",
+      "orderNum": 40,
+      "options": [
+        {
+          "id": 12223,
+          "optionNo": "A",
+          "text": "确实这样",
+          "value": "1"
+        },
+        {
+          "id": 12224,
+          "optionNo": "B",
+          "text": "可能这样",
+          "value": "2"
+        },
+        {
+          "id": 12225,
+          "optionNo": "C",
+          "text": "不同意不反对",
+          "value": "3"
+        },
+        {
+          "id": 12226,
+          "optionNo": "D",
+          "text": "可能不是这样",
+          "value": "4"
+        },
+        {
+          "id": 12227,
+          "optionNo": "E",
+          "text": "确实不是这样",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 3080,
+      "text": "与配偶谈论性问题，对我来说是很容易和轻松的",
+      "type": "radio",
+      "orderNum": 41,
+      "options": [
+        {
+          "id": 12228,
+          "optionNo": "A",
+          "text": "确实这样",
+          "value": "1"
+        },
+        {
+          "id": 12229,
+          "optionNo": "B",
+          "text": "可能这样",
+          "value": "2"
+        },
+        {
+          "id": 12230,
+          "optionNo": "C",
+          "text": "不同意不反对",
+          "value": "3"
+        },
+        {
+          "id": 12231,
+          "optionNo": "D",
+          "text": "可能不是这样",
+          "value": "4"
+        },
+        {
+          "id": 12232,
+          "optionNo": "E",
+          "text": "确实不是这样",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 3081,
+      "text": "我的配偶对我的每一次情绪变化都完全理解并有相同的感受",
+      "type": "radio",
+      "orderNum": 42,
+      "options": [
+        {
+          "id": 12233,
+          "optionNo": "A",
+          "text": "确实这样",
+          "value": "1"
+        },
+        {
+          "id": 12234,
+          "optionNo": "B",
+          "text": "可能这样",
+          "value": "2"
+        },
+        {
+          "id": 12235,
+          "optionNo": "C",
+          "text": "不同意不反对",
+          "value": "3"
+        },
+        {
+          "id": 12236,
+          "optionNo": "D",
+          "text": "可能不是这样",
+          "value": "4"
+        },
+        {
+          "id": 12237,
+          "optionNo": "E",
+          "text": "确实不是这样",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 3082,
+      "text": "在我们的婚姻中，妻子应更加顺从丈夫的愿望",
+      "type": "radio",
+      "orderNum": 43,
+      "options": [
+        {
+          "id": 12238,
+          "optionNo": "A",
+          "text": "确实这样",
+          "value": "1"
+        },
+        {
+          "id": 12239,
+          "optionNo": "B",
+          "text": "可能这样",
+          "value": "2"
+        },
+        {
+          "id": 12240,
+          "optionNo": "C",
+          "text": "不同意不反对",
+          "value": "3"
+        },
+        {
+          "id": 12241,
+          "optionNo": "D",
+          "text": "可能不是这样",
+          "value": "4"
+        },
+        {
+          "id": 12242,
+          "optionNo": "E",
+          "text": "确实不是这样",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 3083,
+      "text": "当我们与别人共处时，有时我为配偶的行为感到不安",
+      "type": "radio",
+      "orderNum": 44,
+      "options": [
+        {
+          "id": 12243,
+          "optionNo": "A",
+          "text": "确实这样",
+          "value": "1"
+        },
+        {
+          "id": 12244,
+          "optionNo": "B",
+          "text": "可能这样",
+          "value": "2"
+        },
+        {
+          "id": 12245,
+          "optionNo": "C",
+          "text": "不同意不反对",
+          "value": "3"
+        },
+        {
+          "id": 12246,
+          "optionNo": "D",
+          "text": "可能不是这样",
+          "value": "4"
+        },
+        {
+          "id": 12247,
+          "optionNo": "E",
+          "text": "确实不是这样",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 3084,
+      "text": "我们都知道我们所欠的债务，而且它不成问题",
+      "type": "radio",
+      "orderNum": 45,
+      "options": [
+        {
+          "id": 12248,
+          "optionNo": "A",
+          "text": "确实这样",
+          "value": "1"
+        },
+        {
+          "id": 12249,
+          "optionNo": "B",
+          "text": "可能这样",
+          "value": "2"
+        },
+        {
+          "id": 12250,
+          "optionNo": "C",
+          "text": "不同意不反对",
+          "value": "3"
+        },
+        {
+          "id": 12251,
+          "optionNo": "D",
+          "text": "可能不是这样",
+          "value": "4"
+        },
+        {
+          "id": 12252,
+          "optionNo": "E",
+          "text": "确实不是这样",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 3085,
+      "text": "我的宗教信仰是影响我们婚姻的一个重要部分",
+      "type": "radio",
+      "orderNum": 46,
+      "options": [
+        {
+          "id": 12253,
+          "optionNo": "A",
+          "text": "确实这样",
+          "value": "1"
+        },
+        {
+          "id": 12254,
+          "optionNo": "B",
+          "text": "可能这样",
+          "value": "2"
+        },
+        {
+          "id": 12255,
+          "optionNo": "C",
+          "text": "不同意不反对",
+          "value": "3"
+        },
+        {
+          "id": 12256,
+          "optionNo": "D",
+          "text": "可能不是这样",
+          "value": "4"
+        },
+        {
+          "id": 12257,
+          "optionNo": "E",
+          "text": "确实不是这样",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 3086,
+      "text": "有时，我担心配偶会有寻求婚外性关系的想法",
+      "type": "radio",
+      "orderNum": 47,
+      "options": [
+        {
+          "id": 12258,
+          "optionNo": "A",
+          "text": "确实这样",
+          "value": "1"
+        },
+        {
+          "id": 12259,
+          "optionNo": "B",
+          "text": "可能这样",
+          "value": "2"
+        },
+        {
+          "id": 12260,
+          "optionNo": "C",
+          "text": "不同意不反对",
+          "value": "3"
+        },
+        {
+          "id": 12261,
+          "optionNo": "D",
+          "text": "可能不是这样",
+          "value": "4"
+        },
+        {
+          "id": 12262,
+          "optionNo": "E",
+          "text": "确实不是这样",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 3087,
+      "text": "我认为配偶与他/她的家里过于密切或受其影响太大",
+      "type": "radio",
+      "orderNum": 48,
+      "options": [
+        {
+          "id": 12263,
+          "optionNo": "A",
+          "text": "确实这样",
+          "value": "1"
+        },
+        {
+          "id": 12264,
+          "optionNo": "B",
+          "text": "可能这样",
+          "value": "2"
+        },
+        {
+          "id": 12265,
+          "optionNo": "C",
+          "text": "不同意不反对",
+          "value": "3"
+        },
+        {
+          "id": 12266,
+          "optionNo": "D",
+          "text": "可能不是这样",
+          "value": "4"
+        },
+        {
+          "id": 12267,
+          "optionNo": "E",
+          "text": "确实不是这样",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 3088,
+      "text": "子女似乎是我们婚姻中矛盾的一个主要来源",
+      "type": "radio",
+      "orderNum": 49,
+      "options": [
+        {
+          "id": 12268,
+          "optionNo": "A",
+          "text": "确实这样",
+          "value": "1"
+        },
+        {
+          "id": 12269,
+          "optionNo": "B",
+          "text": "可能这样",
+          "value": "2"
+        },
+        {
+          "id": 12270,
+          "optionNo": "C",
+          "text": "不同意不反对",
+          "value": "3"
+        },
+        {
+          "id": 12271,
+          "optionNo": "D",
+          "text": "可能不是这样",
+          "value": "4"
+        },
+        {
+          "id": 12272,
+          "optionNo": "E",
+          "text": "确实不是这样",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 3089,
+      "text": "我们对所需子女的数量意见一致",
+      "type": "radio",
+      "orderNum": 50,
+      "options": [
+        {
+          "id": 12273,
+          "optionNo": "A",
+          "text": "确实这样",
+          "value": "1"
+        },
+        {
+          "id": 12274,
+          "optionNo": "B",
+          "text": "可能这样",
+          "value": "2"
+        },
+        {
+          "id": 12275,
+          "optionNo": "C",
+          "text": "不同意不反对",
+          "value": "3"
+        },
+        {
+          "id": 12276,
+          "optionNo": "D",
+          "text": "可能不是这样",
+          "value": "4"
+        },
+        {
+          "id": 12277,
+          "optionNo": "E",
+          "text": "确实不是这样",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 3090,
+      "text": "我们按我们的经济实力有规律地花钱",
+      "type": "radio",
+      "orderNum": 51,
+      "options": [
+        {
+          "id": 12278,
+          "optionNo": "A",
+          "text": "确实这样",
+          "value": "1"
+        },
+        {
+          "id": 12279,
+          "optionNo": "B",
+          "text": "可能这样",
+          "value": "2"
+        },
+        {
+          "id": 12280,
+          "optionNo": "C",
+          "text": "不同意不反对",
+          "value": "3"
+        },
+        {
+          "id": 12281,
+          "optionNo": "D",
+          "text": "可能不是这样",
+          "value": "4"
+        },
+        {
+          "id": 12282,
+          "optionNo": "E",
+          "text": "确实不是这样",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 3091,
+      "text": "我不满意我们的经济地位和决定经济事务的方法",
+      "type": "radio",
+      "orderNum": 52,
+      "options": [
+        {
+          "id": 12283,
+          "optionNo": "A",
+          "text": "确实这样",
+          "value": "1"
+        },
+        {
+          "id": 12284,
+          "optionNo": "B",
+          "text": "可能这样",
+          "value": "2"
+        },
+        {
+          "id": 12285,
+          "optionNo": "C",
+          "text": "不同意不反对",
+          "value": "3"
+        },
+        {
+          "id": 12286,
+          "optionNo": "D",
+          "text": "可能不是这样",
+          "value": "4"
+        },
+        {
+          "id": 12287,
+          "optionNo": "E",
+          "text": "确实不是这样",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 3092,
+      "text": "我非常满意我们的业余活动和夫妻一起度过的时间",
+      "type": "radio",
+      "orderNum": 53,
+      "options": [
+        {
+          "id": 12288,
+          "optionNo": "A",
+          "text": "确实这样",
+          "value": "1"
+        },
+        {
+          "id": 12289,
+          "optionNo": "B",
+          "text": "可能这样",
+          "value": "2"
+        },
+        {
+          "id": 12290,
+          "optionNo": "C",
+          "text": "不同意不反对",
+          "value": "3"
+        },
+        {
+          "id": 12291,
+          "optionNo": "D",
+          "text": "可能不是这样",
+          "value": "4"
+        },
+        {
+          "id": 12292,
+          "optionNo": "E",
+          "text": "确实不是这样",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 3093,
+      "text": "有时，我不敢找配偶要我需要的东西",
+      "type": "radio",
+      "orderNum": 54,
+      "options": [
+        {
+          "id": 12293,
+          "optionNo": "A",
+          "text": "确实这样",
+          "value": "1"
+        },
+        {
+          "id": 12294,
+          "optionNo": "B",
+          "text": "可能这样",
+          "value": "2"
+        },
+        {
+          "id": 12295,
+          "optionNo": "C",
+          "text": "不同意不反对",
+          "value": "3"
+        },
+        {
+          "id": 12296,
+          "optionNo": "D",
+          "text": "可能不是这样",
+          "value": "4"
+        },
+        {
+          "id": 12297,
+          "optionNo": "E",
+          "text": "确实不是这样",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 3094,
+      "text": "即使妻子在外工作，也应该负担管理家务的责任",
+      "type": "radio",
+      "orderNum": 55,
+      "options": [
+        {
+          "id": 12298,
+          "optionNo": "A",
+          "text": "确实这样",
+          "value": "1"
+        },
+        {
+          "id": 12299,
+          "optionNo": "B",
+          "text": "可能这样",
+          "value": "2"
+        },
+        {
+          "id": 12300,
+          "optionNo": "C",
+          "text": "不同意不反对",
+          "value": "3"
+        },
+        {
+          "id": 12301,
+          "optionNo": "D",
+          "text": "可能不是这样",
+          "value": "4"
+        },
+        {
+          "id": 12302,
+          "optionNo": "E",
+          "text": "确实不是这样",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 3095,
+      "text": "夫妻双方在与宗教信仰有关的活动中意见不一",
+      "type": "radio",
+      "orderNum": 56,
+      "options": [
+        {
+          "id": 12303,
+          "optionNo": "A",
+          "text": "确实这样",
+          "value": "1"
+        },
+        {
+          "id": 12304,
+          "optionNo": "B",
+          "text": "可能这样",
+          "value": "2"
+        },
+        {
+          "id": 12305,
+          "optionNo": "C",
+          "text": "不同意不反对",
+          "value": "3"
+        },
+        {
+          "id": 12306,
+          "optionNo": "D",
+          "text": "可能不是这样",
+          "value": "4"
+        },
+        {
+          "id": 12307,
+          "optionNo": "E",
+          "text": "确实不是这样",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 3096,
+      "text": "与我的或配偶家的亲戚在一起，我感到不愉快",
+      "type": "radio",
+      "orderNum": 57,
+      "options": [
+        {
+          "id": 12308,
+          "optionNo": "A",
+          "text": "确实这样",
+          "value": "1"
+        },
+        {
+          "id": 12309,
+          "optionNo": "B",
+          "text": "可能这样",
+          "value": "2"
+        },
+        {
+          "id": 12310,
+          "optionNo": "C",
+          "text": "不同意不反对",
+          "value": "3"
+        },
+        {
+          "id": 12311,
+          "optionNo": "D",
+          "text": "可能不是这样",
+          "value": "4"
+        },
+        {
+          "id": 12312,
+          "optionNo": "E",
+          "text": "确实不是这样",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 3097,
+      "text": "当我遇到困难时，我总是告诉配偶",
+      "type": "radio",
+      "orderNum": 58,
+      "options": [
+        {
+          "id": 12313,
+          "optionNo": "A",
+          "text": "确实这样",
+          "value": "1"
+        },
+        {
+          "id": 12314,
+          "optionNo": "B",
+          "text": "可能这样",
+          "value": "2"
+        },
+        {
+          "id": 12315,
+          "optionNo": "C",
+          "text": "不同意不反对",
+          "value": "3"
+        },
+        {
+          "id": 12316,
+          "optionNo": "D",
+          "text": "可能不是这样",
+          "value": "4"
+        },
+        {
+          "id": 12317,
+          "optionNo": "E",
+          "text": "确实不是这样",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 3098,
+      "text": "我的配偶对子女的关注超过对我们的婚姻，这使我不舒服",
+      "type": "radio",
+      "orderNum": 59,
+      "options": [
+        {
+          "id": 12318,
+          "optionNo": "A",
+          "text": "确实这样",
+          "value": "1"
+        },
+        {
+          "id": 12319,
+          "optionNo": "B",
+          "text": "可能这样",
+          "value": "2"
+        },
+        {
+          "id": 12320,
+          "optionNo": "C",
+          "text": "不同意不反对",
+          "value": "3"
+        },
+        {
+          "id": 12321,
+          "optionNo": "D",
+          "text": "可能不是这样",
+          "value": "4"
+        },
+        {
+          "id": 12322,
+          "optionNo": "E",
+          "text": "确实不是这样",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 3099,
+      "text": "我觉得我们的假期与旅游过得很好",
+      "type": "radio",
+      "orderNum": 60,
+      "options": [
+        {
+          "id": 12323,
+          "optionNo": "A",
+          "text": "确实这样",
+          "value": "1"
+        },
+        {
+          "id": 12324,
+          "optionNo": "B",
+          "text": "可能这样",
+          "value": "2"
+        },
+        {
+          "id": 12325,
+          "optionNo": "C",
+          "text": "不同意不反对",
+          "value": "3"
+        },
+        {
+          "id": 12326,
+          "optionNo": "D",
+          "text": "可能不是这样",
+          "value": "4"
+        },
+        {
+          "id": 12327,
+          "optionNo": "E",
+          "text": "确实不是这样",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 3100,
+      "text": "我们家丈夫是一家之主",
+      "type": "radio",
+      "orderNum": 61,
+      "options": [
+        {
+          "id": 12328,
+          "optionNo": "A",
+          "text": "确实这样",
+          "value": "1"
+        },
+        {
+          "id": 12329,
+          "optionNo": "B",
+          "text": "可能这样",
+          "value": "2"
+        },
+        {
+          "id": 12330,
+          "optionNo": "C",
+          "text": "不同意不反对",
+          "value": "3"
+        },
+        {
+          "id": 12331,
+          "optionNo": "D",
+          "text": "可能不是这样",
+          "value": "4"
+        },
+        {
+          "id": 12332,
+          "optionNo": "E",
+          "text": "确实不是这样",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 3101,
+      "text": "对我来说，我们的性关系是满意与完美的",
+      "type": "radio",
+      "orderNum": 62,
+      "options": [
+        {
+          "id": 12333,
+          "optionNo": "A",
+          "text": "确实这样",
+          "value": "1"
+        },
+        {
+          "id": 12334,
+          "optionNo": "B",
+          "text": "可能这样",
+          "value": "2"
+        },
+        {
+          "id": 12335,
+          "optionNo": "C",
+          "text": "不同意不反对",
+          "value": "3"
+        },
+        {
+          "id": 12336,
+          "optionNo": "D",
+          "text": "可能不是这样",
+          "value": "4"
+        },
+        {
+          "id": 12337,
+          "optionNo": "E",
+          "text": "确实不是这样",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 3102,
+      "text": "有时，我的配偶太固执",
+      "type": "radio",
+      "orderNum": 63,
+      "options": [
+        {
+          "id": 12338,
+          "optionNo": "A",
+          "text": "确实这样",
+          "value": "1"
+        },
+        {
+          "id": 12339,
+          "optionNo": "B",
+          "text": "可能这样",
+          "value": "2"
+        },
+        {
+          "id": 12340,
+          "optionNo": "C",
+          "text": "不同意不反对",
+          "value": "3"
+        },
+        {
+          "id": 12341,
+          "optionNo": "D",
+          "text": "可能不是这样",
+          "value": "4"
+        },
+        {
+          "id": 12342,
+          "optionNo": "E",
+          "text": "确实不是这样",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 3103,
+      "text": "我们的婚姻是非常成功的",
+      "type": "radio",
+      "orderNum": 64,
+      "options": [
+        {
+          "id": 12343,
+          "optionNo": "A",
+          "text": "确实这样",
+          "value": "1"
+        },
+        {
+          "id": 12344,
+          "optionNo": "B",
+          "text": "可能这样",
+          "value": "2"
+        },
+        {
+          "id": 12345,
+          "optionNo": "C",
+          "text": "不同意不反对",
+          "value": "3"
+        },
+        {
+          "id": 12346,
+          "optionNo": "D",
+          "text": "可能不是这样",
+          "value": "4"
+        },
+        {
+          "id": 12347,
+          "optionNo": "E",
+          "text": "确实不是这样",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 3104,
+      "text": "与配偶一起祈祷，对我很重要",
+      "type": "radio",
+      "orderNum": 65,
+      "options": [
+        {
+          "id": 12348,
+          "optionNo": "A",
+          "text": "确实这样",
+          "value": "1"
+        },
+        {
+          "id": 12349,
+          "optionNo": "B",
+          "text": "可能这样",
+          "value": "2"
+        },
+        {
+          "id": 12350,
+          "optionNo": "C",
+          "text": "不同意不反对",
+          "value": "3"
+        },
+        {
+          "id": 12351,
+          "optionNo": "D",
+          "text": "可能不是这样",
+          "value": "4"
+        },
+        {
+          "id": 12352,
+          "optionNo": "E",
+          "text": "确实不是这样",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 3105,
+      "text": "我希望配偶更愿意与我分享他/她的感受",
+      "type": "radio",
+      "orderNum": 66,
+      "options": [
+        {
+          "id": 12353,
+          "optionNo": "A",
+          "text": "确实这样",
+          "value": "1"
+        },
+        {
+          "id": 12354,
+          "optionNo": "B",
+          "text": "可能这样",
+          "value": "2"
+        },
+        {
+          "id": 12355,
+          "optionNo": "C",
+          "text": "不同意不反对",
+          "value": "3"
+        },
+        {
+          "id": 12356,
+          "optionNo": "D",
+          "text": "可能不是这样",
+          "value": "4"
+        },
+        {
+          "id": 12357,
+          "optionNo": "E",
+          "text": "确实不是这样",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 3106,
+      "text": "有了孩子，使我们的婚姻关系更密切",
+      "type": "radio",
+      "orderNum": 67,
+      "options": [
+        {
+          "id": 12358,
+          "optionNo": "A",
+          "text": "确实这样",
+          "value": "1"
+        },
+        {
+          "id": 12359,
+          "optionNo": "B",
+          "text": "可能这样",
+          "value": "2"
+        },
+        {
+          "id": 12360,
+          "optionNo": "C",
+          "text": "不同意不反对",
+          "value": "3"
+        },
+        {
+          "id": 12361,
+          "optionNo": "D",
+          "text": "可能不是这样",
+          "value": "4"
+        },
+        {
+          "id": 12362,
+          "optionNo": "E",
+          "text": "确实不是这样",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 3107,
+      "text": "我的配偶喜欢我所有的朋友",
+      "type": "radio",
+      "orderNum": 68,
+      "options": [
+        {
+          "id": 12363,
+          "optionNo": "A",
+          "text": "确实这样",
+          "value": "1"
+        },
+        {
+          "id": 12364,
+          "optionNo": "B",
+          "text": "可能这样",
+          "value": "2"
+        },
+        {
+          "id": 12365,
+          "optionNo": "C",
+          "text": "不同意不反对",
+          "value": "3"
+        },
+        {
+          "id": 12366,
+          "optionNo": "D",
+          "text": "可能不是这样",
+          "value": "4"
+        },
+        {
+          "id": 12367,
+          "optionNo": "E",
+          "text": "确实不是这样",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 3108,
+      "text": "我不愿对配偶表现出很温柔，因为它经常被误解为是一种性的表示",
+      "type": "radio",
+      "orderNum": 69,
+      "options": [
+        {
+          "id": 12368,
+          "optionNo": "A",
+          "text": "确实这样",
+          "value": "1"
+        },
+        {
+          "id": 12369,
+          "optionNo": "B",
+          "text": "可能这样",
+          "value": "2"
+        },
+        {
+          "id": 12370,
+          "optionNo": "C",
+          "text": "不同意不反对",
+          "value": "3"
+        },
+        {
+          "id": 12371,
+          "optionNo": "D",
+          "text": "可能不是这样",
+          "value": "4"
+        },
+        {
+          "id": 12372,
+          "optionNo": "E",
+          "text": "确实不是这样",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 3109,
+      "text": "我觉得我们的婚姻关系缺少某些东西",
+      "type": "radio",
+      "orderNum": 70,
+      "options": [
+        {
+          "id": 12373,
+          "optionNo": "A",
+          "text": "确实这样",
+          "value": "1"
+        },
+        {
+          "id": 12374,
+          "optionNo": "B",
+          "text": "可能这样",
+          "value": "2"
+        },
+        {
+          "id": 12375,
+          "optionNo": "C",
+          "text": "不同意不反对",
+          "value": "3"
+        },
+        {
+          "id": 12376,
+          "optionNo": "D",
+          "text": "可能不是这样",
+          "value": "4"
+        },
+        {
+          "id": 12377,
+          "optionNo": "E",
+          "text": "确实不是这样",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 3110,
+      "text": "有时在一些不重要的问题上我们常产生严重的争执",
+      "type": "radio",
+      "orderNum": 71,
+      "options": [
+        {
+          "id": 12378,
+          "optionNo": "A",
+          "text": "确实这样",
+          "value": "1"
+        },
+        {
+          "id": 12379,
+          "optionNo": "B",
+          "text": "可能这样",
+          "value": "2"
+        },
+        {
+          "id": 12380,
+          "optionNo": "C",
+          "text": "不同意不反对",
+          "value": "3"
+        },
+        {
+          "id": 12381,
+          "optionNo": "D",
+          "text": "可能不是这样",
+          "value": "4"
+        },
+        {
+          "id": 12382,
+          "optionNo": "E",
+          "text": "确实不是这样",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 3111,
+      "text": "我感到夫妻双方没有花费足够的时间一起度过业余空暇",
+      "type": "radio",
+      "orderNum": 72,
+      "options": [
+        {
+          "id": 12383,
+          "optionNo": "A",
+          "text": "确实这样",
+          "value": "1"
+        },
+        {
+          "id": 12384,
+          "optionNo": "B",
+          "text": "可能这样",
+          "value": "2"
+        },
+        {
+          "id": 12385,
+          "optionNo": "C",
+          "text": "不同意不反对",
+          "value": "3"
+        },
+        {
+          "id": 12386,
+          "optionNo": "D",
+          "text": "可能不是这样",
+          "value": "4"
+        },
+        {
+          "id": 12387,
+          "optionNo": "E",
+          "text": "确实不是这样",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 3112,
+      "text": "有时，我很难相信配偶告诉我的每一件事",
+      "type": "radio",
+      "orderNum": 73,
+      "options": [
+        {
+          "id": 12388,
+          "optionNo": "A",
+          "text": "确实这样",
+          "value": "1"
+        },
+        {
+          "id": 12389,
+          "optionNo": "B",
+          "text": "可能这样",
+          "value": "2"
+        },
+        {
+          "id": 12390,
+          "optionNo": "C",
+          "text": "不同意不反对",
+          "value": "3"
+        },
+        {
+          "id": 12391,
+          "optionNo": "D",
+          "text": "可能不是这样",
+          "value": "4"
+        },
+        {
+          "id": 12392,
+          "optionNo": "E",
+          "text": "确实不是这样",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 3113,
+      "text": "我尽量避免与配偶发生冲突",
+      "type": "radio",
+      "orderNum": 74,
+      "options": [
+        {
+          "id": 12393,
+          "optionNo": "A",
+          "text": "确实这样",
+          "value": "1"
+        },
+        {
+          "id": 12394,
+          "optionNo": "B",
+          "text": "可能这样",
+          "value": "2"
+        },
+        {
+          "id": 12395,
+          "optionNo": "C",
+          "text": "不同意不反对",
+          "value": "3"
+        },
+        {
+          "id": 12396,
+          "optionNo": "D",
+          "text": "可能不是这样",
+          "value": "4"
+        },
+        {
+          "id": 12397,
+          "optionNo": "E",
+          "text": "确实不是这样",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 3114,
+      "text": "对于我们来说，丈夫的职业较妻子的职业更重要",
+      "type": "radio",
+      "orderNum": 75,
+      "options": [
+        {
+          "id": 12398,
+          "optionNo": "A",
+          "text": "确实这样",
+          "value": "1"
+        },
+        {
+          "id": 12399,
+          "optionNo": "B",
+          "text": "可能这样",
+          "value": "2"
+        },
+        {
+          "id": 12400,
+          "optionNo": "C",
+          "text": "不同意不反对",
+          "value": "3"
+        },
+        {
+          "id": 12401,
+          "optionNo": "D",
+          "text": "可能不是这样",
+          "value": "4"
+        },
+        {
+          "id": 12402,
+          "optionNo": "E",
+          "text": "确实不是这样",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 3115,
+      "text": "我觉得我们的婚姻受到宗教观念影响",
+      "type": "radio",
+      "orderNum": 76,
+      "options": [
+        {
+          "id": 12403,
+          "optionNo": "A",
+          "text": "确实这样",
+          "value": "1"
+        },
+        {
+          "id": 12404,
+          "optionNo": "B",
+          "text": "可能这样",
+          "value": "2"
+        },
+        {
+          "id": 12405,
+          "optionNo": "C",
+          "text": "不同意不反对",
+          "value": "3"
+        },
+        {
+          "id": 12406,
+          "optionNo": "D",
+          "text": "可能不是这样",
+          "value": "4"
+        },
+        {
+          "id": 12407,
+          "optionNo": "E",
+          "text": "确实不是这样",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 3116,
+      "text": "我们的经济已变得紧张，如赊帐过多",
+      "type": "radio",
+      "orderNum": 77,
+      "options": [
+        {
+          "id": 12408,
+          "optionNo": "A",
+          "text": "确实这样",
+          "value": "1"
+        },
+        {
+          "id": 12409,
+          "optionNo": "B",
+          "text": "可能这样",
+          "value": "2"
+        },
+        {
+          "id": 12410,
+          "optionNo": "C",
+          "text": "不同意不反对",
+          "value": "3"
+        },
+        {
+          "id": 12411,
+          "optionNo": "D",
+          "text": "可能不是这样",
+          "value": "4"
+        },
+        {
+          "id": 12412,
+          "optionNo": "E",
+          "text": "确实不是这样",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 3117,
+      "text": "配偶经常拖拖拉拉，使我很烦恼",
+      "type": "radio",
+      "orderNum": 78,
+      "options": [
+        {
+          "id": 12413,
+          "optionNo": "A",
+          "text": "确实这样",
+          "value": "1"
+        },
+        {
+          "id": 12414,
+          "optionNo": "B",
+          "text": "可能这样",
+          "value": "2"
+        },
+        {
+          "id": 12415,
+          "optionNo": "C",
+          "text": "不同意不反对",
+          "value": "3"
+        },
+        {
+          "id": 12416,
+          "optionNo": "D",
+          "text": "可能不是这样",
+          "value": "4"
+        },
+        {
+          "id": 12417,
+          "optionNo": "E",
+          "text": "确实不是这样",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 3118,
+      "text": "有时，我觉得夫妻之间的争执没完没了，从得不到解决",
+      "type": "radio",
+      "orderNum": 79,
+      "options": [
+        {
+          "id": 12418,
+          "optionNo": "A",
+          "text": "确实这样",
+          "value": "1"
+        },
+        {
+          "id": 12419,
+          "optionNo": "B",
+          "text": "可能这样",
+          "value": "2"
+        },
+        {
+          "id": 12420,
+          "optionNo": "C",
+          "text": "不同意不反对",
+          "value": "3"
+        },
+        {
+          "id": 12421,
+          "optionNo": "D",
+          "text": "可能不是这样",
+          "value": "4"
+        },
+        {
+          "id": 12422,
+          "optionNo": "E",
+          "text": "确实不是这样",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 3119,
+      "text": "如果家里有很小的子女，妻子不应外出工作",
+      "type": "radio",
+      "orderNum": 80,
+      "options": [
+        {
+          "id": 12423,
+          "optionNo": "A",
+          "text": "确实这样",
+          "value": "1"
+        },
+        {
+          "id": 12424,
+          "optionNo": "B",
+          "text": "可能这样",
+          "value": "2"
+        },
+        {
+          "id": 12425,
+          "optionNo": "C",
+          "text": "不同意不反对",
+          "value": "3"
+        },
+        {
+          "id": 12426,
+          "optionNo": "D",
+          "text": "可能不是这样",
+          "value": "4"
+        },
+        {
+          "id": 12427,
+          "optionNo": "E",
+          "text": "确实不是这样",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 3120,
+      "text": "我经常不把我的感受告诉配偶，因为他/她应该体会得到",
+      "type": "radio",
+      "orderNum": 81,
+      "options": [
+        {
+          "id": 12428,
+          "optionNo": "A",
+          "text": "确实这样",
+          "value": "1"
+        },
+        {
+          "id": 12429,
+          "optionNo": "B",
+          "text": "可能这样",
+          "value": "2"
+        },
+        {
+          "id": 12430,
+          "optionNo": "C",
+          "text": "不同意不反对",
+          "value": "3"
+        },
+        {
+          "id": 12431,
+          "optionNo": "D",
+          "text": "可能不是这样",
+          "value": "4"
+        },
+        {
+          "id": 12432,
+          "optionNo": "E",
+          "text": "确实不是这样",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 3121,
+      "text": "对于我们夫妻之间怎样表达情感与性有关的事，我很满意",
+      "type": "radio",
+      "orderNum": 82,
+      "options": [
+        {
+          "id": 12433,
+          "optionNo": "A",
+          "text": "确实这样",
+          "value": "1"
+        },
+        {
+          "id": 12434,
+          "optionNo": "B",
+          "text": "可能这样",
+          "value": "2"
+        },
+        {
+          "id": 12435,
+          "optionNo": "C",
+          "text": "不同意不反对",
+          "value": "3"
+        },
+        {
+          "id": 12436,
+          "optionNo": "D",
+          "text": "可能不是这样",
+          "value": "4"
+        },
+        {
+          "id": 12437,
+          "optionNo": "E",
+          "text": "确实不是这样",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 3122,
+      "text": "当夫妻间出现意见不一时，我们开诚布公地交流感受和决定怎样来解决它",
+      "type": "radio",
+      "orderNum": 83,
+      "options": [
+        {
+          "id": 12438,
+          "optionNo": "A",
+          "text": "确实这样",
+          "value": "1"
+        },
+        {
+          "id": 12439,
+          "optionNo": "B",
+          "text": "可能这样",
+          "value": "2"
+        },
+        {
+          "id": 12440,
+          "optionNo": "C",
+          "text": "不同意不反对",
+          "value": "3"
+        },
+        {
+          "id": 12441,
+          "optionNo": "D",
+          "text": "可能不是这样",
+          "value": "4"
+        },
+        {
+          "id": 12442,
+          "optionNo": "E",
+          "text": "确实不是这样",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 3123,
+      "text": "除非与配偶在一起，否则我很少开玩笑",
+      "type": "radio",
+      "orderNum": 84,
+      "options": [
+        {
+          "id": 12443,
+          "optionNo": "A",
+          "text": "确实这样",
+          "value": "1"
+        },
+        {
+          "id": 12444,
+          "optionNo": "B",
+          "text": "可能这样",
+          "value": "2"
+        },
+        {
+          "id": 12445,
+          "optionNo": "C",
+          "text": "不同意不反对",
+          "value": "3"
+        },
+        {
+          "id": 12446,
+          "optionNo": "D",
+          "text": "可能不是这样",
+          "value": "4"
+        },
+        {
+          "id": 12447,
+          "optionNo": "E",
+          "text": "确实不是这样",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 3124,
+      "text": "我们很注重决定怎样把钱花在最重要的事情上",
+      "type": "radio",
+      "orderNum": 85,
+      "options": [
+        {
+          "id": 12448,
+          "optionNo": "A",
+          "text": "确实这样",
+          "value": "1"
+        },
+        {
+          "id": 12449,
+          "optionNo": "B",
+          "text": "可能这样",
+          "value": "2"
+        },
+        {
+          "id": 12450,
+          "optionNo": "C",
+          "text": "不同意不反对",
+          "value": "3"
+        },
+        {
+          "id": 12451,
+          "optionNo": "D",
+          "text": "可能不是这样",
+          "value": "4"
+        },
+        {
+          "id": 12452,
+          "optionNo": "E",
+          "text": "确实不是这样",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 3125,
+      "text": "有时我的配偶与朋友在一起的时间太多",
+      "type": "radio",
+      "orderNum": 86,
+      "options": [
+        {
+          "id": 12453,
+          "optionNo": "A",
+          "text": "确实这样",
+          "value": "1"
+        },
+        {
+          "id": 12454,
+          "optionNo": "B",
+          "text": "可能这样",
+          "value": "2"
+        },
+        {
+          "id": 12455,
+          "optionNo": "C",
+          "text": "不同意不反对",
+          "value": "3"
+        },
+        {
+          "id": 12456,
+          "optionNo": "D",
+          "text": "可能不是这样",
+          "value": "4"
+        },
+        {
+          "id": 12457,
+          "optionNo": "E",
+          "text": "确实不是这样",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 3126,
+      "text": "我和配偶在对子女进行宗教教育方面有不同的意见",
+      "type": "radio",
+      "orderNum": 87,
+      "options": [
+        {
+          "id": 12458,
+          "optionNo": "A",
+          "text": "确实这样",
+          "value": "1"
+        },
+        {
+          "id": 12459,
+          "optionNo": "B",
+          "text": "可能这样",
+          "value": "2"
+        },
+        {
+          "id": 12460,
+          "optionNo": "C",
+          "text": "不同意不反对",
+          "value": "3"
+        },
+        {
+          "id": 12461,
+          "optionNo": "D",
+          "text": "可能不是这样",
+          "value": "4"
+        },
+        {
+          "id": 12462,
+          "optionNo": "E",
+          "text": "确实不是这样",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 3127,
+      "text": "对于承担做父母的责任分工上，我不满意",
+      "type": "radio",
+      "orderNum": 88,
+      "options": [
+        {
+          "id": 12463,
+          "optionNo": "A",
+          "text": "确实这样",
+          "value": "1"
+        },
+        {
+          "id": 12464,
+          "optionNo": "B",
+          "text": "可能这样",
+          "value": "2"
+        },
+        {
+          "id": 12465,
+          "optionNo": "C",
+          "text": "不同意不反对",
+          "value": "3"
+        },
+        {
+          "id": 12466,
+          "optionNo": "D",
+          "text": "可能不是这样",
+          "value": "4"
+        },
+        {
+          "id": 12467,
+          "optionNo": "E",
+          "text": "确实不是这样",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 3128,
+      "text": "爱配偶，使我更深地体会到：上帝是慈爱的",
+      "type": "radio",
+      "orderNum": 89,
+      "options": [
+        {
+          "id": 12468,
+          "optionNo": "A",
+          "text": "确实这样",
+          "value": "1"
+        },
+        {
+          "id": 12469,
+          "optionNo": "B",
+          "text": "可能这样",
+          "value": "2"
+        },
+        {
+          "id": 12470,
+          "optionNo": "C",
+          "text": "不同意不反对",
+          "value": "3"
+        },
+        {
+          "id": 12471,
+          "optionNo": "D",
+          "text": "可能不是这样",
+          "value": "4"
+        },
+        {
+          "id": 12472,
+          "optionNo": "E",
+          "text": "确实不是这样",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 3129,
+      "text": "我觉得双方的父母过高地期望得到我们的关心和帮助",
+      "type": "radio",
+      "orderNum": 90,
+      "options": [
+        {
+          "id": 12473,
+          "optionNo": "A",
+          "text": "确实这样",
+          "value": "1"
+        },
+        {
+          "id": 12474,
+          "optionNo": "B",
+          "text": "可能这样",
+          "value": "2"
+        },
+        {
+          "id": 12475,
+          "optionNo": "C",
+          "text": "不同意不反对",
+          "value": "3"
+        },
+        {
+          "id": 12476,
+          "optionNo": "D",
+          "text": "可能不是这样",
+          "value": "4"
+        },
+        {
+          "id": 12477,
+          "optionNo": "E",
+          "text": "确实不是这样",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 3130,
+      "text": "我非常满意夫妻之间相互谈话的方式",
+      "type": "radio",
+      "orderNum": 91,
+      "options": [
+        {
+          "id": 12478,
+          "optionNo": "A",
+          "text": "确实这样",
+          "value": "1"
+        },
+        {
+          "id": 12479,
+          "optionNo": "B",
+          "text": "可能这样",
+          "value": "2"
+        },
+        {
+          "id": 12480,
+          "optionNo": "C",
+          "text": "不同意不反对",
+          "value": "3"
+        },
+        {
+          "id": 12481,
+          "optionNo": "D",
+          "text": "可能不是这样",
+          "value": "4"
+        },
+        {
+          "id": 12482,
+          "optionNo": "E",
+          "text": "确实不是这样",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 3131,
+      "text": "我觉得我们的父母给我们的婚姻造成问题",
+      "type": "radio",
+      "orderNum": 92,
+      "options": [
+        {
+          "id": 12483,
+          "optionNo": "A",
+          "text": "确实这样",
+          "value": "1"
+        },
+        {
+          "id": 12484,
+          "optionNo": "B",
+          "text": "可能这样",
+          "value": "2"
+        },
+        {
+          "id": 12485,
+          "optionNo": "C",
+          "text": "不同意不反对",
+          "value": "3"
+        },
+        {
+          "id": 12486,
+          "optionNo": "D",
+          "text": "可能不是这样",
+          "value": "4"
+        },
+        {
+          "id": 12487,
+          "optionNo": "E",
+          "text": "确实不是这样",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 3132,
+      "text": "我很烦恼，没有配偶的允许我不能花钱",
+      "type": "radio",
+      "orderNum": 93,
+      "options": [
+        {
+          "id": 12488,
+          "optionNo": "A",
+          "text": "确实这样",
+          "value": "1"
+        },
+        {
+          "id": 12489,
+          "optionNo": "B",
+          "text": "可能这样",
+          "value": "2"
+        },
+        {
+          "id": 12490,
+          "optionNo": "C",
+          "text": "不同意不反对",
+          "value": "3"
+        },
+        {
+          "id": 12491,
+          "optionNo": "D",
+          "text": "可能不是这样",
+          "value": "4"
+        },
+        {
+          "id": 12492,
+          "optionNo": "E",
+          "text": "确实不是这样",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 3133,
+      "text": "自从有了孩子，夫妻间很少有时间单独在一起",
+      "type": "radio",
+      "orderNum": 94,
+      "options": [
+        {
+          "id": 12493,
+          "optionNo": "A",
+          "text": "确实这样",
+          "value": "1"
+        },
+        {
+          "id": 12494,
+          "optionNo": "B",
+          "text": "可能这样",
+          "value": "2"
+        },
+        {
+          "id": 12495,
+          "optionNo": "C",
+          "text": "不同意不反对",
+          "value": "3"
+        },
+        {
+          "id": 12496,
+          "optionNo": "D",
+          "text": "可能不是这样",
+          "value": "4"
+        },
+        {
+          "id": 12497,
+          "optionNo": "E",
+          "text": "确实不是这样",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 3134,
+      "text": "对于配偶的喜怒无常，有时我感到束手无策",
+      "type": "radio",
+      "orderNum": 95,
+      "options": [
+        {
+          "id": 12498,
+          "optionNo": "A",
+          "text": "确实这样",
+          "value": "1"
+        },
+        {
+          "id": 12499,
+          "optionNo": "B",
+          "text": "可能这样",
+          "value": "2"
+        },
+        {
+          "id": 12500,
+          "optionNo": "C",
+          "text": "不同意不反对",
+          "value": "3"
+        },
+        {
+          "id": 12501,
+          "optionNo": "D",
+          "text": "可能不是这样",
+          "value": "4"
+        },
+        {
+          "id": 12502,
+          "optionNo": "E",
+          "text": "确实不是这样",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 3135,
+      "text": "我经常感到配偶没有认真对待我们的分岐",
+      "type": "radio",
+      "orderNum": 96,
+      "options": [
+        {
+          "id": 12503,
+          "optionNo": "A",
+          "text": "确实这样",
+          "value": "1"
+        },
+        {
+          "id": 12504,
+          "optionNo": "B",
+          "text": "可能这样",
+          "value": "2"
+        },
+        {
+          "id": 12505,
+          "optionNo": "C",
+          "text": "不同意不反对",
+          "value": "3"
+        },
+        {
+          "id": 12506,
+          "optionNo": "D",
+          "text": "可能不是这样",
+          "value": "4"
+        },
+        {
+          "id": 12507,
+          "optionNo": "E",
+          "text": "确实不是这样",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 3136,
+      "text": "在我们家里，丈夫在大多数重要的事情上应有最后的决定权",
+      "type": "radio",
+      "orderNum": 97,
+      "options": [
+        {
+          "id": 12508,
+          "optionNo": "A",
+          "text": "确实这样",
+          "value": "1"
+        },
+        {
+          "id": 12509,
+          "optionNo": "B",
+          "text": "可能这样",
+          "value": "2"
+        },
+        {
+          "id": 12510,
+          "optionNo": "C",
+          "text": "不同意不反对",
+          "value": "3"
+        },
+        {
+          "id": 12511,
+          "optionNo": "D",
+          "text": "可能不是这样",
+          "value": "4"
+        },
+        {
+          "id": 12512,
+          "optionNo": "E",
+          "text": "确实不是这样",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 3137,
+      "text": "因为担心配偶发脾气，所以我不总是把心里的一些烦恼告诉他/她",
+      "type": "radio",
+      "orderNum": 98,
+      "options": [
+        {
+          "id": 12513,
+          "optionNo": "A",
+          "text": "确实这样",
+          "value": "1"
+        },
+        {
+          "id": 12514,
+          "optionNo": "B",
+          "text": "可能这样",
+          "value": "2"
+        },
+        {
+          "id": 12515,
+          "optionNo": "C",
+          "text": "不同意不反对",
+          "value": "3"
+        },
+        {
+          "id": 12516,
+          "optionNo": "D",
+          "text": "可能不是这样",
+          "value": "4"
+        },
+        {
+          "id": 12517,
+          "optionNo": "E",
+          "text": "确实不是这样",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 3138,
+      "text": "我不满意我们与双方父母、朋友的关系",
+      "type": "radio",
+      "orderNum": 99,
+      "options": [
+        {
+          "id": 12518,
+          "optionNo": "A",
+          "text": "确实这样",
+          "value": "1"
+        },
+        {
+          "id": 12519,
+          "optionNo": "B",
+          "text": "可能这样",
+          "value": "2"
+        },
+        {
+          "id": 12520,
+          "optionNo": "C",
+          "text": "不同意不反对",
+          "value": "3"
+        },
+        {
+          "id": 12521,
+          "optionNo": "D",
+          "text": "可能不是这样",
+          "value": "4"
+        },
+        {
+          "id": 12522,
+          "optionNo": "E",
+          "text": "确实不是这样",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 3139,
+      "text": "我和配偶对我所受的宗教方面的教育意见不一",
+      "type": "radio",
+      "orderNum": 100,
+      "options": [
+        {
+          "id": 12523,
+          "optionNo": "A",
+          "text": "确实这样",
+          "value": "1"
+        },
+        {
+          "id": 12524,
+          "optionNo": "B",
+          "text": "可能这样",
+          "value": "2"
+        },
+        {
+          "id": 12525,
+          "optionNo": "C",
+          "text": "不同意不反对",
+          "value": "3"
+        },
+        {
+          "id": 12526,
+          "optionNo": "D",
+          "text": "可能不是这样",
+          "value": "4"
+        },
+        {
+          "id": 12527,
+          "optionNo": "E",
+          "text": "确实不是这样",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 3140,
+      "text": "我从不后悔与我父母的关系，哪怕是一瞬间",
+      "type": "radio",
+      "orderNum": 101,
+      "options": [
+        {
+          "id": 12528,
+          "optionNo": "A",
+          "text": "确实这样",
+          "value": "1"
+        },
+        {
+          "id": 12529,
+          "optionNo": "B",
+          "text": "可能这样",
+          "value": "2"
+        },
+        {
+          "id": 12530,
+          "optionNo": "C",
+          "text": "不同意不反对",
+          "value": "3"
+        },
+        {
+          "id": 12531,
+          "optionNo": "D",
+          "text": "可能不是这样",
+          "value": "4"
+        },
+        {
+          "id": 12532,
+          "optionNo": "E",
+          "text": "确实不是这样",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 3141,
+      "text": "应该为子女做多少事，是我们发生冲突的一个原因",
+      "type": "radio",
+      "orderNum": 102,
+      "options": [
+        {
+          "id": 12533,
+          "optionNo": "A",
+          "text": "确实这样",
+          "value": "1"
+        },
+        {
+          "id": 12534,
+          "optionNo": "B",
+          "text": "可能这样",
+          "value": "2"
+        },
+        {
+          "id": 12535,
+          "optionNo": "C",
+          "text": "不同意不反对",
+          "value": "3"
+        },
+        {
+          "id": 12536,
+          "optionNo": "D",
+          "text": "可能不是这样",
+          "value": "4"
+        },
+        {
+          "id": 12537,
+          "optionNo": "E",
+          "text": "确实不是这样",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 3142,
+      "text": "我确实很高兴与配偶所有的朋友来往",
+      "type": "radio",
+      "orderNum": 103,
+      "options": [
+        {
+          "id": 12538,
+          "optionNo": "A",
+          "text": "确实这样",
+          "value": "1"
+        },
+        {
+          "id": 12539,
+          "optionNo": "B",
+          "text": "可能这样",
+          "value": "2"
+        },
+        {
+          "id": 12540,
+          "optionNo": "C",
+          "text": "不同意不反对",
+          "value": "3"
+        },
+        {
+          "id": 12541,
+          "optionNo": "D",
+          "text": "可能不是这样",
+          "value": "4"
+        },
+        {
+          "id": 12542,
+          "optionNo": "E",
+          "text": "确实不是这样",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 3143,
+      "text": "因为我们的宗教信仰，我和配偶觉得很亲密",
+      "type": "radio",
+      "orderNum": 104,
+      "options": [
+        {
+          "id": 12543,
+          "optionNo": "A",
+          "text": "确实这样",
+          "value": "1"
+        },
+        {
+          "id": 12544,
+          "optionNo": "B",
+          "text": "可能这样",
+          "value": "2"
+        },
+        {
+          "id": 12545,
+          "optionNo": "C",
+          "text": "不同意不反对",
+          "value": "3"
+        },
+        {
+          "id": 12546,
+          "optionNo": "D",
+          "text": "可能不是这样",
+          "value": "4"
+        },
+        {
+          "id": 12547,
+          "optionNo": "E",
+          "text": "确实不是这样",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 3144,
+      "text": "妻子在重要问题上应该相信与接受丈夫的判断",
+      "type": "radio",
+      "orderNum": 105,
+      "options": [
+        {
+          "id": 12548,
+          "optionNo": "A",
+          "text": "确实这样",
+          "value": "1"
+        },
+        {
+          "id": 12549,
+          "optionNo": "B",
+          "text": "可能这样",
+          "value": "2"
+        },
+        {
+          "id": 12550,
+          "optionNo": "C",
+          "text": "不同意不反对",
+          "value": "3"
+        },
+        {
+          "id": 12551,
+          "optionNo": "D",
+          "text": "可能不是这样",
+          "value": "4"
+        },
+        {
+          "id": 12552,
+          "optionNo": "E",
+          "text": "确实不是这样",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 3145,
+      "text": "有时，我很在意配偶的性兴趣与我不一致",
+      "type": "radio",
+      "orderNum": 106,
+      "options": [
+        {
+          "id": 12553,
+          "optionNo": "A",
+          "text": "确实这样",
+          "value": "1"
+        },
+        {
+          "id": 12554,
+          "optionNo": "B",
+          "text": "可能这样",
+          "value": "2"
+        },
+        {
+          "id": 12555,
+          "optionNo": "C",
+          "text": "不同意不反对",
+          "value": "3"
+        },
+        {
+          "id": 12556,
+          "optionNo": "D",
+          "text": "可能不是这样",
+          "value": "4"
+        },
+        {
+          "id": 12557,
+          "optionNo": "E",
+          "text": "确实不是这样",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 3146,
+      "text": "我很满意关于家庭计划和生育子女数的决定",
+      "type": "radio",
+      "orderNum": 107,
+      "options": [
+        {
+          "id": 12558,
+          "optionNo": "A",
+          "text": "确实这样",
+          "value": "1"
+        },
+        {
+          "id": 12559,
+          "optionNo": "B",
+          "text": "可能这样",
+          "value": "2"
+        },
+        {
+          "id": 12560,
+          "optionNo": "C",
+          "text": "不同意不反对",
+          "value": "3"
+        },
+        {
+          "id": 12561,
+          "optionNo": "D",
+          "text": "可能不是这样",
+          "value": "4"
+        },
+        {
+          "id": 12562,
+          "optionNo": "E",
+          "text": "确实不是这样",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 3147,
+      "text": "我不在意配偶与异性朋友在一起",
+      "type": "radio",
+      "orderNum": 108,
+      "options": [
+        {
+          "id": 12563,
+          "optionNo": "A",
+          "text": "确实这样",
+          "value": "1"
+        },
+        {
+          "id": 12564,
+          "optionNo": "B",
+          "text": "可能这样",
+          "value": "2"
+        },
+        {
+          "id": 12565,
+          "optionNo": "C",
+          "text": "不同意不反对",
+          "value": "3"
+        },
+        {
+          "id": 12566,
+          "optionNo": "D",
+          "text": "可能不是这样",
+          "value": "4"
+        },
+        {
+          "id": 12567,
+          "optionNo": "E",
+          "text": "确实不是这样",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 3148,
+      "text": "我说话时，配偶总是认真听着",
+      "type": "radio",
+      "orderNum": 109,
+      "options": [
+        {
+          "id": 12568,
+          "optionNo": "A",
+          "text": "确实这样",
+          "value": "1"
+        },
+        {
+          "id": 12569,
+          "optionNo": "B",
+          "text": "可能这样",
+          "value": "2"
+        },
+        {
+          "id": 12570,
+          "optionNo": "C",
+          "text": "不同意不反对",
+          "value": "3"
+        },
+        {
+          "id": 12571,
+          "optionNo": "D",
+          "text": "可能不是这样",
+          "value": "4"
+        },
+        {
+          "id": 12572,
+          "optionNo": "E",
+          "text": "确实不是这样",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 3149,
+      "text": "我很在意谁管钱",
+      "type": "radio",
+      "orderNum": 110,
+      "options": [
+        {
+          "id": 12573,
+          "optionNo": "A",
+          "text": "确实这样",
+          "value": "1"
+        },
+        {
+          "id": 12574,
+          "optionNo": "B",
+          "text": "可能这样",
+          "value": "2"
+        },
+        {
+          "id": 12575,
+          "optionNo": "C",
+          "text": "不同意不反对",
+          "value": "3"
+        },
+        {
+          "id": 12576,
+          "optionNo": "D",
+          "text": "可能不是这样",
+          "value": "4"
+        },
+        {
+          "id": 12577,
+          "optionNo": "E",
+          "text": "确实不是这样",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 3150,
+      "text": "配偶应用不公平的方式同意或拒绝性生活，使我很烦恼",
+      "type": "radio",
+      "orderNum": 111,
+      "options": [
+        {
+          "id": 12578,
+          "optionNo": "A",
+          "text": "确实这样",
+          "value": "1"
+        },
+        {
+          "id": 12579,
+          "optionNo": "B",
+          "text": "可能这样",
+          "value": "2"
+        },
+        {
+          "id": 12580,
+          "optionNo": "C",
+          "text": "不同意不反对",
+          "value": "3"
+        },
+        {
+          "id": 12581,
+          "optionNo": "D",
+          "text": "可能不是这样",
+          "value": "4"
+        },
+        {
+          "id": 12582,
+          "optionNo": "E",
+          "text": "确实不是这样",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 3151,
+      "text": "当我们争吵时，我通常不去想这是我的过错",
+      "type": "radio",
+      "orderNum": 112,
+      "options": [
+        {
+          "id": 12583,
+          "optionNo": "A",
+          "text": "确实这样",
+          "value": "1"
+        },
+        {
+          "id": 12584,
+          "optionNo": "B",
+          "text": "可能这样",
+          "value": "2"
+        },
+        {
+          "id": 12585,
+          "optionNo": "C",
+          "text": "不同意不反对",
+          "value": "3"
+        },
+        {
+          "id": 12586,
+          "optionNo": "D",
+          "text": "可能不是这样",
+          "value": "4"
+        },
+        {
+          "id": 12587,
+          "optionNo": "E",
+          "text": "确实不是这样",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 3152,
+      "text": "对于我们的宗教信仰与价值观，我觉得很好",
+      "type": "radio",
+      "orderNum": 113,
+      "options": [
+        {
+          "id": 12588,
+          "optionNo": "A",
+          "text": "确实这样",
+          "value": "1"
+        },
+        {
+          "id": 12589,
+          "optionNo": "B",
+          "text": "可能这样",
+          "value": "2"
+        },
+        {
+          "id": 12590,
+          "optionNo": "C",
+          "text": "不同意不反对",
+          "value": "3"
+        },
+        {
+          "id": 12591,
+          "optionNo": "D",
+          "text": "可能不是这样",
+          "value": "4"
+        },
+        {
+          "id": 12592,
+          "optionNo": "E",
+          "text": "确实不是这样",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 3153,
+      "text": "我和配偶在一起和分开度过的业余时间分配很公平",
+      "type": "radio",
+      "orderNum": 114,
+      "options": [
+        {
+          "id": 12593,
+          "optionNo": "A",
+          "text": "确实这样",
+          "value": "1"
+        },
+        {
+          "id": 12594,
+          "optionNo": "B",
+          "text": "可能这样",
+          "value": "2"
+        },
+        {
+          "id": 12595,
+          "optionNo": "C",
+          "text": "不同意不反对",
+          "value": "3"
+        },
+        {
+          "id": 12596,
+          "optionNo": "D",
+          "text": "可能不是这样",
+          "value": "4"
+        },
+        {
+          "id": 12597,
+          "optionNo": "E",
+          "text": "确实不是这样",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 3154,
+      "text": "有时，我认为配偶过于盛气凌人",
+      "type": "radio",
+      "orderNum": 115,
+      "options": [
+        {
+          "id": 12598,
+          "optionNo": "A",
+          "text": "确实这样",
+          "value": "1"
+        },
+        {
+          "id": 12599,
+          "optionNo": "B",
+          "text": "可能这样",
+          "value": "2"
+        },
+        {
+          "id": 12600,
+          "optionNo": "C",
+          "text": "不同意不反对",
+          "value": "3"
+        },
+        {
+          "id": 12601,
+          "optionNo": "D",
+          "text": "可能不是这样",
+          "value": "4"
+        },
+        {
+          "id": 12602,
+          "optionNo": "E",
+          "text": "确实不是这样",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 3155,
+      "text": "我认为任何生活在一起的配偶都没有我们夫妻和睦",
+      "type": "radio",
+      "orderNum": 116,
+      "options": [
+        {
+          "id": 12603,
+          "optionNo": "A",
+          "text": "确实这样",
+          "value": "1"
+        },
+        {
+          "id": 12604,
+          "optionNo": "B",
+          "text": "可能这样",
+          "value": "2"
+        },
+        {
+          "id": 12605,
+          "optionNo": "C",
+          "text": "不同意不反对",
+          "value": "3"
+        },
+        {
+          "id": 12606,
+          "optionNo": "D",
+          "text": "可能不是这样",
+          "value": "4"
+        },
+        {
+          "id": 12607,
+          "optionNo": "E",
+          "text": "确实不是这样",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 3156,
+      "text": "有时我觉得对配偶感觉不到爱和感情",
+      "type": "radio",
+      "orderNum": 117,
+      "options": [
+        {
+          "id": 12608,
+          "optionNo": "A",
+          "text": "确实这样",
+          "value": "1"
+        },
+        {
+          "id": 12609,
+          "optionNo": "B",
+          "text": "可能这样",
+          "value": "2"
+        },
+        {
+          "id": 12610,
+          "optionNo": "C",
+          "text": "不同意不反对",
+          "value": "3"
+        },
+        {
+          "id": 12611,
+          "optionNo": "D",
+          "text": "可能不是这样",
+          "value": "4"
+        },
+        {
+          "id": 12612,
+          "optionNo": "E",
+          "text": "确实不是这样",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 3157,
+      "text": "有时配偶做一些使我不愉快的事",
+      "type": "radio",
+      "orderNum": 118,
+      "options": [
+        {
+          "id": 12613,
+          "optionNo": "A",
+          "text": "确实这样",
+          "value": "1"
+        },
+        {
+          "id": 12614,
+          "optionNo": "B",
+          "text": "可能这样",
+          "value": "2"
+        },
+        {
+          "id": 12615,
+          "optionNo": "C",
+          "text": "不同意不反对",
+          "value": "3"
+        },
+        {
+          "id": 12616,
+          "optionNo": "D",
+          "text": "可能不是这样",
+          "value": "4"
+        },
+        {
+          "id": 12617,
+          "optionNo": "E",
+          "text": "确实不是这样",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 3158,
+      "text": "如果配偶有何过错，我也没意识到",
+      "type": "radio",
+      "orderNum": 119,
+      "options": [
+        {
+          "id": 12618,
+          "optionNo": "A",
+          "text": "确实这样",
+          "value": "1"
+        },
+        {
+          "id": 12619,
+          "optionNo": "B",
+          "text": "可能这样",
+          "value": "2"
+        },
+        {
+          "id": 12620,
+          "optionNo": "C",
+          "text": "不同意不反对",
+          "value": "3"
+        },
+        {
+          "id": 12621,
+          "optionNo": "D",
+          "text": "可能不是这样",
+          "value": "4"
+        },
+        {
+          "id": 12622,
+          "optionNo": "E",
+          "text": "确实不是这样",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 3159,
+      "text": "即使世界上每一个异性都愿与我结婚，我也不能做出比现在婚姻更好的选择",
+      "type": "radio",
+      "orderNum": 120,
+      "options": [
+        {
+          "id": 12623,
+          "optionNo": "A",
+          "text": "确实这样",
+          "value": "1"
+        },
+        {
+          "id": 12624,
+          "optionNo": "B",
+          "text": "可能这样",
+          "value": "2"
+        },
+        {
+          "id": 12625,
+          "optionNo": "C",
+          "text": "不同意不反对",
+          "value": "3"
+        },
+        {
+          "id": 12626,
+          "optionNo": "D",
+          "text": "可能不是这样",
+          "value": "4"
+        },
+        {
+          "id": 12627,
+          "optionNo": "E",
+          "text": "确实不是这样",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 3160,
+      "text": "我们夫妻比世界上任何人都相互适应得好",
+      "type": "radio",
+      "orderNum": 121,
+      "options": [
+        {
+          "id": 12628,
+          "optionNo": "A",
+          "text": "确实这样",
+          "value": "1"
+        },
+        {
+          "id": 12629,
+          "optionNo": "B",
+          "text": "可能这样",
+          "value": "2"
+        },
+        {
+          "id": 12630,
+          "optionNo": "C",
+          "text": "不同意不反对",
+          "value": "3"
+        },
+        {
+          "id": 12631,
+          "optionNo": "D",
+          "text": "可能不是这样",
+          "value": "4"
+        },
+        {
+          "id": 12632,
+          "optionNo": "E",
+          "text": "确实不是这样",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 3161,
+      "text": "关于配偶的每一件新鲜事都使我高兴",
+      "type": "radio",
+      "orderNum": 122,
+      "options": [
+        {
+          "id": 12633,
+          "optionNo": "A",
+          "text": "确实这样",
+          "value": "1"
+        },
+        {
+          "id": 12634,
+          "optionNo": "B",
+          "text": "可能这样",
+          "value": "2"
+        },
+        {
+          "id": 12635,
+          "optionNo": "C",
+          "text": "不同意不反对",
+          "value": "3"
+        },
+        {
+          "id": 12636,
+          "optionNo": "D",
+          "text": "可能不是这样",
+          "value": "4"
+        },
+        {
+          "id": 12637,
+          "optionNo": "E",
+          "text": "确实不是这样",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 3162,
+      "text": "我们的关系比它应有的状况更好",
+      "type": "radio",
+      "orderNum": 123,
+      "options": [
+        {
+          "id": 12638,
+          "optionNo": "A",
+          "text": "确实这样",
+          "value": "1"
+        },
+        {
+          "id": 12639,
+          "optionNo": "B",
+          "text": "可能这样",
+          "value": "2"
+        },
+        {
+          "id": 12640,
+          "optionNo": "C",
+          "text": "不同意不反对",
+          "value": "3"
+        },
+        {
+          "id": 12641,
+          "optionNo": "D",
+          "text": "可能不是这样",
+          "value": "4"
+        },
+        {
+          "id": 12642,
+          "optionNo": "E",
+          "text": "确实不是这样",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 3163,
+      "text": "当我和配偶在一起时，我觉得任何人都不可能比我们幸福",
+      "type": "radio",
+      "orderNum": 124,
+      "options": [
+        {
+          "id": 12643,
+          "optionNo": "A",
+          "text": "确实这样",
+          "value": "1"
+        },
+        {
+          "id": 12644,
+          "optionNo": "B",
+          "text": "可能这样",
+          "value": "2"
+        },
+        {
+          "id": 12645,
+          "optionNo": "C",
+          "text": "不同意不反对",
+          "value": "3"
+        },
+        {
+          "id": 12646,
+          "optionNo": "D",
+          "text": "可能不是这样",
+          "value": "4"
+        },
+        {
+          "id": 12647,
+          "optionNo": "E",
+          "text": "确实不是这样",
+          "value": "5"
+        }
+      ]
+    }
+  ],
+  "dimensions": [
+    {
+      "id": 369,
+      "num": 1,
+      "dimensionName": "过分理想化",
+      "dimensionCode": "A",
+      "evaluateExpression": "hx_t_34 + hx_t_42 + hx_t_64 + hx_t_70 + hx_t_101 + hx_t_116 + hx_t_117 + hx_t_118 + hx_t_119 + hx_t_120 + hx_t_121 + hx_t_122 + hx_t_123 + hx_t_124",
+      "standardScoreFormula": "0",
+      "results": [
+        {
+          "id": 796,
+          "evaluateExpression": "hx_wd_y_1 >= 1&& hx_wd_y_1 <= 70",
+          "conclusionAnalysis": "评分越高，说明受试者对婚姻的评价感情色彩浓，多见于婚前情侣；评分越低，说明受试者对婚姻的评价比较现实，多见于寻求婚姻咨询的配偶中。",
+          "suggestion": "此项得分高者，在未来的婚姻中对伴侣及婚姻的评价应关注到现实的因素，要理性地看待、客观评价伴侣；得分低者，可考虑在婚姻生活中适时增添一些浪漫元素，增添生活情趣，比如适时送给对方一些小礼物，避免婚姻生活太过枯燥。",
+          "assessmentWarning": "none"
+        }
+      ]
+    },
+    {
+      "id": 370,
+      "num": 2,
+      "dimensionName": "婚姻满意度",
+      "dimensionCode": "B",
+      "evaluateExpression": "hx_t_14 + hx_t_19 + hx_t_32 + hx_t_36 + hx_t_52 + hx_t_53 + hx_t_82 + hx_t_88 + hx_t_99 + hx_t_113",
+      "standardScoreFormula": "0",
+      "results": [
+        {
+          "id": 797,
+          "evaluateExpression": "hx_wd_y_2 >= 1&& hx_wd_y_2 <= 50",
+          "conclusionAnalysis": "评分越高，表明婚姻关系大多数方面是和谐与满意的；评分越低，反映婚姻不满意。",
+          "suggestion": "此项得分高者，对婚姻各方面都感到较为满意，建议继续保持这种婚姻状态；得分低者，建议尽快寻找问题出现的原因，和配偶一起面对并寻找解决问题的方法。",
+          "assessmentWarning": "none"
+        }
+      ]
+    },
+    {
+      "id": 371,
+      "num": 3,
+      "dimensionName": "性格相容性",
+      "dimensionCode": "C",
+      "evaluateExpression": "hx_t_8 + hx_t_13 + hx_t_24 + hx_t_30 + hx_t_37 + hx_t_44 + hx_t_63 + hx_t_78 + hx_t_95 + hx_t_115",
+      "standardScoreFormula": "0",
+      "results": [
+        {
+          "id": 798,
+          "evaluateExpression": "hx_wd_y_3 >= 1&& hx_wd_y_3 <= 50",
+          "conclusionAnalysis": "评分越高，表明满意配偶的行为方式；评分越低，表明不满意，并难以容忍。",
+          "suggestion": "此项得分高者，能够包容配偶与自己不同的行为方式及性格缺点，建议继续保持这种和谐的婚姻状况；得分低者，建议其在未来的婚姻生活中对配偶给予更多的包容，尝试多欣赏对方的优点，相互体谅。",
+          "assessmentWarning": "none"
+        }
+      ]
+    },
+    {
+      "id": 372,
+      "num": 4,
+      "dimensionName": "解决冲突的方式",
+      "dimensionCode": "D",
+      "evaluateExpression": "hx_t_4 + hx_t_10 + hx_t_39 + hx_t_58 + hx_t_71 + hx_t_74 + hx_t_79 + hx_t_83 + hx_t_96 + hx_t_112",
+      "standardScoreFormula": "0",
+      "results": [
+        {
+          "id": 799,
+          "evaluateExpression": "hx_wd_y_4 >= 1&& hx_wd_y_4 <= 50",
+          "conclusionAnalysis": "评分越高，表明对解决冲突的方式满意，大多数冲突都能解决；评分低，表明冲突往往不能解决，对解决方式也不满意。",
+          "suggestion": "此项得分高者，善于解决婚姻中的冲突，建议继续保持这种融洽的婚姻状态；得分低者，未来与配偶解决问题时应坦诚相见、平等协商，在交流技巧方面也需注意提高。",
+          "assessmentWarning": "none"
+        }
+      ]
+    },
+    {
+      "id": 373,
+      "num": 5,
+      "dimensionName": "经济安排",
+      "dimensionCode": "E",
+      "evaluateExpression": "hx_t_16 + hx_t_20 + hx_t_26 + hx_t_38 + hx_t_45 + hx_t_51 + hx_t_77 + hx_t_85 + hx_t_93 + hx_t_110",
+      "standardScoreFormula": "0",
+      "results": [
+        {
+          "id": 800,
+          "evaluateExpression": "hx_wd_y_5 >= 1&& hx_wd_y_5 <= 50",
+          "conclusionAnalysis": "评分越高，表明受试者对经济安排满意，对经济的开销实际的态度；评分越低，表明夫妻间在经济安排上有矛盾。",
+          "suggestion": "此项得分高者，对于夫妻间经济上的安排能够达成一致意见，建议继续保持这种和谐的婚姻状态；得分低者，应反思自身及配偶的消费观念和习惯，就经济安排问题与配偶坦诚协商，尽量达成一致意见。",
+          "assessmentWarning": "none"
+        }
+      ]
+    },
+    {
+      "id": 374,
+      "num": 6,
+      "dimensionName": "业余活动",
+      "dimensionCode": "F",
+      "evaluateExpression": "hx_t_1 + hx_t_17 + hx_t_18 + hx_t_28 + hx_t_31 + hx_t_33 + hx_t_60 + hx_t_72 + hx_t_84 + hx_t_114",
+      "standardScoreFormula": "0",
+      "results": [
+        {
+          "id": 801,
+          "evaluateExpression": "hx_wd_y_6 >= 1&& hx_wd_y_6 <= 50",
+          "conclusionAnalysis": "评分越高，表明业余生活是和谐，灵活，夫妻有共感；评分越低，反映夫妻业余生活有矛盾。",
+          "suggestion": "此项得分高者，夫妻在业余生活方面有共同的兴趣爱好，建议继续保持这种和谐的婚姻状况；得分低者，应尽量尊重配偶的业余生活方式，如遇矛盾，可坦诚与配偶协商，努力取得共识。",
+          "assessmentWarning": "none"
+        }
+      ]
+    },
+    {
+      "id": 375,
+      "num": 7,
+      "dimensionName": "信仰一致性",
+      "dimensionCode": "G",
+      "evaluateExpression": "hx_t_3 + hx_t_11 + hx_t_22 + hx_t_46 + hx_t_56 + hx_t_65 + hx_t_76 + hx_t_89 + hx_t_100 + hx_t_104",
+      "standardScoreFormula": "0",
+      "results": [
+        {
+          "id": 802,
+          "evaluateExpression": "hx_wd_y_7 >= 1&& hx_wd_y_7 <= 50",
+          "conclusionAnalysis": "评分越高，表明受试更倾向坚持传统的婚姻宗教观念；评分越低，表明受试不愿意受传统观念的束缚。双方评分一致，表明夫妻双方信仰一致，均高者提示双方均看重传统的婚姻观念，夫妻一方评分高，一方评分低,低者更可能是冲突的来源。",
+          "suggestion": "此项得分夫妻不一致时，得分低者应尊重配偶的传统婚姻宗教观念，尽量避免因信仰问题给婚姻带来的矛盾和冲突；得分高者，也应对配偶给予适当的包容。夫妻双方不可强迫对方在宗教观念及信仰问题上与自己达成一致。",
+          "assessmentWarning": "none"
+        }
+      ]
+    },
+    {
+      "id": 376,
+      "num": 8,
+      "dimensionName": "子女和婚姻",
+      "dimensionCode": "H",
+      "evaluateExpression": "hx_t_5 + hx_t_21 + hx_t_35 + hx_t_49 + hx_t_50 + hx_t_59 + hx_t_67 + hx_t_87 + hx_t_94 + hx_t_102",
+      "standardScoreFormula": "0",
+      "results": [
+        {
+          "id": 803,
+          "evaluateExpression": "hx_wd_y_8 >= 1&& hx_wd_y_8 <= 50",
+          "conclusionAnalysis": "评分高，表明受试者对是否生育子女以及子女数和态度，对管教子女的经验，对子女的期望是统一的，满意的。评分越低，则表明不满意。",
+          "suggestion": "此项得分高者，表明夫妻双方对子女的生育和教养方式能够达成共识，建议继续保持这种和谐的婚姻状态；得分低者，应在尊重对方的基础上多与配偶进行坦诚的沟通和协商，双方应适时作出让步，努力达成共识。",
+          "assessmentWarning": "none"
+        }
+      ]
+    },
+    {
+      "id": 377,
+      "num": 9,
+      "dimensionName": "与亲、友的关系",
+      "dimensionCode": "I",
+      "evaluateExpression": "hx_t_7 + hx_t_27 + hx_t_48 + hx_t_57 + hx_t_68 + hx_t_86 + hx_t_90 + hx_t_92 + hx_t_103 + hx_t_108",
+      "standardScoreFormula": "0",
+      "results": [
+        {
+          "id": 804,
+          "evaluateExpression": "hx_wd_y_9 >= 1&& hx_wd_y_9 <= 50",
+          "conclusionAnalysis": "评分越高，说明夫妻双方与亲友关系和谐；评分越低，表示与亲友间存在潜在的冲突。",
+          "suggestion": "此项得分高者，夫妻双方能够与亲、友保持和睦关系，建议继续保持这种美满的婚姻状态；得分低者，需反思与亲友相处的时间是否过多或过少，相处方式是否存在问题。应在相互尊重的基础上，坦诚相待，与亲友一起商讨解决方法。",
+          "assessmentWarning": "none"
+        }
+      ]
+    },
+    {
+      "id": 378,
+      "num": 10,
+      "dimensionName": "夫妻交流",
+      "dimensionCode": "J",
+      "evaluateExpression": "hx_t_2 + hx_t_6 + hx_t_40 + hx_t_54 + hx_t_66 + hx_t_73 + hx_t_81 + hx_t_91 + hx_t_98 + hx_t_109",
+      "standardScoreFormula": "0",
+      "results": [
+        {
+          "id": 805,
+          "evaluateExpression": "hx_wd_y_10 >= 1&& hx_wd_y_10 <= 50",
+          "conclusionAnalysis": "评分越高，表明受试对夫妻交流方式与交流量感到满意；评分越低，表明交流有缺陷，需改善交流方式。",
+          "suggestion": "此项得分高者，表明夫妻双方交流通畅，交流方式恰当有效，建议继续保持这种和谐的婚姻状态；得分低者，需反思与配偶之间的交流方式是否存在问题，交流时间是否充足。交流时，夫妻之间应做到相互尊重，坦诚相见。",
+          "assessmentWarning": "none"
+        }
+      ]
+    },
+    {
+      "id": 379,
+      "num": 11,
+      "dimensionName": "性生活",
+      "dimensionCode": "K",
+      "evaluateExpression": "hx_t_9 + hx_t_15 + hx_t_25 + hx_t_41 + hx_t_47 + hx_t_62 + hx_t_69 + hx_t_106 + hx_t_106 + hx_t_111",
+      "standardScoreFormula": "0",
+      "results": [
+        {
+          "id": 806,
+          "evaluateExpression": "hx_wd_y_11 >= 1&& hx_wd_y_11 <= 50",
+          "conclusionAnalysis": "评分越高，表明受试者对夫妻间感情表达满意，对性角色的状况满意；评分低表明不满意。",
+          "suggestion": "此项得分高者，表明夫妻间性生活和谐美满，建议继续保持这种婚姻状态；得分低者，需寻找不满意的原因，坦诚与配偶交流，真诚地表达自己的需要和感受，夫妻间的满意的感情和性生活，需要夫妻双方共同努力。",
+          "assessmentWarning": "none"
+        }
+      ]
+    },
+    {
+      "id": 380,
+      "num": 12,
+      "dimensionName": "角色平等性",
+      "dimensionCode": "L",
+      "evaluateExpression": "hx_t_12 + hx_t_23 + hx_t_29 + hx_t_43 + hx_t_55 + hx_t_61 + hx_t_75 + hx_t_80 + hx_t_97 + hx_t_105",
+      "standardScoreFormula": "0",
+      "results": [
+        {
+          "id": 807,
+          "evaluateExpression": "hx_wd_y_12 >= 1&& hx_wd_y_12 <= 50",
+          "conclusionAnalysis": "评分越高，表明受试者主张男女平等，希望夫妻角色公平分配；评分越低，表明受试主张传统的夫妻角色与责任分配。如果夫妻双方评分均高，提示夫妻和谐度高。",
+          "suggestion": "低分者应调整自身的观念，在夫妻角色分配时给予配偶充分的尊重和理解。如果仍无法解决矛盾，可以考虑向有经验的亲友或婚姻咨询专家咨询。",
+          "assessmentWarning": "none"
+        }
+      ]
+    },
+    {
+      "id": 381,
+      "num": 13,
+      "dimensionName": "婚姻质量总粗分",
+      "dimensionCode": "M",
+      "evaluateExpression": "hx_t_1 + hx_t_2 + hx_t_3 + hx_t_4 + hx_t_5 + hx_t_6 + hx_t_7 + hx_t_8 + hx_t_9 + hx_t_10 + hx_t_11 + hx_t_12 + hx_t_13 + hx_t_14 + hx_t_15 + hx_t_16 + hx_t_17 + hx_t_18 + hx_t_19 + hx_t_20 + hx_t_21 + hx_t_22 + hx_t_23 + hx_t_24 + hx_t_25 + hx_t_26 + hx_t_27 + hx_t_28 + hx_t_29 + hx_t_30 + hx_t_31 + hx_t_32 + hx_t_33 + hx_t_34 + hx_t_35 + hx_t_36 + hx_t_37 + hx_t_38 + hx_t_39 + hx_t_40 + hx_t_41 + hx_t_42 + hx_t_43 + hx_t_44 + hx_t_45 + hx_t_46 + hx_t_47 + hx_t_48 + hx_t_49 + hx_t_50 + hx_t_51 + hx_t_52 + hx_t_53 + hx_t_54 + hx_t_55 + hx_t_56 + hx_t_57 + hx_t_58 + hx_t_59 + hx_t_60 + hx_t_61 + hx_t_62 + hx_t_63 + hx_t_64 + hx_t_65 + hx_t_66 + hx_t_67 + hx_t_68 + hx_t_69 + hx_t_70 + hx_t_71 + hx_t_72 + hx_t_73 + hx_t_74 + hx_t_75 + hx_t_76 + hx_t_77 + hx_t_78 + hx_t_79 + hx_t_80 + hx_t_81 + hx_t_82 + hx_t_83 + hx_t_84 + hx_t_85 + hx_t_86 + hx_t_87 + hx_t_88 + hx_t_89 + hx_t_90 + hx_t_91 + hx_t_92 + hx_t_93 + hx_t_94 + hx_t_95 + hx_t_96 + hx_t_97 + hx_t_98 + hx_t_99 + hx_t_100 + hx_t_101 + hx_t_102 + hx_t_103 + hx_t_104 + hx_t_105 + hx_t_106 + hx_t_107 + hx_t_108 + hx_t_109 + hx_t_110 + hx_t_111 + hx_t_112 + hx_t_113 + hx_t_114 + hx_t_115 + hx_t_116 + hx_t_117 + hx_t_118 + hx_t_119 + hx_t_120 + hx_t_121 + hx_t_122 + hx_t_123 + hx_t_124",
+      "standardScoreFormula": "0",
+      "results": [
+        {
+          "id": 808,
+          "evaluateExpression": "hx_wd_y_13 >= 497&& hx_wd_y_13 <= 620",
+          "conclusionAnalysis": "婚姻质量非常好。",
+          "suggestion": "说明你们的婚姻质量非常好，请继续保持哦。",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 809,
+          "evaluateExpression": "hx_wd_y_13 >= 124&& hx_wd_y_13 <= 248",
+          "conclusionAnalysis": "婚姻关系质量不是特别好。",
+          "suggestion": "你们的婚姻关系质量不是特别好，建议您和您的爱人应该彼此好好沟通，坦诚交流，有什么问题解释清楚就没有问题了，沟通是最好的良药。或者建议您和您的爱人去专业的心理医生那里进行必要的心理辅导，以缓解你们的婚姻质量。",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 810,
+          "evaluateExpression": "hx_wd_y_13 >= 249&& hx_wd_y_13 <= 372",
+          "conclusionAnalysis": "婚姻质量一般。",
+          "suggestion": "你们的婚姻质量一般，希望您和您的爱人能够更好的沟通，交流，使婚姻质量更好，更令你们满意。",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 811,
+          "evaluateExpression": "hx_wd_y_13 >= 373&& hx_wd_y_13 <= 496",
+          "conclusionAnalysis": "婚姻质量较好。",
+          "suggestion": "说明你们的婚姻质量较好，很不错了，希望您和您的爱人，继续保持。",
+          "assessmentWarning": "none"
+        }
+      ]
+    }
+  ]
+}

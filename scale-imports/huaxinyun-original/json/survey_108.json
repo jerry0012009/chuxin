@@ -1,0 +1,296 @@
+{
+  "id": 108,
+  "title": "阿森斯失眠量表(AIS)",
+  "type": "basic",
+  "questions": [
+    {
+      "id": 2292,
+      "text": "入睡时间（关灯后到睡着的时间）",
+      "type": "radio",
+      "orderNum": 1,
+      "options": [
+        {
+          "id": 9343,
+          "optionNo": "A",
+          "text": "没问题",
+          "value": "0"
+        },
+        {
+          "id": 9344,
+          "optionNo": "B",
+          "text": "轻微延迟",
+          "value": "1"
+        },
+        {
+          "id": 9345,
+          "optionNo": "C",
+          "text": "显著延迟",
+          "value": "2"
+        },
+        {
+          "id": 9346,
+          "optionNo": "D",
+          "text": "延迟严重或没有睡觉",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "id": 2293,
+      "text": "夜间苏醒",
+      "type": "radio",
+      "orderNum": 2,
+      "options": [
+        {
+          "id": 9347,
+          "optionNo": "A",
+          "text": "没问题",
+          "value": "0"
+        },
+        {
+          "id": 9348,
+          "optionNo": "B",
+          "text": "轻微影响",
+          "value": "1"
+        },
+        {
+          "id": 9349,
+          "optionNo": "C",
+          "text": "显著影响",
+          "value": "2"
+        },
+        {
+          "id": 9350,
+          "optionNo": "D",
+          "text": "严重影响或没有睡觉",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "id": 2294,
+      "text": "比期望的时间早醒",
+      "type": "radio",
+      "orderNum": 3,
+      "options": [
+        {
+          "id": 9351,
+          "optionNo": "A",
+          "text": "没问题",
+          "value": "0"
+        },
+        {
+          "id": 9352,
+          "optionNo": "B",
+          "text": "轻微提早",
+          "value": "1"
+        },
+        {
+          "id": 9353,
+          "optionNo": "C",
+          "text": "显著提早",
+          "value": "2"
+        },
+        {
+          "id": 9354,
+          "optionNo": "D",
+          "text": "严重提早或没有睡觉",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "id": 2295,
+      "text": "总睡眠时间",
+      "type": "radio",
+      "orderNum": 4,
+      "options": [
+        {
+          "id": 9355,
+          "optionNo": "A",
+          "text": "足够",
+          "value": "0"
+        },
+        {
+          "id": 9356,
+          "optionNo": "B",
+          "text": "轻微不足",
+          "value": "1"
+        },
+        {
+          "id": 9357,
+          "optionNo": "C",
+          "text": "显著不足",
+          "value": "2"
+        },
+        {
+          "id": 9358,
+          "optionNo": "D",
+          "text": "严重不足或没有睡觉",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "id": 2296,
+      "text": "总睡眠质量（无论睡多长）",
+      "type": "radio",
+      "orderNum": 5,
+      "options": [
+        {
+          "id": 9359,
+          "optionNo": "A",
+          "text": "满意",
+          "value": "0"
+        },
+        {
+          "id": 9360,
+          "optionNo": "B",
+          "text": "轻微不满",
+          "value": "1"
+        },
+        {
+          "id": 9361,
+          "optionNo": "C",
+          "text": "显著不满",
+          "value": "2"
+        },
+        {
+          "id": 9362,
+          "optionNo": "D",
+          "text": "严重不满或没有睡觉",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "id": 2297,
+      "text": "白天情绪",
+      "type": "radio",
+      "orderNum": 6,
+      "options": [
+        {
+          "id": 9363,
+          "optionNo": "A",
+          "text": "正常",
+          "value": "0"
+        },
+        {
+          "id": 9364,
+          "optionNo": "B",
+          "text": "轻微低落",
+          "value": "1"
+        },
+        {
+          "id": 9365,
+          "optionNo": "C",
+          "text": "显著低落",
+          "value": "2"
+        },
+        {
+          "id": 9366,
+          "optionNo": "D",
+          "text": "严重低落",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "id": 2298,
+      "text": "白天身体功能（体力或精神：如记忆力、认知力和注意力等）",
+      "type": "radio",
+      "orderNum": 7,
+      "options": [
+        {
+          "id": 9367,
+          "optionNo": "A",
+          "text": "足够",
+          "value": "0"
+        },
+        {
+          "id": 9368,
+          "optionNo": "B",
+          "text": "轻微影响",
+          "value": "1"
+        },
+        {
+          "id": 9369,
+          "optionNo": "C",
+          "text": "显著影响",
+          "value": "2"
+        },
+        {
+          "id": 9370,
+          "optionNo": "D",
+          "text": "严重影响",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "id": 2299,
+      "text": "白天思睡",
+      "type": "radio",
+      "orderNum": 8,
+      "options": [
+        {
+          "id": 9371,
+          "optionNo": "A",
+          "text": "无思睡",
+          "value": "0"
+        },
+        {
+          "id": 9372,
+          "optionNo": "B",
+          "text": "轻微思睡",
+          "value": "1"
+        },
+        {
+          "id": 9373,
+          "optionNo": "C",
+          "text": "显著思睡",
+          "value": "2"
+        },
+        {
+          "id": 9374,
+          "optionNo": "D",
+          "text": "严重思睡",
+          "value": "3"
+        }
+      ]
+    }
+  ],
+  "dimensions": [
+    {
+      "id": 295,
+      "num": 1,
+      "dimensionName": "总分",
+      "dimensionCode": "A",
+      "evaluateExpression": "hx_t_1 + hx_t_2 + hx_t_3 + hx_t_4 + hx_t_5 + hx_t_6 + hx_t_7 + hx_t_8",
+      "standardScoreFormula": "0",
+      "results": [
+        {
+          "id": 586,
+          "evaluateExpression": "hx_wd_y_1 >= 0&& hx_wd_y_1 <= 3",
+          "conclusionAnalysis": "无睡眠障碍",
+          "suggestion": "失眠通常指患者对睡眠时间或质量不满足并影响白天社会功能的一种主观体验。\n按临床表现分类：\n①睡眠潜入期：入睡时间超过30 分钟；\n②睡眠维持：夜间觉醒次数超过2次或凌晨早醒；\n③睡眠质量：多噩梦；\n④总的睡眠时间少于6小时；\n⑤日间残留效应：次晨感到头昏、精神不振、嗜睡、乏力等。\n按病程分类：\n①一过性或急性失眠：病程小于4周；\n②短期或亚急性失眠：病程大于4周小于36个月；\n③长期或慢性失眠：病程大于6个月。\n按严重程度分类：\n①轻度：偶发，对生活质量影响小；\n②中度：每晚发生，中度影响生活质量，伴一定症状（易怒、焦虑、疲乏等）；\n③重度：每晚发生，严重影响生活质量，临床症状表现突出。",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 587,
+          "evaluateExpression": "hx_wd_y_1 >= 4&& hx_wd_y_1 <= 6",
+          "conclusionAnalysis": "可疑失眠障碍",
+          "suggestion": "失眠通常指患者对睡眠时间或质量不满足并影响白天社会功能的一种主观体验。\n按临床表现分类：\n①睡眠潜入期：入睡时间超过30 分钟；\n②睡眠维持：夜间觉醒次数超过2次或凌晨早醒；\n③睡眠质量：多噩梦；\n④总的睡眠时间少于6小时；\n⑤日间残留效应：次晨感到头昏、精神不振、嗜睡、乏力等。\n按病程分类：\n①一过性或急性失眠：病程小于4周；\n②短期或亚急性失眠：病程大于4周小于36个月；\n③长期或慢性失眠：病程大于6个月。\n按严重程度分类：\n①轻度：偶发，对生活质量影响小；\n②中度：每晚发生，中度影响生活质量，伴一定症状（易怒、焦虑、疲乏等）；\n③重度：每晚发生，严重影响生活质量，临床症状表现突出。",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 588,
+          "evaluateExpression": "hx_wd_y_1 >= 7&& hx_wd_y_1 <= 24",
+          "conclusionAnalysis": "失眠障碍",
+          "suggestion": "失眠通常指患者对睡眠时间或质量不满足并影响白天社会功能的一种主观体验。\n按临床表现分类：\n①睡眠潜入期：入睡时间超过30 分钟；\n②睡眠维持：夜间觉醒次数超过2次或凌晨早醒；\n③睡眠质量：多噩梦；\n④总的睡眠时间少于6小时；\n⑤日间残留效应：次晨感到头昏、精神不振、嗜睡、乏力等。\n按病程分类：\n①一过性或急性失眠：病程小于4周；\n②短期或亚急性失眠：病程大于4周小于36个月；\n③长期或慢性失眠：病程大于6个月。\n按严重程度分类：\n①轻度：偶发，对生活质量影响小；\n②中度：每晚发生，中度影响生活质量，伴一定症状（易怒、焦虑、疲乏等）；\n③重度：每晚发生，严重影响生活质量，临床症状表现突出。",
+          "assessmentWarning": "none"
+        }
+      ]
+    }
+  ]
+}

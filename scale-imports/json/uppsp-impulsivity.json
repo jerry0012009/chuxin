@@ -1,0 +1,748 @@
+{
+  "id": "uppsp-impulsivity",
+  "title": "UPPS-P冲动行为量表(UPPS-P)",
+  "description": "本问卷帮助了解您在冲动性方面的五个不同维度，包括情绪冲动和行为冲动。共20题，大约需要4分钟完成。",
+  "type": "basic",
+  "questions": [
+    {
+      "text": "当我感到沮丧时，我往往会做一些事后会后悔的事情来让自己好受一些。",
+      "type": "radio",
+      "orderNum": 1,
+      "options": [
+        {
+          "text": "非常不同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "有些不同意",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "有些同意",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "非常同意",
+          "value": "4",
+          "optionNo": "D"
+        }
+      ]
+    },
+    {
+      "text": "即使在心情不好的时候，我也能控制自己的行为。",
+      "type": "radio",
+      "orderNum": 2,
+      "options": [
+        {
+          "text": "非常不同意",
+          "value": "4",
+          "optionNo": "A"
+        },
+        {
+          "text": "有些不同意",
+          "value": "3",
+          "optionNo": "B"
+        },
+        {
+          "text": "有些同意",
+          "value": "2",
+          "optionNo": "C"
+        },
+        {
+          "text": "非常同意",
+          "value": "1",
+          "optionNo": "D"
+        }
+      ]
+    },
+    {
+      "text": "当我感到心烦意乱时，我往往会做出冲动的决定。",
+      "type": "radio",
+      "orderNum": 3,
+      "options": [
+        {
+          "text": "非常不同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "有些不同意",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "有些同意",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "非常同意",
+          "value": "4",
+          "optionNo": "D"
+        }
+      ]
+    },
+    {
+      "text": "即使情绪低落时，我也能保持冷静和理性。",
+      "type": "radio",
+      "orderNum": 4,
+      "options": [
+        {
+          "text": "非常不同意",
+          "value": "4",
+          "optionNo": "A"
+        },
+        {
+          "text": "有些不同意",
+          "value": "3",
+          "optionNo": "B"
+        },
+        {
+          "text": "有些同意",
+          "value": "2",
+          "optionNo": "C"
+        },
+        {
+          "text": "非常同意",
+          "value": "1",
+          "optionNo": "D"
+        }
+      ]
+    },
+    {
+      "text": "我做事往往不假思索。",
+      "type": "radio",
+      "orderNum": 5,
+      "options": [
+        {
+          "text": "非常不同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "有些不同意",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "有些同意",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "非常同意",
+          "value": "4",
+          "optionNo": "D"
+        }
+      ]
+    },
+    {
+      "text": "在做决定之前，我会仔细考虑各种可能的结果。",
+      "type": "radio",
+      "orderNum": 6,
+      "options": [
+        {
+          "text": "非常不同意",
+          "value": "4",
+          "optionNo": "A"
+        },
+        {
+          "text": "有些不同意",
+          "value": "3",
+          "optionNo": "B"
+        },
+        {
+          "text": "有些同意",
+          "value": "2",
+          "optionNo": "C"
+        },
+        {
+          "text": "非常同意",
+          "value": "1",
+          "optionNo": "D"
+        }
+      ]
+    },
+    {
+      "text": "我通常会先行动再思考。",
+      "type": "radio",
+      "orderNum": 7,
+      "options": [
+        {
+          "text": "非常不同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "有些不同意",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "有些同意",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "非常同意",
+          "value": "4",
+          "optionNo": "D"
+        }
+      ]
+    },
+    {
+      "text": "我在采取行动之前会认真思考可能的后果。",
+      "type": "radio",
+      "orderNum": 8,
+      "options": [
+        {
+          "text": "非常不同意",
+          "value": "4",
+          "optionNo": "A"
+        },
+        {
+          "text": "有些不同意",
+          "value": "3",
+          "optionNo": "B"
+        },
+        {
+          "text": "有些同意",
+          "value": "2",
+          "optionNo": "C"
+        },
+        {
+          "text": "非常同意",
+          "value": "1",
+          "optionNo": "D"
+        }
+      ]
+    },
+    {
+      "text": "我喜欢冒险和寻求刺激的体验。",
+      "type": "radio",
+      "orderNum": 9,
+      "options": [
+        {
+          "text": "非常不同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "有些不同意",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "有些同意",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "非常同意",
+          "value": "4",
+          "optionNo": "D"
+        }
+      ]
+    },
+    {
+      "text": "我喜欢做大胆和刺激的事情。",
+      "type": "radio",
+      "orderNum": 10,
+      "options": [
+        {
+          "text": "非常不同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "有些不同意",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "有些同意",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "非常同意",
+          "value": "4",
+          "optionNo": "D"
+        }
+      ]
+    },
+    {
+      "text": "我更喜欢兴奋和冒险的生活方式，而不是平静和可预测的生活。",
+      "type": "radio",
+      "orderNum": 11,
+      "options": [
+        {
+          "text": "非常不同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "有些不同意",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "有些同意",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "非常同意",
+          "value": "4",
+          "optionNo": "D"
+        }
+      ]
+    },
+    {
+      "text": "我更喜欢稳定和安全的生活，而不是充满冒险的生活。",
+      "type": "radio",
+      "orderNum": 12,
+      "options": [
+        {
+          "text": "非常不同意",
+          "value": "4",
+          "optionNo": "A"
+        },
+        {
+          "text": "有些不同意",
+          "value": "3",
+          "optionNo": "B"
+        },
+        {
+          "text": "有些同意",
+          "value": "2",
+          "optionNo": "C"
+        },
+        {
+          "text": "非常同意",
+          "value": "1",
+          "optionNo": "D"
+        }
+      ]
+    },
+    {
+      "text": "我很难集中精力完成一项任务。",
+      "type": "radio",
+      "orderNum": 13,
+      "options": [
+        {
+          "text": "非常不同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "有些不同意",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "有些同意",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "非常同意",
+          "value": "4",
+          "optionNo": "D"
+        }
+      ]
+    },
+    {
+      "text": "一旦开始做一件事，我通常会坚持到底。",
+      "type": "radio",
+      "orderNum": 14,
+      "options": [
+        {
+          "text": "非常不同意",
+          "value": "4",
+          "optionNo": "A"
+        },
+        {
+          "text": "有些不同意",
+          "value": "3",
+          "optionNo": "B"
+        },
+        {
+          "text": "有些同意",
+          "value": "2",
+          "optionNo": "C"
+        },
+        {
+          "text": "非常同意",
+          "value": "1",
+          "optionNo": "D"
+        }
+      ]
+    },
+    {
+      "text": "我经常半途而废。",
+      "type": "radio",
+      "orderNum": 15,
+      "options": [
+        {
+          "text": "非常不同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "有些不同意",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "有些同意",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "非常同意",
+          "value": "4",
+          "optionNo": "D"
+        }
+      ]
+    },
+    {
+      "text": "即使遇到困难，我也会坚持完成已经开始的事情。",
+      "type": "radio",
+      "orderNum": 16,
+      "options": [
+        {
+          "text": "非常不同意",
+          "value": "4",
+          "optionNo": "A"
+        },
+        {
+          "text": "有些不同意",
+          "value": "3",
+          "optionNo": "B"
+        },
+        {
+          "text": "有些同意",
+          "value": "2",
+          "optionNo": "C"
+        },
+        {
+          "text": "非常同意",
+          "value": "1",
+          "optionNo": "D"
+        }
+      ]
+    },
+    {
+      "text": "当我非常开心的时候，我往往会做出一些冲动的事情。",
+      "type": "radio",
+      "orderNum": 17,
+      "options": [
+        {
+          "text": "非常不同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "有些不同意",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "有些同意",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "非常同意",
+          "value": "4",
+          "optionNo": "D"
+        }
+      ]
+    },
+    {
+      "text": "当心情特别好的时候，我可能会做出一些事后后悔的决定。",
+      "type": "radio",
+      "orderNum": 18,
+      "options": [
+        {
+          "text": "非常不同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "有些不同意",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "有些同意",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "非常同意",
+          "value": "4",
+          "optionNo": "D"
+        }
+      ]
+    },
+    {
+      "text": "当我兴奋的时候，我往往会不假思索地说出一些话。",
+      "type": "radio",
+      "orderNum": 19,
+      "options": [
+        {
+          "text": "非常不同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "有些不同意",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "有些同意",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "非常同意",
+          "value": "4",
+          "optionNo": "D"
+        }
+      ]
+    },
+    {
+      "text": "即使在非常开心的时候，我也能控制自己的冲动。",
+      "type": "radio",
+      "orderNum": 20,
+      "options": [
+        {
+          "text": "非常不同意",
+          "value": "4",
+          "optionNo": "A"
+        },
+        {
+          "text": "有些不同意",
+          "value": "3",
+          "optionNo": "B"
+        },
+        {
+          "text": "有些同意",
+          "value": "2",
+          "optionNo": "C"
+        },
+        {
+          "text": "非常同意",
+          "value": "1",
+          "optionNo": "D"
+        }
+      ]
+    }
+  ],
+  "dimensions": [
+    {
+      "dimensionName": "负性急迫性",
+      "dimensionCode": "neg_urgency",
+      "num": 1,
+      "evaluateExpression": "hx_t_1 + hx_t_2 + hx_t_3 + hx_t_4",
+      "standardScoreFormula": "",
+      "results": [
+        {
+          "evaluateExpression": "hx_wd_y_1 <= 7",
+          "conclusionAnalysis": "负性急迫性较低",
+          "suggestion": "您在负面情绪下的冲动性较低，能够较好地控制自己在情绪低落时的行为。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_1 > 7 && hx_wd_y_1 <= 10",
+          "conclusionAnalysis": "负性急迫性中等",
+          "suggestion": "您在负面情绪下偶尔会出现冲动行为，属于正常范围。建议学习情绪调节技巧，以便更好地管理情绪驱动的冲动。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_1 > 10 && hx_wd_y_1 <= 13",
+          "conclusionAnalysis": "负性急迫性较高",
+          "suggestion": "您在负面情绪下容易做出冲动决定，建议关注情绪管理，学习正念等调节方法，避免在情绪低落时做出让自己后悔的行为。",
+          "assessmentWarning": "low"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_1 > 13",
+          "conclusionAnalysis": "负性急迫性很高",
+          "suggestion": "您在负面情绪下的冲动性非常高，可能已经对生活造成了影响。建议寻求专业心理咨询，学习有效的情绪调节和冲动控制策略。",
+          "assessmentWarning": "middle"
+        }
+      ]
+    },
+    {
+      "dimensionName": "缺少预先考虑",
+      "dimensionCode": "lack_premeditation",
+      "num": 2,
+      "evaluateExpression": "hx_t_5 + hx_t_6 + hx_t_7 + hx_t_8",
+      "standardScoreFormula": "",
+      "results": [
+        {
+          "evaluateExpression": "hx_wd_y_2 <= 7",
+          "conclusionAnalysis": "预先考虑能力良好",
+          "suggestion": "您在行动前能够充分思考和计划，具有良好的预判能力。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_2 > 7 && hx_wd_y_2 <= 10",
+          "conclusionAnalysis": "预先考虑能力中等",
+          "suggestion": "您在行动前的思考能力处于正常范围，偶尔可能会冲动行事。建议在重要决定前给自己留出思考的时间。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_2 > 10 && hx_wd_y_2 <= 13",
+          "conclusionAnalysis": "缺少预先考虑",
+          "suggestion": "您在行动前可能缺乏充分的思考，容易不经考虑就做出决定。建议培养「暂停-思考-行动」的习惯。",
+          "assessmentWarning": "low"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_2 > 13",
+          "conclusionAnalysis": "严重缺少预先考虑",
+          "suggestion": "您在行动前很少进行充分的思考和计划，这可能影响到您的决策质量和生活。建议寻求专业指导，提升计划和预判能力。",
+          "assessmentWarning": "middle"
+        }
+      ]
+    },
+    {
+      "dimensionName": "快感寻求",
+      "dimensionCode": "sensation_seeking",
+      "num": 3,
+      "evaluateExpression": "hx_t_9 + hx_t_10 + hx_t_11 + hx_t_12",
+      "standardScoreFormula": "",
+      "results": [
+        {
+          "evaluateExpression": "hx_wd_y_3 <= 7",
+          "conclusionAnalysis": "快感寻求较低",
+          "suggestion": "您对新奇和刺激体验的需求较低，更倾向于稳定和安全的生活方式。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_3 > 7 && hx_wd_y_3 <= 10",
+          "conclusionAnalysis": "快感寻求中等",
+          "suggestion": "您对新奇体验的需求处于正常范围，能够平衡冒险和安全之间的关系。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_3 > 10 && hx_wd_y_3 <= 13",
+          "conclusionAnalysis": "快感寻求较高",
+          "suggestion": "您对刺激和冒险体验有较高的需求，建议在追求刺激的同时注意安全和风险评估。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_3 > 13",
+          "conclusionAnalysis": "快感寻求很高",
+          "suggestion": "您对刺激和冒险体验的需求非常高，可能会因为追求刺激而忽视潜在风险。建议在满足好奇心的同时保持理性的风险意识。",
+          "assessmentWarning": "low"
+        }
+      ]
+    },
+    {
+      "dimensionName": "缺少毅力",
+      "dimensionCode": "lack_perseverance",
+      "num": 4,
+      "evaluateExpression": "hx_t_13 + hx_t_14 + hx_t_15 + hx_t_16",
+      "standardScoreFormula": "",
+      "results": [
+        {
+          "evaluateExpression": "hx_wd_y_4 <= 7",
+          "conclusionAnalysis": "毅力良好",
+          "suggestion": "您具有良好的坚持能力，能够专注于完成任务和目标。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_4 > 7 && hx_wd_y_4 <= 10",
+          "conclusionAnalysis": "毅力中等",
+          "suggestion": "您的坚持能力处于正常范围，偶尔可能会在遇到困难时放弃。建议设定阶段性目标以保持动力。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_4 > 10 && hx_wd_y_4 <= 13",
+          "conclusionAnalysis": "缺少毅力",
+          "suggestion": "您在完成任务和坚持目标方面可能存在困难，建议学习时间管理技巧，将大目标分解为小步骤逐步完成。",
+          "assessmentWarning": "low"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_4 > 13",
+          "conclusionAnalysis": "严重缺少毅力",
+          "suggestion": "您在坚持完成任务方面存在明显困难，可能影响到学业或工作表现。建议寻求专业指导，提升自我管理和执行功能。",
+          "assessmentWarning": "middle"
+        }
+      ]
+    },
+    {
+      "dimensionName": "正性急迫性",
+      "dimensionCode": "pos_urgency",
+      "num": 5,
+      "evaluateExpression": "hx_t_17 + hx_t_18 + hx_t_19 + hx_t_20",
+      "standardScoreFormula": "",
+      "results": [
+        {
+          "evaluateExpression": "hx_wd_y_5 <= 7",
+          "conclusionAnalysis": "正性急迫性较低",
+          "suggestion": "您在积极情绪下能够保持较好的行为控制，不易因兴奋而冲动行事。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_5 > 7 && hx_wd_y_5 <= 10",
+          "conclusionAnalysis": "正性急迫性中等",
+          "suggestion": "您在积极情绪下偶尔会出现冲动行为，属于正常范围。建议在开心时也保持适度的自我觉察。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_5 > 10 && hx_wd_y_5 <= 13",
+          "conclusionAnalysis": "正性急迫性较高",
+          "suggestion": "您在积极情绪下容易做出冲动决定，建议学会在兴奋和快乐时也保持冷静思考。",
+          "assessmentWarning": "low"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_5 > 13",
+          "conclusionAnalysis": "正性急迫性很高",
+          "suggestion": "您在积极情绪下的冲动性非常高，可能会在兴奋时做出不理性的决定。建议培养情绪觉察能力，在任何情绪状态下都保持适度的思考。",
+          "assessmentWarning": "middle"
+        }
+      ]
+    },
+    {
+      "dimensionName": "冲动性总分",
+      "dimensionCode": "total_impulsivity",
+      "num": 6,
+      "evaluateExpression": "hx_t_1 + hx_t_2 + hx_t_3 + hx_t_4 + hx_t_5 + hx_t_6 + hx_t_7 + hx_t_8 + hx_t_9 + hx_t_10 + hx_t_11 + hx_t_12 + hx_t_13 + hx_t_14 + hx_t_15 + hx_t_16 + hx_t_17 + hx_t_18 + hx_t_19 + hx_t_20",
+      "standardScoreFormula": "",
+      "results": [
+        {
+          "evaluateExpression": "hx_wd_y_6 <= 35",
+          "conclusionAnalysis": "低冲动水平",
+          "suggestion": "您的总体冲动性水平较低，具有较好的自我控制和决策能力。请继续保持。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_6 > 35 && hx_wd_y_6 <= 50",
+          "conclusionAnalysis": "中等冲动水平",
+          "suggestion": "您的总体冲动性水平处于中等范围，说明您在某些情境下可能会出现冲动行为。建议关注自身的冲动模式，学习适当的自我调节策略。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_6 > 50 && hx_wd_y_6 <= 65",
+          "conclusionAnalysis": "较高冲动水平",
+          "suggestion": "您的总体冲动性水平较高，可能在情绪管理、行为控制和决策方面存在一定的困难。建议积极学习冲动控制技巧，必要时可寻求专业心理咨询。",
+          "assessmentWarning": "low"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_6 > 65 && hx_wd_y_6 <= 80",
+          "conclusionAnalysis": "高冲动水平",
+          "suggestion": "您的总体冲动性水平很高，可能在多个方面存在明显的冲动行为，已经影响到日常生活和人际关系。强烈建议寻求专业的心理咨询和行为干预。",
+          "assessmentWarning": "high"
+        }
+      ]
+    }
+  ]
+}

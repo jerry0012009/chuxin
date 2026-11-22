@@ -1,0 +1,427 @@
+{
+  "id": 122,
+  "title": "睡眠状况自评量表（SRSS）",
+  "type": "basic",
+  "questions": [
+    {
+      "id": 2743,
+      "text": "您觉得平时睡眠足够吗&nbsp;?",
+      "type": "radio",
+      "orderNum": 1,
+      "options": [
+        {
+          "id": 10942,
+          "optionNo": "A",
+          "text": "睡眠过多",
+          "value": "1"
+        },
+        {
+          "id": 10943,
+          "optionNo": "B",
+          "text": "睡眠正好",
+          "value": "2"
+        },
+        {
+          "id": 10944,
+          "optionNo": "C",
+          "text": "睡眠欠缺一些",
+          "value": "3"
+        },
+        {
+          "id": 10945,
+          "optionNo": "D",
+          "text": "睡眠不够",
+          "value": "4"
+        },
+        {
+          "id": 10946,
+          "optionNo": "E",
+          "text": "睡眠时间远远不够",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 2744,
+      "text": "您在睡眠后是否已觉得充分休息过了&nbsp;?",
+      "type": "radio",
+      "orderNum": 2,
+      "options": [
+        {
+          "id": 10947,
+          "optionNo": "A",
+          "text": "觉得充分休息过了",
+          "value": "1"
+        },
+        {
+          "id": 10948,
+          "optionNo": "B",
+          "text": "觉得休息过了",
+          "value": "2"
+        },
+        {
+          "id": 10949,
+          "optionNo": "C",
+          "text": "觉得休息了一点",
+          "value": "3"
+        },
+        {
+          "id": 10950,
+          "optionNo": "D",
+          "text": "不觉得休息过了",
+          "value": "4"
+        },
+        {
+          "id": 10951,
+          "optionNo": "E",
+          "text": "觉得一点儿也没休息",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 2745,
+      "text": "您晚上已睡过觉，白天是否打瞌睡&nbsp;?",
+      "type": "radio",
+      "orderNum": 3,
+      "options": [
+        {
+          "id": 10952,
+          "optionNo": "A",
+          "text": "0-5天",
+          "value": "1"
+        },
+        {
+          "id": 10953,
+          "optionNo": "B",
+          "text": "很少 （6-12 天）",
+          "value": "2"
+        },
+        {
+          "id": 10954,
+          "optionNo": "C",
+          "text": "有时（13-18天）",
+          "value": "3"
+        },
+        {
+          "id": 10955,
+          "optionNo": "D",
+          "text": "经常（19-24 天）",
+          "value": "4"
+        },
+        {
+          "id": 10956,
+          "optionNo": "E",
+          "text": "总是（25-31天）",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 2746,
+      "text": "您平均每个晚上大约能睡几小时 ?",
+      "type": "radio",
+      "orderNum": 4,
+      "options": [
+        {
+          "id": 10957,
+          "optionNo": "A",
+          "text": "≥9小时",
+          "value": "1"
+        },
+        {
+          "id": 10958,
+          "optionNo": "B",
+          "text": "7-8小时",
+          "value": "2"
+        },
+        {
+          "id": 10959,
+          "optionNo": "C",
+          "text": "5-6小时",
+          "value": "3"
+        },
+        {
+          "id": 10960,
+          "optionNo": "D",
+          "text": "3-4小时",
+          "value": "4"
+        },
+        {
+          "id": 10961,
+          "optionNo": "E",
+          "text": "1-2小时",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 2747,
+      "text": "您是否有入睡困难 ?",
+      "type": "radio",
+      "orderNum": 5,
+      "options": [
+        {
+          "id": 10962,
+          "optionNo": "A",
+          "text": "0-5天",
+          "value": "1"
+        },
+        {
+          "id": 10963,
+          "optionNo": "B",
+          "text": "很少 （6-12 天）",
+          "value": "2"
+        },
+        {
+          "id": 10964,
+          "optionNo": "C",
+          "text": "有时（13-18 天 ）",
+          "value": "3"
+        },
+        {
+          "id": 10965,
+          "optionNo": "D",
+          "text": "经常（19-24 天）",
+          "value": "4"
+        },
+        {
+          "id": 10966,
+          "optionNo": "E",
+          "text": "总是（25-31 天）",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 2748,
+      "text": "您入睡后中间是否易醒 ?",
+      "type": "radio",
+      "orderNum": 6,
+      "options": [
+        {
+          "id": 10967,
+          "optionNo": "A",
+          "text": "0-5天",
+          "value": "1"
+        },
+        {
+          "id": 10968,
+          "optionNo": "B",
+          "text": "很少（6~12 天）",
+          "value": "2"
+        },
+        {
+          "id": 10969,
+          "optionNo": "C",
+          "text": "有时（13~18 天）",
+          "value": "3"
+        },
+        {
+          "id": 10970,
+          "optionNo": "D",
+          "text": "经常 （19~24 天）",
+          "value": "4"
+        },
+        {
+          "id": 10971,
+          "optionNo": "E",
+          "text": "总是（25~31 天）",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 2749,
+      "text": "您在醒后是否难于再入睡&nbsp;?",
+      "type": "radio",
+      "orderNum": 7,
+      "options": [
+        {
+          "id": 10972,
+          "optionNo": "A",
+          "text": "0-5天",
+          "value": "1"
+        },
+        {
+          "id": 10973,
+          "optionNo": "B",
+          "text": "很少（6-12 天）",
+          "value": "2"
+        },
+        {
+          "id": 10974,
+          "optionNo": "C",
+          "text": "有时 （13-18 天）",
+          "value": "3"
+        },
+        {
+          "id": 10975,
+          "optionNo": "D",
+          "text": "经常 （19-24 天）",
+          "value": "4"
+        },
+        {
+          "id": 10976,
+          "optionNo": "E",
+          "text": "总是（25-31 天）",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 2750,
+      "text": "您是否多梦或常被噩梦惊醒&nbsp;?",
+      "type": "radio",
+      "orderNum": 8,
+      "options": [
+        {
+          "id": 10977,
+          "optionNo": "A",
+          "text": "0-5天",
+          "value": "1"
+        },
+        {
+          "id": 10978,
+          "optionNo": "B",
+          "text": "很少（6-12 天）",
+          "value": "2"
+        },
+        {
+          "id": 10979,
+          "optionNo": "C",
+          "text": "有时 （13-18 天）",
+          "value": "3"
+        },
+        {
+          "id": 10980,
+          "optionNo": "D",
+          "text": "经常 （19-24 天）",
+          "value": "4"
+        },
+        {
+          "id": 10981,
+          "optionNo": "E",
+          "text": "总是（25-31 天）",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 2751,
+      "text": "为了睡眠&nbsp;,&nbsp;您是否吃安眠药&nbsp;?",
+      "type": "radio",
+      "orderNum": 9,
+      "options": [
+        {
+          "id": 10982,
+          "optionNo": "A",
+          "text": "0-5天",
+          "value": "1"
+        },
+        {
+          "id": 10983,
+          "optionNo": "B",
+          "text": "很少（6-12 天）",
+          "value": "2"
+        },
+        {
+          "id": 10984,
+          "optionNo": "C",
+          "text": "有时 （13-18 天）",
+          "value": "3"
+        },
+        {
+          "id": 10985,
+          "optionNo": "D",
+          "text": "经常 （19-24 天）",
+          "value": "4"
+        },
+        {
+          "id": 10986,
+          "optionNo": "E",
+          "text": "总是（25-31 天）",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 2752,
+      "text": "您失眠后心情（心境）如何&nbsp;?",
+      "type": "radio",
+      "orderNum": 10,
+      "options": [
+        {
+          "id": 10987,
+          "optionNo": "A",
+          "text": "无不适",
+          "value": "1"
+        },
+        {
+          "id": 10988,
+          "optionNo": "B",
+          "text": "无所谓",
+          "value": "2"
+        },
+        {
+          "id": 10989,
+          "optionNo": "C",
+          "text": "有时心烦、急躁",
+          "value": "3"
+        },
+        {
+          "id": 10990,
+          "optionNo": "D",
+          "text": "心慌、气短",
+          "value": "4"
+        },
+        {
+          "id": 10991,
+          "optionNo": "E",
+          "text": "乏力、没精神、做事效率低",
+          "value": "5"
+        }
+      ]
+    }
+  ],
+  "dimensions": [
+    {
+      "id": 333,
+      "num": 1,
+      "dimensionName": "总分",
+      "dimensionCode": "A",
+      "evaluateExpression": "hx_t_1 + hx_t_2 + hx_t_3 + hx_t_4 + hx_t_5 + hx_t_6 + hx_t_7 + hx_t_8 + hx_t_9 + hx_t_10",
+      "standardScoreFormula": "0",
+      "results": [
+        {
+          "id": 672,
+          "evaluateExpression": "hx_wd_y_1 >= 0&& hx_wd_y_1 <= 22.9",
+          "conclusionAnalysis": "睡眠状况较好，睡眠质量较高",
+          "suggestion": "请继续保持当前的睡眠状态",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 673,
+          "evaluateExpression": "hx_wd_y_1 >= 23&& hx_wd_y_1 <= 29",
+          "conclusionAnalysis": "具有轻度睡眠障碍",
+          "suggestion": "建议调整作息时间，保证作息规律，睡前可进行冥想放松，以保证睡眠质量提高",
+          "assessmentWarning": "high"
+        },
+        {
+          "id": 674,
+          "evaluateExpression": "hx_wd_y_1 >= 30&& hx_wd_y_1 <= 39",
+          "conclusionAnalysis": "存在中度睡眠问题",
+          "suggestion": "的睡眠状况较差 ，建议保证每日睡眠时间充足，睡前可听轻音乐进行睡眠辅助，如难以入睡或易醒，睡眠质量差，建议及时寻求专业医生的帮助",
+          "assessmentWarning": "high"
+        },
+        {
+          "id": 675,
+          "evaluateExpression": "hx_wd_y_1 >= 40&& hx_wd_y_1 <= 50",
+          "conclusionAnalysis": "存在重度睡眠问题，睡眠质量不正常，睡眠中出现异常行为",
+          "suggestion": "当前的状况较差，严重影响日常生活及身体健康，建议及时寻求专业人士的帮助进行有效治疗",
+          "assessmentWarning": "high"
+        }
+      ]
+    }
+  ]
+}

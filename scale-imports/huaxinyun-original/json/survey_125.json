@@ -1,0 +1,3821 @@
+{
+  "id": 125,
+  "title": "90项症状清单(SCL-90)",
+  "type": "basic",
+  "questions": [
+    {
+      "id": 2857,
+      "text": "头痛",
+      "type": "radio",
+      "orderNum": 1,
+      "options": [
+        {
+          "id": 11392,
+          "optionNo": "A",
+          "text": "没有",
+          "value": "1"
+        },
+        {
+          "id": 11393,
+          "optionNo": "B",
+          "text": "很轻",
+          "value": "2"
+        },
+        {
+          "id": 11394,
+          "optionNo": "C",
+          "text": "中等",
+          "value": "3"
+        },
+        {
+          "id": 11395,
+          "optionNo": "D",
+          "text": "偏重",
+          "value": "4"
+        },
+        {
+          "id": 11396,
+          "optionNo": "E",
+          "text": "严重",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 2858,
+      "text": "神经过敏，心中不踏实",
+      "type": "radio",
+      "orderNum": 2,
+      "options": [
+        {
+          "id": 11397,
+          "optionNo": "A",
+          "text": "没有",
+          "value": "1"
+        },
+        {
+          "id": 11398,
+          "optionNo": "B",
+          "text": "很轻",
+          "value": "2"
+        },
+        {
+          "id": 11399,
+          "optionNo": "C",
+          "text": "中等",
+          "value": "3"
+        },
+        {
+          "id": 11400,
+          "optionNo": "D",
+          "text": "偏重",
+          "value": "4"
+        },
+        {
+          "id": 11401,
+          "optionNo": "E",
+          "text": "严重",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 2859,
+      "text": "头脑中有不必要的想法或字句盘旋",
+      "type": "radio",
+      "orderNum": 3,
+      "options": [
+        {
+          "id": 11402,
+          "optionNo": "A",
+          "text": "没有",
+          "value": "1"
+        },
+        {
+          "id": 11403,
+          "optionNo": "B",
+          "text": "很轻",
+          "value": "2"
+        },
+        {
+          "id": 11404,
+          "optionNo": "C",
+          "text": "中等",
+          "value": "3"
+        },
+        {
+          "id": 11405,
+          "optionNo": "D",
+          "text": "偏重",
+          "value": "4"
+        },
+        {
+          "id": 11406,
+          "optionNo": "E",
+          "text": "严重",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 2860,
+      "text": "头昏或昏倒",
+      "type": "radio",
+      "orderNum": 4,
+      "options": [
+        {
+          "id": 11407,
+          "optionNo": "A",
+          "text": "没有",
+          "value": "1"
+        },
+        {
+          "id": 11408,
+          "optionNo": "B",
+          "text": "很轻",
+          "value": "2"
+        },
+        {
+          "id": 11409,
+          "optionNo": "C",
+          "text": "中等",
+          "value": "3"
+        },
+        {
+          "id": 11410,
+          "optionNo": "D",
+          "text": "偏重",
+          "value": "4"
+        },
+        {
+          "id": 11411,
+          "optionNo": "E",
+          "text": "严重",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 2861,
+      "text": "对异性的兴趣减退",
+      "type": "radio",
+      "orderNum": 5,
+      "options": [
+        {
+          "id": 11412,
+          "optionNo": "A",
+          "text": "没有",
+          "value": "1"
+        },
+        {
+          "id": 11413,
+          "optionNo": "B",
+          "text": "很轻",
+          "value": "2"
+        },
+        {
+          "id": 11414,
+          "optionNo": "C",
+          "text": "中等",
+          "value": "3"
+        },
+        {
+          "id": 11415,
+          "optionNo": "D",
+          "text": "偏重",
+          "value": "4"
+        },
+        {
+          "id": 11416,
+          "optionNo": "E",
+          "text": "严重",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 2862,
+      "text": "对旁人责备求全",
+      "type": "radio",
+      "orderNum": 6,
+      "options": [
+        {
+          "id": 11417,
+          "optionNo": "A",
+          "text": "没有",
+          "value": "1"
+        },
+        {
+          "id": 11418,
+          "optionNo": "B",
+          "text": "很轻",
+          "value": "2"
+        },
+        {
+          "id": 11419,
+          "optionNo": "C",
+          "text": "中等",
+          "value": "3"
+        },
+        {
+          "id": 11420,
+          "optionNo": "D",
+          "text": "偏重",
+          "value": "4"
+        },
+        {
+          "id": 11421,
+          "optionNo": "E",
+          "text": "严重",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 2863,
+      "text": "感到别人能控制您的思想",
+      "type": "radio",
+      "orderNum": 7,
+      "options": [
+        {
+          "id": 11422,
+          "optionNo": "A",
+          "text": "没有",
+          "value": "1"
+        },
+        {
+          "id": 11423,
+          "optionNo": "B",
+          "text": "很轻",
+          "value": "2"
+        },
+        {
+          "id": 11424,
+          "optionNo": "C",
+          "text": "中等",
+          "value": "3"
+        },
+        {
+          "id": 11425,
+          "optionNo": "D",
+          "text": "偏重",
+          "value": "4"
+        },
+        {
+          "id": 11426,
+          "optionNo": "E",
+          "text": "严重",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 2864,
+      "text": "责怪别人制造麻烦",
+      "type": "radio",
+      "orderNum": 8,
+      "options": [
+        {
+          "id": 11427,
+          "optionNo": "A",
+          "text": "没有",
+          "value": "1"
+        },
+        {
+          "id": 11428,
+          "optionNo": "B",
+          "text": "很轻",
+          "value": "2"
+        },
+        {
+          "id": 11429,
+          "optionNo": "C",
+          "text": "中等",
+          "value": "3"
+        },
+        {
+          "id": 11430,
+          "optionNo": "D",
+          "text": "偏重",
+          "value": "4"
+        },
+        {
+          "id": 11431,
+          "optionNo": "E",
+          "text": "严重",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 2865,
+      "text": "忘性大",
+      "type": "radio",
+      "orderNum": 9,
+      "options": [
+        {
+          "id": 11432,
+          "optionNo": "A",
+          "text": "没有",
+          "value": "1"
+        },
+        {
+          "id": 11433,
+          "optionNo": "B",
+          "text": "很轻",
+          "value": "2"
+        },
+        {
+          "id": 11434,
+          "optionNo": "C",
+          "text": "中等",
+          "value": "3"
+        },
+        {
+          "id": 11435,
+          "optionNo": "D",
+          "text": "偏重",
+          "value": "4"
+        },
+        {
+          "id": 11436,
+          "optionNo": "E",
+          "text": "严重",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 2866,
+      "text": "担心自己的衣饰整齐及仪态的端正",
+      "type": "radio",
+      "orderNum": 10,
+      "options": [
+        {
+          "id": 11437,
+          "optionNo": "A",
+          "text": "没有",
+          "value": "1"
+        },
+        {
+          "id": 11438,
+          "optionNo": "B",
+          "text": "很轻",
+          "value": "2"
+        },
+        {
+          "id": 11439,
+          "optionNo": "C",
+          "text": "中等",
+          "value": "3"
+        },
+        {
+          "id": 11440,
+          "optionNo": "D",
+          "text": "偏重",
+          "value": "4"
+        },
+        {
+          "id": 11441,
+          "optionNo": "E",
+          "text": "严重",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 2867,
+      "text": "容易烦恼和激动",
+      "type": "radio",
+      "orderNum": 11,
+      "options": [
+        {
+          "id": 11442,
+          "optionNo": "A",
+          "text": "没有",
+          "value": "1"
+        },
+        {
+          "id": 11443,
+          "optionNo": "B",
+          "text": "很轻",
+          "value": "2"
+        },
+        {
+          "id": 11444,
+          "optionNo": "C",
+          "text": "中等",
+          "value": "3"
+        },
+        {
+          "id": 11445,
+          "optionNo": "D",
+          "text": "偏重",
+          "value": "4"
+        },
+        {
+          "id": 11446,
+          "optionNo": "E",
+          "text": "严重",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 2868,
+      "text": "胸痛",
+      "type": "radio",
+      "orderNum": 12,
+      "options": [
+        {
+          "id": 11447,
+          "optionNo": "A",
+          "text": "没有",
+          "value": "1"
+        },
+        {
+          "id": 11448,
+          "optionNo": "B",
+          "text": "很轻",
+          "value": "2"
+        },
+        {
+          "id": 11449,
+          "optionNo": "C",
+          "text": "中等",
+          "value": "3"
+        },
+        {
+          "id": 11450,
+          "optionNo": "D",
+          "text": "偏重",
+          "value": "4"
+        },
+        {
+          "id": 11451,
+          "optionNo": "E",
+          "text": "严重",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 2869,
+      "text": "害怕空旷的场所或街道",
+      "type": "radio",
+      "orderNum": 13,
+      "options": [
+        {
+          "id": 11452,
+          "optionNo": "A",
+          "text": "没有",
+          "value": "1"
+        },
+        {
+          "id": 11453,
+          "optionNo": "B",
+          "text": "很轻",
+          "value": "2"
+        },
+        {
+          "id": 11454,
+          "optionNo": "C",
+          "text": "中等",
+          "value": "3"
+        },
+        {
+          "id": 11455,
+          "optionNo": "D",
+          "text": "偏重",
+          "value": "4"
+        },
+        {
+          "id": 11456,
+          "optionNo": "E",
+          "text": "严重",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 2870,
+      "text": "感到自己的精力下降，活动减慢",
+      "type": "radio",
+      "orderNum": 14,
+      "options": [
+        {
+          "id": 11457,
+          "optionNo": "A",
+          "text": "没有",
+          "value": "1"
+        },
+        {
+          "id": 11458,
+          "optionNo": "B",
+          "text": "很轻",
+          "value": "2"
+        },
+        {
+          "id": 11459,
+          "optionNo": "C",
+          "text": "中等",
+          "value": "3"
+        },
+        {
+          "id": 11460,
+          "optionNo": "D",
+          "text": "偏重",
+          "value": "4"
+        },
+        {
+          "id": 11461,
+          "optionNo": "E",
+          "text": "严重",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 2871,
+      "text": "想结束自己的生命",
+      "type": "radio",
+      "orderNum": 15,
+      "options": [
+        {
+          "id": 11462,
+          "optionNo": "A",
+          "text": "没有",
+          "value": "1"
+        },
+        {
+          "id": 11463,
+          "optionNo": "B",
+          "text": "很轻",
+          "value": "2"
+        },
+        {
+          "id": 11464,
+          "optionNo": "C",
+          "text": "中等",
+          "value": "3"
+        },
+        {
+          "id": 11465,
+          "optionNo": "D",
+          "text": "偏重",
+          "value": "4"
+        },
+        {
+          "id": 11466,
+          "optionNo": "E",
+          "text": "严重",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 2872,
+      "text": "听到旁人听不到的声音",
+      "type": "radio",
+      "orderNum": 16,
+      "options": [
+        {
+          "id": 11467,
+          "optionNo": "A",
+          "text": "没有",
+          "value": "1"
+        },
+        {
+          "id": 11468,
+          "optionNo": "B",
+          "text": "很轻",
+          "value": "2"
+        },
+        {
+          "id": 11469,
+          "optionNo": "C",
+          "text": "中等",
+          "value": "3"
+        },
+        {
+          "id": 11470,
+          "optionNo": "D",
+          "text": "偏重",
+          "value": "4"
+        },
+        {
+          "id": 11471,
+          "optionNo": "E",
+          "text": "严重",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 2873,
+      "text": "发抖",
+      "type": "radio",
+      "orderNum": 17,
+      "options": [
+        {
+          "id": 11472,
+          "optionNo": "A",
+          "text": "没有",
+          "value": "1"
+        },
+        {
+          "id": 11473,
+          "optionNo": "B",
+          "text": "很轻",
+          "value": "2"
+        },
+        {
+          "id": 11474,
+          "optionNo": "C",
+          "text": "中等",
+          "value": "3"
+        },
+        {
+          "id": 11475,
+          "optionNo": "D",
+          "text": "偏重",
+          "value": "4"
+        },
+        {
+          "id": 11476,
+          "optionNo": "E",
+          "text": "严重",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 2874,
+      "text": "感到大多数人都不可信任",
+      "type": "radio",
+      "orderNum": 18,
+      "options": [
+        {
+          "id": 11477,
+          "optionNo": "A",
+          "text": "没有",
+          "value": "1"
+        },
+        {
+          "id": 11478,
+          "optionNo": "B",
+          "text": "很轻",
+          "value": "2"
+        },
+        {
+          "id": 11479,
+          "optionNo": "C",
+          "text": "中等",
+          "value": "3"
+        },
+        {
+          "id": 11480,
+          "optionNo": "D",
+          "text": "偏重",
+          "value": "4"
+        },
+        {
+          "id": 11481,
+          "optionNo": "E",
+          "text": "严重",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 2875,
+      "text": "胃口不好",
+      "type": "radio",
+      "orderNum": 19,
+      "options": [
+        {
+          "id": 11482,
+          "optionNo": "A",
+          "text": "没有",
+          "value": "1"
+        },
+        {
+          "id": 11483,
+          "optionNo": "B",
+          "text": "很轻",
+          "value": "2"
+        },
+        {
+          "id": 11484,
+          "optionNo": "C",
+          "text": "中等",
+          "value": "3"
+        },
+        {
+          "id": 11485,
+          "optionNo": "D",
+          "text": "偏重",
+          "value": "4"
+        },
+        {
+          "id": 11486,
+          "optionNo": "E",
+          "text": "严重",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 2876,
+      "text": "容易哭泣",
+      "type": "radio",
+      "orderNum": 20,
+      "options": [
+        {
+          "id": 11487,
+          "optionNo": "A",
+          "text": "没有",
+          "value": "1"
+        },
+        {
+          "id": 11488,
+          "optionNo": "B",
+          "text": "很轻",
+          "value": "2"
+        },
+        {
+          "id": 11489,
+          "optionNo": "C",
+          "text": "中等",
+          "value": "3"
+        },
+        {
+          "id": 11490,
+          "optionNo": "D",
+          "text": "偏重",
+          "value": "4"
+        },
+        {
+          "id": 11491,
+          "optionNo": "E",
+          "text": "严重",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 2877,
+      "text": "同异性相处时感到害羞不自在",
+      "type": "radio",
+      "orderNum": 21,
+      "options": [
+        {
+          "id": 11492,
+          "optionNo": "A",
+          "text": "没有",
+          "value": "1"
+        },
+        {
+          "id": 11493,
+          "optionNo": "B",
+          "text": "很轻",
+          "value": "2"
+        },
+        {
+          "id": 11494,
+          "optionNo": "C",
+          "text": "中等",
+          "value": "3"
+        },
+        {
+          "id": 11495,
+          "optionNo": "D",
+          "text": "偏重",
+          "value": "4"
+        },
+        {
+          "id": 11496,
+          "optionNo": "E",
+          "text": "严重",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 2878,
+      "text": "感到受骗，中了圈套或有人想抓住您",
+      "type": "radio",
+      "orderNum": 22,
+      "options": [
+        {
+          "id": 11497,
+          "optionNo": "A",
+          "text": "没有",
+          "value": "1"
+        },
+        {
+          "id": 11498,
+          "optionNo": "B",
+          "text": "很轻",
+          "value": "2"
+        },
+        {
+          "id": 11499,
+          "optionNo": "C",
+          "text": "中等",
+          "value": "3"
+        },
+        {
+          "id": 11500,
+          "optionNo": "D",
+          "text": "偏重",
+          "value": "4"
+        },
+        {
+          "id": 11501,
+          "optionNo": "E",
+          "text": "严重",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 2879,
+      "text": "无缘无故地突然感到害怕",
+      "type": "radio",
+      "orderNum": 23,
+      "options": [
+        {
+          "id": 11502,
+          "optionNo": "A",
+          "text": "没有",
+          "value": "1"
+        },
+        {
+          "id": 11503,
+          "optionNo": "B",
+          "text": "很轻",
+          "value": "2"
+        },
+        {
+          "id": 11504,
+          "optionNo": "C",
+          "text": "中等",
+          "value": "3"
+        },
+        {
+          "id": 11505,
+          "optionNo": "D",
+          "text": "偏重",
+          "value": "4"
+        },
+        {
+          "id": 11506,
+          "optionNo": "E",
+          "text": "严重",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 2880,
+      "text": "自己不能控制地大发脾气",
+      "type": "radio",
+      "orderNum": 24,
+      "options": [
+        {
+          "id": 11507,
+          "optionNo": "A",
+          "text": "没有",
+          "value": "1"
+        },
+        {
+          "id": 11508,
+          "optionNo": "B",
+          "text": "很轻",
+          "value": "2"
+        },
+        {
+          "id": 11509,
+          "optionNo": "C",
+          "text": "中等",
+          "value": "3"
+        },
+        {
+          "id": 11510,
+          "optionNo": "D",
+          "text": "偏重",
+          "value": "4"
+        },
+        {
+          "id": 11511,
+          "optionNo": "E",
+          "text": "严重",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 2881,
+      "text": "怕单独出门",
+      "type": "radio",
+      "orderNum": 25,
+      "options": [
+        {
+          "id": 11512,
+          "optionNo": "A",
+          "text": "没有",
+          "value": "1"
+        },
+        {
+          "id": 11513,
+          "optionNo": "B",
+          "text": "很轻",
+          "value": "2"
+        },
+        {
+          "id": 11514,
+          "optionNo": "C",
+          "text": "中等",
+          "value": "3"
+        },
+        {
+          "id": 11515,
+          "optionNo": "D",
+          "text": "偏重",
+          "value": "4"
+        },
+        {
+          "id": 11516,
+          "optionNo": "E",
+          "text": "严重",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 2882,
+      "text": "经常责怪自己",
+      "type": "radio",
+      "orderNum": 26,
+      "options": [
+        {
+          "id": 11517,
+          "optionNo": "A",
+          "text": "没有",
+          "value": "1"
+        },
+        {
+          "id": 11518,
+          "optionNo": "B",
+          "text": "很轻",
+          "value": "2"
+        },
+        {
+          "id": 11519,
+          "optionNo": "C",
+          "text": "中等",
+          "value": "3"
+        },
+        {
+          "id": 11520,
+          "optionNo": "D",
+          "text": "偏重",
+          "value": "4"
+        },
+        {
+          "id": 11521,
+          "optionNo": "E",
+          "text": "严重",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 2883,
+      "text": "腰痛",
+      "type": "radio",
+      "orderNum": 27,
+      "options": [
+        {
+          "id": 11522,
+          "optionNo": "A",
+          "text": "没有",
+          "value": "1"
+        },
+        {
+          "id": 11523,
+          "optionNo": "B",
+          "text": "很轻",
+          "value": "2"
+        },
+        {
+          "id": 11524,
+          "optionNo": "C",
+          "text": "中等",
+          "value": "3"
+        },
+        {
+          "id": 11525,
+          "optionNo": "D",
+          "text": "偏重",
+          "value": "4"
+        },
+        {
+          "id": 11526,
+          "optionNo": "E",
+          "text": "严重",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 2884,
+      "text": "感到难以完成任务",
+      "type": "radio",
+      "orderNum": 28,
+      "options": [
+        {
+          "id": 11527,
+          "optionNo": "A",
+          "text": "没有",
+          "value": "1"
+        },
+        {
+          "id": 11528,
+          "optionNo": "B",
+          "text": "很轻",
+          "value": "2"
+        },
+        {
+          "id": 11529,
+          "optionNo": "C",
+          "text": "中等",
+          "value": "3"
+        },
+        {
+          "id": 11530,
+          "optionNo": "D",
+          "text": "偏重",
+          "value": "4"
+        },
+        {
+          "id": 11531,
+          "optionNo": "E",
+          "text": "严重",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 2885,
+      "text": "感到孤独",
+      "type": "radio",
+      "orderNum": 29,
+      "options": [
+        {
+          "id": 11532,
+          "optionNo": "A",
+          "text": "没有",
+          "value": "1"
+        },
+        {
+          "id": 11533,
+          "optionNo": "B",
+          "text": "很轻",
+          "value": "2"
+        },
+        {
+          "id": 11534,
+          "optionNo": "C",
+          "text": "中等",
+          "value": "3"
+        },
+        {
+          "id": 11535,
+          "optionNo": "D",
+          "text": "偏重",
+          "value": "4"
+        },
+        {
+          "id": 11536,
+          "optionNo": "E",
+          "text": "严重",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 2886,
+      "text": "感到苦闷",
+      "type": "radio",
+      "orderNum": 30,
+      "options": [
+        {
+          "id": 11537,
+          "optionNo": "A",
+          "text": "没有",
+          "value": "1"
+        },
+        {
+          "id": 11538,
+          "optionNo": "B",
+          "text": "很轻",
+          "value": "2"
+        },
+        {
+          "id": 11539,
+          "optionNo": "C",
+          "text": "中等",
+          "value": "3"
+        },
+        {
+          "id": 11540,
+          "optionNo": "D",
+          "text": "偏重",
+          "value": "4"
+        },
+        {
+          "id": 11541,
+          "optionNo": "E",
+          "text": "严重",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 2887,
+      "text": "过分担忧",
+      "type": "radio",
+      "orderNum": 31,
+      "options": [
+        {
+          "id": 11542,
+          "optionNo": "A",
+          "text": "没有",
+          "value": "1"
+        },
+        {
+          "id": 11543,
+          "optionNo": "B",
+          "text": "很轻",
+          "value": "2"
+        },
+        {
+          "id": 11544,
+          "optionNo": "C",
+          "text": "中等",
+          "value": "3"
+        },
+        {
+          "id": 11545,
+          "optionNo": "D",
+          "text": "偏重",
+          "value": "4"
+        },
+        {
+          "id": 11546,
+          "optionNo": "E",
+          "text": "严重",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 2888,
+      "text": "对事物不感兴趣",
+      "type": "radio",
+      "orderNum": 32,
+      "options": [
+        {
+          "id": 11547,
+          "optionNo": "A",
+          "text": "没有",
+          "value": "1"
+        },
+        {
+          "id": 11548,
+          "optionNo": "B",
+          "text": "很轻",
+          "value": "2"
+        },
+        {
+          "id": 11549,
+          "optionNo": "C",
+          "text": "中等",
+          "value": "3"
+        },
+        {
+          "id": 11550,
+          "optionNo": "D",
+          "text": "偏重",
+          "value": "4"
+        },
+        {
+          "id": 11551,
+          "optionNo": "E",
+          "text": "严重",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 2889,
+      "text": "感到害怕",
+      "type": "radio",
+      "orderNum": 33,
+      "options": [
+        {
+          "id": 11552,
+          "optionNo": "A",
+          "text": "没有",
+          "value": "1"
+        },
+        {
+          "id": 11553,
+          "optionNo": "B",
+          "text": "很轻",
+          "value": "2"
+        },
+        {
+          "id": 11554,
+          "optionNo": "C",
+          "text": "中等",
+          "value": "3"
+        },
+        {
+          "id": 11555,
+          "optionNo": "D",
+          "text": "偏重",
+          "value": "4"
+        },
+        {
+          "id": 11556,
+          "optionNo": "E",
+          "text": "严重",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 2890,
+      "text": "感情容易受到伤害",
+      "type": "radio",
+      "orderNum": 34,
+      "options": [
+        {
+          "id": 11557,
+          "optionNo": "A",
+          "text": "没有",
+          "value": "1"
+        },
+        {
+          "id": 11558,
+          "optionNo": "B",
+          "text": "很轻",
+          "value": "2"
+        },
+        {
+          "id": 11559,
+          "optionNo": "C",
+          "text": "中等",
+          "value": "3"
+        },
+        {
+          "id": 11560,
+          "optionNo": "D",
+          "text": "偏重",
+          "value": "4"
+        },
+        {
+          "id": 11561,
+          "optionNo": "E",
+          "text": "严重",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 2891,
+      "text": "旁人能知道您的私下想法",
+      "type": "radio",
+      "orderNum": 35,
+      "options": [
+        {
+          "id": 11562,
+          "optionNo": "A",
+          "text": "没有",
+          "value": "1"
+        },
+        {
+          "id": 11563,
+          "optionNo": "B",
+          "text": "很轻",
+          "value": "2"
+        },
+        {
+          "id": 11564,
+          "optionNo": "C",
+          "text": "中等",
+          "value": "3"
+        },
+        {
+          "id": 11565,
+          "optionNo": "D",
+          "text": "偏重",
+          "value": "4"
+        },
+        {
+          "id": 11566,
+          "optionNo": "E",
+          "text": "严重",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 2892,
+      "text": "感到别人不理解您、不同情您",
+      "type": "radio",
+      "orderNum": 36,
+      "options": [
+        {
+          "id": 11567,
+          "optionNo": "A",
+          "text": "没有",
+          "value": "1"
+        },
+        {
+          "id": 11568,
+          "optionNo": "B",
+          "text": "很轻",
+          "value": "2"
+        },
+        {
+          "id": 11569,
+          "optionNo": "C",
+          "text": "中等",
+          "value": "3"
+        },
+        {
+          "id": 11570,
+          "optionNo": "D",
+          "text": "偏重",
+          "value": "4"
+        },
+        {
+          "id": 11571,
+          "optionNo": "E",
+          "text": "严重",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 2893,
+      "text": "感到人们对您不友好，不喜欢您",
+      "type": "radio",
+      "orderNum": 37,
+      "options": [
+        {
+          "id": 11572,
+          "optionNo": "A",
+          "text": "没有",
+          "value": "1"
+        },
+        {
+          "id": 11573,
+          "optionNo": "B",
+          "text": "很轻",
+          "value": "2"
+        },
+        {
+          "id": 11574,
+          "optionNo": "C",
+          "text": "中等",
+          "value": "3"
+        },
+        {
+          "id": 11575,
+          "optionNo": "D",
+          "text": "偏重",
+          "value": "4"
+        },
+        {
+          "id": 11576,
+          "optionNo": "E",
+          "text": "严重",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 2894,
+      "text": "做事必须做得很慢以保证做得正确",
+      "type": "radio",
+      "orderNum": 38,
+      "options": [
+        {
+          "id": 11577,
+          "optionNo": "A",
+          "text": "没有",
+          "value": "1"
+        },
+        {
+          "id": 11578,
+          "optionNo": "B",
+          "text": "很轻",
+          "value": "2"
+        },
+        {
+          "id": 11579,
+          "optionNo": "C",
+          "text": "中等",
+          "value": "3"
+        },
+        {
+          "id": 11580,
+          "optionNo": "D",
+          "text": "偏重",
+          "value": "4"
+        },
+        {
+          "id": 11581,
+          "optionNo": "E",
+          "text": "严重",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 2895,
+      "text": "心跳得很厉害",
+      "type": "radio",
+      "orderNum": 39,
+      "options": [
+        {
+          "id": 11582,
+          "optionNo": "A",
+          "text": "没有",
+          "value": "1"
+        },
+        {
+          "id": 11583,
+          "optionNo": "B",
+          "text": "很轻",
+          "value": "2"
+        },
+        {
+          "id": 11584,
+          "optionNo": "C",
+          "text": "中等",
+          "value": "3"
+        },
+        {
+          "id": 11585,
+          "optionNo": "D",
+          "text": "偏重",
+          "value": "4"
+        },
+        {
+          "id": 11586,
+          "optionNo": "E",
+          "text": "严重",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 2896,
+      "text": "恶心或胃部不舒服",
+      "type": "radio",
+      "orderNum": 40,
+      "options": [
+        {
+          "id": 11587,
+          "optionNo": "A",
+          "text": "没有",
+          "value": "1"
+        },
+        {
+          "id": 11588,
+          "optionNo": "B",
+          "text": "很轻",
+          "value": "2"
+        },
+        {
+          "id": 11589,
+          "optionNo": "C",
+          "text": "中等",
+          "value": "3"
+        },
+        {
+          "id": 11590,
+          "optionNo": "D",
+          "text": "偏重",
+          "value": "4"
+        },
+        {
+          "id": 11591,
+          "optionNo": "E",
+          "text": "严重",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 2897,
+      "text": "感到比不上他人",
+      "type": "radio",
+      "orderNum": 41,
+      "options": [
+        {
+          "id": 11592,
+          "optionNo": "A",
+          "text": "没有",
+          "value": "1"
+        },
+        {
+          "id": 11593,
+          "optionNo": "B",
+          "text": "很轻",
+          "value": "2"
+        },
+        {
+          "id": 11594,
+          "optionNo": "C",
+          "text": "中等",
+          "value": "3"
+        },
+        {
+          "id": 11595,
+          "optionNo": "D",
+          "text": "偏重",
+          "value": "4"
+        },
+        {
+          "id": 11596,
+          "optionNo": "E",
+          "text": "严重",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 2898,
+      "text": "肌肉酸痛",
+      "type": "radio",
+      "orderNum": 42,
+      "options": [
+        {
+          "id": 11597,
+          "optionNo": "A",
+          "text": "没有",
+          "value": "1"
+        },
+        {
+          "id": 11598,
+          "optionNo": "B",
+          "text": "很轻",
+          "value": "2"
+        },
+        {
+          "id": 11599,
+          "optionNo": "C",
+          "text": "中等",
+          "value": "3"
+        },
+        {
+          "id": 11600,
+          "optionNo": "D",
+          "text": "偏重",
+          "value": "4"
+        },
+        {
+          "id": 11601,
+          "optionNo": "E",
+          "text": "严重",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 2899,
+      "text": "感到有人在监视您、谈论您",
+      "type": "radio",
+      "orderNum": 43,
+      "options": [
+        {
+          "id": 11602,
+          "optionNo": "A",
+          "text": "没有",
+          "value": "1"
+        },
+        {
+          "id": 11603,
+          "optionNo": "B",
+          "text": "很轻",
+          "value": "2"
+        },
+        {
+          "id": 11604,
+          "optionNo": "C",
+          "text": "中等",
+          "value": "3"
+        },
+        {
+          "id": 11605,
+          "optionNo": "D",
+          "text": "偏重",
+          "value": "4"
+        },
+        {
+          "id": 11606,
+          "optionNo": "E",
+          "text": "严重",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 2900,
+      "text": "难以入睡",
+      "type": "radio",
+      "orderNum": 44,
+      "options": [
+        {
+          "id": 11607,
+          "optionNo": "A",
+          "text": "没有",
+          "value": "1"
+        },
+        {
+          "id": 11608,
+          "optionNo": "B",
+          "text": "很轻",
+          "value": "2"
+        },
+        {
+          "id": 11609,
+          "optionNo": "C",
+          "text": "中等",
+          "value": "3"
+        },
+        {
+          "id": 11610,
+          "optionNo": "D",
+          "text": "偏重",
+          "value": "4"
+        },
+        {
+          "id": 11611,
+          "optionNo": "E",
+          "text": "严重",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 2901,
+      "text": "做事必须反复检查",
+      "type": "radio",
+      "orderNum": 45,
+      "options": [
+        {
+          "id": 11612,
+          "optionNo": "A",
+          "text": "没有",
+          "value": "1"
+        },
+        {
+          "id": 11613,
+          "optionNo": "B",
+          "text": "很轻",
+          "value": "2"
+        },
+        {
+          "id": 11614,
+          "optionNo": "C",
+          "text": "中等",
+          "value": "3"
+        },
+        {
+          "id": 11615,
+          "optionNo": "D",
+          "text": "偏重",
+          "value": "4"
+        },
+        {
+          "id": 11616,
+          "optionNo": "E",
+          "text": "严重",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 2902,
+      "text": "难以作出决定",
+      "type": "radio",
+      "orderNum": 46,
+      "options": [
+        {
+          "id": 11617,
+          "optionNo": "A",
+          "text": "没有",
+          "value": "1"
+        },
+        {
+          "id": 11618,
+          "optionNo": "B",
+          "text": "很轻",
+          "value": "2"
+        },
+        {
+          "id": 11619,
+          "optionNo": "C",
+          "text": "中等",
+          "value": "3"
+        },
+        {
+          "id": 11620,
+          "optionNo": "D",
+          "text": "偏重",
+          "value": "4"
+        },
+        {
+          "id": 11621,
+          "optionNo": "E",
+          "text": "严重",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 2903,
+      "text": "怕乘电车、公共汽车、地铁或火车",
+      "type": "radio",
+      "orderNum": 47,
+      "options": [
+        {
+          "id": 11622,
+          "optionNo": "A",
+          "text": "没有",
+          "value": "1"
+        },
+        {
+          "id": 11623,
+          "optionNo": "B",
+          "text": "很轻",
+          "value": "2"
+        },
+        {
+          "id": 11624,
+          "optionNo": "C",
+          "text": "中等",
+          "value": "3"
+        },
+        {
+          "id": 11625,
+          "optionNo": "D",
+          "text": "偏重",
+          "value": "4"
+        },
+        {
+          "id": 11626,
+          "optionNo": "E",
+          "text": "严重",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 2904,
+      "text": "呼吸有困难",
+      "type": "radio",
+      "orderNum": 48,
+      "options": [
+        {
+          "id": 11627,
+          "optionNo": "A",
+          "text": "没有",
+          "value": "1"
+        },
+        {
+          "id": 11628,
+          "optionNo": "B",
+          "text": "很轻",
+          "value": "2"
+        },
+        {
+          "id": 11629,
+          "optionNo": "C",
+          "text": "中等",
+          "value": "3"
+        },
+        {
+          "id": 11630,
+          "optionNo": "D",
+          "text": "偏重",
+          "value": "4"
+        },
+        {
+          "id": 11631,
+          "optionNo": "E",
+          "text": "严重",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 2905,
+      "text": "一阵阵发冷或发热",
+      "type": "radio",
+      "orderNum": 49,
+      "options": [
+        {
+          "id": 11632,
+          "optionNo": "A",
+          "text": "没有",
+          "value": "1"
+        },
+        {
+          "id": 11633,
+          "optionNo": "B",
+          "text": "很轻",
+          "value": "2"
+        },
+        {
+          "id": 11634,
+          "optionNo": "C",
+          "text": "中等",
+          "value": "3"
+        },
+        {
+          "id": 11635,
+          "optionNo": "D",
+          "text": "偏重",
+          "value": "4"
+        },
+        {
+          "id": 11636,
+          "optionNo": "E",
+          "text": "严重",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 2906,
+      "text": "因为感到害怕而避开某些东西、场合或活动",
+      "type": "radio",
+      "orderNum": 50,
+      "options": [
+        {
+          "id": 11637,
+          "optionNo": "A",
+          "text": "没有",
+          "value": "1"
+        },
+        {
+          "id": 11638,
+          "optionNo": "B",
+          "text": "很轻",
+          "value": "2"
+        },
+        {
+          "id": 11639,
+          "optionNo": "C",
+          "text": "中等",
+          "value": "3"
+        },
+        {
+          "id": 11640,
+          "optionNo": "D",
+          "text": "偏重",
+          "value": "4"
+        },
+        {
+          "id": 11641,
+          "optionNo": "E",
+          "text": "严重",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 2907,
+      "text": "脑子变空了",
+      "type": "radio",
+      "orderNum": 51,
+      "options": [
+        {
+          "id": 11642,
+          "optionNo": "A",
+          "text": "没有",
+          "value": "1"
+        },
+        {
+          "id": 11643,
+          "optionNo": "B",
+          "text": "很轻",
+          "value": "2"
+        },
+        {
+          "id": 11644,
+          "optionNo": "C",
+          "text": "中等",
+          "value": "3"
+        },
+        {
+          "id": 11645,
+          "optionNo": "D",
+          "text": "偏重",
+          "value": "4"
+        },
+        {
+          "id": 11646,
+          "optionNo": "E",
+          "text": "严重",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 2908,
+      "text": "身体发麻或刺痛",
+      "type": "radio",
+      "orderNum": 52,
+      "options": [
+        {
+          "id": 11647,
+          "optionNo": "A",
+          "text": "没有",
+          "value": "1"
+        },
+        {
+          "id": 11648,
+          "optionNo": "B",
+          "text": "很轻",
+          "value": "2"
+        },
+        {
+          "id": 11649,
+          "optionNo": "C",
+          "text": "中等",
+          "value": "3"
+        },
+        {
+          "id": 11650,
+          "optionNo": "D",
+          "text": "偏重",
+          "value": "4"
+        },
+        {
+          "id": 11651,
+          "optionNo": "E",
+          "text": "严重",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 2909,
+      "text": "喉咙有梗塞感",
+      "type": "radio",
+      "orderNum": 53,
+      "options": [
+        {
+          "id": 11652,
+          "optionNo": "A",
+          "text": "没有",
+          "value": "1"
+        },
+        {
+          "id": 11653,
+          "optionNo": "B",
+          "text": "很轻",
+          "value": "2"
+        },
+        {
+          "id": 11654,
+          "optionNo": "C",
+          "text": "中等",
+          "value": "3"
+        },
+        {
+          "id": 11655,
+          "optionNo": "D",
+          "text": "偏重",
+          "value": "4"
+        },
+        {
+          "id": 11656,
+          "optionNo": "E",
+          "text": "严重",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 2910,
+      "text": "感到没有前途、没有希望",
+      "type": "radio",
+      "orderNum": 54,
+      "options": [
+        {
+          "id": 11657,
+          "optionNo": "A",
+          "text": "没有",
+          "value": "1"
+        },
+        {
+          "id": 11658,
+          "optionNo": "B",
+          "text": "很轻",
+          "value": "2"
+        },
+        {
+          "id": 11659,
+          "optionNo": "C",
+          "text": "中等",
+          "value": "3"
+        },
+        {
+          "id": 11660,
+          "optionNo": "D",
+          "text": "偏重",
+          "value": "4"
+        },
+        {
+          "id": 11661,
+          "optionNo": "E",
+          "text": "严重",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 2911,
+      "text": "不能集中注意",
+      "type": "radio",
+      "orderNum": 55,
+      "options": [
+        {
+          "id": 11662,
+          "optionNo": "A",
+          "text": "没有",
+          "value": "1"
+        },
+        {
+          "id": 11663,
+          "optionNo": "B",
+          "text": "很轻",
+          "value": "2"
+        },
+        {
+          "id": 11664,
+          "optionNo": "C",
+          "text": "中等",
+          "value": "3"
+        },
+        {
+          "id": 11665,
+          "optionNo": "D",
+          "text": "偏重",
+          "value": "4"
+        },
+        {
+          "id": 11666,
+          "optionNo": "E",
+          "text": "严重",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 2912,
+      "text": "感到身体的某一部分软弱无力",
+      "type": "radio",
+      "orderNum": 56,
+      "options": [
+        {
+          "id": 11667,
+          "optionNo": "A",
+          "text": "没有",
+          "value": "1"
+        },
+        {
+          "id": 11668,
+          "optionNo": "B",
+          "text": "很轻",
+          "value": "2"
+        },
+        {
+          "id": 11669,
+          "optionNo": "C",
+          "text": "中等",
+          "value": "3"
+        },
+        {
+          "id": 11670,
+          "optionNo": "D",
+          "text": "偏重",
+          "value": "4"
+        },
+        {
+          "id": 11671,
+          "optionNo": "E",
+          "text": "严重",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 2913,
+      "text": "感到紧张或容易紧张",
+      "type": "radio",
+      "orderNum": 57,
+      "options": [
+        {
+          "id": 11672,
+          "optionNo": "A",
+          "text": "没有",
+          "value": "1"
+        },
+        {
+          "id": 11673,
+          "optionNo": "B",
+          "text": "很轻",
+          "value": "2"
+        },
+        {
+          "id": 11674,
+          "optionNo": "C",
+          "text": "中等",
+          "value": "3"
+        },
+        {
+          "id": 11675,
+          "optionNo": "D",
+          "text": "偏重",
+          "value": "4"
+        },
+        {
+          "id": 11676,
+          "optionNo": "E",
+          "text": "严重",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 2914,
+      "text": "感到手或脚发重",
+      "type": "radio",
+      "orderNum": 58,
+      "options": [
+        {
+          "id": 11677,
+          "optionNo": "A",
+          "text": "没有",
+          "value": "1"
+        },
+        {
+          "id": 11678,
+          "optionNo": "B",
+          "text": "很轻",
+          "value": "2"
+        },
+        {
+          "id": 11679,
+          "optionNo": "C",
+          "text": "中等",
+          "value": "3"
+        },
+        {
+          "id": 11680,
+          "optionNo": "D",
+          "text": "偏重",
+          "value": "4"
+        },
+        {
+          "id": 11681,
+          "optionNo": "E",
+          "text": "严重",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 2915,
+      "text": "想到有关死亡的事",
+      "type": "radio",
+      "orderNum": 59,
+      "options": [
+        {
+          "id": 11682,
+          "optionNo": "A",
+          "text": "没有",
+          "value": "1"
+        },
+        {
+          "id": 11683,
+          "optionNo": "B",
+          "text": "很轻",
+          "value": "2"
+        },
+        {
+          "id": 11684,
+          "optionNo": "C",
+          "text": "中等",
+          "value": "3"
+        },
+        {
+          "id": 11685,
+          "optionNo": "D",
+          "text": "偏重",
+          "value": "4"
+        },
+        {
+          "id": 11686,
+          "optionNo": "E",
+          "text": "严重",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 2916,
+      "text": "吃得太多",
+      "type": "radio",
+      "orderNum": 60,
+      "options": [
+        {
+          "id": 11687,
+          "optionNo": "A",
+          "text": "没有",
+          "value": "1"
+        },
+        {
+          "id": 11688,
+          "optionNo": "B",
+          "text": "很轻",
+          "value": "2"
+        },
+        {
+          "id": 11689,
+          "optionNo": "C",
+          "text": "中等",
+          "value": "3"
+        },
+        {
+          "id": 11690,
+          "optionNo": "D",
+          "text": "偏重",
+          "value": "4"
+        },
+        {
+          "id": 11691,
+          "optionNo": "E",
+          "text": "严重",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 2917,
+      "text": "当别人看着您或谈论您时感到不自在",
+      "type": "radio",
+      "orderNum": 61,
+      "options": [
+        {
+          "id": 11692,
+          "optionNo": "A",
+          "text": "没有",
+          "value": "1"
+        },
+        {
+          "id": 11693,
+          "optionNo": "B",
+          "text": "很轻",
+          "value": "2"
+        },
+        {
+          "id": 11694,
+          "optionNo": "C",
+          "text": "中等",
+          "value": "3"
+        },
+        {
+          "id": 11695,
+          "optionNo": "D",
+          "text": "偏重",
+          "value": "4"
+        },
+        {
+          "id": 11696,
+          "optionNo": "E",
+          "text": "严重",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 2918,
+      "text": "有一些不属于您自己的想法",
+      "type": "radio",
+      "orderNum": 62,
+      "options": [
+        {
+          "id": 11697,
+          "optionNo": "A",
+          "text": "没有",
+          "value": "1"
+        },
+        {
+          "id": 11698,
+          "optionNo": "B",
+          "text": "很轻",
+          "value": "2"
+        },
+        {
+          "id": 11699,
+          "optionNo": "C",
+          "text": "中等",
+          "value": "3"
+        },
+        {
+          "id": 11700,
+          "optionNo": "D",
+          "text": "偏重",
+          "value": "4"
+        },
+        {
+          "id": 11701,
+          "optionNo": "E",
+          "text": "严重",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 2919,
+      "text": "有想打人或伤害他人的冲动",
+      "type": "radio",
+      "orderNum": 63,
+      "options": [
+        {
+          "id": 11702,
+          "optionNo": "A",
+          "text": "没有",
+          "value": "1"
+        },
+        {
+          "id": 11703,
+          "optionNo": "B",
+          "text": "很轻",
+          "value": "2"
+        },
+        {
+          "id": 11704,
+          "optionNo": "C",
+          "text": "中等",
+          "value": "3"
+        },
+        {
+          "id": 11705,
+          "optionNo": "D",
+          "text": "偏重",
+          "value": "4"
+        },
+        {
+          "id": 11706,
+          "optionNo": "E",
+          "text": "严重",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 2920,
+      "text": "醒得太早",
+      "type": "radio",
+      "orderNum": 64,
+      "options": [
+        {
+          "id": 11707,
+          "optionNo": "A",
+          "text": "没有",
+          "value": "1"
+        },
+        {
+          "id": 11708,
+          "optionNo": "B",
+          "text": "很轻",
+          "value": "2"
+        },
+        {
+          "id": 11709,
+          "optionNo": "C",
+          "text": "中等",
+          "value": "3"
+        },
+        {
+          "id": 11710,
+          "optionNo": "D",
+          "text": "偏重",
+          "value": "4"
+        },
+        {
+          "id": 11711,
+          "optionNo": "E",
+          "text": "严重",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 2921,
+      "text": "必须反复洗手、点数目或触摸某些东西",
+      "type": "radio",
+      "orderNum": 65,
+      "options": [
+        {
+          "id": 11712,
+          "optionNo": "A",
+          "text": "没有",
+          "value": "1"
+        },
+        {
+          "id": 11713,
+          "optionNo": "B",
+          "text": "很轻",
+          "value": "2"
+        },
+        {
+          "id": 11714,
+          "optionNo": "C",
+          "text": "中等",
+          "value": "3"
+        },
+        {
+          "id": 11715,
+          "optionNo": "D",
+          "text": "偏重",
+          "value": "4"
+        },
+        {
+          "id": 11716,
+          "optionNo": "E",
+          "text": "严重",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 2922,
+      "text": "睡得不稳不深",
+      "type": "radio",
+      "orderNum": 66,
+      "options": [
+        {
+          "id": 11717,
+          "optionNo": "A",
+          "text": "没有",
+          "value": "1"
+        },
+        {
+          "id": 11718,
+          "optionNo": "B",
+          "text": "很轻",
+          "value": "2"
+        },
+        {
+          "id": 11719,
+          "optionNo": "C",
+          "text": "中等",
+          "value": "3"
+        },
+        {
+          "id": 11720,
+          "optionNo": "D",
+          "text": "偏重",
+          "value": "4"
+        },
+        {
+          "id": 11721,
+          "optionNo": "E",
+          "text": "严重",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 2923,
+      "text": "有想摔坏或破坏东西的冲动",
+      "type": "radio",
+      "orderNum": 67,
+      "options": [
+        {
+          "id": 11722,
+          "optionNo": "A",
+          "text": "没有",
+          "value": "1"
+        },
+        {
+          "id": 11723,
+          "optionNo": "B",
+          "text": "很轻",
+          "value": "2"
+        },
+        {
+          "id": 11724,
+          "optionNo": "C",
+          "text": "中等",
+          "value": "3"
+        },
+        {
+          "id": 11725,
+          "optionNo": "D",
+          "text": "偏重",
+          "value": "4"
+        },
+        {
+          "id": 11726,
+          "optionNo": "E",
+          "text": "严重",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 2924,
+      "text": "有一些别人没有的想法或念头",
+      "type": "radio",
+      "orderNum": 68,
+      "options": [
+        {
+          "id": 11727,
+          "optionNo": "A",
+          "text": "没有",
+          "value": "1"
+        },
+        {
+          "id": 11728,
+          "optionNo": "B",
+          "text": "很轻",
+          "value": "2"
+        },
+        {
+          "id": 11729,
+          "optionNo": "C",
+          "text": "中等",
+          "value": "3"
+        },
+        {
+          "id": 11730,
+          "optionNo": "D",
+          "text": "偏重",
+          "value": "4"
+        },
+        {
+          "id": 11731,
+          "optionNo": "E",
+          "text": "严重",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 2925,
+      "text": "感到对别人神经过敏",
+      "type": "radio",
+      "orderNum": 69,
+      "options": [
+        {
+          "id": 11732,
+          "optionNo": "A",
+          "text": "没有",
+          "value": "1"
+        },
+        {
+          "id": 11733,
+          "optionNo": "B",
+          "text": "很轻",
+          "value": "2"
+        },
+        {
+          "id": 11734,
+          "optionNo": "C",
+          "text": "中等",
+          "value": "3"
+        },
+        {
+          "id": 11735,
+          "optionNo": "D",
+          "text": "偏重",
+          "value": "4"
+        },
+        {
+          "id": 11736,
+          "optionNo": "E",
+          "text": "严重",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 2926,
+      "text": "在商店或电影院等人多的地方感到不自在",
+      "type": "radio",
+      "orderNum": 70,
+      "options": [
+        {
+          "id": 11737,
+          "optionNo": "A",
+          "text": "没有",
+          "value": "1"
+        },
+        {
+          "id": 11738,
+          "optionNo": "B",
+          "text": "很轻",
+          "value": "2"
+        },
+        {
+          "id": 11739,
+          "optionNo": "C",
+          "text": "中等",
+          "value": "3"
+        },
+        {
+          "id": 11740,
+          "optionNo": "D",
+          "text": "偏重",
+          "value": "4"
+        },
+        {
+          "id": 11741,
+          "optionNo": "E",
+          "text": "严重",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 2927,
+      "text": "感到任何事情都很难做",
+      "type": "radio",
+      "orderNum": 71,
+      "options": [
+        {
+          "id": 11742,
+          "optionNo": "A",
+          "text": "没有",
+          "value": "1"
+        },
+        {
+          "id": 11743,
+          "optionNo": "B",
+          "text": "很轻",
+          "value": "2"
+        },
+        {
+          "id": 11744,
+          "optionNo": "C",
+          "text": "中等",
+          "value": "3"
+        },
+        {
+          "id": 11745,
+          "optionNo": "D",
+          "text": "偏重",
+          "value": "4"
+        },
+        {
+          "id": 11746,
+          "optionNo": "E",
+          "text": "严重",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 2928,
+      "text": "一阵阵恐惧或惊恐",
+      "type": "radio",
+      "orderNum": 72,
+      "options": [
+        {
+          "id": 11747,
+          "optionNo": "A",
+          "text": "没有",
+          "value": "1"
+        },
+        {
+          "id": 11748,
+          "optionNo": "B",
+          "text": "很轻",
+          "value": "2"
+        },
+        {
+          "id": 11749,
+          "optionNo": "C",
+          "text": "中等",
+          "value": "3"
+        },
+        {
+          "id": 11750,
+          "optionNo": "D",
+          "text": "偏重",
+          "value": "4"
+        },
+        {
+          "id": 11751,
+          "optionNo": "E",
+          "text": "严重",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 2929,
+      "text": "感到在公共场合吃东西很不舒服",
+      "type": "radio",
+      "orderNum": 73,
+      "options": [
+        {
+          "id": 11752,
+          "optionNo": "A",
+          "text": "没有",
+          "value": "1"
+        },
+        {
+          "id": 11753,
+          "optionNo": "B",
+          "text": "很轻",
+          "value": "2"
+        },
+        {
+          "id": 11754,
+          "optionNo": "C",
+          "text": "中等",
+          "value": "3"
+        },
+        {
+          "id": 11755,
+          "optionNo": "D",
+          "text": "偏重",
+          "value": "4"
+        },
+        {
+          "id": 11756,
+          "optionNo": "E",
+          "text": "严重",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 2930,
+      "text": "经常与人争论",
+      "type": "radio",
+      "orderNum": 74,
+      "options": [
+        {
+          "id": 11757,
+          "optionNo": "A",
+          "text": "没有",
+          "value": "1"
+        },
+        {
+          "id": 11758,
+          "optionNo": "B",
+          "text": "很轻",
+          "value": "2"
+        },
+        {
+          "id": 11759,
+          "optionNo": "C",
+          "text": "中等",
+          "value": "3"
+        },
+        {
+          "id": 11760,
+          "optionNo": "D",
+          "text": "偏重",
+          "value": "4"
+        },
+        {
+          "id": 11761,
+          "optionNo": "E",
+          "text": "严重",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 2931,
+      "text": "单独一人时神经很紧张",
+      "type": "radio",
+      "orderNum": 75,
+      "options": [
+        {
+          "id": 11762,
+          "optionNo": "A",
+          "text": "没有",
+          "value": "1"
+        },
+        {
+          "id": 11763,
+          "optionNo": "B",
+          "text": "很轻",
+          "value": "2"
+        },
+        {
+          "id": 11764,
+          "optionNo": "C",
+          "text": "中等",
+          "value": "3"
+        },
+        {
+          "id": 11765,
+          "optionNo": "D",
+          "text": "偏重",
+          "value": "4"
+        },
+        {
+          "id": 11766,
+          "optionNo": "E",
+          "text": "严重",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 2932,
+      "text": "别人对您的成绩没有作出恰当的评价",
+      "type": "radio",
+      "orderNum": 76,
+      "options": [
+        {
+          "id": 11767,
+          "optionNo": "A",
+          "text": "没有",
+          "value": "1"
+        },
+        {
+          "id": 11768,
+          "optionNo": "B",
+          "text": "很轻",
+          "value": "2"
+        },
+        {
+          "id": 11769,
+          "optionNo": "C",
+          "text": "中等",
+          "value": "3"
+        },
+        {
+          "id": 11770,
+          "optionNo": "D",
+          "text": "偏重",
+          "value": "4"
+        },
+        {
+          "id": 11771,
+          "optionNo": "E",
+          "text": "严重",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 2933,
+      "text": "即使和别人在一起也感到孤单",
+      "type": "radio",
+      "orderNum": 77,
+      "options": [
+        {
+          "id": 11772,
+          "optionNo": "A",
+          "text": "没有",
+          "value": "1"
+        },
+        {
+          "id": 11773,
+          "optionNo": "B",
+          "text": "很轻",
+          "value": "2"
+        },
+        {
+          "id": 11774,
+          "optionNo": "C",
+          "text": "中等",
+          "value": "3"
+        },
+        {
+          "id": 11775,
+          "optionNo": "D",
+          "text": "偏重",
+          "value": "4"
+        },
+        {
+          "id": 11776,
+          "optionNo": "E",
+          "text": "严重",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 2934,
+      "text": "感到坐立不安心神不定",
+      "type": "radio",
+      "orderNum": 78,
+      "options": [
+        {
+          "id": 11777,
+          "optionNo": "A",
+          "text": "没有",
+          "value": "1"
+        },
+        {
+          "id": 11778,
+          "optionNo": "B",
+          "text": "很轻",
+          "value": "2"
+        },
+        {
+          "id": 11779,
+          "optionNo": "C",
+          "text": "中等",
+          "value": "3"
+        },
+        {
+          "id": 11780,
+          "optionNo": "D",
+          "text": "偏重",
+          "value": "4"
+        },
+        {
+          "id": 11781,
+          "optionNo": "E",
+          "text": "严重",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 2935,
+      "text": "感到自己没有什么价值",
+      "type": "radio",
+      "orderNum": 79,
+      "options": [
+        {
+          "id": 11782,
+          "optionNo": "A",
+          "text": "没有",
+          "value": "1"
+        },
+        {
+          "id": 11783,
+          "optionNo": "B",
+          "text": "很轻",
+          "value": "2"
+        },
+        {
+          "id": 11784,
+          "optionNo": "C",
+          "text": "中等",
+          "value": "3"
+        },
+        {
+          "id": 11785,
+          "optionNo": "D",
+          "text": "偏重",
+          "value": "4"
+        },
+        {
+          "id": 11786,
+          "optionNo": "E",
+          "text": "严重",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 2936,
+      "text": "感到熟悉的东西变成陌生或不像是真的",
+      "type": "radio",
+      "orderNum": 80,
+      "options": [
+        {
+          "id": 11787,
+          "optionNo": "A",
+          "text": "没有",
+          "value": "1"
+        },
+        {
+          "id": 11788,
+          "optionNo": "B",
+          "text": "很轻",
+          "value": "2"
+        },
+        {
+          "id": 11789,
+          "optionNo": "C",
+          "text": "中等",
+          "value": "3"
+        },
+        {
+          "id": 11790,
+          "optionNo": "D",
+          "text": "偏重",
+          "value": "4"
+        },
+        {
+          "id": 11791,
+          "optionNo": "E",
+          "text": "严重",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 2937,
+      "text": "大叫或摔东西",
+      "type": "radio",
+      "orderNum": 81,
+      "options": [
+        {
+          "id": 11792,
+          "optionNo": "A",
+          "text": "没有",
+          "value": "1"
+        },
+        {
+          "id": 11793,
+          "optionNo": "B",
+          "text": "很轻",
+          "value": "2"
+        },
+        {
+          "id": 11794,
+          "optionNo": "C",
+          "text": "中等",
+          "value": "3"
+        },
+        {
+          "id": 11795,
+          "optionNo": "D",
+          "text": "偏重",
+          "value": "4"
+        },
+        {
+          "id": 11796,
+          "optionNo": "E",
+          "text": "严重",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 2938,
+      "text": "害怕会在公共场合昏倒",
+      "type": "radio",
+      "orderNum": 82,
+      "options": [
+        {
+          "id": 11797,
+          "optionNo": "A",
+          "text": "没有",
+          "value": "1"
+        },
+        {
+          "id": 11798,
+          "optionNo": "B",
+          "text": "很轻",
+          "value": "2"
+        },
+        {
+          "id": 11799,
+          "optionNo": "C",
+          "text": "中等",
+          "value": "3"
+        },
+        {
+          "id": 11800,
+          "optionNo": "D",
+          "text": "偏重",
+          "value": "4"
+        },
+        {
+          "id": 11801,
+          "optionNo": "E",
+          "text": "严重",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 2939,
+      "text": "感到别人想占您的便宜",
+      "type": "radio",
+      "orderNum": 83,
+      "options": [
+        {
+          "id": 11802,
+          "optionNo": "A",
+          "text": "没有",
+          "value": "1"
+        },
+        {
+          "id": 11803,
+          "optionNo": "B",
+          "text": "很轻",
+          "value": "2"
+        },
+        {
+          "id": 11804,
+          "optionNo": "C",
+          "text": "中等",
+          "value": "3"
+        },
+        {
+          "id": 11805,
+          "optionNo": "D",
+          "text": "偏重",
+          "value": "4"
+        },
+        {
+          "id": 11806,
+          "optionNo": "E",
+          "text": "E严重",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 2940,
+      "text": "为一些有关\"性\"的想法而很苦恼",
+      "type": "radio",
+      "orderNum": 84,
+      "options": [
+        {
+          "id": 11807,
+          "optionNo": "A",
+          "text": "没有",
+          "value": "1"
+        },
+        {
+          "id": 11808,
+          "optionNo": "B",
+          "text": "很轻",
+          "value": "2"
+        },
+        {
+          "id": 11809,
+          "optionNo": "C",
+          "text": "中等",
+          "value": "3"
+        },
+        {
+          "id": 11810,
+          "optionNo": "D",
+          "text": "偏重",
+          "value": "4"
+        },
+        {
+          "id": 11811,
+          "optionNo": "E",
+          "text": "严重",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 2941,
+      "text": "您认为应该因为自己的过错而受到惩罚",
+      "type": "radio",
+      "orderNum": 85,
+      "options": [
+        {
+          "id": 11812,
+          "optionNo": "A",
+          "text": "没有",
+          "value": "1"
+        },
+        {
+          "id": 11813,
+          "optionNo": "B",
+          "text": "很轻",
+          "value": "2"
+        },
+        {
+          "id": 11814,
+          "optionNo": "C",
+          "text": "中等",
+          "value": "3"
+        },
+        {
+          "id": 11815,
+          "optionNo": "D",
+          "text": "偏重",
+          "value": "4"
+        },
+        {
+          "id": 11816,
+          "optionNo": "E",
+          "text": "严重",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 2942,
+      "text": "感到要赶快把事情做完",
+      "type": "radio",
+      "orderNum": 86,
+      "options": [
+        {
+          "id": 11817,
+          "optionNo": "A",
+          "text": "没有",
+          "value": "1"
+        },
+        {
+          "id": 11818,
+          "optionNo": "B",
+          "text": "很轻",
+          "value": "2"
+        },
+        {
+          "id": 11819,
+          "optionNo": "C",
+          "text": "中等",
+          "value": "3"
+        },
+        {
+          "id": 11820,
+          "optionNo": "D",
+          "text": "偏重",
+          "value": "4"
+        },
+        {
+          "id": 11821,
+          "optionNo": "E",
+          "text": "严重",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 2943,
+      "text": "感到自己的身体有严重问题",
+      "type": "radio",
+      "orderNum": 87,
+      "options": [
+        {
+          "id": 11822,
+          "optionNo": "A",
+          "text": "没有",
+          "value": "1"
+        },
+        {
+          "id": 11823,
+          "optionNo": "B",
+          "text": "很轻",
+          "value": "2"
+        },
+        {
+          "id": 11824,
+          "optionNo": "C",
+          "text": "中等",
+          "value": "3"
+        },
+        {
+          "id": 11825,
+          "optionNo": "D",
+          "text": "偏重",
+          "value": "4"
+        },
+        {
+          "id": 11826,
+          "optionNo": "E",
+          "text": "严重",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 2944,
+      "text": "从未感到和其他人很亲近",
+      "type": "radio",
+      "orderNum": 88,
+      "options": [
+        {
+          "id": 11827,
+          "optionNo": "A",
+          "text": "没有",
+          "value": "1"
+        },
+        {
+          "id": 11828,
+          "optionNo": "B",
+          "text": "很轻",
+          "value": "2"
+        },
+        {
+          "id": 11829,
+          "optionNo": "C",
+          "text": "中等",
+          "value": "3"
+        },
+        {
+          "id": 11830,
+          "optionNo": "D",
+          "text": "偏重",
+          "value": "4"
+        },
+        {
+          "id": 11831,
+          "optionNo": "E",
+          "text": "严重",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 2945,
+      "text": "感到自己有罪",
+      "type": "radio",
+      "orderNum": 89,
+      "options": [
+        {
+          "id": 11832,
+          "optionNo": "A",
+          "text": "没有",
+          "value": "1"
+        },
+        {
+          "id": 11833,
+          "optionNo": "B",
+          "text": "很轻",
+          "value": "2"
+        },
+        {
+          "id": 11834,
+          "optionNo": "C",
+          "text": "中等",
+          "value": "3"
+        },
+        {
+          "id": 11835,
+          "optionNo": "D",
+          "text": "偏重",
+          "value": "4"
+        },
+        {
+          "id": 11836,
+          "optionNo": "E",
+          "text": "严重",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 2946,
+      "text": "感到自己的脑子有毛病",
+      "type": "radio",
+      "orderNum": 90,
+      "options": [
+        {
+          "id": 11837,
+          "optionNo": "A",
+          "text": "没有",
+          "value": "1"
+        },
+        {
+          "id": 11838,
+          "optionNo": "B",
+          "text": "很轻",
+          "value": "2"
+        },
+        {
+          "id": 11839,
+          "optionNo": "C",
+          "text": "中等",
+          "value": "3"
+        },
+        {
+          "id": 11840,
+          "optionNo": "D",
+          "text": "偏重",
+          "value": "4"
+        },
+        {
+          "id": 11841,
+          "optionNo": "E",
+          "text": "严重",
+          "value": "5"
+        }
+      ]
+    }
+  ],
+  "dimensions": [
+    {
+      "id": 350,
+      "num": 1,
+      "dimensionName": "躯体化",
+      "dimensionCode": "A",
+      "evaluateExpression": "(hx_t_1 + hx_t_4 + hx_t_12 + hx_t_27 + hx_t_40 + hx_t_42 + hx_t_48 + hx_t_49 + hx_t_52 + hx_t_53 + hx_t_56 + hx_t_58)/12",
+      "standardScoreFormula": "0",
+      "results": [
+        {
+          "id": 712,
+          "evaluateExpression": "hx_wd_y_1 >= 0&& hx_wd_y_1 <= 1.84",
+          "conclusionAnalysis": "低分，主观感觉没有躯体化症状，通过测试得知被试自我感觉身体良好。被试者比较善于化解自身的压力，因此很少出现身心症状。躯体化维度主要反映主观的身体不适感，包括心血管、胃肠道、呼吸等系统的不适，和头痛、背痛、肌肉酸痛、以及焦虑的其他躯体表现。",
+          "suggestion": "被测者主观感觉身体健康。或许是由于被测试者比较善于化解自身的压力，被测者在生活当中没有感到过大的压力。建议被测试者经常检查自身的心理压力水平，及时处理蓄积的紧张焦虑情绪，防止这些心理因素躯体化，即表现为各种身体不适感。建议被测试者保持积极、乐观的心态和良好的生活习惯，做定期体检，长期保持身心的健康状态。",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 713,
+          "evaluateExpression": "hx_wd_y_1 >= 1.85&& hx_wd_y_1 <= 3.5",
+          "conclusionAnalysis": "中等得分，主观感觉有一定的躯体化症状，通过测试得知被试目前自我感觉身体上有一些不适。被测者在生活当中可能感觉到一些紧张焦虑，没有及时关注自身的心理状况，因此出现一些身体不适。躯体化维度主要反映主观的身体不适感，包括心血管、胃肠道、呼吸等系统的不适，和头痛、背痛、肌肉酸痛、以及焦虑的其他躯体表现。",
+          "suggestion": "如果你目前经常感到身体上的不适，应该弄清这种身体上不适到底是生理因素还是心理因素引起的，可以去医院做一个全面体检，如果经医生检查你并无躯体疾患，那么你这些身体上的不适只是你的一种主观感觉，是由于心理上的不愉快或压力过大造成。如果症状较轻，建议加强体育锻炼，可以在心理咨询师的指导下，掌握一些简便易行的放松和调节方法，以防躯体症状加重。如果症状较重，建议接受系统的心理咨询和治疗。",
+          "assessmentWarning": "high"
+        },
+        {
+          "id": 714,
+          "evaluateExpression": "hx_wd_y_1 >= 3.51&& hx_wd_y_1 <= 5",
+          "conclusionAnalysis": "高分，主观感觉躯体化症状偏重。通过测试得知被试目前自我感觉身体的不适感偏重，可能反映在心血管、肠胃道、呼吸或其他系统以及头痛、背痛、肌肉酸痛或乏力等躯体表现上。被测者在生活中感觉到巨大的压力，而且这些紧张焦虑的情绪日积月累，导致心理因素躯体化，表现为各种身体不适感。躯体化维度主要反映主观的身体不适感，包括心血管、胃肠道、呼吸等系统的不适，和头痛、背痛、肌肉酸痛、以及焦虑的其他躯体表现。",
+          "suggestion": "如果你目前经常感到身体上的不适，应该弄清这种身体上不适到底是生理因素还是心理因素引起的，可以去医院做一个全面体检，如果经医生检查你并无躯体疾患，那么你这些身体上的不适只是你的一种主观感觉，是由于心理上的不愉快或压力过大造成。如果症状较轻，建议加强体育锻炼，可以在心理老师的指导下，掌握一些简便易行的放松和调节方法，以防躯体症状加重。如果症状较重，建议接受系统的心理咨询和治疗。",
+          "assessmentWarning": "high"
+        }
+      ]
+    },
+    {
+      "id": 351,
+      "num": 2,
+      "dimensionName": "强迫症状",
+      "dimensionCode": "B",
+      "evaluateExpression": "(hx_t_3 + hx_t_9 + hx_t_10 + hx_t_28 + hx_t_38 + hx_t_45 + hx_t_46 + hx_t_51 + hx_t_55 + hx_t_65)/10",
+      "standardScoreFormula": "0",
+      "results": [
+        {
+          "id": 715,
+          "evaluateExpression": "hx_wd_y_2 >= 0&& hx_wd_y_2 <= 2.1",
+          "conclusionAnalysis": "低分，不存在强迫症状，通过测试得知被试无墨守陈规、过分疑虑、刻意追求完美的倾向。被测者能够用自然平和的心态面对生活中的得失成败，因此能够保持健康心态。强迫症状维度主要指那种明知没有必要、但又无法摆脱的无意义的思想、冲动、行为等表现，还有一些比较一般的感知障碍(如\"脑子都变空了\"，\"记忆力不行\"等)。",
+          "suggestion": "被测者在生活中不存在或很少存在强迫性的想法或行为。被测者需要保持现在的状态，用自然平和的心态面对生活，保有一颗平常心来面对得失成败, 不要对自己和别人要求太高，不苛求完美，保持适当的心理压力水平，这样就比较容易保持健康心态。",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 716,
+          "evaluateExpression": "hx_wd_y_2 >= 2.2&& hx_wd_y_2 <= 3.5",
+          "conclusionAnalysis": "中等得分，存在一定程度的强迫症状。通过测试得知被试有时可能因苛求细节和追求完美，造成了行为和思想上的一些困扰。被测者可能在面对压力时，不能及时调整心态，对自身和他人要求较高，造成生活中的困扰。强迫症状维度主要指那种明知没有必要、但又无法摆脱的无意义的思想、冲动、行为等表现，还有一些比较一般的感知障碍(如\"脑子都变空了\"，\"记忆力不行\"等)。",
+          "suggestion": "如果觉得自己喜欢求全责备，可以了解一些必要的心理知识，为今后保持健康的心理奠定基础。在相关心理学知识的指导下，做一些调节和改善，以防问题进一步发展；平时不要过分克制和自我关注，做事不要过分疑虑，太追求细节和完美，思想老得不到松弛，会陷入焦虑、紧张和痛苦中。若是觉得情况比较严重，或是通过自身努力无法改善目前状况，应及时向心理咨询师求助。",
+          "assessmentWarning": "high"
+        },
+        {
+          "id": 717,
+          "evaluateExpression": "hx_wd_y_2 >= 3.51&& hx_wd_y_2 <= 5",
+          "conclusionAnalysis": "高分，存在偏重度强迫症状。通过测试得知被试因为过于苛求细节和追求完美，对一些事情思虑过度，在行为和思想上出现了较多困扰。被测者性格中可能存在完美主义倾向，对人对己都要求甚高，苛求细节，追求完美，给他人和自己都带来较大的困扰。强迫症状维度主要指那种明知没有必要、但又无法摆脱的无意义的思想、冲动、行为等表现，还有一些比较一般的感知障碍(如\"脑子都变空了\",\"记忆力不行\"等)。",
+          "suggestion": "如果觉得自己喜欢求全责备，可以了解一些必要的心理知识，为今后保持健康的心理奠定基础。在相关心理学知识的指导下，做一些调节和改善，以防问题进一步发展；平时不要过分克制和自我关注，做事不要过分疑虑，太追求细节和完美，思想老得不到松弛，会陷入焦虑、紧张和痛苦中。若是觉得情况比较严重，或是通过自身努力无法改善目前状况，应及时向心理咨询师求助。",
+          "assessmentWarning": "high"
+        }
+      ]
+    },
+    {
+      "id": 352,
+      "num": 3,
+      "dimensionName": "人际关系敏感",
+      "dimensionCode": "C",
+      "evaluateExpression": "(hx_t_6 + hx_t_21 + hx_t_34 + hx_t_36 + hx_t_37 + hx_t_41 + hx_t_61 + hx_t_69 + hx_t_73)/9",
+      "standardScoreFormula": "0",
+      "results": [
+        {
+          "id": 718,
+          "evaluateExpression": "hx_wd_y_3 >= 0&& hx_wd_y_3 <= 2.15",
+          "conclusionAnalysis": "低分，不存在人际关系敏感症状。通过测试得知被测者能与别人自由交流、和睦相处，有良好的人际关系。人际关系敏感维度主要指个人存在的不自在感与自卑感，尤其在与其他人相比较时更突出。自卑感、懊丧，以及人事关系明显相处不好的人，往往是这一维度的高分对象，与人际交流有关的自我敏感及反相期望也是产生这方面症状的原因。",
+          "suggestion": "被测者不存在人际关系敏感的问题。被测者需要保持现在的状态，在人际关系中保持乐观开朗、自信达观的心境，扩大或拓深与他人的交往。与别人建立稳固，深层次的关系，一方面，亲密关系会给人以价值感和归属感，会使一个人更容易接纳自我，另一方面，当一个人接纳自我时，被别人接纳就是一件容易的事情。这样就会形成一个良性的循环。",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 719,
+          "evaluateExpression": "hx_wd_y_3 >= 2.16&& hx_wd_y_3 <= 3.5",
+          "conclusionAnalysis": "中等得分，存在一定程度的人际关系敏感症状。通过测试得知被测者通常人际交往范围比较狭窄，朋友的数量有限，还没有掌握较好的人际交往的技巧。人际关系敏感维度主要指个人存在的不自在感与自卑感，尤其在与其他人相比较时更突出。自卑感、懊丧，以及人事关系明显相处不好的人，往往是这一维度的高分对象，与人际交流有关的自我敏感及反相期望也是产生这方面症状的原因。",
+          "suggestion": "程度轻者建议尽力去学习一些人际交往的技巧，改善与朋友交往的质量，程度重者建议尽快走出自己的内心世界，尝试着去结交更多的朋友。必要时寻求专业心理咨询师的帮助。",
+          "assessmentWarning": "high"
+        },
+        {
+          "id": 720,
+          "evaluateExpression": "hx_wd_y_3 >= 3.51&& hx_wd_y_3 <= 5",
+          "conclusionAnalysis": "高分，存在偏重度的人际关系敏感症状。通过测试得知被测者在人际交往方面亟待提高，通常不能主动与周围的人交往，没有特别知心的朋友，难以获得别人的认可。人际关系敏感维度主要指个人存在的不自在感与自卑感，尤其在与其他人相比较时更突出。自卑感、懊丧，以及人事关系明显相处不好的人，往往是这一维度的高分对象，与人际交流有关的自我敏感及反相期望也是产生这方面症状的原因。",
+          "suggestion": "程度轻者建议尽力去学习一些人际交往的技巧，改善与朋友交往的质量，程度重者建议尽快走出自己的内心世界，尝试着去结交更多的朋友。必要时寻求专业心理咨询师的帮助。",
+          "assessmentWarning": "high"
+        }
+      ]
+    },
+    {
+      "id": 353,
+      "num": 4,
+      "dimensionName": "抑郁",
+      "dimensionCode": "D",
+      "evaluateExpression": "(hx_t_5 + hx_t_14 + hx_t_15 + hx_t_20 + hx_t_22 + hx_t_26 + hx_t_29 + hx_t_30 + hx_t_31 + hx_t_32 + hx_t_54 + hx_t_71 + hx_t_79)/13",
+      "standardScoreFormula": "0",
+      "results": [
+        {
+          "id": 721,
+          "evaluateExpression": "hx_wd_y_4 >= 0&& hx_wd_y_4 <= 2.08",
+          "conclusionAnalysis": "低分，不存在抑郁症状。通过测试得知被试没有抑郁症状。被测者积极乐观，在日常生活中能保持快乐明朗的心态。抑郁维度反映的是抑郁苦闷的感情和心境，具有对生活兴趣减退，缺乏活动愿望，丧失活动力等行为特征，包括失望、悲观，与抑郁相联系的其他感知及躯体方面的问题。",
+          "suggestion": "被测者不存在抑郁症状。希望被测者在未来的日子里也能够保持快乐明朗的心态，未来的生活中，挫折和烦恼都是不可避免的，有的时候，即使心态健康的人也会出现暂时的情绪低落，态度消沉，但这并不可怕，只要认识到这种情绪并且恰当地调节好自己的情绪，选择适当的应对方法，就可以从低沉悲观的情绪中走出来，积极地面对生活的挑战。",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 722,
+          "evaluateExpression": "hx_wd_y_4 >= 2.09&& hx_wd_y_4 <= 3.5",
+          "conclusionAnalysis": "中等得分，存在一定程度的抑郁症状。通过测试得知被试偶尔有些郁闷、压抑。被测者在遇到挫折和烦恼时，会出现暂时的情绪低落，态度消沉，但这并不可怕，只要认识到这种情绪并且恰当地调节好自己的情绪，选择适当的应对方法，就可以从低沉悲观的情绪中走出来，积极地面对生活的挑战。抑郁维度反映的是抑郁苦闷的感情和心境，具有对生活兴趣减退，缺乏活动愿望，丧失活动力等行为特征，包括失望、悲观，与抑郁相联系的其他感知及躯体方面的问题。",
+          "suggestion": "心情郁闷时，要学会倾诉和宣泄，如果条件许可，你可以了解一些必要的心理知识，为今后保持健康的心理奠定基础。在相关心理学知识的指导下，培养积极的认知方式；另外，多给自己一些放松和倾诉的机会，找人倾诉或适当发泄，努力去做一些可以让自己有快乐体验的事；制定一些计划目标让自己的生活充实起来。程度较重者，建议尽快接受系统的心理咨询和治疗。",
+          "assessmentWarning": "high"
+        },
+        {
+          "id": 723,
+          "evaluateExpression": "hx_wd_y_4 >= 3.51&& hx_wd_y_4 <= 5",
+          "conclusionAnalysis": "高分，存在偏重程度的抑郁症状。通过测试得知被试抑郁症状较严重。被测者经常感到抑郁，对任何事情都没有兴趣，不愿意活动，对生活没有信心，感到悲观绝望。抑郁维度反映的是抑郁苦闷的感情和心境，具有对生活兴趣减退，缺乏活动愿望，丧失活动力等行为特征，包括失望、悲观，与抑郁相联系的其他感知及躯体方面的问题。",
+          "suggestion": "心情郁闷时，要学会倾诉和宣泄，如果条件许可，你可以了解一些必要的心理知识，为今后保持健康的心理奠定基础。在相关心理学知识的指导下，培养积极的认知方式；另外，多给自己一些放松和倾诉的机会，找人倾诉或适当发泄，努力去做一些可以让自己有快乐体验的事；制定一些计划目标让自己的生活充实起来。程度较重者，建议尽快接受系统的心理咨询和治疗。",
+          "assessmentWarning": "high"
+        }
+      ]
+    },
+    {
+      "id": 354,
+      "num": 5,
+      "dimensionName": "焦虑",
+      "dimensionCode": "E",
+      "evaluateExpression": "(hx_t_2 + hx_t_17 + hx_t_23 + hx_t_33 + hx_t_39 + hx_t_57 + hx_t_72 + hx_t_78 + hx_t_80 + hx_t_86)/10",
+      "standardScoreFormula": "0",
+      "results": [
+        {
+          "id": 724,
+          "evaluateExpression": "hx_wd_y_5 >= 0&& hx_wd_y_5 <= 1.81",
+          "conclusionAnalysis": "低分，不存在焦虑症状。通过测试得知被试无焦虑症状。被测试者生活当中的压力感不是很大，或者会以比较适当的方式消除精神压力，被测者需要继续保持心理压力水平。焦虑维度包括一些与临床上明显与焦虑症状相联系的症状及体验，一般指那些无法静息、神经过敏、紧张以及由此产生躯体反应(如震颤)。",
+          "suggestion": "被测者不存在焦虑症状。被测试者生活当中的压力感不是很大，或者会以比较适当的方式消除精神压力，被测者需要继续保持心理压力水平。当遇到危急、挫折的时候，一般的人都会产生程度不一的焦虑情绪，适度的焦虑会使人调动自己的防御机制，应对问题，这是健康的，不需要为之担忧。只有存在较长时间的过度的焦虑才会影响到生活工作并且无助于问题解决，这时才需要加以调节。当今社会，人们普遍需要面临巨大的心理压力，容易产生焦虑情绪，因此，即使被测试者当前焦虑水平适中，也应当学习一些控制和消除焦虑的方法，如肌肉放松法、深呼吸法等，用以应对突发的紧张的局面，维持自身心理健康状态。",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 725,
+          "evaluateExpression": "hx_wd_y_5 >= 1.82&& hx_wd_y_5 <= 3.5",
+          "conclusionAnalysis": "中等得分，存在一定程度的焦虑症状。通过测试得知被试偶尔有些焦虑、烦躁不安的情绪。被测者在生活中遇到压力时，会产生程度不一的焦虑情绪，适度的焦虑会使人调动自己的防御机制应对问题，这是健康的，不需要为之担忧。只有存在较长时间的、过度的焦虑才会影响到生活工作并且无助于问题解决，这时才需要加以调节。焦虑维度包括一些与临床上明显与焦虑症状相联系的症状及体验，一般指那些无法静息、神经过敏、紧张以及由此产生躯体反应(如震颤)。",
+          "suggestion": "如果常感到焦虑不安，可在相关心理学知识的指导下，掌握一些简便易行的放松方法，自己做一些宣泄和放松，以防焦虑进一步加重。另外，也可以找心理咨询师聊聊。如果自己无法有效调节，建议尽快接受系统的心理咨询和治疗。",
+          "assessmentWarning": "high"
+        },
+        {
+          "id": 726,
+          "evaluateExpression": "hx_wd_y_5 >= 3.51&& hx_wd_y_5 <= 5",
+          "conclusionAnalysis": "高分，存在偏重程度的焦虑症状。通过测试得知被试焦虑症状较严重。被测者在较长时间感到过度的焦虑，并影响到自己正常的生活工作。焦虑维度包括一些与临床上明显与焦虑症状相联系的症状及体验，一般指那些无法静息、神经过敏、紧张以及由此产生躯体反应(如震颤)。",
+          "suggestion": "如果常感到焦虑不安，可在相关心理学知识的指导下，掌握一些简便易行的放松方法，自己做一些宣泄和放松，以防焦虑进一步加重。另外，也可以找心理咨询师聊聊。如果自己无法有效调节，建议尽快接受系统的心理咨询和治疗。",
+          "assessmentWarning": "high"
+        }
+      ]
+    },
+    {
+      "id": 355,
+      "num": 6,
+      "dimensionName": "敌对",
+      "dimensionCode": "F",
+      "evaluateExpression": "(hx_t_11 + hx_t_24 + hx_t_63 + hx_t_67 + hx_t_74 + hx_t_81)/6",
+      "standardScoreFormula": "0",
+      "results": [
+        {
+          "id": 727,
+          "evaluateExpression": "hx_wd_y_6 >= 0&& hx_wd_y_6 <= 2.03",
+          "conclusionAnalysis": "低分，不存在敌对症状。通过测试得知被试具有良好的心态，对很多事情充满包容和理解，情绪较为稳定。被测者友善、豁达的态度，会为自己赢得信任、理解和帮助。敌对维度主要从思想、感情及行为等三个方面来反映被试的敌对表现。其项目包括从厌烦、争论、摔物，直至争斗和不可抑制的冲动爆发等各个方面。",
+          "suggestion": "被测者不存在敌对症状。\"世界上最宽阔的是海洋，比海洋更宽阔的是天空，比天空更宽阔的是人的心灵。\"被测者友善、豁达的态度，会给被测者赢得很多朋友，也会让被测者得到很多的信任、理解和帮助。在未来的生活中，保持这种豁达大度，开朗达观的心态， 被测者的生活会充满和谐、快乐。",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 728,
+          "evaluateExpression": "hx_wd_y_6 >= 2.04&& hx_wd_y_6 <= 3.5",
+          "conclusionAnalysis": "中等得分，存在一定程度的敌对症状。通过测试得知被试有时情绪不稳定，缺乏控制。被测者对有些事情放不开，碰到此类问题时容易生气，导致情绪不稳定。敌对维度主要从思想、感情及行为等三个方面来反映被试的敌对表现。其项目包括从厌烦、争论、摔物，直至争斗和不可抑制的冲动爆发等各个方面。",
+          "suggestion": "如果出现敌对情绪，要注意调节和控制自己的情绪，在愤怒时提醒自己冷静，在想要发脾气前要放松自己，例如做深呼吸等，掌握恰当的宣泄和调节方法，让自己逐渐冷静下来。平时就可以试着进行自我心态调节，多想想别人的优点和好处，提醒自己多一点容忍和接纳。如果自己无法有效调节，最好能向专业心理咨询师求助。",
+          "assessmentWarning": "high"
+        },
+        {
+          "id": 729,
+          "evaluateExpression": "hx_wd_y_6 >= 3.51&& hx_wd_y_6 <= 5",
+          "conclusionAnalysis": "高分，存在偏重程度的敌对症状。通过测试得知被试行为较冲动，经常情绪不稳定，缺乏控制。被测者的心胸有些狭窄，对人不友善，不够宽容、豁达，生活中缺少朋友。敌对维度主要从思想、感情及行为等三个方面来反映被试的敌对表现。其项目包括从厌烦、争论、摔物，直至争斗和不可抑制的冲动爆发等各个方面。",
+          "suggestion": "如果出现敌对情绪，要注意调节和控制自己的情绪，在愤怒时提醒自己冷静，在想要发脾气前要放松自己，例如做深呼吸等，掌握恰当的宣泄和调节方法，让自己逐渐冷静下来。平时就可以试着进行自我心态调节，多想想别人的优点和好处，提醒自己多一点容忍和接纳。如果自己无法有效调节，最好能向专业心理咨询师求助。",
+          "assessmentWarning": "high"
+        }
+      ]
+    },
+    {
+      "id": 356,
+      "num": 7,
+      "dimensionName": "恐怖",
+      "dimensionCode": "G",
+      "evaluateExpression": "(hx_t_13 + hx_t_25 + hx_t_47 + hx_t_50 + hx_t_70 + hx_t_75 + hx_t_82)/7",
+      "standardScoreFormula": "0",
+      "results": [
+        {
+          "id": 730,
+          "evaluateExpression": "hx_wd_y_7 >= 0&& hx_wd_y_7 <= 1.65",
+          "conclusionAnalysis": "低分，不存在恐怖症状。通过测试得知被试没有恐怖症状。恐怖维度所表现的症状与传统的恐怖状态或广场恐怖症所反映的内容基本一致，恐惧的对象包括出门旅行、空旷场地、人群、或公共场合及交通工具。此外，还有反映社交恐怖的项目，即害怕与他人交往。",
+          "suggestion": "被测者不存在恐怖症状。在某些可怕的情境中感受到恐怖是极为正常的事。生活中每个人都可能偶尔会对某些普通的情境存在畏惧或恐怖的心态的，例如，恐高，恐惧下水等，但只要程度不是非常严重，并且不会影响生活，就不必担心。",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 731,
+          "evaluateExpression": "hx_wd_y_7 >= 1.66&& hx_wd_y_7 <= 3.5",
+          "conclusionAnalysis": "中等得分，存在一定程度的恐怖症状。通过测试得知被试具有一定的内心恐怖倾向，从某种程度上说，被测者所害怕的事物比正常人要多。恐怖维度所表现的症状与传统的恐怖状态或广场恐怖症所反映的内容基本一致，恐惧的对象包括出门旅行、空旷场地、人群、或公共场合及交通工具。此外，还有反映社交恐怖的项目，即害怕与他人交往。",
+          "suggestion": "把注意力及能量投向自己生活中有确定意义，且能见成效的事情上，努力做应做之事，把注意力集中在行动上。积极参加集体活动，消除紧张心理，锻炼克服困难的意志，培养开朗的性格，增强处理生活事件的能力，学会谅解和宽容别人，控制自己的情绪和主观欲望。如果感到通过自己的努力，无法摆脱内心恐惧的倾向，请尽快找心理咨询师咨询。",
+          "assessmentWarning": "high"
+        },
+        {
+          "id": 732,
+          "evaluateExpression": "hx_wd_y_7 >= 3.51&& hx_wd_y_7 <= 5",
+          "conclusionAnalysis": "高分，存在偏重程度的恐怖症状。通过测试得知被试在一定程度上反映出类似恐怖症的感受或行为，被试内心有很强烈的不安全感，觉得周围环境很不安全，处处充满着恐惧。恐怖维度所表现的症状与传统的恐怖状态或广场恐怖症所反映的内容基本一致，恐惧的对象包括出门旅行、空旷场地、人群、或公共场合及交通工具。此外，还有反映社交恐怖的项目，即害怕与他人交往。",
+          "suggestion": "把注意力及能量投向自己生活中有确定意义，且能见成效的事情上，努力做应做之事，把注意力集中在行动上。积极参加集体活动，消除紧张心理，锻炼克服困难的意志，培养开朗的性格，增强处理生活事件的能力，学会谅解和宽容别人，控制自己的情绪和主观欲望。如果感到通过自己的努力，无法摆脱内心恐惧的倾向，请尽快找心理咨询师咨询。",
+          "assessmentWarning": "high"
+        }
+      ]
+    },
+    {
+      "id": 357,
+      "num": 8,
+      "dimensionName": "偏执",
+      "dimensionCode": "H",
+      "evaluateExpression": "(hx_t_8 + hx_t_18 + hx_t_43 + hx_t_68 + hx_t_76 + hx_t_83)/6",
+      "standardScoreFormula": "0",
+      "results": [
+        {
+          "id": 733,
+          "evaluateExpression": "hx_wd_y_8 >= 0&& hx_wd_y_8 <= 1.99",
+          "conclusionAnalysis": "低分，不存在偏执症状。通过测试得知被试个性特征中没有偏执倾向。被试者对周围的人和事能够以客观、理智的态度来对待，不会苛求、不走极端。偏执是一个十分复杂的概念，本偏执维度主要是指思维方面，如投射性思维、敌对、猜疑、关系观念、妄想、被动体验和夸大等。",
+          "suggestion": "被测者不存在偏执症状。未来的生活中，被测者需要保持这种态度来看待周围的人和事，保持对自己、对世界的信任。同时被测试者要经常与他人交换彼此对事物的看法、意见，了解不同态度存在的必然性，修正自己的一些偏激的看法，使自己更加客观、合理的看待世界。",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 734,
+          "evaluateExpression": "hx_wd_y_8 >= 2&& hx_wd_y_8 <= 3.5",
+          "conclusionAnalysis": "中等得分，存在一定程度的偏执症状。通过测试得知被试有时可能固执、多疑。对一些事情存在偏激的看法，不能客观、合理的看待世界。偏执是一个十分复杂的概念，本偏执维度主要是指思维方面，如投射性思维、敌对、猜疑、关系观念、妄想、被动体验和夸大等。",
+          "suggestion": "应该注意对人对事不要过于敏感和多疑，不要让自己总处于戒备和紧张的状态之中，可在相关心理学知识的指导下调整轻度的偏执思维方式，以防进一步加重；多一些宽容，尽量把事情朝好的方面想，努力去相信别人，接纳周围的人和事。如果觉得通过自身努力实在无法改善目前状况，可向心理咨询师求助。",
+          "assessmentWarning": "high"
+        },
+        {
+          "id": 735,
+          "evaluateExpression": "hx_wd_y_8 >= 3.51&& hx_wd_y_8 <= 5",
+          "conclusionAnalysis": "高分，存在偏重程度的偏执症状。通过测试得知被试个性特征中存在固执、多疑的倾向。对于周围的人和事不能以客观、理智的态度对待，喜欢苛求，走极端。存在许多偏激的看法，不容易接受别人的意见。偏执是一个十分复杂的概念，本偏执维度主要是指思维方面，如投射性思维、敌对、猜疑、关系观念、妄想、被动体验和夸大等。",
+          "suggestion": "应该注意对人对事不要过于敏感和多疑，不要让自己总处于戒备和紧张的状态之中，可在相关心理学知识的指导下调整轻度的偏执思维方式，以防进一步加重；多一些宽容，尽量把事情朝好的方面想，努力去相信别人，接纳周围的人和事。如果觉得通过自身努力实在无法改善目前状况，可向心理咨询师求助。",
+          "assessmentWarning": "high"
+        }
+      ]
+    },
+    {
+      "id": 358,
+      "num": 9,
+      "dimensionName": "精神病性",
+      "dimensionCode": "I",
+      "evaluateExpression": "(hx_t_7 + hx_t_16 + hx_t_35 + hx_t_62 + hx_t_77 + hx_t_84 + hx_t_85 + hx_t_87 + hx_t_88 + hx_t_90)/10",
+      "standardScoreFormula": "0",
+      "results": [
+        {
+          "id": 736,
+          "evaluateExpression": "hx_wd_y_9 >= 0&& hx_wd_y_9 <= 1.7",
+          "conclusionAnalysis": "低分，不存在精神病性症状。通过测试得知被试没有精神病倾向。被试能够用稳定的情绪、理性的思维来面对生活和工作，这是精神健康的表现。精神病性主要表现为幻听、思维扩散(播散)、被控制感、此外，还有反映非一级症状的精神病表现，如精神分裂症状等项目。",
+          "suggestion": "被测者不存在精神病性症状。在未来的生活中，需要继续保持这些态度和作法，这对于维持精神的健康至关重要。",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 737,
+          "evaluateExpression": "hx_wd_y_9 >= 1.71&& hx_wd_y_9 <= 3.5",
+          "conclusionAnalysis": "中等得分，存在一定程度的精神病性症状。通过测试得知被试有些表现可能需要引起注意。被测者可能遭遇到生活事件一时难以接受，不能及时有效的调整自己的心态，出现一些异常表现。精神病性主要表现为幻听、思维扩散(播散)、被控制感、此外，还有反映非一级症状的精神病表现，如精神分裂症状等项目。",
+          "suggestion": "如果出现精神病倾向，尽快找心理咨询师咨询。必要时转介至精神卫生机构进行治疗。",
+          "assessmentWarning": "high"
+        },
+        {
+          "id": 738,
+          "evaluateExpression": "hx_wd_y_9 >= 3.51&& hx_wd_y_9 <= 5",
+          "conclusionAnalysis": "高分，存在偏重程度的精神病性症状。通过测试得知被试存在可疑症状。被测者可能遭受到重大创伤事件，身心受挫，导致出现异常症状，要非常重视。精神病性主要表现为幻听、思维扩散(播散)、被控制感、此外，还有反映非一级症状的精神病表现，如精神分裂症状等项目。",
+          "suggestion": "如果出现精神病倾向，尽快找心理咨询师咨询。必要时转介至精神卫生机构进行治疗。",
+          "assessmentWarning": "high"
+        }
+      ]
+    },
+    {
+      "id": 359,
+      "num": 10,
+      "dimensionName": "其他",
+      "dimensionCode": "J",
+      "evaluateExpression": "(hx_t_19 + hx_t_44 + hx_t_59 + hx_t_60 + hx_t_64 + hx_t_66 + hx_t_89)/7",
+      "standardScoreFormula": "0",
+      "results": [
+        {
+          "id": 739,
+          "evaluateExpression": "hx_wd_y_10 >= 0&& hx_wd_y_10 <= 1.99",
+          "conclusionAnalysis": "低分，不存在其他症状。此维度主要用来反应睡眠、饮食及自罪感等方面的情况，通过测试得知被试在睡眠、饮食及自罪观念方面的心理状况，属于健康水平。",
+          "suggestion": "被试在睡眠、饮食及自罪感等方面无异常表现，建议被试在日后继续保持良好睡眠、饮食的生活习惯。",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 740,
+          "evaluateExpression": "hx_wd_y_10 >= 2&& hx_wd_y_10 <= 3.5",
+          "conclusionAnalysis": "中等得分，存在轻度其他症状。此维度主要用来反应睡眠、饮食及自罪感等方面的情况，通过测试得知被试在反映睡眠、饮食以及自罪观念等方面的心理状况中，状况还算比较健康。",
+          "suggestion": "平时要注意保证睡眠和休息时间，培养良好的饮食习惯。如有失眠或自罪观念的问题，建议及时获得心理咨询师的帮助。",
+          "assessmentWarning": "high"
+        },
+        {
+          "id": 741,
+          "evaluateExpression": "hx_wd_y_10 >= 3.51&& hx_wd_y_10 <= 5",
+          "conclusionAnalysis": "高分，存在偏重程度的其他症状。此维度主要用来反应睡眠、饮食及自罪感等方面的情况，通过测试得知被试在睡眠、饮食、自罪观念方面存在一定的心理障碍，需要引起注意。",
+          "suggestion": "要注意劳逸结合，保证良好的睡眠和休息时间，长期缺乏睡眠极易引起疲劳，注意力不集中。注意饮食健康，培养良好的饮食习惯。如有失眠或自罪观念的问题，建议及时获得心理咨询师的帮助。",
+          "assessmentWarning": "high"
+        }
+      ]
+    },
+    {
+      "id": 360,
+      "num": 11,
+      "dimensionName": "总分",
+      "dimensionCode": "K",
+      "evaluateExpression": "hx_t_1 + hx_t_2 + hx_t_3 + hx_t_4 + hx_t_5 + hx_t_6 + hx_t_7 + hx_t_8 + hx_t_9 + hx_t_10 + hx_t_11 + hx_t_12 + hx_t_13 + hx_t_14 + hx_t_15 + hx_t_16 + hx_t_17 + hx_t_18 + hx_t_19 + hx_t_20 + hx_t_21 + hx_t_22 + hx_t_23 + hx_t_24 + hx_t_25 + hx_t_26 + hx_t_27 + hx_t_28 + hx_t_29 + hx_t_30 + hx_t_31 + hx_t_32 + hx_t_33 + hx_t_34 + hx_t_35 + hx_t_36 + hx_t_37 + hx_t_38 + hx_t_39 + hx_t_40 + hx_t_41 + hx_t_42 + hx_t_43 + hx_t_44 + hx_t_45 + hx_t_46 + hx_t_47 + hx_t_48 + hx_t_49 + hx_t_50 + hx_t_51 + hx_t_52 + hx_t_53 + hx_t_54 + hx_t_55 + hx_t_56 + hx_t_57 + hx_t_58 + hx_t_59 + hx_t_60 + hx_t_61 + hx_t_62 + hx_t_63 + hx_t_64 + hx_t_65 + hx_t_66 + hx_t_67 + hx_t_68 + hx_t_69 + hx_t_70 + hx_t_71 + hx_t_72 + hx_t_73 + hx_t_74 + hx_t_75 + hx_t_76 + hx_t_77 + hx_t_78 + hx_t_79 + hx_t_80 + hx_t_81 + hx_t_82 + hx_t_83 + hx_t_84 + hx_t_85 + hx_t_86 + hx_t_87 + hx_t_88 + hx_t_89 + hx_t_90",
+      "standardScoreFormula": "0",
+      "results": [
+        {
+          "id": 742,
+          "evaluateExpression": "hx_wd_y_11 >= 0&& hx_wd_y_11 <= 159",
+          "conclusionAnalysis": "低分，心理健康水平良好，被测试者很少因为心理的原因而引起的身体不适感，如感到呼吸困难，心跳加速，身体疼痛，体力缺乏，精神疲惫等情况；也很少有明知没有必要却又摆脱不了的强迫性的想法或者行为；总体而言，基本上能够以比较积极健康的心态和情绪来面对生活，可以比较好地处理生活中的挫折和压力，基本良好地适应社会生活，能从工作和生活当中获得一定的快乐和满足，对自己的人生有价值感和幸福感。",
+          "suggestion": "被测者的心理健康状况良好，这是非常值得恭贺的。被测者需要继续保持平和、乐观、开朗的心态面对生活。注意维护自身心理健康状态的平衡。",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 743,
+          "evaluateExpression": "hx_wd_y_11 >= 160&& hx_wd_y_11 <= 450",
+          "conclusionAnalysis": "高分，有一定的心理健康问题。心理健康状况需要引起注意。被测试者可能因为心理的原因引起身体症状，出现身体疼痛、体力缺乏、精神疲惫等情况，有时可能会因为正常的社会或生活压力而出现焦虑不安,悲伤难过,过分自卑,回避与人的交往以及偏执自负,对他人存有敌意,怀疑等情况；严重者甚至会有异常的恐怖和悲观忧郁情绪或者精神异常表现；经常出现失眠,食欲不振等情况。总体而言，评估结果显示受测者在近一阶段遇到了一些问题，可能对正常生活、学习构成了一定影响，需要引起重视。",
+          "suggestion": "请在必要时要关注自己的心理健康。健康的心态需要积极向上的人生观做支撑，也需要较强的自信心作保障。因此，被测者要培养乐观向上的人生观，树立自信心。另外还需要掌握一些社会生活中的技巧，如适当地释放压力，保持良好人际关系等等。 建议被测试者在在日常生活当中要积极进取，自强不息，保持良好的社会竞争力，应对当今巨大的社会竞争压力；还要多与人为善，建立起完善的人际网络作为自己心理支持的后盾；此外要注意掌握一些心理保健知识和心理调节技能，在必要时进行自我调节，维护自身心理健康状况的平衡。如果觉得靠自己的努力不奏效，建议接受心理专家的帮助。",
+          "assessmentWarning": "high"
+        }
+      ]
+    },
+    {
+      "id": 361,
+      "num": 12,
+      "dimensionName": "总均分",
+      "dimensionCode": "L",
+      "evaluateExpression": "(hx_t_1 + hx_t_2 + hx_t_3 + hx_t_4 + hx_t_5 + hx_t_6 + hx_t_7 + hx_t_8 + hx_t_9 + hx_t_10 + hx_t_11 + hx_t_12 + hx_t_13 + hx_t_14 + hx_t_15 + hx_t_16 + hx_t_17 + hx_t_18 + hx_t_19 + hx_t_20 + hx_t_21 + hx_t_22 + hx_t_23 + hx_t_24 + hx_t_25 + hx_t_26 + hx_t_27 + hx_t_28 + hx_t_29 + hx_t_30 + hx_t_31 + hx_t_32 + hx_t_33 + hx_t_34 + hx_t_35 + hx_t_36 + hx_t_37 + hx_t_38 + hx_t_39 + hx_t_40 + hx_t_41 + hx_t_42 + hx_t_43 + hx_t_44 + hx_t_45 + hx_t_46 + hx_t_47 + hx_t_48 + hx_t_49 + hx_t_50 + hx_t_51 + hx_t_52 + hx_t_53 + hx_t_54 + hx_t_55 + hx_t_56 + hx_t_57 + hx_t_58 + hx_t_59 + hx_t_60 + hx_t_61 + hx_t_62 + hx_t_63 + hx_t_64 + hx_t_65 + hx_t_66 + hx_t_67 + hx_t_68 + hx_t_69 + hx_t_70 + hx_t_71 + hx_t_72 + hx_t_73 + hx_t_74 + hx_t_75 + hx_t_76 + hx_t_77 + hx_t_78 + hx_t_79 + hx_t_80 + hx_t_81 + hx_t_82 + hx_t_83 + hx_t_84 + hx_t_85 + hx_t_86 + hx_t_87 + hx_t_88 + hx_t_89 + hx_t_90)/90",
+      "standardScoreFormula": "0",
+      "results": [
+        {
+          "id": 744,
+          "evaluateExpression": "hx_wd_y_12 >= 0&& hx_wd_y_12 <= 1.76",
+          "conclusionAnalysis": "低分，心理健康水平良好，被测试者很少因为心理的原因而引起的身体不适感，如感到呼吸困难，心跳加速，身体疼痛，体力缺乏，精神疲惫等情况；也很少有明知没有必要却又摆脱不了的强迫性的想法或者行为；总体而言，基本上能够以比较积极健康的心态和情绪来面对生活，可以比较好地处理生活中的挫折和压力，基本良好地适应社会生活，能从工作和生活当中获得一定的快乐和满足，对自己的人生有价值感和幸福感。",
+          "suggestion": "被测者的心理健康状况良好，这是非常值得恭贺的。被测者需要继续保持平和、乐观、开朗的心态面对生活。注意维护自身心理健康状态的平衡。",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 745,
+          "evaluateExpression": "hx_wd_y_12 >= 1.77&& hx_wd_y_12 <= 5",
+          "conclusionAnalysis": "高分，有一定的心理健康问题，心理健康状况需要引起注意。被测试者可能因为心理的原因引起身体症状，出现身体疼痛、体力缺乏、精神疲惫等情况，有时可能会因为正常的社会或生活压力而出现焦虑不安，悲伤难过，过分自卑，回避与人的交往以及偏执自负，对他人存有敌意，怀疑等情况；严重者甚至会有异常的恐怖和悲观忧郁情绪或者精神异常表现；经常出现失眠，食欲不振等情况。总体而言，评估结果显示受测者在近一阶段遇到了一些问题，可能对正常生活、学习构成了一定影响，需要引起重视。",
+          "suggestion": "请在必要时要关注自己的心理健康。健康的心态需要积极向上的人生观做支撑，也需要较强的自信心作保障。因此，被测者要培养乐观向上的人生观，树立自信心。另外还需要掌握一些社会生活中的技巧，如适当地释放压力，保持良好人际关系等等。 建议被测试者在日常生活当中要积极进取，自强不息；还要多与人为善，建立起完善的人际网络作为自己心理支持的后盾；此外要注意掌握一些心理保健知识和心理调节技能，在必要时进行自我调节，维护自身心理健康状况的平衡。如果觉得靠自己的努力不奏效，建议接受心理专家的帮助。",
+          "assessmentWarning": "none"
+        }
+      ]
+    },
+    {
+      "id": 362,
+      "num": 13,
+      "dimensionName": "阳性项目数",
+      "dimensionCode": "YANG",
+      "evaluateExpression": "hx_calc_gt_count(1, hx_t_1, hx_t_2, hx_t_3, hx_t_4, hx_t_5, hx_t_6, hx_t_7, hx_t_8, hx_t_9, hx_t_10, hx_t_11, hx_t_12, hx_t_13, hx_t_14, hx_t_15, hx_t_16, hx_t_17, hx_t_18, hx_t_19, hx_t_20, hx_t_21, hx_t_22, hx_t_23, hx_t_24, hx_t_25, hx_t_26, hx_t_27, hx_t_28, hx_t_29, hx_t_30, hx_t_31, hx_t_32, hx_t_33, hx_t_34, hx_t_35, hx_t_36, hx_t_37, hx_t_38, hx_t_39, hx_t_40, hx_t_41, hx_t_42, hx_t_43, hx_t_44, hx_t_45, hx_t_46, hx_t_47, hx_t_48, hx_t_49, hx_t_50, hx_t_51, hx_t_52, hx_t_53, hx_t_54, hx_t_55, hx_t_56, hx_t_57, hx_t_58, hx_t_59, hx_t_60, hx_t_61, hx_t_62, hx_t_63, hx_t_64, hx_t_65, hx_t_66, hx_t_67, hx_t_68, hx_t_69, hx_t_70, hx_t_71, hx_t_72, hx_t_73, hx_t_74, hx_t_75, hx_t_76, hx_t_77, hx_t_78, hx_t_79, hx_t_80, hx_t_81, hx_t_82, hx_t_83, hx_t_84, hx_t_85, hx_t_86, hx_t_87, hx_t_88, hx_t_89, hx_t_90)",
+      "standardScoreFormula": "0",
+      "results": [
+        {
+          "id": 746,
+          "evaluateExpression": "hx_wd_y_13 >= 0&& hx_wd_y_13 <= 90",
+          "conclusionAnalysis": "阳性项目数表示被试在多少项目中呈现“有症状”。即单项分≥2分的项目数。",
+          "suggestion": "无",
+          "assessmentWarning": "high"
+        }
+      ]
+    },
+    {
+      "id": 363,
+      "num": 14,
+      "dimensionName": "阴性项目数",
+      "dimensionCode": "YIN",
+      "evaluateExpression": "hx_calc_equal_count(1, hx_t_1, hx_t_2, hx_t_3, hx_t_4, hx_t_5, hx_t_6, hx_t_7, hx_t_8, hx_t_9, hx_t_10, hx_t_11, hx_t_12, hx_t_13, hx_t_14, hx_t_15, hx_t_16, hx_t_17, hx_t_18, hx_t_19, hx_t_20, hx_t_21, hx_t_22, hx_t_23, hx_t_24, hx_t_25, hx_t_26, hx_t_27, hx_t_28, hx_t_29, hx_t_30, hx_t_31, hx_t_32, hx_t_33, hx_t_34, hx_t_35, hx_t_36, hx_t_37, hx_t_38, hx_t_39, hx_t_40, hx_t_41, hx_t_42, hx_t_43, hx_t_44, hx_t_45, hx_t_46, hx_t_47, hx_t_48, hx_t_49, hx_t_50, hx_t_51, hx_t_52, hx_t_53, hx_t_54, hx_t_55, hx_t_56, hx_t_57, hx_t_58, hx_t_59, hx_t_60, hx_t_61, hx_t_62, hx_t_63, hx_t_64, hx_t_65, hx_t_66, hx_t_67, hx_t_68, hx_t_69, hx_t_70, hx_t_71, hx_t_72, hx_t_73, hx_t_74, hx_t_75, hx_t_76, hx_t_77, hx_t_78, hx_t_79, hx_t_80, hx_t_81, hx_t_82, hx_t_83, hx_t_84, hx_t_85, hx_t_86, hx_t_87, hx_t_88, hx_t_89, hx_t_90)",
+      "standardScoreFormula": "0",
+      "results": [
+        {
+          "id": 747,
+          "evaluateExpression": "hx_wd_y_14 >= 0&& hx_wd_y_14 <= 90",
+          "conclusionAnalysis": "阴性项目数表示被试“无症状”的项目有多少。即单项分=1分的项目数。",
+          "suggestion": "无",
+          "assessmentWarning": "none"
+        }
+      ]
+    }
+  ]
+}

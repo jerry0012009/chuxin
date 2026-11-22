@@ -1,0 +1,229 @@
+{
+  "id": "brs-resilience",
+  "title": "简明韧性量表(BRS)",
+  "description": "本问卷帮助了解您面对困难和压力时的恢复能力，即心理韧性水平。共6题，大约需要2分钟完成。",
+  "type": "basic",
+  "questions": [
+    {
+      "text": "我能够从困境中恢复过来。",
+      "type": "radio",
+      "orderNum": 1,
+      "options": [
+        {
+          "text": "非常不同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "不同意",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "中立",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "同意",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常同意",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "我很难度过困难的压力事件。",
+      "type": "radio",
+      "orderNum": 2,
+      "options": [
+        {
+          "text": "非常不同意",
+          "value": "5",
+          "optionNo": "A"
+        },
+        {
+          "text": "不同意",
+          "value": "4",
+          "optionNo": "B"
+        },
+        {
+          "text": "中立",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "同意",
+          "value": "2",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常同意",
+          "value": "1",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "面对压力事件，我通常能轻松应对。",
+      "type": "radio",
+      "orderNum": 3,
+      "options": [
+        {
+          "text": "非常不同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "不同意",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "中立",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "同意",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常同意",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "当糟糕的事情发生时，我很难从中恢复。",
+      "type": "radio",
+      "orderNum": 4,
+      "options": [
+        {
+          "text": "非常不同意",
+          "value": "5",
+          "optionNo": "A"
+        },
+        {
+          "text": "不同意",
+          "value": "4",
+          "optionNo": "B"
+        },
+        {
+          "text": "中立",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "同意",
+          "value": "2",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常同意",
+          "value": "1",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "我通常能在困难时期保持积极的态度。",
+      "type": "radio",
+      "orderNum": 5,
+      "options": [
+        {
+          "text": "非常不同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "不同意",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "中立",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "同意",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常同意",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "我往往需要很长时间才能从压力事件中恢复过来。",
+      "type": "radio",
+      "orderNum": 6,
+      "options": [
+        {
+          "text": "非常不同意",
+          "value": "5",
+          "optionNo": "A"
+        },
+        {
+          "text": "不同意",
+          "value": "4",
+          "optionNo": "B"
+        },
+        {
+          "text": "中立",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "同意",
+          "value": "2",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常同意",
+          "value": "1",
+          "optionNo": "E"
+        }
+      ]
+    }
+  ],
+  "dimensions": [
+    {
+      "dimensionName": "心理韧性",
+      "dimensionCode": "resilience",
+      "num": 1,
+      "evaluateExpression": "hx_t_1 + hx_t_2 + hx_t_3 + hx_t_4 + hx_t_5 + hx_t_6",
+      "standardScoreFormula": "",
+      "results": [
+        {
+          "evaluateExpression": "hx_wd_y_1 <= 17",
+          "conclusionAnalysis": "低韧性水平",
+          "suggestion": "您的心理韧性水平较低，说明您在面对困难和压力时可能较难恢复。建议通过建立社会支持网络、学习压力管理技巧、培养积极的应对方式来提升韧性。",
+          "assessmentWarning": "low"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_1 > 17 && hx_wd_y_1 <= 25",
+          "conclusionAnalysis": "正常韧性水平",
+          "suggestion": "您的心理韧性水平处于正常范围，说明您在面对困难时具备一定的恢复能力。建议继续培养积极的心态和有效的应对策略，以进一步增强心理韧性。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_1 > 25 && hx_wd_y_1 <= 30",
+          "conclusionAnalysis": "高韧性水平",
+          "suggestion": "您的心理韧性水平较高，说明您在面对困难和压力时能够较快地恢复，并保持积极的心态。这是心理健康的良好指标，请继续保持。",
+          "assessmentWarning": "none"
+        }
+      ]
+    }
+  ]
+}

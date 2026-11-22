@@ -1,0 +1,620 @@
+{
+  "id": 137,
+  "title": "汉密顿焦虑量表(HAMA)",
+  "type": "basic",
+  "questions": [
+    {
+      "id": 3748,
+      "text": "焦虑心境：担心、担忧，感到有最坏的事情将要发生，容易激惹。",
+      "type": "radio",
+      "orderNum": 1,
+      "options": [
+        {
+          "id": 14140,
+          "optionNo": "A",
+          "text": "无症状",
+          "value": "0"
+        },
+        {
+          "id": 14141,
+          "optionNo": "B",
+          "text": "轻",
+          "value": "1"
+        },
+        {
+          "id": 14142,
+          "optionNo": "C",
+          "text": "中等",
+          "value": "2"
+        },
+        {
+          "id": 14143,
+          "optionNo": "D",
+          "text": "重",
+          "value": "3"
+        },
+        {
+          "id": 14144,
+          "optionNo": "E",
+          "text": "极重",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 3749,
+      "text": "紧张：紧张感、易疲劳、不能放松，情绪反应，易哭、颤抖、感到不安。",
+      "type": "radio",
+      "orderNum": 2,
+      "options": [
+        {
+          "id": 14145,
+          "optionNo": "A",
+          "text": "无症状",
+          "value": "0"
+        },
+        {
+          "id": 14146,
+          "optionNo": "B",
+          "text": "轻",
+          "value": "1"
+        },
+        {
+          "id": 14147,
+          "optionNo": "C",
+          "text": "中等",
+          "value": "2"
+        },
+        {
+          "id": 14148,
+          "optionNo": "D",
+          "text": "重",
+          "value": "3"
+        },
+        {
+          "id": 14149,
+          "optionNo": "E",
+          "text": "极重",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 3750,
+      "text": "害怕：害怕黑暗、陌生人、一人独处、动物、乘车或旅行及人多的场合。",
+      "type": "radio",
+      "orderNum": 3,
+      "options": [
+        {
+          "id": 14150,
+          "optionNo": "A",
+          "text": "无症状",
+          "value": "0"
+        },
+        {
+          "id": 14151,
+          "optionNo": "B",
+          "text": "轻",
+          "value": "1"
+        },
+        {
+          "id": 14152,
+          "optionNo": "C",
+          "text": "中等",
+          "value": "2"
+        },
+        {
+          "id": 14153,
+          "optionNo": "D",
+          "text": "重",
+          "value": "3"
+        },
+        {
+          "id": 14154,
+          "optionNo": "E",
+          "text": "极重",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 3751,
+      "text": "失眠：难以入睡、易醒、睡得不深、多梦、梦魇、夜惊、醒后感疲倦。",
+      "type": "radio",
+      "orderNum": 4,
+      "options": [
+        {
+          "id": 14155,
+          "optionNo": "A",
+          "text": "无症状",
+          "value": "0"
+        },
+        {
+          "id": 14156,
+          "optionNo": "B",
+          "text": "轻",
+          "value": "1"
+        },
+        {
+          "id": 14157,
+          "optionNo": "C",
+          "text": "中等",
+          "value": "2"
+        },
+        {
+          "id": 14158,
+          "optionNo": "D",
+          "text": "重",
+          "value": "3"
+        },
+        {
+          "id": 14159,
+          "optionNo": "E",
+          "text": "极重",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 3752,
+      "text": "认知功能：或称记忆、注意障碍。注意力不能集中，记忆力差。",
+      "type": "radio",
+      "orderNum": 5,
+      "options": [
+        {
+          "id": 14160,
+          "optionNo": "A",
+          "text": "无症状",
+          "value": "0"
+        },
+        {
+          "id": 14161,
+          "optionNo": "B",
+          "text": "轻",
+          "value": "1"
+        },
+        {
+          "id": 14162,
+          "optionNo": "C",
+          "text": "中等",
+          "value": "2"
+        },
+        {
+          "id": 14163,
+          "optionNo": "D",
+          "text": "重",
+          "value": "3"
+        },
+        {
+          "id": 14164,
+          "optionNo": "E",
+          "text": "极重",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 3753,
+      "text": "抑郁心境：丧失兴趣、对以往爱好缺乏快感、忧郁、早醒、昼重夜轻。",
+      "type": "radio",
+      "orderNum": 6,
+      "options": [
+        {
+          "id": 14165,
+          "optionNo": "A",
+          "text": "无症状",
+          "value": "0"
+        },
+        {
+          "id": 14166,
+          "optionNo": "B",
+          "text": "轻",
+          "value": "1"
+        },
+        {
+          "id": 14167,
+          "optionNo": "C",
+          "text": "中等",
+          "value": "2"
+        },
+        {
+          "id": 14168,
+          "optionNo": "D",
+          "text": "重",
+          "value": "3"
+        },
+        {
+          "id": 14169,
+          "optionNo": "E",
+          "text": "极重",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 3754,
+      "text": "肌肉系统症状：肌肉酸痛、活动不灵活、肌肉抽动、肢体抽动、牙齿打颤、声音发抖。",
+      "type": "radio",
+      "orderNum": 7,
+      "options": [
+        {
+          "id": 14170,
+          "optionNo": "A",
+          "text": "无症状",
+          "value": "0"
+        },
+        {
+          "id": 14171,
+          "optionNo": "B",
+          "text": "轻",
+          "value": "1"
+        },
+        {
+          "id": 14172,
+          "optionNo": "C",
+          "text": "中等",
+          "value": "2"
+        },
+        {
+          "id": 14173,
+          "optionNo": "D",
+          "text": "重",
+          "value": "3"
+        },
+        {
+          "id": 14174,
+          "optionNo": "E",
+          "text": "极重",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 3755,
+      "text": "感觉系统症状：视物模糊、发冷发热、软弱无力感、浑身刺痛。",
+      "type": "radio",
+      "orderNum": 8,
+      "options": [
+        {
+          "id": 14175,
+          "optionNo": "A",
+          "text": "无症状",
+          "value": "0"
+        },
+        {
+          "id": 14176,
+          "optionNo": "B",
+          "text": "轻",
+          "value": "1"
+        },
+        {
+          "id": 14177,
+          "optionNo": "C",
+          "text": "中等",
+          "value": "2"
+        },
+        {
+          "id": 14178,
+          "optionNo": "D",
+          "text": "重",
+          "value": "3"
+        },
+        {
+          "id": 14179,
+          "optionNo": "E",
+          "text": "极重",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 3756,
+      "text": "心血管系统症状：心动过速、心悸、胸痛、血管跳动感、昏倒感、心搏脱漏。",
+      "type": "radio",
+      "orderNum": 9,
+      "options": [
+        {
+          "id": 14180,
+          "optionNo": "A",
+          "text": "无症状",
+          "value": "0"
+        },
+        {
+          "id": 14181,
+          "optionNo": "B",
+          "text": "轻",
+          "value": "1"
+        },
+        {
+          "id": 14182,
+          "optionNo": "C",
+          "text": "中等",
+          "value": "2"
+        },
+        {
+          "id": 14183,
+          "optionNo": "D",
+          "text": "重",
+          "value": "3"
+        },
+        {
+          "id": 14184,
+          "optionNo": "E",
+          "text": "极重",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 3757,
+      "text": "呼吸系统症状：胸闷、窒息感、叹息、呼吸困难。",
+      "type": "radio",
+      "orderNum": 10,
+      "options": [
+        {
+          "id": 14185,
+          "optionNo": "A",
+          "text": "无症状",
+          "value": "0"
+        },
+        {
+          "id": 14186,
+          "optionNo": "B",
+          "text": "轻",
+          "value": "1"
+        },
+        {
+          "id": 14187,
+          "optionNo": "C",
+          "text": "中等",
+          "value": "2"
+        },
+        {
+          "id": 14188,
+          "optionNo": "D",
+          "text": "重",
+          "value": "3"
+        },
+        {
+          "id": 14189,
+          "optionNo": "E",
+          "text": "极重",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 3758,
+      "text": "胃肠道症状主：吞咽困难、嗳气、消化不良(进食后腹痛、胃部烧灼痛、腹胀、恶心、胃部饱感)、肠鸣、腹泻、体重减轻、便秘。",
+      "type": "radio",
+      "orderNum": 11,
+      "options": [
+        {
+          "id": 14190,
+          "optionNo": "A",
+          "text": "无症状",
+          "value": "0"
+        },
+        {
+          "id": 14191,
+          "optionNo": "B",
+          "text": "轻",
+          "value": "1"
+        },
+        {
+          "id": 14192,
+          "optionNo": "C",
+          "text": "中等",
+          "value": "2"
+        },
+        {
+          "id": 14193,
+          "optionNo": "D",
+          "text": "重",
+          "value": "3"
+        },
+        {
+          "id": 14194,
+          "optionNo": "E",
+          "text": "极重",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 3759,
+      "text": "生殖泌尿系统症状：尿意频数、尿急、停经、性冷淡、过早射精、勃起不能、阳萎。",
+      "type": "radio",
+      "orderNum": 12,
+      "options": [
+        {
+          "id": 14195,
+          "optionNo": "A",
+          "text": "无症状",
+          "value": "0"
+        },
+        {
+          "id": 14196,
+          "optionNo": "B",
+          "text": "轻",
+          "value": "1"
+        },
+        {
+          "id": 14197,
+          "optionNo": "C",
+          "text": "中等",
+          "value": "2"
+        },
+        {
+          "id": 14198,
+          "optionNo": "D",
+          "text": "重",
+          "value": "3"
+        },
+        {
+          "id": 14199,
+          "optionNo": "E",
+          "text": "极重",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 3760,
+      "text": "植物神经系统症状：口干、潮红、苍白、易出汗、易起“鸡皮疙瘩”、紧张性头痛、毛发竖起。",
+      "type": "radio",
+      "orderNum": 13,
+      "options": [
+        {
+          "id": 14200,
+          "optionNo": "A",
+          "text": "无症状",
+          "value": "0"
+        },
+        {
+          "id": 14201,
+          "optionNo": "B",
+          "text": "轻",
+          "value": "1"
+        },
+        {
+          "id": 14202,
+          "optionNo": "C",
+          "text": "中等",
+          "value": "2"
+        },
+        {
+          "id": 14203,
+          "optionNo": "D",
+          "text": "重",
+          "value": "3"
+        },
+        {
+          "id": 14204,
+          "optionNo": "E",
+          "text": "极重",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 3761,
+      "text": "会谈时行为表现：(1)一般表现：紧张、不能松弛、忐忑不安、咬手指、紧紧握拳、摸弄手帕、面肌抽动、不停顿足、手发抖、皱眉、表情僵硬、肌张力高、叹息样呼吸、面色苍白；(2)生理表现：吞咽、打呃、安静时心率快、呼吸快(20次/分以上)、腱反射亢进、震颤、瞳孔放大、眼睑跳动、易出汗、眼球突出。",
+      "type": "radio",
+      "orderNum": 14,
+      "options": [
+        {
+          "id": 14205,
+          "optionNo": "A",
+          "text": "无症状",
+          "value": "0"
+        },
+        {
+          "id": 14206,
+          "optionNo": "B",
+          "text": "轻",
+          "value": "1"
+        },
+        {
+          "id": 14207,
+          "optionNo": "C",
+          "text": "中等",
+          "value": "2"
+        },
+        {
+          "id": 14208,
+          "optionNo": "D",
+          "text": "重",
+          "value": "3"
+        },
+        {
+          "id": 14209,
+          "optionNo": "E",
+          "text": "极重",
+          "value": "4"
+        }
+      ]
+    }
+  ],
+  "dimensions": [
+    {
+      "id": 411,
+      "num": 1,
+      "dimensionName": "总粗分",
+      "dimensionCode": "A",
+      "evaluateExpression": "hx_t_1 + hx_t_2 + hx_t_3 + hx_t_4 + hx_t_5 + hx_t_6 + hx_t_7 + hx_t_8 + hx_t_9 + hx_t_10 + hx_t_11 + hx_t_12 + hx_t_13 + hx_t_14",
+      "standardScoreFormula": "0",
+      "results": [
+        {
+          "id": 905,
+          "evaluateExpression": "hx_wd_y_1 >= 0&& hx_wd_y_1 <= 6",
+          "conclusionAnalysis": "没有焦虑症状。按照全国量表协作组提供的资料，总分超过29分，可能为严重焦虑；超过21分，肯定有明显焦虑；超过14分，肯定有焦虑；超过7分，可能有焦虑；如小于6分，病人就没有焦虑症状。一般划界分，HAMA14项分界值为14分。",
+          "suggestion": "被测试者心情轻松，能自如应对生活压力，可适当了解焦虑相关的心理学知识，以便保持健康积极的心理状态。",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 906,
+          "evaluateExpression": "hx_wd_y_1 >= 7&& hx_wd_y_1 <= 13",
+          "conclusionAnalysis": "可能有焦虑。按照全国量表协作组提供的资料，总分超过29分，可能为严重焦虑；超过21分，肯定有明显焦虑；超过14分，肯定有焦虑；超过7分，可能有焦虑；如小于6分，病人就没有焦虑症状。一般划界分，HAMA14项分界值为14分。",
+          "suggestion": "被测试者可能在某些情境中偶尔会感到焦虑。建议：（1）平时注意进行放松练习、冥想、想象练习，减轻焦虑水平；（2）跟朋友倾诉或适当宣泄，如饮食、运动、唱歌等。",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 907,
+          "evaluateExpression": "hx_wd_y_1 >= 14&& hx_wd_y_1 <= 20",
+          "conclusionAnalysis": "肯定有焦虑。按照全国量表协作组提供的资料，总分超过29分，可能为严重焦虑；超过21分，肯定有明显焦虑；超过14分，肯定有焦虑；超过7分，可能有焦虑；如小于6分，病人就没有焦虑症状。一般划界分，HAMA14项分界值为14分。",
+          "suggestion": "被测试者可能会经常感到焦虑，且生活受到轻微影响。建议：（1）通过倾诉、宣泄、饮食、听音乐、锻炼等方法进行疏泄；（2）使用深呼吸、冥想、分散注意性等方法缓解焦虑；（3）积极了解相关心理学知识，学习情绪调节方法。",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 908,
+          "evaluateExpression": "hx_wd_y_1 >= 21&& hx_wd_y_1 <= 28",
+          "conclusionAnalysis": "肯定有明显焦虑。按照全国量表协作组提供的资料，总分超过29分，可能为严重焦虑；超过21分，肯定有明显焦虑；超过14分，肯定有焦虑；超过7分，可能有焦虑；如小于6分，病人就没有焦虑症状。一般划界分，HAMA14项分界值为14分。",
+          "suggestion": "被测试者经常感到焦虑，且生活受到一定程度的影响。建议：（1）积极采用放松、倾诉及各种宣泄方法进行缓解；（2）改变不良认知，适当分散注意力；（3）如尝试以上方法仍不能缓解焦虑，建议尽快向心理医生寻求专业帮助。",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 909,
+          "evaluateExpression": "hx_wd_y_1 >= 29&& hx_wd_y_1 <= 56",
+          "conclusionAnalysis": "严重焦虑。按照全国量表协作组提供的资料，总分超过29分，可能为严重焦虑；超过21分，肯定有明显焦虑；超过14分，肯定有焦虑；超过7分，可能有焦虑；如小于6分，病人就没有焦虑症状。一般划界分，HAMA14项分界值为14分。",
+          "suggestion": "被测试者总是处于焦虑状态，生活受到严重影响。建议：（1）改变不适宜的认知，理性评估负性事件发生的可能性及后果；（2）学习分散注意力、情绪管理等心理学技术；（3）建议尽快接受专业、系统的心理治疗。",
+          "assessmentWarning": "high"
+        }
+      ]
+    },
+    {
+      "id": 412,
+      "num": 2,
+      "dimensionName": "躯体性焦虑",
+      "dimensionCode": "B",
+      "evaluateExpression": "hx_t_7 + hx_t_8 + hx_t_9 + hx_t_10 + hx_t_11 + hx_t_12 + hx_t_13",
+      "standardScoreFormula": "0",
+      "results": [
+        {
+          "id": 910,
+          "evaluateExpression": "hx_wd_y_2 >= 0&& hx_wd_y_2 <= 28",
+          "conclusionAnalysis": "被测试者的焦虑更多地体现为肌肉紧张、坐立不安、呼吸急促、心跳加快、肠胃不适等症状，得分越高、情况越严重。",
+          "suggestion": "对高分者的建议：（1）积极采用深呼吸、冥想、分散注意力等方法进行放松练习；（2）适当进行宣泄，积极参与各种体育锻炼活动。",
+          "assessmentWarning": "none"
+        }
+      ]
+    },
+    {
+      "id": 413,
+      "num": 3,
+      "dimensionName": "精神性焦虑",
+      "dimensionCode": "C",
+      "evaluateExpression": "hx_t_1 + hx_t_2 + hx_t_3 + hx_t_4 + hx_t_5 + hx_t_6 + hx_t_14",
+      "standardScoreFormula": "0",
+      "results": [
+        {
+          "id": 911,
+          "evaluateExpression": "hx_wd_y_3 >= 0&& hx_wd_y_3 <= 28",
+          "conclusionAnalysis": "被测试者的焦虑更多地体现为过度担心、心烦意乱、忧心忡忡等症状，得分越高、情况越严重。",
+          "suggestion": "对高分者的建议：（1）调整不合理的认知，正确评价负性事件发生的可能性及后果；（2）积极学习分散注意力、情绪调节等心理学技术。",
+          "assessmentWarning": "none"
+        }
+      ]
+    }
+  ]
+}

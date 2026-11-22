@@ -1,0 +1,343 @@
+{
+  "id": "audit-alcohol",
+  "title": "酒精使用障碍筛查量表(AUDIT)",
+  "description": "本问卷由世界卫生组织开发，帮助了解您的饮酒模式和是否存在酒精相关风险。共10题，大约需要3分钟完成。",
+  "type": "basic",
+  "questions": [
+    {
+      "text": "您多久喝一次酒？",
+      "type": "radio",
+      "orderNum": 1,
+      "options": [
+        {
+          "text": "从不",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "每月一次或更少",
+          "value": "1",
+          "optionNo": "B"
+        },
+        {
+          "text": "每月2-4次",
+          "value": "2",
+          "optionNo": "C"
+        },
+        {
+          "text": "每周2-3次",
+          "value": "3",
+          "optionNo": "D"
+        },
+        {
+          "text": "每周4次或更多",
+          "value": "4",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "在喝酒的一天中，您通常喝多少杯（标准杯）？",
+      "type": "radio",
+      "orderNum": 2,
+      "options": [
+        {
+          "text": "从不",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "每月一次或更少",
+          "value": "1",
+          "optionNo": "B"
+        },
+        {
+          "text": "每月2-4次",
+          "value": "2",
+          "optionNo": "C"
+        },
+        {
+          "text": "每周2-3次",
+          "value": "3",
+          "optionNo": "D"
+        },
+        {
+          "text": "每周4次或更多",
+          "value": "4",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "您多久有一次一次喝6杯或更多杯酒的情况？",
+      "type": "radio",
+      "orderNum": 3,
+      "options": [
+        {
+          "text": "从不",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "每月一次或更少",
+          "value": "1",
+          "optionNo": "B"
+        },
+        {
+          "text": "每月2-4次",
+          "value": "2",
+          "optionNo": "C"
+        },
+        {
+          "text": "每周2-3次",
+          "value": "3",
+          "optionNo": "D"
+        },
+        {
+          "text": "每周4次或更多",
+          "value": "4",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "在过去一年中，您多久发现自己一旦开始饮酒就无法停止的情况？",
+      "type": "radio",
+      "orderNum": 4,
+      "options": [
+        {
+          "text": "从不",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "每月不到一次",
+          "value": "1",
+          "optionNo": "B"
+        },
+        {
+          "text": "每月一次",
+          "value": "2",
+          "optionNo": "C"
+        },
+        {
+          "text": "每周一次",
+          "value": "3",
+          "optionNo": "D"
+        },
+        {
+          "text": "每天或几乎每天",
+          "value": "4",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "在过去一年中，您多久有一次因为喝酒而耽误了该做的事情？",
+      "type": "radio",
+      "orderNum": 5,
+      "options": [
+        {
+          "text": "从不",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "每月不到一次",
+          "value": "1",
+          "optionNo": "B"
+        },
+        {
+          "text": "每月一次",
+          "value": "2",
+          "optionNo": "C"
+        },
+        {
+          "text": "每周一次",
+          "value": "3",
+          "optionNo": "D"
+        },
+        {
+          "text": "每天或几乎每天",
+          "value": "4",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "在过去一年中，您是否在大量饮酒后第二天早上需要喝一杯酒才能恢复正常？",
+      "type": "radio",
+      "orderNum": 6,
+      "options": [
+        {
+          "text": "从不",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "每月不到一次",
+          "value": "1",
+          "optionNo": "B"
+        },
+        {
+          "text": "每月一次",
+          "value": "2",
+          "optionNo": "C"
+        },
+        {
+          "text": "每周一次",
+          "value": "3",
+          "optionNo": "D"
+        },
+        {
+          "text": "每天或几乎每天",
+          "value": "4",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "在过去一年中，您是否在大量饮酒后产生过内疚或自责的感受？",
+      "type": "radio",
+      "orderNum": 7,
+      "options": [
+        {
+          "text": "从不",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "每月不到一次",
+          "value": "1",
+          "optionNo": "B"
+        },
+        {
+          "text": "每月一次",
+          "value": "2",
+          "optionNo": "C"
+        },
+        {
+          "text": "每周一次",
+          "value": "3",
+          "optionNo": "D"
+        },
+        {
+          "text": "每天或几乎每天",
+          "value": "4",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "在过去一年中，您是否因为喝酒而无法回忆起前一晚发生的事情？",
+      "type": "radio",
+      "orderNum": 8,
+      "options": [
+        {
+          "text": "从不",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "每月不到一次",
+          "value": "1",
+          "optionNo": "B"
+        },
+        {
+          "text": "每月一次",
+          "value": "2",
+          "optionNo": "C"
+        },
+        {
+          "text": "每周一次",
+          "value": "3",
+          "optionNo": "D"
+        },
+        {
+          "text": "每天或几乎每天",
+          "value": "4",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "您或他人是否曾因您的饮酒行为而受伤？",
+      "type": "radio",
+      "orderNum": 9,
+      "options": [
+        {
+          "text": "没有",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "有，但不在过去一年内",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "有，就在过去一年内",
+          "value": "4",
+          "optionNo": "C"
+        }
+      ]
+    },
+    {
+      "text": "是否有亲戚、朋友、医生或其他卫生工作者曾对您的饮酒表示过担忧，或建议您减少饮酒？",
+      "type": "radio",
+      "orderNum": 10,
+      "options": [
+        {
+          "text": "没有",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "有，但不在过去一年内",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "有，就在过去一年内",
+          "value": "4",
+          "optionNo": "C"
+        }
+      ]
+    }
+  ],
+  "dimensions": [
+    {
+      "dimensionName": "酒精使用风险",
+      "dimensionCode": "alcohol_risk",
+      "num": 1,
+      "evaluateExpression": "hx_t_1 + hx_t_2 + hx_t_3 + hx_t_4 + hx_t_5 + hx_t_6 + hx_t_7 + hx_t_8 + hx_t_9 + hx_t_10",
+      "standardScoreFormula": "",
+      "results": [
+        {
+          "evaluateExpression": "hx_wd_y_1 <= 7",
+          "conclusionAnalysis": "低风险饮酒",
+          "suggestion": "您的饮酒模式属于低风险范围，目前未发现酒精相关问题。建议继续保持适度饮酒的习惯，注意饮酒安全。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_1 > 7 && hx_wd_y_1 <= 15",
+          "conclusionAnalysis": "危险饮酒",
+          "suggestion": "您的饮酒模式已经达到危险饮酒的水平，存在发展为酒精相关问题的风险。建议减少饮酒量，注意饮酒频率，必要时可咨询专业人士获取建议。",
+          "assessmentWarning": "low"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_1 > 15 && hx_wd_y_1 <= 19",
+          "conclusionAnalysis": "有害饮酒",
+          "suggestion": "您的饮酒模式已经对健康造成有害影响。强烈建议您认真考虑减少饮酒，并寻求专业医疗人员的帮助和支持。",
+          "assessmentWarning": "middle"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_1 > 19",
+          "conclusionAnalysis": "可能酒精依赖",
+          "suggestion": "您的得分提示可能存在酒精依赖问题。酒精依赖是一种需要专业治疗的疾病，强烈建议尽快就医或寻求专业的戒酒支持服务。及时的帮助对您的健康和生活质量至关重要。",
+          "assessmentWarning": "high"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,292 @@
+{
+  "id": "das",
+  "title": "死亡焦虑量表(DAS)",
+  "description": "本量表帮助了解您对死亡的态度和感受。共15题，请根据实际情况选择「是」或「否」，大约需要3分钟完成。",
+  "type": "basic",
+  "questions": [
+    {
+      "text": "我非常害怕死亡。",
+      "type": "radio",
+      "orderNum": 1,
+      "options": [
+        {
+          "text": "是",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "否",
+          "value": "0",
+          "optionNo": "B"
+        }
+      ]
+    },
+    {
+      "text": "我很少想到死亡。",
+      "type": "radio",
+      "orderNum": 2,
+      "options": [
+        {
+          "text": "否",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "是",
+          "value": "1",
+          "optionNo": "B"
+        }
+      ]
+    },
+    {
+      "text": "当别人谈论死亡时，我会感到不安。",
+      "type": "radio",
+      "orderNum": 3,
+      "options": [
+        {
+          "text": "是",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "否",
+          "value": "0",
+          "optionNo": "B"
+        }
+      ]
+    },
+    {
+      "text": "想到自己的死亡并不会让我感到焦虑。",
+      "type": "radio",
+      "orderNum": 4,
+      "options": [
+        {
+          "text": "否",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "是",
+          "value": "1",
+          "optionNo": "B"
+        }
+      ]
+    },
+    {
+      "text": "我不会因想到自己将不久于人世而感到烦恼。",
+      "type": "radio",
+      "orderNum": 5,
+      "options": [
+        {
+          "text": "否",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "是",
+          "value": "1",
+          "optionNo": "B"
+        }
+      ]
+    },
+    {
+      "text": "我经常因为想到死亡而感到特别紧张。",
+      "type": "radio",
+      "orderNum": 6,
+      "options": [
+        {
+          "text": "是",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "否",
+          "value": "0",
+          "optionNo": "B"
+        }
+      ]
+    },
+    {
+      "text": "我在深夜想到死亡时会感到恐惧。",
+      "type": "radio",
+      "orderNum": 7,
+      "options": [
+        {
+          "text": "是",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "否",
+          "value": "0",
+          "optionNo": "B"
+        }
+      ]
+    },
+    {
+      "text": "面对死亡的形象并不会使我感到不安。",
+      "type": "radio",
+      "orderNum": 8,
+      "options": [
+        {
+          "text": "否",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "是",
+          "value": "1",
+          "optionNo": "B"
+        }
+      ]
+    },
+    {
+      "text": "我害怕在痛苦中死去。",
+      "type": "radio",
+      "orderNum": 9,
+      "options": [
+        {
+          "text": "是",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "否",
+          "value": "0",
+          "optionNo": "B"
+        }
+      ]
+    },
+    {
+      "text": "关于死亡的话题并不会让我感到困扰。",
+      "type": "radio",
+      "orderNum": 10,
+      "options": [
+        {
+          "text": "否",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "是",
+          "value": "1",
+          "optionNo": "B"
+        }
+      ]
+    },
+    {
+      "text": "我非常害怕患上绝症。",
+      "type": "radio",
+      "orderNum": 11,
+      "options": [
+        {
+          "text": "是",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "否",
+          "value": "0",
+          "optionNo": "B"
+        }
+      ]
+    },
+    {
+      "text": "我很少被死亡的念头所困扰。",
+      "type": "radio",
+      "orderNum": 12,
+      "options": [
+        {
+          "text": "否",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "是",
+          "value": "1",
+          "optionNo": "B"
+        }
+      ]
+    },
+    {
+      "text": "当我听到有人去世的消息时，我会感到不安。",
+      "type": "radio",
+      "orderNum": 13,
+      "options": [
+        {
+          "text": "是",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "否",
+          "value": "0",
+          "optionNo": "B"
+        }
+      ]
+    },
+    {
+      "text": "我很少对死亡感到恐惧。",
+      "type": "radio",
+      "orderNum": 14,
+      "options": [
+        {
+          "text": "否",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "是",
+          "value": "1",
+          "optionNo": "B"
+        }
+      ]
+    },
+    {
+      "text": "当我知道自己终有一死时，我并不感到担忧。",
+      "type": "radio",
+      "orderNum": 15,
+      "options": [
+        {
+          "text": "是",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "否",
+          "value": "0",
+          "optionNo": "B"
+        }
+      ]
+    }
+  ],
+  "dimensions": [
+    {
+      "dimensionName": "死亡焦虑",
+      "dimensionCode": "death_anxiety",
+      "num": 1,
+      "evaluateExpression": "hx_t_1 + hx_t_2 + hx_t_3 + hx_t_4 + hx_t_5 + hx_t_6 + hx_t_7 + hx_t_8 + hx_t_9 + hx_t_10 + hx_t_11 + hx_t_12 + hx_t_13 + hx_t_14 + hx_t_15 / 15",
+      "standardScoreFormula": "",
+      "results": [
+        {
+          "evaluateExpression": "hx_wd_y_1 <= 0.3",
+          "conclusionAnalysis": "死亡焦虑水平较低",
+          "suggestion": "您对死亡的恐惧和焦虑程度较低，能够较为平静地面对与死亡相关的话题和思考。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_1 > 0.3 && hx_wd_y_1 <= 0.6",
+          "conclusionAnalysis": "死亡焦虑水平中等",
+          "suggestion": "您存在一定程度的死亡焦虑，在特定情境下可能会因死亡相关话题感到不安。这是正常的心理现象。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_1 > 0.6",
+          "conclusionAnalysis": "死亡焦虑水平较高",
+          "suggestion": "您对死亡存在较强的恐惧和焦虑，这可能会在日常生活中造成困扰。建议通过正念练习或心理咨询来缓解死亡焦虑。",
+          "assessmentWarning": "none"
+        }
+      ]
+    }
+  ]
+}

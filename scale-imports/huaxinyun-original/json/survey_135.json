@@ -1,0 +1,1449 @@
+{
+  "id": 135,
+  "title": "大学生心理健康调查表(UPI)",
+  "type": "basic",
+  "questions": [
+    {
+      "id": 3669,
+      "text": " 食欲不振",
+      "type": "radio",
+      "orderNum": 1,
+      "options": [
+        {
+          "id": 13952,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 13953,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3670,
+      "text": " 恶心、胃口难受、肚子疼",
+      "type": "radio",
+      "orderNum": 2,
+      "options": [
+        {
+          "id": 13954,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 13955,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3671,
+      "text": " 容易拉肚子或便秘",
+      "type": "radio",
+      "orderNum": 3,
+      "options": [
+        {
+          "id": 13956,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 13957,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3672,
+      "text": " 关注心悸和脉搏",
+      "type": "radio",
+      "orderNum": 4,
+      "options": [
+        {
+          "id": 13958,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 13959,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3673,
+      "text": " 身体健康状况良好",
+      "type": "radio",
+      "orderNum": 5,
+      "options": [
+        {
+          "id": 13960,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 13961,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3674,
+      "text": " 牢骚和不满多",
+      "type": "radio",
+      "orderNum": 6,
+      "options": [
+        {
+          "id": 13962,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 13963,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3675,
+      "text": " 父母期望过高",
+      "type": "radio",
+      "orderNum": 7,
+      "options": [
+        {
+          "id": 13964,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 13965,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3676,
+      "text": " 自己的过去和家庭是不幸的",
+      "type": "radio",
+      "orderNum": 8,
+      "options": [
+        {
+          "id": 13966,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 13967,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3677,
+      "text": " 过于担心将来的事情",
+      "type": "radio",
+      "orderNum": 9,
+      "options": [
+        {
+          "id": 13968,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 13969,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3678,
+      "text": " 不想见人",
+      "type": "radio",
+      "orderNum": 10,
+      "options": [
+        {
+          "id": 13970,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 13971,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3679,
+      "text": " 觉得自己不是自己",
+      "type": "radio",
+      "orderNum": 11,
+      "options": [
+        {
+          "id": 13972,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 13973,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3680,
+      "text": " 缺乏热情和积极性",
+      "type": "radio",
+      "orderNum": 12,
+      "options": [
+        {
+          "id": 13974,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 13975,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3681,
+      "text": " 悲观",
+      "type": "radio",
+      "orderNum": 13,
+      "options": [
+        {
+          "id": 13976,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 13977,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3682,
+      "text": " 思想不集中",
+      "type": "radio",
+      "orderNum": 14,
+      "options": [
+        {
+          "id": 13978,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 13979,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3683,
+      "text": " 情绪起伏过大",
+      "type": "radio",
+      "orderNum": 15,
+      "options": [
+        {
+          "id": 13980,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 13981,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3684,
+      "text": " 常常失眠",
+      "type": "radio",
+      "orderNum": 16,
+      "options": [
+        {
+          "id": 13982,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 13983,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3685,
+      "text": " 头疼",
+      "type": "radio",
+      "orderNum": 17,
+      "options": [
+        {
+          "id": 13984,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 13985,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3686,
+      "text": " 脖子、肩膀酸痛",
+      "type": "radio",
+      "orderNum": 18,
+      "options": [
+        {
+          "id": 13986,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 13987,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3687,
+      "text": " 胸疼憋闷",
+      "type": "radio",
+      "orderNum": 19,
+      "options": [
+        {
+          "id": 13988,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 13989,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3688,
+      "text": " 总是朝气蓬勃的",
+      "type": "radio",
+      "orderNum": 20,
+      "options": [
+        {
+          "id": 13990,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 13991,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3689,
+      "text": " 气量小",
+      "type": "radio",
+      "orderNum": 21,
+      "options": [
+        {
+          "id": 13992,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 13993,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3690,
+      "text": " 爱操心",
+      "type": "radio",
+      "orderNum": 22,
+      "options": [
+        {
+          "id": 13994,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 13995,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3691,
+      "text": " 焦躁不安",
+      "type": "radio",
+      "orderNum": 23,
+      "options": [
+        {
+          "id": 13996,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 13997,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3692,
+      "text": " 容易动怒",
+      "type": "radio",
+      "orderNum": 24,
+      "options": [
+        {
+          "id": 13998,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 13999,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3693,
+      "text": " 想轻生",
+      "type": "radio",
+      "orderNum": 25,
+      "options": [
+        {
+          "id": 14000,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 14001,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3694,
+      "text": " 对任何事都没有兴趣",
+      "type": "radio",
+      "orderNum": 26,
+      "options": [
+        {
+          "id": 14002,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 14003,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3695,
+      "text": " 记忆力减退",
+      "type": "radio",
+      "orderNum": 27,
+      "options": [
+        {
+          "id": 14004,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 14005,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3696,
+      "text": " 缺乏耐性",
+      "type": "radio",
+      "orderNum": 28,
+      "options": [
+        {
+          "id": 14006,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 14007,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3697,
+      "text": " 缺乏决断能力",
+      "type": "radio",
+      "orderNum": 29,
+      "options": [
+        {
+          "id": 14008,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 14009,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3698,
+      "text": " 过于依赖别人",
+      "type": "radio",
+      "orderNum": 30,
+      "options": [
+        {
+          "id": 14010,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 14011,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3699,
+      "text": " 为脸红而苦恼",
+      "type": "radio",
+      "orderNum": 31,
+      "options": [
+        {
+          "id": 14012,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 14013,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3700,
+      "text": " 口吃，声音发颤",
+      "type": "radio",
+      "orderNum": 32,
+      "options": [
+        {
+          "id": 14014,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 14015,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3701,
+      "text": " 身体忽冷忽热",
+      "type": "radio",
+      "orderNum": 33,
+      "options": [
+        {
+          "id": 14016,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 14017,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3702,
+      "text": " 常常注意排尿和性器官",
+      "type": "radio",
+      "orderNum": 34,
+      "options": [
+        {
+          "id": 14018,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 14019,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3703,
+      "text": " 心情开朗",
+      "type": "radio",
+      "orderNum": 35,
+      "options": [
+        {
+          "id": 14020,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 14021,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3704,
+      "text": " 莫名其妙地不安",
+      "type": "radio",
+      "orderNum": 36,
+      "options": [
+        {
+          "id": 14022,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 14023,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3705,
+      "text": " 一个人独处时感到不安",
+      "type": "radio",
+      "orderNum": 37,
+      "options": [
+        {
+          "id": 14024,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 14025,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3706,
+      "text": " 缺乏自信心",
+      "type": "radio",
+      "orderNum": 38,
+      "options": [
+        {
+          "id": 14026,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 14027,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3707,
+      "text": " 办事畏首畏尾",
+      "type": "radio",
+      "orderNum": 39,
+      "options": [
+        {
+          "id": 14028,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 14029,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3708,
+      "text": " 容易被人误解",
+      "type": "radio",
+      "orderNum": 40,
+      "options": [
+        {
+          "id": 14030,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 14031,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3709,
+      "text": " 不相信别人",
+      "type": "radio",
+      "orderNum": 41,
+      "options": [
+        {
+          "id": 14032,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 14033,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3710,
+      "text": " 过于猜疑",
+      "type": "radio",
+      "orderNum": 42,
+      "options": [
+        {
+          "id": 14034,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 14035,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3711,
+      "text": " 厌恶交往",
+      "type": "radio",
+      "orderNum": 43,
+      "options": [
+        {
+          "id": 14036,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 14037,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3712,
+      "text": " 感到自卑",
+      "type": "radio",
+      "orderNum": 44,
+      "options": [
+        {
+          "id": 14038,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 14039,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3713,
+      "text": " 杞人忧天",
+      "type": "radio",
+      "orderNum": 45,
+      "options": [
+        {
+          "id": 14040,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 14041,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3714,
+      "text": " 身体倦乏",
+      "type": "radio",
+      "orderNum": 46,
+      "options": [
+        {
+          "id": 14042,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 14043,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3715,
+      "text": " 一着急就出冷汗",
+      "type": "radio",
+      "orderNum": 47,
+      "options": [
+        {
+          "id": 14044,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 14045,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3716,
+      "text": " 站起来就头晕",
+      "type": "radio",
+      "orderNum": 48,
+      "options": [
+        {
+          "id": 14046,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 14047,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3717,
+      "text": " 有过昏迷或抽疯",
+      "type": "radio",
+      "orderNum": 49,
+      "options": [
+        {
+          "id": 14048,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 14049,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3718,
+      "text": " 人缘好受欢迎",
+      "type": "radio",
+      "orderNum": 50,
+      "options": [
+        {
+          "id": 14050,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 14051,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3719,
+      "text": " 过于拘泥",
+      "type": "radio",
+      "orderNum": 51,
+      "options": [
+        {
+          "id": 14052,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 14053,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3720,
+      "text": " 对任何事情不反复确认就不放心",
+      "type": "radio",
+      "orderNum": 52,
+      "options": [
+        {
+          "id": 14054,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 14055,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3721,
+      "text": " 对脏很在乎",
+      "type": "radio",
+      "orderNum": 53,
+      "options": [
+        {
+          "id": 14056,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 14057,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3722,
+      "text": " 摆脱不了毫无意义的想法",
+      "type": "radio",
+      "orderNum": 54,
+      "options": [
+        {
+          "id": 14058,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 14059,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3723,
+      "text": " 觉得自己有怪气味",
+      "type": "radio",
+      "orderNum": 55,
+      "options": [
+        {
+          "id": 14060,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 14061,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3724,
+      "text": " 别人在自己背后说坏话",
+      "type": "radio",
+      "orderNum": 56,
+      "options": [
+        {
+          "id": 14062,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 14063,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3725,
+      "text": " 总注意周围的人",
+      "type": "radio",
+      "orderNum": 57,
+      "options": [
+        {
+          "id": 14064,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 14065,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3726,
+      "text": " 在乎别人视线",
+      "type": "radio",
+      "orderNum": 58,
+      "options": [
+        {
+          "id": 14066,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 14067,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3727,
+      "text": " 觉得别人轻视自己",
+      "type": "radio",
+      "orderNum": 59,
+      "options": [
+        {
+          "id": 14068,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 14069,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3728,
+      "text": " 情绪容易被破坏",
+      "type": "radio",
+      "orderNum": 60,
+      "options": [
+        {
+          "id": 14070,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 14071,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3729,
+      "text": " 至今为止，你感到在自身健康方面有问题吗？",
+      "type": "radio",
+      "orderNum": 61,
+      "options": [
+        {
+          "id": 14072,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 14073,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3730,
+      "text": " 至今为止，曾经觉得心理卫生方面有问题吗？",
+      "type": "radio",
+      "orderNum": 62,
+      "options": [
+        {
+          "id": 14074,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 14075,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3731,
+      "text": " 至今为止，你曾经接受过心理卫生的咨询和治疗吗？",
+      "type": "radio",
+      "orderNum": 63,
+      "options": [
+        {
+          "id": 14076,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 14077,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3732,
+      "text": " 你有健康或心理卫生方面想要咨询的问题吗？",
+      "type": "radio",
+      "orderNum": 64,
+      "options": [
+        {
+          "id": 14078,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 14079,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    }
+  ],
+  "dimensions": [
+    {
+      "id": 403,
+      "num": 1,
+      "dimensionName": "UPI总分",
+      "dimensionCode": "A",
+      "evaluateExpression": "hx_t_1 + hx_t_2 + hx_t_3 + hx_t_4 + hx_t_6 + hx_t_7 + hx_t_8 + hx_t_9 + hx_t_10 + hx_t_11 + hx_t_12 + hx_t_13 + hx_t_14 + hx_t_15 + hx_t_16 + hx_t_17 + hx_t_18 + hx_t_19 + hx_t_21 + hx_t_22 + hx_t_23 + hx_t_24 + hx_t_25 + hx_t_26 + hx_t_27 + hx_t_28 + hx_t_29 + hx_t_30 + hx_t_31 + hx_t_32 + hx_t_33 + hx_t_34 + hx_t_36 + hx_t_37 + hx_t_38 + hx_t_39 + hx_t_40 + hx_t_41 + hx_t_42 + hx_t_43 + hx_t_44 + hx_t_45 + hx_t_46 + hx_t_47 + hx_t_48 + hx_t_49 + hx_t_51 + hx_t_52 + hx_t_53 + hx_t_54 + hx_t_55 + hx_t_56 + hx_t_57 + hx_t_58 + hx_t_59 + hx_t_60",
+      "standardScoreFormula": "0",
+      "results": [
+        {
+          "id": 889,
+          "evaluateExpression": "hx_wd_y_1 >= 0&& hx_wd_y_1 <= 19",
+          "conclusionAnalysis": "低分，没有心理问题。通过测试得知被试暂时没有心理问题或存在的问题暂时不明显或已经解决。",
+          "suggestion": "被试心理状况比较良好，学习一些心理健康保健的知识，可以起到预防心理疾病的作用。",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 890,
+          "evaluateExpression": "hx_wd_y_1 >= 20&& hx_wd_y_1 <= 24",
+          "conclusionAnalysis": "中等得分，存在一般心理问题。通过测试得知被试可能可能有某种心理问题。被试可能存在一般心理问题，如人际关系不协调，新环境不适应等。这类学生有种种烦恼，但仍能够维持正常学习和生活。",
+          "suggestion": "被试可能存在一般心理问题，如人际关系不协调， 新环境不适应等问题。这些问题对他们的正常学习和生活不会有太大的影响。但是仍需要引起重视，采取一些措施加以解决，以免问题日积月累，逐渐恶化。\n指导建议：\n(1)阅读心理学方面的书籍，掌握一些基本的心理健康知识和自我调节的技能，特别是针对自己具体的问题了解具体的解决方法，尝试自我调整。\n(2)与自己熟悉的人如父母、教师和好朋友讨论这些问题，征求他们的意见和指导。\n(3)向专业的心理咨询师咨询，获得专业的帮助和指导。",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 891,
+          "evaluateExpression": "hx_wd_y_1 >= 25&& hx_wd_y_1 <= 56",
+          "conclusionAnalysis": "高分，较为严重心理问题。通过测试得知被试可能存在较为严重心理问题，需要尽快地约请其进行咨询。被试可能患有各类神经症(恐怖症、强迫症、焦虑症、严重的神经衰弱等)，明显影响正常生活、学习。",
+          "suggestion": "被试可能存在心理健康问题。这一结果可能有两种情况，一是被测者个性上确实存在一些缺陷，导致长期处于心身失调状态，这种情况下，被测者可能长期出现持续、稳定的生理、思维、情绪和行为上的问题，而他本人往往无法说出明显的症状诱因。属于这种情况的被测试者适合接受比较长期的心理咨询或心理治疗。第二种情况是被测者近期生活中遇到较大的压力或挫折，处于暂时性应激状态。这种情况下，被测试者在短期内会突然出现较大程度的身心状态恶化，他本人往往可以意识到这种情况出现的明显诱因。这种情况的被测试者适合接受短期的专业心理疏导或者通过向自己的亲人、朋友倾述，争取他们的指导和帮助，以便更好的应对面前的危机。一般来说，这种应激状态可以较快的缓解，但如果被测试者消极逃避困难使问题积累，也可能使各种症状持续存在并不断加重，从而给身心健康造成巨大的危害。\n指导建议：\n(1)首先，被测试者不要对自己的情况感到过分担心和忧虑。心理问题和生理疾病一样，每个人都会在不同的时候、不同程度的遇到，同样，通过有针对性的调整是可以恢复正常的。建议被测试者尽快前往专业咨询机构进行面询，寻求心理专业人士的帮助并进一步明确问题的性质和程度。通过面询，被测试者能更清楚知道自己的问题根源，并能比较快速、彻底的解除心理困扰，当然在咨询的过程当中被测试者本人必须主动、积极的做出努力。\n(2)同时希望被测试者在日常生活中多参加一些体育活动，这样既可以增加体质又能调节身心的紧张状态；另外还要多从事一些与人交往的活动；被测试者要逐渐全面而客观的看待自我，发展自信。\n(3)被测试者还需要学习一些调节和宣泄不良情绪的方法，以免被不良情绪控制。被测试者通过逐渐改变已有的错误认知模式和不良行为模式，会逐渐恢复身心健康状态。",
+          "assessmentWarning": "high"
+        }
+      ]
+    },
+    {
+      "id": 404,
+      "num": 2,
+      "dimensionName": "25题",
+      "dimensionCode": "B",
+      "evaluateExpression": "hx_t_25",
+      "standardScoreFormula": "0",
+      "results": [
+        {
+          "id": 892,
+          "evaluateExpression": "hx_wd_y_2 >= 0&& hx_wd_y_2 <= 0",
+          "conclusionAnalysis": "25题如果肯定作答。需要重点关注。",
+          "suggestion": "25题如果肯定作答。需要重点关注。",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 893,
+          "evaluateExpression": "hx_wd_y_2 >= 1&& hx_wd_y_2 <= 1",
+          "conclusionAnalysis": "25题如果肯定作答。需要重点关注。",
+          "suggestion": "25题如果肯定作答。需要重点关注。",
+          "assessmentWarning": "high"
+        }
+      ]
+    },
+    {
+      "id": 405,
+      "num": 3,
+      "dimensionName": "一类筛选",
+      "dimensionCode": "ONE",
+      "evaluateExpression": "hx_calc_gt_count(0, hx_calc_gt_count(24, hx_wd_y_a), hx_calc_equal_count(1, hx_t_25), hx_calc_equal_count(1, hx_t_8, hx_t_16, hx_t_26) >= 1 ? 1 : 0, hx_calc_equal_count(1, hx_t_61, hx_t_62, hx_t_63) >= 1 ? 1 : 0, hx_calc_equal_count(1, hx_t_64)) >= 0 ? 1 : 0",
+      "standardScoreFormula": "0",
+      "results": [
+        {
+          "id": 894,
+          "evaluateExpression": "hx_wd_y_3 >= 0&& hx_wd_y_3 <= 0",
+          "conclusionAnalysis": "一类筛选分值为0，则为非一类人员。\n满足下列条件之一者应归为第一类：\n(1) UPI总分在25分(包括25分)以上者； \n(2) 第25题做肯定选择者； \n(3) 第8、16、26题中有两题及以上做肯定选择者； \n(4) 辅助题中同时至少有两题做肯定选择者； \n(5) 明确提出咨询要求者(由于此条选择人数较多，有时不用)；",
+          "suggestion": "其中第一类为可能有较明显心理问题的学生，应尽快约请进行咨询。",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 895,
+          "evaluateExpression": "hx_wd_y_3 >= 1&& hx_wd_y_3 <= 1",
+          "conclusionAnalysis": "一类筛选分值为1，则为一类人员。\n满足下列条件之一者应归为第一类：\n    (1) UPI总分在25分(包括25分)以上者； \n(2) 第25题做肯定选择者； \n(3) 第8、16、26题中有两题及以上做肯定选择者； \n(4) 辅助题中同时至少有两题做肯定选择者； \n(5) 明确提出咨询要求者(由于此条选择人数较多，有时不用)；",
+          "suggestion": "其中第一类为可能有较明显心理问题的学生，应尽快约请进行咨询。",
+          "assessmentWarning": "high"
+        }
+      ]
+    },
+    {
+      "id": 406,
+      "num": 4,
+      "dimensionName": "二类筛选",
+      "dimensionCode": "TWO",
+      "evaluateExpression": "hx_calc_equal_count(1, (hx_wd_y_one != 1 ? 1 : 0), hx_calc_gt_count(0, (hx_wd_y_a >= 20 && hx_wd_y_a <= 24 ? 1 : 0), hx_calc_equal_count(1, hx_t_8, hx_t_16, hx_t_26) >= 0 ? 1 : 0, hx_calc_equal_count(1, hx_t_61, hx_t_62, hx_t_63) == 1 ? 1 : 0) >= 0 ? 1 : 0) == 2 ? 1 : 0",
+      "standardScoreFormula": "0",
+      "results": [
+        {
+          "id": 896,
+          "evaluateExpression": "hx_wd_y_4 >= 0&& hx_wd_y_4 <= 0",
+          "conclusionAnalysis": "二类筛选分值为0，则为非二类人员。\n第二类筛选标准：\n　　满足下列条件之一者应归为第二类：\n    (1) UPI总分在20分至25分(包括20分,不包括25分)之间者；\n    (2) 第8，16，26题中有一题做肯定选择者；\n    (3) 辅助题中只有一题作肯定选择者；",
+          "suggestion": "无",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 897,
+          "evaluateExpression": "hx_wd_y_4 >= 1&& hx_wd_y_4 <= 1",
+          "conclusionAnalysis": "二类筛选分值为1，则为二类人员。\n第二类筛选标准：\n　　满足下列条件之一者应归为第二类：\n    (1) UPI总分在20分至25分(包括20分,不包括25分)之间者；\n    (2) 第8，16，26题中有一题做肯定选择者；\n    (3) 辅助题中只有一题作肯定选择者；",
+          "suggestion": "无",
+          "assessmentWarning": "high"
+        }
+      ]
+    },
+    {
+      "id": 407,
+      "num": 5,
+      "dimensionName": "测谎",
+      "dimensionCode": "L",
+      "evaluateExpression": "((hx_calc_equal_count(1, (hx_t_5 + hx_t_20 + hx_t_35 + hx_t_50 >= 3 ? 1 : 0), (hx_wd_y_a >= 25 ? 1 : 0))) >= 2 ? 1 : 0) + ((hx_calc_equal_count(1, (hx_t_5 + hx_t_20 + hx_t_35 + hx_t_50 <= 1 ? 1 : 0), (hx_wd_y_a <= 5 ? 1 : 0))) >= 2 ? 1 : 0)",
+      "standardScoreFormula": "0",
+      "results": [
+        {
+          "id": 898,
+          "evaluateExpression": "hx_wd_y_5 >= 0&& hx_wd_y_5 <= 0",
+          "conclusionAnalysis": "测谎得分=0，问卷真实有效。\n判断无效问卷标准：\n1、测谎题的得分为3分和4分，同时总分达到了25分及以上。\n2、总分在5分及以下，同时，测谎题得分在1分或者0分。",
+          "suggestion": "无",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 899,
+          "evaluateExpression": "hx_wd_y_5 >= 1&& hx_wd_y_5 <= 1",
+          "conclusionAnalysis": "测谎得分=1，问卷作答无效。\n判断无效问卷标准：\n1、测谎题的得分为3分和4分，同时总分达到了25分及以上。\n2、总分在5分及以下，同时，测谎题得分在1分或者0分。",
+          "suggestion": "无",
+          "assessmentWarning": "none"
+        }
+      ]
+    },
+    {
+      "id": 408,
+      "num": 6,
+      "dimensionName": "附加题",
+      "dimensionCode": "F",
+      "evaluateExpression": "hx_t_61 + hx_t_62 + hx_t_63 + hx_t_64",
+      "standardScoreFormula": "0",
+      "results": []
+    },
+    {
+      "id": 409,
+      "num": 7,
+      "dimensionName": "三类筛选",
+      "dimensionCode": "THREE",
+      "evaluateExpression": "hx_calc_equal_count(0, hx_wd_y_one, hx_wd_y_two) == 2 ? 1 : 0",
+      "standardScoreFormula": "0",
+      "results": [
+        {
+          "id": 900,
+          "evaluateExpression": "hx_wd_y_7 >= 0&& hx_wd_y_7 <= 0",
+          "conclusionAnalysis": "三类筛选分值为0，则为非三类人员。 第三类筛选标准：不属于第一类和第二类者应归为第三类。",
+          "suggestion": "",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 901,
+          "evaluateExpression": "hx_wd_y_7 >= 1&& hx_wd_y_7 <= 1",
+          "conclusionAnalysis": "三类筛选分值为1，则为三类人员。 第三类筛选标准：不属于第一类和第二类者应归为第三类。",
+          "suggestion": "",
+          "assessmentWarning": "none"
+        }
+      ]
+    }
+  ]
+}

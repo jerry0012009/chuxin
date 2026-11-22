@@ -1,0 +1,16 @@
+[Unit]
+Description=Chuxin Backend
+After=network.target mysql.service
+Wants=mysql.service
+
+[Service]
+Type=simple
+WorkingDirectory=/root/jry/chuxin/backend
+Environment=APP_PORT=18080
+ExecStart=/usr/bin/java -jar /root/jry/chuxin/backend/target/chuxin-backend-0.0.1-SNAPSHOT.jar
+Restart=on-failure
+RestartSec=5
+SuccessExitStatus=143
+
+[Install]
+WantedBy=multi-user.target

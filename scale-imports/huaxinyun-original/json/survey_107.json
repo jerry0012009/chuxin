@@ -1,0 +1,414 @@
+{
+  "id": 107,
+  "title": "抑郁症状自评量表（PHQ-9）",
+  "type": "basic",
+  "questions": [
+    {
+      "id": 2283,
+      "text": "做什么事都没兴趣，没意思。",
+      "type": "radio",
+      "orderNum": 1,
+      "options": [
+        {
+          "id": 9307,
+          "optionNo": "A",
+          "text": "完全不会",
+          "value": "0"
+        },
+        {
+          "id": 9308,
+          "optionNo": "B",
+          "text": "有几天",
+          "value": "1"
+        },
+        {
+          "id": 9309,
+          "optionNo": "C",
+          "text": "超过一周",
+          "value": "2"
+        },
+        {
+          "id": 9310,
+          "optionNo": "D",
+          "text": "几乎每天",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "id": 2284,
+      "text": "感到心情低落，抑郁，没希望。",
+      "type": "radio",
+      "orderNum": 2,
+      "options": [
+        {
+          "id": 9311,
+          "optionNo": "A",
+          "text": "完全不会",
+          "value": "0"
+        },
+        {
+          "id": 9312,
+          "optionNo": "B",
+          "text": "有几天",
+          "value": "1"
+        },
+        {
+          "id": 9313,
+          "optionNo": "C",
+          "text": "超过一周",
+          "value": "2"
+        },
+        {
+          "id": 9314,
+          "optionNo": "D",
+          "text": "几乎每天",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "id": 2285,
+      "text": "入睡困难，总是醒着，或睡得太多嗜睡。",
+      "type": "radio",
+      "orderNum": 3,
+      "options": [
+        {
+          "id": 9315,
+          "optionNo": "A",
+          "text": "完全不会",
+          "value": "0"
+        },
+        {
+          "id": 9316,
+          "optionNo": "B",
+          "text": "有几天",
+          "value": "1"
+        },
+        {
+          "id": 9317,
+          "optionNo": "C",
+          "text": "超过一周",
+          "value": "2"
+        },
+        {
+          "id": 9318,
+          "optionNo": "D",
+          "text": "几乎每天",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "id": 2286,
+      "text": "常感到很疲倦，没劲。",
+      "type": "radio",
+      "orderNum": 4,
+      "options": [
+        {
+          "id": 9319,
+          "optionNo": "A",
+          "text": "完全不会",
+          "value": "0"
+        },
+        {
+          "id": 9320,
+          "optionNo": "B",
+          "text": "有几天",
+          "value": "1"
+        },
+        {
+          "id": 9321,
+          "optionNo": "C",
+          "text": "超过一周",
+          "value": "2"
+        },
+        {
+          "id": 9322,
+          "optionNo": "D",
+          "text": "几乎每天",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "id": 2287,
+      "text": "口味不好，或吃的太多。",
+      "type": "radio",
+      "orderNum": 5,
+      "options": [
+        {
+          "id": 9323,
+          "optionNo": "A",
+          "text": "完全不会",
+          "value": "0"
+        },
+        {
+          "id": 9324,
+          "optionNo": "B",
+          "text": "有几天",
+          "value": "1"
+        },
+        {
+          "id": 9325,
+          "optionNo": "C",
+          "text": "超过一周",
+          "value": "2"
+        },
+        {
+          "id": 9326,
+          "optionNo": "D",
+          "text": "几乎每天",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "id": 2288,
+      "text": "自己对自己不满，觉得自己是个失败者，或让家人丢脸了。",
+      "type": "radio",
+      "orderNum": 6,
+      "options": [
+        {
+          "id": 9327,
+          "optionNo": "A",
+          "text": "完全不会",
+          "value": "0"
+        },
+        {
+          "id": 9328,
+          "optionNo": "B",
+          "text": "有几天",
+          "value": "1"
+        },
+        {
+          "id": 9329,
+          "optionNo": "C",
+          "text": "超过一周",
+          "value": "2"
+        },
+        {
+          "id": 9330,
+          "optionNo": "D",
+          "text": "几乎每天",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "id": 2289,
+      "text": "无法集中精力，即便是读报纸或看电视时，记忆力下降。",
+      "type": "radio",
+      "orderNum": 7,
+      "options": [
+        {
+          "id": 9331,
+          "optionNo": "A",
+          "text": "完全不会",
+          "value": "0"
+        },
+        {
+          "id": 9332,
+          "optionNo": "B",
+          "text": "有几天",
+          "value": "1"
+        },
+        {
+          "id": 9333,
+          "optionNo": "C",
+          "text": "超过一周",
+          "value": "2"
+        },
+        {
+          "id": 9334,
+          "optionNo": "D",
+          "text": "几乎每天",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "id": 2290,
+      "text": "行动或说话缓慢到引起人们的注意，或刚好相反，坐卧不安。",
+      "type": "radio",
+      "orderNum": 8,
+      "options": [
+        {
+          "id": 9335,
+          "optionNo": "A",
+          "text": "完全不会",
+          "value": "0"
+        },
+        {
+          "id": 9336,
+          "optionNo": "B",
+          "text": "有几天",
+          "value": "1"
+        },
+        {
+          "id": 9337,
+          "optionNo": "C",
+          "text": "超过一周",
+          "value": "2"
+        },
+        {
+          "id": 9338,
+          "optionNo": "D",
+          "text": "几乎每天",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "id": 2291,
+      "text": "有不如一死了之的念头，或想怎样伤害自己一下。",
+      "type": "radio",
+      "orderNum": 9,
+      "options": [
+        {
+          "id": 9339,
+          "optionNo": "A",
+          "text": "完全不会",
+          "value": "0"
+        },
+        {
+          "id": 9340,
+          "optionNo": "B",
+          "text": "有几天",
+          "value": "1"
+        },
+        {
+          "id": 9341,
+          "optionNo": "C",
+          "text": "超过一周",
+          "value": "2"
+        },
+        {
+          "id": 9342,
+          "optionNo": "D",
+          "text": "几乎每天",
+          "value": "3"
+        }
+      ]
+    }
+  ],
+  "dimensions": [
+    {
+      "id": 291,
+      "num": 1,
+      "dimensionName": "总分",
+      "dimensionCode": "A",
+      "evaluateExpression": "hx_t_1 + hx_t_2 + hx_t_3 + hx_t_4 + hx_t_5 + hx_t_6 + hx_t_7 + hx_t_8 + hx_t_9",
+      "standardScoreFormula": "0",
+      "results": [
+        {
+          "id": 575,
+          "evaluateExpression": "hx_wd_y_1 >= 0&& hx_wd_y_1 <= 4",
+          "conclusionAnalysis": "没有抑郁",
+          "suggestion": "注意自我心理保健",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 576,
+          "evaluateExpression": "hx_wd_y_1 >= 5&& hx_wd_y_1 <= 9",
+          "conclusionAnalysis": "可能有轻度抑郁",
+          "suggestion": "建议咨询心理医生或心理医学工作者",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 577,
+          "evaluateExpression": "hx_wd_y_1 >= 10&& hx_wd_y_1 <= 14",
+          "conclusionAnalysis": "可能有中度抑郁",
+          "suggestion": "最好咨询心理医生或心理医学工作者",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 578,
+          "evaluateExpression": "hx_wd_y_1 >= 15&& hx_wd_y_1 <= 19",
+          "conclusionAnalysis": "可能有中重度抑郁",
+          "suggestion": "建议咨询心理医生或精神科医生",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 579,
+          "evaluateExpression": "hx_wd_y_1 >= 20&& hx_wd_y_1 <= 27",
+          "conclusionAnalysis": "可能有重度抑郁",
+          "suggestion": "建议一定要看心理医生或精神科医生",
+          "assessmentWarning": "none"
+        }
+      ]
+    },
+    {
+      "id": 292,
+      "num": 2,
+      "dimensionName": "兴趣程度",
+      "dimensionCode": "B",
+      "evaluateExpression": "hx_t_1",
+      "standardScoreFormula": "0",
+      "results": [
+        {
+          "id": 580,
+          "evaluateExpression": "hx_wd_y_2 >= 0&& hx_wd_y_2 <= 1",
+          "conclusionAnalysis": "您的兴趣状态良好",
+          "suggestion": "请继续保当前的兴趣状态，多进行极健康的活动",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 581,
+          "evaluateExpression": "hx_wd_y_2 >= 2&& hx_wd_y_2 <= 3",
+          "conclusionAnalysis": "您当前的兴趣状态较弱，请及时调整",
+          "suggestion": "可进行适当的身心放松，转换心情，寻找积极又去的事提高自己的注意力及轻度点",
+          "assessmentWarning": "high"
+        }
+      ]
+    },
+    {
+      "id": 293,
+      "num": 3,
+      "dimensionName": "疲倦状态",
+      "dimensionCode": "C",
+      "evaluateExpression": "hx_t_4",
+      "standardScoreFormula": "0",
+      "results": [
+        {
+          "id": 582,
+          "evaluateExpression": "hx_wd_y_3 >= 0&& hx_wd_y_3 <= 1",
+          "conclusionAnalysis": "您当前的精神状况较好，暂未感到严重的劳累程度",
+          "suggestion": "学习工作之余记得进行放松",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 583,
+          "evaluateExpression": "hx_wd_y_3 >= 2&& hx_wd_y_3 <= 3",
+          "conclusionAnalysis": "您当前感到过度疲倦，已经影响您的精神状态",
+          "suggestion": "请注意及时休息，进行适当放松，缓解压力，必要时寻找专业咨询师的帮助",
+          "assessmentWarning": "high"
+        }
+      ]
+    },
+    {
+      "id": 294,
+      "num": 4,
+      "dimensionName": "重点关注情况",
+      "dimensionCode": "D",
+      "evaluateExpression": "hx_t_9",
+      "standardScoreFormula": "0",
+      "results": [
+        {
+          "id": 584,
+          "evaluateExpression": "hx_wd_y_4 >= 0&& hx_wd_y_4 <= 1",
+          "conclusionAnalysis": "您当前对生活的希望较高，对生命较为关心",
+          "suggestion": "暂无",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 585,
+          "evaluateExpression": "hx_wd_y_4 >= 2&& hx_wd_y_4 <= 3",
+          "conclusionAnalysis": "您当前对生命的看法较差，请注意调整",
+          "suggestion": "遇到心理问题、冲突矛盾等请及时联系心理咨询师寻求帮助",
+          "assessmentWarning": "high"
+        }
+      ]
+    }
+  ]
+}

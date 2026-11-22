@@ -1,0 +1,843 @@
+{
+  "id": "cfq-cognition",
+  "title": "认知失误问卷(CFQ)",
+  "description": "Cognitive Failures Questionnaire (CFQ)，Broadbent等(1982)编制，测量日常生活中认知失误的频率。25题，5点计分（0=从不到4=非常频繁），总分0-100。常模：一般人群均值约43分。分数越高表示认知失误越多。",
+  "type": "basic",
+  "questions": [
+    {
+      "text": "你是否曾经忘记自己打算去做的事情？",
+      "type": "radio",
+      "orderNum": 1,
+      "options": [
+        {
+          "text": "从不",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "很少",
+          "value": "1",
+          "optionNo": "B"
+        },
+        {
+          "text": "有时",
+          "value": "2",
+          "optionNo": "C"
+        },
+        {
+          "text": "经常",
+          "value": "3",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常频繁",
+          "value": "4",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "你是否曾经在阅读时发现自己注意力不集中？",
+      "type": "radio",
+      "orderNum": 2,
+      "options": [
+        {
+          "text": "从不",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "很少",
+          "value": "1",
+          "optionNo": "B"
+        },
+        {
+          "text": "有时",
+          "value": "2",
+          "optionNo": "C"
+        },
+        {
+          "text": "经常",
+          "value": "3",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常频繁",
+          "value": "4",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "你是否曾经一时想不起某人的名字？",
+      "type": "radio",
+      "orderNum": 3,
+      "options": [
+        {
+          "text": "从不",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "很少",
+          "value": "1",
+          "optionNo": "B"
+        },
+        {
+          "text": "有时",
+          "value": "2",
+          "optionNo": "C"
+        },
+        {
+          "text": "经常",
+          "value": "3",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常频繁",
+          "value": "4",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "你是否曾经碰倒或撞到东西？",
+      "type": "radio",
+      "orderNum": 4,
+      "options": [
+        {
+          "text": "从不",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "很少",
+          "value": "1",
+          "optionNo": "B"
+        },
+        {
+          "text": "有时",
+          "value": "2",
+          "optionNo": "C"
+        },
+        {
+          "text": "经常",
+          "value": "3",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常频繁",
+          "value": "4",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "你是否曾经忘记把东西放在了哪里？",
+      "type": "radio",
+      "orderNum": 5,
+      "options": [
+        {
+          "text": "从不",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "很少",
+          "value": "1",
+          "optionNo": "B"
+        },
+        {
+          "text": "有时",
+          "value": "2",
+          "optionNo": "C"
+        },
+        {
+          "text": "经常",
+          "value": "3",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常频繁",
+          "value": "4",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "你是否曾经在别人说话时走神？",
+      "type": "radio",
+      "orderNum": 6,
+      "options": [
+        {
+          "text": "从不",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "很少",
+          "value": "1",
+          "optionNo": "B"
+        },
+        {
+          "text": "有时",
+          "value": "2",
+          "optionNo": "C"
+        },
+        {
+          "text": "经常",
+          "value": "3",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常频繁",
+          "value": "4",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "你是否曾经想说某个词却说了另一个词？",
+      "type": "radio",
+      "orderNum": 7,
+      "options": [
+        {
+          "text": "从不",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "很少",
+          "value": "1",
+          "optionNo": "B"
+        },
+        {
+          "text": "有时",
+          "value": "2",
+          "optionNo": "C"
+        },
+        {
+          "text": "经常",
+          "value": "3",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常频繁",
+          "value": "4",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "你是否曾经在出门后不确定门是否锁好？",
+      "type": "radio",
+      "orderNum": 8,
+      "options": [
+        {
+          "text": "从不",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "很少",
+          "value": "1",
+          "optionNo": "B"
+        },
+        {
+          "text": "有时",
+          "value": "2",
+          "optionNo": "C"
+        },
+        {
+          "text": "经常",
+          "value": "3",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常频繁",
+          "value": "4",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "你是否曾经发现自己手边没有笔或其他小工具？",
+      "type": "radio",
+      "orderNum": 9,
+      "options": [
+        {
+          "text": "从不",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "很少",
+          "value": "1",
+          "optionNo": "B"
+        },
+        {
+          "text": "有时",
+          "value": "2",
+          "optionNo": "C"
+        },
+        {
+          "text": "经常",
+          "value": "3",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常频繁",
+          "value": "4",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "你是否曾经在走路时撞到别人？",
+      "type": "radio",
+      "orderNum": 10,
+      "options": [
+        {
+          "text": "从不",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "很少",
+          "value": "1",
+          "optionNo": "B"
+        },
+        {
+          "text": "有时",
+          "value": "2",
+          "optionNo": "C"
+        },
+        {
+          "text": "经常",
+          "value": "3",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常频繁",
+          "value": "4",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "你是否曾经在打电话时忘记想说的话？",
+      "type": "radio",
+      "orderNum": 11,
+      "options": [
+        {
+          "text": "从不",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "很少",
+          "value": "1",
+          "optionNo": "B"
+        },
+        {
+          "text": "有时",
+          "value": "2",
+          "optionNo": "C"
+        },
+        {
+          "text": "经常",
+          "value": "3",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常频繁",
+          "value": "4",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "你是否曾经忘记安排好的约会？",
+      "type": "radio",
+      "orderNum": 12,
+      "options": [
+        {
+          "text": "从不",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "很少",
+          "value": "1",
+          "optionNo": "B"
+        },
+        {
+          "text": "有时",
+          "value": "2",
+          "optionNo": "C"
+        },
+        {
+          "text": "经常",
+          "value": "3",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常频繁",
+          "value": "4",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "你是否曾经在不适当的时候想起某件事？",
+      "type": "radio",
+      "orderNum": 13,
+      "options": [
+        {
+          "text": "从不",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "很少",
+          "value": "1",
+          "optionNo": "B"
+        },
+        {
+          "text": "有时",
+          "value": "2",
+          "optionNo": "C"
+        },
+        {
+          "text": "经常",
+          "value": "3",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常频繁",
+          "value": "4",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "你是否曾经忘记别人告诉你的事情？",
+      "type": "radio",
+      "orderNum": 14,
+      "options": [
+        {
+          "text": "从不",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "很少",
+          "value": "1",
+          "optionNo": "B"
+        },
+        {
+          "text": "有时",
+          "value": "2",
+          "optionNo": "C"
+        },
+        {
+          "text": "经常",
+          "value": "3",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常频繁",
+          "value": "4",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "你是否曾经发现自己做事时丢三落四？",
+      "type": "radio",
+      "orderNum": 15,
+      "options": [
+        {
+          "text": "从不",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "很少",
+          "value": "1",
+          "optionNo": "B"
+        },
+        {
+          "text": "有时",
+          "value": "2",
+          "optionNo": "C"
+        },
+        {
+          "text": "经常",
+          "value": "3",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常频繁",
+          "value": "4",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "你是否曾经在需要集中精力时发现自己在做白日梦？",
+      "type": "radio",
+      "orderNum": 16,
+      "options": [
+        {
+          "text": "从不",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "很少",
+          "value": "1",
+          "optionNo": "B"
+        },
+        {
+          "text": "有时",
+          "value": "2",
+          "optionNo": "C"
+        },
+        {
+          "text": "经常",
+          "value": "3",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常频繁",
+          "value": "4",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "你是否曾经把一件东西放在不寻常的地方然后找不到？",
+      "type": "radio",
+      "orderNum": 17,
+      "options": [
+        {
+          "text": "从不",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "很少",
+          "value": "1",
+          "optionNo": "B"
+        },
+        {
+          "text": "有时",
+          "value": "2",
+          "optionNo": "C"
+        },
+        {
+          "text": "经常",
+          "value": "3",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常频繁",
+          "value": "4",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "你是否曾经在做事之前忘记自己打算做什么？",
+      "type": "radio",
+      "orderNum": 18,
+      "options": [
+        {
+          "text": "从不",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "很少",
+          "value": "1",
+          "optionNo": "B"
+        },
+        {
+          "text": "有时",
+          "value": "2",
+          "optionNo": "C"
+        },
+        {
+          "text": "经常",
+          "value": "3",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常频繁",
+          "value": "4",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "你是否曾经在朋友家或别人家忘记带走东西？",
+      "type": "radio",
+      "orderNum": 19,
+      "options": [
+        {
+          "text": "从不",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "很少",
+          "value": "1",
+          "optionNo": "B"
+        },
+        {
+          "text": "有时",
+          "value": "2",
+          "optionNo": "C"
+        },
+        {
+          "text": "经常",
+          "value": "3",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常频繁",
+          "value": "4",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "你是否曾经发现自己说的话词不达意？",
+      "type": "radio",
+      "orderNum": 20,
+      "options": [
+        {
+          "text": "从不",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "很少",
+          "value": "1",
+          "optionNo": "B"
+        },
+        {
+          "text": "有时",
+          "value": "2",
+          "optionNo": "C"
+        },
+        {
+          "text": "经常",
+          "value": "3",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常频繁",
+          "value": "4",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "你是否曾经在被人介绍之后很快忘记对方的名字？",
+      "type": "radio",
+      "orderNum": 21,
+      "options": [
+        {
+          "text": "从不",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "很少",
+          "value": "1",
+          "optionNo": "B"
+        },
+        {
+          "text": "有时",
+          "value": "2",
+          "optionNo": "C"
+        },
+        {
+          "text": "经常",
+          "value": "3",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常频繁",
+          "value": "4",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "你是否曾经在出门时忘记带重要的东西？",
+      "type": "radio",
+      "orderNum": 22,
+      "options": [
+        {
+          "text": "从不",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "很少",
+          "value": "1",
+          "optionNo": "B"
+        },
+        {
+          "text": "有时",
+          "value": "2",
+          "optionNo": "C"
+        },
+        {
+          "text": "经常",
+          "value": "3",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常频繁",
+          "value": "4",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "你是否曾经在别人问你问题时走神？",
+      "type": "radio",
+      "orderNum": 23,
+      "options": [
+        {
+          "text": "从不",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "很少",
+          "value": "1",
+          "optionNo": "B"
+        },
+        {
+          "text": "有时",
+          "value": "2",
+          "optionNo": "C"
+        },
+        {
+          "text": "经常",
+          "value": "3",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常频繁",
+          "value": "4",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "你是否曾经在做某件事情时忘记另一件需要做的事？",
+      "type": "radio",
+      "orderNum": 24,
+      "options": [
+        {
+          "text": "从不",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "很少",
+          "value": "1",
+          "optionNo": "B"
+        },
+        {
+          "text": "有时",
+          "value": "2",
+          "optionNo": "C"
+        },
+        {
+          "text": "经常",
+          "value": "3",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常频繁",
+          "value": "4",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "你是否曾经因为注意力不集中而错过了公交车或地铁？",
+      "type": "radio",
+      "orderNum": 25,
+      "options": [
+        {
+          "text": "从不",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "很少",
+          "value": "1",
+          "optionNo": "B"
+        },
+        {
+          "text": "有时",
+          "value": "2",
+          "optionNo": "C"
+        },
+        {
+          "text": "经常",
+          "value": "3",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常频繁",
+          "value": "4",
+          "optionNo": "E"
+        }
+      ]
+    }
+  ],
+  "dimensions": [
+    {
+      "dimensionName": "认知失误",
+      "dimensionCode": "cfq_total",
+      "num": 1,
+      "evaluateExpression": "hx_t_1 + hx_t_2 + hx_t_3 + hx_t_4 + hx_t_5 + hx_t_6 + hx_t_7 + hx_t_8 + hx_t_9 + hx_t_10 + hx_t_11 + hx_t_12 + hx_t_13 + hx_t_14 + hx_t_15 + hx_t_16 + hx_t_17 + hx_t_18 + hx_t_19 + hx_t_20 + hx_t_21 + hx_t_22 + hx_t_23 + hx_t_24 + hx_t_25",
+      "standardScoreFormula": "",
+      "results": [
+        {
+          "evaluateExpression": "hx_wd_y_1 <= 25",
+          "conclusionAnalysis": "认知失误水平较低",
+          "suggestion": "您的认知失误问卷总分较低，表明您在日常生活中很少出现注意力不集中、记忆力下降等认知失误。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_1 > 25 && hx_wd_y_1 <= 43",
+          "conclusionAnalysis": "认知失误水平中等",
+          "suggestion": "您的认知失误问卷总分处于中等范围，偶尔会出现一些认知失误，这在日常生活中属于正常现象。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_1 > 43 && hx_wd_y_1 <= 65",
+          "conclusionAnalysis": "认知失误水平偏高",
+          "suggestion": "您的认知失误问卷总分高于一般人群常模（约43分），表明您在注意力和记忆方面可能存在一定困难。建议关注睡眠质量和压力管理。",
+          "assessmentWarning": "low"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_1 > 65",
+          "conclusionAnalysis": "认知失误水平显著偏高",
+          "suggestion": "您的认知失误问卷总分明显偏高，表明您在日常生活中频繁出现认知失误。建议寻求专业评估，排查注意力或记忆方面的问题。",
+          "assessmentWarning": "middle"
+        }
+      ]
+    }
+  ]
+}

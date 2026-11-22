@@ -1,0 +1,705 @@
+{
+  "id": 132,
+  "title": "贝克焦虑量表(BAI)",
+  "type": "basic",
+  "questions": [
+    {
+      "id": 3587,
+      "text": "麻木或刺痛",
+      "type": "radio",
+      "orderNum": 1,
+      "options": [
+        {
+          "id": 13704,
+          "optionNo": "A",
+          "text": "无",
+          "value": "1"
+        },
+        {
+          "id": 13705,
+          "optionNo": "B",
+          "text": "轻度，无多大烦扰",
+          "value": "2"
+        },
+        {
+          "id": 13706,
+          "optionNo": "C",
+          "text": "中度，感受到不适尚能忍受",
+          "value": "3"
+        },
+        {
+          "id": 13707,
+          "optionNo": "D",
+          "text": "重度，只能勉强忍受",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 3588,
+      "text": "感到发热",
+      "type": "radio",
+      "orderNum": 2,
+      "options": [
+        {
+          "id": 13708,
+          "optionNo": "A",
+          "text": "无",
+          "value": "1"
+        },
+        {
+          "id": 13709,
+          "optionNo": "B",
+          "text": "轻度，无多大烦扰",
+          "value": "2"
+        },
+        {
+          "id": 13710,
+          "optionNo": "C",
+          "text": "中度，感受到不适尚能忍受",
+          "value": "3"
+        },
+        {
+          "id": 13711,
+          "optionNo": "D",
+          "text": "重度，只能勉强忍受",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 3589,
+      "text": "腿部颤抖",
+      "type": "radio",
+      "orderNum": 3,
+      "options": [
+        {
+          "id": 13712,
+          "optionNo": "A",
+          "text": "无",
+          "value": "1"
+        },
+        {
+          "id": 13713,
+          "optionNo": "B",
+          "text": "轻度，无多大烦扰",
+          "value": "2"
+        },
+        {
+          "id": 13714,
+          "optionNo": "C",
+          "text": "中度，感受到不适尚能忍受",
+          "value": "3"
+        },
+        {
+          "id": 13715,
+          "optionNo": "D",
+          "text": "重度，只能勉强忍受",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 3590,
+      "text": "不能放松",
+      "type": "radio",
+      "orderNum": 4,
+      "options": [
+        {
+          "id": 13716,
+          "optionNo": "A",
+          "text": "无",
+          "value": "1"
+        },
+        {
+          "id": 13717,
+          "optionNo": "B",
+          "text": "轻度，无多大烦扰",
+          "value": "2"
+        },
+        {
+          "id": 13718,
+          "optionNo": "C",
+          "text": "中度，感受到不适尚能忍受",
+          "value": "3"
+        },
+        {
+          "id": 13719,
+          "optionNo": "D",
+          "text": "重度，只能勉强忍受",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 3591,
+      "text": "害怕发生不好的事情",
+      "type": "radio",
+      "orderNum": 5,
+      "options": [
+        {
+          "id": 13720,
+          "optionNo": "A",
+          "text": "无",
+          "value": "1"
+        },
+        {
+          "id": 13721,
+          "optionNo": "B",
+          "text": "轻度，无多大烦扰",
+          "value": "2"
+        },
+        {
+          "id": 13722,
+          "optionNo": "C",
+          "text": "中度，感受到不适尚能忍受",
+          "value": "3"
+        },
+        {
+          "id": 13723,
+          "optionNo": "D",
+          "text": "重度，只能勉强忍受",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 3592,
+      "text": "头晕",
+      "type": "radio",
+      "orderNum": 6,
+      "options": [
+        {
+          "id": 13724,
+          "optionNo": "A",
+          "text": "无",
+          "value": "1"
+        },
+        {
+          "id": 13725,
+          "optionNo": "B",
+          "text": "轻度，无多大烦扰",
+          "value": "2"
+        },
+        {
+          "id": 13726,
+          "optionNo": "C",
+          "text": "中度，感受到不适尚能忍受",
+          "value": "3"
+        },
+        {
+          "id": 13727,
+          "optionNo": "D",
+          "text": "重度，只能勉强忍受",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 3593,
+      "text": "心悸或心率加快",
+      "type": "radio",
+      "orderNum": 7,
+      "options": [
+        {
+          "id": 13728,
+          "optionNo": "A",
+          "text": "无",
+          "value": "1"
+        },
+        {
+          "id": 13729,
+          "optionNo": "B",
+          "text": "轻度，无多大烦扰",
+          "value": "2"
+        },
+        {
+          "id": 13730,
+          "optionNo": "C",
+          "text": "中度，感受到不适尚能忍受",
+          "value": "3"
+        },
+        {
+          "id": 13731,
+          "optionNo": "D",
+          "text": "重度，只能勉强忍受",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 3594,
+      "text": "心神不定",
+      "type": "radio",
+      "orderNum": 8,
+      "options": [
+        {
+          "id": 13732,
+          "optionNo": "A",
+          "text": "无",
+          "value": "1"
+        },
+        {
+          "id": 13733,
+          "optionNo": "B",
+          "text": "轻度，无多大烦扰",
+          "value": "2"
+        },
+        {
+          "id": 13734,
+          "optionNo": "C",
+          "text": "中度，感受到不适尚能忍受",
+          "value": "3"
+        },
+        {
+          "id": 13735,
+          "optionNo": "D",
+          "text": "重度，只能勉强忍受",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 3595,
+      "text": "惊吓",
+      "type": "radio",
+      "orderNum": 9,
+      "options": [
+        {
+          "id": 13736,
+          "optionNo": "A",
+          "text": "无",
+          "value": "1"
+        },
+        {
+          "id": 13737,
+          "optionNo": "B",
+          "text": "轻度，无多大烦扰",
+          "value": "2"
+        },
+        {
+          "id": 13738,
+          "optionNo": "C",
+          "text": "中度，感受到不适尚能忍受",
+          "value": "3"
+        },
+        {
+          "id": 13739,
+          "optionNo": "D",
+          "text": "重度，只能勉强忍受",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 3596,
+      "text": "紧张",
+      "type": "radio",
+      "orderNum": 10,
+      "options": [
+        {
+          "id": 13740,
+          "optionNo": "A",
+          "text": "无",
+          "value": "1"
+        },
+        {
+          "id": 13741,
+          "optionNo": "B",
+          "text": "轻度，无多大烦扰",
+          "value": "2"
+        },
+        {
+          "id": 13742,
+          "optionNo": "C",
+          "text": "中度，感受到不适尚能忍受",
+          "value": "3"
+        },
+        {
+          "id": 13743,
+          "optionNo": "D",
+          "text": "重度，只能勉强忍受",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 3597,
+      "text": "窒息感",
+      "type": "radio",
+      "orderNum": 11,
+      "options": [
+        {
+          "id": 13744,
+          "optionNo": "A",
+          "text": "无",
+          "value": "1"
+        },
+        {
+          "id": 13745,
+          "optionNo": "B",
+          "text": "轻度，无多大烦扰",
+          "value": "2"
+        },
+        {
+          "id": 13746,
+          "optionNo": "C",
+          "text": "中度，感受到不适尚能忍受",
+          "value": "3"
+        },
+        {
+          "id": 13747,
+          "optionNo": "D",
+          "text": "重度，只能勉强忍受",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 3598,
+      "text": "手发抖",
+      "type": "radio",
+      "orderNum": 12,
+      "options": [
+        {
+          "id": 13748,
+          "optionNo": "A",
+          "text": "无",
+          "value": "1"
+        },
+        {
+          "id": 13749,
+          "optionNo": "B",
+          "text": "轻度，无多大烦扰",
+          "value": "2"
+        },
+        {
+          "id": 13750,
+          "optionNo": "C",
+          "text": "中度，感受到不适尚能忍受",
+          "value": "3"
+        },
+        {
+          "id": 13751,
+          "optionNo": "D",
+          "text": "重度，只能勉强忍受",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 3599,
+      "text": "摇晃",
+      "type": "radio",
+      "orderNum": 13,
+      "options": [
+        {
+          "id": 13752,
+          "optionNo": "A",
+          "text": "无",
+          "value": "1"
+        },
+        {
+          "id": 13753,
+          "optionNo": "B",
+          "text": "轻度，无多大烦扰",
+          "value": "2"
+        },
+        {
+          "id": 13754,
+          "optionNo": "C",
+          "text": "中度，感受到不适尚能忍受",
+          "value": "3"
+        },
+        {
+          "id": 13755,
+          "optionNo": "D",
+          "text": "重度，只能勉强忍受",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 3600,
+      "text": "害怕失控",
+      "type": "radio",
+      "orderNum": 14,
+      "options": [
+        {
+          "id": 13756,
+          "optionNo": "A",
+          "text": "无",
+          "value": "1"
+        },
+        {
+          "id": 13757,
+          "optionNo": "B",
+          "text": "轻度，无多大烦扰",
+          "value": "2"
+        },
+        {
+          "id": 13758,
+          "optionNo": "C",
+          "text": "中度，感受到不适尚能忍受",
+          "value": "3"
+        },
+        {
+          "id": 13759,
+          "optionNo": "D",
+          "text": "重度，只能勉强忍受",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 3601,
+      "text": "呼吸困难",
+      "type": "radio",
+      "orderNum": 15,
+      "options": [
+        {
+          "id": 13760,
+          "optionNo": "A",
+          "text": "无",
+          "value": "1"
+        },
+        {
+          "id": 13761,
+          "optionNo": "B",
+          "text": "轻度，无多大烦扰",
+          "value": "2"
+        },
+        {
+          "id": 13762,
+          "optionNo": "C",
+          "text": "中度，感受到不适尚能忍受",
+          "value": "3"
+        },
+        {
+          "id": 13763,
+          "optionNo": "D",
+          "text": "重度，只能勉强忍受",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 3602,
+      "text": "害怕快要死去",
+      "type": "radio",
+      "orderNum": 16,
+      "options": [
+        {
+          "id": 13764,
+          "optionNo": "A",
+          "text": "无",
+          "value": "1"
+        },
+        {
+          "id": 13765,
+          "optionNo": "B",
+          "text": "轻度，无多大烦扰",
+          "value": "2"
+        },
+        {
+          "id": 13766,
+          "optionNo": "C",
+          "text": "中度，感受到不适尚能忍受",
+          "value": "3"
+        },
+        {
+          "id": 13767,
+          "optionNo": "D",
+          "text": "重度，只能勉强忍受",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 3603,
+      "text": "恐慌",
+      "type": "radio",
+      "orderNum": 17,
+      "options": [
+        {
+          "id": 13768,
+          "optionNo": "A",
+          "text": "无",
+          "value": "1"
+        },
+        {
+          "id": 13769,
+          "optionNo": "B",
+          "text": "轻度，无多大烦扰",
+          "value": "2"
+        },
+        {
+          "id": 13770,
+          "optionNo": "C",
+          "text": "中度，感受到不适尚能忍受",
+          "value": "3"
+        },
+        {
+          "id": 13771,
+          "optionNo": "D",
+          "text": "重度，只能勉强忍受",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 3604,
+      "text": "消化不良或腹部不适",
+      "type": "radio",
+      "orderNum": 18,
+      "options": [
+        {
+          "id": 13772,
+          "optionNo": "A",
+          "text": "无",
+          "value": "1"
+        },
+        {
+          "id": 13773,
+          "optionNo": "B",
+          "text": "轻度，无多大烦扰",
+          "value": "2"
+        },
+        {
+          "id": 13774,
+          "optionNo": "C",
+          "text": "中度，感受到不适尚能忍受",
+          "value": "3"
+        },
+        {
+          "id": 13775,
+          "optionNo": "D",
+          "text": "重度，只能勉强忍受",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 3605,
+      "text": "昏厥",
+      "type": "radio",
+      "orderNum": 19,
+      "options": [
+        {
+          "id": 13776,
+          "optionNo": "A",
+          "text": "无",
+          "value": "1"
+        },
+        {
+          "id": 13777,
+          "optionNo": "B",
+          "text": "轻度，无多大烦扰",
+          "value": "2"
+        },
+        {
+          "id": 13778,
+          "optionNo": "C",
+          "text": "中度，感受到不适尚能忍受",
+          "value": "3"
+        },
+        {
+          "id": 13779,
+          "optionNo": "D",
+          "text": "重度，只能勉强忍受",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 3606,
+      "text": "脸发红",
+      "type": "radio",
+      "orderNum": 20,
+      "options": [
+        {
+          "id": 13780,
+          "optionNo": "A",
+          "text": "无",
+          "value": "1"
+        },
+        {
+          "id": 13781,
+          "optionNo": "B",
+          "text": "轻度，无多大烦扰",
+          "value": "2"
+        },
+        {
+          "id": 13782,
+          "optionNo": "C",
+          "text": "中度，感受到不适尚能忍受",
+          "value": "3"
+        },
+        {
+          "id": 13783,
+          "optionNo": "D",
+          "text": "重度，只能勉强忍受",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 3607,
+      "text": "出汗(不是因暑热冒汗)",
+      "type": "radio",
+      "orderNum": 21,
+      "options": [
+        {
+          "id": 13784,
+          "optionNo": "A",
+          "text": "无",
+          "value": "1"
+        },
+        {
+          "id": 13785,
+          "optionNo": "B",
+          "text": "轻度，无多大烦扰",
+          "value": "2"
+        },
+        {
+          "id": 13786,
+          "optionNo": "C",
+          "text": "中度，感受到不适尚能忍受",
+          "value": "3"
+        },
+        {
+          "id": 13787,
+          "optionNo": "D",
+          "text": "重度，只能勉强忍受",
+          "value": "4"
+        }
+      ]
+    }
+  ],
+  "dimensions": [
+    {
+      "id": 400,
+      "num": 1,
+      "dimensionName": "总分",
+      "dimensionCode": "A",
+      "evaluateExpression": "hx_t_1 + hx_t_2 + hx_t_3 + hx_t_4 + hx_t_5 + hx_t_6 + hx_t_7 + hx_t_8 + hx_t_9 + hx_t_10 + hx_t_11 + hx_t_12 + hx_t_13 + hx_t_14 + hx_t_15 + hx_t_16 + hx_t_17 + hx_t_18 + hx_t_19 + hx_t_20 + hx_t_21",
+      "standardScoreFormula": "0",
+      "results": [
+        {
+          "id": 881,
+          "evaluateExpression": "hx_wd_y_1 >= 21&& hx_wd_y_1 <= 45",
+          "conclusionAnalysis": "总分数小于45分：焦虑水平正常。你平时心情很放松，能够安心做事情；呼吸顺畅，手脚也很灵活，总之，全身心呈现一种很平和的状态。如果工作效率也很高的话就是一种比较满意的状态。",
+          "suggestion": "被测试者可能在某些情境中偶尔会感到焦虑，这些情况均在正常范围之内。但在生活中仍需要注意以下几点：\n（1）出现焦虑时进行深呼吸，用放松的方法减轻焦虑；\n（2）倾诉、宣泄、饮食、听音乐、锻炼等均可使焦虑的情绪得以疏泄。",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 882,
+          "evaluateExpression": "hx_wd_y_1 >= 46&& hx_wd_y_1 <= 84",
+          "conclusionAnalysis": "总分数大于45分：焦虑水平偏高。你经常感到很紧张，心跳很快，呼吸困难，有头晕的感觉，甚至会窒息；手经常发抖，颈部疼痛，四肢发麻，消化也不太好，常害怕有不好的事情发生；每天生活在恐慌的气氛中。",
+          "suggestion": "被测试者存在精神上的过度担心，并在一定程度上影响了正常生活。建议：\n（1）使用深呼吸、冥想、分散注意等方法缓解焦虑；例如：找一个舒服的姿势躺下，脑子里想一些令自己心旷神怡的景象，等心中不再有杂念的时候，开始放松，先从脚部开始，默念：“脚趾甲放松，脚趾放松，脚掌放松，脚腕放松……”并用心去感受放松的部位。依次进行，一直到头部，发根。等学会了这些放松的方法，就可以在任何时候自己进行自如的放松训练。\n（2）改变不良认知，客观估计负性事件出现的可能性及后果；\n（3）如尝试以上方法仍不能缓解焦虑，建议尽快向心理医生寻求专业帮助。",
+          "assessmentWarning": "high"
+        }
+      ]
+    }
+  ]
+}

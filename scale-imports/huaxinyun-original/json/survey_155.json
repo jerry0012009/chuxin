@@ -1,0 +1,1442 @@
+{
+  "id": 155,
+  "title": "自我和谐量表(SCCS)",
+  "type": "basic",
+  "questions": [
+    {
+      "id": 5039,
+      "text": "我周围的人往往觉得我对自己的看法有些矛盾",
+      "type": "radio",
+      "orderNum": 1,
+      "options": [
+        {
+          "id": 18420,
+          "optionNo": "A",
+          "text": "完全不符合",
+          "value": "1"
+        },
+        {
+          "id": 18421,
+          "optionNo": "B",
+          "text": "比较不符合",
+          "value": "2"
+        },
+        {
+          "id": 18422,
+          "optionNo": "C",
+          "text": "不确定",
+          "value": "3"
+        },
+        {
+          "id": 18423,
+          "optionNo": "D",
+          "text": "比较符合",
+          "value": "4"
+        },
+        {
+          "id": 18424,
+          "optionNo": "E",
+          "text": "完全符合",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 5040,
+      "text": "有时我会对自己在某些方面的表现不满意",
+      "type": "radio",
+      "orderNum": 2,
+      "options": [
+        {
+          "id": 18425,
+          "optionNo": "A",
+          "text": "完全不符合",
+          "value": "1"
+        },
+        {
+          "id": 18426,
+          "optionNo": "B",
+          "text": "比较不符合",
+          "value": "2"
+        },
+        {
+          "id": 18427,
+          "optionNo": "C",
+          "text": "不确定",
+          "value": "3"
+        },
+        {
+          "id": 18428,
+          "optionNo": "D",
+          "text": "比较符合",
+          "value": "4"
+        },
+        {
+          "id": 18429,
+          "optionNo": "E",
+          "text": "完全符合",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 5041,
+      "text": "每当遇到困难，我总是首先分析造成困难的原因",
+      "type": "radio",
+      "orderNum": 3,
+      "options": [
+        {
+          "id": 18430,
+          "optionNo": "A",
+          "text": "完全不符合",
+          "value": "1"
+        },
+        {
+          "id": 18431,
+          "optionNo": "B",
+          "text": "比较不符合",
+          "value": "2"
+        },
+        {
+          "id": 18432,
+          "optionNo": "C",
+          "text": "不确定",
+          "value": "3"
+        },
+        {
+          "id": 18433,
+          "optionNo": "D",
+          "text": "比较符合",
+          "value": "4"
+        },
+        {
+          "id": 18434,
+          "optionNo": "E",
+          "text": "完全符合",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 5042,
+      "text": "我很难恰当地表达我对别人的情感反应",
+      "type": "radio",
+      "orderNum": 4,
+      "options": [
+        {
+          "id": 18435,
+          "optionNo": "A",
+          "text": "完全不符合",
+          "value": "1"
+        },
+        {
+          "id": 18436,
+          "optionNo": "B",
+          "text": "比较不符合",
+          "value": "2"
+        },
+        {
+          "id": 18437,
+          "optionNo": "C",
+          "text": "不确定",
+          "value": "3"
+        },
+        {
+          "id": 18438,
+          "optionNo": "D",
+          "text": "比较符合",
+          "value": "4"
+        },
+        {
+          "id": 18439,
+          "optionNo": "E",
+          "text": "完全符合",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 5043,
+      "text": "我对很多事情都有自己的观点，但我并不要求别人也与我一样",
+      "type": "radio",
+      "orderNum": 5,
+      "options": [
+        {
+          "id": 18440,
+          "optionNo": "A",
+          "text": "完全不符合",
+          "value": "1"
+        },
+        {
+          "id": 18441,
+          "optionNo": "B",
+          "text": "比较不符合",
+          "value": "2"
+        },
+        {
+          "id": 18442,
+          "optionNo": "C",
+          "text": "不确定",
+          "value": "3"
+        },
+        {
+          "id": 18443,
+          "optionNo": "D",
+          "text": "比较符合",
+          "value": "4"
+        },
+        {
+          "id": 18444,
+          "optionNo": "E",
+          "text": "完全符合",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 5044,
+      "text": "我一旦形成对事情的看法，就不会再改变",
+      "type": "radio",
+      "orderNum": 6,
+      "options": [
+        {
+          "id": 18445,
+          "optionNo": "A",
+          "text": "完全不符合",
+          "value": "1"
+        },
+        {
+          "id": 18446,
+          "optionNo": "B",
+          "text": "比较不符合",
+          "value": "2"
+        },
+        {
+          "id": 18447,
+          "optionNo": "C",
+          "text": "不确定",
+          "value": "3"
+        },
+        {
+          "id": 18448,
+          "optionNo": "D",
+          "text": "比较符合",
+          "value": "4"
+        },
+        {
+          "id": 18449,
+          "optionNo": "E",
+          "text": "完全符合",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 5045,
+      "text": "我经常对自己的行为不满意",
+      "type": "radio",
+      "orderNum": 7,
+      "options": [
+        {
+          "id": 18450,
+          "optionNo": "A",
+          "text": "完全不符合",
+          "value": "1"
+        },
+        {
+          "id": 18451,
+          "optionNo": "B",
+          "text": "比较不符合",
+          "value": "2"
+        },
+        {
+          "id": 18452,
+          "optionNo": "C",
+          "text": "不确定",
+          "value": "3"
+        },
+        {
+          "id": 18453,
+          "optionNo": "D",
+          "text": "比较符合",
+          "value": "4"
+        },
+        {
+          "id": 18454,
+          "optionNo": "E",
+          "text": "完全符合",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 5046,
+      "text": "尽管有时得做一些不愿做的事，但我基本上是按自己的愿望办事的",
+      "type": "radio",
+      "orderNum": 8,
+      "options": [
+        {
+          "id": 18455,
+          "optionNo": "A",
+          "text": "完全不符合",
+          "value": "1"
+        },
+        {
+          "id": 18456,
+          "optionNo": "B",
+          "text": "比较不符合",
+          "value": "2"
+        },
+        {
+          "id": 18457,
+          "optionNo": "C",
+          "text": "不确定",
+          "value": "3"
+        },
+        {
+          "id": 18458,
+          "optionNo": "D",
+          "text": "比较符合",
+          "value": "4"
+        },
+        {
+          "id": 18459,
+          "optionNo": "E",
+          "text": "完全符合",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 5047,
+      "text": "一件事情好就是好，不好就是不好，没有什么可以含糊的",
+      "type": "radio",
+      "orderNum": 9,
+      "options": [
+        {
+          "id": 18460,
+          "optionNo": "A",
+          "text": "完全不符合",
+          "value": "1"
+        },
+        {
+          "id": 18461,
+          "optionNo": "B",
+          "text": "比较不符合",
+          "value": "2"
+        },
+        {
+          "id": 18462,
+          "optionNo": "C",
+          "text": "不确定",
+          "value": "3"
+        },
+        {
+          "id": 18463,
+          "optionNo": "D",
+          "text": "比较符合",
+          "value": "4"
+        },
+        {
+          "id": 18464,
+          "optionNo": "E",
+          "text": "完全符合",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 5048,
+      "text": "如果我在某件事上不顺利，我就往往会怀疑自己的能力",
+      "type": "radio",
+      "orderNum": 10,
+      "options": [
+        {
+          "id": 18465,
+          "optionNo": "A",
+          "text": "完全不符合",
+          "value": "1"
+        },
+        {
+          "id": 18466,
+          "optionNo": "B",
+          "text": "比较不符合",
+          "value": "2"
+        },
+        {
+          "id": 18467,
+          "optionNo": "C",
+          "text": "不确定",
+          "value": "3"
+        },
+        {
+          "id": 18468,
+          "optionNo": "D",
+          "text": "比较符合",
+          "value": "4"
+        },
+        {
+          "id": 18469,
+          "optionNo": "E",
+          "text": "完全符合",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 5049,
+      "text": "我至少有几个知心的朋友",
+      "type": "radio",
+      "orderNum": 11,
+      "options": [
+        {
+          "id": 18470,
+          "optionNo": "A",
+          "text": "完全不符合",
+          "value": "1"
+        },
+        {
+          "id": 18471,
+          "optionNo": "B",
+          "text": "比较不符合",
+          "value": "2"
+        },
+        {
+          "id": 18472,
+          "optionNo": "C",
+          "text": "不确定",
+          "value": "3"
+        },
+        {
+          "id": 18473,
+          "optionNo": "D",
+          "text": "比较符合",
+          "value": "4"
+        },
+        {
+          "id": 18474,
+          "optionNo": "E",
+          "text": "完全符合",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 5050,
+      "text": "我觉得我所做的很多事情都是不该做的",
+      "type": "radio",
+      "orderNum": 12,
+      "options": [
+        {
+          "id": 18475,
+          "optionNo": "A",
+          "text": "完全不符合",
+          "value": "1"
+        },
+        {
+          "id": 18476,
+          "optionNo": "B",
+          "text": "比较不符合",
+          "value": "2"
+        },
+        {
+          "id": 18477,
+          "optionNo": "C",
+          "text": "不确定",
+          "value": "3"
+        },
+        {
+          "id": 18478,
+          "optionNo": "D",
+          "text": "比较符合",
+          "value": "4"
+        },
+        {
+          "id": 18479,
+          "optionNo": "E",
+          "text": "完全符合",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 5051,
+      "text": "不论别人怎样说，我的观点决不改变",
+      "type": "radio",
+      "orderNum": 13,
+      "options": [
+        {
+          "id": 18480,
+          "optionNo": "A",
+          "text": "完全不符合",
+          "value": "1"
+        },
+        {
+          "id": 18481,
+          "optionNo": "B",
+          "text": "比较不符合",
+          "value": "2"
+        },
+        {
+          "id": 18482,
+          "optionNo": "C",
+          "text": "不确定",
+          "value": "3"
+        },
+        {
+          "id": 18483,
+          "optionNo": "D",
+          "text": "比较符合",
+          "value": "4"
+        },
+        {
+          "id": 18484,
+          "optionNo": "E",
+          "text": "完全符合",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 5052,
+      "text": "别人常常会误解我对他们的好恶",
+      "type": "radio",
+      "orderNum": 14,
+      "options": [
+        {
+          "id": 18485,
+          "optionNo": "A",
+          "text": "完全不符合",
+          "value": "1"
+        },
+        {
+          "id": 18486,
+          "optionNo": "B",
+          "text": "比较不符合",
+          "value": "2"
+        },
+        {
+          "id": 18487,
+          "optionNo": "C",
+          "text": "不确定",
+          "value": "3"
+        },
+        {
+          "id": 18488,
+          "optionNo": "D",
+          "text": "比较符合",
+          "value": "4"
+        },
+        {
+          "id": 18489,
+          "optionNo": "E",
+          "text": "完全符合",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 5053,
+      "text": "很多情况下我不得不对自己的能力表示怀疑",
+      "type": "radio",
+      "orderNum": 15,
+      "options": [
+        {
+          "id": 18490,
+          "optionNo": "A",
+          "text": "完全不符合",
+          "value": "1"
+        },
+        {
+          "id": 18491,
+          "optionNo": "B",
+          "text": "比较不符合",
+          "value": "2"
+        },
+        {
+          "id": 18492,
+          "optionNo": "C",
+          "text": "不确定",
+          "value": "3"
+        },
+        {
+          "id": 18493,
+          "optionNo": "D",
+          "text": "比较符合",
+          "value": "4"
+        },
+        {
+          "id": 18494,
+          "optionNo": "E",
+          "text": "完全符合",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 5054,
+      "text": "我朋友中有些是与我截然不同的人，这并不影响我们的关系",
+      "type": "radio",
+      "orderNum": 16,
+      "options": [
+        {
+          "id": 18495,
+          "optionNo": "A",
+          "text": "完全不符合",
+          "value": "1"
+        },
+        {
+          "id": 18496,
+          "optionNo": "B",
+          "text": "比较不符合",
+          "value": "2"
+        },
+        {
+          "id": 18497,
+          "optionNo": "C",
+          "text": "不确定",
+          "value": "3"
+        },
+        {
+          "id": 18498,
+          "optionNo": "D",
+          "text": "比较符合",
+          "value": "4"
+        },
+        {
+          "id": 18499,
+          "optionNo": "E",
+          "text": "完全符合",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 5055,
+      "text": "与别人交往过多容易暴露自己的隐私",
+      "type": "radio",
+      "orderNum": 17,
+      "options": [
+        {
+          "id": 18500,
+          "optionNo": "A",
+          "text": "完全不符合",
+          "value": "1"
+        },
+        {
+          "id": 18501,
+          "optionNo": "B",
+          "text": "比较不符合",
+          "value": "2"
+        },
+        {
+          "id": 18502,
+          "optionNo": "C",
+          "text": "不确定",
+          "value": "3"
+        },
+        {
+          "id": 18503,
+          "optionNo": "D",
+          "text": "比较符合",
+          "value": "4"
+        },
+        {
+          "id": 18504,
+          "optionNo": "E",
+          "text": "完全符合",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 5056,
+      "text": "我很了解自己对周围人的情感",
+      "type": "radio",
+      "orderNum": 18,
+      "options": [
+        {
+          "id": 18505,
+          "optionNo": "A",
+          "text": "完全不符合",
+          "value": "1"
+        },
+        {
+          "id": 18506,
+          "optionNo": "B",
+          "text": "比较不符合",
+          "value": "2"
+        },
+        {
+          "id": 18507,
+          "optionNo": "C",
+          "text": "不确定",
+          "value": "3"
+        },
+        {
+          "id": 18508,
+          "optionNo": "D",
+          "text": "比较符合",
+          "value": "4"
+        },
+        {
+          "id": 18509,
+          "optionNo": "E",
+          "text": "完全符合",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 5057,
+      "text": "我觉得自己目前的处境与我的要求相距太远",
+      "type": "radio",
+      "orderNum": 19,
+      "options": [
+        {
+          "id": 18510,
+          "optionNo": "A",
+          "text": "完全不符合",
+          "value": "1"
+        },
+        {
+          "id": 18511,
+          "optionNo": "B",
+          "text": "比较不符合",
+          "value": "2"
+        },
+        {
+          "id": 18512,
+          "optionNo": "C",
+          "text": "不确定",
+          "value": "3"
+        },
+        {
+          "id": 18513,
+          "optionNo": "D",
+          "text": "比较符合",
+          "value": "4"
+        },
+        {
+          "id": 18514,
+          "optionNo": "E",
+          "text": "完全符合",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 5058,
+      "text": "我很少去想自己所做的事是否应该",
+      "type": "radio",
+      "orderNum": 20,
+      "options": [
+        {
+          "id": 18515,
+          "optionNo": "A",
+          "text": "完全不符合",
+          "value": "1"
+        },
+        {
+          "id": 18516,
+          "optionNo": "B",
+          "text": "比较不符合",
+          "value": "2"
+        },
+        {
+          "id": 18517,
+          "optionNo": "C",
+          "text": "不确定",
+          "value": "3"
+        },
+        {
+          "id": 18518,
+          "optionNo": "D",
+          "text": "比较符合",
+          "value": "4"
+        },
+        {
+          "id": 18519,
+          "optionNo": "E",
+          "text": "完全符合",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 5059,
+      "text": "我所遇到的很多问题都无法自己解决",
+      "type": "radio",
+      "orderNum": 21,
+      "options": [
+        {
+          "id": 18520,
+          "optionNo": "A",
+          "text": "完全不符合",
+          "value": "1"
+        },
+        {
+          "id": 18521,
+          "optionNo": "B",
+          "text": "比较不符合",
+          "value": "2"
+        },
+        {
+          "id": 18522,
+          "optionNo": "C",
+          "text": "不确定",
+          "value": "3"
+        },
+        {
+          "id": 18523,
+          "optionNo": "D",
+          "text": "比较符合",
+          "value": "4"
+        },
+        {
+          "id": 18524,
+          "optionNo": "E",
+          "text": "完全符合",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 5060,
+      "text": "我很清楚自己是什么样的人",
+      "type": "radio",
+      "orderNum": 22,
+      "options": [
+        {
+          "id": 18525,
+          "optionNo": "A",
+          "text": "完全不符合",
+          "value": "1"
+        },
+        {
+          "id": 18526,
+          "optionNo": "B",
+          "text": "比较不符合",
+          "value": "2"
+        },
+        {
+          "id": 18527,
+          "optionNo": "C",
+          "text": "不确定",
+          "value": "3"
+        },
+        {
+          "id": 18528,
+          "optionNo": "D",
+          "text": "比较符合",
+          "value": "4"
+        },
+        {
+          "id": 18529,
+          "optionNo": "E",
+          "text": "完全符合",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 5061,
+      "text": "我能很自如地表达我想表达的意思",
+      "type": "radio",
+      "orderNum": 23,
+      "options": [
+        {
+          "id": 18530,
+          "optionNo": "A",
+          "text": "完全不符合",
+          "value": "1"
+        },
+        {
+          "id": 18531,
+          "optionNo": "B",
+          "text": "比较不符合",
+          "value": "2"
+        },
+        {
+          "id": 18532,
+          "optionNo": "C",
+          "text": "不确定",
+          "value": "3"
+        },
+        {
+          "id": 18533,
+          "optionNo": "D",
+          "text": "比较符合",
+          "value": "4"
+        },
+        {
+          "id": 18534,
+          "optionNo": "E",
+          "text": "完全符合",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 5062,
+      "text": "如果有了足够的证据，我也可以改变自己的观点",
+      "type": "radio",
+      "orderNum": 24,
+      "options": [
+        {
+          "id": 18535,
+          "optionNo": "A",
+          "text": "完全不符合",
+          "value": "1"
+        },
+        {
+          "id": 18536,
+          "optionNo": "B",
+          "text": "比较不符合",
+          "value": "2"
+        },
+        {
+          "id": 18537,
+          "optionNo": "C",
+          "text": "不确定",
+          "value": "3"
+        },
+        {
+          "id": 18538,
+          "optionNo": "D",
+          "text": "比较符合",
+          "value": "4"
+        },
+        {
+          "id": 18539,
+          "optionNo": "E",
+          "text": "完全符合",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 5063,
+      "text": "我很少考虑自己是一个什么样的人",
+      "type": "radio",
+      "orderNum": 25,
+      "options": [
+        {
+          "id": 18540,
+          "optionNo": "A",
+          "text": "完全不符合",
+          "value": "1"
+        },
+        {
+          "id": 18541,
+          "optionNo": "B",
+          "text": "比较不符合",
+          "value": "2"
+        },
+        {
+          "id": 18542,
+          "optionNo": "C",
+          "text": "不确定",
+          "value": "3"
+        },
+        {
+          "id": 18543,
+          "optionNo": "D",
+          "text": "比较符合",
+          "value": "4"
+        },
+        {
+          "id": 18544,
+          "optionNo": "E",
+          "text": "完全符合",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 5064,
+      "text": "把心里话告诉别人不仅得不到帮助，还可能招致麻烦",
+      "type": "radio",
+      "orderNum": 26,
+      "options": [
+        {
+          "id": 18545,
+          "optionNo": "A",
+          "text": "完全不符合",
+          "value": "1"
+        },
+        {
+          "id": 18546,
+          "optionNo": "B",
+          "text": "比较不符合",
+          "value": "2"
+        },
+        {
+          "id": 18547,
+          "optionNo": "C",
+          "text": "不确定",
+          "value": "3"
+        },
+        {
+          "id": 18548,
+          "optionNo": "D",
+          "text": "比较符合",
+          "value": "4"
+        },
+        {
+          "id": 18549,
+          "optionNo": "E",
+          "text": "完全符合",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 5065,
+      "text": "在遇到问题时，我总觉得别人都离我很远",
+      "type": "radio",
+      "orderNum": 27,
+      "options": [
+        {
+          "id": 18550,
+          "optionNo": "A",
+          "text": "完全不符合",
+          "value": "1"
+        },
+        {
+          "id": 18551,
+          "optionNo": "B",
+          "text": "比较不符合",
+          "value": "2"
+        },
+        {
+          "id": 18552,
+          "optionNo": "C",
+          "text": "不确定",
+          "value": "3"
+        },
+        {
+          "id": 18553,
+          "optionNo": "D",
+          "text": "比较符合",
+          "value": "4"
+        },
+        {
+          "id": 18554,
+          "optionNo": "E",
+          "text": "完全符合",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 5066,
+      "text": "我觉得很难发挥出自己应有的水平",
+      "type": "radio",
+      "orderNum": 28,
+      "options": [
+        {
+          "id": 18555,
+          "optionNo": "A",
+          "text": "完全不符合",
+          "value": "1"
+        },
+        {
+          "id": 18556,
+          "optionNo": "B",
+          "text": "比较不符合",
+          "value": "2"
+        },
+        {
+          "id": 18557,
+          "optionNo": "C",
+          "text": "不确定",
+          "value": "3"
+        },
+        {
+          "id": 18558,
+          "optionNo": "D",
+          "text": "比较符合",
+          "value": "4"
+        },
+        {
+          "id": 18559,
+          "optionNo": "E",
+          "text": "完全符合",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 5067,
+      "text": "我很担心自己的所做所为会引起别人的误解",
+      "type": "radio",
+      "orderNum": 29,
+      "options": [
+        {
+          "id": 18560,
+          "optionNo": "A",
+          "text": "完全不符合",
+          "value": "1"
+        },
+        {
+          "id": 18561,
+          "optionNo": "B",
+          "text": "比较不符合",
+          "value": "2"
+        },
+        {
+          "id": 18562,
+          "optionNo": "C",
+          "text": "不确定",
+          "value": "3"
+        },
+        {
+          "id": 18563,
+          "optionNo": "D",
+          "text": "比较符合",
+          "value": "4"
+        },
+        {
+          "id": 18564,
+          "optionNo": "E",
+          "text": "完全符合",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 5068,
+      "text": "如果我发现自己在某些方面表现不佳，总希望尽快弥补",
+      "type": "radio",
+      "orderNum": 30,
+      "options": [
+        {
+          "id": 18565,
+          "optionNo": "A",
+          "text": "完全不符合",
+          "value": "1"
+        },
+        {
+          "id": 18566,
+          "optionNo": "B",
+          "text": "比较不符合",
+          "value": "2"
+        },
+        {
+          "id": 18567,
+          "optionNo": "C",
+          "text": "不确定",
+          "value": "3"
+        },
+        {
+          "id": 18568,
+          "optionNo": "D",
+          "text": "比较符合",
+          "value": "4"
+        },
+        {
+          "id": 18569,
+          "optionNo": "E",
+          "text": "完全符合",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 5069,
+      "text": "每个人都在忙自己的事情，很难与他们沟通",
+      "type": "radio",
+      "orderNum": 31,
+      "options": [
+        {
+          "id": 18570,
+          "optionNo": "A",
+          "text": "完全不符合",
+          "value": "1"
+        },
+        {
+          "id": 18571,
+          "optionNo": "B",
+          "text": "比较不符合",
+          "value": "2"
+        },
+        {
+          "id": 18572,
+          "optionNo": "C",
+          "text": "不确定",
+          "value": "3"
+        },
+        {
+          "id": 18573,
+          "optionNo": "D",
+          "text": "比较符合",
+          "value": "4"
+        },
+        {
+          "id": 18574,
+          "optionNo": "E",
+          "text": "完全符合",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 5070,
+      "text": "我认为能力再强的人也可能会遇上难题",
+      "type": "radio",
+      "orderNum": 32,
+      "options": [
+        {
+          "id": 18575,
+          "optionNo": "A",
+          "text": "完全不符合",
+          "value": "1"
+        },
+        {
+          "id": 18576,
+          "optionNo": "B",
+          "text": "比较不符合",
+          "value": "2"
+        },
+        {
+          "id": 18577,
+          "optionNo": "C",
+          "text": "不确定",
+          "value": "3"
+        },
+        {
+          "id": 18578,
+          "optionNo": "D",
+          "text": "比较符合",
+          "value": "4"
+        },
+        {
+          "id": 18579,
+          "optionNo": "E",
+          "text": "完全符合",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 5071,
+      "text": "我经常感到自己是孤立无援的",
+      "type": "radio",
+      "orderNum": 33,
+      "options": [
+        {
+          "id": 18580,
+          "optionNo": "A",
+          "text": "完全不符合",
+          "value": "1"
+        },
+        {
+          "id": 18581,
+          "optionNo": "B",
+          "text": "比较不符合",
+          "value": "2"
+        },
+        {
+          "id": 18582,
+          "optionNo": "C",
+          "text": "不确定",
+          "value": "3"
+        },
+        {
+          "id": 18583,
+          "optionNo": "D",
+          "text": "比较符合",
+          "value": "4"
+        },
+        {
+          "id": 18584,
+          "optionNo": "E",
+          "text": "完全符合",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 5072,
+      "text": "一旦遇到麻烦，无论怎样做都无济于事",
+      "type": "radio",
+      "orderNum": 34,
+      "options": [
+        {
+          "id": 18585,
+          "optionNo": "A",
+          "text": "完全不符合",
+          "value": "1"
+        },
+        {
+          "id": 18586,
+          "optionNo": "B",
+          "text": "比较不符合",
+          "value": "2"
+        },
+        {
+          "id": 18587,
+          "optionNo": "C",
+          "text": "不确定",
+          "value": "3"
+        },
+        {
+          "id": 18588,
+          "optionNo": "D",
+          "text": "比较符合",
+          "value": "4"
+        },
+        {
+          "id": 18589,
+          "optionNo": "E",
+          "text": "完全符合",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 5073,
+      "text": "我总能清楚地了解自己的感受",
+      "type": "radio",
+      "orderNum": 35,
+      "options": [
+        {
+          "id": 18590,
+          "optionNo": "A",
+          "text": "完全不符合",
+          "value": "1"
+        },
+        {
+          "id": 18591,
+          "optionNo": "B",
+          "text": "比较不符合",
+          "value": "2"
+        },
+        {
+          "id": 18592,
+          "optionNo": "C",
+          "text": "不确定",
+          "value": "3"
+        },
+        {
+          "id": 18593,
+          "optionNo": "D",
+          "text": "比较符合",
+          "value": "4"
+        },
+        {
+          "id": 18594,
+          "optionNo": "E",
+          "text": "完全符合",
+          "value": "5"
+        }
+      ]
+    }
+  ],
+  "dimensions": [
+    {
+      "id": 529,
+      "num": 1,
+      "dimensionName": "自我与经验的不和谐",
+      "dimensionCode": "A",
+      "evaluateExpression": "hx_t_1 + hx_t_4 + hx_t_7 + hx_t_10 + hx_t_12 + hx_t_14 + hx_t_15 + hx_t_17 + hx_t_19 + hx_t_21 + hx_t_23 + hx_t_27 + hx_t_28 + hx_t_29 + hx_t_31 + hx_t_33",
+      "standardScoreFormula": "0",
+      "results": [
+        {
+          "id": 1245,
+          "evaluateExpression": "hx_wd_y_1 >= 0&& hx_wd_y_1 <= 49",
+          "conclusionAnalysis": "自我与经验的不和谐不严重，对个人与情感的自我评价与事实基本相符。",
+          "suggestion": "保持当下的状态，给自己留出部分时间及时调整自己的心理状态，悦纳自己，减少内心冲突，营造更加和谐的心理环境。",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 1246,
+          "evaluateExpression": "hx_wd_y_1 >= 50&& hx_wd_y_1 <= 80",
+          "conclusionAnalysis": "自我与经验不和谐。对个人能力与情感的自我评价与事实严重不符，对经验有较多的不合理期望。",
+          "suggestion": "以更加合乎实际的态度来评价自己的言行及情感，根据实际情况调整自己的期望，悦纳自己的缺点，正视自己的不足。遇到困难时，可以通过参考周围人的意见来调整对自己的评价。",
+          "assessmentWarning": "none"
+        }
+      ]
+    },
+    {
+      "id": 530,
+      "num": 2,
+      "dimensionName": "自我的灵活性",
+      "dimensionCode": "B",
+      "evaluateExpression": "hx_t_2 + hx_t_3 + hx_t_5 + hx_t_8 + hx_t_11 + hx_t_16 + hx_t_18 + hx_t_22 + hx_t_24 + hx_t_30 + hx_t_32 + hx_t_35",
+      "standardScoreFormula": "0",
+      "results": [
+        {
+          "id": 1247,
+          "evaluateExpression": "hx_wd_y_2 >= 0&& hx_wd_y_2 <= 54",
+          "conclusionAnalysis": "自我概念僵化程度尚未达到严重标准，自我交流、思考问题的方式灵活。",
+          "suggestion": "建议保持当前的良好状态，在此基础上，多学习新知识，多与人交流。",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 1248,
+          "evaluateExpression": "hx_wd_y_2 >= 55&& hx_wd_y_2 <= 60",
+          "conclusionAnalysis": "自我概念不灵活，自我交流、思考问题、人际沟通的方式不能变通。于是自我概念的刻板与僵化。",
+          "suggestion": "日常生活中须加强人际交流，拓展自己的活动范围，多多参考别人的意见，尝试从多种角度思考问题。",
+          "assessmentWarning": "none"
+        }
+      ]
+    },
+    {
+      "id": 531,
+      "num": 3,
+      "dimensionName": "自我的刻板性",
+      "dimensionCode": "C",
+      "evaluateExpression": "hx_t_6 + hx_t_9 + hx_t_13 + hx_t_20 + hx_t_25 + hx_t_26 + hx_t_34",
+      "standardScoreFormula": "0",
+      "results": [
+        {
+          "id": 1249,
+          "evaluateExpression": "hx_wd_y_3 >= 0&& hx_wd_y_3 <= 22",
+          "conclusionAnalysis": "自我刻板性尚未达到严重标准。",
+          "suggestion": "希望你继续保持当前的状态，在日常生活中，有意识地减少绝对化的想法。",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 1250,
+          "evaluateExpression": "hx_wd_y_3 >= 23&& hx_wd_y_3 <= 35",
+          "conclusionAnalysis": "自我刻板性严重，思考问题方式僵化，刻板。",
+          "suggestion": "尽量避免绝对化的想法。尝试从问题的多个方面，不同人的角度来思考。",
+          "assessmentWarning": "none"
+        }
+      ]
+    },
+    {
+      "id": 532,
+      "num": 4,
+      "dimensionName": "总分",
+      "dimensionCode": "D",
+      "evaluateExpression": "(hx_t_1 + hx_t_4 + hx_t_7 + hx_t_10 + hx_t_12 + hx_t_14 + hx_t_15 + hx_t_17 + hx_t_19 + hx_t_21 + hx_t_23 + hx_t_27 + hx_t_28 + hx_t_29 + hx_t_31 + hx_t_33 + hx_t_6 + hx_t_9 + hx_t_13 + hx_t_20 + hx_t_25 + hx_t_26 + hx_t_34-(hx_t_2)-(hx_t_3)-(hx_t_5)-(hx_t_8)-(hx_t_11)-(hx_t_16)-(hx_t_18)-(hx_t_22)-(hx_t_24)-(hx_t_30)-(hx_t_32)-(hx_t_35)) + 72",
+      "standardScoreFormula": "0",
+      "results": [
+        {
+          "id": 1251,
+          "evaluateExpression": "hx_wd_y_4 >= 0&& hx_wd_y_4 <= 74",
+          "conclusionAnalysis": "自我和谐度较高",
+          "suggestion": "你的内心较为和谐，建议你保持当前的状态，按照当前的方式生活、调整自己的心理状态。",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 1252,
+          "evaluateExpression": "hx_wd_y_4 >= 75&& hx_wd_y_4 <= 102",
+          "conclusionAnalysis": "自我和谐度一般，存在一些不和谐的地方，交流方式、自我概念等尚可。",
+          "suggestion": "可以学习拥有平和心境的人的做法，有意识地多角度思考问题、换位思考，及时调整内心矛盾冲突。",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 1253,
+          "evaluateExpression": "hx_wd_y_4 >= 103&& hx_wd_y_4 <= 175",
+          "conclusionAnalysis": "自我和谐度较低，内心冲突较大。",
+          "suggestion": "自我概念与经验非常不协调，自我概念刻板、不灵活，这会带来你内心较大的冲突，需要进行心理调整。建议着眼于现实，客观、多角度来评价自己的各个方面，多给自己留出时间调整内心的冲突。",
+          "assessmentWarning": "none"
+        }
+      ]
+    }
+  ]
+}

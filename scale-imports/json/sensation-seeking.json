@@ -1,0 +1,1051 @@
+{
+  "id": "sensation-seeking",
+  "title": "感觉寻求量表(SS)",
+  "description": "本问卷帮助了解您对新奇刺激体验的追求倾向，包括冒险、冲动和计划性三个维度。共30题，大约需要6分钟完成。",
+  "type": "basic",
+  "questions": [
+    {
+      "text": "我喜欢极限运动",
+      "type": "radio",
+      "orderNum": 1,
+      "options": [
+        {
+          "text": "非常不准确",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较不准确",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较准确",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常准确",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "我想尝试跳伞",
+      "type": "radio",
+      "orderNum": 2,
+      "options": [
+        {
+          "text": "非常不准确",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较不准确",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较准确",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常准确",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "我喜欢高速驾驶的感觉",
+      "type": "radio",
+      "orderNum": 3,
+      "options": [
+        {
+          "text": "非常不准确",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较不准确",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较准确",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常准确",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "我喜欢攀岩等危险活动",
+      "type": "radio",
+      "orderNum": 4,
+      "options": [
+        {
+          "text": "非常不准确",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较不准确",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较准确",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常准确",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "我愿意尝试任何刺激的活动",
+      "type": "radio",
+      "orderNum": 5,
+      "options": [
+        {
+          "text": "非常不准确",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较不准确",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较准确",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常准确",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "我喜欢冒险",
+      "type": "radio",
+      "orderNum": 6,
+      "options": [
+        {
+          "text": "非常不准确",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较不准确",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较准确",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常准确",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "我想体验自由落体的感觉",
+      "type": "radio",
+      "orderNum": 7,
+      "options": [
+        {
+          "text": "非常不准确",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较不准确",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较准确",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常准确",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "我喜欢不安全但刺激的活动",
+      "type": "radio",
+      "orderNum": 8,
+      "options": [
+        {
+          "text": "非常不准确",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较不准确",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较准确",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常准确",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "我喜欢冲浪或滑雪等极限运动",
+      "type": "radio",
+      "orderNum": 9,
+      "options": [
+        {
+          "text": "非常不准确",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较不准确",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较准确",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常准确",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "我愿意去未知的地方探险",
+      "type": "radio",
+      "orderNum": 10,
+      "options": [
+        {
+          "text": "非常不准确",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较不准确",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较准确",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常准确",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "我做事经常不考虑后果",
+      "type": "radio",
+      "orderNum": 11,
+      "options": [
+        {
+          "text": "非常不准确",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较不准确",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较准确",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常准确",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "我喜欢即兴做事而不是提前计划",
+      "type": "radio",
+      "orderNum": 12,
+      "options": [
+        {
+          "text": "非常不准确",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较不准确",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较准确",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常准确",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "我很容易感到无聊",
+      "type": "radio",
+      "orderNum": 13,
+      "options": [
+        {
+          "text": "非常不准确",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较不准确",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较准确",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常准确",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "我需要不断寻找新的刺激",
+      "type": "radio",
+      "orderNum": 14,
+      "options": [
+        {
+          "text": "非常不准确",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较不准确",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较准确",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常准确",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "我喜欢变化多的生活",
+      "type": "radio",
+      "orderNum": 15,
+      "options": [
+        {
+          "text": "非常不准确",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较不准确",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较准确",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常准确",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "我对重复的事情很快失去兴趣",
+      "type": "radio",
+      "orderNum": 16,
+      "options": [
+        {
+          "text": "非常不准确",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较不准确",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较准确",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常准确",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "我经常会一时冲动做决定",
+      "type": "radio",
+      "orderNum": 17,
+      "options": [
+        {
+          "text": "非常不准确",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较不准确",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较准确",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常准确",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "我喜欢新鲜和刺激的体验",
+      "type": "radio",
+      "orderNum": 18,
+      "options": [
+        {
+          "text": "非常不准确",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较不准确",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较准确",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常准确",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "我很难忍受一成不变的生活",
+      "type": "radio",
+      "orderNum": 19,
+      "options": [
+        {
+          "text": "非常不准确",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较不准确",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较准确",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常准确",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "我经常寻求新的感官刺激",
+      "type": "radio",
+      "orderNum": 20,
+      "options": [
+        {
+          "text": "非常不准确",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较不准确",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较准确",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常准确",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "我会为了获得刺激的体验而提前做计划",
+      "type": "radio",
+      "orderNum": 21,
+      "options": [
+        {
+          "text": "非常不准确",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较不准确",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较准确",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常准确",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "我会主动寻找新的冒险机会",
+      "type": "radio",
+      "orderNum": 22,
+      "options": [
+        {
+          "text": "非常不准确",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较不准确",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较准确",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常准确",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "我会精心策划刺激的旅行",
+      "type": "radio",
+      "orderNum": 23,
+      "options": [
+        {
+          "text": "非常不准确",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较不准确",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较准确",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常准确",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "我会为了寻求刺激而参加各种活动",
+      "type": "radio",
+      "orderNum": 24,
+      "options": [
+        {
+          "text": "非常不准确",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较不准确",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较准确",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常准确",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "我会提前安排刺激的活动",
+      "type": "radio",
+      "orderNum": 25,
+      "options": [
+        {
+          "text": "非常不准确",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较不准确",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较准确",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常准确",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "我会为了体验新事物而制定计划",
+      "type": "radio",
+      "orderNum": 26,
+      "options": [
+        {
+          "text": "非常不准确",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较不准确",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较准确",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常准确",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "我会主动参加有挑战性的活动",
+      "type": "radio",
+      "orderNum": 27,
+      "options": [
+        {
+          "text": "非常不准确",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较不准确",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较准确",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常准确",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "我会为自己安排有趣的冒险",
+      "type": "radio",
+      "orderNum": 28,
+      "options": [
+        {
+          "text": "非常不准确",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较不准确",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较准确",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常准确",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "我会寻找机会来挑战自己",
+      "type": "radio",
+      "orderNum": 29,
+      "options": [
+        {
+          "text": "非常不准确",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较不准确",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较准确",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常准确",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "我会主动寻找刺激的体验机会",
+      "type": "radio",
+      "orderNum": 30,
+      "options": [
+        {
+          "text": "非常不准确",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较不准确",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较准确",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常准确",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    }
+  ],
+  "dimensions": [
+    {
+      "dimensionName": "危险感觉寻求",
+      "dimensionCode": "dangerous_ss",
+      "num": 1,
+      "evaluateExpression": "(hx_t_1 + hx_t_2 + hx_t_3 + hx_t_4 + hx_t_5 + hx_t_6 + hx_t_7 + hx_t_8 + hx_t_9 + hx_t_10) / 10",
+      "standardScoreFormula": "",
+      "results": [
+        {
+          "evaluateExpression": "hx_wd_y_1 <= 2.0",
+          "conclusionAnalysis": "低",
+          "suggestion": "您较少追求危险刺激的体验。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_1 > 2.0 && hx_wd_y_1 <= 3.5",
+          "conclusionAnalysis": "中",
+          "suggestion": "您对危险刺激的追求适中。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_1 > 3.5",
+          "conclusionAnalysis": "高",
+          "suggestion": "您喜欢追求危险刺激的体验，愿意冒险。",
+          "assessmentWarning": "none"
+        }
+      ]
+    },
+    {
+      "dimensionName": "冲动感觉寻求",
+      "dimensionCode": "impulsive_ss",
+      "num": 2,
+      "evaluateExpression": "(hx_t_11 + hx_t_12 + hx_t_13 + hx_t_14 + hx_t_15 + hx_t_16 + hx_t_17 + hx_t_18 + hx_t_19 + hx_t_20) / 10",
+      "standardScoreFormula": "",
+      "results": [
+        {
+          "evaluateExpression": "hx_wd_y_2 <= 2.0",
+          "conclusionAnalysis": "低",
+          "suggestion": "您的冲动性感觉寻求较低，偏好稳定。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_2 > 2.0 && hx_wd_y_2 <= 3.5",
+          "conclusionAnalysis": "中",
+          "suggestion": "您的冲动性感觉寻求适中。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_2 > 3.5",
+          "conclusionAnalysis": "高",
+          "suggestion": "您容易感到无聊，需要不断寻求新的刺激。",
+          "assessmentWarning": "none"
+        }
+      ]
+    },
+    {
+      "dimensionName": "计划性感觉寻求",
+      "dimensionCode": "planned_ss",
+      "num": 3,
+      "evaluateExpression": "(hx_t_21 + hx_t_22 + hx_t_23 + hx_t_24 + hx_t_25 + hx_t_26 + hx_t_27 + hx_t_28 + hx_t_29 + hx_t_30) / 10",
+      "standardScoreFormula": "",
+      "results": [
+        {
+          "evaluateExpression": "hx_wd_y_3 <= 2.0",
+          "conclusionAnalysis": "低",
+          "suggestion": "您较少主动规划刺激体验。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_3 > 2.0 && hx_wd_y_3 <= 3.5",
+          "conclusionAnalysis": "中",
+          "suggestion": "您会适度地计划刺激体验。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_3 > 3.5",
+          "conclusionAnalysis": "高",
+          "suggestion": "您善于主动寻找和规划刺激的体验机会。",
+          "assessmentWarning": "none"
+        }
+      ]
+    }
+  ]
+}

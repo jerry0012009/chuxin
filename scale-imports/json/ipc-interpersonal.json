@@ -1,0 +1,1142 @@
+{
+  "id": "ipc-interpersonal",
+  "title": "人际环形模型量表(IPC)",
+  "description": "本问卷帮助了解您在人际交往中的风格特点，包括支配性、温暖度等方面。共32题，大约需要6分钟完成。",
+  "type": "basic",
+  "questions": [
+    {
+      "text": "在社交中我会主动发起对话",
+      "type": "radio",
+      "orderNum": 1,
+      "options": [
+        {
+          "text": "非常不准确",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较不准确",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较准确",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常准确",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "我会在团体中承担领导角色",
+      "type": "radio",
+      "orderNum": 2,
+      "options": [
+        {
+          "text": "非常不准确",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较不准确",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较准确",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常准确",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "我善于说服别人",
+      "type": "radio",
+      "orderNum": 3,
+      "options": [
+        {
+          "text": "非常不准确",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较不准确",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较准确",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常准确",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "我在争论中不会退缩",
+      "type": "radio",
+      "orderNum": 4,
+      "options": [
+        {
+          "text": "非常不准确",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较不准确",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较准确",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常准确",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "我会主动表达自己的观点",
+      "type": "radio",
+      "orderNum": 5,
+      "options": [
+        {
+          "text": "非常不准确",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较不准确",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较准确",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常准确",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "我会在别人犹豫时率先行动",
+      "type": "radio",
+      "orderNum": 6,
+      "options": [
+        {
+          "text": "非常不准确",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较不准确",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较准确",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常准确",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "我喜欢掌控局面",
+      "type": "radio",
+      "orderNum": 7,
+      "options": [
+        {
+          "text": "非常不准确",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较不准确",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较准确",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常准确",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "我在团队中经常充当决策者",
+      "type": "radio",
+      "orderNum": 8,
+      "options": [
+        {
+          "text": "非常不准确",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较不准确",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较准确",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常准确",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "我喜欢和很多人在一起",
+      "type": "radio",
+      "orderNum": 9,
+      "options": [
+        {
+          "text": "非常不准确",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较不准确",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较准确",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常准确",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "我在社交场合中充满活力",
+      "type": "radio",
+      "orderNum": 10,
+      "options": [
+        {
+          "text": "非常不准确",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较不准确",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较准确",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常准确",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "我喜欢和别人聊天",
+      "type": "radio",
+      "orderNum": 11,
+      "options": [
+        {
+          "text": "非常不准确",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较不准确",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较准确",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常准确",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "我很容易和别人建立友谊",
+      "type": "radio",
+      "orderNum": 12,
+      "options": [
+        {
+          "text": "非常不准确",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较不准确",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较准确",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常准确",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "我喜欢参加聚会",
+      "type": "radio",
+      "orderNum": 13,
+      "options": [
+        {
+          "text": "非常不准确",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较不准确",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较准确",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常准确",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "我会主动和陌生人打招呼",
+      "type": "radio",
+      "orderNum": 14,
+      "options": [
+        {
+          "text": "非常不准确",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较不准确",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较准确",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常准确",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "我在人群中感到快乐",
+      "type": "radio",
+      "orderNum": 15,
+      "options": [
+        {
+          "text": "非常不准确",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较不准确",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较准确",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常准确",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "我喜欢热闹的社交活动",
+      "type": "radio",
+      "orderNum": 16,
+      "options": [
+        {
+          "text": "非常不准确",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较不准确",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较准确",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常准确",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "我更喜欢独处",
+      "type": "radio",
+      "orderNum": 17,
+      "options": [
+        {
+          "text": "非常不准确",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较不准确",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较准确",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常准确",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "我不太关心社交活动",
+      "type": "radio",
+      "orderNum": 18,
+      "options": [
+        {
+          "text": "非常不准确",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较不准确",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较准确",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常准确",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "我很少主动和别人交往",
+      "type": "radio",
+      "orderNum": 19,
+      "options": [
+        {
+          "text": "非常不准确",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较不准确",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较准确",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常准确",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "我在社交场合中感到不自在",
+      "type": "radio",
+      "orderNum": 20,
+      "options": [
+        {
+          "text": "非常不准确",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较不准确",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较准确",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常准确",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "我更喜欢安静的环境",
+      "type": "radio",
+      "orderNum": 21,
+      "options": [
+        {
+          "text": "非常不准确",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较不准确",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较准确",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常准确",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "我会避免不必要的社交",
+      "type": "radio",
+      "orderNum": 22,
+      "options": [
+        {
+          "text": "非常不准确",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较不准确",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较准确",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常准确",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "我不喜欢成为关注的焦点",
+      "type": "radio",
+      "orderNum": 23,
+      "options": [
+        {
+          "text": "非常不准确",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较不准确",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较准确",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常准确",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "我在人多的场合会感到疲惫",
+      "type": "radio",
+      "orderNum": 24,
+      "options": [
+        {
+          "text": "非常不准确",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较不准确",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较准确",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常准确",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "我在社交中常常感到紧张",
+      "type": "radio",
+      "orderNum": 25,
+      "options": [
+        {
+          "text": "非常不准确",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较不准确",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较准确",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常准确",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "我会担心别人对我的看法",
+      "type": "radio",
+      "orderNum": 26,
+      "options": [
+        {
+          "text": "非常不准确",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较不准确",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较准确",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常准确",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "我在新场合中会感到不安",
+      "type": "radio",
+      "orderNum": 27,
+      "options": [
+        {
+          "text": "非常不准确",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较不准确",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较准确",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常准确",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "我很难自信地表达自己",
+      "type": "radio",
+      "orderNum": 28,
+      "options": [
+        {
+          "text": "非常不准确",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较不准确",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较准确",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常准确",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "我会因为担心被拒绝而避免社交",
+      "type": "radio",
+      "orderNum": 29,
+      "options": [
+        {
+          "text": "非常不准确",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较不准确",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较准确",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常准确",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "我在别人面前常常感到害羞",
+      "type": "radio",
+      "orderNum": 30,
+      "options": [
+        {
+          "text": "非常不准确",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较不准确",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较准确",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常准确",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "我害怕在公众场合发言",
+      "type": "radio",
+      "orderNum": 31,
+      "options": [
+        {
+          "text": "非常不准确",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较不准确",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较准确",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常准确",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "我会因为社交焦虑而回避活动",
+      "type": "radio",
+      "orderNum": 32,
+      "options": [
+        {
+          "text": "非常不准确",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较不准确",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较准确",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常准确",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    }
+  ],
+  "dimensions": [
+    {
+      "dimensionName": "自信支配",
+      "dimensionCode": "assured_dominant",
+      "num": 1,
+      "evaluateExpression": "(hx_t_1 + hx_t_2 + hx_t_3 + hx_t_4 + hx_t_5 + hx_t_6 + hx_t_7 + hx_t_8) / 8",
+      "standardScoreFormula": "",
+      "results": [
+        {
+          "evaluateExpression": "hx_wd_y_1 <= 2.0",
+          "conclusionAnalysis": "低",
+          "suggestion": "您在社交中较为被动，不太喜欢主导。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_1 > 2.0 && hx_wd_y_1 <= 3.5",
+          "conclusionAnalysis": "中",
+          "suggestion": "您的自信支配程度适中。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_1 > 3.5",
+          "conclusionAnalysis": "高",
+          "suggestion": "您在社交中自信果断，善于领导和说服。",
+          "assessmentWarning": "none"
+        }
+      ]
+    },
+    {
+      "dimensionName": "合群外向",
+      "dimensionCode": "gregarious_extravert",
+      "num": 2,
+      "evaluateExpression": "(hx_t_9 + hx_t_10 + hx_t_11 + hx_t_12 + hx_t_13 + hx_t_14 + hx_t_15 + hx_t_16) / 8",
+      "standardScoreFormula": "",
+      "results": [
+        {
+          "evaluateExpression": "hx_wd_y_2 <= 2.0",
+          "conclusionAnalysis": "低",
+          "suggestion": "您的社交活跃度较低，偏好独处。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_2 > 2.0 && hx_wd_y_2 <= 3.5",
+          "conclusionAnalysis": "中",
+          "suggestion": "您的合群外向程度适中。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_2 > 3.5",
+          "conclusionAnalysis": "高",
+          "suggestion": "您非常合群外向，喜欢社交活动。",
+          "assessmentWarning": "none"
+        }
+      ]
+    },
+    {
+      "dimensionName": "冷漠内向",
+      "dimensionCode": "aloof_introvert",
+      "num": 3,
+      "evaluateExpression": "(hx_t_17 + hx_t_18 + hx_t_19 + hx_t_20 + hx_t_21 + hx_t_22 + hx_t_23 + hx_t_24) / 8",
+      "standardScoreFormula": "",
+      "results": [
+        {
+          "evaluateExpression": "hx_wd_y_3 <= 2.0",
+          "conclusionAnalysis": "低",
+          "suggestion": "您对社交的回避程度较低。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_3 > 2.0 && hx_wd_y_3 <= 3.5",
+          "conclusionAnalysis": "中",
+          "suggestion": "您的冷漠内向程度适中。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_3 > 3.5",
+          "conclusionAnalysis": "高",
+          "suggestion": "您较为冷漠内向，偏好独处和安静环境。",
+          "assessmentWarning": "none"
+        }
+      ]
+    },
+    {
+      "dimensionName": "不安顺从",
+      "dimensionCode": "unassured_submissive",
+      "num": 4,
+      "evaluateExpression": "(hx_t_25 + hx_t_26 + hx_t_27 + hx_t_28 + hx_t_29 + hx_t_30 + hx_t_31 + hx_t_32) / 8",
+      "standardScoreFormula": "",
+      "results": [
+        {
+          "evaluateExpression": "hx_wd_y_4 <= 2.0",
+          "conclusionAnalysis": "低",
+          "suggestion": "您在社交中较为自信，不太容易紧张。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_4 > 2.0 && hx_wd_y_4 <= 3.5",
+          "conclusionAnalysis": "中",
+          "suggestion": "您的社交焦虑程度适中。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_4 > 3.5",
+          "conclusionAnalysis": "高",
+          "suggestion": "您在社交中容易感到紧张和不安，可能会回避社交场合。",
+          "assessmentWarning": "none"
+        }
+      ]
+    }
+  ]
+}

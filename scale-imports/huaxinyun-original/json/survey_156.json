@@ -1,0 +1,1388 @@
+{
+  "id": 156,
+  "title": "总体幸福感量表(GWB)",
+  "type": "basic",
+  "questions": [
+    {
+      "id": 5074,
+      "text": "你的总体感觉怎样（在过去的一个月里）？",
+      "type": "radio",
+      "orderNum": 1,
+      "options": [
+        {
+          "id": 18595,
+          "optionNo": "A",
+          "text": "好极了",
+          "value": "6"
+        },
+        {
+          "id": 18596,
+          "optionNo": "B",
+          "text": "精神很好",
+          "value": "5"
+        },
+        {
+          "id": 18597,
+          "optionNo": "C",
+          "text": "精神不错",
+          "value": "4"
+        },
+        {
+          "id": 18598,
+          "optionNo": "D",
+          "text": "精神时好时坏",
+          "value": "3"
+        },
+        {
+          "id": 18599,
+          "optionNo": "E",
+          "text": "精神不好",
+          "value": "2"
+        },
+        {
+          "id": 18600,
+          "optionNo": "F",
+          "text": "精神很不好",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 5075,
+      "text": "你是否为自己的神经质或“神经病”感到烦恼（在过去的一个月里）？",
+      "type": "radio",
+      "orderNum": 2,
+      "options": [
+        {
+          "id": 18601,
+          "optionNo": "A",
+          "text": "极端烦恼",
+          "value": "1"
+        },
+        {
+          "id": 18602,
+          "optionNo": "B",
+          "text": "相当烦恼",
+          "value": "2"
+        },
+        {
+          "id": 18603,
+          "optionNo": "C",
+          "text": "有些烦恼",
+          "value": "3"
+        },
+        {
+          "id": 18604,
+          "optionNo": "D",
+          "text": "很少烦恼",
+          "value": "4"
+        },
+        {
+          "id": 18605,
+          "optionNo": "E",
+          "text": "一点也不烦恼",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 5076,
+      "text": "你是否一直牢牢地控制着自己的行为、思维、情感或感觉（在过去的一个月里）？",
+      "type": "radio",
+      "orderNum": 3,
+      "options": [
+        {
+          "id": 18606,
+          "optionNo": "A",
+          "text": "绝对的",
+          "value": "6"
+        },
+        {
+          "id": 18607,
+          "optionNo": "B",
+          "text": "大部分是",
+          "value": "5"
+        },
+        {
+          "id": 18608,
+          "optionNo": "C",
+          "text": "一般来说是",
+          "value": "4"
+        },
+        {
+          "id": 18609,
+          "optionNo": "D",
+          "text": "控制得不大好",
+          "value": "3"
+        },
+        {
+          "id": 18610,
+          "optionNo": "E",
+          "text": "有些混乱",
+          "value": "2"
+        },
+        {
+          "id": 18611,
+          "optionNo": "F",
+          "text": "非常混乱",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 5077,
+      "text": "你是否由于悲哀、失去信心、失望或有许多麻烦而怀疑还有任何事情值得去做（在过去的一月里）？",
+      "type": "radio",
+      "orderNum": 4,
+      "options": [
+        {
+          "id": 18612,
+          "optionNo": "A",
+          "text": "极端怀疑",
+          "value": "1"
+        },
+        {
+          "id": 18613,
+          "optionNo": "B",
+          "text": "非常怀疑",
+          "value": "2"
+        },
+        {
+          "id": 18614,
+          "optionNo": "C",
+          "text": "相当怀疑",
+          "value": "3"
+        },
+        {
+          "id": 18615,
+          "optionNo": "D",
+          "text": "有些怀疑",
+          "value": "4"
+        },
+        {
+          "id": 18616,
+          "optionNo": "E",
+          "text": "略微怀疑",
+          "value": "5"
+        },
+        {
+          "id": 18617,
+          "optionNo": "F",
+          "text": "一点也不怀疑",
+          "value": "6"
+        }
+      ]
+    },
+    {
+      "id": 5078,
+      "text": "你是否正在受到或曾经受到任何约束、刺激或压力（在过去的一个月里）？",
+      "type": "radio",
+      "orderNum": 5,
+      "options": [
+        {
+          "id": 18618,
+          "optionNo": "A",
+          "text": "相当多",
+          "value": "1"
+        },
+        {
+          "id": 18619,
+          "optionNo": "B",
+          "text": "不少",
+          "value": "2"
+        },
+        {
+          "id": 18620,
+          "optionNo": "C",
+          "text": "有些",
+          "value": "3"
+        },
+        {
+          "id": 18621,
+          "optionNo": "D",
+          "text": "不多",
+          "value": "4"
+        },
+        {
+          "id": 18622,
+          "optionNo": "E",
+          "text": "没有",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 5079,
+      "text": "你的生活是否幸福、满足或愉快（在过去的一个月里）？",
+      "type": "radio",
+      "orderNum": 6,
+      "options": [
+        {
+          "id": 18623,
+          "optionNo": "A",
+          "text": "A非常幸福",
+          "value": "5"
+        },
+        {
+          "id": 18624,
+          "optionNo": "B",
+          "text": "相当幸福",
+          "value": "4"
+        },
+        {
+          "id": 18625,
+          "optionNo": "C",
+          "text": "满足",
+          "value": "3"
+        },
+        {
+          "id": 18626,
+          "optionNo": "D",
+          "text": "略有些不满足",
+          "value": "2"
+        },
+        {
+          "id": 18627,
+          "optionNo": "E",
+          "text": "非常不满足",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 5080,
+      "text": "你是否有理由怀疑自己曾经失去理智、或对行为、谈话、思维或记忆失去控制（在过去的一个月里）？",
+      "type": "radio",
+      "orderNum": 7,
+      "options": [
+        {
+          "id": 18628,
+          "optionNo": "A",
+          "text": "一点没有",
+          "value": "5"
+        },
+        {
+          "id": 18629,
+          "optionNo": "B",
+          "text": "只是一点点",
+          "value": "4"
+        },
+        {
+          "id": 18630,
+          "optionNo": "C",
+          "text": "有些，不严重",
+          "value": "3"
+        },
+        {
+          "id": 18631,
+          "optionNo": "D",
+          "text": "有些，相当严重",
+          "value": "2"
+        },
+        {
+          "id": 18632,
+          "optionNo": "E",
+          "text": "是的，非常严重",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 5081,
+      "text": "你是否感到焦虑、担心或不安（在过去的一个月里）？",
+      "type": "radio",
+      "orderNum": 8,
+      "options": [
+        {
+          "id": 18633,
+          "optionNo": "A",
+          "text": "极端严重",
+          "value": "1"
+        },
+        {
+          "id": 18634,
+          "optionNo": "B",
+          "text": "非常严重",
+          "value": "2"
+        },
+        {
+          "id": 18635,
+          "optionNo": "C",
+          "text": "相当严重",
+          "value": "3"
+        },
+        {
+          "id": 18636,
+          "optionNo": "D",
+          "text": "有些",
+          "value": "4"
+        },
+        {
+          "id": 18637,
+          "optionNo": "E",
+          "text": "很少",
+          "value": "5"
+        },
+        {
+          "id": 18638,
+          "optionNo": "F",
+          "text": "无",
+          "value": "6"
+        }
+      ]
+    },
+    {
+      "id": 5082,
+      "text": "你睡醒之后是否感到头脑清晰和精力充沛（在过去的一个月里）？",
+      "type": "radio",
+      "orderNum": 9,
+      "options": [
+        {
+          "id": 18639,
+          "optionNo": "A",
+          "text": "天天如此",
+          "value": "6"
+        },
+        {
+          "id": 18640,
+          "optionNo": "B",
+          "text": "几乎天天",
+          "value": "5"
+        },
+        {
+          "id": 18641,
+          "optionNo": "C",
+          "text": "相当频繁",
+          "value": "4"
+        },
+        {
+          "id": 18642,
+          "optionNo": "D",
+          "text": "不多",
+          "value": "3"
+        },
+        {
+          "id": 18643,
+          "optionNo": "E",
+          "text": "很少",
+          "value": "2"
+        },
+        {
+          "id": 18644,
+          "optionNo": "F",
+          "text": "无",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 5083,
+      "text": "你是否因为疾病、身体的不适、疼痛或对患病的恐惧而烦恼（在过去一个月里）？",
+      "type": "radio",
+      "orderNum": 10,
+      "options": [
+        {
+          "id": 18645,
+          "optionNo": "A",
+          "text": "所有的时间",
+          "value": "1"
+        },
+        {
+          "id": 18646,
+          "optionNo": "B",
+          "text": "B大部分时间",
+          "value": "2"
+        },
+        {
+          "id": 18647,
+          "optionNo": "C",
+          "text": "很多时间",
+          "value": "3"
+        },
+        {
+          "id": 18648,
+          "optionNo": "D",
+          "text": "有时",
+          "value": "4"
+        },
+        {
+          "id": 18649,
+          "optionNo": "E",
+          "text": "偶尔",
+          "value": "5"
+        },
+        {
+          "id": 18650,
+          "optionNo": "F",
+          "text": "无",
+          "value": "6"
+        }
+      ]
+    },
+    {
+      "id": 5084,
+      "text": "你每天的生活中是否充满了让你感兴趣的事情（在过去的一个月里）？",
+      "type": "radio",
+      "orderNum": 11,
+      "options": [
+        {
+          "id": 18651,
+          "optionNo": "A",
+          "text": "所有的时间",
+          "value": "6"
+        },
+        {
+          "id": 18652,
+          "optionNo": "B",
+          "text": "B大部分时间",
+          "value": "5"
+        },
+        {
+          "id": 18653,
+          "optionNo": "C",
+          "text": "很多时间",
+          "value": "4"
+        },
+        {
+          "id": 18654,
+          "optionNo": "D",
+          "text": "有时",
+          "value": "3"
+        },
+        {
+          "id": 18655,
+          "optionNo": "E",
+          "text": "偶尔",
+          "value": "2"
+        },
+        {
+          "id": 18656,
+          "optionNo": "F",
+          "text": "无",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 5085,
+      "text": "你是否感到沮丧和忧郁（在过去的一个月里）？",
+      "type": "radio",
+      "orderNum": 12,
+      "options": [
+        {
+          "id": 18657,
+          "optionNo": "A",
+          "text": "所有的时间",
+          "value": "1"
+        },
+        {
+          "id": 18658,
+          "optionNo": "B",
+          "text": "B大部分时间",
+          "value": "2"
+        },
+        {
+          "id": 18659,
+          "optionNo": "C",
+          "text": "很多时间",
+          "value": "3"
+        },
+        {
+          "id": 18660,
+          "optionNo": "D",
+          "text": "有时",
+          "value": "4"
+        },
+        {
+          "id": 18661,
+          "optionNo": "E",
+          "text": "偶尔",
+          "value": "5"
+        },
+        {
+          "id": 18662,
+          "optionNo": "F",
+          "text": "无",
+          "value": "6"
+        }
+      ]
+    },
+    {
+      "id": 5086,
+      "text": "你是否情绪稳定并能把握住自己（在过去的一个月里）？",
+      "type": "radio",
+      "orderNum": 13,
+      "options": [
+        {
+          "id": 18663,
+          "optionNo": "A",
+          "text": "所有的时间",
+          "value": "6"
+        },
+        {
+          "id": 18664,
+          "optionNo": "B",
+          "text": "B大部分时间",
+          "value": "5"
+        },
+        {
+          "id": 18665,
+          "optionNo": "C",
+          "text": "很多时间",
+          "value": "4"
+        },
+        {
+          "id": 18666,
+          "optionNo": "D",
+          "text": "有时",
+          "value": "3"
+        },
+        {
+          "id": 18667,
+          "optionNo": "E",
+          "text": "偶尔",
+          "value": "2"
+        },
+        {
+          "id": 18668,
+          "optionNo": "F",
+          "text": "无",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 5087,
+      "text": "你是否感到疲劳、过累、无力或精疲力竭（在过去的一个月里）？",
+      "type": "radio",
+      "orderNum": 14,
+      "options": [
+        {
+          "id": 18669,
+          "optionNo": "A",
+          "text": "所有的时间",
+          "value": "1"
+        },
+        {
+          "id": 18670,
+          "optionNo": "B",
+          "text": "B大部分时间",
+          "value": "2"
+        },
+        {
+          "id": 18671,
+          "optionNo": "C",
+          "text": "很多时间",
+          "value": "3"
+        },
+        {
+          "id": 18672,
+          "optionNo": "D",
+          "text": "有时",
+          "value": "4"
+        },
+        {
+          "id": 18673,
+          "optionNo": "E",
+          "text": "偶尔",
+          "value": "5"
+        },
+        {
+          "id": 18674,
+          "optionNo": "F",
+          "text": "无",
+          "value": "6"
+        }
+      ]
+    },
+    {
+      "id": 5088,
+      "text": "你对自己健康关心或担忧的程度如何（在过去的一个月里）？(从不关心0-----非常关心10)",
+      "type": "radio",
+      "orderNum": 15,
+      "options": [
+        {
+          "id": 18675,
+          "optionNo": "A",
+          "text": "0",
+          "value": "10"
+        },
+        {
+          "id": 18676,
+          "optionNo": "B",
+          "text": "1",
+          "value": "9"
+        },
+        {
+          "id": 18677,
+          "optionNo": "C",
+          "text": "2",
+          "value": "8"
+        },
+        {
+          "id": 18678,
+          "optionNo": "D",
+          "text": "3",
+          "value": "7"
+        },
+        {
+          "id": 18679,
+          "optionNo": "E",
+          "text": "4",
+          "value": "6"
+        },
+        {
+          "id": 18680,
+          "optionNo": "F",
+          "text": "5",
+          "value": "5"
+        },
+        {
+          "id": 18681,
+          "optionNo": "G",
+          "text": "6",
+          "value": "4"
+        },
+        {
+          "id": 18682,
+          "optionNo": "H",
+          "text": "7",
+          "value": "3"
+        },
+        {
+          "id": 18683,
+          "optionNo": "I",
+          "text": "8",
+          "value": "2"
+        },
+        {
+          "id": 18684,
+          "optionNo": "J",
+          "text": "9",
+          "value": "1"
+        },
+        {
+          "id": 18685,
+          "optionNo": "K",
+          "text": "10",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 5089,
+      "text": "你感到放松或紧张的程度如何（在过去的一个月里）？(从松弛0----紧张10)",
+      "type": "radio",
+      "orderNum": 16,
+      "options": [
+        {
+          "id": 18686,
+          "optionNo": "A",
+          "text": "0",
+          "value": "10"
+        },
+        {
+          "id": 18687,
+          "optionNo": "B",
+          "text": "1",
+          "value": "9"
+        },
+        {
+          "id": 18688,
+          "optionNo": "C",
+          "text": "2",
+          "value": "8"
+        },
+        {
+          "id": 18689,
+          "optionNo": "D",
+          "text": "3",
+          "value": "7"
+        },
+        {
+          "id": 18690,
+          "optionNo": "E",
+          "text": "4",
+          "value": "6"
+        },
+        {
+          "id": 18691,
+          "optionNo": "F",
+          "text": "5",
+          "value": "5"
+        },
+        {
+          "id": 18692,
+          "optionNo": "G",
+          "text": "6",
+          "value": "4"
+        },
+        {
+          "id": 18693,
+          "optionNo": "H",
+          "text": "7",
+          "value": "3"
+        },
+        {
+          "id": 18694,
+          "optionNo": "I",
+          "text": "8",
+          "value": "2"
+        },
+        {
+          "id": 18695,
+          "optionNo": "J",
+          "text": "9",
+          "value": "1"
+        },
+        {
+          "id": 18696,
+          "optionNo": "K",
+          "text": "10",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 5090,
+      "text": "你感觉自己的精力、精神和活力如何（在过去的一个月里）？(从无精打采0----精力充沛10)",
+      "type": "radio",
+      "orderNum": 17,
+      "options": [
+        {
+          "id": 18697,
+          "optionNo": "A",
+          "text": "0",
+          "value": "0"
+        },
+        {
+          "id": 18698,
+          "optionNo": "B",
+          "text": "1",
+          "value": "1"
+        },
+        {
+          "id": 18699,
+          "optionNo": "C",
+          "text": "2",
+          "value": "2"
+        },
+        {
+          "id": 18700,
+          "optionNo": "D",
+          "text": "3",
+          "value": "3"
+        },
+        {
+          "id": 18701,
+          "optionNo": "E",
+          "text": "4",
+          "value": "4"
+        },
+        {
+          "id": 18702,
+          "optionNo": "F",
+          "text": "5",
+          "value": "5"
+        },
+        {
+          "id": 18703,
+          "optionNo": "G",
+          "text": "6",
+          "value": "6"
+        },
+        {
+          "id": 18704,
+          "optionNo": "H",
+          "text": "7",
+          "value": "7"
+        },
+        {
+          "id": 18705,
+          "optionNo": "I",
+          "text": "8",
+          "value": "8"
+        },
+        {
+          "id": 18706,
+          "optionNo": "J",
+          "text": "9",
+          "value": "9"
+        },
+        {
+          "id": 18707,
+          "optionNo": "K",
+          "text": "10",
+          "value": "10"
+        }
+      ]
+    },
+    {
+      "id": 5091,
+      "text": "你忧郁或快乐的程度如何（在过去的一个月里）？(从非常忧郁0-----非常快乐10)",
+      "type": "radio",
+      "orderNum": 18,
+      "options": [
+        {
+          "id": 18708,
+          "optionNo": "A",
+          "text": "0",
+          "value": "0"
+        },
+        {
+          "id": 18709,
+          "optionNo": "B",
+          "text": "1",
+          "value": "1"
+        },
+        {
+          "id": 18710,
+          "optionNo": "C",
+          "text": "2",
+          "value": "2"
+        },
+        {
+          "id": 18711,
+          "optionNo": "D",
+          "text": "3",
+          "value": "3"
+        },
+        {
+          "id": 18712,
+          "optionNo": "E",
+          "text": "4",
+          "value": "4"
+        },
+        {
+          "id": 18713,
+          "optionNo": "F",
+          "text": "5",
+          "value": "5"
+        },
+        {
+          "id": 18714,
+          "optionNo": "G",
+          "text": "6",
+          "value": "6"
+        },
+        {
+          "id": 18715,
+          "optionNo": "H",
+          "text": "7",
+          "value": "7"
+        },
+        {
+          "id": 18716,
+          "optionNo": "I",
+          "text": "8",
+          "value": "8"
+        },
+        {
+          "id": 18717,
+          "optionNo": "J",
+          "text": "9",
+          "value": "9"
+        },
+        {
+          "id": 18718,
+          "optionNo": "K",
+          "text": "10",
+          "value": "10"
+        }
+      ]
+    },
+    {
+      "id": 5092,
+      "text": "你是否由于严重的性格、情感、行为或精神问题而感到需要帮助（在过去的一年里）？",
+      "type": "radio",
+      "orderNum": 19,
+      "options": [
+        {
+          "id": 18719,
+          "optionNo": "A",
+          "text": "是的，曾寻求帮助",
+          "value": "1"
+        },
+        {
+          "id": 18720,
+          "optionNo": "B",
+          "text": "是的，但未寻求帮助",
+          "value": "2"
+        },
+        {
+          "id": 18721,
+          "optionNo": "C",
+          "text": "有严重的问题",
+          "value": "3"
+        },
+        {
+          "id": 18722,
+          "optionNo": "D",
+          "text": "几乎没有问题",
+          "value": "4"
+        },
+        {
+          "id": 18723,
+          "optionNo": "E",
+          "text": "没有问题",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 5093,
+      "text": "你是否曾感到将要精神崩溃或接近于精神崩溃？",
+      "type": "radio",
+      "orderNum": 20,
+      "options": [
+        {
+          "id": 18724,
+          "optionNo": "A",
+          "text": "是的，在过去的一年里",
+          "value": "1"
+        },
+        {
+          "id": 18725,
+          "optionNo": "B",
+          "text": "是的，在一年以前",
+          "value": "2"
+        },
+        {
+          "id": 18726,
+          "optionNo": "C",
+          "text": "无",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "id": 5094,
+      "text": "你是否曾有过精神崩溃？",
+      "type": "radio",
+      "orderNum": 21,
+      "options": [
+        {
+          "id": 18727,
+          "optionNo": "A",
+          "text": "是的，在过去的一年里",
+          "value": "1"
+        },
+        {
+          "id": 18728,
+          "optionNo": "B",
+          "text": "是的，在一年以前",
+          "value": "2"
+        },
+        {
+          "id": 18729,
+          "optionNo": "C",
+          "text": "无",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "id": 5095,
+      "text": "你是否曾因为性格、情感、行为或精神问题在精神病院、综合医院精神病科病房或精神卫生诊所治疗？",
+      "type": "radio",
+      "orderNum": 22,
+      "options": [
+        {
+          "id": 18730,
+          "optionNo": "A",
+          "text": "是的，在过去的一年里",
+          "value": "1"
+        },
+        {
+          "id": 18731,
+          "optionNo": "B",
+          "text": "是的，在一年以前",
+          "value": "2"
+        },
+        {
+          "id": 18732,
+          "optionNo": "C",
+          "text": "无",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "id": 5096,
+      "text": "你是否曾因为性格、情感、行为或精神问题求助于精神科医生、心理学家？",
+      "type": "radio",
+      "orderNum": 23,
+      "options": [
+        {
+          "id": 18733,
+          "optionNo": "A",
+          "text": "是的，在过去的一年里",
+          "value": "1"
+        },
+        {
+          "id": 18734,
+          "optionNo": "B",
+          "text": "是的，在一年以前",
+          "value": "2"
+        },
+        {
+          "id": 18735,
+          "optionNo": "C",
+          "text": "无",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "id": 5097,
+      "text": "1你是否因为性格、情感、行为或精神问题求助于以下人员？如：普通医生（真正的躯体疾病或常规检查除外）",
+      "type": "radio",
+      "orderNum": 24,
+      "options": [
+        {
+          "id": 18736,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 18737,
+          "optionNo": "B",
+          "text": "否",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "id": 5098,
+      "text": "你是否因为性格、情感、行为或精神问题求助于以下人员？如：脑科或神经外专家",
+      "type": "radio",
+      "orderNum": 25,
+      "options": [
+        {
+          "id": 18738,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 18739,
+          "optionNo": "B",
+          "text": "否",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "id": 5099,
+      "text": "你是否因为性格、情感、行为或精神问题求助于以下人员？如：护士（一般内科疾病除外）",
+      "type": "radio",
+      "orderNum": 26,
+      "options": [
+        {
+          "id": 18740,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 18741,
+          "optionNo": "B",
+          "text": "否",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "id": 5100,
+      "text": "你是否因为性格、情感、行为或精神问题求助于以下人员？如：律师（常规的法律问题除外）",
+      "type": "radio",
+      "orderNum": 27,
+      "options": [
+        {
+          "id": 18742,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 18743,
+          "optionNo": "B",
+          "text": "否",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "id": 5101,
+      "text": "你是否因为性格、情感、行为或精神问题求助于以下人员？如：警察（单纯的交通违章除外）",
+      "type": "radio",
+      "orderNum": 28,
+      "options": [
+        {
+          "id": 18744,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 18745,
+          "optionNo": "B",
+          "text": "否",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "id": 5102,
+      "text": "你是否因为性格、情感、行为或精神问题求助于以下人员？如：牧师、神父等各种神职人员",
+      "type": "radio",
+      "orderNum": 29,
+      "options": [
+        {
+          "id": 18746,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 18747,
+          "optionNo": "B",
+          "text": "否",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "id": 5103,
+      "text": "你是否因为性格、情感、行为或精神问题求助于以下人员？如：婚姻咨询专家",
+      "type": "radio",
+      "orderNum": 30,
+      "options": [
+        {
+          "id": 18748,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 18749,
+          "optionNo": "B",
+          "text": "否",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "id": 5104,
+      "text": "你是否因为性格、情感、行为或精神问题求助于以下人员？如：社会工作者",
+      "type": "radio",
+      "orderNum": 31,
+      "options": [
+        {
+          "id": 18750,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 18751,
+          "optionNo": "B",
+          "text": "否",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "id": 5105,
+      "text": "你是否因为性格、情感、行为或精神问题求助于以下人员？如：其他正式的帮助",
+      "type": "radio",
+      "orderNum": 32,
+      "options": [
+        {
+          "id": 18752,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 18753,
+          "optionNo": "B",
+          "text": "否",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "id": 5106,
+      "text": "你是否曾与家庭成员或朋友谈论自己的问题？",
+      "type": "radio",
+      "orderNum": 33,
+      "options": [
+        {
+          "id": 18754,
+          "optionNo": "A",
+          "text": "是的，很有帮助",
+          "value": "1"
+        },
+        {
+          "id": 18755,
+          "optionNo": "B",
+          "text": "是的，有些帮助",
+          "value": "2"
+        },
+        {
+          "id": 18756,
+          "optionNo": "C",
+          "text": "是的，但没有帮助",
+          "value": "3"
+        },
+        {
+          "id": 18757,
+          "optionNo": "D",
+          "text": "否，没有人可与之谈论",
+          "value": "4"
+        },
+        {
+          "id": 18758,
+          "optionNo": "E",
+          "text": "否，没有人愿意与我谈论",
+          "value": "5"
+        },
+        {
+          "id": 18759,
+          "optionNo": "F",
+          "text": "否，不愿与人谈论",
+          "value": "6"
+        },
+        {
+          "id": 18760,
+          "optionNo": "G",
+          "text": "没有问题",
+          "value": "7"
+        }
+      ]
+    }
+  ],
+  "dimensions": [
+    {
+      "id": 533,
+      "num": 1,
+      "dimensionName": "总粗分",
+      "dimensionCode": "A",
+      "evaluateExpression": "hx_t_1 + hx_t_2 + hx_t_3 + hx_t_4 + hx_t_5 + hx_t_6 + hx_t_7 + hx_t_8 + hx_t_9 + hx_t_10 + hx_t_11 + hx_t_12 + hx_t_13 + hx_t_14 + hx_t_15 + hx_t_16 + hx_t_17 + hx_t_18 + hx_t_19 + hx_t_20 + hx_t_21 + hx_t_22 + hx_t_23 + hx_t_24 + hx_t_25 + hx_t_26 + hx_t_27 + hx_t_28 + hx_t_29 + hx_t_30 + hx_t_31 + hx_t_32 + hx_t_33",
+      "standardScoreFormula": "0",
+      "results": [
+        {
+          "id": 1254,
+          "evaluateExpression": "hx_wd_y_1 >= 29&& hx_wd_y_1 <= 162",
+          "conclusionAnalysis": "个体综合自身各种情况，对自己总体幸福感的评价，总分范围在29-162分，分值越高，你的幸福度越高。全国常模得分男性为 75±15，女性为71±18。",
+          "suggestion": "得分较高者，对生活感到很幸福，心情愉快，希望您继续保持当前的生活态度，尽情享受生活的快乐；得分较低者，得分较低者，不太能感受到生活中的幸福，建议加强人际交流，参与社会活动，注重身体健康，加强心理调整。",
+          "assessmentWarning": "none"
+        }
+      ]
+    },
+    {
+      "id": 534,
+      "num": 2,
+      "dimensionName": "对健康的担心",
+      "dimensionCode": "B",
+      "evaluateExpression": "hx_t_10 + hx_t_15",
+      "standardScoreFormula": "0",
+      "results": [
+        {
+          "id": 1255,
+          "evaluateExpression": "hx_wd_y_2 >= 1&& hx_wd_y_2 <= 16",
+          "conclusionAnalysis": "个体对自身健康状况的评价。得分范围在1-16分，得分越高，对自己身体健康状况越满意。",
+          "suggestion": "该项得分高者，对自己身体健康状况较为满意。建议养成锻炼身体的习惯，保持身体健康。\n该项得分低者，感到身体状况不佳，建议循序渐进地加强锻炼，注重养生、调理，拥有一个更加健康的体魄，缓解内心的焦虑。",
+          "assessmentWarning": "none"
+        }
+      ]
+    },
+    {
+      "id": 535,
+      "num": 3,
+      "dimensionName": "精力",
+      "dimensionCode": "C",
+      "evaluateExpression": "hx_t_1 + hx_t_9 + hx_t_14 + hx_t_17",
+      "standardScoreFormula": "0",
+      "results": [
+        {
+          "id": 1256,
+          "evaluateExpression": "hx_wd_y_3 >= 3&& hx_wd_y_3 <= 28",
+          "conclusionAnalysis": "个体对自身从事工作、学习时精力是否充沛的评价。得分范围3-28分，得分越高，测试者越自认为精力较为充沛，对自己的精力较为满意。",
+          "suggestion": "此项得分高者，自认为精力较为充沛，无明显的过累、无力症状，个体较为满意。建议保持当前状态，并避免过于忙碌。\n此项得分低者，经常感到疲劳、无力。建议留给自己一定的空间，放松自己。在日常的工作生活中，也要注意不要把日程安排得过慢，适当放低对生活的要求，放慢节奏，让身心得到休息，同时要加强体育锻炼。",
+          "assessmentWarning": "none"
+        }
+      ]
+    },
+    {
+      "id": 536,
+      "num": 4,
+      "dimensionName": "对生活的满足和兴趣",
+      "dimensionCode": "D",
+      "evaluateExpression": "hx_t_6 + hx_t_11",
+      "standardScoreFormula": "0",
+      "results": [
+        {
+          "id": 1257,
+          "evaluateExpression": "hx_wd_y_4 >= 2&& hx_wd_y_4 <= 11",
+          "conclusionAnalysis": "个体对生活满意度以及活动兴趣的评价。得分范围2-11分，得分越高，对生活的满足和兴趣越高。",
+          "suggestion": "此项得分高者，对生活充满热情，能够体验到较高的满意度，建议继续保持这份生活的热情。\n此项得分低者，建议积极投入各项社会活动，加强人际交流。生活中充满点滴的快乐，就看你能否细心地发现它，你可以有意识地去发现、感受生活中的快乐！",
+          "assessmentWarning": "none"
+        }
+      ]
+    },
+    {
+      "id": 537,
+      "num": 5,
+      "dimensionName": "忧郁或愉快的心情",
+      "dimensionCode": "E",
+      "evaluateExpression": "hx_t_1 + hx_t_4 + hx_t_18",
+      "standardScoreFormula": "0",
+      "results": [
+        {
+          "id": 1258,
+          "evaluateExpression": "hx_wd_y_5 >= 2&& hx_wd_y_5 <= 22",
+          "conclusionAnalysis": "个体对自己心情的评价。得分范围2-22分，得分越高，自我感到心情放松、愉快，不良情绪越少。",
+          "suggestion": "此项得分高者，感到心情放松、愉快，不良情绪较少，建议继续保持这份生活态度，享受生活中的快乐！\n此项得分低者，情绪状况不佳，时有忧虑，建议放松身心。可以尝试加强体育锻炼，充实业余娱乐生活，加强人际交往等方法改善。",
+          "assessmentWarning": "none"
+        }
+      ]
+    },
+    {
+      "id": 538,
+      "num": 6,
+      "dimensionName": "对情感和行为的控制",
+      "dimensionCode": "F",
+      "evaluateExpression": "hx_t_3 + hx_t_7 + hx_t_13",
+      "standardScoreFormula": "0",
+      "results": [
+        {
+          "id": 1259,
+          "evaluateExpression": "hx_wd_y_6 >= 3&& hx_wd_y_6 <= 17",
+          "conclusionAnalysis": "个体对自身情感和行为控制的评价。得分范围3-17分，得分越高，越自我感到对自己的情感和行为的控制适度。",
+          "suggestion": "此项得分高者，感到对自己的情感和行为的控制适度，建议继续保持当前的方式方法。\n此项得分低者，经常感动情绪或行为失控，往往较为冲动，建议有意识地培养自己“三思而后行”的能力，具体的，比如要求自己任何关键性的举措都不要立即决定，并与亲友商量，听取他人意见。",
+          "assessmentWarning": "none"
+        }
+      ]
+    },
+    {
+      "id": 539,
+      "num": 7,
+      "dimensionName": "松弛与紧张(焦虑)",
+      "dimensionCode": "G",
+      "evaluateExpression": "hx_t_2 + hx_t_5 + hx_t_8 + hx_t_16",
+      "standardScoreFormula": "0",
+      "results": [
+        {
+          "id": 1260,
+          "evaluateExpression": "hx_wd_y_7 >= 3&& hx_wd_y_7 <= 26",
+          "conclusionAnalysis": "个体对自身精神紧张程度的评价。得分范围3-26分，得分越高，表示越松弛，焦虑紧张水平越低。",
+          "suggestion": "此项得分高者，常态中无焦虑、紧张的状态，较为平和，建议继续保持。\n此项得分低者，经常感到焦虑，紧张。建议“放轻松”，具体的，比如可以尝试想象过一段时间，或者一两年后回头来想现在情景，就会感觉真的不用那么紧张。",
+          "assessmentWarning": "none"
+        }
+      ]
+    }
+  ]
+}

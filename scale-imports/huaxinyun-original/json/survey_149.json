@@ -1,0 +1,333 @@
+{
+  "id": 149,
+  "title": "生活满意度指数B量表(LSIB)",
+  "type": "basic",
+  "questions": [
+    {
+      "id": 4713,
+      "text": "1．你这个年纪最大的好处是什么?",
+      "type": "radio",
+      "orderNum": 1,
+      "options": [
+        {
+          "id": 17163,
+          "optionNo": "A",
+          "text": "积极的答案",
+          "value": "1"
+        },
+        {
+          "id": 17164,
+          "optionNo": "B",
+          "text": "没有任何好处",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 4714,
+      "text": "2．今后五年你打算做什么？你估计今后的生活会有什么变化？",
+      "type": "radio",
+      "orderNum": 2,
+      "options": [
+        {
+          "id": 17165,
+          "optionNo": "A",
+          "text": "变好，或无变化",
+          "value": "2"
+        },
+        {
+          "id": 17166,
+          "optionNo": "B",
+          "text": "无法预料，各种可能性都有",
+          "value": "0"
+        },
+        {
+          "id": 17167,
+          "optionNo": "C",
+          "text": "变坏",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 4715,
+      "text": "3．你现在生活中最重要的事情是什么？",
+      "type": "radio",
+      "orderNum": 3,
+      "options": [
+        {
+          "id": 17168,
+          "optionNo": "A",
+          "text": "任何自身之外的事情，或令人愉快的对未来的解释",
+          "value": "2"
+        },
+        {
+          "id": 17169,
+          "optionNo": "B",
+          "text": "维持现状 、保持健康或工作",
+          "value": "1"
+        },
+        {
+          "id": 17170,
+          "optionNo": "C",
+          "text": "摆脱现在的困境、或目前什么重要的事情也没有、或提起以往的经历",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 4716,
+      "text": "4．与早期的生活相比，你现在是否幸福？",
+      "type": "radio",
+      "orderNum": 4,
+      "options": [
+        {
+          "id": 17171,
+          "optionNo": "A",
+          "text": "现在是最幸福的时期，过去和现在同样幸福；或无法比较出何时更幸福；",
+          "value": "2"
+        },
+        {
+          "id": 17172,
+          "optionNo": "B",
+          "text": "最近几年有些不如以前了",
+          "value": "1"
+        },
+        {
+          "id": 17173,
+          "optionNo": "C",
+          "text": "以前比现在好，目前是最糟糕的时期",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 4717,
+      "text": "5．你是否曾担心人们期望你做的事你却不能胜任——你无法满足人们对你的要求?",
+      "type": "radio",
+      "orderNum": 5,
+      "options": [
+        {
+          "id": 17174,
+          "optionNo": "A",
+          "text": "不曾担心",
+          "value": "2"
+        },
+        {
+          "id": 17175,
+          "optionNo": "B",
+          "text": "略有些担心",
+          "value": "1"
+        },
+        {
+          "id": 17176,
+          "optionNo": "C",
+          "text": "担心",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 4718,
+      "text": "6．如果你想怎样就能怎样，那么你最喜欢生活在哪里(国家名)？",
+      "type": "radio",
+      "orderNum": 6,
+      "options": [
+        {
+          "id": 17177,
+          "optionNo": "A",
+          "text": "目前所在地",
+          "value": "2"
+        },
+        {
+          "id": 17178,
+          "optionNo": "B",
+          "text": "任何其他地方",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 4719,
+      "text": "7．你感到孤独的时间有多少？",
+      "type": "radio",
+      "orderNum": 7,
+      "options": [
+        {
+          "id": 17179,
+          "optionNo": "A",
+          "text": "从未有过",
+          "value": "2"
+        },
+        {
+          "id": 17180,
+          "optionNo": "B",
+          "text": "有时",
+          "value": "1"
+        },
+        {
+          "id": 17181,
+          "optionNo": "C",
+          "text": "经常，十分频繁",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 4720,
+      "text": "8．你感到生活无目的的时间有多少？",
+      "type": "radio",
+      "orderNum": 8,
+      "options": [
+        {
+          "id": 17182,
+          "optionNo": "A",
+          "text": "从未有过",
+          "value": "2"
+        },
+        {
+          "id": 17183,
+          "optionNo": "B",
+          "text": "有时",
+          "value": "1"
+        },
+        {
+          "id": 17184,
+          "optionNo": "C",
+          "text": "经常，十分频繁",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 4721,
+      "text": "9．你希望将来与好朋友在一起的时间更多一些还是自己独处的时间更多一些？",
+      "type": "radio",
+      "orderNum": 9,
+      "options": [
+        {
+          "id": 17185,
+          "optionNo": "A",
+          "text": "现在这样很好",
+          "value": "2"
+        },
+        {
+          "id": 17186,
+          "optionNo": "B",
+          "text": "与好朋友在一起的时间更多一些",
+          "value": "1"
+        },
+        {
+          "id": 17187,
+          "optionNo": "C",
+          "text": "自己独处的时间更多一些",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 4722,
+      "text": "10．你在目前的生活中发现多少不幸的事情？",
+      "type": "radio",
+      "orderNum": 10,
+      "options": [
+        {
+          "id": 17188,
+          "optionNo": "A",
+          "text": "几乎没有",
+          "value": "2"
+        },
+        {
+          "id": 17189,
+          "optionNo": "B",
+          "text": "有一些",
+          "value": "1"
+        },
+        {
+          "id": 17190,
+          "optionNo": "C",
+          "text": "许多",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 4723,
+      "text": "11．当你年迈之后，事情比原先想象得好还是不好？",
+      "type": "radio",
+      "orderNum": 11,
+      "options": [
+        {
+          "id": 17191,
+          "optionNo": "A",
+          "text": "好",
+          "value": "2"
+        },
+        {
+          "id": 17192,
+          "optionNo": "B",
+          "text": "和预期的差不多",
+          "value": "1"
+        },
+        {
+          "id": 17193,
+          "optionNo": "C",
+          "text": "不好",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 4724,
+      "text": "12．你对自己生活的满意程度如何？",
+      "type": "radio",
+      "orderNum": 12,
+      "options": [
+        {
+          "id": 17194,
+          "optionNo": "A",
+          "text": "非常满意",
+          "value": "2"
+        },
+        {
+          "id": 17195,
+          "optionNo": "B",
+          "text": "相当满意",
+          "value": "1"
+        },
+        {
+          "id": 17196,
+          "optionNo": "C",
+          "text": "不太满意",
+          "value": "0"
+        }
+      ]
+    }
+  ],
+  "dimensions": [
+    {
+      "id": 507,
+      "num": 1,
+      "dimensionName": "总分",
+      "dimensionCode": "A",
+      "evaluateExpression": "hx_t_1 + hx_t_2 + hx_t_3 + hx_t_4 + hx_t_5 + hx_t_6 + hx_t_7 + hx_t_8 + hx_t_9 + hx_t_10 + hx_t_11 + hx_t_12",
+      "standardScoreFormula": "0",
+      "results": [
+        {
+          "id": 1162,
+          "evaluateExpression": "hx_wd_y_1 >= 15&& hx_wd_y_1 <= 23",
+          "conclusionAnalysis": "对当前的生活非常满意，感到现在很幸福，有足够的胜任力，对未来充满希望。",
+          "suggestion": "希望您继续保持当前的生活态度，幸福地生活！",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 1163,
+          "evaluateExpression": "hx_wd_y_1 >= 0&& hx_wd_y_1 <= 14",
+          "conclusionAnalysis": "对于自己的当前生活不太满意，未能获得较多的乐趣，对自己的胜任力肯定不足，对于将来会怎样，态度不积极。",
+          "suggestion": "建议你积极投入各项社会活动，加强人际交流。生活中充满点滴的快乐，就看你能否细心地发现它，你可以有意识地去发现、感受生活中的快乐！再者，可以给自己更多的心理暗示，增强自信心。",
+          "assessmentWarning": "high"
+        }
+      ]
+    }
+  ]
+}

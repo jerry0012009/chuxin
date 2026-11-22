@@ -1,0 +1,5366 @@
+{
+  "id": 104,
+  "title": "父母教养方式(EMBU)",
+  "type": "basic",
+  "questions": [
+    {
+      "id": 2039,
+      "text": "我觉得父亲干涉我所做的每一件事。",
+      "type": "radio",
+      "orderNum": 1,
+      "options": [
+        {
+          "id": 8087,
+          "optionNo": "A",
+          "text": "从不",
+          "value": "1"
+        },
+        {
+          "id": 8088,
+          "optionNo": "B",
+          "text": "偶尔",
+          "value": "2"
+        },
+        {
+          "id": 8089,
+          "optionNo": "C",
+          "text": "经常",
+          "value": "3"
+        },
+        {
+          "id": 8090,
+          "optionNo": "D",
+          "text": "总是",
+          "value": "4"
+        },
+        {
+          "id": 8091,
+          "optionNo": "E",
+          "text": "题目不适",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2040,
+      "text": "我能通过父亲的言谈、表情感受到他很喜欢我。",
+      "type": "radio",
+      "orderNum": 2,
+      "options": [
+        {
+          "id": 8092,
+          "optionNo": "A",
+          "text": "从不",
+          "value": "1"
+        },
+        {
+          "id": 8093,
+          "optionNo": "B",
+          "text": "偶尔",
+          "value": "2"
+        },
+        {
+          "id": 8094,
+          "optionNo": "C",
+          "text": "经常",
+          "value": "3"
+        },
+        {
+          "id": 8095,
+          "optionNo": "D",
+          "text": "总是",
+          "value": "4"
+        },
+        {
+          "id": 8096,
+          "optionNo": "E",
+          "text": "题目不适",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2041,
+      "text": "与我的兄弟姐妹相比，父亲更宠爱我。",
+      "type": "radio",
+      "orderNum": 3,
+      "options": [
+        {
+          "id": 8097,
+          "optionNo": "A",
+          "text": "从不",
+          "value": "1"
+        },
+        {
+          "id": 8098,
+          "optionNo": "B",
+          "text": "偶尔",
+          "value": "2"
+        },
+        {
+          "id": 8099,
+          "optionNo": "C",
+          "text": "经常",
+          "value": "3"
+        },
+        {
+          "id": 8100,
+          "optionNo": "D",
+          "text": "总是",
+          "value": "4"
+        },
+        {
+          "id": 8101,
+          "optionNo": "E",
+          "text": "题目不适",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2042,
+      "text": "我能感到父亲对我的喜爱。",
+      "type": "radio",
+      "orderNum": 4,
+      "options": [
+        {
+          "id": 8102,
+          "optionNo": "A",
+          "text": "从不",
+          "value": "1"
+        },
+        {
+          "id": 8103,
+          "optionNo": "B",
+          "text": "偶尔",
+          "value": "2"
+        },
+        {
+          "id": 8104,
+          "optionNo": "C",
+          "text": "经常",
+          "value": "3"
+        },
+        {
+          "id": 8105,
+          "optionNo": "D",
+          "text": "总是",
+          "value": "4"
+        },
+        {
+          "id": 8106,
+          "optionNo": "E",
+          "text": "题目不适",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2043,
+      "text": "即使是很小的过失，父亲也惩罚我。",
+      "type": "radio",
+      "orderNum": 5,
+      "options": [
+        {
+          "id": 8107,
+          "optionNo": "A",
+          "text": "从不",
+          "value": "1"
+        },
+        {
+          "id": 8108,
+          "optionNo": "B",
+          "text": "偶尔",
+          "value": "2"
+        },
+        {
+          "id": 8109,
+          "optionNo": "C",
+          "text": "经常",
+          "value": "3"
+        },
+        {
+          "id": 8110,
+          "optionNo": "D",
+          "text": "总是",
+          "value": "4"
+        },
+        {
+          "id": 8111,
+          "optionNo": "E",
+          "text": "题目不适",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2044,
+      "text": "父亲总试图潜移默化地影响我，使我成为出类拔萃的人。",
+      "type": "radio",
+      "orderNum": 6,
+      "options": [
+        {
+          "id": 8112,
+          "optionNo": "A",
+          "text": "从不",
+          "value": "1"
+        },
+        {
+          "id": 8113,
+          "optionNo": "B",
+          "text": "偶尔",
+          "value": "2"
+        },
+        {
+          "id": 8114,
+          "optionNo": "C",
+          "text": "经常",
+          "value": "3"
+        },
+        {
+          "id": 8115,
+          "optionNo": "D",
+          "text": "总是",
+          "value": "4"
+        },
+        {
+          "id": 8116,
+          "optionNo": "E",
+          "text": "题目不适",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2045,
+      "text": "我觉得父亲允许我在某些方面有独到之处。",
+      "type": "radio",
+      "orderNum": 7,
+      "options": [
+        {
+          "id": 8117,
+          "optionNo": "A",
+          "text": "从不",
+          "value": "1"
+        },
+        {
+          "id": 8118,
+          "optionNo": "B",
+          "text": "偶尔",
+          "value": "2"
+        },
+        {
+          "id": 8119,
+          "optionNo": "C",
+          "text": "经常",
+          "value": "3"
+        },
+        {
+          "id": 8120,
+          "optionNo": "D",
+          "text": "总是",
+          "value": "4"
+        },
+        {
+          "id": 8121,
+          "optionNo": "E",
+          "text": "题目不适",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2046,
+      "text": "父亲能让我得到其它兄弟姐妹得不到的东西。",
+      "type": "radio",
+      "orderNum": 8,
+      "options": [
+        {
+          "id": 8122,
+          "optionNo": "A",
+          "text": "从不",
+          "value": "1"
+        },
+        {
+          "id": 8123,
+          "optionNo": "B",
+          "text": "偶尔",
+          "value": "2"
+        },
+        {
+          "id": 8124,
+          "optionNo": "C",
+          "text": "经常",
+          "value": "3"
+        },
+        {
+          "id": 8125,
+          "optionNo": "D",
+          "text": "总是",
+          "value": "4"
+        },
+        {
+          "id": 8126,
+          "optionNo": "E",
+          "text": "题目不适",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2047,
+      "text": "父亲对我的惩罚是公平的、恰当的。",
+      "type": "radio",
+      "orderNum": 9,
+      "options": [
+        {
+          "id": 8127,
+          "optionNo": "A",
+          "text": "从不",
+          "value": "1"
+        },
+        {
+          "id": 8128,
+          "optionNo": "B",
+          "text": "偶尔",
+          "value": "2"
+        },
+        {
+          "id": 8129,
+          "optionNo": "C",
+          "text": "经常",
+          "value": "3"
+        },
+        {
+          "id": 8130,
+          "optionNo": "D",
+          "text": "总是",
+          "value": "4"
+        },
+        {
+          "id": 8131,
+          "optionNo": "E",
+          "text": "题目不适",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2048,
+      "text": "我觉得父亲对我很严厉。",
+      "type": "radio",
+      "orderNum": 10,
+      "options": [
+        {
+          "id": 8132,
+          "optionNo": "A",
+          "text": "从不",
+          "value": "1"
+        },
+        {
+          "id": 8133,
+          "optionNo": "B",
+          "text": "偶尔",
+          "value": "2"
+        },
+        {
+          "id": 8134,
+          "optionNo": "C",
+          "text": "经常",
+          "value": "3"
+        },
+        {
+          "id": 8135,
+          "optionNo": "D",
+          "text": "总是",
+          "value": "4"
+        },
+        {
+          "id": 8136,
+          "optionNo": "E",
+          "text": "题目不适",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2049,
+      "text": "父亲总是左右我该穿什么衣服或该打扮成什么样子。",
+      "type": "radio",
+      "orderNum": 11,
+      "options": [
+        {
+          "id": 8137,
+          "optionNo": "A",
+          "text": "从不",
+          "value": "1"
+        },
+        {
+          "id": 8138,
+          "optionNo": "B",
+          "text": "偶尔",
+          "value": "2"
+        },
+        {
+          "id": 8139,
+          "optionNo": "C",
+          "text": "经常",
+          "value": "3"
+        },
+        {
+          "id": 8140,
+          "optionNo": "D",
+          "text": "总是",
+          "value": "4"
+        },
+        {
+          "id": 8141,
+          "optionNo": "E",
+          "text": "题目不适",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2050,
+      "text": "父亲不允许我做一些其它孩子可以做的事情，因为他们害怕我会出事。",
+      "type": "radio",
+      "orderNum": 12,
+      "options": [
+        {
+          "id": 8142,
+          "optionNo": "A",
+          "text": "从不",
+          "value": "1"
+        },
+        {
+          "id": 8143,
+          "optionNo": "B",
+          "text": "偶尔",
+          "value": "2"
+        },
+        {
+          "id": 8144,
+          "optionNo": "C",
+          "text": "经常",
+          "value": "3"
+        },
+        {
+          "id": 8145,
+          "optionNo": "D",
+          "text": "总是",
+          "value": "4"
+        },
+        {
+          "id": 8146,
+          "optionNo": "E",
+          "text": "题目不适",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2051,
+      "text": "在我小时候，父亲曾当着别人面打我或训斥我。",
+      "type": "radio",
+      "orderNum": 13,
+      "options": [
+        {
+          "id": 8147,
+          "optionNo": "A",
+          "text": "从不",
+          "value": "1"
+        },
+        {
+          "id": 8148,
+          "optionNo": "B",
+          "text": "偶尔",
+          "value": "2"
+        },
+        {
+          "id": 8149,
+          "optionNo": "C",
+          "text": "经常",
+          "value": "3"
+        },
+        {
+          "id": 8150,
+          "optionNo": "D",
+          "text": "总是",
+          "value": "4"
+        },
+        {
+          "id": 8151,
+          "optionNo": "E",
+          "text": "题目不适",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2052,
+      "text": "父亲总是很关注我晚上干什么。",
+      "type": "radio",
+      "orderNum": 14,
+      "options": [
+        {
+          "id": 8152,
+          "optionNo": "A",
+          "text": "从不",
+          "value": "1"
+        },
+        {
+          "id": 8153,
+          "optionNo": "B",
+          "text": "偶尔",
+          "value": "2"
+        },
+        {
+          "id": 8154,
+          "optionNo": "C",
+          "text": "经常",
+          "value": "3"
+        },
+        {
+          "id": 8155,
+          "optionNo": "D",
+          "text": "总是",
+          "value": "4"
+        },
+        {
+          "id": 8156,
+          "optionNo": "E",
+          "text": "题目不适",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2053,
+      "text": "当遇到不顺心的事时，我能感到父亲在尽量鼓励我，使我得到一些安慰。",
+      "type": "radio",
+      "orderNum": 15,
+      "options": [
+        {
+          "id": 8157,
+          "optionNo": "A",
+          "text": "从不",
+          "value": "1"
+        },
+        {
+          "id": 8158,
+          "optionNo": "B",
+          "text": "偶尔",
+          "value": "2"
+        },
+        {
+          "id": 8159,
+          "optionNo": "C",
+          "text": "经常",
+          "value": "3"
+        },
+        {
+          "id": 8160,
+          "optionNo": "D",
+          "text": "总是",
+          "value": "4"
+        },
+        {
+          "id": 8161,
+          "optionNo": "E",
+          "text": "题目不适",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2054,
+      "text": "父亲总是过分担心我的健康。",
+      "type": "radio",
+      "orderNum": 16,
+      "options": [
+        {
+          "id": 8162,
+          "optionNo": "A",
+          "text": "从不",
+          "value": "1"
+        },
+        {
+          "id": 8163,
+          "optionNo": "B",
+          "text": "偶尔",
+          "value": "2"
+        },
+        {
+          "id": 8164,
+          "optionNo": "C",
+          "text": "经常",
+          "value": "3"
+        },
+        {
+          "id": 8165,
+          "optionNo": "D",
+          "text": "总是",
+          "value": "4"
+        },
+        {
+          "id": 8166,
+          "optionNo": "E",
+          "text": "题目不适",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2055,
+      "text": "父亲对我的惩罚往往超过我应受的程度。",
+      "type": "radio",
+      "orderNum": 17,
+      "options": [
+        {
+          "id": 8167,
+          "optionNo": "A",
+          "text": "从不",
+          "value": "1"
+        },
+        {
+          "id": 8168,
+          "optionNo": "B",
+          "text": "偶尔",
+          "value": "2"
+        },
+        {
+          "id": 8169,
+          "optionNo": "C",
+          "text": "经常",
+          "value": "3"
+        },
+        {
+          "id": 8170,
+          "optionNo": "D",
+          "text": "总是",
+          "value": "4"
+        },
+        {
+          "id": 8171,
+          "optionNo": "E",
+          "text": "题目不适",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2056,
+      "text": "如果我在家里不听吩咐，父亲就会恼火。",
+      "type": "radio",
+      "orderNum": 18,
+      "options": [
+        {
+          "id": 8172,
+          "optionNo": "A",
+          "text": "从不",
+          "value": "1"
+        },
+        {
+          "id": 8173,
+          "optionNo": "B",
+          "text": "偶尔",
+          "value": "2"
+        },
+        {
+          "id": 8174,
+          "optionNo": "C",
+          "text": "经常",
+          "value": "3"
+        },
+        {
+          "id": 8175,
+          "optionNo": "D",
+          "text": "总是",
+          "value": "4"
+        },
+        {
+          "id": 8176,
+          "optionNo": "E",
+          "text": "题目不适",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2057,
+      "text": "如果我做错了什么事，父亲总是以一种伤心样子使我有一种犯罪感或负疚感。",
+      "type": "radio",
+      "orderNum": 19,
+      "options": [
+        {
+          "id": 8177,
+          "optionNo": "A",
+          "text": "从不",
+          "value": "1"
+        },
+        {
+          "id": 8178,
+          "optionNo": "B",
+          "text": "偶尔",
+          "value": "2"
+        },
+        {
+          "id": 8179,
+          "optionNo": "C",
+          "text": "经常",
+          "value": "3"
+        },
+        {
+          "id": 8180,
+          "optionNo": "D",
+          "text": "总是",
+          "value": "4"
+        },
+        {
+          "id": 8181,
+          "optionNo": "E",
+          "text": "题目不适",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2058,
+      "text": "我觉得父亲难以接近。",
+      "type": "radio",
+      "orderNum": 20,
+      "options": [
+        {
+          "id": 8182,
+          "optionNo": "A",
+          "text": "从不",
+          "value": "4"
+        },
+        {
+          "id": 8183,
+          "optionNo": "B",
+          "text": "偶尔",
+          "value": "3"
+        },
+        {
+          "id": 8184,
+          "optionNo": "C",
+          "text": "经常",
+          "value": "2"
+        },
+        {
+          "id": 8185,
+          "optionNo": "D",
+          "text": "总是",
+          "value": "1"
+        },
+        {
+          "id": 8186,
+          "optionNo": "E",
+          "text": "题目不适",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2059,
+      "text": "父亲曾在别人面前唠叨一些我说过的话或做过的事，这使我感到很难堪。",
+      "type": "radio",
+      "orderNum": 21,
+      "options": [
+        {
+          "id": 8187,
+          "optionNo": "A",
+          "text": "从不",
+          "value": "1"
+        },
+        {
+          "id": 8188,
+          "optionNo": "B",
+          "text": "偶尔",
+          "value": "2"
+        },
+        {
+          "id": 8189,
+          "optionNo": "C",
+          "text": "经常",
+          "value": "3"
+        },
+        {
+          "id": 8190,
+          "optionNo": "D",
+          "text": "总是",
+          "value": "4"
+        },
+        {
+          "id": 8191,
+          "optionNo": "E",
+          "text": "题目不适",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2060,
+      "text": "我觉得父亲更喜欢我，而不是我的兄弟姐妹。",
+      "type": "radio",
+      "orderNum": 22,
+      "options": [
+        {
+          "id": 8192,
+          "optionNo": "A",
+          "text": "从不",
+          "value": "1"
+        },
+        {
+          "id": 8193,
+          "optionNo": "B",
+          "text": "偶尔",
+          "value": "2"
+        },
+        {
+          "id": 8194,
+          "optionNo": "C",
+          "text": "经常",
+          "value": "3"
+        },
+        {
+          "id": 8195,
+          "optionNo": "D",
+          "text": "总是",
+          "value": "4"
+        },
+        {
+          "id": 8196,
+          "optionNo": "E",
+          "text": "题目不适",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2061,
+      "text": "在满足我需要的东西，父亲是很小气的。",
+      "type": "radio",
+      "orderNum": 23,
+      "options": [
+        {
+          "id": 8197,
+          "optionNo": "A",
+          "text": "从不",
+          "value": "1"
+        },
+        {
+          "id": 8198,
+          "optionNo": "B",
+          "text": "偶尔",
+          "value": "2"
+        },
+        {
+          "id": 8199,
+          "optionNo": "C",
+          "text": "经常",
+          "value": "3"
+        },
+        {
+          "id": 8200,
+          "optionNo": "D",
+          "text": "总是",
+          "value": "4"
+        },
+        {
+          "id": 8201,
+          "optionNo": "E",
+          "text": "题目不适",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2062,
+      "text": "父亲常常很在乎我取得分数。",
+      "type": "radio",
+      "orderNum": 24,
+      "options": [
+        {
+          "id": 8202,
+          "optionNo": "A",
+          "text": "从不",
+          "value": "1"
+        },
+        {
+          "id": 8203,
+          "optionNo": "B",
+          "text": "偶尔",
+          "value": "2"
+        },
+        {
+          "id": 8204,
+          "optionNo": "C",
+          "text": "经常",
+          "value": "3"
+        },
+        {
+          "id": 8205,
+          "optionNo": "D",
+          "text": "总是",
+          "value": "4"
+        },
+        {
+          "id": 8206,
+          "optionNo": "E",
+          "text": "题目不适",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2063,
+      "text": "如果面临一项困难的任务，我能感到来自父亲的支持。",
+      "type": "radio",
+      "orderNum": 25,
+      "options": [
+        {
+          "id": 8207,
+          "optionNo": "A",
+          "text": "从不",
+          "value": "1"
+        },
+        {
+          "id": 8208,
+          "optionNo": "B",
+          "text": "偶尔",
+          "value": "2"
+        },
+        {
+          "id": 8209,
+          "optionNo": "C",
+          "text": "经常",
+          "value": "3"
+        },
+        {
+          "id": 8210,
+          "optionNo": "D",
+          "text": "总是",
+          "value": "4"
+        },
+        {
+          "id": 8211,
+          "optionNo": "E",
+          "text": "题目不适",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2064,
+      "text": "我在家里往往被父亲当做\"替罪羊\"或\"害群之马\"。",
+      "type": "radio",
+      "orderNum": 26,
+      "options": [
+        {
+          "id": 8212,
+          "optionNo": "A",
+          "text": "从不",
+          "value": "1"
+        },
+        {
+          "id": 8213,
+          "optionNo": "B",
+          "text": "偶尔",
+          "value": "2"
+        },
+        {
+          "id": 8214,
+          "optionNo": "C",
+          "text": "经常",
+          "value": "3"
+        },
+        {
+          "id": 8215,
+          "optionNo": "D",
+          "text": "总是",
+          "value": "4"
+        },
+        {
+          "id": 8216,
+          "optionNo": "E",
+          "text": "题目不适",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2065,
+      "text": "父亲总是挑剔我所喜欢的朋友。",
+      "type": "radio",
+      "orderNum": 27,
+      "options": [
+        {
+          "id": 8217,
+          "optionNo": "A",
+          "text": "从不",
+          "value": "1"
+        },
+        {
+          "id": 8218,
+          "optionNo": "B",
+          "text": "偶尔",
+          "value": "2"
+        },
+        {
+          "id": 8219,
+          "optionNo": "C",
+          "text": "经常",
+          "value": "3"
+        },
+        {
+          "id": 8220,
+          "optionNo": "D",
+          "text": "总是",
+          "value": "4"
+        },
+        {
+          "id": 8221,
+          "optionNo": "E",
+          "text": "题目不适",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2066,
+      "text": "父亲总以为他们的不快是由我引起的。",
+      "type": "radio",
+      "orderNum": 28,
+      "options": [
+        {
+          "id": 8222,
+          "optionNo": "A",
+          "text": "从不",
+          "value": "1"
+        },
+        {
+          "id": 8223,
+          "optionNo": "B",
+          "text": "偶尔",
+          "value": "2"
+        },
+        {
+          "id": 8224,
+          "optionNo": "C",
+          "text": "经常",
+          "value": "3"
+        },
+        {
+          "id": 8225,
+          "optionNo": "D",
+          "text": "总是",
+          "value": "4"
+        },
+        {
+          "id": 8226,
+          "optionNo": "E",
+          "text": "题目不适",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2067,
+      "text": "父亲总试图鼓励我，使我成为佼佼者。",
+      "type": "radio",
+      "orderNum": 29,
+      "options": [
+        {
+          "id": 8227,
+          "optionNo": "A",
+          "text": "从不",
+          "value": "1"
+        },
+        {
+          "id": 8228,
+          "optionNo": "B",
+          "text": "偶尔",
+          "value": "2"
+        },
+        {
+          "id": 8229,
+          "optionNo": "C",
+          "text": "经常",
+          "value": "3"
+        },
+        {
+          "id": 8230,
+          "optionNo": "D",
+          "text": "总是",
+          "value": "4"
+        },
+        {
+          "id": 8231,
+          "optionNo": "E",
+          "text": "题目不适",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2068,
+      "text": "父亲总向我表示他们是爱我的。",
+      "type": "radio",
+      "orderNum": 30,
+      "options": [
+        {
+          "id": 8232,
+          "optionNo": "A",
+          "text": "从不",
+          "value": "1"
+        },
+        {
+          "id": 8233,
+          "optionNo": "B",
+          "text": "偶尔",
+          "value": "2"
+        },
+        {
+          "id": 8234,
+          "optionNo": "C",
+          "text": "经常",
+          "value": "3"
+        },
+        {
+          "id": 8235,
+          "optionNo": "D",
+          "text": "总是",
+          "value": "4"
+        },
+        {
+          "id": 8236,
+          "optionNo": "E",
+          "text": "题目不适",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2069,
+      "text": "父亲对我很信任且允许我独自完成某些事。",
+      "type": "radio",
+      "orderNum": 31,
+      "options": [
+        {
+          "id": 8237,
+          "optionNo": "A",
+          "text": "从不",
+          "value": "1"
+        },
+        {
+          "id": 8238,
+          "optionNo": "B",
+          "text": "偶尔",
+          "value": "2"
+        },
+        {
+          "id": 8239,
+          "optionNo": "C",
+          "text": "经常",
+          "value": "3"
+        },
+        {
+          "id": 8240,
+          "optionNo": "D",
+          "text": "总是",
+          "value": "4"
+        },
+        {
+          "id": 8241,
+          "optionNo": "E",
+          "text": "题目不适",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2070,
+      "text": "我觉得父亲很尊重我的观点。",
+      "type": "radio",
+      "orderNum": 32,
+      "options": [
+        {
+          "id": 8242,
+          "optionNo": "A",
+          "text": "从不",
+          "value": "1"
+        },
+        {
+          "id": 8243,
+          "optionNo": "B",
+          "text": "偶尔",
+          "value": "2"
+        },
+        {
+          "id": 8244,
+          "optionNo": "C",
+          "text": "经常",
+          "value": "3"
+        },
+        {
+          "id": 8245,
+          "optionNo": "D",
+          "text": "总是",
+          "value": "4"
+        },
+        {
+          "id": 8246,
+          "optionNo": "E",
+          "text": "题目不适",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2071,
+      "text": "我觉得父亲很愿意跟我在一起。",
+      "type": "radio",
+      "orderNum": 33,
+      "options": [
+        {
+          "id": 8247,
+          "optionNo": "A",
+          "text": "从不",
+          "value": "1"
+        },
+        {
+          "id": 8248,
+          "optionNo": "B",
+          "text": "偶尔",
+          "value": "2"
+        },
+        {
+          "id": 8249,
+          "optionNo": "C",
+          "text": "经常",
+          "value": "3"
+        },
+        {
+          "id": 8250,
+          "optionNo": "D",
+          "text": "总是",
+          "value": "4"
+        },
+        {
+          "id": 8251,
+          "optionNo": "E",
+          "text": "题目不适",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2072,
+      "text": "我觉得父亲对我很小气、很吝啬。",
+      "type": "radio",
+      "orderNum": 34,
+      "options": [
+        {
+          "id": 8252,
+          "optionNo": "A",
+          "text": "从不",
+          "value": "1"
+        },
+        {
+          "id": 8253,
+          "optionNo": "B",
+          "text": "偶尔",
+          "value": "2"
+        },
+        {
+          "id": 8254,
+          "optionNo": "C",
+          "text": "经常",
+          "value": "3"
+        },
+        {
+          "id": 8255,
+          "optionNo": "D",
+          "text": "总是",
+          "value": "4"
+        },
+        {
+          "id": 8256,
+          "optionNo": "E",
+          "text": "题目不适",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2073,
+      "text": "父亲总是向我说类似这样的话\"如果你这样做我会很伤心\"。",
+      "type": "radio",
+      "orderNum": 35,
+      "options": [
+        {
+          "id": 8257,
+          "optionNo": "A",
+          "text": "从不",
+          "value": "1"
+        },
+        {
+          "id": 8258,
+          "optionNo": "B",
+          "text": "偶尔",
+          "value": "2"
+        },
+        {
+          "id": 8259,
+          "optionNo": "C",
+          "text": "经常",
+          "value": "3"
+        },
+        {
+          "id": 8260,
+          "optionNo": "D",
+          "text": "总是",
+          "value": "4"
+        },
+        {
+          "id": 8261,
+          "optionNo": "E",
+          "text": "题目不适",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2074,
+      "text": "父亲要求我回到家里必须得向他们说明我在做的事情。",
+      "type": "radio",
+      "orderNum": 36,
+      "options": [
+        {
+          "id": 8262,
+          "optionNo": "A",
+          "text": "从不",
+          "value": "1"
+        },
+        {
+          "id": 8263,
+          "optionNo": "B",
+          "text": "偶尔",
+          "value": "2"
+        },
+        {
+          "id": 8264,
+          "optionNo": "C",
+          "text": "经常",
+          "value": "3"
+        },
+        {
+          "id": 8265,
+          "optionNo": "D",
+          "text": "总是",
+          "value": "4"
+        },
+        {
+          "id": 8266,
+          "optionNo": "E",
+          "text": "题目不适",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2075,
+      "text": "我觉得父亲在尽量使我的青春更有意义和丰富多彩(如给我买很多的书，安排我去夏令营或参加俱乐部)。",
+      "type": "radio",
+      "orderNum": 37,
+      "options": [
+        {
+          "id": 8267,
+          "optionNo": "A",
+          "text": "从不",
+          "value": "1"
+        },
+        {
+          "id": 8268,
+          "optionNo": "B",
+          "text": "偶尔",
+          "value": "2"
+        },
+        {
+          "id": 8269,
+          "optionNo": "C",
+          "text": "经常",
+          "value": "3"
+        },
+        {
+          "id": 8270,
+          "optionNo": "D",
+          "text": "总是",
+          "value": "4"
+        },
+        {
+          "id": 8271,
+          "optionNo": "E",
+          "text": "题目不适",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2076,
+      "text": "父亲经常向我表述类似这样的话\"这就是我们为你整日操劳而得到的报答吗?\"",
+      "type": "radio",
+      "orderNum": 38,
+      "options": [
+        {
+          "id": 8272,
+          "optionNo": "A",
+          "text": "从不",
+          "value": "1"
+        },
+        {
+          "id": 8273,
+          "optionNo": "B",
+          "text": "偶尔",
+          "value": "2"
+        },
+        {
+          "id": 8274,
+          "optionNo": "C",
+          "text": "经常",
+          "value": "3"
+        },
+        {
+          "id": 8275,
+          "optionNo": "D",
+          "text": "总是",
+          "value": "4"
+        },
+        {
+          "id": 8276,
+          "optionNo": "E",
+          "text": "题目不适",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2077,
+      "text": "父亲常以不能娇惯我为借口不满足我的要求。",
+      "type": "radio",
+      "orderNum": 39,
+      "options": [
+        {
+          "id": 8277,
+          "optionNo": "A",
+          "text": "从不",
+          "value": "1"
+        },
+        {
+          "id": 8278,
+          "optionNo": "B",
+          "text": "偶尔",
+          "value": "2"
+        },
+        {
+          "id": 8279,
+          "optionNo": "C",
+          "text": "经常",
+          "value": "3"
+        },
+        {
+          "id": 8280,
+          "optionNo": "D",
+          "text": "总是",
+          "value": "4"
+        },
+        {
+          "id": 8281,
+          "optionNo": "E",
+          "text": "题目不适",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2078,
+      "text": "如果不按父亲所期望的去做，就会使我在良心上感到很不安。",
+      "type": "radio",
+      "orderNum": 40,
+      "options": [
+        {
+          "id": 8282,
+          "optionNo": "A",
+          "text": "从不",
+          "value": "1"
+        },
+        {
+          "id": 8283,
+          "optionNo": "B",
+          "text": "偶尔",
+          "value": "2"
+        },
+        {
+          "id": 8284,
+          "optionNo": "C",
+          "text": "经常",
+          "value": "3"
+        },
+        {
+          "id": 8285,
+          "optionNo": "D",
+          "text": "总是",
+          "value": "4"
+        },
+        {
+          "id": 8286,
+          "optionNo": "E",
+          "text": "题目不适",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2079,
+      "text": "我觉得父亲对我的学习成绩，体育活动或类似的事情有较高的要求。",
+      "type": "radio",
+      "orderNum": 41,
+      "options": [
+        {
+          "id": 8287,
+          "optionNo": "A",
+          "text": "从不",
+          "value": "1"
+        },
+        {
+          "id": 8288,
+          "optionNo": "B",
+          "text": "偶尔",
+          "value": "2"
+        },
+        {
+          "id": 8289,
+          "optionNo": "C",
+          "text": "经常",
+          "value": "3"
+        },
+        {
+          "id": 8290,
+          "optionNo": "D",
+          "text": "总是",
+          "value": "4"
+        },
+        {
+          "id": 8291,
+          "optionNo": "E",
+          "text": "题目不适",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2080,
+      "text": "当我感到伤心的时候可以从父亲那儿得到安慰。",
+      "type": "radio",
+      "orderNum": 42,
+      "options": [
+        {
+          "id": 8292,
+          "optionNo": "A",
+          "text": "从不",
+          "value": "1"
+        },
+        {
+          "id": 8293,
+          "optionNo": "B",
+          "text": "偶尔",
+          "value": "2"
+        },
+        {
+          "id": 8294,
+          "optionNo": "C",
+          "text": "经常",
+          "value": "3"
+        },
+        {
+          "id": 8295,
+          "optionNo": "D",
+          "text": "总是",
+          "value": "4"
+        },
+        {
+          "id": 8296,
+          "optionNo": "E",
+          "text": "题目不适",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2081,
+      "text": "父亲曾无缘无故地惩罚我。",
+      "type": "radio",
+      "orderNum": 43,
+      "options": [
+        {
+          "id": 8297,
+          "optionNo": "A",
+          "text": "从不",
+          "value": "1"
+        },
+        {
+          "id": 8298,
+          "optionNo": "B",
+          "text": "偶尔",
+          "value": "2"
+        },
+        {
+          "id": 8299,
+          "optionNo": "C",
+          "text": "经常",
+          "value": "3"
+        },
+        {
+          "id": 8300,
+          "optionNo": "D",
+          "text": "总是",
+          "value": "4"
+        },
+        {
+          "id": 8301,
+          "optionNo": "E",
+          "text": "题目不适",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2082,
+      "text": "父亲允许我做一些我的朋友们做的事情。",
+      "type": "radio",
+      "orderNum": 44,
+      "options": [
+        {
+          "id": 8302,
+          "optionNo": "A",
+          "text": "从不",
+          "value": "1"
+        },
+        {
+          "id": 8303,
+          "optionNo": "B",
+          "text": "偶尔",
+          "value": "2"
+        },
+        {
+          "id": 8304,
+          "optionNo": "C",
+          "text": "经常",
+          "value": "3"
+        },
+        {
+          "id": 8305,
+          "optionNo": "D",
+          "text": "总是",
+          "value": "4"
+        },
+        {
+          "id": 8306,
+          "optionNo": "E",
+          "text": "题目不适",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2083,
+      "text": "父亲经常对我说他们不喜欢我在家的表现。",
+      "type": "radio",
+      "orderNum": 45,
+      "options": [
+        {
+          "id": 8307,
+          "optionNo": "A",
+          "text": "从不",
+          "value": "1"
+        },
+        {
+          "id": 8308,
+          "optionNo": "B",
+          "text": "偶尔",
+          "value": "2"
+        },
+        {
+          "id": 8309,
+          "optionNo": "C",
+          "text": "经常",
+          "value": "3"
+        },
+        {
+          "id": 8310,
+          "optionNo": "D",
+          "text": "总是",
+          "value": "4"
+        },
+        {
+          "id": 8311,
+          "optionNo": "E",
+          "text": "题目不适",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2084,
+      "text": "每当我吃饭时，父亲就劝我或强迫我再多吃一些。",
+      "type": "radio",
+      "orderNum": 46,
+      "options": [
+        {
+          "id": 8312,
+          "optionNo": "A",
+          "text": "从不",
+          "value": "1"
+        },
+        {
+          "id": 8313,
+          "optionNo": "B",
+          "text": "偶尔",
+          "value": "2"
+        },
+        {
+          "id": 8314,
+          "optionNo": "C",
+          "text": "经常",
+          "value": "3"
+        },
+        {
+          "id": 8315,
+          "optionNo": "D",
+          "text": "总是",
+          "value": "4"
+        },
+        {
+          "id": 8316,
+          "optionNo": "E",
+          "text": "题目不适",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2085,
+      "text": "父亲经常当着别人的面批评我既懒惰，又无用。",
+      "type": "radio",
+      "orderNum": 47,
+      "options": [
+        {
+          "id": 8317,
+          "optionNo": "A",
+          "text": "从不",
+          "value": "1"
+        },
+        {
+          "id": 8318,
+          "optionNo": "B",
+          "text": "偶尔",
+          "value": "2"
+        },
+        {
+          "id": 8319,
+          "optionNo": "C",
+          "text": "经常",
+          "value": "3"
+        },
+        {
+          "id": 8320,
+          "optionNo": "D",
+          "text": "总是",
+          "value": "4"
+        },
+        {
+          "id": 8321,
+          "optionNo": "E",
+          "text": "题目不适",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2086,
+      "text": "父亲常常关注我交往什么样的朋友。",
+      "type": "radio",
+      "orderNum": 48,
+      "options": [
+        {
+          "id": 8322,
+          "optionNo": "A",
+          "text": "从不",
+          "value": "1"
+        },
+        {
+          "id": 8323,
+          "optionNo": "B",
+          "text": "偶尔",
+          "value": "2"
+        },
+        {
+          "id": 8324,
+          "optionNo": "C",
+          "text": "经常",
+          "value": "3"
+        },
+        {
+          "id": 8325,
+          "optionNo": "D",
+          "text": "总是",
+          "value": "4"
+        },
+        {
+          "id": 8326,
+          "optionNo": "E",
+          "text": "题目不适",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2087,
+      "text": "如果发生什么事情，我常常是兄弟姐妹中唯一受父亲责备的一个。",
+      "type": "radio",
+      "orderNum": 49,
+      "options": [
+        {
+          "id": 8327,
+          "optionNo": "A",
+          "text": "从不",
+          "value": "1"
+        },
+        {
+          "id": 8328,
+          "optionNo": "B",
+          "text": "偶尔",
+          "value": "2"
+        },
+        {
+          "id": 8329,
+          "optionNo": "C",
+          "text": "经常",
+          "value": "3"
+        },
+        {
+          "id": 8330,
+          "optionNo": "D",
+          "text": "总是",
+          "value": "4"
+        },
+        {
+          "id": 8331,
+          "optionNo": "E",
+          "text": "题目不适",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2088,
+      "text": "父亲能让我顺其自然地发展。",
+      "type": "radio",
+      "orderNum": 50,
+      "options": [
+        {
+          "id": 8332,
+          "optionNo": "A",
+          "text": "从不",
+          "value": "4"
+        },
+        {
+          "id": 8333,
+          "optionNo": "B",
+          "text": "偶尔",
+          "value": "3"
+        },
+        {
+          "id": 8334,
+          "optionNo": "C",
+          "text": "经常",
+          "value": "2"
+        },
+        {
+          "id": 8335,
+          "optionNo": "D",
+          "text": "总是",
+          "value": "1"
+        },
+        {
+          "id": 8336,
+          "optionNo": "E",
+          "text": "题目不适",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2089,
+      "text": "父亲经常对我粗俗无礼。",
+      "type": "radio",
+      "orderNum": 51,
+      "options": [
+        {
+          "id": 8337,
+          "optionNo": "A",
+          "text": "从不",
+          "value": "1"
+        },
+        {
+          "id": 8338,
+          "optionNo": "B",
+          "text": "偶尔",
+          "value": "2"
+        },
+        {
+          "id": 8339,
+          "optionNo": "C",
+          "text": "经常",
+          "value": "3"
+        },
+        {
+          "id": 8340,
+          "optionNo": "D",
+          "text": "总是",
+          "value": "4"
+        },
+        {
+          "id": 8341,
+          "optionNo": "E",
+          "text": "题目不适",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2090,
+      "text": "有时甚至为一点儿鸡毛蒜皮的小事，父亲也会严厉地惩罚我。",
+      "type": "radio",
+      "orderNum": 52,
+      "options": [
+        {
+          "id": 8342,
+          "optionNo": "A",
+          "text": "从不",
+          "value": "1"
+        },
+        {
+          "id": 8343,
+          "optionNo": "B",
+          "text": "偶尔",
+          "value": "2"
+        },
+        {
+          "id": 8344,
+          "optionNo": "C",
+          "text": "经常",
+          "value": "3"
+        },
+        {
+          "id": 8345,
+          "optionNo": "D",
+          "text": "总是",
+          "value": "4"
+        },
+        {
+          "id": 8346,
+          "optionNo": "E",
+          "text": "题目不适",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2091,
+      "text": "父亲曾无缘无故地打过我。",
+      "type": "radio",
+      "orderNum": 53,
+      "options": [
+        {
+          "id": 8347,
+          "optionNo": "A",
+          "text": "从不",
+          "value": "1"
+        },
+        {
+          "id": 8348,
+          "optionNo": "B",
+          "text": "偶尔",
+          "value": "2"
+        },
+        {
+          "id": 8349,
+          "optionNo": "C",
+          "text": "经常",
+          "value": "3"
+        },
+        {
+          "id": 8350,
+          "optionNo": "D",
+          "text": "总是",
+          "value": "4"
+        },
+        {
+          "id": 8351,
+          "optionNo": "E",
+          "text": "题目不适",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2092,
+      "text": "父亲通常会参与我的业余爱好活动。",
+      "type": "radio",
+      "orderNum": 54,
+      "options": [
+        {
+          "id": 8352,
+          "optionNo": "A",
+          "text": "从不",
+          "value": "1"
+        },
+        {
+          "id": 8353,
+          "optionNo": "B",
+          "text": "偶尔",
+          "value": "2"
+        },
+        {
+          "id": 8354,
+          "optionNo": "C",
+          "text": "经常",
+          "value": "3"
+        },
+        {
+          "id": 8355,
+          "optionNo": "D",
+          "text": "总是",
+          "value": "4"
+        },
+        {
+          "id": 8356,
+          "optionNo": "E",
+          "text": "题目不适",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2093,
+      "text": "我经常挨父亲的打。",
+      "type": "radio",
+      "orderNum": 55,
+      "options": [
+        {
+          "id": 8357,
+          "optionNo": "A",
+          "text": "从不",
+          "value": "1"
+        },
+        {
+          "id": 8358,
+          "optionNo": "B",
+          "text": "偶尔",
+          "value": "2"
+        },
+        {
+          "id": 8359,
+          "optionNo": "C",
+          "text": "经常",
+          "value": "3"
+        },
+        {
+          "id": 8360,
+          "optionNo": "D",
+          "text": "总是",
+          "value": "4"
+        },
+        {
+          "id": 8361,
+          "optionNo": "E",
+          "text": "题目不适",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2094,
+      "text": "父亲常常允许我到我喜欢去的地方，而他们又不会过分担心。",
+      "type": "radio",
+      "orderNum": 56,
+      "options": [
+        {
+          "id": 8362,
+          "optionNo": "A",
+          "text": "从不",
+          "value": "4"
+        },
+        {
+          "id": 8363,
+          "optionNo": "B",
+          "text": "偶尔",
+          "value": "3"
+        },
+        {
+          "id": 8364,
+          "optionNo": "C",
+          "text": "经常",
+          "value": "2"
+        },
+        {
+          "id": 8365,
+          "optionNo": "D",
+          "text": "总是",
+          "value": "1"
+        },
+        {
+          "id": 8366,
+          "optionNo": "E",
+          "text": "题目不适",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2095,
+      "text": "父亲对我该做什么、不该做什么都有严格的限制而且绝不让步。",
+      "type": "radio",
+      "orderNum": 57,
+      "options": [
+        {
+          "id": 8367,
+          "optionNo": "A",
+          "text": "从不",
+          "value": "1"
+        },
+        {
+          "id": 8368,
+          "optionNo": "B",
+          "text": "偶尔",
+          "value": "2"
+        },
+        {
+          "id": 8369,
+          "optionNo": "C",
+          "text": "经常",
+          "value": "3"
+        },
+        {
+          "id": 8370,
+          "optionNo": "D",
+          "text": "总是",
+          "value": "4"
+        },
+        {
+          "id": 8371,
+          "optionNo": "E",
+          "text": "题目不适",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2096,
+      "text": "父亲常以一种使我很难堪的方式对待我。",
+      "type": "radio",
+      "orderNum": 58,
+      "options": [
+        {
+          "id": 8372,
+          "optionNo": "A",
+          "text": "从不",
+          "value": "1"
+        },
+        {
+          "id": 8373,
+          "optionNo": "B",
+          "text": "偶尔",
+          "value": "2"
+        },
+        {
+          "id": 8374,
+          "optionNo": "C",
+          "text": "经常",
+          "value": "3"
+        },
+        {
+          "id": 8375,
+          "optionNo": "D",
+          "text": "总是",
+          "value": "4"
+        },
+        {
+          "id": 8376,
+          "optionNo": "E",
+          "text": "题目不适",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2097,
+      "text": "我觉得父亲对我可能出事的担心是夸大的、过分的。",
+      "type": "radio",
+      "orderNum": 59,
+      "options": [
+        {
+          "id": 8377,
+          "optionNo": "A",
+          "text": "从不",
+          "value": "1"
+        },
+        {
+          "id": 8378,
+          "optionNo": "B",
+          "text": "偶尔",
+          "value": "2"
+        },
+        {
+          "id": 8379,
+          "optionNo": "C",
+          "text": "经常",
+          "value": "3"
+        },
+        {
+          "id": 8380,
+          "optionNo": "D",
+          "text": "总是",
+          "value": "4"
+        },
+        {
+          "id": 8381,
+          "optionNo": "E",
+          "text": "题目不适",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2098,
+      "text": "我觉得与父亲之间存在一种温暖、体贴和亲热感觉。",
+      "type": "radio",
+      "orderNum": 60,
+      "options": [
+        {
+          "id": 8382,
+          "optionNo": "A",
+          "text": "从不",
+          "value": "1"
+        },
+        {
+          "id": 8383,
+          "optionNo": "B",
+          "text": "偶尔",
+          "value": "2"
+        },
+        {
+          "id": 8384,
+          "optionNo": "C",
+          "text": "经常",
+          "value": "3"
+        },
+        {
+          "id": 8385,
+          "optionNo": "D",
+          "text": "总是",
+          "value": "4"
+        },
+        {
+          "id": 8386,
+          "optionNo": "E",
+          "text": "题目不适",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2099,
+      "text": "父亲能容忍我与他们有不同的见解。",
+      "type": "radio",
+      "orderNum": 61,
+      "options": [
+        {
+          "id": 8387,
+          "optionNo": "A",
+          "text": "从不",
+          "value": "1"
+        },
+        {
+          "id": 8388,
+          "optionNo": "B",
+          "text": "偶尔",
+          "value": "2"
+        },
+        {
+          "id": 8389,
+          "optionNo": "C",
+          "text": "经常",
+          "value": "3"
+        },
+        {
+          "id": 8390,
+          "optionNo": "D",
+          "text": "总是",
+          "value": "4"
+        },
+        {
+          "id": 8391,
+          "optionNo": "E",
+          "text": "题目不适",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2100,
+      "text": "父亲常常在我不知道原因的情况下对我大发脾气。",
+      "type": "radio",
+      "orderNum": 62,
+      "options": [
+        {
+          "id": 8392,
+          "optionNo": "A",
+          "text": "从不",
+          "value": "1"
+        },
+        {
+          "id": 8393,
+          "optionNo": "B",
+          "text": "偶尔",
+          "value": "2"
+        },
+        {
+          "id": 8394,
+          "optionNo": "C",
+          "text": "经常",
+          "value": "3"
+        },
+        {
+          "id": 8395,
+          "optionNo": "D",
+          "text": "总是",
+          "value": "4"
+        },
+        {
+          "id": 8396,
+          "optionNo": "E",
+          "text": "题目不适",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2101,
+      "text": "当我所做的事取得成功时，我觉得父亲很为我自豪。",
+      "type": "radio",
+      "orderNum": 63,
+      "options": [
+        {
+          "id": 8397,
+          "optionNo": "A",
+          "text": "从不",
+          "value": "1"
+        },
+        {
+          "id": 8398,
+          "optionNo": "B",
+          "text": "偶尔",
+          "value": "2"
+        },
+        {
+          "id": 8399,
+          "optionNo": "C",
+          "text": "经常",
+          "value": "3"
+        },
+        {
+          "id": 8400,
+          "optionNo": "D",
+          "text": "总是",
+          "value": "4"
+        },
+        {
+          "id": 8401,
+          "optionNo": "E",
+          "text": "题目不适",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2102,
+      "text": "与我的兄弟姐妹相比，父亲常常偏爱我。",
+      "type": "radio",
+      "orderNum": 64,
+      "options": [
+        {
+          "id": 8402,
+          "optionNo": "A",
+          "text": "从不",
+          "value": "1"
+        },
+        {
+          "id": 8403,
+          "optionNo": "B",
+          "text": "偶尔",
+          "value": "2"
+        },
+        {
+          "id": 8404,
+          "optionNo": "C",
+          "text": "经常",
+          "value": "3"
+        },
+        {
+          "id": 8405,
+          "optionNo": "D",
+          "text": "总是",
+          "value": "4"
+        },
+        {
+          "id": 8406,
+          "optionNo": "E",
+          "text": "题目不适",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2103,
+      "text": "有时即使错误在我，父亲也把责任归咎于兄弟姐妹。",
+      "type": "radio",
+      "orderNum": 65,
+      "options": [
+        {
+          "id": 8407,
+          "optionNo": "A",
+          "text": "从不",
+          "value": "1"
+        },
+        {
+          "id": 8408,
+          "optionNo": "B",
+          "text": "偶尔",
+          "value": "2"
+        },
+        {
+          "id": 8409,
+          "optionNo": "C",
+          "text": "经常",
+          "value": "3"
+        },
+        {
+          "id": 8410,
+          "optionNo": "D",
+          "text": "总是",
+          "value": "4"
+        },
+        {
+          "id": 8411,
+          "optionNo": "E",
+          "text": "题目不适",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2104,
+      "text": "父亲经常拥抱我。",
+      "type": "radio",
+      "orderNum": 66,
+      "options": [
+        {
+          "id": 8412,
+          "optionNo": "A",
+          "text": "从不",
+          "value": "1"
+        },
+        {
+          "id": 8413,
+          "optionNo": "B",
+          "text": "偶尔",
+          "value": "2"
+        },
+        {
+          "id": 8414,
+          "optionNo": "C",
+          "text": "经常",
+          "value": "3"
+        },
+        {
+          "id": 8415,
+          "optionNo": "D",
+          "text": "总是",
+          "value": "4"
+        },
+        {
+          "id": 8416,
+          "optionNo": "E",
+          "text": "题目不适",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2105,
+      "text": "我觉得母亲干涉我所做的每一件事。",
+      "type": "radio",
+      "orderNum": 67,
+      "options": [
+        {
+          "id": 8417,
+          "optionNo": "A",
+          "text": "从不",
+          "value": "1"
+        },
+        {
+          "id": 8418,
+          "optionNo": "B",
+          "text": "偶尔",
+          "value": "2"
+        },
+        {
+          "id": 8419,
+          "optionNo": "C",
+          "text": "经常",
+          "value": "3"
+        },
+        {
+          "id": 8420,
+          "optionNo": "D",
+          "text": "总是",
+          "value": "4"
+        },
+        {
+          "id": 8421,
+          "optionNo": "E",
+          "text": "题目不适",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2106,
+      "text": "我能通过母亲的言谈、表情感受到她很喜欢我。",
+      "type": "radio",
+      "orderNum": 68,
+      "options": [
+        {
+          "id": 8422,
+          "optionNo": "A",
+          "text": "从不",
+          "value": "1"
+        },
+        {
+          "id": 8423,
+          "optionNo": "B",
+          "text": "偶尔",
+          "value": "2"
+        },
+        {
+          "id": 8424,
+          "optionNo": "C",
+          "text": "经常",
+          "value": "3"
+        },
+        {
+          "id": 8425,
+          "optionNo": "D",
+          "text": "总是",
+          "value": "4"
+        },
+        {
+          "id": 8426,
+          "optionNo": "E",
+          "text": "题目不适",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2107,
+      "text": "与我的兄弟姐妹相比，母亲更宠爱我。",
+      "type": "radio",
+      "orderNum": 69,
+      "options": [
+        {
+          "id": 8427,
+          "optionNo": "A",
+          "text": "从不",
+          "value": "1"
+        },
+        {
+          "id": 8428,
+          "optionNo": "B",
+          "text": "偶尔",
+          "value": "2"
+        },
+        {
+          "id": 8429,
+          "optionNo": "C",
+          "text": "经常",
+          "value": "3"
+        },
+        {
+          "id": 8430,
+          "optionNo": "D",
+          "text": "总是",
+          "value": "4"
+        },
+        {
+          "id": 8431,
+          "optionNo": "E",
+          "text": "题目不适",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2108,
+      "text": "我能感到母亲对我的喜爱。",
+      "type": "radio",
+      "orderNum": 70,
+      "options": [
+        {
+          "id": 8432,
+          "optionNo": "A",
+          "text": "从不",
+          "value": "1"
+        },
+        {
+          "id": 8433,
+          "optionNo": "B",
+          "text": "偶尔",
+          "value": "2"
+        },
+        {
+          "id": 8434,
+          "optionNo": "C",
+          "text": "经常",
+          "value": "3"
+        },
+        {
+          "id": 8435,
+          "optionNo": "D",
+          "text": "总是",
+          "value": "4"
+        },
+        {
+          "id": 8436,
+          "optionNo": "E",
+          "text": "题目不适",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2109,
+      "text": "即使是很小的过失，母亲也惩罚我。",
+      "type": "radio",
+      "orderNum": 71,
+      "options": [
+        {
+          "id": 8437,
+          "optionNo": "A",
+          "text": "从不",
+          "value": "1"
+        },
+        {
+          "id": 8438,
+          "optionNo": "B",
+          "text": "偶尔",
+          "value": "2"
+        },
+        {
+          "id": 8439,
+          "optionNo": "C",
+          "text": "经常",
+          "value": "3"
+        },
+        {
+          "id": 8440,
+          "optionNo": "D",
+          "text": "总是",
+          "value": "4"
+        },
+        {
+          "id": 8441,
+          "optionNo": "E",
+          "text": "题目不适",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2110,
+      "text": "母亲总试图潜移默化地影响我，使我成为出类拔萃的人。",
+      "type": "radio",
+      "orderNum": 72,
+      "options": [
+        {
+          "id": 8442,
+          "optionNo": "A",
+          "text": "从不",
+          "value": "1"
+        },
+        {
+          "id": 8443,
+          "optionNo": "B",
+          "text": "偶尔",
+          "value": "2"
+        },
+        {
+          "id": 8444,
+          "optionNo": "C",
+          "text": "经常",
+          "value": "3"
+        },
+        {
+          "id": 8445,
+          "optionNo": "D",
+          "text": "总是",
+          "value": "4"
+        },
+        {
+          "id": 8446,
+          "optionNo": "E",
+          "text": "题目不适",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2111,
+      "text": "我觉得母亲允许我在某些方面有独到之处。",
+      "type": "radio",
+      "orderNum": 73,
+      "options": [
+        {
+          "id": 8447,
+          "optionNo": "A",
+          "text": "从不",
+          "value": "1"
+        },
+        {
+          "id": 8448,
+          "optionNo": "B",
+          "text": "偶尔",
+          "value": "2"
+        },
+        {
+          "id": 8449,
+          "optionNo": "C",
+          "text": "经常",
+          "value": "3"
+        },
+        {
+          "id": 8450,
+          "optionNo": "D",
+          "text": "总是",
+          "value": "4"
+        },
+        {
+          "id": 8451,
+          "optionNo": "E",
+          "text": "题目不适",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2112,
+      "text": "母亲能让我得到其它兄弟姐妹得不到的东西。",
+      "type": "radio",
+      "orderNum": 74,
+      "options": [
+        {
+          "id": 8452,
+          "optionNo": "A",
+          "text": "从不",
+          "value": "1"
+        },
+        {
+          "id": 8453,
+          "optionNo": "B",
+          "text": "偶尔",
+          "value": "2"
+        },
+        {
+          "id": 8454,
+          "optionNo": "C",
+          "text": "经常",
+          "value": "3"
+        },
+        {
+          "id": 8455,
+          "optionNo": "D",
+          "text": "总是",
+          "value": "4"
+        },
+        {
+          "id": 8456,
+          "optionNo": "E",
+          "text": "题目不适",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2113,
+      "text": "母亲对我的惩罚是公平的、恰当的。",
+      "type": "radio",
+      "orderNum": 75,
+      "options": [
+        {
+          "id": 8457,
+          "optionNo": "A",
+          "text": "从不",
+          "value": "1"
+        },
+        {
+          "id": 8458,
+          "optionNo": "B",
+          "text": "偶尔",
+          "value": "2"
+        },
+        {
+          "id": 8459,
+          "optionNo": "C",
+          "text": "经常",
+          "value": "3"
+        },
+        {
+          "id": 8460,
+          "optionNo": "D",
+          "text": "总是",
+          "value": "4"
+        },
+        {
+          "id": 8461,
+          "optionNo": "E",
+          "text": "题目不适",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2114,
+      "text": "我觉得母亲对我很严厉。",
+      "type": "radio",
+      "orderNum": 76,
+      "options": [
+        {
+          "id": 8462,
+          "optionNo": "A",
+          "text": "从不",
+          "value": "1"
+        },
+        {
+          "id": 8463,
+          "optionNo": "B",
+          "text": "偶尔",
+          "value": "2"
+        },
+        {
+          "id": 8464,
+          "optionNo": "C",
+          "text": "经常",
+          "value": "3"
+        },
+        {
+          "id": 8465,
+          "optionNo": "D",
+          "text": "总是",
+          "value": "4"
+        },
+        {
+          "id": 8466,
+          "optionNo": "E",
+          "text": "题目不适",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2115,
+      "text": "母亲总是左右我该穿什么衣服或该打扮成什么样子。",
+      "type": "radio",
+      "orderNum": 77,
+      "options": [
+        {
+          "id": 8467,
+          "optionNo": "A",
+          "text": "从不",
+          "value": "1"
+        },
+        {
+          "id": 8468,
+          "optionNo": "B",
+          "text": "偶尔",
+          "value": "2"
+        },
+        {
+          "id": 8469,
+          "optionNo": "C",
+          "text": "经常",
+          "value": "3"
+        },
+        {
+          "id": 8470,
+          "optionNo": "D",
+          "text": "总是",
+          "value": "4"
+        },
+        {
+          "id": 8471,
+          "optionNo": "E",
+          "text": "题目不适",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2116,
+      "text": "母亲不允许我做一些其它孩子可以做的事情，因为他们害怕我会出事。",
+      "type": "radio",
+      "orderNum": 78,
+      "options": [
+        {
+          "id": 8472,
+          "optionNo": "A",
+          "text": "从不",
+          "value": "1"
+        },
+        {
+          "id": 8473,
+          "optionNo": "B",
+          "text": "偶尔",
+          "value": "2"
+        },
+        {
+          "id": 8474,
+          "optionNo": "C",
+          "text": "经常",
+          "value": "3"
+        },
+        {
+          "id": 8475,
+          "optionNo": "D",
+          "text": "总是",
+          "value": "4"
+        },
+        {
+          "id": 8476,
+          "optionNo": "E",
+          "text": "题目不适",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2117,
+      "text": "在我小时候，母亲曾当着别人面打我或训斥我。",
+      "type": "radio",
+      "orderNum": 79,
+      "options": [
+        {
+          "id": 8477,
+          "optionNo": "A",
+          "text": "从不",
+          "value": "1"
+        },
+        {
+          "id": 8478,
+          "optionNo": "B",
+          "text": "偶尔",
+          "value": "2"
+        },
+        {
+          "id": 8479,
+          "optionNo": "C",
+          "text": "经常",
+          "value": "3"
+        },
+        {
+          "id": 8480,
+          "optionNo": "D",
+          "text": "总是",
+          "value": "4"
+        },
+        {
+          "id": 8481,
+          "optionNo": "E",
+          "text": "题目不适",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2118,
+      "text": "母亲总是很关注我晚上干什么。",
+      "type": "radio",
+      "orderNum": 80,
+      "options": [
+        {
+          "id": 8482,
+          "optionNo": "A",
+          "text": "从不",
+          "value": "1"
+        },
+        {
+          "id": 8483,
+          "optionNo": "B",
+          "text": "偶尔",
+          "value": "2"
+        },
+        {
+          "id": 8484,
+          "optionNo": "C",
+          "text": "经常",
+          "value": "3"
+        },
+        {
+          "id": 8485,
+          "optionNo": "D",
+          "text": "总是",
+          "value": "4"
+        },
+        {
+          "id": 8486,
+          "optionNo": "E",
+          "text": "题目不适",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2119,
+      "text": "当遇到不顺心的事时，我能感到母亲在尽量鼓励我，使我得到一些安慰。",
+      "type": "radio",
+      "orderNum": 81,
+      "options": [
+        {
+          "id": 8487,
+          "optionNo": "A",
+          "text": "从不",
+          "value": "1"
+        },
+        {
+          "id": 8488,
+          "optionNo": "B",
+          "text": "偶尔",
+          "value": "2"
+        },
+        {
+          "id": 8489,
+          "optionNo": "C",
+          "text": "经常",
+          "value": "3"
+        },
+        {
+          "id": 8490,
+          "optionNo": "D",
+          "text": "总是",
+          "value": "4"
+        },
+        {
+          "id": 8491,
+          "optionNo": "E",
+          "text": "题目不适",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2120,
+      "text": "母亲总是过分担心我的健康。",
+      "type": "radio",
+      "orderNum": 82,
+      "options": [
+        {
+          "id": 8492,
+          "optionNo": "A",
+          "text": "从不",
+          "value": "1"
+        },
+        {
+          "id": 8493,
+          "optionNo": "B",
+          "text": "偶尔",
+          "value": "2"
+        },
+        {
+          "id": 8494,
+          "optionNo": "C",
+          "text": "经常",
+          "value": "3"
+        },
+        {
+          "id": 8495,
+          "optionNo": "D",
+          "text": "总是",
+          "value": "4"
+        },
+        {
+          "id": 8496,
+          "optionNo": "E",
+          "text": "题目不适",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2121,
+      "text": "母亲对我的惩罚往往超过我应受的程度。",
+      "type": "radio",
+      "orderNum": 83,
+      "options": [
+        {
+          "id": 8497,
+          "optionNo": "A",
+          "text": "从不",
+          "value": "1"
+        },
+        {
+          "id": 8498,
+          "optionNo": "B",
+          "text": "偶尔",
+          "value": "2"
+        },
+        {
+          "id": 8499,
+          "optionNo": "C",
+          "text": "经常",
+          "value": "3"
+        },
+        {
+          "id": 8500,
+          "optionNo": "D",
+          "text": "总是",
+          "value": "4"
+        },
+        {
+          "id": 8501,
+          "optionNo": "E",
+          "text": "题目不适",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2122,
+      "text": "如果我在家里不听吩咐，母亲就会恼火。",
+      "type": "radio",
+      "orderNum": 84,
+      "options": [
+        {
+          "id": 8502,
+          "optionNo": "A",
+          "text": "从不",
+          "value": "1"
+        },
+        {
+          "id": 8503,
+          "optionNo": "B",
+          "text": "偶尔",
+          "value": "2"
+        },
+        {
+          "id": 8504,
+          "optionNo": "C",
+          "text": "经常",
+          "value": "3"
+        },
+        {
+          "id": 8505,
+          "optionNo": "D",
+          "text": "总是",
+          "value": "4"
+        },
+        {
+          "id": 8506,
+          "optionNo": "E",
+          "text": "题目不适",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2123,
+      "text": "如果我做错了什么事，母亲总是以一种伤心样子使我有一种犯罪感或负疚感。",
+      "type": "radio",
+      "orderNum": 85,
+      "options": [
+        {
+          "id": 8507,
+          "optionNo": "A",
+          "text": "从不",
+          "value": "1"
+        },
+        {
+          "id": 8508,
+          "optionNo": "B",
+          "text": "偶尔",
+          "value": "2"
+        },
+        {
+          "id": 8509,
+          "optionNo": "C",
+          "text": "经常",
+          "value": "3"
+        },
+        {
+          "id": 8510,
+          "optionNo": "D",
+          "text": "总是",
+          "value": "4"
+        },
+        {
+          "id": 8511,
+          "optionNo": "E",
+          "text": "题目不适",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2124,
+      "text": "我觉得母亲难以接近。",
+      "type": "radio",
+      "orderNum": 86,
+      "options": [
+        {
+          "id": 8512,
+          "optionNo": "A",
+          "text": "从不",
+          "value": "4"
+        },
+        {
+          "id": 8513,
+          "optionNo": "B",
+          "text": "偶尔",
+          "value": "3"
+        },
+        {
+          "id": 8514,
+          "optionNo": "C",
+          "text": "经常",
+          "value": "2"
+        },
+        {
+          "id": 8515,
+          "optionNo": "D",
+          "text": "总是",
+          "value": "1"
+        },
+        {
+          "id": 8516,
+          "optionNo": "E",
+          "text": "题目不适",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2125,
+      "text": "母亲曾在别人面前唠叨一些我说过的话或做过的事，这使我感到很难堪。",
+      "type": "radio",
+      "orderNum": 87,
+      "options": [
+        {
+          "id": 8517,
+          "optionNo": "A",
+          "text": "从不",
+          "value": "1"
+        },
+        {
+          "id": 8518,
+          "optionNo": "B",
+          "text": "偶尔",
+          "value": "2"
+        },
+        {
+          "id": 8519,
+          "optionNo": "C",
+          "text": "经常",
+          "value": "3"
+        },
+        {
+          "id": 8520,
+          "optionNo": "D",
+          "text": "总是",
+          "value": "4"
+        },
+        {
+          "id": 8521,
+          "optionNo": "E",
+          "text": "题目不适",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2126,
+      "text": "我觉得母亲更喜欢我，而不是我的兄弟姐妹。",
+      "type": "radio",
+      "orderNum": 88,
+      "options": [
+        {
+          "id": 8522,
+          "optionNo": "A",
+          "text": "从不",
+          "value": "1"
+        },
+        {
+          "id": 8523,
+          "optionNo": "B",
+          "text": "偶尔",
+          "value": "2"
+        },
+        {
+          "id": 8524,
+          "optionNo": "C",
+          "text": "经常",
+          "value": "3"
+        },
+        {
+          "id": 8525,
+          "optionNo": "D",
+          "text": "总是",
+          "value": "4"
+        },
+        {
+          "id": 8526,
+          "optionNo": "E",
+          "text": "题目不适",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2127,
+      "text": "在满足我需要的东西，母亲是很小气的。",
+      "type": "radio",
+      "orderNum": 89,
+      "options": [
+        {
+          "id": 8527,
+          "optionNo": "A",
+          "text": "从不",
+          "value": "1"
+        },
+        {
+          "id": 8528,
+          "optionNo": "B",
+          "text": "偶尔",
+          "value": "2"
+        },
+        {
+          "id": 8529,
+          "optionNo": "C",
+          "text": "经常",
+          "value": "3"
+        },
+        {
+          "id": 8530,
+          "optionNo": "D",
+          "text": "总是",
+          "value": "4"
+        },
+        {
+          "id": 8531,
+          "optionNo": "E",
+          "text": "题目不适",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2128,
+      "text": "母亲常常很在乎我取得分数。",
+      "type": "radio",
+      "orderNum": 90,
+      "options": [
+        {
+          "id": 8532,
+          "optionNo": "A",
+          "text": "从不",
+          "value": "1"
+        },
+        {
+          "id": 8533,
+          "optionNo": "B",
+          "text": "偶尔",
+          "value": "2"
+        },
+        {
+          "id": 8534,
+          "optionNo": "C",
+          "text": "经常",
+          "value": "3"
+        },
+        {
+          "id": 8535,
+          "optionNo": "D",
+          "text": "总是",
+          "value": "4"
+        },
+        {
+          "id": 8536,
+          "optionNo": "E",
+          "text": "题目不适",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2129,
+      "text": "如果面临一项困难的任务，我能感到来自母亲的支持。",
+      "type": "radio",
+      "orderNum": 91,
+      "options": [
+        {
+          "id": 8537,
+          "optionNo": "A",
+          "text": "从不",
+          "value": "1"
+        },
+        {
+          "id": 8538,
+          "optionNo": "B",
+          "text": "偶尔",
+          "value": "2"
+        },
+        {
+          "id": 8539,
+          "optionNo": "C",
+          "text": "经常",
+          "value": "3"
+        },
+        {
+          "id": 8540,
+          "optionNo": "D",
+          "text": "总是",
+          "value": "4"
+        },
+        {
+          "id": 8541,
+          "optionNo": "E",
+          "text": "题目不适",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2130,
+      "text": "我在家里往往被当母亲做\"替罪羊\"或\"害群之马\"。",
+      "type": "radio",
+      "orderNum": 92,
+      "options": [
+        {
+          "id": 8542,
+          "optionNo": "A",
+          "text": "从不",
+          "value": "1"
+        },
+        {
+          "id": 8543,
+          "optionNo": "B",
+          "text": "偶尔",
+          "value": "2"
+        },
+        {
+          "id": 8544,
+          "optionNo": "C",
+          "text": "经常",
+          "value": "3"
+        },
+        {
+          "id": 8545,
+          "optionNo": "D",
+          "text": "总是",
+          "value": "4"
+        },
+        {
+          "id": 8546,
+          "optionNo": "E",
+          "text": "题目不适",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2131,
+      "text": "母亲总是挑剔我所喜欢的朋友。",
+      "type": "radio",
+      "orderNum": 93,
+      "options": [
+        {
+          "id": 8547,
+          "optionNo": "A",
+          "text": "从不",
+          "value": "1"
+        },
+        {
+          "id": 8548,
+          "optionNo": "B",
+          "text": "偶尔",
+          "value": "2"
+        },
+        {
+          "id": 8549,
+          "optionNo": "C",
+          "text": "经常",
+          "value": "3"
+        },
+        {
+          "id": 8550,
+          "optionNo": "D",
+          "text": "总是",
+          "value": "4"
+        },
+        {
+          "id": 8551,
+          "optionNo": "E",
+          "text": "题目不适",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2132,
+      "text": "母亲总以为他们的不快是由我引起的。",
+      "type": "radio",
+      "orderNum": 94,
+      "options": [
+        {
+          "id": 8552,
+          "optionNo": "A",
+          "text": "从不",
+          "value": "1"
+        },
+        {
+          "id": 8553,
+          "optionNo": "B",
+          "text": "偶尔",
+          "value": "2"
+        },
+        {
+          "id": 8554,
+          "optionNo": "C",
+          "text": "经常",
+          "value": "3"
+        },
+        {
+          "id": 8555,
+          "optionNo": "D",
+          "text": "总是",
+          "value": "4"
+        },
+        {
+          "id": 8556,
+          "optionNo": "E",
+          "text": "题目不适",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2133,
+      "text": "母亲总试图鼓励我，使我成为佼佼者。",
+      "type": "radio",
+      "orderNum": 95,
+      "options": [
+        {
+          "id": 8557,
+          "optionNo": "A",
+          "text": "从不",
+          "value": "1"
+        },
+        {
+          "id": 8558,
+          "optionNo": "B",
+          "text": "偶尔",
+          "value": "2"
+        },
+        {
+          "id": 8559,
+          "optionNo": "C",
+          "text": "经常",
+          "value": "3"
+        },
+        {
+          "id": 8560,
+          "optionNo": "D",
+          "text": "总是",
+          "value": "4"
+        },
+        {
+          "id": 8561,
+          "optionNo": "E",
+          "text": "题目不适",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2134,
+      "text": "母亲总向我表示他们是爱我的。",
+      "type": "radio",
+      "orderNum": 96,
+      "options": [
+        {
+          "id": 8562,
+          "optionNo": "A",
+          "text": "从不",
+          "value": "1"
+        },
+        {
+          "id": 8563,
+          "optionNo": "B",
+          "text": "偶尔",
+          "value": "2"
+        },
+        {
+          "id": 8564,
+          "optionNo": "C",
+          "text": "经常",
+          "value": "3"
+        },
+        {
+          "id": 8565,
+          "optionNo": "D",
+          "text": "总是",
+          "value": "4"
+        },
+        {
+          "id": 8566,
+          "optionNo": "E",
+          "text": "题目不适",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2135,
+      "text": "母亲对我很信任且允许我独自完成某些事。",
+      "type": "radio",
+      "orderNum": 97,
+      "options": [
+        {
+          "id": 8567,
+          "optionNo": "A",
+          "text": "从不",
+          "value": "1"
+        },
+        {
+          "id": 8568,
+          "optionNo": "B",
+          "text": "偶尔",
+          "value": "2"
+        },
+        {
+          "id": 8569,
+          "optionNo": "C",
+          "text": "经常",
+          "value": "3"
+        },
+        {
+          "id": 8570,
+          "optionNo": "D",
+          "text": "总是",
+          "value": "4"
+        },
+        {
+          "id": 8571,
+          "optionNo": "E",
+          "text": "题目不适",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2136,
+      "text": "我觉得母亲很尊重我的观点。",
+      "type": "radio",
+      "orderNum": 98,
+      "options": [
+        {
+          "id": 8572,
+          "optionNo": "A",
+          "text": "从不",
+          "value": "1"
+        },
+        {
+          "id": 8573,
+          "optionNo": "B",
+          "text": "偶尔",
+          "value": "2"
+        },
+        {
+          "id": 8574,
+          "optionNo": "C",
+          "text": "经常",
+          "value": "3"
+        },
+        {
+          "id": 8575,
+          "optionNo": "D",
+          "text": "总是",
+          "value": "4"
+        },
+        {
+          "id": 8576,
+          "optionNo": "E",
+          "text": "题目不适",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2137,
+      "text": "我觉得母亲很愿意跟我在一起。",
+      "type": "radio",
+      "orderNum": 99,
+      "options": [
+        {
+          "id": 8577,
+          "optionNo": "A",
+          "text": "从不",
+          "value": "1"
+        },
+        {
+          "id": 8578,
+          "optionNo": "B",
+          "text": "偶尔",
+          "value": "2"
+        },
+        {
+          "id": 8579,
+          "optionNo": "C",
+          "text": "经常",
+          "value": "3"
+        },
+        {
+          "id": 8580,
+          "optionNo": "D",
+          "text": "总是",
+          "value": "4"
+        },
+        {
+          "id": 8581,
+          "optionNo": "E",
+          "text": "题目不适",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2138,
+      "text": "我觉得母亲对我很小气、很吝啬。",
+      "type": "radio",
+      "orderNum": 100,
+      "options": [
+        {
+          "id": 8582,
+          "optionNo": "A",
+          "text": "从不",
+          "value": "1"
+        },
+        {
+          "id": 8583,
+          "optionNo": "B",
+          "text": "偶尔",
+          "value": "2"
+        },
+        {
+          "id": 8584,
+          "optionNo": "C",
+          "text": "经常",
+          "value": "3"
+        },
+        {
+          "id": 8585,
+          "optionNo": "D",
+          "text": "总是",
+          "value": "4"
+        },
+        {
+          "id": 8586,
+          "optionNo": "E",
+          "text": "题目不适",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2139,
+      "text": "母亲总是向我说类似这样的话\"如果你这样做我会很伤心\"。",
+      "type": "radio",
+      "orderNum": 101,
+      "options": [
+        {
+          "id": 8587,
+          "optionNo": "A",
+          "text": "从不",
+          "value": "1"
+        },
+        {
+          "id": 8588,
+          "optionNo": "B",
+          "text": "偶尔",
+          "value": "2"
+        },
+        {
+          "id": 8589,
+          "optionNo": "C",
+          "text": "经常",
+          "value": "3"
+        },
+        {
+          "id": 8590,
+          "optionNo": "D",
+          "text": "总是",
+          "value": "4"
+        },
+        {
+          "id": 8591,
+          "optionNo": "E",
+          "text": "题目不适",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2140,
+      "text": "母亲要求我回到家里必须得向他们说明我在做的事情。",
+      "type": "radio",
+      "orderNum": 102,
+      "options": [
+        {
+          "id": 8592,
+          "optionNo": "A",
+          "text": "从不",
+          "value": "1"
+        },
+        {
+          "id": 8593,
+          "optionNo": "B",
+          "text": "偶尔",
+          "value": "2"
+        },
+        {
+          "id": 8594,
+          "optionNo": "C",
+          "text": "经常",
+          "value": "3"
+        },
+        {
+          "id": 8595,
+          "optionNo": "D",
+          "text": "总是",
+          "value": "4"
+        },
+        {
+          "id": 8596,
+          "optionNo": "E",
+          "text": "题目不适",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2141,
+      "text": "我觉得母亲在尽量使我的青春更有意义和丰富多彩(如给我买很多的书，安排我去夏令营或参加俱乐部)。",
+      "type": "radio",
+      "orderNum": 103,
+      "options": [
+        {
+          "id": 8597,
+          "optionNo": "A",
+          "text": "从不",
+          "value": "1"
+        },
+        {
+          "id": 8598,
+          "optionNo": "B",
+          "text": "偶尔",
+          "value": "2"
+        },
+        {
+          "id": 8599,
+          "optionNo": "C",
+          "text": "经常",
+          "value": "3"
+        },
+        {
+          "id": 8600,
+          "optionNo": "D",
+          "text": "总是",
+          "value": "4"
+        },
+        {
+          "id": 8601,
+          "optionNo": "E",
+          "text": "题目不适",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2142,
+      "text": "母亲经常向我表述类似这样的话\"这就是我们为你整日操劳而得到的报答吗?\"",
+      "type": "radio",
+      "orderNum": 104,
+      "options": [
+        {
+          "id": 8602,
+          "optionNo": "A",
+          "text": "从不",
+          "value": "1"
+        },
+        {
+          "id": 8603,
+          "optionNo": "B",
+          "text": "偶尔",
+          "value": "2"
+        },
+        {
+          "id": 8604,
+          "optionNo": "C",
+          "text": "经常",
+          "value": "3"
+        },
+        {
+          "id": 8605,
+          "optionNo": "D",
+          "text": "总是",
+          "value": "4"
+        },
+        {
+          "id": 8606,
+          "optionNo": "E",
+          "text": "题目不适",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2143,
+      "text": "母亲常以不能娇惯我为借口不满足我的要求。",
+      "type": "radio",
+      "orderNum": 105,
+      "options": [
+        {
+          "id": 8607,
+          "optionNo": "A",
+          "text": "从不",
+          "value": "1"
+        },
+        {
+          "id": 8608,
+          "optionNo": "B",
+          "text": "偶尔",
+          "value": "2"
+        },
+        {
+          "id": 8609,
+          "optionNo": "C",
+          "text": "经常",
+          "value": "3"
+        },
+        {
+          "id": 8610,
+          "optionNo": "D",
+          "text": "总是",
+          "value": "4"
+        },
+        {
+          "id": 8611,
+          "optionNo": "E",
+          "text": "题目不适",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2144,
+      "text": "如果不按母亲所期望的去做，就会使我在良心上感到很不安。",
+      "type": "radio",
+      "orderNum": 106,
+      "options": [
+        {
+          "id": 8612,
+          "optionNo": "A",
+          "text": "从不",
+          "value": "1"
+        },
+        {
+          "id": 8613,
+          "optionNo": "B",
+          "text": "偶尔",
+          "value": "2"
+        },
+        {
+          "id": 8614,
+          "optionNo": "C",
+          "text": "经常",
+          "value": "3"
+        },
+        {
+          "id": 8615,
+          "optionNo": "D",
+          "text": "总是",
+          "value": "4"
+        },
+        {
+          "id": 8616,
+          "optionNo": "E",
+          "text": "题目不适",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2145,
+      "text": "我觉得母亲对我的学习成绩，体育活动或类似的事情有较高的要求。",
+      "type": "radio",
+      "orderNum": 107,
+      "options": [
+        {
+          "id": 8617,
+          "optionNo": "A",
+          "text": "从不",
+          "value": "1"
+        },
+        {
+          "id": 8618,
+          "optionNo": "B",
+          "text": "偶尔",
+          "value": "2"
+        },
+        {
+          "id": 8619,
+          "optionNo": "C",
+          "text": "经常",
+          "value": "3"
+        },
+        {
+          "id": 8620,
+          "optionNo": "D",
+          "text": "总是",
+          "value": "4"
+        },
+        {
+          "id": 8621,
+          "optionNo": "E",
+          "text": "题目不适",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2146,
+      "text": "当我感到伤心的时候可以从母亲那儿得到安慰。",
+      "type": "radio",
+      "orderNum": 108,
+      "options": [
+        {
+          "id": 8622,
+          "optionNo": "A",
+          "text": "从不",
+          "value": "1"
+        },
+        {
+          "id": 8623,
+          "optionNo": "B",
+          "text": "偶尔",
+          "value": "2"
+        },
+        {
+          "id": 8624,
+          "optionNo": "C",
+          "text": "经常",
+          "value": "3"
+        },
+        {
+          "id": 8625,
+          "optionNo": "D",
+          "text": "总是",
+          "value": "4"
+        },
+        {
+          "id": 8626,
+          "optionNo": "E",
+          "text": "题目不适",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2147,
+      "text": "母亲曾无缘无故地惩罚我。",
+      "type": "radio",
+      "orderNum": 109,
+      "options": [
+        {
+          "id": 8627,
+          "optionNo": "A",
+          "text": "从不",
+          "value": "1"
+        },
+        {
+          "id": 8628,
+          "optionNo": "B",
+          "text": "偶尔",
+          "value": "2"
+        },
+        {
+          "id": 8629,
+          "optionNo": "C",
+          "text": "经常",
+          "value": "3"
+        },
+        {
+          "id": 8630,
+          "optionNo": "D",
+          "text": "总是",
+          "value": "4"
+        },
+        {
+          "id": 8631,
+          "optionNo": "E",
+          "text": "题目不适",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2148,
+      "text": "母亲允许我做一些我的朋友们做的事情。",
+      "type": "radio",
+      "orderNum": 110,
+      "options": [
+        {
+          "id": 8632,
+          "optionNo": "A",
+          "text": "从不",
+          "value": "1"
+        },
+        {
+          "id": 8633,
+          "optionNo": "B",
+          "text": "偶尔",
+          "value": "2"
+        },
+        {
+          "id": 8634,
+          "optionNo": "C",
+          "text": "经常",
+          "value": "3"
+        },
+        {
+          "id": 8635,
+          "optionNo": "D",
+          "text": "总是",
+          "value": "4"
+        },
+        {
+          "id": 8636,
+          "optionNo": "E",
+          "text": "题目不适",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2149,
+      "text": "母亲经常对我说他们不喜欢我在家的表现。",
+      "type": "radio",
+      "orderNum": 111,
+      "options": [
+        {
+          "id": 8637,
+          "optionNo": "A",
+          "text": "从不",
+          "value": "1"
+        },
+        {
+          "id": 8638,
+          "optionNo": "B",
+          "text": "偶尔",
+          "value": "2"
+        },
+        {
+          "id": 8639,
+          "optionNo": "C",
+          "text": "经常",
+          "value": "3"
+        },
+        {
+          "id": 8640,
+          "optionNo": "D",
+          "text": "总是",
+          "value": "4"
+        },
+        {
+          "id": 8641,
+          "optionNo": "E",
+          "text": "题目不适",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2150,
+      "text": "每当我吃饭时，母亲就劝我或强迫我再多吃一些。",
+      "type": "radio",
+      "orderNum": 112,
+      "options": [
+        {
+          "id": 8642,
+          "optionNo": "A",
+          "text": "从不",
+          "value": "1"
+        },
+        {
+          "id": 8643,
+          "optionNo": "B",
+          "text": "偶尔",
+          "value": "2"
+        },
+        {
+          "id": 8644,
+          "optionNo": "C",
+          "text": "经常",
+          "value": "3"
+        },
+        {
+          "id": 8645,
+          "optionNo": "D",
+          "text": "总是",
+          "value": "4"
+        },
+        {
+          "id": 8646,
+          "optionNo": "E",
+          "text": "题目不适",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2151,
+      "text": "母亲经常当着别人的面批评我既懒惰，又无用。",
+      "type": "radio",
+      "orderNum": 113,
+      "options": [
+        {
+          "id": 8647,
+          "optionNo": "A",
+          "text": "从不",
+          "value": "1"
+        },
+        {
+          "id": 8648,
+          "optionNo": "B",
+          "text": "偶尔",
+          "value": "2"
+        },
+        {
+          "id": 8649,
+          "optionNo": "C",
+          "text": "经常",
+          "value": "3"
+        },
+        {
+          "id": 8650,
+          "optionNo": "D",
+          "text": "总是",
+          "value": "4"
+        },
+        {
+          "id": 8651,
+          "optionNo": "E",
+          "text": "题目不适",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2152,
+      "text": "母亲常常关注我交往什么样的朋友。",
+      "type": "radio",
+      "orderNum": 114,
+      "options": [
+        {
+          "id": 8652,
+          "optionNo": "A",
+          "text": "从不",
+          "value": "1"
+        },
+        {
+          "id": 8653,
+          "optionNo": "B",
+          "text": "偶尔",
+          "value": "2"
+        },
+        {
+          "id": 8654,
+          "optionNo": "C",
+          "text": "经常",
+          "value": "3"
+        },
+        {
+          "id": 8655,
+          "optionNo": "D",
+          "text": "总是",
+          "value": "4"
+        },
+        {
+          "id": 8656,
+          "optionNo": "E",
+          "text": "题目不适",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2153,
+      "text": "如果发生什么事情，我常常是兄弟姐妹中唯一受母亲责备的一个。",
+      "type": "radio",
+      "orderNum": 115,
+      "options": [
+        {
+          "id": 8657,
+          "optionNo": "A",
+          "text": "从不",
+          "value": "1"
+        },
+        {
+          "id": 8658,
+          "optionNo": "B",
+          "text": "偶尔",
+          "value": "2"
+        },
+        {
+          "id": 8659,
+          "optionNo": "C",
+          "text": "经常",
+          "value": "3"
+        },
+        {
+          "id": 8660,
+          "optionNo": "D",
+          "text": "总是",
+          "value": "4"
+        },
+        {
+          "id": 8661,
+          "optionNo": "E",
+          "text": "题目不适",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2154,
+      "text": "母亲能让我顺其自然地发展。",
+      "type": "radio",
+      "orderNum": 116,
+      "options": [
+        {
+          "id": 8662,
+          "optionNo": "A",
+          "text": "从不",
+          "value": "4"
+        },
+        {
+          "id": 8663,
+          "optionNo": "B",
+          "text": "偶尔",
+          "value": "3"
+        },
+        {
+          "id": 8664,
+          "optionNo": "C",
+          "text": "经常",
+          "value": "2"
+        },
+        {
+          "id": 8665,
+          "optionNo": "D",
+          "text": "总是",
+          "value": "1"
+        },
+        {
+          "id": 8666,
+          "optionNo": "E",
+          "text": "题目不适",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2155,
+      "text": "母亲经常对我粗俗无礼。",
+      "type": "radio",
+      "orderNum": 117,
+      "options": [
+        {
+          "id": 8667,
+          "optionNo": "A",
+          "text": "从不",
+          "value": "1"
+        },
+        {
+          "id": 8668,
+          "optionNo": "B",
+          "text": "偶尔",
+          "value": "2"
+        },
+        {
+          "id": 8669,
+          "optionNo": "C",
+          "text": "经常",
+          "value": "3"
+        },
+        {
+          "id": 8670,
+          "optionNo": "D",
+          "text": "总是",
+          "value": "4"
+        },
+        {
+          "id": 8671,
+          "optionNo": "E",
+          "text": "题目不适",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2156,
+      "text": "有时甚至为一点儿鸡毛蒜皮的小事，母亲也会严厉地惩罚我。",
+      "type": "radio",
+      "orderNum": 118,
+      "options": [
+        {
+          "id": 8672,
+          "optionNo": "A",
+          "text": "从不",
+          "value": "1"
+        },
+        {
+          "id": 8673,
+          "optionNo": "B",
+          "text": "偶尔",
+          "value": "2"
+        },
+        {
+          "id": 8674,
+          "optionNo": "C",
+          "text": "经常",
+          "value": "3"
+        },
+        {
+          "id": 8675,
+          "optionNo": "D",
+          "text": "总是",
+          "value": "4"
+        },
+        {
+          "id": 8676,
+          "optionNo": "E",
+          "text": "题目不适",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2157,
+      "text": "母亲曾无缘无故地打过我。",
+      "type": "radio",
+      "orderNum": 119,
+      "options": [
+        {
+          "id": 8677,
+          "optionNo": "A",
+          "text": "从不",
+          "value": "1"
+        },
+        {
+          "id": 8678,
+          "optionNo": "B",
+          "text": "偶尔",
+          "value": "2"
+        },
+        {
+          "id": 8679,
+          "optionNo": "C",
+          "text": "经常",
+          "value": "3"
+        },
+        {
+          "id": 8680,
+          "optionNo": "D",
+          "text": "总是",
+          "value": "4"
+        },
+        {
+          "id": 8681,
+          "optionNo": "E",
+          "text": "题目不适",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2158,
+      "text": "母亲通常会参与我的业余爱好活动。",
+      "type": "radio",
+      "orderNum": 120,
+      "options": [
+        {
+          "id": 8682,
+          "optionNo": "A",
+          "text": "从不",
+          "value": "1"
+        },
+        {
+          "id": 8683,
+          "optionNo": "B",
+          "text": "偶尔",
+          "value": "2"
+        },
+        {
+          "id": 8684,
+          "optionNo": "C",
+          "text": "经常",
+          "value": "3"
+        },
+        {
+          "id": 8685,
+          "optionNo": "D",
+          "text": "总是",
+          "value": "4"
+        },
+        {
+          "id": 8686,
+          "optionNo": "E",
+          "text": "题目不适",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2159,
+      "text": "我经常挨母亲的打。",
+      "type": "radio",
+      "orderNum": 121,
+      "options": [
+        {
+          "id": 8687,
+          "optionNo": "A",
+          "text": "从不",
+          "value": "1"
+        },
+        {
+          "id": 8688,
+          "optionNo": "B",
+          "text": "偶尔",
+          "value": "2"
+        },
+        {
+          "id": 8689,
+          "optionNo": "C",
+          "text": "经常",
+          "value": "3"
+        },
+        {
+          "id": 8690,
+          "optionNo": "D",
+          "text": "总是",
+          "value": "4"
+        },
+        {
+          "id": 8691,
+          "optionNo": "E",
+          "text": "题目不适",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2160,
+      "text": "母亲常常允许我到我喜欢去的地方，而他们又不会过分担心。",
+      "type": "radio",
+      "orderNum": 122,
+      "options": [
+        {
+          "id": 8692,
+          "optionNo": "A",
+          "text": "从不",
+          "value": "4"
+        },
+        {
+          "id": 8693,
+          "optionNo": "B",
+          "text": "偶尔",
+          "value": "3"
+        },
+        {
+          "id": 8694,
+          "optionNo": "C",
+          "text": "经常",
+          "value": "2"
+        },
+        {
+          "id": 8695,
+          "optionNo": "D",
+          "text": "总是",
+          "value": "1"
+        },
+        {
+          "id": 8696,
+          "optionNo": "E",
+          "text": "题目不适",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2161,
+      "text": "母亲对我该做什么、不该做什么都有严格的限制而且绝不让步。",
+      "type": "radio",
+      "orderNum": 123,
+      "options": [
+        {
+          "id": 8697,
+          "optionNo": "A",
+          "text": "从不",
+          "value": "1"
+        },
+        {
+          "id": 8698,
+          "optionNo": "B",
+          "text": "偶尔",
+          "value": "2"
+        },
+        {
+          "id": 8699,
+          "optionNo": "C",
+          "text": "经常",
+          "value": "3"
+        },
+        {
+          "id": 8700,
+          "optionNo": "D",
+          "text": "总是",
+          "value": "4"
+        },
+        {
+          "id": 8701,
+          "optionNo": "E",
+          "text": "题目不适",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2162,
+      "text": "母亲常以一种使我很难堪的方式对待我。",
+      "type": "radio",
+      "orderNum": 124,
+      "options": [
+        {
+          "id": 8702,
+          "optionNo": "A",
+          "text": "从不",
+          "value": "1"
+        },
+        {
+          "id": 8703,
+          "optionNo": "B",
+          "text": "偶尔",
+          "value": "2"
+        },
+        {
+          "id": 8704,
+          "optionNo": "C",
+          "text": "经常",
+          "value": "3"
+        },
+        {
+          "id": 8705,
+          "optionNo": "D",
+          "text": "总是",
+          "value": "4"
+        },
+        {
+          "id": 8706,
+          "optionNo": "E",
+          "text": "题目不适",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2163,
+      "text": "我觉得母亲对我可能出事的担心是夸大的、过分的。",
+      "type": "radio",
+      "orderNum": 125,
+      "options": [
+        {
+          "id": 8707,
+          "optionNo": "A",
+          "text": "从不",
+          "value": "1"
+        },
+        {
+          "id": 8708,
+          "optionNo": "B",
+          "text": "偶尔",
+          "value": "2"
+        },
+        {
+          "id": 8709,
+          "optionNo": "C",
+          "text": "经常",
+          "value": "3"
+        },
+        {
+          "id": 8710,
+          "optionNo": "D",
+          "text": "总是",
+          "value": "4"
+        },
+        {
+          "id": 8711,
+          "optionNo": "E",
+          "text": "题目不适",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2164,
+      "text": "我觉得与母亲之间存在一种温暖、体贴和亲热感觉。",
+      "type": "radio",
+      "orderNum": 126,
+      "options": [
+        {
+          "id": 8712,
+          "optionNo": "A",
+          "text": "从不",
+          "value": "1"
+        },
+        {
+          "id": 8713,
+          "optionNo": "B",
+          "text": "偶尔",
+          "value": "2"
+        },
+        {
+          "id": 8714,
+          "optionNo": "C",
+          "text": "经常",
+          "value": "3"
+        },
+        {
+          "id": 8715,
+          "optionNo": "D",
+          "text": "总是",
+          "value": "4"
+        },
+        {
+          "id": 8716,
+          "optionNo": "E",
+          "text": "题目不适",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2165,
+      "text": "母亲能容忍我与他们有不同的见解。",
+      "type": "radio",
+      "orderNum": 127,
+      "options": [
+        {
+          "id": 8717,
+          "optionNo": "A",
+          "text": "从不",
+          "value": "1"
+        },
+        {
+          "id": 8718,
+          "optionNo": "B",
+          "text": "偶尔",
+          "value": "2"
+        },
+        {
+          "id": 8719,
+          "optionNo": "C",
+          "text": "经常",
+          "value": "3"
+        },
+        {
+          "id": 8720,
+          "optionNo": "D",
+          "text": "总是",
+          "value": "4"
+        },
+        {
+          "id": 8721,
+          "optionNo": "E",
+          "text": "题目不适",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2166,
+      "text": "母亲常常在我不知道原因的情况下对我大发脾气。",
+      "type": "radio",
+      "orderNum": 128,
+      "options": [
+        {
+          "id": 8722,
+          "optionNo": "A",
+          "text": "从不",
+          "value": "1"
+        },
+        {
+          "id": 8723,
+          "optionNo": "B",
+          "text": "偶尔",
+          "value": "2"
+        },
+        {
+          "id": 8724,
+          "optionNo": "C",
+          "text": "经常",
+          "value": "3"
+        },
+        {
+          "id": 8725,
+          "optionNo": "D",
+          "text": "总是",
+          "value": "4"
+        },
+        {
+          "id": 8726,
+          "optionNo": "E",
+          "text": "题目不适",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2167,
+      "text": "当我所做的事取得成功时，我觉得母亲很为我自豪。",
+      "type": "radio",
+      "orderNum": 129,
+      "options": [
+        {
+          "id": 8727,
+          "optionNo": "A",
+          "text": "从不",
+          "value": "1"
+        },
+        {
+          "id": 8728,
+          "optionNo": "B",
+          "text": "偶尔",
+          "value": "2"
+        },
+        {
+          "id": 8729,
+          "optionNo": "C",
+          "text": "经常",
+          "value": "3"
+        },
+        {
+          "id": 8730,
+          "optionNo": "D",
+          "text": "总是",
+          "value": "4"
+        },
+        {
+          "id": 8731,
+          "optionNo": "E",
+          "text": "题目不适",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2168,
+      "text": "与我的兄弟姐妹相比，母亲常常偏爱我。",
+      "type": "radio",
+      "orderNum": 130,
+      "options": [
+        {
+          "id": 8732,
+          "optionNo": "A",
+          "text": "从不",
+          "value": "1"
+        },
+        {
+          "id": 8733,
+          "optionNo": "B",
+          "text": "偶尔",
+          "value": "2"
+        },
+        {
+          "id": 8734,
+          "optionNo": "C",
+          "text": "经常",
+          "value": "3"
+        },
+        {
+          "id": 8735,
+          "optionNo": "D",
+          "text": "总是",
+          "value": "4"
+        },
+        {
+          "id": 8736,
+          "optionNo": "E",
+          "text": "题目不适",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2169,
+      "text": "有时即使错误在我，母亲也把责任归咎于兄弟姐妹。",
+      "type": "radio",
+      "orderNum": 131,
+      "options": [
+        {
+          "id": 8737,
+          "optionNo": "A",
+          "text": "从不",
+          "value": "1"
+        },
+        {
+          "id": 8738,
+          "optionNo": "B",
+          "text": "偶尔",
+          "value": "2"
+        },
+        {
+          "id": 8739,
+          "optionNo": "C",
+          "text": "经常",
+          "value": "3"
+        },
+        {
+          "id": 8740,
+          "optionNo": "D",
+          "text": "总是",
+          "value": "4"
+        },
+        {
+          "id": 8741,
+          "optionNo": "E",
+          "text": "题目不适",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2170,
+      "text": "母亲经常拥抱我。",
+      "type": "radio",
+      "orderNum": 132,
+      "options": [
+        {
+          "id": 8742,
+          "optionNo": "A",
+          "text": "从不",
+          "value": "1"
+        },
+        {
+          "id": 8743,
+          "optionNo": "B",
+          "text": "偶尔",
+          "value": "2"
+        },
+        {
+          "id": 8744,
+          "optionNo": "C",
+          "text": "经常",
+          "value": "3"
+        },
+        {
+          "id": 8745,
+          "optionNo": "D",
+          "text": "总是",
+          "value": "4"
+        },
+        {
+          "id": 8746,
+          "optionNo": "E",
+          "text": "题目不适",
+          "value": "0"
+        }
+      ]
+    }
+  ],
+  "dimensions": [
+    {
+      "id": 263,
+      "num": 1,
+      "dimensionName": "情感温暖、理解(父亲)",
+      "dimensionCode": "A",
+      "evaluateExpression": "hx_t_2 + hx_t_4 + hx_t_7 + hx_t_9 + hx_t_15 + hx_t_20 + hx_t_25 + hx_t_29 + hx_t_30 + hx_t_31 + hx_t_32 + hx_t_33 + hx_t_37 + hx_t_42 + hx_t_54 + hx_t_60 + hx_t_61 + hx_t_66",
+      "standardScoreFormula": "0",
+      "results": [
+        {
+          "id": 509,
+          "evaluateExpression": "hx_wd_y_1 >= 0&& hx_wd_y_1 <= 34",
+          "conclusionAnalysis": "你的父亲对你的情感温暖程度很低，同时，也不能够理解你。",
+          "suggestion": "被测试者的父亲对其表达的关心程度不足。建议：（1）在生活上多关心父亲，尽可能地向其表达自身的感受，增加情感交流；（2）寻找双方感兴趣的共同话题，增加交流机会，让父亲更了解自己，促进亲子互动；（3）如双方均认为关系需要改善，可寻求专业的心理服务机构进行家庭治疗。",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 510,
+          "evaluateExpression": "hx_wd_y_1 >= 35&& hx_wd_y_1 <= 69",
+          "conclusionAnalysis": "你的父亲对你的情感温暖程度不够，同时,有时能够理解你，有时不能。",
+          "suggestion": "被测试者的父亲有时会对其表达关心，但不足以感受到温暖。建议：（1）留意父亲对自己表达关心时的情景，多创造相似的交流机会，促进双方感情；（2）了解改善亲子关系相关的心理学知识，并运用于自己的生活中。",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 511,
+          "evaluateExpression": "hx_wd_y_1 >= 70&& hx_wd_y_1 <= 72",
+          "conclusionAnalysis": "你的父亲对你的情感温暖程度高，同时，也总能够理解你。",
+          "suggestion": "被测试者与父亲之间形成了良好的亲子互动关系，在生活中继续互相关心对方、保持温馨的联系，有助于与父亲温暖关系的维持。关注相关的心理学知识，丰富家庭沟通方式。",
+          "assessmentWarning": "none"
+        }
+      ]
+    },
+    {
+      "id": 264,
+      "num": 2,
+      "dimensionName": "惩罚、严厉(父亲)",
+      "dimensionCode": "B",
+      "evaluateExpression": "hx_t_5 + hx_t_13 + hx_t_17 + hx_t_18 + hx_t_43 + hx_t_49 + hx_t_51 + hx_t_52 + hx_t_53 + hx_t_55 + hx_t_58 + hx_t_62",
+      "standardScoreFormula": "0",
+      "results": [
+        {
+          "id": 512,
+          "evaluateExpression": "hx_wd_y_2 >= 0&& hx_wd_y_2 <= 14",
+          "conclusionAnalysis": "你的父亲对你不够严厉，从不惩罚你，或许是对你放任不管，或许是对你太过溺爱。",
+          "suggestion": "被测试者的父亲采取的是放任自流的教养方式，有时也可能表现为过于溺爱。建议：（1）培养自律和自我控制的能力，确保生活有规律有节奏；（2）在生活上关心父亲，适时向其表达自己的内心感受，增加交流机会。",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 513,
+          "evaluateExpression": "hx_wd_y_2 >= 15&& hx_wd_y_2 <= 23",
+          "conclusionAnalysis": "你的父亲对你的严厉程度适中，有时会惩罚你。",
+          "suggestion": "被测试者的父亲一般严厉。可继续改进的地方：（1）了解父亲会惩罚自己的情境，并将此作为与父亲交流的话题，在友好的氛围里和父亲讨论适合的解决方法；（2）可适时地提醒父亲除严厉之外，也可以对自己表达一些其他的感受。",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 514,
+          "evaluateExpression": "hx_wd_y_2 >= 24&& hx_wd_y_2 <= 48",
+          "conclusionAnalysis": "你的父亲对你过于严厉，经常惩罚你。",
+          "suggestion": "被测试者的父亲使用的是过于严厉的教养方式。建议：（1）向父亲表达自己所希望获得的教育方式，可能是说理性而非惩罚性的；（2）如双方关系出现了失衡而不能较好维持的迹象，可向专业心理服务机构寻求家庭治疗。",
+          "assessmentWarning": "none"
+        }
+      ]
+    },
+    {
+      "id": 265,
+      "num": 3,
+      "dimensionName": "过分干涉(父亲)",
+      "dimensionCode": "C",
+      "evaluateExpression": "hx_t_1 + hx_t_10 + hx_t_11 + hx_t_14 + hx_t_27 + hx_t_36 + hx_t_48 + hx_t_50 + hx_t_56 + hx_t_57",
+      "standardScoreFormula": "0",
+      "results": [
+        {
+          "id": 515,
+          "evaluateExpression": "hx_wd_y_3 >= 0&& hx_wd_y_3 <= 15",
+          "conclusionAnalysis": "你的父亲对你的事情不干涉。",
+          "suggestion": "被测试者的父亲完全尊重其决定及想法等，这在一定程度上有助于培养孩子的独立能力，但也要注意在大方向上进行把握。",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 516,
+          "evaluateExpression": "hx_wd_y_3 >= 15&& hx_wd_y_3 <= 28",
+          "conclusionAnalysis": "你的父亲对你的事情有时干涉，有时不干涉。",
+          "suggestion": "被测试者的父亲有时会对其做出的决定和想法进行评论或干涉。可继续改进的地方：（1）在一些有能力把握的事情上做出自己的选择和决定；（2）适当地向父亲表达自己所希望获得的授权和尊重。",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 517,
+          "evaluateExpression": "hx_wd_y_3 >= 29&& hx_wd_y_3 <= 40",
+          "conclusionAnalysis": "你的父亲对你的事情过分干涉。",
+          "suggestion": "被测试者的父亲总是会对其进行评论、或在大部分事情上干涉其决定。建议：（1）寻找与父亲沟通的机会，谈谈自己对父亲这类行为的感受；（2）学会在一些事情上坚持自己的观点，并向父亲说明理由；（3）如想做出改变、而沟通中出现严重困难，建议向专业的心理服务机构寻求帮助。",
+          "assessmentWarning": "none"
+        }
+      ]
+    },
+    {
+      "id": 266,
+      "num": 4,
+      "dimensionName": "偏爱被试(父亲)",
+      "dimensionCode": "J",
+      "evaluateExpression": "hx_t_3 + hx_t_8 + hx_t_22 + hx_t_64 + hx_t_65",
+      "standardScoreFormula": "0",
+      "results": [
+        {
+          "id": 518,
+          "evaluateExpression": "hx_wd_y_4 >= 0&& hx_wd_y_4 <= 7",
+          "conclusionAnalysis": "你的父亲对你没有表现出偏爱的倾向。",
+          "suggestion": "被测试者的父亲对家里的孩子比较公平，没有表现出偏爱。每个孩子都在平等的关爱和环境中成长，这有利于家庭的和谐，也对自己的健康发展有积极作用。",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 519,
+          "evaluateExpression": "hx_wd_y_4 >= 8&& hx_wd_y_4 <= 17",
+          "conclusionAnalysis": "你的父亲对你有时会表现出偏爱的倾向。",
+          "suggestion": "被测试者的父亲有时会表现出对其的特别关爱。需要注意自己在某些时候是否会出现依赖父亲的情况，并注意处理好自己和其他孩子之间的关系；另外，在父亲特别的爱护下可以更好地尝试更多的自我探索和发展。",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 520,
+          "evaluateExpression": "hx_wd_y_4 >= 18&& hx_wd_y_4 <= 20",
+          "conclusionAnalysis": "你的父亲对你总是表现出极大的偏爱。",
+          "suggestion": "被测试者的父亲总是表现出对其特别的关心和爱护。建议：（1）注意自己在平时是否有些过于依赖父亲，并适当进行调整；（2）可能需要特别关注自己和其他孩子之间的情感交流，尽量调整好与他们之间的相处方式。",
+          "assessmentWarning": "none"
+        }
+      ]
+    },
+    {
+      "id": 267,
+      "num": 5,
+      "dimensionName": "拒绝、否认(父亲)",
+      "dimensionCode": "D",
+      "evaluateExpression": "hx_t_21 + hx_t_23 + hx_t_28 + hx_t_34 + hx_t_35 + hx_t_45",
+      "standardScoreFormula": "0",
+      "results": [
+        {
+          "id": 521,
+          "evaluateExpression": "hx_wd_y_5 >= 0&& hx_wd_y_5 <= 7",
+          "conclusionAnalysis": "你的父亲对你的要求不拒绝，对你的意见经常给予肯定。",
+          "suggestion": "被测试者的父亲是支持性的、鼓励性的。在这样的成长环境中，你的决断能力能得到很好的发展，也较容易培养出自信心。",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 522,
+          "evaluateExpression": "hx_wd_y_5 >= 8&& hx_wd_y_5 <= 13",
+          "conclusionAnalysis": "你的父亲对你的要求有时拒绝，有时不拒绝；对你的意见偶尔给予肯定。",
+          "suggestion": "被测试者的父亲有时会接纳其提出的意见和要求。需要注意父亲的拒绝和接纳是否具有合理的一面，如果拒绝时不合理的成分居多，可能在适当的时候要与父亲进行沟通，改善双方的交流方式。",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 523,
+          "evaluateExpression": "hx_wd_y_5 >= 14&& hx_wd_y_5 <= 24",
+          "conclusionAnalysis": "你的要求经常遭到父亲的拒绝，对你的意见你的父亲也经常给予否定。",
+          "suggestion": "被测试者似乎经常在父亲那里无法获得支持性的信息。建议：（1）在对拒绝感到挫败的时候，及时向父亲表达自己的感受；（2）争取与父亲探讨自己要求和意见的机会，告诉他自己的想法；（3）如果无法与父亲进行顺畅的交流，可以考虑接受专业的家庭治疗。",
+          "assessmentWarning": "none"
+        }
+      ]
+    },
+    {
+      "id": 268,
+      "num": 6,
+      "dimensionName": "过度保护(父亲)",
+      "dimensionCode": "E",
+      "evaluateExpression": "hx_t_12 + hx_t_16 + hx_t_39 + hx_t_40 + hx_t_59",
+      "standardScoreFormula": "0",
+      "results": [
+        {
+          "id": 524,
+          "evaluateExpression": "hx_wd_y_6 >= 0&& hx_wd_y_6 <= 9",
+          "conclusionAnalysis": "你的父亲对你比较放心，会放心让你去做你能够做的事。",
+          "suggestion": "被测试者的父亲营造出一种宽松的教养环境，这对其独立能力有一定帮助，而且能够增加对自己能力的认可。",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 525,
+          "evaluateExpression": "hx_wd_y_6 >= 10&& hx_wd_y_6 <= 19",
+          "conclusionAnalysis": "你的父亲对你做事有时不放心，有时会对你有保护的倾向。",
+          "suggestion": "被测试者的父亲会有选择性地对其进行保护。需要注意以下几点：（1）父亲的保护可能有利于让自己更容易专注于自身的发展和兴趣；（2）当自己觉得并不需要父亲保护的时候，可以坦诚地向父亲表达自己的想法。",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 526,
+          "evaluateExpression": "hx_wd_y_6 >= 20&& hx_wd_y_6 <= 20",
+          "conclusionAnalysis": "你的父亲对你过于保护，不放心让你去做任何你能够做的事，总想保护你，对你属于过保护。",
+          "suggestion": "被测试者的父亲总是担心其不能完成一些事情、或不能处理好自己的生活。建议：（1）觉得父亲的保护影响到自己生活的时候，尽量向其说明，并与其讨论更好的相处方式；（2）注意培养自身的能力、及对这些能力的信心，努力发挥自己的长处；（3）如果在这种保护下感到压抑，可选择向心理医生求助。",
+          "assessmentWarning": "none"
+        }
+      ]
+    },
+    {
+      "id": 269,
+      "num": 7,
+      "dimensionName": "情感温暖、理解(母亲)",
+      "dimensionCode": "F",
+      "evaluateExpression": "hx_t_68 + hx_t_70 + hx_t_72 + hx_t_73 + hx_t_75 + hx_t_81 + hx_t_91 + hx_t_95 + hx_t_96 + hx_t_97 + hx_t_98 + hx_t_99 + hx_t_103 + hx_t_108 + hx_t_110 + hx_t_120 + hx_t_126 + hx_t_127 + hx_t_129",
+      "standardScoreFormula": "0",
+      "results": [
+        {
+          "id": 527,
+          "evaluateExpression": "hx_wd_y_7 >= 0&& hx_wd_y_7 <= 36",
+          "conclusionAnalysis": "你的母亲对你的情感温暖很不够，也不能够理解你。",
+          "suggestion": "被测试者的母亲似乎未能创造出较温暖的成长环境。建议：（1）多于母亲进行情感交流，在生活上尽可能地关心她，并尽量多地向其表达自身的感受；（2）努力增加交流机会，改善交流情况，让母亲更了解自己；（3）如双方均认为关系需要改善却无法开始，可寻求专业的心理服务机构进行家庭治疗。",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 528,
+          "evaluateExpression": "hx_wd_y_7 >= 37&& hx_wd_y_7 <= 74",
+          "conclusionAnalysis": "你的母亲对你的情感温暖一般，有时也能够理解你，有时却不能。",
+          "suggestion": "被测试者的母亲有时会表现出自己的关爱。建议：（1）留意母亲对自己表达关心的时候，及时向其反馈自己喜爱这种温暖感觉的感受；（2）学习一些改善亲子关系的小技巧，在和母亲的互动过程中尝试使用。",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 529,
+          "evaluateExpression": "hx_wd_y_7 >= 75&& hx_wd_y_7 <= 76",
+          "conclusionAnalysis": "你的母亲对你的情感温暖程度很高，也总能够理解你。",
+          "suggestion": "被测试者与母亲之间形成了良好的情感交流模式，在生活中继续互相关心，有助于维持这种与母亲交流时的温暖感觉。关注相关的心理学小建议，丰富家庭沟通方式。",
+          "assessmentWarning": "none"
+        }
+      ]
+    },
+    {
+      "id": 270,
+      "num": 8,
+      "dimensionName": "过分干涉、过分保护(母亲)",
+      "dimensionCode": "G",
+      "evaluateExpression": "hx_t_67 + hx_t_77 + hx_t_78 + hx_t_80 + hx_t_82 + hx_t_85 + hx_t_90 + hx_t_93 + hx_t_101 + hx_t_102 + hx_t_107 + hx_t_114 + hx_t_116 + hx_t_122 + hx_t_123 + hx_t_125",
+      "standardScoreFormula": "0",
+      "results": [
+        {
+          "id": 530,
+          "evaluateExpression": "hx_wd_y_8 >= 0&& hx_wd_y_8 <= 25",
+          "conclusionAnalysis": "你的母亲能够给你自由的空间做自己能做的事，对你的教育管理比较松，没有过保护的倾向。",
+          "suggestion": "被测试者的母亲营造出了宽松的教养环境，并完全尊重其决定及想法，这在一定程度上有助于培养孩子的独立能力，而且能增加其对自身能力的认可。",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 531,
+          "evaluateExpression": "hx_wd_y_8 >= 26&& hx_wd_y_8 <= 49",
+          "conclusionAnalysis": "你的母亲对你有时比较干涉和过保护，但有时又能给你自由。",
+          "suggestion": "被测试者的母亲有时会对其做出的决定和想法进行评论、并对其进行保护。需要注意以下几点：（1）在一些有能力把握的事情上做出自己的选择和决定；（2）当自己觉得并不需要保护的时候，可以坦诚地向母亲表达自己的希望授权和尊重的想法。",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 532,
+          "evaluateExpression": "hx_wd_y_8 >= 50&& hx_wd_y_8 <= 64",
+          "conclusionAnalysis": "你的母亲对你太过干涉和过保护，不能给你自由发展的空间。",
+          "suggestion": "被测试者的母亲总是担心其不能完成一些事情、或不能处理好自己的生活，而且有可能对其指手画脚。建议：（1）觉得母亲的行为影响到自己生活的时候，尽量向其说明自身的感受，并与其讨论更好的相处方式；（2）注意培养自身的能力、及对这些能力的信心，努力发挥自己的长处；（3）如想做出改变、而沟通中出现严重困难，建议向专业的心理服务机构寻求帮助。",
+          "assessmentWarning": "none"
+        }
+      ]
+    },
+    {
+      "id": 271,
+      "num": 9,
+      "dimensionName": "拒绝、否认(母亲)",
+      "dimensionCode": "K",
+      "evaluateExpression": "hx_t_89 + hx_t_92 + hx_t_94 + hx_t_100 + hx_t_104 + hx_t_105 + hx_t_111 + hx_t_113",
+      "standardScoreFormula": "0",
+      "results": [
+        {
+          "id": 533,
+          "evaluateExpression": "hx_wd_y_9 >= 0&& hx_wd_y_9 <= 9",
+          "conclusionAnalysis": "你的母亲对你的要求不拒绝，对你的意见经常给予肯定。",
+          "suggestion": "被测试者的母亲对其持有的是支持性的教养态度。在这样的成长环境中，你的决策能力得到很好的发展，遇事较有主见，也对自己充满信心。",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 534,
+          "evaluateExpression": "hx_wd_y_9 >= 10&& hx_wd_y_9 <= 18",
+          "conclusionAnalysis": "你的母亲对你的要求有时拒绝，有时不拒绝；对你的意见偶尔给予肯定。",
+          "suggestion": "被测试者的母亲有时会拒绝其提出的意见和要求。需要考虑母亲的拒绝和接纳是否也有其合理性，如果不合理的成分居多，可能要及时、适时向母亲表达自己的想法和感受。",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 535,
+          "evaluateExpression": "hx_wd_y_9 >= 19&& hx_wd_y_9 <= 32",
+          "conclusionAnalysis": "你的要求经常遭到母亲的拒绝，对你的意见你的母亲也经常给予否定。",
+          "suggestion": "被测试者似乎很难从母亲处获得支持和包容。建议：（1）在对母亲的拒绝行为感到挫败的时候，及时说出自己的感受；（2）积极争取与母亲的交流机会，表达自己希望得到支持的愿望和想法；（3）改善自己在与母亲交流过程中的表达方式。",
+          "assessmentWarning": "none"
+        }
+      ]
+    },
+    {
+      "id": 272,
+      "num": 10,
+      "dimensionName": "惩罚严厉(母亲)",
+      "dimensionCode": "H",
+      "evaluateExpression": "hx_t_79 + hx_t_83 + hx_t_109 + hx_t_117 + hx_t_118 + hx_t_119 + hx_t_121 + hx_t_124 + hx_t_128",
+      "standardScoreFormula": "0",
+      "results": [
+        {
+          "id": 536,
+          "evaluateExpression": "hx_wd_y_10 >= 0&& hx_wd_y_10 <= 10",
+          "conclusionAnalysis": "你的母亲对你不严厉，从不惩罚你，或许是对你放任不管,或许是对你太过溺爱。",
+          "suggestion": "被测试者的母亲对其放任不管，有时也可能会过于溺爱。建议：（1）督促自己发展出自律和自我控制的能力；（2）关心母亲，适时向其表达自己的内心感受，增加交流机会。",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 537,
+          "evaluateExpression": "hx_wd_y_10 >= 11&& hx_wd_y_10 <= 17",
+          "conclusionAnalysis": "你的母亲对你的严厉程度适中，有时会惩罚你。",
+          "suggestion": "被测试者的母亲有时会实施惩罚。需要注意的地方：（1）受到惩罚时及时与母亲沟通，尽量说出自己的感受；（2）在友好的氛围里与母亲共同讨论更为适合的解决方法。",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 538,
+          "evaluateExpression": "hx_wd_y_10 >= 18&& hx_wd_y_10 <= 36",
+          "conclusionAnalysis": "你的母亲对你过于严厉，经常惩罚你。",
+          "suggestion": "被测试者的母亲对其过于严厉。建议：（1）向母亲表达自己所希望获得的教育方式，可能是温暖、关注的，而非情绪性的惩罚；（2）如双方关系出现了失衡而不能较好维持的迹象，可向专业心理服务机构寻求家庭治疗。",
+          "assessmentWarning": "none"
+        }
+      ]
+    },
+    {
+      "id": 273,
+      "num": 11,
+      "dimensionName": "偏爱被试(母亲)",
+      "dimensionCode": "I",
+      "evaluateExpression": "hx_t_69 + hx_t_74 + hx_t_88 + hx_t_130 + hx_t_131",
+      "standardScoreFormula": "0",
+      "results": [
+        {
+          "id": 539,
+          "evaluateExpression": "hx_wd_y_11 >= 1&& hx_wd_y_11 <= 6",
+          "conclusionAnalysis": "你的母亲对你没有表现出偏爱的倾向。",
+          "suggestion": "被测试者的母亲能够平等地对待家里的孩子，没有对谁表现出偏爱。孩子们都在公平的关爱和环境中成长，有利于家庭的和谐，可以促进自己的身心健康。",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 540,
+          "evaluateExpression": "hx_wd_y_11 >= 7&& hx_wd_y_11 <= 17",
+          "conclusionAnalysis": "你的母亲对你有时会表现出偏爱的倾向，有时又好象不偏爱你。",
+          "suggestion": "被测试者的母亲有时会表现出偏爱。需要注意自己在某些时候是否会出现依赖母亲的迹象，并处理好自己和其他兄弟姐妹之间的关系。",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 541,
+          "evaluateExpression": "hx_wd_y_11 >= 18&& hx_wd_y_11 <= 20",
+          "conclusionAnalysis": "你的母亲对你总是表现出极大的偏爱。",
+          "suggestion": "被测试者的母亲总是表现出对其特别的关爱。建议：（1）适当对自己与母亲的关系进行调整，避免过于依赖母亲；（2）可能需要特别关注自己和其他兄弟姐妹之间的情感交流，尽量调整好与他们之间的相处方式。",
+          "assessmentWarning": "none"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,724 @@
+{
+  "id": 145,
+  "title": "人际关系综合诊断量表(IRIDS)",
+  "type": "basic",
+  "questions": [
+    {
+      "id": 4623,
+      "text": "1．关于自己的烦恼有口难言。",
+      "type": "radio",
+      "orderNum": 1,
+      "options": [
+        {
+          "id": 16911,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 16912,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 4624,
+      "text": "2．和生人见面感觉不自然。",
+      "type": "radio",
+      "orderNum": 2,
+      "options": [
+        {
+          "id": 16913,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 16914,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 4625,
+      "text": "3．过分地羡慕和妒忌别人。",
+      "type": "radio",
+      "orderNum": 3,
+      "options": [
+        {
+          "id": 16915,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 16916,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 4626,
+      "text": "4．与异性交往太少。",
+      "type": "radio",
+      "orderNum": 4,
+      "options": [
+        {
+          "id": 16917,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 16918,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 4627,
+      "text": "5．对连续不断地会谈感到困难。",
+      "type": "radio",
+      "orderNum": 5,
+      "options": [
+        {
+          "id": 16919,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 16920,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 4628,
+      "text": "6．在社交场合，感到紧张。",
+      "type": "radio",
+      "orderNum": 6,
+      "options": [
+        {
+          "id": 16921,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 16922,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 4629,
+      "text": "7．时常伤害别人。",
+      "type": "radio",
+      "orderNum": 7,
+      "options": [
+        {
+          "id": 16923,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 16924,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 4630,
+      "text": "8．与异性来往感觉不自然。",
+      "type": "radio",
+      "orderNum": 8,
+      "options": [
+        {
+          "id": 16925,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 16926,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 4631,
+      "text": "9．与一大群朋友在一起，常感到孤寂或失落。",
+      "type": "radio",
+      "orderNum": 9,
+      "options": [
+        {
+          "id": 16927,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 16928,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 4632,
+      "text": "10．极易受窘。",
+      "type": "radio",
+      "orderNum": 10,
+      "options": [
+        {
+          "id": 16929,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 16930,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 4633,
+      "text": "11．与别人不能和睦相处。",
+      "type": "radio",
+      "orderNum": 11,
+      "options": [
+        {
+          "id": 16931,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 16932,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 4634,
+      "text": "12．不知道与异性相处如何适可而止。",
+      "type": "radio",
+      "orderNum": 12,
+      "options": [
+        {
+          "id": 16933,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 16934,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 4635,
+      "text": "13．当不熟悉的人对自己倾诉他的生平遭遇以求同情时，自己常感到不自在。",
+      "type": "radio",
+      "orderNum": 13,
+      "options": [
+        {
+          "id": 16935,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 16936,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 4636,
+      "text": "14．担心别人对自己有什么坏印象。",
+      "type": "radio",
+      "orderNum": 14,
+      "options": [
+        {
+          "id": 16937,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 16938,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 4637,
+      "text": "15．总是尽力使别人赏识自己。",
+      "type": "radio",
+      "orderNum": 15,
+      "options": [
+        {
+          "id": 16939,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 16940,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 4638,
+      "text": "16．暗自思慕异性。",
+      "type": "radio",
+      "orderNum": 16,
+      "options": [
+        {
+          "id": 16941,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 16942,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 4639,
+      "text": "17．时常避免表达自己的感受。",
+      "type": "radio",
+      "orderNum": 17,
+      "options": [
+        {
+          "id": 16943,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 16944,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 4640,
+      "text": "18．对自己的仪表（容貌）缺乏信心。",
+      "type": "radio",
+      "orderNum": 18,
+      "options": [
+        {
+          "id": 16945,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 16946,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 4641,
+      "text": "19．讨厌某人或被某人所讨厌。",
+      "type": "radio",
+      "orderNum": 19,
+      "options": [
+        {
+          "id": 16947,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 16948,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 4642,
+      "text": "20．瞧不起异性。",
+      "type": "radio",
+      "orderNum": 20,
+      "options": [
+        {
+          "id": 16949,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 16950,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 4643,
+      "text": "21．不能专注地倾听。",
+      "type": "radio",
+      "orderNum": 21,
+      "options": [
+        {
+          "id": 16951,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 16952,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 4644,
+      "text": "22．自己的烦恼无人可倾诉。",
+      "type": "radio",
+      "orderNum": 22,
+      "options": [
+        {
+          "id": 16953,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 16954,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 4645,
+      "text": "23．受别人排斥与冷漠。",
+      "type": "radio",
+      "orderNum": 23,
+      "options": [
+        {
+          "id": 16955,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 16956,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 4646,
+      "text": "24．被异性瞧不起。",
+      "type": "radio",
+      "orderNum": 24,
+      "options": [
+        {
+          "id": 16957,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 16958,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 4647,
+      "text": "25．不能广泛地听取各种各样意见、看法。",
+      "type": "radio",
+      "orderNum": 25,
+      "options": [
+        {
+          "id": 16959,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 16960,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 4648,
+      "text": "26．自己常因受伤害而暗自伤心。",
+      "type": "radio",
+      "orderNum": 26,
+      "options": [
+        {
+          "id": 16961,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 16962,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 4649,
+      "text": "27．常被别人谈论、愚弄。",
+      "type": "radio",
+      "orderNum": 27,
+      "options": [
+        {
+          "id": 16963,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 16964,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 4650,
+      "text": "28．与异性交往不知如何更好相处。",
+      "type": "radio",
+      "orderNum": 28,
+      "options": [
+        {
+          "id": 16965,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 16966,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    }
+  ],
+  "dimensions": [
+    {
+      "id": 496,
+      "num": 1,
+      "dimensionName": "与人交谈",
+      "dimensionCode": "A",
+      "evaluateExpression": "hx_t_1 + hx_t_5 + hx_t_9 + hx_t_13 + hx_t_17 + hx_t_21 + hx_t_25",
+      "standardScoreFormula": "0",
+      "results": [
+        {
+          "id": 1137,
+          "evaluateExpression": "hx_wd_y_1 >= 0&& hx_wd_y_1 <= 2",
+          "conclusionAnalysis": "0－2分之间，说明你有较高的交谈能力和技巧。",
+          "suggestion": "你善于利用恰当地谈话方式来交流思想感情，因此在与别人建立友情方面，你往往比别人获得更多的成功。这些优势不仅为你的学习与生活创造了良好的心境，而且常常有助于你成为伙伴中的领袖人物。",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 1138,
+          "evaluateExpression": "hx_wd_y_1 >= 3&& hx_wd_y_1 <= 5",
+          "conclusionAnalysis": "3－5分之间，说明你的交谈能力一般。",
+          "suggestion": "你会诉说自己的感受，但不能讲得条理清晰；你努力使自己成为一个好的倾听者，但还是做得不够。如果你与对方不太熟悉，开始时你往往表现得拘谨与沉默，不大愿意跟对方交谈。但这种局面在你面前一般不会持续很久。经过一段时间的接触与锻炼，你可能主动与同学搭话，同时这一切来得自然而非造作，此时，表明你的健谈能力已经大为改观，在这方面的困扰也会逐渐消除。",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 1139,
+          "evaluateExpression": "hx_wd_y_1 >= 6&& hx_wd_y_1 <= 7",
+          "conclusionAnalysis": "6分以上，说明你不善于交谈。",
+          "suggestion": "你只有在极需要的情况下你才同别人交谈，你总难于表达自己的感受，无论是愉快还是烦恼；你不是个很好的倾诉者，往往无法专心听别人说话或只对单独的话题感兴趣。",
+          "assessmentWarning": "none"
+        }
+      ]
+    },
+    {
+      "id": 497,
+      "num": 2,
+      "dimensionName": "交友交际",
+      "dimensionCode": "B",
+      "evaluateExpression": "hx_t_2 + hx_t_6 + hx_t_10 + hx_t_14 + hx_t_18 + hx_t_22 + hx_t_26",
+      "standardScoreFormula": "0",
+      "results": [
+        {
+          "id": 1140,
+          "evaluateExpression": "hx_wd_y_2 >= 0&& hx_wd_y_2 <= 2",
+          "conclusionAnalysis": "低于3分，你的人际关系较和谐，不存在较明显持久的行为困扰。",
+          "suggestion": "表明你对人较为真诚和热情。你的人际关系较和谐，在这些问题上，你不存在较明显持久的行为困扰。",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 1141,
+          "evaluateExpression": "hx_wd_y_2 >= 3&& hx_wd_y_2 <= 5",
+          "conclusionAnalysis": "3－5分之间，往往表明你在被动得寻找被人喜欢的突破口。",
+          "suggestion": "你不喜欢独自一个人呆着，你需要朋友在一起，但你又不太善于创造条件并积极主动地寻找知心朋友，而且，你心有余悸，生怕再主动行为后的“冷”体验。",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 1142,
+          "evaluateExpression": "hx_wd_y_2 >= 6&& hx_wd_y_2 <= 7",
+          "conclusionAnalysis": "6分以上，则表明你在社交活动与交友方面存在着较大的行为困扰。",
+          "suggestion": "在正常集体活动与社交场合，你比大多数伙伴更为拘谨；在有陌生人或老师存在的场合。你往往感到更加紧张而扰乱你的思绪；你往往过多地考虑自己的形象而使自己处于越被动，越来越孤独的境地。总之，交际与交友方面的严重困扰，使你陷入“感情危机”和孤独困窘的状态。",
+          "assessmentWarning": "none"
+        }
+      ]
+    },
+    {
+      "id": 498,
+      "num": 3,
+      "dimensionName": "待人接物",
+      "dimensionCode": "C",
+      "evaluateExpression": "hx_t_3 + hx_t_7 + hx_t_11 + hx_t_15 + hx_t_19 + hx_t_23 + hx_t_27",
+      "standardScoreFormula": "0",
+      "results": [
+        {
+          "id": 1143,
+          "evaluateExpression": "hx_wd_y_3 >= 0&& hx_wd_y_3 <= 2",
+          "conclusionAnalysis": "0－2分之间，表明你较尊重别人，敢于承担责任，对环境的适应性强。",
+          "suggestion": "你常常以你的真诚、宽容、责任心强等个性获得众多的好感与赞同。",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 1144,
+          "evaluateExpression": "hx_wd_y_3 >= 3&& hx_wd_y_3 <= 5",
+          "conclusionAnalysis": "3－5分之间，则往往表明你是个多侧面的人，也许可以算是一个较圆滑的人。",
+          "suggestion": "对待不同的人，你有不同的态度，而不同的人对你也有不同的评价。你讨厌某人或被某人所讨厌，但你却极喜欢另一个人或被另一个人所喜欢。你的朋友关系某方面是和谐的、良好的，某些方面却是紧张的。因此，你的情绪很不稳定，内心极不平衡，常常处于矛盾状态中。",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 1145,
+          "evaluateExpression": "hx_wd_y_3 >= 6&& hx_wd_y_3 <= 7",
+          "conclusionAnalysis": "6分以上，则往往表明你缺乏待人接物的机智与技巧。",
+          "suggestion": "在实际的人际关系中，你也许常有意无意地伤害别人，或者你过分地羡慕别人以致在内心妒忌别人。因此，其他一些同学可能回报你的冷漠、排斥，甚至是愚弄。",
+          "assessmentWarning": "none"
+        }
+      ]
+    },
+    {
+      "id": 499,
+      "num": 4,
+      "dimensionName": "异性朋友",
+      "dimensionCode": "D",
+      "evaluateExpression": "hx_t_4 + hx_t_8 + hx_t_12 + hx_t_16 + hx_t_20 + hx_t_24 + hx_t_28",
+      "standardScoreFormula": "0",
+      "results": [
+        {
+          "id": 1146,
+          "evaluateExpression": "hx_wd_y_4 >= 0&& hx_wd_y_4 <= 2",
+          "conclusionAnalysis": "0－2分，表明你懂得如何正确处理异性朋友之间的关系。",
+          "suggestion": "对异性同学持公正的态度，能大大方方地自自然然地与他们交往，并且在与异性交往中，得到了许多从同性朋友那里不能得到的东西，增加了对异性的了解，也丰富了自己的个性。你可能是一个较受欢迎的人，无论是同学朋友还是异性朋友，多数人都较喜欢你和赞赏你。",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 1147,
+          "evaluateExpression": "hx_wd_y_4 >= 3&& hx_wd_y_4 <= 4",
+          "conclusionAnalysis": "3－4分，表明你与异性同学交往的行为困扰程度一般。",
+          "suggestion": "你可能会觉得与异性同学交往是一件愉快的事，有时又会认为这种交往似乎是一种负担，你不懂得如何与异性交往最适宜。",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 1148,
+          "evaluateExpression": "hx_wd_y_4 >= 5&& hx_wd_y_4 <= 7",
+          "conclusionAnalysis": "5分以上，说明你在于异性交往的过程中存在较为严重的困扰。",
+          "suggestion": "也许你存在着过分的思慕异性或对异性持有偏见。这两种态度都有它的片面之处。也许是你不知如何把握好与异性同学交往的分寸而陷入困扰之中。",
+          "assessmentWarning": "none"
+        }
+      ]
+    },
+    {
+      "id": 500,
+      "num": 5,
+      "dimensionName": "总分",
+      "dimensionCode": "Z",
+      "evaluateExpression": "hx_t_1 + hx_t_2 + hx_t_3 + hx_t_4 + hx_t_5 + hx_t_6 + hx_t_7 + hx_t_8 + hx_t_9 + hx_t_10 + hx_t_11 + hx_t_12 + hx_t_13 + hx_t_14 + hx_t_15 + hx_t_16 + hx_t_17 + hx_t_18 + hx_t_19 + hx_t_20 + hx_t_21 + hx_t_22 + hx_t_23 + hx_t_24 + hx_t_25 + hx_t_26 + hx_t_27 + hx_t_28",
+      "standardScoreFormula": "0",
+      "results": [
+        {
+          "id": 1149,
+          "evaluateExpression": "hx_wd_y_5 >= 0&& hx_wd_y_5 <= 8",
+          "conclusionAnalysis": "0－8分之间，那么说明你在与朋友相处上的困扰较少。",
+          "suggestion": "你善于交谈，性格比较开朗，主动，关心别人，你对周围的朋友都比较好，愿意和他们在一起，他们也都喜欢你，你们相处得不错。而且，你能够从与朋友相处中，得到乐趣。你的生活是比较充实而且丰富多彩的，你与异性朋友也相处得比较好。一句话，你不存在或较少存在交友方面的困扰，你善于与朋友相处，人缘很好，获得许多的好感与赞同。",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 1150,
+          "evaluateExpression": "hx_wd_y_5 >= 9&& hx_wd_y_5 <= 14",
+          "conclusionAnalysis": "9－14分之间，那么，你与朋友相处存在一定程度的困扰。",
+          "suggestion": "你的人缘很一般，换句话说，你和朋友的关系并不牢固，时好时坏，经常处在一种起伏波动之中。",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 1151,
+          "evaluateExpression": "hx_wd_y_5 >= 15&& hx_wd_y_5 <= 28",
+          "conclusionAnalysis": "15－28分之间，那就表明你在同朋友相处上的行为困扰较严重，分数超过20分，则表明你的人际关系困扰程度很严重，而且在心理上出现较为明显的障碍。",
+          "suggestion": "你可能不善于交谈，也可能是一个性格孤僻的人，不开朗，或者有明显得自高自大、讨人嫌的行为。",
+          "assessmentWarning": "none"
+        }
+      ]
+    }
+  ]
+}

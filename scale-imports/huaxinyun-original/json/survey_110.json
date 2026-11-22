@@ -1,0 +1,711 @@
+{
+  "id": 110,
+  "title": "匹兹堡睡眠质量指数（PSQI）",
+  "type": "basic",
+  "questions": [
+    {
+      "id": 2492,
+      "text": " 近1个月，晚上上床睡觉通常（ &nbsp; ）点钟。",
+      "type": "radio",
+      "orderNum": 1,
+      "options": [
+        {
+          "id": 9819,
+          "optionNo": "A",
+          "text": "18:00-21:00",
+          "value": "0"
+        },
+        {
+          "id": 9820,
+          "optionNo": "B",
+          "text": "21:00-23:00",
+          "value": "0"
+        },
+        {
+          "id": 9821,
+          "optionNo": "C",
+          "text": "23:00-24:00",
+          "value": "0"
+        },
+        {
+          "id": 9822,
+          "optionNo": "D",
+          "text": "24:00以后",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2493,
+      "text": " 近1个月，从上床到入睡通常需要（ &nbsp; ）分钟。",
+      "type": "radio",
+      "orderNum": 2,
+      "options": [
+        {
+          "id": 9823,
+          "optionNo": "A",
+          "text": "小于或等于15分钟",
+          "value": "0"
+        },
+        {
+          "id": 9824,
+          "optionNo": "B",
+          "text": "16至30分钟",
+          "value": "1"
+        },
+        {
+          "id": 9825,
+          "optionNo": "C",
+          "text": "31至60分钟",
+          "value": "2"
+        },
+        {
+          "id": 9826,
+          "optionNo": "D",
+          "text": "大于60分钟",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "id": 2494,
+      "text": " 近1个月，通常早上（ &nbsp; ）点起床",
+      "type": "radio",
+      "orderNum": 3,
+      "options": [
+        {
+          "id": 9827,
+          "optionNo": "A",
+          "text": "01:00-05:00",
+          "value": "0"
+        },
+        {
+          "id": 9828,
+          "optionNo": "B",
+          "text": "06:00-07:00",
+          "value": "0"
+        },
+        {
+          "id": 9829,
+          "optionNo": "C",
+          "text": "08:00-10:00",
+          "value": "0"
+        },
+        {
+          "id": 9830,
+          "optionNo": "D",
+          "text": "11:00-12:00",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2495,
+      "text": " 近1个月，每夜通常实际睡眠（ &nbsp; ）小时(不等于卧床时间)。",
+      "type": "radio",
+      "orderNum": 4,
+      "options": [
+        {
+          "id": 9831,
+          "optionNo": "A",
+          "text": "大于7小时",
+          "value": "0"
+        },
+        {
+          "id": 9832,
+          "optionNo": "B",
+          "text": "6-7小时",
+          "value": "1"
+        },
+        {
+          "id": 9833,
+          "optionNo": "C",
+          "text": "5-6小时",
+          "value": "2"
+        },
+        {
+          "id": 9834,
+          "optionNo": "D",
+          "text": "小于5小时",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "id": 2496,
+      "text": " 您的睡眠效率是：（注：指实际睡眠时间与呆在床上的时间的比值）",
+      "type": "radio",
+      "orderNum": 5,
+      "options": [
+        {
+          "id": 9835,
+          "optionNo": "A",
+          "text": "大于85%",
+          "value": "0"
+        },
+        {
+          "id": 9836,
+          "optionNo": "B",
+          "text": "介于75~84%",
+          "value": "1"
+        },
+        {
+          "id": 9837,
+          "optionNo": "C",
+          "text": "介于65~74%",
+          "value": "2"
+        },
+        {
+          "id": 9838,
+          "optionNo": "D",
+          "text": "小于65%",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "id": 2497,
+      "text": "6a. 近1个月，因下列情况影响睡眠而烦恼：a. 入睡困难(30分钟内不能入睡)",
+      "type": "radio",
+      "orderNum": 6,
+      "options": [
+        {
+          "id": 9839,
+          "optionNo": "A",
+          "text": "无",
+          "value": "0"
+        },
+        {
+          "id": 9840,
+          "optionNo": "B",
+          "text": "小于1次/周",
+          "value": "1"
+        },
+        {
+          "id": 9841,
+          "optionNo": "C",
+          "text": "1-2次/周",
+          "value": "2"
+        },
+        {
+          "id": 9842,
+          "optionNo": "D",
+          "text": "大于或等于3次/周",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "id": 2498,
+      "text": "6b. 近1个月，因下列情况影响睡眠而烦恼：b. 夜间易醒或早醒",
+      "type": "radio",
+      "orderNum": 7,
+      "options": [
+        {
+          "id": 9843,
+          "optionNo": "A",
+          "text": "无",
+          "value": "0"
+        },
+        {
+          "id": 9844,
+          "optionNo": "B",
+          "text": "小于1次/周",
+          "value": "1"
+        },
+        {
+          "id": 9845,
+          "optionNo": "C",
+          "text": "1-2次/周",
+          "value": "2"
+        },
+        {
+          "id": 9846,
+          "optionNo": "D",
+          "text": "大于或等于3次/周",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "id": 2499,
+      "text": "6c. 近1个月，因下列情况影响睡眠而烦恼：c. 夜间去厕所",
+      "type": "radio",
+      "orderNum": 8,
+      "options": [
+        {
+          "id": 9847,
+          "optionNo": "A",
+          "text": "无",
+          "value": "0"
+        },
+        {
+          "id": 9848,
+          "optionNo": "B",
+          "text": "小于1次/周",
+          "value": "1"
+        },
+        {
+          "id": 9849,
+          "optionNo": "C",
+          "text": "1-2次/周",
+          "value": "2"
+        },
+        {
+          "id": 9850,
+          "optionNo": "D",
+          "text": "大于或等于3次/周",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "id": 2500,
+      "text": "6d. 近1个月，因下列情况影响睡眠而烦恼：d. 呼吸不畅",
+      "type": "radio",
+      "orderNum": 9,
+      "options": [
+        {
+          "id": 9851,
+          "optionNo": "A",
+          "text": "无",
+          "value": "0"
+        },
+        {
+          "id": 9852,
+          "optionNo": "B",
+          "text": "小于1次/周",
+          "value": "1"
+        },
+        {
+          "id": 9853,
+          "optionNo": "C",
+          "text": "1-2次/周",
+          "value": "2"
+        },
+        {
+          "id": 9854,
+          "optionNo": "D",
+          "text": "大于或等于3次/周",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "id": 2501,
+      "text": "6e. 近1个月，因下列情况影响睡眠而烦恼：e. 咳嗽或鼾声高",
+      "type": "radio",
+      "orderNum": 10,
+      "options": [
+        {
+          "id": 9855,
+          "optionNo": "A",
+          "text": "无",
+          "value": "0"
+        },
+        {
+          "id": 9856,
+          "optionNo": "B",
+          "text": "小于1次/周",
+          "value": "1"
+        },
+        {
+          "id": 9857,
+          "optionNo": "C",
+          "text": "1-2次/周",
+          "value": "2"
+        },
+        {
+          "id": 9858,
+          "optionNo": "D",
+          "text": "大于或等于3次/周",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "id": 2502,
+      "text": "6f. 近1个月，因下列情况影响睡眠而烦恼：f. 感觉冷",
+      "type": "radio",
+      "orderNum": 11,
+      "options": [
+        {
+          "id": 9859,
+          "optionNo": "A",
+          "text": "无",
+          "value": "0"
+        },
+        {
+          "id": 9860,
+          "optionNo": "B",
+          "text": "小于1次/周",
+          "value": "1"
+        },
+        {
+          "id": 9861,
+          "optionNo": "C",
+          "text": "1-2次/周",
+          "value": "2"
+        },
+        {
+          "id": 9862,
+          "optionNo": "D",
+          "text": "大于或等于3次/周",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "id": 2503,
+      "text": "6g. 近1个月，因下列情况影响睡眠而烦恼：g. 感觉热",
+      "type": "radio",
+      "orderNum": 12,
+      "options": [
+        {
+          "id": 9863,
+          "optionNo": "A",
+          "text": "无",
+          "value": "0"
+        },
+        {
+          "id": 9864,
+          "optionNo": "B",
+          "text": "小于1次/周",
+          "value": "1"
+        },
+        {
+          "id": 9865,
+          "optionNo": "C",
+          "text": "1-2次/周",
+          "value": "2"
+        },
+        {
+          "id": 9866,
+          "optionNo": "D",
+          "text": "大于或等于3次/周",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "id": 2504,
+      "text": "6h. 近1个月，因下列情况影响睡眠而烦恼：h. 做恶梦",
+      "type": "radio",
+      "orderNum": 13,
+      "options": [
+        {
+          "id": 9867,
+          "optionNo": "A",
+          "text": "无",
+          "value": "0"
+        },
+        {
+          "id": 9868,
+          "optionNo": "B",
+          "text": "小于1次/周",
+          "value": "1"
+        },
+        {
+          "id": 9869,
+          "optionNo": "C",
+          "text": "1-2次/周",
+          "value": "2"
+        },
+        {
+          "id": 9870,
+          "optionNo": "D",
+          "text": "大于或等于3次/周",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "id": 2505,
+      "text": "6i. 近1个月，因下列情况影响睡眠而烦恼：i. 疼痛不适",
+      "type": "radio",
+      "orderNum": 14,
+      "options": [
+        {
+          "id": 9871,
+          "optionNo": "A",
+          "text": "无",
+          "value": "0"
+        },
+        {
+          "id": 9872,
+          "optionNo": "B",
+          "text": "小于1次/周",
+          "value": "1"
+        },
+        {
+          "id": 9873,
+          "optionNo": "C",
+          "text": "1-2次/周",
+          "value": "2"
+        },
+        {
+          "id": 9874,
+          "optionNo": "D",
+          "text": "大于或等于3次/周",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "id": 2506,
+      "text": "6j. 近1个月，因下列情况影响睡眠而烦恼：j. 其它影响睡眠的事情",
+      "type": "radio",
+      "orderNum": 15,
+      "options": [
+        {
+          "id": 9875,
+          "optionNo": "A",
+          "text": "无",
+          "value": "0"
+        },
+        {
+          "id": 9876,
+          "optionNo": "B",
+          "text": "小于1次/周",
+          "value": "1"
+        },
+        {
+          "id": 9877,
+          "optionNo": "C",
+          "text": "1-2次/周",
+          "value": "2"
+        },
+        {
+          "id": 9878,
+          "optionNo": "D",
+          "text": "大于或等于3次/周",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "id": 2507,
+      "text": " 近1个月，总的来说，您认为己的睡眠质量：",
+      "type": "radio",
+      "orderNum": 16,
+      "options": [
+        {
+          "id": 9879,
+          "optionNo": "A",
+          "text": "很好",
+          "value": "0"
+        },
+        {
+          "id": 9880,
+          "optionNo": "B",
+          "text": "较好",
+          "value": "1"
+        },
+        {
+          "id": 9881,
+          "optionNo": "C",
+          "text": "较差",
+          "value": "2"
+        },
+        {
+          "id": 9882,
+          "optionNo": "D",
+          "text": "很差",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "id": 2508,
+      "text": " 近1个月，您用药物催眠的情况：",
+      "type": "radio",
+      "orderNum": 17,
+      "options": [
+        {
+          "id": 9883,
+          "optionNo": "A",
+          "text": "无",
+          "value": "0"
+        },
+        {
+          "id": 9884,
+          "optionNo": "B",
+          "text": "小于1次/周",
+          "value": "1"
+        },
+        {
+          "id": 9885,
+          "optionNo": "C",
+          "text": "1-2次/周",
+          "value": "2"
+        },
+        {
+          "id": 9886,
+          "optionNo": "D",
+          "text": "大于或等于3次/周",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "id": 2509,
+      "text": " 近1个月，您常感到困倦吗？",
+      "type": "radio",
+      "orderNum": 18,
+      "options": [
+        {
+          "id": 9887,
+          "optionNo": "A",
+          "text": "无",
+          "value": "0"
+        },
+        {
+          "id": 9888,
+          "optionNo": "B",
+          "text": "小于;1次/周",
+          "value": "1"
+        },
+        {
+          "id": 9889,
+          "optionNo": "C",
+          "text": "1-2次/周",
+          "value": "2"
+        },
+        {
+          "id": 9890,
+          "optionNo": "D",
+          "text": "大于或等于3次/周",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "id": 2510,
+      "text": " 近1个月，您做事情的精力不足吗？",
+      "type": "radio",
+      "orderNum": 19,
+      "options": [
+        {
+          "id": 9891,
+          "optionNo": "A",
+          "text": "没有",
+          "value": "0"
+        },
+        {
+          "id": 9892,
+          "optionNo": "B",
+          "text": "偶尔有",
+          "value": "1"
+        },
+        {
+          "id": 9893,
+          "optionNo": "C",
+          "text": "有时有",
+          "value": "2"
+        },
+        {
+          "id": 9894,
+          "optionNo": "D",
+          "text": "经常有",
+          "value": "3"
+        }
+      ]
+    }
+  ],
+  "dimensions": [
+    {
+      "id": 303,
+      "num": 1,
+      "dimensionName": "睡眠质量",
+      "dimensionCode": "A",
+      "evaluateExpression": "hx_t_16",
+      "standardScoreFormula": "0",
+      "results": []
+    },
+    {
+      "id": 304,
+      "num": 2,
+      "dimensionName": "入睡时间",
+      "dimensionCode": "B",
+      "evaluateExpression": "hx_t_2 + hx_t_6",
+      "standardScoreFormula": "0",
+      "results": []
+    },
+    {
+      "id": 305,
+      "num": 3,
+      "dimensionName": "睡眠时间",
+      "dimensionCode": "C",
+      "evaluateExpression": "hx_t_4",
+      "standardScoreFormula": "0",
+      "results": []
+    },
+    {
+      "id": 306,
+      "num": 4,
+      "dimensionName": "睡眠效率",
+      "dimensionCode": "D",
+      "evaluateExpression": "hx_t_5",
+      "standardScoreFormula": "0",
+      "results": []
+    },
+    {
+      "id": 307,
+      "num": 5,
+      "dimensionName": "睡眠障碍",
+      "dimensionCode": "E",
+      "evaluateExpression": "hx_t_7 + hx_t_8 + hx_t_9 + hx_t_10 + hx_t_11 + hx_t_12 + hx_t_13 + hx_t_14 + hx_t_15",
+      "standardScoreFormula": "0",
+      "results": []
+    },
+    {
+      "id": 308,
+      "num": 6,
+      "dimensionName": "催眠药物",
+      "dimensionCode": "F",
+      "evaluateExpression": "hx_t_17",
+      "standardScoreFormula": "0",
+      "results": []
+    },
+    {
+      "id": 309,
+      "num": 7,
+      "dimensionName": "日间功能障碍",
+      "dimensionCode": "G",
+      "evaluateExpression": "hx_t_18 + hx_t_19",
+      "standardScoreFormula": "0",
+      "results": []
+    },
+    {
+      "id": 310,
+      "num": 8,
+      "dimensionName": "总分",
+      "dimensionCode": "T",
+      "evaluateExpression": "hx_wd_y_a + hx_wd_y_b + hx_wd_y_c + hx_wd_y_d + hx_wd_y_e + hx_wd_y_f + hx_wd_y_g",
+      "standardScoreFormula": "0",
+      "results": [
+        {
+          "id": 601,
+          "evaluateExpression": "hx_wd_y_8 >= 0&& hx_wd_y_8 <= 2.99",
+          "conclusionAnalysis": "您的睡眠质量很好。",
+          "suggestion": "您的睡眠质量很好。请继续保持。要想拥有良好睡眠，建议您：\n1、保持心情愉快；2、保证良好的饮食习惯，营养均衡；3、适当运动；4、作息规律，遵照生物钟的运行规律；5、做一些放松训练。",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 602,
+          "evaluateExpression": "hx_wd_y_8 >= 3&& hx_wd_y_8 <= 7",
+          "conclusionAnalysis": "您的睡眠质量居中。",
+          "suggestion": "您的睡眠质量一般，要注意调整。要想拥有良好睡眠，建议您：\n1、保持心情愉快；2、保证良好的饮食习惯，营养均衡；3、适当运动；4、作息规律，遵照生物钟的运行规律；5、做一些放松训练。",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 603,
+          "evaluateExpression": "hx_wd_y_8 >= 7.01&& hx_wd_y_8 <= 21",
+          "conclusionAnalysis": "您的睡眠质量有些问题。",
+          "suggestion": "您的睡眠质量存在一些问题，可能会严重影响到您的身心健康。要想拥有良好睡眠，建议您：\n1、保持心情愉快；2、保证良好的饮食习惯，营养均衡；3、适当运动；4、作息规律，遵照生物钟的运行规律；5、做一些放松训练。",
+          "assessmentWarning": "none"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,874 @@
+{
+  "id": "wds-workplace-deviance",
+  "title": "职场偏差行为量表(WDS)",
+  "description": "Workplace Deviance Scale (WDS)，Bennett & Robinson (2000)编制，测量组织偏差行为（12题）和人际偏差行为（7题）。7点频率计分（1=从不到7=每天），各维度均分1-7。",
+  "type": "basic",
+  "questions": [
+    {
+      "text": "上班迟到。",
+      "type": "radio",
+      "orderNum": 1,
+      "options": [
+        {
+          "text": "从不",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "每年一次",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "每月一次",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "每月数次",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "每周一次",
+          "value": "5",
+          "optionNo": "E"
+        },
+        {
+          "text": "每周数次",
+          "value": "6",
+          "optionNo": "F"
+        },
+        {
+          "text": "每天",
+          "value": "7",
+          "optionNo": "G"
+        }
+      ]
+    },
+    {
+      "text": "早退。",
+      "type": "radio",
+      "orderNum": 2,
+      "options": [
+        {
+          "text": "从不",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "每年一次",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "每月一次",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "每月数次",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "每周一次",
+          "value": "5",
+          "optionNo": "E"
+        },
+        {
+          "text": "每周数次",
+          "value": "6",
+          "optionNo": "F"
+        },
+        {
+          "text": "每天",
+          "value": "7",
+          "optionNo": "G"
+        }
+      ]
+    },
+    {
+      "text": "未经许可占用公司物品。",
+      "type": "radio",
+      "orderNum": 3,
+      "options": [
+        {
+          "text": "从不",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "每年一次",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "每月一次",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "每月数次",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "每周一次",
+          "value": "5",
+          "optionNo": "E"
+        },
+        {
+          "text": "每周数次",
+          "value": "6",
+          "optionNo": "F"
+        },
+        {
+          "text": "每天",
+          "value": "7",
+          "optionNo": "G"
+        }
+      ]
+    },
+    {
+      "text": "在工作时间花大量时间做白日梦。",
+      "type": "radio",
+      "orderNum": 4,
+      "options": [
+        {
+          "text": "从不",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "每年一次",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "每月一次",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "每月数次",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "每周一次",
+          "value": "5",
+          "optionNo": "E"
+        },
+        {
+          "text": "每周数次",
+          "value": "6",
+          "optionNo": "F"
+        },
+        {
+          "text": "每天",
+          "value": "7",
+          "optionNo": "G"
+        }
+      ]
+    },
+    {
+      "text": "伪造报销单据或工作记录。",
+      "type": "radio",
+      "orderNum": 5,
+      "options": [
+        {
+          "text": "从不",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "每年一次",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "每月一次",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "每月数次",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "每周一次",
+          "value": "5",
+          "optionNo": "E"
+        },
+        {
+          "text": "每周数次",
+          "value": "6",
+          "optionNo": "F"
+        },
+        {
+          "text": "每天",
+          "value": "7",
+          "optionNo": "G"
+        }
+      ]
+    },
+    {
+      "text": "在工作中故意放慢速度。",
+      "type": "radio",
+      "orderNum": 6,
+      "options": [
+        {
+          "text": "从不",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "每年一次",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "每月一次",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "每月数次",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "每周一次",
+          "value": "5",
+          "optionNo": "E"
+        },
+        {
+          "text": "每周数次",
+          "value": "6",
+          "optionNo": "F"
+        },
+        {
+          "text": "每天",
+          "value": "7",
+          "optionNo": "G"
+        }
+      ]
+    },
+    {
+      "text": "将工作中的错误归咎于他人。",
+      "type": "radio",
+      "orderNum": 7,
+      "options": [
+        {
+          "text": "从不",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "每年一次",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "每月一次",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "每月数次",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "每周一次",
+          "value": "5",
+          "optionNo": "E"
+        },
+        {
+          "text": "每周数次",
+          "value": "6",
+          "optionNo": "F"
+        },
+        {
+          "text": "每天",
+          "value": "7",
+          "optionNo": "G"
+        }
+      ]
+    },
+    {
+      "text": "在工作时间处理私人事务。",
+      "type": "radio",
+      "orderNum": 8,
+      "options": [
+        {
+          "text": "从不",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "每年一次",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "每月一次",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "每月数次",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "每周一次",
+          "value": "5",
+          "optionNo": "E"
+        },
+        {
+          "text": "每周数次",
+          "value": "6",
+          "optionNo": "F"
+        },
+        {
+          "text": "每天",
+          "value": "7",
+          "optionNo": "G"
+        }
+      ]
+    },
+    {
+      "text": "忽视上级的指示。",
+      "type": "radio",
+      "orderNum": 9,
+      "options": [
+        {
+          "text": "从不",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "每年一次",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "每月一次",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "每月数次",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "每周一次",
+          "value": "5",
+          "optionNo": "E"
+        },
+        {
+          "text": "每周数次",
+          "value": "6",
+          "optionNo": "F"
+        },
+        {
+          "text": "每天",
+          "value": "7",
+          "optionNo": "G"
+        }
+      ]
+    },
+    {
+      "text": "在工作中饮酒或使用药物。",
+      "type": "radio",
+      "orderNum": 10,
+      "options": [
+        {
+          "text": "从不",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "每年一次",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "每月一次",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "每月数次",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "每周一次",
+          "value": "5",
+          "optionNo": "E"
+        },
+        {
+          "text": "每周数次",
+          "value": "6",
+          "optionNo": "F"
+        },
+        {
+          "text": "每天",
+          "value": "7",
+          "optionNo": "G"
+        }
+      ]
+    },
+    {
+      "text": "在工作中传播关于同事的流言蜚语。",
+      "type": "radio",
+      "orderNum": 11,
+      "options": [
+        {
+          "text": "从不",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "每年一次",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "每月一次",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "每月数次",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "每周一次",
+          "value": "5",
+          "optionNo": "E"
+        },
+        {
+          "text": "每周数次",
+          "value": "6",
+          "optionNo": "F"
+        },
+        {
+          "text": "每天",
+          "value": "7",
+          "optionNo": "G"
+        }
+      ]
+    },
+    {
+      "text": "故意不努力工作。",
+      "type": "radio",
+      "orderNum": 12,
+      "options": [
+        {
+          "text": "从不",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "每年一次",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "每月一次",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "每月数次",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "每周一次",
+          "value": "5",
+          "optionNo": "E"
+        },
+        {
+          "text": "每周数次",
+          "value": "6",
+          "optionNo": "F"
+        },
+        {
+          "text": "每天",
+          "value": "7",
+          "optionNo": "G"
+        }
+      ]
+    },
+    {
+      "text": "在工作中对同事发表不当评论。",
+      "type": "radio",
+      "orderNum": 13,
+      "options": [
+        {
+          "text": "从不",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "每年一次",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "每月一次",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "每月数次",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "每周一次",
+          "value": "5",
+          "optionNo": "E"
+        },
+        {
+          "text": "每周数次",
+          "value": "6",
+          "optionNo": "F"
+        },
+        {
+          "text": "每天",
+          "value": "7",
+          "optionNo": "G"
+        }
+      ]
+    },
+    {
+      "text": "在工作中对他人做出不雅手势。",
+      "type": "radio",
+      "orderNum": 14,
+      "options": [
+        {
+          "text": "从不",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "每年一次",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "每月一次",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "每月数次",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "每周一次",
+          "value": "5",
+          "optionNo": "E"
+        },
+        {
+          "text": "每周数次",
+          "value": "6",
+          "optionNo": "F"
+        },
+        {
+          "text": "每天",
+          "value": "7",
+          "optionNo": "G"
+        }
+      ]
+    },
+    {
+      "text": "在工作中对他人发表种族歧视或性别歧视言论。",
+      "type": "radio",
+      "orderNum": 15,
+      "options": [
+        {
+          "text": "从不",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "每年一次",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "每月一次",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "每月数次",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "每周一次",
+          "value": "5",
+          "optionNo": "E"
+        },
+        {
+          "text": "每周数次",
+          "value": "6",
+          "optionNo": "F"
+        },
+        {
+          "text": "每天",
+          "value": "7",
+          "optionNo": "G"
+        }
+      ]
+    },
+    {
+      "text": "在工作中咒骂同事。",
+      "type": "radio",
+      "orderNum": 16,
+      "options": [
+        {
+          "text": "从不",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "每年一次",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "每月一次",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "每月数次",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "每周一次",
+          "value": "5",
+          "optionNo": "E"
+        },
+        {
+          "text": "每周数次",
+          "value": "6",
+          "optionNo": "F"
+        },
+        {
+          "text": "每天",
+          "value": "7",
+          "optionNo": "G"
+        }
+      ]
+    },
+    {
+      "text": "在工作中对他人进行恶作剧。",
+      "type": "radio",
+      "orderNum": 17,
+      "options": [
+        {
+          "text": "从不",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "每年一次",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "每月一次",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "每月数次",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "每周一次",
+          "value": "5",
+          "optionNo": "E"
+        },
+        {
+          "text": "每周数次",
+          "value": "6",
+          "optionNo": "F"
+        },
+        {
+          "text": "每天",
+          "value": "7",
+          "optionNo": "G"
+        }
+      ]
+    },
+    {
+      "text": "在工作中公开让他人难堪。",
+      "type": "radio",
+      "orderNum": 18,
+      "options": [
+        {
+          "text": "从不",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "每年一次",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "每月一次",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "每月数次",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "每周一次",
+          "value": "5",
+          "optionNo": "E"
+        },
+        {
+          "text": "每周数次",
+          "value": "6",
+          "optionNo": "F"
+        },
+        {
+          "text": "每天",
+          "value": "7",
+          "optionNo": "G"
+        }
+      ]
+    },
+    {
+      "text": "在工作中对他人进行身体威胁或恐吓。",
+      "type": "radio",
+      "orderNum": 19,
+      "options": [
+        {
+          "text": "从不",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "每年一次",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "每月一次",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "每月数次",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "每周一次",
+          "value": "5",
+          "optionNo": "E"
+        },
+        {
+          "text": "每周数次",
+          "value": "6",
+          "optionNo": "F"
+        },
+        {
+          "text": "每天",
+          "value": "7",
+          "optionNo": "G"
+        }
+      ]
+    }
+  ],
+  "dimensions": [
+    {
+      "dimensionName": "组织偏差行为",
+      "dimensionCode": "org_deviance",
+      "num": 1,
+      "evaluateExpression": "(hx_t_1 + hx_t_2 + hx_t_3 + hx_t_4 + hx_t_5 + hx_t_6 + hx_t_7 + hx_t_8 + hx_t_9 + hx_t_10 + hx_t_11 + hx_t_12) / 12",
+      "standardScoreFormula": "",
+      "results": [
+        {
+          "evaluateExpression": "hx_wd_y_1 <= 2.0",
+          "conclusionAnalysis": "组织偏差行为水平较低",
+          "suggestion": "您在工作场所中的偏差行为频率很低，工作态度积极。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_1 > 2.0 && hx_wd_y_1 <= 3.0",
+          "conclusionAnalysis": "组织偏差行为水平中等",
+          "suggestion": "您的组织偏差行为处于正常范围，偶尔会出现轻微的偏差行为。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_1 > 3.0 && hx_wd_y_1 <= 4.5",
+          "conclusionAnalysis": "组织偏差行为水平偏高",
+          "suggestion": "您在组织偏差行为方面得分偏高，建议反思工作态度和行为习惯。",
+          "assessmentWarning": "low"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_1 > 4.5",
+          "conclusionAnalysis": "组织偏差行为水平异常偏高",
+          "suggestion": "您的组织偏差行为频率明显偏高，建议寻求职业咨询帮助改善工作行为。",
+          "assessmentWarning": "middle"
+        }
+      ]
+    },
+    {
+      "dimensionName": "人际偏差行为",
+      "dimensionCode": "inter_deviance",
+      "num": 2,
+      "evaluateExpression": "(hx_t_13 + hx_t_14 + hx_t_15 + hx_t_16 + hx_t_17 + hx_t_18 + hx_t_19) / 7",
+      "standardScoreFormula": "",
+      "results": [
+        {
+          "evaluateExpression": "hx_wd_y_2 <= 1.5",
+          "conclusionAnalysis": "人际偏差行为水平较低",
+          "suggestion": "您在工作场所中的人际偏差行为频率很低，人际关系良好。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_2 > 1.5 && hx_wd_y_2 <= 2.5",
+          "conclusionAnalysis": "人际偏差行为水平中等",
+          "suggestion": "您的人际偏差行为处于正常范围。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_2 > 2.5 && hx_wd_y_2 <= 4.0",
+          "conclusionAnalysis": "人际偏差行为水平偏高",
+          "suggestion": "您在人际偏差行为方面得分偏高，建议关注同事关系和沟通方式。",
+          "assessmentWarning": "low"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_2 > 4.0",
+          "conclusionAnalysis": "人际偏差行为水平异常偏高",
+          "suggestion": "您的人际偏差行为频率明显偏高，建议寻求职业咨询帮助改善人际互动。",
+          "assessmentWarning": "middle"
+        }
+      ]
+    }
+  ]
+}

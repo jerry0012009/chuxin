@@ -1,0 +1,952 @@
+{
+  "id": "bis11-impulsiveness",
+  "title": "巴瑞特冲动性量表(BIS-11)",
+  "description": "Barratt Impulsiveness Scale (BIS-11)，Patton, Stanford & Barratt (1995) 编制，测量冲动性的三个维度：注意力冲动性、运动冲动性和非计划冲动性。共30题，4点计分（1=很少/从不 到 4=几乎总是/总是），其中有14道反向计分题。总分范围30-120，分数越高表示冲动性越强。常模参考：一般人群均值约63(SD≈10)。",
+  "type": "basic",
+  "questions": [
+    {
+      "text": "我会认真地规划事情。（反向计分）",
+      "type": "radio",
+      "orderNum": 1,
+      "options": [
+        {
+          "text": "很少/从不",
+          "value": "4",
+          "optionNo": "A"
+        },
+        {
+          "text": "偶尔",
+          "value": "3",
+          "optionNo": "B"
+        },
+        {
+          "text": "经常",
+          "value": "2",
+          "optionNo": "C"
+        },
+        {
+          "text": "几乎总是/总是",
+          "value": "1",
+          "optionNo": "D"
+        }
+      ]
+    },
+    {
+      "text": "我做事不加思考。",
+      "type": "radio",
+      "orderNum": 2,
+      "options": [
+        {
+          "text": "很少/从不",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "偶尔",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "经常",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "几乎总是/总是",
+          "value": "4",
+          "optionNo": "D"
+        }
+      ]
+    },
+    {
+      "text": "我很快就能做出决定。",
+      "type": "radio",
+      "orderNum": 3,
+      "options": [
+        {
+          "text": "很少/从不",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "偶尔",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "经常",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "几乎总是/总是",
+          "value": "4",
+          "optionNo": "D"
+        }
+      ]
+    },
+    {
+      "text": "我是个无忧无虑的人。",
+      "type": "radio",
+      "orderNum": 4,
+      "options": [
+        {
+          "text": "很少/从不",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "偶尔",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "经常",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "几乎总是/总是",
+          "value": "4",
+          "optionNo": "D"
+        }
+      ]
+    },
+    {
+      "text": "我注意力不集中。",
+      "type": "radio",
+      "orderNum": 5,
+      "options": [
+        {
+          "text": "很少/从不",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "偶尔",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "经常",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "几乎总是/总是",
+          "value": "4",
+          "optionNo": "D"
+        }
+      ]
+    },
+    {
+      "text": "我思绪纷乱，难以平静。",
+      "type": "radio",
+      "orderNum": 6,
+      "options": [
+        {
+          "text": "很少/从不",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "偶尔",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "经常",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "几乎总是/总是",
+          "value": "4",
+          "optionNo": "D"
+        }
+      ]
+    },
+    {
+      "text": "我会提前做好旅行计划。（反向计分）",
+      "type": "radio",
+      "orderNum": 7,
+      "options": [
+        {
+          "text": "很少/从不",
+          "value": "4",
+          "optionNo": "A"
+        },
+        {
+          "text": "偶尔",
+          "value": "3",
+          "optionNo": "B"
+        },
+        {
+          "text": "经常",
+          "value": "2",
+          "optionNo": "C"
+        },
+        {
+          "text": "几乎总是/总是",
+          "value": "1",
+          "optionNo": "D"
+        }
+      ]
+    },
+    {
+      "text": "我有很强的自我控制能力。（反向计分）",
+      "type": "radio",
+      "orderNum": 8,
+      "options": [
+        {
+          "text": "很少/从不",
+          "value": "4",
+          "optionNo": "A"
+        },
+        {
+          "text": "偶尔",
+          "value": "3",
+          "optionNo": "B"
+        },
+        {
+          "text": "经常",
+          "value": "2",
+          "optionNo": "C"
+        },
+        {
+          "text": "几乎总是/总是",
+          "value": "1",
+          "optionNo": "D"
+        }
+      ]
+    },
+    {
+      "text": "我能够轻松集中注意力。（反向计分）",
+      "type": "radio",
+      "orderNum": 9,
+      "options": [
+        {
+          "text": "很少/从不",
+          "value": "4",
+          "optionNo": "A"
+        },
+        {
+          "text": "偶尔",
+          "value": "3",
+          "optionNo": "B"
+        },
+        {
+          "text": "经常",
+          "value": "2",
+          "optionNo": "C"
+        },
+        {
+          "text": "几乎总是/总是",
+          "value": "1",
+          "optionNo": "D"
+        }
+      ]
+    },
+    {
+      "text": "我经常定期存钱。（反向计分）",
+      "type": "radio",
+      "orderNum": 10,
+      "options": [
+        {
+          "text": "很少/从不",
+          "value": "4",
+          "optionNo": "A"
+        },
+        {
+          "text": "偶尔",
+          "value": "3",
+          "optionNo": "B"
+        },
+        {
+          "text": "经常",
+          "value": "2",
+          "optionNo": "C"
+        },
+        {
+          "text": "几乎总是/总是",
+          "value": "1",
+          "optionNo": "D"
+        }
+      ]
+    },
+    {
+      "text": "我做事前会反复思考。（反向计分）",
+      "type": "radio",
+      "orderNum": 11,
+      "options": [
+        {
+          "text": "很少/从不",
+          "value": "4",
+          "optionNo": "A"
+        },
+        {
+          "text": "偶尔",
+          "value": "3",
+          "optionNo": "B"
+        },
+        {
+          "text": "经常",
+          "value": "2",
+          "optionNo": "C"
+        },
+        {
+          "text": "几乎总是/总是",
+          "value": "1",
+          "optionNo": "D"
+        }
+      ]
+    },
+    {
+      "text": "我买东西前会三思。（反向计分）",
+      "type": "radio",
+      "orderNum": 12,
+      "options": [
+        {
+          "text": "很少/从不",
+          "value": "4",
+          "optionNo": "A"
+        },
+        {
+          "text": "偶尔",
+          "value": "3",
+          "optionNo": "B"
+        },
+        {
+          "text": "经常",
+          "value": "2",
+          "optionNo": "C"
+        },
+        {
+          "text": "几乎总是/总是",
+          "value": "1",
+          "optionNo": "D"
+        }
+      ]
+    },
+    {
+      "text": "我做事比较冲动。",
+      "type": "radio",
+      "orderNum": 13,
+      "options": [
+        {
+          "text": "很少/从不",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "偶尔",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "经常",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "几乎总是/总是",
+          "value": "4",
+          "optionNo": "D"
+        }
+      ]
+    },
+    {
+      "text": "我喜欢思考复杂的问题。（反向计分）",
+      "type": "radio",
+      "orderNum": 14,
+      "options": [
+        {
+          "text": "很少/从不",
+          "value": "4",
+          "optionNo": "A"
+        },
+        {
+          "text": "偶尔",
+          "value": "3",
+          "optionNo": "B"
+        },
+        {
+          "text": "经常",
+          "value": "2",
+          "optionNo": "C"
+        },
+        {
+          "text": "几乎总是/总是",
+          "value": "1",
+          "optionNo": "D"
+        }
+      ]
+    },
+    {
+      "text": "我说话前会先思考。（反向计分）",
+      "type": "radio",
+      "orderNum": 15,
+      "options": [
+        {
+          "text": "很少/从不",
+          "value": "4",
+          "optionNo": "A"
+        },
+        {
+          "text": "偶尔",
+          "value": "3",
+          "optionNo": "B"
+        },
+        {
+          "text": "经常",
+          "value": "2",
+          "optionNo": "C"
+        },
+        {
+          "text": "几乎总是/总是",
+          "value": "1",
+          "optionNo": "D"
+        }
+      ]
+    },
+    {
+      "text": "我花钱没有计划。",
+      "type": "radio",
+      "orderNum": 16,
+      "options": [
+        {
+          "text": "很少/从不",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "偶尔",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "经常",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "几乎总是/总是",
+          "value": "4",
+          "optionNo": "D"
+        }
+      ]
+    },
+    {
+      "text": "我容易产生冲动行为。",
+      "type": "radio",
+      "orderNum": 17,
+      "options": [
+        {
+          "text": "很少/从不",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "偶尔",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "经常",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "几乎总是/总是",
+          "value": "4",
+          "optionNo": "D"
+        }
+      ]
+    },
+    {
+      "text": "我在做重要决定前会仔细考虑。（反向计分）",
+      "type": "radio",
+      "orderNum": 18,
+      "options": [
+        {
+          "text": "很少/从不",
+          "value": "4",
+          "optionNo": "A"
+        },
+        {
+          "text": "偶尔",
+          "value": "3",
+          "optionNo": "B"
+        },
+        {
+          "text": "经常",
+          "value": "2",
+          "optionNo": "C"
+        },
+        {
+          "text": "几乎总是/总是",
+          "value": "1",
+          "optionNo": "D"
+        }
+      ]
+    },
+    {
+      "text": "我的注意力容易转移。",
+      "type": "radio",
+      "orderNum": 19,
+      "options": [
+        {
+          "text": "很少/从不",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "偶尔",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "经常",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "几乎总是/总是",
+          "value": "4",
+          "optionNo": "D"
+        }
+      ]
+    },
+    {
+      "text": "我经常在不适当的时候走神。",
+      "type": "radio",
+      "orderNum": 20,
+      "options": [
+        {
+          "text": "很少/从不",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "偶尔",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "经常",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "几乎总是/总是",
+          "value": "4",
+          "optionNo": "D"
+        }
+      ]
+    },
+    {
+      "text": "我是个冲动的人。",
+      "type": "radio",
+      "orderNum": 21,
+      "options": [
+        {
+          "text": "很少/从不",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "偶尔",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "经常",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "几乎总是/总是",
+          "value": "4",
+          "optionNo": "D"
+        }
+      ]
+    },
+    {
+      "text": "我做事情有时不考虑后果。",
+      "type": "radio",
+      "orderNum": 22,
+      "options": [
+        {
+          "text": "很少/从不",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "偶尔",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "经常",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "几乎总是/总是",
+          "value": "4",
+          "optionNo": "D"
+        }
+      ]
+    },
+    {
+      "text": "我花钱大手大脚。",
+      "type": "radio",
+      "orderNum": 23,
+      "options": [
+        {
+          "text": "很少/从不",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "偶尔",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "经常",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "几乎总是/总是",
+          "value": "4",
+          "optionNo": "D"
+        }
+      ]
+    },
+    {
+      "text": "我做决定时能保持专注。（反向计分）",
+      "type": "radio",
+      "orderNum": 24,
+      "options": [
+        {
+          "text": "很少/从不",
+          "value": "4",
+          "optionNo": "A"
+        },
+        {
+          "text": "偶尔",
+          "value": "3",
+          "optionNo": "B"
+        },
+        {
+          "text": "经常",
+          "value": "2",
+          "optionNo": "C"
+        },
+        {
+          "text": "几乎总是/总是",
+          "value": "1",
+          "optionNo": "D"
+        }
+      ]
+    },
+    {
+      "text": "我经常在最后一刻改变主意。",
+      "type": "radio",
+      "orderNum": 25,
+      "options": [
+        {
+          "text": "很少/从不",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "偶尔",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "经常",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "几乎总是/总是",
+          "value": "4",
+          "optionNo": "D"
+        }
+      ]
+    },
+    {
+      "text": "我能很好地集中注意力。（反向计分）",
+      "type": "radio",
+      "orderNum": 26,
+      "options": [
+        {
+          "text": "很少/从不",
+          "value": "4",
+          "optionNo": "A"
+        },
+        {
+          "text": "偶尔",
+          "value": "3",
+          "optionNo": "B"
+        },
+        {
+          "text": "经常",
+          "value": "2",
+          "optionNo": "C"
+        },
+        {
+          "text": "几乎总是/总是",
+          "value": "1",
+          "optionNo": "D"
+        }
+      ]
+    },
+    {
+      "text": "我经常在事后为自己的决定感到后悔。",
+      "type": "radio",
+      "orderNum": 27,
+      "options": [
+        {
+          "text": "很少/从不",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "偶尔",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "经常",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "几乎总是/总是",
+          "value": "4",
+          "optionNo": "D"
+        }
+      ]
+    },
+    {
+      "text": "我能够在较长时间内保持专注。（反向计分）",
+      "type": "radio",
+      "orderNum": 28,
+      "options": [
+        {
+          "text": "很少/从不",
+          "value": "4",
+          "optionNo": "A"
+        },
+        {
+          "text": "偶尔",
+          "value": "3",
+          "optionNo": "B"
+        },
+        {
+          "text": "经常",
+          "value": "2",
+          "optionNo": "C"
+        },
+        {
+          "text": "几乎总是/总是",
+          "value": "1",
+          "optionNo": "D"
+        }
+      ]
+    },
+    {
+      "text": "我善于提前规划。（反向计分）",
+      "type": "radio",
+      "orderNum": 29,
+      "options": [
+        {
+          "text": "很少/从不",
+          "value": "4",
+          "optionNo": "A"
+        },
+        {
+          "text": "偶尔",
+          "value": "3",
+          "optionNo": "B"
+        },
+        {
+          "text": "经常",
+          "value": "2",
+          "optionNo": "C"
+        },
+        {
+          "text": "几乎总是/总是",
+          "value": "1",
+          "optionNo": "D"
+        }
+      ]
+    },
+    {
+      "text": "我做事经常三分钟热度。",
+      "type": "radio",
+      "orderNum": 30,
+      "options": [
+        {
+          "text": "很少/从不",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "偶尔",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "经常",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "几乎总是/总是",
+          "value": "4",
+          "optionNo": "D"
+        }
+      ]
+    }
+  ],
+  "dimensions": [
+    {
+      "dimensionName": "注意力冲动性",
+      "dimensionCode": "attention",
+      "num": 1,
+      "evaluateExpression": "hx_t_5 + hx_t_9 + hx_t_11 + hx_t_20 + hx_t_24 + hx_t_26 + hx_t_28",
+      "standardScoreFormula": "",
+      "results": [
+        {
+          "evaluateExpression": "hx_wd_y_1 <= 11",
+          "conclusionAnalysis": "注意力冲动性较低",
+          "suggestion": "您的注意力控制能力较好，能够保持专注和集中。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_1 > 11 && hx_wd_y_1 <= 17",
+          "conclusionAnalysis": "注意力冲动性中等",
+          "suggestion": "您的注意力冲动性处于正常范围，偶尔会出现注意力分散的情况。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_1 > 17 && hx_wd_y_1 <= 22",
+          "conclusionAnalysis": "注意力冲动性偏高",
+          "suggestion": "您的注意力冲动性偏高，容易出现注意力分散和走神的情况，建议练习专注力训练。",
+          "assessmentWarning": "low"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_1 > 22",
+          "conclusionAnalysis": "注意力冲动性异常偏高",
+          "suggestion": "您的注意力冲动性显著偏高，建议寻求专业评估，排除注意缺陷等可能。",
+          "assessmentWarning": "middle"
+        }
+      ]
+    },
+    {
+      "dimensionName": "运动冲动性",
+      "dimensionCode": "motor",
+      "num": 2,
+      "evaluateExpression": "hx_t_2 + hx_t_3 + hx_t_4 + hx_t_17 + hx_t_19 + hx_t_22 + hx_t_25",
+      "standardScoreFormula": "",
+      "results": [
+        {
+          "evaluateExpression": "hx_wd_y_2 <= 11",
+          "conclusionAnalysis": "运动冲动性较低",
+          "suggestion": "您的运动冲动性较低，行为控制能力较好，能够三思而后行。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_2 > 11 && hx_wd_y_2 <= 17",
+          "conclusionAnalysis": "运动冲动性中等",
+          "suggestion": "您的运动冲动性处于正常范围，偶尔会表现出冲动行为。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_2 > 17 && hx_wd_y_2 <= 22",
+          "conclusionAnalysis": "运动冲动性偏高",
+          "suggestion": "您的运动冲动性偏高，容易在行动前缺乏充分思考，建议培养自我监控习惯。",
+          "assessmentWarning": "low"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_2 > 22",
+          "conclusionAnalysis": "运动冲动性异常偏高",
+          "suggestion": "您的运动冲动性显著偏高，行为冲动性较强，建议寻求专业心理咨询评估。",
+          "assessmentWarning": "middle"
+        }
+      ]
+    },
+    {
+      "dimensionName": "非计划冲动性",
+      "dimensionCode": "nonplanning",
+      "num": 3,
+      "evaluateExpression": "hx_t_1 + hx_t_6 + hx_t_7 + hx_t_8 + hx_t_10 + hx_t_12 + hx_t_13 + hx_t_14 + hx_t_15 + hx_t_16 + hx_t_18 + hx_t_21 + hx_t_23 + hx_t_27 + hx_t_29 + hx_t_30",
+      "standardScoreFormula": "",
+      "results": [
+        {
+          "evaluateExpression": "hx_wd_y_3 <= 26",
+          "conclusionAnalysis": "非计划冲动性较低",
+          "suggestion": "您的非计划冲动性较低，具有良好的计划能力和自我控制力。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_3 > 26 && hx_wd_y_3 <= 38",
+          "conclusionAnalysis": "非计划冲动性中等",
+          "suggestion": "您的非计划冲动性处于正常范围，在计划和自我控制方面表现一般。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_3 > 38 && hx_wd_y_3 <= 48",
+          "conclusionAnalysis": "非计划冲动性偏高",
+          "suggestion": "您的非计划冲动性偏高，可能在生活规划和自我控制方面存在困难，建议培养计划习惯。",
+          "assessmentWarning": "low"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_3 > 48",
+          "conclusionAnalysis": "非计划冲动性异常偏高",
+          "suggestion": "您的非计划冲动性显著偏高，在生活规划和自我控制方面存在明显困难，建议寻求专业指导。",
+          "assessmentWarning": "middle"
+        }
+      ]
+    },
+    {
+      "dimensionName": "冲动性总分",
+      "dimensionCode": "total_impulsiveness",
+      "num": 4,
+      "evaluateExpression": "hx_t_1 + hx_t_2 + hx_t_3 + hx_t_4 + hx_t_5 + hx_t_6 + hx_t_7 + hx_t_8 + hx_t_9 + hx_t_10 + hx_t_11 + hx_t_12 + hx_t_13 + hx_t_14 + hx_t_15 + hx_t_16 + hx_t_17 + hx_t_18 + hx_t_19 + hx_t_20 + hx_t_21 + hx_t_22 + hx_t_23 + hx_t_24 + hx_t_25 + hx_t_26 + hx_t_27 + hx_t_28 + hx_t_29 + hx_t_30",
+      "standardScoreFormula": "",
+      "results": [
+        {
+          "evaluateExpression": "hx_wd_y_4 <= 52",
+          "conclusionAnalysis": "冲动性水平较低",
+          "suggestion": "您的总体冲动性水平较低，具有良好的自我控制和计划能力。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_4 > 52 && hx_wd_y_4 <= 63",
+          "conclusionAnalysis": "冲动性水平中等",
+          "suggestion": "您的总体冲动性水平处于正常范围，与一般人群常模水平相当（均值约63）。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_4 > 63 && hx_wd_y_4 <= 75",
+          "conclusionAnalysis": "冲动性水平偏高",
+          "suggestion": "您的总体冲动性水平偏高，建议关注自我控制和计划能力的培养。",
+          "assessmentWarning": "low"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_4 > 75",
+          "conclusionAnalysis": "冲动性水平异常偏高",
+          "suggestion": "您的总体冲动性水平显著高于常模（均值约63），建议寻求专业心理咨询评估。",
+          "assessmentWarning": "high"
+        }
+      ]
+    }
+  ]
+}

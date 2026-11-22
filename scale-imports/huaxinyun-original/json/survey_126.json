@@ -1,0 +1,2255 @@
+{
+  "id": 126,
+  "title": "MBTI人格量表",
+  "type": "basic",
+  "questions": [
+    {
+      "id": 2947,
+      "text": " 当你某日想去一个地方，你会____?",
+      "type": "radio",
+      "orderNum": 1,
+      "options": [
+        {
+          "id": 11842,
+          "optionNo": "A",
+          "text": "事先计划好了，然后再去",
+          "value": "1"
+        },
+        {
+          "id": 11843,
+          "optionNo": "B",
+          "text": "先去，然后随机应变",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2948,
+      "text": " 如果你是一位老师，你愿教____?",
+      "type": "radio",
+      "orderNum": 2,
+      "options": [
+        {
+          "id": 11844,
+          "optionNo": "A",
+          "text": "注重实践的课程",
+          "value": "1"
+        },
+        {
+          "id": 11845,
+          "optionNo": "B",
+          "text": "注重理论的课程",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2949,
+      "text": " 遇到问题时，你通常喜欢_____?",
+      "type": "radio",
+      "orderNum": 3,
+      "options": [
+        {
+          "id": 11846,
+          "optionNo": "A",
+          "text": "和别人讨论解决方法",
+          "value": "1"
+        },
+        {
+          "id": 11847,
+          "optionNo": "B",
+          "text": "自己想办法解决",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2950,
+      "text": " 你认为____?",
+      "type": "radio",
+      "orderNum": 4,
+      "options": [
+        {
+          "id": 11848,
+          "optionNo": "A",
+          "text": "很早就应该开始为聚会，约会等做准备",
+          "value": "1"
+        },
+        {
+          "id": 11849,
+          "optionNo": "B",
+          "text": "不必先做准备，去了以后见机行事",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2951,
+      "text": " 你通常和____相处得更好?",
+      "type": "radio",
+      "orderNum": 5,
+      "options": [
+        {
+          "id": 11850,
+          "optionNo": "A",
+          "text": "喜欢想象的人",
+          "value": "0"
+        },
+        {
+          "id": 11851,
+          "optionNo": "B",
+          "text": "注重现实的人",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 2952,
+      "text": " 你更多时候是____?",
+      "type": "radio",
+      "orderNum": 6,
+      "options": [
+        {
+          "id": 11852,
+          "optionNo": "A",
+          "text": "让情感驾驭理智",
+          "value": "0"
+        },
+        {
+          "id": 11853,
+          "optionNo": "B",
+          "text": "让理智驾驭情感",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 2953,
+      "text": " 当你和一群人在一起时，你常常是更愿意____？",
+      "type": "radio",
+      "orderNum": 7,
+      "options": [
+        {
+          "id": 11854,
+          "optionNo": "A",
+          "text": "加入到大家的谈话中去",
+          "value": "1"
+        },
+        {
+          "id": 11855,
+          "optionNo": "B",
+          "text": "独自和熟识的人交谈",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2954,
+      "text": " 你最喜欢____做事情？",
+      "type": "radio",
+      "orderNum": 8,
+      "options": [
+        {
+          "id": 11856,
+          "optionNo": "A",
+          "text": "按兴致",
+          "value": "0"
+        },
+        {
+          "id": 11857,
+          "optionNo": "B",
+          "text": "按计划",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 2955,
+      "text": " 你希望自己被看作是一个____？",
+      "type": "radio",
+      "orderNum": 9,
+      "options": [
+        {
+          "id": 11858,
+          "optionNo": "A",
+          "text": "实干家",
+          "value": "1"
+        },
+        {
+          "id": 11859,
+          "optionNo": "B",
+          "text": "发明家",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2956,
+      "text": " 当别人问你一个问题时，你经常会____?",
+      "type": "radio",
+      "orderNum": 10,
+      "options": [
+        {
+          "id": 11860,
+          "optionNo": "A",
+          "text": "马上就做回答",
+          "value": "1"
+        },
+        {
+          "id": 11861,
+          "optionNo": "B",
+          "text": "先在脑子里想一想",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2957,
+      "text": " 你喜欢与____打交道？",
+      "type": "radio",
+      "orderNum": 11,
+      "options": [
+        {
+          "id": 11862,
+          "optionNo": "A",
+          "text": "常有出人意料想法的人",
+          "value": "0"
+        },
+        {
+          "id": 11863,
+          "optionNo": "B",
+          "text": "按照常理行事的人",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 2958,
+      "text": " 按日程表办事____？",
+      "type": "radio",
+      "orderNum": 12,
+      "options": [
+        {
+          "id": 11864,
+          "optionNo": "A",
+          "text": "正合你意",
+          "value": "1"
+        },
+        {
+          "id": 11865,
+          "optionNo": "B",
+          "text": "束缚了你",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2959,
+      "text": " 你觉得通常别人____？",
+      "type": "radio",
+      "orderNum": 13,
+      "options": [
+        {
+          "id": 11866,
+          "optionNo": "A",
+          "text": "要花很长的时间才能和你相熟",
+          "value": "0"
+        },
+        {
+          "id": 11867,
+          "optionNo": "B",
+          "text": "很快就能和你熟识",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 2960,
+      "text": " 为“如何过周末”订一个计划____？",
+      "type": "radio",
+      "orderNum": 14,
+      "options": [
+        {
+          "id": 11868,
+          "optionNo": "A",
+          "text": "是有必要的",
+          "value": "1"
+        },
+        {
+          "id": 11869,
+          "optionNo": "B",
+          "text": "完全没必要",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2961,
+      "text": " 下列哪一个评价更适合你？",
+      "type": "radio",
+      "orderNum": 15,
+      "options": [
+        {
+          "id": 11870,
+          "optionNo": "A",
+          "text": "性情中人",
+          "value": "0"
+        },
+        {
+          "id": 11871,
+          "optionNo": "B",
+          "text": "理智的人",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 2962,
+      "text": " 更多的时候，你倾向于____？",
+      "type": "radio",
+      "orderNum": 16,
+      "options": [
+        {
+          "id": 11872,
+          "optionNo": "A",
+          "text": "独处",
+          "value": "0"
+        },
+        {
+          "id": 11873,
+          "optionNo": "B",
+          "text": "同他人在一起",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 2963,
+      "text": " 在日常工作中，你更喜欢____？",
+      "type": "radio",
+      "orderNum": 17,
+      "options": [
+        {
+          "id": 11874,
+          "optionNo": "A",
+          "text": "在时间紧迫的情况下，争分夺秒地工作",
+          "value": "0"
+        },
+        {
+          "id": 11875,
+          "optionNo": "B",
+          "text": "做好提前量，尽早把工作做完",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 2964,
+      "text": " 你更愿把____作为朋友？",
+      "type": "radio",
+      "orderNum": 18,
+      "options": [
+        {
+          "id": 11876,
+          "optionNo": "A",
+          "text": "总能有新想法的人",
+          "value": "0"
+        },
+        {
+          "id": 11877,
+          "optionNo": "B",
+          "text": "脚踏实地的人",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 2965,
+      "text": " 你是一个____？",
+      "type": "radio",
+      "orderNum": 19,
+      "options": [
+        {
+          "id": 11878,
+          "optionNo": "A",
+          "text": "兴趣广泛，什么都想尝试的人",
+          "value": "1"
+        },
+        {
+          "id": 11879,
+          "optionNo": "B",
+          "text": "专注的投入某个兴趣的人",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2966,
+      "text": " 当你有一项特别的工作要做时，你喜欢先____？",
+      "type": "radio",
+      "orderNum": 20,
+      "options": [
+        {
+          "id": 11880,
+          "optionNo": "A",
+          "text": "察看到工作的全貌",
+          "value": "1"
+        },
+        {
+          "id": 11881,
+          "optionNo": "B",
+          "text": "找出必须要做的环节",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2967,
+      "text": " 你更接受____？",
+      "type": "radio",
+      "orderNum": 21,
+      "options": [
+        {
+          "id": 11882,
+          "optionNo": "A",
+          "text": "以情动人",
+          "value": "0"
+        },
+        {
+          "id": 11883,
+          "optionNo": "B",
+          "text": "以理服人",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 2968,
+      "text": " 当你为了消遣而阅读时，你____？",
+      "type": "radio",
+      "orderNum": 22,
+      "options": [
+        {
+          "id": 11884,
+          "optionNo": "A",
+          "text": "欣赏作者奇特、独创的表达",
+          "value": "0"
+        },
+        {
+          "id": 11885,
+          "optionNo": "B",
+          "text": "喜欢作者的表达直接、明确",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 2969,
+      "text": " 新认识你的人____了解到你的兴趣所在？",
+      "type": "radio",
+      "orderNum": 23,
+      "options": [
+        {
+          "id": 11886,
+          "optionNo": "A",
+          "text": "马上就能",
+          "value": "1"
+        },
+        {
+          "id": 11887,
+          "optionNo": "B",
+          "text": "只有真正和你熟悉以后才能",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2970,
+      "text": " 在旅行时，你喜欢____？",
+      "type": "radio",
+      "orderNum": 24,
+      "options": [
+        {
+          "id": 11888,
+          "optionNo": "A",
+          "text": "随兴致行事",
+          "value": "0"
+        },
+        {
+          "id": 11889,
+          "optionNo": "B",
+          "text": "事先知道一天中该做的事",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 2971,
+      "text": " 做许多人都做的事时，你喜欢____？",
+      "type": "radio",
+      "orderNum": 25,
+      "options": [
+        {
+          "id": 11890,
+          "optionNo": "A",
+          "text": "按惯例去做",
+          "value": "1"
+        },
+        {
+          "id": 11891,
+          "optionNo": "B",
+          "text": "发明自己的新方法",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2972,
+      "text": " 多数人说你是一个____？",
+      "type": "radio",
+      "orderNum": 26,
+      "options": [
+        {
+          "id": 11892,
+          "optionNo": "A",
+          "text": "不爱吐露心事的人",
+          "value": "0"
+        },
+        {
+          "id": 11893,
+          "optionNo": "B",
+          "text": "非常坦率的人",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 2973,
+      "text": " 你更容易喜欢或倾向哪一个词？注意：这里的倾向不是指你向往得到的，而是指你现在已经具有的。",
+      "type": "radio",
+      "orderNum": 27,
+      "options": [
+        {
+          "id": 11894,
+          "optionNo": "A",
+          "text": "看不见的",
+          "value": "0"
+        },
+        {
+          "id": 11895,
+          "optionNo": "B",
+          "text": "看的见的",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 2974,
+      "text": " 你更容易喜欢或倾向哪一个词？注意：这里的倾向不是指你向往得到的，而是指你现在已经具有的。",
+      "type": "radio",
+      "orderNum": 28,
+      "options": [
+        {
+          "id": 11896,
+          "optionNo": "A",
+          "text": "计划",
+          "value": "1"
+        },
+        {
+          "id": 11897,
+          "optionNo": "B",
+          "text": "随意",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2975,
+      "text": " 你更容易喜欢或倾向哪一个词？注意：这里的倾向不是指你向往得到的，而是指你现在已经具有的。",
+      "type": "radio",
+      "orderNum": 29,
+      "options": [
+        {
+          "id": 11898,
+          "optionNo": "A",
+          "text": "温情",
+          "value": "0"
+        },
+        {
+          "id": 11899,
+          "optionNo": "B",
+          "text": "坚定",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 2976,
+      "text": " 你更容易喜欢或倾向哪一个词？注意：这里的倾向不是指你向往得到的，而是指你现在已经具有的。",
+      "type": "radio",
+      "orderNum": 30,
+      "options": [
+        {
+          "id": 11900,
+          "optionNo": "A",
+          "text": "事实",
+          "value": "1"
+        },
+        {
+          "id": 11901,
+          "optionNo": "B",
+          "text": "想法",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2977,
+      "text": " 你更容易喜欢或倾向哪一个词？注意：这里的倾向不是指你向往得到的，而是指你现在已经具有的。",
+      "type": "radio",
+      "orderNum": 31,
+      "options": [
+        {
+          "id": 11902,
+          "optionNo": "A",
+          "text": "思维",
+          "value": "1"
+        },
+        {
+          "id": 11903,
+          "optionNo": "B",
+          "text": "情感",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2978,
+      "text": " 你更容易喜欢或倾向哪一个词？注意：这里的倾向不是指你向往得到的，而是指你现在已经具有的。",
+      "type": "radio",
+      "orderNum": 32,
+      "options": [
+        {
+          "id": 11904,
+          "optionNo": "A",
+          "text": "热忱",
+          "value": "1"
+        },
+        {
+          "id": 11905,
+          "optionNo": "B",
+          "text": "平静",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2979,
+      "text": " 你更容易喜欢或倾向哪一个词？注意：这里的倾向不是指你向往得到的，而是指你现在已经具有的。",
+      "type": "radio",
+      "orderNum": 33,
+      "options": [
+        {
+          "id": 11906,
+          "optionNo": "A",
+          "text": "说服",
+          "value": "1"
+        },
+        {
+          "id": 11907,
+          "optionNo": "B",
+          "text": "打动",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2980,
+      "text": " 你更容易喜欢或倾向哪一个词？注意：这里的倾向不是指你向往得到的，而是指你现在已经具有的。",
+      "type": "radio",
+      "orderNum": 34,
+      "options": [
+        {
+          "id": 11908,
+          "optionNo": "A",
+          "text": "陈述",
+          "value": "1"
+        },
+        {
+          "id": 11909,
+          "optionNo": "B",
+          "text": "概念",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2981,
+      "text": " 你更容易喜欢或倾向哪一个词？注意：这里的倾向不是指你向往得到的，而是指你现在已经具有的。",
+      "type": "radio",
+      "orderNum": 35,
+      "options": [
+        {
+          "id": 11910,
+          "optionNo": "A",
+          "text": "分析",
+          "value": "1"
+        },
+        {
+          "id": 11911,
+          "optionNo": "B",
+          "text": "同情",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2982,
+      "text": " 你更容易喜欢或倾向哪一个词？注意：这里的倾向不是指你向往得到的，而是指你现在已经具有的。",
+      "type": "radio",
+      "orderNum": 36,
+      "options": [
+        {
+          "id": 11912,
+          "optionNo": "A",
+          "text": "系统性",
+          "value": "1"
+        },
+        {
+          "id": 11913,
+          "optionNo": "B",
+          "text": "随机性",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2983,
+      "text": " 你更容易喜欢或倾向哪一个词？注意：这里的倾向不是指你向往得到的，而是指你现在已经具有的。",
+      "type": "radio",
+      "orderNum": 37,
+      "options": [
+        {
+          "id": 11914,
+          "optionNo": "A",
+          "text": "敏感",
+          "value": "0"
+        },
+        {
+          "id": 11915,
+          "optionNo": "B",
+          "text": "精确",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 2984,
+      "text": " 你更容易喜欢或倾向哪一个词？注意：这里的倾向不是指你向往得到的，而是指你现在已经具有的。",
+      "type": "radio",
+      "orderNum": 38,
+      "options": [
+        {
+          "id": 11916,
+          "optionNo": "A",
+          "text": "缄默",
+          "value": "0"
+        },
+        {
+          "id": 11917,
+          "optionNo": "B",
+          "text": "健谈",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 2985,
+      "text": " 你更容易喜欢或倾向哪一个词？注意：这里的倾向不是指你向往得到的，而是指你现在已经具有的。",
+      "type": "radio",
+      "orderNum": 39,
+      "options": [
+        {
+          "id": 11918,
+          "optionNo": "A",
+          "text": "常识性的",
+          "value": "1"
+        },
+        {
+          "id": 11919,
+          "optionNo": "B",
+          "text": "理论性的",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2986,
+      "text": " 你更容易喜欢或倾向哪一个词？注意：这里的倾向不是指你向往得到的，而是指你现在已经具有的。",
+      "type": "radio",
+      "orderNum": 40,
+      "options": [
+        {
+          "id": 11920,
+          "optionNo": "A",
+          "text": "侠肝义胆",
+          "value": "0"
+        },
+        {
+          "id": 11921,
+          "optionNo": "B",
+          "text": "深谋远虑",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 2987,
+      "text": " 你更容易喜欢或倾向哪一个词？注意：这里的倾向不是指你向往得到的，而是指你现在已经具有的。",
+      "type": "radio",
+      "orderNum": 41,
+      "options": [
+        {
+          "id": 11922,
+          "optionNo": "A",
+          "text": "正式",
+          "value": "1"
+        },
+        {
+          "id": 11923,
+          "optionNo": "B",
+          "text": "非正式",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2988,
+      "text": " 你更容易喜欢或倾向哪一个词？注意：这里的倾向不是指你向往得到的，而是指你现在已经具有的。",
+      "type": "radio",
+      "orderNum": 42,
+      "options": [
+        {
+          "id": 11924,
+          "optionNo": "A",
+          "text": "沉静",
+          "value": "0"
+        },
+        {
+          "id": 11925,
+          "optionNo": "B",
+          "text": "活跃",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 2989,
+      "text": " 你更容易喜欢或倾向哪一个词？注意：这里的倾向不是指你向往得到的，而是指你现在已经具有的。",
+      "type": "radio",
+      "orderNum": 43,
+      "options": [
+        {
+          "id": 11926,
+          "optionNo": "A",
+          "text": "利益",
+          "value": "1"
+        },
+        {
+          "id": 11927,
+          "optionNo": "B",
+          "text": "祝福",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2990,
+      "text": " 你更容易喜欢或倾向哪一个词？注意：这里的倾向不是指你向往得到的，而是指你现在已经具有的。",
+      "type": "radio",
+      "orderNum": 44,
+      "options": [
+        {
+          "id": 11928,
+          "optionNo": "A",
+          "text": "理论性",
+          "value": "0"
+        },
+        {
+          "id": 11929,
+          "optionNo": "B",
+          "text": "确定性",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 2991,
+      "text": " 你更容易喜欢或倾向哪一个词？注意：这里的倾向不是指你向往得到的，而是指你现在已经具有的。",
+      "type": "radio",
+      "orderNum": 45,
+      "options": [
+        {
+          "id": 11930,
+          "optionNo": "A",
+          "text": "坚定的",
+          "value": "1"
+        },
+        {
+          "id": 11931,
+          "optionNo": "B",
+          "text": "忠诚的",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2992,
+      "text": " 你更容易喜欢或倾向哪一个词？注意：这里的倾向不是指你向往得到的，而是指你现在已经具有的。",
+      "type": "radio",
+      "orderNum": 46,
+      "options": [
+        {
+          "id": 11932,
+          "optionNo": "A",
+          "text": "理想",
+          "value": "0"
+        },
+        {
+          "id": 11933,
+          "optionNo": "B",
+          "text": "现实",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 2993,
+      "text": " 你更容易喜欢或倾向哪一个词？注意：这里的倾向不是指你向往得到的，而是指你现在已经具有的。",
+      "type": "radio",
+      "orderNum": 47,
+      "options": [
+        {
+          "id": 11934,
+          "optionNo": "A",
+          "text": "雄心",
+          "value": "1"
+        },
+        {
+          "id": 11935,
+          "optionNo": "B",
+          "text": "柔肠",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2994,
+      "text": " 你更容易喜欢或倾向哪一个词？注意：这里的倾向不是指你向往得到的，而是指你现在已经具有的。",
+      "type": "radio",
+      "orderNum": 48,
+      "options": [
+        {
+          "id": 11936,
+          "optionNo": "A",
+          "text": "想象中的",
+          "value": "0"
+        },
+        {
+          "id": 11937,
+          "optionNo": "B",
+          "text": "事实上的",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 2995,
+      "text": " 你更容易喜欢或倾向哪一个词？注意：这里的倾向不是指你向往得到的，而是指你现在已经具有的。",
+      "type": "radio",
+      "orderNum": 49,
+      "options": [
+        {
+          "id": 11938,
+          "optionNo": "A",
+          "text": "冷静的",
+          "value": "1"
+        },
+        {
+          "id": 11939,
+          "optionNo": "B",
+          "text": "激情的",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2996,
+      "text": " 你更容易喜欢或倾向哪一个词？注意：这里的倾向不是指你向往得到的，而是指你现在已经具有的。",
+      "type": "radio",
+      "orderNum": 50,
+      "options": [
+        {
+          "id": 11940,
+          "optionNo": "A",
+          "text": "制作",
+          "value": "1"
+        },
+        {
+          "id": 11941,
+          "optionNo": "B",
+          "text": "创造",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2997,
+      "text": " 你更容易喜欢或倾向哪一个词？注意：这里的倾向不是指你向往得到的，而是指你现在已经具有的。",
+      "type": "radio",
+      "orderNum": 51,
+      "options": [
+        {
+          "id": 11942,
+          "optionNo": "A",
+          "text": "热情的",
+          "value": "0"
+        },
+        {
+          "id": 11943,
+          "optionNo": "B",
+          "text": "中立的",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 2998,
+      "text": " 你更容易喜欢或倾向哪一个词？注意：这里的倾向不是指你向往得到的，而是指你现在已经具有的。",
+      "type": "radio",
+      "orderNum": 52,
+      "options": [
+        {
+          "id": 11944,
+          "optionNo": "A",
+          "text": "明理的",
+          "value": "1"
+        },
+        {
+          "id": 11945,
+          "optionNo": "B",
+          "text": "迷人的",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2999,
+      "text": " 你更容易喜欢或倾向哪一个词？注意：这里的倾向不是指你向往得到的，而是指你现在已经具有的。",
+      "type": "radio",
+      "orderNum": 53,
+      "options": [
+        {
+          "id": 11946,
+          "optionNo": "A",
+          "text": "有同情心",
+          "value": "0"
+        },
+        {
+          "id": 11947,
+          "optionNo": "B",
+          "text": "有逻辑头脑",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 3000,
+      "text": " 你更容易喜欢或倾向哪一个词？注意：这里的倾向不是指你向往得到的，而是指你现在已经具有的。",
+      "type": "radio",
+      "orderNum": 54,
+      "options": [
+        {
+          "id": 11948,
+          "optionNo": "A",
+          "text": "生产",
+          "value": "1"
+        },
+        {
+          "id": 11949,
+          "optionNo": "B",
+          "text": "设计",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3001,
+      "text": " 你更容易喜欢或倾向哪一个词？注意：这里的倾向不是指你向往得到的，而是指你现在已经具有的。",
+      "type": "radio",
+      "orderNum": 55,
+      "options": [
+        {
+          "id": 11950,
+          "optionNo": "A",
+          "text": "冲动",
+          "value": "0"
+        },
+        {
+          "id": 11951,
+          "optionNo": "B",
+          "text": "决择",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 3002,
+      "text": " 你更容易喜欢或倾向哪一个词？注意：这里的倾向不是指你向往得到的，而是指你现在已经具有的。",
+      "type": "radio",
+      "orderNum": 56,
+      "options": [
+        {
+          "id": 11952,
+          "optionNo": "A",
+          "text": "公正的",
+          "value": "1"
+        },
+        {
+          "id": 11953,
+          "optionNo": "B",
+          "text": "体谅的",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3003,
+      "text": " 你更容易喜欢或倾向哪一个词？注意：这里的倾向不是指你向往得到的，而是指你现在已经具有的。",
+      "type": "radio",
+      "orderNum": 57,
+      "options": [
+        {
+          "id": 11954,
+          "optionNo": "A",
+          "text": "安静的",
+          "value": "0"
+        },
+        {
+          "id": 11955,
+          "optionNo": "B",
+          "text": "爱交际的",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 3004,
+      "text": " 你更容易喜欢或倾向哪一个词？注意：这里的倾向不是指你向往得到的，而是指你现在已经具有的。",
+      "type": "radio",
+      "orderNum": 58,
+      "options": [
+        {
+          "id": 11956,
+          "optionNo": "A",
+          "text": "理性",
+          "value": "1"
+        },
+        {
+          "id": 11957,
+          "optionNo": "B",
+          "text": "感性",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3005,
+      "text": " 你更容易喜欢或倾向哪一个词？注意：这里的倾向不是指你向往得到的，而是指你现在已经具有的。",
+      "type": "radio",
+      "orderNum": 59,
+      "options": [
+        {
+          "id": 11958,
+          "optionNo": "A",
+          "text": "不受限制的",
+          "value": "0"
+        },
+        {
+          "id": 11959,
+          "optionNo": "B",
+          "text": "安排好的",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 3006,
+      "text": " 你更容易喜欢或倾向哪一个词？注意：这里的倾向不是指你向往得到的，而是指你现在已经具有的。",
+      "type": "radio",
+      "orderNum": 60,
+      "options": [
+        {
+          "id": 11960,
+          "optionNo": "A",
+          "text": "具体",
+          "value": "1"
+        },
+        {
+          "id": 11961,
+          "optionNo": "B",
+          "text": "抽象",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3007,
+      "text": " 你更容易喜欢或倾向哪一个词？注意：这里的倾向不是指你向往得到的，而是指你现在已经具有的。",
+      "type": "radio",
+      "orderNum": 61,
+      "options": [
+        {
+          "id": 11962,
+          "optionNo": "A",
+          "text": "能干的",
+          "value": "1"
+        },
+        {
+          "id": 11963,
+          "optionNo": "B",
+          "text": "细腻的",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3008,
+      "text": " 你更容易喜欢或倾向哪一个词？注意：这里的倾向不是指你向往得到的，而是指你现在已经具有的。",
+      "type": "radio",
+      "orderNum": 62,
+      "options": [
+        {
+          "id": 11964,
+          "optionNo": "A",
+          "text": "开放",
+          "value": "1"
+        },
+        {
+          "id": 11965,
+          "optionNo": "B",
+          "text": "私密",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3009,
+      "text": " 你更容易喜欢或倾向哪一个词？注意：这里的倾向不是指你向往得到的，而是指你现在已经具有的。",
+      "type": "radio",
+      "orderNum": 63,
+      "options": [
+        {
+          "id": 11966,
+          "optionNo": "A",
+          "text": "建造",
+          "value": "1"
+        },
+        {
+          "id": 11967,
+          "optionNo": "B",
+          "text": "发明",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3010,
+      "text": " 你更容易喜欢或倾向哪一个词？注意：这里的倾向不是指你向往得到的，而是指你现在已经具有的。",
+      "type": "radio",
+      "orderNum": 64,
+      "options": [
+        {
+          "id": 11968,
+          "optionNo": "A",
+          "text": "有序的",
+          "value": "1"
+        },
+        {
+          "id": 11969,
+          "optionNo": "B",
+          "text": "随便的",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3011,
+      "text": " 你更容易喜欢或倾向哪一个词？注意：这里的倾向不是指你向往得到的，而是指你现在已经具有的。",
+      "type": "radio",
+      "orderNum": 65,
+      "options": [
+        {
+          "id": 11970,
+          "optionNo": "A",
+          "text": "想象",
+          "value": "0"
+        },
+        {
+          "id": 11971,
+          "optionNo": "B",
+          "text": "现实",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 3012,
+      "text": " 你更容易喜欢或倾向哪一个词？注意：这里的倾向不是指你向往得到的，而是指你现在已经具有的。",
+      "type": "radio",
+      "orderNum": 66,
+      "options": [
+        {
+          "id": 11972,
+          "optionNo": "A",
+          "text": "好胜的",
+          "value": "1"
+        },
+        {
+          "id": 11973,
+          "optionNo": "B",
+          "text": "好心的",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3013,
+      "text": " 你更容易喜欢或倾向哪一个词？注意：这里的倾向不是指你向往得到的，而是指你现在已经具有的。",
+      "type": "radio",
+      "orderNum": 67,
+      "options": [
+        {
+          "id": 11974,
+          "optionNo": "A",
+          "text": "理论",
+          "value": "0"
+        },
+        {
+          "id": 11975,
+          "optionNo": "B",
+          "text": "事实",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 3014,
+      "text": " 你更容易喜欢或倾向哪一个词？注意：这里的倾向不是指你向往得到的，而是指你现在已经具有的。",
+      "type": "radio",
+      "orderNum": 68,
+      "options": [
+        {
+          "id": 11976,
+          "optionNo": "A",
+          "text": "很少的朋友",
+          "value": "0"
+        },
+        {
+          "id": 11977,
+          "optionNo": "B",
+          "text": "很多的朋友",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 3015,
+      "text": " 你更容易喜欢或倾向哪一个词？注意：这里的倾向不是指你向往得到的，而是指你现在已经具有的。",
+      "type": "radio",
+      "orderNum": 69,
+      "options": [
+        {
+          "id": 11978,
+          "optionNo": "A",
+          "text": "可能",
+          "value": "0"
+        },
+        {
+          "id": 11979,
+          "optionNo": "B",
+          "text": "确知",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 3016,
+      "text": " 你更容易喜欢或倾向哪一个词？注意：这里的倾向不是指你向往得到的，而是指你现在已经具有的。",
+      "type": "radio",
+      "orderNum": 70,
+      "options": [
+        {
+          "id": 11980,
+          "optionNo": "A",
+          "text": "宽容的",
+          "value": "0"
+        },
+        {
+          "id": 11981,
+          "optionNo": "B",
+          "text": "坚决的",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 3017,
+      "text": " 你更容易喜欢或倾向哪一个词？注意：这里的倾向不是指你向往得到的，而是指你现在已经具有的。",
+      "type": "radio",
+      "orderNum": 71,
+      "options": [
+        {
+          "id": 11982,
+          "optionNo": "A",
+          "text": "新异的",
+          "value": "0"
+        },
+        {
+          "id": 11983,
+          "optionNo": "B",
+          "text": "已知的",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 3018,
+      "text": " 你更容易喜欢或倾向哪一个词？注意：这里的倾向不是指你向往得到的，而是指你现在已经具有的。",
+      "type": "radio",
+      "orderNum": 72,
+      "options": [
+        {
+          "id": 11984,
+          "optionNo": "A",
+          "text": "温柔",
+          "value": "0"
+        },
+        {
+          "id": 11985,
+          "optionNo": "B",
+          "text": "力量",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 3019,
+      "text": " 你更容易喜欢或倾向哪一个词？注意：这里的倾向不是指你向往得到的，而是指你现在已经具有的。",
+      "type": "radio",
+      "orderNum": 73,
+      "options": [
+        {
+          "id": 11986,
+          "optionNo": "A",
+          "text": "实用",
+          "value": "1"
+        },
+        {
+          "id": 11987,
+          "optionNo": "B",
+          "text": "创新",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3020,
+      "text": " 和一群人在一起聚会通常会让你感到____？",
+      "type": "radio",
+      "orderNum": 74,
+      "options": [
+        {
+          "id": 11988,
+          "optionNo": "A",
+          "text": "兴致勃勃",
+          "value": "1"
+        },
+        {
+          "id": 11989,
+          "optionNo": "B",
+          "text": "筋疲力尽",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3021,
+      "text": " 你在做一个决定时，更多地会____？",
+      "type": "radio",
+      "orderNum": 75,
+      "options": [
+        {
+          "id": 11990,
+          "optionNo": "A",
+          "text": "权衡实际的得失",
+          "value": "1"
+        },
+        {
+          "id": 11991,
+          "optionNo": "B",
+          "text": "考虑其他人的感受",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3022,
+      "text": " 通常你更喜欢____？",
+      "type": "radio",
+      "orderNum": 76,
+      "options": [
+        {
+          "id": 11992,
+          "optionNo": "A",
+          "text": "提前安排好该做什么",
+          "value": "1"
+        },
+        {
+          "id": 11993,
+          "optionNo": "B",
+          "text": "到时候率性而为",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3023,
+      "text": " 当你一个人在家时，你____?",
+      "type": "radio",
+      "orderNum": 77,
+      "options": [
+        {
+          "id": 11994,
+          "optionNo": "A",
+          "text": "能够沉静在自己的思维中",
+          "value": "0"
+        },
+        {
+          "id": 11995,
+          "optionNo": "B",
+          "text": "总觉的应该做点什么事情",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 3024,
+      "text": " 多数情况下，你____？",
+      "type": "radio",
+      "orderNum": 78,
+      "options": [
+        {
+          "id": 11996,
+          "optionNo": "A",
+          "text": "随兴致做事",
+          "value": "0"
+        },
+        {
+          "id": 11997,
+          "optionNo": "B",
+          "text": "按日程表做事",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 3025,
+      "text": " 你通常____？",
+      "type": "radio",
+      "orderNum": 79,
+      "options": [
+        {
+          "id": 11998,
+          "optionNo": "A",
+          "text": "容易和大家打成一片",
+          "value": "1"
+        },
+        {
+          "id": 11999,
+          "optionNo": "B",
+          "text": "独处的时候更多",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3026,
+      "text": " 你做事更倾向于____？",
+      "type": "radio",
+      "orderNum": 80,
+      "options": [
+        {
+          "id": 12000,
+          "optionNo": "A",
+          "text": "等到各方面的信息都全了以后再做计划",
+          "value": "0"
+        },
+        {
+          "id": 12001,
+          "optionNo": "B",
+          "text": "提前很久就定计划",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 3027,
+      "text": " 别人____交上朋友？",
+      "type": "radio",
+      "orderNum": 81,
+      "options": [
+        {
+          "id": 12002,
+          "optionNo": "A",
+          "text": "容易和你",
+          "value": "1"
+        },
+        {
+          "id": 12003,
+          "optionNo": "B",
+          "text": "较难和你",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3028,
+      "text": " 你通常喜欢上____的课程？",
+      "type": "radio",
+      "orderNum": 82,
+      "options": [
+        {
+          "id": 12004,
+          "optionNo": "A",
+          "text": "探讨理论和概念",
+          "value": "0"
+        },
+        {
+          "id": 12005,
+          "optionNo": "B",
+          "text": "列举事实和图表",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 3029,
+      "text": " 在聚会时，你____？",
+      "type": "radio",
+      "orderNum": 83,
+      "options": [
+        {
+          "id": 12006,
+          "optionNo": "A",
+          "text": "说的时候多",
+          "value": "1"
+        },
+        {
+          "id": 12007,
+          "optionNo": "B",
+          "text": "听的时候多",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3030,
+      "text": " 你觉的自己更倾向于是一个____？",
+      "type": "radio",
+      "orderNum": 84,
+      "options": [
+        {
+          "id": 12008,
+          "optionNo": "A",
+          "text": "随意的人",
+          "value": "0"
+        },
+        {
+          "id": 12009,
+          "optionNo": "B",
+          "text": "有秩序的人",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 3031,
+      "text": " 你____？",
+      "type": "radio",
+      "orderNum": 85,
+      "options": [
+        {
+          "id": 12010,
+          "optionNo": "A",
+          "text": "只同那些兴趣相同的人才能长谈",
+          "value": "0"
+        },
+        {
+          "id": 12011,
+          "optionNo": "B",
+          "text": "只要愿意，和任何人都可以长聊",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 3032,
+      "text": " 当你有一个报告需要在一个星期内交出时，你____？",
+      "type": "radio",
+      "orderNum": 86,
+      "options": [
+        {
+          "id": 12012,
+          "optionNo": "A",
+          "text": "常留出足够的时间并能提早完成",
+          "value": "1"
+        },
+        {
+          "id": 12013,
+          "optionNo": "B",
+          "text": "常常是在最后一刻及时赶出来",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3033,
+      "text": " 哪一个对你来说是更高的评价？",
+      "type": "radio",
+      "orderNum": 87,
+      "options": [
+        {
+          "id": 12014,
+          "optionNo": "A",
+          "text": "有好胜心的",
+          "value": "1"
+        },
+        {
+          "id": 12015,
+          "optionNo": "B",
+          "text": "有同情心的",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3034,
+      "text": " 你觉得按日程表办事____？",
+      "type": "radio",
+      "orderNum": 88,
+      "options": [
+        {
+          "id": 12016,
+          "optionNo": "A",
+          "text": "虽有必要，但不喜欢",
+          "value": "0"
+        },
+        {
+          "id": 12017,
+          "optionNo": "B",
+          "text": "有帮助的，非常喜欢",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 3035,
+      "text": " 你更愿在一个____的老板手下工作？？",
+      "type": "radio",
+      "orderNum": 89,
+      "options": [
+        {
+          "id": 12018,
+          "optionNo": "A",
+          "text": "态度亲切，但有时会感情用事",
+          "value": "0"
+        },
+        {
+          "id": 12019,
+          "optionNo": "B",
+          "text": "态度严厉，但始终按逻辑办事",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 3036,
+      "text": " 在完成一项大任务时，你常常是____？",
+      "type": "radio",
+      "orderNum": 90,
+      "options": [
+        {
+          "id": 12020,
+          "optionNo": "A",
+          "text": "边做边考虑下一步",
+          "value": "0"
+        },
+        {
+          "id": 12021,
+          "optionNo": "B",
+          "text": "事先想好每个步骤",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 3037,
+      "text": " 在社交场合，你通常觉得____？",
+      "type": "radio",
+      "orderNum": 91,
+      "options": [
+        {
+          "id": 12022,
+          "optionNo": "A",
+          "text": "很难和不认识的人进行交谈",
+          "value": "0"
+        },
+        {
+          "id": 12023,
+          "optionNo": "B",
+          "text": "很容易和多数人谈笑风生",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 3038,
+      "text": " 你常常是____？",
+      "type": "radio",
+      "orderNum": 92,
+      "options": [
+        {
+          "id": 12024,
+          "optionNo": "A",
+          "text": "按已经有效的方法做事",
+          "value": "1"
+        },
+        {
+          "id": 12025,
+          "optionNo": "B",
+          "text": "尝试一下有没有更好的办法",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3039,
+      "text": " 你更喜欢按____做事情？",
+      "type": "radio",
+      "orderNum": 93,
+      "options": [
+        {
+          "id": 12026,
+          "optionNo": "A",
+          "text": "当天的感觉",
+          "value": "0"
+        },
+        {
+          "id": 12027,
+          "optionNo": "B",
+          "text": "已订好的日程表",
+          "value": "1"
+        }
+      ]
+    }
+  ],
+  "dimensions": [
+    {
+      "id": 364,
+      "num": 1,
+      "dimensionName": "外倾--内倾",
+      "dimensionCode": "EI",
+      "evaluateExpression": "hx_t_3 + hx_t_7 + hx_t_10 + hx_t_19 + hx_t_23 + hx_t_32 + hx_t_62 + hx_t_74 + hx_t_79 + hx_t_81 + hx_t_83 + hx_t_13 + hx_t_16 + hx_t_26 + hx_t_38 + hx_t_42 + hx_t_57 + hx_t_68 + hx_t_77 + hx_t_85 + hx_t_91",
+      "standardScoreFormula": "0",
+      "results": [
+        {
+          "id": 748,
+          "evaluateExpression": "hx_wd_y_1 >= 0&& hx_wd_y_1 <= 1",
+          "conclusionAnalysis": "该维度用以表示个体心理能量的获得途径和与外界相互作用的程度，即个体的注意较多的指向于外部的客观环境还是内部的概念建构和思想观念。通过测试得知您在注意力的指向上绝对内倾。",
+          "suggestion": "内倾型态度表现为主体的注意力和精力指向于内部的精神世界，其心理能量通过内部的思想，情绪等而获得。内倾型个体在内部世界中获得支持并看重发生的事件的概念、意义等，因此他们的许多活动是精神性的，他们倾向于在头脑内安静的思考以加工信息。",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 749,
+          "evaluateExpression": "hx_wd_y_1 >= 2&& hx_wd_y_1 <= 4",
+          "conclusionAnalysis": "该维度用以表示个体心理能量的获得途径和与外界相互作用的程度，即个体的注意较多的指向于外部的客观环境还是内部的概念建构和思想观念。通过测试得知您在注意力的指向上属明确内倾。",
+          "suggestion": "内倾型态度表现为主体的注意力和精力指向于内部的精神世界，其心理能量通过内部的思想，情绪等而获得。内倾型个体在内部世界中获得支持并看重发生的事件的概念、意义等，因此他们的许多活动是精神性的，他们倾向于在头脑内安静的思考以加工信息。",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 750,
+          "evaluateExpression": "hx_wd_y_1 >= 5&& hx_wd_y_1 <= 7",
+          "conclusionAnalysis": "该维度用以表示个体心理能量的获得途径和与外界相互作用的程度，即个体的注意较多的指向于外部的客观环境还是内部的概念建构和思想观念。通过测试得知您在注意力的指向上属中等内倾。",
+          "suggestion": "内倾型态度表现为主体的注意力和精力指向于内部的精神世界，其心理能量通过内部的思想,情绪等而获得。内倾型个体在内部世界中获得支持并看重发生的事件的概念、意义等，因此他们的许多活动是精神性的，他们倾向于在头脑内安静的思考以加工信息。",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 751,
+          "evaluateExpression": "hx_wd_y_1 >= 8&& hx_wd_y_1 <= 10",
+          "conclusionAnalysis": "该维度用以表示个体心理能量的获得途径和与外界相互作用的程度，即个体的注意较多的指向于外部的客观环境还是内部的概念建构和思想观念。通过测试得知您在注意力的指向上轻微内倾。",
+          "suggestion": "内倾型态度表现为主体的注意力和精力指向于内部的精神世界，其心理能量通过内部的思想,情绪等而获得。内倾型个体在内部世界中获得支持并看重发生的事件的概念、意义等，因此他们的许多活动是精神性的，他们倾向于在头脑内安静的思考以加工信息。",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 752,
+          "evaluateExpression": "hx_wd_y_1 >= 11&& hx_wd_y_1 <= 13",
+          "conclusionAnalysis": "该维度用以表示个体心理能量的获得途径和与外界相互作用的程度，即个体的注意较多的指向于外部的客观环境还是内部的概念建构和思想观念。通过测试得知您在注意力的指向上轻微外倾。",
+          "suggestion": "外倾型态度表现为主体的注意力和精力指向于客体，即在外部世界中获得支持并依赖于外在环境中发生的信息，这是一种从主体到客体的兴趣向外的转移。外倾型个体需要通过经历来了解世界，所以他们更喜欢大量的活动，并偏好于通过谈话的方式来思考，在语言的交流中对信息予以加工。",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 753,
+          "evaluateExpression": "hx_wd_y_1 >= 14&& hx_wd_y_1 <= 16",
+          "conclusionAnalysis": "该维度用以表示个体心理能量的获得途径和与外界相互作用的程度，即个体的注意较多的指向于外部的客观环境还是内部的概念建构和思想观念。通过测试得知您在注意力的指向上属中等外倾。",
+          "suggestion": "外倾型态度表现为主体的注意力和精力指向于客体，即在外部世界中获得支持并依赖于外在环境中发生的信息，这是一种从主体到客体的兴趣向外的转移。外倾型个体需要通过经历来了解世界，所以他们更喜欢大量的活动，并偏好于通过谈话的方式来思考，在语言的交流中对信息予以加工。",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 754,
+          "evaluateExpression": "hx_wd_y_1 >= 17&& hx_wd_y_1 <= 19",
+          "conclusionAnalysis": "该维度用以表示个体心理能量的获得途径和与外界相互作用的程度，即个体的注意较多的指向于外部的客观环境还是内部的概念建构和思想观念。通过测试得知您在注意力的指向上属明确外倾。",
+          "suggestion": "外倾型态度表现为主体的注意力和精力指向于客体，即在外部世界中获得支持并依赖于外在环境中发生的信息，这是一种从主体到客体的兴趣向外的转移。外倾型个体需要通过经历来了解世界，所以他们更喜欢大量的活动，并偏好于通过谈话的方式来思考，在语言的交流中对信息予以加工。",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 755,
+          "evaluateExpression": "hx_wd_y_1 >= 20&& hx_wd_y_1 <= 21",
+          "conclusionAnalysis": "该维度用以表示个体心理能量的获得途径和与外界相互作用的程度，即个体的注意较多的指向于外部的客观环境还是内部的概念建构和思想观念。通过测试得知您在注意力的指向上绝对外倾。",
+          "suggestion": "外倾型态度表现为主体的注意力和精力指向于客体，即在外部世界中获得支持并依赖于外在环境中发生的信息，这是一种从主体到客体的兴趣向外的转移。外倾型个体需要通过经历来了解世界,所以他们更喜欢大量的活动，并偏好于通过谈话的方式来思考，在语言的交流中对信息予以加工。",
+          "assessmentWarning": "none"
+        }
+      ]
+    },
+    {
+      "id": 365,
+      "num": 2,
+      "dimensionName": "感觉--直觉",
+      "dimensionCode": "SN",
+      "evaluateExpression": "hx_t_2 + hx_t_9 + hx_t_25 + hx_t_30 + hx_t_34 + hx_t_39 + hx_t_50 + hx_t_52 + hx_t_54 + hx_t_60 + hx_t_63 + hx_t_73 + hx_t_92 + hx_t_5 + hx_t_11 + hx_t_18 + hx_t_22 + hx_t_27 + hx_t_44 + hx_t_46 + hx_t_48 + hx_t_65 + hx_t_67 + hx_t_69 + hx_t_71 + hx_t_82",
+      "standardScoreFormula": "0",
+      "results": [
+        {
+          "id": 756,
+          "evaluateExpression": "hx_wd_y_2 >= 0&& hx_wd_y_2 <= 1",
+          "conclusionAnalysis": "该维度又称之为非理性维度或知觉维度,表示个体在收集信息时注意的指向。即倾向于通过各种感官去注意现实的、直接的、实际的、可观察的事件还是对事件将来的各种可能性和事件背后隐含的意义感兴趣。通过测试得知您绝对偏向以直觉方式提取信息。",
+          "suggestion": "直觉型的个体自然的去辨认和寻找一切事物的含义,重视想象力,更注重将来,努力改变事物而不是维持它们的现状。直觉型的个体通常看到一个环境就想知道它的含义和结果可能如何。",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 757,
+          "evaluateExpression": "hx_wd_y_2 >= 2&& hx_wd_y_2 <= 5",
+          "conclusionAnalysis": "该维度又称之为非理性维度或知觉维度,表示个体在收集信息时注意的指向。即倾向于通过各种感官去注意现实的、直接的、实际的、可观察的事件还是对事件将来的各种可能性和事件背后隐含的意义感兴趣。通过测试得知您明确偏向以直觉方式提取信息。",
+          "suggestion": "直觉型的个体自然的去辨认和寻找一切事物的含义,重视想象力,更注重将来,努力改变事物而不是维持它们的现状。直觉型的个体通常看到一个环境就想知道它的含义和结果可能如何。",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 758,
+          "evaluateExpression": "hx_wd_y_2 >= 6&& hx_wd_y_2 <= 10",
+          "conclusionAnalysis": "该维度又称之为非理性维度或知觉维度,表示个体在收集信息时注意的指向。即倾向于通过各种感官去注意现实的、直接的、实际的、可观察的事件还是对事件将来的各种可能性和事件背后隐含的意义感兴趣。通过测试得知您属中等偏向以直觉方式提取信息。",
+          "suggestion": "直觉型的个体自然的去辨认和寻找一切事物的含义,重视想象力,更注重将来,努力改变事物而不是维持它们的现状。直觉型的个体通常看到一个环境就想知道它的含义和结果可能如何。",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 759,
+          "evaluateExpression": "hx_wd_y_2 >= 11&& hx_wd_y_2 <= 12",
+          "conclusionAnalysis": "该维度又称之为非理性维度或知觉维度,表示个体在收集信息时注意的指向。即倾向于通过各种感官去注意现实的、直接的、实际的、可观察的事件还是对事件将来的各种可能性和事件背后隐含的意义感兴趣。通过测试得知您轻微偏向以直觉方式提取信息。",
+          "suggestion": "直觉型的个体自然的去辨认和寻找一切事物的含义,重视想象力,更注重将来,努力改变事物而不是维持它们的现状。直觉型的个体通常看到一个环境就想知道它的含义和结果可能如何。",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 760,
+          "evaluateExpression": "hx_wd_y_2 >= 13&& hx_wd_y_2 <= 15",
+          "conclusionAnalysis": "该维度又称之为非理性维度或知觉维度,表示个体在收集信息时注意的指向。即倾向于通过各种感官去注意现实的、直接的、实际的、可观察的事件还是对事件将来的各种可能性和事件背后隐含的意义感兴趣。通过测试得知您轻微偏向以感觉方式提取信息。",
+          "suggestion": "感觉型的个体倾向与接受能够衡量或有证据的任何事物,关注真实而有形的事件。感觉型的个体相信感官能告诉他们关于外界的准确信息,也相信自己的经验。感觉型的个体关注现在,关心某一刻发生的事情。",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 761,
+          "evaluateExpression": "hx_wd_y_2 >= 16&& hx_wd_y_2 <= 20",
+          "conclusionAnalysis": "该维度又称之为非理性维度或知觉维度,表示个体在收集信息时注意的指向。即倾向于通过各种感官去注意现实的、直接的、实际的、可观察的事件还是对事件将来的各种可能性和事件背后隐含的意义感兴趣。通过测试得知您中等偏向以感觉方式提取信息。",
+          "suggestion": "感觉型的个体倾向与接受能够衡量或有证据的任何事物,关注真实而有形的事件。感觉型的个体相信感官能告诉他们关于外界的准确信息,也相信自己的经验。感觉型的个体关注现在,关心某一刻发生的事情。",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 762,
+          "evaluateExpression": "hx_wd_y_2 >= 21&& hx_wd_y_2 <= 24",
+          "conclusionAnalysis": "该维度又称之为非理性维度或知觉维度,表示个体在收集信息时注意的指向。即倾向于通过各种感官去注意现实的、直接的、实际的、可观察的事件还是对事件将来的各种可能性和事件背后隐含的意义感兴趣。通过测试得知您明确偏向以感觉方式提取信息。",
+          "suggestion": "感觉型的个体倾向与接受能够衡量或有证据的任何事物,关注真实而有形的事件。感觉型的个体相信感官能告诉他们关于外界的准确信息,也相信自己的经验。感觉型的个体关注现在,关心某一刻发生的事情。",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 763,
+          "evaluateExpression": "hx_wd_y_2 >= 25&& hx_wd_y_2 <= 26",
+          "conclusionAnalysis": "该维度又称之为非理性维度或知觉维度,表示个体在收集信息时注意的指向。即倾向于通过各种感官去注意现实的、直接的、实际的、可观察的事件还是对事件将来的各种可能性和事件背后隐含的意义感兴趣。通过测试得知您绝对偏向以感觉方式提取信息。",
+          "suggestion": "感觉型的个体倾向与接受能够衡量或有证据的任何事物,关注真实而有形的事件。感觉型的个体相信感官能告诉他们关于外界的准确信息,也相信自己的经验。感觉型的个体关注现在,关心某一刻发生的事情。",
+          "assessmentWarning": "none"
+        }
+      ]
+    },
+    {
+      "id": 366,
+      "num": 3,
+      "dimensionName": "思维--情感",
+      "dimensionCode": "TF",
+      "evaluateExpression": "hx_t_31 + hx_t_33 + hx_t_35 + hx_t_43 + hx_t_45 + hx_t_47 + hx_t_49 + hx_t_56 + hx_t_58 + hx_t_61 + hx_t_66 + hx_t_75 + hx_t_87 + hx_t_6 + hx_t_15 + hx_t_21 + hx_t_29 + hx_t_37 + hx_t_40 + hx_t_51 + hx_t_53 + hx_t_70 + hx_t_72 + hx_t_89",
+      "standardScoreFormula": "0",
+      "results": [
+        {
+          "id": 764,
+          "evaluateExpression": "hx_wd_y_3 >= 0&& hx_wd_y_3 <= 1",
+          "conclusionAnalysis": "该维度又称之为理性维度或判断维度。该维度用于表示个体在作决定时采用什么系统，即作决定和下结论的方法，是客观的逻辑推理还是主观的情感和价值。通过测试得知您绝对偏向以情感做决策。",
+          "suggestion": "情感型的个体期望自己的情感与他人保持一致，他们做决定的基石是何者对他们自己和他人是重要的，其理性判断的依据是个人的价值观。",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 765,
+          "evaluateExpression": "hx_wd_y_3 >= 2&& hx_wd_y_3 <= 4",
+          "conclusionAnalysis": "该维度又称之为理性维度或判断维度。该维度用于表示个体在作决定时采用什么系统，即作决定和下结论的方法，是客观的逻辑推理还是主观的情感和价值。通过测试得知您明确偏向以情感做决策。",
+          "suggestion": "情感型的个体期望自己的情感与他人保持一致，他们做决定的基石是何者对他们自己和他人是重要的，其理性判断的依据是个人的价值观。",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 766,
+          "evaluateExpression": "hx_wd_y_3 >= 5&& hx_wd_y_3 <= 9",
+          "conclusionAnalysis": "该维度又称之为理性维度或判断维度。该维度用于表示个体在作决定时采用什么系统，即作决定和下结论的方法，是客观的逻辑推理还是主观的情感和价值。通过测试得知您中等偏向以情感做决策。",
+          "suggestion": "情感型的个体期望自己的情感与他人保持一致，他们做决定的基石是何者对他们自己和他人是重要的，其理性判断的依据是个人的价值观。",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 767,
+          "evaluateExpression": "hx_wd_y_3 >= 10&& hx_wd_y_3 <= 12",
+          "conclusionAnalysis": "该维度又称之为理性维度或判断维度。该维度用于表示个体在作决定时采用什么系统，即作决定和下结论的方法，是客观的逻辑推理还是主观的情感和价值。通过测试得知您轻微偏向以情感做决策。",
+          "suggestion": "情感型的个体期望自己的情感与他人保持一致，他们做决定的基石是何者对他们自己和他人是重要的，其理性判断的依据是个人的价值观。",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 768,
+          "evaluateExpression": "hx_wd_y_3 >= 13&& hx_wd_y_3 <= 15",
+          "conclusionAnalysis": "该维度又称之为理性维度或判断维度。该维度用于表示个体在作决定时采用什么系统，即作决定和下结论的方法，是客观的逻辑推理还是主观的情感和价值。通过测试得知您轻微偏向以思维做决策。",
+          "suggestion": "思维型的个体会对情境作客观的、非个人的逻辑分析后再做决定，注重因果关系并寻求事实的客观尺度，因此较少受个人感情的影响。",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 769,
+          "evaluateExpression": "hx_wd_y_3 >= 16&& hx_wd_y_3 <= 19",
+          "conclusionAnalysis": "该维度又称之为理性维度或判断维度。该维度用于表示个体在作决定时采用什么系统，即作决定和下结论的方法，是客观的逻辑推理还是主观的情感和价值。通过测试得知您中等偏向以思维做决策。",
+          "suggestion": "思维型的个体会对情境作客观的、非个人的逻辑分析后再做决定，注重因果关系并寻求事实的客观尺度，因此较少受个人感情的影响。",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 770,
+          "evaluateExpression": "hx_wd_y_3 >= 20&& hx_wd_y_3 <= 22",
+          "conclusionAnalysis": "该维度又称之为理性维度或判断维度。该维度用于表示个体在作决定时采用什么系统，即作决定和下结论的方法，是客观的逻辑推理还是主观的情感和价值。通过测试得知您明确偏向以思维做决策。",
+          "suggestion": "思维型的个体会对情境作客观的、非个人的逻辑分析后再做决定，注重因果关系并寻求事实的客观尺度，因此较少受个人感情的影响。",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 771,
+          "evaluateExpression": "hx_wd_y_3 >= 23&& hx_wd_y_3 <= 24",
+          "conclusionAnalysis": "该维度又称之为理性维度或判断维度。该维度用于表示个体在作决定时采用什么系统，即作决定和下结论的方法，是客观的逻辑推理还是主观的情感和价值。通过测试得知您绝对偏向以思维做决策。",
+          "suggestion": "思维型的个体会对情境作客观的、非个人的逻辑分析后再做决定，注重因果关系并寻求事实的客观尺度，因此较少受个人感情的影响。",
+          "assessmentWarning": "none"
+        }
+      ]
+    },
+    {
+      "id": 367,
+      "num": 4,
+      "dimensionName": "判断--知觉",
+      "dimensionCode": "JP",
+      "evaluateExpression": "hx_t_1 + hx_t_4 + hx_t_12 + hx_t_14 + hx_t_20 + hx_t_28 + hx_t_36 + hx_t_41 + hx_t_64 + hx_t_76 + hx_t_86 + hx_t_8 + hx_t_17 + hx_t_24 + hx_t_55 + hx_t_59 + hx_t_78 + hx_t_80 + hx_t_84 + hx_t_88 + hx_t_90 + hx_t_93",
+      "standardScoreFormula": "0",
+      "results": [
+        {
+          "id": 772,
+          "evaluateExpression": "hx_wd_y_4 >= 0&& hx_wd_y_4 <= 1",
+          "conclusionAnalysis": "该维度用以描述个体的生活方式。即倾向于以一种较固定的方式生活（或做决定）还是以一种更自然的方式生活（或收集信息）。通过测试得知您绝对偏向以知觉方式适应生活或外部环境。",
+          "suggestion": "知觉型个体偏好于知觉经验,会不断的收集信息以使其生活保持弹性和自然。知觉型个体努力使事件保持开放性,让其自然的变化,以便出现更好的事件。",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 773,
+          "evaluateExpression": "hx_wd_y_4 >= 2&& hx_wd_y_4 <= 5",
+          "conclusionAnalysis": "该维度用以描述个体的生活方式。即倾向于以一种较固定的方式生活（或做决定）还是以一种更自然的方式生活（或收集信息）。通过测试得知您明确偏向以知觉方式适应生活或外部环境。",
+          "suggestion": "知觉型个体偏好于知觉经验,会不断的收集信息以使其生活保持弹性和自然。知觉型个体努力使事件保持开放性,让其自然的变化,以便出现更好的事件。",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 774,
+          "evaluateExpression": "hx_wd_y_4 >= 6&& hx_wd_y_4 <= 8",
+          "conclusionAnalysis": "该维度用以描述个体的生活方式。即倾向于以一种较固定的方式生活（或做决定）还是以一种更自然的方式生活（或收集信息）。通过测试得知您中等偏向以知觉方式适应生活或外部环境。",
+          "suggestion": "知觉型个体偏好于知觉经验,会不断的收集信息以使其生活保持弹性和自然。知觉型个体努力使事件保持开放性,让其自然的变化,以便出现更好的事件。",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 775,
+          "evaluateExpression": "hx_wd_y_4 >= 9&& hx_wd_y_4 <= 10",
+          "conclusionAnalysis": "该维度用以描述个体的生活方式。即倾向于以一种较固定的方式生活（或做决定）还是以一种更自然的方式生活（或收集信息）。通过测试得知您轻微偏向以知觉方式适应生活或外部环境。",
+          "suggestion": "知觉型个体偏好于知觉经验,会不断的收集信息以使其生活保持弹性和自然。知觉型个体努力使事件保持开放性,让其自然的变化,以便出现更好的事件。",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 776,
+          "evaluateExpression": "hx_wd_y_4 >= 11&& hx_wd_y_4 <= 13",
+          "conclusionAnalysis": "该维度用以描述个体的生活方式。即倾向于以一种较固定的方式生活（或做决定）还是以一种更自然的方式生活（或收集信息）。通过测试得知您轻微偏向以判断方式适应生活或外部环境。",
+          "suggestion": "判断型个体倾向于以一种有序的、有计划的方式对其生活加以控制,期望看到问题被解决,习惯于并喜欢做决定。",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 777,
+          "evaluateExpression": "hx_wd_y_4 >= 14&& hx_wd_y_4 <= 16",
+          "conclusionAnalysis": "该维度用以描述个体的生活方式。即倾向于以一种较固定的方式生活（或做决定）还是以一种更自然的方式生活（或收集信息）。通过测试得知您中等偏向以判断方式适应生活或外部环境。",
+          "suggestion": "判断型个体倾向于以一种有序的、有计划的方式对其生活加以控制,期望看到问题被解决,习惯于并喜欢做决定。",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 778,
+          "evaluateExpression": "hx_wd_y_4 >= 17&& hx_wd_y_4 <= 20",
+          "conclusionAnalysis": "该维度用以描述个体的生活方式。即倾向于以一种较固定的方式生活（或做决定）还是以一种更自然的方式生活（或收集信息）。通过测试得知您明确偏向以判断方式适应生活或外部环境。",
+          "suggestion": "判断型个体倾向于以一种有序的、有计划的方式对其生活加以控制,期望看到问题被解决,习惯于并喜欢做决定。",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 779,
+          "evaluateExpression": "hx_wd_y_4 >= 21&& hx_wd_y_4 <= 22",
+          "conclusionAnalysis": "该维度用以描述个体的生活方式。即倾向于以一种较固定的方式生活（或做决定）还是以一种更自然的方式生活（或收集信息）。通过测试得知您绝对偏向以判断方式适应生活或外部环境。",
+          "suggestion": "判断型个体倾向于以一种有序的、有计划的方式对其生活加以控制,期望看到问题被解决,习惯于并喜欢做决定。",
+          "assessmentWarning": "none"
+        }
+      ]
+    },
+    {
+      "id": 368,
+      "num": 5,
+      "dimensionName": "性格类型",
+      "dimensionCode": "XG",
+      "evaluateExpression": "((hx_wd_y_ei <= 10 ? 2 : 1) + (hx_wd_y_sn <= 12 ? 8 : 4) + (hx_wd_y_tf <= 12 ? 32 : 16) + (hx_wd_y_jp <= 10 ? 128 : 64))",
+      "standardScoreFormula": "0",
+      "results": [
+        {
+          "id": 780,
+          "evaluateExpression": "hx_wd_y_5 >= 86&& hx_wd_y_5 <= 86",
+          "conclusionAnalysis": "ISTJ（内倾+感觉+思维+判断）：该项目分值为性格分类代码，不具有其他含义。\n沉静，认真；贯彻始终、得人信赖而去的成功。讲求实际，注重事实，能够合情合理地去决定应做的事情，而且坚定不移地把他们完成，不会因外界事物而分散精神。以做事有次序、条理为乐——不论在工作上、家庭上或者生活上。重视传统和忠诚。",
+          "suggestion": "ISTJ（内倾+感觉+思维+判断）：\n每一个偏好和类型没有好坏、对错之分。每种类型都是独特的，会在适合的环境中发挥自己的特点。世界上没有百分之百适合某种性格的职业，也没有百分之百不适合某种性格的职业，懂得用己所长，整合资源，才是问题解决之道。",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 781,
+          "evaluateExpression": "hx_wd_y_5 >= 102&& hx_wd_y_5 <= 102",
+          "conclusionAnalysis": "ISFJ（内倾+感觉+情感+判断）：该项目分值为性格分类代码，不具有其他含义。\n沉静，友善，有责任感和谨慎。能坚定不移地承担责任。做事贯彻始终、不辞辛劳和准确无误。忠诚，替人照想，细心；往往记着他所重视的人的种种微小事情，关心别人的感受。努力创造一个有秩序、和谐的工作和家居环境。",
+          "suggestion": "ISFJ（内倾+感觉+情感+判断）：\n每一个偏好和类型没有好坏、对错之分。每种类型都是独特的，会在适合的环境中发挥自己的特点。世界上没有百分之百适合某种性格的职业，也没有百分之百不适合某种性格的职业，懂得用己所长，整合资源，才是问题解决之道。",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 782,
+          "evaluateExpression": "hx_wd_y_5 >= 106&& hx_wd_y_5 <= 106",
+          "conclusionAnalysis": "INFJ（内倾+直觉+情感+判断）：该项目分值为性格分类代码，不具有其他含义。\n探索意念、人际关系和物质拥有欲的意义和他们之间的关系。希望了解什么可以激发人们的推动力，对别人有洞察力。尽责，能够履行他们坚持的价值观念。有一个清晰的理念以谋取大众的最佳利益。能够有条理地、果断地去实践他们的理念。",
+          "suggestion": "INFJ（内倾+直觉+情感+判断）：\n每一个偏好和类型没有好坏、对错之分。每种类型都是独特的，会在适合的环境中发挥自己的特点。世界上没有百分之百适合某种性格的职业，也没有百分之百不适合某种性格的职业，懂得用己所长，整合资源，才是问题解决之道。",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 783,
+          "evaluateExpression": "hx_wd_y_5 >= 90&& hx_wd_y_5 <= 90",
+          "conclusionAnalysis": "INTJ（内倾+直觉+思维+判断）：该项目分值为性格分类代码，不具有其他含义。\n有具创意的头脑、有很大的冲劲去实践他们的理念和达到目标。能够很快地掌握事情发展的规律，从而想出长远的发展方向。一旦作出承诺，便会有条理地展开工作，直到完成为止。有怀疑精神，独立自主；无论为自己或为他人，有高水准的工作表现。",
+          "suggestion": "INTJ（内倾+直觉+思维+判断）：\n每一个偏好和类型没有好坏、对错之分。每种类型都是独特的，会在适合的环境中发挥自己的特点。世界上没有百分之百适合某种性格的职业，也没有百分之百不适合某种性格的职业，懂得用己所长，整合资源，才是问题解决之道。",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 784,
+          "evaluateExpression": "hx_wd_y_5 >= 150&& hx_wd_y_5 <= 150",
+          "conclusionAnalysis": "ISTP（内倾+感觉+思维+知觉）：该项目分值为性格分类代码，不具有其他含义。\n容忍、有弹性；是冷静的观察者，但当有问题出现，便迅速行动，找出可行的解决方法。能够分析哪些东西可以使事情进行顺利，有能够从大量资料中，找出实际问题的重心。很重视事件的前因后果，能够以理性的原则把事实组织起来，重视效率。",
+          "suggestion": "ISTP（内倾+感觉+思维+知觉）：\n每一个偏好和类型没有好坏、对错之分。每种类型都是独特的，会在适合的环境中发挥自己的特点。世界上没有百分之百适合某种性格的职业，也没有百分之百不适合某种性格的职业，懂得用己所长，整合资源，才是问题解决之道。",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 785,
+          "evaluateExpression": "hx_wd_y_5 >= 166&& hx_wd_y_5 <= 166",
+          "conclusionAnalysis": "ISFP（内倾+感觉+情感+知觉）：该项目分值为性格分类代码，不具有其他含义。\n沉静，友善，敏感和仁慈。欣赏目前和他周遭所发生的事情。喜欢有自己的空间，在做事又能把握自己的时间。忠于自己所重视的人。不喜欢争论和冲突，不会强迫别人接受自己的意见或价值观。",
+          "suggestion": "ISFP（内倾+感觉+情感+知觉）：\n每一个偏好和类型没有好坏、对错之分。每种类型都是独特的，会在适合的环境中发挥自己的特点。世界上没有百分之百适合某种性格的职业，也没有百分之百不适合某种性格的职业，懂得用己所长，整合资源，才是问题解决之道。",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 786,
+          "evaluateExpression": "hx_wd_y_5 >= 170&& hx_wd_y_5 <= 170",
+          "conclusionAnalysis": "INFP（内倾+直觉+情感+知觉）：该项目分值为性格分类代码，不具有其他含义。\n理想主义者，忠于自己的价值观及自己所重视的人。外在的生活与内在的价值观配合。有好奇心，很快看到事情的可能与否，能够加速对理念的实践。试图了解别人、协助别人发展潜能。适应力强，有弹性；如果和他们的价值观没有抵触，往往能包容他人。",
+          "suggestion": "INFP（内倾+直觉+情感+知觉）：\n每一个偏好和类型没有好坏、对错之分。每种类型都是独特的，会在适合的环境中发挥自己的特点。世界上没有百分之百适合某种性格的职业，也没有百分之百不适合某种性格的职业，懂得用己所长，整合资源，才是问题解决之道。",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 787,
+          "evaluateExpression": "hx_wd_y_5 >= 154&& hx_wd_y_5 <= 154",
+          "conclusionAnalysis": "INTP（内倾+直觉+思维+知觉）：该项目分值为性格分类代码，不具有其他含义。\n读任何感兴趣的事物，都要探索一个合理的解释。喜欢理论和抽象的事情，喜欢理念思维多于社交活动。沉静，满足，有弹性，适应力强。在他们感兴趣的范畴内，有非凡的能力去专注而深入地解决问题。有怀疑精神，有时喜欢批评，常常善于分析。",
+          "suggestion": "INTP（内倾+直觉+思维+知觉）：\n每一个偏好和类型没有好坏、对错之分。每种类型都是独特的，会在适合的环境中发挥自己的特点。世界上没有百分之百适合某种性格的职业，也没有百分之百不适合某种性格的职业，懂得用己所长，整合资源，才是问题解决之道。",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 788,
+          "evaluateExpression": "hx_wd_y_5 >= 149&& hx_wd_y_5 <= 149",
+          "conclusionAnalysis": "ESTP（外倾+感觉+思维+知觉）：该项目分值为性格分类代码，不具有其他含义。\n有弹性，容忍；讲求实际，专注及时的效益。对理论和概念上的解释感到不耐烦，希望以积极的行动去解决问题。专注于”此时此地”，喜欢主动与别人交往。喜欢物质享受的生活方式。能够通过时间达到最佳的学习效果。",
+          "suggestion": "ESTP（外倾+感觉+思维+知觉）：\n每一个偏好和类型没有好坏、对错之分。每种类型都是独特的，会在适合的环境中发挥自己的特点。世界上没有百分之百适合某种性格的职业，也没有百分之百不适合某种性格的职业，懂得用己所长，整合资源，才是问题解决之道。",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 789,
+          "evaluateExpression": "hx_wd_y_5 >= 165&& hx_wd_y_5 <= 165",
+          "conclusionAnalysis": "ESFP（外倾+感觉+情感+知觉）：该项目分值为性格分类代码，不具有其他含义。\n外向，友善，包容。热爱生命、热爱人，爱物质享受。喜欢与别人共事。在工作上，能用常识、注意实际现实的情况，使工作富趣味性。富灵活性、即兴性，易接受新朋友和适应新环境。与别人一起学习新技能可以达到最佳的学习效果。",
+          "suggestion": "ESFP（外倾+感觉+情感+知觉）：\n每一个偏好和类型没有好坏、对错之分。每种类型都是独特的，会在适合的环境中发挥自己的特点。世界上没有百分之百适合某种性格的职业，也没有百分之百不适合某种性格的职业，懂得用己所长，整合资源，才是问题解决之道。",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 790,
+          "evaluateExpression": "hx_wd_y_5 >= 169&& hx_wd_y_5 <= 169",
+          "conclusionAnalysis": "ENFP（外倾+直觉+情感+知觉）：该项目分值为性格分类代码，不具有其他含义。\n热情而热心，富于想象力。认为生活是充满很多可能性。能够很快地找出时间和资料之间的关联性，而且有信心地依照他们所看到的模式去做。很需要别人的肯定，有乐于欣赏和支持别人。即兴而富于弹性，时常信赖自己的临场表现和流畅的语言能力。",
+          "suggestion": "ENFP（外倾+直觉+情感+知觉）：\n每一个偏好和类型没有好坏、对错之分。每种类型都是独特的，会在适合的环境中发挥自己的特点。世界上没有百分之百适合某种性格的职业，也没有百分之百不适合某种性格的职业，懂得用己所长，整合资源，才是问题解决之道。",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 791,
+          "evaluateExpression": "hx_wd_y_5 >= 153&& hx_wd_y_5 <= 153",
+          "conclusionAnalysis": "ENTP（外倾+直觉+思维+知觉）：该项目分值为性格分类代码，不具有其他含义。\n思维敏捷，机灵，能极力他人，警觉性高，勇于发言。能随机应变地去应付新的和富于挑战性的问题。善于引出在概念上可能发生的问题，然后很有策略的加以分析。善于洞察别人。对日常例行事物感到厌倦。甚少以相同方法处理同一事情，能够 灵活地处理接二连三的新事物。",
+          "suggestion": "ENTP（外倾+直觉+思维+知觉）：\n每一个偏好和类型没有好坏、对错之分。每种类型都是独特的，会在适合的环境中发挥自己的特点。世界上没有百分之百适合某种性格的职业，也没有百分之百不适合某种性格的职业，懂得用己所长，整合资源，才是问题解决之道。",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 792,
+          "evaluateExpression": "hx_wd_y_5 >= 85&& hx_wd_y_5 <= 85",
+          "conclusionAnalysis": "ESTJ（外倾+感觉+思维+判断）：该项目分值为性格分类代码，不具有其他含义。\n讲求实际，注重现实，注重事实。果断，很快做出实际可行的决定。能够安排计划和组织人员以完成工作，尽可能以最有效率的方法达到目的。能够注意日常例行工作的细节。有一条清晰的逻辑标准，会有系统地跟着去做，也想别人跟着去做。会以强硬态度去执行计划。",
+          "suggestion": "ESTJ（外倾+感觉+思维+判断）：\n每一个偏好和类型没有好坏、对错之分。每种类型都是独特的，会在适合的环境中发挥自己的特点。世界上没有百分之百适合某种性格的职业，也没有百分之百不适合某种性格的职业，懂得用己所长，整合资源，才是问题解决之道。",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 793,
+          "evaluateExpression": "hx_wd_y_5 >= 101&& hx_wd_y_5 <= 101",
+          "conclusionAnalysis": "ESFJ（外倾+感觉+情感+判断）：该项目分值为性格分类代码，不具有其他含义。\n有爱心、尽责，合作。渴望有和谐的环境，而且有决心营造这样的环境。喜欢与别人共事以能准确地、准时地完成工作。忠诚，即使在细微的事情上也能如此。能够注意别人在日常生活中的需要而努力供应他们。渴望别人赞赏他们和欣赏他们所做的贡献。",
+          "suggestion": "ESFJ（外倾+感觉+情感+判断）：\n每一个偏好和类型没有好坏、对错之分。每种类型都是独特的，会在适合的环境中发挥自己的特点。世界上没有百分之百适合某种性格的职业，也没有百分之百不适合某种性格的职业，懂得用己所长，整合资源，才是问题解决之道。",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 794,
+          "evaluateExpression": "hx_wd_y_5 >= 105&& hx_wd_y_5 <= 105",
+          "conclusionAnalysis": "ENFJ（外倾+直觉+情感+判断）：该项目分值为性格分类代码，不具有其他含义。\n温情，有同情心，反应敏捷和有责任感。高度关顾别人的情绪、需要和动机。能够看到每个人的潜质，要帮助别人发挥自己的潜能。能够积极地协助他人和组织的成长。忠诚，对赞美和批评都能做出很快地回应。社交活跃，在一组人当中能够惠及别人。",
+          "suggestion": "ENFJ（外倾+直觉+情感+判断）：\n每一个偏好和类型没有好坏、对错之分。每种类型都是独特的，会在适合的环境中发挥自己的特点。世界上没有百分之百适合某种性格的职业，也没有百分之百不适合某种性格的职业，懂得用己所长，整合资源，才是问题解决之道。",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 795,
+          "evaluateExpression": "hx_wd_y_5 >= 89&& hx_wd_y_5 <= 89",
+          "conclusionAnalysis": "ENTJ（外倾+直觉+思维+判断）：该项目分值为性格分类代码，不具有其他含义。\n坦率、果断、乐于作为领导者。很容易看到不合逻辑和缺乏效率的程序和政策，从而开展和实施一个能够顾及全面的制度去解决一些组织上的问题。喜欢有长远的计划，喜欢有一套制定的目标。往往是博学多闻的，喜欢追求知识，又能把知识传给别人。能够有力地提出自己的主张。",
+          "suggestion": "ENTJ（外倾+直觉+思维+判断）：\n每一个偏好和类型没有好坏、对错之分。每种类型都是独特的，会在适合的环境中发挥自己的特点。世界上没有百分之百适合某种性格的职业，也没有百分之百不适合某种性格的职业，懂得用己所长，整合资源，才是问题解决之道。",
+          "assessmentWarning": "none"
+        }
+      ]
+    }
+  ]
+}

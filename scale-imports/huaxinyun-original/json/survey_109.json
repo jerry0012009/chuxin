@@ -1,0 +1,4363 @@
+{
+  "id": 109,
+  "title": "霍兰德职业倾向测验",
+  "type": "basic",
+  "questions": [
+    {
+      "id": 2300,
+      "text": "你是否对这项活动感兴趣：装配修理电器或玩具",
+      "type": "radio",
+      "orderNum": 1,
+      "options": [
+        {
+          "id": 9375,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 9376,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2301,
+      "text": "你是否对这项活动感兴趣：修理自行车",
+      "type": "radio",
+      "orderNum": 2,
+      "options": [
+        {
+          "id": 9377,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 9378,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2302,
+      "text": "你是否对这项活动感兴趣：用木头做东西",
+      "type": "radio",
+      "orderNum": 3,
+      "options": [
+        {
+          "id": 9379,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 9380,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2303,
+      "text": "你是否对这项活动感兴趣：开汽车或摩托车",
+      "type": "radio",
+      "orderNum": 4,
+      "options": [
+        {
+          "id": 9381,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 9382,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2304,
+      "text": "你是否对这项活动感兴趣：用机器做东西",
+      "type": "radio",
+      "orderNum": 5,
+      "options": [
+        {
+          "id": 9383,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 9384,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2305,
+      "text": "你是否对这项活动感兴趣：参加木工技术学习班",
+      "type": "radio",
+      "orderNum": 6,
+      "options": [
+        {
+          "id": 9385,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 9386,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2306,
+      "text": "你是否对这项活动感兴趣：参加制图描图学习班",
+      "type": "radio",
+      "orderNum": 7,
+      "options": [
+        {
+          "id": 9387,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 9388,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2307,
+      "text": "你是否对这项活动感兴趣：驾驶卡车或拖拉机",
+      "type": "radio",
+      "orderNum": 8,
+      "options": [
+        {
+          "id": 9389,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 9390,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2308,
+      "text": "你是否对这项活动感兴趣：参加机械和电气学习班",
+      "type": "radio",
+      "orderNum": 9,
+      "options": [
+        {
+          "id": 9391,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 9392,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2309,
+      "text": "你是否对这项活动感兴趣：装配修理机器",
+      "type": "radio",
+      "orderNum": 10,
+      "options": [
+        {
+          "id": 9393,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 9394,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2310,
+      "text": "你是否对这项活动感兴趣：素描／制图或绘画",
+      "type": "radio",
+      "orderNum": 11,
+      "options": [
+        {
+          "id": 9395,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 9396,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2311,
+      "text": "你是否对这项活动感兴趣：参加话剧／戏剧",
+      "type": "radio",
+      "orderNum": 12,
+      "options": [
+        {
+          "id": 9397,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 9398,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2312,
+      "text": "你是否对这项活动感兴趣：设计家具／布置室内",
+      "type": "radio",
+      "orderNum": 13,
+      "options": [
+        {
+          "id": 9399,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 9400,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2313,
+      "text": "你是否对这项活动感兴趣：练习乐器／参加乐队",
+      "type": "radio",
+      "orderNum": 14,
+      "options": [
+        {
+          "id": 9401,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 9402,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2314,
+      "text": "你是否对这项活动感兴趣：欣赏音乐或戏剧",
+      "type": "radio",
+      "orderNum": 15,
+      "options": [
+        {
+          "id": 9403,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 9404,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2315,
+      "text": "你是否对这项活动感兴趣：看小说／读剧本",
+      "type": "radio",
+      "orderNum": 16,
+      "options": [
+        {
+          "id": 9405,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 9406,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2316,
+      "text": "你是否对这项活动感兴趣：从事摄影创作",
+      "type": "radio",
+      "orderNum": 17,
+      "options": [
+        {
+          "id": 9407,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 9408,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2317,
+      "text": "你是否对这项活动感兴趣：写诗或吟诗",
+      "type": "radio",
+      "orderNum": 18,
+      "options": [
+        {
+          "id": 9409,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 9410,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2318,
+      "text": "你是否对这项活动感兴趣：进行艺术(美术／音乐)培训",
+      "type": "radio",
+      "orderNum": 19,
+      "options": [
+        {
+          "id": 9411,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 9412,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2319,
+      "text": "你是否对这项活动感兴趣：练习书法",
+      "type": "radio",
+      "orderNum": 20,
+      "options": [
+        {
+          "id": 9413,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 9414,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2320,
+      "text": "你是否对这项活动感兴趣：读科技图书和杂志",
+      "type": "radio",
+      "orderNum": 21,
+      "options": [
+        {
+          "id": 9415,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 9416,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2321,
+      "text": "你是否对这项活动感兴趣：在实验室工作",
+      "type": "radio",
+      "orderNum": 22,
+      "options": [
+        {
+          "id": 9417,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 9418,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2322,
+      "text": "你是否对这项活动感兴趣：改良水果品种，培育新的水果",
+      "type": "radio",
+      "orderNum": 23,
+      "options": [
+        {
+          "id": 9419,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 9420,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2323,
+      "text": "你是否对这项活动感兴趣：调查了解土和金属等物质的成分",
+      "type": "radio",
+      "orderNum": 24,
+      "options": [
+        {
+          "id": 9421,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 9422,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2324,
+      "text": "你是否对这项活动感兴趣：研究自己选择的特殊问题",
+      "type": "radio",
+      "orderNum": 25,
+      "options": [
+        {
+          "id": 9423,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 9424,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2325,
+      "text": "你是否对这项活动感兴趣：解算术或玩数学游戏",
+      "type": "radio",
+      "orderNum": 26,
+      "options": [
+        {
+          "id": 9425,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 9426,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2326,
+      "text": "你是否对这项活动感兴趣：物理课",
+      "type": "radio",
+      "orderNum": 27,
+      "options": [
+        {
+          "id": 9427,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 9428,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2327,
+      "text": "你是否对这项活动感兴趣：化学课",
+      "type": "radio",
+      "orderNum": 28,
+      "options": [
+        {
+          "id": 9429,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 9430,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2328,
+      "text": "你是否对这项活动感兴趣：几何课",
+      "type": "radio",
+      "orderNum": 29,
+      "options": [
+        {
+          "id": 9431,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 9432,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2329,
+      "text": "你是否对这项活动感兴趣：生物课",
+      "type": "radio",
+      "orderNum": 30,
+      "options": [
+        {
+          "id": 9433,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 9434,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2330,
+      "text": "你是否对这项活动感兴趣：学校或单位组织的正式活动",
+      "type": "radio",
+      "orderNum": 31,
+      "options": [
+        {
+          "id": 9435,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 9436,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2331,
+      "text": "你是否对这项活动感兴趣：参加某个社会团体或俱乐部活动",
+      "type": "radio",
+      "orderNum": 32,
+      "options": [
+        {
+          "id": 9437,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 9438,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2332,
+      "text": "你是否对这项活动感兴趣：帮助别人解决困难",
+      "type": "radio",
+      "orderNum": 33,
+      "options": [
+        {
+          "id": 9439,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 9440,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2333,
+      "text": "你是否对这项活动感兴趣：照顾儿童",
+      "type": "radio",
+      "orderNum": 34,
+      "options": [
+        {
+          "id": 9441,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 9442,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2334,
+      "text": "你是否对这项活动感兴趣：出席晚会、联欢会、茶话会",
+      "type": "radio",
+      "orderNum": 35,
+      "options": [
+        {
+          "id": 9443,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 9444,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2335,
+      "text": "你是否对这项活动感兴趣：和大家一起出去郊游",
+      "type": "radio",
+      "orderNum": 36,
+      "options": [
+        {
+          "id": 9445,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 9446,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2336,
+      "text": "你是否对这项活动感兴趣：想获得关于心理方面的知识",
+      "type": "radio",
+      "orderNum": 37,
+      "options": [
+        {
+          "id": 9447,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 9448,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2337,
+      "text": "你是否对这项活动感兴趣：参加讲座会或辩论会",
+      "type": "radio",
+      "orderNum": 38,
+      "options": [
+        {
+          "id": 9449,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 9450,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2338,
+      "text": "你是否对这项活动感兴趣：观看或参加体育比赛和运动会",
+      "type": "radio",
+      "orderNum": 39,
+      "options": [
+        {
+          "id": 9451,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 9452,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2339,
+      "text": "你是否对这项活动感兴趣：结交新朋友",
+      "type": "radio",
+      "orderNum": 40,
+      "options": [
+        {
+          "id": 9453,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 9454,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2340,
+      "text": "你是否对这项活动感兴趣：说服鼓动他人",
+      "type": "radio",
+      "orderNum": 41,
+      "options": [
+        {
+          "id": 9455,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 9456,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2341,
+      "text": "你是否对这项活动感兴趣：卖东西",
+      "type": "radio",
+      "orderNum": 42,
+      "options": [
+        {
+          "id": 9457,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 9458,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2342,
+      "text": "你是否对这项活动感兴趣：谈论政治",
+      "type": "radio",
+      "orderNum": 43,
+      "options": [
+        {
+          "id": 9459,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 9460,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2343,
+      "text": "你是否对这项活动感兴趣：制定计划、参加会议",
+      "type": "radio",
+      "orderNum": 44,
+      "options": [
+        {
+          "id": 9461,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 9462,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2344,
+      "text": "你是否对这项活动感兴趣：以自己的意志影响别人的行为",
+      "type": "radio",
+      "orderNum": 45,
+      "options": [
+        {
+          "id": 9463,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 9464,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2345,
+      "text": "你是否对这项活动感兴趣：在社会团体中担任职务",
+      "type": "radio",
+      "orderNum": 46,
+      "options": [
+        {
+          "id": 9465,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 9466,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2346,
+      "text": "你是否对这项活动感兴趣：检查与评价别人的工作",
+      "type": "radio",
+      "orderNum": 47,
+      "options": [
+        {
+          "id": 9467,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 9468,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2347,
+      "text": "你是否对这项活动感兴趣：结交名流",
+      "type": "radio",
+      "orderNum": 48,
+      "options": [
+        {
+          "id": 9469,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 9470,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2348,
+      "text": "你是否对这项活动感兴趣：指导有某种目标的团体",
+      "type": "radio",
+      "orderNum": 49,
+      "options": [
+        {
+          "id": 9471,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 9472,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2349,
+      "text": "你是否对这项活动感兴趣：参与政治活动",
+      "type": "radio",
+      "orderNum": 50,
+      "options": [
+        {
+          "id": 9473,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 9474,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2350,
+      "text": "你是否对这项活动感兴趣：整理好桌面和房间",
+      "type": "radio",
+      "orderNum": 51,
+      "options": [
+        {
+          "id": 9475,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 9476,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2351,
+      "text": "你是否对这项活动感兴趣：抄写文件和信件",
+      "type": "radio",
+      "orderNum": 52,
+      "options": [
+        {
+          "id": 9477,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 9478,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2352,
+      "text": "你是否对这项活动感兴趣：为领导写报告或公务信函",
+      "type": "radio",
+      "orderNum": 53,
+      "options": [
+        {
+          "id": 9479,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 9480,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2353,
+      "text": "你是否对这项活动感兴趣：检查个人收支情况",
+      "type": "radio",
+      "orderNum": 54,
+      "options": [
+        {
+          "id": 9481,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 9482,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2354,
+      "text": "你是否对这项活动感兴趣：打字培训班",
+      "type": "radio",
+      "orderNum": 55,
+      "options": [
+        {
+          "id": 9483,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 9484,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2355,
+      "text": "你是否对这项活动感兴趣：参加算盘、文秘等实务培训",
+      "type": "radio",
+      "orderNum": 56,
+      "options": [
+        {
+          "id": 9485,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 9486,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2356,
+      "text": "你是否对这项活动感兴趣：参加商业会计培训班",
+      "type": "radio",
+      "orderNum": 57,
+      "options": [
+        {
+          "id": 9487,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 9488,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2357,
+      "text": "你是否对这项活动感兴趣：参加情报处理培训班",
+      "type": "radio",
+      "orderNum": 58,
+      "options": [
+        {
+          "id": 9489,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 9490,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2358,
+      "text": "你是否对这项活动感兴趣：整理信件、报告、记录等",
+      "type": "radio",
+      "orderNum": 59,
+      "options": [
+        {
+          "id": 9491,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 9492,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2359,
+      "text": "你是否对这项活动感兴趣：写商业贸易信",
+      "type": "radio",
+      "orderNum": 60,
+      "options": [
+        {
+          "id": 9493,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 9494,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2360,
+      "text": "你是否擅长从事这项活动：能使用电锯、电钻和锉刀等木工工具",
+      "type": "radio",
+      "orderNum": 61,
+      "options": [
+        {
+          "id": 9495,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 9496,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2361,
+      "text": "你是否擅长从事这项活动：知道万用表的使用方法",
+      "type": "radio",
+      "orderNum": 62,
+      "options": [
+        {
+          "id": 9497,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 9498,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2362,
+      "text": "你是否擅长从事这项活动：能够修理自行车或其他机械",
+      "type": "radio",
+      "orderNum": 63,
+      "options": [
+        {
+          "id": 9499,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 9500,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2363,
+      "text": "你是否擅长从事这项活动：能够使用电钻床、磨床或缝纫机",
+      "type": "radio",
+      "orderNum": 64,
+      "options": [
+        {
+          "id": 9501,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 9502,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2364,
+      "text": "你是否擅长从事这项活动：能给家具和木制品刷漆",
+      "type": "radio",
+      "orderNum": 65,
+      "options": [
+        {
+          "id": 9503,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 9504,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2365,
+      "text": "你是否擅长从事这项活动：能看建筑设计图",
+      "type": "radio",
+      "orderNum": 66,
+      "options": [
+        {
+          "id": 9505,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 9506,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2366,
+      "text": "你是否擅长从事这项活动：能够修理简单的电气用品",
+      "type": "radio",
+      "orderNum": 67,
+      "options": [
+        {
+          "id": 9507,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 9508,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2367,
+      "text": "你是否擅长从事这项活动：能修理家具",
+      "type": "radio",
+      "orderNum": 68,
+      "options": [
+        {
+          "id": 9509,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 9510,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2368,
+      "text": "你是否擅长从事这项活动：能修理收录机",
+      "type": "radio",
+      "orderNum": 69,
+      "options": [
+        {
+          "id": 9511,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 9512,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2369,
+      "text": "你是否擅长从事这项活动：能简单地修理水管",
+      "type": "radio",
+      "orderNum": 70,
+      "options": [
+        {
+          "id": 9513,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 9514,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2370,
+      "text": "你是否擅长从事这项活动：能演奏乐器",
+      "type": "radio",
+      "orderNum": 71,
+      "options": [
+        {
+          "id": 9515,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 9516,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2371,
+      "text": "你是否擅长从事这项活动：能参加二部或四部合唱",
+      "type": "radio",
+      "orderNum": 72,
+      "options": [
+        {
+          "id": 9517,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 9518,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2372,
+      "text": "你是否擅长从事这项活动：独唱或独奏",
+      "type": "radio",
+      "orderNum": 73,
+      "options": [
+        {
+          "id": 9519,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 9520,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2373,
+      "text": "你是否擅长从事这项活动：扮演剧中角色",
+      "type": "radio",
+      "orderNum": 74,
+      "options": [
+        {
+          "id": 9521,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 9522,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2374,
+      "text": "你是否擅长从事这项活动：能创作简单的乐曲",
+      "type": "radio",
+      "orderNum": 75,
+      "options": [
+        {
+          "id": 9523,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 9524,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2375,
+      "text": "你是否擅长从事这项活动：会跳舞",
+      "type": "radio",
+      "orderNum": 76,
+      "options": [
+        {
+          "id": 9525,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 9526,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2376,
+      "text": "你是否擅长从事这项活动：能绘画、素描或书法",
+      "type": "radio",
+      "orderNum": 77,
+      "options": [
+        {
+          "id": 9527,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 9528,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2377,
+      "text": "你是否擅长从事这项活动：能雕刻、剪纸或泥塑",
+      "type": "radio",
+      "orderNum": 78,
+      "options": [
+        {
+          "id": 9529,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 9530,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2378,
+      "text": "你是否擅长从事这项活动：能设计板报、服装或家具",
+      "type": "radio",
+      "orderNum": 79,
+      "options": [
+        {
+          "id": 9531,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 9532,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2379,
+      "text": "你是否擅长从事这项活动：写得一手好文章",
+      "type": "radio",
+      "orderNum": 80,
+      "options": [
+        {
+          "id": 9533,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 9534,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2380,
+      "text": "你是否擅长从事这项活动：懂得真空管或晶体管的作用",
+      "type": "radio",
+      "orderNum": 81,
+      "options": [
+        {
+          "id": 9535,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 9536,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2381,
+      "text": "你是否擅长从事这项活动：能够列举三种蛋白质多的食品",
+      "type": "radio",
+      "orderNum": 82,
+      "options": [
+        {
+          "id": 9537,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 9538,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2382,
+      "text": "你是否擅长从事这项活动：理解铀的裂变",
+      "type": "radio",
+      "orderNum": 83,
+      "options": [
+        {
+          "id": 9539,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 9540,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2383,
+      "text": "你是否擅长从事这项活动：能用计算尺、计算器、对数表",
+      "type": "radio",
+      "orderNum": 84,
+      "options": [
+        {
+          "id": 9541,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 9542,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2384,
+      "text": "你是否擅长从事这项活动：会使用显微镜",
+      "type": "radio",
+      "orderNum": 85,
+      "options": [
+        {
+          "id": 9543,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 9544,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2385,
+      "text": "你是否擅长从事这项活动：能找到三个星座",
+      "type": "radio",
+      "orderNum": 86,
+      "options": [
+        {
+          "id": 9545,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 9546,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2386,
+      "text": "你是否擅长从事这项活动：能独立进行调查研究",
+      "type": "radio",
+      "orderNum": 87,
+      "options": [
+        {
+          "id": 9547,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 9548,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2387,
+      "text": "你是否擅长从事这项活动：能解释简单的化学",
+      "type": "radio",
+      "orderNum": 88,
+      "options": [
+        {
+          "id": 9549,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 9550,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2388,
+      "text": "你是否擅长从事这项活动：理解人造卫星为什么不落地",
+      "type": "radio",
+      "orderNum": 89,
+      "options": [
+        {
+          "id": 9551,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 9552,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2389,
+      "text": "你是否擅长从事这项活动：经常参加学术的会议",
+      "type": "radio",
+      "orderNum": 90,
+      "options": [
+        {
+          "id": 9553,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 9554,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2390,
+      "text": "你是否擅长从事这项活动：有向各种人说明解释的能力",
+      "type": "radio",
+      "orderNum": 91,
+      "options": [
+        {
+          "id": 9555,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 9556,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2391,
+      "text": "你是否擅长从事这项活动：常参加社会福利活动",
+      "type": "radio",
+      "orderNum": 92,
+      "options": [
+        {
+          "id": 9557,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 9558,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2392,
+      "text": "你是否擅长从事这项活动：能和大家一起友好相处地工作",
+      "type": "radio",
+      "orderNum": 93,
+      "options": [
+        {
+          "id": 9559,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 9560,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2393,
+      "text": "你是否擅长从事这项活动：善于与年长者相处",
+      "type": "radio",
+      "orderNum": 94,
+      "options": [
+        {
+          "id": 9561,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 9562,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2394,
+      "text": "你是否擅长从事这项活动：会邀请人、招待人",
+      "type": "radio",
+      "orderNum": 95,
+      "options": [
+        {
+          "id": 9563,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 9564,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2395,
+      "text": "你是否擅长从事这项活动：能简单易懂地教育儿童",
+      "type": "radio",
+      "orderNum": 96,
+      "options": [
+        {
+          "id": 9565,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 9566,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2396,
+      "text": "你是否擅长从事这项活动：能安排会议等活动顺序",
+      "type": "radio",
+      "orderNum": 97,
+      "options": [
+        {
+          "id": 9567,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 9568,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2397,
+      "text": "你是否擅长从事这项活动：善于体察人心和帮助他人",
+      "type": "radio",
+      "orderNum": 98,
+      "options": [
+        {
+          "id": 9569,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 9570,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2398,
+      "text": "你是否擅长从事这项活动：帮助护理病人和伤员",
+      "type": "radio",
+      "orderNum": 99,
+      "options": [
+        {
+          "id": 9571,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 9572,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2399,
+      "text": "你是否擅长从事这项活动：安排社团组织的各种事务",
+      "type": "radio",
+      "orderNum": 100,
+      "options": [
+        {
+          "id": 9573,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 9574,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2400,
+      "text": "你是否擅长从事这项活动：担任过学生干部并且干得不错",
+      "type": "radio",
+      "orderNum": 101,
+      "options": [
+        {
+          "id": 9575,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 9576,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2401,
+      "text": "你是否擅长从事这项活动：工作上能指导和监督他人",
+      "type": "radio",
+      "orderNum": 102,
+      "options": [
+        {
+          "id": 9577,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 9578,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2402,
+      "text": "你是否擅长从事这项活动：做事充满活力和热情",
+      "type": "radio",
+      "orderNum": 103,
+      "options": [
+        {
+          "id": 9579,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 9580,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2403,
+      "text": "你是否擅长从事这项活动：有效利用自身的做法调动他人",
+      "type": "radio",
+      "orderNum": 104,
+      "options": [
+        {
+          "id": 9581,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 9582,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2404,
+      "text": "你是否擅长从事这项活动：销售能力强",
+      "type": "radio",
+      "orderNum": 105,
+      "options": [
+        {
+          "id": 9583,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 9584,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2405,
+      "text": "你是否擅长从事这项活动：曾作为俱乐部或社团的负责人",
+      "type": "radio",
+      "orderNum": 106,
+      "options": [
+        {
+          "id": 9585,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 9586,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2406,
+      "text": "你是否擅长从事这项活动：向领导提出建议或反映意见",
+      "type": "radio",
+      "orderNum": 107,
+      "options": [
+        {
+          "id": 9587,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 9588,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2407,
+      "text": "你是否擅长从事这项活动：有开创事业的能力",
+      "type": "radio",
+      "orderNum": 108,
+      "options": [
+        {
+          "id": 9589,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 9590,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2408,
+      "text": "你是否擅长从事这项活动：知道怎样做能成为一个优秀的领导者",
+      "type": "radio",
+      "orderNum": 109,
+      "options": [
+        {
+          "id": 9591,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 9592,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2409,
+      "text": "你是否擅长从事这项活动：健谈善辩",
+      "type": "radio",
+      "orderNum": 110,
+      "options": [
+        {
+          "id": 9593,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 9594,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2410,
+      "text": "你是否擅长从事这项活动：会熟练的打印中文",
+      "type": "radio",
+      "orderNum": 111,
+      "options": [
+        {
+          "id": 9595,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 9596,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2411,
+      "text": "你是否擅长从事这项活动：会用外文打字机或复印机",
+      "type": "radio",
+      "orderNum": 112,
+      "options": [
+        {
+          "id": 9597,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 9598,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2412,
+      "text": "你是否擅长从事这项活动：能快速记笔记和抄写文章",
+      "type": "radio",
+      "orderNum": 113,
+      "options": [
+        {
+          "id": 9599,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 9600,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2413,
+      "text": "你是否擅长从事这项活动：善于整理保管文件和资料",
+      "type": "radio",
+      "orderNum": 114,
+      "options": [
+        {
+          "id": 9601,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 9602,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2414,
+      "text": "你是否擅长从事这项活动：善于从事事务性的工作",
+      "type": "radio",
+      "orderNum": 115,
+      "options": [
+        {
+          "id": 9603,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 9604,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2415,
+      "text": "你是否擅长从事这项活动：会用算盘",
+      "type": "radio",
+      "orderNum": 116,
+      "options": [
+        {
+          "id": 9605,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 9606,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2416,
+      "text": "你是否擅长从事这项活动：能在短时间内分类和处理大量文件",
+      "type": "radio",
+      "orderNum": 117,
+      "options": [
+        {
+          "id": 9607,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 9608,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2417,
+      "text": "你是否擅长从事这项活动：能使用计算机",
+      "type": "radio",
+      "orderNum": 118,
+      "options": [
+        {
+          "id": 9609,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 9610,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2418,
+      "text": "你是否擅长从事这项活动：能搜集数据",
+      "type": "radio",
+      "orderNum": 119,
+      "options": [
+        {
+          "id": 9611,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 9612,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2419,
+      "text": "你是否擅长从事这项活动：善于为自己或集体做财务预算表",
+      "type": "radio",
+      "orderNum": 120,
+      "options": [
+        {
+          "id": 9613,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 9614,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2420,
+      "text": "你是否喜欢从事这个职业：飞机机械师",
+      "type": "radio",
+      "orderNum": 121,
+      "options": [
+        {
+          "id": 9615,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 9616,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2421,
+      "text": "你是否喜欢从事这个职业：野生动物专家",
+      "type": "radio",
+      "orderNum": 122,
+      "options": [
+        {
+          "id": 9617,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 9618,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2422,
+      "text": "你是否喜欢从事这个职业：汽车维修工",
+      "type": "radio",
+      "orderNum": 123,
+      "options": [
+        {
+          "id": 9619,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 9620,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2423,
+      "text": "你是否喜欢从事这个职业：木匠",
+      "type": "radio",
+      "orderNum": 124,
+      "options": [
+        {
+          "id": 9621,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 9622,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2424,
+      "text": "你是否喜欢从事这个职业：测量工程师",
+      "type": "radio",
+      "orderNum": 125,
+      "options": [
+        {
+          "id": 9623,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 9624,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2425,
+      "text": "你是否喜欢从事这个职业：无线电报务员",
+      "type": "radio",
+      "orderNum": 126,
+      "options": [
+        {
+          "id": 9625,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 9626,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2426,
+      "text": "你是否喜欢从事这个职业：园艺师",
+      "type": "radio",
+      "orderNum": 127,
+      "options": [
+        {
+          "id": 9627,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 9628,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2427,
+      "text": "你是否喜欢从事这个职业：长途公共汽车司机",
+      "type": "radio",
+      "orderNum": 128,
+      "options": [
+        {
+          "id": 9629,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 9630,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2428,
+      "text": "你是否喜欢从事这个职业：火车司机",
+      "type": "radio",
+      "orderNum": 129,
+      "options": [
+        {
+          "id": 9631,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 9632,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2429,
+      "text": "你是否喜欢从事这个职业：电工",
+      "type": "radio",
+      "orderNum": 130,
+      "options": [
+        {
+          "id": 9633,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 9634,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2430,
+      "text": "你是否喜欢从事这个职业：街道、工会或妇联干部",
+      "type": "radio",
+      "orderNum": 131,
+      "options": [
+        {
+          "id": 9635,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 9636,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2431,
+      "text": "你是否喜欢从事这个职业：小学、中学教师",
+      "type": "radio",
+      "orderNum": 132,
+      "options": [
+        {
+          "id": 9637,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 9638,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2432,
+      "text": "你是否喜欢从事这个职业：精神病医生",
+      "type": "radio",
+      "orderNum": 133,
+      "options": [
+        {
+          "id": 9639,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 9640,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2433,
+      "text": "你是否喜欢从事这个职业：婚姻介绍所工作人员",
+      "type": "radio",
+      "orderNum": 134,
+      "options": [
+        {
+          "id": 9641,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 9642,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2434,
+      "text": "你是否喜欢从事这个职业：体育教练",
+      "type": "radio",
+      "orderNum": 135,
+      "options": [
+        {
+          "id": 9643,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 9644,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2435,
+      "text": "你是否喜欢从事这个职业：福利机构负责人",
+      "type": "radio",
+      "orderNum": 136,
+      "options": [
+        {
+          "id": 9645,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 9646,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2436,
+      "text": "你是否喜欢从事这个职业：心理咨询员",
+      "type": "radio",
+      "orderNum": 137,
+      "options": [
+        {
+          "id": 9647,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 9648,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2437,
+      "text": "你是否喜欢从事这个职业：共青团干部",
+      "type": "radio",
+      "orderNum": 138,
+      "options": [
+        {
+          "id": 9649,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 9650,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2438,
+      "text": "你是否喜欢从事这个职业：导游",
+      "type": "radio",
+      "orderNum": 139,
+      "options": [
+        {
+          "id": 9651,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 9652,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2439,
+      "text": "你是否喜欢从事这个职业：国家机关工作人员",
+      "type": "radio",
+      "orderNum": 140,
+      "options": [
+        {
+          "id": 9653,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 9654,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2440,
+      "text": "你是否喜欢从事这个职业：气象学或天文学者",
+      "type": "radio",
+      "orderNum": 141,
+      "options": [
+        {
+          "id": 9655,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 9656,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2441,
+      "text": "你是否喜欢从事这个职业：生物学者",
+      "type": "radio",
+      "orderNum": 142,
+      "options": [
+        {
+          "id": 9657,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 9658,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2442,
+      "text": "你是否喜欢从事这个职业：医学实验室的技术人员",
+      "type": "radio",
+      "orderNum": 143,
+      "options": [
+        {
+          "id": 9659,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 9660,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2443,
+      "text": "你是否喜欢从事这个职业：人类学者",
+      "type": "radio",
+      "orderNum": 144,
+      "options": [
+        {
+          "id": 9661,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 9662,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2444,
+      "text": "你是否喜欢从事这个职业：动物学者",
+      "type": "radio",
+      "orderNum": 145,
+      "options": [
+        {
+          "id": 9663,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 9664,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2445,
+      "text": "你是否喜欢从事这个职业：化学者",
+      "type": "radio",
+      "orderNum": 146,
+      "options": [
+        {
+          "id": 9665,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 9666,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2446,
+      "text": ".你是否喜欢从事这个职业：数学学者",
+      "type": "radio",
+      "orderNum": 147,
+      "options": [
+        {
+          "id": 9667,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 9668,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2447,
+      "text": "你是否喜欢从事这个职业：科学杂志的编辑或作家",
+      "type": "radio",
+      "orderNum": 148,
+      "options": [
+        {
+          "id": 9669,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 9670,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2448,
+      "text": "你是否喜欢从事这个职业：地质学者",
+      "type": "radio",
+      "orderNum": 149,
+      "options": [
+        {
+          "id": 9671,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 9672,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2449,
+      "text": "你是否喜欢从事这个职业：物理学者",
+      "type": "radio",
+      "orderNum": 150,
+      "options": [
+        {
+          "id": 9673,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 9674,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2450,
+      "text": "你是否喜欢从事这个职业：厂长",
+      "type": "radio",
+      "orderNum": 151,
+      "options": [
+        {
+          "id": 9675,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 9676,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2451,
+      "text": "你是否喜欢从事这个职业：电视片编制人",
+      "type": "radio",
+      "orderNum": 152,
+      "options": [
+        {
+          "id": 9677,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 9678,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2452,
+      "text": "你是否喜欢从事这个职业：公司经理",
+      "type": "radio",
+      "orderNum": 153,
+      "options": [
+        {
+          "id": 9679,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 9680,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2453,
+      "text": "你是否喜欢从事这个职业：销售员",
+      "type": "radio",
+      "orderNum": 154,
+      "options": [
+        {
+          "id": 9681,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 9682,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2454,
+      "text": "你是否喜欢从事这个职业：不动产推销员",
+      "type": "radio",
+      "orderNum": 155,
+      "options": [
+        {
+          "id": 9683,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 9684,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2455,
+      "text": "你是否喜欢从事这个职业：广告部长",
+      "type": "radio",
+      "orderNum": 156,
+      "options": [
+        {
+          "id": 9685,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 9686,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2456,
+      "text": "你是否喜欢从事这个职业：体育活动主办者",
+      "type": "radio",
+      "orderNum": 157,
+      "options": [
+        {
+          "id": 9687,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 9688,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2457,
+      "text": "你是否喜欢从事这个职业：销售部长",
+      "type": "radio",
+      "orderNum": 158,
+      "options": [
+        {
+          "id": 9689,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 9690,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2458,
+      "text": "你是否喜欢从事这个职业：个体工商业者",
+      "type": "radio",
+      "orderNum": 159,
+      "options": [
+        {
+          "id": 9691,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 9692,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2459,
+      "text": "你是否喜欢从事这个职业：企业管理咨询人员",
+      "type": "radio",
+      "orderNum": 160,
+      "options": [
+        {
+          "id": 9693,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 9694,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2460,
+      "text": "你是否喜欢从事这个职业：乐队指挥",
+      "type": "radio",
+      "orderNum": 161,
+      "options": [
+        {
+          "id": 9695,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 9696,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2461,
+      "text": "你是否喜欢从事这个职业：演奏家",
+      "type": "radio",
+      "orderNum": 162,
+      "options": [
+        {
+          "id": 9697,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 9698,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2462,
+      "text": "你是否喜欢从事这个职业：作家",
+      "type": "radio",
+      "orderNum": 163,
+      "options": [
+        {
+          "id": 9699,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 9700,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2463,
+      "text": "你是否喜欢从事这个职业：摄影家",
+      "type": "radio",
+      "orderNum": 164,
+      "options": [
+        {
+          "id": 9701,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 9702,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2464,
+      "text": "你是否喜欢从事这个职业：记者",
+      "type": "radio",
+      "orderNum": 165,
+      "options": [
+        {
+          "id": 9703,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 9704,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2465,
+      "text": "你是否喜欢从事这个职业：画家、书法家",
+      "type": "radio",
+      "orderNum": 166,
+      "options": [
+        {
+          "id": 9705,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 9706,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2466,
+      "text": "你是否喜欢从事这个职业：歌唱家",
+      "type": "radio",
+      "orderNum": 167,
+      "options": [
+        {
+          "id": 9707,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 9708,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2467,
+      "text": "你是否喜欢从事这个职业：作曲家",
+      "type": "radio",
+      "orderNum": 168,
+      "options": [
+        {
+          "id": 9709,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 9710,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2468,
+      "text": "你是否喜欢从事这个职业：电影电视演员",
+      "type": "radio",
+      "orderNum": 169,
+      "options": [
+        {
+          "id": 9711,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 9712,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2469,
+      "text": "你是否喜欢从事这个职业：电视节目主持人",
+      "type": "radio",
+      "orderNum": 170,
+      "options": [
+        {
+          "id": 9713,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 9714,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2470,
+      "text": "你是否喜欢从事这个职业：会计师",
+      "type": "radio",
+      "orderNum": 171,
+      "options": [
+        {
+          "id": 9715,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 9716,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2471,
+      "text": "你是否喜欢从事这个职业：银行出纳员",
+      "type": "radio",
+      "orderNum": 172,
+      "options": [
+        {
+          "id": 9717,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 9718,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2472,
+      "text": "你是否喜欢从事这个职业：税收管理员",
+      "type": "radio",
+      "orderNum": 173,
+      "options": [
+        {
+          "id": 9719,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 9720,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2473,
+      "text": "你是否喜欢从事这个职业：计算机操作员",
+      "type": "radio",
+      "orderNum": 174,
+      "options": [
+        {
+          "id": 9721,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 9722,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2474,
+      "text": "你是否喜欢从事这个职业：簿记人员",
+      "type": "radio",
+      "orderNum": 175,
+      "options": [
+        {
+          "id": 9723,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 9724,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2475,
+      "text": "你是否喜欢从事这个职业：成本核算员",
+      "type": "radio",
+      "orderNum": 176,
+      "options": [
+        {
+          "id": 9725,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 9726,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2476,
+      "text": "你是否喜欢从事这个职业：文书档案管理员",
+      "type": "radio",
+      "orderNum": 177,
+      "options": [
+        {
+          "id": 9727,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 9728,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2477,
+      "text": "你是否喜欢从事这个职业：打字员",
+      "type": "radio",
+      "orderNum": 178,
+      "options": [
+        {
+          "id": 9729,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 9730,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2478,
+      "text": "你是否喜欢从事这个职业：法庭书记员",
+      "type": "radio",
+      "orderNum": 179,
+      "options": [
+        {
+          "id": 9731,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 9732,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2479,
+      "text": "你是否喜欢从事这个职业：人口普查登记员",
+      "type": "radio",
+      "orderNum": 180,
+      "options": [
+        {
+          "id": 9733,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 9734,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2480,
+      "text": "与同龄者比较，在“机械操作能力”方面你处于什么水平？（选项的数字越大，表示你的能力越强）",
+      "type": "radio",
+      "orderNum": 181,
+      "options": [
+        {
+          "id": 9735,
+          "optionNo": "A",
+          "text": "7",
+          "value": "7"
+        },
+        {
+          "id": 9736,
+          "optionNo": "B",
+          "text": "6",
+          "value": "6"
+        },
+        {
+          "id": 9737,
+          "optionNo": "C",
+          "text": "5",
+          "value": "5"
+        },
+        {
+          "id": 9738,
+          "optionNo": "D",
+          "text": "4",
+          "value": "4"
+        },
+        {
+          "id": 9739,
+          "optionNo": "E",
+          "text": "3",
+          "value": "3"
+        },
+        {
+          "id": 9740,
+          "optionNo": "F",
+          "text": "2",
+          "value": "2"
+        },
+        {
+          "id": 9741,
+          "optionNo": "G",
+          "text": "1",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 2481,
+      "text": "与同龄者比较，在“科学研究能力”方面你处于什么水平？（选项的数字越大，表示你的能力越强）",
+      "type": "radio",
+      "orderNum": 182,
+      "options": [
+        {
+          "id": 9742,
+          "optionNo": "A",
+          "text": "7",
+          "value": "7"
+        },
+        {
+          "id": 9743,
+          "optionNo": "B",
+          "text": "6",
+          "value": "6"
+        },
+        {
+          "id": 9744,
+          "optionNo": "C",
+          "text": "5",
+          "value": "5"
+        },
+        {
+          "id": 9745,
+          "optionNo": "D",
+          "text": "4",
+          "value": "4"
+        },
+        {
+          "id": 9746,
+          "optionNo": "E",
+          "text": "3",
+          "value": "3"
+        },
+        {
+          "id": 9747,
+          "optionNo": "F",
+          "text": "2",
+          "value": "2"
+        },
+        {
+          "id": 9748,
+          "optionNo": "G",
+          "text": "1",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 2482,
+      "text": "与同龄者比较，在“艺术创作能力”方面你处于什么水平？（选项的数字越大，表示你的能力越强）",
+      "type": "radio",
+      "orderNum": 183,
+      "options": [
+        {
+          "id": 9749,
+          "optionNo": "A",
+          "text": "7",
+          "value": "7"
+        },
+        {
+          "id": 9750,
+          "optionNo": "B",
+          "text": "6",
+          "value": "6"
+        },
+        {
+          "id": 9751,
+          "optionNo": "C",
+          "text": "5",
+          "value": "5"
+        },
+        {
+          "id": 9752,
+          "optionNo": "D",
+          "text": "4",
+          "value": "4"
+        },
+        {
+          "id": 9753,
+          "optionNo": "E",
+          "text": "3",
+          "value": "3"
+        },
+        {
+          "id": 9754,
+          "optionNo": "F",
+          "text": "2",
+          "value": "2"
+        },
+        {
+          "id": 9755,
+          "optionNo": "G",
+          "text": "1",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 2483,
+      "text": "与同龄者比较，在“解释表达能力”方面你处于什么水平？（选项的数字越大，表示你的能力越强）",
+      "type": "radio",
+      "orderNum": 184,
+      "options": [
+        {
+          "id": 9756,
+          "optionNo": "A",
+          "text": "7",
+          "value": "7"
+        },
+        {
+          "id": 9757,
+          "optionNo": "B",
+          "text": "6",
+          "value": "6"
+        },
+        {
+          "id": 9758,
+          "optionNo": "C",
+          "text": "5",
+          "value": "5"
+        },
+        {
+          "id": 9759,
+          "optionNo": "D",
+          "text": "4",
+          "value": "4"
+        },
+        {
+          "id": 9760,
+          "optionNo": "E",
+          "text": "3",
+          "value": "3"
+        },
+        {
+          "id": 9761,
+          "optionNo": "F",
+          "text": "2",
+          "value": "2"
+        },
+        {
+          "id": 9762,
+          "optionNo": "G",
+          "text": "1",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 2484,
+      "text": "与同龄者比较，在“商业洽谈能力”方面你处于什么水平？（选项的数字越大，表示你的能力越强）",
+      "type": "radio",
+      "orderNum": 185,
+      "options": [
+        {
+          "id": 9763,
+          "optionNo": "A",
+          "text": "7",
+          "value": "7"
+        },
+        {
+          "id": 9764,
+          "optionNo": "B",
+          "text": "6",
+          "value": "6"
+        },
+        {
+          "id": 9765,
+          "optionNo": "C",
+          "text": "5",
+          "value": "5"
+        },
+        {
+          "id": 9766,
+          "optionNo": "D",
+          "text": "4",
+          "value": "4"
+        },
+        {
+          "id": 9767,
+          "optionNo": "E",
+          "text": "3",
+          "value": "3"
+        },
+        {
+          "id": 9768,
+          "optionNo": "F",
+          "text": "2",
+          "value": "2"
+        },
+        {
+          "id": 9769,
+          "optionNo": "G",
+          "text": "1",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2485,
+      "text": "与同龄者比较，在“事务执行能力”方面你处于什么水平？（选项的数字越大，表示你的能力越强）",
+      "type": "radio",
+      "orderNum": 186,
+      "options": [
+        {
+          "id": 9770,
+          "optionNo": "A",
+          "text": "7",
+          "value": "7"
+        },
+        {
+          "id": 9771,
+          "optionNo": "B",
+          "text": "6",
+          "value": "6"
+        },
+        {
+          "id": 9772,
+          "optionNo": "C",
+          "text": "5",
+          "value": "5"
+        },
+        {
+          "id": 9773,
+          "optionNo": "D",
+          "text": "4",
+          "value": "4"
+        },
+        {
+          "id": 9774,
+          "optionNo": "E",
+          "text": "3",
+          "value": "3"
+        },
+        {
+          "id": 9775,
+          "optionNo": "F",
+          "text": "2",
+          "value": "2"
+        },
+        {
+          "id": 9776,
+          "optionNo": "G",
+          "text": "1",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 2486,
+      "text": "与同龄者比较，在“体育技能”方面你处于什么水平？（选项的数字越大，表示你的技能越强）",
+      "type": "radio",
+      "orderNum": 187,
+      "options": [
+        {
+          "id": 9777,
+          "optionNo": "A",
+          "text": "7",
+          "value": "7"
+        },
+        {
+          "id": 9778,
+          "optionNo": "B",
+          "text": "6",
+          "value": "6"
+        },
+        {
+          "id": 9779,
+          "optionNo": "C",
+          "text": "5",
+          "value": "5"
+        },
+        {
+          "id": 9780,
+          "optionNo": "D",
+          "text": "4",
+          "value": "4"
+        },
+        {
+          "id": 9781,
+          "optionNo": "E",
+          "text": "3",
+          "value": "3"
+        },
+        {
+          "id": 9782,
+          "optionNo": "F",
+          "text": "2",
+          "value": "2"
+        },
+        {
+          "id": 9783,
+          "optionNo": "G",
+          "text": "1",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 2487,
+      "text": "与同龄者比较，在“数学技能”方面你处于什么水平？（选项的数字越大，表示你的技能越强）",
+      "type": "radio",
+      "orderNum": 188,
+      "options": [
+        {
+          "id": 9784,
+          "optionNo": "A",
+          "text": "7",
+          "value": "7"
+        },
+        {
+          "id": 9785,
+          "optionNo": "B",
+          "text": "6",
+          "value": "6"
+        },
+        {
+          "id": 9786,
+          "optionNo": "C",
+          "text": "5",
+          "value": "5"
+        },
+        {
+          "id": 9787,
+          "optionNo": "D",
+          "text": "4",
+          "value": "4"
+        },
+        {
+          "id": 9788,
+          "optionNo": "E",
+          "text": "3",
+          "value": "3"
+        },
+        {
+          "id": 9789,
+          "optionNo": "F",
+          "text": "2",
+          "value": "2"
+        },
+        {
+          "id": 9790,
+          "optionNo": "G",
+          "text": "1",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 2488,
+      "text": "与同龄者比较，在“音乐技能”方面你处于什么水平？（选项的数字越大，表示你的技能越强）",
+      "type": "radio",
+      "orderNum": 189,
+      "options": [
+        {
+          "id": 9791,
+          "optionNo": "A",
+          "text": "7",
+          "value": "7"
+        },
+        {
+          "id": 9792,
+          "optionNo": "B",
+          "text": "6",
+          "value": "6"
+        },
+        {
+          "id": 9793,
+          "optionNo": "C",
+          "text": "5",
+          "value": "5"
+        },
+        {
+          "id": 9794,
+          "optionNo": "D",
+          "text": "4",
+          "value": "4"
+        },
+        {
+          "id": 9795,
+          "optionNo": "E",
+          "text": "3",
+          "value": "3"
+        },
+        {
+          "id": 9796,
+          "optionNo": "F",
+          "text": "2",
+          "value": "2"
+        },
+        {
+          "id": 9797,
+          "optionNo": "G",
+          "text": "1",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 2489,
+      "text": "与同龄者比较，在“交际技能”方面你处于什么水平？（选项的数字越大，表示你的技能越强）",
+      "type": "radio",
+      "orderNum": 190,
+      "options": [
+        {
+          "id": 9798,
+          "optionNo": "A",
+          "text": "7",
+          "value": "7"
+        },
+        {
+          "id": 9799,
+          "optionNo": "B",
+          "text": "6",
+          "value": "6"
+        },
+        {
+          "id": 9800,
+          "optionNo": "C",
+          "text": "5",
+          "value": "5"
+        },
+        {
+          "id": 9801,
+          "optionNo": "D",
+          "text": "4",
+          "value": "4"
+        },
+        {
+          "id": 9802,
+          "optionNo": "E",
+          "text": "3",
+          "value": "3"
+        },
+        {
+          "id": 9803,
+          "optionNo": "F",
+          "text": "2",
+          "value": "2"
+        },
+        {
+          "id": 9804,
+          "optionNo": "G",
+          "text": "1",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 2490,
+      "text": "与同龄者比较，在“领导技能”方面你处于什么水平？（选项的数字越大，表示你的技能越强）",
+      "type": "radio",
+      "orderNum": 191,
+      "options": [
+        {
+          "id": 9805,
+          "optionNo": "A",
+          "text": "7",
+          "value": "7"
+        },
+        {
+          "id": 9806,
+          "optionNo": "B",
+          "text": "6",
+          "value": "6"
+        },
+        {
+          "id": 9807,
+          "optionNo": "C",
+          "text": "5",
+          "value": "5"
+        },
+        {
+          "id": 9808,
+          "optionNo": "D",
+          "text": "4",
+          "value": "4"
+        },
+        {
+          "id": 9809,
+          "optionNo": "E",
+          "text": "3",
+          "value": "3"
+        },
+        {
+          "id": 9810,
+          "optionNo": "F",
+          "text": "2",
+          "value": "2"
+        },
+        {
+          "id": 9811,
+          "optionNo": "G",
+          "text": "1",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 2491,
+      "text": "与同龄者比较，在“办公技能”方面你处于什么水平？（选项的数字越大，表示你的技能越强）",
+      "type": "radio",
+      "orderNum": 192,
+      "options": [
+        {
+          "id": 9812,
+          "optionNo": "A",
+          "text": "7",
+          "value": "7"
+        },
+        {
+          "id": 9813,
+          "optionNo": "B",
+          "text": "6",
+          "value": "6"
+        },
+        {
+          "id": 9814,
+          "optionNo": "C",
+          "text": "5",
+          "value": "5"
+        },
+        {
+          "id": 9815,
+          "optionNo": "D",
+          "text": "4",
+          "value": "4"
+        },
+        {
+          "id": 9816,
+          "optionNo": "E",
+          "text": "3",
+          "value": "3"
+        },
+        {
+          "id": 9817,
+          "optionNo": "F",
+          "text": "2",
+          "value": "2"
+        },
+        {
+          "id": 9818,
+          "optionNo": "G",
+          "text": "1",
+          "value": "1"
+        }
+      ]
+    }
+  ],
+  "dimensions": [
+    {
+      "id": 296,
+      "num": 1,
+      "dimensionName": "R型",
+      "dimensionCode": "R",
+      "evaluateExpression": "hx_t_1 + hx_t_2 + hx_t_3 + hx_t_4 + hx_t_5 + hx_t_6 + hx_t_7 + hx_t_8 + hx_t_9 + hx_t_10 + hx_t_61 + hx_t_62 + hx_t_63 + hx_t_64 + hx_t_65 + hx_t_66 + hx_t_67 + hx_t_68 + hx_t_69 + hx_t_70 + hx_t_121 + hx_t_122 + hx_t_123 + hx_t_124 + hx_t_125 + hx_t_126 + hx_t_127 + hx_t_128 + hx_t_129 + hx_t_130 + hx_t_181 + hx_t_187",
+      "standardScoreFormula": "0",
+      "results": [
+        {
+          "id": 589,
+          "evaluateExpression": "hx_wd_y_1 >= 2&& hx_wd_y_1 <= 44",
+          "conclusionAnalysis": "现实型（R）：被测试者喜欢具体的任务，依照既定规则做事，机械及动手能力强，情绪稳定、有耐性、坦诚直率，喜欢做体力工作。职业领域如木匠、农民、操作X光的技师、工程师、飞机机械师、鱼类和野生动物专家、自动化技师、机械工(车工、钳工等)、电工、无线电报务员、火车司机、长途公共汽车司机、机械制图员、修理机器、电器师等。若当前类型得分最高，则这个类型就是你的优势类型。",
+          "suggestion": "被测试者喜欢使用工具、机器和需要基本操作能力的工作，建议被测试者在日常生活中多进行这方面技能的练习和尝试，寻找自己感兴趣的职业。另一方面，应注意培养自己的社会交往能力，和语言表达能力。未来选择职业时，除了本类型推荐的领域外，还应结合自身在其他类型的得分综合考虑。",
+          "assessmentWarning": "none"
+        }
+      ]
+    },
+    {
+      "id": 297,
+      "num": 2,
+      "dimensionName": "A型",
+      "dimensionCode": "A",
+      "evaluateExpression": "hx_t_11 + hx_t_12 + hx_t_13 + hx_t_14 + hx_t_15 + hx_t_16 + hx_t_17 + hx_t_18 + hx_t_19 + hx_t_20 + hx_t_71 + hx_t_72 + hx_t_73 + hx_t_74 + hx_t_75 + hx_t_76 + hx_t_77 + hx_t_78 + hx_t_79 + hx_t_80 + hx_t_161 + hx_t_162 + hx_t_163 + hx_t_164 + hx_t_165 + hx_t_166 + hx_t_167 + hx_t_168 + hx_t_169 + hx_t_170 + hx_t_183 + hx_t_189",
+      "standardScoreFormula": "0",
+      "results": [
+        {
+          "id": 590,
+          "evaluateExpression": "hx_wd_y_2 >= 2&& hx_wd_y_2 <= 44",
+          "conclusionAnalysis": "艺术型（A）：被测试者直觉敏锐、善于表达和创新。有想象力和创造性内省，喜欢独立作业，但不能被忽视。追求美感价值，喜欢无拘无束，不喜欢管人和被管。职业领域如室内装饰专家、图书管理专家、摄影师、音乐教师、作家、演员、记者、诗人、作曲家、编剧、雕刻家、漫画家等。若当前类型得分最高，则这个类型就是你的优势类型。",
+          "suggestion": "被测试者有创造力，善于表达，可以有意识地培养自己在艺术、文学或音乐方面的能力，可以作为未来的职业方向也可以作为个人兴趣爱好。由于这种类型的人容易情绪化，不服从指挥，所以在日常生活中应注意自己情绪的表达，从而维持一个良好的社会关系。未来选择职业时，除了本类型推荐的领域外，还应结合自身在其他类型的得分综合考虑。",
+          "assessmentWarning": "none"
+        }
+      ]
+    },
+    {
+      "id": 298,
+      "num": 3,
+      "dimensionName": "I型",
+      "dimensionCode": "I",
+      "evaluateExpression": "hx_t_21 + hx_t_22 + hx_t_23 + hx_t_24 + hx_t_25 + hx_t_26 + hx_t_27 + hx_t_28 + hx_t_29 + hx_t_30 + hx_t_81 + hx_t_82 + hx_t_83 + hx_t_84 + hx_t_85 + hx_t_86 + hx_t_87 + hx_t_88 + hx_t_89 + hx_t_90 + hx_t_141 + hx_t_142 + hx_t_143 + hx_t_144 + hx_t_145 + hx_t_146 + hx_t_147 + hx_t_148 + hx_t_149 + hx_t_150 + hx_t_182 + hx_t_188",
+      "standardScoreFormula": "0",
+      "results": [
+        {
+          "id": 591,
+          "evaluateExpression": "hx_wd_y_3 >= 2&& hx_wd_y_3 <= 44",
+          "conclusionAnalysis": "研究型（I）：被测试者善于观察、思考、分析与推理。喜欢抽象思维并追根究底。喜欢与有相同兴趣的人讨论问题。独立思考，不在乎他人看法，有智慧。职业领域如气象学者、生物学者、天文学家、药剂师、动物学者、化学家、科学报刊编辑、地质学者、植物学者、物理学者、数学家、实验员、科研人员、科技工作者等。若当前类型得分最高，则这个类型就是你的优势类型。",
+          "suggestion": "被测试者求知欲强，善于独立思考，喜欢钻研，有韧性。可有意识地培养自己在科研方面的能力。但这种类型的人在领导力及人际交往能力方面有所欠缺。选择职业时，除了本类型推荐的领域外，还应结合自身在其他类型的得分综合考虑。",
+          "assessmentWarning": "none"
+        }
+      ]
+    },
+    {
+      "id": 299,
+      "num": 4,
+      "dimensionName": "S型",
+      "dimensionCode": "S",
+      "evaluateExpression": "hx_t_31 + hx_t_32 + hx_t_33 + hx_t_34 + hx_t_35 + hx_t_36 + hx_t_37 + hx_t_38 + hx_t_39 + hx_t_40 + hx_t_91 + hx_t_92 + hx_t_93 + hx_t_94 + hx_t_95 + hx_t_96 + hx_t_97 + hx_t_98 + hx_t_99 + hx_t_100 + hx_t_131 + hx_t_132 + hx_t_133 + hx_t_134 + hx_t_135 + hx_t_136 + hx_t_137 + hx_t_138 + hx_t_139 + hx_t_140 + hx_t_184 + hx_t_190",
+      "standardScoreFormula": "0",
+      "results": [
+        {
+          "id": 592,
+          "evaluateExpression": "hx_wd_y_4 >= 2&& hx_wd_y_4 <= 44",
+          "conclusionAnalysis": "社会型（S）：被测试者喜欢与人交往、有良好的人际沟通技能，不断结交新的朋友、善言谈、愿意教导别人。关心社会问题、渴望发挥自己的社会作用。寻求广泛的人际关系，比较看重社会义务和社会道德。职业领域如社会学者、导游、福利机构工作者、咨询人员、社会工作者、社会科学教师、学校领导、精神病工作者、公共保健护士等。若当前类型得分最高，则这个类型就是你的优势类型。",
+          "suggestion": "被测试者愿意与人交往，关注社会问题，乐于助人。建议此类型的人从事提供信息、启迪、帮助、培训、开发或治疗等事务，可有意识地培养这些方面的能力。除了本类型推荐的领域外，还应结合自身在其他类型的得分综合考虑。",
+          "assessmentWarning": "none"
+        }
+      ]
+    },
+    {
+      "id": 300,
+      "num": 5,
+      "dimensionName": "E型",
+      "dimensionCode": "E",
+      "evaluateExpression": "hx_t_41 + hx_t_42 + hx_t_43 + hx_t_44 + hx_t_45 + hx_t_46 + hx_t_47 + hx_t_48 + hx_t_49 + hx_t_50 + hx_t_101 + hx_t_102 + hx_t_103 + hx_t_104 + hx_t_105 + hx_t_106 + hx_t_107 + hx_t_108 + hx_t_109 + hx_t_110 + hx_t_151 + hx_t_152 + hx_t_153 + hx_t_154 + hx_t_155 + hx_t_156 + hx_t_157 + hx_t_158 + hx_t_159 + hx_t_160 + hx_t_185 + hx_t_191",
+      "standardScoreFormula": "0",
+      "results": [
+        {
+          "id": 593,
+          "evaluateExpression": "hx_wd_y_5 >= 2&& hx_wd_y_5 <= 44",
+          "conclusionAnalysis": "事业型（E）：被测试者追寻领导与社会影响，精力旺盛，好冒险竞争，有抱负，希望拥有权力改善不合理之事，善用说服力和组织能力，希望自己的表现被他人肯定，并成为团体的焦点，不以现阶段的成就而满足。职业领域如推销员、进货员、商品批发员、旅馆经理、饭店经理、广告宣传员、调度员、律师、政治家、零售商等。若当前类型得分最高，则这个类型就是你的优势类型。",
+          "suggestion": "被测试者追求权力，具有竞争意识和领导才能。建议此类型的人从事经营、管理、劝服、监督方面的工作，可有意识地培养这些方面的能力。除了本类型推荐的领域外，还应结合自身在其他类型的得分综合考虑。",
+          "assessmentWarning": "none"
+        }
+      ]
+    },
+    {
+      "id": 301,
+      "num": 6,
+      "dimensionName": "C型",
+      "dimensionCode": "C",
+      "evaluateExpression": "hx_t_51 + hx_t_52 + hx_t_53 + hx_t_54 + hx_t_55 + hx_t_56 + hx_t_57 + hx_t_58 + hx_t_59 + hx_t_60 + hx_t_111 + hx_t_112 + hx_t_113 + hx_t_114 + hx_t_115 + hx_t_116 + hx_t_117 + hx_t_118 + hx_t_119 + hx_t_120 + hx_t_171 + hx_t_172 + hx_t_173 + hx_t_174 + hx_t_175 + hx_t_176 + hx_t_177 + hx_t_178 + hx_t_179 + hx_t_180 + hx_t_186 + hx_t_192",
+      "standardScoreFormula": "0",
+      "results": [
+        {
+          "id": 594,
+          "evaluateExpression": "hx_wd_y_6 >= 2&& hx_wd_y_6 <= 44",
+          "conclusionAnalysis": "常规型（C）：被测试者谨慎，做事力求规矩和精确。不喜欢改变和创新，也不喜欢冒险或领导。保守，喜欢结构性、程序化的工作。职业领域如记账员、会计、银行出纳、法庭速记员、成本估算员、税务员、核算员、打字员、办公室职员、统计员、计算机操作员、秘书等。若当前类型得分最高，则这个类型就是你的优势类型。",
+          "suggestion": "被测试者尊重权威和规章制度，做事细心，但较为保守。建议此类型的人从事注意细节有条理的工作，如归档、记录、处理数据或文案等工作。除了本类型推荐的领域外，还应结合自身在其他类型的得分综合考虑。",
+          "assessmentWarning": "none"
+        }
+      ]
+    },
+    {
+      "id": 302,
+      "num": 7,
+      "dimensionName": "职业倾向",
+      "dimensionCode": "A1",
+      "evaluateExpression": "max((hx_t_1 + hx_t_2 + hx_t_3 + hx_t_4 + hx_t_5 + hx_t_6 + hx_t_7 + hx_t_8 + hx_t_9 + hx_t_10 + hx_t_61 + hx_t_62 + hx_t_63 + hx_t_64 + hx_t_65 + hx_t_66 + hx_t_67 + hx_t_68 + hx_t_69 + hx_t_70 + hx_t_121 + hx_t_122 + hx_t_123 + hx_t_124 + hx_t_125 + hx_t_126 + hx_t_127 + hx_t_128 + hx_t_129 + hx_t_130 + hx_t_181 + hx_t_187), (hx_t_11 + hx_t_12 + hx_t_13 + hx_t_14 + hx_t_15 + hx_t_16 + hx_t_17 + hx_t_18 + hx_t_19 + hx_t_20 + hx_t_71 + hx_t_72 + hx_t_73 + hx_t_74 + hx_t_75 + hx_t_76 + hx_t_77 + hx_t_78 + hx_t_79 + hx_t_80 + hx_t_161 + hx_t_162 + hx_t_163 + hx_t_164 + hx_t_165 + hx_t_166 + hx_t_167 + hx_t_168 + hx_t_169 + hx_t_170 + hx_t_183 + hx_t_189), (hx_t_21 + hx_t_22 + hx_t_23 + hx_t_24 + hx_t_25 + hx_t_26 + hx_t_27 + hx_t_28 + hx_t_29 + hx_t_30 + hx_t_81 + hx_t_82 + hx_t_83 + hx_t_84 + hx_t_85 + hx_t_86 + hx_t_87 + hx_t_88 + hx_t_89 + hx_t_90 + hx_t_141 + hx_t_142 + hx_t_143 + hx_t_144 + hx_t_145 + hx_t_146 + hx_t_147 + hx_t_148 + hx_t_149 + hx_t_150 + hx_t_182 + hx_t_188), (hx_t_31 + hx_t_32 + hx_t_33 + hx_t_34 + hx_t_35 + hx_t_36 + hx_t_37 + hx_t_38 + hx_t_39 + hx_t_40 + hx_t_91 + hx_t_92 + hx_t_93 + hx_t_94 + hx_t_95 + hx_t_96 + hx_t_97 + hx_t_98 + hx_t_99 + hx_t_100 + hx_t_131 + hx_t_132 + hx_t_133 + hx_t_134 + hx_t_135 + hx_t_136 + hx_t_137 + hx_t_138 + hx_t_139 + hx_t_140 + hx_t_184 + hx_t_190), (hx_t_41 + hx_t_42 + hx_t_43 + hx_t_44 + hx_t_45 + hx_t_46 + hx_t_47 + hx_t_48 + hx_t_49 + hx_t_50 + hx_t_101 + hx_t_102 + hx_t_103 + hx_t_104 + hx_t_105 + hx_t_106 + hx_t_107 + hx_t_108 + hx_t_109 + hx_t_110 + hx_t_151 + hx_t_152 + hx_t_153 + hx_t_154 + hx_t_155 + hx_t_156 + hx_t_157 + hx_t_158 + hx_t_159 + hx_t_160 + hx_t_185 + hx_t_191), (hx_t_51 + hx_t_52 + hx_t_53 + hx_t_54 + hx_t_55 + hx_t_56 + hx_t_57 + hx_t_58 + hx_t_59 + hx_t_60 + hx_t_111 + hx_t_112 + hx_t_113 + hx_t_114 + hx_t_115 + hx_t_116 + hx_t_117 + hx_t_118 + hx_t_119 + hx_t_120 + hx_t_171 + hx_t_172 + hx_t_173 + hx_t_174 + hx_t_175 + hx_t_176 + hx_t_177 + hx_t_178 + hx_t_179 + hx_t_180 + hx_t_186 + hx_t_192))",
+      "standardScoreFormula": "0",
+      "results": [
+        {
+          "id": 595,
+          "evaluateExpression": "hx_wd_y_7 >= 1&& hx_wd_y_7 <= 1",
+          "conclusionAnalysis": "实际型（R）：被测试者喜欢具体的任务，依照既定规则做事，机械及动手能力强，情绪稳定、有耐性、坦诚直率，喜欢做体力工作。职业领域如木匠、农民、操作X光的技师、工程师、飞机机械师、鱼类和野生动物专家、自动化技师、机械工(车工、钳工等)、电工、无线电报务员、火车司机、长途公共汽车司机、机械制图员、修理机器、电器师等。若当前类型得分最高，则这个类型就是你的优势类型。",
+          "suggestion": "被测试者喜欢使用工具、机器和需要基本操作能力的工作，建议被测试者在日常生活中多进行这方面技能的练习和尝试，寻找自己感兴趣的职业。另一方面，应注意培养自己的社会交往能力，和语言表达能力。未来选择职业时，除了本类型推荐的领域外，还应结合自身在其他类型的得分综合考虑。",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 596,
+          "evaluateExpression": "hx_wd_y_7 >= 2&& hx_wd_y_7 <= 2",
+          "conclusionAnalysis": "艺术型（A）：直觉敏锐、善于表达和创新。有想象力和创造性内省，喜欢独立作业，但不能被忽视。追求美感价值，喜欢无拘无束，不喜欢管人和被管。 职业领域如室内装饰专家、图书管理专家、摄影师、音乐教师、作家、演员、记者、诗人、作曲家、编剧、雕刻家、漫画家等。 若当前类型得分最高，则这个类型就是你的优势类型。",
+          "suggestion": "有创造力，善于表达，可以有意识地培养自己在艺术、文学或音乐方面的能力，可以作为未来的职业方向也可以作为个人兴趣爱好。\n       由于这种类型的人容易情绪化，不服从指挥，所以在日常生活中应注意自己情绪的表达，从而维持一个良好的社会关系。\n      未来选择职业时，除了本类型推荐的领域外，还应结合自身在其他类型的得分综合考虑。",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 597,
+          "evaluateExpression": "hx_wd_y_7 >= 3&& hx_wd_y_7 <= 3",
+          "conclusionAnalysis": "研究型（I）：善于观察、思考、分析与推理。喜欢抽象思维并追根究底。喜欢与有相同兴趣的人讨论问题。独立思考，不在乎他人看法，有智慧。\n      职业领域如气象学者、生物学者、天文学家、药剂师、动物学者、化学家、科学报刊编辑、地质学者、植物学者、物理学者、数学家、实验员、科研人员、科技工作者等。\n     若当前类型得分最高，则这个类型就是你的优势类型。",
+          "suggestion": "求知欲强，善于独立思考，喜欢钻研，有韧性。可有意识地培养自己在科研方面的能力。但这种类型的人在领导力及人际交往能力方面有所欠缺。\n       选择职业时，除了本类型推荐的领域外，还应结合自身在其他类型的得分综合考虑。",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 598,
+          "evaluateExpression": "hx_wd_y_7 >= 4&& hx_wd_y_7 <= 4",
+          "conclusionAnalysis": "社会型（S）：喜欢与人交往、有良好的人际沟通技能，不断结交新的朋友、善言谈、愿意教导别人。关心社会问题、渴望发挥自己的社会作用。寻求广泛的人际关系，比较看重社会义务和社会道德。\n      职业领域如社会学者、导游、福利机构工作者、咨询人员、社会工作者、社会科学教师、学校领导、精神病工作者、公共保健护士等。\n      若当前类型得分最高，则这个类型就是你的优势类型。",
+          "suggestion": "愿意与人交往，关注社会问题，乐于助人。建议此类型的人从事提供信息、启迪、帮助、培训、开发或治疗等事务，可有意识地培养这些方面的能力。\n      除了本类型推荐的领域外，还应结合自身在其他类型的得分综合考虑。",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 599,
+          "evaluateExpression": "hx_wd_y_7 >= 5&& hx_wd_y_7 <= 5",
+          "conclusionAnalysis": "事业型（E）：追寻领导与社会影响，精力旺盛，好冒险竞争，有抱负，希望拥有权力改善不合理之事，善用说服力和组织能力，希望自己的表现被他人肯定，并成为团体的焦点，不以现阶段的成就而满足。\n       职业领域如推销员、进货员、商品批发员、旅馆经理、饭店经理、广告宣传员、调度员、律师、政治家、零售商等。\n      若当前类型得分最高，则这个类型就是你的优势类型。",
+          "suggestion": "追求权力，具有竞争意识和领导才能。建议此类型的人从事经营、管理、劝服、监督方面的工作，可有意识地培养这些方面的能力。\n      除了本类型推荐的领域外，还应结合自身在其他类型的得分综合考虑。",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 600,
+          "evaluateExpression": "hx_wd_y_7 >= 6&& hx_wd_y_7 <= 6",
+          "conclusionAnalysis": "常规型（C）：谨慎，做事力求规矩和精确。不喜欢改变和创新，也不喜欢冒险或领导。保守，喜欢结构性、程序化的工作。 职业领域如记账员、会计、银行出纳、法庭速记员、成本估算员、税务员、核算员、打字员、办公室职员、统计员、计算机操作员、秘书等。 若当前类型得分最高，则这个类型就是你的优势类型。",
+          "suggestion": "尊重权威和规章制度，做事细心，但较为保守。建议此类型的人从事注意细节有条理的工作，如归档、记录、处理数据或文案等工作。 除了本类型推荐的领域外，还应结合自身在其他类型的得分综合考虑。",
+          "assessmentWarning": "none"
+        }
+      ]
+    }
+  ]
+}

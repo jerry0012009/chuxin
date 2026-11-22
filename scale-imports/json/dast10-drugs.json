@@ -1,0 +1,219 @@
+{
+  "id": "dast10-drugs",
+  "title": "药物滥用筛查量表(DAST-10)",
+  "description": "本问卷帮助了解您是否存在药物（毒品）使用方面的问题，是药物滥用的快速筛查工具。共10题，大约需要2分钟完成。",
+  "type": "basic",
+  "questions": [
+    {
+      "text": "在过去12个月中，您是否使用过除医生处方之外的药物（毒品）？",
+      "type": "radio",
+      "orderNum": 1,
+      "options": [
+        {
+          "text": "是",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "否",
+          "value": "0",
+          "optionNo": "B"
+        }
+      ]
+    },
+    {
+      "text": "您是否滥用过一种以上的药物（毒品）？",
+      "type": "radio",
+      "orderNum": 2,
+      "options": [
+        {
+          "text": "是",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "否",
+          "value": "0",
+          "optionNo": "B"
+        }
+      ]
+    },
+    {
+      "text": "您是否能够只使用医生处方给您的药物？",
+      "type": "radio",
+      "orderNum": 3,
+      "options": [
+        {
+          "text": "是",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "否",
+          "value": "1",
+          "optionNo": "B"
+        }
+      ]
+    },
+    {
+      "text": "您是否曾因为使用药物（毒品）而感到过\"兴奋\"或\"快感\"？",
+      "type": "radio",
+      "orderNum": 4,
+      "options": [
+        {
+          "text": "是",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "否",
+          "value": "0",
+          "optionNo": "B"
+        }
+      ]
+    },
+    {
+      "text": "您是否曾因戒断药物（毒品）而出现身体不适（如出汗、颤抖、恶心等）？",
+      "type": "radio",
+      "orderNum": 5,
+      "options": [
+        {
+          "text": "是",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "否",
+          "value": "0",
+          "optionNo": "B"
+        }
+      ]
+    },
+    {
+      "text": "您是否曾因使用药物（毒品）而对自己的行为感到过内疚？",
+      "type": "radio",
+      "orderNum": 6,
+      "options": [
+        {
+          "text": "是",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "否",
+          "value": "0",
+          "optionNo": "B"
+        }
+      ]
+    },
+    {
+      "text": "您的亲友是否曾对您使用药物（毒品）表示过担忧？",
+      "type": "radio",
+      "orderNum": 7,
+      "options": [
+        {
+          "text": "是",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "否",
+          "value": "0",
+          "optionNo": "B"
+        }
+      ]
+    },
+    {
+      "text": "您是否曾因使用药物（毒品）而忽略了家庭或工作责任？",
+      "type": "radio",
+      "orderNum": 8,
+      "options": [
+        {
+          "text": "是",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "否",
+          "value": "0",
+          "optionNo": "B"
+        }
+      ]
+    },
+    {
+      "text": "您是否曾因使用药物（毒品）而与家人发生冲突？",
+      "type": "radio",
+      "orderNum": 9,
+      "options": [
+        {
+          "text": "是",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "否",
+          "value": "0",
+          "optionNo": "B"
+        }
+      ]
+    },
+    {
+      "text": "您是否曾因使用药物（毒品）而卷入非法活动（如持有、贩卖毒品等）？",
+      "type": "radio",
+      "orderNum": 10,
+      "options": [
+        {
+          "text": "是",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "否",
+          "value": "0",
+          "optionNo": "B"
+        }
+      ]
+    }
+  ],
+  "dimensions": [
+    {
+      "dimensionName": "药物使用风险",
+      "dimensionCode": "drug_risk",
+      "num": 1,
+      "evaluateExpression": "hx_t_1 + hx_t_2 + hx_t_3 + hx_t_4 + hx_t_5 + hx_t_6 + hx_t_7 + hx_t_8 + hx_t_9 + hx_t_10",
+      "standardScoreFormula": "",
+      "results": [
+        {
+          "evaluateExpression": "hx_wd_y_1 == 0",
+          "conclusionAnalysis": "无药物使用问题",
+          "suggestion": "您目前没有药物（毒品）使用方面的问题。请继续保持远离药物的健康生活方式。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_1 > 0 && hx_wd_y_1 <= 2",
+          "conclusionAnalysis": "低风险",
+          "suggestion": "您存在轻微的药物使用风险。建议审视自己的用药习惯，避免使用非处方药物，保持健康的生活方式。",
+          "assessmentWarning": "low"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_1 > 2 && hx_wd_y_1 <= 5",
+          "conclusionAnalysis": "中度风险",
+          "suggestion": "您的药物使用存在中度风险，可能已经影响到您的生活。建议认真考虑减少或停止药物使用，并寻求专业医疗人员的帮助。",
+          "assessmentWarning": "middle"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_1 > 5 && hx_wd_y_1 <= 8",
+          "conclusionAnalysis": "重度风险",
+          "suggestion": "您的药物使用问题已经比较严重，强烈建议尽快寻求专业的戒毒治疗和支持服务。药物依赖是可以治疗的，及时的专业帮助对您的康复非常重要。",
+          "assessmentWarning": "high"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_1 > 8",
+          "conclusionAnalysis": "极严重风险",
+          "suggestion": "您的药物使用问题非常严重，需要紧急的专业干预。请立即寻求戒毒治疗机构或医疗机构的帮助。您的健康和安全是最重要的，请不要犹豫寻求帮助。",
+          "assessmentWarning": "high"
+        }
+      ]
+    }
+  ]
+}

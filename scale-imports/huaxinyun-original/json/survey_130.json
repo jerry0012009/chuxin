@@ -1,0 +1,2001 @@
+{
+  "id": 130,
+  "title": "艾森克人格问卷(成人EPQ)",
+  "type": "basic",
+  "questions": [
+    {
+      "id": 3411,
+      "text": "你是否有许多不同的业余爱好？",
+      "type": "radio",
+      "orderNum": 1,
+      "options": [
+        {
+          "id": 13352,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 13353,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3412,
+      "text": "你是否在做任何事情以前都要停下来仔细思考？",
+      "type": "radio",
+      "orderNum": 2,
+      "options": [
+        {
+          "id": 13354,
+          "optionNo": "A",
+          "text": "是",
+          "value": "0"
+        },
+        {
+          "id": 13355,
+          "optionNo": "B",
+          "text": "否",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 3413,
+      "text": "你的心境是否常有起伏？",
+      "type": "radio",
+      "orderNum": 3,
+      "options": [
+        {
+          "id": 13356,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 13357,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3414,
+      "text": "你曾有过明知是别人的功劳而你去接受奖励的事吗？",
+      "type": "radio",
+      "orderNum": 4,
+      "options": [
+        {
+          "id": 13358,
+          "optionNo": "A",
+          "text": "是",
+          "value": "0"
+        },
+        {
+          "id": 13359,
+          "optionNo": "B",
+          "text": "否",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 3415,
+      "text": "你是否健谈？",
+      "type": "radio",
+      "orderNum": 5,
+      "options": [
+        {
+          "id": 13360,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 13361,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3416,
+      "text": "欠债会使你不安吗？",
+      "type": "radio",
+      "orderNum": 6,
+      "options": [
+        {
+          "id": 13362,
+          "optionNo": "A",
+          "text": "是",
+          "value": "0"
+        },
+        {
+          "id": 13363,
+          "optionNo": "B",
+          "text": "否",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 3417,
+      "text": "你曾无缘无故觉得“真是难受”吗？",
+      "type": "radio",
+      "orderNum": 7,
+      "options": [
+        {
+          "id": 13364,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 13365,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3418,
+      "text": "你曾贪图过份外之物吗？",
+      "type": "radio",
+      "orderNum": 8,
+      "options": [
+        {
+          "id": 13366,
+          "optionNo": "A",
+          "text": "是",
+          "value": "0"
+        },
+        {
+          "id": 13367,
+          "optionNo": "B",
+          "text": "否",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 3419,
+      "text": "你是否在晚上小心翼翼地关好门窗？",
+      "type": "radio",
+      "orderNum": 9,
+      "options": [
+        {
+          "id": 13368,
+          "optionNo": "A",
+          "text": "是",
+          "value": "0"
+        },
+        {
+          "id": 13369,
+          "optionNo": "B",
+          "text": "否",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 3420,
+      "text": "你是否比较活跃？",
+      "type": "radio",
+      "orderNum": 10,
+      "options": [
+        {
+          "id": 13370,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 13371,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3421,
+      "text": "你在见到一小孩或一动物受折磨时是否会感到非常难过？",
+      "type": "radio",
+      "orderNum": 11,
+      "options": [
+        {
+          "id": 13372,
+          "optionNo": "A",
+          "text": "是",
+          "value": "0"
+        },
+        {
+          "id": 13373,
+          "optionNo": "B",
+          "text": "否",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 3422,
+      "text": "你是否常常为自己不该做而做了的事，不该说而说了的话而紧张吗？",
+      "type": "radio",
+      "orderNum": 12,
+      "options": [
+        {
+          "id": 13374,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 13375,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3423,
+      "text": "你喜欢跳降落伞吗？",
+      "type": "radio",
+      "orderNum": 13,
+      "options": [
+        {
+          "id": 13376,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 13377,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3424,
+      "text": "通常你能在热闹联欢会中尽情地玩吗？",
+      "type": "radio",
+      "orderNum": 14,
+      "options": [
+        {
+          "id": 13378,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 13379,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3425,
+      "text": "你容易激动吗？",
+      "type": "radio",
+      "orderNum": 15,
+      "options": [
+        {
+          "id": 13380,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 13381,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3426,
+      "text": "你曾经将自己的过错推给别人吗？",
+      "type": "radio",
+      "orderNum": 16,
+      "options": [
+        {
+          "id": 13382,
+          "optionNo": "A",
+          "text": "是",
+          "value": "0"
+        },
+        {
+          "id": 13383,
+          "optionNo": "B",
+          "text": "否",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 3427,
+      "text": "你喜欢会见陌生人吗？",
+      "type": "radio",
+      "orderNum": 17,
+      "options": [
+        {
+          "id": 13384,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 13385,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3428,
+      "text": "你是否相信保险制度是一种好办法？",
+      "type": "radio",
+      "orderNum": 18,
+      "options": [
+        {
+          "id": 13386,
+          "optionNo": "A",
+          "text": "是",
+          "value": "0"
+        },
+        {
+          "id": 13387,
+          "optionNo": "B",
+          "text": "否",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 3429,
+      "text": "你是一个容易伤感情的人吗？",
+      "type": "radio",
+      "orderNum": 19,
+      "options": [
+        {
+          "id": 13388,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 13389,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3430,
+      "text": "你所有的习惯都是好的吗？",
+      "type": "radio",
+      "orderNum": 20,
+      "options": [
+        {
+          "id": 13390,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 13391,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3431,
+      "text": "在社交场合你是否总不愿露头角？",
+      "type": "radio",
+      "orderNum": 21,
+      "options": [
+        {
+          "id": 13392,
+          "optionNo": "A",
+          "text": "是",
+          "value": "0"
+        },
+        {
+          "id": 13393,
+          "optionNo": "B",
+          "text": "否",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 3432,
+      "text": "你会服用奇异或危险作用的药物吗？",
+      "type": "radio",
+      "orderNum": 22,
+      "options": [
+        {
+          "id": 13394,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 13395,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3433,
+      "text": "你常有“厌倦”之感吗？",
+      "type": "radio",
+      "orderNum": 23,
+      "options": [
+        {
+          "id": 13396,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 13397,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3434,
+      "text": "你曾拿过别人的东西，哪怕一针一线吗？",
+      "type": "radio",
+      "orderNum": 24,
+      "options": [
+        {
+          "id": 13398,
+          "optionNo": "A",
+          "text": "是",
+          "value": "0"
+        },
+        {
+          "id": 13399,
+          "optionNo": "B",
+          "text": "否",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 3435,
+      "text": "你是否常爱外出？",
+      "type": "radio",
+      "orderNum": 25,
+      "options": [
+        {
+          "id": 13400,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 13401,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3436,
+      "text": "你是否从伤害你所宠爱的人而感到乐趣？",
+      "type": "radio",
+      "orderNum": 26,
+      "options": [
+        {
+          "id": 13402,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 13403,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3437,
+      "text": "你常为有罪恶之感所苦恼吗？",
+      "type": "radio",
+      "orderNum": 27,
+      "options": [
+        {
+          "id": 13404,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 13405,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3438,
+      "text": "你在谈论中是否有时不懂装懂？",
+      "type": "radio",
+      "orderNum": 28,
+      "options": [
+        {
+          "id": 13406,
+          "optionNo": "A",
+          "text": "是",
+          "value": "0"
+        },
+        {
+          "id": 13407,
+          "optionNo": "B",
+          "text": "否",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 3439,
+      "text": "你是否宁愿去看书而不愿去多见人？",
+      "type": "radio",
+      "orderNum": 29,
+      "options": [
+        {
+          "id": 13408,
+          "optionNo": "A",
+          "text": "是",
+          "value": "0"
+        },
+        {
+          "id": 13409,
+          "optionNo": "B",
+          "text": "否",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 3440,
+      "text": "你有要伤害你的仇人吗？",
+      "type": "radio",
+      "orderNum": 30,
+      "options": [
+        {
+          "id": 13410,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 13411,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3441,
+      "text": "你觉得自己是一个神经过敏的人吗？",
+      "type": "radio",
+      "orderNum": 31,
+      "options": [
+        {
+          "id": 13412,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 13413,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3442,
+      "text": "对人有所失礼时你是否经常要表示歉意？",
+      "type": "radio",
+      "orderNum": 32,
+      "options": [
+        {
+          "id": 13414,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 13415,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3443,
+      "text": "你有许多朋友吗？",
+      "type": "radio",
+      "orderNum": 33,
+      "options": [
+        {
+          "id": 13416,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 13417,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3444,
+      "text": "你是否喜爱讲些有时确能伤害人的笑话？",
+      "type": "radio",
+      "orderNum": 34,
+      "options": [
+        {
+          "id": 13418,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 13419,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3445,
+      "text": "你是一个多忧多虑的人吗？",
+      "type": "radio",
+      "orderNum": 35,
+      "options": [
+        {
+          "id": 13420,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 13421,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3446,
+      "text": "你在童年是否按照吩咐要做什么便做什么，毫无怨言？",
+      "type": "radio",
+      "orderNum": 36,
+      "options": [
+        {
+          "id": 13422,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 13423,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3447,
+      "text": "你认为你是一个乐天派吗？",
+      "type": "radio",
+      "orderNum": 37,
+      "options": [
+        {
+          "id": 13424,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 13425,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3448,
+      "text": "你很讲究礼貌和整洁吗？",
+      "type": "radio",
+      "orderNum": 38,
+      "options": [
+        {
+          "id": 13426,
+          "optionNo": "A",
+          "text": "是",
+          "value": "0"
+        },
+        {
+          "id": 13427,
+          "optionNo": "B",
+          "text": "否",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 3449,
+      "text": "你是否总在担心会发生可怕的事情？",
+      "type": "radio",
+      "orderNum": 39,
+      "options": [
+        {
+          "id": 13428,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 13429,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3450,
+      "text": "你曾损坏或遗失过别人的东西吗？",
+      "type": "radio",
+      "orderNum": 40,
+      "options": [
+        {
+          "id": 13430,
+          "optionNo": "A",
+          "text": "是",
+          "value": "0"
+        },
+        {
+          "id": 13431,
+          "optionNo": "B",
+          "text": "否",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 3451,
+      "text": "交新朋友时一般是你采取主动吗？",
+      "type": "radio",
+      "orderNum": 41,
+      "options": [
+        {
+          "id": 13432,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 13433,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3452,
+      "text": "当别人向你诉苦时，你是否容易理解他们的苦哀？",
+      "type": "radio",
+      "orderNum": 42,
+      "options": [
+        {
+          "id": 13434,
+          "optionNo": "A",
+          "text": "是",
+          "value": "0"
+        },
+        {
+          "id": 13435,
+          "optionNo": "B",
+          "text": "否",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 3453,
+      "text": "你认为自己很紧张，如同“拉紧的弦”一样吗？",
+      "type": "radio",
+      "orderNum": 43,
+      "options": [
+        {
+          "id": 13436,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 13437,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3454,
+      "text": "在没有废纸篓时，你是否将废纸扔在地板上？",
+      "type": "radio",
+      "orderNum": 44,
+      "options": [
+        {
+          "id": 13438,
+          "optionNo": "A",
+          "text": "是",
+          "value": "0"
+        },
+        {
+          "id": 13439,
+          "optionNo": "B",
+          "text": "否",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 3455,
+      "text": "当你与别人在一起时，你是否言语很少？",
+      "type": "radio",
+      "orderNum": 45,
+      "options": [
+        {
+          "id": 13440,
+          "optionNo": "A",
+          "text": "是",
+          "value": "0"
+        },
+        {
+          "id": 13441,
+          "optionNo": "B",
+          "text": "否",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 3456,
+      "text": "你是否认为结婚制度是过时了，应该废止？",
+      "type": "radio",
+      "orderNum": 46,
+      "options": [
+        {
+          "id": 13442,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 13443,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3457,
+      "text": "你是否有时感到自己可怜？",
+      "type": "radio",
+      "orderNum": 47,
+      "options": [
+        {
+          "id": 13444,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 13445,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3458,
+      "text": "你是否有时有点自夸？",
+      "type": "radio",
+      "orderNum": 48,
+      "options": [
+        {
+          "id": 13446,
+          "optionNo": "A",
+          "text": "是",
+          "value": "0"
+        },
+        {
+          "id": 13447,
+          "optionNo": "B",
+          "text": "否",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 3459,
+      "text": "你是否很容易将一个沉寂的集会搞得活跃起来？",
+      "type": "radio",
+      "orderNum": 49,
+      "options": [
+        {
+          "id": 13448,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 13449,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3460,
+      "text": "你是否讨厌那种小心翼翼地开车的人？",
+      "type": "radio",
+      "orderNum": 50,
+      "options": [
+        {
+          "id": 13450,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 13451,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3461,
+      "text": "你为你的健康担忧吗？",
+      "type": "radio",
+      "orderNum": 51,
+      "options": [
+        {
+          "id": 13452,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 13453,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3462,
+      "text": "你曾讲过什么人的坏话吗？",
+      "type": "radio",
+      "orderNum": 52,
+      "options": [
+        {
+          "id": 13454,
+          "optionNo": "A",
+          "text": "是",
+          "value": "0"
+        },
+        {
+          "id": 13455,
+          "optionNo": "B",
+          "text": "否",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 3463,
+      "text": "你是否喜欢对朋友讲笑话和有趣的故事？",
+      "type": "radio",
+      "orderNum": 53,
+      "options": [
+        {
+          "id": 13456,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 13457,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3464,
+      "text": "你小时候曾对父母粗暴无礼吗？",
+      "type": "radio",
+      "orderNum": 54,
+      "options": [
+        {
+          "id": 13458,
+          "optionNo": "A",
+          "text": "是",
+          "value": "0"
+        },
+        {
+          "id": 13459,
+          "optionNo": "B",
+          "text": "否",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 3465,
+      "text": "你是否喜欢与人混在一起？",
+      "type": "radio",
+      "orderNum": 55,
+      "options": [
+        {
+          "id": 13460,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 13461,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3466,
+      "text": "你如知道自己工作有错误，这会使你感到难过吗？",
+      "type": "radio",
+      "orderNum": 56,
+      "options": [
+        {
+          "id": 13462,
+          "optionNo": "A",
+          "text": "是",
+          "value": "0"
+        },
+        {
+          "id": 13463,
+          "optionNo": "B",
+          "text": "否",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 3467,
+      "text": "你患失眠吗？",
+      "type": "radio",
+      "orderNum": 57,
+      "options": [
+        {
+          "id": 13464,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 13465,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3468,
+      "text": "你吃饭前必定洗手吗？",
+      "type": "radio",
+      "orderNum": 58,
+      "options": [
+        {
+          "id": 13466,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 13467,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3469,
+      "text": "你常无缘无故感到无精打采和倦怠吗？",
+      "type": "radio",
+      "orderNum": 59,
+      "options": [
+        {
+          "id": 13468,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 13469,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3470,
+      "text": "和别人玩游戏时，你有过欺骗行为吗？",
+      "type": "radio",
+      "orderNum": 60,
+      "options": [
+        {
+          "id": 13470,
+          "optionNo": "A",
+          "text": "是",
+          "value": "0"
+        },
+        {
+          "id": 13471,
+          "optionNo": "B",
+          "text": "否",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 3471,
+      "text": "你是否喜欢从事一些动作迅速的工作？",
+      "type": "radio",
+      "orderNum": 61,
+      "options": [
+        {
+          "id": 13472,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 13473,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3472,
+      "text": "你的母亲是一位善良的妇人吗？",
+      "type": "radio",
+      "orderNum": 62,
+      "options": [
+        {
+          "id": 13474,
+          "optionNo": "A",
+          "text": "是",
+          "value": "0"
+        },
+        {
+          "id": 13475,
+          "optionNo": "B",
+          "text": "否",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 3473,
+      "text": "你是否常常觉得人生非常无味？",
+      "type": "radio",
+      "orderNum": 63,
+      "options": [
+        {
+          "id": 13476,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 13477,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3474,
+      "text": "你曾利用过某人为自己取得好处吗？",
+      "type": "radio",
+      "orderNum": 64,
+      "options": [
+        {
+          "id": 13478,
+          "optionNo": "A",
+          "text": "是",
+          "value": "0"
+        },
+        {
+          "id": 13479,
+          "optionNo": "B",
+          "text": "否",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 3475,
+      "text": "你是否常常参加许多活动，超过你的时间所允许？",
+      "type": "radio",
+      "orderNum": 65,
+      "options": [
+        {
+          "id": 13480,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 13481,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3476,
+      "text": "是否有几个人总在躲避你？",
+      "type": "radio",
+      "orderNum": 66,
+      "options": [
+        {
+          "id": 13482,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 13483,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3477,
+      "text": "你是否为你的容貌而非常烦恼？",
+      "type": "radio",
+      "orderNum": 67,
+      "options": [
+        {
+          "id": 13484,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 13485,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3478,
+      "text": "你是否觉得人们为了未来有保障而办理储蓄和保险所花的时间太多？",
+      "type": "radio",
+      "orderNum": 68,
+      "options": [
+        {
+          "id": 13486,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 13487,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3479,
+      "text": "你曾有过不如死了为好的愿望吗？",
+      "type": "radio",
+      "orderNum": 69,
+      "options": [
+        {
+          "id": 13488,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 13489,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3480,
+      "text": "如果有把握永远不会被别人发现，你会逃税吗？",
+      "type": "radio",
+      "orderNum": 70,
+      "options": [
+        {
+          "id": 13490,
+          "optionNo": "A",
+          "text": "是",
+          "value": "0"
+        },
+        {
+          "id": 13491,
+          "optionNo": "B",
+          "text": "否",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 3481,
+      "text": "你能使一个集会顺利进行吗？",
+      "type": "radio",
+      "orderNum": 71,
+      "options": [
+        {
+          "id": 13492,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 13493,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3482,
+      "text": "你能克制自己不对人无礼吗？",
+      "type": "radio",
+      "orderNum": 72,
+      "options": [
+        {
+          "id": 13494,
+          "optionNo": "A",
+          "text": "是",
+          "value": "0"
+        },
+        {
+          "id": 13495,
+          "optionNo": "B",
+          "text": "否",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 3483,
+      "text": "遇到一次难堪的经历后，你是否在一段很长的时间内还感到难受？",
+      "type": "radio",
+      "orderNum": 73,
+      "options": [
+        {
+          "id": 13496,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 13497,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3484,
+      "text": "你患有“神经过敏”吗？",
+      "type": "radio",
+      "orderNum": 74,
+      "options": [
+        {
+          "id": 13498,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 13499,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3485,
+      "text": "你曾经故意说些什么来伤害别人的感情吗？",
+      "type": "radio",
+      "orderNum": 75,
+      "options": [
+        {
+          "id": 13500,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 13501,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3486,
+      "text": "你与别人的友谊是否容易破裂，虽然不是你的过错？",
+      "type": "radio",
+      "orderNum": 76,
+      "options": [
+        {
+          "id": 13502,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 13503,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3487,
+      "text": "你常感到孤单吗？",
+      "type": "radio",
+      "orderNum": 77,
+      "options": [
+        {
+          "id": 13504,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 13505,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3488,
+      "text": "当人家寻你的差错，找你工作中的缺点时，你是否容易在精神上受挫伤？",
+      "type": "radio",
+      "orderNum": 78,
+      "options": [
+        {
+          "id": 13506,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 13507,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3489,
+      "text": "你赴约会或上班曾迟到过吗？",
+      "type": "radio",
+      "orderNum": 79,
+      "options": [
+        {
+          "id": 13508,
+          "optionNo": "A",
+          "text": "是",
+          "value": "0"
+        },
+        {
+          "id": 13509,
+          "optionNo": "B",
+          "text": "否",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 3490,
+      "text": "你喜欢忙忙碌碌和热热闹闹地过日子吗？",
+      "type": "radio",
+      "orderNum": 80,
+      "options": [
+        {
+          "id": 13510,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 13511,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3491,
+      "text": "你愿意别人怕你吗？",
+      "type": "radio",
+      "orderNum": 81,
+      "options": [
+        {
+          "id": 13512,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 13513,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3492,
+      "text": "你是否觉得有时浑身是劲，而有时又是懒洋洋的吗？",
+      "type": "radio",
+      "orderNum": 82,
+      "options": [
+        {
+          "id": 13514,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 13515,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3493,
+      "text": "你有时把今天应做的事拖到明天去做吗？",
+      "type": "radio",
+      "orderNum": 83,
+      "options": [
+        {
+          "id": 13516,
+          "optionNo": "A",
+          "text": "是",
+          "value": "0"
+        },
+        {
+          "id": 13517,
+          "optionNo": "B",
+          "text": "否",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 3494,
+      "text": "别人认为你是生气勃勃的吗？",
+      "type": "radio",
+      "orderNum": 84,
+      "options": [
+        {
+          "id": 13518,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 13519,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3495,
+      "text": "别人是否对你说了许多谎话？",
+      "type": "radio",
+      "orderNum": 85,
+      "options": [
+        {
+          "id": 13520,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 13521,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3496,
+      "text": "你是否对某些事物容易冒火？",
+      "type": "radio",
+      "orderNum": 86,
+      "options": [
+        {
+          "id": 13522,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 13523,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3497,
+      "text": "当你犯了错误时，你是否常常愿意承认它？",
+      "type": "radio",
+      "orderNum": 87,
+      "options": [
+        {
+          "id": 13524,
+          "optionNo": "A",
+          "text": "是",
+          "value": "1"
+        },
+        {
+          "id": 13525,
+          "optionNo": "B",
+          "text": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 3498,
+      "text": "你会为一动物落入圈套被捉拿而感到很难过吗？",
+      "type": "radio",
+      "orderNum": 88,
+      "options": [
+        {
+          "id": 13526,
+          "optionNo": "A",
+          "text": "是",
+          "value": "0"
+        },
+        {
+          "id": 13527,
+          "optionNo": "B",
+          "text": "否",
+          "value": "1"
+        }
+      ]
+    }
+  ],
+  "dimensions": [
+    {
+      "id": 390,
+      "num": 1,
+      "dimensionName": "内外向",
+      "dimensionCode": "E",
+      "evaluateExpression": "hx_t_1 + hx_t_5 + hx_t_10 + hx_t_13 + hx_t_14 + hx_t_17 + hx_t_21 + hx_t_25 + hx_t_29 + hx_t_33 + hx_t_37 + hx_t_41 + hx_t_45 + hx_t_49 + hx_t_53 + hx_t_55 + hx_t_61 + hx_t_65 + hx_t_71 + hx_t_80 + hx_t_84",
+      "standardScoreFormula": "0",
+      "results": [
+        {
+          "id": 829,
+          "evaluateExpression": "hx_wd_y_1 >= 0&& hx_wd_y_1 <= 38.5",
+          "conclusionAnalysis": "典型内向。安静、离群、内省、喜爱读书而不喜欢接触人。保守，与人保持一定距离（除非挚友），倾向于事前有计划，做事瞻前顾后，不凭一时冲动。不喜欢兴奋的事，日常生活有规律、严谨。很少有进攻行为，多少有些悲观。踏实可靠。价值观念是以伦理做标准。",
+          "suggestion": "内向的人性格特点是： 一般缺乏活力，易昏睡，疲乏。活动时从容不忙，喜欢宁静、闲适的假日。宁愿只有几个特殊朋友，喜欢从事如阅读一类的单独活动，难得谈论他人，有从令他烦恼的社交关系中退出的倾向。喜欢选择熟悉、安全和保障的生活。一般作决定前考虑问题很周详，讲究系统性、规则性、审慎小心，总是预先安排好自己的生活，说话先要考虑，总是\"三思而后行\"。表露思想感情一般较克制，含蓄、脾气平和、冷漠，中庸适度。富有良知，可信赖，可靠，思想严肃，甚至会有点强迫性。",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 830,
+          "evaluateExpression": "hx_wd_y_1 >= 38.51&& hx_wd_y_1 <= 43.3",
+          "conclusionAnalysis": "倾向内向。在社交场合中可能表现出较低的社交活跃度，更喜欢与少数亲近的人建立深厚关系。可能更加注重思考和分析，对新事物可能展现出一些谨慎和保留，需要一定时间来适应变化。",
+          "suggestion": "内向的人性格特点是： 一般缺乏活力，易昏睡，疲乏。活动时从容不忙，喜欢宁静、闲适的假日。宁愿只有几个特殊朋友，喜欢从事如阅读一类的单独活动，难得谈论他人，有从令他烦恼的社交关系中退出的倾向。喜欢选择熟悉、安全和保障的生活。一般作决定前考虑问题很周详，讲究系统性、规则性、审慎小心，总是预先安排好自己的生活，说话先要考虑，总是\"三思而后行\"。表露思想感情一般较克制，含蓄、脾气平和、冷漠，中庸适度。富有良知，可信赖，可靠，思想严肃，甚至会有点强迫性。",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 831,
+          "evaluateExpression": "hx_wd_y_1 >= 43.31&& hx_wd_y_1 <= 56.7",
+          "conclusionAnalysis": "中间型。中间型的个体展现出内外向特质的平衡，既在社交场合中表现出一定的活跃度，但不如典型外向者那样过于张扬，也在独处时能够享受一些安静和内省的时光。他们可能对新事物表现出一些好奇心，但在决策时相对谨慎，具有一定的适应能力，同时在行事计划上既灵活又考虑周详。中间型个体的性格特点呈现出一种多面性，因此在不同情境中能够展现出灵活而平衡的特质。",
+          "suggestion": "内向的人性格特点： 内向的人一般缺乏活力，易昏睡，疲乏。活动时从容不忙，喜欢宁静、闲适的假日。宁愿只有几个特殊朋友，喜欢从事如阅读一类的单独活动，难得谈论他人，有从令他烦恼的社交关系中退出的倾向。喜欢选择熟悉、安全和保障的生活。一般作决定前考虑问题很周详，讲究系统性、规则性、审慎小心，总是预先安排好自己的生活，说话先要考虑，总是\"三思而后行\"。表露思想感情一般较克制，含蓄、脾气平和、冷漠，中庸适度。富有良知，可信赖，可靠，思想严肃，甚至会有点强迫性。 外向的人性格特点： 外向的人活跃、精力充沛，喜欢各种身体活动，早上醒得早且快，可迅速从一项活动转向另一项活动，有广泛的各种不同的兴趣；好与人交往，容易与人相处，在社交场合一般觉得快活，惬意；喜欢冒险生活，有时会凭一时高兴行事，匆忙地，时常过早作决定，往往无忧无虑；多情善感，富于同情心，无论悲伤、愤怒、恐惧、爱或恨都直率表露；喜实干，感兴趣的是做事，不喜欢想事，对抽象理论缺乏耐心；随随便便，无视礼仪，有时赴约迟到。从外表看上去似乎是一个不大可靠的人。他们大多爱吃刺激性或口味重的食物，抽烟喝酒多；在压力情境下完成任务，会有较高成绩。",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 832,
+          "evaluateExpression": "hx_wd_y_1 >= 56.71&& hx_wd_y_1 <= 61.5",
+          "conclusionAnalysis": "倾向外向。较为喜欢与人交往，对新事物充满好奇，愿意冒险尝试，并在社交互动中获取能量。具备较为积极乐观的态度，对变化更加适应，善于处理复杂的工作环境。",
+          "suggestion": "外向的人性格特点： 外向的人活跃、精力充沛，喜欢各种身体活动，早上醒得早且快，可迅速从一项活动转向另一项活动，有广泛的各种不同的兴趣；好与人交往，容易与人相处，在社交场合一般觉得快活，惬意；喜欢冒险生活，有时会凭一时高兴行事，匆忙地，时常过早作决定，往往无忧无虑；多情善感，富于同情心，无论悲伤、愤怒、恐惧、爱或恨都直率表露；喜实干，感兴趣的是做事，不喜欢想事，对抽象理论缺乏耐心；随随便便，无视礼仪，有时赴约迟到。从外表看上去似乎是一个不大可靠的人。他们大多爱吃刺激性或口味重的食物，抽烟喝酒多；在压力情境下完成任务，会有较高成绩。",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 833,
+          "evaluateExpression": "hx_wd_y_1 >= 61.51&& hx_wd_y_1 <= 120",
+          "conclusionAnalysis": "典型外向。爱交际，喜欢参加联欢会，朋友多，需要有人同他说话，不爱一个人阅读和作研究，渴望兴奋的事，喜欢冒险，向外发展，行动受一时冲动影响。喜欢实际的工作，回答问题迅速，漫不经心，随和，乐观，喜欢谈笑，宁愿动而不愿静，倾向进攻。",
+          "suggestion": "外向的人性格特点： 外向的人活跃、精力充沛，喜欢各种身体活动，早上醒得早且快，可迅速从一项活动转向另一项活动，有广泛的各种不同的兴趣；好与人交往，容易与人相处，在社交场合一般觉得快活，惬意；喜欢冒险生活，有时会凭一时高兴行事，匆忙地，时常过早作决定，往往无忧无虑；多情善感，富于同情心，无论悲伤、愤怒、恐惧、爱或恨都直率表露；喜实干，感兴趣的是做事，不喜欢想事，对抽象理论缺乏耐心；随随便便，无视礼仪，有时赴约迟到。从外表看上去似乎是一个不大可靠的人。他们大多爱吃刺激性或口味重的食物，抽烟喝酒多；在压力情境下完成任务，会有较高成绩。",
+          "assessmentWarning": "none"
+        }
+      ]
+    },
+    {
+      "id": 391,
+      "num": 2,
+      "dimensionName": "神经质",
+      "dimensionCode": "N",
+      "evaluateExpression": "hx_t_3 + hx_t_7 + hx_t_12 + hx_t_15 + hx_t_19 + hx_t_23 + hx_t_27 + hx_t_31 + hx_t_35 + hx_t_39 + hx_t_43 + hx_t_47 + hx_t_51 + hx_t_57 + hx_t_59 + hx_t_63 + hx_t_67 + hx_t_69 + hx_t_73 + hx_t_74 + hx_t_77 + hx_t_78 + hx_t_82 + hx_t_86",
+      "standardScoreFormula": "0",
+      "results": [
+        {
+          "id": 834,
+          "evaluateExpression": "hx_wd_y_2 >= 0&& hx_wd_y_2 <= 38.5",
+          "conclusionAnalysis": "典型情绪稳定。倾向于情绪反应缓慢，即使激起了情绪也会很快平复下来。通常是平静的，即使生点气也是有节制的，并且不紧张的。",
+          "suggestion": "低分型的个性特点是： 对自己及能力比较有信心，也不排除遇到一些事会落入低谷，甚至有怀疑自己的可能，但一般能较快恢复自信；对生存状况的态度比较客观平和，基本上相信\"一分耕耘一分收获\"；面对复杂的状况虽也会有不同程度的忧虑与不安，但基本能通过自我调节从而比较冷静的处理；比较细心、认真，但不苛求，一般不会被琐碎的事或条条框框的规矩而扰乱心绪；既重视机遇，也看重个人努力，可能比较认可\"谋事在人，成事在天\"的说法；一般不过分为健康担忧，在有某些症状或是真正生病时，则希望得到医生、家人朋友的同情和安慰；虽偶尔也会触景生情，但通常不会无缘无故的陷入自责、自卑的情绪或受到良心谴责。",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 835,
+          "evaluateExpression": "hx_wd_y_2 >= 38.51&& hx_wd_y_2 <= 43.3",
+          "conclusionAnalysis": "倾向情绪稳定。相对不易受小事情影响，能够有节制地表达情感，不容易陷入紧张或过度激动的状态。这种情绪平稳的特质使他们在应对压力和变化时表现出相对沉着和稳健的态度。",
+          "suggestion": "低分型的个性特点是： 对自己及能力比较有信心，也不排除遇到一些事会落入低谷，甚至有怀疑自己的可能，但一般能较快恢复自信；对生存状况的态度比较客观平和，基本上相信\"一分耕耘一分收获\"；面对复杂的状况虽也会有不同程度的忧虑与不安，但基本能通过自我调节从而比较冷静的处理；比较细心、认真，但不苛求，一般不会被琐碎的事或条条框框的规矩而扰乱心绪；既重视机遇，也看重个人努力，可能比较认可\"谋事在人，成事在天\"的说法；一般不过分为健康担忧，在有某些症状或是真正生病时，则希望得到医生、家人朋友的同情和安慰；虽偶尔也会触景生情，但通常不会无缘无故的陷入自责、自卑的情绪或受到良心谴责。",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 836,
+          "evaluateExpression": "hx_wd_y_2 >= 43.31&& hx_wd_y_2 <= 56.7",
+          "conclusionAnalysis": "神经质中间型。表现出在神经质和稳定性之间保持平衡的特点。他们可能在一些情况下显示出一定的紧张和焦虑，但同时也具备一定的应对能力，能够相对有效地处理压力和挑战。这种中间型的神经质可能表现为对某些事物或情境的敏感性，但并不总是表现为持久或过度的焦虑。这些个体可能更倾向于在适当的时候保持冷静，采取理性的态度来面对生活的不确定性，而不是过度担忧或害怕。",
+          "suggestion": "低分型的个性特点是： 对自己及能力比较有信心，也不排除遇到一些事会落入低谷，甚至有怀疑自己的可能，但一般能较快恢复自信；对生存状况的态度比较客观平和，基本上相信\"一分耕耘一分收获\"；面对复杂的状况虽也会有不同程度的忧虑与不安，但基本能通过自我调节从而比较冷静的处理；比较细心、认真，但不苛求，一般不会被琐碎的事或条条框框的规矩而扰乱心绪；既重视机遇，也看重个人努力，可能比较认可\"谋事在人，成事在天\"的说法；一般不过分为健康担忧，在有某些症状或是真正生病时，则希望得到医生、家人朋友的同情和安慰；虽偶尔也会触景生情，但通常不会无缘无故的陷入自责、自卑的情绪或受到良心谴责。 高分型的个性特点是：一般对自己评价不高，认为自己缺乏魅力，可能因事情出错而心烦意乱，并且不必要地为可能或不会发生的事忧心忡忡；细心、认真，严于责己，很稳重，过分讲究，很易因不干净、不整洁、或东西放得不适当而恼怒；对生存状况悲观，厌世、抑郁、绝望，且与世格格不入。可能有疑病倾向，常抱怨身上各种扩散、移动症状，老在诉说自己的健康状况，经常需医生、家人朋友的同情和安慰。常自责、自卑，无论其行为是否真正负有道义责任，都受到自己的良心谴责。",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 837,
+          "evaluateExpression": "hx_wd_y_2 >= 56.71&& hx_wd_y_2 <= 61.5",
+          "conclusionAnalysis": "倾向情绪不稳定。通常表现出情绪反应较为敏感和波动较大的特点。较容易被外部刺激激发出强烈的情绪反应，且这些情绪反应可能在较短时间内经历明显的波动。对生活事件和人际关系的变化较为敏感，情感体验较为强烈。",
+          "suggestion": "高分型的个性特点是： 一般对自己评价不高，认为自己缺乏魅力，可能因事情出错而心烦意乱，并且不必要地为可能或不会发生的事忧心忡忡；细心、认真，严于责己，很稳重，过分讲究，很易因不干净、不整洁、或东西放得不适当而恼怒；对生存状况悲观，厌世、抑郁、绝望，且与世格格不入。可能有疑病倾向，常抱怨身上各种扩散、移动症状，老在诉说自己的健康状况，经常需医生、家人朋友的同情和安慰。常自责、自卑，无论其行为是否真正负有道义责任，都受到自己的良心谴责。",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 838,
+          "evaluateExpression": "hx_wd_y_2 >= 61.51&& hx_wd_y_2 <= 120",
+          "conclusionAnalysis": "典型情绪不稳定。焦虑、紧张、易怒，往往又有抑郁、睡眠不好等表现，患有各种身心障碍。对各种刺激的反应都过于强烈，情绪激发后很难平复下来。由于强烈的情绪反应，这种人容易冒火，以致激动。",
+          "suggestion": "高分型的个性特点是： 一般对自己评价不高，认为自己缺乏魅力，可能因事情出错而心烦意乱，并且不必要地为可能或不会发生的事忧心忡忡；细心、认真，严于责己，很稳重，过分讲究，很易因不干净、不整洁、或东西放得不适当而恼怒；对生存状况悲观，厌世、抑郁、绝望，且与世格格不入。可能有疑病倾向，常抱怨身上各种扩散、移动症状，老在诉说自己的健康状况，经常需医生、家人朋友的同情和安慰。常自责、自卑，无论其行为是否真正负有道义责任，都受到自己的良心谴责。",
+          "assessmentWarning": "none"
+        }
+      ]
+    },
+    {
+      "id": 392,
+      "num": 3,
+      "dimensionName": "精神质",
+      "dimensionCode": "P",
+      "evaluateExpression": "hx_t_2 + hx_t_6 + hx_t_9 + hx_t_11 + hx_t_18 + hx_t_22 + hx_t_26 + hx_t_30 + hx_t_34 + hx_t_38 + hx_t_42 + hx_t_46 + hx_t_50 + hx_t_56 + hx_t_62 + hx_t_66 + hx_t_68 + hx_t_72 + hx_t_75 + hx_t_76 + hx_t_81 + hx_t_85 + hx_t_88",
+      "standardScoreFormula": "0",
+      "results": [
+        {
+          "id": 839,
+          "evaluateExpression": "hx_wd_y_3 >= 0&& hx_wd_y_3 <= 38.5",
+          "conclusionAnalysis": "精神质典型低分。能与人相处，能较好地适应环境，态度温和，不粗暴，善解人意。",
+          "suggestion": "低分型的人个性特点是： 温柔、平和，避免与人发生冲突，不喜欢付诸暴力；谦卑恭顺，胆小怕事，柔弱服从，不愿在人际关系中主动，易被人强迫接受意见，不看重竞争性的工作或创造性成果，甚至与世无争、漫无目标；一般性情热烈，易轻信他人，感情充沛，为人坦率，乐善好施，或许还有些天真幼稚，易于上当；喜欢呆在安全、舒适、熟悉的\"安乐窝\"中。处事相对灵活，不死守成规，也不大可能那么简单地看问题，能容忍事情的易变无常。",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 840,
+          "evaluateExpression": "hx_wd_y_3 >= 38.51&& hx_wd_y_3 <= 43.3",
+          "conclusionAnalysis": "精神质倾向低分。能与人相处，能较好地适应环境，态度温和，不粗暴，善解人意。",
+          "suggestion": "低分型的人个性特点是： 温柔、平和，避免与人发生冲突，不喜欢付诸暴力；谦卑恭顺，胆小怕事，柔弱服从，不愿在人际关系中主动，易被人强迫接受意见，不看重竞争性的工作或创造性成果，甚至与世无争、漫无目标；一般性情热烈，易轻信他人，感情充沛，为人坦率，乐善好施，或许还有些天真幼稚，易于上当；喜欢呆在安全、舒适、熟悉的\"安乐窝\"中。处事相对灵活，不死守成规，也不大可能那么简单地看问题，能容忍事情的易变无常。",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 841,
+          "evaluateExpression": "hx_wd_y_3 >= 43.31&& hx_wd_y_3 <= 56.7",
+          "conclusionAnalysis": "精神质中间型，既具有精神质倾向高分型的个性特点又具有精神质倾向低分型的个性特点。精神质低分的人能与友好人相处，能较好地适应环境，态度温和，不粗暴，善解人意。精神质高分的人喜欢独处、不关心人，常有麻烦，在哪里都不合适。可能是残忍的，不人道的，缺乏同情心，感觉迟钝，对人抱敌意。",
+          "suggestion": "低分型的人个性特点是： 温柔、平和，避免与人发生冲突，不喜欢付诸暴力；谦卑恭顺，胆小怕事，柔弱服从，不愿在人际关系中主动，易被人强迫接受意见，不看重竞争性的工作或创造性成果，甚至与世无争、漫无目标；一般性情热烈，易轻信他人，感情充沛，为人坦率，乐善好施，或许还有些天真幼稚，易于上当；喜欢呆在安全、舒适、熟悉的\"安乐窝\"中。处事相对灵活，不死守成规，也不大可能那么简单地看问题，能容忍事情的易变无常。 高分型的人个性特点是： 倔强孤独，倾向于独身，难以适应外部环境。可能有以下特点：直接或间接的表现出进攻性，如发脾气、争斗、激烈的辩论和讽刺挖苦一类的行为，决不容别人胡闹，对于侵犯自己权益的人他们会觉得必须回击、报复；个性强，有支配力，敢于捍卫自己权利，被看作\"有强进取心者\"；雄心勃勃，工作勤奋，锐意竞争，渴望提高自己社会地位，极看重生产性和创造性；具有独立性，精于算计，聪明伶俐，事故老道，善玩弄权术，在与他人的交往中显得自私自利；生活中总在寻求刺激，他们对新奇体验有不可满足的渴望，为避免烦闷，他们需经常性地\"喧闹宴饮\"；对事物持有固执不变，拒不妥协的观点，而且还可能顽强地，大叫大嚷地为这些观点辩护；缺乏同情心，感觉迟钝，对爬行类昆虫和可怕景象毫不在意，他们不愿表现出懦弱或任何形式的脆弱感情。",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 842,
+          "evaluateExpression": "hx_wd_y_3 >= 56.71&& hx_wd_y_3 <= 61.5",
+          "conclusionAnalysis": "精神质倾向高分。精神质高分的人可能孤独，倾向于独身，不关心他人，难以适应外部环境，缺乏同情心，感觉迟钝，对人抱有敌意，与他人不能友好相处，固执、倔强，喜欢寻衅，具有攻击性，且不顾危险。",
+          "suggestion": "高分型的人个性特点是： 倔强孤独，倾向于独身，难以适应外部环境。可能有以下特点：直接或间接的表现出进攻性，如发脾气、争斗、激烈的辩论和讽刺挖苦一类的行为，决不容别人胡闹，对于侵犯自己权益的人他们会觉得必须回击、报复；个性强，有支配力，敢于捍卫自己权利，被看作\"有强进取心者\"；雄心勃勃，工作勤奋，锐意竞争，渴望提高自己社会地位，极看重生产性和创造性；具有独立性，精于算计，聪明伶俐，事故老道，善玩弄权术，在与他人的交往中显得自私自利；生活中总在寻求刺激，他们对新奇体验有不可满足的渴望，为避免烦闷，他们需经常性地\"喧闹宴饮\"；对事物持有固执不变，拒不妥协的观点，而且还可能顽强地，大叫大嚷地为这些观点辩护；缺乏同情心，感觉迟钝，对爬行类昆虫和可怕景象毫不在意，他们不愿表现出懦弱或任何形式的脆弱感情。",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 843,
+          "evaluateExpression": "hx_wd_y_3 >= 61.51&& hx_wd_y_3 <= 120",
+          "conclusionAnalysis": "精神质典型高分。独处、不关心人，常有麻烦，在哪里都不合适。可能是残忍的，不人道的，缺乏同情心，感觉迟钝，对人抱敌意。",
+          "suggestion": "高分型的人个性特点是： 倔强孤独，倾向于独身，难以适应外部环境。可能有以下特点：直接或间接的表现出进攻性，如发脾气、争斗、激烈的辩论和讽刺挖苦一类的行为，决不容别人胡闹，对于侵犯自己权益的人他们会觉得必须回击、报复；个性强，有支配力，敢于捍卫自己权利，被看作\"有强进取心者\"；雄心勃勃，工作勤奋，锐意竞争，渴望提高自己社会地位，极看重生产性和创造性；具有独立性，精于算计，聪明伶俐，事故老道，善玩弄权术，在与他人的交往中显得自私自利；生活中总在寻求刺激，他们对新奇体验有不可满足的渴望，为避免烦闷，他们需经常性地\"喧闹宴饮\"；对事物持有固执不变，拒不妥协的观点，而且还可能顽强地，大叫大嚷地为这些观点辩护；缺乏同情心，感觉迟钝，对爬行类昆虫和可怕景象毫不在意，他们不愿表现出懦弱或任何形式的脆弱感情。",
+          "assessmentWarning": "none"
+        }
+      ]
+    },
+    {
+      "id": 393,
+      "num": 4,
+      "dimensionName": "掩饰性",
+      "dimensionCode": "L",
+      "evaluateExpression": "hx_t_4 + hx_t_8 + hx_t_16 + hx_t_20 + hx_t_24 + hx_t_28 + hx_t_32 + hx_t_36 + hx_t_40 + hx_t_44 + hx_t_48 + hx_t_52 + hx_t_54 + hx_t_58 + hx_t_60 + hx_t_64 + hx_t_70 + hx_t_79 + hx_t_83 + hx_t_87",
+      "standardScoreFormula": "0",
+      "results": [
+        {
+          "id": 844,
+          "evaluateExpression": "hx_wd_y_4 >= 0&& hx_wd_y_4 <= 61.5",
+          "conclusionAnalysis": "测评答题真实，测评有效。",
+          "suggestion": "测评答题真实，测评有效。",
+          "assessmentWarning": "high"
+        },
+        {
+          "id": 845,
+          "evaluateExpression": "hx_wd_y_4 >= 61.51&& hx_wd_y_4 <= 120",
+          "conclusionAnalysis": "测评答题不真实，测评无效。",
+          "suggestion": "测评答题不真实，测评无效。",
+          "assessmentWarning": "high"
+        }
+      ]
+    },
+    {
+      "id": 394,
+      "num": 5,
+      "dimensionName": "人格特点",
+      "dimensionCode": "RG",
+      "evaluateExpression": "(max((hx_wd_y_e < 43.3 ? 2 : 0), (hx_wd_y_e >= 43.3 && hx_wd_y_e <= 56.7 ? 4 : 0), (hx_wd_y_e > 56.7 ? 8 : 0)) + max((hx_wd_y_n < 43.3 ? 16 : 0), (hx_wd_y_n >= 43.3 && hx_wd_y_n <= 56.7 ? 32 : 0), (hx_wd_y_n > 56.7 ? 64 : 0)))",
+      "standardScoreFormula": "0",
+      "results": [
+        {
+          "id": 846,
+          "evaluateExpression": "hx_wd_y_5 >= 66&& hx_wd_y_5 <= 66",
+          "conclusionAnalysis": "性格类型属于抑郁质类型。抑郁质人格特点：行为孤僻，反应迟缓，多愁善感，情绪反应持续、深刻而不易外露，沉溺于内心体验，郁郁寡欢，在困难时，优柔寡断，在危险时极度恐惧，具有很高的感受性，善于觉察到不易发觉的细小事物。这种类型的人其显著特点是具有高度的情绪易感性，因此易受挫折。",
+          "suggestion": "抑郁质类型应注意培养自信心，在能够接受的范围内，有意识地积极参加公开活动，以培养勇气。建议多发扬思想敏锐、精细、想象丰富、情绪深刻的优点，克服多疑、孤僻、忧闷和怯弱的缺点。",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 847,
+          "evaluateExpression": "hx_wd_y_5 >= 68&& hx_wd_y_5 <= 68",
+          "conclusionAnalysis": "性格类型属于胆汁质和抑郁质混合型。胆汁质个性特点：脾气暴躁，好挑衅，易于冲动；态度直率热情，活动精力旺盛；反应迅速，智慧 敏捷，但准确性差；情绪明显表露于外，但持续时间不长；可塑性差，但兴趣较稳定。这种类型的显著特点是具有很高的兴奋性，因而在行为上表现出不均衡性。\r\n\t\t抑郁质人格特点：行为孤僻，反应迟缓，多愁善感，情绪反应持续深刻而不易外露，沉溺于内心体验，郁郁寡欢，在困难时，优柔寡断，在危险时极度恐惧，具有很高的感受性，善于觉察到不易发觉的细小事物。这种类型的人其显著特点是具有高度的情绪易感性，因此易受挫折。",
+          "suggestion": "胆汁质和抑郁质混合型应注意向生气勃勃、勇敢顽强、勇于进取的优良特征发展，避免向任性、粗暴、狂妄自大方面发展的可能性。注意培养自信心，在能够接受的范围内，有意识地积极参加公开活动，以培养勇气。",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 848,
+          "evaluateExpression": "hx_wd_y_5 >= 72&& hx_wd_y_5 <= 72",
+          "conclusionAnalysis": "性格类型属于胆汁质类型。胆汁质人格特点：脾气暴躁，好挑衅，易于冲动；态度直率热情，活动精力旺盛；反应迅速，智慧 敏捷，但准确性差；情绪明显表露于外，但持续时间不长；可塑性差，但兴趣较稳定。这种类型的显著特点是具有很高的兴奋性，因而在行为上表现出不均衡性。",
+          "suggestion": "胆汁质类型应注意向生气勃勃、勇敢顽强、勇于进取的优良特征发展，避免向任性、粗暴、狂妄自大方面发展的可能性。",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 849,
+          "evaluateExpression": "hx_wd_y_5 >= 34&& hx_wd_y_5 <= 34",
+          "conclusionAnalysis": "性格类型属于粘液质和抑郁质混合类型。粘液质人格特点：安静稳定，交际适度；不尚空谈，埋头苦干；反应缓慢，沉默寡言；善于克制自己，谨守信用，情绪不易外露；善于忍耐，坚持不懈，注意力稳定，但又难于转移，有惰性而且不够灵活。这种类型的显著特点是安静、均衡。发展踏实、沉着冷静的优点，避免冷淡、迟缓固执等缺点。可以承担持久而较多的任务。\r\n\r\n抑郁质人格特点：行为孤僻，反应迟缓，多愁善感，情绪反应持续、深刻而不易外露，沉溺于内心体验，郁郁寡欢，在困难时，优柔寡断，在危险时极度恐惧，具有很高的感受性，善于觉察到不易发觉的细小事物。这种类型的人其显著特点是具有高度的情绪易感性，因此易受挫折。建议多发扬思想敏锐、精细、想象丰富、情绪深刻的优点，克服多疑、孤僻、忧闷和怯弱的缺点。",
+          "suggestion": "粘液质和抑郁质混合类型注意要有意识地适应新环境、灵活地执行任务。碰上困难和错误时，不要要求过急，要给予较多的思考时间。注意培养自信心，在能够接受的范围内，有意识地积极参加公开活动，以培养勇气。",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 850,
+          "evaluateExpression": "hx_wd_y_5 >= 36&& hx_wd_y_5 <= 36",
+          "conclusionAnalysis": "性格类型属于混合型，但不显著型。",
+          "suggestion": "混合型的性格类型，兼顾多种性格类型特质，但各个性格类型均表现不显著。",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 851,
+          "evaluateExpression": "hx_wd_y_5 >= 40&& hx_wd_y_5 <= 40",
+          "conclusionAnalysis": "性格类型属于胆汁质和多血质混合型。多血质人格特点：活泼好动，乐观、急躁；不甘寂寞，善于交际，适应性强，智慧敏锐，但注意力易转移；情绪易于产生，也易于改变，体验不深刻，但明显外露；接受新事物容易 ，但印象不很深刻。这类型的显著特点是具有很高的灵活性，容易适应变化的生活条件。\r\n\r\n胆汁质个性特点：脾气暴躁，好挑衅，易于冲动；态度直率热情，活动精力旺盛；反应迅速，智慧敏捷，但准确性差；情绪明显表露于外，但持续时间不长；可塑性差，但兴趣较稳定。这种类型的显著特点是具有很高的兴奋性，因而在行为上表现出不均衡性。",
+          "suggestion": "胆汁质和多血质混合型注意向活泼热情、灵活机智方向发展，避免轻浮散漫、放荡不羁、情绪变化多端、“朝三暮四”。可多承担一些任务，注意动静结合，以保持积极状态，要求要严格。注意向生气勃勃、勇敢顽强、勇于进取的优良特征发展，避免向任性、粗暴、狂妄自大方面发展的可能性。",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 852,
+          "evaluateExpression": "hx_wd_y_5 >= 18&& hx_wd_y_5 <= 18",
+          "conclusionAnalysis": "性格类型属于粘液质类型。粘液质人格特点：安静稳定，交际适度；不尚空谈，埋头苦干；反应缓慢，沉默寡言；善于克制自己，谨守信用，情绪不易外露；善于忍耐，坚持不懈，注意力稳定，但又难于转移，有惰性而且不够灵活。这种类型的显著特点是安静、均衡。发展踏实、沉着冷静的优点，避免冷淡、迟缓固执等缺点。可以承担持久而较多的任务。",
+          "suggestion": "粘液质类型注意要有意识地适应新环境、灵活地执行任务。碰上困难和错误时，不要要求过急，要给予较多的思考时间。",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 853,
+          "evaluateExpression": "hx_wd_y_5 >= 20&& hx_wd_y_5 <= 20",
+          "conclusionAnalysis": "性格类型属于多血质和粘液质混合类型。多血质人格特点：活泼好动，乐观、急躁；不甘寂寞，善于交际，适应性强，智慧敏锐，但注意力易转移；情绪易于产生，也易于改变，体验不深刻，但明显外露；接受新事物容易 ，但印象不很深刻。这类型的显著特点是具有很高的灵活性，容易适应变化的生活条件。\r\n\r\n粘液质人格特点：安静稳定，交际适度；不尚空谈，埋头苦干；反应缓慢，沉默寡言；善于克制自己，谨守信用，情绪不易外露；善于忍耐，坚持不懈，注意力稳定，但又难于转移，有惰性而且不够灵活。这种类型的显著特点是安静、均衡。发展踏实、沉着冷静的优点，避免冷淡、迟缓固执等缺点。可以承担持久而较多的任务。",
+          "suggestion": "多血质和粘液质混合类型注意向活泼热情、灵活机智方向发展，避免轻浮散漫、放荡不羁、情绪变化多端、“朝三暮四”。可多承担一些任务，注意动静结合，以保持积极状态，要求要严格。注意要有意识地适应新环境、灵活地执行任务。碰上困难和错误时，不要要求过急，要给予较多的思考时间。",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 854,
+          "evaluateExpression": "hx_wd_y_5 >= 24&& hx_wd_y_5 <= 24",
+          "conclusionAnalysis": "性格类型属于多血质类型。多血质人格特点：活泼好动，乐观、急躁；不甘寂寞，善于交际，适应性强，智慧敏锐，但注意力易转移；情绪易于产生，也易于改变，体验不深刻，但明显外露；接受新事物容易 ，但印象不很深刻。这类型的显著特点是具有很高的灵活性，容易适应变化的生活条件。",
+          "suggestion": "多血质类型注意向活泼热情、灵活机智方向发展，避免轻浮散漫、放荡不羁、情绪变化多端、“朝三暮四”。可多承担一些任务，注意动静结合，以保持积极状态，要求要严格。",
+          "assessmentWarning": "none"
+        }
+      ]
+    }
+  ]
+}

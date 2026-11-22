@@ -1,0 +1,41 @@
+{
+  "id": 47,
+  "title": "性别测试",
+  "description": "11",
+  "type": "basic",
+  "questions": [
+    {
+      "id": 107,
+      "text": "啊啊啊",
+      "type": "radio",
+      "orderNum": 1,
+      "options": [
+        {
+          "id": 230,
+          "optionNo": "A",
+          "text": "2",
+          "value": "3"
+        }
+      ]
+    }
+  ],
+  "dimensions": [
+    {
+      "id": 54,
+      "num": 1,
+      "dimensionName": "维度1",
+      "dimensionCode": "1",
+      "evaluateExpression": "if (hx_gender == 1 , 10, 5)",
+      "standardScoreFormula": "0",
+      "results": [
+        {
+          "id": 40,
+          "evaluateExpression": "0",
+          "conclusionAnalysis": "0",
+          "suggestion": "0",
+          "assessmentWarning": "none"
+        }
+      ]
+    }
+  ]
+}

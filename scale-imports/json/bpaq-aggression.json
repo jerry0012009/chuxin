@@ -1,0 +1,1103 @@
+{
+  "id": "bpaq-aggression",
+  "title": "巴斯-佩里攻击性问卷(BPAQ)",
+  "description": "Buss-Perry Aggression Questionnaire (BPAQ)，Buss & Perry (1992) 编制，测量攻击性的四个维度：身体攻击性、言语攻击性、愤怒和敌意。共29题，5点计分（1=完全不像我 到 5=完全像我），无反向计分题。总分范围29-145。常模参考：男性均值约77(SD≈17)，女性均值约69(SD≈15)。",
+  "type": "basic",
+  "questions": [
+    {
+      "text": "在受到足够的挑衅时，我可能会动手打人。",
+      "type": "radio",
+      "orderNum": 1,
+      "options": [
+        {
+          "text": "完全不像我",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较不像我",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较像我",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "完全像我",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "当我不同意朋友的看法时，我会坦率地告诉他们。",
+      "type": "radio",
+      "orderNum": 2,
+      "options": [
+        {
+          "text": "完全不像我",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较不像我",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较像我",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "完全像我",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "我很容易突然发火，但消气也很快。",
+      "type": "radio",
+      "orderNum": 3,
+      "options": [
+        {
+          "text": "完全不像我",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较不像我",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较像我",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "完全像我",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "我有时觉得自己像一个即将爆炸的火药桶。",
+      "type": "radio",
+      "orderNum": 4,
+      "options": [
+        {
+          "text": "完全不像我",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较不像我",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较像我",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "完全像我",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "我偶尔无法控制打人的冲动。",
+      "type": "radio",
+      "orderNum": 5,
+      "options": [
+        {
+          "text": "完全不像我",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较不像我",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较像我",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "完全像我",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "我的朋友说我有些好辩。",
+      "type": "radio",
+      "orderNum": 6,
+      "options": [
+        {
+          "text": "完全不像我",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较不像我",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较像我",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "完全像我",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "我有时会毫无缘由地突然发火。",
+      "type": "radio",
+      "orderNum": 7,
+      "options": [
+        {
+          "text": "完全不像我",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较不像我",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较像我",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "完全像我",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "我有时觉得生活中我遭受了不公正的对待。",
+      "type": "radio",
+      "orderNum": 8,
+      "options": [
+        {
+          "text": "完全不像我",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较不像我",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较像我",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "完全像我",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "如果有人先动手打我，我会反击。",
+      "type": "radio",
+      "orderNum": 9,
+      "options": [
+        {
+          "text": "完全不像我",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较不像我",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较像我",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "完全像我",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "当别人与我意见不一致时，我忍不住要和他们争论。",
+      "type": "radio",
+      "orderNum": 10,
+      "options": [
+        {
+          "text": "完全不像我",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较不像我",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较像我",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "完全像我",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "我有时觉得自己脾气非常暴躁。",
+      "type": "radio",
+      "orderNum": 11,
+      "options": [
+        {
+          "text": "完全不像我",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较不像我",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较像我",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "完全像我",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "别人似乎总是比我走运。",
+      "type": "radio",
+      "orderNum": 12,
+      "options": [
+        {
+          "text": "完全不像我",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较不像我",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较像我",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "完全像我",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "我想不出有什么正当理由可以打人。",
+      "type": "radio",
+      "orderNum": 13,
+      "options": [
+        {
+          "text": "完全不像我",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较不像我",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较像我",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "完全像我",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "我曾经气得摔碎了东西。",
+      "type": "radio",
+      "orderNum": 14,
+      "options": [
+        {
+          "text": "完全不像我",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较不像我",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较像我",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "完全像我",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "有时我会因为一些小事情而感到非常恼火。",
+      "type": "radio",
+      "orderNum": 15,
+      "options": [
+        {
+          "text": "完全不像我",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较不像我",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较像我",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "完全像我",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "我对过于友好的陌生人保持戒心。",
+      "type": "radio",
+      "orderNum": 16,
+      "options": [
+        {
+          "text": "完全不像我",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较不像我",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较像我",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "完全像我",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "有时候我控制不住自己打人的冲动。",
+      "type": "radio",
+      "orderNum": 17,
+      "options": [
+        {
+          "text": "完全不像我",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较不像我",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较像我",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "完全像我",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "当别人不同意我的看法时，我忍不住要与之争辩。",
+      "type": "radio",
+      "orderNum": 18,
+      "options": [
+        {
+          "text": "完全不像我",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较不像我",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较像我",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "完全像我",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "我的朋友们认为我是一个容易激动的人。",
+      "type": "radio",
+      "orderNum": 19,
+      "options": [
+        {
+          "text": "完全不像我",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较不像我",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较像我",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "完全像我",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "有时候我会被强烈的嫉妒所困扰。",
+      "type": "radio",
+      "orderNum": 20,
+      "options": [
+        {
+          "text": "完全不像我",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较不像我",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较像我",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "完全像我",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "我曾威胁过我认识的人。",
+      "type": "radio",
+      "orderNum": 21,
+      "options": [
+        {
+          "text": "完全不像我",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较不像我",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较像我",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "完全像我",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "我有时觉得自己像一个随时要爆发的火药桶。",
+      "type": "radio",
+      "orderNum": 22,
+      "options": [
+        {
+          "text": "完全不像我",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较不像我",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较像我",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "完全像我",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "有时候我因为一点小差错就会大发脾气。",
+      "type": "radio",
+      "orderNum": 23,
+      "options": [
+        {
+          "text": "完全不像我",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较不像我",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较像我",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "完全像我",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "我觉得别人总是在背后议论我。",
+      "type": "radio",
+      "orderNum": 24,
+      "options": [
+        {
+          "text": "完全不像我",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较不像我",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较像我",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "完全像我",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "如果有人先打了我，我一定要还击。",
+      "type": "radio",
+      "orderNum": 25,
+      "options": [
+        {
+          "text": "完全不像我",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较不像我",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较像我",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "完全像我",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "我很容易失去控制。",
+      "type": "radio",
+      "orderNum": 26,
+      "options": [
+        {
+          "text": "完全不像我",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较不像我",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较像我",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "完全像我",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "当朋友借了我的东西不还时，我会非常愤怒。",
+      "type": "radio",
+      "orderNum": 27,
+      "options": [
+        {
+          "text": "完全不像我",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较不像我",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较像我",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "完全像我",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "我有时候觉得别人在利用我。",
+      "type": "radio",
+      "orderNum": 28,
+      "options": [
+        {
+          "text": "完全不像我",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较不像我",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较像我",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "完全像我",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "我的朋友们说我有点好争吵。",
+      "type": "radio",
+      "orderNum": 29,
+      "options": [
+        {
+          "text": "完全不像我",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较不像我",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较像我",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "完全像我",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    }
+  ],
+  "dimensions": [
+    {
+      "dimensionName": "身体攻击性",
+      "dimensionCode": "physical_aggression",
+      "num": 1,
+      "evaluateExpression": "hx_t_1 + hx_t_5 + hx_t_9 + hx_t_13 + hx_t_17 + hx_t_21 + hx_t_25 + hx_t_27 + hx_t_29",
+      "standardScoreFormula": "",
+      "results": [
+        {
+          "evaluateExpression": "hx_wd_y_1 <= 15",
+          "conclusionAnalysis": "身体攻击性较低",
+          "suggestion": "您的身体攻击性倾向较低，在面对冲突时能够保持冷静和克制。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_1 > 15 && hx_wd_y_1 <= 27",
+          "conclusionAnalysis": "身体攻击性中等",
+          "suggestion": "您的身体攻击性倾向处于正常范围，在受到强烈刺激时可能表现出一定的攻击性反应。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_1 > 27 && hx_wd_y_1 <= 36",
+          "conclusionAnalysis": "身体攻击性偏高",
+          "suggestion": "您的身体攻击性倾向偏高，建议学习更多非暴力的冲突解决方式，培养情绪管理能力。",
+          "assessmentWarning": "low"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_1 > 36",
+          "conclusionAnalysis": "身体攻击性异常偏高",
+          "suggestion": "您的身体攻击性倾向显著偏高，建议寻求专业心理咨询，学习愤怒管理和冲突应对技巧。",
+          "assessmentWarning": "high"
+        }
+      ]
+    },
+    {
+      "dimensionName": "言语攻击性",
+      "dimensionCode": "verbal_aggression",
+      "num": 2,
+      "evaluateExpression": "hx_t_2 + hx_t_6 + hx_t_10 + hx_t_14 + hx_t_18",
+      "standardScoreFormula": "",
+      "results": [
+        {
+          "evaluateExpression": "hx_wd_y_2 <= 9",
+          "conclusionAnalysis": "言语攻击性较低",
+          "suggestion": "您的言语攻击性倾向较低，在沟通中较为平和理性。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_2 > 9 && hx_wd_y_2 <= 15",
+          "conclusionAnalysis": "言语攻击性中等",
+          "suggestion": "您的言语攻击性倾向处于正常范围，在观点不一致时可能表现出争论倾向。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_2 > 15 && hx_wd_y_2 <= 20",
+          "conclusionAnalysis": "言语攻击性偏高",
+          "suggestion": "您的言语攻击性倾向偏高，建议在沟通中注意措辞，学会倾听和换位思考。",
+          "assessmentWarning": "low"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_2 > 20",
+          "conclusionAnalysis": "言语攻击性异常偏高",
+          "suggestion": "您的言语攻击性倾向显著偏高，建议关注沟通方式，学习非暴力沟通技巧。",
+          "assessmentWarning": "middle"
+        }
+      ]
+    },
+    {
+      "dimensionName": "愤怒",
+      "dimensionCode": "anger",
+      "num": 3,
+      "evaluateExpression": "hx_t_3 + hx_t_7 + hx_t_11 + hx_t_15 + hx_t_19 + hx_t_23 + hx_t_26",
+      "standardScoreFormula": "",
+      "results": [
+        {
+          "evaluateExpression": "hx_wd_y_3 <= 13",
+          "conclusionAnalysis": "愤怒水平较低",
+          "suggestion": "您的愤怒情绪水平较低，情绪调节能力较好。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_3 > 13 && hx_wd_y_3 <= 21",
+          "conclusionAnalysis": "愤怒水平中等",
+          "suggestion": "您的愤怒情绪水平处于正常范围，偶尔会因特定事件感到愤怒。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_3 > 21 && hx_wd_y_3 <= 28",
+          "conclusionAnalysis": "愤怒水平偏高",
+          "suggestion": "您的愤怒情绪水平偏高，建议学习情绪调节技巧，如深呼吸、正念冥想等。",
+          "assessmentWarning": "low"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_3 > 28",
+          "conclusionAnalysis": "愤怒水平异常偏高",
+          "suggestion": "您的愤怒情绪水平显著偏高，建议寻求专业帮助，学习有效的情绪管理策略。",
+          "assessmentWarning": "high"
+        }
+      ]
+    },
+    {
+      "dimensionName": "敌意",
+      "dimensionCode": "hostility",
+      "num": 4,
+      "evaluateExpression": "hx_t_4 + hx_t_8 + hx_t_12 + hx_t_16 + hx_t_20 + hx_t_22 + hx_t_24 + hx_t_28",
+      "standardScoreFormula": "",
+      "results": [
+        {
+          "evaluateExpression": "hx_wd_y_4 <= 15",
+          "conclusionAnalysis": "敌意水平较低",
+          "suggestion": "您的敌意水平较低，对他人持较为信任和友善的态度。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_4 > 15 && hx_wd_y_4 <= 24",
+          "conclusionAnalysis": "敌意水平中等",
+          "suggestion": "您的敌意水平处于正常范围，偶尔会对他人产生怀疑或不满。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_4 > 24 && hx_wd_y_4 <= 32",
+          "conclusionAnalysis": "敌意水平偏高",
+          "suggestion": "您的敌意水平偏高，建议审视自己的认知模式，减少对他人的负面归因。",
+          "assessmentWarning": "low"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_4 > 32",
+          "conclusionAnalysis": "敌意水平异常偏高",
+          "suggestion": "您的敌意水平显著偏高，建议寻求专业心理咨询，改善人际认知和社交技能。",
+          "assessmentWarning": "high"
+        }
+      ]
+    },
+    {
+      "dimensionName": "攻击性总分",
+      "dimensionCode": "total_aggression",
+      "num": 5,
+      "evaluateExpression": "hx_t_1 + hx_t_2 + hx_t_3 + hx_t_4 + hx_t_5 + hx_t_6 + hx_t_7 + hx_t_8 + hx_t_9 + hx_t_10 + hx_t_11 + hx_t_12 + hx_t_13 + hx_t_14 + hx_t_15 + hx_t_16 + hx_t_17 + hx_t_18 + hx_t_19 + hx_t_20 + hx_t_21 + hx_t_22 + hx_t_23 + hx_t_24 + hx_t_25 + hx_t_26 + hx_t_27 + hx_t_28 + hx_t_29",
+      "standardScoreFormula": "",
+      "results": [
+        {
+          "evaluateExpression": "hx_wd_y_5 <= 55",
+          "conclusionAnalysis": "攻击性水平较低",
+          "suggestion": "您的总体攻击性水平较低，在人际交往中较为平和友善。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_5 > 55 && hx_wd_y_5 <= 77",
+          "conclusionAnalysis": "攻击性水平中等（男性常模均值约77）",
+          "suggestion": "您的总体攻击性水平处于正常范围，与一般男性常模水平相当。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_5 > 77 && hx_wd_y_5 <= 100",
+          "conclusionAnalysis": "攻击性水平偏高",
+          "suggestion": "您的总体攻击性水平偏高，建议关注自身情绪管理和人际冲突处理方式。",
+          "assessmentWarning": "low"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_5 > 100",
+          "conclusionAnalysis": "攻击性水平异常偏高",
+          "suggestion": "您的总体攻击性水平显著高于常模（男性均值约77，女性均值约69），建议寻求专业心理咨询评估。",
+          "assessmentWarning": "high"
+        }
+      ]
+    }
+  ]
+}

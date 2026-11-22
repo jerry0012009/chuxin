@@ -1,0 +1,1947 @@
+{
+  "id": 115,
+  "title": "压力知觉量表（PSTR）",
+  "type": "basic",
+  "questions": [
+    {
+      "id": 2589,
+      "text": "我受背痛之苦。",
+      "type": "radio",
+      "orderNum": 1,
+      "options": [
+        {
+          "id": 10232,
+          "optionNo": "A",
+          "text": "总是",
+          "value": "4"
+        },
+        {
+          "id": 10233,
+          "optionNo": "B",
+          "text": "经常",
+          "value": "3"
+        },
+        {
+          "id": 10234,
+          "optionNo": "C",
+          "text": "有时",
+          "value": "2"
+        },
+        {
+          "id": 10235,
+          "optionNo": "D",
+          "text": "很少",
+          "value": "1"
+        },
+        {
+          "id": 10236,
+          "optionNo": "E",
+          "text": "从未",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2590,
+      "text": "我的睡眠不足且睡不安稳。",
+      "type": "radio",
+      "orderNum": 2,
+      "options": [
+        {
+          "id": 10237,
+          "optionNo": "A",
+          "text": "总是",
+          "value": "4"
+        },
+        {
+          "id": 10238,
+          "optionNo": "B",
+          "text": "经常",
+          "value": "3"
+        },
+        {
+          "id": 10239,
+          "optionNo": "C",
+          "text": "有时",
+          "value": "2"
+        },
+        {
+          "id": 10240,
+          "optionNo": "D",
+          "text": "很少",
+          "value": "1"
+        },
+        {
+          "id": 10241,
+          "optionNo": "E",
+          "text": "从未",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2591,
+      "text": "我头痛。",
+      "type": "radio",
+      "orderNum": 3,
+      "options": [
+        {
+          "id": 10242,
+          "optionNo": "A",
+          "text": "总是",
+          "value": "4"
+        },
+        {
+          "id": 10243,
+          "optionNo": "B",
+          "text": "经常",
+          "value": "3"
+        },
+        {
+          "id": 10244,
+          "optionNo": "C",
+          "text": "有时",
+          "value": "2"
+        },
+        {
+          "id": 10245,
+          "optionNo": "D",
+          "text": "很少",
+          "value": "1"
+        },
+        {
+          "id": 10246,
+          "optionNo": "E",
+          "text": "从未",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2592,
+      "text": "我颚部疼痛。",
+      "type": "radio",
+      "orderNum": 4,
+      "options": [
+        {
+          "id": 10247,
+          "optionNo": "A",
+          "text": "总是",
+          "value": "4"
+        },
+        {
+          "id": 10248,
+          "optionNo": "B",
+          "text": "经常",
+          "value": "3"
+        },
+        {
+          "id": 10249,
+          "optionNo": "C",
+          "text": "有时",
+          "value": "2"
+        },
+        {
+          "id": 10250,
+          "optionNo": "D",
+          "text": "很少",
+          "value": "1"
+        },
+        {
+          "id": 10251,
+          "optionNo": "E",
+          "text": "从未",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2593,
+      "text": "若需要等待，我会不安。",
+      "type": "radio",
+      "orderNum": 5,
+      "options": [
+        {
+          "id": 10252,
+          "optionNo": "A",
+          "text": "总是",
+          "value": "4"
+        },
+        {
+          "id": 10253,
+          "optionNo": "B",
+          "text": "经常",
+          "value": "3"
+        },
+        {
+          "id": 10254,
+          "optionNo": "C",
+          "text": "有时",
+          "value": "2"
+        },
+        {
+          "id": 10255,
+          "optionNo": "D",
+          "text": "很少",
+          "value": "1"
+        },
+        {
+          "id": 10256,
+          "optionNo": "E",
+          "text": "从未",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2594,
+      "text": "我的后颈感到疼痛。",
+      "type": "radio",
+      "orderNum": 6,
+      "options": [
+        {
+          "id": 10257,
+          "optionNo": "A",
+          "text": "总是",
+          "value": "4"
+        },
+        {
+          "id": 10258,
+          "optionNo": "B",
+          "text": "经常",
+          "value": "3"
+        },
+        {
+          "id": 10259,
+          "optionNo": "C",
+          "text": "有时",
+          "value": "2"
+        },
+        {
+          "id": 10260,
+          "optionNo": "D",
+          "text": "很少",
+          "value": "1"
+        },
+        {
+          "id": 10261,
+          "optionNo": "E",
+          "text": "从未",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2595,
+      "text": "我比多数人更神经紧张。",
+      "type": "radio",
+      "orderNum": 7,
+      "options": [
+        {
+          "id": 10262,
+          "optionNo": "A",
+          "text": "总是",
+          "value": "4"
+        },
+        {
+          "id": 10263,
+          "optionNo": "B",
+          "text": "经常",
+          "value": "3"
+        },
+        {
+          "id": 10264,
+          "optionNo": "C",
+          "text": "有时",
+          "value": "2"
+        },
+        {
+          "id": 10265,
+          "optionNo": "D",
+          "text": "很少",
+          "value": "1"
+        },
+        {
+          "id": 10266,
+          "optionNo": "E",
+          "text": "从未",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2596,
+      "text": "我很难入睡。",
+      "type": "radio",
+      "orderNum": 8,
+      "options": [
+        {
+          "id": 10267,
+          "optionNo": "A",
+          "text": "总是",
+          "value": "4"
+        },
+        {
+          "id": 10268,
+          "optionNo": "B",
+          "text": "经常",
+          "value": "3"
+        },
+        {
+          "id": 10269,
+          "optionNo": "C",
+          "text": "有时",
+          "value": "2"
+        },
+        {
+          "id": 10270,
+          "optionNo": "D",
+          "text": "很少",
+          "value": "1"
+        },
+        {
+          "id": 10271,
+          "optionNo": "E",
+          "text": "从未",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2597,
+      "text": "我的头感到紧或痛。",
+      "type": "radio",
+      "orderNum": 9,
+      "options": [
+        {
+          "id": 10272,
+          "optionNo": "A",
+          "text": "总是",
+          "value": "4"
+        },
+        {
+          "id": 10273,
+          "optionNo": "B",
+          "text": "经常",
+          "value": "3"
+        },
+        {
+          "id": 10274,
+          "optionNo": "C",
+          "text": "有时",
+          "value": "2"
+        },
+        {
+          "id": 10275,
+          "optionNo": "D",
+          "text": "很少",
+          "value": "1"
+        },
+        {
+          "id": 10276,
+          "optionNo": "E",
+          "text": "从未",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2598,
+      "text": "我的胃有毛病。",
+      "type": "radio",
+      "orderNum": 10,
+      "options": [
+        {
+          "id": 10277,
+          "optionNo": "A",
+          "text": "总是",
+          "value": "4"
+        },
+        {
+          "id": 10278,
+          "optionNo": "B",
+          "text": "经常",
+          "value": "3"
+        },
+        {
+          "id": 10279,
+          "optionNo": "C",
+          "text": "有时",
+          "value": "2"
+        },
+        {
+          "id": 10280,
+          "optionNo": "D",
+          "text": "很少",
+          "value": "1"
+        },
+        {
+          "id": 10281,
+          "optionNo": "E",
+          "text": "从未",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2599,
+      "text": "我对自己没有信心。",
+      "type": "radio",
+      "orderNum": 11,
+      "options": [
+        {
+          "id": 10282,
+          "optionNo": "A",
+          "text": "总是",
+          "value": "4"
+        },
+        {
+          "id": 10283,
+          "optionNo": "B",
+          "text": "经常",
+          "value": "3"
+        },
+        {
+          "id": 10284,
+          "optionNo": "C",
+          "text": "有时",
+          "value": "2"
+        },
+        {
+          "id": 10285,
+          "optionNo": "D",
+          "text": "很少",
+          "value": "1"
+        },
+        {
+          "id": 10286,
+          "optionNo": "E",
+          "text": "从未",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2600,
+      "text": "我会自言自语。",
+      "type": "radio",
+      "orderNum": 12,
+      "options": [
+        {
+          "id": 10287,
+          "optionNo": "A",
+          "text": "总是",
+          "value": "4"
+        },
+        {
+          "id": 10288,
+          "optionNo": "B",
+          "text": "经常",
+          "value": "3"
+        },
+        {
+          "id": 10289,
+          "optionNo": "C",
+          "text": "有时",
+          "value": "2"
+        },
+        {
+          "id": 10290,
+          "optionNo": "D",
+          "text": "很少",
+          "value": "1"
+        },
+        {
+          "id": 10291,
+          "optionNo": "E",
+          "text": "从未",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2601,
+      "text": "我忧虑财务问题。",
+      "type": "radio",
+      "orderNum": 13,
+      "options": [
+        {
+          "id": 10292,
+          "optionNo": "A",
+          "text": "总是",
+          "value": "4"
+        },
+        {
+          "id": 10293,
+          "optionNo": "B",
+          "text": "经常",
+          "value": "3"
+        },
+        {
+          "id": 10294,
+          "optionNo": "C",
+          "text": "有时",
+          "value": "2"
+        },
+        {
+          "id": 10295,
+          "optionNo": "D",
+          "text": "很少",
+          "value": "1"
+        },
+        {
+          "id": 10296,
+          "optionNo": "E",
+          "text": "从未",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2602,
+      "text": "与人见面时，我会胆怯。",
+      "type": "radio",
+      "orderNum": 14,
+      "options": [
+        {
+          "id": 10297,
+          "optionNo": "A",
+          "text": "总是",
+          "value": "4"
+        },
+        {
+          "id": 10298,
+          "optionNo": "B",
+          "text": "经常",
+          "value": "3"
+        },
+        {
+          "id": 10299,
+          "optionNo": "C",
+          "text": "有时",
+          "value": "2"
+        },
+        {
+          "id": 10300,
+          "optionNo": "D",
+          "text": "很少",
+          "value": "1"
+        },
+        {
+          "id": 10301,
+          "optionNo": "E",
+          "text": "从未",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2603,
+      "text": "我怕发生可怕的事。",
+      "type": "radio",
+      "orderNum": 15,
+      "options": [
+        {
+          "id": 10302,
+          "optionNo": "A",
+          "text": "总是",
+          "value": "4"
+        },
+        {
+          "id": 10303,
+          "optionNo": "B",
+          "text": "经常",
+          "value": "3"
+        },
+        {
+          "id": 10304,
+          "optionNo": "C",
+          "text": "有时",
+          "value": "2"
+        },
+        {
+          "id": 10305,
+          "optionNo": "D",
+          "text": "很少",
+          "value": "1"
+        },
+        {
+          "id": 10306,
+          "optionNo": "E",
+          "text": "从未",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2604,
+      "text": "白天我觉得很累。",
+      "type": "radio",
+      "orderNum": 16,
+      "options": [
+        {
+          "id": 10307,
+          "optionNo": "A",
+          "text": "总是",
+          "value": "4"
+        },
+        {
+          "id": 10308,
+          "optionNo": "B",
+          "text": "经常",
+          "value": "3"
+        },
+        {
+          "id": 10309,
+          "optionNo": "C",
+          "text": "有时",
+          "value": "2"
+        },
+        {
+          "id": 10310,
+          "optionNo": "D",
+          "text": "很少",
+          "value": "1"
+        },
+        {
+          "id": 10311,
+          "optionNo": "E",
+          "text": "从未",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2605,
+      "text": "下午感到喉咙痛，但并非由于染上感冒。",
+      "type": "radio",
+      "orderNum": 17,
+      "options": [
+        {
+          "id": 10312,
+          "optionNo": "A",
+          "text": "总是",
+          "value": "4"
+        },
+        {
+          "id": 10313,
+          "optionNo": "B",
+          "text": "经常",
+          "value": "3"
+        },
+        {
+          "id": 10314,
+          "optionNo": "C",
+          "text": "有时",
+          "value": "2"
+        },
+        {
+          "id": 10315,
+          "optionNo": "D",
+          "text": "很少",
+          "value": "1"
+        },
+        {
+          "id": 10316,
+          "optionNo": "E",
+          "text": "从未",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2606,
+      "text": "我心情不安，无法静坐。",
+      "type": "radio",
+      "orderNum": 18,
+      "options": [
+        {
+          "id": 10317,
+          "optionNo": "A",
+          "text": "总是",
+          "value": "4"
+        },
+        {
+          "id": 10318,
+          "optionNo": "B",
+          "text": "经常",
+          "value": "3"
+        },
+        {
+          "id": 10319,
+          "optionNo": "C",
+          "text": "有时",
+          "value": "2"
+        },
+        {
+          "id": 10320,
+          "optionNo": "D",
+          "text": "很少",
+          "value": "1"
+        },
+        {
+          "id": 10321,
+          "optionNo": "E",
+          "text": "从未",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2607,
+      "text": "我感到非常口干。",
+      "type": "radio",
+      "orderNum": 19,
+      "options": [
+        {
+          "id": 10322,
+          "optionNo": "A",
+          "text": "总是",
+          "value": "4"
+        },
+        {
+          "id": 10323,
+          "optionNo": "B",
+          "text": "经常",
+          "value": "3"
+        },
+        {
+          "id": 10324,
+          "optionNo": "C",
+          "text": "有时",
+          "value": "2"
+        },
+        {
+          "id": 10325,
+          "optionNo": "D",
+          "text": "很少",
+          "value": "1"
+        },
+        {
+          "id": 10326,
+          "optionNo": "E",
+          "text": "从未",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2608,
+      "text": "我的心脏有毛病。",
+      "type": "radio",
+      "orderNum": 20,
+      "options": [
+        {
+          "id": 10327,
+          "optionNo": "A",
+          "text": "总是",
+          "value": "4"
+        },
+        {
+          "id": 10328,
+          "optionNo": "B",
+          "text": "经常",
+          "value": "3"
+        },
+        {
+          "id": 10329,
+          "optionNo": "C",
+          "text": "有时",
+          "value": "2"
+        },
+        {
+          "id": 10330,
+          "optionNo": "D",
+          "text": "很少",
+          "value": "1"
+        },
+        {
+          "id": 10331,
+          "optionNo": "E",
+          "text": "从未",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2609,
+      "text": "我觉得自己不是很有用。",
+      "type": "radio",
+      "orderNum": 21,
+      "options": [
+        {
+          "id": 10332,
+          "optionNo": "A",
+          "text": "总是",
+          "value": "4"
+        },
+        {
+          "id": 10333,
+          "optionNo": "B",
+          "text": "经常",
+          "value": "3"
+        },
+        {
+          "id": 10334,
+          "optionNo": "C",
+          "text": "有时",
+          "value": "2"
+        },
+        {
+          "id": 10335,
+          "optionNo": "D",
+          "text": "很少",
+          "value": "1"
+        },
+        {
+          "id": 10336,
+          "optionNo": "E",
+          "text": "从未",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2610,
+      "text": "我吸烟。",
+      "type": "radio",
+      "orderNum": 22,
+      "options": [
+        {
+          "id": 10337,
+          "optionNo": "A",
+          "text": "总是",
+          "value": "4"
+        },
+        {
+          "id": 10338,
+          "optionNo": "B",
+          "text": "经常",
+          "value": "3"
+        },
+        {
+          "id": 10339,
+          "optionNo": "C",
+          "text": "有时",
+          "value": "2"
+        },
+        {
+          "id": 10340,
+          "optionNo": "D",
+          "text": "很少",
+          "value": "1"
+        },
+        {
+          "id": 10341,
+          "optionNo": "E",
+          "text": "从未",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2611,
+      "text": "我肚子不舒服。",
+      "type": "radio",
+      "orderNum": 23,
+      "options": [
+        {
+          "id": 10342,
+          "optionNo": "A",
+          "text": "总是",
+          "value": "4"
+        },
+        {
+          "id": 10343,
+          "optionNo": "B",
+          "text": "经常",
+          "value": "3"
+        },
+        {
+          "id": 10344,
+          "optionNo": "C",
+          "text": "有时",
+          "value": "2"
+        },
+        {
+          "id": 10345,
+          "optionNo": "D",
+          "text": "很少",
+          "value": "1"
+        },
+        {
+          "id": 10346,
+          "optionNo": "E",
+          "text": "从未",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2612,
+      "text": "我觉得不快乐。",
+      "type": "radio",
+      "orderNum": 24,
+      "options": [
+        {
+          "id": 10347,
+          "optionNo": "A",
+          "text": "总是",
+          "value": "4"
+        },
+        {
+          "id": 10348,
+          "optionNo": "B",
+          "text": "经常",
+          "value": "3"
+        },
+        {
+          "id": 10349,
+          "optionNo": "C",
+          "text": "有时",
+          "value": "2"
+        },
+        {
+          "id": 10350,
+          "optionNo": "D",
+          "text": "很少",
+          "value": "1"
+        },
+        {
+          "id": 10351,
+          "optionNo": "E",
+          "text": "从未",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2613,
+      "text": "我流汗。",
+      "type": "radio",
+      "orderNum": 25,
+      "options": [
+        {
+          "id": 10352,
+          "optionNo": "A",
+          "text": "总是",
+          "value": "4"
+        },
+        {
+          "id": 10353,
+          "optionNo": "B",
+          "text": "经常",
+          "value": "3"
+        },
+        {
+          "id": 10354,
+          "optionNo": "C",
+          "text": "有时",
+          "value": "2"
+        },
+        {
+          "id": 10355,
+          "optionNo": "D",
+          "text": "很少",
+          "value": "1"
+        },
+        {
+          "id": 10356,
+          "optionNo": "E",
+          "text": "从未",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2614,
+      "text": "我喝酒。",
+      "type": "radio",
+      "orderNum": 26,
+      "options": [
+        {
+          "id": 10357,
+          "optionNo": "A",
+          "text": "总是",
+          "value": "4"
+        },
+        {
+          "id": 10358,
+          "optionNo": "B",
+          "text": "经常",
+          "value": "3"
+        },
+        {
+          "id": 10359,
+          "optionNo": "C",
+          "text": "有时",
+          "value": "2"
+        },
+        {
+          "id": 10360,
+          "optionNo": "D",
+          "text": "很少",
+          "value": "1"
+        },
+        {
+          "id": 10361,
+          "optionNo": "E",
+          "text": "从未",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2615,
+      "text": "我很敏感。",
+      "type": "radio",
+      "orderNum": 27,
+      "options": [
+        {
+          "id": 10362,
+          "optionNo": "A",
+          "text": "总是",
+          "value": "4"
+        },
+        {
+          "id": 10363,
+          "optionNo": "B",
+          "text": "经常",
+          "value": "3"
+        },
+        {
+          "id": 10364,
+          "optionNo": "C",
+          "text": "有时",
+          "value": "2"
+        },
+        {
+          "id": 10365,
+          "optionNo": "D",
+          "text": "很少",
+          "value": "1"
+        },
+        {
+          "id": 10366,
+          "optionNo": "E",
+          "text": "从未",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2616,
+      "text": "我觉得自己像被四分五裂了似的。",
+      "type": "radio",
+      "orderNum": 28,
+      "options": [
+        {
+          "id": 10367,
+          "optionNo": "A",
+          "text": "总是",
+          "value": "4"
+        },
+        {
+          "id": 10368,
+          "optionNo": "B",
+          "text": "经常",
+          "value": "3"
+        },
+        {
+          "id": 10369,
+          "optionNo": "C",
+          "text": "有时",
+          "value": "2"
+        },
+        {
+          "id": 10370,
+          "optionNo": "D",
+          "text": "很少",
+          "value": "1"
+        },
+        {
+          "id": 10371,
+          "optionNo": "E",
+          "text": "从未",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2617,
+      "text": "我的眼睛又酸又累。",
+      "type": "radio",
+      "orderNum": 29,
+      "options": [
+        {
+          "id": 10372,
+          "optionNo": "A",
+          "text": "总是",
+          "value": "4"
+        },
+        {
+          "id": 10373,
+          "optionNo": "B",
+          "text": "经常",
+          "value": "3"
+        },
+        {
+          "id": 10374,
+          "optionNo": "C",
+          "text": "有时",
+          "value": "2"
+        },
+        {
+          "id": 10375,
+          "optionNo": "D",
+          "text": "很少",
+          "value": "1"
+        },
+        {
+          "id": 10376,
+          "optionNo": "E",
+          "text": "从未",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2618,
+      "text": "我的腿或脚抽筋。",
+      "type": "radio",
+      "orderNum": 30,
+      "options": [
+        {
+          "id": 10377,
+          "optionNo": "A",
+          "text": "总是",
+          "value": "4"
+        },
+        {
+          "id": 10378,
+          "optionNo": "B",
+          "text": "经常",
+          "value": "3"
+        },
+        {
+          "id": 10379,
+          "optionNo": "C",
+          "text": "有时",
+          "value": "2"
+        },
+        {
+          "id": 10380,
+          "optionNo": "D",
+          "text": "很少",
+          "value": "1"
+        },
+        {
+          "id": 10381,
+          "optionNo": "E",
+          "text": "从未",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2619,
+      "text": "我的心跳快速。",
+      "type": "radio",
+      "orderNum": 31,
+      "options": [
+        {
+          "id": 10382,
+          "optionNo": "A",
+          "text": "总是",
+          "value": "4"
+        },
+        {
+          "id": 10383,
+          "optionNo": "B",
+          "text": "经常",
+          "value": "3"
+        },
+        {
+          "id": 10384,
+          "optionNo": "C",
+          "text": "有时",
+          "value": "2"
+        },
+        {
+          "id": 10385,
+          "optionNo": "D",
+          "text": "很少",
+          "value": "1"
+        },
+        {
+          "id": 10386,
+          "optionNo": "E",
+          "text": "从未",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2620,
+      "text": "我怕结识新人。",
+      "type": "radio",
+      "orderNum": 32,
+      "options": [
+        {
+          "id": 10387,
+          "optionNo": "A",
+          "text": "总是",
+          "value": "4"
+        },
+        {
+          "id": 10388,
+          "optionNo": "B",
+          "text": "经常",
+          "value": "3"
+        },
+        {
+          "id": 10389,
+          "optionNo": "C",
+          "text": "有时",
+          "value": "2"
+        },
+        {
+          "id": 10390,
+          "optionNo": "D",
+          "text": "很少",
+          "value": "1"
+        },
+        {
+          "id": 10391,
+          "optionNo": "E",
+          "text": "从未",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2621,
+      "text": "我的手脚冰冷。",
+      "type": "radio",
+      "orderNum": 33,
+      "options": [
+        {
+          "id": 10392,
+          "optionNo": "A",
+          "text": "总是",
+          "value": "4"
+        },
+        {
+          "id": 10393,
+          "optionNo": "B",
+          "text": "经常",
+          "value": "3"
+        },
+        {
+          "id": 10394,
+          "optionNo": "C",
+          "text": "有时",
+          "value": "2"
+        },
+        {
+          "id": 10395,
+          "optionNo": "D",
+          "text": "很少",
+          "value": "1"
+        },
+        {
+          "id": 10396,
+          "optionNo": "E",
+          "text": "从未",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2622,
+      "text": "我患便秘。",
+      "type": "radio",
+      "orderNum": 34,
+      "options": [
+        {
+          "id": 10397,
+          "optionNo": "A",
+          "text": "总是",
+          "value": "4"
+        },
+        {
+          "id": 10398,
+          "optionNo": "B",
+          "text": "经常",
+          "value": "3"
+        },
+        {
+          "id": 10399,
+          "optionNo": "C",
+          "text": "有时",
+          "value": "2"
+        },
+        {
+          "id": 10400,
+          "optionNo": "D",
+          "text": "很少",
+          "value": "1"
+        },
+        {
+          "id": 10401,
+          "optionNo": "E",
+          "text": "从未",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2623,
+      "text": "我未经医师的指示使用各种药物。",
+      "type": "radio",
+      "orderNum": 35,
+      "options": [
+        {
+          "id": 10402,
+          "optionNo": "A",
+          "text": "总是",
+          "value": "4"
+        },
+        {
+          "id": 10403,
+          "optionNo": "B",
+          "text": "经常",
+          "value": "3"
+        },
+        {
+          "id": 10404,
+          "optionNo": "C",
+          "text": "有时",
+          "value": "2"
+        },
+        {
+          "id": 10405,
+          "optionNo": "D",
+          "text": "很少",
+          "value": "1"
+        },
+        {
+          "id": 10406,
+          "optionNo": "E",
+          "text": "从未",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2624,
+      "text": "我发现自己很容易哭。",
+      "type": "radio",
+      "orderNum": 36,
+      "options": [
+        {
+          "id": 10407,
+          "optionNo": "A",
+          "text": "总是",
+          "value": "4"
+        },
+        {
+          "id": 10408,
+          "optionNo": "B",
+          "text": "经常",
+          "value": "3"
+        },
+        {
+          "id": 10409,
+          "optionNo": "C",
+          "text": "有时",
+          "value": "2"
+        },
+        {
+          "id": 10410,
+          "optionNo": "D",
+          "text": "很少",
+          "value": "1"
+        },
+        {
+          "id": 10411,
+          "optionNo": "E",
+          "text": "从未",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2625,
+      "text": "我消化不良。",
+      "type": "radio",
+      "orderNum": 37,
+      "options": [
+        {
+          "id": 10412,
+          "optionNo": "A",
+          "text": "总是",
+          "value": "4"
+        },
+        {
+          "id": 10413,
+          "optionNo": "B",
+          "text": "经常",
+          "value": "3"
+        },
+        {
+          "id": 10414,
+          "optionNo": "C",
+          "text": "有时",
+          "value": "2"
+        },
+        {
+          "id": 10415,
+          "optionNo": "D",
+          "text": "很少",
+          "value": "1"
+        },
+        {
+          "id": 10416,
+          "optionNo": "E",
+          "text": "从未",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2626,
+      "text": "我咬指甲。",
+      "type": "radio",
+      "orderNum": 38,
+      "options": [
+        {
+          "id": 10417,
+          "optionNo": "A",
+          "text": "总是",
+          "value": "4"
+        },
+        {
+          "id": 10418,
+          "optionNo": "B",
+          "text": "经常",
+          "value": "3"
+        },
+        {
+          "id": 10419,
+          "optionNo": "C",
+          "text": "有时",
+          "value": "2"
+        },
+        {
+          "id": 10420,
+          "optionNo": "D",
+          "text": "很少",
+          "value": "1"
+        },
+        {
+          "id": 10421,
+          "optionNo": "E",
+          "text": "从未",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2627,
+      "text": "我耳中有嗡嗡声。",
+      "type": "radio",
+      "orderNum": 39,
+      "options": [
+        {
+          "id": 10422,
+          "optionNo": "A",
+          "text": "总是",
+          "value": "4"
+        },
+        {
+          "id": 10423,
+          "optionNo": "B",
+          "text": "经常",
+          "value": "3"
+        },
+        {
+          "id": 10424,
+          "optionNo": "C",
+          "text": "有时",
+          "value": "2"
+        },
+        {
+          "id": 10425,
+          "optionNo": "D",
+          "text": "很少",
+          "value": "1"
+        },
+        {
+          "id": 10426,
+          "optionNo": "E",
+          "text": "从未",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2628,
+      "text": "40 . 我小便频繁。",
+      "type": "radio",
+      "orderNum": 40,
+      "options": [
+        {
+          "id": 10427,
+          "optionNo": "A",
+          "text": "总是",
+          "value": "4"
+        },
+        {
+          "id": 10428,
+          "optionNo": "B",
+          "text": "经常",
+          "value": "3"
+        },
+        {
+          "id": 10429,
+          "optionNo": "C",
+          "text": "有时",
+          "value": "2"
+        },
+        {
+          "id": 10430,
+          "optionNo": "D",
+          "text": "很少",
+          "value": "1"
+        },
+        {
+          "id": 10431,
+          "optionNo": "E",
+          "text": "从未",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2629,
+      "text": "我有胃溃疡的毛病。",
+      "type": "radio",
+      "orderNum": 41,
+      "options": [
+        {
+          "id": 10432,
+          "optionNo": "A",
+          "text": "总是",
+          "value": "4"
+        },
+        {
+          "id": 10433,
+          "optionNo": "B",
+          "text": "经常",
+          "value": "3"
+        },
+        {
+          "id": 10434,
+          "optionNo": "C",
+          "text": "有时",
+          "value": "2"
+        },
+        {
+          "id": 10435,
+          "optionNo": "D",
+          "text": "很少",
+          "value": "1"
+        },
+        {
+          "id": 10436,
+          "optionNo": "E",
+          "text": "从未",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2630,
+      "text": "我有皮肤方面的毛病。",
+      "type": "radio",
+      "orderNum": 42,
+      "options": [
+        {
+          "id": 10437,
+          "optionNo": "A",
+          "text": "总是",
+          "value": "4"
+        },
+        {
+          "id": 10438,
+          "optionNo": "B",
+          "text": "经常",
+          "value": "3"
+        },
+        {
+          "id": 10439,
+          "optionNo": "C",
+          "text": "有时",
+          "value": "2"
+        },
+        {
+          "id": 10440,
+          "optionNo": "D",
+          "text": "很少",
+          "value": "1"
+        },
+        {
+          "id": 10441,
+          "optionNo": "E",
+          "text": "从未",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2631,
+      "text": "我的咽喉很紧。",
+      "type": "radio",
+      "orderNum": 43,
+      "options": [
+        {
+          "id": 10442,
+          "optionNo": "A",
+          "text": "总是",
+          "value": "4"
+        },
+        {
+          "id": 10443,
+          "optionNo": "B",
+          "text": "经常",
+          "value": "3"
+        },
+        {
+          "id": 10444,
+          "optionNo": "C",
+          "text": "有时",
+          "value": "2"
+        },
+        {
+          "id": 10445,
+          "optionNo": "D",
+          "text": "很少",
+          "value": "1"
+        },
+        {
+          "id": 10446,
+          "optionNo": "E",
+          "text": "从未",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2632,
+      "text": "我有十二指肠溃疡的毛病。",
+      "type": "radio",
+      "orderNum": 44,
+      "options": [
+        {
+          "id": 10447,
+          "optionNo": "A",
+          "text": "总是",
+          "value": "4"
+        },
+        {
+          "id": 10448,
+          "optionNo": "B",
+          "text": "经常",
+          "value": "3"
+        },
+        {
+          "id": 10449,
+          "optionNo": "C",
+          "text": "有时",
+          "value": "2"
+        },
+        {
+          "id": 10450,
+          "optionNo": "D",
+          "text": "很少",
+          "value": "1"
+        },
+        {
+          "id": 10451,
+          "optionNo": "E",
+          "text": "从未",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2633,
+      "text": "我担心我的工作。",
+      "type": "radio",
+      "orderNum": 45,
+      "options": [
+        {
+          "id": 10452,
+          "optionNo": "A",
+          "text": "总是",
+          "value": "4"
+        },
+        {
+          "id": 10453,
+          "optionNo": "B",
+          "text": "经常",
+          "value": "3"
+        },
+        {
+          "id": 10454,
+          "optionNo": "C",
+          "text": "有时",
+          "value": "2"
+        },
+        {
+          "id": 10455,
+          "optionNo": "D",
+          "text": "很少",
+          "value": "1"
+        },
+        {
+          "id": 10456,
+          "optionNo": "E",
+          "text": "从未",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2634,
+      "text": "我有口腔溃疡。",
+      "type": "radio",
+      "orderNum": 46,
+      "options": [
+        {
+          "id": 10457,
+          "optionNo": "A",
+          "text": "总是",
+          "value": "4"
+        },
+        {
+          "id": 10458,
+          "optionNo": "B",
+          "text": "经常",
+          "value": "3"
+        },
+        {
+          "id": 10459,
+          "optionNo": "C",
+          "text": "有时",
+          "value": "2"
+        },
+        {
+          "id": 10460,
+          "optionNo": "D",
+          "text": "很少",
+          "value": "1"
+        },
+        {
+          "id": 10461,
+          "optionNo": "E",
+          "text": "从未",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2635,
+      "text": "我为琐事忧虑。",
+      "type": "radio",
+      "orderNum": 47,
+      "options": [
+        {
+          "id": 10462,
+          "optionNo": "A",
+          "text": "总是",
+          "value": "4"
+        },
+        {
+          "id": 10463,
+          "optionNo": "B",
+          "text": "经常",
+          "value": "3"
+        },
+        {
+          "id": 10464,
+          "optionNo": "C",
+          "text": "有时",
+          "value": "2"
+        },
+        {
+          "id": 10465,
+          "optionNo": "D",
+          "text": "很少",
+          "value": "1"
+        },
+        {
+          "id": 10466,
+          "optionNo": "E",
+          "text": "从未",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2636,
+      "text": "我觉得胸部紧迫。",
+      "type": "radio",
+      "orderNum": 48,
+      "options": [
+        {
+          "id": 10467,
+          "optionNo": "A",
+          "text": "总是",
+          "value": "4"
+        },
+        {
+          "id": 10468,
+          "optionNo": "B",
+          "text": "经常",
+          "value": "3"
+        },
+        {
+          "id": 10469,
+          "optionNo": "C",
+          "text": "有时",
+          "value": "2"
+        },
+        {
+          "id": 10470,
+          "optionNo": "D",
+          "text": "很少",
+          "value": "1"
+        },
+        {
+          "id": 10471,
+          "optionNo": "E",
+          "text": "从未",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2637,
+      "text": "我呼吸浅促。",
+      "type": "radio",
+      "orderNum": 49,
+      "options": [
+        {
+          "id": 10472,
+          "optionNo": "A",
+          "text": "总是",
+          "value": "4"
+        },
+        {
+          "id": 10473,
+          "optionNo": "B",
+          "text": "经常",
+          "value": "3"
+        },
+        {
+          "id": 10474,
+          "optionNo": "C",
+          "text": "有时",
+          "value": "2"
+        },
+        {
+          "id": 10475,
+          "optionNo": "D",
+          "text": "很少",
+          "value": "1"
+        },
+        {
+          "id": 10476,
+          "optionNo": "E",
+          "text": "从未",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2638,
+      "text": "我发现很难做决定。",
+      "type": "radio",
+      "orderNum": 50,
+      "options": [
+        {
+          "id": 10477,
+          "optionNo": "A",
+          "text": "总是",
+          "value": "4"
+        },
+        {
+          "id": 10478,
+          "optionNo": "B",
+          "text": "经常",
+          "value": "3"
+        },
+        {
+          "id": 10479,
+          "optionNo": "C",
+          "text": "有时",
+          "value": "2"
+        },
+        {
+          "id": 10480,
+          "optionNo": "D",
+          "text": "很少",
+          "value": "1"
+        },
+        {
+          "id": 10481,
+          "optionNo": "E",
+          "text": "从未",
+          "value": "0"
+        }
+      ]
+    }
+  ],
+  "dimensions": [
+    {
+      "id": 318,
+      "num": 1,
+      "dimensionName": "总分",
+      "dimensionCode": "A",
+      "evaluateExpression": "hx_t_1 + hx_t_2 + hx_t_3 + hx_t_4 + hx_t_5 + hx_t_6 + hx_t_7 + hx_t_8 + hx_t_9 + hx_t_10 + hx_t_11 + hx_t_12 + hx_t_13 + hx_t_14 + hx_t_15 + hx_t_16 + hx_t_17 + hx_t_18 + hx_t_19 + hx_t_20 + hx_t_21 + hx_t_22 + hx_t_23 + hx_t_24 + hx_t_25 + hx_t_26 + hx_t_27 + hx_t_28 + hx_t_29 + hx_t_30 + hx_t_31 + hx_t_32 + hx_t_33 + hx_t_34 + hx_t_35 + hx_t_36 + hx_t_37 + hx_t_38 + hx_t_39 + hx_t_40 + hx_t_41 + hx_t_42 + hx_t_43 + hx_t_44 + hx_t_45 + hx_t_46 + hx_t_47 + hx_t_48 + hx_t_49 + hx_t_50",
+      "standardScoreFormula": "0",
+      "results": [
+        {
+          "id": 627,
+          "evaluateExpression": "hx_wd_y_1 >= 0&& hx_wd_y_1 <= 71",
+          "conclusionAnalysis": "心理压力处于正常范围。",
+          "suggestion": "目前处于良好轻松的状态，可以自如地处理各种压力事件，建议日常多了解解压放松的方式。",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 628,
+          "evaluateExpression": "hx_wd_y_1 >= 71&& hx_wd_y_1 <= 81",
+          "conclusionAnalysis": "压力程度中等，可能正开始对健康不利。",
+          "suggestion": "建议：（1）可通过心理音乐、冥想放松进行缓解；（2）了解与压力及压力应对相关的心理学知识，为保持健康的心理状态和生活模式奠定基础。",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 629,
+          "evaluateExpression": "hx_wd_y_1 >= 82&& hx_wd_y_1 <= 92",
+          "conclusionAnalysis": "可能正经历太多的压力，这正在损害健康，并令人际关系发生问题。",
+          "suggestion": "建议： （1）积极学习压力管理技术，合理安排时间，了解目前压力的来源和原因； （2）采用放松技术（深呼吸、肌肉放松、冥想等）来缓解日常压力，注意劳逸结合； （3）如尝试以上方法后仍不能缓解压力，可考虑求助于心理医生。",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 630,
+          "evaluateExpression": "hx_wd_y_1 >= 93&& hx_wd_y_1 <= 200",
+          "conclusionAnalysis": "可能处于极度的压力反应，正在伤害个体的健康。",
+          "suggestion": "建议： （1）尽可能避免额外压力的增加，先处理好目前的事情再作安排； （2）向朋友或家人寻求社会支持，倾诉也是一种很好的减压方法； （3）如果感到实在无法控制，建议尽快接受心理咨询和治疗。",
+          "assessmentWarning": "high"
+        }
+      ]
+    }
+  ]
+}

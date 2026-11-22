@@ -1,0 +1,679 @@
+{
+  "id": "asrs-adhd",
+  "title": "成人ADHD自评量表(ASRS-v1.1)",
+  "description": "本问卷帮助了解您是否存在注意力不集中、多动或冲动等方面的困难，是成人ADHD的筛查工具。共18题，大约需要5分钟完成。",
+  "type": "basic",
+  "questions": [
+    {
+      "text": "在完成有困难的项目或任务的最后阶段时，您在注意细节方面有多大困难？",
+      "type": "radio",
+      "orderNum": 1,
+      "options": [
+        {
+          "text": "从不",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "很少",
+          "value": "1",
+          "optionNo": "B"
+        },
+        {
+          "text": "有时",
+          "value": "2",
+          "optionNo": "C"
+        },
+        {
+          "text": "经常",
+          "value": "3",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常频繁",
+          "value": "4",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "在需要有条理地完成任务或活动时，您有多大困难？",
+      "type": "radio",
+      "orderNum": 2,
+      "options": [
+        {
+          "text": "从不",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "很少",
+          "value": "1",
+          "optionNo": "B"
+        },
+        {
+          "text": "有时",
+          "value": "2",
+          "optionNo": "C"
+        },
+        {
+          "text": "经常",
+          "value": "3",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常频繁",
+          "value": "4",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "在需要记住约会或约定时，您有多大困难？",
+      "type": "radio",
+      "orderNum": 3,
+      "options": [
+        {
+          "text": "从不",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "很少",
+          "value": "1",
+          "optionNo": "B"
+        },
+        {
+          "text": "有时",
+          "value": "2",
+          "optionNo": "C"
+        },
+        {
+          "text": "经常",
+          "value": "3",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常频繁",
+          "value": "4",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "在需要处理一项复杂、需要提前规划的任务时，您有多大困难？",
+      "type": "radio",
+      "orderNum": 4,
+      "options": [
+        {
+          "text": "从不",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "很少",
+          "value": "1",
+          "optionNo": "B"
+        },
+        {
+          "text": "有时",
+          "value": "2",
+          "optionNo": "C"
+        },
+        {
+          "text": "经常",
+          "value": "3",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常频繁",
+          "value": "4",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "在需要处理长篇报告或需要填写的表格时，您有多大困难？",
+      "type": "radio",
+      "orderNum": 5,
+      "options": [
+        {
+          "text": "从不",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "很少",
+          "value": "1",
+          "optionNo": "B"
+        },
+        {
+          "text": "有时",
+          "value": "2",
+          "optionNo": "C"
+        },
+        {
+          "text": "经常",
+          "value": "3",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常频繁",
+          "value": "4",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "在需要把东西放错地方或找不到东西的频率是多少？",
+      "type": "radio",
+      "orderNum": 6,
+      "options": [
+        {
+          "text": "从不",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "很少",
+          "value": "1",
+          "optionNo": "B"
+        },
+        {
+          "text": "有时",
+          "value": "2",
+          "optionNo": "C"
+        },
+        {
+          "text": "经常",
+          "value": "3",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常频繁",
+          "value": "4",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "在需要集中注意力时，您有多大困难保持专注（如阅读、听课）？",
+      "type": "radio",
+      "orderNum": 7,
+      "options": [
+        {
+          "text": "从不",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "很少",
+          "value": "1",
+          "optionNo": "B"
+        },
+        {
+          "text": "有时",
+          "value": "2",
+          "optionNo": "C"
+        },
+        {
+          "text": "经常",
+          "value": "3",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常频繁",
+          "value": "4",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "在需要安静地坐着时（如开会、看电影），您的坐立不安程度如何？",
+      "type": "radio",
+      "orderNum": 8,
+      "options": [
+        {
+          "text": "从不",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "很少",
+          "value": "1",
+          "optionNo": "B"
+        },
+        {
+          "text": "有时",
+          "value": "2",
+          "optionNo": "C"
+        },
+        {
+          "text": "经常",
+          "value": "3",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常频繁",
+          "value": "4",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "在需要安静地独自完成某项任务时，您有多大困难让自己安静下来？",
+      "type": "radio",
+      "orderNum": 9,
+      "options": [
+        {
+          "text": "从不",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "很少",
+          "value": "1",
+          "optionNo": "B"
+        },
+        {
+          "text": "有时",
+          "value": "2",
+          "optionNo": "C"
+        },
+        {
+          "text": "经常",
+          "value": "3",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常频繁",
+          "value": "4",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "在社交场合中（如聚会），您在别人还没说完话时就插嘴的频率是多少？",
+      "type": "radio",
+      "orderNum": 10,
+      "options": [
+        {
+          "text": "从不",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "很少",
+          "value": "1",
+          "optionNo": "B"
+        },
+        {
+          "text": "有时",
+          "value": "2",
+          "optionNo": "C"
+        },
+        {
+          "text": "经常",
+          "value": "3",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常频繁",
+          "value": "4",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "在排队或轮流等待时，您的不耐烦程度如何？",
+      "type": "radio",
+      "orderNum": 11,
+      "options": [
+        {
+          "text": "从不",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "很少",
+          "value": "1",
+          "optionNo": "B"
+        },
+        {
+          "text": "有时",
+          "value": "2",
+          "optionNo": "C"
+        },
+        {
+          "text": "经常",
+          "value": "3",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常频繁",
+          "value": "4",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "在感到不安时，您大声说话或打断他人的频率是多少？",
+      "type": "radio",
+      "orderNum": 12,
+      "options": [
+        {
+          "text": "从不",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "很少",
+          "value": "1",
+          "optionNo": "B"
+        },
+        {
+          "text": "有时",
+          "value": "2",
+          "optionNo": "C"
+        },
+        {
+          "text": "经常",
+          "value": "3",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常频繁",
+          "value": "4",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "在别人要求您坐着不动时，您扭动或坐立不安的程度如何？",
+      "type": "radio",
+      "orderNum": 13,
+      "options": [
+        {
+          "text": "从不",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "很少",
+          "value": "1",
+          "optionNo": "B"
+        },
+        {
+          "text": "有时",
+          "value": "2",
+          "optionNo": "C"
+        },
+        {
+          "text": "经常",
+          "value": "3",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常频繁",
+          "value": "4",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "在需要做自己不太感兴趣的事情时，您集中注意力的困难程度如何？",
+      "type": "radio",
+      "orderNum": 14,
+      "options": [
+        {
+          "text": "从不",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "很少",
+          "value": "1",
+          "optionNo": "B"
+        },
+        {
+          "text": "有时",
+          "value": "2",
+          "optionNo": "C"
+        },
+        {
+          "text": "经常",
+          "value": "3",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常频繁",
+          "value": "4",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "当有事情吸引您注意力时，您从正在进行的工作中分心的频率是多少？",
+      "type": "radio",
+      "orderNum": 15,
+      "options": [
+        {
+          "text": "从不",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "很少",
+          "value": "1",
+          "optionNo": "B"
+        },
+        {
+          "text": "有时",
+          "value": "2",
+          "optionNo": "C"
+        },
+        {
+          "text": "经常",
+          "value": "3",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常频繁",
+          "value": "4",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "在需要安静地坐着时，您感到内心不安的程度如何？",
+      "type": "radio",
+      "orderNum": 16,
+      "options": [
+        {
+          "text": "从不",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "很少",
+          "value": "1",
+          "optionNo": "B"
+        },
+        {
+          "text": "有时",
+          "value": "2",
+          "optionNo": "C"
+        },
+        {
+          "text": "经常",
+          "value": "3",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常频繁",
+          "value": "4",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "在需要等待的场合中，您坐立不安的程度如何？",
+      "type": "radio",
+      "orderNum": 17,
+      "options": [
+        {
+          "text": "从不",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "很少",
+          "value": "1",
+          "optionNo": "B"
+        },
+        {
+          "text": "有时",
+          "value": "2",
+          "optionNo": "C"
+        },
+        {
+          "text": "经常",
+          "value": "3",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常频繁",
+          "value": "4",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "在一天结束时，您感到精力充沛的程度如何？",
+      "type": "radio",
+      "orderNum": 18,
+      "options": [
+        {
+          "text": "从不",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "很少",
+          "value": "1",
+          "optionNo": "B"
+        },
+        {
+          "text": "有时",
+          "value": "2",
+          "optionNo": "C"
+        },
+        {
+          "text": "经常",
+          "value": "3",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常频繁",
+          "value": "4",
+          "optionNo": "E"
+        }
+      ]
+    }
+  ],
+  "dimensions": [
+    {
+      "dimensionName": "注意缺陷",
+      "dimensionCode": "inattention",
+      "num": 1,
+      "evaluateExpression": "hx_t_1 + hx_t_2 + hx_t_3 + hx_t_4 + hx_t_5 + hx_t_6 + hx_t_7 + hx_t_8 + hx_t_9",
+      "standardScoreFormula": "",
+      "results": [
+        {
+          "evaluateExpression": "hx_wd_y_1 <= 9",
+          "conclusionAnalysis": "注意缺陷症状不明显",
+          "suggestion": "您在注意力集中方面表现正常，未发现明显的注意缺陷症状。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_1 > 9 && hx_wd_y_1 <= 15",
+          "conclusionAnalysis": "注意缺陷症状轻微",
+          "suggestion": "您在注意力方面存在一些困难，但程度较轻。建议通过制定计划、减少干扰等方式来提高注意力。",
+          "assessmentWarning": "low"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_1 > 15 && hx_wd_y_1 <= 22",
+          "conclusionAnalysis": "注意缺陷症状中等",
+          "suggestion": "您在注意力方面存在较明显的困难，可能影响学习和工作效率。建议寻求专业评估和指导。",
+          "assessmentWarning": "middle"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_1 > 22",
+          "conclusionAnalysis": "注意缺陷症状严重",
+          "suggestion": "您的注意缺陷症状较为严重，强烈建议尽快寻求专业心理评估。ADHD是可以有效治疗的，专业的帮助可以显著改善您的生活质量。",
+          "assessmentWarning": "high"
+        }
+      ]
+    },
+    {
+      "dimensionName": "多动冲动",
+      "dimensionCode": "hyperactivity",
+      "num": 2,
+      "evaluateExpression": "hx_t_10 + hx_t_11 + hx_t_12 + hx_t_13 + hx_t_14 + hx_t_15 + hx_t_16 + hx_t_17 + hx_t_18",
+      "standardScoreFormula": "",
+      "results": [
+        {
+          "evaluateExpression": "hx_wd_y_2 <= 9",
+          "conclusionAnalysis": "多动冲动症状不明显",
+          "suggestion": "您在行为控制方面表现正常，未发现明显的多动或冲动症状。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_2 > 9 && hx_wd_y_2 <= 15",
+          "conclusionAnalysis": "多动冲动症状轻微",
+          "suggestion": "您偶尔会有多动或冲动的表现，但程度较轻。建议练习深呼吸和暂停思考等自我调节技巧。",
+          "assessmentWarning": "low"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_2 > 15 && hx_wd_y_2 <= 22",
+          "conclusionAnalysis": "多动冲动症状中等",
+          "suggestion": "您存在较明显的多动或冲动症状，可能影响人际关系和日常活动。建议寻求专业评估和指导。",
+          "assessmentWarning": "middle"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_2 > 22",
+          "conclusionAnalysis": "多动冲动症状严重",
+          "suggestion": "您的多动冲动症状较为严重，强烈建议尽快寻求专业心理评估。专业的行为管理和药物治疗可以有效帮助您。",
+          "assessmentWarning": "high"
+        }
+      ]
+    },
+    {
+      "dimensionName": "ADHD总分",
+      "dimensionCode": "total",
+      "num": 3,
+      "evaluateExpression": "hx_t_1 + hx_t_2 + hx_t_3 + hx_t_4 + hx_t_5 + hx_t_6 + hx_t_7 + hx_t_8 + hx_t_9 + hx_t_10 + hx_t_11 + hx_t_12 + hx_t_13 + hx_t_14 + hx_t_15 + hx_t_16 + hx_t_17 + hx_t_18",
+      "standardScoreFormula": "",
+      "results": [
+        {
+          "evaluateExpression": "hx_wd_y_3 <= 16",
+          "conclusionAnalysis": "不太可能有ADHD",
+          "suggestion": "您的得分较低，不太可能患有注意力缺陷多动障碍（ADHD）。如果您仍然感到困扰，建议关注日常习惯和压力管理。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_3 > 16 && hx_wd_y_3 <= 23",
+          "conclusionAnalysis": "可能有ADHD",
+          "suggestion": "您的得分表明您可能有ADHD的特征。建议进行专业的心理评估，以确定是否需要进一步的支持和干预。",
+          "assessmentWarning": "low"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_3 > 23",
+          "conclusionAnalysis": "非常可能有ADHD",
+          "suggestion": "您的得分较高，强烈建议尽快寻求专业心理评估。ADHD是一种可以有效管理的神经发育障碍，早期识别和干预对改善生活质量非常重要。",
+          "assessmentWarning": "high"
+        }
+      ]
+    }
+  ]
+}

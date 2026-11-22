@@ -1,0 +1,598 @@
+{
+  "id": "mcsds-social-desirability",
+  "title": "马洛-克罗恩社会赞许性量表(MC-SDS)",
+  "description": "Marlowe-Crowne Social Desirability Scale (MC-SDS)，Crowne & Marlowe (1960) 编制，用于测量个体在自我报告中倾向于以社会赞许方式作答的程度。共33题，对/错二选一计分，总分0-33分。分数越高表示社会赞许性倾向越强。常模参考：均值15.5(SD=4.4)。",
+  "type": "basic",
+  "questions": [
+    {
+      "text": "在投票前，我会彻底调查所有候选人的资格。",
+      "type": "radio",
+      "orderNum": 1,
+      "options": [
+        {
+          "text": "对",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "错",
+          "value": "0",
+          "optionNo": "B"
+        }
+      ]
+    },
+    {
+      "text": "我从不犹豫去帮助有困难的人。",
+      "type": "radio",
+      "orderNum": 2,
+      "options": [
+        {
+          "text": "对",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "错",
+          "value": "0",
+          "optionNo": "B"
+        }
+      ]
+    },
+    {
+      "text": "如果没有受到鼓励，我有时很难继续工作。",
+      "type": "radio",
+      "orderNum": 3,
+      "options": [
+        {
+          "text": "对",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "错",
+          "value": "1",
+          "optionNo": "B"
+        }
+      ]
+    },
+    {
+      "text": "我从未讨厌过任何人。",
+      "type": "radio",
+      "orderNum": 4,
+      "options": [
+        {
+          "text": "对",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "错",
+          "value": "0",
+          "optionNo": "B"
+        }
+      ]
+    },
+    {
+      "text": "我有时会怀疑自己能否在人生中取得成功。",
+      "type": "radio",
+      "orderNum": 5,
+      "options": [
+        {
+          "text": "对",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "错",
+          "value": "1",
+          "optionNo": "B"
+        }
+      ]
+    },
+    {
+      "text": "当我不能如愿时，我有时会感到怨恨。",
+      "type": "radio",
+      "orderNum": 6,
+      "options": [
+        {
+          "text": "对",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "错",
+          "value": "1",
+          "optionNo": "B"
+        }
+      ]
+    },
+    {
+      "text": "我总是注意自己的穿着打扮。",
+      "type": "radio",
+      "orderNum": 7,
+      "options": [
+        {
+          "text": "对",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "错",
+          "value": "0",
+          "optionNo": "B"
+        }
+      ]
+    },
+    {
+      "text": "我在家里的餐桌礼仪和在餐厅吃饭时一样好。",
+      "type": "radio",
+      "orderNum": 8,
+      "options": [
+        {
+          "text": "对",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "错",
+          "value": "1",
+          "optionNo": "B"
+        }
+      ]
+    },
+    {
+      "text": "如果我能逃票看一场电影，且确保没人看到，我可能会这样做。",
+      "type": "radio",
+      "orderNum": 9,
+      "options": [
+        {
+          "text": "对",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "错",
+          "value": "1",
+          "optionNo": "B"
+        }
+      ]
+    },
+    {
+      "text": "有几次，我因为觉得自己能力不够而放弃了做某事。",
+      "type": "radio",
+      "orderNum": 10,
+      "options": [
+        {
+          "text": "对",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "错",
+          "value": "1",
+          "optionNo": "B"
+        }
+      ]
+    },
+    {
+      "text": "我有时喜欢说闲话。",
+      "type": "radio",
+      "orderNum": 11,
+      "options": [
+        {
+          "text": "对",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "错",
+          "value": "1",
+          "optionNo": "B"
+        }
+      ]
+    },
+    {
+      "text": "我偶尔会想要打破规则或法律。",
+      "type": "radio",
+      "orderNum": 12,
+      "options": [
+        {
+          "text": "对",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "错",
+          "value": "1",
+          "optionNo": "B"
+        }
+      ]
+    },
+    {
+      "text": "在争论中，我偶尔会想要说一些刻薄的话来反驳对方。",
+      "type": "radio",
+      "orderNum": 13,
+      "options": [
+        {
+          "text": "对",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "错",
+          "value": "1",
+          "optionNo": "B"
+        }
+      ]
+    },
+    {
+      "text": "我总是乐于承认自己的错误。",
+      "type": "radio",
+      "orderNum": 14,
+      "options": [
+        {
+          "text": "对",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "错",
+          "value": "0",
+          "optionNo": "B"
+        }
+      ]
+    },
+    {
+      "text": "我总是对他人彬彬有礼，即使对令人讨厌的人也是如此。",
+      "type": "radio",
+      "orderNum": 15,
+      "options": [
+        {
+          "text": "对",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "错",
+          "value": "0",
+          "optionNo": "B"
+        }
+      ]
+    },
+    {
+      "text": "我从未想过为了自己的利益而欺骗他人。",
+      "type": "radio",
+      "orderNum": 16,
+      "options": [
+        {
+          "text": "对",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "错",
+          "value": "0",
+          "optionNo": "B"
+        }
+      ]
+    },
+    {
+      "text": "我有时觉得别人的好运让我嫉妒。",
+      "type": "radio",
+      "orderNum": 17,
+      "options": [
+        {
+          "text": "对",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "错",
+          "value": "0",
+          "optionNo": "B"
+        }
+      ]
+    },
+    {
+      "text": "我总是会向别人道歉，如果我做了伤害他们的事。",
+      "type": "radio",
+      "orderNum": 18,
+      "options": [
+        {
+          "text": "对",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "错",
+          "value": "0",
+          "optionNo": "B"
+        }
+      ]
+    },
+    {
+      "text": "我偶尔会有不好的念头。",
+      "type": "radio",
+      "orderNum": 19,
+      "options": [
+        {
+          "text": "对",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "错",
+          "value": "1",
+          "optionNo": "B"
+        }
+      ]
+    },
+    {
+      "text": "我有时觉得很难原谅那些冒犯了我的人。",
+      "type": "radio",
+      "orderNum": 20,
+      "options": [
+        {
+          "text": "对",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "错",
+          "value": "1",
+          "optionNo": "B"
+        }
+      ]
+    },
+    {
+      "text": "在对别人做出承诺之前，我会仔细考虑。",
+      "type": "radio",
+      "orderNum": 21,
+      "options": [
+        {
+          "text": "对",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "错",
+          "value": "0",
+          "optionNo": "B"
+        }
+      ]
+    },
+    {
+      "text": "我偶尔会利用别人。",
+      "type": "radio",
+      "orderNum": 22,
+      "options": [
+        {
+          "text": "对",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "错",
+          "value": "1",
+          "optionNo": "B"
+        }
+      ]
+    },
+    {
+      "text": "我偶尔会和别人争论。",
+      "type": "radio",
+      "orderNum": 23,
+      "options": [
+        {
+          "text": "对",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "错",
+          "value": "1",
+          "optionNo": "B"
+        }
+      ]
+    },
+    {
+      "text": "当我不被允许做某件事时，我有时会感到不满。",
+      "type": "radio",
+      "orderNum": 24,
+      "options": [
+        {
+          "text": "对",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "错",
+          "value": "1",
+          "optionNo": "B"
+        }
+      ]
+    },
+    {
+      "text": "我做事总是有始有终。",
+      "type": "radio",
+      "orderNum": 25,
+      "options": [
+        {
+          "text": "对",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "错",
+          "value": "0",
+          "optionNo": "B"
+        }
+      ]
+    },
+    {
+      "text": "我偶尔会违反交通规则。",
+      "type": "radio",
+      "orderNum": 26,
+      "options": [
+        {
+          "text": "对",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "错",
+          "value": "1",
+          "optionNo": "B"
+        }
+      ]
+    },
+    {
+      "text": "我总是说到做到。",
+      "type": "radio",
+      "orderNum": 27,
+      "options": [
+        {
+          "text": "对",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "错",
+          "value": "0",
+          "optionNo": "B"
+        }
+      ]
+    },
+    {
+      "text": "我从不在背后说别人坏话。",
+      "type": "radio",
+      "orderNum": 28,
+      "options": [
+        {
+          "text": "对",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "错",
+          "value": "0",
+          "optionNo": "B"
+        }
+      ]
+    },
+    {
+      "text": "我偶尔会对别人的行为感到恼火。",
+      "type": "radio",
+      "orderNum": 29,
+      "options": [
+        {
+          "text": "对",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "错",
+          "value": "1",
+          "optionNo": "B"
+        }
+      ]
+    },
+    {
+      "text": "我总是按时完成工作。",
+      "type": "radio",
+      "orderNum": 30,
+      "options": [
+        {
+          "text": "对",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "错",
+          "value": "0",
+          "optionNo": "B"
+        }
+      ]
+    },
+    {
+      "text": "我从不觉得自己是无用之人。",
+      "type": "radio",
+      "orderNum": 31,
+      "options": [
+        {
+          "text": "对",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "错",
+          "value": "0",
+          "optionNo": "B"
+        }
+      ]
+    },
+    {
+      "text": "我偶尔会因为自己的粗心而犯错。",
+      "type": "radio",
+      "orderNum": 32,
+      "options": [
+        {
+          "text": "对",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "错",
+          "value": "1",
+          "optionNo": "B"
+        }
+      ]
+    },
+    {
+      "text": "我从小到大从来没有撒过谎。",
+      "type": "radio",
+      "orderNum": 33,
+      "options": [
+        {
+          "text": "对",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "错",
+          "value": "0",
+          "optionNo": "B"
+        }
+      ]
+    }
+  ],
+  "dimensions": [
+    {
+      "dimensionName": "社会赞许性",
+      "dimensionCode": "social_desirability",
+      "num": 1,
+      "evaluateExpression": "hx_t_1 + hx_t_2 + hx_t_3 + hx_t_4 + hx_t_5 + hx_t_6 + hx_t_7 + hx_t_8 + hx_t_9 + hx_t_10 + hx_t_11 + hx_t_12 + hx_t_13 + hx_t_14 + hx_t_15 + hx_t_16 + hx_t_17 + hx_t_18 + hx_t_19 + hx_t_20 + hx_t_21 + hx_t_22 + hx_t_23 + hx_t_24 + hx_t_25 + hx_t_26 + hx_t_27 + hx_t_28 + hx_t_29 + hx_t_30 + hx_t_31 + hx_t_32 + hx_t_33",
+      "standardScoreFormula": "",
+      "results": [
+        {
+          "evaluateExpression": "hx_wd_y_1 <= 8",
+          "conclusionAnalysis": "社会赞许性较低",
+          "suggestion": "您的社会赞许性反应较低，说明您在问卷作答中较为坦诚，没有刻意迎合社会期望。这是积极的自我认知表现。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_1 > 8 && hx_wd_y_1 <= 19",
+          "conclusionAnalysis": "社会赞许性处于平均水平",
+          "suggestion": "您的社会赞许性得分处于正常范围，说明您在自我呈现与真实性之间保持了较好的平衡。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_1 > 19 && hx_wd_y_1 <= 33",
+          "conclusionAnalysis": "社会赞许性较高",
+          "suggestion": "您的社会赞许性得分较高，说明您倾向于以社会期望的方式作答。这可能反映了您对自我形象的高度重视，也可能意味着某些自我认知存在偏差。建议结合其他测评结果综合分析。",
+          "assessmentWarning": "low"
+        }
+      ]
+    }
+  ]
+}

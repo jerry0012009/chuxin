@@ -1,0 +1,784 @@
+{
+  "id": "oci-r-ocd",
+  "title": "强迫症量表修订版(OCI-R)",
+  "description": "Obsessive-Compulsive Inventory Revised (OCI-R)，Foa等(2002)编制，测量清洗、检查、排序、强迫思维、囤积五个维度（18题）。5点计分（0=完全没有到4=极重度），总分0-72，临床截断值≥21。",
+  "type": "basic",
+  "questions": [
+    {
+      "text": "我囤积了太多东西，以至于它们妨碍了我的生活。",
+      "type": "radio",
+      "orderNum": 1,
+      "options": [
+        {
+          "text": "完全没有",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "轻度",
+          "value": "1",
+          "optionNo": "B"
+        },
+        {
+          "text": "中度",
+          "value": "2",
+          "optionNo": "C"
+        },
+        {
+          "text": "重度",
+          "value": "3",
+          "optionNo": "D"
+        },
+        {
+          "text": "极重度",
+          "value": "4",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "我检查东西的次数比必要的多得多。",
+      "type": "radio",
+      "orderNum": 2,
+      "options": [
+        {
+          "text": "完全没有",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "轻度",
+          "value": "1",
+          "optionNo": "B"
+        },
+        {
+          "text": "中度",
+          "value": "2",
+          "optionNo": "C"
+        },
+        {
+          "text": "重度",
+          "value": "3",
+          "optionNo": "D"
+        },
+        {
+          "text": "极重度",
+          "value": "4",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "我反复检查门、窗、抽屉等是否关好。",
+      "type": "radio",
+      "orderNum": 3,
+      "options": [
+        {
+          "text": "完全没有",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "轻度",
+          "value": "1",
+          "optionNo": "B"
+        },
+        {
+          "text": "中度",
+          "value": "2",
+          "optionNo": "C"
+        },
+        {
+          "text": "重度",
+          "value": "3",
+          "optionNo": "D"
+        },
+        {
+          "text": "极重度",
+          "value": "4",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "我发现自己很难控制某些想法。",
+      "type": "radio",
+      "orderNum": 4,
+      "options": [
+        {
+          "text": "完全没有",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "轻度",
+          "value": "1",
+          "optionNo": "B"
+        },
+        {
+          "text": "中度",
+          "value": "2",
+          "optionNo": "C"
+        },
+        {
+          "text": "重度",
+          "value": "3",
+          "optionNo": "D"
+        },
+        {
+          "text": "极重度",
+          "value": "4",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "我有时觉得自己被污染了，必须清洗或清洁自己。",
+      "type": "radio",
+      "orderNum": 5,
+      "options": [
+        {
+          "text": "完全没有",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "轻度",
+          "value": "1",
+          "optionNo": "B"
+        },
+        {
+          "text": "中度",
+          "value": "2",
+          "optionNo": "C"
+        },
+        {
+          "text": "重度",
+          "value": "3",
+          "optionNo": "D"
+        },
+        {
+          "text": "极重度",
+          "value": "4",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "违背我意愿的不愉快想法进入我的脑海，让我心烦。",
+      "type": "radio",
+      "orderNum": 6,
+      "options": [
+        {
+          "text": "完全没有",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "轻度",
+          "value": "1",
+          "optionNo": "B"
+        },
+        {
+          "text": "中度",
+          "value": "2",
+          "optionNo": "C"
+        },
+        {
+          "text": "重度",
+          "value": "3",
+          "optionNo": "D"
+        },
+        {
+          "text": "极重度",
+          "value": "4",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "我觉得自己需要一遍又一遍地检查东西。",
+      "type": "radio",
+      "orderNum": 7,
+      "options": [
+        {
+          "text": "完全没有",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "轻度",
+          "value": "1",
+          "optionNo": "B"
+        },
+        {
+          "text": "中度",
+          "value": "2",
+          "optionNo": "C"
+        },
+        {
+          "text": "重度",
+          "value": "3",
+          "optionNo": "D"
+        },
+        {
+          "text": "极重度",
+          "value": "4",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "如果物品没有摆放整齐，我会感到不安。",
+      "type": "radio",
+      "orderNum": 8,
+      "options": [
+        {
+          "text": "完全没有",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "轻度",
+          "value": "1",
+          "optionNo": "B"
+        },
+        {
+          "text": "中度",
+          "value": "2",
+          "optionNo": "C"
+        },
+        {
+          "text": "重度",
+          "value": "3",
+          "optionNo": "D"
+        },
+        {
+          "text": "极重度",
+          "value": "4",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "我害怕扔掉东西，因为我以后可能需要它们。",
+      "type": "radio",
+      "orderNum": 9,
+      "options": [
+        {
+          "text": "完全没有",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "轻度",
+          "value": "1",
+          "optionNo": "B"
+        },
+        {
+          "text": "中度",
+          "value": "2",
+          "optionNo": "C"
+        },
+        {
+          "text": "重度",
+          "value": "3",
+          "optionNo": "D"
+        },
+        {
+          "text": "极重度",
+          "value": "4",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "我担心丢失东西，或者扔掉以后可能需要的东西。",
+      "type": "radio",
+      "orderNum": 10,
+      "options": [
+        {
+          "text": "完全没有",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "轻度",
+          "value": "1",
+          "optionNo": "B"
+        },
+        {
+          "text": "中度",
+          "value": "2",
+          "optionNo": "C"
+        },
+        {
+          "text": "重度",
+          "value": "3",
+          "optionNo": "D"
+        },
+        {
+          "text": "极重度",
+          "value": "4",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "当我觉得自己被污染时，很难不去洗手。",
+      "type": "radio",
+      "orderNum": 11,
+      "options": [
+        {
+          "text": "完全没有",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "轻度",
+          "value": "1",
+          "optionNo": "B"
+        },
+        {
+          "text": "中度",
+          "value": "2",
+          "optionNo": "C"
+        },
+        {
+          "text": "重度",
+          "value": "3",
+          "optionNo": "D"
+        },
+        {
+          "text": "极重度",
+          "value": "4",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "当我知道某个物体被陌生人碰过时，我很难去碰它。",
+      "type": "radio",
+      "orderNum": 12,
+      "options": [
+        {
+          "text": "完全没有",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "轻度",
+          "value": "1",
+          "optionNo": "B"
+        },
+        {
+          "text": "中度",
+          "value": "2",
+          "optionNo": "C"
+        },
+        {
+          "text": "重度",
+          "value": "3",
+          "optionNo": "D"
+        },
+        {
+          "text": "极重度",
+          "value": "4",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "侵入性的想法让我感到困扰，且难以控制。",
+      "type": "radio",
+      "orderNum": 13,
+      "options": [
+        {
+          "text": "完全没有",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "轻度",
+          "value": "1",
+          "optionNo": "B"
+        },
+        {
+          "text": "中度",
+          "value": "2",
+          "optionNo": "C"
+        },
+        {
+          "text": "重度",
+          "value": "3",
+          "optionNo": "D"
+        },
+        {
+          "text": "极重度",
+          "value": "4",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "我反复检查煤气、水龙头、电灯开关等。",
+      "type": "radio",
+      "orderNum": 14,
+      "options": [
+        {
+          "text": "完全没有",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "轻度",
+          "value": "1",
+          "optionNo": "B"
+        },
+        {
+          "text": "中度",
+          "value": "2",
+          "optionNo": "C"
+        },
+        {
+          "text": "重度",
+          "value": "3",
+          "optionNo": "D"
+        },
+        {
+          "text": "极重度",
+          "value": "4",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "我洗手的次数比必要的多，或洗的时间比必要的长。",
+      "type": "radio",
+      "orderNum": 15,
+      "options": [
+        {
+          "text": "完全没有",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "轻度",
+          "value": "1",
+          "optionNo": "B"
+        },
+        {
+          "text": "中度",
+          "value": "2",
+          "optionNo": "C"
+        },
+        {
+          "text": "重度",
+          "value": "3",
+          "optionNo": "D"
+        },
+        {
+          "text": "极重度",
+          "value": "4",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "我需要把东西按照特定的方式排列整齐。",
+      "type": "radio",
+      "orderNum": 16,
+      "options": [
+        {
+          "text": "完全没有",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "轻度",
+          "value": "1",
+          "optionNo": "B"
+        },
+        {
+          "text": "中度",
+          "value": "2",
+          "optionNo": "C"
+        },
+        {
+          "text": "重度",
+          "value": "3",
+          "optionNo": "D"
+        },
+        {
+          "text": "极重度",
+          "value": "4",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "我觉得某些数字有好坏之分，或者它们会带来好运或厄运。",
+      "type": "radio",
+      "orderNum": 17,
+      "options": [
+        {
+          "text": "完全没有",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "轻度",
+          "value": "1",
+          "optionNo": "B"
+        },
+        {
+          "text": "中度",
+          "value": "2",
+          "optionNo": "C"
+        },
+        {
+          "text": "重度",
+          "value": "3",
+          "optionNo": "D"
+        },
+        {
+          "text": "极重度",
+          "value": "4",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "我害怕自己会丢掉重要的东西。",
+      "type": "radio",
+      "orderNum": 18,
+      "options": [
+        {
+          "text": "完全没有",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "轻度",
+          "value": "1",
+          "optionNo": "B"
+        },
+        {
+          "text": "中度",
+          "value": "2",
+          "optionNo": "C"
+        },
+        {
+          "text": "重度",
+          "value": "3",
+          "optionNo": "D"
+        },
+        {
+          "text": "极重度",
+          "value": "4",
+          "optionNo": "E"
+        }
+      ]
+    }
+  ],
+  "dimensions": [
+    {
+      "dimensionName": "清洗",
+      "dimensionCode": "washing",
+      "num": 1,
+      "evaluateExpression": "hx_t_2 + hx_t_5 + hx_t_11 + hx_t_15",
+      "standardScoreFormula": "",
+      "results": [
+        {
+          "evaluateExpression": "hx_wd_y_1 <= 2",
+          "conclusionAnalysis": "清洗倾向较低",
+          "suggestion": "您的清洗/清洁相关强迫症状较轻。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_1 > 2 && hx_wd_y_1 <= 5",
+          "conclusionAnalysis": "清洗倾向中等",
+          "suggestion": "您存在一定的清洗/清洁相关强迫症状，建议关注。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_1 > 5 && hx_wd_y_1 <= 8",
+          "conclusionAnalysis": "清洗倾向偏高",
+          "suggestion": "您的清洗相关症状得分偏高，建议关注清洁行为是否影响日常生活。",
+          "assessmentWarning": "low"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_1 > 8",
+          "conclusionAnalysis": "清洗倾向异常偏高",
+          "suggestion": "您的清洗相关症状明显偏高，建议寻求专业心理评估。",
+          "assessmentWarning": "middle"
+        }
+      ]
+    },
+    {
+      "dimensionName": "检查",
+      "dimensionCode": "checking",
+      "num": 2,
+      "evaluateExpression": "hx_t_3 + hx_t_7 + hx_t_14 + hx_t_17",
+      "standardScoreFormula": "",
+      "results": [
+        {
+          "evaluateExpression": "hx_wd_y_2 <= 2",
+          "conclusionAnalysis": "检查倾向较低",
+          "suggestion": "您的检查相关强迫症状较轻。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_2 > 2 && hx_wd_y_2 <= 5",
+          "conclusionAnalysis": "检查倾向中等",
+          "suggestion": "您存在一定的检查相关强迫症状，建议关注。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_2 > 5 && hx_wd_y_2 <= 8",
+          "conclusionAnalysis": "检查倾向偏高",
+          "suggestion": "您的检查行为得分偏高，建议关注是否反复检查影响效率。",
+          "assessmentWarning": "low"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_2 > 8",
+          "conclusionAnalysis": "检查倾向异常偏高",
+          "suggestion": "您的检查相关症状明显偏高，建议寻求专业心理评估。",
+          "assessmentWarning": "middle"
+        }
+      ]
+    },
+    {
+      "dimensionName": "排序",
+      "dimensionCode": "ordering",
+      "num": 3,
+      "evaluateExpression": "hx_t_4 + hx_t_8 + hx_t_12 + hx_t_16",
+      "standardScoreFormula": "",
+      "results": [
+        {
+          "evaluateExpression": "hx_wd_y_3 <= 2",
+          "conclusionAnalysis": "排序倾向较低",
+          "suggestion": "您的排序/排列相关强迫症状较轻。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_3 > 2 && hx_wd_y_3 <= 5",
+          "conclusionAnalysis": "排序倾向中等",
+          "suggestion": "您存在一定的排序相关强迫症状，建议关注。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_3 > 5 && hx_wd_y_3 <= 8",
+          "conclusionAnalysis": "排序倾向偏高",
+          "suggestion": "您的排序行为得分偏高，建议关注对整齐和对称的需求。",
+          "assessmentWarning": "low"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_3 > 8",
+          "conclusionAnalysis": "排序倾向异常偏高",
+          "suggestion": "您的排序相关症状明显偏高，建议寻求专业心理评估。",
+          "assessmentWarning": "middle"
+        }
+      ]
+    },
+    {
+      "dimensionName": "强迫思维",
+      "dimensionCode": "obsessing",
+      "num": 4,
+      "evaluateExpression": "hx_t_1 + hx_t_6 + hx_t_10 + hx_t_13",
+      "standardScoreFormula": "",
+      "results": [
+        {
+          "evaluateExpression": "hx_wd_y_4 <= 2",
+          "conclusionAnalysis": "强迫思维较少",
+          "suggestion": "您的侵入性思维相关症状较轻。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_4 > 2 && hx_wd_y_4 <= 5",
+          "conclusionAnalysis": "强迫思维中等",
+          "suggestion": "您存在一定的侵入性思维，建议关注。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_4 > 5 && hx_wd_y_4 <= 8",
+          "conclusionAnalysis": "强迫思维偏高",
+          "suggestion": "您的侵入性思维得分偏高，建议关注思维控制能力。",
+          "assessmentWarning": "low"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_4 > 8",
+          "conclusionAnalysis": "强迫思维异常偏高",
+          "suggestion": "您的侵入性思维症状明显偏高，建议寻求专业心理评估。",
+          "assessmentWarning": "middle"
+        }
+      ]
+    },
+    {
+      "dimensionName": "囤积",
+      "dimensionCode": "hoarding",
+      "num": 5,
+      "evaluateExpression": "hx_t_9 + hx_t_18",
+      "standardScoreFormula": "",
+      "results": [
+        {
+          "evaluateExpression": "hx_wd_y_5 <= 1",
+          "conclusionAnalysis": "囤积倾向较低",
+          "suggestion": "您的囤积相关症状较轻。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_5 > 1 && hx_wd_y_5 <= 3",
+          "conclusionAnalysis": "囤积倾向中等",
+          "suggestion": "您存在一定的囤积倾向，建议关注。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_5 > 3 && hx_wd_y_5 <= 5",
+          "conclusionAnalysis": "囤积倾向偏高",
+          "suggestion": "您的囤积行为得分偏高，建议关注是否影响生活空间。",
+          "assessmentWarning": "low"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_5 > 5",
+          "conclusionAnalysis": "囤积倾向异常偏高",
+          "suggestion": "您的囤积症状明显偏高，建议寻求专业心理评估。",
+          "assessmentWarning": "middle"
+        }
+      ]
+    },
+    {
+      "dimensionName": "总分",
+      "dimensionCode": "total",
+      "num": 6,
+      "evaluateExpression": "hx_t_1 + hx_t_2 + hx_t_3 + hx_t_4 + hx_t_5 + hx_t_6 + hx_t_7 + hx_t_8 + hx_t_9 + hx_t_10 + hx_t_11 + hx_t_12 + hx_t_13 + hx_t_14 + hx_t_15 + hx_t_16 + hx_t_17 + hx_t_18",
+      "standardScoreFormula": "",
+      "results": [
+        {
+          "evaluateExpression": "hx_wd_y_6 <= 10",
+          "conclusionAnalysis": "强迫症状较轻",
+          "suggestion": "您的OCI-R总分较低，强迫症状不明显。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_6 > 10 && hx_wd_y_6 <= 20",
+          "conclusionAnalysis": "强迫症状轻度",
+          "suggestion": "您的OCI-R总分处于轻度范围，可能存在轻微的强迫症状。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_6 >= 21 && hx_wd_y_6 <= 35",
+          "conclusionAnalysis": "强迫症状中度",
+          "suggestion": "您的OCI-R总分达到临床筛查标准（≥21），建议进一步评估。",
+          "assessmentWarning": "low"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_6 > 35",
+          "conclusionAnalysis": "强迫症状重度",
+          "suggestion": "您的OCI-R总分显著偏高（≥21为临床截断值），强烈建议寻求专业心理评估和干预。",
+          "assessmentWarning": "high"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,815 @@
+{
+  "id": "pcl5-ptsd",
+  "title": "创伤后应激障碍检查表(PCL-5)",
+  "description": "本问卷用于评估创伤后应激障碍(PTSD)症状的严重程度，包括反复回忆、回避、情绪变化等方面。共20题，大约需要5分钟完成。",
+  "type": "basic",
+  "questions": [
+    {
+      "text": "在过去一个月中，反复发生令人不安的记忆、想法或画面？",
+      "type": "radio",
+      "orderNum": 1,
+      "options": [
+        {
+          "text": "完全没有",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "有一点",
+          "value": "1",
+          "optionNo": "B"
+        },
+        {
+          "text": "中度",
+          "value": "2",
+          "optionNo": "C"
+        },
+        {
+          "text": "相当程度",
+          "value": "3",
+          "optionNo": "D"
+        },
+        {
+          "text": "极度",
+          "value": "4",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "在过去一个月中，反复发生令人不安的梦境？",
+      "type": "radio",
+      "orderNum": 2,
+      "options": [
+        {
+          "text": "完全没有",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "有一点",
+          "value": "1",
+          "optionNo": "B"
+        },
+        {
+          "text": "中度",
+          "value": "2",
+          "optionNo": "C"
+        },
+        {
+          "text": "相当程度",
+          "value": "3",
+          "optionNo": "D"
+        },
+        {
+          "text": "极度",
+          "value": "4",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "在过去一个月中，突然感觉或表现得好像创伤事件再次发生（好像您正在重新经历该事件）？",
+      "type": "radio",
+      "orderNum": 3,
+      "options": [
+        {
+          "text": "完全没有",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "有一点",
+          "value": "1",
+          "optionNo": "B"
+        },
+        {
+          "text": "中度",
+          "value": "2",
+          "optionNo": "C"
+        },
+        {
+          "text": "相当程度",
+          "value": "3",
+          "optionNo": "D"
+        },
+        {
+          "text": "极度",
+          "value": "4",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "在过去一个月中，当某些事物让您想起创伤事件时，感到非常不安？",
+      "type": "radio",
+      "orderNum": 4,
+      "options": [
+        {
+          "text": "完全没有",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "有一点",
+          "value": "1",
+          "optionNo": "B"
+        },
+        {
+          "text": "中度",
+          "value": "2",
+          "optionNo": "C"
+        },
+        {
+          "text": "相当程度",
+          "value": "3",
+          "optionNo": "D"
+        },
+        {
+          "text": "极度",
+          "value": "4",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "在过去一个月中，当某些事物让您想起创伤事件时，身体出现强烈反应（如心跳加速、呼吸困难、出汗）？",
+      "type": "radio",
+      "orderNum": 5,
+      "options": [
+        {
+          "text": "完全没有",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "有一点",
+          "value": "1",
+          "optionNo": "B"
+        },
+        {
+          "text": "中度",
+          "value": "2",
+          "optionNo": "C"
+        },
+        {
+          "text": "相当程度",
+          "value": "3",
+          "optionNo": "D"
+        },
+        {
+          "text": "极度",
+          "value": "4",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "在过去一个月中，避免与创伤事件相关的记忆、想法或感受？",
+      "type": "radio",
+      "orderNum": 6,
+      "options": [
+        {
+          "text": "完全没有",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "有一点",
+          "value": "1",
+          "optionNo": "B"
+        },
+        {
+          "text": "中度",
+          "value": "2",
+          "optionNo": "C"
+        },
+        {
+          "text": "相当程度",
+          "value": "3",
+          "optionNo": "D"
+        },
+        {
+          "text": "极度",
+          "value": "4",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "在过去一个月中，避免与创伤事件相关的人、地方、活动或情境？",
+      "type": "radio",
+      "orderNum": 7,
+      "options": [
+        {
+          "text": "完全没有",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "有一点",
+          "value": "1",
+          "optionNo": "B"
+        },
+        {
+          "text": "中度",
+          "value": "2",
+          "optionNo": "C"
+        },
+        {
+          "text": "相当程度",
+          "value": "3",
+          "optionNo": "D"
+        },
+        {
+          "text": "极度",
+          "value": "4",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "在过去一个月中，对创伤事件的重要部分记不清楚？",
+      "type": "radio",
+      "orderNum": 8,
+      "options": [
+        {
+          "text": "完全没有",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "有一点",
+          "value": "1",
+          "optionNo": "B"
+        },
+        {
+          "text": "中度",
+          "value": "2",
+          "optionNo": "C"
+        },
+        {
+          "text": "相当程度",
+          "value": "3",
+          "optionNo": "D"
+        },
+        {
+          "text": "极度",
+          "value": "4",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "在过去一个月中，对自己或他人持有强烈的负面信念（如\"我是坏人\"\"没有人可以信任\"）？",
+      "type": "radio",
+      "orderNum": 9,
+      "options": [
+        {
+          "text": "完全没有",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "有一点",
+          "value": "1",
+          "optionNo": "B"
+        },
+        {
+          "text": "中度",
+          "value": "2",
+          "optionNo": "C"
+        },
+        {
+          "text": "相当程度",
+          "value": "3",
+          "optionNo": "D"
+        },
+        {
+          "text": "极度",
+          "value": "4",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "在过去一个月中，持续地自责或怪罪他人？",
+      "type": "radio",
+      "orderNum": 10,
+      "options": [
+        {
+          "text": "完全没有",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "有一点",
+          "value": "1",
+          "optionNo": "B"
+        },
+        {
+          "text": "中度",
+          "value": "2",
+          "optionNo": "C"
+        },
+        {
+          "text": "相当程度",
+          "value": "3",
+          "optionNo": "D"
+        },
+        {
+          "text": "极度",
+          "value": "4",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "在过去一个月中，有强烈的负面情绪，如恐惧、愤怒、内疚或羞耻？",
+      "type": "radio",
+      "orderNum": 11,
+      "options": [
+        {
+          "text": "完全没有",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "有一点",
+          "value": "1",
+          "optionNo": "B"
+        },
+        {
+          "text": "中度",
+          "value": "2",
+          "optionNo": "C"
+        },
+        {
+          "text": "相当程度",
+          "value": "3",
+          "optionNo": "D"
+        },
+        {
+          "text": "极度",
+          "value": "4",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "在过去一个月中，对重要活动失去兴趣或不再参与？",
+      "type": "radio",
+      "orderNum": 12,
+      "options": [
+        {
+          "text": "完全没有",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "有一点",
+          "value": "1",
+          "optionNo": "B"
+        },
+        {
+          "text": "中度",
+          "value": "2",
+          "optionNo": "C"
+        },
+        {
+          "text": "相当程度",
+          "value": "3",
+          "optionNo": "D"
+        },
+        {
+          "text": "极度",
+          "value": "4",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "在过去一个月中，感到与他人疏远或脱离？",
+      "type": "radio",
+      "orderNum": 13,
+      "options": [
+        {
+          "text": "完全没有",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "有一点",
+          "value": "1",
+          "optionNo": "B"
+        },
+        {
+          "text": "中度",
+          "value": "2",
+          "optionNo": "C"
+        },
+        {
+          "text": "相当程度",
+          "value": "3",
+          "optionNo": "D"
+        },
+        {
+          "text": "极度",
+          "value": "4",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "在过去一个月中，难以感受到正面情绪（如幸福、满足、爱）？",
+      "type": "radio",
+      "orderNum": 14,
+      "options": [
+        {
+          "text": "完全没有",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "有一点",
+          "value": "1",
+          "optionNo": "B"
+        },
+        {
+          "text": "中度",
+          "value": "2",
+          "optionNo": "C"
+        },
+        {
+          "text": "相当程度",
+          "value": "3",
+          "optionNo": "D"
+        },
+        {
+          "text": "极度",
+          "value": "4",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "在过去一个月中，容易被激怒或突然发怒？",
+      "type": "radio",
+      "orderNum": 15,
+      "options": [
+        {
+          "text": "完全没有",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "有一点",
+          "value": "1",
+          "optionNo": "B"
+        },
+        {
+          "text": "中度",
+          "value": "2",
+          "optionNo": "C"
+        },
+        {
+          "text": "相当程度",
+          "value": "3",
+          "optionNo": "D"
+        },
+        {
+          "text": "极度",
+          "value": "4",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "在过去一个月中，过度冒险或做出伤害自己或他人的行为？",
+      "type": "radio",
+      "orderNum": 16,
+      "options": [
+        {
+          "text": "完全没有",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "有一点",
+          "value": "1",
+          "optionNo": "B"
+        },
+        {
+          "text": "中度",
+          "value": "2",
+          "optionNo": "C"
+        },
+        {
+          "text": "相当程度",
+          "value": "3",
+          "optionNo": "D"
+        },
+        {
+          "text": "极度",
+          "value": "4",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "在过去一个月中，过度警觉或时刻保持警惕？",
+      "type": "radio",
+      "orderNum": 17,
+      "options": [
+        {
+          "text": "完全没有",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "有一点",
+          "value": "1",
+          "optionNo": "B"
+        },
+        {
+          "text": "中度",
+          "value": "2",
+          "optionNo": "C"
+        },
+        {
+          "text": "相当程度",
+          "value": "3",
+          "optionNo": "D"
+        },
+        {
+          "text": "极度",
+          "value": "4",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "在过去一个月中，容易受惊？",
+      "type": "radio",
+      "orderNum": 18,
+      "options": [
+        {
+          "text": "完全没有",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "有一点",
+          "value": "1",
+          "optionNo": "B"
+        },
+        {
+          "text": "中度",
+          "value": "2",
+          "optionNo": "C"
+        },
+        {
+          "text": "相当程度",
+          "value": "3",
+          "optionNo": "D"
+        },
+        {
+          "text": "极度",
+          "value": "4",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "在过去一个月中，难以集中注意力？",
+      "type": "radio",
+      "orderNum": 19,
+      "options": [
+        {
+          "text": "完全没有",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "有一点",
+          "value": "1",
+          "optionNo": "B"
+        },
+        {
+          "text": "中度",
+          "value": "2",
+          "optionNo": "C"
+        },
+        {
+          "text": "相当程度",
+          "value": "3",
+          "optionNo": "D"
+        },
+        {
+          "text": "极度",
+          "value": "4",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "在过去一个月中，难以入睡或保持睡眠？",
+      "type": "radio",
+      "orderNum": 20,
+      "options": [
+        {
+          "text": "完全没有",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "有一点",
+          "value": "1",
+          "optionNo": "B"
+        },
+        {
+          "text": "中度",
+          "value": "2",
+          "optionNo": "C"
+        },
+        {
+          "text": "相当程度",
+          "value": "3",
+          "optionNo": "D"
+        },
+        {
+          "text": "极度",
+          "value": "4",
+          "optionNo": "E"
+        }
+      ]
+    }
+  ],
+  "dimensions": [
+    {
+      "dimensionName": "侵入性症状",
+      "dimensionCode": "intrusion",
+      "num": 1,
+      "evaluateExpression": "hx_t_1 + hx_t_2 + hx_t_3 + hx_t_4 + hx_t_5",
+      "standardScoreFormula": "",
+      "results": [
+        {
+          "evaluateExpression": "hx_wd_y_1 <= 4",
+          "conclusionAnalysis": "侵入性症状不明显",
+          "suggestion": "您近期未表现出明显的侵入性症状（如反复回忆、噩梦等），心理状态较为稳定。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_1 > 4 && hx_wd_y_1 <= 8",
+          "conclusionAnalysis": "侵入性症状轻微",
+          "suggestion": "您偶尔会出现与创伤相关的侵入性体验，但程度较轻。建议关注自身情绪变化，适当进行放松练习。",
+          "assessmentWarning": "low"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_1 > 8 && hx_wd_y_1 <= 12",
+          "conclusionAnalysis": "侵入性症状中等",
+          "suggestion": "您存在一定程度的侵入性症状，可能影响日常生活。建议寻求专业心理咨询以获得更好的应对策略。",
+          "assessmentWarning": "middle"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_1 > 12",
+          "conclusionAnalysis": "侵入性症状严重",
+          "suggestion": "您的侵入性症状较为严重，强烈建议尽快寻求专业心理评估和治疗。",
+          "assessmentWarning": "high"
+        }
+      ]
+    },
+    {
+      "dimensionName": "回避症状",
+      "dimensionCode": "avoidance",
+      "num": 2,
+      "evaluateExpression": "hx_t_6 + hx_t_7",
+      "standardScoreFormula": "",
+      "results": [
+        {
+          "evaluateExpression": "hx_wd_y_2 <= 2",
+          "conclusionAnalysis": "回避症状不明显",
+          "suggestion": "您近期未表现出明显的回避行为，能够正常面对日常生活中的各种情境。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_2 > 2 && hx_wd_y_2 <= 4",
+          "conclusionAnalysis": "回避症状轻微",
+          "suggestion": "您偶尔会回避与创伤相关的事物，但程度较轻。建议逐步尝试面对这些情境。",
+          "assessmentWarning": "low"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_2 > 4 && hx_wd_y_2 <= 6",
+          "conclusionAnalysis": "回避症状中等",
+          "suggestion": "您存在一定程度的回避行为，可能限制了您的生活范围。建议在专业指导下逐步进行暴露练习。",
+          "assessmentWarning": "middle"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_2 > 6",
+          "conclusionAnalysis": "回避症状严重",
+          "suggestion": "您的回避行为较为严重，强烈建议尽快寻求专业心理评估和治疗。",
+          "assessmentWarning": "high"
+        }
+      ]
+    },
+    {
+      "dimensionName": "认知情绪负性改变",
+      "dimensionCode": "neg_cog_mood",
+      "num": 3,
+      "evaluateExpression": "hx_t_8 + hx_t_9 + hx_t_10 + hx_t_11 + hx_t_12 + hx_t_13 + hx_t_14",
+      "standardScoreFormula": "",
+      "results": [
+        {
+          "evaluateExpression": "hx_wd_y_3 <= 7",
+          "conclusionAnalysis": "认知情绪变化不明显",
+          "suggestion": "您的认知和情绪状态较为稳定，未出现明显的负面改变。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_3 > 7 && hx_wd_y_3 <= 14",
+          "conclusionAnalysis": "认知情绪变化轻微",
+          "suggestion": "您在认知和情绪方面出现了一些负面变化，但程度较轻。建议关注自身情绪，适当进行自我调节。",
+          "assessmentWarning": "low"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_3 > 14 && hx_wd_y_3 <= 21",
+          "conclusionAnalysis": "认知情绪变化中等",
+          "suggestion": "您在认知和情绪方面存在较明显的负面变化，可能影响日常生活。建议寻求专业心理咨询。",
+          "assessmentWarning": "middle"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_3 > 21",
+          "conclusionAnalysis": "认知情绪变化严重",
+          "suggestion": "您的认知和情绪变化较为严重，强烈建议尽快寻求专业心理评估和治疗。",
+          "assessmentWarning": "high"
+        }
+      ]
+    },
+    {
+      "dimensionName": "唤醒反应性改变",
+      "dimensionCode": "arousal",
+      "num": 4,
+      "evaluateExpression": "hx_t_15 + hx_t_16 + hx_t_17 + hx_t_18 + hx_t_19 + hx_t_20",
+      "standardScoreFormula": "",
+      "results": [
+        {
+          "evaluateExpression": "hx_wd_y_4 <= 6",
+          "conclusionAnalysis": "唤醒反应性变化不明显",
+          "suggestion": "您的警觉性和反应性处于正常范围，未出现明显的过度唤醒症状。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_4 > 6 && hx_wd_y_4 <= 12",
+          "conclusionAnalysis": "唤醒反应性变化轻微",
+          "suggestion": "您在警觉性和反应性方面出现了一些变化，但程度较轻。建议保持规律作息和适当运动。",
+          "assessmentWarning": "low"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_4 > 12 && hx_wd_y_4 <= 18",
+          "conclusionAnalysis": "唤醒反应性变化中等",
+          "suggestion": "您存在一定程度的过度唤醒症状，可能影响睡眠和日常生活。建议寻求专业心理咨询。",
+          "assessmentWarning": "middle"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_4 > 18",
+          "conclusionAnalysis": "唤醒反应性变化严重",
+          "suggestion": "您的唤醒反应性变化较为严重，强烈建议尽快寻求专业心理评估和治疗。",
+          "assessmentWarning": "high"
+        }
+      ]
+    },
+    {
+      "dimensionName": "PTSD总分",
+      "dimensionCode": "total",
+      "num": 5,
+      "evaluateExpression": "hx_t_1 + hx_t_2 + hx_t_3 + hx_t_4 + hx_t_5 + hx_t_6 + hx_t_7 + hx_t_8 + hx_t_9 + hx_t_10 + hx_t_11 + hx_t_12 + hx_t_13 + hx_t_14 + hx_t_15 + hx_t_16 + hx_t_17 + hx_t_18 + hx_t_19 + hx_t_20",
+      "standardScoreFormula": "",
+      "results": [
+        {
+          "evaluateExpression": "hx_wd_y_5 <= 32",
+          "conclusionAnalysis": "无明显PTSD症状",
+          "suggestion": "您的得分未达到PTSD筛查的临界值，目前未发现明显的创伤后应激障碍症状。建议继续保持健康的心理状态。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_5 > 32 && hx_wd_y_5 <= 37",
+          "conclusionAnalysis": "可能存在PTSD症状",
+          "suggestion": "您的得分接近PTSD筛查的临界值，可能存在一些创伤后应激症状。建议关注自身情绪变化，必要时寻求专业评估。",
+          "assessmentWarning": "low"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_5 > 37 && hx_wd_y_5 <= 49",
+          "conclusionAnalysis": "中度PTSD症状",
+          "suggestion": "您的得分表明存在中度水平的PTSD症状，建议尽快寻求专业心理评估和治疗。及时的干预可以有效缓解症状。",
+          "assessmentWarning": "middle"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_5 > 49",
+          "conclusionAnalysis": "重度PTSD症状",
+          "suggestion": "您的得分表明存在重度PTSD症状，强烈建议尽快就医或寻求专业心理治疗。重度PTSD症状可能严重影响您的日常生活和社会功能，请不要忽视这些症状。",
+          "assessmentWarning": "high"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,700 @@
+{
+  "id": 117,
+  "title": "正念注意觉知量表 (MAAS)",
+  "type": "basic",
+  "questions": [
+    {
+      "id": 2654,
+      "text": "有时我体验到一些情绪，过一会儿才会意识到这种情绪",
+      "type": "radio",
+      "orderNum": 1,
+      "options": [
+        {
+          "id": 10587,
+          "optionNo": "A",
+          "text": "几乎总是",
+          "value": "1"
+        },
+        {
+          "id": 10588,
+          "optionNo": "B",
+          "text": "很频繁",
+          "value": "2"
+        },
+        {
+          "id": 10589,
+          "optionNo": "C",
+          "text": "比较频繁",
+          "value": "3"
+        },
+        {
+          "id": 10590,
+          "optionNo": "D",
+          "text": "不太频繁",
+          "value": "4"
+        },
+        {
+          "id": 10591,
+          "optionNo": "E",
+          "text": "很少",
+          "value": "5"
+        },
+        {
+          "id": 10592,
+          "optionNo": "F",
+          "text": "几乎从不",
+          "value": "6"
+        }
+      ]
+    },
+    {
+      "id": 2655,
+      "text": "我会因为不小心、没注意或者想到其他事情而打碎物品或弄坏东西",
+      "type": "radio",
+      "orderNum": 2,
+      "options": [
+        {
+          "id": 10593,
+          "optionNo": "A",
+          "text": "几乎总是",
+          "value": "1"
+        },
+        {
+          "id": 10594,
+          "optionNo": "B",
+          "text": "很频繁",
+          "value": "2"
+        },
+        {
+          "id": 10595,
+          "optionNo": "C",
+          "text": "比较频繁",
+          "value": "3"
+        },
+        {
+          "id": 10596,
+          "optionNo": "D",
+          "text": "不太频繁",
+          "value": "4"
+        },
+        {
+          "id": 10597,
+          "optionNo": "E",
+          "text": "很少",
+          "value": "5"
+        },
+        {
+          "id": 10598,
+          "optionNo": "F",
+          "text": "几乎从不",
+          "value": "6"
+        }
+      ]
+    },
+    {
+      "id": 2656,
+      "text": "我发现静下心来关注当前发生的事情有些困难",
+      "type": "radio",
+      "orderNum": 3,
+      "options": [
+        {
+          "id": 10599,
+          "optionNo": "A",
+          "text": "几乎总是",
+          "value": "1"
+        },
+        {
+          "id": 10600,
+          "optionNo": "B",
+          "text": "很频繁",
+          "value": "2"
+        },
+        {
+          "id": 10601,
+          "optionNo": "C",
+          "text": "比较频繁",
+          "value": "3"
+        },
+        {
+          "id": 10602,
+          "optionNo": "D",
+          "text": "不太频繁",
+          "value": "4"
+        },
+        {
+          "id": 10603,
+          "optionNo": "E",
+          "text": "很少",
+          "value": "5"
+        },
+        {
+          "id": 10604,
+          "optionNo": "F",
+          "text": "几乎从不",
+          "value": "6"
+        }
+      ]
+    },
+    {
+      "id": 2657,
+      "text": "我前往要去的地方时，一路上对自己的走路行为或其他事物没有注意",
+      "type": "radio",
+      "orderNum": 4,
+      "options": [
+        {
+          "id": 10605,
+          "optionNo": "A",
+          "text": "几乎总是",
+          "value": "1"
+        },
+        {
+          "id": 10606,
+          "optionNo": "B",
+          "text": "很频繁",
+          "value": "2"
+        },
+        {
+          "id": 10607,
+          "optionNo": "C",
+          "text": "比较频繁",
+          "value": "3"
+        },
+        {
+          "id": 10608,
+          "optionNo": "D",
+          "text": "不太频繁",
+          "value": "4"
+        },
+        {
+          "id": 10609,
+          "optionNo": "E",
+          "text": "很少",
+          "value": "5"
+        },
+        {
+          "id": 10610,
+          "optionNo": "F",
+          "text": "几乎从不",
+          "value": "6"
+        }
+      ]
+    },
+    {
+      "id": 2658,
+      "text": "除非身体的紧张感或者不舒适感引起我的注意，否则一般我都不会去关注身体的感觉",
+      "type": "radio",
+      "orderNum": 5,
+      "options": [
+        {
+          "id": 10611,
+          "optionNo": "A",
+          "text": "几乎总是",
+          "value": "1"
+        },
+        {
+          "id": 10612,
+          "optionNo": "B",
+          "text": "很频繁",
+          "value": "2"
+        },
+        {
+          "id": 10613,
+          "optionNo": "C",
+          "text": "比较频繁",
+          "value": "3"
+        },
+        {
+          "id": 10614,
+          "optionNo": "D",
+          "text": "不太频繁",
+          "value": "4"
+        },
+        {
+          "id": 10615,
+          "optionNo": "E",
+          "text": "很少",
+          "value": "5"
+        },
+        {
+          "id": 10616,
+          "optionNo": "F",
+          "text": "几乎从不",
+          "value": "6"
+        }
+      ]
+    },
+    {
+      "id": 2659,
+      "text": "如果我被第一次告知某个人的名字，我会很快地忘记这个名字",
+      "type": "radio",
+      "orderNum": 6,
+      "options": [
+        {
+          "id": 10617,
+          "optionNo": "A",
+          "text": "几乎总是",
+          "value": "1"
+        },
+        {
+          "id": 10618,
+          "optionNo": "B",
+          "text": "很频繁",
+          "value": "2"
+        },
+        {
+          "id": 10619,
+          "optionNo": "C",
+          "text": "比较频繁",
+          "value": "3"
+        },
+        {
+          "id": 10620,
+          "optionNo": "D",
+          "text": "不太频繁",
+          "value": "4"
+        },
+        {
+          "id": 10621,
+          "optionNo": "E",
+          "text": "很少",
+          "value": "5"
+        },
+        {
+          "id": 10622,
+          "optionNo": "F",
+          "text": "几乎从不",
+          "value": "6"
+        }
+      ]
+    },
+    {
+      "id": 2660,
+      "text": "我做事情好像是自动的过程，对于所做的事情没有太多觉知或者注意",
+      "type": "radio",
+      "orderNum": 7,
+      "options": [
+        {
+          "id": 10623,
+          "optionNo": "A",
+          "text": "几乎总是",
+          "value": "1"
+        },
+        {
+          "id": 10624,
+          "optionNo": "B",
+          "text": "很频繁",
+          "value": "2"
+        },
+        {
+          "id": 10625,
+          "optionNo": "C",
+          "text": "比较频繁",
+          "value": "3"
+        },
+        {
+          "id": 10626,
+          "optionNo": "D",
+          "text": "不太频繁",
+          "value": "4"
+        },
+        {
+          "id": 10627,
+          "optionNo": "E",
+          "text": "很少",
+          "value": "5"
+        },
+        {
+          "id": 10628,
+          "optionNo": "F",
+          "text": "几乎从不",
+          "value": "6"
+        }
+      ]
+    },
+    {
+      "id": 2661,
+      "text": "我匆匆做完一些事情而没有注意到这些事情本身",
+      "type": "radio",
+      "orderNum": 8,
+      "options": [
+        {
+          "id": 10629,
+          "optionNo": "A",
+          "text": "几乎总是",
+          "value": "1"
+        },
+        {
+          "id": 10630,
+          "optionNo": "B",
+          "text": "很频繁",
+          "value": "2"
+        },
+        {
+          "id": 10631,
+          "optionNo": "C",
+          "text": "比较频繁",
+          "value": "3"
+        },
+        {
+          "id": 10632,
+          "optionNo": "D",
+          "text": "不太频繁",
+          "value": "4"
+        },
+        {
+          "id": 10633,
+          "optionNo": "E",
+          "text": "很少",
+          "value": "5"
+        },
+        {
+          "id": 10634,
+          "optionNo": "F",
+          "text": "几乎从不",
+          "value": "6"
+        }
+      ]
+    },
+    {
+      "id": 2662,
+      "text": "我关注我想达到的目标，但我总是做与目标联系不大的事情",
+      "type": "radio",
+      "orderNum": 9,
+      "options": [
+        {
+          "id": 10635,
+          "optionNo": "A",
+          "text": "几乎总是",
+          "value": "1"
+        },
+        {
+          "id": 10636,
+          "optionNo": "B",
+          "text": "很频繁",
+          "value": "2"
+        },
+        {
+          "id": 10637,
+          "optionNo": "C",
+          "text": "比较频繁",
+          "value": "3"
+        },
+        {
+          "id": 10638,
+          "optionNo": "D",
+          "text": "不太频繁",
+          "value": "4"
+        },
+        {
+          "id": 10639,
+          "optionNo": "E",
+          "text": "很少",
+          "value": "5"
+        },
+        {
+          "id": 10640,
+          "optionNo": "F",
+          "text": "几乎从不",
+          "value": "6"
+        }
+      ]
+    },
+    {
+      "id": 2663,
+      "text": "我做工作或者任务是自动化的，不会去注意我在做什么",
+      "type": "radio",
+      "orderNum": 10,
+      "options": [
+        {
+          "id": 10641,
+          "optionNo": "A",
+          "text": "几乎总是",
+          "value": "1"
+        },
+        {
+          "id": 10642,
+          "optionNo": "B",
+          "text": "很频繁",
+          "value": "2"
+        },
+        {
+          "id": 10643,
+          "optionNo": "C",
+          "text": "比较频繁",
+          "value": "3"
+        },
+        {
+          "id": 10644,
+          "optionNo": "D",
+          "text": "不太频繁",
+          "value": "4"
+        },
+        {
+          "id": 10645,
+          "optionNo": "E",
+          "text": "很少",
+          "value": "5"
+        },
+        {
+          "id": 10646,
+          "optionNo": "F",
+          "text": "几乎从不",
+          "value": "6"
+        }
+      ]
+    },
+    {
+      "id": 2664,
+      "text": "我发现自己边听别人说话边做其他的事情",
+      "type": "radio",
+      "orderNum": 11,
+      "options": [
+        {
+          "id": 10647,
+          "optionNo": "A",
+          "text": "几乎总是",
+          "value": "1"
+        },
+        {
+          "id": 10648,
+          "optionNo": "B",
+          "text": "很频繁",
+          "value": "2"
+        },
+        {
+          "id": 10649,
+          "optionNo": "C",
+          "text": "比较频繁",
+          "value": "3"
+        },
+        {
+          "id": 10650,
+          "optionNo": "D",
+          "text": "不太频繁",
+          "value": "4"
+        },
+        {
+          "id": 10651,
+          "optionNo": "E",
+          "text": "很少",
+          "value": "5"
+        },
+        {
+          "id": 10652,
+          "optionNo": "F",
+          "text": "几乎从不",
+          "value": "6"
+        }
+      ]
+    },
+    {
+      "id": 2665,
+      "text": "我到达一个地方后会奇怪为什么我会来到这里",
+      "type": "radio",
+      "orderNum": 12,
+      "options": [
+        {
+          "id": 10653,
+          "optionNo": "A",
+          "text": "几乎总是",
+          "value": "1"
+        },
+        {
+          "id": 10654,
+          "optionNo": "B",
+          "text": "很频繁",
+          "value": "2"
+        },
+        {
+          "id": 10655,
+          "optionNo": "C",
+          "text": "比较频繁",
+          "value": "3"
+        },
+        {
+          "id": 10656,
+          "optionNo": "D",
+          "text": "不太频繁",
+          "value": "4"
+        },
+        {
+          "id": 10657,
+          "optionNo": "E",
+          "text": "很少",
+          "value": "5"
+        },
+        {
+          "id": 10658,
+          "optionNo": "F",
+          "text": "几乎从不",
+          "value": "6"
+        }
+      ]
+    },
+    {
+      "id": 2666,
+      "text": "我发现自己沉浸在对未来的幻想或者回忆过去的事情中",
+      "type": "radio",
+      "orderNum": 13,
+      "options": [
+        {
+          "id": 10659,
+          "optionNo": "A",
+          "text": "几乎总是",
+          "value": "1"
+        },
+        {
+          "id": 10660,
+          "optionNo": "B",
+          "text": "很频繁",
+          "value": "2"
+        },
+        {
+          "id": 10661,
+          "optionNo": "C",
+          "text": "比较频繁",
+          "value": "3"
+        },
+        {
+          "id": 10662,
+          "optionNo": "D",
+          "text": "不太频繁",
+          "value": "4"
+        },
+        {
+          "id": 10663,
+          "optionNo": "E",
+          "text": "很少",
+          "value": "5"
+        },
+        {
+          "id": 10664,
+          "optionNo": "F",
+          "text": "几乎从不",
+          "value": "6"
+        }
+      ]
+    },
+    {
+      "id": 2667,
+      "text": "我发现自己做事情时没有投入注意",
+      "type": "radio",
+      "orderNum": 14,
+      "options": [
+        {
+          "id": 10665,
+          "optionNo": "A",
+          "text": "几乎总是",
+          "value": "1"
+        },
+        {
+          "id": 10666,
+          "optionNo": "B",
+          "text": "很频繁",
+          "value": "2"
+        },
+        {
+          "id": 10667,
+          "optionNo": "C",
+          "text": "比较频繁",
+          "value": "3"
+        },
+        {
+          "id": 10668,
+          "optionNo": "D",
+          "text": "不太频繁",
+          "value": "4"
+        },
+        {
+          "id": 10669,
+          "optionNo": "E",
+          "text": "很少",
+          "value": "5"
+        },
+        {
+          "id": 10670,
+          "optionNo": "F",
+          "text": "几乎从不",
+          "value": "6"
+        }
+      ]
+    },
+    {
+      "id": 2668,
+      "text": "我吃零食的时候没有意识到自己正在吃东西",
+      "type": "radio",
+      "orderNum": 15,
+      "options": [
+        {
+          "id": 10671,
+          "optionNo": "A",
+          "text": "几乎总是",
+          "value": "1"
+        },
+        {
+          "id": 10672,
+          "optionNo": "B",
+          "text": "很频繁",
+          "value": "2"
+        },
+        {
+          "id": 10673,
+          "optionNo": "C",
+          "text": "比较频繁",
+          "value": "3"
+        },
+        {
+          "id": 10674,
+          "optionNo": "D",
+          "text": "不太频繁",
+          "value": "4"
+        },
+        {
+          "id": 10675,
+          "optionNo": "E",
+          "text": "很少",
+          "value": "5"
+        },
+        {
+          "id": 10676,
+          "optionNo": "F",
+          "text": "几乎从不",
+          "value": "6"
+        }
+      ]
+    }
+  ],
+  "dimensions": [
+    {
+      "id": 323,
+      "num": 1,
+      "dimensionName": "总分",
+      "dimensionCode": "A",
+      "evaluateExpression": "hx_t_1 + hx_t_2 + hx_t_3 + hx_t_4 + hx_t_5 + hx_t_6 + hx_t_7 + hx_t_8 + hx_t_9 + hx_t_10 + hx_t_11 + hx_t_12 + hx_t_13 + hx_t_14 + hx_t_15",
+      "standardScoreFormula": "0",
+      "results": [
+        {
+          "id": 643,
+          "evaluateExpression": "hx_wd_y_1 >= 0&& hx_wd_y_1 <= 29",
+          "conclusionAnalysis": "如果您的得分低于30分，说明您的生活过于忙碌，建议休息一下，安静的生活会让您更开心。",
+          "suggestion": "无",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 644,
+          "evaluateExpression": "hx_wd_y_1 >= 30&& hx_wd_y_1 <= 60",
+          "conclusionAnalysis": "如果您的得分在30-60分之间，说明您在日常生活中对当下的觉知和注意能力一般，生活平平，幸福感一般。",
+          "suggestion": "无",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 645,
+          "evaluateExpression": "hx_wd_y_1 >= 61&& hx_wd_y_1 <= 999",
+          "conclusionAnalysis": "如果您的得分高于60分，说明您在日常生活中有较高水平的对当下的觉知和注意。坚持下去，生活会更精彩。",
+          "suggestion": "无",
+          "assessmentWarning": "none"
+        }
+      ]
+    }
+  ]
+}

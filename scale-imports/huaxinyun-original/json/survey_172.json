@@ -1,0 +1,4893 @@
+{
+  "id": 172,
+  "title": "个人性格调查表",
+  "description": "包含大五人格量表、学习自我效能感和反刍思维量表",
+  "type": "basic",
+  "questions": [
+    {
+      "id": 6180,
+      "text": "我是一个性格外向，喜欢交际的人",
+      "type": "radio",
+      "orderNum": 1,
+      "options": [
+        {
+          "id": 23717,
+          "optionNo": "A",
+          "text": "非常不同意",
+          "value": "1"
+        },
+        {
+          "id": 23718,
+          "optionNo": "B",
+          "text": "不同意",
+          "value": "2"
+        },
+        {
+          "id": 23719,
+          "optionNo": "C",
+          "text": "不确定",
+          "value": "3"
+        },
+        {
+          "id": 23720,
+          "optionNo": "D",
+          "text": "同意",
+          "value": "4"
+        },
+        {
+          "id": 23721,
+          "optionNo": "E",
+          "text": "非常同意",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 6181,
+      "text": "我是一个心肠柔软，有同情心的人",
+      "type": "radio",
+      "orderNum": 2,
+      "options": [
+        {
+          "id": 23722,
+          "optionNo": "A",
+          "text": "非常不同意",
+          "value": "1"
+        },
+        {
+          "id": 23723,
+          "optionNo": "B",
+          "text": "不同意",
+          "value": "2"
+        },
+        {
+          "id": 23724,
+          "optionNo": "C",
+          "text": "不确定",
+          "value": "3"
+        },
+        {
+          "id": 23725,
+          "optionNo": "D",
+          "text": "同意",
+          "value": "4"
+        },
+        {
+          "id": 23726,
+          "optionNo": "E",
+          "text": "非常同意",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 6182,
+      "text": "我是一个缺乏条理的人",
+      "type": "radio",
+      "orderNum": 3,
+      "options": [
+        {
+          "id": 23727,
+          "optionNo": "A",
+          "text": "非常不同意",
+          "value": "1"
+        },
+        {
+          "id": 23728,
+          "optionNo": "B",
+          "text": "不同意",
+          "value": "2"
+        },
+        {
+          "id": 23729,
+          "optionNo": "C",
+          "text": "不确定",
+          "value": "3"
+        },
+        {
+          "id": 23730,
+          "optionNo": "D",
+          "text": "同意",
+          "value": "4"
+        },
+        {
+          "id": 23731,
+          "optionNo": "E",
+          "text": "非常同意",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 6183,
+      "text": "我是一个从容，善于处理压力的人",
+      "type": "radio",
+      "orderNum": 4,
+      "options": [
+        {
+          "id": 23732,
+          "optionNo": "A",
+          "text": "非常不同意",
+          "value": "1"
+        },
+        {
+          "id": 23733,
+          "optionNo": "B",
+          "text": "不同意",
+          "value": "2"
+        },
+        {
+          "id": 23734,
+          "optionNo": "C",
+          "text": "不确定",
+          "value": "3"
+        },
+        {
+          "id": 23735,
+          "optionNo": "D",
+          "text": "同意",
+          "value": "4"
+        },
+        {
+          "id": 23736,
+          "optionNo": "E",
+          "text": "非常同意",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 6184,
+      "text": "我是一个对艺术没有什么兴趣的人",
+      "type": "radio",
+      "orderNum": 5,
+      "options": [
+        {
+          "id": 23737,
+          "optionNo": "A",
+          "text": "非常不同意",
+          "value": "1"
+        },
+        {
+          "id": 23738,
+          "optionNo": "B",
+          "text": "不同意",
+          "value": "2"
+        },
+        {
+          "id": 23739,
+          "optionNo": "C",
+          "text": "不确定",
+          "value": "3"
+        },
+        {
+          "id": 23740,
+          "optionNo": "D",
+          "text": "同意",
+          "value": "4"
+        },
+        {
+          "id": 23741,
+          "optionNo": "E",
+          "text": "非常同意",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 6185,
+      "text": "我是一个性格坚定自信，敢于表达自己的观点的人",
+      "type": "radio",
+      "orderNum": 6,
+      "options": [
+        {
+          "id": 23742,
+          "optionNo": "A",
+          "text": "非常不同意",
+          "value": "1"
+        },
+        {
+          "id": 23743,
+          "optionNo": "B",
+          "text": "不同意",
+          "value": "2"
+        },
+        {
+          "id": 23744,
+          "optionNo": "C",
+          "text": "不确定",
+          "value": "3"
+        },
+        {
+          "id": 23745,
+          "optionNo": "D",
+          "text": "同意",
+          "value": "4"
+        },
+        {
+          "id": 23746,
+          "optionNo": "E",
+          "text": "非常同意",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 6186,
+      "text": "我是一个为人恭谦，尊重他人的人",
+      "type": "radio",
+      "orderNum": 7,
+      "options": [
+        {
+          "id": 23747,
+          "optionNo": "A",
+          "text": "非常不同意",
+          "value": "1"
+        },
+        {
+          "id": 23748,
+          "optionNo": "B",
+          "text": "不同意",
+          "value": "2"
+        },
+        {
+          "id": 23749,
+          "optionNo": "C",
+          "text": "不确定",
+          "value": "3"
+        },
+        {
+          "id": 23750,
+          "optionNo": "D",
+          "text": "同意",
+          "value": "4"
+        },
+        {
+          "id": 23751,
+          "optionNo": "E",
+          "text": "非常同意",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 6187,
+      "text": "我是一个比较懒的人",
+      "type": "radio",
+      "orderNum": 8,
+      "options": [
+        {
+          "id": 23752,
+          "optionNo": "A",
+          "text": "非常不同意",
+          "value": "1"
+        },
+        {
+          "id": 23753,
+          "optionNo": "B",
+          "text": "不同意",
+          "value": "2"
+        },
+        {
+          "id": 23754,
+          "optionNo": "C",
+          "text": "不确定",
+          "value": "3"
+        },
+        {
+          "id": 23755,
+          "optionNo": "D",
+          "text": "同意",
+          "value": "4"
+        },
+        {
+          "id": 23756,
+          "optionNo": "E",
+          "text": "非常同意",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 6188,
+      "text": "我是一个经历挫折后仍能保持积极心态的人",
+      "type": "radio",
+      "orderNum": 9,
+      "options": [
+        {
+          "id": 23757,
+          "optionNo": "A",
+          "text": "非常不同意",
+          "value": "1"
+        },
+        {
+          "id": 23758,
+          "optionNo": "B",
+          "text": "不同意",
+          "value": "2"
+        },
+        {
+          "id": 23759,
+          "optionNo": "C",
+          "text": "不确定",
+          "value": "3"
+        },
+        {
+          "id": 23760,
+          "optionNo": "D",
+          "text": "同意",
+          "value": "4"
+        },
+        {
+          "id": 23761,
+          "optionNo": "E",
+          "text": "非常同意",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 6189,
+      "text": "我是一个对许多不同的事物都感兴趣的人",
+      "type": "radio",
+      "orderNum": 10,
+      "options": [
+        {
+          "id": 23762,
+          "optionNo": "A",
+          "text": "非常不同意",
+          "value": "1"
+        },
+        {
+          "id": 23763,
+          "optionNo": "B",
+          "text": "不同意",
+          "value": "2"
+        },
+        {
+          "id": 23764,
+          "optionNo": "C",
+          "text": "不确定",
+          "value": "3"
+        },
+        {
+          "id": 23765,
+          "optionNo": "D",
+          "text": "同意",
+          "value": "4"
+        },
+        {
+          "id": 23766,
+          "optionNo": "E",
+          "text": "非常同意",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 6190,
+      "text": "我是一个很少觉得兴奋或者特别想要(做)什么的人",
+      "type": "radio",
+      "orderNum": 11,
+      "options": [
+        {
+          "id": 23767,
+          "optionNo": "A",
+          "text": "非常不同意",
+          "value": "1"
+        },
+        {
+          "id": 23768,
+          "optionNo": "B",
+          "text": "不同意",
+          "value": "2"
+        },
+        {
+          "id": 23769,
+          "optionNo": "C",
+          "text": "不确定",
+          "value": "3"
+        },
+        {
+          "id": 23770,
+          "optionNo": "D",
+          "text": "同意",
+          "value": "4"
+        },
+        {
+          "id": 23771,
+          "optionNo": "E",
+          "text": "非常同意",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 6191,
+      "text": "我是一个常常挑别人的毛病的人",
+      "type": "radio",
+      "orderNum": 12,
+      "options": [
+        {
+          "id": 23772,
+          "optionNo": "A",
+          "text": "非常不同意",
+          "value": "1"
+        },
+        {
+          "id": 23773,
+          "optionNo": "B",
+          "text": "不同意",
+          "value": "2"
+        },
+        {
+          "id": 23774,
+          "optionNo": "C",
+          "text": "不确定",
+          "value": "3"
+        },
+        {
+          "id": 23775,
+          "optionNo": "D",
+          "text": "同意",
+          "value": "4"
+        },
+        {
+          "id": 23776,
+          "optionNo": "E",
+          "text": "非常同意",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 6192,
+      "text": "我是一个可信赖的，可靠的人",
+      "type": "radio",
+      "orderNum": 13,
+      "options": [
+        {
+          "id": 23777,
+          "optionNo": "A",
+          "text": "非常不同意",
+          "value": "1"
+        },
+        {
+          "id": 23778,
+          "optionNo": "B",
+          "text": "不同意",
+          "value": "2"
+        },
+        {
+          "id": 23779,
+          "optionNo": "C",
+          "text": "不确定",
+          "value": "3"
+        },
+        {
+          "id": 23780,
+          "optionNo": "D",
+          "text": "同意",
+          "value": "4"
+        },
+        {
+          "id": 23781,
+          "optionNo": "E",
+          "text": "非常同意",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 6193,
+      "text": "我是一个喜怒无常，情绪起伏较多的人",
+      "type": "radio",
+      "orderNum": 14,
+      "options": [
+        {
+          "id": 23782,
+          "optionNo": "A",
+          "text": "非常不同意",
+          "value": "1"
+        },
+        {
+          "id": 23783,
+          "optionNo": "B",
+          "text": "不同意",
+          "value": "2"
+        },
+        {
+          "id": 23784,
+          "optionNo": "C",
+          "text": "不确定",
+          "value": "3"
+        },
+        {
+          "id": 23785,
+          "optionNo": "D",
+          "text": "同意",
+          "value": "4"
+        },
+        {
+          "id": 23786,
+          "optionNo": "E",
+          "text": "非常同意",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 6194,
+      "text": "我是一个善于创造，能找到聪明的方法来做事的人",
+      "type": "radio",
+      "orderNum": 15,
+      "options": [
+        {
+          "id": 23787,
+          "optionNo": "A",
+          "text": "非常不同意",
+          "value": "1"
+        },
+        {
+          "id": 23788,
+          "optionNo": "B",
+          "text": "不同意",
+          "value": "2"
+        },
+        {
+          "id": 23789,
+          "optionNo": "C",
+          "text": "不确定",
+          "value": "3"
+        },
+        {
+          "id": 23790,
+          "optionNo": "D",
+          "text": "同意",
+          "value": "4"
+        },
+        {
+          "id": 23791,
+          "optionNo": "E",
+          "text": "非常同意",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 6195,
+      "text": "我是一个比较安静的人",
+      "type": "radio",
+      "orderNum": 16,
+      "options": [
+        {
+          "id": 23792,
+          "optionNo": "A",
+          "text": "非常不同意",
+          "value": "1"
+        },
+        {
+          "id": 23793,
+          "optionNo": "B",
+          "text": "不同意",
+          "value": "2"
+        },
+        {
+          "id": 23794,
+          "optionNo": "C",
+          "text": "不确定",
+          "value": "3"
+        },
+        {
+          "id": 23795,
+          "optionNo": "D",
+          "text": "同意",
+          "value": "4"
+        },
+        {
+          "id": 23796,
+          "optionNo": "E",
+          "text": "非常同意",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 6196,
+      "text": "我是一个对他人没有什么同情心的人",
+      "type": "radio",
+      "orderNum": 17,
+      "options": [
+        {
+          "id": 23797,
+          "optionNo": "A",
+          "text": "非常不同意",
+          "value": "1"
+        },
+        {
+          "id": 23798,
+          "optionNo": "B",
+          "text": "不同意",
+          "value": "2"
+        },
+        {
+          "id": 23799,
+          "optionNo": "C",
+          "text": "不确定",
+          "value": "3"
+        },
+        {
+          "id": 23800,
+          "optionNo": "D",
+          "text": "同意",
+          "value": "4"
+        },
+        {
+          "id": 23801,
+          "optionNo": "E",
+          "text": "非常同意",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 6197,
+      "text": "我是一个做事有计划有条理的人",
+      "type": "radio",
+      "orderNum": 18,
+      "options": [
+        {
+          "id": 23802,
+          "optionNo": "A",
+          "text": "非常不同意",
+          "value": "1"
+        },
+        {
+          "id": 23803,
+          "optionNo": "B",
+          "text": "不同意",
+          "value": "2"
+        },
+        {
+          "id": 23804,
+          "optionNo": "C",
+          "text": "不确定",
+          "value": "3"
+        },
+        {
+          "id": 23805,
+          "optionNo": "D",
+          "text": "同意",
+          "value": "4"
+        },
+        {
+          "id": 23806,
+          "optionNo": "E",
+          "text": "非常同意",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 6198,
+      "text": "我是一个容易紧张的人",
+      "type": "radio",
+      "orderNum": 19,
+      "options": [
+        {
+          "id": 23807,
+          "optionNo": "A",
+          "text": "非常不同意",
+          "value": "1"
+        },
+        {
+          "id": 23808,
+          "optionNo": "B",
+          "text": "不同意",
+          "value": "2"
+        },
+        {
+          "id": 23809,
+          "optionNo": "C",
+          "text": "不确定",
+          "value": "3"
+        },
+        {
+          "id": 23810,
+          "optionNo": "D",
+          "text": "同意",
+          "value": "4"
+        },
+        {
+          "id": 23811,
+          "optionNo": "E",
+          "text": "非常同意",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 6199,
+      "text": "我是一个着迷于艺术、音乐或文学的人",
+      "type": "radio",
+      "orderNum": 20,
+      "options": [
+        {
+          "id": 23812,
+          "optionNo": "A",
+          "text": "非常不同意",
+          "value": "1"
+        },
+        {
+          "id": 23813,
+          "optionNo": "B",
+          "text": "不同意",
+          "value": "2"
+        },
+        {
+          "id": 23814,
+          "optionNo": "C",
+          "text": "不确定",
+          "value": "3"
+        },
+        {
+          "id": 23815,
+          "optionNo": "D",
+          "text": "同意",
+          "value": "4"
+        },
+        {
+          "id": 23816,
+          "optionNo": "E",
+          "text": "非常同意",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 6200,
+      "text": "我是一个常常处于主导地位，像个领导一样的人",
+      "type": "radio",
+      "orderNum": 21,
+      "options": [
+        {
+          "id": 23817,
+          "optionNo": "A",
+          "text": "非常不同意",
+          "value": "1"
+        },
+        {
+          "id": 23818,
+          "optionNo": "B",
+          "text": "不同意",
+          "value": "2"
+        },
+        {
+          "id": 23819,
+          "optionNo": "C",
+          "text": "不确定",
+          "value": "3"
+        },
+        {
+          "id": 23820,
+          "optionNo": "D",
+          "text": "同意",
+          "value": "4"
+        },
+        {
+          "id": 23821,
+          "optionNo": "E",
+          "text": "非常同意",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 6201,
+      "text": "我是一个常与他人意见不和的人",
+      "type": "radio",
+      "orderNum": 22,
+      "options": [
+        {
+          "id": 23822,
+          "optionNo": "A",
+          "text": "非常不同意",
+          "value": "1"
+        },
+        {
+          "id": 23823,
+          "optionNo": "B",
+          "text": "不同意",
+          "value": "2"
+        },
+        {
+          "id": 23824,
+          "optionNo": "C",
+          "text": "不确定",
+          "value": "3"
+        },
+        {
+          "id": 23825,
+          "optionNo": "D",
+          "text": "同意",
+          "value": "4"
+        },
+        {
+          "id": 23826,
+          "optionNo": "E",
+          "text": "非常同意",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 6202,
+      "text": "我是一个很难开始行动起来去完成一项任务的人",
+      "type": "radio",
+      "orderNum": 23,
+      "options": [
+        {
+          "id": 23827,
+          "optionNo": "A",
+          "text": "非常不同意",
+          "value": "1"
+        },
+        {
+          "id": 23828,
+          "optionNo": "B",
+          "text": "不同意",
+          "value": "2"
+        },
+        {
+          "id": 23829,
+          "optionNo": "C",
+          "text": "不确定",
+          "value": "3"
+        },
+        {
+          "id": 23830,
+          "optionNo": "D",
+          "text": "同意",
+          "value": "4"
+        },
+        {
+          "id": 23831,
+          "optionNo": "E",
+          "text": "非常同意",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 6203,
+      "text": "我是一个觉得有安全感，对自己满意的人",
+      "type": "radio",
+      "orderNum": 24,
+      "options": [
+        {
+          "id": 23832,
+          "optionNo": "A",
+          "text": "非常不同意",
+          "value": "1"
+        },
+        {
+          "id": 23833,
+          "optionNo": "B",
+          "text": "不同意",
+          "value": "2"
+        },
+        {
+          "id": 23834,
+          "optionNo": "C",
+          "text": "不确定",
+          "value": "3"
+        },
+        {
+          "id": 23835,
+          "optionNo": "D",
+          "text": "同意",
+          "value": "4"
+        },
+        {
+          "id": 23836,
+          "optionNo": "E",
+          "text": "非常同意",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 6204,
+      "text": "我不喜欢知识性或者哲学性强的讨论",
+      "type": "radio",
+      "orderNum": 25,
+      "options": [
+        {
+          "id": 23837,
+          "optionNo": "A",
+          "text": "非常不同意",
+          "value": "1"
+        },
+        {
+          "id": 23838,
+          "optionNo": "B",
+          "text": "不同意",
+          "value": "2"
+        },
+        {
+          "id": 23839,
+          "optionNo": "C",
+          "text": "不确定",
+          "value": "3"
+        },
+        {
+          "id": 23840,
+          "optionNo": "D",
+          "text": "同意",
+          "value": "4"
+        },
+        {
+          "id": 23841,
+          "optionNo": "E",
+          "text": "非常同意",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 6205,
+      "text": "我是一个不如别人有活力的人",
+      "type": "radio",
+      "orderNum": 26,
+      "options": [
+        {
+          "id": 23842,
+          "optionNo": "A",
+          "text": "非常不同意",
+          "value": "1"
+        },
+        {
+          "id": 23843,
+          "optionNo": "B",
+          "text": "不同意",
+          "value": "2"
+        },
+        {
+          "id": 23844,
+          "optionNo": "C",
+          "text": "不确定",
+          "value": "3"
+        },
+        {
+          "id": 23845,
+          "optionNo": "D",
+          "text": "同意",
+          "value": "4"
+        },
+        {
+          "id": 23846,
+          "optionNo": "E",
+          "text": "非常同意",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 6206,
+      "text": "我是一个宽宏大量的人",
+      "type": "radio",
+      "orderNum": 27,
+      "options": [
+        {
+          "id": 23847,
+          "optionNo": "A",
+          "text": "非常不同意",
+          "value": "1"
+        },
+        {
+          "id": 23848,
+          "optionNo": "B",
+          "text": "不同意",
+          "value": "2"
+        },
+        {
+          "id": 23849,
+          "optionNo": "C",
+          "text": "不确定",
+          "value": "3"
+        },
+        {
+          "id": 23850,
+          "optionNo": "D",
+          "text": "同意",
+          "value": "4"
+        },
+        {
+          "id": 23851,
+          "optionNo": "E",
+          "text": "非常同意",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 6207,
+      "text": "我是一个有时比较没有责任心的人",
+      "type": "radio",
+      "orderNum": 28,
+      "options": [
+        {
+          "id": 23852,
+          "optionNo": "A",
+          "text": "非常不同意",
+          "value": "1"
+        },
+        {
+          "id": 23853,
+          "optionNo": "B",
+          "text": "不同意",
+          "value": "2"
+        },
+        {
+          "id": 23854,
+          "optionNo": "C",
+          "text": "不确定",
+          "value": "3"
+        },
+        {
+          "id": 23855,
+          "optionNo": "D",
+          "text": "同意",
+          "value": "4"
+        },
+        {
+          "id": 23856,
+          "optionNo": "E",
+          "text": "非常同意",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 6208,
+      "text": "我是一个情绪稳定，不易生气的人",
+      "type": "radio",
+      "orderNum": 29,
+      "options": [
+        {
+          "id": 23857,
+          "optionNo": "A",
+          "text": "非常不同意",
+          "value": "1"
+        },
+        {
+          "id": 23858,
+          "optionNo": "B",
+          "text": "不同意",
+          "value": "2"
+        },
+        {
+          "id": 23859,
+          "optionNo": "C",
+          "text": "不确定",
+          "value": "3"
+        },
+        {
+          "id": 23860,
+          "optionNo": "D",
+          "text": "同意",
+          "value": "4"
+        },
+        {
+          "id": 23861,
+          "optionNo": "E",
+          "text": "非常同意",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 6209,
+      "text": "我是一个几乎没有什么创造性的人",
+      "type": "radio",
+      "orderNum": 30,
+      "options": [
+        {
+          "id": 23862,
+          "optionNo": "A",
+          "text": "非常不同意",
+          "value": "1"
+        },
+        {
+          "id": 23863,
+          "optionNo": "B",
+          "text": "不同意",
+          "value": "2"
+        },
+        {
+          "id": 23864,
+          "optionNo": "C",
+          "text": "不确定",
+          "value": "3"
+        },
+        {
+          "id": 23865,
+          "optionNo": "D",
+          "text": "同意",
+          "value": "4"
+        },
+        {
+          "id": 23866,
+          "optionNo": "E",
+          "text": "非常同意",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 6210,
+      "text": "我是一个有时会害羞，比较内向的人",
+      "type": "radio",
+      "orderNum": 31,
+      "options": [
+        {
+          "id": 23867,
+          "optionNo": "A",
+          "text": "非常不同意",
+          "value": "1"
+        },
+        {
+          "id": 23868,
+          "optionNo": "B",
+          "text": "不同意",
+          "value": "2"
+        },
+        {
+          "id": 23869,
+          "optionNo": "C",
+          "text": "不确定",
+          "value": "3"
+        },
+        {
+          "id": 23870,
+          "optionNo": "D",
+          "text": "同意",
+          "value": "4"
+        },
+        {
+          "id": 23871,
+          "optionNo": "E",
+          "text": "非常同意",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 6211,
+      "text": "我是一个乐于助人，待人无私的人",
+      "type": "radio",
+      "orderNum": 32,
+      "options": [
+        {
+          "id": 23872,
+          "optionNo": "A",
+          "text": "非常不同意",
+          "value": "1"
+        },
+        {
+          "id": 23873,
+          "optionNo": "B",
+          "text": "不同意",
+          "value": "2"
+        },
+        {
+          "id": 23874,
+          "optionNo": "C",
+          "text": "不确定",
+          "value": "3"
+        },
+        {
+          "id": 23875,
+          "optionNo": "D",
+          "text": "同意",
+          "value": "4"
+        },
+        {
+          "id": 23876,
+          "optionNo": "E",
+          "text": "非常同意",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 6212,
+      "text": "我是一个习惯让事物保持整洁有序的人",
+      "type": "radio",
+      "orderNum": 33,
+      "options": [
+        {
+          "id": 23877,
+          "optionNo": "A",
+          "text": "非常不同意",
+          "value": "1"
+        },
+        {
+          "id": 23878,
+          "optionNo": "B",
+          "text": "不同意",
+          "value": "2"
+        },
+        {
+          "id": 23879,
+          "optionNo": "C",
+          "text": "不确定",
+          "value": "3"
+        },
+        {
+          "id": 23880,
+          "optionNo": "D",
+          "text": "同意",
+          "value": "4"
+        },
+        {
+          "id": 23881,
+          "optionNo": "E",
+          "text": "非常同意",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 6213,
+      "text": "我是一个时常忧心忡忡，担心很多事情的人",
+      "type": "radio",
+      "orderNum": 34,
+      "options": [
+        {
+          "id": 23882,
+          "optionNo": "A",
+          "text": "非常不同意",
+          "value": "1"
+        },
+        {
+          "id": 23883,
+          "optionNo": "B",
+          "text": "不同意",
+          "value": "2"
+        },
+        {
+          "id": 23884,
+          "optionNo": "C",
+          "text": "不确定",
+          "value": "3"
+        },
+        {
+          "id": 23885,
+          "optionNo": "D",
+          "text": "同意",
+          "value": "4"
+        },
+        {
+          "id": 23886,
+          "optionNo": "E",
+          "text": "非常同意",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 6214,
+      "text": "我是一个重视艺术与审美的人",
+      "type": "radio",
+      "orderNum": 35,
+      "options": [
+        {
+          "id": 23887,
+          "optionNo": "A",
+          "text": "非常不同意",
+          "value": "1"
+        },
+        {
+          "id": 23888,
+          "optionNo": "B",
+          "text": "不同意",
+          "value": "2"
+        },
+        {
+          "id": 23889,
+          "optionNo": "C",
+          "text": "不确定",
+          "value": "3"
+        },
+        {
+          "id": 23890,
+          "optionNo": "D",
+          "text": "同意",
+          "value": "4"
+        },
+        {
+          "id": 23891,
+          "optionNo": "E",
+          "text": "非常同意",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 6215,
+      "text": "我是一个感觉自己很难对他人产生影响的人",
+      "type": "radio",
+      "orderNum": 36,
+      "options": [
+        {
+          "id": 23892,
+          "optionNo": "A",
+          "text": "非常不同意",
+          "value": "1"
+        },
+        {
+          "id": 23893,
+          "optionNo": "B",
+          "text": "不同意",
+          "value": "2"
+        },
+        {
+          "id": 23894,
+          "optionNo": "C",
+          "text": "不确定",
+          "value": "3"
+        },
+        {
+          "id": 23895,
+          "optionNo": "D",
+          "text": "同意",
+          "value": "4"
+        },
+        {
+          "id": 23896,
+          "optionNo": "E",
+          "text": "非常同意",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 6216,
+      "text": "我是一个有时对人比较粗鲁的人",
+      "type": "radio",
+      "orderNum": 37,
+      "options": [
+        {
+          "id": 23897,
+          "optionNo": "A",
+          "text": "非常不同意",
+          "value": "1"
+        },
+        {
+          "id": 23898,
+          "optionNo": "B",
+          "text": "不同意",
+          "value": "2"
+        },
+        {
+          "id": 23899,
+          "optionNo": "C",
+          "text": "不确定",
+          "value": "3"
+        },
+        {
+          "id": 23900,
+          "optionNo": "D",
+          "text": "同意",
+          "value": "4"
+        },
+        {
+          "id": 23901,
+          "optionNo": "E",
+          "text": "非常同意",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 6217,
+      "text": "我是一个有效率，做事有始有终的人",
+      "type": "radio",
+      "orderNum": 38,
+      "options": [
+        {
+          "id": 23902,
+          "optionNo": "A",
+          "text": "非常不同意",
+          "value": "1"
+        },
+        {
+          "id": 23903,
+          "optionNo": "B",
+          "text": "不同意",
+          "value": "2"
+        },
+        {
+          "id": 23904,
+          "optionNo": "C",
+          "text": "不确定",
+          "value": "3"
+        },
+        {
+          "id": 23905,
+          "optionNo": "D",
+          "text": "同意",
+          "value": "4"
+        },
+        {
+          "id": 23906,
+          "optionNo": "E",
+          "text": "非常同意",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 6218,
+      "text": "我是一个时常觉得悲伤的人",
+      "type": "radio",
+      "orderNum": 39,
+      "options": [
+        {
+          "id": 23907,
+          "optionNo": "A",
+          "text": "非常不同意",
+          "value": "1"
+        },
+        {
+          "id": 23908,
+          "optionNo": "B",
+          "text": "不同意",
+          "value": "2"
+        },
+        {
+          "id": 23909,
+          "optionNo": "C",
+          "text": "不确定",
+          "value": "3"
+        },
+        {
+          "id": 23910,
+          "optionNo": "D",
+          "text": "同意",
+          "value": "4"
+        },
+        {
+          "id": 23911,
+          "optionNo": "E",
+          "text": "非常同意",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 6219,
+      "text": "我是一个思想深刻的人",
+      "type": "radio",
+      "orderNum": 40,
+      "options": [
+        {
+          "id": 23912,
+          "optionNo": "A",
+          "text": "非常不同意",
+          "value": "1"
+        },
+        {
+          "id": 23913,
+          "optionNo": "B",
+          "text": "不同意",
+          "value": "2"
+        },
+        {
+          "id": 23914,
+          "optionNo": "C",
+          "text": "不确定",
+          "value": "3"
+        },
+        {
+          "id": 23915,
+          "optionNo": "D",
+          "text": "同意",
+          "value": "4"
+        },
+        {
+          "id": 23916,
+          "optionNo": "E",
+          "text": "非常同意",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 6220,
+      "text": "我是一个精力充沛的人",
+      "type": "radio",
+      "orderNum": 41,
+      "options": [
+        {
+          "id": 23917,
+          "optionNo": "A",
+          "text": "非常不同意",
+          "value": "1"
+        },
+        {
+          "id": 23918,
+          "optionNo": "B",
+          "text": "不同意",
+          "value": "2"
+        },
+        {
+          "id": 23919,
+          "optionNo": "C",
+          "text": "不确定",
+          "value": "3"
+        },
+        {
+          "id": 23920,
+          "optionNo": "D",
+          "text": "同意",
+          "value": "4"
+        },
+        {
+          "id": 23921,
+          "optionNo": "E",
+          "text": "非常同意",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 6221,
+      "text": "我是一个不相信别人，怀疑别人意图的人",
+      "type": "radio",
+      "orderNum": 42,
+      "options": [
+        {
+          "id": 23922,
+          "optionNo": "A",
+          "text": "非常不同意",
+          "value": "1"
+        },
+        {
+          "id": 23923,
+          "optionNo": "B",
+          "text": "不同意",
+          "value": "2"
+        },
+        {
+          "id": 23924,
+          "optionNo": "C",
+          "text": "不确定",
+          "value": "3"
+        },
+        {
+          "id": 23925,
+          "optionNo": "D",
+          "text": "同意",
+          "value": "4"
+        },
+        {
+          "id": 23926,
+          "optionNo": "E",
+          "text": "非常同意",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 6222,
+      "text": "我是一个可靠的，总是值得他人信赖的人",
+      "type": "radio",
+      "orderNum": 43,
+      "options": [
+        {
+          "id": 23927,
+          "optionNo": "A",
+          "text": "非常不同意",
+          "value": "1"
+        },
+        {
+          "id": 23928,
+          "optionNo": "B",
+          "text": "不同意",
+          "value": "2"
+        },
+        {
+          "id": 23929,
+          "optionNo": "C",
+          "text": "不确定",
+          "value": "3"
+        },
+        {
+          "id": 23930,
+          "optionNo": "D",
+          "text": "同意",
+          "value": "4"
+        },
+        {
+          "id": 23931,
+          "optionNo": "E",
+          "text": "非常同意",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 6223,
+      "text": "我是一个能够控制自己的情绪的人",
+      "type": "radio",
+      "orderNum": 44,
+      "options": [
+        {
+          "id": 23932,
+          "optionNo": "A",
+          "text": "非常不同意",
+          "value": "1"
+        },
+        {
+          "id": 23933,
+          "optionNo": "B",
+          "text": "不同意",
+          "value": "2"
+        },
+        {
+          "id": 23934,
+          "optionNo": "C",
+          "text": "不确定",
+          "value": "3"
+        },
+        {
+          "id": 23935,
+          "optionNo": "D",
+          "text": "同意",
+          "value": "4"
+        },
+        {
+          "id": 23936,
+          "optionNo": "E",
+          "text": "非常同意",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 6224,
+      "text": "我是一个缺乏想象力的人",
+      "type": "radio",
+      "orderNum": 45,
+      "options": [
+        {
+          "id": 23937,
+          "optionNo": "A",
+          "text": "非常不同意",
+          "value": "1"
+        },
+        {
+          "id": 23938,
+          "optionNo": "B",
+          "text": "不同意",
+          "value": "2"
+        },
+        {
+          "id": 23939,
+          "optionNo": "C",
+          "text": "不确定",
+          "value": "3"
+        },
+        {
+          "id": 23940,
+          "optionNo": "D",
+          "text": "同意",
+          "value": "4"
+        },
+        {
+          "id": 23941,
+          "optionNo": "E",
+          "text": "非常同意",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 6225,
+      "text": "我是一个爱说话，健谈的人",
+      "type": "radio",
+      "orderNum": 46,
+      "options": [
+        {
+          "id": 23942,
+          "optionNo": "A",
+          "text": "非常不同意",
+          "value": "1"
+        },
+        {
+          "id": 23943,
+          "optionNo": "B",
+          "text": "不同意",
+          "value": "2"
+        },
+        {
+          "id": 23944,
+          "optionNo": "C",
+          "text": "不确定",
+          "value": "3"
+        },
+        {
+          "id": 23945,
+          "optionNo": "D",
+          "text": "同意",
+          "value": "4"
+        },
+        {
+          "id": 23946,
+          "optionNo": "E",
+          "text": "非常同意",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 6226,
+      "text": "我是一个有时对人冷淡，漠不关心的人",
+      "type": "radio",
+      "orderNum": 47,
+      "options": [
+        {
+          "id": 23947,
+          "optionNo": "A",
+          "text": "非常不同意",
+          "value": "1"
+        },
+        {
+          "id": 23948,
+          "optionNo": "B",
+          "text": "不同意",
+          "value": "2"
+        },
+        {
+          "id": 23949,
+          "optionNo": "C",
+          "text": "不确定",
+          "value": "3"
+        },
+        {
+          "id": 23950,
+          "optionNo": "D",
+          "text": "同意",
+          "value": "4"
+        },
+        {
+          "id": 23951,
+          "optionNo": "E",
+          "text": "非常同意",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 6227,
+      "text": "我是一个乱糟糟的，不爱收拾的人",
+      "type": "radio",
+      "orderNum": 48,
+      "options": [
+        {
+          "id": 23952,
+          "optionNo": "A",
+          "text": "非常不同意",
+          "value": "1"
+        },
+        {
+          "id": 23953,
+          "optionNo": "B",
+          "text": "不同意",
+          "value": "2"
+        },
+        {
+          "id": 23954,
+          "optionNo": "C",
+          "text": "不确定",
+          "value": "3"
+        },
+        {
+          "id": 23955,
+          "optionNo": "D",
+          "text": "同意",
+          "value": "4"
+        },
+        {
+          "id": 23956,
+          "optionNo": "E",
+          "text": "非常同意",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 6228,
+      "text": "我是一个很少觉得焦虑或者害怕的人",
+      "type": "radio",
+      "orderNum": 49,
+      "options": [
+        {
+          "id": 23957,
+          "optionNo": "A",
+          "text": "非常不同意",
+          "value": "1"
+        },
+        {
+          "id": 23958,
+          "optionNo": "B",
+          "text": "不同意",
+          "value": "2"
+        },
+        {
+          "id": 23959,
+          "optionNo": "C",
+          "text": "不确定",
+          "value": "3"
+        },
+        {
+          "id": 23960,
+          "optionNo": "D",
+          "text": "同意",
+          "value": "4"
+        },
+        {
+          "id": 23961,
+          "optionNo": "E",
+          "text": "非常同意",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 6229,
+      "text": "我是一个觉得诗歌、戏剧很无聊的人",
+      "type": "radio",
+      "orderNum": 50,
+      "options": [
+        {
+          "id": 23962,
+          "optionNo": "A",
+          "text": "非常不同意",
+          "value": "1"
+        },
+        {
+          "id": 23963,
+          "optionNo": "B",
+          "text": "不同意",
+          "value": "2"
+        },
+        {
+          "id": 23964,
+          "optionNo": "C",
+          "text": "不确定",
+          "value": "3"
+        },
+        {
+          "id": 23965,
+          "optionNo": "D",
+          "text": "同意",
+          "value": "4"
+        },
+        {
+          "id": 23966,
+          "optionNo": "E",
+          "text": "非常同意",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 6230,
+      "text": "我是一个更喜欢让别人来领头负责的人",
+      "type": "radio",
+      "orderNum": 51,
+      "options": [
+        {
+          "id": 23967,
+          "optionNo": "A",
+          "text": "非常不同意",
+          "value": "1"
+        },
+        {
+          "id": 23968,
+          "optionNo": "B",
+          "text": "不同意",
+          "value": "2"
+        },
+        {
+          "id": 23969,
+          "optionNo": "C",
+          "text": "不确定",
+          "value": "3"
+        },
+        {
+          "id": 23970,
+          "optionNo": "D",
+          "text": "同意",
+          "value": "4"
+        },
+        {
+          "id": 23971,
+          "optionNo": "E",
+          "text": "非常同意",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 6231,
+      "text": "我是一个待人谦逊礼让的人",
+      "type": "radio",
+      "orderNum": 52,
+      "options": [
+        {
+          "id": 23972,
+          "optionNo": "A",
+          "text": "非常不同意",
+          "value": "1"
+        },
+        {
+          "id": 23973,
+          "optionNo": "B",
+          "text": "不同意",
+          "value": "2"
+        },
+        {
+          "id": 23974,
+          "optionNo": "C",
+          "text": "不确定",
+          "value": "3"
+        },
+        {
+          "id": 23975,
+          "optionNo": "D",
+          "text": "同意",
+          "value": "4"
+        },
+        {
+          "id": 23976,
+          "optionNo": "E",
+          "text": "非常同意",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 6232,
+      "text": "我是一个有恒心，能坚持把事情做完的人",
+      "type": "radio",
+      "orderNum": 53,
+      "options": [
+        {
+          "id": 23977,
+          "optionNo": "A",
+          "text": "非常不同意",
+          "value": "1"
+        },
+        {
+          "id": 23978,
+          "optionNo": "B",
+          "text": "不同意",
+          "value": "2"
+        },
+        {
+          "id": 23979,
+          "optionNo": "C",
+          "text": "不确定",
+          "value": "3"
+        },
+        {
+          "id": 23980,
+          "optionNo": "D",
+          "text": "同意",
+          "value": "4"
+        },
+        {
+          "id": 23981,
+          "optionNo": "E",
+          "text": "非常同意",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 6233,
+      "text": "我是一个时常觉得郁郁寡欢的人",
+      "type": "radio",
+      "orderNum": 54,
+      "options": [
+        {
+          "id": 23982,
+          "optionNo": "A",
+          "text": "非常不同意",
+          "value": "1"
+        },
+        {
+          "id": 23983,
+          "optionNo": "B",
+          "text": "不同意",
+          "value": "2"
+        },
+        {
+          "id": 23984,
+          "optionNo": "C",
+          "text": "不确定",
+          "value": "3"
+        },
+        {
+          "id": 23985,
+          "optionNo": "D",
+          "text": "同意",
+          "value": "4"
+        },
+        {
+          "id": 23986,
+          "optionNo": "E",
+          "text": "非常同意",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 6234,
+      "text": "我是一个对抽象的概念和想法没什么兴趣的人",
+      "type": "radio",
+      "orderNum": 55,
+      "options": [
+        {
+          "id": 23987,
+          "optionNo": "A",
+          "text": "非常不同意",
+          "value": "1"
+        },
+        {
+          "id": 23988,
+          "optionNo": "B",
+          "text": "不同意",
+          "value": "2"
+        },
+        {
+          "id": 23989,
+          "optionNo": "C",
+          "text": "不确定",
+          "value": "3"
+        },
+        {
+          "id": 23990,
+          "optionNo": "D",
+          "text": "同意",
+          "value": "4"
+        },
+        {
+          "id": 23991,
+          "optionNo": "E",
+          "text": "非常同意",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 6235,
+      "text": "我是一个充满热情的人",
+      "type": "radio",
+      "orderNum": 56,
+      "options": [
+        {
+          "id": 23992,
+          "optionNo": "A",
+          "text": "非常不同意",
+          "value": "1"
+        },
+        {
+          "id": 23993,
+          "optionNo": "B",
+          "text": "不同意",
+          "value": "2"
+        },
+        {
+          "id": 23994,
+          "optionNo": "C",
+          "text": "不确定",
+          "value": "3"
+        },
+        {
+          "id": 23995,
+          "optionNo": "D",
+          "text": "同意",
+          "value": "4"
+        },
+        {
+          "id": 23996,
+          "optionNo": "E",
+          "text": "非常同意",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 6236,
+      "text": "我是一个把人往最好的方面想的人",
+      "type": "radio",
+      "orderNum": 57,
+      "options": [
+        {
+          "id": 23997,
+          "optionNo": "A",
+          "text": "非常不同意",
+          "value": "1"
+        },
+        {
+          "id": 23998,
+          "optionNo": "B",
+          "text": "不同意",
+          "value": "2"
+        },
+        {
+          "id": 23999,
+          "optionNo": "C",
+          "text": "不确定",
+          "value": "3"
+        },
+        {
+          "id": 24000,
+          "optionNo": "D",
+          "text": "同意",
+          "value": "4"
+        },
+        {
+          "id": 24001,
+          "optionNo": "E",
+          "text": "非常同意",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 6237,
+      "text": "我是一个有时候会做出一些不负责任行为的人",
+      "type": "radio",
+      "orderNum": 58,
+      "options": [
+        {
+          "id": 24002,
+          "optionNo": "A",
+          "text": "非常不同意",
+          "value": "1"
+        },
+        {
+          "id": 24003,
+          "optionNo": "B",
+          "text": "不同意",
+          "value": "2"
+        },
+        {
+          "id": 24004,
+          "optionNo": "C",
+          "text": "不确定",
+          "value": "3"
+        },
+        {
+          "id": 24005,
+          "optionNo": "D",
+          "text": "同意",
+          "value": "4"
+        },
+        {
+          "id": 24006,
+          "optionNo": "E",
+          "text": "非常同意",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 6238,
+      "text": "我是一个情绪多变，容易愤怒的人",
+      "type": "radio",
+      "orderNum": 59,
+      "options": [
+        {
+          "id": 24007,
+          "optionNo": "A",
+          "text": "非常不同意",
+          "value": "1"
+        },
+        {
+          "id": 24008,
+          "optionNo": "B",
+          "text": "不同意",
+          "value": "2"
+        },
+        {
+          "id": 24009,
+          "optionNo": "C",
+          "text": "不确定",
+          "value": "3"
+        },
+        {
+          "id": 24010,
+          "optionNo": "D",
+          "text": "同意",
+          "value": "4"
+        },
+        {
+          "id": 24011,
+          "optionNo": "E",
+          "text": "非常同意",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 6239,
+      "text": "我是一个有创意，能想出新点子的人",
+      "type": "radio",
+      "orderNum": 60,
+      "options": [
+        {
+          "id": 24012,
+          "optionNo": "A",
+          "text": "非常不同意",
+          "value": "1"
+        },
+        {
+          "id": 24013,
+          "optionNo": "B",
+          "text": "不同意",
+          "value": "2"
+        },
+        {
+          "id": 24014,
+          "optionNo": "C",
+          "text": "不确定",
+          "value": "3"
+        },
+        {
+          "id": 24015,
+          "optionNo": "D",
+          "text": "同意",
+          "value": "4"
+        },
+        {
+          "id": 24016,
+          "optionNo": "E",
+          "text": "非常同意",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 6240,
+      "text": "我相信自己有能力在学习上取得好成绩",
+      "type": "radio",
+      "orderNum": 61,
+      "options": [
+        {
+          "id": 24017,
+          "optionNo": "A",
+          "text": "非常不同意",
+          "value": "1"
+        },
+        {
+          "id": 24018,
+          "optionNo": "B",
+          "text": "不同意",
+          "value": "2"
+        },
+        {
+          "id": 24019,
+          "optionNo": "C",
+          "text": "不确定",
+          "value": "3"
+        },
+        {
+          "id": 24020,
+          "optionNo": "D",
+          "text": "同意",
+          "value": "4"
+        },
+        {
+          "id": 24021,
+          "optionNo": "E",
+          "text": "非常同意",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 6241,
+      "text": "我认为在学习中遇到问题自己有能力解决",
+      "type": "radio",
+      "orderNum": 62,
+      "options": [
+        {
+          "id": 24022,
+          "optionNo": "A",
+          "text": "非常不同意",
+          "value": "1"
+        },
+        {
+          "id": 24023,
+          "optionNo": "B",
+          "text": "不同意",
+          "value": "2"
+        },
+        {
+          "id": 24024,
+          "optionNo": "C",
+          "text": "不确定",
+          "value": "3"
+        },
+        {
+          "id": 24025,
+          "optionNo": "D",
+          "text": "同意",
+          "value": "4"
+        },
+        {
+          "id": 24026,
+          "optionNo": "E",
+          "text": "非常同意",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 6242,
+      "text": "和班上其他同学相比，我的学习能力还是比较强的",
+      "type": "radio",
+      "orderNum": 63,
+      "options": [
+        {
+          "id": 24027,
+          "optionNo": "A",
+          "text": "非常不同意",
+          "value": "1"
+        },
+        {
+          "id": 24028,
+          "optionNo": "B",
+          "text": "不同意",
+          "value": "2"
+        },
+        {
+          "id": 24029,
+          "optionNo": "C",
+          "text": "不确定",
+          "value": "3"
+        },
+        {
+          "id": 24030,
+          "optionNo": "D",
+          "text": "同意",
+          "value": "4"
+        },
+        {
+          "id": 24031,
+          "optionNo": "E",
+          "text": "非常同意",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 6243,
+      "text": "我认为我能够在课堂上及时掌握老师讲授的内容",
+      "type": "radio",
+      "orderNum": 64,
+      "options": [
+        {
+          "id": 24032,
+          "optionNo": "A",
+          "text": "非常不同意",
+          "value": "1"
+        },
+        {
+          "id": 24033,
+          "optionNo": "B",
+          "text": "不同意",
+          "value": "2"
+        },
+        {
+          "id": 24034,
+          "optionNo": "C",
+          "text": "不确定",
+          "value": "3"
+        },
+        {
+          "id": 24035,
+          "optionNo": "D",
+          "text": "同意",
+          "value": "4"
+        },
+        {
+          "id": 24036,
+          "optionNo": "E",
+          "text": "非常同意",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 6244,
+      "text": "我认为我能够学以致用",
+      "type": "radio",
+      "orderNum": 65,
+      "options": [
+        {
+          "id": 24037,
+          "optionNo": "A",
+          "text": "非常不同意",
+          "value": "1"
+        },
+        {
+          "id": 24038,
+          "optionNo": "B",
+          "text": "不同意",
+          "value": "2"
+        },
+        {
+          "id": 24039,
+          "optionNo": "C",
+          "text": "不确定",
+          "value": "3"
+        },
+        {
+          "id": 24040,
+          "optionNo": "D",
+          "text": "同意",
+          "value": "4"
+        },
+        {
+          "id": 24041,
+          "optionNo": "E",
+          "text": "非常同意",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 6245,
+      "text": "和班上其他同学相比，我对所学知识的了解更广泛一些",
+      "type": "radio",
+      "orderNum": 66,
+      "options": [
+        {
+          "id": 24042,
+          "optionNo": "A",
+          "text": "非常不同意",
+          "value": "1"
+        },
+        {
+          "id": 24043,
+          "optionNo": "B",
+          "text": "不同意",
+          "value": "2"
+        },
+        {
+          "id": 24044,
+          "optionNo": "C",
+          "text": "不确定",
+          "value": "3"
+        },
+        {
+          "id": 24045,
+          "optionNo": "D",
+          "text": "同意",
+          "value": "4"
+        },
+        {
+          "id": 24046,
+          "optionNo": "E",
+          "text": "非常同意",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 6246,
+      "text": "我喜欢选择富有挑战性的学习任务",
+      "type": "radio",
+      "orderNum": 67,
+      "options": [
+        {
+          "id": 24047,
+          "optionNo": "A",
+          "text": "非常不同意",
+          "value": "1"
+        },
+        {
+          "id": 24048,
+          "optionNo": "B",
+          "text": "不同意",
+          "value": "2"
+        },
+        {
+          "id": 24049,
+          "optionNo": "C",
+          "text": "不确定",
+          "value": "3"
+        },
+        {
+          "id": 24050,
+          "optionNo": "D",
+          "text": "同意",
+          "value": "4"
+        },
+        {
+          "id": 24051,
+          "optionNo": "E",
+          "text": "非常同意",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 6247,
+      "text": "我认为自己能够很好地理解书本上的知识及老师所讲授的内容",
+      "type": "radio",
+      "orderNum": 68,
+      "options": [
+        {
+          "id": 24052,
+          "optionNo": "A",
+          "text": "非常不同意",
+          "value": "1"
+        },
+        {
+          "id": 24053,
+          "optionNo": "B",
+          "text": "不同意",
+          "value": "2"
+        },
+        {
+          "id": 24054,
+          "optionNo": "C",
+          "text": "不确定",
+          "value": "3"
+        },
+        {
+          "id": 24055,
+          "optionNo": "D",
+          "text": "同意",
+          "value": "4"
+        },
+        {
+          "id": 24056,
+          "optionNo": "E",
+          "text": "非常同意",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 6248,
+      "text": "我经常选择那些虽然难却能够从中学到知识的学习任务，即使需要付出更多的努力",
+      "type": "radio",
+      "orderNum": 69,
+      "options": [
+        {
+          "id": 24057,
+          "optionNo": "A",
+          "text": "非常不同意",
+          "value": "1"
+        },
+        {
+          "id": 24058,
+          "optionNo": "B",
+          "text": "不同意",
+          "value": "2"
+        },
+        {
+          "id": 24059,
+          "optionNo": "C",
+          "text": "不确定",
+          "value": "3"
+        },
+        {
+          "id": 24060,
+          "optionNo": "D",
+          "text": "同意",
+          "value": "4"
+        },
+        {
+          "id": 24061,
+          "optionNo": "E",
+          "text": "非常同意",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 6249,
+      "text": "即使我在某次考试中的成绩很不理想，我也能平静地分析自己在考试中所犯的错误",
+      "type": "radio",
+      "orderNum": 70,
+      "options": [
+        {
+          "id": 24062,
+          "optionNo": "A",
+          "text": "非常不同意",
+          "value": "1"
+        },
+        {
+          "id": 24063,
+          "optionNo": "B",
+          "text": "不同意",
+          "value": "2"
+        },
+        {
+          "id": 24064,
+          "optionNo": "C",
+          "text": "不确定",
+          "value": "3"
+        },
+        {
+          "id": 24065,
+          "optionNo": "D",
+          "text": "同意",
+          "value": "4"
+        },
+        {
+          "id": 24066,
+          "optionNo": "E",
+          "text": "非常同意",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 6250,
+      "text": "不管我的学习成绩好与坏，我都从不怀疑自己的学习能力",
+      "type": "radio",
+      "orderNum": 71,
+      "options": [
+        {
+          "id": 24067,
+          "optionNo": "A",
+          "text": "非常不同意",
+          "value": "1"
+        },
+        {
+          "id": 24068,
+          "optionNo": "B",
+          "text": "不同意",
+          "value": "2"
+        },
+        {
+          "id": 24069,
+          "optionNo": "C",
+          "text": "不确定",
+          "value": "3"
+        },
+        {
+          "id": 24070,
+          "optionNo": "D",
+          "text": "同意",
+          "value": "4"
+        },
+        {
+          "id": 24071,
+          "optionNo": "E",
+          "text": "非常同意",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 6251,
+      "text": "学习时我总喜欢通过自问自答的方式来检验自己是否已掌握了所学的内容",
+      "type": "radio",
+      "orderNum": 72,
+      "options": [
+        {
+          "id": 24072,
+          "optionNo": "A",
+          "text": "非常不同意",
+          "value": "1"
+        },
+        {
+          "id": 24073,
+          "optionNo": "B",
+          "text": "不同意",
+          "value": "2"
+        },
+        {
+          "id": 24074,
+          "optionNo": "C",
+          "text": "不确定",
+          "value": "3"
+        },
+        {
+          "id": 24075,
+          "optionNo": "D",
+          "text": "同意",
+          "value": "4"
+        },
+        {
+          "id": 24076,
+          "optionNo": "E",
+          "text": "非常同意",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 6252,
+      "text": "当我思考某一问题时，我能够将前后所学的知识联系起来思考",
+      "type": "radio",
+      "orderNum": 73,
+      "options": [
+        {
+          "id": 24077,
+          "optionNo": "A",
+          "text": "非常不同意",
+          "value": "1"
+        },
+        {
+          "id": 24078,
+          "optionNo": "B",
+          "text": "不同意",
+          "value": "2"
+        },
+        {
+          "id": 24079,
+          "optionNo": "C",
+          "text": "不确定",
+          "value": "3"
+        },
+        {
+          "id": 24080,
+          "optionNo": "D",
+          "text": "同意",
+          "value": "4"
+        },
+        {
+          "id": 24081,
+          "optionNo": "E",
+          "text": "非常同意",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 6253,
+      "text": "我经常发现自己虽然在阅读书本却不知道它讲的是什么意思",
+      "type": "radio",
+      "orderNum": 74,
+      "options": [
+        {
+          "id": 24082,
+          "optionNo": "A",
+          "text": "非常不同意",
+          "value": "1"
+        },
+        {
+          "id": 24083,
+          "optionNo": "B",
+          "text": "不同意",
+          "value": "2"
+        },
+        {
+          "id": 24084,
+          "optionNo": "C",
+          "text": "不确定",
+          "value": "3"
+        },
+        {
+          "id": 24085,
+          "optionNo": "D",
+          "text": "同意",
+          "value": "4"
+        },
+        {
+          "id": 24086,
+          "optionNo": "E",
+          "text": "非常同意",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 6254,
+      "text": "在阅读书本时我能够将所阅读的内容与自己已掌握的知识联系起来进行思考",
+      "type": "radio",
+      "orderNum": 75,
+      "options": [
+        {
+          "id": 24087,
+          "optionNo": "A",
+          "text": "非常不同意",
+          "value": "1"
+        },
+        {
+          "id": 24088,
+          "optionNo": "B",
+          "text": "不同意",
+          "value": "2"
+        },
+        {
+          "id": 24089,
+          "optionNo": "C",
+          "text": "不确定",
+          "value": "3"
+        },
+        {
+          "id": 24090,
+          "optionNo": "D",
+          "text": "同意",
+          "value": "4"
+        },
+        {
+          "id": 24091,
+          "optionNo": "E",
+          "text": "非常同意",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 6255,
+      "text": "我发现自己上课时总是开小差以至于不能认真听讲",
+      "type": "radio",
+      "orderNum": 76,
+      "options": [
+        {
+          "id": 24092,
+          "optionNo": "A",
+          "text": "非常不同意",
+          "value": "1"
+        },
+        {
+          "id": 24093,
+          "optionNo": "B",
+          "text": "不同意",
+          "value": "2"
+        },
+        {
+          "id": 24094,
+          "optionNo": "C",
+          "text": "不确定",
+          "value": "3"
+        },
+        {
+          "id": 24095,
+          "optionNo": "D",
+          "text": "同意",
+          "value": "4"
+        },
+        {
+          "id": 24096,
+          "optionNo": "E",
+          "text": "非常同意",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 6256,
+      "text": "我常常不能准确地归纳出所阅读内容的主要意思",
+      "type": "radio",
+      "orderNum": 77,
+      "options": [
+        {
+          "id": 24097,
+          "optionNo": "A",
+          "text": "非常不同意",
+          "value": "1"
+        },
+        {
+          "id": 24098,
+          "optionNo": "B",
+          "text": "不同意",
+          "value": "2"
+        },
+        {
+          "id": 24099,
+          "optionNo": "C",
+          "text": "不确定",
+          "value": "3"
+        },
+        {
+          "id": 24100,
+          "optionNo": "D",
+          "text": "同意",
+          "value": "4"
+        },
+        {
+          "id": 24101,
+          "optionNo": "E",
+          "text": "非常同意",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 6257,
+      "text": "我总是在书本或笔记本上把重点部分划出来以帮助自己学习",
+      "type": "radio",
+      "orderNum": 78,
+      "options": [
+        {
+          "id": 24102,
+          "optionNo": "A",
+          "text": "非常不同意",
+          "value": "1"
+        },
+        {
+          "id": 24103,
+          "optionNo": "B",
+          "text": "不同意",
+          "value": "2"
+        },
+        {
+          "id": 24104,
+          "optionNo": "C",
+          "text": "不确定",
+          "value": "3"
+        },
+        {
+          "id": 24105,
+          "optionNo": "D",
+          "text": "同意",
+          "value": "4"
+        },
+        {
+          "id": 24106,
+          "optionNo": "E",
+          "text": "非常同意",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 6258,
+      "text": "当我为考试复习时，能够将前后所学的知识融会贯通起来进行",
+      "type": "radio",
+      "orderNum": 79,
+      "options": [
+        {
+          "id": 24107,
+          "optionNo": "A",
+          "text": "非常不同意",
+          "value": "1"
+        },
+        {
+          "id": 24108,
+          "optionNo": "B",
+          "text": "不同意",
+          "value": "2"
+        },
+        {
+          "id": 24109,
+          "optionNo": "C",
+          "text": "不确定",
+          "value": "3"
+        },
+        {
+          "id": 24110,
+          "optionNo": "D",
+          "text": "同意",
+          "value": "4"
+        },
+        {
+          "id": 24111,
+          "optionNo": "E",
+          "text": "非常同意",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 6259,
+      "text": "复习课堂上作笔记时我总试图记下老师的每一句话，而不管是否有意义",
+      "type": "radio",
+      "orderNum": 80,
+      "options": [
+        {
+          "id": 24112,
+          "optionNo": "A",
+          "text": "非常不同意",
+          "value": "1"
+        },
+        {
+          "id": 24113,
+          "optionNo": "B",
+          "text": "不同意",
+          "value": "2"
+        },
+        {
+          "id": 24114,
+          "optionNo": "C",
+          "text": "不确定",
+          "value": "3"
+        },
+        {
+          "id": 24115,
+          "optionNo": "D",
+          "text": "同意",
+          "value": "4"
+        },
+        {
+          "id": 24116,
+          "optionNo": "E",
+          "text": "非常同意",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 6260,
+      "text": "做作业时我总力求回忆起老师在课堂上所讲的内容以便把作业做好",
+      "type": "radio",
+      "orderNum": 81,
+      "options": [
+        {
+          "id": 24117,
+          "optionNo": "A",
+          "text": "非常不同意",
+          "value": "1"
+        },
+        {
+          "id": 24118,
+          "optionNo": "B",
+          "text": "不同意",
+          "value": "2"
+        },
+        {
+          "id": 24119,
+          "optionNo": "C",
+          "text": "不确定",
+          "value": "3"
+        },
+        {
+          "id": 24120,
+          "optionNo": "D",
+          "text": "同意",
+          "value": "4"
+        },
+        {
+          "id": 24121,
+          "optionNo": "E",
+          "text": "非常同意",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 6261,
+      "text": "即使老师没有要求，我也会自觉地做书本上每一章节后面的习题来检验自己对所学知识的掌握情况",
+      "type": "radio",
+      "orderNum": 82,
+      "options": [
+        {
+          "id": 24122,
+          "optionNo": "A",
+          "text": "非常不同意",
+          "value": "1"
+        },
+        {
+          "id": 24123,
+          "optionNo": "B",
+          "text": "不同意",
+          "value": "2"
+        },
+        {
+          "id": 24124,
+          "optionNo": "C",
+          "text": "不确定",
+          "value": "3"
+        },
+        {
+          "id": 24125,
+          "optionNo": "D",
+          "text": "同意",
+          "value": "4"
+        },
+        {
+          "id": 24126,
+          "optionNo": "E",
+          "text": "非常同意",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 6262,
+      "text": "1 请仔细阅读下面的每一个选项，根据自己最近一周的真实情况，选择符合自己真实情况的条目。",
+      "type": "radio",
+      "orderNum": 83,
+      "options": [
+        {
+          "id": 24127,
+          "optionNo": "A",
+          "text": "我不感到悲伤",
+          "value": "0"
+        },
+        {
+          "id": 24128,
+          "optionNo": "B",
+          "text": "我感到悲伤",
+          "value": "1"
+        },
+        {
+          "id": 24129,
+          "optionNo": "C",
+          "text": "我始终悲伤，不能自制",
+          "value": "2"
+        },
+        {
+          "id": 24130,
+          "optionNo": "D",
+          "text": "我太悲伤或者不愉快，甚至不能忍受",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "id": 6263,
+      "text": "2 请仔细阅读下面的每一个选项，根据自己最近一周的真实情况，选择符合自己真实情况的条目。",
+      "type": "radio",
+      "orderNum": 84,
+      "options": [
+        {
+          "id": 24131,
+          "optionNo": "A",
+          "text": "我对未来不失望",
+          "value": "0"
+        },
+        {
+          "id": 24132,
+          "optionNo": "B",
+          "text": "对未来我心灰意冷",
+          "value": "1"
+        },
+        {
+          "id": 24133,
+          "optionNo": "C",
+          "text": "我感到前景黯淡",
+          "value": "2"
+        },
+        {
+          "id": 24134,
+          "optionNo": "D",
+          "text": "我觉得将来毫无希望，无法改善",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "id": 6264,
+      "text": "3 请仔细阅读下面的每一个选项，根据自己最近一周的真实情况，选择符合自己真实情况的条目。",
+      "type": "radio",
+      "orderNum": 85,
+      "options": [
+        {
+          "id": 24135,
+          "optionNo": "A",
+          "text": "我并没有感到失败",
+          "value": "0"
+        },
+        {
+          "id": 24136,
+          "optionNo": "B",
+          "text": "我觉得比一般人失败要多",
+          "value": "1"
+        },
+        {
+          "id": 24137,
+          "optionNo": "C",
+          "text": "回首往事，我看到的是很多次失败",
+          "value": "2"
+        },
+        {
+          "id": 24138,
+          "optionNo": "D",
+          "text": "我觉得我是一个完全失败的人",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "id": 6265,
+      "text": "4 请仔细阅读下面的每一个选项，根据自己最近一周的真实情况，选择符合自己真实情况的条目。",
+      "type": "radio",
+      "orderNum": 86,
+      "options": [
+        {
+          "id": 24139,
+          "optionNo": "A",
+          "text": "我从各种事情中得到很多的满足",
+          "value": "0"
+        },
+        {
+          "id": 24140,
+          "optionNo": "B",
+          "text": "我不能从各种事件中感受到乐趣",
+          "value": "1"
+        },
+        {
+          "id": 24141,
+          "optionNo": "C",
+          "text": "我不能从各种事件中得到真正的满足",
+          "value": "2"
+        },
+        {
+          "id": 24142,
+          "optionNo": "D",
+          "text": "我对所有都事情不满意或是感到枯燥无味",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "id": 6266,
+      "text": "5 请仔细阅读下面的每一个选项，根据自己最近一周的真实情况，选择符合自己真实情况的条目。",
+      "type": "radio",
+      "orderNum": 87,
+      "options": [
+        {
+          "id": 24143,
+          "optionNo": "A",
+          "text": "我不感到有罪过",
+          "value": "0"
+        },
+        {
+          "id": 24144,
+          "optionNo": "B",
+          "text": "我在相当的时间里感到有罪过",
+          "value": "1"
+        },
+        {
+          "id": 24145,
+          "optionNo": "C",
+          "text": "我在大部分时间里觉得有罪",
+          "value": "2"
+        },
+        {
+          "id": 24146,
+          "optionNo": "D",
+          "text": "我在任何时候都觉得有罪",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "id": 6267,
+      "text": "6 请仔细阅读下面的每一个选项，根据自己最近一周的真实情况，选择符合自己真实情况的条目。",
+      "type": "radio",
+      "orderNum": 88,
+      "options": [
+        {
+          "id": 24147,
+          "optionNo": "A",
+          "text": "我没有觉得受到惩罚",
+          "value": "0"
+        },
+        {
+          "id": 24148,
+          "optionNo": "B",
+          "text": "我觉得可能受到惩罚",
+          "value": "1"
+        },
+        {
+          "id": 24149,
+          "optionNo": "C",
+          "text": "我预料受到惩罚",
+          "value": "2"
+        },
+        {
+          "id": 24150,
+          "optionNo": "D",
+          "text": "我觉得正在受到惩罚",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "id": 6268,
+      "text": "7 请仔细阅读下面的每一个选项，根据自己最近一周的真实情况，选择符合自己真实情况的条目。",
+      "type": "radio",
+      "orderNum": 89,
+      "options": [
+        {
+          "id": 24151,
+          "optionNo": "A",
+          "text": "我对自己并不失望",
+          "value": "0"
+        },
+        {
+          "id": 24152,
+          "optionNo": "B",
+          "text": "我对自己感到失望",
+          "value": "1"
+        },
+        {
+          "id": 24153,
+          "optionNo": "C",
+          "text": "我讨厌自己",
+          "value": "2"
+        },
+        {
+          "id": 24154,
+          "optionNo": "D",
+          "text": "我恨自己",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "id": 6269,
+      "text": "8 请仔细阅读下面的每一个选项，根据自己最近一周的真实情况，选择符合自己真实情况的条目。",
+      "type": "radio",
+      "orderNum": 90,
+      "options": [
+        {
+          "id": 24155,
+          "optionNo": "A",
+          "text": "我觉得并不比其他人更不好",
+          "value": "0"
+        },
+        {
+          "id": 24156,
+          "optionNo": "B",
+          "text": "我批判自己的弱点和错误",
+          "value": "1"
+        },
+        {
+          "id": 24157,
+          "optionNo": "C",
+          "text": "我所有的时间里都责备自己的错误",
+          "value": "2"
+        },
+        {
+          "id": 24158,
+          "optionNo": "D",
+          "text": "我责备自己把所有事情都弄坏了",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "id": 6270,
+      "text": "9 请仔细阅读下面的每一个选项，根据自己最近一周的真实情况，选择符合自己真实情况的条目。",
+      "type": "radio",
+      "orderNum": 91,
+      "options": [
+        {
+          "id": 24159,
+          "optionNo": "A",
+          "text": "我没有任何想弄死自己的想法",
+          "value": "0"
+        },
+        {
+          "id": 24160,
+          "optionNo": "B",
+          "text": "我有自杀想法，但我不去做",
+          "value": "1"
+        },
+        {
+          "id": 24161,
+          "optionNo": "C",
+          "text": "我想自杀",
+          "value": "2"
+        },
+        {
+          "id": 24162,
+          "optionNo": "D",
+          "text": "如果有机会的话，我就自杀",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "id": 6271,
+      "text": "10 请仔细阅读下面的每一个选项，根据自己最近一周的真实情况，选择符合自己真实情况的条目。",
+      "type": "radio",
+      "orderNum": 92,
+      "options": [
+        {
+          "id": 24163,
+          "optionNo": "A",
+          "text": "我哭泣与往常一样",
+          "value": "0"
+        },
+        {
+          "id": 24164,
+          "optionNo": "B",
+          "text": "我比往常哭得多",
+          "value": "1"
+        },
+        {
+          "id": 24165,
+          "optionNo": "C",
+          "text": "我一直要哭",
+          "value": "2"
+        },
+        {
+          "id": 24166,
+          "optionNo": "D",
+          "text": "我过去能哭，但要哭也哭不出来",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "id": 6272,
+      "text": "11 请仔细阅读下面的每一个选项，根据自己最近一周的真实情况，选择符合自己真实情况的条目。",
+      "type": "radio",
+      "orderNum": 93,
+      "options": [
+        {
+          "id": 24167,
+          "optionNo": "A",
+          "text": "和过去相比，我生气没有更多",
+          "value": "0"
+        },
+        {
+          "id": 24168,
+          "optionNo": "B",
+          "text": "我比往常更容易生气发火",
+          "value": "1"
+        },
+        {
+          "id": 24169,
+          "optionNo": "C",
+          "text": "我觉得所有时间都容易生气",
+          "value": "2"
+        },
+        {
+          "id": 24170,
+          "optionNo": "D",
+          "text": "过去使我生气的事，目前一点也不能让我生气了",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "id": 6273,
+      "text": "12 请仔细阅读下面的每一个选项，根据自己最近一周的真实情况，选择符合自己真实情况的条目",
+      "type": "radio",
+      "orderNum": 94,
+      "options": [
+        {
+          "id": 24171,
+          "optionNo": "A",
+          "text": "我对他人没有失去兴趣",
+          "value": "0"
+        },
+        {
+          "id": 24172,
+          "optionNo": "B",
+          "text": "和过去比，我对他人的兴趣减少",
+          "value": "1"
+        },
+        {
+          "id": 24173,
+          "optionNo": "C",
+          "text": "我对别人的兴趣大部分已经失去了",
+          "value": "2"
+        },
+        {
+          "id": 24174,
+          "optionNo": "D",
+          "text": "我对别人的兴趣已全部丧失了",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "id": 6274,
+      "text": "13 请仔细阅读下面的每一个选项，根据自己最近一周的真实情况，选择符合自己真实情况的条目",
+      "type": "radio",
+      "orderNum": 95,
+      "options": [
+        {
+          "id": 24175,
+          "optionNo": "A",
+          "text": "我做决定没有什么困难",
+          "value": "0"
+        },
+        {
+          "id": 24176,
+          "optionNo": "B",
+          "text": "我推迟做决定比过去多",
+          "value": "1"
+        },
+        {
+          "id": 24177,
+          "optionNo": "C",
+          "text": "我作决定比以前困难大得多",
+          "value": "2"
+        },
+        {
+          "id": 24178,
+          "optionNo": "D",
+          "text": "我再也不能做决定了",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "id": 6275,
+      "text": "14 请仔细阅读下面的每一个选项，根据自己最近一周的真实情况，选择符合自己真实情况的条目",
+      "type": "radio",
+      "orderNum": 96,
+      "options": [
+        {
+          "id": 24179,
+          "optionNo": "A",
+          "text": "觉得我外在看上去并不比过去差",
+          "value": "0"
+        },
+        {
+          "id": 24180,
+          "optionNo": "B",
+          "text": "我担心自己看上去显老了，没吸引力",
+          "value": "1"
+        },
+        {
+          "id": 24181,
+          "optionNo": "C",
+          "text": "我觉得我外貌有些变化，我难看了",
+          "value": "2"
+        },
+        {
+          "id": 24182,
+          "optionNo": "D",
+          "text": "我相信，我看起来丑陋",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "id": 6276,
+      "text": "15 请仔细阅读下面的每一个选项，根据自己最近一周的真实情况，选择符合自己真实情况的条目",
+      "type": "radio",
+      "orderNum": 97,
+      "options": [
+        {
+          "id": 24183,
+          "optionNo": "A",
+          "text": "我工作和以前一样的好",
+          "value": "0"
+        },
+        {
+          "id": 24184,
+          "optionNo": "B",
+          "text": "着手做事，我目前需要额外多花些力气",
+          "value": "1"
+        },
+        {
+          "id": 24185,
+          "optionNo": "C",
+          "text": "无论做什么我都要努力催促自己才行",
+          "value": "2"
+        },
+        {
+          "id": 24186,
+          "optionNo": "D",
+          "text": "我什么工作也不能做了",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "id": 6277,
+      "text": "16 请仔细阅读下面的每一个选项，根据自己最近一周的真实情况，选择符合自己真实情况的条目。",
+      "type": "radio",
+      "orderNum": 98,
+      "options": [
+        {
+          "id": 24187,
+          "optionNo": "A",
+          "text": "我睡觉与往常一样好",
+          "value": "0"
+        },
+        {
+          "id": 24188,
+          "optionNo": "B",
+          "text": "我睡眠质量不如过去好",
+          "value": "1"
+        },
+        {
+          "id": 24189,
+          "optionNo": "C",
+          "text": "我比往常早醒1～2小时，难以再睡",
+          "value": "2"
+        },
+        {
+          "id": 24190,
+          "optionNo": "D",
+          "text": "我比往常早醒几个小时，不能再睡",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "id": 6278,
+      "text": "17 请仔细阅读下面的每一个选项，根据自己最近一周的真实情况，选择符合自己真实情况的条目。",
+      "type": "radio",
+      "orderNum": 99,
+      "options": [
+        {
+          "id": 24191,
+          "optionNo": "A",
+          "text": "我并不感到比往常更疲乏",
+          "value": "0"
+        },
+        {
+          "id": 24192,
+          "optionNo": "B",
+          "text": "我比过去更感到疲乏无力",
+          "value": "1"
+        },
+        {
+          "id": 24193,
+          "optionNo": "C",
+          "text": "几乎不管做什么，我都感到疲乏无力",
+          "value": "2"
+        },
+        {
+          "id": 24194,
+          "optionNo": "D",
+          "text": "我太疲乏无力，不能做任何事情",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "id": 6279,
+      "text": "18 请仔细阅读下面的每一个选项，根据自己最近一周的真实情况，选择符合自己真实情况的条目。",
+      "type": "radio",
+      "orderNum": 100,
+      "options": [
+        {
+          "id": 24195,
+          "optionNo": "A",
+          "text": "我食欲和往常一样",
+          "value": "0"
+        },
+        {
+          "id": 24196,
+          "optionNo": "B",
+          "text": "我的食欲不如过去好了",
+          "value": "1"
+        },
+        {
+          "id": 24197,
+          "optionNo": "C",
+          "text": "我目前的食欲差得多了",
+          "value": "2"
+        },
+        {
+          "id": 24198,
+          "optionNo": "D",
+          "text": "我一点也没有食欲了",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "id": 6280,
+      "text": "19 请仔细阅读下面的每一个选项，根据自己最近一周的真实情况，选择符合自己真实情况的条目。",
+      "type": "radio",
+      "orderNum": 101,
+      "options": [
+        {
+          "id": 24199,
+          "optionNo": "A",
+          "text": "最近我的体重并没有很大减轻",
+          "value": "0"
+        },
+        {
+          "id": 24200,
+          "optionNo": "B",
+          "text": "我的体重下降2.27千克以上",
+          "value": "1"
+        },
+        {
+          "id": 24201,
+          "optionNo": "C",
+          "text": "我的体重下降5.54千克以上",
+          "value": "2"
+        },
+        {
+          "id": 24202,
+          "optionNo": "D",
+          "text": "我体重下降7.81干克以上",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "id": 6281,
+      "text": "20 请仔细阅读下面的每一个选项，根据自己最近一周的真实情况，选择符合自己真实情况的条目。",
+      "type": "radio",
+      "orderNum": 102,
+      "options": [
+        {
+          "id": 24203,
+          "optionNo": "A",
+          "text": "我对健康状况并不比往常更担心",
+          "value": "0"
+        },
+        {
+          "id": 24204,
+          "optionNo": "B",
+          "text": "我担心身体问题，如疼痛、胃肠不适或便秘",
+          "value": "1"
+        },
+        {
+          "id": 24205,
+          "optionNo": "C",
+          "text": "我很担心身体问题，想别的事情很难",
+          "value": "2"
+        },
+        {
+          "id": 24206,
+          "optionNo": "D",
+          "text": "我对身体问题很担忧，以致于不能想其他任何事",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "id": 6282,
+      "text": "21 请仔细阅读下面的每一个选项，根据自己最近一周的真实情况，选择符合自己真实情况的条目。",
+      "type": "radio",
+      "orderNum": 103,
+      "options": [
+        {
+          "id": 24207,
+          "optionNo": "A",
+          "text": "我没有发现，自己对性兴趣最近有什么变化",
+          "value": "0"
+        },
+        {
+          "id": 24208,
+          "optionNo": "B",
+          "text": "我的性兴趣比过去降低了",
+          "value": "1"
+        },
+        {
+          "id": 24209,
+          "optionNo": "C",
+          "text": "我现在对性兴趣大大下降",
+          "value": "2"
+        },
+        {
+          "id": 24210,
+          "optionNo": "D",
+          "text": "我的性兴趣已经完全丧失",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "id": 6283,
+      "text": "我常常想我是多么孤独",
+      "type": "radio",
+      "orderNum": 104,
+      "options": [
+        {
+          "id": 24211,
+          "optionNo": "A",
+          "text": "从不",
+          "value": "1"
+        },
+        {
+          "id": 24212,
+          "optionNo": "B",
+          "text": "有时",
+          "value": "2"
+        },
+        {
+          "id": 24213,
+          "optionNo": "C",
+          "text": "经常",
+          "value": "3"
+        },
+        {
+          "id": 24214,
+          "optionNo": "D",
+          "text": "总是",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 6284,
+      "text": "我常常想:'如果我不能停止想这些，那么我就不能继续做手头的事'",
+      "type": "radio",
+      "orderNum": 105,
+      "options": [
+        {
+          "id": 24215,
+          "optionNo": "A",
+          "text": "从不",
+          "value": "1"
+        },
+        {
+          "id": 24216,
+          "optionNo": "B",
+          "text": "有时",
+          "value": "2"
+        },
+        {
+          "id": 24217,
+          "optionNo": "C",
+          "text": "经常",
+          "value": "3"
+        },
+        {
+          "id": 24218,
+          "optionNo": "D",
+          "text": "总是",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 6285,
+      "text": "我常常想我疲劳、痛苦的感觉",
+      "type": "radio",
+      "orderNum": 106,
+      "options": [
+        {
+          "id": 24219,
+          "optionNo": "A",
+          "text": "从不",
+          "value": "1"
+        },
+        {
+          "id": 24220,
+          "optionNo": "B",
+          "text": "有时",
+          "value": "2"
+        },
+        {
+          "id": 24221,
+          "optionNo": "C",
+          "text": "经常",
+          "value": "3"
+        },
+        {
+          "id": 24222,
+          "optionNo": "D",
+          "text": "总是",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 6286,
+      "text": "我常常想'集中注意力是多么的困难'",
+      "type": "radio",
+      "orderNum": 107,
+      "options": [
+        {
+          "id": 24223,
+          "optionNo": "A",
+          "text": "从不",
+          "value": "1"
+        },
+        {
+          "id": 24224,
+          "optionNo": "B",
+          "text": "有时",
+          "value": "2"
+        },
+        {
+          "id": 24225,
+          "optionNo": "C",
+          "text": "经常",
+          "value": "3"
+        },
+        {
+          "id": 24226,
+          "optionNo": "D",
+          "text": "总是",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 6287,
+      "text": "我常常想我究竟做了什么会导致这样",
+      "type": "radio",
+      "orderNum": 108,
+      "options": [
+        {
+          "id": 24227,
+          "optionNo": "A",
+          "text": "从不",
+          "value": "1"
+        },
+        {
+          "id": 24228,
+          "optionNo": "B",
+          "text": "有时",
+          "value": "2"
+        },
+        {
+          "id": 24229,
+          "optionNo": "C",
+          "text": "经常",
+          "value": "3"
+        },
+        {
+          "id": 24230,
+          "optionNo": "D",
+          "text": "总是",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 6288,
+      "text": "我常常想自己是多么消极被动、毫无动力",
+      "type": "radio",
+      "orderNum": 109,
+      "options": [
+        {
+          "id": 24231,
+          "optionNo": "A",
+          "text": "从不",
+          "value": "1"
+        },
+        {
+          "id": 24232,
+          "optionNo": "B",
+          "text": "有时",
+          "value": "2"
+        },
+        {
+          "id": 24233,
+          "optionNo": "C",
+          "text": "经常",
+          "value": "3"
+        },
+        {
+          "id": 24234,
+          "optionNo": "D",
+          "text": "总是",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 6289,
+      "text": "我常常分析最近发生的事以便理解为什么感到郁闷",
+      "type": "radio",
+      "orderNum": 110,
+      "options": [
+        {
+          "id": 24235,
+          "optionNo": "A",
+          "text": "从不",
+          "value": "1"
+        },
+        {
+          "id": 24236,
+          "optionNo": "B",
+          "text": "有时",
+          "value": "2"
+        },
+        {
+          "id": 24237,
+          "optionNo": "C",
+          "text": "经常",
+          "value": "3"
+        },
+        {
+          "id": 24238,
+          "optionNo": "D",
+          "text": "总是",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 6290,
+      "text": "我常常想我对其他享情感到麻木",
+      "type": "radio",
+      "orderNum": 111,
+      "options": [
+        {
+          "id": 24239,
+          "optionNo": "A",
+          "text": "从不",
+          "value": "1"
+        },
+        {
+          "id": 24240,
+          "optionNo": "B",
+          "text": "有时",
+          "value": "2"
+        },
+        {
+          "id": 24241,
+          "optionNo": "C",
+          "text": "经常",
+          "value": "3"
+        },
+        {
+          "id": 24242,
+          "optionNo": "D",
+          "text": "总是",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 6291,
+      "text": "我常常想我为什么如此不顺心",
+      "type": "radio",
+      "orderNum": 112,
+      "options": [
+        {
+          "id": 24243,
+          "optionNo": "A",
+          "text": "从不",
+          "value": "1"
+        },
+        {
+          "id": 24244,
+          "optionNo": "B",
+          "text": "有时",
+          "value": "2"
+        },
+        {
+          "id": 24245,
+          "optionNo": "C",
+          "text": "经常",
+          "value": "3"
+        },
+        {
+          "id": 24246,
+          "optionNo": "D",
+          "text": "总是",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 6292,
+      "text": "我常常想我为什么总是这样",
+      "type": "radio",
+      "orderNum": 113,
+      "options": [
+        {
+          "id": 24247,
+          "optionNo": "A",
+          "text": "从不",
+          "value": "1"
+        },
+        {
+          "id": 24248,
+          "optionNo": "B",
+          "text": "有时",
+          "value": "2"
+        },
+        {
+          "id": 24249,
+          "optionNo": "C",
+          "text": "经常",
+          "value": "3"
+        },
+        {
+          "id": 24250,
+          "optionNo": "D",
+          "text": "总是",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 6293,
+      "text": "我常常独自思考为什么会这样",
+      "type": "radio",
+      "orderNum": 114,
+      "options": [
+        {
+          "id": 24251,
+          "optionNo": "A",
+          "text": "从不",
+          "value": "1"
+        },
+        {
+          "id": 24252,
+          "optionNo": "B",
+          "text": "有时",
+          "value": "2"
+        },
+        {
+          "id": 24253,
+          "optionNo": "C",
+          "text": "经常",
+          "value": "3"
+        },
+        {
+          "id": 24254,
+          "optionNo": "D",
+          "text": "总是",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 6294,
+      "text": "我常常写下自己正在想的事情并加以分析",
+      "type": "radio",
+      "orderNum": 115,
+      "options": [
+        {
+          "id": 24255,
+          "optionNo": "A",
+          "text": "从不",
+          "value": "1"
+        },
+        {
+          "id": 24256,
+          "optionNo": "B",
+          "text": "有时",
+          "value": "2"
+        },
+        {
+          "id": 24257,
+          "optionNo": "C",
+          "text": "经常",
+          "value": "3"
+        },
+        {
+          "id": 24258,
+          "optionNo": "D",
+          "text": "总是",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 6295,
+      "text": "我常常思考现状，希望它有所好转",
+      "type": "radio",
+      "orderNum": 116,
+      "options": [
+        {
+          "id": 24259,
+          "optionNo": "A",
+          "text": "从不",
+          "value": "1"
+        },
+        {
+          "id": 24260,
+          "optionNo": "B",
+          "text": "有时",
+          "value": "2"
+        },
+        {
+          "id": 24261,
+          "optionNo": "C",
+          "text": "经常",
+          "value": "3"
+        },
+        {
+          "id": 24262,
+          "optionNo": "D",
+          "text": "总是",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 6296,
+      "text": "我常常想如果这种感觉持续的话，就无法集中注意",
+      "type": "radio",
+      "orderNum": 117,
+      "options": [
+        {
+          "id": 24263,
+          "optionNo": "A",
+          "text": "从不",
+          "value": "1"
+        },
+        {
+          "id": 24264,
+          "optionNo": "B",
+          "text": "有时",
+          "value": "2"
+        },
+        {
+          "id": 24265,
+          "optionNo": "C",
+          "text": "经常",
+          "value": "3"
+        },
+        {
+          "id": 24266,
+          "optionNo": "D",
+          "text": "总是",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 6297,
+      "text": "我常常想为什么我有这些问题，而别人却没有",
+      "type": "radio",
+      "orderNum": 118,
+      "options": [
+        {
+          "id": 24267,
+          "optionNo": "A",
+          "text": "从不",
+          "value": "1"
+        },
+        {
+          "id": 24268,
+          "optionNo": "B",
+          "text": "有时",
+          "value": "2"
+        },
+        {
+          "id": 24269,
+          "optionNo": "C",
+          "text": "经常",
+          "value": "3"
+        },
+        {
+          "id": 24270,
+          "optionNo": "D",
+          "text": "总是",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 6298,
+      "text": "我常常想我为什么不能把事情处理的更好",
+      "type": "radio",
+      "orderNum": 119,
+      "options": [
+        {
+          "id": 24271,
+          "optionNo": "A",
+          "text": "从不",
+          "value": "1"
+        },
+        {
+          "id": 24272,
+          "optionNo": "B",
+          "text": "有时",
+          "value": "2"
+        },
+        {
+          "id": 24273,
+          "optionNo": "C",
+          "text": "经常",
+          "value": "3"
+        },
+        {
+          "id": 24274,
+          "optionNo": "D",
+          "text": "总是",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 6299,
+      "text": "我常常想我为什么感到如此伤心",
+      "type": "radio",
+      "orderNum": 120,
+      "options": [
+        {
+          "id": 24275,
+          "optionNo": "A",
+          "text": "从不",
+          "value": "1"
+        },
+        {
+          "id": 24276,
+          "optionNo": "B",
+          "text": "有时",
+          "value": "2"
+        },
+        {
+          "id": 24277,
+          "optionNo": "C",
+          "text": "经常",
+          "value": "3"
+        },
+        {
+          "id": 24278,
+          "optionNo": "D",
+          "text": "总是",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 6300,
+      "text": "我常常想我的缺点、失败、错误和过失",
+      "type": "radio",
+      "orderNum": 121,
+      "options": [
+        {
+          "id": 24279,
+          "optionNo": "A",
+          "text": "从不",
+          "value": "1"
+        },
+        {
+          "id": 24280,
+          "optionNo": "B",
+          "text": "有时",
+          "value": "2"
+        },
+        {
+          "id": 24281,
+          "optionNo": "C",
+          "text": "经常",
+          "value": "3"
+        },
+        {
+          "id": 24282,
+          "optionNo": "D",
+          "text": "总是",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 6301,
+      "text": "我常常想，'我对做任何事都提不起劲来'",
+      "type": "radio",
+      "orderNum": 122,
+      "options": [
+        {
+          "id": 24283,
+          "optionNo": "A",
+          "text": "从不",
+          "value": "1"
+        },
+        {
+          "id": 24284,
+          "optionNo": "B",
+          "text": "有时",
+          "value": "2"
+        },
+        {
+          "id": 24285,
+          "optionNo": "C",
+          "text": "经常",
+          "value": "3"
+        },
+        {
+          "id": 24286,
+          "optionNo": "D",
+          "text": "总是",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 6302,
+      "text": "我常常分析自己的性格以便理解为何感到压抑",
+      "type": "radio",
+      "orderNum": 123,
+      "options": [
+        {
+          "id": 24287,
+          "optionNo": "A",
+          "text": "从不",
+          "value": "1"
+        },
+        {
+          "id": 24288,
+          "optionNo": "B",
+          "text": "有时",
+          "value": "2"
+        },
+        {
+          "id": 24289,
+          "optionNo": "C",
+          "text": "经常",
+          "value": "3"
+        },
+        {
+          "id": 24290,
+          "optionNo": "D",
+          "text": "总是",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 6303,
+      "text": "我常常单独到某个地方去想我的感受",
+      "type": "radio",
+      "orderNum": 124,
+      "options": [
+        {
+          "id": 24291,
+          "optionNo": "A",
+          "text": "从不",
+          "value": "1"
+        },
+        {
+          "id": 24292,
+          "optionNo": "B",
+          "text": "有时",
+          "value": "2"
+        },
+        {
+          "id": 24293,
+          "optionNo": "C",
+          "text": "经常",
+          "value": "3"
+        },
+        {
+          "id": 24294,
+          "optionNo": "D",
+          "text": "总是",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 6304,
+      "text": "我常常想我是多么地生自己的气",
+      "type": "radio",
+      "orderNum": 125,
+      "options": [
+        {
+          "id": 24295,
+          "optionNo": "A",
+          "text": "从不",
+          "value": "1"
+        },
+        {
+          "id": 24296,
+          "optionNo": "B",
+          "text": "有时",
+          "value": "2"
+        },
+        {
+          "id": 24297,
+          "optionNo": "C",
+          "text": "经常",
+          "value": "3"
+        },
+        {
+          "id": 24298,
+          "optionNo": "D",
+          "text": "总是",
+          "value": "4"
+        }
+      ]
+    }
+  ],
+  "dimensions": [
+    {
+      "id": 583,
+      "num": 1,
+      "dimensionName": "外向性",
+      "dimensionCode": "外向性",
+      "evaluateExpression": "(hx_t_1 + hx_t_6 + (6 - hx_t_11) + (6 - hx_t_16) + hx_t_21 + (6 - hx_t_26) + (6 - hx_t_31) + (6 - hx_t_36) + hx_t_41 + hx_t_46 + (6 - hx_t_51) + hx_t_56) / 12",
+      "standardScoreFormula": "(hx_t_1 + hx_t_6 + (6 - hx_t_11) + (6 - hx_t_16) + hx_t_21 + (6 - hx_t_26) + (6 - hx_t_31) + (6 - hx_t_36) + hx_t_41 + hx_t_46 + (6 - hx_t_51) + hx_t_56) / 12",
+      "results": [
+        {
+          "id": 1392,
+          "evaluateExpression": "hx_wd_y_1 <= 35",
+          "conclusionAnalysis": "很低：总体较内向、独处充电，社交/表达动力偏弱。",
+          "suggestion": "从小场景开始增加互动（如1对1寒暄）；准备3个常用自我介绍句；重要场合可预设要点清单。",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 1393,
+          "evaluateExpression": "hx_wd_y_1 > 35 && hx_wd_y_1 < 40",
+          "conclusionAnalysis": "偏低：偏向安静与独立，更少主动社交。",
+          "suggestion": "采用“定额式社交”（每周固定1次短交流）；用hx_calc_equal_count等函数监控高分题目占比作为进展指标。",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 1394,
+          "evaluateExpression": "hx_wd_y_1 >= 40 && hx_wd_y_1 <= 60",
+          "conclusionAnalysis": "中等：在社交、表达与安静独处之间较为平衡。",
+          "suggestion": "维持当前节奏；重要场合提前演练开场与过渡语，提升表达流畅度。",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 1395,
+          "evaluateExpression": "hx_wd_y_1 > 60 && hx_wd_y_1 < 65",
+          "conclusionAnalysis": "偏高：外向、乐于社交与带动气氛。",
+          "suggestion": "注意给他人表达空间；在决策场景中加入结构化讨论，避免过度主导。",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 1396,
+          "evaluateExpression": "hx_wd_y_1 >= 65",
+          "conclusionAnalysis": "很高：强社交驱动与领导意愿，表达积极。",
+          "suggestion": "在团队中担任主持/协调角色；同时安排高质量独处时间以防精力透支。",
+          "assessmentWarning": "none"
+        }
+      ]
+    },
+    {
+      "id": 584,
+      "num": 2,
+      "dimensionName": "宜人性",
+      "dimensionCode": "宜人性",
+      "evaluateExpression": "(hx_t_2 + hx_t_7 + (6 - hx_t_12) + (6 - hx_t_17) + (6 - hx_t_22) + hx_t_27 + hx_t_32 + (6 - hx_t_37) + (6 - hx_t_42) + (6 - hx_t_47) + hx_t_52 + hx_t_57) / 12",
+      "standardScoreFormula": "(hx_t_2 + hx_t_7 + (6 - hx_t_12) + (6 - hx_t_17) + (6 - hx_t_22) + hx_t_27 + hx_t_32 + (6 - hx_t_37) + (6 - hx_t_42) + (6 - hx_t_47) + hx_t_52 + hx_t_57) / 12",
+      "results": [
+        {
+          "id": 1397,
+          "evaluateExpression": "hx_wd_y_2 <= 35",
+          "conclusionAnalysis": "很低：更直接与质疑，容易被人感到强势或不合作。",
+          "suggestion": "谈分歧时使用“感受-影响-需求”结构；在关键题上练习换位总结（先复述对方观点）。"
+        },
+        {
+          "id": 1398,
+          "evaluateExpression": "hx_wd_y_2 > 35 && hx_wd_y_2 < 40",
+          "conclusionAnalysis": "偏低：表达立场果断，协作时可能略显锋利。",
+          "suggestion": "在评审/反馈里加入2:1规则（两条肯定+一条改进）。"
+        },
+        {
+          "id": 1399,
+          "evaluateExpression": "hx_wd_y_2 >= 40 && hx_wd_y_2 <= 60",
+          "conclusionAnalysis": "中等：在体谅与坚持原则之间较平衡。",
+          "suggestion": "继续保持；遇到冲突时先求共识点再聚焦差异。"
+        },
+        {
+          "id": 1400,
+          "evaluateExpression": "hx_wd_y_2 > 60 && hx_wd_y_2 < 65",
+          "conclusionAnalysis": "偏高：同理心强，尊重与信任他人，合作顺畅。",
+          "suggestion": "注意界限管理；必要时明确优先级与“可拒绝清单”。"
+        },
+        {
+          "id": 1401,
+          "evaluateExpression": "hx_wd_y_2 >= 65",
+          "conclusionAnalysis": "很高：高度体谅与包容，极强的助人倾向。",
+          "suggestion": "避免过度承诺；用待办上限与委托策略保护精力。"
+        }
+      ]
+    },
+    {
+      "id": 585,
+      "num": 3,
+      "dimensionName": "尽责性",
+      "dimensionCode": "尽责性",
+      "evaluateExpression": "((6 - hx_t_3) + (6 - hx_t_8) + hx_t_13 + hx_t_18 + (6 - hx_t_23) + (6 - hx_t_28) + hx_t_33 + hx_t_38 + hx_t_43 + (6 - hx_t_48) + hx_t_53 + (6 - hx_t_58)) / 12",
+      "standardScoreFormula": "((6 - hx_t_3) + (6 - hx_t_8) + hx_t_13 + hx_t_18 + (6 - hx_t_23) + (6 - hx_t_28) + hx_t_33 + hx_t_38 + hx_t_43 + (6 - hx_t_48) + hx_t_53 + (6 - hx_t_58)) / 12",
+      "results": [
+        {
+          "id": 1402,
+          "evaluateExpression": "hx_wd_y_3 <= 35",
+          "conclusionAnalysis": "很低：组织性与执行持续性偏弱，易拖延或缺少结构化流程。",
+          "suggestion": "采用“2分钟法+番茄钟”；为任务设定明确起始触发与最小可交付件。"
+        },
+        {
+          "id": 1403,
+          "evaluateExpression": "hx_wd_y_3 > 35 && hx_wd_y_3 < 40",
+          "conclusionAnalysis": "偏低：计划性一般，峰值时可能顾此失彼。",
+          "suggestion": "每周一次回顾：归档、清单分优先级；设置每日Top3。"
+        },
+        {
+          "id": 1404,
+          "evaluateExpression": "hx_wd_y_3 >= 40 && hx_wd_y_3 <= 60",
+          "conclusionAnalysis": "中等：基本可靠，能按计划推进并完成任务。",
+          "suggestion": "保留复盘习惯；关键项目引入里程碑与风险清单。"
+        },
+        {
+          "id": 1405,
+          "evaluateExpression": "hx_wd_y_3 > 60 && hx_wd_y_3 < 65",
+          "conclusionAnalysis": "偏高：高度自律与条理，注重质量与期限。",
+          "suggestion": "留出探索与迭代空间，防止过度完美主义影响效率。"
+        },
+        {
+          "id": 1406,
+          "evaluateExpression": "hx_wd_y_3 >= 65",
+          "conclusionAnalysis": "很高：极强的可靠性与执行控制，流程化显著。",
+          "suggestion": "适度容纳不确定性；为创新类任务设置“试错缓冲区”。"
+        }
+      ]
+    },
+    {
+      "id": 586,
+      "num": 4,
+      "dimensionName": "消极情绪性",
+      "dimensionCode": "消极情绪性",
+      "evaluateExpression": "((6 - hx_t_4) + (6 - hx_t_9) + hx_t_14 + hx_t_19 + (6 - hx_t_24) + (6 - hx_t_29) + hx_t_34 + hx_t_39 + (6 - hx_t_44) + (6 - hx_t_49) + hx_t_54 + hx_t_59) / 12",
+      "standardScoreFormula": "((6 - hx_t_4) + (6 - hx_t_9) + hx_t_14 + hx_t_19 + (6 - hx_t_24) + (6 - hx_t_29) + hx_t_34 + hx_t_39 + (6 - hx_t_44) + (6 - hx_t_49) + hx_t_54 + hx_t_59) / 12",
+      "results": [
+        {
+          "id": 1407,
+          "evaluateExpression": "hx_wd_y_4 <= 35",
+          "conclusionAnalysis": "很低：情绪稳定、抗压性强，少见焦虑与波动。",
+          "suggestion": "在高压情境中可承担稳态角色；也留意情绪表达以免被视为“冷感”。"
+        },
+        {
+          "id": 1408,
+          "evaluateExpression": "hx_wd_y_4 > 35 && hx_wd_y_4 < 40",
+          "conclusionAnalysis": "偏低：总体平稳，偶有压力反应。",
+          "suggestion": "继续保持睡眠与运动；建立预案（提前识别压力信号与应对清单）。"
+        },
+        {
+          "id": 1409,
+          "evaluateExpression": "hx_wd_y_4 >= 40 && hx_wd_y_4 <= 60",
+          "conclusionAnalysis": "中等：常见水平的紧张/情绪起伏。",
+          "suggestion": "采用呼吸/正念-3分钟练习；高负荷阶段实施节律化作息。"
+        },
+        {
+          "id": 1410,
+          "evaluateExpression": "hx_wd_y_4 > 60 && hx_wd_y_4 < 65",
+          "conclusionAnalysis": "偏高：对压力更敏感，焦虑与情绪波动较明显。",
+          "suggestion": "建立“情绪记录—触发—应对”日志；将重大任务分解并设置缓冲。"
+        },
+        {
+          "id": 1411,
+          "evaluateExpression": "hx_wd_y_4 >= 65",
+          "conclusionAnalysis": "很高：持续紧绷或波动，需重点关注情绪与恢复。",
+          "suggestion": "优先睡眠与支持系统；必要时寻求专业咨询与同伴支持。"
+        }
+      ]
+    },
+    {
+      "id": 587,
+      "num": 5,
+      "dimensionName": "开放性",
+      "dimensionCode": "开放性",
+      "evaluateExpression": "((6 - hx_t_5) + hx_t_10 + hx_t_15 + hx_t_20 + (6 - hx_t_25) + (6 - hx_t_30) + hx_t_35 + hx_t_40 + (6 - hx_t_45) + (6 - hx_t_50) + (6 - hx_t_55) + hx_t_60) / 12",
+      "standardScoreFormula": "((6 - hx_t_5) + hx_t_10 + hx_t_15 + hx_t_20 + (6 - hx_t_25) + (6 - hx_t_30) + hx_t_35 + hx_t_40 + (6 - hx_t_45) + (6 - hx_t_50) + (6 - hx_t_55) + hx_t_60) / 12",
+      "results": [
+        {
+          "id": 1412,
+          "evaluateExpression": "hx_wd_y_5 <= 35",
+          "conclusionAnalysis": "很低：更务实守成，偏好熟悉与可预期。",
+          "suggestion": "以“小比例试验”方式接触新领域（5–10%时间探索），降低不确定成本。"
+        },
+        {
+          "id": 1413,
+          "evaluateExpression": "hx_wd_y_5 > 35 && hx_wd_y_5 < 40",
+          "conclusionAnalysis": "偏低：对新奇事物兴趣有限，更看重实用性。",
+          "suggestion": "给每个既有流程增加1个改进假设并A/B验证。"
+        },
+        {
+          "id": 1414,
+          "evaluateExpression": "hx_wd_y_5 >= 40 && hx_wd_y_5 <= 60",
+          "conclusionAnalysis": "中等：在好奇与务实之间较为平衡。",
+          "suggestion": "维持“探索—利用”双轮驱动；把新点子纳入季度Roadmap。"
+        },
+        {
+          "id": 1415,
+          "evaluateExpression": "hx_wd_y_5 > 60 && hx_wd_y_5 < 65",
+          "conclusionAnalysis": "偏高：好奇心强、审美敏感、思想开放。",
+          "suggestion": "为创意设定落地节奏（原型—评审—迭代），避免点子分散。"
+        },
+        {
+          "id": 1416,
+          "evaluateExpression": "hx_wd_y_5 >= 65",
+          "conclusionAnalysis": "很高：强烈的探索与想象倾向，善于跨域链接。",
+          "suggestion": "建立“创意收敛机制”（月度筛选Top3），确保产出聚焦。"
+        }
+      ]
+    },
+    {
+      "id": 588,
+      "num": 6,
+      "dimensionName": "学习能力自我效能感",
+      "dimensionCode": "学习能力自我效能感",
+      "evaluateExpression": "(hx_t_61 + hx_t_62 + hx_t_63 + hx_t_64 + hx_t_65 + hx_t_66 + hx_t_67 + hx_t_68 + hx_t_69 + hx_t_70 + hx_t_71) / 11",
+      "standardScoreFormula": "(hx_t_61 + hx_t_62 + hx_t_63 + hx_t_64 + hx_t_65 + hx_t_66 + hx_t_67 + hx_t_68 + hx_t_69 + hx_t_70 + hx_t_71) / 11",
+      "results": [
+        {
+          "id": 1417,
+          "evaluateExpression": "hx_wd_y_6 <= 2.0",
+          "conclusionAnalysis": "很低：对自己学习能力缺乏信心，容易产生学业挫败感",
+          "suggestion": "从小的学习目标开始建立成功体验，记录每次进步"
+        },
+        {
+          "id": 1418,
+          "evaluateExpression": "hx_wd_y_6 > 2.0 && hx_wd_y_6 <= 3.0",
+          "conclusionAnalysis": "偏低：对自身学习能力存在一定怀疑",
+          "suggestion": "关注过往成功经验，寻找适合自己的学习方法"
+        },
+        {
+          "id": 1419,
+          "evaluateExpression": "hx_wd_y_6 > 3.0 && hx_wd_y_6 <= 4.0",
+          "conclusionAnalysis": "中等：对学习能力有基本信心，但仍有提升空间",
+          "suggestion": "继续巩固优势学科，在薄弱环节寻求突破"
+        },
+        {
+          "id": 1420,
+          "evaluateExpression": "hx_wd_y_6 > 4.0",
+          "conclusionAnalysis": "较高：对自身学习能力有充分信心",
+          "suggestion": "保持积极心态，适当挑战更高难度的学习任务"
+        }
+      ]
+    },
+    {
+      "id": 589,
+      "num": 7,
+      "dimensionName": "学习行为自我效能感",
+      "dimensionCode": "学习行为自我效能感",
+      "evaluateExpression": "((6 - hx_t_74) + (6 - hx_t_76) + (6 - hx_t_77) + (6 - hx_t_80) + hx_t_72 + hx_t_73 + hx_t_75 + hx_t_78 + hx_t_79 + hx_t_81 + hx_t_82) / 11",
+      "standardScoreFormula": "((6 - hx_t_74) + (6 - hx_t_76) + (6 - hx_t_77) + (6 - hx_t_80) + hx_t_72 + hx_t_73 + hx_t_75 + hx_t_78 + hx_t_79 + hx_t_81 + hx_t_82) / 11",
+      "results": [
+        {
+          "id": 1421,
+          "evaluateExpression": "hx_wd_y_7 <= 2.0",
+          "conclusionAnalysis": "很低：学习行为缺乏计划性和坚持性",
+          "suggestion": "建立规律的学习作息，从短时间专注开始训练"
+        },
+        {
+          "id": 1422,
+          "evaluateExpression": "hx_wd_y_7 > 2.0 && hx_wd_y_7 <= 3.0",
+          "conclusionAnalysis": "偏低：学习行为管理能力有待加强",
+          "suggestion": "制定具体学习计划，使用时间管理工具"
+        },
+        {
+          "id": 1423,
+          "evaluateExpression": "hx_wd_y_7 > 3.0 && hx_wd_y_7 <= 4.0",
+          "conclusionAnalysis": "中等：具备基本的学习行为管理能力",
+          "suggestion": "优化学习方法，提高学习效率"
+        },
+        {
+          "id": 1424,
+          "evaluateExpression": "hx_wd_y_7 > 4.0",
+          "conclusionAnalysis": "较高：学习行为管理能力强，善于运用学习策略",
+          "suggestion": "继续保持良好的学习习惯，分享成功经验"
+        }
+      ]
+    },
+    {
+      "id": 590,
+      "num": 8,
+      "dimensionName": "抑郁总分",
+      "dimensionCode": "抑郁总分",
+      "evaluateExpression": "hx_t_83 + hx_t_84 + hx_t_85 + hx_t_86 + hx_t_87 + hx_t_88 + hx_t_89 + hx_t_90 + hx_t_91 + hx_t_92 + hx_t_93 + hx_t_94 + hx_t_95 + hx_t_96 + hx_t_97 + hx_t_98 + hx_t_99 + hx_t_100 + hx_t_101 + hx_t_102 + hx_t_103",
+      "standardScoreFormula": "hx_t_83 + hx_t_84 + hx_t_85 + hx_t_86 + hx_t_87 + hx_t_88 + hx_t_89 + hx_t_90 + hx_t_91 + hx_t_92 + hx_t_93 + hx_t_94 + hx_t_95 + hx_t_96 + hx_t_97 + hx_t_98 + hx_t_99 + hx_t_100 + hx_t_101 + hx_t_102 + hx_t_103",
+      "results": [
+        {
+          "id": 1425,
+          "evaluateExpression": "hx_wd_y_8 <= 13",
+          "conclusionAnalysis": "无抑郁：情绪状态良好，无明显抑郁症状",
+          "suggestion": "继续保持积极的生活方式和情绪调节策略"
+        },
+        {
+          "id": 1426,
+          "evaluateExpression": "hx_wd_y_8 >= 14 && hx_wd_y_8 <= 19",
+          "conclusionAnalysis": "轻度抑郁：存在轻微抑郁症状，对日常生活影响有限",
+          "suggestion": "关注情绪变化，适当增加社交活动和体育锻炼"
+        },
+        {
+          "id": 1427,
+          "evaluateExpression": "hx_wd_y_8 >= 20 && hx_wd_y_8 <= 28",
+          "conclusionAnalysis": "中度抑郁：抑郁症状较为明显，影响日常生活功能",
+          "suggestion": "建议寻求专业心理咨询，建立支持系统"
+        },
+        {
+          "id": 1428,
+          "evaluateExpression": "hx_wd_y_8 >= 29 && hx_wd_y_8 <= 63",
+          "conclusionAnalysis": "重度抑郁：抑郁症状严重，需要及时专业干预",
+          "suggestion": "强烈建议立即寻求专业心理治疗或精神科帮助"
+        }
+      ]
+    },
+    {
+      "id": 591,
+      "num": 9,
+      "dimensionName": "症状反刍",
+      "dimensionCode": "症状反刍",
+      "evaluateExpression": "hx_t_104 + hx_t_105 + hx_t_106 + hx_t_107 + hx_t_109 + hx_t_111 + hx_t_112 + hx_t_115 + hx_t_116 + hx_t_118 + hx_t_119 + hx_t_120",
+      "standardScoreFormula": "hx_t_104 + hx_t_105 + hx_t_106 + hx_t_107 + hx_t_109 + hx_t_111 + hx_t_112 + hx_t_115 + hx_t_116 + hx_t_118 + hx_t_119 + hx_t_120",
+      "results": [
+        {
+          "id": 1429,
+          "evaluateExpression": "hx_wd_y_9 <= 24",
+          "conclusionAnalysis": "较低：较少陷入对负面症状的反复思考",
+          "suggestion": "继续保持积极的思维模式"
+        },
+        {
+          "id": 1430,
+          "evaluateExpression": "hx_wd_y_9 > 24 && hx_wd_y_9 <= 36",
+          "conclusionAnalysis": "中等：偶尔会反复思考负面感受",
+          "suggestion": "学习正念技巧，及时转移注意力"
+        },
+        {
+          "id": 1431,
+          "evaluateExpression": "hx_wd_y_9 > 36",
+          "conclusionAnalysis": "较高：容易陷入对负面症状的反复思考",
+          "suggestion": "练习思维停止技术，建立积极的自我对话"
+        }
+      ]
+    },
+    {
+      "id": 592,
+      "num": 10,
+      "dimensionName": "反省深思",
+      "dimensionCode": "反省深思",
+      "evaluateExpression": "hx_t_108 + hx_t_110 + hx_t_113 + hx_t_114 + hx_t_117",
+      "standardScoreFormula": "hx_t_108 + hx_t_110 + hx_t_113 + hx_t_114 + hx_t_117",
+      "results": [
+        {
+          "id": 1432,
+          "evaluateExpression": "hx_wd_y_10 <= 10",
+          "conclusionAnalysis": "较低：较少进行深入的自我反思",
+          "suggestion": "适当增加对自身经历的思考有助于个人成长"
+        },
+        {
+          "id": 1433,
+          "evaluateExpression": "hx_wd_y_10 > 10 && hx_wd_y_10 <= 15",
+          "conclusionAnalysis": "中等：具备适度的自我反思能力",
+          "suggestion": "保持平衡，避免过度反思"
+        },
+        {
+          "id": 1434,
+          "evaluateExpression": "hx_wd_y_10 > 15",
+          "conclusionAnalysis": "较高：倾向于深入分析自身问题和感受",
+          "suggestion": "注意区分建设性反思与无效反刍"
+        }
+      ]
+    },
+    {
+      "id": 593,
+      "num": 11,
+      "dimensionName": "强迫冥想",
+      "dimensionCode": "强迫冥想",
+      "evaluateExpression": "hx_t_121 + hx_t_122 + hx_t_123 + hx_t_124 + hx_t_125",
+      "standardScoreFormula": "hx_t_121 + hx_t_122 + hx_t_123 + hx_t_124 + hx_t_125",
+      "results": [
+        {
+          "id": 1435,
+          "evaluateExpression": "hx_wd_y_11 <= 10",
+          "conclusionAnalysis": "较低：较少出现强迫性冥想状态",
+          "suggestion": "继续保持灵活的思维模式"
+        },
+        {
+          "id": 1436,
+          "evaluateExpression": "hx_wd_y_11 > 10 && hx_wd_y_11 <= 15",
+          "conclusionAnalysis": "中等：偶尔会出现思维固着现象",
+          "suggestion": "学习认知重构技巧，打破思维循环"
+        },
+        {
+          "id": 1437,
+          "evaluateExpression": "hx_wd_y_11 > 15",
+          "conclusionAnalysis": "较高：容易陷入强迫性冥想，难以摆脱负面思维",
+          "suggestion": "寻求专业帮助，学习思维阻断和注意力转移技术"
+        }
+      ]
+    }
+  ]
+}

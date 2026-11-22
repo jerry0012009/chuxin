@@ -1,0 +1,862 @@
+{
+  "id": "edds-eating-disorder",
+  "title": "饮食障碍诊断量表(EDDS)",
+  "description": "本问卷帮助了解您近期的进食行为和体型关注程度，用于饮食障碍的初步筛查。共22题，大约需要5分钟完成。",
+  "type": "basic",
+  "questions": [
+    {
+      "text": "在过去28天内，您对自己体重的不满意程度如何？",
+      "type": "radio",
+      "orderNum": 1,
+      "options": [
+        {
+          "text": "非常满意",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较满意",
+          "value": "1",
+          "optionNo": "B"
+        },
+        {
+          "text": "有点满意",
+          "value": "2",
+          "optionNo": "C"
+        },
+        {
+          "text": "无所谓",
+          "value": "3",
+          "optionNo": "D"
+        },
+        {
+          "text": "有点不满意",
+          "value": "4",
+          "optionNo": "E"
+        },
+        {
+          "text": "比较不满意",
+          "value": "5",
+          "optionNo": "F"
+        },
+        {
+          "text": "非常不满意",
+          "value": "6",
+          "optionNo": "G"
+        }
+      ]
+    },
+    {
+      "text": "在过去28天内，您对自己体型的不满意程度如何？",
+      "type": "radio",
+      "orderNum": 2,
+      "options": [
+        {
+          "text": "非常满意",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较满意",
+          "value": "1",
+          "optionNo": "B"
+        },
+        {
+          "text": "有点满意",
+          "value": "2",
+          "optionNo": "C"
+        },
+        {
+          "text": "无所谓",
+          "value": "3",
+          "optionNo": "D"
+        },
+        {
+          "text": "有点不满意",
+          "value": "4",
+          "optionNo": "E"
+        },
+        {
+          "text": "比较不满意",
+          "value": "5",
+          "optionNo": "F"
+        },
+        {
+          "text": "非常不满意",
+          "value": "6",
+          "optionNo": "G"
+        }
+      ]
+    },
+    {
+      "text": "在过去28天内，您对自己腹部（肚子）的不满意程度如何？",
+      "type": "radio",
+      "orderNum": 3,
+      "options": [
+        {
+          "text": "非常满意",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "比较满意",
+          "value": "1",
+          "optionNo": "B"
+        },
+        {
+          "text": "有点满意",
+          "value": "2",
+          "optionNo": "C"
+        },
+        {
+          "text": "无所谓",
+          "value": "3",
+          "optionNo": "D"
+        },
+        {
+          "text": "有点不满意",
+          "value": "4",
+          "optionNo": "E"
+        },
+        {
+          "text": "比较不满意",
+          "value": "5",
+          "optionNo": "F"
+        },
+        {
+          "text": "非常不满意",
+          "value": "6",
+          "optionNo": "G"
+        }
+      ]
+    },
+    {
+      "text": "在过去28天内，您害怕体重增加5斤（约2.5公斤）的程度如何？",
+      "type": "radio",
+      "orderNum": 4,
+      "options": [
+        {
+          "text": "完全不害怕",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "稍微有些害怕",
+          "value": "1",
+          "optionNo": "B"
+        },
+        {
+          "text": "有点害怕",
+          "value": "2",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较害怕",
+          "value": "3",
+          "optionNo": "D"
+        },
+        {
+          "text": "很害怕",
+          "value": "4",
+          "optionNo": "E"
+        },
+        {
+          "text": "极度害怕",
+          "value": "5",
+          "optionNo": "F"
+        }
+      ]
+    },
+    {
+      "text": "在过去28天内，您感到自己很胖的频率如何？",
+      "type": "radio",
+      "orderNum": 5,
+      "options": [
+        {
+          "text": "从不",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "很少",
+          "value": "1",
+          "optionNo": "B"
+        },
+        {
+          "text": "偶尔",
+          "value": "2",
+          "optionNo": "C"
+        },
+        {
+          "text": "有时",
+          "value": "3",
+          "optionNo": "D"
+        },
+        {
+          "text": "经常",
+          "value": "4",
+          "optionNo": "E"
+        },
+        {
+          "text": "总是",
+          "value": "5",
+          "optionNo": "F"
+        }
+      ]
+    },
+    {
+      "text": "在过去28天内，您感到进食失控的频率如何？",
+      "type": "radio",
+      "orderNum": 6,
+      "options": [
+        {
+          "text": "没有",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "很轻微",
+          "value": "1",
+          "optionNo": "B"
+        },
+        {
+          "text": "轻微",
+          "value": "2",
+          "optionNo": "C"
+        },
+        {
+          "text": "中等",
+          "value": "3",
+          "optionNo": "D"
+        },
+        {
+          "text": "偏重",
+          "value": "4",
+          "optionNo": "E"
+        },
+        {
+          "text": "严重",
+          "value": "5",
+          "optionNo": "F"
+        },
+        {
+          "text": "非常严重",
+          "value": "6",
+          "optionNo": "G"
+        }
+      ]
+    },
+    {
+      "text": "在过去28天内，您有多少次吃了别人认为异常大量的食物？",
+      "type": "radio",
+      "orderNum": 7,
+      "options": [
+        {
+          "text": "0次",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "1-3次",
+          "value": "1",
+          "optionNo": "B"
+        },
+        {
+          "text": "4-7次",
+          "value": "2",
+          "optionNo": "C"
+        },
+        {
+          "text": "8-11次",
+          "value": "3",
+          "optionNo": "D"
+        },
+        {
+          "text": "12-15次",
+          "value": "4",
+          "optionNo": "E"
+        },
+        {
+          "text": "16次或更多",
+          "value": "5",
+          "optionNo": "F"
+        }
+      ]
+    },
+    {
+      "text": "在上述暴食发作时，您感到无法停止进食或无法控制吃了多少的频率如何？",
+      "type": "radio",
+      "orderNum": 8,
+      "options": [
+        {
+          "text": "没有",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "很轻微",
+          "value": "1",
+          "optionNo": "B"
+        },
+        {
+          "text": "轻微",
+          "value": "2",
+          "optionNo": "C"
+        },
+        {
+          "text": "中等",
+          "value": "3",
+          "optionNo": "D"
+        },
+        {
+          "text": "偏重",
+          "value": "4",
+          "optionNo": "E"
+        },
+        {
+          "text": "严重",
+          "value": "5",
+          "optionNo": "F"
+        },
+        {
+          "text": "非常严重",
+          "value": "6",
+          "optionNo": "G"
+        }
+      ]
+    },
+    {
+      "text": "在过去28天内，您是否曾通过催吐（自行呕吐）来防止体重增加或促进体重减轻？",
+      "type": "radio",
+      "orderNum": 9,
+      "options": [
+        {
+          "text": "0次",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "1-3次",
+          "value": "1",
+          "optionNo": "B"
+        },
+        {
+          "text": "4-7次",
+          "value": "2",
+          "optionNo": "C"
+        },
+        {
+          "text": "8-11次",
+          "value": "3",
+          "optionNo": "D"
+        },
+        {
+          "text": "12-15次",
+          "value": "4",
+          "optionNo": "E"
+        },
+        {
+          "text": "16次或更多",
+          "value": "5",
+          "optionNo": "F"
+        }
+      ]
+    },
+    {
+      "text": "在过去28天内，您是否曾使用泻药来防止体重增加或促进体重减轻？",
+      "type": "radio",
+      "orderNum": 10,
+      "options": [
+        {
+          "text": "0次",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "1-3次",
+          "value": "1",
+          "optionNo": "B"
+        },
+        {
+          "text": "4-7次",
+          "value": "2",
+          "optionNo": "C"
+        },
+        {
+          "text": "8-11次",
+          "value": "3",
+          "optionNo": "D"
+        },
+        {
+          "text": "12-15次",
+          "value": "4",
+          "optionNo": "E"
+        },
+        {
+          "text": "16次或更多",
+          "value": "5",
+          "optionNo": "F"
+        }
+      ]
+    },
+    {
+      "text": "在过去28天内，您是否曾使用利尿剂（排水药）来防止体重增加或促进体重减轻？",
+      "type": "radio",
+      "orderNum": 11,
+      "options": [
+        {
+          "text": "0次",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "1-3次",
+          "value": "1",
+          "optionNo": "B"
+        },
+        {
+          "text": "4-7次",
+          "value": "2",
+          "optionNo": "C"
+        },
+        {
+          "text": "8-11次",
+          "value": "3",
+          "optionNo": "D"
+        },
+        {
+          "text": "12-15次",
+          "value": "4",
+          "optionNo": "E"
+        },
+        {
+          "text": "16次或更多",
+          "value": "5",
+          "optionNo": "F"
+        }
+      ]
+    },
+    {
+      "text": "在过去28天内，您是否曾通过严格节食或禁食来防止体重增加或促进体重减轻？",
+      "type": "radio",
+      "orderNum": 12,
+      "options": [
+        {
+          "text": "0次",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "1-3次",
+          "value": "1",
+          "optionNo": "B"
+        },
+        {
+          "text": "4-7次",
+          "value": "2",
+          "optionNo": "C"
+        },
+        {
+          "text": "8-11次",
+          "value": "3",
+          "optionNo": "D"
+        },
+        {
+          "text": "12-15次",
+          "value": "4",
+          "optionNo": "E"
+        },
+        {
+          "text": "16次或更多",
+          "value": "5",
+          "optionNo": "F"
+        }
+      ]
+    },
+    {
+      "text": "在过去28天内，您是否曾通过剧烈运动来防止体重增加或促进体重减轻？",
+      "type": "radio",
+      "orderNum": 13,
+      "options": [
+        {
+          "text": "0次",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "1-3次",
+          "value": "1",
+          "optionNo": "B"
+        },
+        {
+          "text": "4-7次",
+          "value": "2",
+          "optionNo": "C"
+        },
+        {
+          "text": "8-11次",
+          "value": "3",
+          "optionNo": "D"
+        },
+        {
+          "text": "12-15次",
+          "value": "4",
+          "optionNo": "E"
+        },
+        {
+          "text": "16次或更多",
+          "value": "5",
+          "optionNo": "F"
+        }
+      ]
+    },
+    {
+      "text": "您是否曾经在事后感到严重的内疚或自我厌恶，因为您觉得自己吃了太多？",
+      "type": "radio",
+      "orderNum": 14,
+      "options": [
+        {
+          "text": "否",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "是",
+          "value": "1",
+          "optionNo": "B"
+        }
+      ]
+    },
+    {
+      "text": "在过去的3-6个月中，您是否因为暴食和/或清除行为（呕吐、使用泻药等）而导致体重减轻超过4.5公斤？",
+      "type": "radio",
+      "orderNum": 15,
+      "options": [
+        {
+          "text": "否",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "是",
+          "value": "1",
+          "optionNo": "B"
+        }
+      ]
+    },
+    {
+      "text": "在过去的3-6个月中，其他人是否注意到您存在进食异常的问题？",
+      "type": "radio",
+      "orderNum": 16,
+      "options": [
+        {
+          "text": "否",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "是",
+          "value": "1",
+          "optionNo": "B"
+        }
+      ]
+    },
+    {
+      "text": "在过去28天内，您每天是否感到强烈的进食欲望且难以抗拒？",
+      "type": "radio",
+      "orderNum": 17,
+      "options": [
+        {
+          "text": "从不",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "很少",
+          "value": "1",
+          "optionNo": "B"
+        },
+        {
+          "text": "偶尔",
+          "value": "2",
+          "optionNo": "C"
+        },
+        {
+          "text": "有时",
+          "value": "3",
+          "optionNo": "D"
+        },
+        {
+          "text": "经常",
+          "value": "4",
+          "optionNo": "E"
+        },
+        {
+          "text": "总是",
+          "value": "5",
+          "optionNo": "F"
+        }
+      ]
+    },
+    {
+      "text": "在过去28天内，您是否在独处时进食？",
+      "type": "radio",
+      "orderNum": 18,
+      "options": [
+        {
+          "text": "从不",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "很少",
+          "value": "1",
+          "optionNo": "B"
+        },
+        {
+          "text": "偶尔",
+          "value": "2",
+          "optionNo": "C"
+        },
+        {
+          "text": "有时",
+          "value": "3",
+          "optionNo": "D"
+        },
+        {
+          "text": "经常",
+          "value": "4",
+          "optionNo": "E"
+        },
+        {
+          "text": "总是",
+          "value": "5",
+          "optionNo": "F"
+        }
+      ]
+    },
+    {
+      "text": "在过去28天内，您在进食后是否感到非常饱胀或不舒服？",
+      "type": "radio",
+      "orderNum": 19,
+      "options": [
+        {
+          "text": "从不",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "很少",
+          "value": "1",
+          "optionNo": "B"
+        },
+        {
+          "text": "偶尔",
+          "value": "2",
+          "optionNo": "C"
+        },
+        {
+          "text": "有时",
+          "value": "3",
+          "optionNo": "D"
+        },
+        {
+          "text": "经常",
+          "value": "4",
+          "optionNo": "E"
+        },
+        {
+          "text": "总是",
+          "value": "5",
+          "optionNo": "F"
+        }
+      ]
+    },
+    {
+      "text": "您对自己当前体重和身高的感知准确吗？（如果刻意低报体重选\"否\"）",
+      "type": "radio",
+      "orderNum": 20,
+      "options": [
+        {
+          "text": "否",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "是",
+          "value": "1",
+          "optionNo": "B"
+        }
+      ]
+    },
+    {
+      "text": "在过去一年中，您的月经周期是否曾经连续3个月或更长时间不规律或停止？",
+      "type": "radio",
+      "orderNum": 21,
+      "options": [
+        {
+          "text": "否",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "是",
+          "value": "1",
+          "optionNo": "B"
+        }
+      ]
+    },
+    {
+      "text": "在过去28天内，您是否觉得自己需要接受专业帮助来解决进食问题？",
+      "type": "radio",
+      "orderNum": 22,
+      "options": [
+        {
+          "text": "否",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "是",
+          "value": "1",
+          "optionNo": "B"
+        }
+      ]
+    }
+  ],
+  "dimensions": [
+    {
+      "dimensionName": "体型不满",
+      "dimensionCode": "body_dissatisfaction",
+      "num": 1,
+      "evaluateExpression": "hx_t_1 + hx_t_2 + hx_t_3",
+      "standardScoreFormula": "",
+      "results": [
+        {
+          "evaluateExpression": "hx_wd_y_1 <= 3",
+          "conclusionAnalysis": "体型满意度较高",
+          "suggestion": "您对自身体型的满意度较高，对身体形象有积极的认知。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_1 > 3 && hx_wd_y_1 <= 9",
+          "conclusionAnalysis": "体型不满程度中等",
+          "suggestion": "您对体型存在一定程度的不满意，这在普通人群中较为常见。建议关注自我接纳和健康的身体形象。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_1 > 9 && hx_wd_y_1 <= 14",
+          "conclusionAnalysis": "体型不满程度较高",
+          "suggestion": "您对体型存在较明显的不满，可能影响到日常生活和情绪。建议关注健康的自我形象，必要时可寻求心理咨询。",
+          "assessmentWarning": "low"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_1 > 14",
+          "conclusionAnalysis": "体型不满程度严重",
+          "suggestion": "您对体型存在严重的不满，这可能与饮食障碍风险相关。建议尽快寻求专业的心理健康评估。",
+          "assessmentWarning": "middle"
+        }
+      ]
+    },
+    {
+      "dimensionName": "暴食与失控感",
+      "dimensionCode": "binge_eating",
+      "num": 2,
+      "evaluateExpression": "hx_t_6 + hx_t_7 + hx_t_8",
+      "standardScoreFormula": "",
+      "results": [
+        {
+          "evaluateExpression": "hx_wd_y_2 == 0",
+          "conclusionAnalysis": "无暴食症状",
+          "suggestion": "在过去28天内未发现暴食或进食失控的情况。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_2 > 0 && hx_wd_y_2 <= 5",
+          "conclusionAnalysis": "暴食症状轻微",
+          "suggestion": "偶尔出现进食失控的情况，建议关注自己的进食模式，注意规律饮食。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_2 > 5 && hx_wd_y_2 <= 11",
+          "conclusionAnalysis": "暴食症状中等",
+          "suggestion": "存在一定程度的暴食和失控感，建议评估自己的进食行为，必要时寻求专业帮助。",
+          "assessmentWarning": "low"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_2 > 11",
+          "conclusionAnalysis": "暴食症状严重",
+          "suggestion": "存在频繁的暴食和强烈失控感，可能与暴食障碍或神经性贪食症相关。强烈建议寻求专业的饮食障碍评估和治疗。",
+          "assessmentWarning": "middle"
+        }
+      ]
+    },
+    {
+      "dimensionName": "代偿行为",
+      "dimensionCode": "compensatory",
+      "num": 3,
+      "evaluateExpression": "hx_t_9 + hx_t_10 + hx_t_11 + hx_t_12 + hx_t_13",
+      "standardScoreFormula": "",
+      "results": [
+        {
+          "evaluateExpression": "hx_wd_y_3 == 0",
+          "conclusionAnalysis": "无代偿行为",
+          "suggestion": "在过去28天内未发现清除或代偿行为。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_3 > 0 && hx_wd_y_3 <= 5",
+          "conclusionAnalysis": "代偿行为轻微",
+          "suggestion": "偶尔出现代偿行为（如催吐、使用泻药、过度运动等），请关注这些行为是否在增加。",
+          "assessmentWarning": "low"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_3 > 5 && hx_wd_y_3 <= 15",
+          "conclusionAnalysis": "代偿行为中等",
+          "suggestion": "存在较频繁的代偿行为，这是饮食障碍的重要风险因素。建议尽快寻求专业评估和支持。",
+          "assessmentWarning": "middle"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_3 > 15",
+          "conclusionAnalysis": "代偿行为严重",
+          "suggestion": "存在非常频繁的代偿行为，可能对身体造成严重伤害。请立即寻求专业的饮食障碍治疗服务。",
+          "assessmentWarning": "high"
+        }
+      ]
+    },
+    {
+      "dimensionName": "饮食障碍总体严重程度",
+      "dimensionCode": "total_severity",
+      "num": 4,
+      "evaluateExpression": "hx_t_1 + hx_t_2 + hx_t_3 + hx_t_4 + hx_t_5 + hx_t_6 + hx_t_7 + hx_t_8 + hx_t_9 + hx_t_10 + hx_t_11 + hx_t_12 + hx_t_13 + hx_t_14 + hx_t_15 + hx_t_16 + hx_t_17 + hx_t_18 + hx_t_19 + hx_t_20 + hx_t_21 + hx_t_22",
+      "standardScoreFormula": "",
+      "results": [
+        {
+          "evaluateExpression": "hx_wd_y_4 <= 15",
+          "conclusionAnalysis": "饮食障碍风险低",
+          "suggestion": "您的总体评分较低，未发现明显的饮食障碍症状。如果您有任何关于饮食或体重的困扰，建议保持健康的生活方式。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_4 > 15 && hx_wd_y_4 <= 35",
+          "conclusionAnalysis": "饮食障碍风险中等",
+          "suggestion": "您的评分提示存在一定的饮食相关困扰。建议关注自己的进食模式和对体型的态度，如有加重趋势请及时寻求帮助。",
+          "assessmentWarning": "low"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_4 > 35 && hx_wd_y_4 <= 55",
+          "conclusionAnalysis": "饮食障碍风险较高",
+          "suggestion": "您的评分提示可能存在饮食障碍的风险因素，包括体型不满、暴食或代偿行为。建议尽快寻求心理健康专业人员的评估。",
+          "assessmentWarning": "middle"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_4 > 55",
+          "conclusionAnalysis": "饮食障碍风险高",
+          "suggestion": "您的评分提示存在严重的饮食障碍症状。饮食障碍是可以治疗的疾病，强烈建议尽快到专业的饮食障碍治疗机构或精神科就诊。",
+          "assessmentWarning": "high"
+        }
+      ]
+    }
+  ],
+  "answer": "custom"
+}

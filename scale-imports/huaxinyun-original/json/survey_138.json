@@ -1,0 +1,1010 @@
+{
+  "id": 138,
+  "title": "汉密顿抑郁量表(HAMD)",
+  "type": "basic",
+  "questions": [
+    {
+      "id": 3762,
+      "text": "抑郁情绪",
+      "type": "radio",
+      "orderNum": 1,
+      "options": [
+        {
+          "id": 14210,
+          "optionNo": "A",
+          "text": "无",
+          "value": "0"
+        },
+        {
+          "id": 14211,
+          "optionNo": "B",
+          "text": "只在问到时才诉述",
+          "value": "1"
+        },
+        {
+          "id": 14212,
+          "optionNo": "C",
+          "text": "在访谈中自发地表达",
+          "value": "2"
+        },
+        {
+          "id": 14213,
+          "optionNo": "D",
+          "text": "不用言语也可以从表情、姿势、声音或欲哭中流露出这种情绪",
+          "value": "3"
+        },
+        {
+          "id": 14214,
+          "optionNo": "E",
+          "text": "自发言语和非语言(表情、动作)表达几乎完全表现为这种情绪",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 3763,
+      "text": "有罪感",
+      "type": "radio",
+      "orderNum": 2,
+      "options": [
+        {
+          "id": 14215,
+          "optionNo": "A",
+          "text": "无",
+          "value": "0"
+        },
+        {
+          "id": 14216,
+          "optionNo": "B",
+          "text": "责备自己，感到自己已连累他人",
+          "value": "1"
+        },
+        {
+          "id": 14217,
+          "optionNo": "C",
+          "text": "认为自己犯了罪，或反复思考以往的过失和错误",
+          "value": "2"
+        },
+        {
+          "id": 14218,
+          "optionNo": "D",
+          "text": "认为目前的疾病，是对自己错误的惩罚，或有罪恶妄想",
+          "value": "3"
+        },
+        {
+          "id": 14219,
+          "optionNo": "E",
+          "text": "罪恶妄想伴有指责或威胁性幻觉",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 3764,
+      "text": "自杀",
+      "type": "radio",
+      "orderNum": 3,
+      "options": [
+        {
+          "id": 14220,
+          "optionNo": "A",
+          "text": "无",
+          "value": "0"
+        },
+        {
+          "id": 14221,
+          "optionNo": "B",
+          "text": "觉得活着没有意义",
+          "value": "1"
+        },
+        {
+          "id": 14222,
+          "optionNo": "C",
+          "text": "希望自己已经死去，或常想到与死有关的事",
+          "value": "2"
+        },
+        {
+          "id": 14223,
+          "optionNo": "D",
+          "text": "消极观念(自杀念头)",
+          "value": "3"
+        },
+        {
+          "id": 14224,
+          "optionNo": "E",
+          "text": "有严重自杀行为",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 3765,
+      "text": "入睡困难（初段失眠）",
+      "type": "radio",
+      "orderNum": 4,
+      "options": [
+        {
+          "id": 14225,
+          "optionNo": "A",
+          "text": "无",
+          "value": "0"
+        },
+        {
+          "id": 14226,
+          "optionNo": "B",
+          "text": "主诉有入睡困难，上床半小时后仍不能入睡。(要注意平时主诉入睡的时间)",
+          "value": "1"
+        },
+        {
+          "id": 14227,
+          "optionNo": "C",
+          "text": "主诉每晚均有入睡困难",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "id": 3766,
+      "text": "睡眠不深（中段失眠）",
+      "type": "radio",
+      "orderNum": 5,
+      "options": [
+        {
+          "id": 14228,
+          "optionNo": "A",
+          "text": "无",
+          "value": "0"
+        },
+        {
+          "id": 14229,
+          "optionNo": "B",
+          "text": "睡眠浅，多恶梦",
+          "value": "1"
+        },
+        {
+          "id": 14230,
+          "optionNo": "C",
+          "text": "半夜(晚12点钟以前)曾醒来(不包括上厕所)",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "id": 3767,
+      "text": "早醒（末段失眠）",
+      "type": "radio",
+      "orderNum": 6,
+      "options": [
+        {
+          "id": 14231,
+          "optionNo": "A",
+          "text": "无",
+          "value": "0"
+        },
+        {
+          "id": 14232,
+          "optionNo": "B",
+          "text": "有早醒，比平时早醒1小时，但能重新入睡(应排除平时的习惯)",
+          "value": "1"
+        },
+        {
+          "id": 14233,
+          "optionNo": "C",
+          "text": "早醒后无法重新入睡",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "id": 3768,
+      "text": "工作和兴趣",
+      "type": "radio",
+      "orderNum": 7,
+      "options": [
+        {
+          "id": 14234,
+          "optionNo": "A",
+          "text": "无",
+          "value": "0"
+        },
+        {
+          "id": 14235,
+          "optionNo": "B",
+          "text": "提问时才诉述",
+          "value": "1"
+        },
+        {
+          "id": 14236,
+          "optionNo": "C",
+          "text": "自发地直接或间接表达对活动，工作或学习失去兴趣，如感到没精打彩，犹豫不决，不能坚持或需强迫自己去工作或活动",
+          "value": "2"
+        },
+        {
+          "id": 14237,
+          "optionNo": "D",
+          "text": "活动时间减少或成效下降，住院病人每天参加病房劳动或娱乐不满3小时",
+          "value": "3"
+        },
+        {
+          "id": 14238,
+          "optionNo": "E",
+          "text": "因目前的疾病而停止工作，住院者不参加任何活动或者没有他人帮助便不能完成病室日常事务",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 3769,
+      "text": "阻滞（指思维和言语缓慢，注意力难以集中，主动性减退）",
+      "type": "radio",
+      "orderNum": 8,
+      "options": [
+        {
+          "id": 14239,
+          "optionNo": "A",
+          "text": "无",
+          "value": "0"
+        },
+        {
+          "id": 14240,
+          "optionNo": "B",
+          "text": "精神检查中发现轻度阻滞",
+          "value": "1"
+        },
+        {
+          "id": 14241,
+          "optionNo": "C",
+          "text": "精神检查中发现明显阻滞",
+          "value": "2"
+        },
+        {
+          "id": 14242,
+          "optionNo": "D",
+          "text": "精神检查进行困难",
+          "value": "3"
+        },
+        {
+          "id": 14243,
+          "optionNo": "E",
+          "text": "完全不能回答问题(木僵)",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 3770,
+      "text": "激越",
+      "type": "radio",
+      "orderNum": 9,
+      "options": [
+        {
+          "id": 14244,
+          "optionNo": "A",
+          "text": "无",
+          "value": "0"
+        },
+        {
+          "id": 14245,
+          "optionNo": "B",
+          "text": "检查时有些心神不定",
+          "value": "1"
+        },
+        {
+          "id": 14246,
+          "optionNo": "C",
+          "text": "明显心神不定或小动作多",
+          "value": "2"
+        },
+        {
+          "id": 14247,
+          "optionNo": "D",
+          "text": "不能静坐，检查中曾起立",
+          "value": "3"
+        },
+        {
+          "id": 14248,
+          "optionNo": "E",
+          "text": "搓手，咬手指，扯头发，咬嘴唇",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 3771,
+      "text": "精神性焦虑",
+      "type": "radio",
+      "orderNum": 10,
+      "options": [
+        {
+          "id": 14249,
+          "optionNo": "A",
+          "text": "无",
+          "value": "0"
+        },
+        {
+          "id": 14250,
+          "optionNo": "B",
+          "text": "问及时诉述",
+          "value": "1"
+        },
+        {
+          "id": 14251,
+          "optionNo": "C",
+          "text": "自发地表达",
+          "value": "2"
+        },
+        {
+          "id": 14252,
+          "optionNo": "D",
+          "text": "表情和言谈流露出明显忧虑",
+          "value": "3"
+        },
+        {
+          "id": 14253,
+          "optionNo": "E",
+          "text": "明显惊恐",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 3772,
+      "text": "躯体性焦虑（指焦虑的生理症状，包括：有时口干，腹胀，腹泻，打呃，腹绞痛，心悸，头痛，过度换气和叹气，以及尿频和出汗）",
+      "type": "radio",
+      "orderNum": 11,
+      "options": [
+        {
+          "id": 14254,
+          "optionNo": "A",
+          "text": "无",
+          "value": "0"
+        },
+        {
+          "id": 14255,
+          "optionNo": "B",
+          "text": "轻度",
+          "value": "1"
+        },
+        {
+          "id": 14256,
+          "optionNo": "C",
+          "text": "中度，有肯定的上述状态",
+          "value": "2"
+        },
+        {
+          "id": 14257,
+          "optionNo": "D",
+          "text": "重度，上述症状严重影响生活或需要处理",
+          "value": "3"
+        },
+        {
+          "id": 14258,
+          "optionNo": "E",
+          "text": "严重影响生活和活动",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 3773,
+      "text": "胃肠道症状",
+      "type": "radio",
+      "orderNum": 12,
+      "options": [
+        {
+          "id": 14259,
+          "optionNo": "A",
+          "text": "无",
+          "value": "0"
+        },
+        {
+          "id": 14260,
+          "optionNo": "B",
+          "text": "食欲减退，但不需他人鼓励便自行进食",
+          "value": "1"
+        },
+        {
+          "id": 14261,
+          "optionNo": "C",
+          "text": "进食需他人催促或请求和需要应用泻药或助消化药",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "id": 3774,
+      "text": "全身症状",
+      "type": "radio",
+      "orderNum": 13,
+      "options": [
+        {
+          "id": 14262,
+          "optionNo": "A",
+          "text": "无",
+          "value": "0"
+        },
+        {
+          "id": 14263,
+          "optionNo": "B",
+          "text": "四肢，背部或颈部沉重感，背痛，头痛，肌肉疼痛，全身乏力或疲倦",
+          "value": "1"
+        },
+        {
+          "id": 14264,
+          "optionNo": "C",
+          "text": "症状明显",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "id": 3775,
+      "text": "性症状（指性欲减退，月经紊乱等）",
+      "type": "radio",
+      "orderNum": 14,
+      "options": [
+        {
+          "id": 14265,
+          "optionNo": "A",
+          "text": "轻度",
+          "value": "0"
+        },
+        {
+          "id": 14266,
+          "optionNo": "B",
+          "text": "重度",
+          "value": "1"
+        },
+        {
+          "id": 14267,
+          "optionNo": "C",
+          "text": "不确定或该项对被评者不适合",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "id": 3776,
+      "text": "疑病",
+      "type": "radio",
+      "orderNum": 15,
+      "options": [
+        {
+          "id": 14268,
+          "optionNo": "A",
+          "text": "无",
+          "value": "0"
+        },
+        {
+          "id": 14269,
+          "optionNo": "B",
+          "text": "对身体过分关注",
+          "value": "1"
+        },
+        {
+          "id": 14270,
+          "optionNo": "C",
+          "text": "反复考虑健康问题",
+          "value": "2"
+        },
+        {
+          "id": 14271,
+          "optionNo": "D",
+          "text": "有疑病妄想",
+          "value": "3"
+        },
+        {
+          "id": 14272,
+          "optionNo": "E",
+          "text": "伴幻觉的疑病妄想",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 3777,
+      "text": "体重减轻方面，按病史评定：",
+      "type": "radio",
+      "orderNum": 16,
+      "options": [
+        {
+          "id": 14273,
+          "optionNo": "A",
+          "text": "无",
+          "value": "0"
+        },
+        {
+          "id": 14274,
+          "optionNo": "B",
+          "text": "患者诉述可能有体重减轻",
+          "value": "1"
+        },
+        {
+          "id": 14275,
+          "optionNo": "C",
+          "text": "肯定体重减轻",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "id": 3778,
+      "text": "体重减轻方面，按体重记录评定：",
+      "type": "radio",
+      "orderNum": 17,
+      "options": [
+        {
+          "id": 14276,
+          "optionNo": "A",
+          "text": "无",
+          "value": "0"
+        },
+        {
+          "id": 14277,
+          "optionNo": "B",
+          "text": "一周内体重减轻超过0.5公斤",
+          "value": "1"
+        },
+        {
+          "id": 14278,
+          "optionNo": "C",
+          "text": "一周内体重减轻超过1公斤",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "id": 3779,
+      "text": "自知力",
+      "type": "radio",
+      "orderNum": 18,
+      "options": [
+        {
+          "id": 14279,
+          "optionNo": "A",
+          "text": "知道自己有病，表现为抑郁",
+          "value": "0"
+        },
+        {
+          "id": 14280,
+          "optionNo": "B",
+          "text": "知道自己有病，但归咎伙食太差，环境问题，工作过忙，病毒感染或需要休息",
+          "value": "1"
+        },
+        {
+          "id": 14281,
+          "optionNo": "C",
+          "text": "完全否认有病",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "id": 3780,
+      "text": "日夜变化，早晨：",
+      "type": "radio",
+      "orderNum": 19,
+      "options": [
+        {
+          "id": 14282,
+          "optionNo": "A",
+          "text": "无",
+          "value": "0"
+        },
+        {
+          "id": 14283,
+          "optionNo": "B",
+          "text": "轻度变化",
+          "value": "1"
+        },
+        {
+          "id": 14284,
+          "optionNo": "C",
+          "text": "重度变化",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "id": 3781,
+      "text": "日夜变化，晚上：",
+      "type": "radio",
+      "orderNum": 20,
+      "options": [
+        {
+          "id": 14285,
+          "optionNo": "A",
+          "text": "无",
+          "value": "0"
+        },
+        {
+          "id": 14286,
+          "optionNo": "B",
+          "text": "轻度变化",
+          "value": "1"
+        },
+        {
+          "id": 14287,
+          "optionNo": "C",
+          "text": "重度变化",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "id": 3782,
+      "text": "人格解体或现实解体（指非真实感或虚无妄想）",
+      "type": "radio",
+      "orderNum": 21,
+      "options": [
+        {
+          "id": 14288,
+          "optionNo": "A",
+          "text": "无",
+          "value": "0"
+        },
+        {
+          "id": 14289,
+          "optionNo": "B",
+          "text": "问及时才诉述",
+          "value": "1"
+        },
+        {
+          "id": 14290,
+          "optionNo": "C",
+          "text": "自然诉述",
+          "value": "2"
+        },
+        {
+          "id": 14291,
+          "optionNo": "D",
+          "text": "有虚无妄想",
+          "value": "3"
+        },
+        {
+          "id": 14292,
+          "optionNo": "E",
+          "text": "伴幻觉的虚无妄想",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 3783,
+      "text": "偏执症状",
+      "type": "radio",
+      "orderNum": 22,
+      "options": [
+        {
+          "id": 14293,
+          "optionNo": "A",
+          "text": "无",
+          "value": "0"
+        },
+        {
+          "id": 14294,
+          "optionNo": "B",
+          "text": "有猜疑",
+          "value": "1"
+        },
+        {
+          "id": 14295,
+          "optionNo": "C",
+          "text": "有牵连观念",
+          "value": "2"
+        },
+        {
+          "id": 14296,
+          "optionNo": "D",
+          "text": "有关系妄想或被害妄想",
+          "value": "3"
+        },
+        {
+          "id": 14297,
+          "optionNo": "E",
+          "text": "伴有幻觉的关系妄想或被害妄想",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 3784,
+      "text": "强迫症状（指强迫思维和强迫行为）",
+      "type": "radio",
+      "orderNum": 23,
+      "options": [
+        {
+          "id": 14298,
+          "optionNo": "A",
+          "text": "无",
+          "value": "0"
+        },
+        {
+          "id": 14299,
+          "optionNo": "B",
+          "text": "问及时才诉述",
+          "value": "1"
+        },
+        {
+          "id": 14300,
+          "optionNo": "C",
+          "text": "自发诉述",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "id": 3785,
+      "text": "能力减退感",
+      "type": "radio",
+      "orderNum": 24,
+      "options": [
+        {
+          "id": 14301,
+          "optionNo": "A",
+          "text": "无",
+          "value": "0"
+        },
+        {
+          "id": 14302,
+          "optionNo": "B",
+          "text": "仅于提问时方引出主观体验",
+          "value": "1"
+        },
+        {
+          "id": 14303,
+          "optionNo": "C",
+          "text": "病人主动表示有能力减退感",
+          "value": "2"
+        },
+        {
+          "id": 14304,
+          "optionNo": "D",
+          "text": "需鼓励，指导和安慰才能完成病室日常事务或个人卫生",
+          "value": "3"
+        },
+        {
+          "id": 14305,
+          "optionNo": "E",
+          "text": "穿衣，梳洗，进食，铺床或个人卫生均需他人协助",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 3786,
+      "text": "绝望感",
+      "type": "radio",
+      "orderNum": 25,
+      "options": [
+        {
+          "id": 14306,
+          "optionNo": "A",
+          "text": "无",
+          "value": "0"
+        },
+        {
+          "id": 14307,
+          "optionNo": "B",
+          "text": "有时怀疑“情况是否会好转”但解释后能接受",
+          "value": "1"
+        },
+        {
+          "id": 14308,
+          "optionNo": "C",
+          "text": "持续感到“没有希望”但解释后能接受",
+          "value": "2"
+        },
+        {
+          "id": 14309,
+          "optionNo": "D",
+          "text": "对未来感到灰心，悲观和失望，解释后不能解除",
+          "value": "3"
+        },
+        {
+          "id": 14310,
+          "optionNo": "E",
+          "text": "自动地反复诉述“我的病好不了啦”诸如此类的情况",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 3787,
+      "text": "自卑感",
+      "type": "radio",
+      "orderNum": 26,
+      "options": [
+        {
+          "id": 14311,
+          "optionNo": "A",
+          "text": "无",
+          "value": "0"
+        },
+        {
+          "id": 14312,
+          "optionNo": "B",
+          "text": "仅在询问时诉述有自卑感(我不如他人)",
+          "value": "1"
+        },
+        {
+          "id": 14313,
+          "optionNo": "C",
+          "text": "自动地诉述有自卑感",
+          "value": "2"
+        },
+        {
+          "id": 14314,
+          "optionNo": "D",
+          "text": "病人主动诉述“我一无是处”或“低人一等”",
+          "value": "3"
+        },
+        {
+          "id": 14315,
+          "optionNo": "E",
+          "text": "自卑感达妄想的程度,例如“我是废物”或类似情况",
+          "value": "4"
+        }
+      ]
+    }
+  ],
+  "dimensions": [
+    {
+      "id": 414,
+      "num": 1,
+      "dimensionName": "焦虑／躯体化",
+      "dimensionCode": "A",
+      "evaluateExpression": "hx_t_10 + hx_t_11 + hx_t_12 + hx_t_15 + hx_t_18",
+      "standardScoreFormula": "0",
+      "results": [
+        {
+          "id": 912,
+          "evaluateExpression": "hx_wd_y_1 >= 0&& hx_wd_y_1 <= 16",
+          "conclusionAnalysis": "被测试者可能会有头痛、胸闷等躯体不适，得分范围0-16分，得分越高、情况越严重。",
+          "suggestion": "对高分者的建议：（1）积极采用深呼吸、冥想、分散注意力等方法进行放松练习；（2）适当进行宣泄，积极参与各种体育锻炼活动。",
+          "assessmentWarning": "none"
+        }
+      ]
+    },
+    {
+      "id": 415,
+      "num": 2,
+      "dimensionName": "体重",
+      "dimensionCode": "B",
+      "evaluateExpression": "hx_t_16 + hx_t_17",
+      "standardScoreFormula": "0",
+      "results": [
+        {
+          "id": 913,
+          "evaluateExpression": "hx_wd_y_2 >= 0&& hx_wd_y_2 <= 4",
+          "conclusionAnalysis": "被测试者的体重可能一直呈下降趋势，得分范围0-4分。得分越高、情况越严重。",
+          "suggestion": "对高分者的建议：（1）为自己制定合理的饮食方案，保证健康规律的饮食；（2）积极参加各种体育锻炼，如跑步、打球等。",
+          "assessmentWarning": "none"
+        }
+      ]
+    },
+    {
+      "id": 416,
+      "num": 3,
+      "dimensionName": "认识障碍",
+      "dimensionCode": "C",
+      "evaluateExpression": "hx_t_2 + hx_t_3 + hx_t_9 + hx_t_21 + hx_t_22 + hx_t_23",
+      "standardScoreFormula": "0",
+      "results": [
+        {
+          "id": 914,
+          "evaluateExpression": "hx_wd_y_3 >= 0&& hx_wd_y_3 <= 22",
+          "conclusionAnalysis": "被测试者可能会有脑子一片空白的感觉，有时甚至无法思考，得分范围0-22分。得分越高、情况越严重。",
+          "suggestion": "对高分者的建议：（1）积极采用深呼吸、冥想等方法进行放松练习，不穷思竭虑；（2）做一些能让自己感兴趣的事情，丰富生活。",
+          "assessmentWarning": "none"
+        }
+      ]
+    },
+    {
+      "id": 417,
+      "num": 4,
+      "dimensionName": "日夜变化",
+      "dimensionCode": "D",
+      "evaluateExpression": "hx_t_19 + hx_t_20",
+      "standardScoreFormula": "0",
+      "results": [
+        {
+          "id": 915,
+          "evaluateExpression": "hx_wd_y_4 >= 0&& hx_wd_y_4 <= 4",
+          "conclusionAnalysis": "被测试者可能会觉得早晨醒来是一天之中最糟糕的时刻，得分范围0-4分。得分越高、情况越严重。",
+          "suggestion": "对高分者的建议：（1）早上醒来后尽快起床活动，尽量避免躺在床上发呆；（2）积极学习分散注意力、情绪调节等心理学技术。",
+          "assessmentWarning": "none"
+        }
+      ]
+    },
+    {
+      "id": 418,
+      "num": 5,
+      "dimensionName": "阻滞",
+      "dimensionCode": "E",
+      "evaluateExpression": "hx_t_1 + hx_t_7 + hx_t_8 + hx_t_14",
+      "standardScoreFormula": "0",
+      "results": [
+        {
+          "id": 916,
+          "evaluateExpression": "hx_wd_y_5 >= 0&& hx_wd_y_5 <= 14",
+          "conclusionAnalysis": "被测试者可能行动迟缓，很少会自发地做出动作，得分范围0-14分。得分越高、情况越严重。",
+          "suggestion": "对高分者的建议：（1）积极参与各种体育锻炼活动；（2）如有必要，可寻求专业的药物治疗和心理治疗。",
+          "assessmentWarning": "none"
+        }
+      ]
+    },
+    {
+      "id": 419,
+      "num": 6,
+      "dimensionName": "睡眠障碍",
+      "dimensionCode": "F",
+      "evaluateExpression": "hx_t_4 + hx_t_5 + hx_t_6",
+      "standardScoreFormula": "0",
+      "results": [
+        {
+          "id": 917,
+          "evaluateExpression": "hx_wd_y_6 >= 0&& hx_wd_y_6 <= 6",
+          "conclusionAnalysis": "被测试者的睡眠质量可能欠佳，白天工作时不同程度地感到未能充分休息和恢复精力，得分范围0-6分。得分越高、情况越严重。",
+          "suggestion": "对高分者建议：（1）入睡前后使身体充分放松，如睡前温水洗脚、深呼吸等；（2）客观地认识和理解失眠引起的症状及苦恼，减少消极情绪；（3）如尝试以上方法仍不能改善睡眠，可根据情况寻求心理治疗或药物治疗。",
+          "assessmentWarning": "none"
+        }
+      ]
+    },
+    {
+      "id": 420,
+      "num": 7,
+      "dimensionName": "绝望感",
+      "dimensionCode": "G",
+      "evaluateExpression": "hx_t_24 + hx_t_25 + hx_t_26",
+      "standardScoreFormula": "0",
+      "results": [
+        {
+          "id": 918,
+          "evaluateExpression": "hx_wd_y_7 >= 0&& hx_wd_y_7 <= 12",
+          "conclusionAnalysis": "被测试者可能觉得生活没有意思、未来没有希望，得分范围0-12分。得分越高、情况越严重。",
+          "suggestion": "对高分者的建议：（1）做一些能让自己体验快乐的事情，制定一些计划和目标，令生活更充实；（2）改变消极的认知方式，客观评价所经历的事件；（3）注意防自杀。",
+          "assessmentWarning": "none"
+        }
+      ]
+    },
+    {
+      "id": 421,
+      "num": 8,
+      "dimensionName": "总粗分",
+      "dimensionCode": "H",
+      "evaluateExpression": "hx_t_1 + hx_t_2 + hx_t_3 + hx_t_4 + hx_t_5 + hx_t_6 + hx_t_7 + hx_t_8 + hx_t_9 + hx_t_10 + hx_t_11 + hx_t_12 + hx_t_13 + hx_t_15 + hx_t_16 + hx_t_17 + hx_t_18 + hx_t_19 + hx_t_20 + hx_t_21 + hx_t_22 + hx_t_23 + hx_t_24 + hx_t_25 + hx_t_26",
+      "standardScoreFormula": "0",
+      "results": [
+        {
+          "id": 919,
+          "evaluateExpression": "hx_wd_y_8 >= 0&& hx_wd_y_8 <= 7",
+          "conclusionAnalysis": "通过评测得知，您没有抑郁症状。",
+          "suggestion": "被测试者生活轻松愉快、感到生活充实，健康状况良好，对未来充满希望，可以了解一些必要的抑郁相关心理学知识，保持健康的心理状态。",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 920,
+          "evaluateExpression": "hx_wd_y_8 >= 8&& hx_wd_y_8 <= 20",
+          "conclusionAnalysis": "通过评测得知，您可能患有轻度抑郁症状。",
+          "suggestion": "被测试者在某些情况下会出现抑郁的情绪。建议：（1）善于使用倾诉和宣泄，适当让自己放松，如出去散步、与朋友聊天等；（2）多了解调节情绪的心理学知识和方法，积极塑造良好的心理健康状态。",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 921,
+          "evaluateExpression": "hx_wd_y_8 >= 21&& hx_wd_y_8 <= 34",
+          "conclusionAnalysis": "通过评测得知，您可能患有中度抑郁症状。",
+          "suggestion": "被测试者经常出现抑郁的情况，生活受到一定影响。建议：（1）改变消极的认知方式，客观评价所经历的事件，调动对生活的兴趣；（2）做一些能让自己体验快乐的事情，制定一些计划和目标；（3）如情况无法缓解，建议向心理医生寻求专业帮助。",
+          "assessmentWarning": "high"
+        },
+        {
+          "id": 922,
+          "evaluateExpression": "hx_wd_y_8 >= 35&& hx_wd_y_8 <= 80",
+          "conclusionAnalysis": "通过评测得知，您可能患有严重抑郁症状。",
+          "suggestion": "被测试者总是处于抑郁的状态之中，生活受到严重影响。建议：（1）为自己的生活和设立一些目标并制定一些计划，努力令生活充实；（2）改变恶性循环的认知方式，培养积极的认知方式；（3）建议尽快接受专业、系统的心理治疗。",
+          "assessmentWarning": "high"
+        }
+      ]
+    }
+  ]
+}

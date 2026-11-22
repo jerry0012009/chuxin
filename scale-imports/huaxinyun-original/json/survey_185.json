@@ -1,0 +1,62 @@
+{
+  "id": 185,
+  "title": "测试量表",
+  "description": "11",
+  "type": "basic",
+  "questions": [
+    {
+      "id": 7901,
+      "text": "333",
+      "type": "radio",
+      "orderNum": 3,
+      "options": [
+        {
+          "id": 32380,
+          "optionNo": "A",
+          "text": "3",
+          "value": "3"
+        },
+        {
+          "id": 32381,
+          "optionNo": "B",
+          "text": "3",
+          "value": "2"
+        },
+        {
+          "id": 32382,
+          "optionNo": "C",
+          "text": "2",
+          "value": "2"
+        }
+      ]
+    }
+  ],
+  "dimensions": [
+    {
+      "id": 850,
+      "num": 1,
+      "dimensionName": "1",
+      "dimensionCode": "1",
+      "evaluateExpression": "111",
+      "standardScoreFormula": "11",
+      "results": [
+        {
+          "id": 1580,
+          "evaluateExpression": "33",
+          "conclusionAnalysis": "33",
+          "suggestion": "33",
+          "assessmentWarning": "low"
+        }
+      ]
+    },
+    {
+      "id": 851,
+      "num": 3,
+      "dimensionName": "33",
+      "dimensionCode": "33",
+      "evaluateExpression": "3",
+      "standardScoreFormula": "3",
+      "results": []
+    }
+  ]
+}

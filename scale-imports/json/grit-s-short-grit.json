@@ -1,0 +1,353 @@
+{
+  "id": "grit-s-short-grit",
+  "title": "短版毅力量表(GRIT-S)",
+  "description": "短版毅力量表(GRIT-S)，Duckworth & Quinn (2009)编制，测量毅力（兴趣一致性和努力坚持性）。8题，5点计分(1=一点也不像我到5=非常像我)，均分1-5。一般人群均值约3.4。",
+  "type": "basic",
+  "questions": [
+    {
+      "text": "新的想法和项目有时会让我从之前的项目中分心。",
+      "type": "radio",
+      "orderNum": 1,
+      "options": [
+        {
+          "text": "一点也不像我",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "不太像我",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "有些像我",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较像我",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常像我",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "挫折不会让我气馁。",
+      "type": "radio",
+      "orderNum": 2,
+      "options": [
+        {
+          "text": "一点也不像我",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "不太像我",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "有些像我",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较像我",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常像我",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "我在一段时间内会对某个想法或项目感兴趣，但随后会失去兴趣。",
+      "type": "radio",
+      "orderNum": 3,
+      "options": [
+        {
+          "text": "一点也不像我",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "不太像我",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "有些像我",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较像我",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常像我",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "我是一个努力工作的人。",
+      "type": "radio",
+      "orderNum": 4,
+      "options": [
+        {
+          "text": "一点也不像我",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "不太像我",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "有些像我",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较像我",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常像我",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "我经常设定一个目标，但后来又选择追求不同的目标。",
+      "type": "radio",
+      "orderNum": 5,
+      "options": [
+        {
+          "text": "一点也不像我",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "不太像我",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "有些像我",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较像我",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常像我",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "在完成任务时，我注重细节。",
+      "type": "radio",
+      "orderNum": 6,
+      "options": [
+        {
+          "text": "一点也不像我",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "不太像我",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "有些像我",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较像我",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常像我",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "我的兴趣每年都在变化。",
+      "type": "radio",
+      "orderNum": 7,
+      "options": [
+        {
+          "text": "一点也不像我",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "不太像我",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "有些像我",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较像我",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常像我",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "我做事有始有终。",
+      "type": "radio",
+      "orderNum": 8,
+      "options": [
+        {
+          "text": "一点也不像我",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "不太像我",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "有些像我",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "比较像我",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常像我",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    }
+  ],
+  "dimensions": [
+    {
+      "dimensionName": "毅力总分",
+      "dimensionCode": "grit_total",
+      "num": 1,
+      "evaluateExpression": "(hx_t_1 + hx_t_2 + hx_t_3 + hx_t_4 + hx_t_5 + hx_t_6 + hx_t_7 + hx_t_8) / 8",
+      "standardScoreFormula": "",
+      "results": [
+        {
+          "evaluateExpression": "hx_wd_y_1 <= 2.5",
+          "conclusionAnalysis": "毅力水平较低",
+          "suggestion": "您的毅力得分较低，在面对困难时可能容易放弃，建议培养坚持的习惯。",
+          "assessmentWarning": "low"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_1 > 2.5 && hx_wd_y_1 <= 3.4",
+          "conclusionAnalysis": "毅力水平中等",
+          "suggestion": "您的毅力处于中等水平，与一般人群平均水平相当。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_1 > 3.4 && hx_wd_y_1 <= 4.2",
+          "conclusionAnalysis": "毅力水平较高",
+          "suggestion": "您的毅力得分较高，能够较好地坚持长期目标。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_1 > 4.2",
+          "conclusionAnalysis": "毅力水平很高",
+          "suggestion": "您的毅力得分非常高，表现出很强的坚持和专注能力。",
+          "assessmentWarning": "none"
+        }
+      ]
+    },
+    {
+      "dimensionName": "兴趣一致性",
+      "dimensionCode": "consistency",
+      "num": 2,
+      "evaluateExpression": "(hx_t_2 + hx_t_4 + hx_t_6 + hx_t_8) / 4",
+      "standardScoreFormula": "",
+      "results": [
+        {
+          "evaluateExpression": "hx_wd_y_2 <= 2.5",
+          "conclusionAnalysis": "兴趣一致性较低",
+          "suggestion": "您的兴趣容易转移，可能需要练习专注于长期目标。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_2 > 2.5 && hx_wd_y_2 <= 3.5",
+          "conclusionAnalysis": "兴趣一致性中等",
+          "suggestion": "您的兴趣一致性处于中等水平。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_2 > 3.5",
+          "conclusionAnalysis": "兴趣一致性较高",
+          "suggestion": "您能够较好地保持对长期目标的兴趣。",
+          "assessmentWarning": "none"
+        }
+      ]
+    },
+    {
+      "dimensionName": "努力坚持性",
+      "dimensionCode": "perseverance",
+      "num": 3,
+      "evaluateExpression": "(hx_t_1 + hx_t_3 + hx_t_5 + hx_t_7) / 4",
+      "standardScoreFormula": "",
+      "results": [
+        {
+          "evaluateExpression": "hx_wd_y_3 <= 2.5",
+          "conclusionAnalysis": "努力坚持性较低",
+          "suggestion": "您在面对挫折时坚持努力的能力有待提高。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_3 > 2.5 && hx_wd_y_3 <= 3.5",
+          "conclusionAnalysis": "努力坚持性中等",
+          "suggestion": "您的努力坚持性处于中等水平。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_3 > 3.5",
+          "conclusionAnalysis": "努力坚持性较高",
+          "suggestion": "您在面对困难时能够持续努力，不轻易放弃。",
+          "assessmentWarning": "none"
+        }
+      ]
+    }
+  ]
+}

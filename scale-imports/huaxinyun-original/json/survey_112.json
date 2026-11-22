@@ -1,0 +1,1083 @@
+{
+  "id": 112,
+  "title": "心理弹性量表（CD-RISC）",
+  "type": "basic",
+  "questions": [
+    {
+      "id": 2527,
+      "text": "我能适应变化",
+      "type": "radio",
+      "orderNum": 1,
+      "options": [
+        {
+          "id": 9959,
+          "optionNo": "A",
+          "text": "完全不符合",
+          "value": "0"
+        },
+        {
+          "id": 9960,
+          "optionNo": "B",
+          "text": "很少符合",
+          "value": "1"
+        },
+        {
+          "id": 9961,
+          "optionNo": "C",
+          "text": "有时符合",
+          "value": "2"
+        },
+        {
+          "id": 9962,
+          "optionNo": "D",
+          "text": "经常符合",
+          "value": "3"
+        },
+        {
+          "id": 9963,
+          "optionNo": "E",
+          "text": "完全符合",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 2528,
+      "text": "我有亲密、安全的关系",
+      "type": "radio",
+      "orderNum": 2,
+      "options": [
+        {
+          "id": 9964,
+          "optionNo": "A",
+          "text": "完全不符合",
+          "value": "0"
+        },
+        {
+          "id": 9965,
+          "optionNo": "B",
+          "text": "很少符合",
+          "value": "1"
+        },
+        {
+          "id": 9966,
+          "optionNo": "C",
+          "text": "有时符合",
+          "value": "2"
+        },
+        {
+          "id": 9967,
+          "optionNo": "D",
+          "text": "经常符合",
+          "value": "3"
+        },
+        {
+          "id": 9968,
+          "optionNo": "E",
+          "text": "完全符合",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 2529,
+      "text": "有时，命运或上帝能帮忙",
+      "type": "radio",
+      "orderNum": 3,
+      "options": [
+        {
+          "id": 9969,
+          "optionNo": "A",
+          "text": "完全不符合",
+          "value": "0"
+        },
+        {
+          "id": 9970,
+          "optionNo": "B",
+          "text": "很少符合",
+          "value": "1"
+        },
+        {
+          "id": 9971,
+          "optionNo": "C",
+          "text": "有时符合",
+          "value": "2"
+        },
+        {
+          "id": 9972,
+          "optionNo": "D",
+          "text": "经常符合",
+          "value": "3"
+        },
+        {
+          "id": 9973,
+          "optionNo": "E",
+          "text": "完全符合",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 2530,
+      "text": "无论发生什么我都能应付",
+      "type": "radio",
+      "orderNum": 4,
+      "options": [
+        {
+          "id": 9974,
+          "optionNo": "A",
+          "text": "完全不符合",
+          "value": "0"
+        },
+        {
+          "id": 9975,
+          "optionNo": "B",
+          "text": "很少符合",
+          "value": "1"
+        },
+        {
+          "id": 9976,
+          "optionNo": "C",
+          "text": "有时符合",
+          "value": "2"
+        },
+        {
+          "id": 9977,
+          "optionNo": "D",
+          "text": "经常符合",
+          "value": "3"
+        },
+        {
+          "id": 9978,
+          "optionNo": "E",
+          "text": "完全符合",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 2531,
+      "text": "过去的成功让我有信心面对挑战",
+      "type": "radio",
+      "orderNum": 5,
+      "options": [
+        {
+          "id": 9979,
+          "optionNo": "A",
+          "text": "完全不符合",
+          "value": "0"
+        },
+        {
+          "id": 9980,
+          "optionNo": "B",
+          "text": "很少符合",
+          "value": "1"
+        },
+        {
+          "id": 9981,
+          "optionNo": "C",
+          "text": "有时符合",
+          "value": "2"
+        },
+        {
+          "id": 9982,
+          "optionNo": "D",
+          "text": "经常符合",
+          "value": "3"
+        },
+        {
+          "id": 9983,
+          "optionNo": "E",
+          "text": "完全符合",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 2532,
+      "text": "我能看到事情幽默的一面",
+      "type": "radio",
+      "orderNum": 6,
+      "options": [
+        {
+          "id": 9984,
+          "optionNo": "A",
+          "text": "完全不符合",
+          "value": "0"
+        },
+        {
+          "id": 9985,
+          "optionNo": "B",
+          "text": "很少符合",
+          "value": "1"
+        },
+        {
+          "id": 9986,
+          "optionNo": "C",
+          "text": "有时符合",
+          "value": "2"
+        },
+        {
+          "id": 9987,
+          "optionNo": "D",
+          "text": "经常符合",
+          "value": "3"
+        },
+        {
+          "id": 9988,
+          "optionNo": "E",
+          "text": "完全符合",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 2533,
+      "text": "应对压力使我感到有力量",
+      "type": "radio",
+      "orderNum": 7,
+      "options": [
+        {
+          "id": 9989,
+          "optionNo": "A",
+          "text": "完全不符合",
+          "value": "0"
+        },
+        {
+          "id": 9990,
+          "optionNo": "B",
+          "text": "很少符合",
+          "value": "1"
+        },
+        {
+          "id": 9991,
+          "optionNo": "C",
+          "text": "有时符合",
+          "value": "2"
+        },
+        {
+          "id": 9992,
+          "optionNo": "D",
+          "text": "经常符合",
+          "value": "3"
+        },
+        {
+          "id": 9993,
+          "optionNo": "E",
+          "text": "完全符合",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 2534,
+      "text": "经历艰难或疾病后，我往往会很快恢复",
+      "type": "radio",
+      "orderNum": 8,
+      "options": [
+        {
+          "id": 9994,
+          "optionNo": "A",
+          "text": "完全不符合",
+          "value": "0"
+        },
+        {
+          "id": 9995,
+          "optionNo": "B",
+          "text": "很少符合",
+          "value": "1"
+        },
+        {
+          "id": 9996,
+          "optionNo": "C",
+          "text": "有时符合",
+          "value": "2"
+        },
+        {
+          "id": 9997,
+          "optionNo": "D",
+          "text": "经常符合",
+          "value": "3"
+        },
+        {
+          "id": 9998,
+          "optionNo": "E",
+          "text": "完全符合",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 2535,
+      "text": "事情发生总是有原因的",
+      "type": "radio",
+      "orderNum": 9,
+      "options": [
+        {
+          "id": 9999,
+          "optionNo": "A",
+          "text": "完全不符合",
+          "value": "0"
+        },
+        {
+          "id": 10000,
+          "optionNo": "B",
+          "text": "很少符合",
+          "value": "1"
+        },
+        {
+          "id": 10001,
+          "optionNo": "C",
+          "text": "有时符合",
+          "value": "2"
+        },
+        {
+          "id": 10002,
+          "optionNo": "D",
+          "text": "经常符合",
+          "value": "3"
+        },
+        {
+          "id": 10003,
+          "optionNo": "E",
+          "text": "完全符合",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 2536,
+      "text": "无论结果怎样，我都会尽自己最大努力",
+      "type": "radio",
+      "orderNum": 10,
+      "options": [
+        {
+          "id": 10004,
+          "optionNo": "A",
+          "text": "完全不符合",
+          "value": "0"
+        },
+        {
+          "id": 10005,
+          "optionNo": "B",
+          "text": "很少符合",
+          "value": "1"
+        },
+        {
+          "id": 10006,
+          "optionNo": "C",
+          "text": "有时符合",
+          "value": "2"
+        },
+        {
+          "id": 10007,
+          "optionNo": "D",
+          "text": "经常符合",
+          "value": "3"
+        },
+        {
+          "id": 10008,
+          "optionNo": "E",
+          "text": "完全符合",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 2537,
+      "text": "我能实现自己的目标",
+      "type": "radio",
+      "orderNum": 11,
+      "options": [
+        {
+          "id": 10009,
+          "optionNo": "A",
+          "text": "完全不符合",
+          "value": "0"
+        },
+        {
+          "id": 10010,
+          "optionNo": "B",
+          "text": "很少符合",
+          "value": "1"
+        },
+        {
+          "id": 10011,
+          "optionNo": "C",
+          "text": "有时符合",
+          "value": "2"
+        },
+        {
+          "id": 10012,
+          "optionNo": "D",
+          "text": "经常符合",
+          "value": "3"
+        },
+        {
+          "id": 10013,
+          "optionNo": "E",
+          "text": "完全符合",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 2538,
+      "text": "当事情看起来没什么希望时，我不会轻易放弃",
+      "type": "radio",
+      "orderNum": 12,
+      "options": [
+        {
+          "id": 10014,
+          "optionNo": "A",
+          "text": "完全不符合",
+          "value": "0"
+        },
+        {
+          "id": 10015,
+          "optionNo": "B",
+          "text": "很少符合",
+          "value": "1"
+        },
+        {
+          "id": 10016,
+          "optionNo": "C",
+          "text": "有时符合",
+          "value": "2"
+        },
+        {
+          "id": 10017,
+          "optionNo": "D",
+          "text": "经常符合",
+          "value": "3"
+        },
+        {
+          "id": 10018,
+          "optionNo": "E",
+          "text": "完全符合",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 2539,
+      "text": "我知道去哪里寻求帮助",
+      "type": "radio",
+      "orderNum": 13,
+      "options": [
+        {
+          "id": 10019,
+          "optionNo": "A",
+          "text": "完全不符合",
+          "value": "0"
+        },
+        {
+          "id": 10020,
+          "optionNo": "B",
+          "text": "很少符合",
+          "value": "1"
+        },
+        {
+          "id": 10021,
+          "optionNo": "C",
+          "text": "有时符合",
+          "value": "2"
+        },
+        {
+          "id": 10022,
+          "optionNo": "D",
+          "text": "经常符合",
+          "value": "3"
+        },
+        {
+          "id": 10023,
+          "optionNo": "E",
+          "text": "完全符合",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 2540,
+      "text": "在压力下，我能够集中注意力并清晰思考",
+      "type": "radio",
+      "orderNum": 14,
+      "options": [
+        {
+          "id": 10024,
+          "optionNo": "A",
+          "text": "完全不符合",
+          "value": "0"
+        },
+        {
+          "id": 10025,
+          "optionNo": "B",
+          "text": "很少符合",
+          "value": "1"
+        },
+        {
+          "id": 10026,
+          "optionNo": "C",
+          "text": "有时符合",
+          "value": "2"
+        },
+        {
+          "id": 10027,
+          "optionNo": "D",
+          "text": "经常符合",
+          "value": "3"
+        },
+        {
+          "id": 10028,
+          "optionNo": "E",
+          "text": "完全符合",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 2541,
+      "text": "我喜欢在解决问题时起带头作用",
+      "type": "radio",
+      "orderNum": 15,
+      "options": [
+        {
+          "id": 10029,
+          "optionNo": "A",
+          "text": "完全不符合",
+          "value": "0"
+        },
+        {
+          "id": 10030,
+          "optionNo": "B",
+          "text": "很少符合",
+          "value": "1"
+        },
+        {
+          "id": 10031,
+          "optionNo": "C",
+          "text": "有时符合",
+          "value": "2"
+        },
+        {
+          "id": 10032,
+          "optionNo": "D",
+          "text": "经常符合",
+          "value": "3"
+        },
+        {
+          "id": 10033,
+          "optionNo": "E",
+          "text": "完全符合",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 2542,
+      "text": "我不会因失败而气馁",
+      "type": "radio",
+      "orderNum": 16,
+      "options": [
+        {
+          "id": 10034,
+          "optionNo": "A",
+          "text": "完全不符合",
+          "value": "0"
+        },
+        {
+          "id": 10035,
+          "optionNo": "B",
+          "text": "很少符合",
+          "value": "1"
+        },
+        {
+          "id": 10036,
+          "optionNo": "C",
+          "text": "有时符合",
+          "value": "2"
+        },
+        {
+          "id": 10037,
+          "optionNo": "D",
+          "text": "经常符合",
+          "value": "3"
+        },
+        {
+          "id": 10038,
+          "optionNo": "E",
+          "text": "完全符合",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 2543,
+      "text": "我认为自己是个强有力的人",
+      "type": "radio",
+      "orderNum": 17,
+      "options": [
+        {
+          "id": 10039,
+          "optionNo": "A",
+          "text": "完全不符合",
+          "value": "0"
+        },
+        {
+          "id": 10040,
+          "optionNo": "B",
+          "text": "很少符合",
+          "value": "1"
+        },
+        {
+          "id": 10041,
+          "optionNo": "C",
+          "text": "有时符合",
+          "value": "2"
+        },
+        {
+          "id": 10042,
+          "optionNo": "D",
+          "text": "经常符合",
+          "value": "3"
+        },
+        {
+          "id": 10043,
+          "optionNo": "E",
+          "text": "完全符合",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 2544,
+      "text": "我能做出不寻常的或艰难的决定",
+      "type": "radio",
+      "orderNum": 18,
+      "options": [
+        {
+          "id": 10044,
+          "optionNo": "A",
+          "text": "完全不符合",
+          "value": "0"
+        },
+        {
+          "id": 10045,
+          "optionNo": "B",
+          "text": "很少符合",
+          "value": "1"
+        },
+        {
+          "id": 10046,
+          "optionNo": "C",
+          "text": "有时符合",
+          "value": "2"
+        },
+        {
+          "id": 10047,
+          "optionNo": "D",
+          "text": "经常符合",
+          "value": "3"
+        },
+        {
+          "id": 10048,
+          "optionNo": "E",
+          "text": "完全符合",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 2545,
+      "text": "我能处理不快乐的情绪",
+      "type": "radio",
+      "orderNum": 19,
+      "options": [
+        {
+          "id": 10049,
+          "optionNo": "A",
+          "text": "完全不符合",
+          "value": "0"
+        },
+        {
+          "id": 10050,
+          "optionNo": "B",
+          "text": "很少符合",
+          "value": "1"
+        },
+        {
+          "id": 10051,
+          "optionNo": "C",
+          "text": "有时符合",
+          "value": "2"
+        },
+        {
+          "id": 10052,
+          "optionNo": "D",
+          "text": "经常符合",
+          "value": "3"
+        },
+        {
+          "id": 10053,
+          "optionNo": "E",
+          "text": "完全符合",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 2546,
+      "text": "我不得不按照预感行事",
+      "type": "radio",
+      "orderNum": 20,
+      "options": [
+        {
+          "id": 10054,
+          "optionNo": "A",
+          "text": "完全不符合",
+          "value": "0"
+        },
+        {
+          "id": 10055,
+          "optionNo": "B",
+          "text": "很少符合",
+          "value": "1"
+        },
+        {
+          "id": 10056,
+          "optionNo": "C",
+          "text": "有时符合",
+          "value": "2"
+        },
+        {
+          "id": 10057,
+          "optionNo": "D",
+          "text": "经常符合",
+          "value": "3"
+        },
+        {
+          "id": 10058,
+          "optionNo": "E",
+          "text": "完全符合",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 2547,
+      "text": "我有强烈的目的感",
+      "type": "radio",
+      "orderNum": 21,
+      "options": [
+        {
+          "id": 10059,
+          "optionNo": "A",
+          "text": "完全不符合",
+          "value": "0"
+        },
+        {
+          "id": 10060,
+          "optionNo": "B",
+          "text": "很少符合",
+          "value": "1"
+        },
+        {
+          "id": 10061,
+          "optionNo": "C",
+          "text": "有时符合",
+          "value": "2"
+        },
+        {
+          "id": 10062,
+          "optionNo": "D",
+          "text": "经常符合",
+          "value": "3"
+        },
+        {
+          "id": 10063,
+          "optionNo": "E",
+          "text": "完全符合",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 2548,
+      "text": "我感觉能掌控自己的生活",
+      "type": "radio",
+      "orderNum": 22,
+      "options": [
+        {
+          "id": 10064,
+          "optionNo": "A",
+          "text": "完全不符合",
+          "value": "0"
+        },
+        {
+          "id": 10065,
+          "optionNo": "B",
+          "text": "很少符合",
+          "value": "1"
+        },
+        {
+          "id": 10066,
+          "optionNo": "C",
+          "text": "有时符合",
+          "value": "2"
+        },
+        {
+          "id": 10067,
+          "optionNo": "D",
+          "text": "经常符合",
+          "value": "3"
+        },
+        {
+          "id": 10068,
+          "optionNo": "E",
+          "text": "完全符合",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 2549,
+      "text": "我喜欢挑战",
+      "type": "radio",
+      "orderNum": 23,
+      "options": [
+        {
+          "id": 10069,
+          "optionNo": "A",
+          "text": "完全不符合",
+          "value": "0"
+        },
+        {
+          "id": 10070,
+          "optionNo": "B",
+          "text": "很少符合",
+          "value": "1"
+        },
+        {
+          "id": 10071,
+          "optionNo": "C",
+          "text": "有时符合",
+          "value": "2"
+        },
+        {
+          "id": 10072,
+          "optionNo": "D",
+          "text": "经常符合",
+          "value": "3"
+        },
+        {
+          "id": 10073,
+          "optionNo": "E",
+          "text": "完全符合",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 2550,
+      "text": "我努力工作以达到目标",
+      "type": "radio",
+      "orderNum": 24,
+      "options": [
+        {
+          "id": 10074,
+          "optionNo": "A",
+          "text": "完全不符合",
+          "value": "0"
+        },
+        {
+          "id": 10075,
+          "optionNo": "B",
+          "text": "很少符合",
+          "value": "1"
+        },
+        {
+          "id": 10076,
+          "optionNo": "C",
+          "text": "有时符合",
+          "value": "2"
+        },
+        {
+          "id": 10077,
+          "optionNo": "D",
+          "text": "经常符合",
+          "value": "3"
+        },
+        {
+          "id": 10078,
+          "optionNo": "E",
+          "text": "完全符合",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 2551,
+      "text": "我对自己的成绩感到骄傲",
+      "type": "radio",
+      "orderNum": 25,
+      "options": [
+        {
+          "id": 10079,
+          "optionNo": "A",
+          "text": "完全不符合",
+          "value": "0"
+        },
+        {
+          "id": 10080,
+          "optionNo": "B",
+          "text": "很少符合",
+          "value": "1"
+        },
+        {
+          "id": 10081,
+          "optionNo": "C",
+          "text": "有时符合",
+          "value": "2"
+        },
+        {
+          "id": 10082,
+          "optionNo": "D",
+          "text": "经常符合",
+          "value": "3"
+        },
+        {
+          "id": 10083,
+          "optionNo": "E",
+          "text": "完全符合",
+          "value": "4"
+        }
+      ]
+    }
+  ],
+  "dimensions": [
+    {
+      "id": 312,
+      "num": 1,
+      "dimensionName": "坚韧",
+      "dimensionCode": "IANREN",
+      "evaluateExpression": "hx_t_10 + hx_t_11 + hx_t_12 + hx_t_15 + hx_t_16 + hx_t_17 + hx_t_21 + hx_t_22 + hx_t_23 + hx_t_24 + hx_t_25",
+      "standardScoreFormula": "0",
+      "results": [
+        {
+          "id": 606,
+          "evaluateExpression": "hx_wd_y_1 >= 0&& hx_wd_y_1 <= 24",
+          "conclusionAnalysis": "坚韧性较差，难以应对生活、学习、工作的压力，给自身带来不利影响。",
+          "suggestion": "无",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 607,
+          "evaluateExpression": "hx_wd_y_1 >= 25&& hx_wd_y_1 <= 37",
+          "conclusionAnalysis": "坚韧性程度处于正常人水平，能够较好地适应压力，将压力转变为动力，积极应对生活中的挑战。",
+          "suggestion": "无",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 608,
+          "evaluateExpression": "hx_wd_y_1 >= 38&& hx_wd_y_1 <= 44",
+          "conclusionAnalysis": "坚韧性很强，遇到困境时能够平静镇定、灵敏地面对，且具有持久的控制力。",
+          "suggestion": "无",
+          "assessmentWarning": "none"
+        }
+      ]
+    },
+    {
+      "id": 313,
+      "num": 2,
+      "dimensionName": "力量",
+      "dimensionCode": "LILIANG",
+      "evaluateExpression": "hx_t_1 + hx_t_2 + hx_t_4 + hx_t_5 + hx_t_6 + hx_t_7 + hx_t_8 + hx_t_9 + hx_t_13 + hx_t_14 + hx_t_15",
+      "standardScoreFormula": "0",
+      "results": [
+        {
+          "id": 609,
+          "evaluateExpression": "hx_wd_y_2 >= 0&& hx_wd_y_2 <= 22",
+          "conclusionAnalysis": "力量程度较低，适应压力能力较弱，难以较快适应生活中的改变，会因环境的变化受到一定的心理影响。",
+          "suggestion": "无",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 610,
+          "evaluateExpression": "hx_wd_y_2 >= 23&& hx_wd_y_2 <= 35",
+          "conclusionAnalysis": "力量程度处于正常人水平，能够较好地适应身边环境的而改变，快速融入环境，更好的生活。",
+          "suggestion": "无",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 611,
+          "evaluateExpression": "hx_wd_y_2 >= 36&& hx_wd_y_2 <= 44",
+          "conclusionAnalysis": "力量程度很高，个体在经历创伤事件后能够快速恢复并变得强壮。",
+          "suggestion": "无",
+          "assessmentWarning": "none"
+        }
+      ]
+    },
+    {
+      "id": 314,
+      "num": 3,
+      "dimensionName": "乐观",
+      "dimensionCode": "LEGUAN",
+      "evaluateExpression": "hx_t_3 + hx_t_18 + hx_t_20",
+      "standardScoreFormula": "0",
+      "results": [
+        {
+          "id": 612,
+          "evaluateExpression": "hx_wd_y_3 >= 0&& hx_wd_y_3 <= 4",
+          "conclusionAnalysis": "乐观性较低，面对困境较为消极，难以应对。",
+          "suggestion": "无",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 613,
+          "evaluateExpression": "hx_wd_y_3 >= 5&& hx_wd_y_3 <= 8",
+          "conclusionAnalysis": "乐观性处于正常人水平，面对生活积极乐观。",
+          "suggestion": "无",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 614,
+          "evaluateExpression": "hx_wd_y_3 >= 9&& hx_wd_y_3 <= 12",
+          "conclusionAnalysis": "乐观性非常强，对克服逆境有信心，能够从积极的角度看待事情。",
+          "suggestion": "无",
+          "assessmentWarning": "none"
+        }
+      ]
+    },
+    {
+      "id": 315,
+      "num": 4,
+      "dimensionName": "总分",
+      "dimensionCode": "AVG",
+      "evaluateExpression": "hx_t_1 + hx_t_2 + hx_t_3 + hx_t_4 + hx_t_5 + hx_t_6 + hx_t_7 + hx_t_8 + hx_t_9 + hx_t_10 + hx_t_11 + hx_t_12 + hx_t_13 + hx_t_14 + hx_t_15 + hx_t_16 + hx_t_17 + hx_t_18 + hx_t_19 + hx_t_20 + hx_t_21 + hx_t_22 + hx_t_23 + hx_t_24 + hx_t_25",
+      "standardScoreFormula": "0",
+      "results": [
+        {
+          "id": 615,
+          "evaluateExpression": "hx_wd_y_4 >= 0&& hx_wd_y_4 <= 52",
+          "conclusionAnalysis": "心理弹性整体较差，对负性事件适应能力较低，难以经受应激刺激，容易对生活、学习、工作带来一定程度的影响。",
+          "suggestion": "无",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 616,
+          "evaluateExpression": "hx_wd_y_4 >= 53&& hx_wd_y_4 <= 82",
+          "conclusionAnalysis": "心理弹性处于正常人水平，可以积极乐观面对负性事件，减轻负性刺激对自身带来的不利影响。",
+          "suggestion": "无",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 617,
+          "evaluateExpression": "hx_wd_y_4 >= 83&& hx_wd_y_4 <= 100",
+          "conclusionAnalysis": "心理弹性非常好，在遭遇困境时，个体能够很好地适应环境，将生活中的压力转为动力。",
+          "suggestion": "无",
+          "assessmentWarning": "none"
+        }
+      ]
+    }
+  ]
+}

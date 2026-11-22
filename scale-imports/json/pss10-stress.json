@@ -1,0 +1,357 @@
+{
+  "id": "pss10-stress",
+  "title": "知觉压力量表(PSS-10)",
+  "description": "Perceived Stress Scale (PSS-10)，Cohen, Kamarck & Mermelstein (1983) 编制，测量个体在最近一个月中感知到的压力水平。共10题，5点计分（0=从不 到 4=总是），其中有5道反向计分题。总分范围0-40，分数越高表示感知到的压力越大。常模参考：0-13为低压力，14-26为中等压力，27-40为高压力。",
+  "type": "basic",
+  "questions": [
+    {
+      "text": "在过去一个月中，有多少时候您因为发生了意想不到的事情而感到心烦不安？",
+      "type": "radio",
+      "orderNum": 1,
+      "options": [
+        {
+          "text": "从不",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "偶尔",
+          "value": "1",
+          "optionNo": "B"
+        },
+        {
+          "text": "有时",
+          "value": "2",
+          "optionNo": "C"
+        },
+        {
+          "text": "经常",
+          "value": "3",
+          "optionNo": "D"
+        },
+        {
+          "text": "总是",
+          "value": "4",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "在过去一个月中，有多少时候您感到自己无法控制生活中的重要事情？",
+      "type": "radio",
+      "orderNum": 2,
+      "options": [
+        {
+          "text": "从不",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "偶尔",
+          "value": "1",
+          "optionNo": "B"
+        },
+        {
+          "text": "有时",
+          "value": "2",
+          "optionNo": "C"
+        },
+        {
+          "text": "经常",
+          "value": "3",
+          "optionNo": "D"
+        },
+        {
+          "text": "总是",
+          "value": "4",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "在过去一个月中，有多少时候您感到紧张和有压力？",
+      "type": "radio",
+      "orderNum": 3,
+      "options": [
+        {
+          "text": "从不",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "偶尔",
+          "value": "1",
+          "optionNo": "B"
+        },
+        {
+          "text": "有时",
+          "value": "2",
+          "optionNo": "C"
+        },
+        {
+          "text": "经常",
+          "value": "3",
+          "optionNo": "D"
+        },
+        {
+          "text": "总是",
+          "value": "4",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "在过去一个月中，有多少时候您感到自己有信心能够处理好个人问题？（反向计分）",
+      "type": "radio",
+      "orderNum": 4,
+      "options": [
+        {
+          "text": "从不",
+          "value": "4",
+          "optionNo": "A"
+        },
+        {
+          "text": "偶尔",
+          "value": "3",
+          "optionNo": "B"
+        },
+        {
+          "text": "有时",
+          "value": "2",
+          "optionNo": "C"
+        },
+        {
+          "text": "经常",
+          "value": "1",
+          "optionNo": "D"
+        },
+        {
+          "text": "总是",
+          "value": "0",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "在过去一个月中，有多少时候您感到事情正按照您的意愿发展？（反向计分）",
+      "type": "radio",
+      "orderNum": 5,
+      "options": [
+        {
+          "text": "从不",
+          "value": "4",
+          "optionNo": "A"
+        },
+        {
+          "text": "偶尔",
+          "value": "3",
+          "optionNo": "B"
+        },
+        {
+          "text": "有时",
+          "value": "2",
+          "optionNo": "C"
+        },
+        {
+          "text": "经常",
+          "value": "1",
+          "optionNo": "D"
+        },
+        {
+          "text": "总是",
+          "value": "0",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "在过去一个月中，有多少时候您发现自己无法应对所有必须做的事情？（反向计分）",
+      "type": "radio",
+      "orderNum": 6,
+      "options": [
+        {
+          "text": "从不",
+          "value": "4",
+          "optionNo": "A"
+        },
+        {
+          "text": "偶尔",
+          "value": "3",
+          "optionNo": "B"
+        },
+        {
+          "text": "有时",
+          "value": "2",
+          "optionNo": "C"
+        },
+        {
+          "text": "经常",
+          "value": "1",
+          "optionNo": "D"
+        },
+        {
+          "text": "总是",
+          "value": "0",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "在过去一个月中，有多少时候您能够控制生活中令您生气的事情？（反向计分）",
+      "type": "radio",
+      "orderNum": 7,
+      "options": [
+        {
+          "text": "从不",
+          "value": "4",
+          "optionNo": "A"
+        },
+        {
+          "text": "偶尔",
+          "value": "3",
+          "optionNo": "B"
+        },
+        {
+          "text": "有时",
+          "value": "2",
+          "optionNo": "C"
+        },
+        {
+          "text": "经常",
+          "value": "1",
+          "optionNo": "D"
+        },
+        {
+          "text": "总是",
+          "value": "0",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "在过去一个月中，有多少时候您感到自己能够掌控生活中发生的事情？（反向计分）",
+      "type": "radio",
+      "orderNum": 8,
+      "options": [
+        {
+          "text": "从不",
+          "value": "4",
+          "optionNo": "A"
+        },
+        {
+          "text": "偶尔",
+          "value": "3",
+          "optionNo": "B"
+        },
+        {
+          "text": "有时",
+          "value": "2",
+          "optionNo": "C"
+        },
+        {
+          "text": "经常",
+          "value": "1",
+          "optionNo": "D"
+        },
+        {
+          "text": "总是",
+          "value": "0",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "在过去一个月中，有多少时候您因为事情超出您的控制范围而感到生气？",
+      "type": "radio",
+      "orderNum": 9,
+      "options": [
+        {
+          "text": "从不",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "偶尔",
+          "value": "1",
+          "optionNo": "B"
+        },
+        {
+          "text": "有时",
+          "value": "2",
+          "optionNo": "C"
+        },
+        {
+          "text": "经常",
+          "value": "3",
+          "optionNo": "D"
+        },
+        {
+          "text": "总是",
+          "value": "4",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "在过去一个月中，有多少时候您感到困难堆积如山，无法克服？",
+      "type": "radio",
+      "orderNum": 10,
+      "options": [
+        {
+          "text": "从不",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "偶尔",
+          "value": "1",
+          "optionNo": "B"
+        },
+        {
+          "text": "有时",
+          "value": "2",
+          "optionNo": "C"
+        },
+        {
+          "text": "经常",
+          "value": "3",
+          "optionNo": "D"
+        },
+        {
+          "text": "总是",
+          "value": "4",
+          "optionNo": "E"
+        }
+      ]
+    }
+  ],
+  "dimensions": [
+    {
+      "dimensionName": "知觉压力",
+      "dimensionCode": "total_stress",
+      "num": 1,
+      "evaluateExpression": "hx_t_1 + hx_t_2 + hx_t_3 + hx_t_4 + hx_t_5 + hx_t_6 + hx_t_7 + hx_t_8 + hx_t_9 + hx_t_10",
+      "standardScoreFormula": "",
+      "results": [
+        {
+          "evaluateExpression": "hx_wd_y_1 <= 13",
+          "conclusionAnalysis": "知觉压力水平较低",
+          "suggestion": "您的压力感知水平较低，说明您近期感受到的压力较小，心理状态较为轻松。建议继续保持积极的生活方式和压力管理习惯。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_1 > 13 && hx_wd_y_1 <= 26",
+          "conclusionAnalysis": "知觉压力水平中等",
+          "suggestion": "您的压力感知水平处于中等范围，说明您近期感受到一定程度的压力。建议关注自身压力来源，适当采取放松和减压措施，如运动、冥想等。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_1 > 26 && hx_wd_y_1 <= 40",
+          "conclusionAnalysis": "知觉压力水平较高",
+          "suggestion": "您的压力感知水平较高，说明您近期承受了较大的心理压力。建议积极寻求减压方式，必要时可向专业心理咨询师寻求帮助，以避免长期压力对身心健康造成不良影响。",
+          "assessmentWarning": "high"
+        }
+      ]
+    }
+  ]
+}

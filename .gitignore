@@ -1,0 +1,18 @@
+backend/target/
+storage-data/
+plan.md
+backend.log
+backend/backend.log
+__pycache__/
+.token.json
+
+# Python local environments
+sensor-gateway/.venv/
+hardware.tar.gz
+
+# Private database exports and raw sensor recordings
+/sql/chuxin.sql
+/hardware/*.rar
+/hardware/EEG+GSR+PPG_test_data & matlab_code/*.csv
+/hardware/EEG+GSR+PPG_test_data & matlab_code/*.mat
+/hardware/EEG+GSR+PPG_test_data & matlab_code/*.docx

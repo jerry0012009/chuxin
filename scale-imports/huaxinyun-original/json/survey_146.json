@@ -1,0 +1,481 @@
+{
+  "id": 146,
+  "title": "日常生活能力评定量表(ADL)",
+  "type": "basic",
+  "questions": [
+    {
+      "id": 4651,
+      "text": "使用公共车辆",
+      "type": "radio",
+      "orderNum": 1,
+      "options": [
+        {
+          "id": 16967,
+          "optionNo": "A",
+          "text": "A、自己完全可以做",
+          "value": "1"
+        },
+        {
+          "id": 16968,
+          "optionNo": "B",
+          "text": "B、有些困难",
+          "value": "2"
+        },
+        {
+          "id": 16969,
+          "optionNo": "C",
+          "text": "C、需要帮助",
+          "value": "3"
+        },
+        {
+          "id": 16970,
+          "optionNo": "D",
+          "text": "D、根本无法做",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 4652,
+      "text": "定时上厕所",
+      "type": "radio",
+      "orderNum": 2,
+      "options": [
+        {
+          "id": 16971,
+          "optionNo": "A",
+          "text": "A、自己完全可以做",
+          "value": "1"
+        },
+        {
+          "id": 16972,
+          "optionNo": "B",
+          "text": "B、有些困难",
+          "value": "2"
+        },
+        {
+          "id": 16973,
+          "optionNo": "C",
+          "text": "C、需要帮助",
+          "value": "3"
+        },
+        {
+          "id": 16974,
+          "optionNo": "D",
+          "text": "D、根本无法做",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 4653,
+      "text": "做饭菜",
+      "type": "radio",
+      "orderNum": 3,
+      "options": [
+        {
+          "id": 16975,
+          "optionNo": "A",
+          "text": "A、自己完全可以做",
+          "value": "1"
+        },
+        {
+          "id": 16976,
+          "optionNo": "B",
+          "text": "B、有些困难",
+          "value": "2"
+        },
+        {
+          "id": 16977,
+          "optionNo": "C",
+          "text": "C、需要帮助",
+          "value": "3"
+        },
+        {
+          "id": 16978,
+          "optionNo": "D",
+          "text": "D、根本无法做",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 4654,
+      "text": "做家务",
+      "type": "radio",
+      "orderNum": 4,
+      "options": [
+        {
+          "id": 16979,
+          "optionNo": "A",
+          "text": "A、自己完全可以做",
+          "value": "1"
+        },
+        {
+          "id": 16980,
+          "optionNo": "B",
+          "text": "B、有些困难",
+          "value": "2"
+        },
+        {
+          "id": 16981,
+          "optionNo": "C",
+          "text": "C、需要帮助",
+          "value": "3"
+        },
+        {
+          "id": 16982,
+          "optionNo": "D",
+          "text": "D、根本无法做",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 4655,
+      "text": "吃药",
+      "type": "radio",
+      "orderNum": 5,
+      "options": [
+        {
+          "id": 16983,
+          "optionNo": "A",
+          "text": "A、自己完全可以做",
+          "value": "1"
+        },
+        {
+          "id": 16984,
+          "optionNo": "B",
+          "text": "B、有些困难",
+          "value": "2"
+        },
+        {
+          "id": 16985,
+          "optionNo": "C",
+          "text": "C、需要帮助",
+          "value": "3"
+        },
+        {
+          "id": 16986,
+          "optionNo": "D",
+          "text": "D、根本无法做",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 4656,
+      "text": "吃饭",
+      "type": "radio",
+      "orderNum": 6,
+      "options": [
+        {
+          "id": 16987,
+          "optionNo": "A",
+          "text": "A、自己完全可以做",
+          "value": "1"
+        },
+        {
+          "id": 16988,
+          "optionNo": "B",
+          "text": "B、有些困难",
+          "value": "2"
+        },
+        {
+          "id": 16989,
+          "optionNo": "C",
+          "text": "C、需要帮助",
+          "value": "3"
+        },
+        {
+          "id": 16990,
+          "optionNo": "D",
+          "text": "D、根本无法做",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 4657,
+      "text": "穿衣",
+      "type": "radio",
+      "orderNum": 7,
+      "options": [
+        {
+          "id": 16991,
+          "optionNo": "A",
+          "text": "A、自己完全可以做",
+          "value": "1"
+        },
+        {
+          "id": 16992,
+          "optionNo": "B",
+          "text": "B、有些困难",
+          "value": "2"
+        },
+        {
+          "id": 16993,
+          "optionNo": "C",
+          "text": "C、需要帮助",
+          "value": "3"
+        },
+        {
+          "id": 16994,
+          "optionNo": "D",
+          "text": "D、根本无法做",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 4658,
+      "text": "梳头、刷牙等",
+      "type": "radio",
+      "orderNum": 8,
+      "options": [
+        {
+          "id": 16995,
+          "optionNo": "A",
+          "text": "A、自己完全可以做",
+          "value": "1"
+        },
+        {
+          "id": 16996,
+          "optionNo": "B",
+          "text": "B、有些困难",
+          "value": "2"
+        },
+        {
+          "id": 16997,
+          "optionNo": "C",
+          "text": "C、需要帮助",
+          "value": "3"
+        },
+        {
+          "id": 16998,
+          "optionNo": "D",
+          "text": "D、根本无法做",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 4659,
+      "text": "洗衣",
+      "type": "radio",
+      "orderNum": 9,
+      "options": [
+        {
+          "id": 16999,
+          "optionNo": "A",
+          "text": "A、自己完全可以做",
+          "value": "1"
+        },
+        {
+          "id": 17000,
+          "optionNo": "B",
+          "text": "B、有些困难",
+          "value": "2"
+        },
+        {
+          "id": 17001,
+          "optionNo": "C",
+          "text": "C、需要帮助",
+          "value": "3"
+        },
+        {
+          "id": 17002,
+          "optionNo": "D",
+          "text": "D、根本无法做",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 4660,
+      "text": "洗澡",
+      "type": "radio",
+      "orderNum": 10,
+      "options": [
+        {
+          "id": 17003,
+          "optionNo": "A",
+          "text": "A、自己完全可以做",
+          "value": "1"
+        },
+        {
+          "id": 17004,
+          "optionNo": "B",
+          "text": "B、有些困难",
+          "value": "2"
+        },
+        {
+          "id": 17005,
+          "optionNo": "C",
+          "text": "C、需要帮助",
+          "value": "3"
+        },
+        {
+          "id": 17006,
+          "optionNo": "D",
+          "text": "D、根本无法做",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 4661,
+      "text": "购物",
+      "type": "radio",
+      "orderNum": 11,
+      "options": [
+        {
+          "id": 17007,
+          "optionNo": "A",
+          "text": "A、自己完全可以做",
+          "value": "1"
+        },
+        {
+          "id": 17008,
+          "optionNo": "B",
+          "text": "B、有些困难",
+          "value": "2"
+        },
+        {
+          "id": 17009,
+          "optionNo": "C",
+          "text": "C、需要帮助",
+          "value": "3"
+        },
+        {
+          "id": 17010,
+          "optionNo": "D",
+          "text": "D、根本无法做",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 4662,
+      "text": "行走",
+      "type": "radio",
+      "orderNum": 12,
+      "options": [
+        {
+          "id": 17011,
+          "optionNo": "A",
+          "text": "A、自己完全可以做",
+          "value": "1"
+        },
+        {
+          "id": 17012,
+          "optionNo": "B",
+          "text": "B、有些困难",
+          "value": "2"
+        },
+        {
+          "id": 17013,
+          "optionNo": "C",
+          "text": "C、需要帮助",
+          "value": "3"
+        },
+        {
+          "id": 17014,
+          "optionNo": "D",
+          "text": "D、根本无法做",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 4663,
+      "text": "打电话",
+      "type": "radio",
+      "orderNum": 13,
+      "options": [
+        {
+          "id": 17015,
+          "optionNo": "A",
+          "text": "A、自己完全可以做",
+          "value": "1"
+        },
+        {
+          "id": 17016,
+          "optionNo": "B",
+          "text": "B、有些困难",
+          "value": "2"
+        },
+        {
+          "id": 17017,
+          "optionNo": "C",
+          "text": "C、需要帮助",
+          "value": "3"
+        },
+        {
+          "id": 17018,
+          "optionNo": "D",
+          "text": "D、根本无法做",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 4664,
+      "text": "处理自己钱财",
+      "type": "radio",
+      "orderNum": 14,
+      "options": [
+        {
+          "id": 17019,
+          "optionNo": "A",
+          "text": "A、自己完全可以做",
+          "value": "1"
+        },
+        {
+          "id": 17020,
+          "optionNo": "B",
+          "text": "B、有些困难",
+          "value": "2"
+        },
+        {
+          "id": 17021,
+          "optionNo": "C",
+          "text": "C、需要帮助",
+          "value": "3"
+        },
+        {
+          "id": 17022,
+          "optionNo": "D",
+          "text": "D、根本无法做",
+          "value": "4"
+        }
+      ]
+    }
+  ],
+  "dimensions": [
+    {
+      "id": 501,
+      "num": 1,
+      "dimensionName": "总分",
+      "dimensionCode": "A",
+      "evaluateExpression": "hx_t_1 + hx_t_2 + hx_t_3 + hx_t_4 + hx_t_5 + hx_t_6 + hx_t_7 + hx_t_8 + hx_t_9 + hx_t_10 + hx_t_11 + hx_t_12 + hx_t_13 + hx_t_14",
+      "standardScoreFormula": "0",
+      "results": [
+        {
+          "id": 1152,
+          "evaluateExpression": "hx_wd_y_1 >= 0&& hx_wd_y_1 <= 15",
+          "conclusionAnalysis": "完全正常",
+          "suggestion": "测验者有较好的日常生活能力，可以自己进行生活中的日常活动。",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 1153,
+          "evaluateExpression": "hx_wd_y_1 >= 16&& hx_wd_y_1 <= 56",
+          "conclusionAnalysis": "有不同程度的功能下降。",
+          "suggestion": "测验者在日常生活能力方面有一定欠缺，建议多进行能力锻炼，多向周围人学习，亲人及朋友也多进行帮助。",
+          "assessmentWarning": "none"
+        }
+      ]
+    }
+  ]
+}

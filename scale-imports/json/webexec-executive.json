@@ -1,0 +1,718 @@
+{
+  "id": "webexec-executive",
+  "title": "网络执行功能量表(WebEXEC)",
+  "description": "Web-based Executive Function Test (WebEXEC)，Buchanan等(2010)编制，测量日常生活中执行功能困难程度。25题，4点计分（1=非常不同意到4=非常同意），全部为正向计分题（分数越高表示执行功能障碍越严重）。总分25-100。",
+  "type": "basic",
+  "questions": [
+    {
+      "text": "我很难同时处理多项任务。",
+      "type": "radio",
+      "orderNum": 1,
+      "options": [
+        {
+          "text": "非常不同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "不同意",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "同意",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "非常同意",
+          "value": "4",
+          "optionNo": "D"
+        }
+      ]
+    },
+    {
+      "text": "我在组织日常活动时经常遇到困难。",
+      "type": "radio",
+      "orderNum": 2,
+      "options": [
+        {
+          "text": "非常不同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "不同意",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "同意",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "非常同意",
+          "value": "4",
+          "optionNo": "D"
+        }
+      ]
+    },
+    {
+      "text": "我在需要集中注意力时很容易分心。",
+      "type": "radio",
+      "orderNum": 3,
+      "options": [
+        {
+          "text": "非常不同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "不同意",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "同意",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "非常同意",
+          "value": "4",
+          "optionNo": "D"
+        }
+      ]
+    },
+    {
+      "text": "我经常忘记别人刚刚告诉我的事情。",
+      "type": "radio",
+      "orderNum": 4,
+      "options": [
+        {
+          "text": "非常不同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "不同意",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "同意",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "非常同意",
+          "value": "4",
+          "optionNo": "D"
+        }
+      ]
+    },
+    {
+      "text": "我在做计划时经常遗漏重要细节。",
+      "type": "radio",
+      "orderNum": 5,
+      "options": [
+        {
+          "text": "非常不同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "不同意",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "同意",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "非常同意",
+          "value": "4",
+          "optionNo": "D"
+        }
+      ]
+    },
+    {
+      "text": "我在切换不同任务时感到困难。",
+      "type": "radio",
+      "orderNum": 6,
+      "options": [
+        {
+          "text": "非常不同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "不同意",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "同意",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "非常同意",
+          "value": "4",
+          "optionNo": "D"
+        }
+      ]
+    },
+    {
+      "text": "我在控制冲动行为方面有困难。",
+      "type": "radio",
+      "orderNum": 7,
+      "options": [
+        {
+          "text": "非常不同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "不同意",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "同意",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "非常同意",
+          "value": "4",
+          "optionNo": "D"
+        }
+      ]
+    },
+    {
+      "text": "我在解决问题时很难保持思路清晰。",
+      "type": "radio",
+      "orderNum": 8,
+      "options": [
+        {
+          "text": "非常不同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "不同意",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "同意",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "非常同意",
+          "value": "4",
+          "optionNo": "D"
+        }
+      ]
+    },
+    {
+      "text": "我在需要灵活应变时感到吃力。",
+      "type": "radio",
+      "orderNum": 9,
+      "options": [
+        {
+          "text": "非常不同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "不同意",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "同意",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "非常同意",
+          "value": "4",
+          "optionNo": "D"
+        }
+      ]
+    },
+    {
+      "text": "我在完成需要多步骤的工作时经常出错。",
+      "type": "radio",
+      "orderNum": 10,
+      "options": [
+        {
+          "text": "非常不同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "不同意",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "同意",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "非常同意",
+          "value": "4",
+          "optionNo": "D"
+        }
+      ]
+    },
+    {
+      "text": "我在管理时间方面存在困难。",
+      "type": "radio",
+      "orderNum": 11,
+      "options": [
+        {
+          "text": "非常不同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "不同意",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "同意",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "非常同意",
+          "value": "4",
+          "optionNo": "D"
+        }
+      ]
+    },
+    {
+      "text": "我经常丢失或放错物品。",
+      "type": "radio",
+      "orderNum": 12,
+      "options": [
+        {
+          "text": "非常不同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "不同意",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "同意",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "非常同意",
+          "value": "4",
+          "optionNo": "D"
+        }
+      ]
+    },
+    {
+      "text": "我在需要抑制不当反应时有困难。",
+      "type": "radio",
+      "orderNum": 13,
+      "options": [
+        {
+          "text": "非常不同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "不同意",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "同意",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "非常同意",
+          "value": "4",
+          "optionNo": "D"
+        }
+      ]
+    },
+    {
+      "text": "我在执行复杂指令时经常犯错。",
+      "type": "radio",
+      "orderNum": 14,
+      "options": [
+        {
+          "text": "非常不同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "不同意",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "同意",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "非常同意",
+          "value": "4",
+          "optionNo": "D"
+        }
+      ]
+    },
+    {
+      "text": "我很难在嘈杂或干扰的环境中工作。",
+      "type": "radio",
+      "orderNum": 15,
+      "options": [
+        {
+          "text": "非常不同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "不同意",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "同意",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "非常同意",
+          "value": "4",
+          "optionNo": "D"
+        }
+      ]
+    },
+    {
+      "text": "我在需要持续关注的任务上表现不佳。",
+      "type": "radio",
+      "orderNum": 16,
+      "options": [
+        {
+          "text": "非常不同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "不同意",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "同意",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "非常同意",
+          "value": "4",
+          "optionNo": "D"
+        }
+      ]
+    },
+    {
+      "text": "我经常忘记预约或承诺。",
+      "type": "radio",
+      "orderNum": 17,
+      "options": [
+        {
+          "text": "非常不同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "不同意",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "同意",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "非常同意",
+          "value": "4",
+          "optionNo": "D"
+        }
+      ]
+    },
+    {
+      "text": "我在估算时间方面存在困难。",
+      "type": "radio",
+      "orderNum": 18,
+      "options": [
+        {
+          "text": "非常不同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "不同意",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "同意",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "非常同意",
+          "value": "4",
+          "optionNo": "D"
+        }
+      ]
+    },
+    {
+      "text": "我在做出决定前很难全面考虑各种选项。",
+      "type": "radio",
+      "orderNum": 19,
+      "options": [
+        {
+          "text": "非常不同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "不同意",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "同意",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "非常同意",
+          "value": "4",
+          "optionNo": "D"
+        }
+      ]
+    },
+    {
+      "text": "我在需要自我监控时经常出现问题。",
+      "type": "radio",
+      "orderNum": 20,
+      "options": [
+        {
+          "text": "非常不同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "不同意",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "同意",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "非常同意",
+          "value": "4",
+          "optionNo": "D"
+        }
+      ]
+    },
+    {
+      "text": "我在开始新任务时经常拖延。",
+      "type": "radio",
+      "orderNum": 21,
+      "options": [
+        {
+          "text": "非常不同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "不同意",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "同意",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "非常同意",
+          "value": "4",
+          "optionNo": "D"
+        }
+      ]
+    },
+    {
+      "text": "我在理解复杂说明时存在困难。",
+      "type": "radio",
+      "orderNum": 22,
+      "options": [
+        {
+          "text": "非常不同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "不同意",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "同意",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "非常同意",
+          "value": "4",
+          "optionNo": "D"
+        }
+      ]
+    },
+    {
+      "text": "我很难在工作记忆中保持信息。",
+      "type": "radio",
+      "orderNum": 23,
+      "options": [
+        {
+          "text": "非常不同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "不同意",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "同意",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "非常同意",
+          "value": "4",
+          "optionNo": "D"
+        }
+      ]
+    },
+    {
+      "text": "我在需要同时关注多条信息时感到困难。",
+      "type": "radio",
+      "orderNum": 24,
+      "options": [
+        {
+          "text": "非常不同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "不同意",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "同意",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "非常同意",
+          "value": "4",
+          "optionNo": "D"
+        }
+      ]
+    },
+    {
+      "text": "我在完成任务的过程中很难保持动力。",
+      "type": "radio",
+      "orderNum": 25,
+      "options": [
+        {
+          "text": "非常不同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "不同意",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "同意",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "非常同意",
+          "value": "4",
+          "optionNo": "D"
+        }
+      ]
+    }
+  ],
+  "dimensions": [
+    {
+      "dimensionName": "执行功能障碍",
+      "dimensionCode": "webexec_total",
+      "num": 1,
+      "evaluateExpression": "hx_t_1 + hx_t_2 + hx_t_3 + hx_t_4 + hx_t_5 + hx_t_6 + hx_t_7 + hx_t_8 + hx_t_9 + hx_t_10 + hx_t_11 + hx_t_12 + hx_t_13 + hx_t_14 + hx_t_15 + hx_t_16 + hx_t_17 + hx_t_18 + hx_t_19 + hx_t_20 + hx_t_21 + hx_t_22 + hx_t_23 + hx_t_24 + hx_t_25",
+      "standardScoreFormula": "",
+      "results": [
+        {
+          "evaluateExpression": "hx_wd_y_1 <= 40",
+          "conclusionAnalysis": "执行功能良好",
+          "suggestion": "您的WebEXEC总分较低，表明您在日常生活中执行功能表现良好，组织、计划和多任务处理能力较强。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_1 > 40 && hx_wd_y_1 <= 55",
+          "conclusionAnalysis": "执行功能轻度困难",
+          "suggestion": "您的WebEXEC总分处于中等范围，表明您在日常执行功能方面存在一些轻度困难，但不影响正常生活。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_1 > 55 && hx_wd_y_1 <= 75",
+          "conclusionAnalysis": "执行功能中度困难",
+          "suggestion": "您的WebEXEC总分偏高，表明您在组织、计划、任务切换等执行功能方面存在中度困难，建议关注并采取相应策略。",
+          "assessmentWarning": "low"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_1 > 75",
+          "conclusionAnalysis": "执行功能显著困难",
+          "suggestion": "您的WebEXEC总分明显偏高，表明您在日常执行功能方面存在显著困难，建议寻求专业评估和帮助。",
+          "assessmentWarning": "middle"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1228 @@
+{
+  "id": "brief-cope",
+  "title": "简明应对方式问卷(Brief COPE)",
+  "description": "本问卷帮助了解您在面对压力时常用的应对方式。共28题，大约需要10分钟完成。",
+  "type": "basic",
+  "questions": [
+    {
+      "text": "通过工作或参与其他活动令自己不要想太多。",
+      "type": "radio",
+      "orderNum": 1,
+      "options": [
+        {
+          "text": "从不这样做",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "偶尔这样做",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "有时这样做",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "常常这样做",
+          "value": "4",
+          "optionNo": "D"
+        }
+      ]
+    },
+    {
+      "text": "专注努力去解决眼前的困难。",
+      "type": "radio",
+      "orderNum": 2,
+      "options": [
+        {
+          "text": "从不这样做",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "偶尔这样做",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "有时这样做",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "常常这样做",
+          "value": "4",
+          "optionNo": "D"
+        }
+      ]
+    },
+    {
+      "text": "告诉自己：这不是真的。",
+      "type": "radio",
+      "orderNum": 3,
+      "options": [
+        {
+          "text": "从不这样做",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "偶尔这样做",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "有时这样做",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "常常这样做",
+          "value": "4",
+          "optionNo": "D"
+        }
+      ]
+    },
+    {
+      "text": "使用酒精或其他药物令自己好过一点。",
+      "type": "radio",
+      "orderNum": 4,
+      "options": [
+        {
+          "text": "从不这样做",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "偶尔这样做",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "有时这样做",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "常常这样做",
+          "value": "4",
+          "optionNo": "D"
+        }
+      ]
+    },
+    {
+      "text": "从他人获得情绪支援。",
+      "type": "radio",
+      "orderNum": 5,
+      "options": [
+        {
+          "text": "从不这样做",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "偶尔这样做",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "有时这样做",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "常常这样做",
+          "value": "4",
+          "optionNo": "D"
+        }
+      ]
+    },
+    {
+      "text": "放弃处理问题。",
+      "type": "radio",
+      "orderNum": 6,
+      "options": [
+        {
+          "text": "从不这样做",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "偶尔这样做",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "有时这样做",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "常常这样做",
+          "value": "4",
+          "optionNo": "D"
+        }
+      ]
+    },
+    {
+      "text": "采取实际行动去改善现况。",
+      "type": "radio",
+      "orderNum": 7,
+      "options": [
+        {
+          "text": "从不这样做",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "偶尔这样做",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "有时这样做",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "常常这样做",
+          "value": "4",
+          "optionNo": "D"
+        }
+      ]
+    },
+    {
+      "text": "拒绝相信问题已经发生。",
+      "type": "radio",
+      "orderNum": 8,
+      "options": [
+        {
+          "text": "从不这样做",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "偶尔这样做",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "有时这样做",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "常常这样做",
+          "value": "4",
+          "optionNo": "D"
+        }
+      ]
+    },
+    {
+      "text": "以说话释放不愉快的感觉。",
+      "type": "radio",
+      "orderNum": 9,
+      "options": [
+        {
+          "text": "从不这样做",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "偶尔这样做",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "有时这样做",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "常常这样做",
+          "value": "4",
+          "optionNo": "D"
+        }
+      ]
+    },
+    {
+      "text": "从他人获得帮助和意见。",
+      "type": "radio",
+      "orderNum": 10,
+      "options": [
+        {
+          "text": "从不这样做",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "偶尔这样做",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "有时这样做",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "常常这样做",
+          "value": "4",
+          "optionNo": "D"
+        }
+      ]
+    },
+    {
+      "text": "使用酒精或其他药物去渡过艰难的时刻。",
+      "type": "radio",
+      "orderNum": 11,
+      "options": [
+        {
+          "text": "从不这样做",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "偶尔这样做",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "有时这样做",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "常常这样做",
+          "value": "4",
+          "optionNo": "D"
+        }
+      ]
+    },
+    {
+      "text": "尝试换角度去看事情，令它更正面。",
+      "type": "radio",
+      "orderNum": 12,
+      "options": [
+        {
+          "text": "从不这样做",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "偶尔这样做",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "有时这样做",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "常常这样做",
+          "value": "4",
+          "optionNo": "D"
+        }
+      ]
+    },
+    {
+      "text": "批评自己。",
+      "type": "radio",
+      "orderNum": 13,
+      "options": [
+        {
+          "text": "从不这样做",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "偶尔这样做",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "有时这样做",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "常常这样做",
+          "value": "4",
+          "optionNo": "D"
+        }
+      ]
+    },
+    {
+      "text": "尝试思考一个策略去解决问题。",
+      "type": "radio",
+      "orderNum": 14,
+      "options": [
+        {
+          "text": "从不这样做",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "偶尔这样做",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "有时这样做",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "常常这样做",
+          "value": "4",
+          "optionNo": "D"
+        }
+      ]
+    },
+    {
+      "text": "从他人获得安慰和谅解。",
+      "type": "radio",
+      "orderNum": 15,
+      "options": [
+        {
+          "text": "从不这样做",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "偶尔这样做",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "有时这样做",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "常常这样做",
+          "value": "4",
+          "optionNo": "D"
+        }
+      ]
+    },
+    {
+      "text": "放弃尝试应付困境。",
+      "type": "radio",
+      "orderNum": 16,
+      "options": [
+        {
+          "text": "从不这样做",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "偶尔这样做",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "有时这样做",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "常常这样做",
+          "value": "4",
+          "optionNo": "D"
+        }
+      ]
+    },
+    {
+      "text": "在发生了的问题里寻找正面的东西。",
+      "type": "radio",
+      "orderNum": 17,
+      "options": [
+        {
+          "text": "从不这样做",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "偶尔这样做",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "有时这样做",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "常常这样做",
+          "value": "4",
+          "optionNo": "D"
+        }
+      ]
+    },
+    {
+      "text": "拿问题开玩笑。",
+      "type": "radio",
+      "orderNum": 18,
+      "options": [
+        {
+          "text": "从不这样做",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "偶尔这样做",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "有时这样做",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "常常这样做",
+          "value": "4",
+          "optionNo": "D"
+        }
+      ]
+    },
+    {
+      "text": "透过某些活动（如阅读、睡觉、看电影、买东西）令自己不要想太多。",
+      "type": "radio",
+      "orderNum": 19,
+      "options": [
+        {
+          "text": "从不这样做",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "偶尔这样做",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "有时这样做",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "常常这样做",
+          "value": "4",
+          "optionNo": "D"
+        }
+      ]
+    },
+    {
+      "text": "接受问题已经发生的事实。",
+      "type": "radio",
+      "orderNum": 20,
+      "options": [
+        {
+          "text": "从不这样做",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "偶尔这样做",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "有时这样做",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "常常这样做",
+          "value": "4",
+          "optionNo": "D"
+        }
+      ]
+    },
+    {
+      "text": "抒发负面情绪。",
+      "type": "radio",
+      "orderNum": 21,
+      "options": [
+        {
+          "text": "从不这样做",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "偶尔这样做",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "有时这样做",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "常常这样做",
+          "value": "4",
+          "optionNo": "D"
+        }
+      ]
+    },
+    {
+      "text": "在宗教信仰里寻找安慰。",
+      "type": "radio",
+      "orderNum": 22,
+      "options": [
+        {
+          "text": "从不这样做",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "偶尔这样做",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "有时这样做",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "常常这样做",
+          "value": "4",
+          "optionNo": "D"
+        }
+      ]
+    },
+    {
+      "text": "尝试寻求他人的帮助或建议去解决问题。",
+      "type": "radio",
+      "orderNum": 23,
+      "options": [
+        {
+          "text": "从不这样做",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "偶尔这样做",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "有时这样做",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "常常这样做",
+          "value": "4",
+          "optionNo": "D"
+        }
+      ]
+    },
+    {
+      "text": "学习与问题共存。",
+      "type": "radio",
+      "orderNum": 24,
+      "options": [
+        {
+          "text": "从不这样做",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "偶尔这样做",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "有时这样做",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "常常这样做",
+          "value": "4",
+          "optionNo": "D"
+        }
+      ]
+    },
+    {
+      "text": "努力思考接下来采取哪些步骤。",
+      "type": "radio",
+      "orderNum": 25,
+      "options": [
+        {
+          "text": "从不这样做",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "偶尔这样做",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "有时这样做",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "常常这样做",
+          "value": "4",
+          "optionNo": "D"
+        }
+      ]
+    },
+    {
+      "text": "为已发生的事情责怪自己。",
+      "type": "radio",
+      "orderNum": 26,
+      "options": [
+        {
+          "text": "从不这样做",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "偶尔这样做",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "有时这样做",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "常常这样做",
+          "value": "4",
+          "optionNo": "D"
+        }
+      ]
+    },
+    {
+      "text": "祈祷或沉思。",
+      "type": "radio",
+      "orderNum": 27,
+      "options": [
+        {
+          "text": "从不这样做",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "偶尔这样做",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "有时这样做",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "常常这样做",
+          "value": "4",
+          "optionNo": "D"
+        }
+      ]
+    },
+    {
+      "text": "嘲笑现况。",
+      "type": "radio",
+      "orderNum": 28,
+      "options": [
+        {
+          "text": "从不这样做",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "偶尔这样做",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "有时这样做",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "常常这样做",
+          "value": "4",
+          "optionNo": "D"
+        }
+      ]
+    }
+  ],
+  "dimensions": [
+    {
+      "dimensionName": "自我分心",
+      "dimensionCode": "self_distraction",
+      "num": 1,
+      "evaluateExpression": "(hx_t_1 + hx_t_19) / 2",
+      "standardScoreFormula": "",
+      "results": [
+        {
+          "evaluateExpression": "hx_wd_y_1 <= 1.5",
+          "conclusionAnalysis": "使用频率很低",
+          "suggestion": "您在压力情境下很少使用「自我分心」这一应对策略。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_1 > 1.5 && hx_wd_y_1 <= 2.5",
+          "conclusionAnalysis": "使用频率较低",
+          "suggestion": "您偶尔会使用「自我分心」这一应对策略。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_1 > 2.5 && hx_wd_y_1 <= 3.5",
+          "conclusionAnalysis": "使用频率中等",
+          "suggestion": "您有时会使用「自我分心」这一应对策略。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_1 > 3.5",
+          "conclusionAnalysis": "使用频率较高",
+          "suggestion": "您经常使用「自我分心」这一应对策略。",
+          "assessmentWarning": "none"
+        }
+      ]
+    },
+    {
+      "dimensionName": "积极应对",
+      "dimensionCode": "active_coping",
+      "num": 2,
+      "evaluateExpression": "(hx_t_2 + hx_t_7) / 2",
+      "standardScoreFormula": "",
+      "results": [
+        {
+          "evaluateExpression": "hx_wd_y_2 <= 1.5",
+          "conclusionAnalysis": "使用频率很低",
+          "suggestion": "您在压力情境下很少使用「积极应对」这一应对策略。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_2 > 1.5 && hx_wd_y_2 <= 2.5",
+          "conclusionAnalysis": "使用频率较低",
+          "suggestion": "您偶尔会使用「积极应对」这一应对策略。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_2 > 2.5 && hx_wd_y_2 <= 3.5",
+          "conclusionAnalysis": "使用频率中等",
+          "suggestion": "您有时会使用「积极应对」这一应对策略。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_2 > 3.5",
+          "conclusionAnalysis": "使用频率较高",
+          "suggestion": "您经常使用「积极应对」这一应对策略。",
+          "assessmentWarning": "none"
+        }
+      ]
+    },
+    {
+      "dimensionName": "否认",
+      "dimensionCode": "denial",
+      "num": 3,
+      "evaluateExpression": "(hx_t_3 + hx_t_8) / 2",
+      "standardScoreFormula": "",
+      "results": [
+        {
+          "evaluateExpression": "hx_wd_y_3 <= 1.5",
+          "conclusionAnalysis": "使用频率很低",
+          "suggestion": "您在压力情境下很少使用「否认」这一应对策略。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_3 > 1.5 && hx_wd_y_3 <= 2.5",
+          "conclusionAnalysis": "使用频率较低",
+          "suggestion": "您偶尔会使用「否认」这一应对策略。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_3 > 2.5 && hx_wd_y_3 <= 3.5",
+          "conclusionAnalysis": "使用频率中等",
+          "suggestion": "您有时会使用「否认」这一应对策略。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_3 > 3.5",
+          "conclusionAnalysis": "使用频率较高",
+          "suggestion": "您经常使用「否认」这一应对策略。",
+          "assessmentWarning": "none"
+        }
+      ]
+    },
+    {
+      "dimensionName": "物质使用",
+      "dimensionCode": "substance_use",
+      "num": 4,
+      "evaluateExpression": "(hx_t_4 + hx_t_11) / 2",
+      "standardScoreFormula": "",
+      "results": [
+        {
+          "evaluateExpression": "hx_wd_y_4 <= 1.5",
+          "conclusionAnalysis": "使用频率很低",
+          "suggestion": "您在压力情境下很少使用「物质使用」这一应对策略。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_4 > 1.5 && hx_wd_y_4 <= 2.5",
+          "conclusionAnalysis": "使用频率较低",
+          "suggestion": "您偶尔会使用「物质使用」这一应对策略。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_4 > 2.5 && hx_wd_y_4 <= 3.5",
+          "conclusionAnalysis": "使用频率中等",
+          "suggestion": "您有时会使用「物质使用」这一应对策略。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_4 > 3.5",
+          "conclusionAnalysis": "使用频率较高",
+          "suggestion": "您经常使用「物质使用」这一应对策略。",
+          "assessmentWarning": "none"
+        }
+      ]
+    },
+    {
+      "dimensionName": "情感支持",
+      "dimensionCode": "emotional_support",
+      "num": 5,
+      "evaluateExpression": "(hx_t_5 + hx_t_15) / 2",
+      "standardScoreFormula": "",
+      "results": [
+        {
+          "evaluateExpression": "hx_wd_y_5 <= 1.5",
+          "conclusionAnalysis": "使用频率很低",
+          "suggestion": "您在压力情境下很少使用「情感支持」这一应对策略。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_5 > 1.5 && hx_wd_y_5 <= 2.5",
+          "conclusionAnalysis": "使用频率较低",
+          "suggestion": "您偶尔会使用「情感支持」这一应对策略。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_5 > 2.5 && hx_wd_y_5 <= 3.5",
+          "conclusionAnalysis": "使用频率中等",
+          "suggestion": "您有时会使用「情感支持」这一应对策略。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_5 > 3.5",
+          "conclusionAnalysis": "使用频率较高",
+          "suggestion": "您经常使用「情感支持」这一应对策略。",
+          "assessmentWarning": "none"
+        }
+      ]
+    },
+    {
+      "dimensionName": "行为脱离",
+      "dimensionCode": "behavioral_disengagement",
+      "num": 6,
+      "evaluateExpression": "(hx_t_6 + hx_t_16) / 2",
+      "standardScoreFormula": "",
+      "results": [
+        {
+          "evaluateExpression": "hx_wd_y_6 <= 1.5",
+          "conclusionAnalysis": "使用频率很低",
+          "suggestion": "您在压力情境下很少使用「行为脱离」这一应对策略。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_6 > 1.5 && hx_wd_y_6 <= 2.5",
+          "conclusionAnalysis": "使用频率较低",
+          "suggestion": "您偶尔会使用「行为脱离」这一应对策略。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_6 > 2.5 && hx_wd_y_6 <= 3.5",
+          "conclusionAnalysis": "使用频率中等",
+          "suggestion": "您有时会使用「行为脱离」这一应对策略。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_6 > 3.5",
+          "conclusionAnalysis": "使用频率较高",
+          "suggestion": "您经常使用「行为脱离」这一应对策略。",
+          "assessmentWarning": "none"
+        }
+      ]
+    },
+    {
+      "dimensionName": "工具性支持",
+      "dimensionCode": "instrumental_support",
+      "num": 7,
+      "evaluateExpression": "(hx_t_10 + hx_t_23) / 2",
+      "standardScoreFormula": "",
+      "results": [
+        {
+          "evaluateExpression": "hx_wd_y_7 <= 1.5",
+          "conclusionAnalysis": "使用频率很低",
+          "suggestion": "您在压力情境下很少使用「工具性支持」这一应对策略。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_7 > 1.5 && hx_wd_y_7 <= 2.5",
+          "conclusionAnalysis": "使用频率较低",
+          "suggestion": "您偶尔会使用「工具性支持」这一应对策略。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_7 > 2.5 && hx_wd_y_7 <= 3.5",
+          "conclusionAnalysis": "使用频率中等",
+          "suggestion": "您有时会使用「工具性支持」这一应对策略。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_7 > 3.5",
+          "conclusionAnalysis": "使用频率较高",
+          "suggestion": "您经常使用「工具性支持」这一应对策略。",
+          "assessmentWarning": "none"
+        }
+      ]
+    },
+    {
+      "dimensionName": "积极重构",
+      "dimensionCode": "positive_reframing",
+      "num": 8,
+      "evaluateExpression": "(hx_t_12 + hx_t_17) / 2",
+      "standardScoreFormula": "",
+      "results": [
+        {
+          "evaluateExpression": "hx_wd_y_8 <= 1.5",
+          "conclusionAnalysis": "使用频率很低",
+          "suggestion": "您在压力情境下很少使用「积极重构」这一应对策略。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_8 > 1.5 && hx_wd_y_8 <= 2.5",
+          "conclusionAnalysis": "使用频率较低",
+          "suggestion": "您偶尔会使用「积极重构」这一应对策略。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_8 > 2.5 && hx_wd_y_8 <= 3.5",
+          "conclusionAnalysis": "使用频率中等",
+          "suggestion": "您有时会使用「积极重构」这一应对策略。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_8 > 3.5",
+          "conclusionAnalysis": "使用频率较高",
+          "suggestion": "您经常使用「积极重构」这一应对策略。",
+          "assessmentWarning": "none"
+        }
+      ]
+    },
+    {
+      "dimensionName": "自我责备",
+      "dimensionCode": "self_blame",
+      "num": 9,
+      "evaluateExpression": "(hx_t_13 + hx_t_26) / 2",
+      "standardScoreFormula": "",
+      "results": [
+        {
+          "evaluateExpression": "hx_wd_y_9 <= 1.5",
+          "conclusionAnalysis": "使用频率很低",
+          "suggestion": "您在压力情境下很少使用「自我责备」这一应对策略。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_9 > 1.5 && hx_wd_y_9 <= 2.5",
+          "conclusionAnalysis": "使用频率较低",
+          "suggestion": "您偶尔会使用「自我责备」这一应对策略。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_9 > 2.5 && hx_wd_y_9 <= 3.5",
+          "conclusionAnalysis": "使用频率中等",
+          "suggestion": "您有时会使用「自我责备」这一应对策略。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_9 > 3.5",
+          "conclusionAnalysis": "使用频率较高",
+          "suggestion": "您经常使用「自我责备」这一应对策略。",
+          "assessmentWarning": "none"
+        }
+      ]
+    },
+    {
+      "dimensionName": "计划",
+      "dimensionCode": "planning",
+      "num": 10,
+      "evaluateExpression": "(hx_t_14 + hx_t_25) / 2",
+      "standardScoreFormula": "",
+      "results": [
+        {
+          "evaluateExpression": "hx_wd_y_10 <= 1.5",
+          "conclusionAnalysis": "使用频率很低",
+          "suggestion": "您在压力情境下很少使用「计划」这一应对策略。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_10 > 1.5 && hx_wd_y_10 <= 2.5",
+          "conclusionAnalysis": "使用频率较低",
+          "suggestion": "您偶尔会使用「计划」这一应对策略。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_10 > 2.5 && hx_wd_y_10 <= 3.5",
+          "conclusionAnalysis": "使用频率中等",
+          "suggestion": "您有时会使用「计划」这一应对策略。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_10 > 3.5",
+          "conclusionAnalysis": "使用频率较高",
+          "suggestion": "您经常使用「计划」这一应对策略。",
+          "assessmentWarning": "none"
+        }
+      ]
+    },
+    {
+      "dimensionName": "幽默",
+      "dimensionCode": "humor",
+      "num": 11,
+      "evaluateExpression": "(hx_t_18 + hx_t_28) / 2",
+      "standardScoreFormula": "",
+      "results": [
+        {
+          "evaluateExpression": "hx_wd_y_11 <= 1.5",
+          "conclusionAnalysis": "使用频率很低",
+          "suggestion": "您在压力情境下很少使用「幽默」这一应对策略。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_11 > 1.5 && hx_wd_y_11 <= 2.5",
+          "conclusionAnalysis": "使用频率较低",
+          "suggestion": "您偶尔会使用「幽默」这一应对策略。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_11 > 2.5 && hx_wd_y_11 <= 3.5",
+          "conclusionAnalysis": "使用频率中等",
+          "suggestion": "您有时会使用「幽默」这一应对策略。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_11 > 3.5",
+          "conclusionAnalysis": "使用频率较高",
+          "suggestion": "您经常使用「幽默」这一应对策略。",
+          "assessmentWarning": "none"
+        }
+      ]
+    },
+    {
+      "dimensionName": "接纳",
+      "dimensionCode": "acceptance",
+      "num": 12,
+      "evaluateExpression": "(hx_t_20 + hx_t_24) / 2",
+      "standardScoreFormula": "",
+      "results": [
+        {
+          "evaluateExpression": "hx_wd_y_12 <= 1.5",
+          "conclusionAnalysis": "使用频率很低",
+          "suggestion": "您在压力情境下很少使用「接纳」这一应对策略。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_12 > 1.5 && hx_wd_y_12 <= 2.5",
+          "conclusionAnalysis": "使用频率较低",
+          "suggestion": "您偶尔会使用「接纳」这一应对策略。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_12 > 2.5 && hx_wd_y_12 <= 3.5",
+          "conclusionAnalysis": "使用频率中等",
+          "suggestion": "您有时会使用「接纳」这一应对策略。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_12 > 3.5",
+          "conclusionAnalysis": "使用频率较高",
+          "suggestion": "您经常使用「接纳」这一应对策略。",
+          "assessmentWarning": "none"
+        }
+      ]
+    },
+    {
+      "dimensionName": "情绪宣泄",
+      "dimensionCode": "venting",
+      "num": 13,
+      "evaluateExpression": "(hx_t_9 + hx_t_21) / 2",
+      "standardScoreFormula": "",
+      "results": [
+        {
+          "evaluateExpression": "hx_wd_y_13 <= 1.5",
+          "conclusionAnalysis": "使用频率很低",
+          "suggestion": "您在压力情境下很少使用「情绪宣泄」这一应对策略。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_13 > 1.5 && hx_wd_y_13 <= 2.5",
+          "conclusionAnalysis": "使用频率较低",
+          "suggestion": "您偶尔会使用「情绪宣泄」这一应对策略。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_13 > 2.5 && hx_wd_y_13 <= 3.5",
+          "conclusionAnalysis": "使用频率中等",
+          "suggestion": "您有时会使用「情绪宣泄」这一应对策略。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_13 > 3.5",
+          "conclusionAnalysis": "使用频率较高",
+          "suggestion": "您经常使用「情绪宣泄」这一应对策略。",
+          "assessmentWarning": "none"
+        }
+      ]
+    },
+    {
+      "dimensionName": "宗教",
+      "dimensionCode": "religion",
+      "num": 14,
+      "evaluateExpression": "(hx_t_22 + hx_t_27) / 2",
+      "standardScoreFormula": "",
+      "results": [
+        {
+          "evaluateExpression": "hx_wd_y_14 <= 1.5",
+          "conclusionAnalysis": "使用频率很低",
+          "suggestion": "您在压力情境下很少使用「宗教」这一应对策略。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_14 > 1.5 && hx_wd_y_14 <= 2.5",
+          "conclusionAnalysis": "使用频率较低",
+          "suggestion": "您偶尔会使用「宗教」这一应对策略。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_14 > 2.5 && hx_wd_y_14 <= 3.5",
+          "conclusionAnalysis": "使用频率中等",
+          "suggestion": "您有时会使用「宗教」这一应对策略。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_14 > 3.5",
+          "conclusionAnalysis": "使用频率较高",
+          "suggestion": "您经常使用「宗教」这一应对策略。",
+          "assessmentWarning": "none"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,374 @@
+{
+  "id": 114,
+  "title": "自尊量表（SES）",
+  "type": "basic",
+  "questions": [
+    {
+      "id": 2579,
+      "text": "我认为自己是个有价值的人，至少与别人不相上下。",
+      "type": "radio",
+      "orderNum": 1,
+      "options": [
+        {
+          "id": 10192,
+          "optionNo": "A",
+          "text": "非常不同意",
+          "value": "1"
+        },
+        {
+          "id": 10193,
+          "optionNo": "B",
+          "text": "不同意",
+          "value": "2"
+        },
+        {
+          "id": 10194,
+          "optionNo": "C",
+          "text": "同意",
+          "value": "3"
+        },
+        {
+          "id": 10195,
+          "optionNo": "D",
+          "text": "非常同意",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 2580,
+      "text": "我感到我有许多好的品质。",
+      "type": "radio",
+      "orderNum": 2,
+      "options": [
+        {
+          "id": 10196,
+          "optionNo": "A",
+          "text": "非常不同意",
+          "value": "1"
+        },
+        {
+          "id": 10197,
+          "optionNo": "B",
+          "text": "不同意",
+          "value": "2"
+        },
+        {
+          "id": 10198,
+          "optionNo": "C",
+          "text": "同意",
+          "value": "3"
+        },
+        {
+          "id": 10199,
+          "optionNo": "D",
+          "text": "非常同意",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 2581,
+      "text": "归根到底，我倾向于觉得自己是一个失败者。",
+      "type": "radio",
+      "orderNum": 3,
+      "options": [
+        {
+          "id": 10200,
+          "optionNo": "A",
+          "text": "非常不同意",
+          "value": "4"
+        },
+        {
+          "id": 10201,
+          "optionNo": "B",
+          "text": "不同意",
+          "value": "2"
+        },
+        {
+          "id": 10202,
+          "optionNo": "C",
+          "text": "同意",
+          "value": "2"
+        },
+        {
+          "id": 10203,
+          "optionNo": "D",
+          "text": "非常同意",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 2582,
+      "text": "我能像大多数人一样把事情做好。",
+      "type": "radio",
+      "orderNum": 4,
+      "options": [
+        {
+          "id": 10204,
+          "optionNo": "A",
+          "text": "非常不同意",
+          "value": "1"
+        },
+        {
+          "id": 10205,
+          "optionNo": "B",
+          "text": "不同意",
+          "value": "2"
+        },
+        {
+          "id": 10206,
+          "optionNo": "C",
+          "text": "同意",
+          "value": "3"
+        },
+        {
+          "id": 10207,
+          "optionNo": "D",
+          "text": "非常同意",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 2583,
+      "text": "我感到自己值得自豪的地方不多。",
+      "type": "radio",
+      "orderNum": 5,
+      "options": [
+        {
+          "id": 10208,
+          "optionNo": "A",
+          "text": "非常不同意",
+          "value": "4"
+        },
+        {
+          "id": 10209,
+          "optionNo": "B",
+          "text": "不同意",
+          "value": "3"
+        },
+        {
+          "id": 10210,
+          "optionNo": "C",
+          "text": "同意",
+          "value": "2"
+        },
+        {
+          "id": 10211,
+          "optionNo": "D",
+          "text": "非常同意",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 2584,
+      "text": "我对自己持有一种肯定的态度。",
+      "type": "radio",
+      "orderNum": 6,
+      "options": [
+        {
+          "id": 10212,
+          "optionNo": "A",
+          "text": "非常不同意",
+          "value": "1"
+        },
+        {
+          "id": 10213,
+          "optionNo": "B",
+          "text": "不同意",
+          "value": "2"
+        },
+        {
+          "id": 10214,
+          "optionNo": "C",
+          "text": "同意",
+          "value": "3"
+        },
+        {
+          "id": 10215,
+          "optionNo": "D",
+          "text": "非常同意",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 2585,
+      "text": "整体而言，我对自己觉得很满意。",
+      "type": "radio",
+      "orderNum": 7,
+      "options": [
+        {
+          "id": 10216,
+          "optionNo": "A",
+          "text": "非常不同意",
+          "value": "1"
+        },
+        {
+          "id": 10217,
+          "optionNo": "B",
+          "text": "不同意",
+          "value": "2"
+        },
+        {
+          "id": 10218,
+          "optionNo": "C",
+          "text": "同意",
+          "value": "3"
+        },
+        {
+          "id": 10219,
+          "optionNo": "D",
+          "text": "非常同意",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 2586,
+      "text": "我要是能更看得起自己就好了。",
+      "type": "radio",
+      "orderNum": 8,
+      "options": [
+        {
+          "id": 10220,
+          "optionNo": "A",
+          "text": "非常不同意",
+          "value": "4"
+        },
+        {
+          "id": 10221,
+          "optionNo": "B",
+          "text": "不同意",
+          "value": "3"
+        },
+        {
+          "id": 10222,
+          "optionNo": "C",
+          "text": "同意",
+          "value": "2"
+        },
+        {
+          "id": 10223,
+          "optionNo": "D",
+          "text": "非常同意",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 2587,
+      "text": "有时我的确感到自己很没用。",
+      "type": "radio",
+      "orderNum": 9,
+      "options": [
+        {
+          "id": 10224,
+          "optionNo": "A",
+          "text": "非常不同意",
+          "value": "4"
+        },
+        {
+          "id": 10225,
+          "optionNo": "B",
+          "text": "不同意",
+          "value": "3"
+        },
+        {
+          "id": 10226,
+          "optionNo": "C",
+          "text": "同意",
+          "value": "2"
+        },
+        {
+          "id": 10227,
+          "optionNo": "D",
+          "text": "非常同意",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 2588,
+      "text": "有时我觉得自己一无是处。",
+      "type": "radio",
+      "orderNum": 10,
+      "options": [
+        {
+          "id": 10228,
+          "optionNo": "A",
+          "text": "非常不同意",
+          "value": "4"
+        },
+        {
+          "id": 10229,
+          "optionNo": "B",
+          "text": "不同意",
+          "value": "3"
+        },
+        {
+          "id": 10230,
+          "optionNo": "C",
+          "text": "同意",
+          "value": "2"
+        },
+        {
+          "id": 10231,
+          "optionNo": "D",
+          "text": "非常同意",
+          "value": "1"
+        }
+      ]
+    }
+  ],
+  "dimensions": [
+    {
+      "id": 317,
+      "num": 1,
+      "dimensionName": "总分",
+      "dimensionCode": "A",
+      "evaluateExpression": "hx_t_1 + hx_t_2 + hx_t_3 + hx_t_4 + hx_t_5 + hx_t_6 + hx_t_7 + hx_t_8 + hx_t_9 + hx_t_10",
+      "standardScoreFormula": "0",
+      "results": [
+        {
+          "id": 622,
+          "evaluateExpression": "hx_wd_y_1 >= 10&& hx_wd_y_1 <= 15",
+          "conclusionAnalysis": "自尊水平很低，对自己表现出极度失望，认为自己做任何事情都没有成功希望",
+          "suggestion": "你的自尊水平很低，你需要梳理好你的日常情绪，不要刻意关注自己的缺点，学会欣赏自己的优点。如果自我很难调节，请及时寻找心理咨询师的帮助",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 623,
+          "evaluateExpression": "hx_wd_y_1 >= 16&& hx_wd_y_1 <= 20",
+          "conclusionAnalysis": "自尊水平比较低，难以正确地接纳自己，认为自己在很多地方都不如他人，惧怕挑战",
+          "suggestion": "你的自尊水平较低，在学习生活中请保持自信，不要害怕挑战，学习放松方法，缓解焦虑情绪，保持更好的自己",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 624,
+          "evaluateExpression": "hx_wd_y_1 >= 21&& hx_wd_y_1 <= 30",
+          "conclusionAnalysis": "自尊水平正常，能够给出自己正性评价和鼓励",
+          "suggestion": "你的自尊水平正常，请继续保持当前的良好状态",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 625,
+          "evaluateExpression": "hx_wd_y_1 >= 31&& hx_wd_y_1 <= 35",
+          "conclusionAnalysis": "自尊水平较高，认为自己是有价值、值得被尊重的",
+          "suggestion": "你的自尊水平较高，能够自我肯定，用乐观且积极的态度对待事物",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 626,
+          "evaluateExpression": "hx_wd_y_1 >= 36&& hx_wd_y_1 <= 40",
+          "conclusionAnalysis": "自尊水平很高 ，对自己能够完全接纳，对待生活积极乐观，乐于帮助他人",
+          "suggestion": "你的自尊水平很高，乐于帮助别人，生活积极乐观，但请注意不要过分要求自己表现完美，学会适度放松",
+          "assessmentWarning": "none"
+        }
+      ]
+    }
+  ]
+}

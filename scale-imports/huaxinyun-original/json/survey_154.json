@@ -1,0 +1,1266 @@
+{
+  "id": 154,
+  "title": "自杀态度调查问卷(QSA)",
+  "type": "basic",
+  "questions": [
+    {
+      "id": 5010,
+      "text": "自杀是一种疯狂的行为。",
+      "type": "radio",
+      "orderNum": 1,
+      "options": [
+        {
+          "id": 18275,
+          "optionNo": "A",
+          "text": "完全赞同",
+          "value": "5"
+        },
+        {
+          "id": 18276,
+          "optionNo": "B",
+          "text": "赞同",
+          "value": "4"
+        },
+        {
+          "id": 18277,
+          "optionNo": "C",
+          "text": "中立",
+          "value": "3"
+        },
+        {
+          "id": 18278,
+          "optionNo": "D",
+          "text": "不赞同",
+          "value": "2"
+        },
+        {
+          "id": 18279,
+          "optionNo": "E",
+          "text": "完全不赞同",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 5011,
+      "text": "自杀死亡者应与自然死亡者享受同样的待遇。",
+      "type": "radio",
+      "orderNum": 2,
+      "options": [
+        {
+          "id": 18280,
+          "optionNo": "A",
+          "text": "完全赞同",
+          "value": "1"
+        },
+        {
+          "id": 18281,
+          "optionNo": "B",
+          "text": "赞同",
+          "value": "2"
+        },
+        {
+          "id": 18282,
+          "optionNo": "C",
+          "text": "中立",
+          "value": "3"
+        },
+        {
+          "id": 18283,
+          "optionNo": "D",
+          "text": "不赞同",
+          "value": "4"
+        },
+        {
+          "id": 18284,
+          "optionNo": "E",
+          "text": "完全不赞同",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 5012,
+      "text": "一般情况下，我不愿意和有过自杀行为的人深交。",
+      "type": "radio",
+      "orderNum": 3,
+      "options": [
+        {
+          "id": 18285,
+          "optionNo": "A",
+          "text": "完全赞同",
+          "value": "5"
+        },
+        {
+          "id": 18286,
+          "optionNo": "B",
+          "text": "赞同",
+          "value": "4"
+        },
+        {
+          "id": 18287,
+          "optionNo": "C",
+          "text": "中立",
+          "value": "3"
+        },
+        {
+          "id": 18288,
+          "optionNo": "D",
+          "text": "不赞同",
+          "value": "2"
+        },
+        {
+          "id": 18289,
+          "optionNo": "E",
+          "text": "完全不赞同",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 5013,
+      "text": "在整个自杀事件中，最痛苦的是自杀者的家属。",
+      "type": "radio",
+      "orderNum": 4,
+      "options": [
+        {
+          "id": 18290,
+          "optionNo": "A",
+          "text": "完全赞同",
+          "value": "1"
+        },
+        {
+          "id": 18291,
+          "optionNo": "B",
+          "text": "赞同",
+          "value": "2"
+        },
+        {
+          "id": 18292,
+          "optionNo": "C",
+          "text": "中立",
+          "value": "3"
+        },
+        {
+          "id": 18293,
+          "optionNo": "D",
+          "text": "不赞同",
+          "value": "4"
+        },
+        {
+          "id": 18294,
+          "optionNo": "E",
+          "text": "完全不赞同",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 5014,
+      "text": "对于身患绝症又极度痛苦的病人，可由医务人员在法律的支持下帮助病人结束生命（主动安乐死）。",
+      "type": "radio",
+      "orderNum": 5,
+      "options": [
+        {
+          "id": 18295,
+          "optionNo": "A",
+          "text": "完全赞同",
+          "value": "1"
+        },
+        {
+          "id": 18296,
+          "optionNo": "B",
+          "text": "赞同",
+          "value": "2"
+        },
+        {
+          "id": 18297,
+          "optionNo": "C",
+          "text": "中立",
+          "value": "3"
+        },
+        {
+          "id": 18298,
+          "optionNo": "D",
+          "text": "不赞同",
+          "value": "4"
+        },
+        {
+          "id": 18299,
+          "optionNo": "E",
+          "text": "完全不赞同",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 5015,
+      "text": "在处理自杀事件过程中，应该对其家属表示同情和关心并尽可能为他们提供帮助。",
+      "type": "radio",
+      "orderNum": 6,
+      "options": [
+        {
+          "id": 18300,
+          "optionNo": "A",
+          "text": "完全赞同",
+          "value": "1"
+        },
+        {
+          "id": 18301,
+          "optionNo": "B",
+          "text": "赞同",
+          "value": "2"
+        },
+        {
+          "id": 18302,
+          "optionNo": "C",
+          "text": "中立",
+          "value": "3"
+        },
+        {
+          "id": 18303,
+          "optionNo": "D",
+          "text": "不赞同",
+          "value": "4"
+        },
+        {
+          "id": 18304,
+          "optionNo": "E",
+          "text": "完全不赞同",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 5016,
+      "text": "自杀是对人生命尊严的践踏。",
+      "type": "radio",
+      "orderNum": 7,
+      "options": [
+        {
+          "id": 18305,
+          "optionNo": "A",
+          "text": "完全赞同",
+          "value": "5"
+        },
+        {
+          "id": 18306,
+          "optionNo": "B",
+          "text": "赞同",
+          "value": "4"
+        },
+        {
+          "id": 18307,
+          "optionNo": "C",
+          "text": "中立",
+          "value": "3"
+        },
+        {
+          "id": 18308,
+          "optionNo": "D",
+          "text": "不赞同",
+          "value": "2"
+        },
+        {
+          "id": 18309,
+          "optionNo": "E",
+          "text": "完全不赞同",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 5017,
+      "text": "不应为自杀死亡者开追悼会。",
+      "type": "radio",
+      "orderNum": 8,
+      "options": [
+        {
+          "id": 18310,
+          "optionNo": "A",
+          "text": "完全赞同",
+          "value": "5"
+        },
+        {
+          "id": 18311,
+          "optionNo": "B",
+          "text": "赞同",
+          "value": "4"
+        },
+        {
+          "id": 18312,
+          "optionNo": "C",
+          "text": "中立",
+          "value": "3"
+        },
+        {
+          "id": 18313,
+          "optionNo": "D",
+          "text": "不赞同",
+          "value": "2"
+        },
+        {
+          "id": 18314,
+          "optionNo": "E",
+          "text": "完全不赞同",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 5018,
+      "text": "如果我的朋友自杀未遂，我会比以前更关心他。",
+      "type": "radio",
+      "orderNum": 9,
+      "options": [
+        {
+          "id": 18315,
+          "optionNo": "A",
+          "text": "完全赞同",
+          "value": "1"
+        },
+        {
+          "id": 18316,
+          "optionNo": "B",
+          "text": "赞同",
+          "value": "2"
+        },
+        {
+          "id": 18317,
+          "optionNo": "C",
+          "text": "中立",
+          "value": "3"
+        },
+        {
+          "id": 18318,
+          "optionNo": "D",
+          "text": "不赞同",
+          "value": "4"
+        },
+        {
+          "id": 18319,
+          "optionNo": "E",
+          "text": "完全不赞同",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 5019,
+      "text": "如果我的邻居家里有人自杀，我会逐渐疏远和他们的关系。",
+      "type": "radio",
+      "orderNum": 10,
+      "options": [
+        {
+          "id": 18320,
+          "optionNo": "A",
+          "text": "完全赞同",
+          "value": "5"
+        },
+        {
+          "id": 18321,
+          "optionNo": "B",
+          "text": "赞同",
+          "value": "4"
+        },
+        {
+          "id": 18322,
+          "optionNo": "C",
+          "text": "中立",
+          "value": "3"
+        },
+        {
+          "id": 18323,
+          "optionNo": "D",
+          "text": "不赞同",
+          "value": "2"
+        },
+        {
+          "id": 18324,
+          "optionNo": "E",
+          "text": "完全不赞同",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 5020,
+      "text": "安乐死是对人生命尊严的践踏。",
+      "type": "radio",
+      "orderNum": 11,
+      "options": [
+        {
+          "id": 18325,
+          "optionNo": "A",
+          "text": "完全赞同",
+          "value": "5"
+        },
+        {
+          "id": 18326,
+          "optionNo": "B",
+          "text": "赞同",
+          "value": "4"
+        },
+        {
+          "id": 18327,
+          "optionNo": "C",
+          "text": "中立",
+          "value": "3"
+        },
+        {
+          "id": 18328,
+          "optionNo": "D",
+          "text": "不赞同",
+          "value": "2"
+        },
+        {
+          "id": 18329,
+          "optionNo": "E",
+          "text": "完全不赞同",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 5021,
+      "text": "自杀是对家庭和社会一种不负责任的行为。",
+      "type": "radio",
+      "orderNum": 12,
+      "options": [
+        {
+          "id": 18330,
+          "optionNo": "A",
+          "text": "完全赞同",
+          "value": "5"
+        },
+        {
+          "id": 18331,
+          "optionNo": "B",
+          "text": "赞同",
+          "value": "4"
+        },
+        {
+          "id": 18332,
+          "optionNo": "C",
+          "text": "中立",
+          "value": "3"
+        },
+        {
+          "id": 18333,
+          "optionNo": "D",
+          "text": "不赞同",
+          "value": "2"
+        },
+        {
+          "id": 18334,
+          "optionNo": "E",
+          "text": "完全不赞同",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 5022,
+      "text": "人们不应该对自杀死亡者评头论足。",
+      "type": "radio",
+      "orderNum": 13,
+      "options": [
+        {
+          "id": 18335,
+          "optionNo": "A",
+          "text": "完全赞同",
+          "value": "1"
+        },
+        {
+          "id": 18336,
+          "optionNo": "B",
+          "text": "赞同",
+          "value": "2"
+        },
+        {
+          "id": 18337,
+          "optionNo": "C",
+          "text": "中立",
+          "value": "3"
+        },
+        {
+          "id": 18338,
+          "optionNo": "D",
+          "text": "不赞同",
+          "value": "4"
+        },
+        {
+          "id": 18339,
+          "optionNo": "E",
+          "text": "完全不赞同",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 5023,
+      "text": "我对那些反复自杀者很反感，因为他们常常将自杀作为一种控制别人的手段。",
+      "type": "radio",
+      "orderNum": 14,
+      "options": [
+        {
+          "id": 18340,
+          "optionNo": "A",
+          "text": "完全赞同",
+          "value": "5"
+        },
+        {
+          "id": 18341,
+          "optionNo": "B",
+          "text": "赞同",
+          "value": "4"
+        },
+        {
+          "id": 18342,
+          "optionNo": "C",
+          "text": "中立",
+          "value": "3"
+        },
+        {
+          "id": 18343,
+          "optionNo": "D",
+          "text": "不赞同",
+          "value": "2"
+        },
+        {
+          "id": 18344,
+          "optionNo": "E",
+          "text": "完全不赞同",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 5024,
+      "text": "对于自杀，自杀者的家属在不同程度上都应负有一定的责任。",
+      "type": "radio",
+      "orderNum": 15,
+      "options": [
+        {
+          "id": 18345,
+          "optionNo": "A",
+          "text": "完全赞同",
+          "value": "5"
+        },
+        {
+          "id": 18346,
+          "optionNo": "B",
+          "text": "赞同",
+          "value": "4"
+        },
+        {
+          "id": 18347,
+          "optionNo": "C",
+          "text": "中立",
+          "value": "3"
+        },
+        {
+          "id": 18348,
+          "optionNo": "D",
+          "text": "不赞同",
+          "value": "2"
+        },
+        {
+          "id": 18349,
+          "optionNo": "E",
+          "text": "完全不赞同",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 5025,
+      "text": "假如我自己身患绝症又处于极度痛苦之中，我希望医务人员能帮助我结束自己的生命。",
+      "type": "radio",
+      "orderNum": 16,
+      "options": [
+        {
+          "id": 18350,
+          "optionNo": "A",
+          "text": "完全赞同",
+          "value": "1"
+        },
+        {
+          "id": 18351,
+          "optionNo": "B",
+          "text": "赞同",
+          "value": "2"
+        },
+        {
+          "id": 18352,
+          "optionNo": "C",
+          "text": "中立",
+          "value": "3"
+        },
+        {
+          "id": 18353,
+          "optionNo": "D",
+          "text": "不赞同",
+          "value": "4"
+        },
+        {
+          "id": 18354,
+          "optionNo": "E",
+          "text": "完全不赞同",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 5026,
+      "text": "个体为某种伟大的、超过人生命价值的目的而自杀是值得赞许的。",
+      "type": "radio",
+      "orderNum": 17,
+      "options": [
+        {
+          "id": 18355,
+          "optionNo": "A",
+          "text": "完全赞同",
+          "value": "1"
+        },
+        {
+          "id": 18356,
+          "optionNo": "B",
+          "text": "赞同",
+          "value": "2"
+        },
+        {
+          "id": 18357,
+          "optionNo": "C",
+          "text": "中立",
+          "value": "3"
+        },
+        {
+          "id": 18358,
+          "optionNo": "D",
+          "text": "不赞同",
+          "value": "4"
+        },
+        {
+          "id": 18359,
+          "optionNo": "E",
+          "text": "完全不赞同",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 5027,
+      "text": "一般情况下，我不愿去看望自杀未遂者，即使是亲人或好朋友也不例外。",
+      "type": "radio",
+      "orderNum": 18,
+      "options": [
+        {
+          "id": 18360,
+          "optionNo": "A",
+          "text": "完全赞同",
+          "value": "5"
+        },
+        {
+          "id": 18361,
+          "optionNo": "B",
+          "text": "赞同",
+          "value": "4"
+        },
+        {
+          "id": 18362,
+          "optionNo": "C",
+          "text": "中立",
+          "value": "3"
+        },
+        {
+          "id": 18363,
+          "optionNo": "D",
+          "text": "不赞同",
+          "value": "2"
+        },
+        {
+          "id": 18364,
+          "optionNo": "E",
+          "text": "完全不赞同",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 5028,
+      "text": "自杀只是一种生命现象，无所谓道德上的好与坏。",
+      "type": "radio",
+      "orderNum": 19,
+      "options": [
+        {
+          "id": 18365,
+          "optionNo": "A",
+          "text": "完全赞同",
+          "value": "1"
+        },
+        {
+          "id": 18366,
+          "optionNo": "B",
+          "text": "赞同",
+          "value": "2"
+        },
+        {
+          "id": 18367,
+          "optionNo": "C",
+          "text": "中立",
+          "value": "3"
+        },
+        {
+          "id": 18368,
+          "optionNo": "D",
+          "text": "不赞同",
+          "value": "4"
+        },
+        {
+          "id": 18369,
+          "optionNo": "E",
+          "text": "完全不赞同",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 5029,
+      "text": "自杀未遂者不值得同情。",
+      "type": "radio",
+      "orderNum": 20,
+      "options": [
+        {
+          "id": 18370,
+          "optionNo": "A",
+          "text": "完全赞同",
+          "value": "5"
+        },
+        {
+          "id": 18371,
+          "optionNo": "B",
+          "text": "赞同",
+          "value": "4"
+        },
+        {
+          "id": 18372,
+          "optionNo": "C",
+          "text": "中立",
+          "value": "3"
+        },
+        {
+          "id": 18373,
+          "optionNo": "D",
+          "text": "不赞同",
+          "value": "2"
+        },
+        {
+          "id": 18374,
+          "optionNo": "E",
+          "text": "完全不赞同",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 5030,
+      "text": "对于身患绝症又极度痛苦的病人，可不再为其进行维持生命的治疗（被动安乐死）。",
+      "type": "radio",
+      "orderNum": 21,
+      "options": [
+        {
+          "id": 18375,
+          "optionNo": "A",
+          "text": "完全赞同",
+          "value": "1"
+        },
+        {
+          "id": 18376,
+          "optionNo": "B",
+          "text": "赞同",
+          "value": "2"
+        },
+        {
+          "id": 18377,
+          "optionNo": "C",
+          "text": "中立",
+          "value": "3"
+        },
+        {
+          "id": 18378,
+          "optionNo": "D",
+          "text": "不赞同",
+          "value": "4"
+        },
+        {
+          "id": 18379,
+          "optionNo": "E",
+          "text": "完全不赞同",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 5031,
+      "text": "自杀是对亲人、朋友的背叛。",
+      "type": "radio",
+      "orderNum": 22,
+      "options": [
+        {
+          "id": 18380,
+          "optionNo": "A",
+          "text": "完全赞同",
+          "value": "5"
+        },
+        {
+          "id": 18381,
+          "optionNo": "B",
+          "text": "赞同",
+          "value": "4"
+        },
+        {
+          "id": 18382,
+          "optionNo": "C",
+          "text": "中立",
+          "value": "3"
+        },
+        {
+          "id": 18383,
+          "optionNo": "D",
+          "text": "不赞同",
+          "value": "2"
+        },
+        {
+          "id": 18384,
+          "optionNo": "E",
+          "text": "完全不赞同",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 5032,
+      "text": "人有时为了尊严和荣誉而不得不自杀。",
+      "type": "radio",
+      "orderNum": 23,
+      "options": [
+        {
+          "id": 18385,
+          "optionNo": "A",
+          "text": "完全赞同",
+          "value": "1"
+        },
+        {
+          "id": 18386,
+          "optionNo": "B",
+          "text": "赞同",
+          "value": "2"
+        },
+        {
+          "id": 18387,
+          "optionNo": "C",
+          "text": "中立",
+          "value": "3"
+        },
+        {
+          "id": 18388,
+          "optionNo": "D",
+          "text": "不赞同",
+          "value": "4"
+        },
+        {
+          "id": 18389,
+          "optionNo": "E",
+          "text": "完全不赞同",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 5033,
+      "text": "在交友时，我不太介意对方是否有过自杀行为。",
+      "type": "radio",
+      "orderNum": 24,
+      "options": [
+        {
+          "id": 18390,
+          "optionNo": "A",
+          "text": "完全赞同",
+          "value": "1"
+        },
+        {
+          "id": 18391,
+          "optionNo": "B",
+          "text": "赞同",
+          "value": "2"
+        },
+        {
+          "id": 18392,
+          "optionNo": "C",
+          "text": "中立",
+          "value": "3"
+        },
+        {
+          "id": 18393,
+          "optionNo": "D",
+          "text": "不赞同",
+          "value": "4"
+        },
+        {
+          "id": 18394,
+          "optionNo": "E",
+          "text": "完全不赞同",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 5034,
+      "text": "对自杀未遂者应给予更多的关心与帮助。",
+      "type": "radio",
+      "orderNum": 25,
+      "options": [
+        {
+          "id": 18395,
+          "optionNo": "A",
+          "text": "完全赞同",
+          "value": "5"
+        },
+        {
+          "id": 18396,
+          "optionNo": "B",
+          "text": "赞同",
+          "value": "4"
+        },
+        {
+          "id": 18397,
+          "optionNo": "C",
+          "text": "中立",
+          "value": "3"
+        },
+        {
+          "id": 18398,
+          "optionNo": "D",
+          "text": "不赞同",
+          "value": "2"
+        },
+        {
+          "id": 18399,
+          "optionNo": "E",
+          "text": "完全不赞同",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 5035,
+      "text": "当生命已无欢乐可言时，自杀是可以理解的。",
+      "type": "radio",
+      "orderNum": 26,
+      "options": [
+        {
+          "id": 18400,
+          "optionNo": "A",
+          "text": "完全赞同",
+          "value": "1"
+        },
+        {
+          "id": 18401,
+          "optionNo": "B",
+          "text": "赞同",
+          "value": "2"
+        },
+        {
+          "id": 18402,
+          "optionNo": "C",
+          "text": "中立",
+          "value": "3"
+        },
+        {
+          "id": 18403,
+          "optionNo": "D",
+          "text": "不赞同",
+          "value": "4"
+        },
+        {
+          "id": 18404,
+          "optionNo": "E",
+          "text": "完全不赞同",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 5036,
+      "text": "假如我自己身患绝症又处于极度痛苦之中，我不愿再接受维持生命的治疗。",
+      "type": "radio",
+      "orderNum": 27,
+      "options": [
+        {
+          "id": 18405,
+          "optionNo": "A",
+          "text": "完全赞同",
+          "value": "1"
+        },
+        {
+          "id": 18406,
+          "optionNo": "B",
+          "text": "赞同",
+          "value": "2"
+        },
+        {
+          "id": 18407,
+          "optionNo": "C",
+          "text": "中立",
+          "value": "3"
+        },
+        {
+          "id": 18408,
+          "optionNo": "D",
+          "text": "不赞同",
+          "value": "4"
+        },
+        {
+          "id": 18409,
+          "optionNo": "E",
+          "text": "完全不赞同",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 5037,
+      "text": "一般情况下，我不会和家中有过自杀者的人结婚。",
+      "type": "radio",
+      "orderNum": 28,
+      "options": [
+        {
+          "id": 18410,
+          "optionNo": "A",
+          "text": "完全赞同",
+          "value": "1"
+        },
+        {
+          "id": 18411,
+          "optionNo": "B",
+          "text": "赞同",
+          "value": "2"
+        },
+        {
+          "id": 18412,
+          "optionNo": "C",
+          "text": "中立",
+          "value": "3"
+        },
+        {
+          "id": 18413,
+          "optionNo": "D",
+          "text": "不赞同",
+          "value": "4"
+        },
+        {
+          "id": 18414,
+          "optionNo": "E",
+          "text": "完全不赞同",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": 5038,
+      "text": "人应有选择自杀的权利。",
+      "type": "radio",
+      "orderNum": 29,
+      "options": [
+        {
+          "id": 18415,
+          "optionNo": "A",
+          "text": "完全赞同",
+          "value": "1"
+        },
+        {
+          "id": 18416,
+          "optionNo": "B",
+          "text": "赞同",
+          "value": "2"
+        },
+        {
+          "id": 18417,
+          "optionNo": "C",
+          "text": "中立",
+          "value": "3"
+        },
+        {
+          "id": 18418,
+          "optionNo": "D",
+          "text": "不赞同",
+          "value": "4"
+        },
+        {
+          "id": 18419,
+          "optionNo": "E",
+          "text": "完全不赞同",
+          "value": "5"
+        }
+      ]
+    }
+  ],
+  "dimensions": [
+    {
+      "id": 524,
+      "num": 1,
+      "dimensionName": "对自杀行为性质的认识",
+      "dimensionCode": "A",
+      "evaluateExpression": "(hx_t_1 + hx_t_7 + hx_t_12 + hx_t_17 + hx_t_19 + hx_t_22 + hx_t_23 + hx_t_26 + hx_t_29)/9",
+      "standardScoreFormula": "0",
+      "results": [
+        {
+          "id": 1230,
+          "evaluateExpression": "hx_wd_y_1 >= 1&& hx_wd_y_1 <= 2.59",
+          "conclusionAnalysis": "对自杀行为持肯定、认可、理解、宽容的态度，这说明被测试者认为自杀是可以理解的，无所谓道德，人有选择自杀的权利。",
+          "suggestion": "对于持肯定态度的被测者，对自杀持理解、认可的态度，这一类人在遇到挫折时可能会采取自杀的方式解决，应该引导其采用更为积极的方式解决问题，采取积极的思维看待人生，坚定生活信念，建议家人、朋友多关心被测者。",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 1231,
+          "evaluateExpression": "hx_wd_y_1 >= 2.6&& hx_wd_y_1 <= 3.49",
+          "conclusionAnalysis": "对自杀行为持矛盾或中立的态度，这说明被测试者对自杀行为还未形成清晰而明确的态度，模棱两可，不置可否。这可能是由于年龄和社会阅历的限制，被测试者对死亡的概念还比较模糊，尤其是对自杀尚缺乏一定的认识；也有可能是出于矛盾的心理，既认同生死是个体自由的选择，同时又认为应该珍惜生命的权利，不该随意结束生命，因而对于自杀，很难明确表态。",
+          "suggestion": "对于态度中立、矛盾的人，可能是因为缺乏人生经验，对人生的体验尚不深刻，对自杀行为的性质认识不足，而无法作出明确回答，建议多接触社会，体验人生，加深对生命的理解。",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 1232,
+          "evaluateExpression": "hx_wd_y_1 >= 3.5&& hx_wd_y_1 <= 5",
+          "conclusionAnalysis": "对自杀行为持反对、否定、排斥和歧视的态度，这说明被测试者认为自杀是不应该的，是对生命尊严的践踏，是不负责的行为，任何情况下都应该珍惜生命权利，不该随意结束生命。",
+          "suggestion": "对于持否定态度的被测者，对自杀持反对、否定的态度，这一类人一般不会采取自杀的方式逃避问题，但其对生命的认识可能会稍微偏激一些，建议其从多角度多方面更深刻的理解人生。",
+          "assessmentWarning": "none"
+        }
+      ]
+    },
+    {
+      "id": 525,
+      "num": 2,
+      "dimensionName": "对自杀者的态度",
+      "dimensionCode": "B",
+      "evaluateExpression": "(hx_t_2 + hx_t_3 + hx_t_8 + hx_t_9 + hx_t_13 + hx_t_14 + hx_t_18 + hx_t_20 + hx_t_24 + hx_t_25)/10",
+      "standardScoreFormula": "0",
+      "results": [
+        {
+          "id": 1233,
+          "evaluateExpression": "hx_wd_y_2 >= 1&& hx_wd_y_2 <= 2.59",
+          "conclusionAnalysis": "对自杀者持肯定、认可、理解、宽容的态度，被测试者认为自杀者选择自杀是被迫无奈的，是值得同情、关心和帮助的。",
+          "suggestion": "对于持肯定态度的被测者，反映了其对自杀者的同情和谅解，体现了人性的关怀，这点值得赞许，但同时也说明这一类人认可自杀行为，更有可能采取自杀行为，需要提醒他们珍惜生命和保持积极的人生态度。",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 1234,
+          "evaluateExpression": "hx_wd_y_2 >= 2.6&& hx_wd_y_2 <= 3.49",
+          "conclusionAnalysis": "对自杀者持矛盾或中立的态度，这说明被测试者对自杀者还未形成清晰而明确的态度，模棱两可，可能对其既同情又不赞同，存在矛盾心理，因而不置可否。",
+          "suggestion": "对自杀者抱有矛盾态度，一方面可能是出于对人的基本尊重而对自杀者抱以同情，另一方面又不认可其自杀行为，对自杀者较为否定，因而不能作出明确的选择，这是自然的。建议被测试者更加深刻地考虑一下自己对生命和人生的认识和理解，更慎重地对待自杀者（自杀未遂者）。",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 1235,
+          "evaluateExpression": "hx_wd_y_2 >= 3.5&& hx_wd_y_2 <= 5",
+          "conclusionAnalysis": "对自杀者持反对、否定、排斥和歧视的态度，这说明被测试者认为自杀者是不值得同情的，不值得关心，并且自己不愿意和自杀者交往，对自杀者持反感的态度。",
+          "suggestion": "对于持否定态度的被测者，对自杀者持反对、否定、歧视的态度，他们意识到了自杀的破坏性，和生命的珍贵性，并且被测者一般不会采取自杀行为，但其对自杀者的歧视态度可能会偏激一些，建议其从多角度多方面更深刻的理解人生。",
+          "assessmentWarning": "none"
+        }
+      ]
+    },
+    {
+      "id": 526,
+      "num": 3,
+      "dimensionName": "对自杀者家属的态度",
+      "dimensionCode": "C",
+      "evaluateExpression": "(hx_t_4 + hx_t_6 + hx_t_10 + hx_t_15 + hx_t_28)/5",
+      "standardScoreFormula": "0",
+      "results": [
+        {
+          "id": 1236,
+          "evaluateExpression": "hx_wd_y_3 >= 1&& hx_wd_y_3 <= 2.59",
+          "conclusionAnalysis": "对自杀者家属持理解、宽容的态度这说明被测试者对自杀者家属所受的痛苦和压力有深切的共鸣，愿意尽可能的同情、关心和帮助他们，并且不愿追究其对自杀者是否负有责任，不歧视他们，与对正常人一样同等对待。被测试者分值越高，说明对自杀者家属越是同情、理解和宽容。",
+          "suggestion": "对于持肯定态度的被测者，反映了其对自杀家属的理解和同情，体现了人性的关怀，这点值得赞许，同时提醒被测试者要意识到自杀者家属对自杀者的自杀行为可能负有直接或间接的责任。自杀者家属是防范和干预自杀者（自杀未遂者）的重要力量，他们有责任关注家中有自杀意念的人，尤其是自杀未遂者，应当给予自杀者（自杀未遂者）坚定而持久的人际支持，警惕自杀行为的前兆，并尽其所能的努力开导企图自杀者（自杀未遂者），引导其走上积极乐观生活的道路。",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 1237,
+          "evaluateExpression": "hx_wd_y_3 >= 2.6&& hx_wd_y_3 <= 3.49",
+          "conclusionAnalysis": "对自杀者家属持矛盾或中立的态度，这说明被测试者对自杀者家属还未形成清晰而明确的态度，模棱两可，可能对其既同情又不赞同，存在矛盾心理，因而不置可否。",
+          "suggestion": "对自杀者抱有矛盾态度，一方面可能是出于对人的基本尊重而对自杀家庭抱以同情，另一方面又认为自杀者家人有一定的责任，因而不能作出明确的选择，这是自然的。建议被测试者更加深刻地考虑一下自己对生命和人生的认识和理解，更慎重地对待自杀者家人。",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 1238,
+          "evaluateExpression": "hx_wd_y_3 >= 3.5&& hx_wd_y_3 <= 5",
+          "conclusionAnalysis": "对自杀者家属持排斥和歧视的态度，这说明被测试者会和自杀者家属保持一定的距离，会认为自杀者家属应该对自杀者的自杀行为负责。",
+          "suggestion": "对于持否定态度的被测者，对自杀家属持疏远、歧视的态度，他们意识到了自杀者家属应该对自杀者的行为负一定的责任，但其对自杀家属的歧视态度可能会对自杀者的家属造成压力和困难，建议其改变坚硬的态度，用关怀和爱来帮助自杀者的家人早日摆脱自杀的阴影。",
+          "assessmentWarning": "none"
+        }
+      ]
+    },
+    {
+      "id": 527,
+      "num": 4,
+      "dimensionName": "对安乐死的态度",
+      "dimensionCode": "D",
+      "evaluateExpression": "(hx_t_5 + hx_t_11 + hx_t_16 + hx_t_21 + hx_t_27)/5",
+      "standardScoreFormula": "0",
+      "results": [
+        {
+          "id": 1239,
+          "evaluateExpression": "hx_wd_y_4 >= 1&& hx_wd_y_4 <= 2.59",
+          "conclusionAnalysis": "对安乐死持理解、宽容的态度，这说明被测试者认为安乐死是可以接受的，尤其是身患绝症，极度痛苦的患者，在患者主动要求下可以实施安乐死。",
+          "suggestion": "安乐死是现代医学发展所面临的一个无法避免的问题，而且涉及到社会学、伦理学、心理学、法学等方面的问题，但是由于人们的人生观念、价值取向、宗教信仰、职业等方面的不同，以及感情与理智、个体与社会、历史传统与时代精神、理论研究与临床实践、道德与法律的种种矛盾和冲突，人们对安乐死立法有各种各样的理解和态度。因此，对安乐死持肯定态度的被测试者，可能希望了解除病人的痛苦，减少家人的负担。",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 1240,
+          "evaluateExpression": "hx_wd_y_4 >= 2.6&& hx_wd_y_4 <= 3.49",
+          "conclusionAnalysis": "对安乐死持矛盾或中立的态度，这说明被测试者可能是由于不太理解安乐死，因而对此不置可否，或者是由于对生与死的选择还比较犹豫和矛盾，尚未对此形成清晰而明确的答案。",
+          "suggestion": "安乐死是现代医学发展所面临的一个无法避免的问题，而且涉及到社会学、伦理学、心理学、法学等方面的问题，但是由于人们的人生观念、价值取向、宗教信仰、职业等方面的不同，以及感情与理智、个体与社会、历史传统与时代精神、理论研究与临床实践、道德与法律的种种矛盾和冲突，人们对安乐死立法有各种各样的理解和态度。因此，对安乐死持矛盾或中立的态度的人，可能是由于对安乐死了解不多，或者既希望病人能解除痛苦，但又有对生命的敬畏和对生存的热切渴望，这都是可以理解的。",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 1241,
+          "evaluateExpression": "hx_wd_y_4 >= 3.5&& hx_wd_y_4 <= 5",
+          "conclusionAnalysis": "对安乐死持反对、否定的态度，这说明被测试者认为安乐死是对生命尊严的践踏，认为即使身患绝症，极度痛苦也不应该实施安乐死，无论患者是否主动要求都不应该实施安乐死。",
+          "suggestion": "安乐死是现代医学发展所面临的一个无法避免的问题，而且涉及到社会学、伦理学、心理学、法学等方面的问题，但是由于人们的人生观念、价值取向、宗教信仰、职业等方面的不同，以及感情与理智、个体与社会、历史传统与时代精神、理论研究与临床实践、道德与法律的种种矛盾和冲突，人们对安乐死立法有各种各样的理解和态度。因此，对安乐死持否定态度的被测者可能处于对生命的敬畏和对生存的渴望。",
+          "assessmentWarning": "none"
+        }
+      ]
+    },
+    {
+      "id": 528,
+      "num": 5,
+      "dimensionName": "总分",
+      "dimensionCode": "E",
+      "evaluateExpression": "(hx_t_1 + hx_t_2 + hx_t_3 + hx_t_4 + hx_t_5 + hx_t_6 + hx_t_7 + hx_t_8 + hx_t_9 + hx_t_10 + hx_t_11 + hx_t_12 + hx_t_13 + hx_t_14 + hx_t_15 + hx_t_16 + hx_t_17 + hx_t_18 + hx_t_19 + hx_t_20 + hx_t_21 + hx_t_22 + hx_t_23 + hx_t_24 + hx_t_25 + hx_t_26 + hx_t_27 + hx_t_28 + hx_t_29)/29",
+      "standardScoreFormula": "0",
+      "results": [
+        {
+          "id": 1242,
+          "evaluateExpression": "hx_wd_y_5 >= 1&& hx_wd_y_5 <= 2.59",
+          "conclusionAnalysis": "对自杀持肯定、理解宽容的态度。被测试者认为自杀是一种可以理解的行为，人有选择自杀的权利。尤其是在特殊情况下，自杀者的行为是值得同情和理解的，并愿意给自杀者家人关怀和帮助。",
+          "suggestion": "对自杀持肯定态度的被测者：这一类被测试者对自杀者及其家人是宽容理解的态度，是充满爱心的人，但其对自杀的肯定态度，同时也说明这一类人认可自杀行为，更有可能采取自杀行为，应该引导其采用更为积极的方式看待人生，采取积极的思维看待问题，坚定生活信念，建议家人、朋友多关心被测者。",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 1243,
+          "evaluateExpression": "hx_wd_y_5 >= 2.6&& hx_wd_y_5 <= 3.49",
+          "conclusionAnalysis": "对自杀持中立或矛盾的态度。被测试者可能因为年龄或社会阅历的限制，对死亡的概念还比较模糊，尤其是对自杀尚缺乏一定的认识，也有可能是出于矛盾的心理，既认同生死是个体自由的选择，同时又认为应该珍惜生命的权利，不该随意结束生命，因而对于自杀，很难明确表态。",
+          "suggestion": "对自杀持中立态度：被测者可能是因为缺乏人生经验，对人生的体验尚不深刻，对自杀行为的性质认识不足，而无法作出明确回答，建议多接触社会，体验人生，加深对生命的理解。",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 1244,
+          "evaluateExpression": "hx_wd_y_5 >= 3.5&& hx_wd_y_5 <= 5",
+          "conclusionAnalysis": "对自杀持否定、反对的态度。被测试者多认为任何形式的自杀都是不应该的，自杀是对生命尊严的践踏，是不负责的行为，任何情况下都应该珍惜生命权利，不该随意结束生命，并且对自杀者及其家人抱有反感歧视的态度。",
+          "suggestion": "对自杀持否定态度的被测者：这一类被测者意识到了自杀的破坏性和生命的珍贵性，更加珍爱生命，这一点非常值得赞扬，但其对自杀者和自杀者家人的歧视态度可能会稍微偏激一些，建议其从多角度多方面更深刻的理解生活，能够换位思考，理解自杀者及其家人的处境和心情，给与周围人更多的关爱和帮助。",
+          "assessmentWarning": "none"
+        }
+      ]
+    }
+  ]
+}

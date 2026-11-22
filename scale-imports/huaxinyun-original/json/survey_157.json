@@ -1,0 +1,880 @@
+{
+  "id": 157,
+  "title": "Rutter儿童行为问卷-父母问卷",
+  "type": "basic",
+  "questions": [
+    {
+      "id": 5107,
+      "text": " 头痛",
+      "type": "radio",
+      "orderNum": 1,
+      "options": [
+        {
+          "id": 18761,
+          "optionNo": "A",
+          "text": "从来没有",
+          "value": "0"
+        },
+        {
+          "id": 18762,
+          "optionNo": "B",
+          "text": "有时出现,不是每周一次",
+          "value": "1"
+        },
+        {
+          "id": 18763,
+          "optionNo": "C",
+          "text": "至少每周一次",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "id": 5108,
+      "text": " 肚子痛或呕吐",
+      "type": "radio",
+      "orderNum": 2,
+      "options": [
+        {
+          "id": 18764,
+          "optionNo": "A",
+          "text": "从来没有",
+          "value": "0"
+        },
+        {
+          "id": 18765,
+          "optionNo": "B",
+          "text": "有时出现,不是每周一次",
+          "value": "1"
+        },
+        {
+          "id": 18766,
+          "optionNo": "C",
+          "text": "至少每周一次",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "id": 5109,
+      "text": " 支气管哮喘或哮喘发作",
+      "type": "radio",
+      "orderNum": 3,
+      "options": [
+        {
+          "id": 18767,
+          "optionNo": "A",
+          "text": "从来没有",
+          "value": "0"
+        },
+        {
+          "id": 18768,
+          "optionNo": "B",
+          "text": "有时出现,不是每周一次",
+          "value": "1"
+        },
+        {
+          "id": 18769,
+          "optionNo": "C",
+          "text": "至少每周一次",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "id": 5110,
+      "text": " 尿床或尿裤子",
+      "type": "radio",
+      "orderNum": 4,
+      "options": [
+        {
+          "id": 18770,
+          "optionNo": "A",
+          "text": "从来没有",
+          "value": "0"
+        },
+        {
+          "id": 18771,
+          "optionNo": "B",
+          "text": "有时出现,不是每周一次",
+          "value": "1"
+        },
+        {
+          "id": 18772,
+          "optionNo": "C",
+          "text": "至少每周一次",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "id": 5111,
+      "text": " 大便在床上或在裤子里",
+      "type": "radio",
+      "orderNum": 5,
+      "options": [
+        {
+          "id": 18773,
+          "optionNo": "A",
+          "text": "从来没有",
+          "value": "0"
+        },
+        {
+          "id": 18774,
+          "optionNo": "B",
+          "text": "有时出现,不是每周一次",
+          "value": "1"
+        },
+        {
+          "id": 18775,
+          "optionNo": "C",
+          "text": "至少每周一次",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "id": 5112,
+      "text": " 发脾气(伴随叫喊或发怒动作)",
+      "type": "radio",
+      "orderNum": 6,
+      "options": [
+        {
+          "id": 18776,
+          "optionNo": "A",
+          "text": "从来没有",
+          "value": "0"
+        },
+        {
+          "id": 18777,
+          "optionNo": "B",
+          "text": "有时出现,不是每周一次",
+          "value": "1"
+        },
+        {
+          "id": 18778,
+          "optionNo": "C",
+          "text": "至少每周一次",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "id": 5113,
+      "text": " 到学校就哭或拒绝上学",
+      "type": "radio",
+      "orderNum": 7,
+      "options": [
+        {
+          "id": 18779,
+          "optionNo": "A",
+          "text": "从来没有",
+          "value": "0"
+        },
+        {
+          "id": 18780,
+          "optionNo": "B",
+          "text": "有时出现,不是每周一次",
+          "value": "1"
+        },
+        {
+          "id": 18781,
+          "optionNo": "C",
+          "text": "至少每周一次",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "id": 5114,
+      "text": " 逃学",
+      "type": "radio",
+      "orderNum": 8,
+      "options": [
+        {
+          "id": 18782,
+          "optionNo": "A",
+          "text": "从来没有",
+          "value": "0"
+        },
+        {
+          "id": 18783,
+          "optionNo": "B",
+          "text": "有时出现,不是每周一次",
+          "value": "1"
+        },
+        {
+          "id": 18784,
+          "optionNo": "C",
+          "text": "至少每周一次",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "id": 5115,
+      "text": " 非常不安，难于长期静坐",
+      "type": "radio",
+      "orderNum": 9,
+      "options": [
+        {
+          "id": 18785,
+          "optionNo": "A",
+          "text": "从来没有",
+          "value": "0"
+        },
+        {
+          "id": 18786,
+          "optionNo": "B",
+          "text": "轻微或有时有",
+          "value": "1"
+        },
+        {
+          "id": 18787,
+          "optionNo": "C",
+          "text": "程度严重或经常出现",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "id": 5116,
+      "text": " 动作多，乱动，坐立不安",
+      "type": "radio",
+      "orderNum": 10,
+      "options": [
+        {
+          "id": 18788,
+          "optionNo": "A",
+          "text": "从来没有",
+          "value": "0"
+        },
+        {
+          "id": 18789,
+          "optionNo": "B",
+          "text": "轻微或有时有",
+          "value": "1"
+        },
+        {
+          "id": 18790,
+          "optionNo": "C",
+          "text": "程度严重或经常出现",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "id": 5117,
+      "text": " 经常破坏自己或别人的东西",
+      "type": "radio",
+      "orderNum": 11,
+      "options": [
+        {
+          "id": 18791,
+          "optionNo": "A",
+          "text": "从来没有",
+          "value": "0"
+        },
+        {
+          "id": 18792,
+          "optionNo": "B",
+          "text": "轻微或有时有",
+          "value": "1"
+        },
+        {
+          "id": 18793,
+          "optionNo": "C",
+          "text": "程度严重或经常出现",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "id": 5118,
+      "text": " 经常与别的儿童打架，或争吵",
+      "type": "radio",
+      "orderNum": 12,
+      "options": [
+        {
+          "id": 18794,
+          "optionNo": "A",
+          "text": "从来没有",
+          "value": "0"
+        },
+        {
+          "id": 18795,
+          "optionNo": "B",
+          "text": "轻微或有时有",
+          "value": "1"
+        },
+        {
+          "id": 18796,
+          "optionNo": "C",
+          "text": "程度严重或经常出现",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "id": 5119,
+      "text": " 别的孩子不喜欢他",
+      "type": "radio",
+      "orderNum": 13,
+      "options": [
+        {
+          "id": 18797,
+          "optionNo": "A",
+          "text": "从来没有",
+          "value": "0"
+        },
+        {
+          "id": 18798,
+          "optionNo": "B",
+          "text": "轻微或有时有",
+          "value": "1"
+        },
+        {
+          "id": 18799,
+          "optionNo": "C",
+          "text": "程度严重或经常出现",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "id": 5120,
+      "text": " 经常烦恼对许多事都心烦",
+      "type": "radio",
+      "orderNum": 14,
+      "options": [
+        {
+          "id": 18800,
+          "optionNo": "A",
+          "text": "从来没有",
+          "value": "0"
+        },
+        {
+          "id": 18801,
+          "optionNo": "B",
+          "text": "轻微或有时有",
+          "value": "1"
+        },
+        {
+          "id": 18802,
+          "optionNo": "C",
+          "text": "程度严重或经常出现",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "id": 5121,
+      "text": " 经常一个人呆着",
+      "type": "radio",
+      "orderNum": 15,
+      "options": [
+        {
+          "id": 18803,
+          "optionNo": "A",
+          "text": "从来没有",
+          "value": "0"
+        },
+        {
+          "id": 18804,
+          "optionNo": "B",
+          "text": "轻微或有时有",
+          "value": "1"
+        },
+        {
+          "id": 18805,
+          "optionNo": "C",
+          "text": "程度严重或经常出现",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "id": 5122,
+      "text": " 易激惹或勃然大怒",
+      "type": "radio",
+      "orderNum": 16,
+      "options": [
+        {
+          "id": 18806,
+          "optionNo": "A",
+          "text": "从来没有",
+          "value": "0"
+        },
+        {
+          "id": 18807,
+          "optionNo": "B",
+          "text": "轻微或有时有",
+          "value": "1"
+        },
+        {
+          "id": 18808,
+          "optionNo": "C",
+          "text": "程度严重或经常出现",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "id": 5123,
+      "text": " 经常表现出痛苦，不愉快流泪或忧伤",
+      "type": "radio",
+      "orderNum": 17,
+      "options": [
+        {
+          "id": 18809,
+          "optionNo": "A",
+          "text": "从来没有",
+          "value": "0"
+        },
+        {
+          "id": 18810,
+          "optionNo": "B",
+          "text": "轻微或有时有",
+          "value": "1"
+        },
+        {
+          "id": 18811,
+          "optionNo": "C",
+          "text": "程度严重或经常出现",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "id": 5124,
+      "text": " 面部或肢体抽动和作态",
+      "type": "radio",
+      "orderNum": 18,
+      "options": [
+        {
+          "id": 18812,
+          "optionNo": "A",
+          "text": "从来没有",
+          "value": "0"
+        },
+        {
+          "id": 18813,
+          "optionNo": "B",
+          "text": "轻微或有时有",
+          "value": "1"
+        },
+        {
+          "id": 18814,
+          "optionNo": "C",
+          "text": "程度严重或经常出现",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "id": 5125,
+      "text": " 经常吸吮拇指甲或手指",
+      "type": "radio",
+      "orderNum": 19,
+      "options": [
+        {
+          "id": 18815,
+          "optionNo": "A",
+          "text": "从来没有",
+          "value": "0"
+        },
+        {
+          "id": 18816,
+          "optionNo": "B",
+          "text": "轻微或有时有",
+          "value": "1"
+        },
+        {
+          "id": 18817,
+          "optionNo": "C",
+          "text": "程度严重或经常出现",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "id": 5126,
+      "text": " 经常咬指甲或手指",
+      "type": "radio",
+      "orderNum": 20,
+      "options": [
+        {
+          "id": 18818,
+          "optionNo": "A",
+          "text": "从来没有",
+          "value": "0"
+        },
+        {
+          "id": 18819,
+          "optionNo": "B",
+          "text": "轻微或有时有",
+          "value": "1"
+        },
+        {
+          "id": 18820,
+          "optionNo": "C",
+          "text": "程度严重或经常出现",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "id": 5127,
+      "text": " 经常不听管教",
+      "type": "radio",
+      "orderNum": 21,
+      "options": [
+        {
+          "id": 18821,
+          "optionNo": "A",
+          "text": "从来没有",
+          "value": "0"
+        },
+        {
+          "id": 18822,
+          "optionNo": "B",
+          "text": "轻微或有时有",
+          "value": "1"
+        },
+        {
+          "id": 18823,
+          "optionNo": "C",
+          "text": "程度严重或经常出现",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "id": 5128,
+      "text": " 做事拿不定主意",
+      "type": "radio",
+      "orderNum": 22,
+      "options": [
+        {
+          "id": 18824,
+          "optionNo": "A",
+          "text": "从来没有",
+          "value": "0"
+        },
+        {
+          "id": 18825,
+          "optionNo": "B",
+          "text": "轻微或有时有",
+          "value": "1"
+        },
+        {
+          "id": 18826,
+          "optionNo": "C",
+          "text": "程度严重或经常出现",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "id": 5129,
+      "text": " 害怕新事物和新环境",
+      "type": "radio",
+      "orderNum": 23,
+      "options": [
+        {
+          "id": 18827,
+          "optionNo": "A",
+          "text": "从来没有",
+          "value": "0"
+        },
+        {
+          "id": 18828,
+          "optionNo": "B",
+          "text": "轻微或有时有",
+          "value": "1"
+        },
+        {
+          "id": 18829,
+          "optionNo": "C",
+          "text": "程度严重或经常出现",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "id": 5130,
+      "text": " 神经质或过分特殊",
+      "type": "radio",
+      "orderNum": 24,
+      "options": [
+        {
+          "id": 18830,
+          "optionNo": "A",
+          "text": "从来没有",
+          "value": "0"
+        },
+        {
+          "id": 18831,
+          "optionNo": "B",
+          "text": "轻微或有时有",
+          "value": "1"
+        },
+        {
+          "id": 18832,
+          "optionNo": "C",
+          "text": "程度严重或经常出现",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "id": 5131,
+      "text": " 时常说谎",
+      "type": "radio",
+      "orderNum": 25,
+      "options": [
+        {
+          "id": 18833,
+          "optionNo": "A",
+          "text": "从来没有",
+          "value": "0"
+        },
+        {
+          "id": 18834,
+          "optionNo": "B",
+          "text": "轻微或有时有",
+          "value": "1"
+        },
+        {
+          "id": 18835,
+          "optionNo": "C",
+          "text": "程度严重或经常出现",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "id": 5132,
+      "text": " 欺负别的孩子",
+      "type": "radio",
+      "orderNum": 26,
+      "options": [
+        {
+          "id": 18836,
+          "optionNo": "A",
+          "text": "从来没有",
+          "value": "0"
+        },
+        {
+          "id": 18837,
+          "optionNo": "B",
+          "text": "轻微或有时有",
+          "value": "1"
+        },
+        {
+          "id": 18838,
+          "optionNo": "C",
+          "text": "程度严重或经常出现",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "id": 5133,
+      "text": " 有没有口吃 (说话结巴)",
+      "type": "radio",
+      "orderNum": 27,
+      "options": [
+        {
+          "id": 18839,
+          "optionNo": "A",
+          "text": "从来没有",
+          "value": "0"
+        },
+        {
+          "id": 18840,
+          "optionNo": "B",
+          "text": "轻微或有时有",
+          "value": "1"
+        },
+        {
+          "id": 18841,
+          "optionNo": "C",
+          "text": "程度严重或经常出现",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "id": 5134,
+      "text": " 有没有言语困难，而不是口吃（如表述自己转述别人的话有困难）",
+      "type": "radio",
+      "orderNum": 28,
+      "options": [
+        {
+          "id": 18842,
+          "optionNo": "A",
+          "text": "从来没有",
+          "value": "0"
+        },
+        {
+          "id": 18843,
+          "optionNo": "B",
+          "text": "轻微或有时有",
+          "value": "1"
+        },
+        {
+          "id": 18844,
+          "optionNo": "C",
+          "text": "程度严重或经常出现",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "id": 5135,
+      "text": " 是否偷过东西",
+      "type": "radio",
+      "orderNum": 29,
+      "options": [
+        {
+          "id": 18845,
+          "optionNo": "A",
+          "text": "从来没有",
+          "value": "0"
+        },
+        {
+          "id": 18846,
+          "optionNo": "B",
+          "text": "轻微或有时有",
+          "value": "1"
+        },
+        {
+          "id": 18847,
+          "optionNo": "C",
+          "text": "程度严重或经常出现",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "id": 5136,
+      "text": " 有没有进食的不正常 (偏食、 吃得过少、吃得得多)",
+      "type": "radio",
+      "orderNum": 30,
+      "options": [
+        {
+          "id": 18848,
+          "optionNo": "A",
+          "text": "从来没有",
+          "value": "0"
+        },
+        {
+          "id": 18849,
+          "optionNo": "B",
+          "text": "轻微或有时有",
+          "value": "1"
+        },
+        {
+          "id": 18850,
+          "optionNo": "C",
+          "text": "程度严重或经常出现",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "id": 5137,
+      "text": " 有没有睡眠的困难 (入睡困难、 早晨早醒、夜间惊醒等)",
+      "type": "radio",
+      "orderNum": 31,
+      "options": [
+        {
+          "id": 18851,
+          "optionNo": "A",
+          "text": "从来没有",
+          "value": "0"
+        },
+        {
+          "id": 18852,
+          "optionNo": "B",
+          "text": "轻微或有时有",
+          "value": "1"
+        },
+        {
+          "id": 18853,
+          "optionNo": "C",
+          "text": "程度严重或经常出现",
+          "value": "2"
+        }
+      ]
+    }
+  ],
+  "dimensions": [
+    {
+      "id": 540,
+      "num": 1,
+      "dimensionName": "总分",
+      "dimensionCode": "A",
+      "evaluateExpression": "hx_t_1 + hx_t_2 + hx_t_3 + hx_t_4 + hx_t_5 + hx_t_6 + hx_t_7 + hx_t_8 + hx_t_9 + hx_t_10 + hx_t_11 + hx_t_12 + hx_t_13 + hx_t_14 + hx_t_15 + hx_t_16 + hx_t_17 + hx_t_18 + hx_t_19 + hx_t_20 + hx_t_21 + hx_t_22 + hx_t_23 + hx_t_24 + hx_t_25 + hx_t_26 + hx_t_27 + hx_t_28 + hx_t_29 + hx_t_30 + hx_t_31",
+      "standardScoreFormula": "0",
+      "results": [
+        {
+          "id": 1261,
+          "evaluateExpression": "hx_wd_y_1 >= 0&& hx_wd_y_1 <= 12",
+          "conclusionAnalysis": "通过测试得知，此儿童无违纪行为或神经症方面行为问题。",
+          "suggestion": "无",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 1262,
+          "evaluateExpression": "hx_wd_y_1 >= 13&& hx_wd_y_1 <= 999",
+          "conclusionAnalysis": "通过测试得知，此儿童在行为或情绪上可能存在一些问题。在此基础上，当A行为项目总分大于N行为总分时，即认为此儿童为违纪行为型，反之为神经症行为型，如果两者分数相等则为M行为（混合行为）。",
+          "suggestion": "无",
+          "assessmentWarning": "none"
+        }
+      ]
+    },
+    {
+      "id": 541,
+      "num": 2,
+      "dimensionName": "A行为(违纪行为）",
+      "dimensionCode": "B",
+      "evaluateExpression": "hx_t_11 + hx_t_21 + hx_t_29 + hx_t_25 + hx_t_26",
+      "standardScoreFormula": "0",
+      "results": [
+        {
+          "id": 1263,
+          "evaluateExpression": "hx_wd_y_2 >= 0&& hx_wd_y_2 <= 10",
+          "conclusionAnalysis": "A行为（违纪行为）用以判断行为问题。",
+          "suggestion": "无",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 1265,
+          "evaluateExpression": "\nhx_wd_y_2 >= 11&& hx_wd_y_2 <= 20",
+          "conclusionAnalysis": "严重问题",
+          "suggestion": "aaa",
+          "assessmentWarning": "middle"
+        }
+      ]
+    },
+    {
+      "id": 542,
+      "num": 3,
+      "dimensionName": "N行为(神经症行为）",
+      "dimensionCode": "C",
+      "evaluateExpression": "hx_t_1 + hx_t_7 + hx_t_14 + hx_t_31 + hx_t_23",
+      "standardScoreFormula": "0",
+      "results": [
+        {
+          "id": 1264,
+          "evaluateExpression": "hx_wd_y_3 >= 0&& hx_wd_y_3 <= 10",
+          "conclusionAnalysis": "N行为（神经症行为）用以判断行为问题。",
+          "suggestion": "无",
+          "assessmentWarning": "none"
+        }
+      ]
+    }
+  ]
+}

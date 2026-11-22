@@ -1,0 +1,235 @@
+{
+  "id": "ncs6-cognition",
+  "title": "认知需求量表短版(NCS-6)",
+  "description": "Need for Cognition Scale short form (NCS-6)，Cacioppo, Petty & Kao (1984)编制，6题精简版。5点计分（1=非常不同意到5=非常同意），含3道反向计分题。均分范围1-5，常模约3.5。测量个体对思考和认知活动的偏好程度。",
+  "type": "basic",
+  "questions": [
+    {
+      "text": "比起简单的问题，我更喜欢复杂的问题。",
+      "type": "radio",
+      "orderNum": 1,
+      "options": [
+        {
+          "text": "非常不同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "不同意",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "同意",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常同意",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "我喜欢不需要太多思考的任务。（反向计分）",
+      "type": "radio",
+      "orderNum": 2,
+      "options": [
+        {
+          "text": "非常不同意",
+          "value": "5",
+          "optionNo": "A"
+        },
+        {
+          "text": "不同意",
+          "value": "4",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "同意",
+          "value": "2",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常同意",
+          "value": "1",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "思考对我来说是一种乐趣。",
+      "type": "radio",
+      "orderNum": 3,
+      "options": [
+        {
+          "text": "非常不同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "不同意",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "同意",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常同意",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "我倾向于避免需要深入思考的活动。（反向计分）",
+      "type": "radio",
+      "orderNum": 4,
+      "options": [
+        {
+          "text": "非常不同意",
+          "value": "5",
+          "optionNo": "A"
+        },
+        {
+          "text": "不同意",
+          "value": "4",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "同意",
+          "value": "2",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常同意",
+          "value": "1",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "我喜欢思考用新的方式来解决问题。",
+      "type": "radio",
+      "orderNum": 5,
+      "options": [
+        {
+          "text": "非常不同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "不同意",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "同意",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常同意",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "完成一项需要思考的任务后，我会感到如释重负。（反向计分）",
+      "type": "radio",
+      "orderNum": 6,
+      "options": [
+        {
+          "text": "非常不同意",
+          "value": "5",
+          "optionNo": "A"
+        },
+        {
+          "text": "不同意",
+          "value": "4",
+          "optionNo": "B"
+        },
+        {
+          "text": "不确定",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "同意",
+          "value": "2",
+          "optionNo": "D"
+        },
+        {
+          "text": "非常同意",
+          "value": "1",
+          "optionNo": "E"
+        }
+      ]
+    }
+  ],
+  "dimensions": [
+    {
+      "dimensionName": "认知需求",
+      "dimensionCode": "ncs_total",
+      "num": 1,
+      "evaluateExpression": "(hx_t_1 + hx_t_2 + hx_t_3 + hx_t_4 + hx_t_5 + hx_t_6) / 6",
+      "standardScoreFormula": "",
+      "results": [
+        {
+          "evaluateExpression": "hx_wd_y_1 <= 2.0",
+          "conclusionAnalysis": "认知需求较低",
+          "suggestion": "您的认知需求得分较低，表明您不太倾向于主动寻求和享受需要思考的活动。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_1 > 2.0 && hx_wd_y_1 <= 3.0",
+          "conclusionAnalysis": "认知需求中等偏低",
+          "suggestion": "您的认知需求处于中等偏低水平，对需要思考的活动态度一般。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_1 > 3.0 && hx_wd_y_1 <= 4.0",
+          "conclusionAnalysis": "认知需求中等",
+          "suggestion": "您的认知需求处于中等水平，表明您在一定程度上享受思考和解决复杂问题。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_1 > 4.0 && hx_wd_y_1 <= 5.0",
+          "conclusionAnalysis": "认知需求较高",
+          "suggestion": "您的认知需求得分较高，表明您喜欢思考，享受解决复杂问题的过程。",
+          "assessmentWarning": "none"
+        }
+      ]
+    }
+  ]
+}

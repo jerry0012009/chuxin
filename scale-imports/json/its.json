@@ -1,0 +1,837 @@
+{
+  "id": "its",
+  "title": "人际信任量表(ITS)",
+  "description": "本量表帮助了解您对他人和社会的信任程度。共25题，大约需要5分钟完成。",
+  "type": "basic",
+  "questions": [
+    {
+      "text": "在我们这个社会里虚伪的现象越来越多了。",
+      "type": "radio",
+      "orderNum": 1,
+      "options": [
+        {
+          "text": "完全同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "部分同意",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "同意与不同意相等",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "部分不同意",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "完全不同意",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "与陌生人打交道时，你最好小心，除非他们拿出可以证明其值得信任的依据。",
+      "type": "radio",
+      "orderNum": 2,
+      "options": [
+        {
+          "text": "完全同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "部分同意",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "同意与不同意相等",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "部分不同意",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "完全不同意",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "除非我们吸引更多的人进入政界，这个国家的前途将十分黯淡。",
+      "type": "radio",
+      "orderNum": 3,
+      "options": [
+        {
+          "text": "完全不同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "部分不同意",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "同意与不同意相等",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "部分同意",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "完全同意",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "阻止多数人触犯法律的是恐惧、社会廉耻或惩罚而不是良心。",
+      "type": "radio",
+      "orderNum": 4,
+      "options": [
+        {
+          "text": "完全同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "部分同意",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "同意与不同意相等",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "部分不同意",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "完全不同意",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "考试时教师不到场监考可能会导致更多的人作弊。",
+      "type": "radio",
+      "orderNum": 5,
+      "options": [
+        {
+          "text": "完全同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "部分同意",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "同意与不同意相等",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "部分不同意",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "完全不同意",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "通常父母在遵守诺言方面是可以信赖的。",
+      "type": "radio",
+      "orderNum": 6,
+      "options": [
+        {
+          "text": "完全同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "部分同意",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "同意与不同意相等",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "部分不同意",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "完全不同意",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "联合国永远也不会成为维持世界和平的有效力量。",
+      "type": "radio",
+      "orderNum": 7,
+      "options": [
+        {
+          "text": "完全不同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "部分不同意",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "同意与不同意相等",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "部分同意",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "完全同意",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "法院是我们都能受到公正对待的场所。",
+      "type": "radio",
+      "orderNum": 8,
+      "options": [
+        {
+          "text": "完全同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "部分同意",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "同意与不同意相等",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "部分不同意",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "完全不同意",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "如果得知公众听到和看到的新闻有多少已被歪曲，多数人会感到震惊的。",
+      "type": "radio",
+      "orderNum": 9,
+      "options": [
+        {
+          "text": "完全不同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "部分不同意",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "同意与不同意相等",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "部分同意",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "完全同意",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "不管人们怎样表白，最好还是认为多数人主要关心其自身幸福。",
+      "type": "radio",
+      "orderNum": 10,
+      "options": [
+        {
+          "text": "完全同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "部分同意",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "同意与不同意相等",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "部分不同意",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "完全不同意",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "尽管在报纸、收音机和电视中均可看到新闻，但我们很难得到关于公共事件的客观报道。",
+      "type": "radio",
+      "orderNum": 11,
+      "options": [
+        {
+          "text": "完全同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "部分同意",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "同意与不同意相等",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "部分不同意",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "完全不同意",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "未来似乎很有希望。",
+      "type": "radio",
+      "orderNum": 12,
+      "options": [
+        {
+          "text": "完全同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "部分同意",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "同意与不同意相等",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "部分不同意",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "完全不同意",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "如果真正了解到国际上正在发生的政治事件，那么公众有理由比现在更加担心。",
+      "type": "radio",
+      "orderNum": 13,
+      "options": [
+        {
+          "text": "完全同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "部分同意",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "同意与不同意相等",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "部分不同意",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "完全不同意",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "多数获选官员在竞选中的许诺是诚恳的。",
+      "type": "radio",
+      "orderNum": 14,
+      "options": [
+        {
+          "text": "完全不同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "部分不同意",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "同意与不同意相等",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "部分同意",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "完全同意",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "许多重大的全国性体育比赛均受到某种形式操纵和利用。",
+      "type": "radio",
+      "orderNum": 15,
+      "options": [
+        {
+          "text": "完全同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "部分同意",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "同意与不同意相等",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "部分不同意",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "完全不同意",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "多数专家有关其知识局限性的表白是可信的。",
+      "type": "radio",
+      "orderNum": 16,
+      "options": [
+        {
+          "text": "完全不同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "部分不同意",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "同意与不同意相等",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "部分同意",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "完全同意",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "多数父母关于实施惩罚的威胁是可信的。",
+      "type": "radio",
+      "orderNum": 17,
+      "options": [
+        {
+          "text": "完全同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "部分同意",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "同意与不同意相等",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "部分不同意",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "完全不同意",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "多数人如果说出自己的打算就一定会去实现。",
+      "type": "radio",
+      "orderNum": 18,
+      "options": [
+        {
+          "text": "完全不同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "部分不同意",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "同意与不同意相等",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "部分同意",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "完全同意",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "在这个竞争的年代里，如果不保持警惕，别人就可能占你的便宜。",
+      "type": "radio",
+      "orderNum": 19,
+      "options": [
+        {
+          "text": "完全同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "部分同意",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "同意与不同意相等",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "部分不同意",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "完全不同意",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "多数理想主义者是诚恳的并按照他们自己所宣扬的信条行事。",
+      "type": "radio",
+      "orderNum": 20,
+      "options": [
+        {
+          "text": "完全同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "部分同意",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "同意与不同意相等",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "部分不同意",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "完全不同意",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "多数推销人员在描述他们的产品时是诚实的。",
+      "type": "radio",
+      "orderNum": 21,
+      "options": [
+        {
+          "text": "完全同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "部分同意",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "同意与不同意相等",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "部分不同意",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "完全不同意",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "多数学生即使在有把握不会被发现时也不作弊。",
+      "type": "radio",
+      "orderNum": 22,
+      "options": [
+        {
+          "text": "完全不同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "部分不同意",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "同意与不同意相等",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "部分同意",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "完全同意",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "多数维修人员即使认为你不懂其专业知识也不会多收费。",
+      "type": "radio",
+      "orderNum": 23,
+      "options": [
+        {
+          "text": "完全不同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "部分不同意",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "同意与不同意相等",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "部分同意",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "完全同意",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "对保险公司的控告有相当一部分是假的。",
+      "type": "radio",
+      "orderNum": 24,
+      "options": [
+        {
+          "text": "完全不同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "部分不同意",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "同意与不同意相等",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "部分同意",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "完全同意",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "多数人诚实地回答民意测验中的问题。",
+      "type": "radio",
+      "orderNum": 25,
+      "options": [
+        {
+          "text": "完全同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "部分同意",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "同意与不同意相等",
+          "value": "3",
+          "optionNo": "C"
+        },
+        {
+          "text": "部分不同意",
+          "value": "4",
+          "optionNo": "D"
+        },
+        {
+          "text": "完全不同意",
+          "value": "5",
+          "optionNo": "E"
+        }
+      ]
+    }
+  ],
+  "dimensions": [
+    {
+      "dimensionName": "人际信任",
+      "dimensionCode": "interpersonal_trust",
+      "num": 1,
+      "evaluateExpression": "hx_t_1 + hx_t_2 + hx_t_3 + hx_t_4 + hx_t_5 + hx_t_6 + hx_t_7 + hx_t_8 + hx_t_9 + hx_t_10 + hx_t_11 + hx_t_12 + hx_t_13 + hx_t_14 + hx_t_15 + hx_t_16 + hx_t_17 + hx_t_18 + hx_t_19 + hx_t_20 + hx_t_21 + hx_t_22 + hx_t_23 + hx_t_24 + hx_t_25 / 25",
+      "standardScoreFormula": "",
+      "results": [
+        {
+          "evaluateExpression": "hx_wd_y_1 <= 2.0",
+          "conclusionAnalysis": "人际信任水平较低",
+          "suggestion": "您对他人的信任程度较低，倾向于对他人持怀疑态度。这可能影响您的人际关系和社会交往。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_1 > 2.0 && hx_wd_y_1 <= 3.5",
+          "conclusionAnalysis": "人际信任水平中等",
+          "suggestion": "您对他人持有适度的信任水平，能够在一定程度上相信他人，同时保持合理的警惕。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_1 > 3.5",
+          "conclusionAnalysis": "人际信任水平较高",
+          "suggestion": "您对他人有较高的信任水平，倾向于相信大多数人是诚实可靠的。这有助于建立良好的人际关系。",
+          "assessmentWarning": "none"
+        }
+      ]
+    }
+  ]
+}

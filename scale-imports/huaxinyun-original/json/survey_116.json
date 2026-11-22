@@ -1,0 +1,883 @@
+{
+  "id": 116,
+  "title": "职业倦怠量表（MBI-GS）",
+  "type": "basic",
+  "questions": [
+    {
+      "id": 2639,
+      "text": "工作让我感觉身心俱惫。",
+      "type": "radio",
+      "orderNum": 1,
+      "options": [
+        {
+          "id": 10482,
+          "optionNo": "A",
+          "text": "从不",
+          "value": "0"
+        },
+        {
+          "id": 10483,
+          "optionNo": "B",
+          "text": "极少（一年几次或更少）",
+          "value": "1"
+        },
+        {
+          "id": 10484,
+          "optionNo": "C",
+          "text": "偶尔（一个月一次或者更少）",
+          "value": "2"
+        },
+        {
+          "id": 10485,
+          "optionNo": "D",
+          "text": "经常（一个月几次）",
+          "value": "3"
+        },
+        {
+          "id": 10486,
+          "optionNo": "E",
+          "text": "频繁（每星期一次）",
+          "value": "4"
+        },
+        {
+          "id": 10487,
+          "optionNo": "F",
+          "text": "非常频繁（一星期几次）",
+          "value": "5"
+        },
+        {
+          "id": 10488,
+          "optionNo": "G",
+          "text": "每天",
+          "value": "6"
+        }
+      ]
+    },
+    {
+      "id": 2640,
+      "text": "下班的时候我感觉精疲力竭。",
+      "type": "radio",
+      "orderNum": 2,
+      "options": [
+        {
+          "id": 10489,
+          "optionNo": "A",
+          "text": "从不",
+          "value": "0"
+        },
+        {
+          "id": 10490,
+          "optionNo": "B",
+          "text": "极少（一年几次或更少）",
+          "value": "1"
+        },
+        {
+          "id": 10491,
+          "optionNo": "C",
+          "text": "偶尔（一个月一次或者更少）",
+          "value": "2"
+        },
+        {
+          "id": 10492,
+          "optionNo": "D",
+          "text": "经常（一个月几次）",
+          "value": "3"
+        },
+        {
+          "id": 10493,
+          "optionNo": "E",
+          "text": "频繁（每星期一次）",
+          "value": "4"
+        },
+        {
+          "id": 10494,
+          "optionNo": "F",
+          "text": "非常频繁（一星期几次）",
+          "value": "5"
+        },
+        {
+          "id": 10495,
+          "optionNo": "G",
+          "text": "每天",
+          "value": "6"
+        }
+      ]
+    },
+    {
+      "id": 2641,
+      "text": "早晨起床不得不去面对一天的工作时，我感觉非常累。",
+      "type": "radio",
+      "orderNum": 3,
+      "options": [
+        {
+          "id": 10496,
+          "optionNo": "A",
+          "text": "从不",
+          "value": "0"
+        },
+        {
+          "id": 10497,
+          "optionNo": "B",
+          "text": "极少（一年几次或更少）",
+          "value": "1"
+        },
+        {
+          "id": 10498,
+          "optionNo": "C",
+          "text": "偶尔（一个月一次或者更少）",
+          "value": "2"
+        },
+        {
+          "id": 10499,
+          "optionNo": "D",
+          "text": "经常（一个月几次）",
+          "value": "3"
+        },
+        {
+          "id": 10500,
+          "optionNo": "E",
+          "text": "频繁（每星期一次）",
+          "value": "4"
+        },
+        {
+          "id": 10501,
+          "optionNo": "F",
+          "text": "非常频繁(一星期几次）",
+          "value": "5"
+        },
+        {
+          "id": 10502,
+          "optionNo": "G",
+          "text": "每天",
+          "value": "6"
+        }
+      ]
+    },
+    {
+      "id": 2642,
+      "text": "整天工作对我来说确实压力很大。",
+      "type": "radio",
+      "orderNum": 4,
+      "options": [
+        {
+          "id": 10503,
+          "optionNo": "A",
+          "text": "从不",
+          "value": "0"
+        },
+        {
+          "id": 10504,
+          "optionNo": "B",
+          "text": "极少(一年几次或更少）",
+          "value": "1"
+        },
+        {
+          "id": 10505,
+          "optionNo": "C",
+          "text": "偶尔(一个月一次或者更少）",
+          "value": "2"
+        },
+        {
+          "id": 10506,
+          "optionNo": "D",
+          "text": "经常(一个月几次）",
+          "value": "3"
+        },
+        {
+          "id": 10507,
+          "optionNo": "E",
+          "text": "频繁(每星期一次）",
+          "value": "4"
+        },
+        {
+          "id": 10508,
+          "optionNo": "F",
+          "text": "非常频繁(一星期几次）",
+          "value": "5"
+        },
+        {
+          "id": 10509,
+          "optionNo": "G",
+          "text": "每天",
+          "value": "6"
+        }
+      ]
+    },
+    {
+      "id": 2643,
+      "text": "工作让我有快要崩溃的感觉。",
+      "type": "radio",
+      "orderNum": 5,
+      "options": [
+        {
+          "id": 10510,
+          "optionNo": "A",
+          "text": "从不",
+          "value": "0"
+        },
+        {
+          "id": 10511,
+          "optionNo": "B",
+          "text": "极少(一年几次或更少）",
+          "value": "1"
+        },
+        {
+          "id": 10512,
+          "optionNo": "C",
+          "text": "偶尔(一个月一次或者更少）",
+          "value": "2"
+        },
+        {
+          "id": 10513,
+          "optionNo": "D",
+          "text": "经常(一个月几次）",
+          "value": "3"
+        },
+        {
+          "id": 10514,
+          "optionNo": "E",
+          "text": "频繁(每星期一次）",
+          "value": "4"
+        },
+        {
+          "id": 10515,
+          "optionNo": "F",
+          "text": "非常频繁(一星期几次）",
+          "value": "5"
+        },
+        {
+          "id": 10516,
+          "optionNo": "G",
+          "text": "每天",
+          "value": "6"
+        }
+      ]
+    },
+    {
+      "id": 2644,
+      "text": "自从开始干这份工作，我对工作越来越不感兴趣。",
+      "type": "radio",
+      "orderNum": 6,
+      "options": [
+        {
+          "id": 10517,
+          "optionNo": "A",
+          "text": "从不",
+          "value": "0"
+        },
+        {
+          "id": 10518,
+          "optionNo": "B",
+          "text": "极少(一年几次或更少）",
+          "value": "1"
+        },
+        {
+          "id": 10519,
+          "optionNo": "C",
+          "text": "偶尔(一个月一次或者更少）",
+          "value": "2"
+        },
+        {
+          "id": 10520,
+          "optionNo": "D",
+          "text": "经常(一个月几次）",
+          "value": "3"
+        },
+        {
+          "id": 10521,
+          "optionNo": "E",
+          "text": "频繁(每星期一次）",
+          "value": "4"
+        },
+        {
+          "id": 10522,
+          "optionNo": "F",
+          "text": "非常频繁(一星期几次）",
+          "value": "5"
+        },
+        {
+          "id": 10523,
+          "optionNo": "G",
+          "text": "每天",
+          "value": "6"
+        }
+      ]
+    },
+    {
+      "id": 2645,
+      "text": "我对工作不像以前那样热心了。",
+      "type": "radio",
+      "orderNum": 7,
+      "options": [
+        {
+          "id": 10524,
+          "optionNo": "A",
+          "text": "从不",
+          "value": "0"
+        },
+        {
+          "id": 10525,
+          "optionNo": "B",
+          "text": "极少(一年几次或更少）",
+          "value": "1"
+        },
+        {
+          "id": 10526,
+          "optionNo": "C",
+          "text": "偶尔(一个月一次或者更少）",
+          "value": "2"
+        },
+        {
+          "id": 10527,
+          "optionNo": "D",
+          "text": "经常(一个月几次）",
+          "value": "3"
+        },
+        {
+          "id": 10528,
+          "optionNo": "E",
+          "text": "频繁(每星期一次）",
+          "value": "4"
+        },
+        {
+          "id": 10529,
+          "optionNo": "F",
+          "text": "非常频繁(一星期几次）",
+          "value": "5"
+        },
+        {
+          "id": 10530,
+          "optionNo": "G",
+          "text": "每天",
+          "value": "6"
+        }
+      ]
+    },
+    {
+      "id": 2646,
+      "text": "我怀疑自己所做工作的意义。",
+      "type": "radio",
+      "orderNum": 8,
+      "options": [
+        {
+          "id": 10531,
+          "optionNo": "A",
+          "text": "从不",
+          "value": "0"
+        },
+        {
+          "id": 10532,
+          "optionNo": "B",
+          "text": "极少(一年几次或更少）",
+          "value": "1"
+        },
+        {
+          "id": 10533,
+          "optionNo": "C",
+          "text": "偶尔(一个月一次或者更少）",
+          "value": "2"
+        },
+        {
+          "id": 10534,
+          "optionNo": "D",
+          "text": "经常(一个月几次）",
+          "value": "3"
+        },
+        {
+          "id": 10535,
+          "optionNo": "E",
+          "text": "频繁(每星期一次）",
+          "value": "4"
+        },
+        {
+          "id": 10536,
+          "optionNo": "F",
+          "text": "非常频繁(一星期几次）",
+          "value": "5"
+        },
+        {
+          "id": 10537,
+          "optionNo": "G",
+          "text": "每天",
+          "value": "6"
+        }
+      ]
+    },
+    {
+      "id": 2647,
+      "text": "我对自己所做工作是否有贡献越来越不关心。",
+      "type": "radio",
+      "orderNum": 9,
+      "options": [
+        {
+          "id": 10538,
+          "optionNo": "A",
+          "text": "从不",
+          "value": "0"
+        },
+        {
+          "id": 10539,
+          "optionNo": "B",
+          "text": "极少(一年几次或更少）",
+          "value": "1"
+        },
+        {
+          "id": 10540,
+          "optionNo": "C",
+          "text": "偶尔(一个月一次或者更少）",
+          "value": "2"
+        },
+        {
+          "id": 10541,
+          "optionNo": "D",
+          "text": "经常(一个月几次）",
+          "value": "3"
+        },
+        {
+          "id": 10542,
+          "optionNo": "E",
+          "text": "频繁(每星期一次）",
+          "value": "4"
+        },
+        {
+          "id": 10543,
+          "optionNo": "F",
+          "text": "非常频繁(一星期几次）",
+          "value": "5"
+        },
+        {
+          "id": 10544,
+          "optionNo": "G",
+          "text": "每天",
+          "value": "6"
+        }
+      ]
+    },
+    {
+      "id": 2648,
+      "text": "我能有效地解决工作中出现的问题。",
+      "type": "radio",
+      "orderNum": 10,
+      "options": [
+        {
+          "id": 10545,
+          "optionNo": "A",
+          "text": "从不",
+          "value": "6"
+        },
+        {
+          "id": 10546,
+          "optionNo": "B",
+          "text": "极少(一年几次或更少）",
+          "value": "5"
+        },
+        {
+          "id": 10547,
+          "optionNo": "C",
+          "text": "偶尔(一个月一次或者更少）",
+          "value": "4"
+        },
+        {
+          "id": 10548,
+          "optionNo": "D",
+          "text": "经常(一个月几次）",
+          "value": "3"
+        },
+        {
+          "id": 10549,
+          "optionNo": "E",
+          "text": "频繁(每星期一次）",
+          "value": "2"
+        },
+        {
+          "id": 10550,
+          "optionNo": "F",
+          "text": "非常频繁(一星期几次）",
+          "value": "1"
+        },
+        {
+          "id": 10551,
+          "optionNo": "G",
+          "text": "每天",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2649,
+      "text": "我觉得我在为公司做有用的贡献。",
+      "type": "radio",
+      "orderNum": 11,
+      "options": [
+        {
+          "id": 10552,
+          "optionNo": "A",
+          "text": "从不",
+          "value": "6"
+        },
+        {
+          "id": 10553,
+          "optionNo": "B",
+          "text": "极少(一年几次或更少）",
+          "value": "5"
+        },
+        {
+          "id": 10554,
+          "optionNo": "C",
+          "text": "偶尔(一个月一次或者更少）",
+          "value": "4"
+        },
+        {
+          "id": 10555,
+          "optionNo": "D",
+          "text": "经常(一个月几次）",
+          "value": "3"
+        },
+        {
+          "id": 10556,
+          "optionNo": "E",
+          "text": "频繁(每星期一次）",
+          "value": "2"
+        },
+        {
+          "id": 10557,
+          "optionNo": "F",
+          "text": "非常频繁(一星期几次）",
+          "value": "1"
+        },
+        {
+          "id": 10558,
+          "optionNo": "G",
+          "text": "每天",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2650,
+      "text": "在我看来，我擅长于自己的工作。",
+      "type": "radio",
+      "orderNum": 12,
+      "options": [
+        {
+          "id": 10559,
+          "optionNo": "A",
+          "text": "从不",
+          "value": "6"
+        },
+        {
+          "id": 10560,
+          "optionNo": "B",
+          "text": "极少(一年几次或更少）",
+          "value": "5"
+        },
+        {
+          "id": 10561,
+          "optionNo": "C",
+          "text": "偶尔(一个月一次或者更少）",
+          "value": "4"
+        },
+        {
+          "id": 10562,
+          "optionNo": "D",
+          "text": "经常(一个月几次）",
+          "value": "3"
+        },
+        {
+          "id": 10563,
+          "optionNo": "E",
+          "text": "频繁(每星期一次）",
+          "value": "2"
+        },
+        {
+          "id": 10564,
+          "optionNo": "F",
+          "text": "非常频繁(一星期几次）",
+          "value": "1"
+        },
+        {
+          "id": 10565,
+          "optionNo": "G",
+          "text": "每天",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2651,
+      "text": "当完成工作上的一些事情时，我感到非常高兴。",
+      "type": "radio",
+      "orderNum": 13,
+      "options": [
+        {
+          "id": 10566,
+          "optionNo": "A",
+          "text": "从不",
+          "value": "6"
+        },
+        {
+          "id": 10567,
+          "optionNo": "B",
+          "text": "极少(一年几次或更少）",
+          "value": "5"
+        },
+        {
+          "id": 10568,
+          "optionNo": "C",
+          "text": "偶尔(一个月一次或者更少）",
+          "value": "4"
+        },
+        {
+          "id": 10569,
+          "optionNo": "D",
+          "text": "经常(一个月几次）",
+          "value": "3"
+        },
+        {
+          "id": 10570,
+          "optionNo": "E",
+          "text": "频繁(每星期一次）",
+          "value": "2"
+        },
+        {
+          "id": 10571,
+          "optionNo": "F",
+          "text": "非常频繁(一星期几次）",
+          "value": "1"
+        },
+        {
+          "id": 10572,
+          "optionNo": "G",
+          "text": "每天",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2652,
+      "text": "我完成了很多有价值的工作。",
+      "type": "radio",
+      "orderNum": 14,
+      "options": [
+        {
+          "id": 10573,
+          "optionNo": "A",
+          "text": "从不",
+          "value": "6"
+        },
+        {
+          "id": 10574,
+          "optionNo": "B",
+          "text": "极少(一年几次或更少）",
+          "value": "5"
+        },
+        {
+          "id": 10575,
+          "optionNo": "C",
+          "text": "偶尔（一个月一次或者更少）",
+          "value": "4"
+        },
+        {
+          "id": 10576,
+          "optionNo": "D",
+          "text": "经常（一个月几次）",
+          "value": "3"
+        },
+        {
+          "id": 10577,
+          "optionNo": "E",
+          "text": "频繁（每星期一次）",
+          "value": "2"
+        },
+        {
+          "id": 10578,
+          "optionNo": "F",
+          "text": "非常频繁（一星期几次）",
+          "value": "1"
+        },
+        {
+          "id": 10579,
+          "optionNo": "G",
+          "text": "每天",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": 2653,
+      "text": "我自信自己能有效地完成各项工作。",
+      "type": "radio",
+      "orderNum": 15,
+      "options": [
+        {
+          "id": 10580,
+          "optionNo": "A",
+          "text": "从不",
+          "value": "6"
+        },
+        {
+          "id": 10581,
+          "optionNo": "B",
+          "text": "极少（一年几次或更少）",
+          "value": "5"
+        },
+        {
+          "id": 10582,
+          "optionNo": "C",
+          "text": "偶尔（一个月一次或者更少）",
+          "value": "4"
+        },
+        {
+          "id": 10583,
+          "optionNo": "D",
+          "text": "经常（一个月几次）",
+          "value": "3"
+        },
+        {
+          "id": 10584,
+          "optionNo": "E",
+          "text": "频繁（每星期一次）",
+          "value": "2"
+        },
+        {
+          "id": 10585,
+          "optionNo": "F",
+          "text": "非常频繁（一星期几次）",
+          "value": "1"
+        },
+        {
+          "id": 10586,
+          "optionNo": "G",
+          "text": "每天",
+          "value": "0"
+        }
+      ]
+    }
+  ],
+  "dimensions": [
+    {
+      "id": 319,
+      "num": 1,
+      "dimensionName": "情绪衰竭",
+      "dimensionCode": "EE",
+      "evaluateExpression": "(hx_t_1 + hx_t_2 + hx_t_3 + hx_t_4 + hx_t_5)/5",
+      "standardScoreFormula": "0",
+      "results": [
+        {
+          "id": 631,
+          "evaluateExpression": "hx_wd_y_1 >= 0&& hx_wd_y_1 <= 2",
+          "conclusionAnalysis": "低分水平",
+          "suggestion": "无",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 632,
+          "evaluateExpression": "hx_wd_y_1 >= 3&& hx_wd_y_1 <= 4",
+          "conclusionAnalysis": "中等水平",
+          "suggestion": "无",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 633,
+          "evaluateExpression": "hx_wd_y_1 >= 5&& hx_wd_y_1 <= 6",
+          "conclusionAnalysis": "高分水平",
+          "suggestion": "无",
+          "assessmentWarning": "none"
+        }
+      ]
+    },
+    {
+      "id": 320,
+      "num": 2,
+      "dimensionName": "去人性化",
+      "dimensionCode": "DP",
+      "evaluateExpression": "(hx_t_6 + hx_t_7 + hx_t_8 + hx_t_9)/4",
+      "standardScoreFormula": "0",
+      "results": [
+        {
+          "id": 634,
+          "evaluateExpression": "hx_wd_y_2 >= 0&& hx_wd_y_2 <= 2",
+          "conclusionAnalysis": "低分水平",
+          "suggestion": "无",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 635,
+          "evaluateExpression": "hx_wd_y_2 >= 3&& hx_wd_y_2 <= 4",
+          "conclusionAnalysis": "中等水平",
+          "suggestion": "无",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 636,
+          "evaluateExpression": "hx_wd_y_2 >= 5&& hx_wd_y_2 <= 6",
+          "conclusionAnalysis": "高分水平",
+          "suggestion": "无",
+          "assessmentWarning": "none"
+        }
+      ]
+    },
+    {
+      "id": 321,
+      "num": 3,
+      "dimensionName": "个人成就感",
+      "dimensionCode": "PA",
+      "evaluateExpression": "(hx_t_10 + hx_t_11 + hx_t_12 + hx_t_13 + hx_t_14 + hx_t_15)/6",
+      "standardScoreFormula": "0",
+      "results": [
+        {
+          "id": 637,
+          "evaluateExpression": "hx_wd_y_3 >= 0&& hx_wd_y_3 <= 2",
+          "conclusionAnalysis": "低分水平",
+          "suggestion": "无",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 638,
+          "evaluateExpression": "hx_wd_y_3 >= 3&& hx_wd_y_3 <= 4",
+          "conclusionAnalysis": "中等水平",
+          "suggestion": "无",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 639,
+          "evaluateExpression": "hx_wd_y_3 >= 5&& hx_wd_y_3 <= 6",
+          "conclusionAnalysis": "高分水平",
+          "suggestion": "无",
+          "assessmentWarning": "none"
+        }
+      ]
+    },
+    {
+      "id": 322,
+      "num": 4,
+      "dimensionName": "总分",
+      "dimensionCode": "Z",
+      "evaluateExpression": "(hx_t_1 + hx_t_2 + hx_t_3 + hx_t_4 + hx_t_5 + hx_t_6 + hx_t_7 + hx_t_8 + hx_t_9 + hx_t_10 + hx_t_11 + hx_t_12 + hx_t_13 + hx_t_14 + hx_t_15)/15",
+      "standardScoreFormula": "0",
+      "results": [
+        {
+          "id": 640,
+          "evaluateExpression": "hx_wd_y_4 >= 0&& hx_wd_y_4 <= 2",
+          "conclusionAnalysis": "工作状态良好；",
+          "suggestion": "继续保持良好的状态。",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 641,
+          "evaluateExpression": "hx_wd_y_4 >= 2.09&& hx_wd_y_4 <= 4",
+          "conclusionAnalysis": "存在中度的职业倦怠，需进行自我心理调节；",
+          "suggestion": "存在一定程度的职业倦怠，需进行自我心理调节。可采用以下方法：\nA计划—(Action)采取行动：当在原来组织发生问题时，问自己可以做些什么、自己有什么选择，可以主动和领导沟通发生了什么问题，应该如何解决等。A计划永远是优先的策略，也是改变问题的治本方法，其他都是辅助型的做法。\nB计划—(Belief)调整观念：如果A计划无法解决，应该考虑调整自己的主观思想。有几个策略，例如比下有余的策略，还有一种人就是用乐观到底的策略。\nC计划—(Catharsis)抒发情绪：可以找朋友把情绪抒发出来，情绪管理就像大禹治水一样，最好能够疏导。\nD计划—(Distraction)散心调剂：如果生活上有一些兴趣、嗜好，能够让你暂时转移注意力，这是避开压力很好的辅助策略。\nE计划—(Existential-ism)发现意义：很多人倦怠是因为工作失去了意义。Ex-istentialism是存在主义的意思，就是你做这个工作的意义是什么。必须好好地问自己，到底自己想要追求的是什么？这个工作对你还有没有意义？如果你连一点意义都找不到，也许就真的该考虑换工作了。\nF计划—(Fitness)增强体能：就是强调要充电，饮食、营养、运动以及适当的医药，保持健康的身体。所有的心理健康其实是要以身体健康为基础，一个人假如能够生活作息正常、适当运动，活力充沛，就会跟倦怠状态有很大不同。",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 642,
+          "evaluateExpression": "hx_wd_y_4 >= 4.09&& hx_wd_y_4 <= 10",
+          "conclusionAnalysis": "职业倦怠比较严重，建议调整状态。",
+          "suggestion": "职业倦怠比较严重，建议调整状态：\nA计划—(Action)采取行动：当在原来组织发生问题时，问自己可以做些什么、自己有什么选择，可以主动和领导沟通发生了什么问题，应该如何解决等。A计划永远是优先的策略，也是改变问题的治本方法，其他都是辅助型的做法。\nB计划—(Belief)调整观念：如果A计划无法解决，应该考虑调整自己的主观思想。有几个策略，例如比下有余的策略，还有一种人就是用乐观到底的策略。\nC计划—(Catharsis)抒发情绪：可以找朋友把情绪抒发出来，情绪管理就像大禹治水一样，最好能够疏导。\nD计划—(Distraction)散心调剂：如果生活上有一些兴趣、嗜好，能够让你暂时转移注意力，这是避开压力很好的辅助策略。\nE计划—(Existential-ism)发现意义：很多人倦怠是因为工作失去了意义。Ex-istentialism是存在主义的意思，就是你做这个工作的意义是什么。必须好好地问自己，到底自己想要追求的是什么？这个工作对你还有没有意义？如果你连一点意义都找不到，也许就真的该考虑换工作了。\nF计划—(Fitness)增强体能：就是强调要充电，饮食、营养、运动以及适当的医药，保持健康的身体。所有的心理健康其实是要以身体健康为基础，一个人假如能够生活作息正常、适当运动，活力充沛，就会跟倦怠状态有很大不同。",
+          "assessmentWarning": "none"
+        }
+      ]
+    }
+  ]
+}

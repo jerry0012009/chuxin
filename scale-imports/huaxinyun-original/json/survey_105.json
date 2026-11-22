@@ -1,0 +1,2206 @@
+{
+  "id": 105,
+  "title": "职业价值观测验",
+  "type": "basic",
+  "questions": [
+    {
+      "id": 2171,
+      "text": "你的工作必须经常解决新的问题。",
+      "type": "radio",
+      "orderNum": 1,
+      "options": [
+        {
+          "id": 8747,
+          "optionNo": "A",
+          "text": "非常重要",
+          "value": "5"
+        },
+        {
+          "id": 8748,
+          "optionNo": "B",
+          "text": "比较重要",
+          "value": "4"
+        },
+        {
+          "id": 8749,
+          "optionNo": "C",
+          "text": "一般",
+          "value": "3"
+        },
+        {
+          "id": 8750,
+          "optionNo": "D",
+          "text": "较不重要",
+          "value": "2"
+        },
+        {
+          "id": 8751,
+          "optionNo": "E",
+          "text": "很不重要",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 2172,
+      "text": "你的工作能为社会福利带来看的见的效果。",
+      "type": "radio",
+      "orderNum": 2,
+      "options": [
+        {
+          "id": 8752,
+          "optionNo": "A",
+          "text": "非常重要",
+          "value": "5"
+        },
+        {
+          "id": 8753,
+          "optionNo": "B",
+          "text": "比较重要",
+          "value": "4"
+        },
+        {
+          "id": 8754,
+          "optionNo": "C",
+          "text": "一般",
+          "value": "3"
+        },
+        {
+          "id": 8755,
+          "optionNo": "D",
+          "text": "较不重要",
+          "value": "2"
+        },
+        {
+          "id": 8756,
+          "optionNo": "E",
+          "text": "很不重要",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 2173,
+      "text": "你的工作奖金很高。",
+      "type": "radio",
+      "orderNum": 3,
+      "options": [
+        {
+          "id": 8757,
+          "optionNo": "A",
+          "text": "非常重要",
+          "value": "5"
+        },
+        {
+          "id": 8758,
+          "optionNo": "B",
+          "text": "比较重要",
+          "value": "4"
+        },
+        {
+          "id": 8759,
+          "optionNo": "C",
+          "text": "一般",
+          "value": "3"
+        },
+        {
+          "id": 8760,
+          "optionNo": "D",
+          "text": "较不重要",
+          "value": "2"
+        },
+        {
+          "id": 8761,
+          "optionNo": "E",
+          "text": "很不重要",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 2174,
+      "text": "你的工作内容经常变换。",
+      "type": "radio",
+      "orderNum": 4,
+      "options": [
+        {
+          "id": 8762,
+          "optionNo": "A",
+          "text": "非常重要",
+          "value": "5"
+        },
+        {
+          "id": 8763,
+          "optionNo": "B",
+          "text": "比较重要",
+          "value": "4"
+        },
+        {
+          "id": 8764,
+          "optionNo": "C",
+          "text": "一般",
+          "value": "3"
+        },
+        {
+          "id": 8765,
+          "optionNo": "D",
+          "text": "较不重要",
+          "value": "2"
+        },
+        {
+          "id": 8766,
+          "optionNo": "E",
+          "text": "很不重要",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 2175,
+      "text": "你能在你的工作范围内自由发挥。",
+      "type": "radio",
+      "orderNum": 5,
+      "options": [
+        {
+          "id": 8767,
+          "optionNo": "A",
+          "text": "非常重要",
+          "value": "5"
+        },
+        {
+          "id": 8768,
+          "optionNo": "B",
+          "text": "比较重要",
+          "value": "4"
+        },
+        {
+          "id": 8769,
+          "optionNo": "C",
+          "text": "一般",
+          "value": "3"
+        },
+        {
+          "id": 8770,
+          "optionNo": "D",
+          "text": "较不重要",
+          "value": "2"
+        },
+        {
+          "id": 8771,
+          "optionNo": "E",
+          "text": "很不重要",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 2176,
+      "text": "你的工作能使你的朋友非常羡慕你。",
+      "type": "radio",
+      "orderNum": 6,
+      "options": [
+        {
+          "id": 8772,
+          "optionNo": "A",
+          "text": "非常重要",
+          "value": "5"
+        },
+        {
+          "id": 8773,
+          "optionNo": "B",
+          "text": "比较重要",
+          "value": "4"
+        },
+        {
+          "id": 8774,
+          "optionNo": "C",
+          "text": "一般",
+          "value": "3"
+        },
+        {
+          "id": 8775,
+          "optionNo": "D",
+          "text": "较不重要",
+          "value": "2"
+        },
+        {
+          "id": 8776,
+          "optionNo": "E",
+          "text": "很不重要",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 2177,
+      "text": "你的工作带有艺术性。",
+      "type": "radio",
+      "orderNum": 7,
+      "options": [
+        {
+          "id": 8777,
+          "optionNo": "A",
+          "text": "非常重要",
+          "value": "5"
+        },
+        {
+          "id": 8778,
+          "optionNo": "B",
+          "text": "比较重要",
+          "value": "4"
+        },
+        {
+          "id": 8779,
+          "optionNo": "C",
+          "text": "一般",
+          "value": "3"
+        },
+        {
+          "id": 8780,
+          "optionNo": "D",
+          "text": "较不重要",
+          "value": "2"
+        },
+        {
+          "id": 8781,
+          "optionNo": "E",
+          "text": "很不重要",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 2178,
+      "text": "你的工作能使人感觉到你是团体中的一份子。",
+      "type": "radio",
+      "orderNum": 8,
+      "options": [
+        {
+          "id": 8782,
+          "optionNo": "A",
+          "text": "非常重要",
+          "value": "5"
+        },
+        {
+          "id": 8783,
+          "optionNo": "B",
+          "text": "比较重要",
+          "value": "4"
+        },
+        {
+          "id": 8784,
+          "optionNo": "C",
+          "text": "一般",
+          "value": "3"
+        },
+        {
+          "id": 8785,
+          "optionNo": "D",
+          "text": "较不重要",
+          "value": "2"
+        },
+        {
+          "id": 8786,
+          "optionNo": "E",
+          "text": "很不重要",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 2179,
+      "text": "不论你怎么干，你总能和大多数人一样晋级和加工资。",
+      "type": "radio",
+      "orderNum": 9,
+      "options": [
+        {
+          "id": 8787,
+          "optionNo": "A",
+          "text": "非常重要",
+          "value": "5"
+        },
+        {
+          "id": 8788,
+          "optionNo": "B",
+          "text": "比较重要",
+          "value": "4"
+        },
+        {
+          "id": 8789,
+          "optionNo": "C",
+          "text": "一般",
+          "value": "3"
+        },
+        {
+          "id": 8790,
+          "optionNo": "D",
+          "text": "较不重要",
+          "value": "2"
+        },
+        {
+          "id": 8791,
+          "optionNo": "E",
+          "text": "很不重要",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 2180,
+      "text": "你的工作使你有可能经常变换工作地点、工作场所或工作方式。",
+      "type": "radio",
+      "orderNum": 10,
+      "options": [
+        {
+          "id": 8792,
+          "optionNo": "A",
+          "text": "非常重要",
+          "value": "5"
+        },
+        {
+          "id": 8793,
+          "optionNo": "B",
+          "text": "比较重要",
+          "value": "4"
+        },
+        {
+          "id": 8794,
+          "optionNo": "C",
+          "text": "一般",
+          "value": "3"
+        },
+        {
+          "id": 8795,
+          "optionNo": "D",
+          "text": "较不重要",
+          "value": "2"
+        },
+        {
+          "id": 8796,
+          "optionNo": "E",
+          "text": "很不重要",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 2181,
+      "text": "在工作中你能接触到各种不同的人。",
+      "type": "radio",
+      "orderNum": 11,
+      "options": [
+        {
+          "id": 8797,
+          "optionNo": "A",
+          "text": "非常重要",
+          "value": "5"
+        },
+        {
+          "id": 8798,
+          "optionNo": "B",
+          "text": "比较重要",
+          "value": "4"
+        },
+        {
+          "id": 8799,
+          "optionNo": "C",
+          "text": "一般",
+          "value": "3"
+        },
+        {
+          "id": 8800,
+          "optionNo": "D",
+          "text": "较不重要",
+          "value": "2"
+        },
+        {
+          "id": 8801,
+          "optionNo": "E",
+          "text": "很不重要",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 2182,
+      "text": "你的工作上下班时间比较随便，自由。",
+      "type": "radio",
+      "orderNum": 12,
+      "options": [
+        {
+          "id": 8802,
+          "optionNo": "A",
+          "text": "非常重要",
+          "value": "5"
+        },
+        {
+          "id": 8803,
+          "optionNo": "B",
+          "text": "比较重要",
+          "value": "4"
+        },
+        {
+          "id": 8804,
+          "optionNo": "C",
+          "text": "一般",
+          "value": "3"
+        },
+        {
+          "id": 8805,
+          "optionNo": "D",
+          "text": "较不重要",
+          "value": "2"
+        },
+        {
+          "id": 8806,
+          "optionNo": "E",
+          "text": "很不重要",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 2183,
+      "text": "你的工作使你不断获得成功的感觉。",
+      "type": "radio",
+      "orderNum": 13,
+      "options": [
+        {
+          "id": 8807,
+          "optionNo": "A",
+          "text": "非常重要",
+          "value": "5"
+        },
+        {
+          "id": 8808,
+          "optionNo": "B",
+          "text": "比较重要",
+          "value": "4"
+        },
+        {
+          "id": 8809,
+          "optionNo": "C",
+          "text": "一般",
+          "value": "3"
+        },
+        {
+          "id": 8810,
+          "optionNo": "D",
+          "text": "较不重要",
+          "value": "2"
+        },
+        {
+          "id": 8811,
+          "optionNo": "E",
+          "text": "很不重要",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 2184,
+      "text": "你的工作赋予你高于别人的权力。",
+      "type": "radio",
+      "orderNum": 14,
+      "options": [
+        {
+          "id": 8812,
+          "optionNo": "A",
+          "text": "非常重要",
+          "value": "5"
+        },
+        {
+          "id": 8813,
+          "optionNo": "B",
+          "text": "比较重要",
+          "value": "4"
+        },
+        {
+          "id": 8814,
+          "optionNo": "C",
+          "text": "一般",
+          "value": "3"
+        },
+        {
+          "id": 8815,
+          "optionNo": "D",
+          "text": "较不重要",
+          "value": "2"
+        },
+        {
+          "id": 8816,
+          "optionNo": "E",
+          "text": "很不重要",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 2185,
+      "text": "在工作中，你能试行一些你的新想法。",
+      "type": "radio",
+      "orderNum": 15,
+      "options": [
+        {
+          "id": 8817,
+          "optionNo": "A",
+          "text": "非常重要",
+          "value": "5"
+        },
+        {
+          "id": 8818,
+          "optionNo": "B",
+          "text": "比较重要",
+          "value": "4"
+        },
+        {
+          "id": 8819,
+          "optionNo": "C",
+          "text": "一般",
+          "value": "3"
+        },
+        {
+          "id": 8820,
+          "optionNo": "D",
+          "text": "较不重要",
+          "value": "2"
+        },
+        {
+          "id": 8821,
+          "optionNo": "E",
+          "text": "很不重要",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 2186,
+      "text": "在工作中你不会因为身体或能力等因素，被人瞧不起。",
+      "type": "radio",
+      "orderNum": 16,
+      "options": [
+        {
+          "id": 8822,
+          "optionNo": "A",
+          "text": "非常重要",
+          "value": "5"
+        },
+        {
+          "id": 8823,
+          "optionNo": "B",
+          "text": "比较重要",
+          "value": "4"
+        },
+        {
+          "id": 8824,
+          "optionNo": "C",
+          "text": "一般",
+          "value": "3"
+        },
+        {
+          "id": 8825,
+          "optionNo": "D",
+          "text": "较不重要",
+          "value": "2"
+        },
+        {
+          "id": 8826,
+          "optionNo": "E",
+          "text": "很不重要",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 2187,
+      "text": "你能从工作的成果中，知道自己做得不错。",
+      "type": "radio",
+      "orderNum": 17,
+      "options": [
+        {
+          "id": 8827,
+          "optionNo": "A",
+          "text": "非常重要",
+          "value": "5"
+        },
+        {
+          "id": 8828,
+          "optionNo": "B",
+          "text": "比较重要",
+          "value": "4"
+        },
+        {
+          "id": 8829,
+          "optionNo": "C",
+          "text": "一般",
+          "value": "3"
+        },
+        {
+          "id": 8830,
+          "optionNo": "D",
+          "text": "较不重要",
+          "value": "2"
+        },
+        {
+          "id": 8831,
+          "optionNo": "E",
+          "text": "很不重要",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 2188,
+      "text": "你的工作经常要外出、参加各种集会和活动。",
+      "type": "radio",
+      "orderNum": 18,
+      "options": [
+        {
+          "id": 8832,
+          "optionNo": "A",
+          "text": "非常重要",
+          "value": "5"
+        },
+        {
+          "id": 8833,
+          "optionNo": "B",
+          "text": "比较重要",
+          "value": "4"
+        },
+        {
+          "id": 8834,
+          "optionNo": "C",
+          "text": "一般",
+          "value": "3"
+        },
+        {
+          "id": 8835,
+          "optionNo": "D",
+          "text": "较不重要",
+          "value": "2"
+        },
+        {
+          "id": 8836,
+          "optionNo": "E",
+          "text": "很不重要",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 2189,
+      "text": "只要你干上这份工作，就不再被调到其他意想不到的单位和工种上去。",
+      "type": "radio",
+      "orderNum": 19,
+      "options": [
+        {
+          "id": 8837,
+          "optionNo": "A",
+          "text": "非常重要",
+          "value": "5"
+        },
+        {
+          "id": 8838,
+          "optionNo": "B",
+          "text": "比较重要",
+          "value": "4"
+        },
+        {
+          "id": 8839,
+          "optionNo": "C",
+          "text": "一般",
+          "value": "3"
+        },
+        {
+          "id": 8840,
+          "optionNo": "D",
+          "text": "较不重要",
+          "value": "2"
+        },
+        {
+          "id": 8841,
+          "optionNo": "E",
+          "text": "很不重要",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 2190,
+      "text": "你的工作能使世界更美丽。",
+      "type": "radio",
+      "orderNum": 20,
+      "options": [
+        {
+          "id": 8842,
+          "optionNo": "A",
+          "text": "非常重要",
+          "value": "5"
+        },
+        {
+          "id": 8843,
+          "optionNo": "B",
+          "text": "比较重要",
+          "value": "4"
+        },
+        {
+          "id": 8844,
+          "optionNo": "C",
+          "text": "一般",
+          "value": "3"
+        },
+        {
+          "id": 8845,
+          "optionNo": "D",
+          "text": "较不重要",
+          "value": "2"
+        },
+        {
+          "id": 8846,
+          "optionNo": "E",
+          "text": "很不重要",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 2191,
+      "text": "在你的工作中，不会有人常来打扰你。",
+      "type": "radio",
+      "orderNum": 21,
+      "options": [
+        {
+          "id": 8847,
+          "optionNo": "A",
+          "text": "非常重要",
+          "value": "5"
+        },
+        {
+          "id": 8848,
+          "optionNo": "B",
+          "text": "比较重要",
+          "value": "4"
+        },
+        {
+          "id": 8849,
+          "optionNo": "C",
+          "text": "一般",
+          "value": "3"
+        },
+        {
+          "id": 8850,
+          "optionNo": "D",
+          "text": "较不重要",
+          "value": "2"
+        },
+        {
+          "id": 8851,
+          "optionNo": "E",
+          "text": "很不重要",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 2192,
+      "text": "只要努力，你的工资会高于其他同年龄的人，升级或涨工资的可能性比干其他工作大得多。",
+      "type": "radio",
+      "orderNum": 22,
+      "options": [
+        {
+          "id": 8852,
+          "optionNo": "A",
+          "text": "非常重要",
+          "value": "5"
+        },
+        {
+          "id": 8853,
+          "optionNo": "B",
+          "text": "比较重要",
+          "value": "4"
+        },
+        {
+          "id": 8854,
+          "optionNo": "C",
+          "text": "一般",
+          "value": "3"
+        },
+        {
+          "id": 8855,
+          "optionNo": "D",
+          "text": "较不重要",
+          "value": "2"
+        },
+        {
+          "id": 8856,
+          "optionNo": "E",
+          "text": "很不重要",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 2193,
+      "text": "你的工作是一项对智力的挑战。",
+      "type": "radio",
+      "orderNum": 23,
+      "options": [
+        {
+          "id": 8857,
+          "optionNo": "A",
+          "text": "非常重要",
+          "value": "5"
+        },
+        {
+          "id": 8858,
+          "optionNo": "B",
+          "text": "比较重要",
+          "value": "4"
+        },
+        {
+          "id": 8859,
+          "optionNo": "C",
+          "text": "一般",
+          "value": "3"
+        },
+        {
+          "id": 8860,
+          "optionNo": "D",
+          "text": "较不重要",
+          "value": "2"
+        },
+        {
+          "id": 8861,
+          "optionNo": "E",
+          "text": "很不重要",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 2194,
+      "text": "你的工作要求你把一切事情安排得井井有条。",
+      "type": "radio",
+      "orderNum": 24,
+      "options": [
+        {
+          "id": 8862,
+          "optionNo": "A",
+          "text": "非常重要",
+          "value": "5"
+        },
+        {
+          "id": 8863,
+          "optionNo": "B",
+          "text": "比较重要",
+          "value": "4"
+        },
+        {
+          "id": 8864,
+          "optionNo": "C",
+          "text": "一般",
+          "value": "3"
+        },
+        {
+          "id": 8865,
+          "optionNo": "D",
+          "text": "较不重要",
+          "value": "2"
+        },
+        {
+          "id": 8866,
+          "optionNo": "E",
+          "text": "很不重要",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 2195,
+      "text": "你的工作单位有舒适的休息室、更衣室、浴室及其他设备。",
+      "type": "radio",
+      "orderNum": 25,
+      "options": [
+        {
+          "id": 8867,
+          "optionNo": "A",
+          "text": "非常重要",
+          "value": "5"
+        },
+        {
+          "id": 8868,
+          "optionNo": "B",
+          "text": "比较重要",
+          "value": "4"
+        },
+        {
+          "id": 8869,
+          "optionNo": "C",
+          "text": "一般",
+          "value": "3"
+        },
+        {
+          "id": 8870,
+          "optionNo": "D",
+          "text": "较不重要",
+          "value": "2"
+        },
+        {
+          "id": 8871,
+          "optionNo": "E",
+          "text": "很不重要",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 2196,
+      "text": "你的工作有可能结识各行各业的知名人物。",
+      "type": "radio",
+      "orderNum": 26,
+      "options": [
+        {
+          "id": 8872,
+          "optionNo": "A",
+          "text": "非常重要",
+          "value": "5"
+        },
+        {
+          "id": 8873,
+          "optionNo": "B",
+          "text": "比较重要",
+          "value": "4"
+        },
+        {
+          "id": 8874,
+          "optionNo": "C",
+          "text": "一般",
+          "value": "3"
+        },
+        {
+          "id": 8875,
+          "optionNo": "D",
+          "text": "较不重要",
+          "value": "2"
+        },
+        {
+          "id": 8876,
+          "optionNo": "E",
+          "text": "很不重要",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 2197,
+      "text": "在你的工作中，能和同事建立良好的关系。",
+      "type": "radio",
+      "orderNum": 27,
+      "options": [
+        {
+          "id": 8877,
+          "optionNo": "A",
+          "text": "非常重要",
+          "value": "5"
+        },
+        {
+          "id": 8878,
+          "optionNo": "B",
+          "text": "比较重要",
+          "value": "4"
+        },
+        {
+          "id": 8879,
+          "optionNo": "C",
+          "text": "一般",
+          "value": "3"
+        },
+        {
+          "id": 8880,
+          "optionNo": "D",
+          "text": "较不重要",
+          "value": "2"
+        },
+        {
+          "id": 8881,
+          "optionNo": "E",
+          "text": "很不重要",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 2198,
+      "text": "在别人眼中，你的工作是很重要的。",
+      "type": "radio",
+      "orderNum": 28,
+      "options": [
+        {
+          "id": 8882,
+          "optionNo": "A",
+          "text": "非常重要",
+          "value": "5"
+        },
+        {
+          "id": 8883,
+          "optionNo": "B",
+          "text": "比较重要",
+          "value": "4"
+        },
+        {
+          "id": 8884,
+          "optionNo": "C",
+          "text": "一般",
+          "value": "3"
+        },
+        {
+          "id": 8885,
+          "optionNo": "D",
+          "text": "较不重要",
+          "value": "2"
+        },
+        {
+          "id": 8886,
+          "optionNo": "E",
+          "text": "很不重要",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 2199,
+      "text": "在工作中你经常接触到新鲜的事物。",
+      "type": "radio",
+      "orderNum": 29,
+      "options": [
+        {
+          "id": 8887,
+          "optionNo": "A",
+          "text": "非常重要",
+          "value": "5"
+        },
+        {
+          "id": 8888,
+          "optionNo": "B",
+          "text": "比较重要",
+          "value": "4"
+        },
+        {
+          "id": 8889,
+          "optionNo": "C",
+          "text": "一般",
+          "value": "3"
+        },
+        {
+          "id": 8890,
+          "optionNo": "D",
+          "text": "较不重要",
+          "value": "2"
+        },
+        {
+          "id": 8891,
+          "optionNo": "E",
+          "text": "很不重要",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 2200,
+      "text": "你的工作使你能常常帮助别人。",
+      "type": "radio",
+      "orderNum": 30,
+      "options": [
+        {
+          "id": 8892,
+          "optionNo": "A",
+          "text": "非常重要",
+          "value": "5"
+        },
+        {
+          "id": 8893,
+          "optionNo": "B",
+          "text": "比较重要",
+          "value": "4"
+        },
+        {
+          "id": 8894,
+          "optionNo": "C",
+          "text": "一般",
+          "value": "3"
+        },
+        {
+          "id": 8895,
+          "optionNo": "D",
+          "text": "较不重要",
+          "value": "2"
+        },
+        {
+          "id": 8896,
+          "optionNo": "E",
+          "text": "很不重要",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 2201,
+      "text": "你在工作单位中，有可能经常变换工作。",
+      "type": "radio",
+      "orderNum": 31,
+      "options": [
+        {
+          "id": 8897,
+          "optionNo": "A",
+          "text": "非常重要",
+          "value": "5"
+        },
+        {
+          "id": 8898,
+          "optionNo": "B",
+          "text": "比较重要",
+          "value": "4"
+        },
+        {
+          "id": 8899,
+          "optionNo": "C",
+          "text": "一般",
+          "value": "3"
+        },
+        {
+          "id": 8900,
+          "optionNo": "D",
+          "text": "较不重要",
+          "value": "2"
+        },
+        {
+          "id": 8901,
+          "optionNo": "E",
+          "text": "很不重要",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 2202,
+      "text": "你的作风使你被别人尊重。",
+      "type": "radio",
+      "orderNum": 32,
+      "options": [
+        {
+          "id": 8902,
+          "optionNo": "A",
+          "text": "非常重要",
+          "value": "5"
+        },
+        {
+          "id": 8903,
+          "optionNo": "B",
+          "text": "比较重要",
+          "value": "4"
+        },
+        {
+          "id": 8904,
+          "optionNo": "C",
+          "text": "一般",
+          "value": "3"
+        },
+        {
+          "id": 8905,
+          "optionNo": "D",
+          "text": "较不重要",
+          "value": "2"
+        },
+        {
+          "id": 8906,
+          "optionNo": "E",
+          "text": "很不重要",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 2203,
+      "text": "同事和领导人品较好，相处比较随便。",
+      "type": "radio",
+      "orderNum": 33,
+      "options": [
+        {
+          "id": 8907,
+          "optionNo": "A",
+          "text": "非常重要",
+          "value": "5"
+        },
+        {
+          "id": 8908,
+          "optionNo": "B",
+          "text": "比较重要",
+          "value": "4"
+        },
+        {
+          "id": 8909,
+          "optionNo": "C",
+          "text": "一般",
+          "value": "3"
+        },
+        {
+          "id": 8910,
+          "optionNo": "D",
+          "text": "较不重要",
+          "value": "2"
+        },
+        {
+          "id": 8911,
+          "optionNo": "E",
+          "text": "很不重要",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 2204,
+      "text": "你的工作会使许多人认识你。",
+      "type": "radio",
+      "orderNum": 34,
+      "options": [
+        {
+          "id": 8912,
+          "optionNo": "A",
+          "text": "非常重要",
+          "value": "5"
+        },
+        {
+          "id": 8913,
+          "optionNo": "B",
+          "text": "比较重要",
+          "value": "4"
+        },
+        {
+          "id": 8914,
+          "optionNo": "C",
+          "text": "一般",
+          "value": "3"
+        },
+        {
+          "id": 8915,
+          "optionNo": "D",
+          "text": "较不重要",
+          "value": "2"
+        },
+        {
+          "id": 8916,
+          "optionNo": "E",
+          "text": "很不重要",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 2205,
+      "text": "你的工作场所很好，比如有适度的灯光，安静、清洁的工作环境，甚至恒温、恒湿等优越的条件。",
+      "type": "radio",
+      "orderNum": 35,
+      "options": [
+        {
+          "id": 8917,
+          "optionNo": "A",
+          "text": "非常重要",
+          "value": "5"
+        },
+        {
+          "id": 8918,
+          "optionNo": "B",
+          "text": "比较重要",
+          "value": "4"
+        },
+        {
+          "id": 8919,
+          "optionNo": "C",
+          "text": "一般",
+          "value": "3"
+        },
+        {
+          "id": 8920,
+          "optionNo": "D",
+          "text": "较不重要",
+          "value": "2"
+        },
+        {
+          "id": 8921,
+          "optionNo": "E",
+          "text": "很不重要",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 2206,
+      "text": "在工作中，你为他人服务，使他人感到很满意，你自己也很高兴。",
+      "type": "radio",
+      "orderNum": 36,
+      "options": [
+        {
+          "id": 8922,
+          "optionNo": "A",
+          "text": "非常重要",
+          "value": "5"
+        },
+        {
+          "id": 8923,
+          "optionNo": "B",
+          "text": "比较重要",
+          "value": "4"
+        },
+        {
+          "id": 8924,
+          "optionNo": "C",
+          "text": "一般",
+          "value": "3"
+        },
+        {
+          "id": 8925,
+          "optionNo": "D",
+          "text": "较不重要",
+          "value": "2"
+        },
+        {
+          "id": 8926,
+          "optionNo": "E",
+          "text": "很不重要",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 2207,
+      "text": "你的工作需要组织和计划别人的工作。",
+      "type": "radio",
+      "orderNum": 37,
+      "options": [
+        {
+          "id": 8927,
+          "optionNo": "A",
+          "text": "非常重要",
+          "value": "5"
+        },
+        {
+          "id": 8928,
+          "optionNo": "B",
+          "text": "比较重要",
+          "value": "4"
+        },
+        {
+          "id": 8929,
+          "optionNo": "C",
+          "text": "一般",
+          "value": "3"
+        },
+        {
+          "id": 8930,
+          "optionNo": "D",
+          "text": "较不重要",
+          "value": "2"
+        },
+        {
+          "id": 8931,
+          "optionNo": "E",
+          "text": "很不重要",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 2208,
+      "text": "你的工作需要敏锐的思考。",
+      "type": "radio",
+      "orderNum": 38,
+      "options": [
+        {
+          "id": 8932,
+          "optionNo": "A",
+          "text": "非常重要",
+          "value": "5"
+        },
+        {
+          "id": 8933,
+          "optionNo": "B",
+          "text": "比较重要",
+          "value": "4"
+        },
+        {
+          "id": 8934,
+          "optionNo": "C",
+          "text": "一般",
+          "value": "3"
+        },
+        {
+          "id": 8935,
+          "optionNo": "D",
+          "text": "较不重要",
+          "value": "2"
+        },
+        {
+          "id": 8936,
+          "optionNo": "E",
+          "text": "很不重要",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 2209,
+      "text": "你的工作可以使你获得较多的额外收入，比如：常发实物、常购买打折扣的商品、常发商品的提货券、有机会购买进口货等。",
+      "type": "radio",
+      "orderNum": 39,
+      "options": [
+        {
+          "id": 8937,
+          "optionNo": "A",
+          "text": "非常重要",
+          "value": "5"
+        },
+        {
+          "id": 8938,
+          "optionNo": "B",
+          "text": "比较重要",
+          "value": "4"
+        },
+        {
+          "id": 8939,
+          "optionNo": "C",
+          "text": "一般",
+          "value": "3"
+        },
+        {
+          "id": 8940,
+          "optionNo": "D",
+          "text": "较不重要",
+          "value": "2"
+        },
+        {
+          "id": 8941,
+          "optionNo": "E",
+          "text": "很不重要",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 2210,
+      "text": "在工作中你是不受别人差遣的。",
+      "type": "radio",
+      "orderNum": 40,
+      "options": [
+        {
+          "id": 8942,
+          "optionNo": "A",
+          "text": "非常重要",
+          "value": "5"
+        },
+        {
+          "id": 8943,
+          "optionNo": "B",
+          "text": "比较重要",
+          "value": "4"
+        },
+        {
+          "id": 8944,
+          "optionNo": "C",
+          "text": "一般",
+          "value": "3"
+        },
+        {
+          "id": 8945,
+          "optionNo": "D",
+          "text": "较不重要",
+          "value": "2"
+        },
+        {
+          "id": 8946,
+          "optionNo": "E",
+          "text": "很不重要",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 2211,
+      "text": "你的工作结果应该是一种艺术而不是一般的产品。",
+      "type": "radio",
+      "orderNum": 41,
+      "options": [
+        {
+          "id": 8947,
+          "optionNo": "A",
+          "text": "非常重要",
+          "value": "5"
+        },
+        {
+          "id": 8948,
+          "optionNo": "B",
+          "text": "比较重要",
+          "value": "4"
+        },
+        {
+          "id": 8949,
+          "optionNo": "C",
+          "text": "一般",
+          "value": "3"
+        },
+        {
+          "id": 8950,
+          "optionNo": "D",
+          "text": "较不重要",
+          "value": "2"
+        },
+        {
+          "id": 8951,
+          "optionNo": "E",
+          "text": "很不重要",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 2212,
+      "text": "在工作中不必担心会因为所做的事情领导不满意，而受到训斥或经济惩罚。",
+      "type": "radio",
+      "orderNum": 42,
+      "options": [
+        {
+          "id": 8952,
+          "optionNo": "A",
+          "text": "非常重要",
+          "value": "5"
+        },
+        {
+          "id": 8953,
+          "optionNo": "B",
+          "text": "比较重要",
+          "value": "4"
+        },
+        {
+          "id": 8954,
+          "optionNo": "C",
+          "text": "一般",
+          "value": "3"
+        },
+        {
+          "id": 8955,
+          "optionNo": "D",
+          "text": "较不重要",
+          "value": "2"
+        },
+        {
+          "id": 8956,
+          "optionNo": "E",
+          "text": "很不重要",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 2213,
+      "text": "在你的工作中能和领导有融洽的关系。",
+      "type": "radio",
+      "orderNum": 43,
+      "options": [
+        {
+          "id": 8957,
+          "optionNo": "A",
+          "text": "非常重要",
+          "value": "5"
+        },
+        {
+          "id": 8958,
+          "optionNo": "B",
+          "text": "比较重要",
+          "value": "4"
+        },
+        {
+          "id": 8959,
+          "optionNo": "C",
+          "text": "一般",
+          "value": "3"
+        },
+        {
+          "id": 8960,
+          "optionNo": "D",
+          "text": "较不重要",
+          "value": "2"
+        },
+        {
+          "id": 8961,
+          "optionNo": "E",
+          "text": "很不重要",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 2214,
+      "text": "你可以看见你的努力工作的成果。",
+      "type": "radio",
+      "orderNum": 44,
+      "options": [
+        {
+          "id": 8962,
+          "optionNo": "A",
+          "text": "非常重要",
+          "value": "5"
+        },
+        {
+          "id": 8963,
+          "optionNo": "B",
+          "text": "比较重要",
+          "value": "4"
+        },
+        {
+          "id": 8964,
+          "optionNo": "C",
+          "text": "一般",
+          "value": "3"
+        },
+        {
+          "id": 8965,
+          "optionNo": "D",
+          "text": "较不重要",
+          "value": "2"
+        },
+        {
+          "id": 8966,
+          "optionNo": "E",
+          "text": "很不重要",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 2215,
+      "text": "在工作中常常要你提出许多新的想法。",
+      "type": "radio",
+      "orderNum": 45,
+      "options": [
+        {
+          "id": 8967,
+          "optionNo": "A",
+          "text": "非常重要",
+          "value": "5"
+        },
+        {
+          "id": 8968,
+          "optionNo": "B",
+          "text": "比较重要",
+          "value": "4"
+        },
+        {
+          "id": 8969,
+          "optionNo": "C",
+          "text": "一般",
+          "value": "3"
+        },
+        {
+          "id": 8970,
+          "optionNo": "D",
+          "text": "较不重要",
+          "value": "2"
+        },
+        {
+          "id": 8971,
+          "optionNo": "E",
+          "text": "很不重要",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 2216,
+      "text": "由于你的工作，经常有许多人来感谢你。",
+      "type": "radio",
+      "orderNum": 46,
+      "options": [
+        {
+          "id": 8972,
+          "optionNo": "A",
+          "text": "非常重要",
+          "value": "5"
+        },
+        {
+          "id": 8973,
+          "optionNo": "B",
+          "text": "比较重要",
+          "value": "4"
+        },
+        {
+          "id": 8974,
+          "optionNo": "C",
+          "text": "一般",
+          "value": "3"
+        },
+        {
+          "id": 8975,
+          "optionNo": "D",
+          "text": "较不重要",
+          "value": "2"
+        },
+        {
+          "id": 8976,
+          "optionNo": "E",
+          "text": "很不重要",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 2217,
+      "text": "你的工作成果常常能得到上级、同事或社会的肯定。",
+      "type": "radio",
+      "orderNum": 47,
+      "options": [
+        {
+          "id": 8977,
+          "optionNo": "A",
+          "text": "非常重要",
+          "value": "5"
+        },
+        {
+          "id": 8978,
+          "optionNo": "B",
+          "text": "比较重要",
+          "value": "4"
+        },
+        {
+          "id": 8979,
+          "optionNo": "C",
+          "text": "一般",
+          "value": "3"
+        },
+        {
+          "id": 8980,
+          "optionNo": "D",
+          "text": "较不重要",
+          "value": "2"
+        },
+        {
+          "id": 8981,
+          "optionNo": "E",
+          "text": "很不重要",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 2218,
+      "text": "在工作中，你可能做一个负责人，虽然可能只领导很少几个人，你信奉“宁做兵头，不做将尾\"的俗语。",
+      "type": "radio",
+      "orderNum": 48,
+      "options": [
+        {
+          "id": 8982,
+          "optionNo": "A",
+          "text": "非常重要",
+          "value": "5"
+        },
+        {
+          "id": 8983,
+          "optionNo": "B",
+          "text": "比较重要",
+          "value": "4"
+        },
+        {
+          "id": 8984,
+          "optionNo": "C",
+          "text": "一般",
+          "value": "3"
+        },
+        {
+          "id": 8985,
+          "optionNo": "D",
+          "text": "较不重要",
+          "value": "2"
+        },
+        {
+          "id": 8986,
+          "optionNo": "E",
+          "text": "很不重要",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 2219,
+      "text": "你从事的那种工作，经常在报刊、电视中被提到，因而在人们的心目中很有地位。",
+      "type": "radio",
+      "orderNum": 49,
+      "options": [
+        {
+          "id": 8987,
+          "optionNo": "A",
+          "text": "非常重要",
+          "value": "5"
+        },
+        {
+          "id": 8988,
+          "optionNo": "B",
+          "text": "比较重要",
+          "value": "4"
+        },
+        {
+          "id": 8989,
+          "optionNo": "C",
+          "text": "一般",
+          "value": "3"
+        },
+        {
+          "id": 8990,
+          "optionNo": "D",
+          "text": "较不重要",
+          "value": "2"
+        },
+        {
+          "id": 8991,
+          "optionNo": "E",
+          "text": "很不重要",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 2220,
+      "text": "你的工作有数量可观的夜班费、加班费、保健费或营养费等。",
+      "type": "radio",
+      "orderNum": 50,
+      "options": [
+        {
+          "id": 8992,
+          "optionNo": "A",
+          "text": "非常重要",
+          "value": "5"
+        },
+        {
+          "id": 8993,
+          "optionNo": "B",
+          "text": "比较重要",
+          "value": "4"
+        },
+        {
+          "id": 8994,
+          "optionNo": "C",
+          "text": "一般",
+          "value": "3"
+        },
+        {
+          "id": 8995,
+          "optionNo": "D",
+          "text": "较不重要",
+          "value": "2"
+        },
+        {
+          "id": 8996,
+          "optionNo": "E",
+          "text": "很不重要",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 2221,
+      "text": "你的工作比较轻松，精神上也不紧张。",
+      "type": "radio",
+      "orderNum": 51,
+      "options": [
+        {
+          "id": 8997,
+          "optionNo": "A",
+          "text": "非常重要",
+          "value": "5"
+        },
+        {
+          "id": 8998,
+          "optionNo": "B",
+          "text": "比较重要",
+          "value": "4"
+        },
+        {
+          "id": 8999,
+          "optionNo": "C",
+          "text": "一般",
+          "value": "3"
+        },
+        {
+          "id": 9000,
+          "optionNo": "D",
+          "text": "较不重要",
+          "value": "2"
+        },
+        {
+          "id": 9001,
+          "optionNo": "E",
+          "text": "很不重要",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 2222,
+      "text": "你的工作需要和影视、戏剧、音乐、美术、文学等艺术打交道。",
+      "type": "radio",
+      "orderNum": 52,
+      "options": [
+        {
+          "id": 9002,
+          "optionNo": "A",
+          "text": "非常重要",
+          "value": "5"
+        },
+        {
+          "id": 9003,
+          "optionNo": "B",
+          "text": "比较重要",
+          "value": "4"
+        },
+        {
+          "id": 9004,
+          "optionNo": "C",
+          "text": "一般",
+          "value": "3"
+        },
+        {
+          "id": 9005,
+          "optionNo": "D",
+          "text": "较不重要",
+          "value": "2"
+        },
+        {
+          "id": 9006,
+          "optionNo": "E",
+          "text": "很不重要",
+          "value": "1"
+        }
+      ]
+    }
+  ],
+  "dimensions": [
+    {
+      "id": 274,
+      "num": 1,
+      "dimensionName": "利他主义",
+      "dimensionCode": "A",
+      "evaluateExpression": "hx_t_2 + hx_t_30 + hx_t_36 + hx_t_46",
+      "standardScoreFormula": "0",
+      "results": [
+        {
+          "id": 542,
+          "evaluateExpression": "hx_wd_y_1 >= 4&& hx_wd_y_1 <= 20",
+          "conclusionAnalysis": "总是为他人着想，把直接为大众的幸福和利益尽一份力作为自己的追求。",
+          "suggestion": "得分高者，利他精神强，请继续保持。\n得分低者，说明其工作的目的和价值仅是为了个人的发展，建议其在日常工作和生活中，多关注他人的需要和处境。",
+          "assessmentWarning": "none"
+        }
+      ]
+    },
+    {
+      "id": 275,
+      "num": 2,
+      "dimensionName": "美德",
+      "dimensionCode": "B",
+      "evaluateExpression": "hx_t_7 + hx_t_20 + hx_t_41 + hx_t_52",
+      "standardScoreFormula": "0",
+      "results": [
+        {
+          "id": 543,
+          "evaluateExpression": "hx_wd_y_2 >= 4&& hx_wd_y_2 <= 20",
+          "conclusionAnalysis": "能不断地追求美的东西，得到美感的享受。",
+          "suggestion": "得分高者，工作的目的和价值是为了追求美的东西。请继续保持。\n得分低者，说明其工作的目的和价值不是为了追求美的东西。建议其多接触美的东西，学会欣赏美，发现美。",
+          "assessmentWarning": "none"
+        }
+      ]
+    },
+    {
+      "id": 276,
+      "num": 3,
+      "dimensionName": "智力刺激",
+      "dimensionCode": "C",
+      "evaluateExpression": "hx_t_1 + hx_t_23 + hx_t_38 + hx_t_45",
+      "standardScoreFormula": "0",
+      "results": [
+        {
+          "id": 544,
+          "evaluateExpression": "hx_wd_y_3 >= 4&& hx_wd_y_3 <= 20",
+          "conclusionAnalysis": "不断进行智力开发、动脑思考、学习和探索新事物，解决新问题。",
+          "suggestion": "得分高者，说明工作的目的和价值是为了不断进行智力操作。\n得分低者，说明工作的目的和价值不是为了不断进行智力操作。建议其在生活中勤加思考，多问为什么。多接触新事物，提高解决问题能力。",
+          "assessmentWarning": "none"
+        }
+      ]
+    },
+    {
+      "id": 277,
+      "num": 4,
+      "dimensionName": "成就感",
+      "dimensionCode": "D",
+      "evaluateExpression": "hx_t_13 + hx_t_17 + hx_t_44 + hx_t_47",
+      "standardScoreFormula": "0",
+      "results": [
+        {
+          "id": 545,
+          "evaluateExpression": "hx_wd_y_4 >= 4&& hx_wd_y_4 <= 20",
+          "conclusionAnalysis": "不断创新、不断取得成就、不断得到领导和同事的赞扬或不断实现自己想要做的事。",
+          "suggestion": "得分低者，说明工作的目的和价值不是为了取得成就。建议其在生活或工作中，认真努力，从小事做起，尽量多地体验成功的感觉。",
+          "assessmentWarning": "none"
+        }
+      ]
+    },
+    {
+      "id": 278,
+      "num": 5,
+      "dimensionName": "独立性",
+      "dimensionCode": "E",
+      "evaluateExpression": "hx_t_5 + hx_t_15 + hx_t_21 + hx_t_40",
+      "standardScoreFormula": "0",
+      "results": [
+        {
+          "id": 546,
+          "evaluateExpression": "hx_wd_y_5 >= 4&& hx_wd_y_5 <= 20",
+          "conclusionAnalysis": "能够充分发挥自己的独立性和主动性，按自己的方式、想法去做，不受他人干扰。",
+          "suggestion": "得分低者，说明工作的目的和价值不是为了充分发挥自己的独立性。建议其培养独立解决问题的能力。无论是生活还是工作，相信自己的能力，按照自己的方式去做，不要受外界的干扰。",
+          "assessmentWarning": "none"
+        }
+      ]
+    },
+    {
+      "id": 279,
+      "num": 6,
+      "dimensionName": "社会地位",
+      "dimensionCode": "F",
+      "evaluateExpression": "hx_t_6 + hx_t_23 + hx_t_32 + hx_t_49",
+      "standardScoreFormula": "0",
+      "results": [
+        {
+          "id": 547,
+          "evaluateExpression": "hx_wd_y_6 >= 4&& hx_wd_y_6 <= 20",
+          "conclusionAnalysis": "所从事的工作在人们的心目中有较高的社会地位，从而使自己得到他人的重视与尊敬。",
+          "suggestion": "得分低者，说明工作的目的和价值不是为了取得人们心目中较高的社会地位。",
+          "assessmentWarning": "none"
+        }
+      ]
+    },
+    {
+      "id": 280,
+      "num": 7,
+      "dimensionName": "管理",
+      "dimensionCode": "G",
+      "evaluateExpression": "hx_t_14 + hx_t_24 + hx_t_37 + hx_t_48",
+      "standardScoreFormula": "0",
+      "results": [
+        {
+          "id": 548,
+          "evaluateExpression": "hx_wd_y_7 >= 4&& hx_wd_y_7 <= 20",
+          "conclusionAnalysis": "获得对他人或某事的管理权，能指挥和调遣一定范围内的人或事物。",
+          "suggestion": "得分低者，说明工作的目的和价值不在于获得对他人或某事物的管理支配权，但受测者在工作一段时间后应考虑到为将来晋升管理层做准备。",
+          "assessmentWarning": "none"
+        }
+      ]
+    },
+    {
+      "id": 281,
+      "num": 8,
+      "dimensionName": "经济报酬",
+      "dimensionCode": "H",
+      "evaluateExpression": "hx_t_3 + hx_t_22 + hx_t_39 + hx_t_50",
+      "standardScoreFormula": "0",
+      "results": [
+        {
+          "id": 549,
+          "evaluateExpression": "hx_wd_y_8 >= 4&& hx_wd_y_8 <= 20",
+          "conclusionAnalysis": "获得优厚的报酬，使自己有足够的财力去获得自己想要的东西，使生活过得较为富足。",
+          "suggestion": "得分低者，说明工作的目的和价值不在于获得优厚的报酬，一定的经济条件是高生活质量的保证，受测者应对此有理性的认识。",
+          "assessmentWarning": "none"
+        }
+      ]
+    },
+    {
+      "id": 282,
+      "num": 9,
+      "dimensionName": "社会交往",
+      "dimensionCode": "I",
+      "evaluateExpression": "hx_t_11 + hx_t_18 + hx_t_26 + hx_t_34",
+      "standardScoreFormula": "0",
+      "results": [
+        {
+          "id": 550,
+          "evaluateExpression": "hx_wd_y_9 >= 4&& hx_wd_y_9 <= 20",
+          "conclusionAnalysis": "能和各种人交往，建立比较广泛的社会联系和关系，甚至能和知名人物结识。",
+          "suggestion": "得分低者，说明工作的目的和价值不在于能和各种人交往，但人际交往和社会关系是工作中不可缺少的一部分，受测者对此应有客观的认识。",
+          "assessmentWarning": "none"
+        }
+      ]
+    },
+    {
+      "id": 283,
+      "num": 10,
+      "dimensionName": "安全感",
+      "dimensionCode": "J",
+      "evaluateExpression": "hx_t_9 + hx_t_16 + hx_t_19 + hx_t_42",
+      "standardScoreFormula": "0",
+      "results": [
+        {
+          "id": 551,
+          "evaluateExpression": "hx_wd_y_10 >= 4&& hx_wd_y_10 <= 20",
+          "conclusionAnalysis": "希望不管自己能力怎样，在工作中要有一个安稳的局面，不会因为奖金、加资、调动工作或领导训斥等而经常提心吊胆、心烦意乱。",
+          "suggestion": "得分低者，说明工作的目的和价值不在于获得一份安稳的局面，但受测者应理性地认识到稳定的工作环境对职业发展的作用。",
+          "assessmentWarning": "none"
+        }
+      ]
+    },
+    {
+      "id": 284,
+      "num": 11,
+      "dimensionName": "舒适",
+      "dimensionCode": "K",
+      "evaluateExpression": "hx_t_12 + hx_t_25 + hx_t_35 + hx_t_51",
+      "standardScoreFormula": "0",
+      "results": [
+        {
+          "id": 552,
+          "evaluateExpression": "hx_wd_y_11 >= 4&& hx_wd_y_11 <= 20",
+          "conclusionAnalysis": "希望将工作作为一种消遣、休息或享受的形式，追求比较舒适、轻松、自由、优越的工作条件和环境。",
+          "suggestion": "得分低者，说明工作的目的和价值并不是希望得到休息或享受。而工作是成人生活重要的组成部分，适当的放松和休息对个人健康及工作效率是非常重要的。",
+          "assessmentWarning": "none"
+        }
+      ]
+    },
+    {
+      "id": 285,
+      "num": 12,
+      "dimensionName": "人际关系",
+      "dimensionCode": "L",
+      "evaluateExpression": "hx_t_8 + hx_t_27 + hx_t_33 + hx_t_43",
+      "standardScoreFormula": "0",
+      "results": [
+        {
+          "id": 553,
+          "evaluateExpression": "hx_wd_y_12 >= 4&& hx_wd_y_12 <= 20",
+          "conclusionAnalysis": "希望一起工作的大多数同事和领导人品好，相处在一起感到愉快、自然。",
+          "suggestion": "得分低者，说明工作的目的和价值并不在于一起工作的同事或领导的人品好坏，但工作伙伴是工作环境的重要组成部分，建议其增强对工作伙伴的关注和重视。",
+          "assessmentWarning": "none"
+        }
+      ]
+    },
+    {
+      "id": 286,
+      "num": 13,
+      "dimensionName": "变异性",
+      "dimensionCode": "M",
+      "evaluateExpression": "hx_t_4 + hx_t_10 + hx_t_29 + hx_t_31",
+      "standardScoreFormula": "0",
+      "results": [
+        {
+          "id": 554,
+          "evaluateExpression": "hx_wd_y_13 >= 4&& hx_wd_y_13 <= 20",
+          "conclusionAnalysis": "希望工作的内容经常变换，使工作和生活显得丰富多彩，不单调枯燥。",
+          "suggestion": "得分低者，说明工作的目的和价值并不在于新奇有趣、丰富多彩，但长期从事单一的工作不利于职业的发展，建议其在工作中主动寻求挑战和创新。",
+          "assessmentWarning": "none"
+        }
+      ]
+    }
+  ]
+}

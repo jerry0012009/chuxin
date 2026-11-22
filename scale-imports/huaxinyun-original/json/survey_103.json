@@ -1,0 +1,318 @@
+{
+  "id": 103,
+  "title": "生活满意度自测问卷(SWLS)",
+  "type": "basic",
+  "questions": [
+    {
+      "id": 2034,
+      "text": "在绝大多数方面，我的生活接近于理想状态。",
+      "type": "radio",
+      "orderNum": 1,
+      "options": [
+        {
+          "id": 8052,
+          "optionNo": "A",
+          "text": "完全不同意",
+          "value": "1"
+        },
+        {
+          "id": 8053,
+          "optionNo": "B",
+          "text": "不同意",
+          "value": "2"
+        },
+        {
+          "id": 8054,
+          "optionNo": "C",
+          "text": "有点不同意",
+          "value": "3"
+        },
+        {
+          "id": 8055,
+          "optionNo": "D",
+          "text": "无所谓",
+          "value": "4"
+        },
+        {
+          "id": 8056,
+          "optionNo": "E",
+          "text": "有点同意",
+          "value": "5"
+        },
+        {
+          "id": 8057,
+          "optionNo": "F",
+          "text": "同意",
+          "value": "6"
+        },
+        {
+          "id": 8058,
+          "optionNo": "G",
+          "text": "非常同意",
+          "value": "7"
+        }
+      ]
+    },
+    {
+      "id": 2035,
+      "text": "我的生活条件非常好。",
+      "type": "radio",
+      "orderNum": 2,
+      "options": [
+        {
+          "id": 8059,
+          "optionNo": "A",
+          "text": "完全不同意",
+          "value": "1"
+        },
+        {
+          "id": 8060,
+          "optionNo": "B",
+          "text": "不同意",
+          "value": "2"
+        },
+        {
+          "id": 8061,
+          "optionNo": "C",
+          "text": "有点不同意",
+          "value": "3"
+        },
+        {
+          "id": 8062,
+          "optionNo": "D",
+          "text": "无所谓",
+          "value": "4"
+        },
+        {
+          "id": 8063,
+          "optionNo": "E",
+          "text": "有点同意",
+          "value": "5"
+        },
+        {
+          "id": 8064,
+          "optionNo": "F",
+          "text": "同意",
+          "value": "6"
+        },
+        {
+          "id": 8065,
+          "optionNo": "G",
+          "text": "非常同意",
+          "value": "7"
+        }
+      ]
+    },
+    {
+      "id": 2036,
+      "text": "我对自己的生活非常满意。",
+      "type": "radio",
+      "orderNum": 3,
+      "options": [
+        {
+          "id": 8066,
+          "optionNo": "A",
+          "text": "完全不同意",
+          "value": "1"
+        },
+        {
+          "id": 8067,
+          "optionNo": "B",
+          "text": "不同意",
+          "value": "2"
+        },
+        {
+          "id": 8068,
+          "optionNo": "C",
+          "text": "有点不同意",
+          "value": "3"
+        },
+        {
+          "id": 8069,
+          "optionNo": "D",
+          "text": "无所谓",
+          "value": "4"
+        },
+        {
+          "id": 8070,
+          "optionNo": "E",
+          "text": "有点同意",
+          "value": "5"
+        },
+        {
+          "id": 8071,
+          "optionNo": "F",
+          "text": "同意",
+          "value": "6"
+        },
+        {
+          "id": 8072,
+          "optionNo": "G",
+          "text": "非常同意",
+          "value": "7"
+        }
+      ]
+    },
+    {
+      "id": 2037,
+      "text": "至今我已经得到生命中所想要的东西。",
+      "type": "radio",
+      "orderNum": 4,
+      "options": [
+        {
+          "id": 8073,
+          "optionNo": "A",
+          "text": "完全不同意",
+          "value": "1"
+        },
+        {
+          "id": 8074,
+          "optionNo": "B",
+          "text": "不同意",
+          "value": "2"
+        },
+        {
+          "id": 8075,
+          "optionNo": "C",
+          "text": "有点不同意",
+          "value": "3"
+        },
+        {
+          "id": 8076,
+          "optionNo": "D",
+          "text": "无所谓",
+          "value": "4"
+        },
+        {
+          "id": 8077,
+          "optionNo": "E",
+          "text": "有点同意",
+          "value": "5"
+        },
+        {
+          "id": 8078,
+          "optionNo": "F",
+          "text": "同意",
+          "value": "6"
+        },
+        {
+          "id": 8079,
+          "optionNo": "G",
+          "text": "非常同意",
+          "value": "7"
+        }
+      ]
+    },
+    {
+      "id": 2038,
+      "text": "如果我能重新生活一次，我也不打算改变什么。",
+      "type": "radio",
+      "orderNum": 5,
+      "options": [
+        {
+          "id": 8080,
+          "optionNo": "A",
+          "text": "完全不同意",
+          "value": "1"
+        },
+        {
+          "id": 8081,
+          "optionNo": "B",
+          "text": "不同意",
+          "value": "2"
+        },
+        {
+          "id": 8082,
+          "optionNo": "C",
+          "text": "有点不同意",
+          "value": "3"
+        },
+        {
+          "id": 8083,
+          "optionNo": "D",
+          "text": "无所谓",
+          "value": "4"
+        },
+        {
+          "id": 8084,
+          "optionNo": "E",
+          "text": "有点同意",
+          "value": "5"
+        },
+        {
+          "id": 8085,
+          "optionNo": "F",
+          "text": "同意",
+          "value": "6"
+        },
+        {
+          "id": 8086,
+          "optionNo": "G",
+          "text": "非常同意",
+          "value": "7"
+        }
+      ]
+    }
+  ],
+  "dimensions": [
+    {
+      "id": 262,
+      "num": 1,
+      "dimensionName": "生活满意度",
+      "dimensionCode": "A",
+      "evaluateExpression": "hx_t_1 + hx_t_2 + hx_t_3 + hx_t_4 + hx_t_5",
+      "standardScoreFormula": "0",
+      "results": [
+        {
+          "id": 502,
+          "evaluateExpression": "hx_wd_y_1 >= 5&& hx_wd_y_1 <= 9",
+          "conclusionAnalysis": "你对目前的生活状况极为不满意",
+          "suggestion": "你对目前的生活状况极为不满意，可能近期烦心事比较多，你需要找到—种使生活恢复常态的方法。",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 503,
+          "evaluateExpression": "hx_wd_y_1 >= 10&& hx_wd_y_1 <= 14",
+          "conclusionAnalysis": "你对目前的生活不满意的时候居多",
+          "suggestion": "你对目前的生活不满意的时候居多，注意调整自己的情绪和心态，别让消极的思想和行为主导你的生活。",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 504,
+          "evaluateExpression": "hx_wd_y_1 >= 15&& hx_wd_y_1 <= 19",
+          "conclusionAnalysis": "你对目前生活有些不满意",
+          "suggestion": "你对目前生活有些不满意，生活中有些挫折或不愉快，可能短时间内影响到你的情绪和生活，但很快会过去。",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 505,
+          "evaluateExpression": "hx_wd_y_1 >= 20&& hx_wd_y_1 <= 20",
+          "conclusionAnalysis": "你目前的生活比较平顺",
+          "suggestion": "你目前的生活比较平顺，没有太大的挫折，也没有发生特别让你高兴的事情；",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 506,
+          "evaluateExpression": "hx_wd_y_1 >= 21&& hx_wd_y_1 <= 25",
+          "conclusionAnalysis": "你对目前的生活大体上还是满意的",
+          "suggestion": "虽然有些不愉快的事情发生，但你对目前的生活大体上还是满意的．大部分时候都能体验到幸福感。",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 507,
+          "evaluateExpression": "hx_wd_y_1 >= 26&& hx_wd_y_1 <= 30",
+          "conclusionAnalysis": "你对目前生活表示满意",
+          "suggestion": "你对目前生活表示满意，持积极肯定的态度，但有时觉得自己生活的有些方面还不尽如人意",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 508,
+          "evaluateExpression": "hx_wd_y_1 >= 31&& hx_wd_y_1 <= 35",
+          "conclusionAnalysis": "你对目前的生活极为满意",
+          "suggestion": "你对目前的生活极为满意，有强烈的幸福感，建议您继续保持良好的心态。",
+          "assessmentWarning": "none"
+        }
+      ]
+    }
+  ]
+}

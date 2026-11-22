@@ -1,0 +1,795 @@
+{
+  "id": 121,
+  "title": "抑郁-焦虑-压力量表（DASS-21）",
+  "type": "basic",
+  "questions": [
+    {
+      "id": 2722,
+      "text": "我觉得很难让自己安静下来。",
+      "type": "radio",
+      "orderNum": 1,
+      "options": [
+        {
+          "id": 10858,
+          "optionNo": "A",
+          "text": "一点不符合",
+          "value": "0"
+        },
+        {
+          "id": 10859,
+          "optionNo": "B",
+          "text": "部分符合",
+          "value": "1"
+        },
+        {
+          "id": 10860,
+          "optionNo": "C",
+          "text": "大部分符合",
+          "value": "2"
+        },
+        {
+          "id": 10861,
+          "optionNo": "D",
+          "text": "非常符合",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "id": 2723,
+      "text": "我感到口干舌燥。",
+      "type": "radio",
+      "orderNum": 2,
+      "options": [
+        {
+          "id": 10862,
+          "optionNo": "A",
+          "text": "一点不符合",
+          "value": "0"
+        },
+        {
+          "id": 10863,
+          "optionNo": "B",
+          "text": "部分符合",
+          "value": "1"
+        },
+        {
+          "id": 10864,
+          "optionNo": "C",
+          "text": "大部分符合",
+          "value": "2"
+        },
+        {
+          "id": 10865,
+          "optionNo": "D",
+          "text": "非常符合",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "id": 2724,
+      "text": "我好像不能再有任何愉快、舒畅的感觉。",
+      "type": "radio",
+      "orderNum": 3,
+      "options": [
+        {
+          "id": 10866,
+          "optionNo": "A",
+          "text": "一点不符合",
+          "value": "0"
+        },
+        {
+          "id": 10867,
+          "optionNo": "B",
+          "text": "部分符合",
+          "value": "1"
+        },
+        {
+          "id": 10868,
+          "optionNo": "C",
+          "text": "大部分符合",
+          "value": "2"
+        },
+        {
+          "id": 10869,
+          "optionNo": "D",
+          "text": "非常符合",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "id": 2725,
+      "text": "我感到呼吸困难（例如：不做运动时也感到呼吸急促或透不过气来）。",
+      "type": "radio",
+      "orderNum": 4,
+      "options": [
+        {
+          "id": 10870,
+          "optionNo": "A",
+          "text": "一点不符合",
+          "value": "0"
+        },
+        {
+          "id": 10871,
+          "optionNo": "B",
+          "text": "部分符合",
+          "value": "1"
+        },
+        {
+          "id": 10872,
+          "optionNo": "C",
+          "text": "大部分符合",
+          "value": "2"
+        },
+        {
+          "id": 10873,
+          "optionNo": "D",
+          "text": "非常符合",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "id": 2726,
+      "text": "我感到很难主动开始工作。",
+      "type": "radio",
+      "orderNum": 5,
+      "options": [
+        {
+          "id": 10874,
+          "optionNo": "A",
+          "text": "一点不符合",
+          "value": "0"
+        },
+        {
+          "id": 10875,
+          "optionNo": "B",
+          "text": "部分符合",
+          "value": "1"
+        },
+        {
+          "id": 10876,
+          "optionNo": "C",
+          "text": "大部分符合",
+          "value": "2"
+        },
+        {
+          "id": 10877,
+          "optionNo": "D",
+          "text": "非常符合",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "id": 2727,
+      "text": "我对事情往往做出过度反应。",
+      "type": "radio",
+      "orderNum": 6,
+      "options": [
+        {
+          "id": 10878,
+          "optionNo": "A",
+          "text": "一点不符合",
+          "value": "0"
+        },
+        {
+          "id": 10879,
+          "optionNo": "B",
+          "text": "部分符合",
+          "value": "1"
+        },
+        {
+          "id": 10880,
+          "optionNo": "C",
+          "text": "大部分符合",
+          "value": "2"
+        },
+        {
+          "id": 10881,
+          "optionNo": "D",
+          "text": "非常符合",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "id": 2728,
+      "text": "我感到颤抖（例如：双手发抖）。",
+      "type": "radio",
+      "orderNum": 7,
+      "options": [
+        {
+          "id": 10882,
+          "optionNo": "A",
+          "text": "一点不符合",
+          "value": "0"
+        },
+        {
+          "id": 10883,
+          "optionNo": "B",
+          "text": "部分符合",
+          "value": "1"
+        },
+        {
+          "id": 10884,
+          "optionNo": "C",
+          "text": "大部分符合",
+          "value": "2"
+        },
+        {
+          "id": 10885,
+          "optionNo": "D",
+          "text": "非常符合",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "id": 2729,
+      "text": "我时常感到精神紧张。",
+      "type": "radio",
+      "orderNum": 8,
+      "options": [
+        {
+          "id": 10886,
+          "optionNo": "A",
+          "text": "一点不符合",
+          "value": "0"
+        },
+        {
+          "id": 10887,
+          "optionNo": "B",
+          "text": "部分符合",
+          "value": "1"
+        },
+        {
+          "id": 10888,
+          "optionNo": "C",
+          "text": "大部分符合",
+          "value": "2"
+        },
+        {
+          "id": 10889,
+          "optionNo": "D",
+          "text": "非常符合",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "id": 2730,
+      "text": "我担心一些令自己恐慌或出丑的场合。",
+      "type": "radio",
+      "orderNum": 9,
+      "options": [
+        {
+          "id": 10890,
+          "optionNo": "A",
+          "text": "一点不符合",
+          "value": "0"
+        },
+        {
+          "id": 10891,
+          "optionNo": "B",
+          "text": "部分符合",
+          "value": "1"
+        },
+        {
+          "id": 10892,
+          "optionNo": "C",
+          "text": "大部分符合",
+          "value": "2"
+        },
+        {
+          "id": 10893,
+          "optionNo": "D",
+          "text": "非常符合",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "id": 2731,
+      "text": "我觉得对自己将来没有什么可盼望。",
+      "type": "radio",
+      "orderNum": 10,
+      "options": [
+        {
+          "id": 10894,
+          "optionNo": "A",
+          "text": "一点不符合",
+          "value": "0"
+        },
+        {
+          "id": 10895,
+          "optionNo": "B",
+          "text": "部分符合",
+          "value": "1"
+        },
+        {
+          "id": 10896,
+          "optionNo": "C",
+          "text": "大部分符合",
+          "value": "2"
+        },
+        {
+          "id": 10897,
+          "optionNo": "D",
+          "text": "非常符合",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "id": 2732,
+      "text": "我感到忐忑不安。",
+      "type": "radio",
+      "orderNum": 11,
+      "options": [
+        {
+          "id": 10898,
+          "optionNo": "A",
+          "text": "一点不符合",
+          "value": "0"
+        },
+        {
+          "id": 10899,
+          "optionNo": "B",
+          "text": "部分符合",
+          "value": "1"
+        },
+        {
+          "id": 10900,
+          "optionNo": "C",
+          "text": "大部分符合",
+          "value": "2"
+        },
+        {
+          "id": 10901,
+          "optionNo": "D",
+          "text": "非常符合",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "id": 2733,
+      "text": "我感到很难放松自己。",
+      "type": "radio",
+      "orderNum": 12,
+      "options": [
+        {
+          "id": 10902,
+          "optionNo": "A",
+          "text": "一点不符合",
+          "value": "0"
+        },
+        {
+          "id": 10903,
+          "optionNo": "B",
+          "text": "部分符合",
+          "value": "1"
+        },
+        {
+          "id": 10904,
+          "optionNo": "C",
+          "text": "大部分符合",
+          "value": "2"
+        },
+        {
+          "id": 10905,
+          "optionNo": "D",
+          "text": "非常符合",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "id": 2734,
+      "text": "我感到忧郁沮丧。",
+      "type": "radio",
+      "orderNum": 13,
+      "options": [
+        {
+          "id": 10906,
+          "optionNo": "A",
+          "text": "一点不符合",
+          "value": "0"
+        },
+        {
+          "id": 10907,
+          "optionNo": "B",
+          "text": "部分符合",
+          "value": "1"
+        },
+        {
+          "id": 10908,
+          "optionNo": "C",
+          "text": "大部分符合",
+          "value": "2"
+        },
+        {
+          "id": 10909,
+          "optionNo": "D",
+          "text": "非常符合",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "id": 2735,
+      "text": "我无法容忍任何阻碍我继续工作的事情。",
+      "type": "radio",
+      "orderNum": 14,
+      "options": [
+        {
+          "id": 10910,
+          "optionNo": "A",
+          "text": "一点不符合",
+          "value": "0"
+        },
+        {
+          "id": 10911,
+          "optionNo": "B",
+          "text": "部分符合",
+          "value": "1"
+        },
+        {
+          "id": 10912,
+          "optionNo": "C",
+          "text": "大部分符合",
+          "value": "2"
+        },
+        {
+          "id": 10913,
+          "optionNo": "D",
+          "text": "非常符合",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "id": 2736,
+      "text": "我感到快要恐慌了。",
+      "type": "radio",
+      "orderNum": 15,
+      "options": [
+        {
+          "id": 10914,
+          "optionNo": "A",
+          "text": "一点不符合",
+          "value": "0"
+        },
+        {
+          "id": 10915,
+          "optionNo": "B",
+          "text": "部分符合",
+          "value": "1"
+        },
+        {
+          "id": 10916,
+          "optionNo": "C",
+          "text": "大部分符合",
+          "value": "2"
+        },
+        {
+          "id": 10917,
+          "optionNo": "D",
+          "text": "非常符合",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "id": 2737,
+      "text": "我对任何事情都没有热情。",
+      "type": "radio",
+      "orderNum": 16,
+      "options": [
+        {
+          "id": 10918,
+          "optionNo": "A",
+          "text": "一点不符合",
+          "value": "0"
+        },
+        {
+          "id": 10919,
+          "optionNo": "B",
+          "text": "部分符合",
+          "value": "1"
+        },
+        {
+          "id": 10920,
+          "optionNo": "C",
+          "text": "大部分符合",
+          "value": "2"
+        },
+        {
+          "id": 10921,
+          "optionNo": "D",
+          "text": "非常符合",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "id": 2738,
+      "text": "我觉得自己不怎么配做人。",
+      "type": "radio",
+      "orderNum": 17,
+      "options": [
+        {
+          "id": 10922,
+          "optionNo": "A",
+          "text": "一点不符合",
+          "value": "0"
+        },
+        {
+          "id": 10923,
+          "optionNo": "B",
+          "text": "部分符合",
+          "value": "1"
+        },
+        {
+          "id": 10924,
+          "optionNo": "C",
+          "text": "大部分符合",
+          "value": "2"
+        },
+        {
+          "id": 10925,
+          "optionNo": "D",
+          "text": "非常符合",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "id": 2739,
+      "text": "我感到自己很容易因小事而生气。",
+      "type": "radio",
+      "orderNum": 18,
+      "options": [
+        {
+          "id": 10926,
+          "optionNo": "A",
+          "text": "一点不符合",
+          "value": "0"
+        },
+        {
+          "id": 10927,
+          "optionNo": "B",
+          "text": "部分符合",
+          "value": "1"
+        },
+        {
+          "id": 10928,
+          "optionNo": "C",
+          "text": "大部分符合",
+          "value": "2"
+        },
+        {
+          "id": 10929,
+          "optionNo": "D",
+          "text": "非常符合",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "id": 2740,
+      "text": "我在没有明显的体力劳动时，也感到心律不正常。",
+      "type": "radio",
+      "orderNum": 19,
+      "options": [
+        {
+          "id": 10930,
+          "optionNo": "A",
+          "text": "一点不符合",
+          "value": "0"
+        },
+        {
+          "id": 10931,
+          "optionNo": "B",
+          "text": "部分符合",
+          "value": "1"
+        },
+        {
+          "id": 10932,
+          "optionNo": "C",
+          "text": "大部分符合",
+          "value": "2"
+        },
+        {
+          "id": 10933,
+          "optionNo": "D",
+          "text": "非常符合",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "id": 2741,
+      "text": "我无缘无故地感到害怕。",
+      "type": "radio",
+      "orderNum": 20,
+      "options": [
+        {
+          "id": 10934,
+          "optionNo": "A",
+          "text": "一点不符合",
+          "value": "0"
+        },
+        {
+          "id": 10935,
+          "optionNo": "B",
+          "text": "部分符合",
+          "value": "1"
+        },
+        {
+          "id": 10936,
+          "optionNo": "C",
+          "text": "大部分符合",
+          "value": "2"
+        },
+        {
+          "id": 10937,
+          "optionNo": "D",
+          "text": "非常符合",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "id": 2742,
+      "text": "我感到生命毫无意义。",
+      "type": "radio",
+      "orderNum": 21,
+      "options": [
+        {
+          "id": 10938,
+          "optionNo": "A",
+          "text": "一点不符合",
+          "value": "0"
+        },
+        {
+          "id": 10939,
+          "optionNo": "B",
+          "text": "部分符合",
+          "value": "1"
+        },
+        {
+          "id": 10940,
+          "optionNo": "C",
+          "text": "大部分符合",
+          "value": "2"
+        },
+        {
+          "id": 10941,
+          "optionNo": "D",
+          "text": "非常符合",
+          "value": "3"
+        }
+      ]
+    }
+  ],
+  "dimensions": [
+    {
+      "id": 330,
+      "num": 1,
+      "dimensionName": "抑郁",
+      "dimensionCode": "D",
+      "evaluateExpression": "(hx_t_3 + hx_t_5 + hx_t_10 + hx_t_13 + hx_t_16 + hx_t_17 + hx_t_21)/7",
+      "standardScoreFormula": "0",
+      "results": [
+        {
+          "id": 660,
+          "evaluateExpression": "hx_wd_y_1 >= 0&& hx_wd_y_1 <= 0.99",
+          "conclusionAnalysis": "未见抑郁情绪。",
+          "suggestion": "当前的生活轻松愉快、感到生活充实，健康状况良好，对未来充满希望，建议多了解一些必要的抑郁相关心理学知识，保持健康的心理状态。",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 661,
+          "evaluateExpression": "hx_wd_y_1 >= 1&& hx_wd_y_1 <= 1.99",
+          "conclusionAnalysis": "存在较轻抑郁情绪。",
+          "suggestion": "建议：（1）善于使用倾诉和宣泄，适当让自己放松，如出去散步、与朋友聊天等；（2）多了解调节情绪的心理学知识和方法，积极塑造良好的心理健康状态。",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 662,
+          "evaluateExpression": "hx_wd_y_1 >= 2&& hx_wd_y_1 <= 2.99",
+          "conclusionAnalysis": "存在中度抑郁情绪。",
+          "suggestion": "建议：（1）改变消极的认知方式，客观评价所经历的事件，调动对生活的兴趣；（2）做一些能让自己体验快乐的事情，制定一些计划和目标；（3）如情况无法缓解，建议向心理医生寻求专业帮助。",
+          "assessmentWarning": "high"
+        },
+        {
+          "id": 663,
+          "evaluateExpression": "hx_wd_y_1 >= 3&& hx_wd_y_1 <= 3",
+          "conclusionAnalysis": "存在重度抑郁情绪。",
+          "suggestion": "建议：（1）为自己的生活和设立一些目标并制定一些计划，努力令生活充实；（2）改变恶性循环的认知方式，培养积极的认知方式；（3）建议尽快接受专业、系统的心理治疗。",
+          "assessmentWarning": "high"
+        }
+      ]
+    },
+    {
+      "id": 331,
+      "num": 2,
+      "dimensionName": "焦虑",
+      "dimensionCode": "A",
+      "evaluateExpression": "(hx_t_2 + hx_t_4 + hx_t_7 + hx_t_9 + hx_t_15 + hx_t_19 + hx_t_20)/7",
+      "standardScoreFormula": "0",
+      "results": [
+        {
+          "id": 664,
+          "evaluateExpression": "hx_wd_y_2 >= 0&& hx_wd_y_2 <= 0.99",
+          "conclusionAnalysis": "未见焦虑情绪。",
+          "suggestion": "当前心情轻松，能自如应对生活压力，可适当了解焦虑相关的心理学知识，以便保持健康积极的心理状态。",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 665,
+          "evaluateExpression": "hx_wd_y_2 >= 1&& hx_wd_y_2 <= 1.99",
+          "conclusionAnalysis": "存在较轻焦虑情绪。",
+          "suggestion": "建议：（1）平时注意进行放松练习、冥想、想象练习，减轻焦虑水平；（2）跟朋友倾诉或适当宣泄，如饮食、运动、唱歌等。",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 666,
+          "evaluateExpression": "hx_wd_y_2 >= 2&& hx_wd_y_2 <= 2.99",
+          "conclusionAnalysis": "存在中度焦虑情绪。",
+          "suggestion": "建议：（1）积极采用放松、倾诉及各种宣泄方法进行缓解；（2）改变不良认知，适当分散注意力；（3）如尝试以上方法仍不能缓解焦虑，建议尽快向心理医生寻求专业帮助。",
+          "assessmentWarning": "high"
+        },
+        {
+          "id": 667,
+          "evaluateExpression": "hx_wd_y_2 >= 3&& hx_wd_y_2 <= 3",
+          "conclusionAnalysis": "存在重度抑郁情绪。",
+          "suggestion": "建议：（1）改变不适宜的认知，理性评估负性事件发生的可能性及后果；（2）学习分散注意力、情绪管理等心理学技术；（3）建议尽快接受专业、系统的心理治疗。",
+          "assessmentWarning": "high"
+        }
+      ]
+    },
+    {
+      "id": 332,
+      "num": 3,
+      "dimensionName": "压力",
+      "dimensionCode": "P",
+      "evaluateExpression": "(hx_t_1 + hx_t_6 + hx_t_8 + hx_t_11 + hx_t_12 + hx_t_14 + hx_t_18)/7",
+      "standardScoreFormula": "0",
+      "results": [
+        {
+          "id": 668,
+          "evaluateExpression": "hx_wd_y_3 >= 0&& hx_wd_y_3 <= 0.99",
+          "conclusionAnalysis": "未见压力状况。",
+          "suggestion": "目前处于良好轻松的状态，可以自如地处理各种压力事件，建议日常多了解解压放松的方式。",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 669,
+          "evaluateExpression": "hx_wd_y_3 >= 1&& hx_wd_y_3 <= 1.99",
+          "conclusionAnalysis": "存在轻度压力情况。",
+          "suggestion": "建议：（1）可通过心理音乐、冥想放松进行缓解；（2）了解与压力及压力应对相关的心理学知识，为保持健康的心理状态和生活模式奠定基础。",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 670,
+          "evaluateExpression": "hx_wd_y_3 >= 2&& hx_wd_y_3 <= 2.99",
+          "conclusionAnalysis": "存在中度压力情况",
+          "suggestion": "建议： （1）积极学习压力管理技术，合理安排时间，了解目前压力的来源和原因； （2）采用放松技术（深呼吸、肌肉放松、冥想等）来缓解日常压力，注意劳逸结合； （3）如尝试以上方法后仍不能缓解压力，可考虑求助于心理医生。",
+          "assessmentWarning": "high"
+        },
+        {
+          "id": 671,
+          "evaluateExpression": "hx_wd_y_3 >= 3&& hx_wd_y_3 <= 3.99",
+          "conclusionAnalysis": "存在重度压力情况。",
+          "suggestion": "建议： （1）尽可能避免额外压力的增加，先处理好目前的事情再作安排； （2）向朋友或家人寻求社会支持，倾诉也是一种很好的减压方法； （3）如果感到实在无法控制，建议尽快接受心理咨询和治疗。",
+          "assessmentWarning": "high"
+        }
+      ]
+    }
+  ]
+}

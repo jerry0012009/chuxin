@@ -1,0 +1,229 @@
+{
+  "id": "k6-distress",
+  "title": "Kessler心理痛苦量表(K6)",
+  "description": "本问卷用6个简短问题快速了解您近一个月的心理状态，适合大规模心理健康筛查。大约需要1分钟完成。",
+  "type": "basic",
+  "questions": [
+    {
+      "text": "在过去一个月中，有多少时候您感到紧张？",
+      "type": "radio",
+      "orderNum": 1,
+      "options": [
+        {
+          "text": "没有",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "一小部分时间",
+          "value": "1",
+          "optionNo": "B"
+        },
+        {
+          "text": "一部分时间",
+          "value": "2",
+          "optionNo": "C"
+        },
+        {
+          "text": "大部分时间",
+          "value": "3",
+          "optionNo": "D"
+        },
+        {
+          "text": "全部时间",
+          "value": "4",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "在过去一个月中，有多少时候您感到绝望？",
+      "type": "radio",
+      "orderNum": 2,
+      "options": [
+        {
+          "text": "没有",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "一小部分时间",
+          "value": "1",
+          "optionNo": "B"
+        },
+        {
+          "text": "一部分时间",
+          "value": "2",
+          "optionNo": "C"
+        },
+        {
+          "text": "大部分时间",
+          "value": "3",
+          "optionNo": "D"
+        },
+        {
+          "text": "全部时间",
+          "value": "4",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "在过去一个月中，有多少时候您感到不安或烦躁？",
+      "type": "radio",
+      "orderNum": 3,
+      "options": [
+        {
+          "text": "没有",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "一小部分时间",
+          "value": "1",
+          "optionNo": "B"
+        },
+        {
+          "text": "一部分时间",
+          "value": "2",
+          "optionNo": "C"
+        },
+        {
+          "text": "大部分时间",
+          "value": "3",
+          "optionNo": "D"
+        },
+        {
+          "text": "全部时间",
+          "value": "4",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "在过去一个月中，有多少时候您感到悲伤，以至于没有什么能让您高兴起来？",
+      "type": "radio",
+      "orderNum": 4,
+      "options": [
+        {
+          "text": "没有",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "一小部分时间",
+          "value": "1",
+          "optionNo": "B"
+        },
+        {
+          "text": "一部分时间",
+          "value": "2",
+          "optionNo": "C"
+        },
+        {
+          "text": "大部分时间",
+          "value": "3",
+          "optionNo": "D"
+        },
+        {
+          "text": "全部时间",
+          "value": "4",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "在过去一个月中，有多少时候您觉得自己做每件事都很费力？",
+      "type": "radio",
+      "orderNum": 5,
+      "options": [
+        {
+          "text": "没有",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "一小部分时间",
+          "value": "1",
+          "optionNo": "B"
+        },
+        {
+          "text": "一部分时间",
+          "value": "2",
+          "optionNo": "C"
+        },
+        {
+          "text": "大部分时间",
+          "value": "3",
+          "optionNo": "D"
+        },
+        {
+          "text": "全部时间",
+          "value": "4",
+          "optionNo": "E"
+        }
+      ]
+    },
+    {
+      "text": "在过去一个月中，有多少时候您觉得自己毫无价值？",
+      "type": "radio",
+      "orderNum": 6,
+      "options": [
+        {
+          "text": "没有",
+          "value": "0",
+          "optionNo": "A"
+        },
+        {
+          "text": "一小部分时间",
+          "value": "1",
+          "optionNo": "B"
+        },
+        {
+          "text": "一部分时间",
+          "value": "2",
+          "optionNo": "C"
+        },
+        {
+          "text": "大部分时间",
+          "value": "3",
+          "optionNo": "D"
+        },
+        {
+          "text": "全部时间",
+          "value": "4",
+          "optionNo": "E"
+        }
+      ]
+    }
+  ],
+  "dimensions": [
+    {
+      "dimensionName": "心理痛苦",
+      "dimensionCode": "distress",
+      "num": 1,
+      "evaluateExpression": "hx_t_1 + hx_t_2 + hx_t_3 + hx_t_4 + hx_t_5 + hx_t_6",
+      "standardScoreFormula": "",
+      "results": [
+        {
+          "evaluateExpression": "hx_wd_y_1 <= 7",
+          "conclusionAnalysis": "低痛苦水平",
+          "suggestion": "您的心理痛苦水平较低，说明您近期的心理状态较为健康，没有明显的心理困扰。建议继续保持积极的生活方式和良好的心理调适习惯。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_1 > 7 && hx_wd_y_1 <= 12",
+          "conclusionAnalysis": "中等痛苦水平",
+          "suggestion": "您的心理痛苦水平处于中等范围，说明您近期可能经历了一些心理压力或情绪困扰。建议关注自身的情绪变化，适当采取放松和减压措施，如运动、社交活动或冥想练习。",
+          "assessmentWarning": "low"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_1 > 12 && hx_wd_y_1 <= 24",
+          "conclusionAnalysis": "严重心理痛苦",
+          "suggestion": "您的心理痛苦水平较高，表明您近期可能承受了较大的心理压力，出现了较为明显的情绪困扰。建议尽快寻求专业心理咨询或医疗帮助，以便及时获得支持和干预。",
+          "assessmentWarning": "high"
+        }
+      ]
+    }
+  ]
+}

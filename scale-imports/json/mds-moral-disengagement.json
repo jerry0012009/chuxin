@@ -1,0 +1,741 @@
+{
+  "id": "mds-moral-disengagement",
+  "title": "道德推脱量表(MDS)",
+  "description": "Moral Disengagement Scale (MDS)，Bandura (1996)编制，测量道德推脱倾向。32题，3点计分（1=不同意，2=中立，3=同意）。总均分范围1-3，阈值：<1.5低，1.5-2.0中等，>2.0高。",
+  "type": "basic",
+  "questions": [
+    {
+      "text": "为了保护你关心的人，做一些不太好的事情是可以接受的。",
+      "type": "radio",
+      "orderNum": 1,
+      "options": [
+        {
+          "text": "不同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "中立",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "同意",
+          "value": "3",
+          "optionNo": "C"
+        }
+      ]
+    },
+    {
+      "text": "有时候为了保护自己，伤害别人是必要的。",
+      "type": "radio",
+      "orderNum": 2,
+      "options": [
+        {
+          "text": "不同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "中立",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "同意",
+          "value": "3",
+          "optionNo": "C"
+        }
+      ]
+    },
+    {
+      "text": "如果一个团队一致决定做某件事，那么就不应该责怪其中的个别成员。",
+      "type": "radio",
+      "orderNum": 3,
+      "options": [
+        {
+          "text": "不同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "中立",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "同意",
+          "value": "3",
+          "optionNo": "C"
+        }
+      ]
+    },
+    {
+      "text": "如果孩子在学校受到不好的对待，那么他们在家里的不良行为是可以理解的。",
+      "type": "radio",
+      "orderNum": 4,
+      "options": [
+        {
+          "text": "不同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "中立",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "同意",
+          "value": "3",
+          "optionNo": "C"
+        }
+      ]
+    },
+    {
+      "text": "如果人们不关心自己，那么他们的不良行为是他们自己的错。",
+      "type": "radio",
+      "orderNum": 5,
+      "options": [
+        {
+          "text": "不同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "中立",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "同意",
+          "value": "3",
+          "optionNo": "C"
+        }
+      ]
+    },
+    {
+      "text": "有些人做了坏事是因为他们受到了不良影响。",
+      "type": "radio",
+      "orderNum": 6,
+      "options": [
+        {
+          "text": "不同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "中立",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "同意",
+          "value": "3",
+          "optionNo": "C"
+        }
+      ]
+    },
+    {
+      "text": "在某些情况下，为了维护团队的荣誉，违反规则是可以接受的。",
+      "type": "radio",
+      "orderNum": 7,
+      "options": [
+        {
+          "text": "不同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "中立",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "同意",
+          "value": "3",
+          "optionNo": "C"
+        }
+      ]
+    },
+    {
+      "text": "有时候打人或推搡他人是可以接受的。",
+      "type": "radio",
+      "orderNum": 8,
+      "options": [
+        {
+          "text": "不同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "中立",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "同意",
+          "value": "3",
+          "optionNo": "C"
+        }
+      ]
+    },
+    {
+      "text": "如果一个人做了违法的事情但没有被抓住，那就不算真正的犯错。",
+      "type": "radio",
+      "orderNum": 9,
+      "options": [
+        {
+          "text": "不同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "中立",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "同意",
+          "value": "3",
+          "optionNo": "C"
+        }
+      ]
+    },
+    {
+      "text": "有些人天生就比较暴力。",
+      "type": "radio",
+      "orderNum": 10,
+      "options": [
+        {
+          "text": "不同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "中立",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "同意",
+          "value": "3",
+          "optionNo": "C"
+        }
+      ]
+    },
+    {
+      "text": "如果老师没有管理好课堂，学生不遵守纪律就不能全怪学生。",
+      "type": "radio",
+      "orderNum": 11,
+      "options": [
+        {
+          "text": "不同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "中立",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "同意",
+          "value": "3",
+          "optionNo": "C"
+        }
+      ]
+    },
+    {
+      "text": "偷窃富人的东西比偷窃穷人的东西危害更小。",
+      "type": "radio",
+      "orderNum": 12,
+      "options": [
+        {
+          "text": "不同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "中立",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "同意",
+          "value": "3",
+          "optionNo": "C"
+        }
+      ]
+    },
+    {
+      "text": "为了保护朋友而撒谎是可以接受的。",
+      "type": "radio",
+      "orderNum": 13,
+      "options": [
+        {
+          "text": "不同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "中立",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "同意",
+          "value": "3",
+          "optionNo": "C"
+        }
+      ]
+    },
+    {
+      "text": "在某些情况下，使用暴力是维护尊严的唯一方式。",
+      "type": "radio",
+      "orderNum": 14,
+      "options": [
+        {
+          "text": "不同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "中立",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "同意",
+          "value": "3",
+          "optionNo": "C"
+        }
+      ]
+    },
+    {
+      "text": "如果一个人所做的只是跟随命令，那他不应该为后果负责。",
+      "type": "radio",
+      "orderNum": 15,
+      "options": [
+        {
+          "text": "不同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "中立",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "同意",
+          "value": "3",
+          "optionNo": "C"
+        }
+      ]
+    },
+    {
+      "text": "有时候，为了达到重要的目标，不得不做一些不好的事情。",
+      "type": "radio",
+      "orderNum": 16,
+      "options": [
+        {
+          "text": "不同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "中立",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "同意",
+          "value": "3",
+          "optionNo": "C"
+        }
+      ]
+    },
+    {
+      "text": "如果团队中的每个人都做了违规的事情，那就不算真正违规。",
+      "type": "radio",
+      "orderNum": 17,
+      "options": [
+        {
+          "text": "不同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "中立",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "同意",
+          "value": "3",
+          "optionNo": "C"
+        }
+      ]
+    },
+    {
+      "text": "对待犯了错的人，可以不那么讲礼貌。",
+      "type": "radio",
+      "orderNum": 18,
+      "options": [
+        {
+          "text": "不同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "中立",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "同意",
+          "value": "3",
+          "optionNo": "C"
+        }
+      ]
+    },
+    {
+      "text": "如果受害者自己也有过错，那么加害者的行为就更可以理解。",
+      "type": "radio",
+      "orderNum": 19,
+      "options": [
+        {
+          "text": "不同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "中立",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "同意",
+          "value": "3",
+          "optionNo": "C"
+        }
+      ]
+    },
+    {
+      "text": "有些人的行为恶劣是因为他们生长在不好的环境中。",
+      "type": "radio",
+      "orderNum": 20,
+      "options": [
+        {
+          "text": "不同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "中立",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "同意",
+          "value": "3",
+          "optionNo": "C"
+        }
+      ]
+    },
+    {
+      "text": "如果一个人是被迫做坏事的，那他就不能被完全责怪。",
+      "type": "radio",
+      "orderNum": 21,
+      "options": [
+        {
+          "text": "不同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "中立",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "同意",
+          "value": "3",
+          "optionNo": "C"
+        }
+      ]
+    },
+    {
+      "text": "有时候为了完成任务，不得不忽略某些规则。",
+      "type": "radio",
+      "orderNum": 22,
+      "options": [
+        {
+          "text": "不同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "中立",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "同意",
+          "value": "3",
+          "optionNo": "C"
+        }
+      ]
+    },
+    {
+      "text": "在工作中，如果不违规就无法完成任务，那么违规是可以接受的。",
+      "type": "radio",
+      "orderNum": 23,
+      "options": [
+        {
+          "text": "不同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "中立",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "同意",
+          "value": "3",
+          "optionNo": "C"
+        }
+      ]
+    },
+    {
+      "text": "如果一个群体做出了决定，那么其中的个人就不需要为后果承担全部责任。",
+      "type": "radio",
+      "orderNum": 24,
+      "options": [
+        {
+          "text": "不同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "中立",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "同意",
+          "value": "3",
+          "optionNo": "C"
+        }
+      ]
+    },
+    {
+      "text": "有些人做了坏事是因为他们不知道这样做的后果。",
+      "type": "radio",
+      "orderNum": 25,
+      "options": [
+        {
+          "text": "不同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "中立",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "同意",
+          "value": "3",
+          "optionNo": "C"
+        }
+      ]
+    },
+    {
+      "text": "对待那些与我们不同的人，可以不太在意他们的感受。",
+      "type": "radio",
+      "orderNum": 26,
+      "options": [
+        {
+          "text": "不同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "中立",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "同意",
+          "value": "3",
+          "optionNo": "C"
+        }
+      ]
+    },
+    {
+      "text": "如果一个人没有直接参与做坏事，只是旁观，那他就不需要负责。",
+      "type": "radio",
+      "orderNum": 27,
+      "options": [
+        {
+          "text": "不同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "中立",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "同意",
+          "value": "3",
+          "optionNo": "C"
+        }
+      ]
+    },
+    {
+      "text": "有时候，为了让别人服从，使用威胁手段是可以接受的。",
+      "type": "radio",
+      "orderNum": 28,
+      "options": [
+        {
+          "text": "不同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "中立",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "同意",
+          "value": "3",
+          "optionNo": "C"
+        }
+      ]
+    },
+    {
+      "text": "如果大家都在做某件事，那它就不算错。",
+      "type": "radio",
+      "orderNum": 29,
+      "options": [
+        {
+          "text": "不同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "中立",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "同意",
+          "value": "3",
+          "optionNo": "C"
+        }
+      ]
+    },
+    {
+      "text": "为了帮助家人而做错事，是可以被原谅的。",
+      "type": "radio",
+      "orderNum": 30,
+      "options": [
+        {
+          "text": "不同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "中立",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "同意",
+          "value": "3",
+          "optionNo": "C"
+        }
+      ]
+    },
+    {
+      "text": "如果一个人没有意识到自己在做坏事，那么他的道德责任就应该减轻。",
+      "type": "radio",
+      "orderNum": 31,
+      "options": [
+        {
+          "text": "不同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "中立",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "同意",
+          "value": "3",
+          "optionNo": "C"
+        }
+      ]
+    },
+    {
+      "text": "对某些人来说，一些小的错误行为不算什么大事。",
+      "type": "radio",
+      "orderNum": 32,
+      "options": [
+        {
+          "text": "不同意",
+          "value": "1",
+          "optionNo": "A"
+        },
+        {
+          "text": "中立",
+          "value": "2",
+          "optionNo": "B"
+        },
+        {
+          "text": "同意",
+          "value": "3",
+          "optionNo": "C"
+        }
+      ]
+    }
+  ],
+  "dimensions": [
+    {
+      "dimensionName": "道德推脱",
+      "dimensionCode": "moral_disengagement",
+      "num": 1,
+      "evaluateExpression": "(hx_t_1 + hx_t_2 + hx_t_3 + hx_t_4 + hx_t_5 + hx_t_6 + hx_t_7 + hx_t_8 + hx_t_9 + hx_t_10 + hx_t_11 + hx_t_12 + hx_t_13 + hx_t_14 + hx_t_15 + hx_t_16 + hx_t_17 + hx_t_18 + hx_t_19 + hx_t_20 + hx_t_21 + hx_t_22 + hx_t_23 + hx_t_24 + hx_t_25 + hx_t_26 + hx_t_27 + hx_t_28 + hx_t_29 + hx_t_30 + hx_t_31 + hx_t_32) / 32",
+      "standardScoreFormula": "",
+      "results": [
+        {
+          "evaluateExpression": "hx_wd_y_1 < 1.5",
+          "conclusionAnalysis": "道德推脱水平较低",
+          "suggestion": "您的道德推脱水平较低，表明您具有较强的道德自律能力，较少为不道德行为寻找借口。",
+          "assessmentWarning": "none"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_1 >= 1.5 && hx_wd_y_1 <= 2.0",
+          "conclusionAnalysis": "道德推脱水平中等",
+          "suggestion": "您的道德推脱水平处于中等范围，在某些情境下可能会出现道德推理上的偏差，建议加强道德意识。",
+          "assessmentWarning": "low"
+        },
+        {
+          "evaluateExpression": "hx_wd_y_1 > 2.0",
+          "conclusionAnalysis": "道德推脱水平较高",
+          "suggestion": "您的道德推脱水平较高，表明您倾向于为不道德行为寻找合理化理由，建议反思自身的道德判断标准。",
+          "assessmentWarning": "middle"
+        }
+      ]
+    }
+  ]
+}

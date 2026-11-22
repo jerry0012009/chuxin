@@ -1,0 +1,1042 @@
+{
+  "id": 169,
+  "title": "个人情况调查表",
+  "description": "个人成长经历与当前当前整体生活状态调研",
+  "type": "basic",
+  "questions": [
+    {
+      "id": 5902,
+      "text": "1. 我父母的婚姻关系",
+      "type": "radio",
+      "orderNum": 1,
+      "options": [
+        {
+          "id": 22450,
+          "optionNo": "A",
+          "text": "比较和睦",
+          "value": "1"
+        },
+        {
+          "id": 22451,
+          "optionNo": "B",
+          "text": "经常争吵",
+          "value": "2"
+        },
+        {
+          "id": 22452,
+          "optionNo": "C",
+          "text": "总是冷战/打架/分居",
+          "value": "3"
+        },
+        {
+          "id": 22453,
+          "optionNo": "D",
+          "text": "父母离异",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 5903,
+      "text": "2. 在童年时期（12岁之前），我曾经“留守”在亲戚家里一段时间",
+      "type": "radio",
+      "orderNum": 2,
+      "options": [
+        {
+          "id": 22454,
+          "optionNo": "A",
+          "text": "几乎没有过“留守”经历",
+          "value": "1"
+        },
+        {
+          "id": 22455,
+          "optionNo": "B",
+          "text": "有几段“留守”经历，但大部分时间和父母在一起",
+          "value": "2"
+        },
+        {
+          "id": 22456,
+          "optionNo": "C",
+          "text": "童年近一半的时间都在亲戚家",
+          "value": "3"
+        },
+        {
+          "id": 22457,
+          "optionNo": "D",
+          "text": "童年大部分时间都在亲戚家",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 5904,
+      "text": "3. 我或我的家人中，经常有人挨打",
+      "type": "radio",
+      "orderNum": 3,
+      "options": [
+        {
+          "id": 22458,
+          "optionNo": "A",
+          "text": "几乎没有",
+          "value": "1"
+        },
+        {
+          "id": 22459,
+          "optionNo": "B",
+          "text": "有几次暴力冲突的情况",
+          "value": "2"
+        },
+        {
+          "id": 22460,
+          "optionNo": "C",
+          "text": "经常有身体冲突但不太严重",
+          "value": "3"
+        },
+        {
+          "id": 22461,
+          "optionNo": "D",
+          "text": "经常有身体冲突且造成过严重伤害",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 5905,
+      "text": "4. 我的家人中，曾有人酗酒或者吸毒",
+      "type": "radio",
+      "orderNum": 4,
+      "options": [
+        {
+          "id": 22462,
+          "optionNo": "A",
+          "text": "是",
+          "value": "4"
+        },
+        {
+          "id": 22463,
+          "optionNo": "B",
+          "text": "否",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 5906,
+      "text": "5. 我的家人中，曾有人坐牢或者离家出走",
+      "type": "radio",
+      "orderNum": 5,
+      "options": [
+        {
+          "id": 22464,
+          "optionNo": "A",
+          "text": "是",
+          "value": "4"
+        },
+        {
+          "id": 22465,
+          "optionNo": "B",
+          "text": "否",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 5907,
+      "text": "6. 曾经带我长大的家人，有人已经去世了",
+      "type": "radio",
+      "orderNum": 6,
+      "options": [
+        {
+          "id": 22466,
+          "optionNo": "A",
+          "text": "是",
+          "value": "4"
+        },
+        {
+          "id": 22467,
+          "optionNo": "B",
+          "text": "否",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": 5908,
+      "text": "7. 我家里经济状态不好，甚至常常吃不饱",
+      "type": "radio",
+      "orderNum": 7,
+      "options": [
+        {
+          "id": 22468,
+          "optionNo": "A",
+          "text": "完全不符合",
+          "value": "1"
+        },
+        {
+          "id": 22469,
+          "optionNo": "B",
+          "text": "不太符合",
+          "value": "2"
+        },
+        {
+          "id": 22470,
+          "optionNo": "C",
+          "text": "有些符合",
+          "value": "3"
+        },
+        {
+          "id": 22471,
+          "optionNo": "D",
+          "text": "完全符合",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 5909,
+      "text": "8. 我觉得父母或养育者并没有真的关心和理解我。",
+      "type": "radio",
+      "orderNum": 8,
+      "options": [
+        {
+          "id": 22472,
+          "optionNo": "A",
+          "text": "完全不符合",
+          "value": "1"
+        },
+        {
+          "id": 22473,
+          "optionNo": "B",
+          "text": "不太符合",
+          "value": "2"
+        },
+        {
+          "id": 22474,
+          "optionNo": "C",
+          "text": "有些符合",
+          "value": "3"
+        },
+        {
+          "id": 22475,
+          "optionNo": "D",
+          "text": "完全符合",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 5910,
+      "text": "9. 我的父母或养育者经常批评或羞辱我",
+      "type": "radio",
+      "orderNum": 9,
+      "options": [
+        {
+          "id": 22476,
+          "optionNo": "A",
+          "text": "完全不符合",
+          "value": "1"
+        },
+        {
+          "id": 22477,
+          "optionNo": "B",
+          "text": "不太符合",
+          "value": "2"
+        },
+        {
+          "id": 22478,
+          "optionNo": "C",
+          "text": "有些符合",
+          "value": "3"
+        },
+        {
+          "id": 22479,
+          "optionNo": "D",
+          "text": "完全符合",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 5911,
+      "text": "10. 有人曾经威逼或者引诱我同他/她做性方面的事情",
+      "type": "radio",
+      "orderNum": 10,
+      "options": [
+        {
+          "id": 22480,
+          "optionNo": "A",
+          "text": "完全不符合",
+          "value": "1"
+        },
+        {
+          "id": 22481,
+          "optionNo": "B",
+          "text": "不太符合",
+          "value": "2"
+        },
+        {
+          "id": 22482,
+          "optionNo": "C",
+          "text": "有些符合",
+          "value": "3"
+        },
+        {
+          "id": 22483,
+          "optionNo": "D",
+          "text": "完全符合",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 5912,
+      "text": "11. 我难过的时候会弄伤自己",
+      "type": "radio",
+      "orderNum": 11,
+      "options": [
+        {
+          "id": 22484,
+          "optionNo": "A",
+          "text": "完全不符合",
+          "value": "1"
+        },
+        {
+          "id": 22485,
+          "optionNo": "B",
+          "text": "不太符合",
+          "value": "2"
+        },
+        {
+          "id": 22486,
+          "optionNo": "C",
+          "text": "有些符合",
+          "value": "3"
+        },
+        {
+          "id": 22487,
+          "optionNo": "D",
+          "text": "完全符合",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 5913,
+      "text": "12. 我曾经遭受过校园霸凌。",
+      "type": "radio",
+      "orderNum": 12,
+      "options": [
+        {
+          "id": 22488,
+          "optionNo": "A",
+          "text": "完全不符合",
+          "value": "1"
+        },
+        {
+          "id": 22489,
+          "optionNo": "B",
+          "text": "不太符合",
+          "value": "2"
+        },
+        {
+          "id": 22490,
+          "optionNo": "C",
+          "text": "有些符合",
+          "value": "3"
+        },
+        {
+          "id": 22491,
+          "optionNo": "D",
+          "text": "完全符合",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 5914,
+      "text": "13. 我需要用长时间打游戏或上网来调节自己的情绪",
+      "type": "radio",
+      "orderNum": 13,
+      "options": [
+        {
+          "id": 22492,
+          "optionNo": "A",
+          "text": "完全不符合",
+          "value": "1"
+        },
+        {
+          "id": 22493,
+          "optionNo": "B",
+          "text": "不太符合",
+          "value": "2"
+        },
+        {
+          "id": 22494,
+          "optionNo": "C",
+          "text": "有些符合",
+          "value": "3"
+        },
+        {
+          "id": 22495,
+          "optionNo": "D",
+          "text": "完全符合",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 5915,
+      "text": "14. 我做事情从不拖延",
+      "type": "radio",
+      "orderNum": 14,
+      "options": [
+        {
+          "id": 22496,
+          "optionNo": "A",
+          "text": "完全不符合",
+          "value": "1"
+        },
+        {
+          "id": 22497,
+          "optionNo": "B",
+          "text": "不太符合",
+          "value": "2"
+        },
+        {
+          "id": 22498,
+          "optionNo": "C",
+          "text": "有些符合",
+          "value": "3"
+        },
+        {
+          "id": 22499,
+          "optionNo": "D",
+          "text": "完全符合",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 5916,
+      "text": "15. 我认为我确实有一些心理问题（包括但不限于抑郁、焦虑、强迫等）",
+      "type": "radio",
+      "orderNum": 15,
+      "options": [
+        {
+          "id": 22500,
+          "optionNo": "A",
+          "text": "完全不符合",
+          "value": "1"
+        },
+        {
+          "id": 22501,
+          "optionNo": "B",
+          "text": "不太符合",
+          "value": "2"
+        },
+        {
+          "id": 22502,
+          "optionNo": "C",
+          "text": "有些符合",
+          "value": "3"
+        },
+        {
+          "id": 22503,
+          "optionNo": "D",
+          "text": "完全符合",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 5917,
+      "text": "16. 我曾经尝试过心理咨询或者心理治疗",
+      "type": "radio",
+      "orderNum": 16,
+      "options": [
+        {
+          "id": 22504,
+          "optionNo": "A",
+          "text": "否",
+          "value": "1"
+        },
+        {
+          "id": 22505,
+          "optionNo": "B",
+          "text": "是",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 5918,
+      "text": "17. 我曾经有过自杀经历",
+      "type": "radio",
+      "orderNum": 17,
+      "options": [
+        {
+          "id": 22506,
+          "optionNo": "A",
+          "text": "否",
+          "value": "1"
+        },
+        {
+          "id": 22507,
+          "optionNo": "B",
+          "text": "一年以前有过",
+          "value": "2.5"
+        },
+        {
+          "id": 22508,
+          "optionNo": "C",
+          "text": "在最近一年有过",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 5919,
+      "text": "18. 我患有某种传染或致命性疾病",
+      "type": "radio",
+      "orderNum": 18,
+      "options": [
+        {
+          "id": 22509,
+          "optionNo": "A",
+          "text": "完全不符合",
+          "value": "1"
+        },
+        {
+          "id": 22510,
+          "optionNo": "B",
+          "text": "不太符合",
+          "value": "2"
+        },
+        {
+          "id": 22511,
+          "optionNo": "C",
+          "text": "有些符合",
+          "value": "3"
+        },
+        {
+          "id": 22512,
+          "optionNo": "D",
+          "text": "完全符合",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 5920,
+      "text": "19. 我和家人的关系状况是",
+      "type": "radio",
+      "orderNum": 19,
+      "options": [
+        {
+          "id": 22513,
+          "optionNo": "A",
+          "text": "关系好，在我需要的时候可以及时得到帮助",
+          "value": "1"
+        },
+        {
+          "id": 22514,
+          "optionNo": "B",
+          "text": "关系好，但他们帮不到我",
+          "value": "2"
+        },
+        {
+          "id": 22515,
+          "optionNo": "C",
+          "text": "关系一般",
+          "value": "3"
+        },
+        {
+          "id": 22516,
+          "optionNo": "D",
+          "text": "关系比较差（或互相很冷漠）",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 5921,
+      "text": "20. 我和朋友的关系状况是",
+      "type": "radio",
+      "orderNum": 20,
+      "options": [
+        {
+          "id": 22517,
+          "optionNo": "A",
+          "text": "关系好，我可以在需要时及时得到他们的帮助",
+          "value": "1"
+        },
+        {
+          "id": 22518,
+          "optionNo": "B",
+          "text": "关系好，但是在需要时难以及时得到他们的帮助",
+          "value": "2"
+        },
+        {
+          "id": 22519,
+          "optionNo": "C",
+          "text": "关系一般",
+          "value": "3"
+        },
+        {
+          "id": 22520,
+          "optionNo": "D",
+          "text": "我没有什么朋友",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 5922,
+      "text": "21. 最近一段时间，吃饭这件事，能让我感觉到愉快和满足感。",
+      "type": "radio",
+      "orderNum": 21,
+      "options": [
+        {
+          "id": 22521,
+          "optionNo": "A",
+          "text": "完全不符合",
+          "value": "1"
+        },
+        {
+          "id": 22522,
+          "optionNo": "B",
+          "text": "不太符合",
+          "value": "2"
+        },
+        {
+          "id": 22523,
+          "optionNo": "C",
+          "text": "有些符合",
+          "value": "3"
+        },
+        {
+          "id": 22524,
+          "optionNo": "D",
+          "text": "完全符合",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 5923,
+      "text": "22. 最近一段时间，我的睡眠质量比较好。",
+      "type": "radio",
+      "orderNum": 22,
+      "options": [
+        {
+          "id": 22525,
+          "optionNo": "A",
+          "text": "完全不符合",
+          "value": "1"
+        },
+        {
+          "id": 22526,
+          "optionNo": "B",
+          "text": "不太符合",
+          "value": "2"
+        },
+        {
+          "id": 22527,
+          "optionNo": "C",
+          "text": "有些符合",
+          "value": "3"
+        },
+        {
+          "id": 22528,
+          "optionNo": "D",
+          "text": "完全符合",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 5924,
+      "text": "23. 最近一段时间，我经常参与一些体育或课外活动。",
+      "type": "radio",
+      "orderNum": 23,
+      "options": [
+        {
+          "id": 22529,
+          "optionNo": "A",
+          "text": "完全不符合",
+          "value": "1"
+        },
+        {
+          "id": 22530,
+          "optionNo": "B",
+          "text": "不太符合",
+          "value": "2"
+        },
+        {
+          "id": 22531,
+          "optionNo": "C",
+          "text": "有些符合",
+          "value": "3"
+        },
+        {
+          "id": 22532,
+          "optionNo": "D",
+          "text": "完全符合",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 5925,
+      "text": "24. 最近一段时间，我感觉自己休息的很好。",
+      "type": "radio",
+      "orderNum": 24,
+      "options": [
+        {
+          "id": 22533,
+          "optionNo": "A",
+          "text": "完全不符合",
+          "value": "1"
+        },
+        {
+          "id": 22534,
+          "optionNo": "B",
+          "text": "不太符合",
+          "value": "2"
+        },
+        {
+          "id": 22535,
+          "optionNo": "C",
+          "text": "有些符合",
+          "value": "3"
+        },
+        {
+          "id": 22536,
+          "optionNo": "D",
+          "text": "完全符合",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 5926,
+      "text": "25. 最近一段时间，我的朋友(或伴侣)让我感觉很幸福。",
+      "type": "radio",
+      "orderNum": 25,
+      "options": [
+        {
+          "id": 22537,
+          "optionNo": "A",
+          "text": "完全不符合",
+          "value": "1"
+        },
+        {
+          "id": 22538,
+          "optionNo": "B",
+          "text": "不太符合",
+          "value": "2"
+        },
+        {
+          "id": 22539,
+          "optionNo": "C",
+          "text": "有些符合",
+          "value": "3"
+        },
+        {
+          "id": 22540,
+          "optionNo": "D",
+          "text": "完全符合",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 5927,
+      "text": "26. 最近一段时间，我喜欢花时间做点自己的兴趣爱好。",
+      "type": "radio",
+      "orderNum": 26,
+      "options": [
+        {
+          "id": 22541,
+          "optionNo": "A",
+          "text": "完全不符合",
+          "value": "1"
+        },
+        {
+          "id": 22542,
+          "optionNo": "B",
+          "text": "不太符合",
+          "value": "2"
+        },
+        {
+          "id": 22543,
+          "optionNo": "C",
+          "text": "有些符合",
+          "value": "3"
+        },
+        {
+          "id": 22544,
+          "optionNo": "D",
+          "text": "完全符合",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 5928,
+      "text": "27. 最近一段时间，我比较享受我的学习或工作。",
+      "type": "radio",
+      "orderNum": 27,
+      "options": [
+        {
+          "id": 22545,
+          "optionNo": "A",
+          "text": "完全不符合",
+          "value": "1"
+        },
+        {
+          "id": 22546,
+          "optionNo": "B",
+          "text": "不太符合",
+          "value": "2"
+        },
+        {
+          "id": 22547,
+          "optionNo": "C",
+          "text": "有些符合",
+          "value": "3"
+        },
+        {
+          "id": 22548,
+          "optionNo": "D",
+          "text": "完全符合",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": 5929,
+      "text": "28. 最近一段时间，我对自己的生活感觉较好。",
+      "type": "radio",
+      "orderNum": 28,
+      "options": [
+        {
+          "id": 22549,
+          "optionNo": "A",
+          "text": "完全不符合",
+          "value": "1"
+        },
+        {
+          "id": 22550,
+          "optionNo": "B",
+          "text": "不太符合",
+          "value": "2"
+        },
+        {
+          "id": 22551,
+          "optionNo": "C",
+          "text": "有些符合",
+          "value": "3"
+        },
+        {
+          "id": 22552,
+          "optionNo": "D",
+          "text": "完全符合",
+          "value": "4"
+        }
+      ]
+    }
+  ],
+  "dimensions": [
+    {
+      "id": 567,
+      "num": 1,
+      "dimensionName": "成长环境压力",
+      "dimensionCode": "environment_stress",
+      "evaluateExpression": "hx_t_1 + hx_t_2 + hx_t_3 + (5-hx_t_4) + (5-hx_t_5) + (5-hx_t_6) + hx_t_7 + hx_t_8 + hx_t_9 + hx_t_10 + hx_t_12",
+      "standardScoreFormula": "hx_t_1 + hx_t_2 + hx_t_3 + (5-hx_t_4) + (5-hx_t_5) + (5-hx_t_6) + hx_t_7 + hx_t_8 + hx_t_9 + hx_t_10 + hx_t_12",
+      "results": [
+        {
+          "id": 1321,
+          "evaluateExpression": "hx_wd_y_1>= 0 && hx_wd_y_1<= 20",
+          "conclusionAnalysis": "成长环境相对稳定，家庭支持系统较好",
+          "suggestion": "继续保持良好的家庭关系和成长环境",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 1322,
+          "evaluateExpression": "hx_wd_y_1> 20 && hx_wd_y_1<= 30",
+          "conclusionAnalysis": "成长环境存在一定压力，需要关注家庭支持系统",
+          "suggestion": "建议加强与家人的沟通，建立更稳定的支持网络",
+          "assessmentWarning": "low"
+        },
+        {
+          "id": 1323,
+          "evaluateExpression": "hx_wd_y_1> 30 && hx_wd_y_1<= 40",
+          "conclusionAnalysis": "成长环境压力较大，家庭支持系统需要改善",
+          "suggestion": "建议寻求专业心理咨询，改善家庭关系质量",
+          "assessmentWarning": "middle"
+        },
+        {
+          "id": 1324,
+          "evaluateExpression": "hx_wd_y_1> 40",
+          "conclusionAnalysis": "成长环境压力严重，存在明显的家庭功能失调",
+          "suggestion": "强烈建议寻求专业心理干预和家庭治疗",
+          "assessmentWarning": "high"
+        }
+      ]
+    },
+    {
+      "id": 568,
+      "num": 2,
+      "dimensionName": "心理健康状况",
+      "dimensionCode": "mental_health",
+      "evaluateExpression": "hx_t_11 + hx_t_13 + hx_t_15 + (5-hx_t_16) + hx_t_17 + hx_t_18",
+      "standardScoreFormula": "hx_t_11 + hx_t_13 + hx_t_15 + (5-hx_t_16) + hx_t_17 + hx_t_18",
+      "results": [
+        {
+          "id": 1325,
+          "evaluateExpression": "hx_wd_y_2 >= 0 && hx_wd_y_2 <= 10",
+          "conclusionAnalysis": "心理健康状况良好，情绪调节能力正常",
+          "suggestion": "继续保持健康的生活方式和情绪管理",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 1326,
+          "evaluateExpression": "hx_wd_y_2 > 10 && hx_wd_y_2 <= 15",
+          "conclusionAnalysis": "存在轻度心理困扰，需要关注情绪健康",
+          "suggestion": "建议学习压力管理和情绪调节技巧",
+          "assessmentWarning": "low"
+        },
+        {
+          "id": 1327,
+          "evaluateExpression": "hx_wd_y_2 > 15 && hx_wd_y_2 <= 20",
+          "conclusionAnalysis": "心理健康状况需要重视，存在明显困扰",
+          "suggestion": "建议寻求心理咨询或专业评估",
+          "assessmentWarning": "middle"
+        },
+        {
+          "id": 1328,
+          "evaluateExpression": "hx_wd_y_2 > 20",
+          "conclusionAnalysis": "心理健康状况严重，需要立即关注",
+          "suggestion": "强烈建议立即寻求专业心理治疗和干预",
+          "assessmentWarning": "high"
+        }
+      ]
+    },
+    {
+      "id": 569,
+      "num": 3,
+      "dimensionName": "社会支持系统",
+      "dimensionCode": "social_support",
+      "evaluateExpression": "hx_t_19 + hx_t_20",
+      "standardScoreFormula": "hx_t_19 + hx_t_20",
+      "results": [
+        {
+          "id": 1329,
+          "evaluateExpression": "hx_wd_y_3 >= 0 && hx_wd_y_3<= 3",
+          "conclusionAnalysis": "社会支持系统良好，人际关系稳定",
+          "suggestion": "继续保持良好的人际关系和社会连接",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 1330,
+          "evaluateExpression": "hx_wd_y_3> 3 && hx_wd_y_3<= 5",
+          "conclusionAnalysis": "社会支持系统一般，需要加强人际关系",
+          "suggestion": "建议主动建立和维护社会支持网络",
+          "assessmentWarning": "low"
+        },
+        {
+          "id": 1331,
+          "evaluateExpression": "hx_wd_y_3> 5 && hx_wd_y_3<= 7",
+          "conclusionAnalysis": "社会支持系统薄弱，存在社交孤立风险",
+          "suggestion": "建议参与社交活动，寻求专业指导改善人际关系",
+          "assessmentWarning": "middle"
+        },
+        {
+          "id": 1332,
+          "evaluateExpression": "hx_wd_y_3> 7",
+          "conclusionAnalysis": "社会支持系统严重缺失，社交功能受损",
+          "suggestion": "强烈建议寻求专业帮助建立支持系统",
+          "assessmentWarning": "high"
+        }
+      ]
+    },
+    {
+      "id": 570,
+      "num": 4,
+      "dimensionName": "生活满意度",
+      "dimensionCode": "life_satisfaction",
+      "evaluateExpression": "(5-hx_t_21) + (5-hx_t_22) + (5-hx_t_23) + (5-hx_t_24) + (5-hx_t_25) + (5-hx_t_26) + (5-hx_t_27) + (5-hx_t_28)",
+      "standardScoreFormula": "(5-hx_t_21) + (5-hx_t_22) + (5-hx_t_23) + (5-hx_t_24) + (5-hx_t_25) + (5-hx_t_26) + (5-hx_t_27) + (5-hx_t_28)",
+      "results": [
+        {
+          "id": 1333,
+          "evaluateExpression": "hx_wd_y_4 >= 0 &&hx_wd_y_4<= 15",
+          "conclusionAnalysis": "生活满意度较高，生活质量良好",
+          "suggestion": "继续保持积极的生活态度和健康习惯",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 1334,
+          "evaluateExpression": "hx_wd_y_4> 15 && hx_wd_y_4<= 22",
+          "conclusionAnalysis": "生活满意度一般，存在改善空间",
+          "suggestion": "建议关注生活平衡，培养积极生活方式",
+          "assessmentWarning": "low"
+        },
+        {
+          "id": 1335,
+          "evaluateExpression": "hx_wd_y_4> 22 && hx_wd_y_4<= 28",
+          "conclusionAnalysis": "生活满意度较低，生活质量需要提升",
+          "suggestion": "建议寻求生活指导，改善日常作息和活动参与",
+          "assessmentWarning": "middle"
+        },
+        {
+          "id": 1336,
+          "evaluateExpression": "hx_wd_y_4> 28",
+          "conclusionAnalysis": "生活满意度严重低下，存在明显生活质量问题",
+          "suggestion": "强烈建议综合干预，全面提升生活质量",
+          "assessmentWarning": "high"
+        }
+      ]
+    },
+    {
+      "id": 571,
+      "num": 5,
+      "dimensionName": "总体风险指数",
+      "dimensionCode": "total_risk",
+      "evaluateExpression": "hx_wd_y_y_1 + hx_wd_y_y_2 + (8 -hx_wd_y_y_3) + (32 - hx_wd_y_y_4)",
+      "standardScoreFormula": "hx_wd_y_1 + hx_wd_y_2 + (8 -hx_wd_y_3) + (32 - hx_wd_y_4)",
+      "results": [
+        {
+          "id": 1337,
+          "evaluateExpression": "hx_wd_y_5  >= 0 && hx_wd_y_5 <= 40",
+          "conclusionAnalysis": "总体状况良好，风险较低",
+          "suggestion": "继续保持当前的健康状态和生活方式",
+          "assessmentWarning": "none"
+        },
+        {
+          "id": 1338,
+          "evaluateExpression": "hx_wd_y_5 > 40 &&hx_wd_y_5 <= 60",
+          "conclusionAnalysis": "存在中等风险，需要关注个别方面",
+          "suggestion": "建议针对薄弱环节进行改善和调整",
+          "assessmentWarning": "low"
+        },
+        {
+          "id": 1339,
+          "evaluateExpression": "hx_wd_y_5 > 60 && hx_wd_y_5 <= 80",
+          "conclusionAnalysis": "风险较高，需要综合干预",
+          "suggestion": "建议寻求专业评估和系统性支持",
+          "assessmentWarning": "middle"
+        },
+        {
+          "id": 1340,
+          "evaluateExpression": "hx_wd_y_5 > 80",
+          "conclusionAnalysis": "风险严重，需要立即专业干预",
+          "suggestion": "强烈建议立即寻求全面的专业帮助和支持",
+          "assessmentWarning": "high"
+        }
+      ]
+    }
+  ]
+}
