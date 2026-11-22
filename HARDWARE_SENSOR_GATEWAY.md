@@ -4,7 +4,7 @@
 
 ## 资料位置
 
-硬件协议和 MATLAB 代码在 `hardware/` 目录。下列原始采集数据及其说明仅保存在内部归档，不随 GitHub 源码分发：
+硬件协议、测试采集样本及 MATLAB 代码都在 `hardware/` 目录。Mock 网关直接读取解包后的 CSV，无需再解压同目录的 `.rar`：
 
 ```text
 hardware/EEG_8CH 通信协议.docx
@@ -12,6 +12,7 @@ hardware/PPG_GSR_BLE_通信协议.docx
 hardware/EEG+GSR+PPG_test_data & matlab_code/data解释.docx
 hardware/EEG+GSR+PPG_test_data & matlab_code/matlab_code/
 hardware/EEG+GSR+PPG_test_data & matlab_code/*.csv
+hardware/EEG+GSR+PPG_test_data & matlab_code/*.mat
 ```
 
 其中：

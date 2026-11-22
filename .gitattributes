@@ -1,0 +1,2 @@
+# Preserve captured CSV bytes so they match the bundled archive.
+"hardware/EEG+GSR+PPG_test_data & matlab_code/*.csv" -text whitespace=cr-at-eol

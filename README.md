@@ -11,6 +11,8 @@ not a routine sync target.
 | [`frontend/`](frontend/) | Vue frontend and browser tests |
 | [`backend/`](backend/) | Java 21 Spring Boot API and Flyway migrations |
 | [`scale-imports/`](scale-imports/) | Questionnaire definitions and import scripts |
+| [`sql/`](sql/) | Legacy database schema and synthetic import fixture |
+| [`hardware/`](hardware/) | Sensor protocols, MATLAB references and recorded test fixtures |
 | [`deploy/current-host/`](deploy/current-host/README.md) | Current public trial deployment and operations |
 
 From `frontend/`, run `npm ci`, `npm run test:unit -- --run`, and
@@ -24,7 +26,9 @@ does not deploy it. Keep runtime credentials, database exports, and user data
 out of Git.
 
 The GitHub history starts with the sanitized pre-redesign source snapshot
-tagged `baseline/github-pre-redesign-2026-11-22`. It does not include the
-legacy database dump, raw sensor recordings, or legacy commit history. Use
-`OPENROUTER_API_KEY` to enable OpenRouter outside the public trial. The GitHub
-tag is a source reference, not the deployed build.
+tagged `baseline/github-pre-redesign-2026-11-22`. Current `main` also includes
+the recorded hardware test fixtures and an importable legacy database fixture
+with synthetic accounts. The original database dump and legacy commit history
+are not published. Set `OPENROUTER_API_KEY` in the environment to enable
+OpenRouter outside the public trial. The GitHub tag is a source reference, not
+the deployed build.

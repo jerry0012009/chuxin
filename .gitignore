@@ -10,9 +10,5 @@ __pycache__/
 sensor-gateway/.venv/
 hardware.tar.gz
 
-# Private database exports and raw sensor recordings
+# Original database export with legacy accounts
 /sql/chuxin.sql
-/hardware/*.rar
-/hardware/EEG+GSR+PPG_test_data & matlab_code/*.csv
-/hardware/EEG+GSR+PPG_test_data & matlab_code/*.mat
-/hardware/EEG+GSR+PPG_test_data & matlab_code/*.docx
