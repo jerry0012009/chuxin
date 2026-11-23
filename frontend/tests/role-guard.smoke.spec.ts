@@ -18,7 +18,7 @@ test('route guard redirects anonymous users to login with original target', asyn
   await page.goto(`${baseUrl}/record`)
 
   await page.waitForURL((url) => url.pathname === '/login' && !url.searchParams.has('redirect'))
-  await expect(page.getByRole('heading', { name: '初心（ChuXin）' })).toBeVisible()
+  await expect(page.getByRole('heading', { name: '账号登录' })).toBeVisible()
   await page.getByTestId('role-user').click()
   await page.getByTestId('mode-login').click()
   await page.getByTestId('username-input').fill(userUsername)

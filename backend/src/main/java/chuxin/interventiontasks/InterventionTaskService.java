@@ -1052,7 +1052,7 @@ public class InterventionTaskService {
     for (Map<String, Object> record : records) {
       String key = string(record.get("material_id")) + "|" + string(record.get("plan_date"));
       Map<String, Object> current = grouped.computeIfAbsent(key, ignored -> new LinkedHashMap<>(record));
-      List<String> ids = stringList(current.get("record_ids"));
+      List<String> ids = new ArrayList<>(stringList(current.get("record_ids")));
       ids.add(string(record.get("id")));
       current.put("record_ids", ids);
       if (!"completed".equals(record.get("status"))) {

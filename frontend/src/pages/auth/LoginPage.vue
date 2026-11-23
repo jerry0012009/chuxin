@@ -1,17 +1,17 @@
 <script setup lang="ts">
-import { LoaderCircle, Stethoscope, User } from 'lucide-vue-next'
+import { ArrowRight, LoaderCircle, LockKeyhole, Stethoscope, User } from 'lucide-vue-next'
 import { onBeforeUnmount, onMounted, ref } from 'vue'
 import { useRouter } from 'vue-router'
 import { useAuthSession } from '@/composables/useAuthSession'
 import { getDepartments } from '@/db/api'
 import type { Department } from '@/types'
+import ServiceMasthead from '@/components/ui/ServiceMasthead.vue'
 
 type LoginRole = 'user' | 'doctor'
 type AuthMode = 'login' | 'register'
 
 const router = useRouter()
 const { signInWithUsername, signUpWithUsername, state } = useAuthSession()
-const logoSrc = `${import.meta.env.BASE_URL}logo.jpg`
 const mode = ref<AuthMode>('login')
 const role = ref<LoginRole>('user')
 const username = ref('')
@@ -157,33 +157,33 @@ async function submitAuth() {
 </script>
 
 <template>
-  <div class="relative flex min-h-screen items-center justify-center bg-gradient-to-br from-primary/10 via-background to-accent/10 p-4">
+  <div class="service-page">
+    <ServiceMasthead />
+    <main class="service-width py-8 sm:py-14">
     <div
       v-if="toastMessage"
       class="fixed left-1/2 top-[72px] z-[80] -translate-x-1/2 rounded-full px-4 py-2 text-sm font-semibold text-white shadow-xl"
       :class="toastTone === 'error' ? 'bg-rose-600 shadow-rose-900/20' : 'bg-emerald-600 shadow-emerald-900/20'"
       data-testid="login-toast"
+      role="status"
     >
       {{ toastMessage }}
     </div>
 
-    <div class="w-full max-w-md rounded-[8px] border border-slate-200 bg-white shadow-sm dark:border-slate-800 dark:bg-slate-950">
-      <div class="space-y-2 p-6 text-center">
-        <div class="mx-auto mb-3 flex h-28 w-28 items-center justify-center overflow-hidden rounded-2xl">
-          <img alt="初心" class="h-full w-full object-contain" :src="logoSrc" />
-        </div>
-        <h1 class="text-2xl font-bold text-slate-900 dark:text-white">初心（ChuXin）</h1>
-        <p class="mt-2 text-sm text-slate-500">您的心理健康守护者</p>
+    <div class="service-card mx-auto max-w-[460px] border-t-[3px] border-t-[var(--service-red)]">
+      <div class="flex items-center gap-3 border-b px-5 py-5 sm:px-7">
+        <span class="service-icon"><LockKeyhole aria-hidden="true" /></span>
+        <h1 class="text-2xl font-bold">{{ mode === 'login' ? '账号登录' : '账号注册' }}</h1>
       </div>
 
-      <div class="px-6 pb-6">
+      <div class="px-5 pb-6 pt-5 sm:px-7">
         <label class="mb-2 inline-block text-sm font-medium text-slate-700 dark:text-slate-200">登录角色</label>
-        <div class="mb-4 grid grid-cols-2 gap-2 rounded-[8px] bg-slate-100 p-1 dark:bg-slate-900">
+        <div class="service-segment mb-4 grid grid-cols-2 gap-2">
           <button
             v-for="item in roleOptions"
             :key="item.value"
             class="flex items-center justify-center gap-2 rounded-[6px] px-4 py-2.5 text-sm font-semibold transition"
-            :class="role === item.value ? (item.value === 'doctor' ? 'bg-emerald-600 text-white shadow' : 'bg-blue-600 text-white shadow') : 'text-slate-500'"
+            :aria-pressed="role === item.value"
             :data-testid="`role-${item.value}`"
             type="button"
             @click="role = item.value"
@@ -193,10 +193,10 @@ async function submitAuth() {
           </button>
         </div>
 
-        <div class="mb-6 grid grid-cols-2 rounded-[8px] bg-slate-100 p-1 dark:bg-slate-900">
+        <div class="service-segment mb-5 grid grid-cols-2 gap-2">
           <button
             class="rounded-[6px] px-4 py-2.5 text-sm font-semibold transition"
-            :class="mode === 'login' ? 'bg-white text-slate-900 shadow dark:bg-slate-800 dark:text-white' : 'text-slate-500'"
+            :aria-pressed="mode === 'login'"
             data-testid="mode-login"
             type="button"
             @click="mode = 'login'"
@@ -205,7 +205,7 @@ async function submitAuth() {
           </button>
           <button
             class="rounded-[6px] px-4 py-2.5 text-sm font-semibold transition"
-            :class="mode === 'register' ? 'bg-white text-slate-900 shadow dark:bg-slate-800 dark:text-white' : 'text-slate-500'"
+            :aria-pressed="mode === 'register'"
             data-testid="mode-register"
             type="button"
             @click="mode = 'register'"
@@ -276,17 +276,19 @@ async function submitAuth() {
           </div>
 
           <button
-            class="inline-flex h-10 w-full items-center justify-center rounded-md bg-primary px-4 py-2 text-sm font-medium text-primary-foreground transition hover:bg-primary/90 disabled:pointer-events-none disabled:opacity-50"
+            class="service-button w-full"
             :disabled="isSubmitting"
             type="submit"
           >
             <span class="inline-flex items-center gap-2">
-              <LoaderCircle class="h-4 w-4" :class="isSubmitting ? 'animate-spin' : ''" />
+              <LoaderCircle v-if="isSubmitting" class="h-4 w-4 animate-spin" aria-hidden="true" />
+              <ArrowRight v-else aria-hidden="true" />
               {{ isSubmitting ? (mode === 'login' ? '登录中' : '注册中') : (mode === 'login' ? '登录' : '注册') }}
             </span>
           </button>
         </form>
       </div>
     </div>
+    </main>
   </div>
 </template>

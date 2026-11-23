@@ -6,6 +6,7 @@ import { useMedia } from '@/composables/useMedia'
 import { useAppState } from '@/composables/useAppState'
 import { useAuthSession } from '@/composables/useAuthSession'
 import { resolveAvatarSource } from '@/lib/avatar-presets'
+import ServiceMasthead from '@/components/ui/ServiceMasthead.vue'
 
 const logoSrc = `${import.meta.env.BASE_URL}logo.jpg`
 
@@ -27,6 +28,13 @@ const navItems = [
 ]
 
 const currentPath = computed(() => route.path)
+const servicePage = computed(() => currentPath.value === '/' || isActiveNav('/assessment-tasks'))
+const serviceItems = [
+  { path: '/', label: '我的工作台', icon: Home },
+  { path: '/assessment-tasks', label: '测评任务', icon: ListChecks },
+  { path: '/profile/healing-plan', label: '疗愈计划', icon: Heart },
+  { path: '/profile', label: '个人中心', icon: User },
+]
 const isActiveNav = (path: string) => {
   if (path === '/') return currentPath.value === '/'
   return currentPath.value === path || currentPath.value.startsWith(`${path}/`)
@@ -46,7 +54,18 @@ const handleLogoClick = () => {
 </script>
 
 <template>
-  <div class="min-h-screen bg-background">
+  <div v-if="servicePage" class="service-page">
+    <ServiceMasthead />
+    <nav class="service-nav" aria-label="用户服务">
+      <div class="service-width service-nav-inner">
+        <RouterLink v-for="item in serviceItems" :key="item.path" :to="item.path" :aria-current="isActiveNav(item.path) ? 'page' : undefined">
+          <component :is="item.icon" class="hidden h-4 w-4 sm:block" aria-hidden="true" />{{ item.label }}
+        </RouterLink>
+      </div>
+    </nav>
+    <main><RouterView /></main>
+  </div>
+  <div v-else class="min-h-screen bg-background">
     <aside
       v-if="!isMobile"
       class="fixed inset-y-0 left-0 z-40 flex w-64 flex-col border-r border-white/70 bg-white/85 backdrop-blur dark:border-slate-800 dark:bg-slate-950/80"

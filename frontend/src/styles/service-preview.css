@@ -1,0 +1,66 @@
+.service-page {
+  --service-red: #8d2028;
+  --service-deep: #691820;
+  --service-tint: #fbefef;
+  --service-ink: #23252a;
+  --service-muted: #555b65;
+  --service-border: #dcdfe4;
+  background: #f3f4f6;
+  color: var(--service-ink);
+  color-scheme: light;
+  min-height: 100vh;
+}
+
+.service-width { width: min(100% - 48px, 1120px); margin-inline: auto; }
+.service-masthead { background: var(--service-red); color: white; border-bottom: 3px solid #bd8d51; }
+.service-brand { display: flex; min-height: 78px; align-items: center; gap: 13px; padding-block: 12px; }
+.service-brand-mark { display: grid; flex: 0 0 42px; height: 42px; place-items: center; border: 1px solid #ffffff70; border-radius: 6px; }
+.service-brand-title { font-size: 23px; line-height: 1.3; font-weight: 750; }
+.service-brand-caption { font-size: 12px; color: #fae0e1; margin-top: 4px; }
+.service-preview-label { margin-left: auto; border: 1px solid #ffffff65; border-radius: 4px; padding: 4px 8px; color: white; white-space: nowrap; font-size: 12px; }
+.service-nav { background: white; border-bottom: 1px solid var(--service-border); }
+.service-nav-inner { display: flex; align-items: stretch; gap: 28px; overflow-x: auto; }
+.service-nav a { display: inline-flex; align-items: center; gap: 6px; white-space: nowrap; min-height: 48px; border-bottom: 3px solid transparent; color: var(--service-muted); font-size: 14px; }
+.service-nav a[aria-current="page"], .service-nav a:hover { color: var(--service-red); border-bottom-color: var(--service-red); }
+.service-icon { display: inline-grid; place-items: center; width: 40px; height: 40px; flex: 0 0 40px; border-radius: 6px; background: var(--service-tint); color: var(--service-red); }
+.service-icon svg { width: 21px; height: 21px; stroke-width: 1.7; }
+.service-card { background: #fff; border: 1px solid var(--service-border); border-radius: 8px; }
+.service-sec-title { display: flex; align-items: center; gap: 9px; font-size: 19px; font-weight: 700; }
+.service-sec-title::before { content: ''; width: 4px; height: 19px; border-radius: 2px; background: var(--service-red); }
+.service-muted { color: var(--service-muted); }
+.service-button { min-height: 42px; border: 1px solid var(--service-red); border-radius: 5px; background: var(--service-red); color: white; padding: 8px 15px; display: inline-flex; justify-content: center; align-items: center; gap: 7px; font-size: 14px; font-weight: 650; }
+.service-button:hover { background: var(--service-deep); color: white; }
+.service-button:disabled { opacity: .6; }
+.service-button svg { width: 16px; height: 16px; flex-shrink: 0; }
+.service-outline { color: var(--service-red); background: white; }
+.service-outline:hover { color: var(--service-red); background: var(--service-tint); }
+.service-link { color: var(--service-red); font-weight: 650; }
+.service-link:hover { text-decoration: underline; }
+.service-status { display: inline-flex; align-items: center; width: fit-content; border: 1px solid #edd4d6; border-radius: 4px; padding: 2px 8px; background: var(--service-tint); color: var(--service-deep); font-size: 12px; white-space: nowrap; }
+.service-status-done { border-color: #cde0d4; background: #eef7f1; color: #216140; }
+.service-status-idle { border-color: var(--service-border); background: #f3f4f6; color: var(--service-muted); }
+.service-progress { width: 100%; height: 8px; overflow: hidden; border: 0; border-radius: 6px; background: #e9eaee; color: var(--service-red); accent-color: var(--service-red); }
+.service-progress::-webkit-progress-bar { background: #e9eaee; }
+.service-progress::-webkit-progress-value { background: var(--service-red); }
+.service-progress::-moz-progress-bar { background: var(--service-red); }
+.service-page :is(a, button, input, select, textarea):focus-visible { outline: 2px solid var(--service-red); outline-offset: 3px; }
+.service-masthead :is(a, button):focus-visible { outline-color: white; }
+.service-segment button { color: var(--service-muted); border: 1px solid var(--service-border); min-height: 42px; }
+.service-segment button[aria-pressed="true"] { background: var(--service-tint); border-color: var(--service-red); color: var(--service-red); }
+.service-step { display: grid; grid-template-columns: 24px 40px minmax(0, 1fr) auto; align-items: center; gap: 12px; }
+
+@media (max-width: 639px) {
+  .service-step { grid-template-columns: 24px 40px minmax(0, 1fr); row-gap: 8px; }
+  .service-step-actions { grid-column: 3 / -1; }
+}
+
+@media (max-width: 640px) {
+  .service-width { width: calc(100% - 32px); }
+  .service-brand { min-height: 68px; gap: 9px; }
+  .service-brand-mark { flex-basis: 34px; height: 34px; }
+  .service-brand-mark svg { width: 20px; }
+  .service-brand-title { font-size: 17px; }
+  .service-brand-caption { font-size: 11px; }
+  .service-preview-label { padding-inline: 5px; font-size: 11px; }
+  .service-nav-inner { gap: 19px; }
+}

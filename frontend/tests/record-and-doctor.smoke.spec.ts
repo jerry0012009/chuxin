@@ -280,9 +280,11 @@ test('user home page matches key entry flows and routes into healing and assessm
   await expectPath(page, '/')
   await page.goto(`${baseUrl}/`)
 
-  await expect(page.getByText('精选内容')).toBeVisible()
+  await expect(page.getByRole('heading', { name: '我的工作台' })).toBeVisible()
+  await expect(page.getByRole('heading', { name: '当前测评' })).toBeVisible()
+  await expect(page.getByRole('heading', { name: '今日干预' })).toBeVisible()
+  await expect(page.getByRole('heading', { name: '测评记录' })).toBeVisible()
   await expect(page.getByTestId('home-game-card')).toBeVisible()
-  await expect(page.getByRole('button', { name: 'AI对话' })).toBeVisible()
 
   await page.getByTestId('home-feature-assessment').click()
   await expectPath(page, '/assessment')
@@ -299,19 +301,12 @@ test('user home page matches key entry flows and routes into healing and assessm
   await expect(page.getByTestId('healing-start-game')).toContainText('开始游戏')
 
   await page.goto(`${baseUrl}/`)
-  await page.getByTestId('home-featured-content').first().click()
+  await page.getByTestId('home-feature-healing').click()
   await expectPath(page, '/healing')
   await expect(page.getByRole('heading', { name: '冥想库' })).toBeVisible()
   await expect(page.getByRole('heading', { name: '焦虑缓解呼吸法' })).toBeVisible()
 
-  await page.goto(`${baseUrl}/`)
-  await page.getByTestId('home-featured-all').click()
-  await expectPath(page, '/healing')
-  await expect(page.getByRole('heading', { name: '冥想库' })).toBeVisible()
-
-  await page.goto(`${baseUrl}/`)
   await page.getByRole('button', { name: '睡眠', exact: true }).click()
-  await expectPath(page, '/healing')
   await expect(page.getByRole('button', { name: /睡眠/ })).toHaveClass(/text-white/)
   await expect(page.getByRole('button').filter({ hasText: '睡前放松引导' }).filter({ hasText: 'sleep · 15分钟' })).toBeVisible()
 })

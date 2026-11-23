@@ -122,6 +122,7 @@ const scheduleTaskReportReturn = (returnTo: string) => {
 }
 
 const handleRouteIntent = async () => {
+  if (route.query.tab === 'completed') activeTab.value = 'completed'
   const recordId = typeof route.query.recordId === 'string' ? route.query.recordId : ''
   if (!recordId) return
   const record = records.value.find((item) => item.id === recordId)
