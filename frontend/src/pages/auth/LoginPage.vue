@@ -1,11 +1,10 @@
 <script setup lang="ts">
-import { ArrowRight, LoaderCircle, LockKeyhole, Stethoscope, User } from 'lucide-vue-next'
+import { ArrowRight, LoaderCircle } from 'lucide-vue-next'
 import { onBeforeUnmount, onMounted, ref } from 'vue'
 import { useRouter } from 'vue-router'
 import { useAuthSession } from '@/composables/useAuthSession'
 import { getDepartments } from '@/db/api'
 import type { Department } from '@/types'
-import ServiceMasthead from '@/components/ui/ServiceMasthead.vue'
 import ServiceHero from '@/components/ui/ServiceHero.vue'
 import ServiceAccountBar from '@/components/ui/ServiceAccountBar.vue'
 import { useAccountActions } from '@/composables/useAccountActions'
@@ -31,8 +30,8 @@ const toastTone = ref<'success' | 'error'>('success')
 let toastTimer: number | null = null
 
 const roleOptions = [
-  { value: 'user' as const, label: '用户端', icon: User },
-  { value: 'doctor' as const, label: '管理员端', icon: Stethoscope },
+  { value: 'user' as const, label: '参与者' },
+  { value: 'doctor' as const, label: '管理员' },
 ]
 
 const sanitizeUsername = (value: string) => value.trim()
@@ -162,8 +161,7 @@ async function submitAuth() {
 </script>
 
 <template>
-  <div class="service-page">
-    <ServiceMasthead />
+  <div class="service-page access-page">
     <ServiceAccountBar v-if="state.user" />
     <ServiceHero variant="full" :title="systemName" eyebrow="高原身心健康研究" />
     <main class="service-width py-5 sm:py-7">
@@ -183,45 +181,21 @@ async function submitAuth() {
     </div>
     <div v-else class="service-card service-card-highlight mx-auto max-w-[460px]">
       <div class="flex items-center gap-3 border-b px-5 py-5 sm:px-7">
-        <span class="service-icon"><LockKeyhole aria-hidden="true" /></span>
         <h2 class="text-xl font-bold">{{ mode === 'login' ? '账号登录' : '账号注册' }}</h2>
       </div>
 
       <div class="px-5 pb-6 pt-5 sm:px-7">
-        <label class="mb-2 inline-block text-sm font-medium text-slate-700 dark:text-slate-200">登录角色</label>
-        <div class="service-segment mb-4 grid grid-cols-2 gap-2">
+        <div class="service-tabs mb-4" role="group" aria-label="身份选择">
           <button
             v-for="item in roleOptions"
             :key="item.value"
-            class="flex items-center justify-center gap-2 rounded-[6px] px-4 py-2.5 text-sm font-semibold transition"
+            class="service-tab flex-1"
             :aria-pressed="role === item.value"
             :data-testid="`role-${item.value}`"
             type="button"
             @click="role = item.value"
           >
-            <component :is="item.icon" class="h-4 w-4" />
             {{ item.label }}
-          </button>
-        </div>
-
-        <div class="service-segment mb-5 grid grid-cols-2 gap-2">
-          <button
-            class="rounded-[6px] px-4 py-2.5 text-sm font-semibold transition"
-            :aria-pressed="mode === 'login'"
-            data-testid="mode-login"
-            type="button"
-            @click="mode = 'login'"
-          >
-            登录
-          </button>
-          <button
-            class="rounded-[6px] px-4 py-2.5 text-sm font-semibold transition"
-            :aria-pressed="mode === 'register'"
-            data-testid="mode-register"
-            type="button"
-            @click="mode = 'register'"
-          >
-            注册
           </button>
         </div>
 
@@ -298,6 +272,10 @@ async function submitAuth() {
             </span>
           </button>
         </form>
+        <div class="mt-3 text-center text-sm">
+          <button v-if="mode === 'login'" type="button" class="service-link py-2" data-testid="mode-register" @click="mode = 'register'">注册账号</button>
+          <button v-else type="button" class="service-link py-2" data-testid="mode-login" @click="mode = 'login'">返回登录</button>
+        </div>
       </div>
     </div>
     </main>

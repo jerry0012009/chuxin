@@ -37,7 +37,7 @@ import ProgressBar from '@/components/ui/ProgressBar.vue'
 import SectionTitle from '@/components/ui/SectionTitle.vue'
 import { useAppState } from '@/composables/useAppState'
 import { useAuthSession } from '@/composables/useAuthSession'
-import { useMedia } from '@/composables/useMedia'
+
 import {
   chatCompletion,
   getKnowledgeBase,
@@ -111,7 +111,7 @@ interface ExpressionAiReport {
 
 const router = useRouter()
 const route = useRoute()
-const { isMobile } = useMedia()
+
 const { addAssessment, refreshAssessments, state } = useAppState()
 const { state: authState } = useAuthSession()
 const routeTaskItemId = computed(() => (typeof route.query.taskItemId === 'string' ? route.query.taskItemId : ''))
@@ -488,20 +488,6 @@ const multimodalTaskItems = computed<AssessmentPublishItemRecord[]>(() =>
 )
 const multimodalTaskMode = computed(() => multimodalTaskItems.value.length > 0)
 const activeMultimodalTaskTitle = computed(() => activeMultimodalTask.value?.batch_title || '发布测评任务')
-const moduleStatusBadgeText = (completed: boolean) => {
-  if (completed) return '已完成'
-  return multimodalTaskMode.value ? '当前任务中' : '自由测评'
-}
-const moduleStatusBadgeClass = (completed: boolean, dark = false) => {
-  if (completed) {
-    return dark
-      ? 'bg-emerald-500/20 text-emerald-300 ring-emerald-400/20'
-      : 'bg-emerald-50 text-emerald-600 ring-emerald-100'
-  }
-  return dark
-    ? 'bg-white/10 text-white/70 ring-white/15'
-    : 'bg-white text-slate-500 ring-slate-200 dark:bg-slate-900 dark:text-slate-300 dark:ring-slate-700'
-}
 const voiceMaxDuration = 10
 const voiceRecordingProgress = computed(() => Math.min(100, Math.round((voiceDuration.value / voiceMaxDuration) * 100)))
 const voiceStatusLabel = computed(() => {
@@ -515,16 +501,6 @@ const steps = [
   { id: 'voice' as const, label: '语音识别', icon: Mic, done: voiceCompleted },
   { id: 'expression' as const, label: '表情识别', icon: Video, done: expressionCompleted },
 ]
-
-const currentStepIndex = computed(() => Math.max(0, steps.findIndex((item) => item.id === step.value)))
-const mobileStepTrackWidth = computed(() => `${(currentStepIndex.value / Math.max(1, steps.length - 1)) * 100}%`)
-
-const progressValue = computed(() => {
-  if (step.value === 'scale') return 33
-  if (step.value === 'voice') return 66
-  if (step.value === 'expression') return 88
-  return 100
-})
 
 const voiceScore = computed(() => {
   if (!voiceCompleted.value || !voiceReport.value) return 0
@@ -2017,7 +1993,7 @@ const completeVoice = () => {
   }
   voiceCompleted.value = true
   voiceReportOpen.value = false
-  if (isMobile.value) step.value = 'expression'
+  step.value = 'expression'
 }
 
 const clearExpressionTimers = () => {
@@ -2521,6 +2497,9 @@ const buildReport = async () => {
   step.value = 'report'
 }
 
+const canFullscreen = typeof document !== 'undefined' && document.fullscreenEnabled
+const expandCamera = () => expressionVideo.value?.parentElement?.requestFullscreen().catch(() => { errorMessage.value = '当前浏览器无法进入全屏。' })
+
 const closeFusionReport = () => {
   void router.push('/profile')
 }
@@ -2865,80 +2844,21 @@ onBeforeUnmount(() => {
       </div>
     </div>
 
-    <div v-else class="flex min-h-[calc(100vh-5rem)] flex-col bg-slate-50 dark:bg-slate-950">
-      <div
-        v-if="isMobile"
-        class="shrink-0 border-b border-slate-200 bg-white px-4 py-4 dark:border-slate-800 dark:bg-slate-900"
-        data-testid="assessment-step-navigation"
-      >
-        <div class="relative mx-auto flex max-w-md items-center justify-between">
-          <div class="absolute left-8 right-8 top-5 h-0.5 -translate-y-1/2 bg-slate-100 dark:bg-slate-700" />
-          <div class="absolute left-8 top-5 h-0.5 -translate-y-1/2 bg-primary transition-all duration-300" :style="{ width: mobileStepTrackWidth }" />
-          <div v-for="item in steps" :key="item.id" class="relative z-10 flex flex-col items-center gap-2">
-            <button
-              class="relative flex h-10 w-10 items-center justify-center rounded-full border-2 transition"
-              :class="step === item.id ? 'border-primary bg-primary text-white shadow-lg shadow-primary/30' : item.done.value || currentStepIndex > steps.findIndex((candidate) => candidate.id === item.id) ? 'border-primary bg-primary/10 text-primary' : 'border-slate-200 bg-white text-slate-400 dark:border-slate-600 dark:bg-slate-800'"
-              :aria-label="item.label"
-              :data-testid="`assessment-step-${item.id}`"
-              @click="step = item.id"
-            >
-              <Check v-if="item.done.value" class="h-5 w-5" />
-              <component :is="item.icon" v-else class="h-5 w-5" />
-              <span v-if="step === item.id" class="absolute -inset-1.5 rounded-full border-2 border-primary/40" />
-            </button>
-            <span class="whitespace-nowrap text-[11px] font-bold" :class="step === item.id ? 'text-primary' : 'text-slate-400'">{{ item.label }}</span>
-          </div>
-        </div>
+    <div v-else class="service-width py-5 sm:py-7 assessment-workspace">
+      <div class="flex flex-wrap items-center justify-between gap-3 pb-4">
+        <div><p class="font-semibold">{{ multimodalTaskMode ? activeMultimodalTaskTitle : '自由测评' }}</p><p class="service-muted text-sm">已完成 {{ completedCount }} / 3 项</p></div>
+        <button class="service-button" :disabled="!allCompleted || taskSyncing" data-testid="generate-fusion-report" @click="buildReport">{{ taskSyncing ? '同步任务中' : '生成综合报告' }}</button>
       </div>
-
-      <div v-else class="shrink-0 border-b border-slate-200 bg-white px-5 py-3 shadow-sm dark:border-slate-800 dark:bg-slate-900">
-        <div class="mx-auto flex max-w-7xl flex-wrap items-center justify-between gap-3">
-          <div class="flex items-center gap-3">
-            <div class="flex h-9 w-9 items-center justify-center rounded-xl bg-gradient-to-br from-violet-600 to-indigo-600 text-white">
-              <Brain class="h-5 w-5" />
-            </div>
-            <div>
-              <h1 class="text-base font-black text-slate-900 dark:text-white">AI 多模态心理评估</h1>
-              <p class="text-[11px] text-slate-400">
-                {{ multimodalTaskMode ? `待完成任务：${activeMultimodalTaskTitle}，报告会回写任务结果` : '自由测评：可每日完成，生成AI多模态报告' }}
-              </p>
-            </div>
-          </div>
-          <div class="flex items-center gap-3">
-            <div class="flex items-center gap-2 rounded-full bg-slate-50 px-3 py-1.5 dark:bg-slate-800">
-              <Activity class="h-3.5 w-3.5 text-primary" />
-              <span class="text-xs font-bold text-slate-600 dark:text-slate-300">{{ completedCount }} / 3 完成</span>
-            </div>
-            <button
-              class="h-9 rounded-xl bg-primary px-5 text-sm font-bold text-white shadow-md shadow-primary/20 disabled:cursor-not-allowed disabled:opacity-40"
-              :disabled="!allCompleted || taskSyncing"
-              data-testid="generate-fusion-report"
-              @click="buildReport"
-            >
-              {{ taskSyncing ? '同步任务中' : '生成多模态评估报告' }}
-            </button>
-          </div>
-        </div>
+      <div class="service-tabs" role="group" aria-label="测评模块" data-testid="assessment-step-navigation">
+        <button v-for="item in steps" :key="item.id" class="service-tab flex-1" type="button" :aria-pressed="step === item.id" :data-testid="'assessment-step-' + item.id" @click="step = item.id">
+          <component :is="item.icon" aria-hidden="true" />{{ item.label }}<Check v-if="item.done.value" aria-label="已完成" />
+        </button>
       </div>
-
-      <div
-        class="w-full flex-1"
-        :class="isMobile ? 'relative overflow-hidden' : 'mx-auto grid max-w-7xl gap-4 p-5 lg:grid-cols-3'"
-      >
-        <BaseCard v-show="!isMobile || step === 'scale'" class="flex h-full flex-col overflow-hidden" :class="isMobile ? 'rounded-none border-0 shadow-none' : ''" :padded="false">
-          <div class="flex items-center gap-2 border-b border-slate-100 bg-gradient-to-r from-violet-50 to-indigo-50 px-5 py-3 dark:border-slate-800 dark:from-violet-950/30 dark:to-indigo-950/30">
-            <div class="flex h-7 w-7 items-center justify-center rounded-lg bg-gradient-to-br from-violet-600 to-indigo-600 text-white">
-              <ClipboardList class="h-4 w-4" />
-            </div>
-            <span class="text-sm font-bold text-slate-800 dark:text-slate-100">对话评估</span>
-            <span :class="['ml-auto rounded-full px-2 py-0.5 text-[10px] font-bold ring-1', moduleStatusBadgeClass(scaleCompleted)]">
-              {{ moduleStatusBadgeText(scaleCompleted) }}
-            </span>
-          </div>
-
-          <div class="space-y-4 p-5">
-            <div class="flex items-start justify-between gap-3">
-              <SectionTitle title="AI对话式心理评估" description="您可以选择一个或多个量表进行综合评估。" />
+      <div class="workspace-content">
+        <section v-show="step === 'scale'" aria-label="对话评估">
+          <div class="space-y-4">
+            <div class="flex items-center justify-between gap-3">
+              <h2 class="service-sec-title">{{ scaleStarted ? '答题记录' : '选择量表' }}</h2>
               <button
                 class="grid h-12 w-12 shrink-0 place-items-center rounded-2xl border border-slate-200 bg-white text-slate-500 shadow-sm transition hover:border-primary/30 hover:text-primary dark:border-slate-800 dark:bg-slate-900"
                 aria-label="查看历史评估"
@@ -3008,7 +2928,7 @@ onBeforeUnmount(() => {
             <div v-else class="overflow-hidden rounded-[16px] border border-slate-100 bg-slate-50 dark:border-slate-800 dark:bg-slate-900">
               <div class="border-b border-slate-100 bg-white px-4 py-3 dark:border-slate-800 dark:bg-slate-950">
                 <div class="flex items-end justify-between">
-                  <span class="text-[11px] font-bold uppercase text-slate-400">Progress</span>
+                  <span class="text-[11px] font-bold uppercase text-slate-400">答题进度</span>
                   <span class="text-sm font-black text-primary">{{ Math.min(scaleQuestionIndex, scaleTotalQuestions) }} / {{ scaleTotalQuestions }}</span>
                 </div>
                 <ProgressBar class="mt-2" label="对话量表答题进度" :value="(Math.min(scaleQuestionIndex, scaleTotalQuestions) / scaleTotalQuestions) * 100" />
@@ -3148,35 +3068,17 @@ onBeforeUnmount(() => {
               房树人(HTP)评估
             </button>
           </div>
-        </BaseCard>
-
-        <BaseCard v-show="!isMobile || step === 'voice'" class="flex h-full flex-col overflow-hidden" :class="isMobile ? 'rounded-none border-0 shadow-none' : ''" :padded="false">
-          <div class="flex items-center gap-2 border-b border-slate-100 bg-gradient-to-r from-indigo-50 to-blue-50 px-5 py-3 dark:border-slate-800 dark:from-indigo-950/30 dark:to-blue-950/30">
-            <div class="flex h-7 w-7 items-center justify-center rounded-lg bg-gradient-to-br from-indigo-600 to-blue-600 text-white">
-              <Mic class="h-4 w-4" />
-            </div>
-            <span class="text-sm font-bold text-slate-800 dark:text-slate-100">语音情绪识别</span>
-            <span :class="['ml-auto rounded-full px-2 py-0.5 text-[10px] font-bold ring-1', moduleStatusBadgeClass(voiceCompleted)]">
-              {{ moduleStatusBadgeText(voiceCompleted) }}
-            </span>
-          </div>
-
-          <div class="space-y-4 p-5">
-            <div class="text-center">
-              <div class="mx-auto mb-2 flex h-14 w-14 items-center justify-center rounded-full bg-primary/10">
-                <Mic class="h-7 w-7" :class="voiceCaptureState === 'recording' ? 'animate-pulse text-rose-500' : 'text-primary'" />
-              </div>
-              <h2 class="text-xl font-black text-slate-900 dark:text-white">语音情绪识别</h2>
-              <p class="text-xs text-slate-500">请朗读一段文字或随意诉说 10 秒，系统将分析您的语速、音调及能量分布。</p>
-            </div>
-
-            <div class="overflow-hidden rounded-[16px] border border-slate-100 bg-white p-4 shadow-lg dark:border-slate-800 dark:bg-slate-900" data-testid="voice-status-panel">
+        </section>
+        <section v-show="step === 'voice'" aria-label="语音识别">
+          <div class="space-y-4">
+            <p class="service-muted text-sm">录音时长 {{ voiceMaxDuration }} 秒，也可上传已有音频。</p>
+            <div class="border-b border-border pb-4" data-testid="voice-status-panel">
               <div class="flex h-28 items-center justify-center gap-[2px] px-2">
                 <div
                   v-for="(height, index) in voiceWaveform"
                   :key="index"
                   class="w-[3px] rounded-full transition-all duration-150"
-                  :style="{ height: `${voiceCaptureState === 'idle' ? 5 : height}%`, background: voiceCaptureState === 'recording' ? 'linear-gradient(to top, #7A3EF4, #EC4899)' : '#E2E8F0', opacity: voiceCaptureState === 'recording' ? 0.95 : 0.6 }"
+                  :style="{ height: `${voiceCaptureState === 'idle' ? 5 : height}%`, background: voiceCaptureState === 'recording' ? 'var(--service-red)' : 'var(--service-border)', opacity: voiceCaptureState === 'recording' ? 0.95 : 0.6 }"
                 />
               </div>
               <div class="mt-4 flex items-center justify-center gap-3">
@@ -3223,7 +3125,7 @@ onBeforeUnmount(() => {
                 可以重新录音，最终报告只保留最新一次语音结果。
               </p>
               <button
-                class="h-12 w-full rounded-[12px] border border-slate-200 bg-white px-4 py-3 text-center text-sm font-black text-slate-600 shadow-sm dark:border-slate-800 dark:bg-slate-900 dark:text-slate-300"
+                class="service-button service-outline w-full"
                 :disabled="voiceCaptureState === 'recording' || voiceCaptureState === 'analyzing'"
                 @click="audioInput?.click()"
               >
@@ -3244,52 +3146,13 @@ onBeforeUnmount(() => {
               {{ voiceRecognizedText }}
             </div>
 
-            <div class="flex gap-2 rounded-[12px] bg-primary/5 p-3 text-xs leading-5 text-primary/70">
-              <Info class="mt-0.5 h-4 w-4 shrink-0" />
-              <p>提示：请尽量在安静的环境下录音。当有效语音时长满 10s 且停顿在合理范围内时，系统将自动结束采集。</p>
-            </div>
           </div>
-        </BaseCard>
-
-        <BaseCard v-show="!isMobile || step === 'expression'" class="service-capture flex h-full flex-col overflow-hidden text-white" :class="isMobile ? 'rounded-none border-0 shadow-none' : ''" :padded="false">
-          <div class="flex items-center gap-2 border-b border-white/10 bg-gradient-to-b from-slate-900 to-slate-950 px-5 py-3">
-            <div class="flex h-7 w-7 items-center justify-center rounded-lg bg-gradient-to-br from-blue-600 to-cyan-600 text-white">
-              <Video class="h-4 w-4" />
-            </div>
-            <span class="text-sm font-bold">表情识别</span>
-            <span :class="['ml-auto rounded-full px-2 py-0.5 text-[10px] font-bold ring-1', moduleStatusBadgeClass(expressionCompleted, true)]">
-              {{ moduleStatusBadgeText(expressionCompleted) }}
-            </span>
-          </div>
-
-          <div class="space-y-4 p-5">
-            <div v-if="!expressionCameraStarted" class="relative overflow-hidden rounded-[18px] border border-white/10 bg-gradient-to-br from-blue-950 via-slate-950 to-cyan-950 p-5 text-center" data-testid="expression-start-panel">
-              <div class="mx-auto flex h-20 w-20 items-center justify-center rounded-full bg-gradient-to-br from-blue-500 to-cyan-500 shadow-2xl shadow-blue-500/40">
-                <ScanFace class="h-10 w-10 text-white" />
-              </div>
-              <h2 class="mt-5 text-2xl font-black">AI 表情识别分析</h2>
-              <p class="mt-2 text-sm leading-6 text-white/70">通过面部微表情识别技术，分析情绪状态与心理健康指标。</p>
-              <div class="mt-5 grid grid-cols-3 gap-3 text-center">
-                <div class="rounded-2xl border border-white/15 bg-white/10 p-3">
-                  <Shield class="mx-auto h-6 w-6 text-cyan-300" />
-                  <p class="mt-2 text-xs font-bold">隐私保护</p>
-                  <p class="mt-1 text-[10px] leading-tight text-white/55">本地处理，数据安全</p>
-                </div>
-                <div class="rounded-2xl border border-white/15 bg-white/10 p-3">
-                  <Activity class="mx-auto h-6 w-6 text-cyan-300" />
-                  <p class="mt-2 text-xs font-bold">实时分析</p>
-                  <p class="mt-1 text-[10px] leading-tight text-white/55">9维情绪雷达图</p>
-                </div>
-                <div class="rounded-2xl border border-white/15 bg-white/10 p-3">
-                  <ScanFace class="mx-auto h-6 w-6 text-cyan-300" />
-                  <p class="mt-2 text-xs font-bold">微表情识别</p>
-                  <p class="mt-1 text-[10px] leading-tight text-white/55">捕捉细微情绪变化</p>
-                </div>
-              </div>
-            </div>
-
-            <div v-else class="rounded-[18px] border border-white/10 bg-white/5 p-4" data-testid="expression-live-panel">
-              <div class="service-camera-frame relative flex h-72 items-center justify-center overflow-hidden rounded-[16px] border border-white/10 bg-slate-900">
+        </section>
+        <section v-show="step === 'expression'" aria-label="表情识别">
+          <div class="space-y-4">
+            <div v-if="!expressionCameraStarted" class="camera-standby" data-testid="expression-start-panel"><Video aria-hidden="true" /><span>摄像头未开启</span></div>
+            <div v-else data-testid="expression-live-panel">
+              <div class="service-camera-frame relative flex h-72 items-center justify-center overflow-hidden rounded-md bg-slate-900 text-white">
                 <video
                   v-show="expressionStream && expressionStatus !== 'completed'"
                   ref="expressionVideo"
@@ -3337,44 +3200,35 @@ onBeforeUnmount(() => {
               </div>
               <ProgressBar class="mt-4" label="表情采集与分析进度" :value="expressionStatus === 'capturing' ? (5 - expressionCountdown) * 20 : expressionProgress" tone="from-blue-500 to-cyan-400" />
               <div class="mt-4 grid grid-cols-3 gap-2 text-center text-xs">
-                <div class="rounded-[12px] bg-white/5 p-3">
-                  <p class="text-white/40">眉心</p>
+                <div class="rounded-md bg-muted p-3">
+                  <p class="service-muted">眉心</p>
                   <p class="mt-1 font-bold">{{ Math.round(expressionSignals.brow * 100) }}%</p>
                 </div>
-                <div class="rounded-[12px] bg-white/5 p-3">
-                  <p class="text-white/40">嘴角</p>
+                <div class="rounded-md bg-muted p-3">
+                  <p class="service-muted">嘴角</p>
                   <p class="mt-1 font-bold">{{ Math.round(expressionSignals.mouth * 100) }}%</p>
                 </div>
-                <div class="rounded-[12px] bg-white/5 p-3">
-                  <p class="text-white/40">眨眼</p>
+                <div class="rounded-md bg-muted p-3">
+                  <p class="service-muted">眨眼</p>
                   <p class="mt-1 font-bold">{{ Math.round(expressionSignals.blink * 100) }}%</p>
                 </div>
               </div>
-              <div class="mt-3 rounded-2xl border border-white/10 bg-slate-950/55 px-4 py-3">
-                <div class="mb-2 flex items-center justify-between">
-                  <div class="flex items-center gap-2">
-                    <span class="rounded-full border border-primary/30 bg-primary/20 px-2 py-0.5 text-[10px] font-bold text-primary">MICRO</span>
-                    <span class="text-xs text-white/60">微表情信号</span>
-                  </div>
-                  <span class="font-mono text-[9px] text-white/40">{{ expressionStatus === 'capturing' ? 'ANALYZING' : 'READY' }}</span>
-                </div>
-                <div v-if="expressionNoFaceCount > 0" class="text-center text-[10px] font-bold text-rose-200/80">未检测到人脸，请将面部对准取景框</div>
-              </div>
+              <p class="mt-3 text-sm service-muted">{{ expressionStatusText }}</p>
+              <p v-if="expressionNoFaceCount > 0" class="text-sm text-primary">未检测到人脸，请将面部对准取景框</p>
             </div>
-
             <div class="grid grid-cols-[48px_1fr_48px] items-center gap-4">
-              <button class="grid h-12 w-12 place-items-center rounded-full text-white/70 hover:bg-white/10 hover:text-white" data-testid="expression-switch-camera" @click="switchExpressionCamera">
+              <button class="service-button service-outline px-2" aria-label="切换摄像头" title="切换摄像头" data-testid="expression-switch-camera" @click="switchExpressionCamera">
                 <RefreshCcw class="h-5 w-5" />
               </button>
               <button
-                class="flex h-[56px] items-center justify-center gap-3 rounded-full bg-cyan-500 px-6 text-sm font-black text-white shadow-lg shadow-cyan-900/30"
+                class="service-button"
                 data-testid="complete-expression"
                 @click="completeExpression"
               >
                 <Video class="h-4 w-4" />
                 {{ !expressionCameraStarted ? '开始表情识别' : expressionStatus === 'idle' ? '开始采集' : expressionStatus === 'capturing' ? '立即分析' : expressionStatus === 'analyzing' ? 'AI分析中...' : '确认并生成多模态评估报告' }}
               </button>
-              <button class="grid h-12 w-12 place-items-center rounded-full text-white/70 hover:bg-white/10 hover:text-white" type="button">
+              <button class="service-button service-outline px-2" aria-label="全屏预览" title="全屏预览" :disabled="!expressionCameraStarted || !canFullscreen" @click="expandCamera" type="button">
                 <Maximize class="h-5 w-5" />
               </button>
             </div>
@@ -3387,7 +3241,7 @@ onBeforeUnmount(() => {
               重新测试表情
             </button>
           </div>
-        </BaseCard>
+        </section>
       </div>
     </div>
 

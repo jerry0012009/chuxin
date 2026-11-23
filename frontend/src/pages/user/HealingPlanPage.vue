@@ -44,7 +44,7 @@ const progress = computed(() => {
 })
 
 const categoryMeta: Record<string, { label: string; icon: any; tone: string }> = {
-  mood: { label: '心情日记', icon: NotebookPen, tone: 'bg-amber-50 text-amber-700' },
+  mood: { label: '心情日记', icon: NotebookPen, tone: 'bg-muted text-primary' },
   meditation: { label: '冥想练习', icon: Music, tone: 'bg-cyan-50 text-cyan-700' },
   knowledge: { label: '知识学习', icon: FileText, tone: 'bg-emerald-50 text-emerald-700' },
   game: { label: '游戏训练', icon: Gamepad2, tone: 'bg-orange-50 text-orange-700' },
@@ -79,15 +79,6 @@ const loadPlan = async () => {
   }
 }
 
-const switchPlan = (offset: number) => {
-  if (planCount.value <= 1) return
-  selectedPlanIndex.value = (selectedPlanIndex.value + offset + planCount.value) % planCount.value
-}
-
-const selectPlan = (index: number) => {
-  selectedPlanIndex.value = index
-}
-
 const openTask = (task: InterventionTodayTask) => {
   void router.push(task.navigation_path || task.route_path || '/healing')
 }
@@ -101,151 +92,45 @@ onMounted(loadPlan)
 </script>
 
 <template>
-  <div class="bg-background pb-12">
-    <div class="sticky top-0 z-30 flex items-center justify-between border-b border-slate-100 bg-white/85 px-4 py-4 backdrop-blur-xl dark:border-slate-800 dark:bg-slate-900/85">
-      <div class="flex items-center gap-4">
-        <button class="flex h-10 w-10 items-center justify-center rounded-full hover:bg-slate-100 dark:hover:bg-slate-800" @click="router.back()">
-          <ChevronLeft class="h-6 w-6 text-slate-600 dark:text-slate-400" />
-        </button>
-        <h1 class="text-lg font-bold text-slate-900 dark:text-white">干预计划</h1>
-      </div>
-      <button class="flex h-10 w-10 items-center justify-center rounded-full hover:bg-slate-100 dark:hover:bg-slate-800" type="button" @click="loadPlan">
-        <RefreshCw class="h-5 w-5 text-slate-500" />
-      </button>
+  <div class="service-width py-5 sm:py-7 space-y-7">
+    <div class="flex items-center justify-between gap-3">
+      <h1 class="service-sec-title">今日任务</h1>
+      <div class="flex gap-2"><button class="service-button service-outline" type="button" @click="router.back()"><ChevronLeft aria-hidden="true" />返回</button>
+      <button class="service-button service-outline" type="button" @click="loadPlan"><RefreshCw aria-hidden="true" />刷新</button></div>
     </div>
-
-    <main class="mx-auto max-w-5xl space-y-6 px-4 pt-6">
-      <div v-if="loading" class="rounded-[28px] bg-white p-10 text-center text-slate-500 shadow-sm dark:bg-slate-900">
-        <Loader2 class="mx-auto h-6 w-6 animate-spin" />
-        <p class="mt-3 text-sm">正在加载管理员发布的干预计划...</p>
-      </div>
-
-      <div v-else-if="errorMessage" class="rounded-2xl bg-rose-50 p-4 text-sm font-bold text-rose-600 dark:bg-rose-950/30 dark:text-rose-200">
-        {{ errorMessage }}
-      </div>
-
-      <template v-else>
-        <section v-if="!plans.length" class="overflow-hidden rounded-[28px] border border-slate-100 bg-white p-6 shadow-sm dark:border-slate-800 dark:bg-slate-900">
-          <div class="grid h-14 w-14 place-items-center rounded-2xl bg-emerald-50 text-emerald-700">
-            <HeartPulse class="h-7 w-7" />
-          </div>
-          <h2 class="mt-5 text-2xl font-black text-slate-900 dark:text-white">暂无管理员发布的干预计划</h2>
-          <p class="mt-3 max-w-2xl text-sm leading-7 text-slate-500">你仍可进入疗愈页面自由练习冥想、记录心情或阅读知识内容。管理员发布干预任务后，这里会显示每日任务、计划进度和日历小结。</p>
-          <button class="mt-5 rounded-xl bg-slate-900 px-4 py-3 text-sm font-bold text-white dark:bg-white dark:text-slate-900" type="button" @click="router.push('/healing')">进入疗愈</button>
-        </section>
-
-        <section v-else class="service-card service-card-highlight p-4 sm:p-6">
-          <div class="flex flex-col gap-6 lg:flex-row lg:items-end lg:justify-between">
-            <div class="min-w-0 flex-1">
-              <div class="flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
-                <div class="inline-flex w-fit items-center gap-2 rounded-full bg-emerald-100 px-3 py-1 text-xs font-bold text-emerald-700 dark:bg-emerald-400/10 dark:text-emerald-200">
-                  <HeartPulse class="h-4 w-4" />
-                  {{ riskText(primaryPlan?.risk_level) }}
-                </div>
-                <div v-if="planCount > 1" class="inline-flex w-fit items-center gap-2 rounded-full bg-white/80 p-1 shadow-sm ring-1 ring-emerald-100 dark:bg-slate-900/70 dark:ring-slate-800">
-                  <button class="grid h-8 w-8 place-items-center rounded-full text-slate-500 transition hover:bg-emerald-50 hover:text-emerald-700 dark:hover:bg-slate-800 dark:hover:text-emerald-200" type="button" aria-label="查看上一个干预计划" @click="switchPlan(-1)">
-                    <ChevronLeft class="h-4 w-4" />
-                  </button>
-                  <span class="min-w-16 text-center text-xs font-black text-slate-600 dark:text-slate-300">计划 {{ selectedPlanIndex + 1 }} / {{ planCount }}</span>
-                  <button class="grid h-8 w-8 place-items-center rounded-full text-slate-500 transition hover:bg-emerald-50 hover:text-emerald-700 dark:hover:bg-slate-800 dark:hover:text-emerald-200" type="button" aria-label="查看下一个干预计划" @click="switchPlan(1)">
-                    <ChevronRight class="h-4 w-4" />
-                  </button>
-                </div>
-              </div>
-              <h2 class="mt-4 text-3xl font-black text-slate-900 dark:text-white">{{ primaryPlan?.batch_title || '当前干预计划' }}</h2>
-              <p class="mt-3 max-w-3xl text-sm leading-7 text-slate-600 dark:text-slate-300">{{ primaryPlan?.batch_description || '按照管理员发布的干预项目完成每日练习，系统会记录进度并生成小结。' }}</p>
-              <div v-if="planCount > 1" class="mt-4 flex flex-wrap gap-2">
-                <button
-                  v-for="(plan, index) in visiblePlans"
-                  :key="plan.id"
-                  class="h-2.5 rounded-full transition-all"
-                  :class="selectedPlanIndex === Number(index) ? 'w-8 bg-emerald-500' : 'w-2.5 bg-emerald-200 hover:bg-emerald-300 dark:bg-slate-700 dark:hover:bg-slate-600'"
-                  type="button"
-                  :aria-label="`切换到干预计划 ${Number(index) + 1}`"
-                  @click="selectPlan(Number(index))"
-                />
-              </div>
-            </div>
-            <div class="min-w-64 rounded-3xl bg-white/80 p-5 shadow-sm ring-1 ring-emerald-100 dark:bg-slate-900/70 dark:ring-slate-800">
-              <div class="flex items-center justify-between text-sm">
-                <span>计划进度</span>
-                <span class="font-black">{{ primaryPlan?.completed_days || 0 }} / {{ primaryPlan?.duration_days || 0 }} 天</span>
-              </div>
-              <div class="mt-3 h-3 overflow-hidden rounded-full bg-slate-100 dark:bg-slate-800">
-                <div class="h-full rounded-full bg-primary" :style="{ width: `${progress}%` }" />
-              </div>
-              <p class="mt-2 text-xs text-slate-500">今日完成 {{ today.summary.completed }} / {{ today.summary.total }}</p>
-              <p class="mt-1 text-[11px] text-slate-400">多个计划共享同一项目时，完成一次会同步回写。</p>
-            </div>
-          </div>
-        </section>
-
-        <section class="grid gap-6 lg:grid-cols-[1.15fr_0.85fr]">
-          <div class="rounded-[28px] border border-slate-100 bg-white p-5 shadow-sm dark:border-slate-800 dark:bg-slate-900">
-            <div class="flex items-center justify-between gap-3">
-              <div>
-                <p class="text-xs font-bold uppercase tracking-[0.16em] text-emerald-500">TODAY</p>
-                <h3 class="mt-1 text-xl font-black text-slate-900 dark:text-white">今日干预</h3>
-              </div>
-              <span class="rounded-full bg-slate-100 px-3 py-1 text-xs font-bold text-slate-500 dark:bg-slate-800">{{ today.summary.completed }} / {{ today.summary.total }}</span>
-            </div>
-
-            <div v-if="!todayTasks.length" class="mt-5 rounded-2xl bg-slate-50 p-5 text-sm text-slate-500 dark:bg-slate-950">
-              今日暂无待完成干预子项目。
-            </div>
-            <div v-else class="mt-5 grid gap-3">
-              <article v-for="task in todayTasks" :key="task.id" class="rounded-[22px] border border-slate-100 bg-slate-50 p-4 dark:border-slate-800 dark:bg-slate-950">
-                <div class="flex items-center gap-3">
-                  <div :class="['grid h-11 w-11 shrink-0 place-items-center rounded-2xl', categoryMeta[task.item_type]?.tone || 'bg-slate-100 text-slate-600']">
-                    <component :is="categoryMeta[task.item_type]?.icon || Sparkles" class="h-5 w-5" />
-                  </div>
-                  <div class="min-w-0 flex-1">
-                    <div class="flex flex-wrap items-center gap-2">
-                      <p class="font-black text-slate-900 dark:text-white">{{ task.title }}</p>
-                      <span class="rounded-full px-2 py-0.5 text-[10px] font-bold" :class="task.status === 'completed' ? 'bg-emerald-100 text-emerald-700' : 'bg-white text-slate-500 dark:bg-slate-900'">{{ statusText(task.status) }}</span>
-                    </div>
-                    <p class="mt-1 text-xs text-slate-500">{{ categoryMeta[task.item_type]?.label }} · {{ task.completion_mode === 'diary_once' ? '保存日记后完成' : `${task.duration_sec || 10} 秒后可完成` }}</p>
-                  </div>
-                  <button class="rounded-xl bg-slate-900 px-3 py-2 text-xs font-bold text-white dark:bg-white dark:text-slate-900" type="button" @click="openTask(task)">
-                    {{ task.status === 'completed' ? '再练习' : '去完成' }}
-                  </button>
-                </div>
-              </article>
-            </div>
-          </div>
-
-          <div class="rounded-[28px] border border-slate-100 bg-white p-5 shadow-sm dark:border-slate-800 dark:bg-slate-900">
-            <div class="flex items-center gap-3">
-              <div class="grid h-10 w-10 place-items-center rounded-2xl bg-cyan-50 text-cyan-700">
-                <Target class="h-5 w-5" />
-              </div>
-              <div>
-                <h3 class="text-lg font-black text-slate-900 dark:text-white">计划内容</h3>
-                <p class="text-xs text-slate-500">多个计划并存时，今日任务会自动合并展示。</p>
-              </div>
-            </div>
-            <div class="mt-5 space-y-4">
-              <article v-for="plan in plans" :key="plan.id" class="rounded-[22px] bg-slate-50 p-4 dark:bg-slate-950">
-                <div class="flex items-center justify-between gap-3">
-                  <div>
-                    <p class="font-black text-slate-900 dark:text-white">{{ plan.batch_title }}</p>
-                    <p class="mt-1 text-xs text-slate-500">{{ plan.start_date }} 至 {{ plan.end_date }} · {{ statusText(plan.status) }}</p>
-                  </div>
-                  <span class="rounded-full bg-white px-3 py-1 text-xs font-bold text-slate-500 dark:bg-slate-900">{{ plan.items?.length || 0 }} 项</span>
-                </div>
-                <div class="mt-3 flex flex-wrap gap-2">
-                  <span v-for="item in plan.items || []" :key="item.id" class="rounded-full bg-white px-3 py-1 text-xs font-bold text-slate-500 dark:bg-slate-900">
-                    {{ item.title }}
-                  </span>
-                </div>
-              </article>
-            </div>
-          </div>
-        </section>
-
-        <section class="rounded-[28px] border border-slate-100 bg-white p-5 shadow-sm dark:border-slate-800 dark:bg-slate-900">
+    <p v-if="loading" role="status">正在加载干预计划…</p>
+    <p v-else-if="errorMessage" role="alert" class="text-primary">{{ errorMessage }}</p>
+    <template v-else>
+      <section aria-label="今日干预">
+        <p class="mb-3 font-semibold">今日已完成 {{ today.summary.completed }} / {{ today.summary.total }} 项</p>
+        <p v-if="!todayTasks.length" class="service-muted py-4">今日暂无干预任务。</p>
+        <div v-else>
+          <div class="service-list-row service-list-head" aria-hidden="true"><span>任务</span><span>完成要求</span><span>状态</span><span>操作</span></div>
+          <ul><li v-for="task in todayTasks" :key="task.id" class="service-list-row text-sm">
+            <div class="task-name flex min-w-0 items-center gap-2"><span class="service-icon"><component :is="categoryMeta[task.item_type]?.icon || Sparkles" aria-hidden="true" /></span><div class="min-w-0"><strong class="break-words">{{ task.title }}</strong><p class="service-muted text-xs">{{ categoryMeta[task.item_type]?.label }}</p></div></div>
+            <span class="task-requirement service-muted"><span class="service-list-label">要求：</span>{{ task.completion_mode === 'diary_once' ? '保存一篇日记' : '练习 ' + (task.duration_sec || 10) + ' 秒' }}</span>
+            <span class="task-state service-status" :class="task.status === 'in_progress' ? 'service-status-active' : 'service-status-idle'">{{ statusText(task.status) }}</span>
+            <button class="service-button service-outline" type="button" @click="openTask(task)">{{ task.status === 'completed' ? '再练习' : '去完成' }}<ChevronRight aria-hidden="true" /></button>
+          </li></ul>
+        </div>
+      </section>
+      <section class="space-y-3 border-t pt-5" aria-label="单个计划进度">
+        <h2 class="service-sec-title">我的干预计划</h2>
+        <template v-if="primaryPlan">
+          <label v-if="planCount > 1" class="flex flex-wrap items-center gap-2 text-sm">选择计划<select v-model.number="selectedPlanIndex" class="max-w-full rounded border bg-white p-2"><option v-for="(plan,index) in visiblePlans" :key="plan.id" :value="Number(index)">{{ plan.batch_title }}</option></select></label>
+          <div class="flex flex-wrap items-center gap-3"><h3 class="font-semibold">{{ primaryPlan.batch_title }}</h3><span class="service-status service-status-idle">{{ riskText(primaryPlan.risk_level) }}</span></div>
+          <p v-if="primaryPlan.batch_description" class="service-muted text-sm">{{ primaryPlan.batch_description }}</p>
+          <p class="text-sm">本计划已完成 {{ primaryPlan.completed_days || 0 }} / {{ primaryPlan.duration_days || 0 }} 天</p>
+          <progress class="service-progress block max-w-md" :value="progress" max="100" aria-label="所选计划完成天数占比" />
+          <details class="border-b py-3"><summary class="service-link cursor-pointer text-sm">全部计划内容（{{ plans.length }}）</summary>
+            <article v-for="plan in plans" :key="plan.id" class="border-t py-3 text-sm"><strong>{{ plan.batch_title }}</strong><p class="service-muted">{{ plan.start_date }} 至 {{ plan.end_date }} · {{ statusText(plan.status) }} · {{ plan.items?.length || 0 }} 项</p><ul class="list-inside list-disc"><li v-for="item in plan.items || []" :key="item.id">{{ item.title }}</li></ul></article>
+          </details>
+        </template>
+        <div v-else class="flex flex-wrap items-center gap-3"><p class="service-muted">暂无已发布的计划。</p><button class="service-button service-outline" @click="router.push('/healing')">进入疗愈</button></div>
+      </section>
+        <section class="border-t pt-5">
           <div class="flex items-center gap-3">
-            <div class="grid h-10 w-10 place-items-center rounded-2xl bg-amber-50 text-amber-700">
+            <div class="grid h-10 w-10 place-items-center rounded-2xl bg-muted text-primary">
               <Calendar class="h-5 w-5" />
             </div>
             <div>
@@ -257,8 +142,8 @@ onMounted(loadPlan)
             <button
               v-for="item in calendar"
               :key="item.id"
-              class="rounded-2xl border p-4 text-left transition hover:border-emerald-200 hover:bg-emerald-50 dark:hover:bg-emerald-950/20"
-              :class="selectedDate === item.summary_date ? 'border-emerald-300 bg-emerald-50 dark:bg-emerald-950/20' : 'border-slate-100 bg-slate-50 dark:border-slate-800 dark:bg-slate-950'"
+              class="rounded-2xl border p-4 text-left transition hover:border-primary hover:bg-muted"
+              :class="selectedDate === item.summary_date ? 'border-primary bg-muted' : 'border-slate-100 bg-slate-50 dark:border-slate-800 dark:bg-slate-950'"
               type="button"
               @click="openDate(item.summary_date)"
             >
@@ -274,12 +159,12 @@ onMounted(loadPlan)
             <div class="mt-3 grid gap-2">
               <div v-for="task in dateDetail.tasks || []" :key="task.id" class="flex items-center justify-between rounded-xl bg-white px-3 py-2 text-sm dark:bg-slate-900">
                 <span>{{ task.title }}</span>
-                <span :class="task.status === 'completed' ? 'text-emerald-600' : 'text-slate-400'">{{ statusText(task.status) }}</span>
+                <span :class="task.status === 'completed' ? 'text-primary' : 'text-slate-400'">{{ statusText(task.status) }}</span>
               </div>
             </div>
           </div>
         </section>
       </template>
-    </main>
+
   </div>
 </template>
