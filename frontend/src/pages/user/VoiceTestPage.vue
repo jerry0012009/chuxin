@@ -268,7 +268,7 @@ onBeforeUnmount(() => {
           </div>
 
           <button
-            class="h-10 rounded-xl bg-gradient-to-r from-blue-500 to-cyan-500 px-4 text-sm font-bold text-white shadow-md disabled:cursor-not-allowed disabled:opacity-50"
+            class="service-button disabled:cursor-not-allowed"
             type="button"
             :disabled="isSaving || isProcessing || (!content.trim() && imageUrls.length === 0)"
             @click="save"

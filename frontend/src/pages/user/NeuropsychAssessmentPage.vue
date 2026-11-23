@@ -159,7 +159,7 @@ onMounted(async () => {
 <template>
   <div class="page-grid py-6 md:py-8">
     <div class="space-y-6">
-      <div class="overflow-hidden rounded-[32px] bg-slate-950 p-6 text-white shadow-xl shadow-slate-900/20">
+      <div class="service-card service-band p-4 sm:p-5">
         <div class="flex flex-col gap-6 lg:flex-row lg:items-end lg:justify-between">
           <div>
             <div class="inline-flex items-center gap-2 rounded-full bg-white/10 px-3 py-1 text-xs font-semibold">

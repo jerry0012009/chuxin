@@ -25,6 +25,7 @@ import { computed, onBeforeUnmount, ref, watch } from 'vue'
 import { RouterLink, useRoute, useRouter } from 'vue-router'
 import BaseCard from '@/components/ui/BaseCard.vue'
 import SectionTitle from '@/components/ui/SectionTitle.vue'
+import ServiceStatus from '@/components/ui/ServiceStatus.vue'
 import {
   getAssessmentTaskPackageReport,
   getMyInterventionTodayTasks,
@@ -472,7 +473,7 @@ onBeforeUnmount(() => {
               <p class="service-muted mt-1 text-xs">{{ moduleMetaFor(item.item_type).label }} · {{ item.required === false ? '选办' : '必办' }}</p>
             </div>
             <div class="service-step-actions flex flex-wrap items-center gap-2 sm:justify-end">
-              <span class="service-status" :class="item.status === 'completed' ? 'service-status-done' : item.status === 'in_progress' ? '' : 'service-status-idle'">{{ itemStatusText(item) }}</span>
+              <ServiceStatus :tone="item.status === 'completed' ? 'done' : item.status === 'in_progress' ? 'active' : 'idle'">{{ itemStatusText(item) }}</ServiceStatus>
               <button v-if="canOpenItem(item)" class="service-button service-outline" type="button" :disabled="submitting" :aria-label="`${item.status === 'in_progress' ? '继续' : '开始'}${item.title || moduleMetaFor(item.item_type).label}`" @click="enterItem(item)">
                 {{ item.status === 'in_progress' ? '继续' : '开始' }} <ArrowRight aria-hidden="true" />
               </button>
@@ -492,7 +493,7 @@ onBeforeUnmount(() => {
           </button>
         </div>
 
-        <div v-if="!packageReportBody" class="mt-5 rounded-[24px] bg-gradient-to-br from-cyan-50 via-white to-emerald-50 p-5 dark:from-slate-900 dark:via-slate-900 dark:to-slate-950">
+        <div v-if="!packageReportBody" class="mt-5 rounded-lg bg-muted p-5">
           <p class="text-sm font-bold text-slate-700 dark:text-slate-200">可以生成最终报告</p>
           <p class="mt-2 text-sm leading-7 text-slate-500">
             报告会汇总量表、神经心理、对话、语音和表情结果。高风险提示会同步进入管理员端预警。
@@ -500,7 +501,7 @@ onBeforeUnmount(() => {
         </div>
 
         <div v-else class="mt-5 overflow-hidden rounded-[28px] border border-cyan-100 bg-white shadow-sm dark:border-slate-800 dark:bg-slate-950">
-          <div class="bg-gradient-to-br from-cyan-50 via-white to-emerald-50 p-5 dark:from-slate-900 dark:via-slate-950 dark:to-emerald-950/30">
+          <div class="service-panel-heading p-5">
             <div class="flex flex-col gap-4 md:flex-row md:items-start md:justify-between">
               <div>
                 <div class="flex flex-wrap items-center gap-2">

@@ -12,7 +12,7 @@ withDefaults(
 </script>
 
 <template>
-  <div :class="['soft-panel', padded ? 'p-5 md:p-6' : '', $props.class]">
+  <div :class="['service-card', padded ? 'p-4 md:p-5' : '', $props.class]">
     <slot />
   </div>
 </template>

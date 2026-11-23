@@ -181,7 +181,7 @@ onUnmounted(() => {
 
     <SectionTitle title="管理员数据看板" description="集中查看患者概况、预警状态、评估活跃度与情绪趋势。" />
 
-    <div class="overflow-hidden rounded-[32px] bg-gradient-to-r from-slate-900 via-blue-900 to-indigo-900 p-6 text-white">
+    <div class="service-card service-band p-4 sm:p-5">
       <div class="grid gap-6 lg:grid-cols-[1.1fr_0.9fr]">
         <div>
           <p class="text-sm text-white/60">Clinical Overview</p>
@@ -208,10 +208,10 @@ onUnmounted(() => {
     </div>
 
     <div class="grid gap-4 md:grid-cols-2 xl:grid-cols-4">
-      <BaseCard v-for="item in overviewCards" :key="item.label" class="glass border-white/60">
+      <BaseCard v-for="item in overviewCards" :key="item.label">
         <div class="flex items-center justify-between">
           <p class="text-sm text-slate-500">{{ item.label }}</p>
-          <div class="flex h-10 w-10 items-center justify-center rounded-2xl bg-gradient-to-br text-white" :class="item.tone">
+          <div class="service-icon">
             <component :is="item.icon" class="h-5 w-5" />
           </div>
         </div>

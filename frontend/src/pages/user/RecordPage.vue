@@ -621,7 +621,7 @@ onBeforeUnmount(() => {
 </script>
 
 <template>
-  <div class="min-h-screen bg-gradient-to-br from-slate-50 to-slate-100 pb-24 dark:from-slate-950 dark:to-slate-950">
+  <div class="bg-background pb-12">
     <div
       v-if="toastMessage"
       class="fixed left-1/2 top-[72px] z-[70] max-w-[calc(100vw-32px)] -translate-x-1/2 rounded-xl px-4 py-3 text-sm font-semibold text-white shadow-xl"

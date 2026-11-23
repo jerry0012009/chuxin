@@ -494,7 +494,7 @@ onBeforeUnmount(() => {
 </script>
 
 <template>
-  <div class="min-h-screen bg-[#f5f5f5] pb-24 dark:bg-slate-950">
+  <div class="bg-background pb-12">
     <div
       v-if="toastMessage"
       class="fixed left-1/2 top-5 z-[80] w-[calc(100%-32px)] max-w-sm -translate-x-1/2 rounded-xl border px-4 py-3 text-sm font-medium shadow-xl backdrop-blur"

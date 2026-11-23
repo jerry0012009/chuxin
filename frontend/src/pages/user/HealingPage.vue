@@ -1164,7 +1164,7 @@ onBeforeUnmount(() => {
 </script>
 
 <template>
-  <div class="min-h-screen bg-gradient-to-br from-slate-50 via-white to-indigo-50/30 py-4 dark:from-slate-950 dark:via-slate-900 dark:to-indigo-950/20 md:py-6">
+  <div class="bg-background py-4 md:py-6">
     <div
       v-if="toastMessage"
       class="fixed left-1/2 top-[72px] z-[70] max-w-[calc(100vw-32px)] -translate-x-1/2 rounded-xl px-4 py-3 text-sm font-semibold text-white shadow-xl"
@@ -1840,7 +1840,7 @@ onBeforeUnmount(() => {
       </div>
     </div>
 
-    <div v-else class="relative -mx-4 mt-1 flex h-[calc(100vh-160px)] flex-col overflow-hidden rounded-b-[40px] rounded-t-[32px] border-t border-white/50 bg-gradient-to-br from-[#f8f9ff] via-[#f0f2ff] to-[#fdfaff] shadow-[0_-4px_24px_rgba(0,0,0,0.05)]">
+    <div v-else class="service-card relative mt-1 flex h-[calc(100vh-160px)] flex-col overflow-hidden">
       <div class="pointer-events-none absolute inset-x-0 top-0 h-[300px] bg-gradient-to-b from-indigo-100/40 via-transparent to-transparent" />
       <div
         class="pointer-events-none absolute inset-0 opacity-[0.4]"

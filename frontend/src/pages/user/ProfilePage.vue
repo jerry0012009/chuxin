@@ -597,7 +597,7 @@ onBeforeUnmount(() => {
 </script>
 
 <template>
-  <div class="bg-[#F5F5F5] pb-24 dark:bg-slate-950 md:pb-0">
+  <div class="bg-background pb-12">
     <div
       v-if="toastMessage"
       class="fixed left-1/2 top-[72px] z-[70] max-w-[calc(100vw-32px)] -translate-x-1/2 rounded-xl px-4 py-3 text-sm font-semibold text-white shadow-xl"
@@ -962,7 +962,7 @@ onBeforeUnmount(() => {
       </section>
     </div>
 
-    <div v-if="showFusionReport" class="fixed inset-0 z-50 overflow-y-auto bg-[#F8FAFC] dark:bg-slate-950" data-testid="profile-fusion-report">
+    <div v-if="showFusionReport" class="fixed inset-0 z-50 overflow-y-auto bg-background" data-testid="profile-fusion-report">
       <div class="sticky top-0 z-40 border-b border-slate-100 bg-white px-4 py-3 shadow-sm dark:border-slate-800 dark:bg-slate-900">
         <div class="mx-auto flex max-w-md items-center justify-between gap-3">
           <div class="flex items-center gap-3">
@@ -981,7 +981,7 @@ onBeforeUnmount(() => {
               <Clock class="h-4 w-4" />
               历史记录
             </button>
-            <button class="inline-flex h-9 items-center gap-2 rounded-full bg-[#1E6EFF] px-4 text-xs font-bold text-white shadow-lg shadow-blue-500/20 disabled:cursor-not-allowed disabled:opacity-50" data-testid="profile-fusion-export-pdf" :disabled="!hasCompleteProfileFusionReport" @click="exportProfileFusionReport('pdf')">
+            <button class="service-button disabled:cursor-not-allowed" data-testid="profile-fusion-export-pdf" :disabled="!hasCompleteProfileFusionReport" @click="exportProfileFusionReport('pdf')">
               <FileText class="h-4 w-4" />
               导出PDF
             </button>

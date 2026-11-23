@@ -2599,7 +2599,7 @@ onBeforeUnmount(() => {
               <Clock class="h-4 w-4" />
               历史记录
             </button>
-            <button class="inline-flex h-9 items-center gap-2 rounded-full bg-[#1E6EFF] px-4 text-xs font-bold text-white shadow-lg shadow-blue-500/20" data-testid="fusion-export-pdf" @click="exportFusionReport('pdf')">
+            <button class="service-button" data-testid="fusion-export-pdf" @click="exportFusionReport('pdf')">
               <Download class="h-4 w-4" />
               导出PDF
             </button>
@@ -2617,9 +2617,9 @@ onBeforeUnmount(() => {
           <div class="h-2 bg-[#10B981]" />
           <div class="p-6">
           <div class="grid grid-cols-3 gap-2">
-            <button class="h-10 rounded-[10px] bg-gradient-to-r from-blue-500 to-blue-600 px-2 text-xs font-bold leading-tight text-white shadow-md shadow-blue-500/20" data-testid="fusion-open-scale" @click="activeReport = 'scale'">对话评估报告</button>
-            <button class="h-10 rounded-[10px] bg-gradient-to-r from-violet-500 to-purple-600 px-2 text-xs font-bold leading-tight text-white shadow-md shadow-violet-500/20" data-testid="fusion-open-voice" @click="activeReport = 'voice'">语音情绪报告</button>
-            <button class="h-10 rounded-[10px] bg-gradient-to-r from-cyan-500 to-teal-500 px-2 text-xs font-bold leading-tight text-white shadow-md shadow-cyan-500/20" data-testid="fusion-open-expression" @click="activeReport = 'expression'">表情识别报告</button>
+            <button class="service-button service-outline px-2 text-xs" data-testid="fusion-open-scale" @click="activeReport = 'scale'">对话评估报告</button>
+            <button class="service-button service-outline px-2 text-xs" data-testid="fusion-open-voice" @click="activeReport = 'voice'">语音情绪报告</button>
+            <button class="service-button service-outline px-2 text-xs" data-testid="fusion-open-expression" @click="activeReport = 'expression'">表情识别报告</button>
           </div>
 
           <div class="mt-6 border-t border-slate-100 pt-6 dark:border-slate-800">
@@ -3208,7 +3208,7 @@ onBeforeUnmount(() => {
 
             <div class="flex flex-col gap-3">
               <button
-                class="h-12 w-full rounded-[12px] bg-[#1976ff] px-4 py-3 text-base font-black text-white shadow-lg shadow-blue-200 disabled:opacity-60"
+                class="service-button w-full"
                 data-testid="assessment-voice-record"
                 :disabled="voiceCaptureState === 'analyzing'"
                 @click="voiceCaptureState === 'recording' ? stopVoiceCapture() : startVoiceCapture()"
@@ -3251,7 +3251,7 @@ onBeforeUnmount(() => {
           </div>
         </BaseCard>
 
-        <BaseCard v-show="!isMobile || step === 'expression'" class="flex h-full flex-col overflow-hidden bg-slate-950 text-white" :class="isMobile ? 'rounded-none border-0 shadow-none' : ''" :padded="false">
+        <BaseCard v-show="!isMobile || step === 'expression'" class="service-capture flex h-full flex-col overflow-hidden text-white" :class="isMobile ? 'rounded-none border-0 shadow-none' : ''" :padded="false">
           <div class="flex items-center gap-2 border-b border-white/10 bg-gradient-to-b from-slate-900 to-slate-950 px-5 py-3">
             <div class="flex h-7 w-7 items-center justify-center rounded-lg bg-gradient-to-br from-blue-600 to-cyan-600 text-white">
               <Video class="h-4 w-4" />
@@ -3393,7 +3393,7 @@ onBeforeUnmount(() => {
 
     <div v-if="voiceReportOpen && voiceReport" class="fixed inset-0 z-50 flex items-center justify-center bg-slate-950/60 p-4" data-testid="voice-report-dialog">
       <section class="max-h-[92vh] w-full max-w-2xl overflow-y-auto rounded-[20px] bg-white shadow-xl dark:bg-slate-950">
-        <header class="flex items-center justify-between bg-gradient-to-r from-[#7A3EF4] to-[#9F7AEA] px-4 py-3 text-white">
+        <header class="service-band flex items-center justify-between px-4 py-3">
           <div class="flex items-center gap-3">
             <div class="flex h-9 w-9 items-center justify-center rounded-full bg-white/20">
               <Activity class="h-5 w-5" />
@@ -3512,7 +3512,7 @@ onBeforeUnmount(() => {
                 导出PNG
               </button>
             </div>
-            <button class="inline-flex h-9 items-center gap-1.5 rounded-xl bg-[#7A3EF4] px-4 text-xs font-bold text-white shadow-lg shadow-indigo-500/20" data-testid="voice-report-next" @click="completeVoice">
+            <button class="service-button" data-testid="voice-report-next" @click="completeVoice">
               表情识别
               <ChevronLeft class="h-3.5 w-3.5 rotate-180" />
             </button>
@@ -3732,7 +3732,7 @@ onBeforeUnmount(() => {
 
     <div v-if="expressionReportOpen" class="fixed inset-0 z-50 flex items-center justify-center bg-slate-950/60 p-4" data-testid="expression-report-dialog">
       <section class="max-h-[95vh] w-full max-w-3xl overflow-hidden rounded-[20px] bg-white shadow-xl dark:bg-slate-950">
-        <header class="flex items-start justify-between bg-gradient-to-r from-[#7A3EF4] to-[#9F7AEA] p-4 text-white">
+        <header class="service-band flex items-start justify-between p-4">
           <div class="flex items-center gap-3">
             <div class="flex h-10 w-10 items-center justify-center rounded-full bg-white/20">
               <ScanFace class="h-5 w-5" />
@@ -3815,7 +3815,7 @@ onBeforeUnmount(() => {
               导出PNG
             </button>
           </div>
-          <button class="rounded-lg bg-[#7A3EF4] px-4 py-2 text-xs font-bold text-white shadow-lg shadow-indigo-500/20" data-testid="expression-report-complete" @click="completeExpression">
+          <button class="service-button" data-testid="expression-report-complete" @click="completeExpression">
             综合报告
             <ChevronLeft class="ml-1 inline h-3 w-3 rotate-180" />
           </button>

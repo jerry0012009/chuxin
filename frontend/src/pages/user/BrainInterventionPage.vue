@@ -124,7 +124,7 @@ onBeforeUnmount(clearTimer)
 </script>
 
 <template>
-  <div class="min-h-screen bg-gradient-to-br from-slate-50 via-white to-cyan-50/40 pb-24 dark:from-slate-950 dark:via-slate-900 dark:to-cyan-950/20">
+  <div class="bg-background pb-12">
     <div class="sticky top-0 z-20 border-b border-slate-100 bg-white/85 px-4 py-3 backdrop-blur dark:border-slate-800 dark:bg-slate-950/85">
       <div class="mx-auto flex max-w-5xl items-center justify-between">
         <button class="inline-flex items-center gap-2 rounded-full px-3 py-2 text-sm font-bold text-slate-500 hover:bg-slate-100 dark:hover:bg-slate-800" type="button" @click="router.push(returnTo)">
@@ -137,7 +137,7 @@ onBeforeUnmount(clearTimer)
 
     <main class="mx-auto max-w-5xl space-y-6 px-4 pt-6">
       <section class="overflow-hidden rounded-[32px] border border-white bg-white shadow-xl shadow-cyan-100/50 dark:border-slate-800 dark:bg-slate-900 dark:shadow-none">
-        <div :class="['bg-gradient-to-br p-6 text-white', mode.tone]">
+        <div class="service-band p-6">
           <div class="flex items-start justify-between gap-4">
             <div>
               <div class="inline-flex items-center gap-2 rounded-full bg-white/20 px-3 py-1 text-xs font-bold backdrop-blur">

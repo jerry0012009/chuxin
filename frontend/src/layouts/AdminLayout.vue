@@ -13,8 +13,9 @@ import {
   Users,
 } from 'lucide-vue-next'
 import { computed } from 'vue'
-import { RouterLink, RouterView, useRoute, useRouter } from 'vue-router'
+import { RouterView, useRoute, useRouter } from 'vue-router'
 import { useAuthSession } from '@/composables/useAuthSession'
+import ServiceShell from '@/components/ui/ServiceShell.vue'
 import type { Component } from 'vue'
 import type { UserRole } from '@/types'
 
@@ -46,6 +47,7 @@ const navItems: AdminNavItem[] = [
 
 const displayName = computed(() => authState.profile?.full_name || authState.profile?.username || '')
 const roleName = computed(() => (authState.profile?.role === 'super_admin' ? '超级管理员' : '管理员'))
+const pageTitle = computed(() => navItems.find((item) => route.path === item.path)?.label)
 const visibleNavItems = computed(() => {
   const role = authState.profile?.role
   return navItems.filter((item) => role && item.roles.includes(role))
@@ -58,82 +60,14 @@ const handleLogout = async () => {
 </script>
 
 <template>
-  <div class="flex min-h-screen bg-background">
-    <aside class="sticky left-0 top-0 z-50 hidden h-screen w-64 flex-col border-r border-slate-200 bg-slate-50 transition-all duration-300 md:flex dark:border-slate-800 dark:bg-slate-950">
-      <div class="flex h-full flex-col">
-        <div class="flex h-16 items-center border-b border-slate-200 px-6 dark:border-slate-800">
-          <h1 class="text-lg font-semibold text-slate-900 dark:text-slate-100">管理员后台</h1>
-        </div>
-
-        <nav class="flex-1 space-y-2 overflow-y-auto p-4">
-          <RouterLink
-            v-for="item in visibleNavItems"
-            :key="item.path"
-            :to="item.path"
-            class="flex items-center gap-3 rounded-lg px-4 py-3 transition-colors"
-            :class="
-              route.path === item.path
-                ? 'bg-slate-200 text-slate-950 dark:bg-slate-800 dark:text-white'
-                : 'text-slate-700 hover:bg-slate-200/60 dark:text-slate-200 dark:hover:bg-slate-800/60'
-            "
-          >
-            <component :is="item.icon" class="h-5 w-5" />
-            <span>{{ item.label }}</span>
-          </RouterLink>
-        </nav>
-
-        <div class="border-t border-slate-200 p-4 dark:border-slate-800">
-          <div class="mb-3 rounded-lg bg-slate-200 px-4 py-2 dark:bg-slate-800">
-            <p class="text-sm font-medium text-slate-900 dark:text-slate-100">{{ displayName }}</p>
-            <p class="text-xs text-slate-500 dark:text-slate-400">{{ roleName }}</p>
-          </div>
-          <button
-            class="inline-flex h-10 w-full items-center justify-center gap-2 rounded-md border border-slate-300 bg-transparent px-4 text-sm font-medium text-slate-800 transition hover:bg-slate-100 dark:border-slate-700 dark:text-slate-100 dark:hover:bg-slate-800"
-            type="button"
-            @click="handleLogout"
-          >
-            <LogOut class="h-4 w-4" />
-            退出登录
-          </button>
-        </div>
-      </div>
-    </aside>
-
-    <div class="flex min-h-screen flex-1 flex-col">
-      <header class="sticky top-0 z-30 h-16 border-b border-slate-200 bg-white/80 backdrop-blur-md dark:border-slate-800 dark:bg-slate-900/80">
-        <div class="flex h-full items-center justify-between px-4 md:px-8">
-          <h1 class="text-xl font-bold md:hidden">初心 管理员后台</h1>
-          <div class="hidden md:block" />
-          <div class="flex items-center gap-4">
-            <div class="flex items-center gap-2 rounded-full bg-slate-100 px-3 py-1 md:hidden dark:bg-slate-800">
-              <span class="text-xs font-medium">{{ displayName }}</span>
-              <button class="grid h-6 w-6 place-items-center rounded-md hover:bg-slate-200 dark:hover:bg-slate-700" type="button" @click="handleLogout">
-                <LogOut class="h-3 w-3" />
-              </button>
-            </div>
-          </div>
-        </div>
-      </header>
-
-      <main class="flex-1 overflow-x-hidden p-4 pb-24 md:p-8 md:pb-8">
-        <div class="mx-auto max-w-7xl">
-          <RouterView />
-        </div>
-      </main>
-
-      <nav class="fixed inset-x-0 bottom-0 z-50 flex h-16 items-center justify-around border-t border-slate-200 bg-white px-2 shadow-[0_-4px_10px_rgba(0,0,0,0.05)] md:hidden dark:border-slate-800 dark:bg-slate-900">
-        <RouterLink
-          v-for="item in visibleNavItems"
-          :key="item.path"
-          :to="item.path"
-          class="relative flex h-full flex-1 flex-col items-center justify-center transition-colors"
-          :class="route.path === item.path ? 'text-primary' : 'text-slate-500 dark:text-slate-400'"
-        >
-          <component :is="item.icon" class="mb-1 h-6 w-6" />
-          <span class="text-[10px] font-medium leading-none">{{ item.label }}</span>
-          <span v-if="route.path === item.path" class="absolute -top-px h-0.5 w-12 rounded-full bg-primary" />
-        </RouterLink>
-      </nav>
+  <ServiceShell :navigation="visibleNavItems" area="管理员后台" :title="pageTitle" hero="compact" home="/admin/dashboard">
+    <template #account>
+      <button type="button" class="service-account" :title="`${displayName} · ${roleName}`" @click="handleLogout">
+        <LogOut aria-hidden="true" />退出登录
+      </button>
+    </template>
+    <div class="service-width min-w-0 py-5 sm:py-7">
+      <RouterView />
     </div>
-  </div>
+  </ServiceShell>
 </template>

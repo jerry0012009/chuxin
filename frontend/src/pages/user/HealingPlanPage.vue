@@ -101,7 +101,7 @@ onMounted(loadPlan)
 </script>
 
 <template>
-  <div class="min-h-screen bg-slate-50 pb-24 dark:bg-slate-950">
+  <div class="bg-background pb-12">
     <div class="sticky top-0 z-30 flex items-center justify-between border-b border-slate-100 bg-white/85 px-4 py-4 backdrop-blur-xl dark:border-slate-800 dark:bg-slate-900/85">
       <div class="flex items-center gap-4">
         <button class="flex h-10 w-10 items-center justify-center rounded-full hover:bg-slate-100 dark:hover:bg-slate-800" @click="router.back()">
@@ -134,7 +134,7 @@ onMounted(loadPlan)
           <button class="mt-5 rounded-xl bg-slate-900 px-4 py-3 text-sm font-bold text-white dark:bg-white dark:text-slate-900" type="button" @click="router.push('/healing')">进入疗愈</button>
         </section>
 
-        <section v-else class="overflow-hidden rounded-[28px] border border-emerald-100 bg-gradient-to-br from-emerald-50 via-white to-cyan-50 p-6 shadow-xl shadow-emerald-100/60 dark:border-slate-800 dark:from-slate-900 dark:via-slate-950 dark:to-emerald-950/20 dark:shadow-none">
+        <section v-else class="service-card service-card-highlight p-4 sm:p-6">
           <div class="flex flex-col gap-6 lg:flex-row lg:items-end lg:justify-between">
             <div class="min-w-0 flex-1">
               <div class="flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
@@ -172,7 +172,7 @@ onMounted(loadPlan)
                 <span class="font-black">{{ primaryPlan?.completed_days || 0 }} / {{ primaryPlan?.duration_days || 0 }} 天</span>
               </div>
               <div class="mt-3 h-3 overflow-hidden rounded-full bg-slate-100 dark:bg-slate-800">
-                <div class="h-full rounded-full bg-gradient-to-r from-emerald-500 to-cyan-400" :style="{ width: `${progress}%` }" />
+                <div class="h-full rounded-full bg-primary" :style="{ width: `${progress}%` }" />
               </div>
               <p class="mt-2 text-xs text-slate-500">今日完成 {{ today.summary.completed }} / {{ today.summary.total }}</p>
               <p class="mt-1 text-[11px] text-slate-400">多个计划共享同一项目时，完成一次会同步回写。</p>

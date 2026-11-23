@@ -2,6 +2,9 @@ import type { Config } from 'tailwindcss'
 import tailwindAnimate from 'tailwindcss-animate'
 import containerQueries from '@tailwindcss/container-queries'
 
+const ink = { 50: '#fbf9f5', 100: '#f3eee7', 200: '#e6ddd3', 300: '#c7bcb2', 400: '#81746e', 500: '#6c615c', 600: '#5c514d', 700: '#49403c', 800: '#382f2c', 900: '#292422', 950: '#201b19' }
+const wine = { 50: '#fbefef', 100: '#f3dfe0', 200: '#e9c4c7', 300: '#dba0a6', 400: '#c56a72', 500: '#a83943', 600: '#8d2028', 700: '#781b25', 800: '#691820', 900: '#532127', 950: '#391b1f' }
+
 export default {
   darkMode: ['class'],
   content: ['./index.html', './src/**/*.{vue,ts}'],
@@ -15,6 +18,15 @@ export default {
     },
     extend: {
       colors: {
+        slate: ink,
+        // Older views use these hues for navigation and decoration.
+        blue: wine,
+        indigo: wine,
+        violet: wine,
+        purple: wine,
+        pink: wine,
+        fuchsia: wine,
+        cyan: wine,
         border: 'hsl(var(--border))',
         input: 'hsl(var(--input))',
         ring: 'hsl(var(--ring))',

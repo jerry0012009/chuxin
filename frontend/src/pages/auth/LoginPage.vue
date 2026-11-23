@@ -6,6 +6,8 @@ import { useAuthSession } from '@/composables/useAuthSession'
 import { getDepartments } from '@/db/api'
 import type { Department } from '@/types'
 import ServiceMasthead from '@/components/ui/ServiceMasthead.vue'
+import ServiceHero from '@/components/ui/ServiceHero.vue'
+import { systemName } from '@/lib/service-preview'
 
 type LoginRole = 'user' | 'doctor'
 type AuthMode = 'login' | 'register'
@@ -159,7 +161,8 @@ async function submitAuth() {
 <template>
   <div class="service-page">
     <ServiceMasthead />
-    <main class="service-width py-8 sm:py-14">
+    <ServiceHero variant="full" :title="systemName" eyebrow="高原身心健康研究" />
+    <main class="service-width py-5 sm:py-7">
     <div
       v-if="toastMessage"
       class="fixed left-1/2 top-[72px] z-[80] -translate-x-1/2 rounded-full px-4 py-2 text-sm font-semibold text-white shadow-xl"
@@ -170,10 +173,10 @@ async function submitAuth() {
       {{ toastMessage }}
     </div>
 
-    <div class="service-card mx-auto max-w-[460px] border-t-[3px] border-t-[var(--service-red)]">
+    <div class="service-card service-card-highlight mx-auto max-w-[460px]">
       <div class="flex items-center gap-3 border-b px-5 py-5 sm:px-7">
         <span class="service-icon"><LockKeyhole aria-hidden="true" /></span>
-        <h1 class="text-2xl font-bold">{{ mode === 'login' ? '账号登录' : '账号注册' }}</h1>
+        <h2 class="text-xl font-bold">{{ mode === 'login' ? '账号登录' : '账号注册' }}</h2>
       </div>
 
       <div class="px-5 pb-6 pt-5 sm:px-7">
