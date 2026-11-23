@@ -39,7 +39,7 @@ const modes = {
   },
   neurofeedback: {
     title: '神经反馈训练',
-    subtitle: 'Web EEG Neurofeedback Training',
+    subtitle: '脑电反馈训练',
     icon: BrainCircuit,
     tone: 'from-cyan-400 to-blue-500',
     description: '使用轻量特征流模拟神经反馈训练流程，结束后生成训练报告，后续可替换为真实 EEG 特征流。',

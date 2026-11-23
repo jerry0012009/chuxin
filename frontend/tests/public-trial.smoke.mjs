@@ -58,7 +58,7 @@ try {
   assert.equal(result.calc_status, 'done')
   assert.equal(result.answers.length, 7)
   assert.ok(result.dimensions.length > 0)
-  await desktop.getByText('Scale Report', { exact: true }).waitFor()
+  await desktop.getByText('量表测评报告', { exact: true }).waitFor()
 
   const mobile = await browser.newPage(devices['iPhone 13'])
   mobile.on('pageerror', (error) => errors.push(error.message))

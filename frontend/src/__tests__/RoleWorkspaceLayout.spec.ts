@@ -2,7 +2,7 @@ import { beforeEach, describe, expect, it, vi } from 'vitest'
 import { mount } from '@vue/test-utils'
 import AdminLayout from '@/layouts/AdminLayout.vue'
 
-const routerPush = vi.fn()
+const resolve = vi.fn(() => ({ href: '/login' }))
 const signOut = vi.fn()
 const authState = vi.hoisted(() => ({
   value: {
@@ -19,7 +19,7 @@ const authState = vi.hoisted(() => ({
 vi.mock('vue-router', () => ({
   useRoute: () => ({ path: '/admin/dashboard' }),
   useRouter: () => ({
-    push: routerPush,
+    resolve,
   }),
   RouterLink: {
     props: ['to'],
@@ -49,18 +49,18 @@ describe('role workspace layouts', () => {
         role: 'doctor',
       },
     }
-    routerPush.mockClear()
+    resolve.mockClear()
     signOut.mockClear()
   })
 
-  it('shows the doctor sidebar entries including assessment publishing and neuropsych workspaces', () => {
+  it('shows administrator navigation including assessment publishing and neuropsych workspaces', () => {
     const wrapper = mount(AdminLayout)
 
     expect(wrapper.text()).not.toContain('返回用户端')
     expect(wrapper.text()).not.toContain('超级管理员')
     expect(wrapper.text()).toContain('管理员后台')
     expect(wrapper.text()).toContain('数据看板')
-    expect(wrapper.text()).toContain('用户管理')
+    expect(wrapper.text()).toContain('参与者管理')
     expect(wrapper.text()).toContain('发布测评任务')
     expect(wrapper.text()).toContain('量表测评')
     expect(wrapper.text()).toContain('神经心理测评')
@@ -68,19 +68,25 @@ describe('role workspace layouts', () => {
     expect(wrapper.text()).toContain('预警消息')
   })
 
-  it('signs out from the doctor sidebar and returns to login', async () => {
+  it('signs out from the administrator account bar and resolves the login page', async () => {
     const wrapper = mount(AdminLayout)
 
-    const logoutButton = wrapper.findAll('button').find((button) => button.text().includes('退出登录'))
-    expect(logoutButton).toBeTruthy()
-
-    await logoutButton!.trigger('click')
-
-    expect(signOut).toHaveBeenCalledOnce()
-    expect(routerPush).toHaveBeenCalledWith('/login')
+    const logoutButton = wrapper.findAll('button').find((button) => button.text().includes('退出登录'))!
+    const navigate = vi.fn()
+    const currentWindow = window
+    vi.stubGlobal('window', { location: { replace: navigate } })
+    try {
+      await logoutButton.trigger('click')
+      expect(signOut).toHaveBeenCalledOnce()
+      expect(resolve).toHaveBeenCalledWith({ path: '/login', query: {} })
+      expect(navigate).toHaveBeenCalledWith('/login')
+    } finally {
+      vi.unstubAllGlobals()
+      expect(window).toBe(currentWindow)
+    }
   })
 
-  it('shows the current authenticated doctor in the sidebar account summary', () => {
+  it('shows the current authenticated doctor in the account bar', () => {
     authState.value.profile = {
       username: 'doctor-li',
       full_name: '李管理员',
@@ -104,7 +110,7 @@ describe('role workspace layouts', () => {
 
     expect(wrapper.text()).toContain('超级管理员')
     expect(wrapper.text()).toContain('数据看板')
-    expect(wrapper.text()).toContain('用户管理')
+    expect(wrapper.text()).toContain('参与者管理')
     expect(wrapper.text()).toContain('部门管理')
   })
 })

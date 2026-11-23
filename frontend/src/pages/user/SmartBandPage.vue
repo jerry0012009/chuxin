@@ -594,7 +594,7 @@ onBeforeUnmount(() => {
                 <p class="mt-2 text-xs text-white/70">您的状态很棒，继续保持！</p>
               </div>
               <div class="relative h-24 w-24">
-                <svg class="h-24 w-24 -rotate-90">
+                <svg class="h-24 w-24 -rotate-90" role="img" :aria-label="`今日健康评分：${healthScore} 分，满分 100 分`">
                   <circle cx="48" cy="48" r="40" stroke="rgba(255,255,255,0.2)" stroke-width="8" fill="none" />
                   <circle cx="48" cy="48" r="40" stroke="white" stroke-width="8" fill="none" :stroke-dasharray="`${2 * Math.PI * 40 * (healthScore / 100)} ${2 * Math.PI * 40 * (1 - healthScore / 100)}`" stroke-linecap="round" />
                 </svg>
@@ -640,7 +640,7 @@ onBeforeUnmount(() => {
             <component :is="row.icon" class="h-4 w-4" />
             {{ row.title }}
           </h3>
-          <div class="mt-4 flex h-32 items-end gap-1">
+          <div class="mt-4 flex h-32 items-end gap-1" role="img" :aria-label="`${row.title}：${row.values.length ? row.values.map((value, index) => `${filteredTrendData[index]?.record_date ?? `第 ${index + 1} 条`} ${value} ${row.unit}`).join('；') : '暂无数据'}`">
             <div v-for="(value, index) in row.values" :key="index" class="flex flex-1 flex-col items-center gap-1">
               <div class="w-full rounded-t" :class="row.color" :style="{ height: `${Math.max(8, Math.min(100, (Number(value) / row.max) * 100))}%` }" />
             </div>
@@ -652,7 +652,7 @@ onBeforeUnmount(() => {
             <Moon class="h-4 w-4 text-indigo-500" />
             睡眠阶段分布
           </h3>
-          <div class="mt-4 flex h-8 overflow-hidden rounded-full">
+          <div class="mt-4 flex h-8 overflow-hidden rounded-full" role="img" :aria-label="`睡眠阶段示意：${sleepStageData.map(stage => `${stage.name} ${stage.value}%`).join('；')}`">
             <div v-for="stage in sleepStageData" :key="stage.name" :class="stage.color" :style="{ width: `${stage.value}%` }" />
           </div>
           <div class="mt-3 flex justify-center gap-3">

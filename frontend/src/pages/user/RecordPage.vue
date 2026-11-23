@@ -649,7 +649,7 @@ onBeforeUnmount(() => {
 
     <div class="page-grid py-8">
       <SectionTitle
-        eyebrow="Emotion Diary"
+        eyebrow="情绪日记"
         title="情绪记录"
         description="记录今天的心情、触发因素和身体感受，帮助你更稳定地觉察情绪变化。"
       />

@@ -483,7 +483,7 @@ onBeforeUnmount(() => {
 
         <div
           v-if="showPalette"
-          class="fixed inset-0 z-[100] flex items-center justify-center bg-slate-900/10 p-6 backdrop-blur-md"
+          class="service-dialog fixed inset-0 z-[100] flex justify-center bg-slate-900/10 backdrop-blur-md"
           data-testid="htp-palette-modal"
           @click="showPalette = false"
         >
@@ -492,7 +492,7 @@ onBeforeUnmount(() => {
             @click.stop
           >
             <div class="mb-5 flex items-center justify-between">
-              <h5 class="text-[11px] font-black uppercase tracking-widest text-slate-400">Brush & Palette</h5>
+              <h5 class="text-sm font-bold text-slate-600">画笔与调色板</h5>
               <button class="rounded-full p-1.5 text-slate-400 hover:bg-slate-50 dark:hover:bg-slate-800" type="button" aria-label="关闭调色板" @click="showPalette = false">
                 <X class="h-4 w-4" />
               </button>
@@ -546,7 +546,7 @@ onBeforeUnmount(() => {
           @click="analyze"
         >
           <Sparkles class="h-4 w-4" />
-          {{ isAnalyzing ? 'Processing...' : '开启 AI 心理评估' }}
+          {{ isAnalyzing ? '正在分析…' : '开启 AI 心理评估' }}
         </button>
       </section>
 
@@ -563,7 +563,7 @@ onBeforeUnmount(() => {
                 <div>
                   <div class="flex items-center gap-1.5 text-[9px] font-black uppercase tracking-[0.15em] text-indigo-300">
                     <Activity class="h-3.5 w-3.5" />
-                    AI Assessment Report
+                    智能评估报告
                   </div>
                   <h2 class="mt-1 text-base font-black">HTP 综合分析报告</h2>
                 </div>
@@ -577,7 +577,7 @@ onBeforeUnmount(() => {
             <div class="space-y-4 p-4">
               <div v-if="canvasImage" class="rounded-[20px] border border-slate-200 bg-slate-50 p-2 dark:border-slate-800 dark:bg-slate-950">
                 <div class="mb-2 flex items-center justify-between px-2">
-                  <span class="text-[10px] font-black uppercase tracking-widest text-slate-400">Original Drawing</span>
+                  <span class="text-[10px] font-black uppercase tracking-widest text-slate-400">原始画作</span>
                   <span class="rounded-md border border-slate-200 px-2 py-0.5 text-[8px] text-slate-500">Source</span>
                 </div>
                 <div class="flex aspect-[4/3] items-center justify-center overflow-hidden rounded-[14px] border border-slate-100 bg-white dark:border-slate-800">
@@ -588,7 +588,7 @@ onBeforeUnmount(() => {
               <div class="rounded-[20px] border border-slate-100 bg-slate-50/80 p-4 dark:border-slate-800 dark:bg-slate-950">
                 <div class="mb-2 flex items-center gap-1.5 text-[10px] font-black uppercase tracking-widest text-indigo-600">
                   <Sparkles class="h-3.5 w-3.5" />
-                  Clinical Insight
+                  评估解读
                 </div>
                 <p class="text-sm font-medium leading-7 text-slate-700 dark:text-slate-200">{{ analysisSummary }}</p>
               </div>
@@ -645,7 +645,7 @@ onBeforeUnmount(() => {
               <div class="mb-4 flex items-center gap-3">
                 <div class="flex h-10 w-10 items-center justify-center rounded-2xl bg-indigo-50 text-xs font-black text-indigo-600">{{ item.score }}</div>
                 <div>
-                  <div class="text-[10px] font-black uppercase tracking-widest text-slate-400">Assessment Score</div>
+                  <div class="text-[10px] font-black uppercase tracking-widest text-slate-400">评估得分</div>
                   <div class="text-xs font-bold text-slate-600 dark:text-slate-300">{{ new Date(item.createdAt).toLocaleString('zh-CN') }}</div>
                 </div>
               </div>
@@ -664,7 +664,7 @@ onBeforeUnmount(() => {
 
       <section v-else class="space-y-6">
         <div class="space-y-2 px-2">
-          <span class="rounded-full border border-indigo-200 bg-indigo-50 px-3 py-1 text-[9px] font-bold uppercase tracking-widest text-indigo-500">Clinical Methodology</span>
+          <span class="rounded-full border border-indigo-200 bg-indigo-50 px-3 py-1 text-[9px] font-bold uppercase tracking-widest text-indigo-500">评估方法</span>
           <h2 class="pt-2 text-3xl font-black tracking-tight text-slate-900 dark:text-white">HTP投射<br />分析原理</h2>
           <p class="max-w-sm text-sm font-medium leading-7 text-slate-500">
             通过房屋、树木和人物绘画，在非防御状态下观察内心潜意识结构，结果仅用于自我探索。
@@ -687,7 +687,7 @@ onBeforeUnmount(() => {
         <div class="flex items-start gap-3 rounded-[24px] border border-slate-100 bg-slate-50 p-5 dark:border-slate-800 dark:bg-slate-900">
           <Target class="mt-0.5 h-4 w-4 shrink-0 text-slate-400" />
           <div>
-            <h5 class="text-[10px] font-black uppercase tracking-widest text-slate-700 dark:text-slate-200">Algorithm Note</h5>
+            <h5 class="text-[10px] font-black uppercase tracking-widest text-slate-700 dark:text-slate-200">结果说明</h5>
             <p class="mt-1 text-xs font-medium leading-6 text-slate-500">
               AI 分析引擎提取绘画笔触、颜色、结构和空间分布进行综合研判，不作为医疗诊断依据。
             </p>

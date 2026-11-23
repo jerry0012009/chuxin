@@ -2699,8 +2699,8 @@ onBeforeUnmount(() => {
       </div>
       </div>
 
-      <div v-if="fusionHistoryOpen" class="fixed inset-0 z-50 flex items-center justify-center bg-slate-950/60 p-4" data-testid="fusion-history-dialog">
-        <section class="flex max-h-[86vh] w-full max-w-xl flex-col overflow-hidden rounded-2xl bg-white p-5 shadow-xl dark:bg-slate-950">
+      <div v-if="fusionHistoryOpen" class="service-dialog fixed inset-0 z-50 flex justify-center bg-slate-950/60" data-testid="fusion-history-dialog">
+        <section class="service-dialog-history flex w-full max-w-xl flex-col overflow-hidden rounded-2xl bg-white p-5 shadow-xl dark:bg-slate-950">
           <div class="flex shrink-0 items-center justify-between">
             <h2 class="text-xl font-black text-slate-900 dark:text-white">历史记录</h2>
             <button class="grid h-9 w-9 place-items-center rounded-full hover:bg-slate-100 dark:hover:bg-slate-900" data-testid="fusion-history-close" @click="fusionHistoryOpen = false"><X class="h-5 w-5 text-slate-400" /></button>
@@ -2749,7 +2749,7 @@ onBeforeUnmount(() => {
         </div>
       </BaseCard>
 
-      <div v-if="activeReport" class="fixed inset-0 z-50 flex items-center justify-center bg-slate-950/60 p-4" data-testid="fusion-subreport-dialog">
+      <div v-if="activeReport" class="service-dialog fixed inset-0 z-50 flex justify-center bg-slate-950/60" data-testid="fusion-subreport-dialog">
         <section class="max-h-[90vh] w-full max-w-2xl overflow-y-auto rounded-[20px] bg-white shadow-xl dark:bg-slate-950">
           <header
             class="flex items-center justify-between px-5 py-4 text-white"
@@ -3011,7 +3011,7 @@ onBeforeUnmount(() => {
                   <span class="text-[11px] font-bold uppercase text-slate-400">Progress</span>
                   <span class="text-sm font-black text-primary">{{ Math.min(scaleQuestionIndex, scaleTotalQuestions) }} / {{ scaleTotalQuestions }}</span>
                 </div>
-                <ProgressBar class="mt-2" :value="(Math.min(scaleQuestionIndex, scaleTotalQuestions) / scaleTotalQuestions) * 100" />
+                <ProgressBar class="mt-2" label="对话量表答题进度" :value="(Math.min(scaleQuestionIndex, scaleTotalQuestions) / scaleTotalQuestions) * 100" />
               </div>
 
               <div ref="scaleMessagesEl" class="max-h-[360px] space-y-4 overflow-y-auto p-4" data-testid="scale-dialogue">
@@ -3052,7 +3052,7 @@ onBeforeUnmount(() => {
                 </div>
               </div>
 
-              <div v-if="!scaleCompleted" class="space-y-3 border-t border-slate-100 bg-white p-4 dark:border-slate-800 dark:bg-slate-950">
+              <div v-if="!scaleCompleted" class="service-response space-y-3 border-t border-slate-100 bg-white p-4 dark:border-slate-800 dark:bg-slate-950">
                 <div
                   v-if="scaleEmojiPickerOpen"
                   class="max-h-48 overflow-y-auto rounded-2xl border border-slate-200 bg-white p-3 shadow-xl dark:border-slate-800 dark:bg-slate-900"
@@ -3195,14 +3195,14 @@ onBeforeUnmount(() => {
                   <span>录音进度</span>
                   <span>{{ voiceRecordingProgress }}%</span>
                 </div>
-                <ProgressBar :value="voiceRecordingProgress" tone="from-violet-500 to-pink-500" />
+                <ProgressBar label="语音录制进度" :value="voiceRecordingProgress" tone="from-violet-500 to-pink-500" />
               </div>
               <div v-if="voiceCaptureState === 'analyzing'" class="mt-4 space-y-2" data-testid="voice-analysis-progress">
                 <div class="flex justify-between text-xs text-slate-500">
                   <span>分析进度</span>
                   <span class="font-bold text-[#7A3EF4]">{{ Math.round(voiceAnalysisProgress) }}%</span>
                 </div>
-                <ProgressBar :value="voiceAnalysisProgress" tone="from-violet-500 to-pink-500" />
+                <ProgressBar label="语音分析进度" :value="voiceAnalysisProgress" tone="from-violet-500 to-pink-500" />
               </div>
             </div>
 
@@ -3289,7 +3289,7 @@ onBeforeUnmount(() => {
             </div>
 
             <div v-else class="rounded-[18px] border border-white/10 bg-white/5 p-4" data-testid="expression-live-panel">
-              <div class="relative flex h-72 items-center justify-center overflow-hidden rounded-[16px] border border-white/10 bg-slate-900">
+              <div class="service-camera-frame relative flex h-72 items-center justify-center overflow-hidden rounded-[16px] border border-white/10 bg-slate-900">
                 <video
                   v-show="expressionStream && expressionStatus !== 'completed'"
                   ref="expressionVideo"
@@ -3303,11 +3303,11 @@ onBeforeUnmount(() => {
                 <div class="absolute left-4 top-4 z-20 space-y-1 text-left">
                   <span class="inline-flex items-center gap-2 rounded-full border border-emerald-500/20 bg-emerald-500/15 px-3 py-1 text-[10px] font-bold text-emerald-300">
                     <span class="h-1.5 w-1.5 rounded-full bg-emerald-300" />
-                    LIVE FEED
+                    实时画面
                   </span>
                   <p class="font-mono text-[10px] leading-4 text-white/60">
-                    FPS: <span :class="expressionFps < 15 ? 'text-rose-300' : 'text-emerald-300'">{{ expressionFps }}</span> · MODEL: Qwen3.5-397B-A17B · WIN: 10s<br />
-                    FACE: <span :class="expressionNoFaceCount > 0 ? 'text-rose-300' : 'text-emerald-300'">{{ expressionNoFaceCount > 0 ? 'LOST' : 'LOCKED' }}</span>
+                    帧率：<span :class="expressionFps < 15 ? 'text-rose-300' : 'text-emerald-300'">{{ expressionFps }}</span> 帧/秒<br />
+                    人脸：<span :class="expressionNoFaceCount > 0 ? 'text-rose-300' : 'text-emerald-300'">{{ expressionNoFaceCount > 0 ? '未捕捉到' : '已捕捉到' }}</span>
                   </p>
                 </div>
                 <div class="absolute right-4 top-4 z-20 text-right">
@@ -3326,7 +3326,7 @@ onBeforeUnmount(() => {
                 <img
                   v-if="expressionSnapshot && expressionStatus === 'completed'"
                   :src="expressionSnapshot"
-                  alt="Expression snapshot"
+                  alt="表情采集快照"
                   class="absolute inset-0 h-full w-full object-cover opacity-80"
                 />
                 <div v-if="expressionStatus === 'idle' || expressionStatus === 'completed' || expressionStatus === 'analyzing'" class="relative z-10 rounded-2xl bg-slate-950/55 px-5 py-4 text-center backdrop-blur">
@@ -3335,7 +3335,7 @@ onBeforeUnmount(() => {
                   <p class="mt-1 text-xs text-white/60">将采集面部快照并调用多模态视觉分析。</p>
                 </div>
               </div>
-              <ProgressBar class="mt-4" :value="expressionStatus === 'capturing' ? (5 - expressionCountdown) * 20 : expressionProgress" tone="from-blue-500 to-cyan-400" />
+              <ProgressBar class="mt-4" label="表情采集与分析进度" :value="expressionStatus === 'capturing' ? (5 - expressionCountdown) * 20 : expressionProgress" tone="from-blue-500 to-cyan-400" />
               <div class="mt-4 grid grid-cols-3 gap-2 text-center text-xs">
                 <div class="rounded-[12px] bg-white/5 p-3">
                   <p class="text-white/40">眉心</p>
@@ -3391,7 +3391,7 @@ onBeforeUnmount(() => {
       </div>
     </div>
 
-    <div v-if="voiceReportOpen && voiceReport" class="fixed inset-0 z-50 flex items-center justify-center bg-slate-950/60 p-4" data-testid="voice-report-dialog">
+    <div v-if="voiceReportOpen && voiceReport" class="service-dialog fixed inset-0 z-50 flex justify-center bg-slate-950/60" data-testid="voice-report-dialog">
       <section class="max-h-[92vh] w-full max-w-2xl overflow-y-auto rounded-[20px] bg-white shadow-xl dark:bg-slate-950">
         <header class="service-band flex items-center justify-between px-4 py-3">
           <div class="flex items-center gap-3">
@@ -3459,7 +3459,7 @@ onBeforeUnmount(() => {
                 8维情绪雷达
               </h3>
               <div class="relative mt-2 h-48 rounded-xl bg-white dark:bg-slate-950" data-testid="voice-radar-chart">
-                <svg class="h-full w-full overflow-visible" viewBox="0 0 200 200" role="img" aria-label="8维情绪雷达图">
+                <svg class="h-full w-full overflow-visible" viewBox="0 0 200 200" role="img" :aria-label="`语音情绪指标：${voiceRadarItems.map(point => `${point.label} ${Math.round(point.rawValue * 100)}%`).join('；')}`">
                   <defs>
                     <linearGradient id="voiceRadarGradient" x1="0" y1="0" x2="0" y2="1">
                       <stop offset="0%" stop-color="#7A3EF4" stop-opacity="0.62" />
@@ -3521,7 +3521,7 @@ onBeforeUnmount(() => {
       </section>
     </div>
 
-    <div v-if="scaleReportOpen && scaleResult" class="fixed inset-0 z-50 flex items-center justify-center bg-slate-950/60 p-4" data-testid="scale-completion-dialog">
+    <div v-if="scaleReportOpen && scaleResult" class="service-dialog fixed inset-0 z-50 flex justify-center bg-slate-950/60" data-testid="scale-completion-dialog">
       <section class="w-full max-w-md overflow-hidden rounded-[32px] bg-white shadow-2xl dark:bg-slate-950">
         <div class="space-y-4 bg-gradient-to-br from-primary to-fuchsia-500 p-8 text-center text-white">
           <div class="mx-auto flex h-20 w-20 items-center justify-center rounded-full bg-white/20 backdrop-blur-md">
@@ -3593,8 +3593,8 @@ onBeforeUnmount(() => {
       </section>
     </div>
 
-    <div v-if="scaleHistoryOpen" class="fixed inset-0 z-50 flex items-center justify-center bg-slate-950/60 p-4" data-testid="scale-history-dialog">
-      <section class="flex max-h-[86vh] w-full max-w-2xl flex-col overflow-hidden rounded-[24px] bg-white shadow-xl dark:bg-slate-950">
+    <div v-if="scaleHistoryOpen" class="service-dialog fixed inset-0 z-50 flex justify-center bg-slate-950/60" data-testid="scale-history-dialog">
+      <section class="service-dialog-history flex w-full max-w-2xl flex-col overflow-hidden rounded-[24px] bg-white shadow-xl dark:bg-slate-950">
         <header class="flex shrink-0 items-start justify-between border-b border-slate-100 px-6 py-5 dark:border-slate-800">
           <div>
             <h2 class="flex items-center gap-2 text-2xl font-black text-slate-900 dark:text-white">
@@ -3637,8 +3637,8 @@ onBeforeUnmount(() => {
       </section>
     </div>
 
-    <div v-if="scaleHistoryDetailOpen && selectedScaleHistory" class="fixed inset-0 z-50 flex items-center justify-center bg-slate-950/60 p-4" data-testid="scale-history-detail-dialog">
-      <section class="flex max-h-[88vh] w-full max-w-3xl flex-col overflow-hidden rounded-[24px] bg-white shadow-xl dark:bg-slate-950">
+    <div v-if="scaleHistoryDetailOpen && selectedScaleHistory" class="service-dialog fixed inset-0 z-50 flex justify-center bg-slate-950/60" data-testid="scale-history-detail-dialog">
+      <section class="service-dialog-history flex w-full max-w-3xl flex-col overflow-hidden rounded-[24px] bg-white shadow-xl dark:bg-slate-950">
         <header class="flex shrink-0 items-center justify-between border-b border-slate-100 px-6 py-5 dark:border-slate-800">
           <div>
             <h2 class="text-2xl font-black text-slate-900 dark:text-white">{{ selectedScaleHistory.scaleTypes.join(' + ') }} 评估记录</h2>
@@ -3681,7 +3681,7 @@ onBeforeUnmount(() => {
       </section>
     </div>
 
-    <div v-if="scaleHistoryReportOpen && selectedScaleHistory" class="fixed inset-0 z-[60] flex items-center justify-center bg-slate-950/60 p-4" data-testid="scale-history-report-dialog">
+    <div v-if="scaleHistoryReportOpen && selectedScaleHistory" class="service-dialog fixed inset-0 z-[60] flex justify-center bg-slate-950/60" data-testid="scale-history-report-dialog">
       <section class="max-h-[88vh] w-full max-w-2xl overflow-y-auto rounded-2xl bg-white shadow-xl dark:bg-slate-950">
         <header class="bg-gradient-to-r from-blue-600 via-indigo-600 to-violet-600 p-6 text-white">
           <div class="flex items-center gap-3">
@@ -3730,8 +3730,8 @@ onBeforeUnmount(() => {
       </section>
     </div>
 
-    <div v-if="expressionReportOpen" class="fixed inset-0 z-50 flex items-center justify-center bg-slate-950/60 p-4" data-testid="expression-report-dialog">
-      <section class="max-h-[95vh] w-full max-w-3xl overflow-hidden rounded-[20px] bg-white shadow-xl dark:bg-slate-950">
+    <div v-if="expressionReportOpen" class="service-dialog fixed inset-0 z-50 flex justify-center bg-slate-950/60" data-testid="expression-report-dialog">
+      <section class="w-full max-w-3xl overflow-hidden rounded-[20px] bg-white shadow-xl dark:bg-slate-950">
         <header class="service-band flex items-start justify-between p-4">
           <div class="flex items-center gap-3">
             <div class="flex h-10 w-10 items-center justify-center rounded-full bg-white/20">
@@ -3745,7 +3745,7 @@ onBeforeUnmount(() => {
           <button @click="expressionReportOpen = false"><X class="h-5 w-5" /></button>
         </header>
 
-        <div id="expression-report-card" class="max-h-[72vh] overflow-y-auto p-4" data-testid="expression-report-card">
+        <div id="expression-report-card" class="p-4" data-testid="expression-report-card">
           <div class="grid gap-4 md:grid-cols-2">
             <div class="space-y-3">
               <h3 class="flex items-center gap-2 text-sm font-bold text-slate-800 dark:text-slate-100">
@@ -3754,15 +3754,15 @@ onBeforeUnmount(() => {
               </h3>
               <div class="space-y-3">
                 <div class="rounded-xl border border-slate-100 bg-slate-50 p-3 dark:border-slate-800 dark:bg-slate-900">
-                  <p class="text-[10px] font-bold uppercase text-slate-400">眉心皱纹 (Brow Furrow)</p>
+                  <p class="text-[10px] font-bold text-slate-400">眉心皱纹</p>
                   <p class="mt-1 text-sm font-medium leading-snug text-slate-700 dark:text-slate-200">{{ getExpressionMicroFeatureText('brow_furrow') }}</p>
                 </div>
                 <div class="rounded-xl border border-slate-100 bg-slate-50 p-3 dark:border-slate-800 dark:bg-slate-900">
-                  <p class="text-[10px] font-bold uppercase text-slate-400">嘴角形态 (Mouth Droop)</p>
+                  <p class="text-[10px] font-bold text-slate-400">嘴角形态</p>
                   <p class="mt-1 text-sm font-medium leading-snug text-slate-700 dark:text-slate-200">{{ getExpressionMicroFeatureText('mouth_droop') }}</p>
                 </div>
                 <div class="rounded-xl border border-slate-100 bg-slate-50 p-3 dark:border-slate-800 dark:bg-slate-900">
-                  <p class="text-[10px] font-bold uppercase text-slate-400">眼神接触 (Eye Contact)</p>
+                  <p class="text-[10px] font-bold text-slate-400">眼神接触</p>
                   <p class="mt-1 text-sm font-medium leading-snug text-slate-700 dark:text-slate-200">{{ getExpressionMicroFeatureText('eye_contact') }}</p>
                 </div>
               </div>
@@ -3774,7 +3774,7 @@ onBeforeUnmount(() => {
                 9维情绪雷达
               </h3>
               <div class="relative mx-auto mt-3 h-56 max-w-72 rounded-2xl bg-white dark:bg-slate-950" data-testid="expression-radar-chart">
-                <svg class="h-full w-full overflow-visible" viewBox="0 0 200 200" role="img" aria-label="9维情绪雷达图">
+                <svg class="h-full w-full overflow-visible" viewBox="0 0 200 200" role="img" :aria-label="`表情情绪指标：${expressionRadarPoints.map(point => `${point.label} ${Math.round(point.rawValue * 100)}%`).join('；')}`">
                   <polygon v-for="(grid, index) in expressionRadarGrid" :key="`expression-grid-${index}`" :points="grid" fill="none" stroke="#e2e8f0" stroke-width="1" />
                   <line v-for="point in expressionRadarPoints" :key="`expression-axis-${point.key}`" x1="100" y1="100" :x2="point.labelX - (point.labelX - 100) * 0.25" :y2="point.labelY - (point.labelY - 100) * 0.25" stroke="#e2e8f0" stroke-width="1" />
                   <polygon :points="expressionRadarPolygon" fill="#7A3EF4" fill-opacity="0.38" stroke="#7A3EF4" stroke-width="2.5" />
@@ -3804,7 +3804,7 @@ onBeforeUnmount(() => {
           </div>
         </div>
 
-        <footer class="flex items-center justify-between gap-3 border-t border-slate-100 p-4 dark:border-slate-800">
+        <footer class="flex flex-wrap items-center justify-between gap-3 border-t border-slate-100 p-4 dark:border-slate-800">
           <div class="flex gap-2">
             <button class="rounded-lg border border-slate-200 px-3 py-2 text-xs font-bold text-slate-700 dark:border-slate-700 dark:text-slate-200" @click="exportFusionReport('pdf')">
               <FileText class="mr-1 inline h-3 w-3" />

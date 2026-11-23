@@ -118,7 +118,7 @@ const roleLabel = computed(() => {
 
 const menuItems = computed(() => [
   { label: '手环数据', path: '/profile/smart-band', value: '智能健康监测', icon: Watch, accent: 'text-violet-600', surface: 'bg-violet-50' },
-  { label: '疗愈计划', path: '/profile/healing-plan', value: '专属定制方案', icon: Sparkles, accent: 'text-indigo-600', surface: 'bg-indigo-50' },
+  { label: '干预计划', path: '/profile/healing-plan', value: '专属定制方案', icon: Sparkles, accent: 'text-indigo-600', surface: 'bg-indigo-50' },
   { label: '对接管理员', path: '/profile/connect-doctor', value: '专业专家问诊', icon: Stethoscope, accent: 'text-rose-600', surface: 'bg-rose-50' },
   { label: '会员订阅', path: '/profile/subscription', value: '开通享特权', icon: Crown, accent: 'text-amber-600', surface: 'bg-amber-50' },
   { label: '隐私安全', path: '/profile/privacy', value: '账号安全加固', icon: ShieldCheck, accent: 'text-emerald-600', surface: 'bg-emerald-50' },

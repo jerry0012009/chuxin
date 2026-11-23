@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import { assessmentTypeLabel } from '@/lib/assessment-display'
 import {
   Activity,
   Brain,
@@ -201,7 +202,7 @@ const loadPatientDetails = async (patient: Profile) => {
     ])
     patientDetails.value = { diaries, assessments, interventions }
   } catch (error) {
-    errorMessage.value = error instanceof Error ? error.message : '加载患者详情失败'
+    errorMessage.value = error instanceof Error ? error.message : '加载参与者详情失败'
   } finally {
     loadingDetails.value = false
   }
@@ -215,6 +216,7 @@ const togglePanel = (key: string) => {
 }
 
 const riskBadgeClass = (riskLevel?: number | null) => {
+  if (riskLevel == null) return 'bg-slate-100 text-slate-600'
   if ((riskLevel || 0) >= 80) return 'bg-rose-500 text-white'
   if ((riskLevel || 0) >= 60) return 'bg-orange-500 text-white'
   if ((riskLevel || 0) >= 40) return 'bg-amber-500 text-white'
@@ -222,6 +224,7 @@ const riskBadgeClass = (riskLevel?: number | null) => {
 }
 
 const riskText = (riskLevel?: number | null) => {
+  if (riskLevel == null) return '暂无风险摘要'
   if ((riskLevel || 0) >= 80) return '极高风险'
   if ((riskLevel || 0) >= 60) return '高风险'
   if ((riskLevel || 0) >= 40) return '中风险'
@@ -301,7 +304,7 @@ const roleBadgeClass = (role: string) => {
 const roleText = (role: string) => {
   if (role === 'super_admin') return '超级管理员'
   if (role === 'doctor' || role === 'admin') return '管理员'
-  return '用户'
+  return '参与者'
 }
 
 const avatarDisplay = (profile: Profile) => {
@@ -409,7 +412,7 @@ onUnmounted(() => {
       </div>
     </Transition>
 
-    <SectionTitle title="用户管理" description="搜索用户、查看评估详情，并管理管理员验证码。" />
+    <SectionTitle title="参与者管理" />
 
     <div class="flex gap-2">
       <div class="group relative flex-1">
@@ -434,7 +437,7 @@ onUnmounted(() => {
 
     <BaseCard>
       <div class="mb-5 flex items-center justify-between gap-4">
-        <h2 class="text-lg font-bold text-slate-900 dark:text-white">用户列表 ({{ filteredPatients.length }})</h2>
+        <h2 class="text-lg font-bold text-slate-900 dark:text-white">参与者列表 ({{ filteredPatients.length }})</h2>
       </div>
 
       <div v-if="loading" class="space-y-3">
@@ -442,7 +445,7 @@ onUnmounted(() => {
       </div>
 
       <div v-else-if="filteredPatients.length === 0" class="py-12 text-center text-slate-500">
-        未找到用户
+        未找到参与者
       </div>
 
       <div v-else class="space-y-3">
@@ -504,8 +507,7 @@ onUnmounted(() => {
         <div class="border-b border-slate-200 px-5 pb-3 pt-5 dark:border-slate-800">
           <div class="flex items-center justify-between gap-4">
             <div>
-              <h3 class="text-xl font-bold text-slate-900 dark:text-white">用户详情</h3>
-              <p class="mt-1 text-sm text-slate-500">查看用户基本信息、量表评估、语音情绪、表情识别和对话记录。</p>
+              <h3 class="text-xl font-bold text-slate-900 dark:text-white">参与者详情</h3>
             </div>
             <button class="rounded-[8px] border border-slate-200 px-3 py-2 text-sm text-slate-500 dark:border-slate-700 dark:text-slate-300" type="button" @click="detailDialogOpen = false">
               关闭
@@ -618,7 +620,7 @@ onUnmounted(() => {
                   </div>
                   <div class="flex items-center gap-3">
                     <div class="text-right">
-                      <div class="text-xl font-black text-slate-800 dark:text-slate-200">{{ assessment.score ?? assessment.report?.overall?.score ?? 0 }}</div>
+                      <div class="text-xl font-black text-slate-800 dark:text-slate-200">{{ assessment.score ?? assessment.report?.overall?.score ?? '暂无分数' }}</div>
                       <div class="text-[10px] text-slate-400">综合分</div>
                     </div>
                     <ChevronUp v-if="expandedPanels[`package-${assessment.id}`]" class="h-4 w-4 text-slate-400" />
@@ -713,7 +715,7 @@ onUnmounted(() => {
                     <div>
                       <div class="flex items-center gap-2">
                         <span class="text-sm font-semibold text-slate-900 dark:text-white">
-                          {{ assessment.assessment_type === 'fusion_report' ? 'AI多模态报告' : assessment.assessment_type || 'PHQ-9量表评估' }}
+                          {{ assessment.report?.scaleData?.surveyTitle || assessmentTypeLabel(assessment) }}
                         </span>
                         <span :class="['rounded-full px-2 py-0.5 text-[10px] font-semibold', riskBadgeClass(assessment.risk_level)]">
                           {{ riskText(assessment.risk_level) }}
@@ -724,8 +726,8 @@ onUnmounted(() => {
                   </div>
                   <div class="flex items-center gap-3">
                     <div class="text-right">
-                      <div class="text-xl font-black text-slate-800 dark:text-slate-200">{{ getScaleData(assessment)?.score ?? getScaleData(assessment)?.phq9_score ?? assessment.score ?? 0 }}</div>
-                      <div class="text-[10px] text-slate-400">/ 27分</div>
+                      <div class="text-xl font-black text-slate-800 dark:text-slate-200">{{ getScaleData(assessment)?.score ?? getScaleData(assessment)?.phq9_score ?? assessment.score ?? '暂无分数' }}</div>
+                      <div class="text-[10px] text-slate-400">量表得分</div>
                     </div>
                     <ChevronUp v-if="expandedPanels[`scale-${assessment.id}`]" class="h-4 w-4 text-slate-400" />
                     <ChevronDown v-else class="h-4 w-4 text-slate-400" />
@@ -1023,7 +1025,7 @@ onUnmounted(() => {
                     <div class="flex flex-wrap items-center gap-2">
                       <h4 class="font-black text-slate-900 dark:text-white">{{ plan.batch_title }}</h4>
                       <span class="rounded-full bg-emerald-50 px-2.5 py-1 text-xs font-bold text-emerald-700">{{ plan.status }}</span>
-                      <span class="rounded-full bg-slate-100 px-2.5 py-1 text-xs font-bold text-slate-500 dark:bg-slate-800">{{ plan.risk_level || 'manual' }}</span>
+                      <span class="rounded-full bg-slate-100 px-2.5 py-1 text-xs font-bold text-slate-500 dark:bg-slate-800">{{ plan.risk_level === 'high' ? '高风险' : plan.risk_level === 'middle' ? '中风险' : plan.risk_level === 'low' ? '低风险' : '未标注风险' }}</span>
                     </div>
                     <p class="mt-2 text-sm leading-6 text-slate-500">{{ plan.batch_description || '干预计划已发布。' }}</p>
                     <p class="mt-2 text-xs text-slate-400">{{ plan.start_date }} 至 {{ plan.end_date }}</p>

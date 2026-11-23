@@ -1,6 +1,9 @@
 <script setup lang="ts">
 import { RouterView } from 'vue-router'
 import { palaceImage } from '@/lib/service-preview'
+import { useVisibleViewport } from '@/composables/useVisibleViewport'
+
+useVisibleViewport()
 </script>
 
 <template>

@@ -5,6 +5,7 @@ import { RouterLink } from 'vue-router'
 import ServiceHero from '@/components/ui/ServiceHero.vue'
 import ServiceStatus from '@/components/ui/ServiceStatus.vue'
 import { useAuthSession } from '@/composables/useAuthSession'
+import { assessmentItemName, nextAssessmentItem } from '@/lib/assessment-display'
 import { getMyAssessmentPublishTasks, getMyInterventionTodayTasks, getMyScaleRecords } from '@/db/api'
 import type { AssessmentPublishAssignee, InterventionTodayResponse, ScaleDistributionRecord } from '@/types'
 
@@ -17,7 +18,7 @@ const failed = ref<string[]>([])
 const current = computed(() => tasks.value.find((task) => ['pending', 'in_progress'].includes(task.status)))
 const required = computed(() => (current.value?.items || []).filter((item) => item.required !== false))
 const done = computed(() => required.value.filter((item) => ['completed', 'unsupported'].includes(item.status)).length)
-const progress = computed(() => required.value.length ? Math.round(done.value * 100 / required.value.length) : 0)
+const nextItem = computed(() => nextAssessmentItem(current.value?.items || []))
 const continuing = computed(() => current.value?.status === 'in_progress' || current.value?.items?.some((item) => item.status === 'in_progress' || item.status === 'completed'))
 const displayName = computed(() => auth.profile?.full_name || auth.profile?.username || '用户')
 const todayLabel = new Intl.DateTimeFormat('zh-CN', { dateStyle: 'full' }).format(new Date())
@@ -74,14 +75,11 @@ onMounted(load)
           </header>
           <template v-if="current">
             <p class="work-task-name">{{ current.batch_title || '测评任务' }}</p>
-            <div v-if="required.length" class="work-progress">
-              <div class="work-progress-label"><span>测评进度</span><strong>{{ done }} / {{ required.length }} 项</strong></div>
-              <progress class="service-progress block" :value="done" :max="required.length" aria-label="测评任务完成进度" />
-              <span class="work-progress-value">{{ progress }}%</span>
-            </div>
+            <p class="service-muted text-sm" v-if="required.length">已完成 <strong>{{ done }} / {{ required.length }} 项</strong></p>
+            <p class="service-muted break-words text-sm" v-if="nextItem">下一步：<strong>{{ assessmentItemName(nextItem) }}</strong></p>
           </template>
           <p v-else-if="!loading && !failed.includes('测评任务')" class="service-muted mt-auto text-sm">暂无待办测评。</p>
-          <RouterLink :to="current ? `/assessment-tasks/${current.id}` : '/assessment-tasks'" class="service-button work-continue" data-testid="work-current-link">{{ current ? (continuing ? '继续测评' : '开始测评') : '查看测评任务' }} <ArrowRight aria-hidden="true" /></RouterLink>
+          <RouterLink :to="current ? `/assessment-tasks/${current.id}` : '/assessment-tasks'" class="service-button work-continue" data-testid="work-current-link">{{ nextItem ? (continuing ? '继续测评' : '开始测评') : '查看测评任务' }} <ArrowRight aria-hidden="true" /></RouterLink>
         </article>
 
         <article class="service-card work-card work-secondary" data-testid="work-intervention">
@@ -96,7 +94,7 @@ onMounted(load)
             </ul>
           </template>
           <p v-else-if="!loading && !failed.includes('今日干预')" class="service-muted text-sm">今日暂无干预任务。</p>
-          <RouterLink to="/profile/healing-plan" class="work-action service-link">查看疗愈计划 <ArrowRight aria-hidden="true" /></RouterLink>
+          <RouterLink to="/profile/healing-plan" class="work-action service-link">查看干预计划 <ArrowRight aria-hidden="true" /></RouterLink>
         </article>
 
         <article class="service-card work-card work-secondary" data-testid="work-records">
@@ -138,10 +136,6 @@ onMounted(load)
 .work-card-heading .service-icon svg { width: 18px; height: 18px; }
 .work-task-status { margin-left: auto; }
 .work-task-name { margin-block: 2px; font-size: 22px; line-height: 1.4; font-weight: 720; overflow-wrap: anywhere; }
-.work-progress { display: grid; grid-template-columns: minmax(0, 1fr) auto; align-items: center; gap: 7px 8px; margin-block: 5px 2px; }
-.work-progress-label { grid-column: 1 / -1; display: flex; justify-content: space-between; gap: 8px; font-size: 13px; color: var(--service-muted); }
-.work-progress-label strong { color: #3c3234; font-variant-numeric: tabular-nums; }
-.work-progress-value { font-size: 13px; font-weight: 650; color: var(--service-red); font-variant-numeric: tabular-nums; }
 .work-continue { margin-top: auto; align-self: flex-start; min-height: 44px; padding-inline: 16px; }
 .work-list { font-size: 14px; }
 .work-list li + li { border-top: 1px solid #efe8df; }

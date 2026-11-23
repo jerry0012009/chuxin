@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import { trendLabel } from '@/lib/chart-labels'
 import { computed, onBeforeUnmount, ref } from 'vue'
 import { useRouter } from 'vue-router'
 import { Activity, BrainCircuit, Pause, Play, RotateCcw, Sparkles, TimerReset, Waves } from 'lucide-vue-next'
@@ -431,7 +432,7 @@ onBeforeUnmount(() => {
               </div>
               <p class="text-xs font-bold text-slate-400">{{ lastSampleAtMs ? '已接收特征流' : '等待特征流' }}</p>
             </div>
-            <svg class="mt-4 h-24 w-full" viewBox="0 0 320 88" preserveAspectRatio="none" role="img" aria-label="训练趋势线">
+            <svg class="mt-4 h-24 w-full" viewBox="0 0 320 88" preserveAspectRatio="none" role="img" :aria-label="trendLabel(`${metricConfig.label}反馈值`, trend)">
               <line x1="0" y1="44" x2="320" y2="44" class="stroke-slate-100 dark:stroke-slate-800" stroke-width="1" />
               <polyline v-if="trendPoints" :points="trendPoints" fill="none" :stroke="metricConfig.color" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" />
             </svg>
@@ -449,7 +450,7 @@ onBeforeUnmount(() => {
             <p class="text-xs font-bold text-slate-400">{{ stageProgress }}% 当前阶段</p>
           </div>
           <div class="mt-3">
-            <ProgressBar :value="overallProgress" :tone="completed ? 'from-emerald-500 to-cyan-500' : 'from-cyan-500 to-blue-500'" />
+            <ProgressBar :value="overallProgress" label="脑电反馈训练进度" :tone="completed ? 'from-emerald-500 to-cyan-500' : 'from-cyan-500 to-blue-500'" />
           </div>
         </div>
       </div>

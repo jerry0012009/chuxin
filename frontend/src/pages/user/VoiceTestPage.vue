@@ -205,7 +205,7 @@ onBeforeUnmount(() => {
     </div>
   </Transition>
 
-  <div class="mx-auto max-w-2xl space-y-6 p-6 pb-24">
+  <div class="service-response mx-auto max-w-2xl space-y-6 p-4 pb-12 sm:p-6">
     <section class="rounded-2xl border border-slate-200 bg-white shadow-lg dark:border-slate-800 dark:bg-slate-900">
       <header class="border-b border-slate-100 px-5 py-4 dark:border-slate-800">
         <h1 class="text-xl font-bold text-slate-900 dark:text-white">语音识别测试</h1>
@@ -226,7 +226,7 @@ onBeforeUnmount(() => {
           </div>
         </div>
 
-        <div class="flex items-center justify-between gap-3 border-t border-slate-200 pt-3 dark:border-slate-700">
+        <div class="flex flex-wrap items-center justify-between gap-3 border-t border-slate-200 pt-3 dark:border-slate-700">
           <div class="flex flex-wrap items-center gap-2">
             <button
               class="inline-flex h-9 items-center gap-1.5 rounded-lg px-3 text-sm font-medium transition"

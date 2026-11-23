@@ -159,7 +159,7 @@ const createAndPublish = async () => {
   try {
     const items = buildItems()
     if (!form.value.title.trim()) throw new Error('请填写干预任务标题')
-    if (!form.value.user_ids.length && !form.value.department_ids.length) throw new Error('请选择患者或部门')
+    if (!form.value.user_ids.length && !form.value.department_ids.length) throw new Error('请选择参与者或部门')
     if (!items.length) throw new Error('请选择至少一个干预小项目')
     const task = await createInterventionTask({
       title: form.value.title,
@@ -237,7 +237,7 @@ onMounted(loadAll)
 <template>
   <div class="space-y-6">
     <div class="flex flex-col gap-4 md:flex-row md:items-end md:justify-between">
-      <SectionTitle title="发布干预任务" description="跨菜单安排冥想、心情、游戏、知识和脑机干预；患者需要回到真实功能入口完成。" />
+      <SectionTitle title="发布干预任务" description="跨菜单安排冥想、心情、游戏、知识和脑机干预；参与者需要回到真实功能入口完成。" />
       <button class="inline-flex items-center justify-center gap-2 rounded-xl bg-slate-900 px-4 py-2 text-sm font-bold text-white dark:bg-white dark:text-slate-900" type="button" @click="loadAll">
         <RefreshCw class="h-4 w-4" />
         刷新
@@ -271,7 +271,7 @@ onMounted(loadAll)
 
     <div v-else-if="activeMode === 'publish'" class="grid gap-6 xl:grid-cols-[0.95fr_1.05fr]">
       <BaseCard>
-        <SectionTitle title="新建干预任务" description="同一任务可包含多个小项目，患者端会按今日子项目合并展示。" />
+        <SectionTitle title="新建干预任务" description="同一任务可包含多个小项目，参与者端会按今日子项目合并展示。" />
         <div class="mt-5 space-y-5">
           <input v-model="form.title" class="w-full rounded-xl border border-slate-200 bg-white px-4 py-3 text-sm dark:border-slate-800 dark:bg-slate-950" placeholder="任务标题，例如：中风险情绪调节计划" />
           <textarea v-model="form.description" class="min-h-24 w-full resize-none rounded-xl border border-slate-200 bg-white px-4 py-3 text-sm dark:border-slate-800 dark:bg-slate-950" placeholder="任务说明" />
@@ -312,7 +312,7 @@ onMounted(loadAll)
               </div>
             </div>
             <div>
-              <p class="mb-2 text-sm font-bold text-slate-800 dark:text-slate-100">选择患者</p>
+              <p class="mb-2 text-sm font-bold text-slate-800 dark:text-slate-100">选择参与者</p>
               <div class="max-h-48 overflow-y-auto rounded-xl border border-slate-100 p-2 dark:border-slate-800">
                 <label v-for="patient in patients" :key="patient.id" class="mb-1 flex items-center justify-between gap-2 rounded-lg p-2 text-sm hover:bg-slate-50 dark:hover:bg-slate-900">
                   <span class="flex min-w-0 items-center gap-2">

@@ -295,7 +295,7 @@ onMounted(async () => {
         <div class="bg-slate-950 p-6 text-white">
           <div class="flex items-start justify-between gap-4">
             <div>
-              <p class="text-xs text-white/50">Neuropsych Feedback</p>
+              <p class="text-xs text-white/50">神经心理测评反馈</p>
               <h2 class="mt-1 text-2xl font-black">{{ reportRecord.test_title || reportRecord.report?.testTitle }}</h2>
               <p class="mt-2 text-sm text-white/70">完成时间：{{ dateText(reportRecord.completed_at || reportRecord.report?.completedAt) }}</p>
             </div>

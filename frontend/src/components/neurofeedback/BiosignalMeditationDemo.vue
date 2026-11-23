@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import { trendLabel } from '@/lib/chart-labels'
 import { Activity, Brain, CheckCircle2, Droplets, HeartPulse, Loader2, Pause, Play, Sparkles, Square, TrendingUp, Video } from 'lucide-vue-next'
 import { computed, onBeforeUnmount, onMounted, ref } from 'vue'
 import { useRouter } from 'vue-router'
@@ -657,7 +658,7 @@ const guidanceText = '请保持舒适坐姿，放松肩颈和面部肌肉。跟�
             </div>
             <TrendingUp class="h-5 w-5 text-teal-600" />
           </div>
-          <svg class="mt-3 h-24 w-full" viewBox="0 0 320 96" preserveAspectRatio="none" role="img" aria-label="冥想稳定度趋势">
+          <svg class="mt-3 h-24 w-full" viewBox="0 0 320 96" preserveAspectRatio="none" role="img" :aria-label="trendLabel('冥想稳定度', trend.map(item => item.stability))">
             <line x1="0" y1="48" x2="320" y2="48" class="stroke-slate-100 dark:stroke-slate-800" stroke-width="1" />
             <polyline v-if="trendPoints" :points="trendPoints" fill="none" stroke="#0d9488" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" />
           </svg>

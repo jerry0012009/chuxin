@@ -8,12 +8,11 @@ import {
   FileText,
   HeartPulse,
   LayoutDashboard,
-  LogOut,
   Send,
   Users,
 } from 'lucide-vue-next'
 import { computed } from 'vue'
-import { RouterView, useRoute, useRouter } from 'vue-router'
+import { RouterView, useRoute } from 'vue-router'
 import { useAuthSession } from '@/composables/useAuthSession'
 import ServiceShell from '@/components/ui/ServiceShell.vue'
 import type { Component } from 'vue'
@@ -29,12 +28,11 @@ type AdminNavItem = {
 const staffRoles: UserRole[] = ['doctor', 'admin', 'super_admin']
 
 const route = useRoute()
-const router = useRouter()
-const { state: authState, signOut } = useAuthSession()
+const { state: authState } = useAuthSession()
 
 const navItems: AdminNavItem[] = [
   { path: '/admin/dashboard', label: '数据看板', icon: LayoutDashboard, roles: staffRoles },
-  { path: '/admin/patients', label: '用户管理', icon: Users, roles: staffRoles },
+  { path: '/admin/patients', label: '参与者管理', icon: Users, roles: staffRoles },
   { path: '/admin/assessment-task-publishing', label: '发布测评任务', icon: Send, roles: staffRoles },
   { path: '/admin/intervention-task-publishing', label: '发布干预任务', icon: HeartPulse, roles: staffRoles },
   { path: '/admin/brain-intervention-reports', label: '训练报告', icon: FileText, roles: staffRoles },
@@ -45,27 +43,16 @@ const navItems: AdminNavItem[] = [
   { path: '/admin/departments', label: '部门管理', icon: Building2, roles: ['super_admin'] },
 ]
 
-const displayName = computed(() => authState.profile?.full_name || authState.profile?.username || '')
-const roleName = computed(() => (authState.profile?.role === 'super_admin' ? '超级管理员' : '管理员'))
 const pageTitle = computed(() => navItems.find((item) => route.path === item.path)?.label)
 const visibleNavItems = computed(() => {
   const role = authState.profile?.role
   return navItems.filter((item) => role && item.roles.includes(role))
 })
 
-const handleLogout = async () => {
-  await signOut()
-  router.push('/login')
-}
 </script>
 
 <template>
   <ServiceShell :navigation="visibleNavItems" area="管理员后台" :title="pageTitle" hero="compact" home="/admin/dashboard">
-    <template #account>
-      <button type="button" class="service-account" :title="`${displayName} · ${roleName}`" @click="handleLogout">
-        <LogOut aria-hidden="true" />退出登录
-      </button>
-    </template>
     <div class="service-width min-w-0 py-5 sm:py-7">
       <RouterView />
     </div>

@@ -26,6 +26,7 @@ import { RouterLink, useRoute, useRouter } from 'vue-router'
 import BaseCard from '@/components/ui/BaseCard.vue'
 import SectionTitle from '@/components/ui/SectionTitle.vue'
 import ServiceStatus from '@/components/ui/ServiceStatus.vue'
+import { canOpenAssessmentItem as canOpenItem, nextAssessmentItem } from '@/lib/assessment-display'
 import {
   getAssessmentTaskPackageReport,
   getMyInterventionTodayTasks,
@@ -68,8 +69,7 @@ const interventionTasks = computed(() => interventionToday.value?.tasks || [])
 const requiredItems = computed(() => items.value.filter((item) => item.required !== false))
 const completedItems = computed(() => requiredItems.value.filter((item) => item.status === 'completed' || item.status === 'unsupported'))
 const progress = computed(() => (requiredItems.value.length ? Math.round((completedItems.value.length / requiredItems.value.length) * 100) : 0))
-const canOpenItem = (item: AssessmentPublishItemRecord) => item.status === 'pending' || item.status === 'in_progress'
-const nextItem = computed(() => requiredItems.value.find((item) => item.status === 'in_progress') || requiredItems.value.find(canOpenItem) || items.value.find(canOpenItem))
+const nextItem = computed(() => nextAssessmentItem(items.value))
 const isCompletedTask = computed(() => requiredItems.value.length > 0 && completedItems.value.length === requiredItems.value.length)
 const showTaskItems = computed(() => !isCompletedTask.value || taskItemsExpanded.value)
 const packageReport = computed(() => taskDetail.value?.package_report || null)
@@ -670,20 +670,20 @@ onBeforeUnmount(() => {
               <p class="font-black">今日干预进度：{{ interventionToday.summary.completed }} / {{ interventionToday.summary.total }}</p>
             </div>
             <button class="service-button service-outline shrink-0" type="button" @click="router.push('/profile/healing-plan')">
-              查看疗愈计划
+              查看干预计划
             </button>
           </div>
         </div>
       </section>
     </div>
 
-    <div v-if="activeItem" class="fixed inset-0 z-[80] overflow-y-auto bg-slate-950/60 p-4 backdrop-blur-sm">
+    <div v-if="activeItem" class="service-dialog fixed inset-0 z-[80] bg-slate-950/60 backdrop-blur-sm" role="dialog" aria-modal="true" aria-labelledby="task-capture-title">
       <section class="mx-auto my-6 max-w-2xl overflow-hidden rounded-[28px] bg-white shadow-2xl dark:bg-slate-950">
         <header class="border-b border-slate-100 p-5 dark:border-slate-800">
           <div class="flex items-start justify-between gap-4">
             <div>
               <p class="text-xs font-bold uppercase tracking-[0.12em] text-primary/70">{{ moduleMeta[activeItem.item_type]?.label }}</p>
-              <h2 class="mt-1 text-2xl font-black text-slate-900 dark:text-white">{{ activeItem.title }}</h2>
+              <h2 id="task-capture-title" class="mt-1 text-2xl font-black text-slate-900 dark:text-white">{{ activeItem.title }}</h2>
             </div>
             <button class="rounded-xl px-3 py-2 text-sm font-bold text-slate-500 hover:bg-slate-100 dark:hover:bg-slate-900" type="button" @click="activeItem = null">关闭</button>
           </div>

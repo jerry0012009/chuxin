@@ -4,10 +4,13 @@ import { computed, onMounted, onUnmounted, ref, watch } from 'vue'
 import BaseCard from '@/components/ui/BaseCard.vue'
 import ProgressBar from '@/components/ui/ProgressBar.vue'
 import SectionTitle from '@/components/ui/SectionTitle.vue'
+import ServiceStatus from '@/components/ui/ServiceStatus.vue'
+import { assessmentTypeLabel } from '@/lib/assessment-display'
 import { getAllAssessments, getAllEmotionDiaries, getAllProfiles, getRiskAlerts } from '@/db/api'
 import type { Assessment, EmotionDiary, Profile, RiskAlert } from '@/types'
 
 const loading = ref(true)
+const loadFailed = ref(false)
 const errorMessage = ref('')
 const profiles = ref<Profile[]>([])
 const alerts = ref<RiskAlert[]>([])
@@ -51,21 +54,20 @@ const overviewCards = computed(() => {
   const averageScore =
     diaries.value.length > 0
       ? diaries.value.reduce((sum, item) => sum + emotionScores[item.emotion_level], 0) / diaries.value.length
-      : 0
+      : null
 
   return [
-    { label: '患者总数', value: `${patients.value.length}`, subtext: '已建档用户', icon: Users, tone: 'from-primary to-info' },
+    { label: '参与者总数', value: `${patients.value.length}`, subtext: '当前可见的普通账户', icon: Users },
     { label: '待处理预警', value: `${alerts.value.length}`, subtext: '高风险优先处理', icon: Bell, tone: 'from-rose-500 to-orange-500' },
-    { label: '今日评估', value: `${todayAssessments}`, subtext: '当天创建记录', icon: Brain, tone: 'from-cyan-500 to-blue-500' },
-    { label: '平均情绪', value: averageScore ? averageScore.toFixed(1) : '0.0', subtext: '近全部日记 / 满分 5', icon: Activity, tone: 'from-emerald-500 to-teal-500' },
+    { label: '今日评估', value: `${todayAssessments}`, subtext: '按记录日期统计今日新增评估', icon: Brain },
+    { label: '平均情绪', value: averageScore === null ? '暂无日记' : averageScore.toFixed(1), subtext: '最近最多 1000 条日记，满分 5 分', icon: Activity },
   ]
 })
 
 const riskSummary = computed(() => {
   const high = alerts.value.filter((item) => item.risk_level >= 8).length
   const medium = alerts.value.filter((item) => item.risk_level >= 5 && item.risk_level < 8).length
-  const stable = Math.max(0, patients.value.length - high - medium)
-  return { high, medium, stable }
+  return { high, medium, other: alerts.value.length - high - medium }
 })
 
 const recentAlerts = computed(() =>
@@ -87,14 +89,15 @@ const patientRiskDistribution = computed(() => {
   return patients.value
     .map((patient) => {
       const patientAlerts = alerts.value.filter((item) => item.patient_id === patient.id)
-      const highestAlert = patientAlerts.reduce((current, item) => Math.max(current, item.risk_level), 0)
       const latestAssessment = latestAssessmentMap.get(patient.id)
-      const score = latestAssessment ? Number(latestAssessment.score ?? 0) : 0
+      const report = latestAssessment?.report
+      const summary = [report?.overall?.summary, report?.summary, ...patientAlerts.map((alert) => alert.description)]
+        .find((value): value is string => typeof value === 'string' && value.trim().length > 0)
       return {
         id: patient.id,
         name: patient.full_name || patient.username,
-        summary: patientAlerts[0]?.description || '暂无风险摘要',
-        adherence: latestAssessment ? Math.max(45, Math.min(96, 100 - Math.round(score / 2))) : 0,
+        assessment: latestAssessment,
+        summary,
       }
     })
     .slice(0, 8)
@@ -112,12 +115,12 @@ const emotionTrend = computed(() => {
     date.setDate(date.getDate() - (6 - offset))
     const key = `${date.getFullYear()}-${String(date.getMonth() + 1).padStart(2, '0')}-${String(date.getDate()).padStart(2, '0')}`
     const scores = grouped.get(key) || []
-    const value = scores.length > 0 ? Number((scores.reduce((sum, item) => sum + item, 0) / scores.length).toFixed(1)) : 0
+    const value = scores.length > 0 ? Number((scores.reduce((sum, item) => sum + item, 0) / scores.length).toFixed(1)) : null
     return {
       key,
       label: `${date.getMonth() + 1}/${date.getDate()}`,
       value,
-      percent: `${Math.max(10, (value / 5) * 100)}%`,
+      percent: `${((value ?? 0) / 5) * 100}%`,
     }
   })
 })
@@ -125,13 +128,7 @@ const emotionTrend = computed(() => {
 const assessmentDistribution = computed(() => {
   const counter = new Map<string, number>()
   assessments.value.forEach((item) => {
-    const type = `${item.assessment_type || ''}`.toLowerCase()
-    let label = '其他评估'
-    if (type.includes('voice') || item.report?.voiceData) label = '语音情绪'
-    else if (type.includes('expression') || type.includes('face') || item.report?.expressionData) label = '表情识别'
-    else if (type.includes('htp')) label = '房树人评估'
-    else if (type.includes('fusion') || type.includes('multimodal')) label = 'AI多模态报告'
-    else if (type.includes('scale') || item.report?.scaleData) label = '量表评估'
+    const label = assessmentTypeLabel(item)
     counter.set(label, (counter.get(label) || 0) + 1)
   })
   return Array.from(counter.entries()).map(([label, value]) => ({ label, value }))
@@ -139,6 +136,7 @@ const assessmentDistribution = computed(() => {
 
 const loadDashboard = async () => {
   loading.value = true
+  loadFailed.value = false
   errorMessage.value = ''
   try {
     const [nextProfiles, nextAlerts, nextAssessments, nextDiaries] = await Promise.all([
@@ -152,6 +150,7 @@ const loadDashboard = async () => {
     assessments.value = nextAssessments
     diaries.value = nextDiaries
   } catch (error) {
+    loadFailed.value = true
     errorMessage.value = error instanceof Error ? error.message : '加载数据看板失败'
   } finally {
     loading.value = false
@@ -179,29 +178,28 @@ onUnmounted(() => {
       </div>
     </Transition>
 
-    <SectionTitle title="管理员数据看板" description="集中查看患者概况、预警状态、评估活跃度与情绪趋势。" />
+    <SectionTitle title="管理员数据看板" />
+    <p v-if="loadFailed" class="service-card p-4 text-sm" role="alert">看板数据暂时无法加载。 <button class="service-link" type="button" @click="loadDashboard">重试</button></p>
+    <template v-else>
 
     <div class="service-card service-band p-4 sm:p-5">
       <div class="grid gap-6 lg:grid-cols-[1.1fr_0.9fr]">
         <div>
-          <p class="text-sm text-white/60">Clinical Overview</p>
-          <h2 class="mt-2 text-3xl font-bold">实时监控患者健康状况</h2>
-          <p class="mt-3 max-w-2xl text-sm leading-7 text-white/75">
-            实时汇总患者风险、评估活跃度与近期情绪趋势，帮助快速定位需要跟进的个案。
-          </p>
+          <h2 class="text-xl font-bold">待处理预警概览</h2>
+          <p class="mt-2 text-sm text-white/80">按预警条数统计，同一参与者可能有多条预警。</p>
         </div>
         <div class="grid gap-3 sm:grid-cols-3">
           <div class="rounded-[24px] bg-white/10 p-4">
             <p class="text-xs text-white/60">高风险</p>
-            <p class="mt-2 text-2xl font-bold">{{ riskSummary.high }}</p>
+            <p class="mt-2 text-2xl font-bold">{{ loading ? '…' : `${riskSummary.high} 条` }}</p>
           </div>
           <div class="rounded-[24px] bg-white/10 p-4">
             <p class="text-xs text-white/60">中风险</p>
-            <p class="mt-2 text-2xl font-bold">{{ riskSummary.medium }}</p>
+            <p class="mt-2 text-2xl font-bold">{{ loading ? '…' : `${riskSummary.medium} 条` }}</p>
           </div>
           <div class="rounded-[24px] bg-white/10 p-4">
-            <p class="text-xs text-white/60">稳定患者</p>
-            <p class="mt-2 text-2xl font-bold">{{ riskSummary.stable }}</p>
+            <p class="text-xs text-white/60">其他预警</p>
+            <p class="mt-2 text-2xl font-bold">{{ loading ? '…' : `${riskSummary.other} 条` }}</p>
           </div>
         </div>
       </div>
@@ -222,17 +220,16 @@ onUnmounted(() => {
 
     <div class="grid gap-6 lg:grid-cols-[1.2fr_0.8fr]">
       <BaseCard>
-        <SectionTitle title="患者风险分布" description="按最新评估和当前预警汇总患者随访优先级。" />
-        <div v-if="loading" class="mt-6 text-sm text-slate-500">正在加载患者分布...</div>
-        <div v-else class="mt-6 space-y-5">
-          <div v-for="item in patientRiskDistribution" :key="item.id">
-            <div class="mb-2 flex items-center justify-between gap-4 text-sm">
-              <span class="font-medium text-slate-700 dark:text-slate-200">{{ item.name }}</span>
-              <span class="truncate text-slate-400">{{ item.summary }}</span>
-            </div>
-            <ProgressBar :value="item.adherence" />
-          </div>
-        </div>
+        <SectionTitle title="参与者评估与风险摘要" description="最多显示 8 人，每人展示可见记录中的最近一次评估。" />
+        <p v-if="loading" class="mt-5 text-sm text-slate-500">正在加载参与者数据…</p>
+        <p v-else-if="!patientRiskDistribution.length" class="mt-5 text-sm text-slate-500">暂无参与者。</p>
+        <ul v-else class="mt-3 divide-y">
+          <li v-for="item in patientRiskDistribution" :key="item.id" class="space-y-2 py-3 text-sm">
+            <div class="flex flex-wrap items-center gap-2"><strong>{{ item.name }}</strong><ServiceStatus :tone="item.assessment ? 'done' : 'idle'">{{ item.assessment ? '已有评估' : '暂无评估' }}</ServiceStatus></div>
+            <p v-if="item.assessment" class="text-slate-600">{{ assessmentTypeLabel(item.assessment) }} · {{ item.assessment.score == null ? '暂无分数' : `总分 ${item.assessment.score}` }}</p>
+            <p v-if="item.summary || item.assessment" class="break-words text-slate-600">{{ item.summary || '暂无风险摘要' }}</p>
+          </li>
+        </ul>
       </BaseCard>
 
       <BaseCard>
@@ -259,13 +256,13 @@ onUnmounted(() => {
         <SectionTitle title="近 7 日情绪趋势" description="按日记情绪值换算为 1-5 分的平均曲线。" />
         <div v-if="loading" class="mt-5 text-sm text-slate-500">正在计算趋势...</div>
         <div v-else class="mt-5">
-          <div class="flex h-56 items-end gap-3">
-            <div v-for="item in emotionTrend" :key="item.key" class="flex flex-1 flex-col items-center gap-3">
-              <div class="flex h-44 w-full items-end rounded-[16px] bg-slate-50 p-2 dark:bg-slate-900">
+          <div class="flex h-56 items-end gap-1 sm:gap-3" role="img" :aria-label="`近 7 日平均情绪评分（满分 5 分）：${emotionTrend.map(item => `${item.label} ${item.value === null ? '暂无日记' : `${item.value} 分`}`).join('；')}`">
+            <div v-for="item in emotionTrend" :key="item.key" class="flex min-w-0 flex-1 flex-col items-center gap-3">
+              <div class="flex h-44 w-full items-end rounded-lg bg-slate-50 p-1 sm:p-2 dark:bg-slate-900">
                 <div class="w-full rounded-[12px] bg-gradient-to-t from-primary to-info" :style="{ height: item.percent }" />
               </div>
               <div class="text-center">
-                <p class="text-sm font-semibold text-slate-900 dark:text-white">{{ item.value.toFixed(1) }}</p>
+                <p class="text-sm font-semibold text-slate-900 dark:text-white">{{ item.value?.toFixed(1) ?? '—' }}</p>
                 <p class="text-xs text-slate-400">{{ item.label }}</p>
               </div>
             </div>
@@ -274,7 +271,7 @@ onUnmounted(() => {
       </BaseCard>
 
       <BaseCard>
-        <SectionTitle title="评估类型分布" description="从当前 assessments 实际数据汇总评估类型。" />
+        <SectionTitle title="评估类型分布" description="按最近最多 1000 条可见评估记录汇总，每条记录只归入一种类型。" />
         <div v-if="loading" class="mt-5 text-sm text-slate-500">正在汇总评估...</div>
         <div v-else-if="assessmentDistribution.length === 0" class="mt-5 rounded-[24px] bg-slate-50 p-4 text-sm text-slate-500 dark:bg-slate-900">
           当前没有评估数据。
@@ -285,7 +282,7 @@ onUnmounted(() => {
               <span class="font-semibold text-slate-900 dark:text-white">{{ item.label }}</span>
               <span class="text-sm text-slate-500">{{ item.value }}</span>
             </div>
-            <ProgressBar :value="Math.min(100, (item.value / Math.max(1, assessments.length)) * 100)" />
+            <ProgressBar :label="`${item.label}占比，${item.value} 条，共 ${assessments.length} 条`" :value="(item.value / assessments.length) * 100" />
           </div>
         </div>
       </BaseCard>
@@ -297,7 +294,7 @@ onUnmounted(() => {
         <div class="rounded-[24px] bg-slate-50 p-4 dark:bg-slate-900">
           <div class="flex items-center gap-3">
             <AlertTriangle class="h-5 w-5 text-rose-500" />
-            <p class="font-semibold text-slate-900 dark:text-white">优先联系高风险患者</p>
+            <p class="font-semibold text-slate-900 dark:text-white">优先跟进高风险预警</p>
           </div>
           <p class="mt-2 text-sm text-slate-500">
             当前共有 {{ alerts.length }} 条待处理预警，其中高风险 {{ riskSummary.high }} 条。
@@ -314,5 +311,6 @@ onUnmounted(() => {
         </div>
       </div>
     </BaseCard>
+    </template>
   </div>
 </template>

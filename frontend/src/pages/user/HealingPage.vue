@@ -2107,7 +2107,7 @@ onBeforeUnmount(() => {
       <div class="w-full max-w-xl rounded-[28px] bg-white p-5 shadow-2xl dark:bg-slate-950">
         <div class="flex items-start justify-between gap-4">
           <div>
-            <p class="text-xs font-semibold uppercase tracking-[0.16em] text-indigo-500">Meditation Complete</p>
+            <p class="text-xs font-semibold uppercase tracking-[0.16em] text-indigo-500">冥想练习完成</p>
             <h3 class="mt-2 text-xl font-black text-slate-900 dark:text-white">记录本次冥想感受</h3>
             <p class="mt-2 text-sm text-slate-500">
               {{ completedSession.title }} · {{ formatTime(completedSession.duration) }}

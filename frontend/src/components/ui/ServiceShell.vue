@@ -4,6 +4,7 @@ import { computed, ref, watch, type Component } from 'vue'
 import { RouterLink, useRoute } from 'vue-router'
 import ServiceHero from './ServiceHero.vue'
 import ServiceMasthead from './ServiceMasthead.vue'
+import ServiceAccountBar from './ServiceAccountBar.vue'
 
 const props = defineProps<{
   navigation: { path: string; label: string; icon: Component }[]
@@ -22,6 +23,7 @@ watch(() => route.fullPath, () => { open.value = false })
 <template>
   <div class="service-page" data-testid="service-shell">
     <ServiceMasthead :home="home" :caption="area" />
+    <ServiceAccountBar />
     <nav class="service-nav" :aria-label="area" @keydown.esc="open = false">
       <div class="service-width service-nav-rail">
         <button class="service-menu-toggle" type="button" :aria-expanded="open" aria-controls="service-navigation" @click="open = !open">
@@ -33,7 +35,6 @@ watch(() => route.fullPath, () => { open.value = false })
           <RouterLink v-for="item in navigation" :key="item.path" :to="item.path" :aria-current="active?.path === item.path ? 'page' : undefined" @click="open = false">
             <component :is="item.icon" aria-hidden="true" />{{ item.label }}
           </RouterLink>
-          <slot name="account" />
         </div>
       </div>
     </nav>

@@ -87,7 +87,7 @@ const createAndPublish = async () => {
   try {
     const items = buildItems()
     if (!form.value.title.trim()) throw new Error('请填写任务标题')
-    if (!form.value.user_ids.length && !form.value.department_ids.length) throw new Error('请选择患者或部门')
+    if (!form.value.user_ids.length && !form.value.department_ids.length) throw new Error('请选择参与者或部门')
     if (!items.length) throw new Error('请选择至少一个测评项目')
     const task = await createAssessmentPublishTask({
       title: form.value.title,
@@ -208,7 +208,7 @@ onMounted(loadAll)
 
     <div v-if="activeMode === 'publish'" class="grid gap-6 xl:grid-cols-[0.95fr_1.05fr]">
       <BaseCard>
-        <SectionTitle title="新建测评任务" description="选择患者与测评项目后立即发布。未来干预任务会作为独立模块，不混入这里。" />
+        <SectionTitle title="新建测评任务" description="选择参与者与测评项目后立即发布。未来干预任务会作为独立模块，不混入这里。" />
         <div class="mt-5 space-y-5">
           <input v-model="form.title" class="w-full rounded-xl border border-slate-200 bg-white px-4 py-3 text-sm dark:border-slate-800 dark:bg-slate-950" placeholder="任务标题，例如：入组初筛测评包" />
           <textarea v-model="form.description" class="min-h-24 w-full resize-none rounded-xl border border-slate-200 bg-white px-4 py-3 text-sm dark:border-slate-800 dark:bg-slate-950" placeholder="任务说明" />
@@ -228,7 +228,7 @@ onMounted(loadAll)
               </div>
             </div>
             <div>
-              <p class="mb-2 text-sm font-bold text-slate-800 dark:text-slate-100">选择患者</p>
+              <p class="mb-2 text-sm font-bold text-slate-800 dark:text-slate-100">选择参与者</p>
               <div class="max-h-52 overflow-y-auto rounded-xl border border-slate-100 p-2 dark:border-slate-800">
                 <label v-for="patient in patients" :key="patient.id" class="mb-1 flex items-center justify-between gap-2 rounded-lg p-2 text-sm hover:bg-slate-50 dark:hover:bg-slate-900">
                   <span class="flex min-w-0 items-center gap-2">

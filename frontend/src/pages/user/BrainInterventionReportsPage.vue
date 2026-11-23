@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import { trendLabel } from '@/lib/chart-labels'
 import { Activity, BrainCircuit, ChevronLeft, Loader2, Sparkles, TrendingUp } from 'lucide-vue-next'
 import { computed, onMounted, ref, watch } from 'vue'
 import { useRoute, useRouter } from 'vue-router'
@@ -77,7 +78,7 @@ const metricLabel = (key?: string | null) => {
   if (key === 'theta_training') return 'Theta'
   if (key === 'beta_training') return 'Beta'
   if (key === 'smr_training') return 'SMR'
-  if (key === 'theta_beta_ratio') return 'Theta/Beta Ratio'
+  if (key === 'theta_beta_ratio') return 'θ 波与 β 波比值'
   return 'Alpha'
 }
 
@@ -225,7 +226,7 @@ function polylinePoints(values: number[]) {
               </div>
               <TrendingUp class="h-5 w-5 text-cyan-600" />
             </div>
-            <svg class="mt-4 h-36 w-full" viewBox="0 0 320 96" preserveAspectRatio="none" role="img" aria-label="训练报告趋势图">
+            <svg class="mt-4 h-36 w-full" viewBox="0 0 320 96" preserveAspectRatio="none" role="img" :aria-label="trendLabel(isMeditationReport ? '冥想稳定度' : `${metricLabel(displayReport.protocol_key)}反馈值`, trendValues)">
               <line x1="0" y1="48" x2="320" y2="48" class="stroke-slate-100 dark:stroke-slate-800" stroke-width="1" />
               <polyline v-if="trendPoints" :points="trendPoints" fill="none" stroke="#0891b2" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" />
             </svg>

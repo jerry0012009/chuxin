@@ -195,7 +195,7 @@ onBeforeUnmount(() => {
         <div class="flex items-start justify-between gap-3">
           <div>
             <p class="text-sm font-black text-slate-900 dark:text-white">{{ item.title }}</p>
-            <p class="mt-1 text-xs font-bold text-slate-500">{{ item.snapshot?.sampleRateHz || '--' }} Hz · Seq {{ item.snapshot?.latestSeq || '--' }}</p>
+            <p class="mt-1 text-xs font-bold text-slate-500">采样率 {{ item.snapshot?.sampleRateHz ?? '—' }} Hz · 序号 {{ item.snapshot?.latestSeq ?? '—' }}</p>
           </div>
           <div class="grid h-10 w-10 shrink-0 place-items-center rounded-xl bg-white shadow-sm dark:bg-slate-900" :style="{ color: item.color }">
             <component :is="item.icon" class="h-5 w-5" />
@@ -208,7 +208,7 @@ onBeforeUnmount(() => {
               <span class="truncate text-xs font-black text-slate-600 dark:text-slate-300">{{ displayName(channel.name) }}</span>
               <span class="shrink-0 text-xs font-bold text-slate-400">{{ formatValue(channel.name, channel.latestValue) }} {{ channelUnit(channel.name) }}</span>
             </div>
-            <svg class="h-14 w-full overflow-visible" viewBox="0 0 320 84" preserveAspectRatio="none" role="img" aria-label="实时波形">
+            <svg class="h-14 w-full overflow-visible" viewBox="0 0 320 84" preserveAspectRatio="none" role="img" :aria-label="`${displayName(channel.name)}实时波形：${channel.latestValue == null ? '暂无数据' : `最近读数 ${formatValue(channel.name, channel.latestValue)} ${channelUnit(channel.name)}`}`">
               <line x1="0" y1="42" x2="320" y2="42" class="stroke-slate-100 dark:stroke-slate-800" stroke-width="1" />
               <polyline v-if="channel.points" :points="channel.points" fill="none" :stroke="item.color" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" />
             </svg>

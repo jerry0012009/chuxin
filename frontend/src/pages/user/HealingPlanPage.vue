@@ -73,7 +73,7 @@ const loadPlan = async () => {
     planData.value = await getMyInterventionPlan()
     selectedPlanIndex.value = 0
   } catch (error) {
-    errorMessage.value = error instanceof Error ? error.message : '加载疗愈计划失败'
+    errorMessage.value = error instanceof Error ? error.message : '加载干预计划失败'
   } finally {
     loading.value = false
   }
@@ -107,7 +107,7 @@ onMounted(loadPlan)
         <button class="flex h-10 w-10 items-center justify-center rounded-full hover:bg-slate-100 dark:hover:bg-slate-800" @click="router.back()">
           <ChevronLeft class="h-6 w-6 text-slate-600 dark:text-slate-400" />
         </button>
-        <h1 class="text-lg font-bold text-slate-900 dark:text-white">疗愈计划</h1>
+        <h1 class="text-lg font-bold text-slate-900 dark:text-white">干预计划</h1>
       </div>
       <button class="flex h-10 w-10 items-center justify-center rounded-full hover:bg-slate-100 dark:hover:bg-slate-800" type="button" @click="loadPlan">
         <RefreshCw class="h-5 w-5 text-slate-500" />
@@ -117,7 +117,7 @@ onMounted(loadPlan)
     <main class="mx-auto max-w-5xl space-y-6 px-4 pt-6">
       <div v-if="loading" class="rounded-[28px] bg-white p-10 text-center text-slate-500 shadow-sm dark:bg-slate-900">
         <Loader2 class="mx-auto h-6 w-6 animate-spin" />
-        <p class="mt-3 text-sm">正在加载管理员发布的疗愈计划...</p>
+        <p class="mt-3 text-sm">正在加载管理员发布的干预计划...</p>
       </div>
 
       <div v-else-if="errorMessage" class="rounded-2xl bg-rose-50 p-4 text-sm font-bold text-rose-600 dark:bg-rose-950/30 dark:text-rose-200">
@@ -129,7 +129,7 @@ onMounted(loadPlan)
           <div class="grid h-14 w-14 place-items-center rounded-2xl bg-emerald-50 text-emerald-700">
             <HeartPulse class="h-7 w-7" />
           </div>
-          <h2 class="mt-5 text-2xl font-black text-slate-900 dark:text-white">暂无管理员发布的疗愈计划</h2>
+          <h2 class="mt-5 text-2xl font-black text-slate-900 dark:text-white">暂无管理员发布的干预计划</h2>
           <p class="mt-3 max-w-2xl text-sm leading-7 text-slate-500">你仍可进入疗愈页面自由练习冥想、记录心情或阅读知识内容。管理员发布干预任务后，这里会显示每日任务、计划进度和日历小结。</p>
           <button class="mt-5 rounded-xl bg-slate-900 px-4 py-3 text-sm font-bold text-white dark:bg-white dark:text-slate-900" type="button" @click="router.push('/healing')">进入疗愈</button>
         </section>
@@ -143,16 +143,16 @@ onMounted(loadPlan)
                   {{ riskText(primaryPlan?.risk_level) }}
                 </div>
                 <div v-if="planCount > 1" class="inline-flex w-fit items-center gap-2 rounded-full bg-white/80 p-1 shadow-sm ring-1 ring-emerald-100 dark:bg-slate-900/70 dark:ring-slate-800">
-                  <button class="grid h-8 w-8 place-items-center rounded-full text-slate-500 transition hover:bg-emerald-50 hover:text-emerald-700 dark:hover:bg-slate-800 dark:hover:text-emerald-200" type="button" aria-label="查看上一个疗愈计划" @click="switchPlan(-1)">
+                  <button class="grid h-8 w-8 place-items-center rounded-full text-slate-500 transition hover:bg-emerald-50 hover:text-emerald-700 dark:hover:bg-slate-800 dark:hover:text-emerald-200" type="button" aria-label="查看上一个干预计划" @click="switchPlan(-1)">
                     <ChevronLeft class="h-4 w-4" />
                   </button>
                   <span class="min-w-16 text-center text-xs font-black text-slate-600 dark:text-slate-300">计划 {{ selectedPlanIndex + 1 }} / {{ planCount }}</span>
-                  <button class="grid h-8 w-8 place-items-center rounded-full text-slate-500 transition hover:bg-emerald-50 hover:text-emerald-700 dark:hover:bg-slate-800 dark:hover:text-emerald-200" type="button" aria-label="查看下一个疗愈计划" @click="switchPlan(1)">
+                  <button class="grid h-8 w-8 place-items-center rounded-full text-slate-500 transition hover:bg-emerald-50 hover:text-emerald-700 dark:hover:bg-slate-800 dark:hover:text-emerald-200" type="button" aria-label="查看下一个干预计划" @click="switchPlan(1)">
                     <ChevronRight class="h-4 w-4" />
                   </button>
                 </div>
               </div>
-              <h2 class="mt-4 text-3xl font-black text-slate-900 dark:text-white">{{ primaryPlan?.batch_title || '当前疗愈计划' }}</h2>
+              <h2 class="mt-4 text-3xl font-black text-slate-900 dark:text-white">{{ primaryPlan?.batch_title || '当前干预计划' }}</h2>
               <p class="mt-3 max-w-3xl text-sm leading-7 text-slate-600 dark:text-slate-300">{{ primaryPlan?.batch_description || '按照管理员发布的干预项目完成每日练习，系统会记录进度并生成小结。' }}</p>
               <div v-if="planCount > 1" class="mt-4 flex flex-wrap gap-2">
                 <button
@@ -161,7 +161,7 @@ onMounted(loadPlan)
                   class="h-2.5 rounded-full transition-all"
                   :class="selectedPlanIndex === Number(index) ? 'w-8 bg-emerald-500' : 'w-2.5 bg-emerald-200 hover:bg-emerald-300 dark:bg-slate-700 dark:hover:bg-slate-600'"
                   type="button"
-                  :aria-label="`切换到疗愈计划 ${Number(index) + 1}`"
+                  :aria-label="`切换到干预计划 ${Number(index) + 1}`"
                   @click="selectPlan(Number(index))"
                 />
               </div>

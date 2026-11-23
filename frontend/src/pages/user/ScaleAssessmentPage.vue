@@ -423,15 +423,15 @@ onBeforeUnmount(clearReportReturnTimers)
       </BaseCard>
     </div>
 
-    <div v-if="answeringRecord && currentQuestion" class="fixed inset-0 z-[70] overflow-y-auto bg-slate-950/60 p-4 backdrop-blur-sm">
+    <div v-if="answeringRecord && currentQuestion" class="service-dialog fixed inset-0 z-[70] bg-slate-950/60 backdrop-blur-sm" role="dialog" aria-modal="true" aria-labelledby="scale-question-title">
       <div class="service-card mx-auto my-2 max-w-3xl overflow-hidden shadow-xl sm:my-6">
         <div class="service-panel-heading p-5">
           <div class="flex items-start justify-between gap-4">
             <div>
-              <p class="text-xs font-bold uppercase tracking-[0.12em] text-primary/70">Scale Assessment</p>
-              <h2 class="mt-1 text-xl font-black text-slate-900 dark:text-white">{{ answeringRecord.survey_title }}</h2>
+              <p class="text-xs font-bold text-primary/70">量表答题</p>
+              <h2 id="scale-question-title" class="mt-1 text-xl font-black text-slate-900 dark:text-white">{{ answeringRecord.survey_title }}</h2>
             </div>
-            <button class="grid h-10 w-10 place-items-center rounded-full hover:bg-slate-100 dark:hover:bg-slate-900" type="button" @click="answeringRecord = null">
+            <button class="grid h-10 w-10 shrink-0 place-items-center rounded-full hover:bg-slate-100 dark:hover:bg-slate-900" type="button" aria-label="关闭答题" @click="answeringRecord = null">
               <X class="h-5 w-5 text-slate-400" />
             </button>
           </div>
@@ -507,16 +507,16 @@ onBeforeUnmount(clearReportReturnTimers)
       </div>
     </div>
 
-    <div v-if="reportRecord" class="fixed inset-0 z-[80] overflow-y-auto bg-slate-950/60 p-4 backdrop-blur-sm">
+    <div v-if="reportRecord" class="service-dialog fixed inset-0 z-[80] bg-slate-950/60 backdrop-blur-sm" role="dialog" aria-modal="true" aria-labelledby="scale-report-title">
       <div class="service-card mx-auto my-2 max-w-4xl overflow-hidden shadow-xl sm:my-6">
         <div class="service-band p-5 sm:p-6">
           <div class="flex items-start justify-between gap-4">
             <div>
-              <p class="text-xs text-white/60">Scale Report</p>
-              <h2 class="mt-1 text-2xl font-black">{{ reportRecord.survey_title || reportRecord.report?.surveyTitle }}</h2>
+              <p class="text-xs text-white/80">量表测评报告</p>
+              <h2 id="scale-report-title" class="mt-1 text-2xl font-black">{{ reportRecord.survey_title || reportRecord.report?.surveyTitle }}</h2>
               <p class="mt-2 text-sm text-white/70">完成时间：{{ dateText(reportRecord.completed_at) }}</p>
             </div>
-            <button class="grid h-10 w-10 place-items-center rounded-full bg-white/10 hover:bg-white/20" type="button" @click="closeReport">
+            <button class="grid h-10 w-10 shrink-0 place-items-center rounded-full bg-white/10 hover:bg-white/20" type="button" aria-label="关闭报告" @click="closeReport">
               <X class="h-5 w-5" />
             </button>
           </div>

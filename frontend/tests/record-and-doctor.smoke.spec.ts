@@ -212,7 +212,7 @@ test('user login can reach record page, save diary, and open profile subpage', a
   await expect(page.getByTestId('privacy-locationAccess')).toHaveAttribute('aria-checked', 'true')
 
   await page.goto(`${baseUrl}/profile/healing-plan`)
-  await expect(page.getByRole('heading', { name: '疗愈计划' })).toBeVisible()
+  await expect(page.getByRole('heading', { name: '干预计划' })).toBeVisible()
   await page.getByTestId('healing-plan-summary').click()
   await expect(page.getByTestId('healing-plan-detail-dialog')).toBeVisible()
   await expect(page.getByTestId('healing-plan-detail-dialog').getByRole('heading', { name: '21天情绪重塑计划' })).toBeVisible()
@@ -1162,7 +1162,7 @@ test('doctor login can reach dashboard and alerts page', async ({ page }) => {
   await expect(page.getByText(uniqueHandleNote)).toBeVisible()
 
   await page.goto(`${baseUrl}/admin/patients`)
-  await expect(page.getByRole('heading', { name: '用户管理' })).toBeVisible()
+  await expect(page.getByRole('heading', { name: '参与者管理' })).toBeVisible()
   await expect(page.getByText('对齐 xinyu-care')).toHaveCount(0)
   await page.getByTestId('patient-search-input').fill(userUsername)
   await page.getByTestId('patient-view-detail').first().click()

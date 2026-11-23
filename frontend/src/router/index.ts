@@ -134,10 +134,6 @@ router.beforeEach(async (to) => {
     return isAdminUser.value ? '/admin/dashboard' : '/profile'
   }
 
-  if (to.path === '/login' && state.user && isAdminUser.value) {
-    return '/admin/dashboard'
-  }
-
   return true
 })
 

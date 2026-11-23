@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import { trendLabel } from '@/lib/chart-labels'
 import { BrainCircuit, Filter, Loader2, Search, TrendingUp } from 'lucide-vue-next'
 import { computed, onMounted, ref } from 'vue'
 import { getAllProfiles, getBrainInterventionReport, getBrainInterventionReports } from '@/db/api'
@@ -87,17 +88,17 @@ const formatNumber = (value?: number | null, suffix = '') => {
 
 const metricLabel = (key?: string | null) => {
   if (key === 'meditation_biosignal_monitor') return '脑机交互冥想'
-  if (key === 'theta_training') return 'Theta'
-  if (key === 'beta_training') return 'Beta'
-  if (key === 'smr_training') return 'SMR'
-  if (key === 'theta_beta_ratio') return 'Theta/Beta Ratio'
-  return 'Alpha'
+  if (key === 'theta_training') return 'θ 波'
+  if (key === 'beta_training') return 'β 波'
+  if (key === 'smr_training') return '感觉运动节律'
+  if (key === 'theta_beta_ratio') return 'θ 波与 β 波比值'
+  return key === 'alpha_training' ? 'α 波' : '脑电反馈'
 }
 
 const taskTypeLabel = (taskType?: string) => {
   if (taskType === 'meditation_biosignal_monitor') return '脑机交互冥想'
-  if (taskType === 'neurofeedback') return 'Neurofeedback'
-  return taskType || '--'
+  if (taskType === 'neurofeedback') return '脑电反馈训练'
+  return taskType ? '其他训练' : '未记录'
 }
 
 function polylinePoints(values: number[]) {
@@ -149,7 +150,7 @@ function polylinePoints(values: number[]) {
           <option value="p300">P300</option>
           <option value="smr">SMR</option>
           <option value="relaxation">Relaxation</option>
-          <option value="attention_training">Attention Training</option>
+          <option value="attention_training">专注力训练</option>
         </select>
         <select v-model="filters.protocol_key" class="rounded-xl border border-slate-200 bg-white px-3 py-2 text-sm dark:border-slate-700 dark:bg-slate-950">
           <option value="">全部训练指标</option>
@@ -157,7 +158,7 @@ function polylinePoints(values: number[]) {
           <option value="theta_training">Theta</option>
           <option value="beta_training">Beta</option>
           <option value="smr_training">SMR</option>
-          <option value="theta_beta_ratio">Theta/Beta Ratio</option>
+          <option value="theta_beta_ratio">θ 波与 β 波比值</option>
           <option value="meditation_biosignal_monitor">脑机交互冥想</option>
         </select>
         <input v-model="filters.started_from" class="rounded-xl border border-slate-200 bg-white px-3 py-2 text-sm dark:border-slate-700 dark:bg-slate-950" type="date" />
@@ -258,7 +259,7 @@ function polylinePoints(values: number[]) {
             </div>
             <TrendingUp class="h-5 w-5 text-cyan-600" />
           </div>
-          <svg class="mt-4 h-40 w-full" viewBox="0 0 320 96" preserveAspectRatio="none" role="img" aria-label="医生端训练报告趋势图">
+          <svg class="mt-4 h-40 w-full" viewBox="0 0 320 96" preserveAspectRatio="none" role="img" :aria-label="trendLabel(isMeditationReport ? '冥想稳定度' : `${metricLabel(selectedReport.protocol_key)}反馈值`, trendValues)">
             <line x1="0" y1="48" x2="320" y2="48" class="stroke-slate-100 dark:stroke-slate-800" stroke-width="1" />
             <polyline v-if="trendPoints" :points="trendPoints" fill="none" stroke="#0891b2" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" />
           </svg>

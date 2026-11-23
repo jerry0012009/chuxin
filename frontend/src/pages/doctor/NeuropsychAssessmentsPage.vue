@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import { assessmentStatusLabel } from '@/lib/assessment-display'
 import { Brain, CheckCircle2, Eye, Loader2, RefreshCw, RotateCcw, Send, ToggleLeft, ToggleRight } from 'lucide-vue-next'
 import { computed, onMounted, ref } from 'vue'
 import BaseCard from '@/components/ui/BaseCard.vue'
@@ -196,7 +197,7 @@ onMounted(loadAll)
             </label>
           </div>
           <div>
-            <p class="mb-2 text-sm font-bold text-slate-700 dark:text-slate-200">选择患者</p>
+            <p class="mb-2 text-sm font-bold text-slate-700 dark:text-slate-200">选择参与者</p>
             <div class="max-h-60 overflow-y-auto rounded-xl border border-slate-100 p-2 dark:border-slate-800">
               <label v-for="patient in patients" :key="patient.id" class="mb-1 flex items-center gap-2 rounded-lg p-2 text-sm hover:bg-slate-50 dark:hover:bg-slate-900">
                 <input v-model="form.user_ids" :value="patient.id" type="checkbox" />
@@ -217,7 +218,7 @@ onMounted(loadAll)
             <div class="flex items-center justify-between gap-3">
               <div>
                 <p class="font-bold text-slate-900 dark:text-white">{{ record.test_title }}</p>
-                <p class="text-xs text-slate-500">{{ record.patient_name || record.patient_username }} / {{ record.status }}</p>
+                <p class="text-xs text-slate-500">{{ record.patient_name || record.patient_username }} · {{ assessmentStatusLabel(record.status) }}</p>
               </div>
               <span :class="['rounded-full px-3 py-1 text-xs font-bold', warningClass(record.warning_level)]">{{ warningText[record.warning_level] }}</span>
             </div>
@@ -231,7 +232,7 @@ onMounted(loadAll)
         <table class="w-full min-w-[900px] text-left text-sm">
           <thead class="text-xs uppercase text-slate-400">
             <tr>
-              <th class="px-3 py-3">患者</th>
+              <th class="px-3 py-3">参与者</th>
               <th class="px-3 py-3">测试</th>
               <th class="px-3 py-3">来源</th>
               <th class="px-3 py-3">状态</th>
@@ -245,7 +246,7 @@ onMounted(loadAll)
               <td class="px-3 py-4 font-semibold">{{ record.patient_name || record.patient_username }}</td>
               <td class="px-3 py-4">{{ record.test_title }}</td>
               <td class="px-3 py-4">{{ record.source_type === 'self' ? '自由测评' : record.batch_title || '管理员分发' }}</td>
-              <td class="px-3 py-4">{{ record.status }} / {{ record.calc_status }}</td>
+              <td class="px-3 py-4">{{ assessmentStatusLabel(record.status) }} · {{ assessmentStatusLabel(record.calc_status) }}</td>
               <td class="px-3 py-4"><span :class="['rounded-full px-3 py-1 text-xs font-bold', warningClass(record.warning_level)]">{{ warningText[record.warning_level] }}</span></td>
               <td class="px-3 py-4">{{ record.completed_at ? new Date(record.completed_at).toLocaleString('zh-CN') : '--' }}</td>
               <td class="px-3 py-4">
@@ -264,7 +265,7 @@ onMounted(loadAll)
       <div class="mx-auto my-6 max-w-5xl overflow-hidden rounded-[28px] bg-slate-50 shadow-2xl dark:bg-slate-950">
         <div class="flex items-start justify-between gap-4 bg-slate-950 p-6 text-white">
           <div>
-            <p class="text-xs text-white/50">Neuropsych Result</p>
+            <p class="text-xs text-white/50">神经心理测评结果</p>
             <h2 class="mt-1 text-2xl font-black">{{ selectedResult.test_title }}</h2>
             <p class="mt-2 text-sm text-white/60">{{ selectedResult.patient_name || selectedResult.patient_username }}</p>
           </div>

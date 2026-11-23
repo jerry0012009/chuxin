@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import { assessmentStatusLabel } from '@/lib/assessment-display'
 import {
   AlertTriangle,
   Brain,
@@ -433,7 +434,7 @@ onMounted(async () => {
       </div>
     </Transition>
 
-    <SectionTitle title="量表测评" description="独立管理结构化量表、分发任务、患者答题结果与预警。" />
+    <SectionTitle title="量表测评" description="独立管理结构化量表、分发任务、参与者答题结果与预警。" />
 
     <div class="grid gap-4 md:grid-cols-3">
       <BaseCard class="glass border-white/60">
@@ -504,7 +505,7 @@ onMounted(async () => {
             <div class="flex items-start justify-between gap-4">
               <div>
 	                <div class="flex flex-wrap items-center gap-2">
-	                  <span class="rounded-full bg-slate-100 px-2 py-0.5 text-[11px] font-bold text-slate-500 dark:bg-slate-800 dark:text-slate-300">{{ survey.status }}</span>
+	                  <span class="rounded-full bg-slate-100 px-2 py-0.5 text-[11px] font-bold text-slate-500 dark:bg-slate-800 dark:text-slate-300">{{ assessmentStatusLabel(survey.status) }}</span>
 	                  <span v-if="survey.self_test_enabled" class="rounded-full bg-blue-50 px-2 py-0.5 text-[11px] font-bold text-primary dark:bg-blue-950/30">自由测评</span>
 	                  <span class="text-xs text-slate-400">{{ survey.question_count || survey.questions?.length || 0 }} 题</span>
 	                </div>
@@ -543,7 +544,7 @@ onMounted(async () => {
 	          <label class="flex items-center justify-between gap-4 rounded-2xl border border-slate-100 bg-slate-50 p-4 text-sm font-semibold text-slate-700 dark:border-slate-800 dark:bg-slate-900 dark:text-slate-200">
 	            <span>
 	              <span class="block">开放自由测评</span>
-	              <span class="mt-1 block text-xs font-normal text-slate-400">开启后患者可在量表测评中自主进入并生成报告。</span>
+	              <span class="mt-1 block text-xs font-normal text-slate-400">开启后参与者可在量表测评中自主进入并生成报告。</span>
 	            </span>
 	            <input v-model="form.self_test_enabled" class="h-5 w-5 accent-blue-600" type="checkbox" />
 	          </label>
@@ -564,7 +565,7 @@ onMounted(async () => {
       <div class="mx-auto my-6 max-w-5xl overflow-hidden rounded-[28px] bg-white shadow-2xl dark:bg-slate-950">
         <div class="flex items-start justify-between gap-4 border-b border-slate-100 p-6 dark:border-slate-800">
           <div>
-            <p class="text-xs font-bold uppercase tracking-[0.12em] text-primary/70">HuaXinYun Import</p>
+            <p class="text-xs font-bold uppercase tracking-[0.12em] text-primary/70">华心云量表导入</p>
             <h2 class="mt-1 text-2xl font-black text-slate-900 dark:text-white">导入华心云量表 JSON</h2>
             <p class="mt-2 text-sm text-slate-500">支持 all-surveys.json、单个 survey_*.json 或包含 surveyJson 的分页响应。</p>
           </div>
@@ -688,7 +689,7 @@ onMounted(async () => {
             <p v-if="publishedSurveys.length === 0" class="rounded-xl bg-slate-50 p-3 text-sm text-slate-500 dark:bg-slate-900">暂无已发布量表。</p>
           </div>
           <div class="grid gap-2">
-            <p class="text-sm font-semibold text-slate-600 dark:text-slate-300">选择患者</p>
+            <p class="text-sm font-semibold text-slate-600 dark:text-slate-300">选择参与者</p>
             <div class="max-h-56 space-y-2 overflow-y-auto rounded-xl border border-slate-100 p-2 dark:border-slate-800">
               <button v-for="patient in patients" :key="patient.id" class="flex w-full items-center justify-between rounded-lg px-3 py-2 text-left text-sm" :class="distributionForm.user_ids.includes(patient.id) ? 'bg-blue-50 text-primary dark:bg-blue-950/30' : 'hover:bg-slate-50 dark:hover:bg-slate-900'" type="button" @click="distributionForm.user_ids = toggleSelected(distributionForm.user_ids, patient.id)">
                 <span>{{ patient.full_name || patient.username }}</span><CheckCircle2 v-if="distributionForm.user_ids.includes(patient.id)" class="h-4 w-4" />
@@ -713,7 +714,7 @@ onMounted(async () => {
             <div class="flex items-start justify-between gap-4">
               <div>
                 <h3 class="font-bold text-slate-900 dark:text-white">{{ plan.title }}</h3>
-                <p class="mt-1 text-xs text-slate-400">{{ plan.assessment_category === 'scale' ? '量表类型' : '神经心理测评' }} · {{ plan.status }}</p>
+                <p class="mt-1 text-xs text-slate-400">{{ plan.assessment_category === 'scale' ? '量表类型' : '神经心理测评' }} · {{ assessmentStatusLabel(plan.status) }}</p>
                 <p class="mt-2 text-sm text-slate-500">完成 {{ plan.completed_count || 0 }} / {{ plan.record_count || 0 }}</p>
               </div>
               <span class="rounded-full bg-slate-100 px-3 py-1 text-xs font-bold text-slate-500 dark:bg-slate-800 dark:text-slate-300">{{ dateText(plan.created_at) }}</span>
@@ -726,7 +727,7 @@ onMounted(async () => {
 
     <BaseCard v-if="activeTab === 'results'">
       <div class="flex flex-col gap-4 md:flex-row md:items-center md:justify-between">
-        <SectionTitle title="测评结果" description="查看患者答题状态、计算状态、报告和预警。" />
+        <SectionTitle title="测评结果" description="查看参与者答题状态、计算状态、报告和预警。" />
         <div class="flex gap-2">
           <button class="inline-flex items-center gap-2 rounded-xl border border-slate-200 px-4 py-2 text-sm font-bold text-slate-600 dark:border-slate-800 dark:text-slate-300" type="button" @click="downloadCsv(false)"><Download class="h-4 w-4" />导出结果</button>
           <button class="inline-flex items-center gap-2 rounded-xl border border-slate-200 px-4 py-2 text-sm font-bold text-slate-600 dark:border-slate-800 dark:text-slate-300" type="button" @click="downloadCsv(true)"><Download class="h-4 w-4" />未完成名单</button>
@@ -735,7 +736,7 @@ onMounted(async () => {
       <div class="mt-5 overflow-x-auto">
         <table class="w-full min-w-[860px] text-left text-sm">
           <thead class="text-xs uppercase tracking-[0.12em] text-slate-400">
-	            <tr><th class="py-3">患者</th><th>量表</th><th>来源</th><th>主题</th><th>状态</th><th>计算</th><th>总分</th><th>预警</th><th>完成时间</th><th class="text-right">操作</th></tr>
+	            <tr><th class="py-3">参与者</th><th>量表</th><th>来源</th><th>主题</th><th>状态</th><th>计算</th><th>总分</th><th>预警</th><th>完成时间</th><th class="text-right">操作</th></tr>
           </thead>
           <tbody class="divide-y divide-slate-100 dark:divide-slate-800">
             <tr v-for="record in results" :key="record.id" class="text-slate-700 dark:text-slate-200">
@@ -743,8 +744,8 @@ onMounted(async () => {
 	              <td>{{ record.survey_title }}</td>
 	              <td>{{ record.source_type === 'self' ? '自由测评' : '管理员分发' }}</td>
 	              <td>{{ record.plan_title }}</td>
-              <td>{{ record.status }}</td>
-              <td>{{ record.calc_status }}</td>
+              <td>{{ assessmentStatusLabel(record.status) }}</td>
+              <td>{{ assessmentStatusLabel(record.calc_status) }}</td>
               <td>{{ record.total_score ?? '--' }}</td>
               <td><span :class="['rounded-full px-2 py-1 text-xs font-bold', warningClass(record.warning_level)]">{{ warningText[record.warning_level] }}</span></td>
               <td>{{ dateText(record.completed_at) }}</td>
@@ -777,7 +778,7 @@ onMounted(async () => {
       <div class="mx-auto my-6 max-w-5xl overflow-hidden rounded-[28px] bg-white shadow-2xl dark:bg-slate-950">
         <div class="flex items-start justify-between gap-4 border-b border-slate-100 p-6 dark:border-slate-800">
           <div>
-            <p class="text-xs font-bold uppercase tracking-[0.12em] text-primary/70">Scale Result</p>
+            <p class="text-xs font-bold uppercase tracking-[0.12em] text-primary/70">量表测评结果</p>
             <h2 class="mt-1 text-2xl font-black text-slate-900 dark:text-white">{{ detailRecord.survey_title }}</h2>
 	            <p class="mt-2 text-sm text-slate-500">{{ detailRecord.patient_name }} · {{ detailRecord.source_type === 'self' ? '自由测评' : detailRecord.plan_title }}</p>
           </div>
