@@ -27,8 +27,8 @@ const pageTitle = computed(() => {
   return navigation.filter(({ path }) => route.path === path || route.path.startsWith(`${path}/`)).sort((a, b) => b.path.length - a.path.length)[0]?.label
 })
 const hero = computed(() => {
-  if (route.path === '/') return undefined
-  if (route.path.startsWith('/assessment/') || route.path === '/assessment' || route.path.startsWith('/test/') || route.path.startsWith('/neuropsych-assessment/records/') || route.path.startsWith('/neuropsych-assessment/free/') || (route.path === '/scale-assessment' && route.query.returnTo)) return 'quiet'
+  if (['/', '/assessment', '/assessment-tasks', '/record'].includes(route.path) || route.path.startsWith('/assessment-tasks/') || (route.path === '/scale-assessment' && !route.query.returnTo)) return undefined
+  if (route.path.startsWith('/assessment/') || route.path.startsWith('/test/') || route.path.startsWith('/neuropsych-assessment/records/') || route.path.startsWith('/neuropsych-assessment/free/') || (route.path === '/scale-assessment' && route.query.returnTo)) return 'quiet'
   return 'compact'
 })
 

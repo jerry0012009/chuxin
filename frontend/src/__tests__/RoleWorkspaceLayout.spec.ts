@@ -1,5 +1,5 @@
 import { beforeEach, describe, expect, it, vi } from 'vitest'
-import { mount } from '@vue/test-utils'
+import { flushPromises, mount } from '@vue/test-utils'
 import AdminLayout from '@/layouts/AdminLayout.vue'
 
 const resolve = vi.fn(() => ({ href: '/login' }))
@@ -74,9 +74,11 @@ describe('role workspace layouts', () => {
     const logoutButton = wrapper.findAll('button').find((button) => button.text().includes('退出登录'))!
     const navigate = vi.fn()
     const currentWindow = window
+    const click = new MouseEvent('click', { bubbles: true })
     vi.stubGlobal('window', { location: { replace: navigate } })
     try {
-      await logoutButton.trigger('click')
+      logoutButton.element.dispatchEvent(click)
+      await flushPromises()
       expect(signOut).toHaveBeenCalledOnce()
       expect(resolve).toHaveBeenCalledWith({ path: '/login', query: {} })
       expect(navigate).toHaveBeenCalledWith('/login')

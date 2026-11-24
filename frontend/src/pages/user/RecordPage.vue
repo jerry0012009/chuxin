@@ -11,7 +11,6 @@ import {
   Plus,
   Save,
   StopCircle,
-  Sun,
   X,
 } from 'lucide-vue-next'
 import { computed, onBeforeUnmount, onMounted, ref, watch } from 'vue'
@@ -630,39 +629,18 @@ onBeforeUnmount(() => {
     >
       {{ toastMessage }}
     </div>
-    <div class="sticky top-0 z-20 border-b border-slate-100 bg-white/80 px-4 py-3 backdrop-blur md:px-8 dark:border-slate-800 dark:bg-slate-950/80">
-      <div class="mx-auto flex max-w-7xl items-center justify-between gap-3">
-        <div class="min-w-0 flex-1">
-          <h1 class="truncate text-[20px] font-black text-slate-800 dark:text-white md:text-xl">情绪日记</h1>
-        </div>
-        <div class="flex shrink-0 items-center gap-2 rounded-full border border-blue-100 bg-blue-50/60 px-3 py-2 shadow-sm dark:border-blue-900/50 dark:bg-blue-950/40">
-          <div class="flex flex-col items-end leading-tight">
-            <span class="hidden text-[10px] font-bold tracking-wider text-blue-400 sm:block">TODAY'S WEATHER</span>
-            <span class="text-sm font-bold text-blue-600 dark:text-blue-300">晴转多云 · 18°C</span>
-          </div>
-          <div class="flex h-7 w-7 items-center justify-center rounded-full bg-white shadow-sm dark:bg-slate-900">
-            <Sun class="h-5 w-5 text-amber-400" />
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="page-grid py-8">
-      <SectionTitle
-        eyebrow="情绪日记"
-        title="情绪记录"
-        description="记录今天的心情、触发因素和身体感受，帮助你更稳定地觉察情绪变化。"
-      />
+    <div class="service-width py-5 sm:py-7">
+      <header class="admin-overview-title"><h1>情绪记录</h1></header>
 
       <div class="mt-6 grid gap-6 lg:grid-cols-3">
       <div class="space-y-6 lg:col-span-2">
         <BaseCard>
           <div class="mb-4 flex items-center justify-between">
-            <button class="rounded-full border border-slate-200 p-2 dark:border-slate-700" @click="shiftMonth(-1)">
+            <button class="service-button service-outline" aria-label="上个月" title="上个月" @click="shiftMonth(-1)">
               <ChevronLeft class="h-4 w-4" />
             </button>
             <p class="font-semibold text-slate-900 dark:text-white">{{ monthLabel }}</p>
-            <button class="rounded-full border border-slate-200 p-2 dark:border-slate-700" @click="shiftMonth(1)">
+            <button class="service-button service-outline" aria-label="下个月" title="下个月" @click="shiftMonth(1)">
               <ChevronRight class="h-4 w-4" />
             </button>
           </div>

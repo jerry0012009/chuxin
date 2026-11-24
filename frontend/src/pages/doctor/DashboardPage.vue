@@ -178,45 +178,31 @@ onUnmounted(() => {
       </div>
     </Transition>
 
-    <SectionTitle title="管理员数据看板" />
+    <header class="admin-overview-title"><h1>数据看板</h1><p>参与者评估与预警概况</p></header>
     <p v-if="loadFailed" class="service-card p-4 text-sm" role="alert">看板数据暂时无法加载。 <button class="service-link" type="button" @click="loadDashboard">重试</button></p>
     <template v-else>
 
-    <div class="service-card service-band p-4 sm:p-5">
-      <div class="grid gap-6 lg:grid-cols-[1.1fr_0.9fr]">
-        <div>
-          <h2 class="text-xl font-bold">待处理预警概览</h2>
-          <p class="mt-2 text-sm text-white/80">按预警条数统计，同一参与者可能有多条预警。</p>
-        </div>
-        <div class="grid gap-3 sm:grid-cols-3">
-          <div class="rounded-[24px] bg-white/10 p-4">
-            <p class="text-xs text-white/60">高风险</p>
-            <p class="mt-2 text-2xl font-bold">{{ loading ? '…' : `${riskSummary.high} 条` }}</p>
-          </div>
-          <div class="rounded-[24px] bg-white/10 p-4">
-            <p class="text-xs text-white/60">中风险</p>
-            <p class="mt-2 text-2xl font-bold">{{ loading ? '…' : `${riskSummary.medium} 条` }}</p>
-          </div>
-          <div class="rounded-[24px] bg-white/10 p-4">
-            <p class="text-xs text-white/60">其他预警</p>
-            <p class="mt-2 text-2xl font-bold">{{ loading ? '…' : `${riskSummary.other} 条` }}</p>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="grid gap-4 md:grid-cols-2 xl:grid-cols-4">
+    <div class="grid grid-cols-2 gap-2 sm:gap-4 lg:grid-cols-4">
       <BaseCard v-for="item in overviewCards" :key="item.label">
         <div class="flex items-center justify-between">
-          <p class="text-sm text-slate-500">{{ item.label }}</p>
-          <div class="service-icon">
-            <component :is="item.icon" class="h-5 w-5" />
+          <p class="service-muted text-sm">{{ item.label }}</p>
+          <div class="service-icon hidden sm:inline-grid">
+            <component :is="item.icon" class="h-5 w-5" aria-hidden="true" />
           </div>
         </div>
-        <p class="mt-4 text-3xl font-bold text-slate-900 dark:text-white">{{ loading ? '...' : item.value }}</p>
-        <p class="mt-2 text-xs text-slate-400">{{ item.subtext }}</p>
+        <p class="mt-2 text-2xl font-bold tabular-nums text-primary sm:text-3xl">{{ loading ? '…' : item.value }}</p>
+        <p class="service-muted mt-1 text-xs">{{ item.subtext }}</p>
       </BaseCard>
     </div>
+
+    <section class="admin-risk-strip" aria-labelledby="pending-risk-title">
+      <div><h2 id="pending-risk-title" class="text-base font-bold">待处理预警</h2><p class="service-muted mt-1 text-xs">按预警条数统计，同一参与者可能有多条预警。</p></div>
+      <dl>
+        <div><dt>高风险</dt><dd>{{ loading ? '…' : `${riskSummary.high} 条` }}</dd></div>
+        <div><dt>中风险</dt><dd>{{ loading ? '…' : `${riskSummary.medium} 条` }}</dd></div>
+        <div><dt>其他预警</dt><dd>{{ loading ? '…' : `${riskSummary.other} 条` }}</dd></div>
+      </dl>
+    </section>
 
     <div class="grid gap-6 lg:grid-cols-[1.2fr_0.8fr]">
       <BaseCard>
@@ -259,7 +245,7 @@ onUnmounted(() => {
           <div class="flex h-56 items-end gap-1 sm:gap-3" role="img" :aria-label="`近 7 日平均情绪评分（满分 5 分）：${emotionTrend.map(item => `${item.label} ${item.value === null ? '暂无日记' : `${item.value} 分`}`).join('；')}`">
             <div v-for="item in emotionTrend" :key="item.key" class="flex min-w-0 flex-1 flex-col items-center gap-3">
               <div class="flex h-44 w-full items-end rounded-lg bg-slate-50 p-1 sm:p-2 dark:bg-slate-900">
-                <div class="w-full rounded-[12px] bg-gradient-to-t from-primary to-info" :style="{ height: item.percent }" />
+                <div class="w-full rounded-sm bg-primary" :style="{ height: item.percent }" />
               </div>
               <div class="text-center">
                 <p class="text-sm font-semibold text-slate-900 dark:text-white">{{ item.value?.toFixed(1) ?? '—' }}</p>

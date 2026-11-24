@@ -1176,17 +1176,14 @@ onBeforeUnmount(() => {
     <div class="mx-auto w-full max-w-6xl px-4 md:px-6">
     <audio ref="audioRef" class="hidden" preload="auto" />
 
-    <div class="mt-6 grid grid-cols-4 gap-2 md:gap-3">
+    <div class="service-tabs practice-tabs" role="group" aria-label="疗愈方式">
       <button
         v-for="item in tabs"
         :key="item.key"
         :data-testid="`healing-tab-${item.key}`"
-        class="rounded-2xl px-4 py-4 text-sm font-semibold transition"
-        :class="
-          activeTab === item.key
-            ? 'bg-slate-900 text-white shadow-lg dark:bg-white dark:text-slate-900'
-            : 'bg-white text-slate-500 shadow-sm dark:bg-slate-900 dark:text-slate-300'
-        "
+        class="service-tab"
+        type="button"
+        :aria-pressed="activeTab === item.key"
         @click="activeTab = item.key"
       >
         <span class="inline-flex items-center gap-2">
@@ -1213,12 +1210,11 @@ onBeforeUnmount(() => {
     <div v-if="activeTab === 'meditation'" class="mt-6 grid gap-6 md:grid-cols-2 md:items-start">
       <BaseCard class="order-2 overflow-hidden">
         <div class="flex items-center gap-3">
-          <div class="flex h-12 w-12 items-center justify-center rounded-xl bg-gradient-to-br from-indigo-500 to-purple-600 text-white shadow-lg">
+          <div class="service-icon">
             <Music class="h-6 w-6" />
           </div>
           <div>
             <h2 class="text-xl font-bold text-slate-900 dark:text-white">冥想库</h2>
-            <p class="text-sm text-slate-500 dark:text-slate-400">探索内心的宁静</p>
           </div>
         </div>
 
@@ -1226,11 +1222,12 @@ onBeforeUnmount(() => {
           <button
             v-for="item in categoryMeta"
             :key="item.key"
-            class="rounded-[20px] p-3 text-left text-sm transition"
-            :class="activeCategory === item.key ? `bg-gradient-to-br ${item.tone} text-white shadow-lg` : 'bg-slate-50 text-slate-600 dark:bg-slate-900 dark:text-slate-300'"
+            class="service-button service-outline"
+            :aria-pressed="activeCategory === item.key"
+            :class="activeCategory === item.key ? 'practice-category-current' : ''"
             @click="activeCategory = item.key"
           >
-            <component :is="item.icon" class="mb-2 h-4 w-4" />
+            <component :is="item.icon" aria-hidden="true" />
             {{ item.label }}
           </button>
         </div>
@@ -1255,9 +1252,9 @@ onBeforeUnmount(() => {
       </BaseCard>
 
       <div class="order-1 space-y-6 md:sticky md:top-6">
-        <BaseCard class="overflow-hidden border-0 bg-gradient-to-br from-slate-900 via-indigo-950 to-purple-950 text-white">
+        <BaseCard class="practice-player overflow-hidden">
           <div class="flex flex-wrap items-center justify-between gap-3">
-            <span class="rounded-full bg-white/10 px-4 py-2 text-xs font-semibold text-indigo-100 backdrop-blur">
+            <span class="rounded-md bg-white/10 px-3 py-2 text-xs font-semibold text-white" role="status">
               {{ buffering ? '缓冲中' : isPlaying ? '正在播放' : '已暂停' }}
             </span>
             <span class="rounded-full bg-white/10 px-4 py-2 text-xs text-white/70">{{ loopModeMeta.label }}</span>
@@ -1270,9 +1267,9 @@ onBeforeUnmount(() => {
           </div>
 
           <div class="mt-6 flex items-center justify-center">
-            <div class="relative flex h-32 w-32 items-center justify-center rounded-full bg-white/10 text-5xl backdrop-blur md:h-40 md:w-40">
+            <div class="relative flex h-20 w-20 items-center justify-center rounded-full bg-white/10 text-4xl" aria-hidden="true">
               <span
-                class="absolute inset-0 rounded-full border border-indigo-300/30"
+                  class="absolute inset-0 rounded-full border border-white/30"
                 :class="isPlaying ? 'animate-ping' : ''"
               />
               <span class="relative">{{ selectedTrack.emoji }}</span>
@@ -1285,11 +1282,12 @@ onBeforeUnmount(() => {
               <span>{{ formatTime(totalTime || selectedTrackDurationSeconds) }}</span>
             </div>
             <div class="h-2 overflow-hidden rounded-full bg-white/10">
-              <div class="h-full rounded-full bg-gradient-to-r from-indigo-400 to-fuchsia-400 transition-all" :style="{ width: `${progressValue}%` }" />
+              <div class="h-full rounded-full bg-[#e4bf89] transition-all" :style="{ width: `${progressValue}%` }" />
             </div>
             <input
-              class="mt-3 h-2 w-full cursor-pointer appearance-none rounded-full bg-white/10 accent-violet-300"
+              class="h-6 w-full cursor-pointer"
               data-testid="healing-progress-slider"
+              aria-label="播放进度"
               max="100"
               min="0"
               type="range"
@@ -1302,25 +1300,29 @@ onBeforeUnmount(() => {
             <button
               class="flex h-11 w-11 items-center justify-center rounded-full bg-white/10 text-white/75 transition hover:bg-white/20 hover:text-white"
               data-testid="healing-loop-mode"
+              :aria-label="`播放模式：${loopModeMeta.label}`"
+              :title="`播放模式：${loopModeMeta.label}`"
               type="button"
               @click="cycleLoopMode"
             >
               <component :is="loopModeMeta.icon" class="h-5 w-5" />
             </button>
-            <button class="flex h-12 w-12 items-center justify-center rounded-full bg-white/10 transition hover:bg-white/20" type="button" @click="prevTrack">
+            <button class="flex h-11 w-11 items-center justify-center rounded-full bg-white/10 transition hover:bg-white/20" type="button" aria-label="上一首" title="上一首" @click="prevTrack">
               <SkipBack class="h-5 w-5" />
             </button>
-            <button class="flex h-16 w-16 items-center justify-center rounded-full bg-gradient-to-r from-indigo-500 to-purple-500 shadow-lg shadow-indigo-500/40" data-testid="healing-toggle-play" type="button" @click="togglePlay">
-              <span v-if="buffering" class="h-7 w-7 animate-spin rounded-full border-2 border-white/30 border-t-white" />
+            <button class="flex h-14 w-14 items-center justify-center rounded-full bg-white text-primary hover:bg-rose-50" :aria-label="isPlaying ? '暂停' : '播放'" :title="isPlaying ? '暂停' : '播放'" data-testid="healing-toggle-play" type="button" @click="togglePlay">
+              <span v-if="buffering" class="h-7 w-7 animate-spin rounded-full border-2 border-primary/30 border-t-primary" />
               <Pause v-else-if="isPlaying" class="h-7 w-7" />
               <Play v-else class="h-7 w-7 translate-x-0.5" />
             </button>
-            <button class="flex h-12 w-12 items-center justify-center rounded-full bg-white/10 transition hover:bg-white/20" type="button" @click="nextTrack">
+            <button class="flex h-11 w-11 items-center justify-center rounded-full bg-white/10 transition hover:bg-white/20" type="button" aria-label="下一首" title="下一首" @click="nextTrack">
               <SkipForward class="h-5 w-5" />
             </button>
             <button
               class="flex h-11 w-11 items-center justify-center rounded-full bg-white/10 text-white/75 transition hover:bg-white/20 hover:text-white"
               data-testid="healing-mute-toggle"
+              :aria-label="muted ? '取消静音' : '静音'"
+              :title="muted ? '取消静音' : '静音'"
               type="button"
               @click="toggleMute"
             >
@@ -1333,8 +1335,9 @@ onBeforeUnmount(() => {
             <Volume2 class="h-4 w-4 text-white/60" />
             <input
               v-model.number="volume"
-              class="h-2 flex-1 cursor-pointer appearance-none rounded-full bg-white/15 accent-violet-300"
+              class="h-6 min-w-0 flex-1 cursor-pointer"
               data-testid="healing-volume-slider"
+              aria-label="音量"
               max="1"
               min="0"
               step="0.05"

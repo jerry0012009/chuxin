@@ -12,6 +12,7 @@ withDefaults(defineProps<{ caption?: string; home?: string }>(), { caption: '身
         <div><p class="service-brand-title">{{ systemName }}</p><p class="service-brand-caption">{{ caption }}</p></div>
       </component>
       <span class="service-preview-label">方案预览</span>
+      <slot />
     </div>
   </header>
 </template>

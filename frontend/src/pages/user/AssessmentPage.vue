@@ -2845,23 +2845,27 @@ onBeforeUnmount(() => {
     </div>
 
     <div v-else class="service-width py-5 sm:py-7 assessment-workspace">
-      <div class="assessment-modules" role="group" aria-label="测评模块" data-testid="assessment-step-navigation">
-        <button v-for="item in steps" :key="item.id" class="assessment-module" type="button" :aria-pressed="step === item.id" :data-testid="'assessment-step-' + item.id" @click="step = item.id">
-          <component :is="item.icon" aria-hidden="true" /><span><strong>{{ item.label }}</strong><span aria-hidden="true">｜</span>{{ item.description }}</span><Check v-if="item.done.value" aria-label="已完成" />
-        </button>
-      </div>
-      <div class="flex flex-wrap items-center justify-between gap-3 pb-4">
-        <div><p class="font-semibold">{{ multimodalTaskMode ? activeMultimodalTaskTitle : '自由测评' }}</p><p class="service-muted text-sm">已完成 {{ completedCount }} / 3 项</p></div>
-        <button class="service-button" :disabled="!allCompleted || taskSyncing" data-testid="generate-fusion-report" @click="buildReport">{{ taskSyncing ? '同步任务中' : '生成综合报告' }}</button>
-      </div>
+      <header class="assessment-heading">
+        <div><h1>AI 多模态评估</h1><p class="service-muted text-sm">{{ multimodalTaskMode ? activeMultimodalTaskTitle : '自由测评' }}</p></div>
+        <div class="assessment-report-actions">
+          <span class="service-muted text-sm" role="status">已完成 {{ completedCount }} / 3 项</span>
+          <button class="service-button" :disabled="!allCompleted || taskSyncing" data-testid="generate-fusion-report" @click="buildReport">{{ taskSyncing ? '同步任务中' : '生成综合报告' }}</button>
+        </div>
+      </header>
       <div class="workspace-content">
-        <section v-show="step === 'scale'" aria-label="对话评估">
+        <div class="assessment-modules" role="group" aria-label="测评模块" data-testid="assessment-step-navigation">
+          <button v-for="item in steps" :key="item.id" class="assessment-module rounded-none" type="button" :aria-pressed="step === item.id" :aria-controls="`assessment-panel-${item.id}`" :data-testid="'assessment-step-' + item.id" @click="step = item.id">
+            <component :is="item.icon" aria-hidden="true" /><span>{{ item.label }}</span><Check v-if="item.done.value" class="assessment-module-check" role="img" aria-label="已完成" />
+          </button>
+        </div>
+        <section v-show="step === 'scale'" id="assessment-panel-scale" aria-label="对话评估">
           <div class="space-y-4">
             <div class="flex items-center justify-between gap-3">
-              <h2 class="service-sec-title">{{ scaleStarted ? '答题记录' : '选择量表' }}</h2>
+              <div><h2 class="service-sec-title">{{ scaleStarted ? '答题记录' : '选择量表' }}</h2><p v-if="!scaleStarted" class="service-muted mt-1 text-sm">{{ steps[0]?.description }}</p></div>
               <button
                 class="grid h-12 w-12 shrink-0 place-items-center rounded-2xl border border-slate-200 bg-white text-slate-500 shadow-sm transition hover:border-primary/30 hover:text-primary dark:border-slate-800 dark:bg-slate-900"
                 aria-label="查看历史评估"
+                title="查看历史评估"
                 data-testid="scale-history-trigger"
                 @click="scaleHistoryOpen = true"
               >
@@ -2897,12 +2901,13 @@ onBeforeUnmount(() => {
                 </button>
               </div>
             </div>
-            <div v-if="!scaleStarted" class="grid gap-3">
+            <div v-if="!scaleStarted" class="grid gap-2 sm:grid-cols-2">
               <button
                 v-for="item in scaleCards"
                 :key="item.id"
                 class="rounded-[16px] border p-4 text-left transition"
                 :class="selectedScales.includes(item.id) ? 'border-primary bg-primary/5' : 'border-slate-200 bg-slate-50 dark:border-slate-800 dark:bg-slate-900'"
+                :aria-pressed="selectedScales.includes(item.id)"
                 @click="toggleScale(item.id)"
               >
                 <div class="flex items-start justify-between gap-3">
@@ -2990,12 +2995,12 @@ onBeforeUnmount(() => {
                     </button>
                   </div>
                 </div>
-                <div class="grid grid-cols-5 gap-2">
+                <div class="grid grid-cols-3 gap-2 sm:grid-cols-5">
                   <button
                     v-for="response in quickScaleResponses"
                     :key="response"
                     :data-testid="response === '经常' ? 'assessment-answer-strong' : undefined"
-                    class="rounded-full bg-slate-100 px-2 py-2 text-xs font-semibold text-slate-600 transition hover:bg-primary hover:text-white dark:bg-slate-800 dark:text-slate-300"
+                    class="min-h-11 rounded-md bg-slate-100 px-2 py-2 text-xs font-semibold text-slate-600 transition hover:bg-primary hover:text-white dark:bg-slate-800 dark:text-slate-300"
                     :disabled="scaleInteractionLocked"
                     @click="sendScaleResponse(response)"
                   >
@@ -3008,6 +3013,8 @@ onBeforeUnmount(() => {
                     :class="scaleVoiceListening ? 'border-rose-200 bg-rose-50 text-rose-500 dark:border-rose-900 dark:bg-rose-950/30 dark:text-rose-300' : ''"
                     :disabled="scaleInteractionLocked || scaleVoiceBusy"
                     data-testid="scale-voice-input"
+                    :aria-label="scaleVoiceListening ? '停止语音输入' : '语音输入'"
+                    :title="scaleVoiceListening ? '停止语音输入' : '语音输入'"
                     type="button"
                     @click="startScaleVoiceInput"
                   >
@@ -3032,12 +3039,15 @@ onBeforeUnmount(() => {
                     :placeholder="scaleInteractionLocked ? 'AI 正在回复中…' : scaleVoiceBusy ? '正在识别语音...' : scaleVoiceListening ? '正在聆听，请说出你的回答...' : '输入你的回答...'"
                     :readonly="scaleInteractionLocked"
                     data-testid="scale-dialogue-input"
+                    aria-label="回答内容"
                     @keyup.enter="sendScaleResponse()"
                   />
                   <button
                     class="flex h-11 w-11 shrink-0 items-center justify-center rounded-[12px] bg-primary text-white disabled:opacity-50"
                     :disabled="scaleInteractionLocked || !scaleInputText.trim()"
                     data-testid="scale-dialogue-send"
+                    aria-label="发送回答"
+                    title="发送回答"
                     @click="sendScaleResponse()"
                   >
                     <Send class="h-4 w-4" />
@@ -3064,14 +3074,14 @@ onBeforeUnmount(() => {
                 </button>
               </div>
             </div>
-            <button class="w-full rounded-[12px] border border-rose-200 bg-white px-4 py-3 text-sm font-semibold text-rose-500 dark:border-rose-800 dark:bg-slate-900" @click="openHtp">
+            <button class="service-button service-outline w-full" @click="openHtp">
               房树人(HTP)评估
             </button>
           </div>
         </section>
-        <section v-show="step === 'voice'" aria-label="语音识别">
+        <section v-show="step === 'voice'" id="assessment-panel-voice" aria-label="语音识别">
           <div class="space-y-4">
-            <p class="service-muted text-sm">录音时长 {{ voiceMaxDuration }} 秒，也可上传已有音频。</p>
+            <div><h2 class="service-sec-title">语音识别</h2><p class="service-muted mt-1 text-sm">{{ steps[1]?.description }}，录音上限 {{ voiceMaxDuration }} 秒。</p></div>
             <div class="border-b border-border pb-4" data-testid="voice-status-panel">
               <div class="flex h-28 items-center justify-center gap-[2px] px-2">
                 <div
@@ -3102,7 +3112,7 @@ onBeforeUnmount(() => {
               <div v-if="voiceCaptureState === 'analyzing'" class="mt-4 space-y-2" data-testid="voice-analysis-progress">
                 <div class="flex justify-between text-xs text-slate-500">
                   <span>分析进度</span>
-                  <span class="font-bold text-[#7A3EF4]">{{ Math.round(voiceAnalysisProgress) }}%</span>
+                  <span class="font-bold text-primary">{{ Math.round(voiceAnalysisProgress) }}%</span>
                 </div>
                 <ProgressBar label="语音分析进度" :value="voiceAnalysisProgress" tone="from-violet-500 to-pink-500" />
               </div>
@@ -3148,8 +3158,9 @@ onBeforeUnmount(() => {
 
           </div>
         </section>
-        <section v-show="step === 'expression'" aria-label="表情识别">
+        <section v-show="step === 'expression'" id="assessment-panel-expression" aria-label="表情识别">
           <div class="space-y-4">
+            <div><h2 class="service-sec-title">表情识别</h2><p class="service-muted mt-1 text-sm">{{ steps[2]?.description }}。</p></div>
             <div v-if="!expressionCameraStarted" class="camera-standby" data-testid="expression-start-panel"><Video aria-hidden="true" /><span>摄像头未开启</span></div>
             <div v-else data-testid="expression-live-panel">
               <div class="service-camera-frame relative flex h-72 items-center justify-center overflow-hidden rounded-md bg-slate-900 text-white">
@@ -3216,7 +3227,7 @@ onBeforeUnmount(() => {
               <p class="mt-3 text-sm service-muted">{{ expressionStatusText }}</p>
               <p v-if="expressionNoFaceCount > 0" class="text-sm text-primary">未检测到人脸，请将面部对准取景框</p>
             </div>
-            <div class="grid grid-cols-[48px_1fr_48px] items-center gap-4">
+            <div class="grid grid-cols-[44px_minmax(0,1fr)_44px] items-stretch gap-2 sm:gap-4">
               <button class="service-button service-outline px-2" aria-label="切换摄像头" title="切换摄像头" data-testid="expression-switch-camera" @click="switchExpressionCamera">
                 <RefreshCcw class="h-5 w-5" />
               </button>
@@ -3234,7 +3245,7 @@ onBeforeUnmount(() => {
             </div>
             <button
               v-if="expressionCompleted"
-              class="w-full rounded-full border border-white/15 px-4 py-3 text-sm font-black text-white/80 transition hover:bg-white/10 hover:text-white"
+              class="service-button service-outline w-full"
               type="button"
               @click="retakeExpressionAssessment"
             >

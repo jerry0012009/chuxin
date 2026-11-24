@@ -4,6 +4,7 @@ import { computed, onMounted, ref } from 'vue'
 import { RouterLink } from 'vue-router'
 import ServiceHero from '@/components/ui/ServiceHero.vue'
 import ServiceStatus from '@/components/ui/ServiceStatus.vue'
+import ProgressBar from '@/components/ui/ProgressBar.vue'
 import { useAuthSession } from '@/composables/useAuthSession'
 import { assessmentItemName, nextAssessmentItem } from '@/lib/assessment-display'
 import { getMyAssessmentPublishTasks, getMyInterventionTodayTasks, getMyScaleRecords } from '@/db/api'
@@ -75,8 +76,11 @@ onMounted(load)
           </header>
           <template v-if="current">
             <p class="work-task-name">{{ current.batch_title || '测评任务' }}</p>
-            <p class="service-muted text-sm" v-if="required.length">已完成 <strong>{{ done }} / {{ required.length }} 项</strong></p>
-            <p class="service-muted break-words text-sm" v-if="nextItem">下一步：<strong>{{ assessmentItemName(nextItem) }}</strong></p>
+            <div v-if="required.length" class="work-progress">
+              <p>已完成 <strong>{{ done }} / {{ required.length }} 项</strong></p>
+              <ProgressBar :value="done / required.length * 100" label="当前测评完成进度" />
+            </div>
+            <p class="work-next break-words" v-if="nextItem">下一步 <strong>{{ assessmentItemName(nextItem) }}</strong></p>
           </template>
           <p v-else-if="!loading && !failed.includes('测评任务')" class="service-muted mt-auto text-sm">暂无待办测评。</p>
           <RouterLink :to="current ? `/assessment-tasks/${current.id}` : '/assessment-tasks'" class="service-button work-continue" data-testid="work-current-link">{{ nextItem ? (continuing ? '继续测评' : '开始测评') : '查看测评任务' }} <ArrowRight aria-hidden="true" /></RouterLink>
@@ -97,7 +101,7 @@ onMounted(load)
           <RouterLink to="/profile/healing-plan" class="work-action service-link">查看干预计划 <ArrowRight aria-hidden="true" /></RouterLink>
         </article>
 
-        <article class="service-card work-card work-secondary" data-testid="work-records">
+        <article class="work-card work-records" data-testid="work-records">
           <header class="work-card-heading"><span class="service-icon"><FileClock aria-hidden="true" /></span><h2>测评记录</h2></header>
           <ul v-if="records.length" class="work-list">
             <li v-for="record in records" :key="record.id" class="work-record-row">
@@ -123,26 +127,35 @@ onMounted(load)
 </template>
 
 <style scoped>
-.workbench-greeting { margin-top: 12px; color: #514345; font-size: 15px; overflow-wrap: anywhere; }
-.workbench-date { display: flex; align-items: center; gap: 6px; margin-top: 12px; color: var(--service-muted); font-size: 13px; }
+.workbench-greeting { margin-top: 7px; color: #514345; font-size: 15px; overflow-wrap: anywhere; }
+.workbench-date { display: flex; align-items: center; gap: 6px; margin-top: 7px; color: var(--service-muted); font-size: 13px; }
 .workbench-date svg, .work-action svg { width: 16px; height: 16px; flex-shrink: 0; }
-.workbench-body { display: grid; gap: 26px; padding-block: 24px 36px; }
-.work-grid { display: grid; grid-template-columns: minmax(0, 1.45fr) repeat(2, minmax(0, 1fr)); gap: 14px; }
-.work-card { min-width: 0; padding: 20px; }
+.workbench-body { display: grid; gap: 28px; padding-block: 24px 40px; }
+.work-grid { display: grid; grid-template-columns: minmax(0, 1.65fr) minmax(0, 1fr); gap: 16px; }
+.work-card { min-width: 0; padding: 20px 24px; }
 .work-primary, .work-secondary { display: flex; flex-direction: column; gap: 12px; }
+.work-primary { border-top-color: var(--service-gold); }
+.work-secondary { background: #fdfbf8; }
 .work-card-heading { display: flex; align-items: center; gap: 9px; }
 .work-card-heading h2 { font-size: 16px; font-weight: 720; }
 .work-card-heading .service-icon { width: 34px; height: 34px; flex-basis: 34px; }
 .work-card-heading .service-icon svg { width: 18px; height: 18px; }
 .work-task-status { margin-left: auto; }
-.work-task-name { margin-block: 2px; font-size: 22px; line-height: 1.4; font-weight: 720; overflow-wrap: anywhere; }
+.work-task-name { margin-block: 2px; font-size: 24px; line-height: 1.4; font-weight: 720; overflow-wrap: anywhere; }
+.work-progress { display: grid; gap: 7px; color: var(--service-muted); font-size: 13px; max-width: 360px; font-variant-numeric: tabular-nums; }
+.work-next { color: var(--service-muted); font-size: 14px; }
+.work-next strong { margin-left: 6px; color: var(--service-deep); }
 .work-continue { margin-top: auto; align-self: flex-start; min-height: 44px; padding-inline: 16px; }
+.work-records { grid-column: 1 / -1; display: grid; grid-template-columns: 132px minmax(0, 1fr) auto; align-items: start; gap: 14px; padding: 14px 0; border-bottom: 1px solid var(--workspace-line); }
+.work-records .work-list { display: grid; grid-template-columns: repeat(auto-fit, minmax(130px, 1fr)); gap: 6px 12px; }
+.work-records .work-list li { border: 0; }
+.work-records > p { align-self: center; }
 .work-list { font-size: 14px; }
 .work-list li + li { border-top: 1px solid #efe8df; }
 .work-intervention-row { display: grid; grid-template-columns: minmax(0, 1fr) auto; align-items: center; gap: 6px; min-height: 36px; }
 .work-intervention-row a { padding-block: 7px; }
 .work-record-row { padding-block: 6px; overflow-wrap: anywhere; }
-.work-action { display: inline-flex; gap: 6px; align-items: center; align-self: flex-start; min-height: 40px; margin-top: auto; font-size: 14px; }
+.work-action { display: inline-flex; gap: 6px; align-items: center; align-self: flex-start; min-height: 44px; margin-top: auto; font-size: 14px; }
 .work-services-title { display: flex; align-items: center; gap: 12px; margin-bottom: 12px; font-size: 19px; font-weight: 720; }
 .work-services-title::after { content: ''; height: 1px; flex: 1; background: var(--service-border); }
 .work-service-grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 8px; }
@@ -150,12 +163,15 @@ onMounted(load)
 .work-service:hover { color: var(--service-red); border-color: #bf8b8e; }
 .work-service-icon { width: 19px; height: 19px; flex-shrink: 0; color: var(--service-red); stroke-width: 1.7; }
 .work-service-arrow { width: 14px; height: 14px; flex-shrink: 0; margin-left: auto; color: var(--service-muted); }
-@media (max-width: 900px) { .work-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } .work-primary { grid-column: 1 / -1; } }
 @media (max-width: 640px) {
   .workbench-body { padding-block: 16px 28px; gap: 22px; }
   .work-grid { grid-template-columns: minmax(0, 1fr); gap: 10px; }
   .work-card { padding: 16px; }
   .work-task-name { font-size: 20px; }
+  .work-continue { align-self: stretch; }
+  .work-records { grid-template-columns: minmax(0, 1fr) auto; gap: 2px 8px; padding-inline: 0; }
+  .work-records > :is(ul, p) { grid-row: 2; grid-column: 1 / -1; }
+  .work-records > a { grid-column: 2; grid-row: 1; }
   .work-service-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .work-service-arrow { display: none; }
 }

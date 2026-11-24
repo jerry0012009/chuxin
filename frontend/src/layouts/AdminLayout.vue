@@ -12,7 +12,7 @@ import {
   Users,
 } from 'lucide-vue-next'
 import { computed } from 'vue'
-import { RouterView, useRoute } from 'vue-router'
+import { RouterView } from 'vue-router'
 import { useAuthSession } from '@/composables/useAuthSession'
 import ServiceShell from '@/components/ui/ServiceShell.vue'
 import type { Component } from 'vue'
@@ -27,7 +27,6 @@ type AdminNavItem = {
 
 const staffRoles: UserRole[] = ['doctor', 'admin', 'super_admin']
 
-const route = useRoute()
 const { state: authState } = useAuthSession()
 
 const navItems: AdminNavItem[] = [
@@ -43,7 +42,6 @@ const navItems: AdminNavItem[] = [
   { path: '/admin/departments', label: '部门管理', icon: Building2, roles: ['super_admin'] },
 ]
 
-const pageTitle = computed(() => navItems.find((item) => route.path === item.path)?.label)
 const visibleNavItems = computed(() => {
   const role = authState.profile?.role
   return navItems.filter((item) => role && item.roles.includes(role))
@@ -52,8 +50,8 @@ const visibleNavItems = computed(() => {
 </script>
 
 <template>
-  <ServiceShell :navigation="visibleNavItems" area="管理员后台" :title="pageTitle" hero="compact" home="/admin/dashboard">
-    <div class="service-width min-w-0 py-5 sm:py-7">
+  <ServiceShell :navigation="visibleNavItems" area="管理员后台" home="/admin/dashboard">
+    <div class="service-width plateau-admin min-w-0">
       <RouterView />
     </div>
   </ServiceShell>

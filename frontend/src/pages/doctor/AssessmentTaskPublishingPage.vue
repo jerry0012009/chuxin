@@ -147,24 +147,24 @@ onMounted(loadAll)
   <div class="space-y-6">
     <div class="flex flex-col gap-4 md:flex-row md:items-end md:justify-between">
       <SectionTitle title="发布测评任务" description="一次发布可组合量表、神经心理、对话、语音和表情测评；默认模板用于新用户注册后自动分配。" />
-      <button class="inline-flex items-center justify-center gap-2 rounded-xl bg-slate-900 px-4 py-2 text-sm font-bold text-white dark:bg-white dark:text-slate-900" type="button" @click="loadAll">
+      <button class="service-button service-outline self-start md:self-auto" type="button" @click="loadAll">
         <RefreshCw class="h-4 w-4" />
         刷新
       </button>
     </div>
 
-    <div v-if="errorMessage" class="rounded-2xl bg-rose-50 p-4 text-sm font-medium text-rose-600 dark:bg-rose-950/30 dark:text-rose-200">{{ errorMessage }}</div>
-    <div v-if="statusMessage" class="rounded-2xl bg-emerald-50 p-4 text-sm font-medium text-emerald-700 dark:bg-emerald-950/30 dark:text-emerald-200">{{ statusMessage }}</div>
+    <div v-if="errorMessage" class="rounded-md border border-rose-200 bg-rose-50 p-4 text-sm font-medium text-rose-800" role="alert">{{ errorMessage }}</div>
+    <div v-if="statusMessage" class="rounded-md border border-emerald-200 bg-emerald-50 p-4 text-sm font-medium text-emerald-800" role="status">{{ statusMessage }}</div>
 
-    <div class="flex gap-2 rounded-2xl bg-slate-100 p-1 dark:bg-slate-900">
+    <div class="service-tabs publishing-tabs" role="group" aria-label="发布方式">
       <button
         v-for="mode in [
           { key: 'publish', label: '手动发布' },
           { key: 'template', label: '默认模板' },
         ]"
         :key="mode.key"
-        class="flex-1 rounded-xl px-4 py-2 text-sm font-bold transition"
-        :class="activeMode === mode.key ? 'bg-white text-slate-950 shadow-sm dark:bg-slate-800 dark:text-white' : 'text-slate-500'"
+        class="service-tab"
+        :aria-pressed="activeMode === mode.key"
         type="button"
         @click="activeMode = mode.key as any"
       >
@@ -173,7 +173,7 @@ onMounted(loadAll)
     </div>
 
     <BaseCard v-if="activeMode === 'template'">
-      <SectionTitle title="新用户默认测评模板" description="用户注册后自动获得这套五段式测评包。量表与神经心理项目可后续在模板 items 中继续扩展。" />
+      <SectionTitle title="新用户默认测评模板" description="启用自动分配后，新参与者注册时会收到这套测评任务。" />
       <div v-if="defaultTemplate" class="mt-5 grid gap-5 lg:grid-cols-[0.9fr_1.1fr]">
         <div class="rounded-[24px] bg-slate-50 p-5 dark:bg-slate-900">
           <div class="flex items-center gap-3">
@@ -208,10 +208,10 @@ onMounted(loadAll)
 
     <div v-if="activeMode === 'publish'" class="grid gap-6 xl:grid-cols-[0.95fr_1.05fr]">
       <BaseCard>
-        <SectionTitle title="新建测评任务" description="选择参与者与测评项目后立即发布。未来干预任务会作为独立模块，不混入这里。" />
+        <SectionTitle title="新建测评任务" description="选择发布对象和测评项目。" />
         <div class="mt-5 space-y-5">
-          <input v-model="form.title" class="w-full rounded-xl border border-slate-200 bg-white px-4 py-3 text-sm dark:border-slate-800 dark:bg-slate-950" placeholder="任务标题，例如：入组初筛测评包" />
-          <textarea v-model="form.description" class="min-h-24 w-full resize-none rounded-xl border border-slate-200 bg-white px-4 py-3 text-sm dark:border-slate-800 dark:bg-slate-950" placeholder="任务说明" />
+          <label class="grid gap-2 text-sm font-semibold">任务标题<input v-model="form.title" class="w-full rounded-md border bg-white px-3 py-3 font-normal" placeholder="例如：入组初筛测评" /></label>
+          <label class="grid gap-2 text-sm font-semibold">任务说明<textarea v-model="form.description" class="min-h-20 w-full resize-y rounded-md border bg-white px-3 py-3 font-normal" /></label>
 
           <div class="grid gap-4 lg:grid-cols-2">
             <div>
@@ -274,7 +274,7 @@ onMounted(loadAll)
             </div>
           </div>
 
-          <button class="inline-flex w-full items-center justify-center gap-2 rounded-xl bg-primary px-4 py-3 text-sm font-bold text-white shadow-lg shadow-blue-500/20 disabled:opacity-60" :disabled="saving" type="button" @click="createAndPublish">
+          <button class="service-button w-full sm:w-auto" :disabled="saving" type="button" @click="createAndPublish">
             <Rocket class="h-4 w-4" />
             创建并发布测评任务
           </button>
