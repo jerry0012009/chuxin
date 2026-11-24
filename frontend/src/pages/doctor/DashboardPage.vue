@@ -1,7 +1,6 @@
 <script setup lang="ts">
-import { Activity, AlertTriangle, Brain, ChevronRight, TrendingUp, Users } from 'lucide-vue-next'
+import { Activity, AlertTriangle, Bell, Brain, TrendingUp, Users } from 'lucide-vue-next'
 import { computed, onMounted, onUnmounted, ref, watch } from 'vue'
-import { RouterLink } from 'vue-router'
 import BaseCard from '@/components/ui/BaseCard.vue'
 import ProgressBar from '@/components/ui/ProgressBar.vue'
 import SectionTitle from '@/components/ui/SectionTitle.vue'
@@ -59,6 +58,7 @@ const overviewCards = computed(() => {
 
   return [
     { label: '参与者总数', value: `${patients.value.length}`, subtext: '当前可见的普通账户', icon: Users },
+    { label: '待处理预警', value: `${alerts.value.length}`, subtext: '高风险优先处理', icon: Bell, tone: 'from-rose-500 to-orange-500' },
     { label: '今日评估', value: `${todayAssessments}`, subtext: '按记录日期统计今日新增评估', icon: Brain },
     { label: '平均情绪', value: averageScore === null ? '暂无日记' : averageScore.toFixed(1), subtext: '最近最多 1000 条日记，满分 5 分', icon: Activity },
   ]
@@ -182,25 +182,38 @@ onUnmounted(() => {
     <p v-if="loadFailed" class="service-card p-4 text-sm" role="alert">看板数据暂时无法加载。 <button class="service-link" type="button" @click="loadDashboard">重试</button></p>
     <template v-else>
 
-    <section class="flex flex-wrap items-center justify-between gap-2 border-y border-border py-3" aria-label="待处理预警概览">
-      <p v-if="loading" class="service-muted text-sm" role="status">正在加载预警…</p>
-      <p v-else-if="!alerts.length" class="service-muted text-sm">暂无待处理预警</p>
-      <div v-else class="space-y-1">
-        <p class="font-semibold text-primary">{{ alerts.length }} 条待处理预警</p>
-        <p class="service-muted text-sm">高风险 {{ riskSummary.high }} 条 · 中风险 {{ riskSummary.medium }} 条 · 其他 {{ riskSummary.other }} 条</p>
+    <div class="service-card service-band p-4 sm:p-5">
+      <div class="grid gap-6 lg:grid-cols-[1.1fr_0.9fr]">
+        <div>
+          <h2 class="text-xl font-bold">待处理预警概览</h2>
+          <p class="mt-2 text-sm text-white/80">按预警条数统计，同一参与者可能有多条预警。</p>
+        </div>
+        <div class="grid gap-3 sm:grid-cols-3">
+          <div class="rounded-[24px] bg-white/10 p-4">
+            <p class="text-xs text-white/60">高风险</p>
+            <p class="mt-2 text-2xl font-bold">{{ loading ? '…' : `${riskSummary.high} 条` }}</p>
+          </div>
+          <div class="rounded-[24px] bg-white/10 p-4">
+            <p class="text-xs text-white/60">中风险</p>
+            <p class="mt-2 text-2xl font-bold">{{ loading ? '…' : `${riskSummary.medium} 条` }}</p>
+          </div>
+          <div class="rounded-[24px] bg-white/10 p-4">
+            <p class="text-xs text-white/60">其他预警</p>
+            <p class="mt-2 text-2xl font-bold">{{ loading ? '…' : `${riskSummary.other} 条` }}</p>
+          </div>
+        </div>
       </div>
-      <RouterLink to="/admin/alerts" class="service-link inline-flex min-h-11 items-center gap-1 text-sm">查看预警 <ChevronRight class="h-4 w-4" aria-hidden="true" /></RouterLink>
-    </section>
+    </div>
 
-    <div class="grid grid-cols-2 gap-3 md:grid-cols-3">
-      <BaseCard v-for="item in overviewCards" :key="item.label" :padded="false" class="p-3 sm:p-4">
+    <div class="grid gap-4 md:grid-cols-2 xl:grid-cols-4">
+      <BaseCard v-for="item in overviewCards" :key="item.label">
         <div class="flex items-center justify-between">
           <p class="text-sm text-slate-500">{{ item.label }}</p>
           <div class="service-icon">
             <component :is="item.icon" class="h-5 w-5" />
           </div>
         </div>
-        <p class="mt-2 text-xl font-bold text-slate-900 dark:text-white">{{ loading ? '...' : item.value }}</p>
+        <p class="mt-4 text-3xl font-bold text-slate-900 dark:text-white">{{ loading ? '...' : item.value }}</p>
         <p class="mt-2 text-xs text-slate-400">{{ item.subtext }}</p>
       </BaseCard>
     </div>
@@ -293,7 +306,7 @@ onUnmounted(() => {
             <p class="font-semibold text-slate-900 dark:text-white">关注近期评估活跃度</p>
           </div>
           <p class="mt-2 text-sm text-slate-500">
-            今日新增评估 {{ overviewCards[1]?.value || 0 }} 条，建议结合干预执行情况安排复评。
+            今日新增评估 {{ overviewCards[2]?.value || 0 }} 条，建议结合疗愈执行情况安排复评。
           </p>
         </div>
       </div>

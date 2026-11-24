@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { Activity, Brain, BrainCircuit, ClipboardList, Heart, HeartPulse, Home, ListChecks, NotebookPen, User } from 'lucide-vue-next'
+import { Activity, Brain, BrainCircuit, ClipboardList, Heart, HeartPulse, Home, ListChecks, User } from 'lucide-vue-next'
 import { computed, onMounted } from 'vue'
 import { RouterView, useRoute } from 'vue-router'
 import { useAppState } from '@/composables/useAppState'
@@ -11,14 +11,13 @@ const { refreshCurrentAccountProfile } = useAppState()
 const navigation = [
   { path: '/', label: '我的工作台', icon: Home },
   { path: '/assessment-tasks', label: '测评任务', icon: ListChecks },
+  { path: '/scale-assessment', label: '量表测评', icon: ClipboardList },
+  { path: '/assessment', label: 'AI 多模态评估', icon: Activity },
+  { path: '/neuropsych-assessment', label: '神经心理', icon: Brain },
+  { path: '/brain-intervention', label: '脑机调控', icon: BrainCircuit },
+  { path: '/healing', label: '疗愈', icon: Heart },
   { path: '/profile/healing-plan', label: '干预计划', icon: HeartPulse },
-  { path: '/record', label: '情绪记录', icon: NotebookPen, secondary: true },
-  { path: '/scale-assessment', label: '量表测评', icon: ClipboardList, secondary: true },
-  { path: '/assessment', label: 'AI 多模态评估', icon: Activity, secondary: true },
-  { path: '/neuropsych-assessment', label: '神经心理', icon: Brain, secondary: true },
-  { path: '/brain-intervention', label: '脑机调控', icon: BrainCircuit, secondary: true },
-  { path: '/healing', label: '身心练习', icon: Heart, secondary: true },
-  { path: '/profile', label: '个人中心', icon: User, secondary: true },
+  { path: '/profile', label: '个人中心', icon: User },
 ]
 
 const pageTitle = computed(() => {
@@ -28,8 +27,9 @@ const pageTitle = computed(() => {
   return navigation.filter(({ path }) => route.path === path || route.path.startsWith(`${path}/`)).sort((a, b) => b.path.length - a.path.length)[0]?.label
 })
 const hero = computed(() => {
-  if (route.path === '/' || route.path.startsWith('/assessment-tasks') || route.path === '/record' || route.path === '/profile/healing-plan' || route.path === '/scale-assessment' && !route.query.returnTo) return undefined
-  return 'quiet'
+  if (route.path === '/') return undefined
+  if (route.path.startsWith('/assessment/') || route.path === '/assessment' || route.path.startsWith('/test/') || route.path.startsWith('/neuropsych-assessment/records/') || route.path.startsWith('/neuropsych-assessment/free/') || (route.path === '/scale-assessment' && route.query.returnTo)) return 'quiet'
+  return 'compact'
 })
 
 onMounted(() => {

@@ -40,7 +40,7 @@ describe('WebEegNeurofeedbackDemo', () => {
     expect(wrapper.text()).toContain('100%')
     expect(createBrainInterventionReport).toHaveBeenCalled()
 
-    const polyline = wrapper.get('svg[aria-label*="反馈值趋势"] polyline')
+    const polyline = wrapper.get('svg[aria-label="训练趋势线"] polyline')
     expect(polyline.attributes('points')?.trim().split(/\s+/).length).toBe(120)
 
     await buttonByText(wrapper, '重置').trigger('click')

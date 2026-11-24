@@ -27,14 +27,13 @@
 .service-preview-label { margin-left: auto; border: 1px solid #ffffff65; border-radius: 4px; padding: 4px 8px; color: white; white-space: nowrap; font-size: 12px; }
 .service-nav { background: var(--service-panel); border-bottom: 1px solid var(--service-border); }
 .service-nav-rail { position: relative; }
-.service-nav-primary, .service-nav-secondary { display: flex; flex-wrap: wrap; align-items: center; column-gap: 18px; }
-.service-nav-secondary { border-top: 1px solid var(--service-border); }
-.service-nav .service-more-toggle { margin-left: auto; }
-.service-nav .service-more-active { color: var(--service-red); }
+.service-nav-inner { display: flex; flex-wrap: wrap; align-items: center; gap: 0 12px; }
 .service-nav :is(a, button) { display: inline-flex; align-items: center; gap: 5px; min-height: 44px; padding: 5px 2px; border-bottom: 2px solid transparent; color: var(--service-muted); font-size: 13px; font-weight: 600; }
 .service-nav :is(a, button):hover, .service-nav a[aria-current="page"] { color: var(--service-red); }
 .service-nav a[aria-current="page"] { border-bottom-color: var(--service-red); }
 .service-nav svg { width: 16px; height: 16px; flex-shrink: 0; stroke-width: 1.7; }
+.service-nav .service-account { margin-left: auto; }
+.service-nav .service-menu-toggle { display: none; }
 .service-account-bar { background: var(--service-paper); border-bottom: 1px solid var(--service-border); }
 .service-account-row { display: flex; min-height: 44px; justify-content: space-between; align-items: center; gap: 6px 14px; flex-wrap: wrap; }
 .service-identity, .service-account-actions, .service-account-actions button { display: flex; align-items: center; gap: 6px; font-size: 13px; }
@@ -160,9 +159,17 @@
   .service-step-actions { grid-column: 3 / -1; }
 }
 
+@media (max-width: 1099px) {
+  .service-nav .service-menu-toggle { display: flex; width: 100%; }
+  .service-menu-caption { margin-left: auto; }
+  .service-nav-inner { display: none; padding-block: 4px 8px; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 4px 12px; }
+  .service-nav-inner.is-open { display: grid; }
+  .service-nav-inner :is(a, button) { min-width: 0; padding-inline: 6px; overflow-wrap: anywhere; }
+}
+
 @media (max-width: 640px) {
   .service-width { width: calc(100% - 32px); }
-  .service-brand { min-height: 58px; gap: 9px; }
+  .service-brand { min-height: 68px; gap: 9px; }
   .access-title { padding-top: 24px; }
   .access-title h1 { font-size: 27px; }
   .access-palace { max-height: 135px; }
@@ -171,9 +178,7 @@
   .service-preview-label { padding-inline: 5px; font-size: 11px; }
   .service-account-row { gap: 0 8px; }
   .service-identity-name { display: none; }
-  .service-nav-primary, .service-nav-secondary { column-gap: 12px; }
-  .service-nav :is(a, button) { min-height: 42px; }
-  .service-nav-primary a svg { display: none; }
+  .service-nav-inner { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .service-hero-inner { min-height: 72px; }
   .service-hero--full .service-hero-inner { min-height: 174px; }
   .service-hero--full .service-hero-title { font-size: 29px; }

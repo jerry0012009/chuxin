@@ -18,8 +18,6 @@ import {
 import { computed, onMounted, ref } from 'vue'
 import BaseCard from '@/components/ui/BaseCard.vue'
 import SectionTitle from '@/components/ui/SectionTitle.vue'
-import ServiceStatus from '@/components/ui/ServiceStatus.vue'
-import { assessmentStatusLabel } from '@/lib/assessment-display'
 import {
   createInterventionTask,
   getAllProfiles,
@@ -434,14 +432,14 @@ onMounted(loadAll)
     </div>
 
     <BaseCard v-else>
-      <SectionTitle title="干预任务进度" />
+      <SectionTitle title="干预任务进度" description="任务结束后会同步到预警消息，管理员可在用户管理和预警页继续跟踪。" />
       <div class="mt-5 grid gap-3">
         <article v-for="task in tasks" :key="task.id" class="rounded-[22px] border border-slate-100 bg-slate-50 p-4 dark:border-slate-800 dark:bg-slate-900">
           <div class="flex flex-col gap-3 md:flex-row md:items-center md:justify-between">
             <div>
               <div class="flex flex-wrap items-center gap-2">
                 <h3 class="font-black text-slate-900 dark:text-white">{{ task.title }}</h3>
-                <ServiceStatus :tone="task.status === 'active' ? 'active' : task.status === 'completed' ? 'done' : 'idle'">{{ assessmentStatusLabel(task.status) }}</ServiceStatus>
+                <span class="rounded-full bg-white px-2.5 py-1 text-xs font-bold text-slate-500 dark:bg-slate-950">{{ task.status }}</span>
                 <span class="rounded-full bg-emerald-50 px-2.5 py-1 text-xs font-bold text-emerald-700">{{ riskLabel(task.risk_level) }}</span>
               </div>
               <p class="mt-2 text-sm text-slate-500">{{ task.description || '暂无说明' }}</p>

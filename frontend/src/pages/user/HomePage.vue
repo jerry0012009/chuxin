@@ -29,7 +29,7 @@ const links = [
   { title: '神经心理', to: '/neuropsych-assessment', icon: Brain },
   { title: '脑机调控', to: '/brain-intervention', icon: BrainCircuit },
   { title: '情绪记录', to: '/record', icon: NotebookPen, test: 'home-feature-record' },
-  { title: '身心练习', to: '/healing', icon: Heart, test: 'home-feature-healing' },
+  { title: '放松疗愈', to: '/healing', icon: Heart, test: 'home-feature-healing' },
   { title: '疗愈游戏', to: { path: '/healing', state: { activeTab: 'game' } }, icon: Gamepad2, test: 'home-game-card' },
 ]
 
@@ -111,7 +111,7 @@ onMounted(load)
     </section>
 
     <section aria-labelledby="work-services">
-      <h2 id="work-services" class="work-services-title">自助测评与练习</h2>
+      <h2 id="work-services" class="work-services-title">常用服务</h2>
       <div class="work-service-grid">
         <RouterLink v-for="link in links" :key="link.title" :to="link.to" :data-testid="link.test" class="service-card work-service">
           <component :is="link.icon" class="work-service-icon" aria-hidden="true" /><span>{{ link.title }}</span><ArrowRight class="work-service-arrow" aria-hidden="true" />
@@ -152,9 +152,6 @@ onMounted(load)
 .work-service-arrow { width: 14px; height: 14px; flex-shrink: 0; margin-left: auto; color: var(--service-muted); }
 @media (max-width: 900px) { .work-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } .work-primary { grid-column: 1 / -1; } }
 @media (max-width: 640px) {
-  .workbench :deep(.service-hero-inner) { min-height: 106px; }
-  .workbench :deep(.service-hero-copy) { padding-block: 12px; }
-  .workbench-greeting, .workbench-date { margin-top: 5px; }
   .workbench-body { padding-block: 16px 28px; gap: 22px; }
   .work-grid { grid-template-columns: minmax(0, 1fr); gap: 10px; }
   .work-card { padding: 16px; }

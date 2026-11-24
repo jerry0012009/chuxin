@@ -87,7 +87,7 @@ describe('RecordPage', () => {
     await flushPromises()
 
     expect(appStateMock.loadEmotionRecords).toHaveBeenCalled()
-    expect(wrapper.get('h1').text()).toBe('情绪记录')
+    expect(wrapper.text()).toContain('情绪日记')
     expect(wrapper.text()).toContain('保存记录')
   })
 

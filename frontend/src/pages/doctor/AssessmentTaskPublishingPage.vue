@@ -3,8 +3,6 @@ import { ClipboardList, Loader2, RefreshCw, Rocket, Settings2, SquareStack, Stop
 import { computed, onMounted, ref } from 'vue'
 import BaseCard from '@/components/ui/BaseCard.vue'
 import SectionTitle from '@/components/ui/SectionTitle.vue'
-import ServiceStatus from '@/components/ui/ServiceStatus.vue'
-import { assessmentStatusLabel } from '@/lib/assessment-display'
 import {
   createAssessmentPublishTask,
   getAllProfiles,
@@ -210,7 +208,7 @@ onMounted(loadAll)
 
     <div v-if="activeMode === 'publish'" class="grid gap-6 xl:grid-cols-[0.95fr_1.05fr]">
       <BaseCard>
-        <SectionTitle title="新建测评任务" />
+        <SectionTitle title="新建测评任务" description="选择参与者与测评项目后立即发布。未来干预任务会作为独立模块，不混入这里。" />
         <div class="mt-5 space-y-5">
           <input v-model="form.title" class="w-full rounded-xl border border-slate-200 bg-white px-4 py-3 text-sm dark:border-slate-800 dark:bg-slate-950" placeholder="任务标题，例如：入组初筛测评包" />
           <textarea v-model="form.description" class="min-h-24 w-full resize-none rounded-xl border border-slate-200 bg-white px-4 py-3 text-sm dark:border-slate-800 dark:bg-slate-950" placeholder="任务说明" />
@@ -291,14 +289,14 @@ onMounted(loadAll)
             <div class="flex flex-col gap-4 lg:flex-row lg:items-center lg:justify-between">
               <div>
                 <div class="flex flex-wrap items-center gap-2">
-                  <ServiceStatus :tone="task.status === 'active' ? 'active' : 'idle'">{{ assessmentStatusLabel(task.status) }}</ServiceStatus>
+                  <span class="rounded-full bg-white px-3 py-1 text-xs font-bold text-slate-500 dark:bg-slate-800 dark:text-slate-300">{{ task.status }}</span>
                   <span class="rounded-full bg-blue-50 px-3 py-1 text-xs font-bold text-blue-600 dark:bg-blue-950/30 dark:text-blue-200">{{ task.item_count || 0 }} 项</span>
                 </div>
                 <h3 class="mt-3 text-lg font-black text-slate-900 dark:text-white">{{ task.title }}</h3>
                 <p class="mt-1 text-sm text-slate-500">{{ task.description || '无说明' }}</p>
                 <p class="mt-3 text-xs text-slate-400">对象 {{ task.assignee_count || 0 }} 人 / 完成 {{ task.completed_count || 0 }} 人</p>
               </div>
-              <button v-if="task.status === 'active'" class="service-button service-outline shrink-0 whitespace-nowrap" type="button" @click="stopTask(task)">
+              <button v-if="task.status === 'active'" class="inline-flex items-center justify-center gap-2 rounded-xl border border-slate-200 px-4 py-2 text-sm font-bold text-slate-700 dark:border-slate-800 dark:text-slate-200" type="button" @click="stopTask(task)">
                 <StopCircle class="h-4 w-4" />
                 停止
               </button>

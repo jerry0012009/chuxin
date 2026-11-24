@@ -50,8 +50,8 @@ describe('LoginPage', () => {
   it('matches xinyu-care public role boundary without admin tab', () => {
     const wrapper = mount(LoginPage)
 
-    expect(wrapper.get('[data-testid="role-user"]').text()).toBe('参与者')
-    expect(wrapper.get('[data-testid="role-doctor"]').text()).toBe('管理员')
+    expect(wrapper.get('[data-testid="role-user"]').text()).toContain('用户端')
+    expect(wrapper.get('[data-testid="role-doctor"]').text()).toContain('管理员端')
     expect(wrapper.find('[data-testid="role-admin"]').exists()).toBe(false)
     expect(wrapper.text()).not.toContain('超级管理员')
   })
