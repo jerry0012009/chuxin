@@ -26,7 +26,7 @@ import { RouterLink, useRoute, useRouter } from 'vue-router'
 import BaseCard from '@/components/ui/BaseCard.vue'
 import SectionTitle from '@/components/ui/SectionTitle.vue'
 import ServiceStatus from '@/components/ui/ServiceStatus.vue'
-import { canOpenAssessmentItem as canOpenItem, nextAssessmentItem } from '@/lib/assessment-display'
+import { assessmentItemName, canOpenAssessmentItem as canOpenItem, nextAssessmentItem } from '@/lib/assessment-display'
 import {
   getAssessmentTaskPackageReport,
   getMyInterventionTodayTasks,
@@ -68,7 +68,6 @@ const items = computed<AssessmentPublishItemRecord[]>(() => taskDetail.value?.it
 const interventionTasks = computed(() => interventionToday.value?.tasks || [])
 const requiredItems = computed(() => items.value.filter((item) => item.required !== false))
 const completedItems = computed(() => requiredItems.value.filter((item) => item.status === 'completed' || item.status === 'unsupported'))
-const progress = computed(() => (requiredItems.value.length ? Math.round((completedItems.value.length / requiredItems.value.length) * 100) : 0))
 const nextItem = computed(() => nextAssessmentItem(items.value))
 const isCompletedTask = computed(() => requiredItems.value.length > 0 && completedItems.value.length === requiredItems.value.length)
 const showTaskItems = computed(() => !isCompletedTask.value || taskItemsExpanded.value)
@@ -414,13 +413,13 @@ onBeforeUnmount(() => {
 </script>
 
 <template>
-  <div class="service-width py-6 sm:py-8">
-    <div class="space-y-6">
+  <div class="service-width py-4 sm:py-6">
+    <div class="space-y-4">
       <nav aria-label="位置" class="service-muted flex flex-wrap items-center gap-2 text-sm">
         <RouterLink class="service-link inline-flex items-center gap-1" to="/"><ArrowLeft class="h-4 w-4" aria-hidden="true" />我的工作台</RouterLink>
         <span aria-hidden="true">/</span><span>测评任务</span>
       </nav>
-      <h1 class="text-2xl font-bold sm:text-[30px]">测评任务详情</h1>
+      <h1 class="text-xl font-bold">测评任务详情</h1>
 
       <div v-if="loading" class="service-muted flex items-center gap-2 text-sm" role="status"><Loader2 class="h-5 w-5 animate-spin" aria-hidden="true" />正在加载测评任务…</div>
       <div v-if="errorMessage" class="service-card bg-rose-50 p-4 text-sm font-semibold text-rose-800" role="alert">
@@ -433,19 +432,17 @@ onBeforeUnmount(() => {
       </BaseCard>
 
       <template v-if="taskDetail">
-        <div class="service-card grid gap-5 border-l-[3px] border-l-[var(--service-red)] p-4 sm:p-5 md:grid-cols-[1fr_220px]" data-testid="task-overview">
+        <div class="service-card flex flex-wrap items-end justify-between gap-3 border-l-[3px] border-l-[var(--service-red)] p-4" data-testid="task-overview">
           <div class="space-y-2">
             <span class="service-status" :class="isCompletedTask ? 'service-status-done' : ''">{{ isCompletedTask ? '已完成' : taskDetail.status === 'expired' ? '已过期' : taskDetail.status === 'cancelled' ? '已取消' : completedItems.length || items.some(item => item.status === 'in_progress') ? '办理中' : '待办理' }}</span>
             <h2 class="text-lg font-bold sm:text-xl">{{ taskDetail.batch_title || '测评任务' }}</h2>
             <p v-if="taskDetail.end_at" class="service-muted text-sm">截止时间：{{ dateText(taskDetail.end_at) }}</p>
-            <button v-if="nextItem" class="service-button" type="button" :disabled="submitting" data-testid="task-continue" @click="enterItem(nextItem)">
-              {{ nextItem.status === 'in_progress' || completedItems.length ? '继续测评' : '开始测评' }} <ArrowRight aria-hidden="true" />
-            </button>
+            <p class="service-muted text-sm">已完成 <strong>{{ completedItems.length }} / {{ requiredItems.length }} 项必做测评</strong></p>
+            <p v-if="nextItem" class="service-muted break-words text-sm">下一步：<strong>{{ assessmentItemName(nextItem) }}</strong></p>
           </div>
-          <div class="self-center space-y-2">
-            <p class="flex justify-between gap-3 text-sm"><span class="service-muted">必办进度</span><strong>{{ completedItems.length }} / {{ requiredItems.length }} 项</strong></p>
-            <progress class="service-progress block" :value="progress" max="100" aria-label="必办测评进度" />
-          </div>
+          <button v-if="nextItem" class="service-button" type="button" :disabled="submitting" data-testid="task-continue" @click="enterItem(nextItem)">
+            {{ nextItem.status === 'in_progress' || completedItems.length ? '继续测评' : '开始测评' }} <ArrowRight aria-hidden="true" />
+          </button>
         </div>
 
         <section aria-labelledby="task-process">

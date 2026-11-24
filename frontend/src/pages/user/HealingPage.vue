@@ -55,6 +55,7 @@ import {
 import { computed, onBeforeUnmount, onMounted, ref, watch } from 'vue'
 import { useRoute, useRouter } from 'vue-router'
 import BaseCard from '@/components/ui/BaseCard.vue'
+import ServiceStatus from '@/components/ui/ServiceStatus.vue'
 import { useAuthSession } from '@/composables/useAuthSession'
 import { useAppState } from '@/composables/useAppState'
 import { moodMeta } from '@/data/static'
@@ -184,11 +185,12 @@ const tabs = [
 ]
 
 const categoryMeta = [
-  { key: 'all' as const, label: '全部', icon: Sparkles, tone: 'from-violet-400 to-purple-500' },
-  { key: 'relax' as const, label: '放松', icon: Sparkles, tone: 'from-sky-400 to-blue-500' },
-  { key: 'sleep' as const, label: '睡眠', icon: Music, tone: 'from-indigo-400 to-violet-500' },
-  { key: 'focus' as const, label: '专注', icon: Zap, tone: 'from-amber-400 to-orange-500' },
+  { key: 'all' as const, label: '全部' },
+  { key: 'relax' as const, label: '放松' },
+  { key: 'sleep' as const, label: '睡眠' },
+  { key: 'focus' as const, label: '专注' },
 ]
+const trackCategoryLabel = (category: string) => categoryMeta.find(item => item.key === category)?.label || '冥想练习'
 
 const moodOptions = [
   { value: 'calmer', label: '更平静', emoji: '🌿' },
@@ -1176,17 +1178,14 @@ onBeforeUnmount(() => {
     <div class="mx-auto w-full max-w-6xl px-4 md:px-6">
     <audio ref="audioRef" class="hidden" preload="auto" />
 
-    <div class="mt-6 grid grid-cols-4 gap-2 md:gap-3">
+    <div class="service-tabs grid grid-cols-4" role="group" aria-label="练习类型">
       <button
         v-for="item in tabs"
         :key="item.key"
         :data-testid="`healing-tab-${item.key}`"
-        class="rounded-2xl px-4 py-4 text-sm font-semibold transition"
-        :class="
-          activeTab === item.key
-            ? 'bg-slate-900 text-white shadow-lg dark:bg-white dark:text-slate-900'
-            : 'bg-white text-slate-500 shadow-sm dark:bg-slate-900 dark:text-slate-300'
-        "
+        class="service-tab"
+        type="button"
+        :aria-pressed="activeTab === item.key"
         @click="activeTab = item.key"
       >
         <span class="inline-flex items-center gap-2">
@@ -1196,99 +1195,82 @@ onBeforeUnmount(() => {
       </button>
     </div>
 
-    <div v-if="isInterventionMode" class="mt-4 rounded-[24px] border border-emerald-100 bg-emerald-50 p-4 dark:border-emerald-900/40 dark:bg-emerald-950/20">
+    <div v-if="isInterventionMode" class="mt-4 border-y border-border py-3">
       <div class="flex flex-col gap-3 md:flex-row md:items-center md:justify-between">
         <div>
-          <p class="text-sm font-black text-emerald-800 dark:text-emerald-100">当前干预任务中</p>
-          <p class="mt-1 text-xs leading-5 text-emerald-700/80 dark:text-emerald-200/80">
+          <p class="text-sm font-semibold">当前干预任务</p>
+          <p class="service-muted mt-1 text-sm">
             {{ interventionCompleted ? '今日已完成，可继续自由练习。' : canCompleteIntervention ? '倒计时已结束，可以在本页面记录完成。' : `请在当前页面停留 ${interventionRemaining} 秒后完成。` }}
           </p>
         </div>
-        <button class="rounded-xl bg-white px-4 py-2 text-xs font-black text-emerald-700 shadow-sm dark:bg-slate-950 dark:text-emerald-200" type="button" @click="router.push(interventionReturnTo)">
+        <button class="service-button service-outline" type="button" @click="router.push(interventionReturnTo)">
           返回任务中心
         </button>
       </div>
     </div>
 
     <div v-if="activeTab === 'meditation'" class="mt-6 grid gap-6 md:grid-cols-2 md:items-start">
-      <BaseCard class="order-2 overflow-hidden">
-        <div class="flex items-center gap-3">
-          <div class="flex h-12 w-12 items-center justify-center rounded-xl bg-gradient-to-br from-indigo-500 to-purple-600 text-white shadow-lg">
-            <Music class="h-6 w-6" />
-          </div>
-          <div>
-            <h2 class="text-xl font-bold text-slate-900 dark:text-white">冥想库</h2>
-            <p class="text-sm text-slate-500 dark:text-slate-400">探索内心的宁静</p>
-          </div>
-        </div>
+      <section class="order-2 min-w-0" aria-labelledby="meditation-library">
+        <h2 id="meditation-library" class="service-sec-title">冥想库</h2>
 
-        <div class="mt-5 grid grid-cols-2 gap-2">
+        <div class="service-tabs mt-3 grid grid-cols-4" role="group" aria-label="冥想类别">
           <button
             v-for="item in categoryMeta"
             :key="item.key"
-            class="rounded-[20px] p-3 text-left text-sm transition"
-            :class="activeCategory === item.key ? `bg-gradient-to-br ${item.tone} text-white shadow-lg` : 'bg-slate-50 text-slate-600 dark:bg-slate-900 dark:text-slate-300'"
+            class="service-tab"
+            type="button"
+            :aria-pressed="activeCategory === item.key"
             @click="activeCategory = item.key"
           >
-            <component :is="item.icon" class="mb-2 h-4 w-4" />
             {{ item.label }}
           </button>
         </div>
 
-        <div class="mt-5 space-y-3">
+        <div class="divide-y divide-border">
           <button
             v-for="item in filteredTracks"
             :key="item.id"
-            class="w-full rounded-[24px] p-4 text-left transition"
-            :class="selectedTrackId === item.id ? 'bg-slate-900 text-white dark:bg-white dark:text-slate-900' : 'bg-slate-50 text-slate-700 dark:bg-slate-900 dark:text-slate-300'"
+            class="w-full px-3 py-3 text-left hover:bg-muted"
+            :class="selectedTrackId === item.id ? 'bg-primary/10' : ''"
+            type="button"
+            :aria-pressed="selectedTrackId === item.id"
             @click="selectedTrackId = item.id"
           >
             <div class="flex items-center gap-3">
-              <span class="text-2xl">{{ item.emoji }}</span>
-              <div>
+              <Music class="h-4 w-4 text-primary" aria-hidden="true" />
+              <div class="min-w-0 flex-1">
                 <p class="font-semibold">{{ item.title }}</p>
-                <p class="text-xs opacity-70">{{ item.category }} · {{ item.duration }}</p>
+                <p class="service-muted text-xs">{{ trackCategoryLabel(item.category) }} · {{ item.duration }}</p>
               </div>
+              <Check v-if="selectedTrackId === item.id" class="h-4 w-4 text-primary" aria-hidden="true" />
             </div>
           </button>
         </div>
-      </BaseCard>
+      </section>
 
       <div class="order-1 space-y-6 md:sticky md:top-6">
-        <BaseCard class="overflow-hidden border-0 bg-gradient-to-br from-slate-900 via-indigo-950 to-purple-950 text-white">
+        <BaseCard class="min-w-0">
           <div class="flex flex-wrap items-center justify-between gap-3">
-            <span class="rounded-full bg-white/10 px-4 py-2 text-xs font-semibold text-indigo-100 backdrop-blur">
+            <ServiceStatus :tone="isPlaying ? 'active' : 'idle'" role="status">
               {{ buffering ? '缓冲中' : isPlaying ? '正在播放' : '已暂停' }}
-            </span>
-            <span class="rounded-full bg-white/10 px-4 py-2 text-xs text-white/70">{{ loopModeMeta.label }}</span>
+            </ServiceStatus>
+            <span class="service-muted text-sm">{{ loopModeMeta.label }}</span>
           </div>
-          <h3 class="mt-3 text-3xl font-bold">{{ selectedTrack.title }}</h3>
-          <p class="mt-3 max-w-2xl text-sm leading-7 text-white/75">{{ selectedTrack.description }}</p>
+          <h2 class="mt-3 break-words text-lg font-bold">{{ selectedTrack.title }}</h2>
+          <p class="service-muted mt-2 text-sm leading-6">{{ selectedTrack.description }}</p>
 
-          <div v-if="playError" class="mt-4 rounded-[20px] border border-rose-400/30 bg-rose-400/10 px-4 py-3 text-sm text-rose-100">
+          <div v-if="playError" class="mt-4 border-l-2 border-primary bg-primary/5 px-3 py-2 text-sm text-primary" role="alert">
             {{ playError }}
           </div>
 
-          <div class="mt-6 flex items-center justify-center">
-            <div class="relative flex h-32 w-32 items-center justify-center rounded-full bg-white/10 text-5xl backdrop-blur md:h-40 md:w-40">
-              <span
-                class="absolute inset-0 rounded-full border border-indigo-300/30"
-                :class="isPlaying ? 'animate-ping' : ''"
-              />
-              <span class="relative">{{ selectedTrack.emoji }}</span>
-            </div>
-          </div>
-
           <div class="mt-6">
-            <div class="mb-2 flex items-center justify-between text-xs text-white/60">
+            <div class="service-muted mb-1 flex items-center justify-between text-xs tabular-nums">
               <span>{{ formatTime(currentTime) }}</span>
               <span>{{ formatTime(totalTime || selectedTrackDurationSeconds) }}</span>
             </div>
-            <div class="h-2 overflow-hidden rounded-full bg-white/10">
-              <div class="h-full rounded-full bg-gradient-to-r from-indigo-400 to-fuchsia-400 transition-all" :style="{ width: `${progressValue}%` }" />
-            </div>
             <input
-              class="mt-3 h-2 w-full cursor-pointer appearance-none rounded-full bg-white/10 accent-violet-300"
+              class="h-7 w-full cursor-pointer accent-primary"
+              aria-label="播放进度"
               data-testid="healing-progress-slider"
               max="100"
               min="0"
@@ -1298,28 +1280,32 @@ onBeforeUnmount(() => {
             />
           </div>
 
-          <div class="mt-6 flex items-center justify-center gap-3 md:gap-4">
+          <div class="mt-3 flex flex-wrap items-center justify-center gap-2">
             <button
-              class="flex h-11 w-11 items-center justify-center rounded-full bg-white/10 text-white/75 transition hover:bg-white/20 hover:text-white"
+              class="service-button service-outline h-11 w-11 !px-0"
+              :aria-label="`切换播放模式，当前${loopModeMeta.label}`"
+              :title="`切换播放模式，当前${loopModeMeta.label}`"
               data-testid="healing-loop-mode"
               type="button"
               @click="cycleLoopMode"
             >
               <component :is="loopModeMeta.icon" class="h-5 w-5" />
             </button>
-            <button class="flex h-12 w-12 items-center justify-center rounded-full bg-white/10 transition hover:bg-white/20" type="button" @click="prevTrack">
+            <button class="service-button service-outline h-11 w-11 !px-0" type="button" title="上一曲" aria-label="上一曲" @click="prevTrack">
               <SkipBack class="h-5 w-5" />
             </button>
-            <button class="flex h-16 w-16 items-center justify-center rounded-full bg-gradient-to-r from-indigo-500 to-purple-500 shadow-lg shadow-indigo-500/40" data-testid="healing-toggle-play" type="button" @click="togglePlay">
+            <button class="service-button h-11 w-12 !px-0" :title="isPlaying ? '暂停' : '播放'" :aria-label="isPlaying ? '暂停' : '播放'" data-testid="healing-toggle-play" type="button" @click="togglePlay">
               <span v-if="buffering" class="h-7 w-7 animate-spin rounded-full border-2 border-white/30 border-t-white" />
               <Pause v-else-if="isPlaying" class="h-7 w-7" />
               <Play v-else class="h-7 w-7 translate-x-0.5" />
             </button>
-            <button class="flex h-12 w-12 items-center justify-center rounded-full bg-white/10 transition hover:bg-white/20" type="button" @click="nextTrack">
+            <button class="service-button service-outline h-11 w-11 !px-0" type="button" title="下一曲" aria-label="下一曲" @click="nextTrack">
               <SkipForward class="h-5 w-5" />
             </button>
             <button
-              class="flex h-11 w-11 items-center justify-center rounded-full bg-white/10 text-white/75 transition hover:bg-white/20 hover:text-white"
+              class="service-button service-outline h-11 w-11 !px-0"
+              :aria-label="muted ? '取消静音' : '静音'"
+              :title="muted ? '取消静音' : '静音'"
               data-testid="healing-mute-toggle"
               type="button"
               @click="toggleMute"
@@ -1329,22 +1315,23 @@ onBeforeUnmount(() => {
             </button>
           </div>
 
-          <div class="mt-5 flex items-center gap-3 rounded-[22px] bg-white/10 px-4 py-3">
-            <Volume2 class="h-4 w-4 text-white/60" />
+          <div class="service-muted mt-4 flex items-center gap-3 border-t border-border pt-3">
+            <Volume2 class="h-4 w-4" aria-hidden="true" />
             <input
               v-model.number="volume"
-              class="h-2 flex-1 cursor-pointer appearance-none rounded-full bg-white/15 accent-violet-300"
+              class="h-7 min-w-0 flex-1 cursor-pointer accent-primary"
+              aria-label="播放音量"
               data-testid="healing-volume-slider"
               max="1"
               min="0"
               step="0.05"
               type="range"
             />
-            <span class="w-10 text-right text-xs text-white/60">{{ Math.round(volume * 100) }}%</span>
+            <span class="w-10 text-right text-xs tabular-nums">{{ Math.round(volume * 100) }}%</span>
           </div>
 
           <button
-            class="mt-6 w-full rounded-2xl bg-white px-4 py-3 text-sm font-semibold text-slate-900 disabled:opacity-60"
+            class="service-button service-outline mt-4 w-full"
             :disabled="savingSession || !authState.user || (isInterventionMode && !canCompleteIntervention)"
             data-testid="healing-save-session"
             type="button"

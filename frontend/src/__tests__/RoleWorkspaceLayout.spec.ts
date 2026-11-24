@@ -1,5 +1,5 @@
 import { beforeEach, describe, expect, it, vi } from 'vitest'
-import { mount } from '@vue/test-utils'
+import { flushPromises, mount } from '@vue/test-utils'
 import AdminLayout from '@/layouts/AdminLayout.vue'
 
 const resolve = vi.fn(() => ({ href: '/login' }))
@@ -53,8 +53,9 @@ describe('role workspace layouts', () => {
     signOut.mockClear()
   })
 
-  it('shows administrator navigation including assessment publishing and neuropsych workspaces', () => {
-    const wrapper = mount(AdminLayout)
+  it('keeps common actions visible and opens the secondary services on demand', async () => {
+    const wrapper = mount(AdminLayout, { attachTo: document.body })
+    const more = wrapper.get('button[aria-controls="service-navigation"]')
 
     expect(wrapper.text()).not.toContain('返回用户端')
     expect(wrapper.text()).not.toContain('超级管理员')
@@ -66,6 +67,13 @@ describe('role workspace layouts', () => {
     expect(wrapper.text()).toContain('神经心理测评')
     expect(wrapper.text()).toContain('知识库')
     expect(wrapper.text()).toContain('预警消息')
+    expect(wrapper.get('#service-navigation').isVisible()).toBe(false)
+    await more.trigger('click')
+    expect(more.attributes('aria-expanded')).toBe('true')
+    expect(wrapper.get('#service-navigation').isVisible()).toBe(true)
+    expect(wrapper.get('a[href="/admin/neuropsych-assessments"]').isVisible()).toBe(true)
+    expect(wrapper.find('a[href="/admin/departments"]').exists()).toBe(false)
+    wrapper.unmount()
   })
 
   it('signs out from the administrator account bar and resolves the login page', async () => {
@@ -74,9 +82,11 @@ describe('role workspace layouts', () => {
     const logoutButton = wrapper.findAll('button').find((button) => button.text().includes('退出登录'))!
     const navigate = vi.fn()
     const currentWindow = window
+    const click = new MouseEvent('click', { bubbles: true })
     vi.stubGlobal('window', { location: { replace: navigate } })
     try {
-      await logoutButton.trigger('click')
+      logoutButton.element.dispatchEvent(click)
+      await flushPromises()
       expect(signOut).toHaveBeenCalledOnce()
       expect(resolve).toHaveBeenCalledWith({ path: '/login', query: {} })
       expect(navigate).toHaveBeenCalledWith('/login')

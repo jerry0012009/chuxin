@@ -7,7 +7,7 @@ import ServiceMasthead from './ServiceMasthead.vue'
 import ServiceAccountBar from './ServiceAccountBar.vue'
 
 const props = defineProps<{
-  navigation: { path: string; label: string; icon: Component }[]
+  navigation: { path: string; label: string; icon: Component; secondary?: boolean }[]
   area: string
   title?: string
   hero?: 'compact' | 'quiet'
@@ -16,6 +16,8 @@ const props = defineProps<{
 
 const route = useRoute()
 const open = ref(false)
+const primary = computed(() => props.navigation.filter(item => !item.secondary))
+const secondary = computed(() => props.navigation.filter(item => item.secondary))
 const active = computed(() => props.navigation.filter(({ path }) => route.path === path || (path !== '/' && route.path.startsWith(`${path}/`))).sort((a, b) => b.path.length - a.path.length)[0])
 watch(() => route.fullPath, () => { open.value = false })
 </script>
@@ -26,13 +28,16 @@ watch(() => route.fullPath, () => { open.value = false })
     <ServiceAccountBar />
     <nav class="service-nav" :aria-label="area" @keydown.esc="open = false">
       <div class="service-width service-nav-rail">
-        <button class="service-menu-toggle" type="button" :aria-expanded="open" aria-controls="service-navigation" @click="open = !open">
-          <X v-if="open" aria-hidden="true" /><Menu v-else aria-hidden="true" />
-          <span>{{ active?.label || area }}</span>
-          <span class="service-menu-caption">{{ open ? '收起菜单' : '全部入口' }}</span>
-        </button>
-        <div id="service-navigation" class="service-nav-inner" :class="{ 'is-open': open }">
-          <RouterLink v-for="item in navigation" :key="item.path" :to="item.path" :aria-current="active?.path === item.path ? 'page' : undefined" @click="open = false">
+        <div class="service-nav-primary">
+          <RouterLink v-for="item in primary" :key="item.path" :to="item.path" :aria-current="active?.path === item.path ? 'page' : undefined" @click="open = false">
+            <component :is="item.icon" aria-hidden="true" />{{ item.label }}
+          </RouterLink>
+          <button v-if="secondary.length" class="service-more-toggle" type="button" :aria-expanded="open" aria-controls="service-navigation" :class="{ 'service-more-active': active?.secondary }" @click="open = !open">
+            <X v-if="open" aria-hidden="true" /><Menu v-else aria-hidden="true" />更多服务
+          </button>
+        </div>
+        <div v-if="secondary.length" v-show="open" id="service-navigation" class="service-nav-secondary">
+          <RouterLink v-for="item in secondary" :key="item.path" :to="item.path" :aria-current="active?.path === item.path ? 'page' : undefined" @click="open = false">
             <component :is="item.icon" aria-hidden="true" />{{ item.label }}
           </RouterLink>
         </div>
