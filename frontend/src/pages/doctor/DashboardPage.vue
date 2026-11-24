@@ -1,9 +1,8 @@
 <script setup lang="ts">
-import { Activity, AlertTriangle, Bell, Brain, TrendingUp, Users } from 'lucide-vue-next'
+import { ArrowRight, CheckCircle2 } from 'lucide-vue-next'
 import { computed, onMounted, onUnmounted, ref, watch } from 'vue'
-import BaseCard from '@/components/ui/BaseCard.vue'
+import { RouterLink } from 'vue-router'
 import ProgressBar from '@/components/ui/ProgressBar.vue'
-import SectionTitle from '@/components/ui/SectionTitle.vue'
 import ServiceStatus from '@/components/ui/ServiceStatus.vue'
 import { assessmentTypeLabel } from '@/lib/assessment-display'
 import { getAllAssessments, getAllEmotionDiaries, getAllProfiles, getRiskAlerts } from '@/db/api'
@@ -49,18 +48,17 @@ const todayKey = () => {
   return `${year}-${month}-${day}`
 }
 
-const overviewCards = computed(() => {
-  const todayAssessments = assessments.value.filter((item) => item.created_at.slice(0, 10) === todayKey()).length
+const todayAssessments = computed(() => assessments.value.filter((item) => item.created_at.slice(0, 10) === todayKey()).length)
+const overviewMetrics = computed(() => {
   const averageScore =
     diaries.value.length > 0
       ? diaries.value.reduce((sum, item) => sum + emotionScores[item.emotion_level], 0) / diaries.value.length
       : null
 
   return [
-    { label: '参与者总数', value: `${patients.value.length}`, subtext: '当前可见的普通账户', icon: Users },
-    { label: '待处理预警', value: `${alerts.value.length}`, subtext: '高风险优先处理', icon: Bell, tone: 'from-rose-500 to-orange-500' },
-    { label: '今日评估', value: `${todayAssessments}`, subtext: '按记录日期统计今日新增评估', icon: Brain },
-    { label: '平均情绪', value: averageScore === null ? '暂无日记' : averageScore.toFixed(1), subtext: '最近最多 1000 条日记，满分 5 分', icon: Activity },
+    { label: '参与者总数', value: `${patients.value.length}`, unit: '人', subtext: '当前可见的普通账户' },
+    { label: '今日评估', value: `${todayAssessments.value}`, unit: '条', subtext: '按记录日期统计' },
+    { label: '平均情绪', value: averageScore?.toFixed(1) ?? '—', unit: averageScore === null ? '' : '/ 5', subtext: averageScore === null ? '暂无日记' : '最近最多 1000 条日记' },
   ]
 })
 
@@ -70,8 +68,8 @@ const riskSummary = computed(() => {
   return { high, medium, other: alerts.value.length - high - medium }
 })
 
-const recentAlerts = computed(() =>
-  alerts.value.slice(0, 3).map((item) => ({
+const priorityAlerts = computed(() =>
+  [...alerts.value].sort((a, b) => b.risk_level - a.risk_level || b.created_at.localeCompare(a.created_at)).slice(0, 3).map((item) => ({
     ...item,
     patientName: profileMap.value.get(item.patient_id)?.full_name || profileMap.value.get(item.patient_id)?.username || item.patient_id,
   })),
@@ -167,7 +165,7 @@ onUnmounted(() => {
 </script>
 
 <template>
-  <div class="space-y-6">
+  <div class="dashboard">
     <Transition name="toast-slide">
       <div
         v-if="errorMessage"
@@ -178,125 +176,169 @@ onUnmounted(() => {
       </div>
     </Transition>
 
-    <header class="admin-overview-title"><h1>数据看板</h1><p>参与者评估与预警概况</p></header>
+    <header class="dashboard-title"><h1>数据看板</h1><p>参与者评估与预警概况</p></header>
     <p v-if="loadFailed" class="service-card p-4 text-sm" role="alert">看板数据暂时无法加载。 <button class="service-link" type="button" @click="loadDashboard">重试</button></p>
     <template v-else>
 
-    <div class="grid grid-cols-2 gap-2 sm:gap-4 lg:grid-cols-4">
-      <BaseCard v-for="item in overviewCards" :key="item.label">
-        <div class="flex items-center justify-between">
-          <p class="service-muted text-sm">{{ item.label }}</p>
-          <div class="service-icon hidden sm:inline-grid">
-            <component :is="item.icon" class="h-5 w-5" aria-hidden="true" />
-          </div>
-        </div>
-        <p class="mt-2 text-2xl font-bold tabular-nums text-primary sm:text-3xl">{{ loading ? '…' : item.value }}</p>
-        <p class="service-muted mt-1 text-xs">{{ item.subtext }}</p>
-      </BaseCard>
-    </div>
-
-    <section class="admin-risk-strip" aria-labelledby="pending-risk-title">
-      <div><h2 id="pending-risk-title" class="text-base font-bold">待处理预警</h2><p class="service-muted mt-1 text-xs">按预警条数统计，同一参与者可能有多条预警。</p></div>
-      <dl>
-        <div><dt>高风险</dt><dd>{{ loading ? '…' : `${riskSummary.high} 条` }}</dd></div>
-        <div><dt>中风险</dt><dd>{{ loading ? '…' : `${riskSummary.medium} 条` }}</dd></div>
-        <div><dt>其他预警</dt><dd>{{ loading ? '…' : `${riskSummary.other} 条` }}</dd></div>
-      </dl>
-    </section>
-
-    <div class="grid gap-6 lg:grid-cols-[1.2fr_0.8fr]">
-      <BaseCard>
-        <SectionTitle title="参与者评估与风险摘要" description="最多显示 8 人，每人展示可见记录中的最近一次评估。" />
-        <p v-if="loading" class="mt-5 text-sm text-slate-500">正在加载参与者数据…</p>
-        <p v-else-if="!patientRiskDistribution.length" class="mt-5 text-sm text-slate-500">暂无参与者。</p>
-        <ul v-else class="mt-3 divide-y">
-          <li v-for="item in patientRiskDistribution" :key="item.id" class="space-y-2 py-3 text-sm">
-            <div class="flex flex-wrap items-center gap-2"><strong>{{ item.name }}</strong><ServiceStatus :tone="item.assessment ? 'done' : 'idle'">{{ item.assessment ? '已有评估' : '暂无评估' }}</ServiceStatus></div>
-            <p v-if="item.assessment" class="text-slate-600">{{ assessmentTypeLabel(item.assessment) }} · {{ item.assessment.score == null ? '暂无分数' : `总分 ${item.assessment.score}` }}</p>
-            <p v-if="item.summary || item.assessment" class="break-words text-slate-600">{{ item.summary || '暂无风险摘要' }}</p>
+    <div class="dashboard-operations">
+      <section class="dashboard-queue" aria-labelledby="pending-risk-title">
+        <header class="dashboard-section-head">
+          <div><h2 id="pending-risk-title">待处理预警</h2><p>{{ loading ? '正在加载预警…' : `共 ${alerts.length} 条 · 按风险从高到低` }}</p></div>
+          <RouterLink to="/admin/alerts" class="dashboard-link service-link">查看预警 <ArrowRight aria-hidden="true" /></RouterLink>
+        </header>
+        <dl class="dashboard-risks">
+          <div><dt>高风险</dt><dd :class="{ 'risk-high': riskSummary.high > 0 }">{{ loading ? '…' : `${riskSummary.high} 条` }}</dd></div>
+          <div><dt>中风险</dt><dd>{{ loading ? '…' : `${riskSummary.medium} 条` }}</dd></div>
+          <div><dt>其他预警</dt><dd>{{ loading ? '…' : `${riskSummary.other} 条` }}</dd></div>
+        </dl>
+        <p v-if="!loading && !priorityAlerts.length" class="dashboard-queue-empty"><CheckCircle2 aria-hidden="true" /> 当前没有待处理预警。</p>
+        <ul v-else-if="priorityAlerts.length" class="dashboard-alerts" aria-label="优先处理的预警">
+          <li v-for="item in priorityAlerts" :key="item.id">
+            <div class="dashboard-alert-head">
+              <strong>{{ item.patientName }}</strong>
+              <span>{{ item.alert_type }}</span>
+              <ServiceStatus :tone="item.risk_level >= 8 ? 'danger' : item.risk_level >= 5 ? 'attention' : 'idle'">风险 {{ item.risk_level }} / 10</ServiceStatus>
+            </div>
+            <p>{{ item.description }}</p>
           </li>
         </ul>
-      </BaseCard>
-
-      <BaseCard>
-        <SectionTitle title="最近预警" description="优先关注最新未处理预警。" />
-        <div v-if="loading" class="mt-5 text-sm text-slate-500">正在加载预警...</div>
-        <div v-else-if="recentAlerts.length === 0" class="mt-5 rounded-[24px] bg-slate-50 p-4 text-sm text-slate-500 dark:bg-slate-900">
-          当前没有待处理预警。
-        </div>
-        <div v-else class="mt-5 space-y-3">
-          <div v-for="item in recentAlerts" :key="item.id" class="rounded-[24px] bg-slate-50 p-4 dark:bg-slate-900">
-            <div class="flex items-center gap-3">
-              <AlertTriangle class="h-5 w-5 text-rose-500" />
-              <p class="font-semibold text-slate-900 dark:text-white">{{ item.patientName }}</p>
-            </div>
-            <p class="mt-2 text-sm text-slate-500">{{ item.alert_type }} · 风险 {{ item.risk_level }}/10</p>
-            <p class="mt-3 text-sm leading-7 text-slate-600 dark:text-slate-300">{{ item.description }}</p>
+      </section>
+      <section class="dashboard-metrics" aria-labelledby="dashboard-metrics-title">
+        <h2 id="dashboard-metrics-title">数据概况</h2>
+        <dl>
+          <div v-for="item in overviewMetrics" :key="item.label" class="dashboard-metric">
+            <dt>{{ item.label }}<span>{{ item.subtext }}</span></dt>
+            <dd>{{ loading ? '…' : item.value }} <small v-if="!loading">{{ item.unit }}</small></dd>
           </div>
-        </div>
-      </BaseCard>
+        </dl>
+      </section>
     </div>
 
-    <div class="grid gap-6 lg:grid-cols-2">
-      <BaseCard>
-        <SectionTitle title="近 7 日情绪趋势" description="按日记情绪值换算为 1-5 分的平均曲线。" />
-        <div v-if="loading" class="mt-5 text-sm text-slate-500">正在计算趋势...</div>
-        <div v-else class="mt-5">
-          <div class="flex h-56 items-end gap-1 sm:gap-3" role="img" :aria-label="`近 7 日平均情绪评分（满分 5 分）：${emotionTrend.map(item => `${item.label} ${item.value === null ? '暂无日记' : `${item.value} 分`}`).join('；')}`">
-            <div v-for="item in emotionTrend" :key="item.key" class="flex min-w-0 flex-1 flex-col items-center gap-3">
-              <div class="flex h-44 w-full items-end rounded-lg bg-slate-50 p-1 sm:p-2 dark:bg-slate-900">
-                <div class="w-full rounded-sm bg-primary" :style="{ height: item.percent }" />
-              </div>
-              <div class="text-center">
-                <p class="text-sm font-semibold text-slate-900 dark:text-white">{{ item.value?.toFixed(1) ?? '—' }}</p>
-                <p class="text-xs text-slate-400">{{ item.label }}</p>
-              </div>
-            </div>
+    <section class="dashboard-participants" aria-labelledby="dashboard-participants-title">
+      <header class="dashboard-section-head">
+        <div><h2 id="dashboard-participants-title">参与者评估与风险摘要</h2><p>最近一次可见评估 · 最多显示 8 人</p></div>
+        <RouterLink to="/admin/patients" class="dashboard-link service-link">参与者管理 <ArrowRight aria-hidden="true" /></RouterLink>
+      </header>
+      <p v-if="loading" class="dashboard-empty" role="status">正在加载参与者数据…</p>
+      <p v-else-if="!patientRiskDistribution.length" class="dashboard-empty">暂无参与者。</p>
+      <table v-else class="dashboard-table" role="table" aria-labelledby="dashboard-participants-title">
+        <thead role="rowgroup"><tr role="row"><th role="columnheader" scope="col">参与者</th><th role="columnheader" scope="col">状态</th><th role="columnheader" scope="col">评估类型</th><th role="columnheader" scope="col">总分</th><th role="columnheader" scope="col">风险摘要</th></tr></thead>
+        <tbody role="rowgroup">
+          <tr v-for="item in patientRiskDistribution" :key="item.id" role="row">
+            <th role="rowheader" scope="row">{{ item.name }}</th>
+            <td role="cell"><ServiceStatus :tone="item.assessment ? 'done' : 'idle'">{{ item.assessment ? '已有评估' : '暂无评估' }}</ServiceStatus></td>
+            <td role="cell"><span class="dashboard-mobile-label" aria-hidden="true">评估类型</span>{{ item.assessment ? assessmentTypeLabel(item.assessment) : '—' }}</td>
+            <td role="cell" class="dashboard-score"><span class="dashboard-mobile-label" aria-hidden="true">总分</span>{{ item.assessment?.score ?? '—' }}</td>
+            <td role="cell"><span class="dashboard-mobile-label" aria-hidden="true">风险摘要</span>{{ item.summary || (item.assessment ? '暂无风险摘要' : '—') }}</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <div class="dashboard-insights">
+      <section aria-labelledby="dashboard-trend-title">
+        <header class="dashboard-section-head"><div><h2 id="dashboard-trend-title">近 7 日情绪趋势</h2><p>日均情绪评分 · 满分 5 分</p></div></header>
+        <p v-if="loading" class="dashboard-empty">正在计算趋势…</p>
+        <p v-else-if="emotionTrend.every(item => item.value === null)" class="dashboard-empty">近 7 日暂无情绪日记。</p>
+        <div v-else class="dashboard-trend" role="img" :aria-label="`近 7 日平均情绪评分（满分 5 分）：${emotionTrend.map(item => `${item.label} ${item.value === null ? '暂无日记' : `${item.value} 分`}`).join('；')}`">
+          <div v-for="item in emotionTrend" :key="item.key">
+            <div class="dashboard-trend-track"><div :style="{ height: item.percent }" /></div>
+            <strong>{{ item.value?.toFixed(1) ?? '—' }}</strong><small>{{ item.label }}</small>
           </div>
         </div>
-      </BaseCard>
-
-      <BaseCard>
-        <SectionTitle title="评估类型分布" description="按最近最多 1000 条可见评估记录汇总，每条记录只归入一种类型。" />
-        <div v-if="loading" class="mt-5 text-sm text-slate-500">正在汇总评估...</div>
-        <div v-else-if="assessmentDistribution.length === 0" class="mt-5 rounded-[24px] bg-slate-50 p-4 text-sm text-slate-500 dark:bg-slate-900">
-          当前没有评估数据。
-        </div>
-        <div v-else class="mt-5 space-y-4">
-          <div v-for="item in assessmentDistribution" :key="item.label" class="rounded-[24px] bg-slate-50 p-4 dark:bg-slate-900">
-            <div class="mb-2 flex items-center justify-between">
-              <span class="font-semibold text-slate-900 dark:text-white">{{ item.label }}</span>
-              <span class="text-sm text-slate-500">{{ item.value }}</span>
-            </div>
+      </section>
+      <section aria-labelledby="dashboard-distribution-title">
+        <header class="dashboard-section-head"><div><h2 id="dashboard-distribution-title">评估类型分布</h2><p>最近最多 1000 条可见评估 · 每条只归入一种类型</p></div></header>
+        <p v-if="loading" class="dashboard-empty">正在汇总评估…</p>
+        <p v-else-if="!assessmentDistribution.length" class="dashboard-empty">当前没有评估数据。</p>
+        <ul v-else class="dashboard-distribution">
+          <li v-for="item in assessmentDistribution" :key="item.label">
+            <div><strong>{{ item.label }}</strong><span>{{ item.value }} 条</span></div>
             <ProgressBar :label="`${item.label}占比，${item.value} 条，共 ${assessments.length} 条`" :value="(item.value / assessments.length) * 100" />
-          </div>
-        </div>
-      </BaseCard>
+          </li>
+        </ul>
+      </section>
     </div>
-
-    <BaseCard>
-      <SectionTitle title="今日重点" description="根据预警与知识更新状态提示管理员优先动作。" />
-      <div class="mt-5 grid gap-3 md:grid-cols-2">
-        <div class="rounded-[24px] bg-slate-50 p-4 dark:bg-slate-900">
-          <div class="flex items-center gap-3">
-            <AlertTriangle class="h-5 w-5 text-rose-500" />
-            <p class="font-semibold text-slate-900 dark:text-white">优先跟进高风险预警</p>
-          </div>
-          <p class="mt-2 text-sm text-slate-500">
-            当前共有 {{ alerts.length }} 条待处理预警，其中高风险 {{ riskSummary.high }} 条。
-          </p>
-        </div>
-        <div class="rounded-[24px] bg-slate-50 p-4 dark:bg-slate-900">
-          <div class="flex items-center gap-3">
-            <TrendingUp class="h-5 w-5 text-primary" />
-            <p class="font-semibold text-slate-900 dark:text-white">关注近期评估活跃度</p>
-          </div>
-          <p class="mt-2 text-sm text-slate-500">
-            今日新增评估 {{ overviewCards[2]?.value || 0 }} 条，建议结合疗愈执行情况安排复评。
-          </p>
-        </div>
-      </div>
-    </BaseCard>
+    <section v-if="!loading" class="dashboard-notes" aria-labelledby="dashboard-notes-title">
+      <h2 id="dashboard-notes-title">今日重点</h2>
+      <p v-if="riskSummary.high">优先跟进 {{ riskSummary.high }} 条高风险预警。</p>
+      <p v-if="todayAssessments">今日新增 {{ todayAssessments }} 条评估，可结合干预执行情况安排复评。</p>
+      <p v-if="!riskSummary.high && !todayAssessments">暂无高风险预警或新增评估。</p>
+    </section>
     </template>
   </div>
 </template>
+
+<style scoped>
+.dashboard { display: grid; gap: 24px; }
+.dashboard-title { padding-bottom: 15px; border-bottom: 1px solid var(--service-gold); }
+.dashboard-title h1 { font-size: 31px; line-height: 1.25; font-weight: 750; }
+.dashboard-title p, .dashboard-section-head p { margin-top: 4px; color: var(--service-muted); font-size: 13px; }
+.dashboard-operations { display: grid; grid-template-columns: minmax(0, 1fr) minmax(245px, .42fr); gap: 24px; }
+.dashboard-queue { min-width: 0; background: var(--service-panel); border: 1px solid var(--service-border); border-top: 2px solid var(--service-deep); }
+.dashboard-section-head { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 4px 14px; padding-block: 0 12px; }
+.dashboard-section-head h2, .dashboard-metrics h2 { font-size: 19px; font-weight: 720; }
+.dashboard-queue .dashboard-section-head { padding: 11px 16px 9px; }
+.dashboard-link { display: inline-flex; align-items: center; gap: 6px; min-height: 44px; font-size: 13px; }
+.dashboard-link svg { width: 15px; height: 15px; }
+.dashboard-risks { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); border-block: 1px solid var(--service-border); background: var(--workspace-warm); }
+.dashboard-risks > div { padding: 9px 16px; min-width: 0; }
+.dashboard-risks > div + div { border-left: 1px solid var(--service-border); }
+.dashboard-risks dt { color: var(--service-muted); font-size: 12px; }
+.dashboard-risks dd { font-variant-numeric: tabular-nums; font-size: 21px; font-weight: 700; overflow-wrap: anywhere; }
+.dashboard-risks .risk-high { color: var(--service-red); }
+.dashboard-queue-empty, .dashboard-empty { padding: 15px 12px; color: var(--service-muted); font-size: 14px; }
+.dashboard-queue-empty { display: flex; align-items: center; gap: 9px; padding: 16px; }
+.dashboard-queue-empty svg { width: 17px; height: 17px; color: #3c664f; }
+.dashboard-alerts { padding-inline: 16px; }
+.dashboard-alerts li { padding-block: 10px; overflow-wrap: anywhere; }
+.dashboard-alerts li + li { border-top: 1px solid var(--workspace-line); }
+.dashboard-alert-head { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, .75fr) auto; align-items: center; gap: 8px; font-size: 14px; }
+.dashboard-alerts p { margin-top: 4px; color: var(--service-muted); font-size: 13px; }
+.dashboard-metrics h2 { padding-bottom: 8px; }
+.dashboard-metrics dl { border-top: 1px solid var(--service-border); }
+.dashboard-metric { min-height: 53px; display: grid; grid-template-columns: minmax(0, 1fr) auto; align-items: center; gap: 6px; padding-block: 6px; border-bottom: 1px solid var(--service-border); font-size: 14px; font-weight: 650; }
+.dashboard-metric span, .dashboard-metric small { color: var(--service-muted); font-size: 12px; font-weight: 400; }
+.dashboard-metric span { display: block; }
+.dashboard-metric dd { color: var(--service-ink); font-size: 24px; font-weight: 720; font-variant-numeric: tabular-nums; }
+.dashboard-table { width: 100%; table-layout: fixed; text-align: left; overflow-wrap: anywhere; font-size: 14px; }
+.dashboard-table thead { background: var(--workspace-warm); color: var(--service-muted); font-size: 12px; }
+.dashboard-table :is(th, td) { padding: 12px 10px; border-bottom: 1px solid var(--service-border); }
+.dashboard-table th { font-weight: 650; }
+.dashboard-table thead th:nth-child(1) { width: 19%; }
+.dashboard-table thead th:nth-child(2) { width: 14%; }
+.dashboard-table thead th:nth-child(3) { width: 19%; }
+.dashboard-table thead th:nth-child(4) { width: 10%; }
+.dashboard-score { font-variant-numeric: tabular-nums; }
+.dashboard-mobile-label { display: none; }
+.dashboard-insights { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 24px; }
+.dashboard-insights > section { border-top: 1px solid var(--service-border); padding-top: 14px; }
+.dashboard-insights .dashboard-empty { background: var(--workspace-warm); }
+.dashboard-trend { display: grid; grid-template-columns: repeat(7, minmax(0, 1fr)); gap: 6px; text-align: center; font-size: 13px; font-variant-numeric: tabular-nums; }
+.dashboard-trend-track { display: flex; align-items: end; height: 96px; margin-bottom: 5px; background: var(--workspace-warm); }
+.dashboard-trend-track div { width: 100%; background: #665448; }
+.dashboard-trend small { display: block; color: var(--service-muted); }
+.dashboard-distribution li { padding-block: 10px; border-bottom: 1px solid var(--service-border); font-size: 14px; }
+.dashboard-distribution li div { display: flex; justify-content: space-between; gap: 6px; margin-bottom: 7px; font-variant-numeric: tabular-nums; }
+.dashboard-notes { display: grid; gap: 6px; padding-top: 14px; border-top: 1px solid var(--service-border); font-size: 14px; color: var(--service-muted); }
+.dashboard-notes h2 { color: var(--service-ink); font-weight: 720; }
+@media (max-width: 700px) {
+  .dashboard { gap: 18px; }
+  .dashboard-title h1 { font-size: 25px; }
+  .dashboard-operations, .dashboard-insights { grid-template-columns: minmax(0, 1fr); gap: 16px; }
+  .dashboard-section-head { padding-bottom: 8px; }
+  .dashboard-queue .dashboard-section-head { padding: 8px 10px; }
+  .dashboard-risks > div { padding-inline: 10px; }
+  .dashboard-queue-empty { padding: 13px 10px; }
+  .dashboard-metric { min-height: 40px; }
+  .dashboard-metric span { display: inline; margin-left: 6px; }
+  .dashboard-metric dd { font-size: 20px; }
+  .dashboard-table, .dashboard-table tbody { display: block; }
+  .dashboard-table thead { position: absolute; clip-path: inset(50%); width: 1px; height: 1px; overflow: hidden; white-space: nowrap; }
+  .dashboard-table tbody tr { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 4px 12px; align-items: baseline; padding: 10px 0; border-top: 1px solid var(--service-border); }
+  .dashboard-table tbody tr:last-child { border-bottom: 1px solid var(--service-border); }
+  .dashboard-table tbody :is(th, td) { padding: 0; border: none; }
+  .dashboard-table td:last-child { grid-column: 1 / -1; }
+  .dashboard-mobile-label { display: inline; margin-right: 6px; color: var(--service-muted); font-size: 12px; }
+}
+</style>

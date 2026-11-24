@@ -1,12 +1,12 @@
 <script setup lang="ts">
-import { Activity, ArrowRight, Brain, BrainCircuit, CalendarDays, ClipboardList, FileClock, Gamepad2, Heart, ListChecks, NotebookPen } from 'lucide-vue-next'
+import { Activity, ArrowRight, Brain, BrainCircuit, CalendarDays, ClipboardList, Gamepad2, Heart, NotebookPen } from 'lucide-vue-next'
 import { computed, onMounted, ref } from 'vue'
 import { RouterLink } from 'vue-router'
-import ServiceHero from '@/components/ui/ServiceHero.vue'
 import ServiceStatus from '@/components/ui/ServiceStatus.vue'
 import ProgressBar from '@/components/ui/ProgressBar.vue'
 import { useAuthSession } from '@/composables/useAuthSession'
 import { assessmentItemName, nextAssessmentItem } from '@/lib/assessment-display'
+import { publicAssetUrl } from '@/utils/public-assets'
 import { getMyAssessmentPublishTasks, getMyInterventionTodayTasks, getMyScaleRecords } from '@/db/api'
 import type { AssessmentPublishAssignee, InterventionTodayResponse, ScaleDistributionRecord } from '@/types'
 
@@ -14,7 +14,7 @@ const { state: auth } = useAuthSession()
 const tasks = ref<AssessmentPublishAssignee[]>([])
 const today = ref<InterventionTodayResponse | null>(null)
 const records = ref<ScaleDistributionRecord[]>([])
-const loading = ref(false)
+const loading = ref(Boolean(auth.user))
 const failed = ref<string[]>([])
 const current = computed(() => tasks.value.find((task) => ['pending', 'in_progress'].includes(task.status)))
 const required = computed(() => (current.value?.items || []).filter((item) => item.required !== false))
@@ -54,42 +54,51 @@ onMounted(load)
 
 <template>
   <div class="workbench">
-    <ServiceHero variant="full" title="我的工作台" eyebrow="高原身心健康研究">
-      <p v-if="auth.user" class="workbench-greeting">您好，{{ displayName }}</p>
+    <header class="service-width workbench-intro">
+      <div><h1>我的工作台</h1><p v-if="auth.user">您好，{{ displayName }}</p></div>
       <p class="workbench-date"><CalendarDays aria-hidden="true" />{{ todayLabel }}</p>
-    </ServiceHero>
+    </header>
 
-    <div class="service-width workbench-body">
-    <div v-if="!auth.user" class="service-card work-card flex flex-wrap items-center justify-between gap-3">
-      <p class="text-sm">请登录后查看个人事项。</p>
-      <RouterLink to="/login" class="service-button">账号登录 <ArrowRight aria-hidden="true" /></RouterLink>
-    </div>
-    <p v-if="loading" class="service-muted text-sm" role="status">正在加载个人事项…</p>
-    <div v-if="failed.length" class="service-card flex flex-wrap items-center justify-between gap-3 p-4 text-sm" role="alert">
-      <p>{{ failed.join('、') }}加载失败。</p><button class="service-button service-outline" type="button" @click="load">重试</button>
-    </div>
-
-    <section v-if="auth.user" class="work-grid" aria-label="个人事项">
-        <article class="service-card service-card-highlight work-card work-primary" data-testid="work-current">
-          <header class="work-card-heading"><span class="service-icon"><ListChecks aria-hidden="true" /></span><h2>当前测评</h2>
+    <section class="work-scene" aria-labelledby="work-current-heading" data-testid="work-current">
+      <div class="service-width work-scene-inner">
+        <img class="work-scene-art" :src="publicAssetUrl('images/potala-workbench.webp')" alt="" />
+        <div class="work-scene-copy">
+          <div class="work-scene-meta">
+            <p class="work-eyebrow">当前测评</p>
             <ServiceStatus v-if="current" :tone="continuing ? 'active' : 'idle'" class="work-task-status">{{ continuing ? '进行中' : '待开始' }}</ServiceStatus>
-          </header>
-          <template v-if="current">
-            <p class="work-task-name">{{ current.batch_title || '测评任务' }}</p>
-            <div v-if="required.length" class="work-progress">
-              <p>已完成 <strong>{{ done }} / {{ required.length }} 项</strong></p>
+          </div>
+          <h2 id="work-current-heading">{{ current?.batch_title || (current ? '测评任务' : loading ? '正在加载测评…' : failed.includes('测评任务') ? '测评暂不可用' : auth.user ? '暂无待办测评' : '登录后查看测评') }}</h2>
+        </div>
+        <div class="work-scene-bar">
+          <div v-if="required.length" class="work-progress">
+            <div class="work-progress-label">
+              <strong aria-hidden="true">{{ done }}<small> / {{ required.length }}</small></strong>
+              <span class="sr-only">已完成 {{ done }} / {{ required.length }} 项</span><span aria-hidden="true">已完成</span>
+            </div>
+            <div class="work-progress-meter">
               <ProgressBar :value="done / required.length * 100" label="当前测评完成进度" />
             </div>
-            <p class="work-next break-words" v-if="nextItem">下一步 <strong>{{ assessmentItemName(nextItem) }}</strong></p>
-          </template>
-          <p v-else-if="!loading && !failed.includes('测评任务')" class="service-muted mt-auto text-sm">暂无待办测评。</p>
-          <RouterLink :to="current ? `/assessment-tasks/${current.id}` : '/assessment-tasks'" class="service-button work-continue" data-testid="work-current-link">{{ nextItem ? (continuing ? '继续测评' : '开始测评') : '查看测评任务' }} <ArrowRight aria-hidden="true" /></RouterLink>
-        </article>
+          </div>
+          <p v-if="nextItem" class="work-next"><span>下一步</span><strong>{{ assessmentItemName(nextItem) }}</strong></p>
+          <RouterLink v-if="auth.user" :to="current ? `/assessment-tasks/${current.id}` : '/assessment-tasks'" class="service-button work-continue" data-testid="work-current-link">{{ nextItem ? (continuing ? '继续测评' : '开始测评') : '查看测评任务' }} <ArrowRight aria-hidden="true" /></RouterLink>
+          <RouterLink v-else to="/login" class="service-button work-continue">账号登录 <ArrowRight aria-hidden="true" /></RouterLink>
+        </div>
+      </div>
+    </section>
 
-        <article class="service-card work-card work-secondary" data-testid="work-intervention">
-          <header class="work-card-heading"><span class="service-icon"><Heart aria-hidden="true" /></span><h2>今日干预</h2></header>
+    <div class="service-width workbench-body">
+      <p v-if="loading" class="sr-only" role="status">正在加载个人事项…</p>
+      <div v-if="failed.length" class="work-feedback" role="alert">
+        <p>{{ failed.join('、') }}加载失败。</p><button class="service-button service-outline" type="button" @click="load">重试</button>
+      </div>
+
+      <section v-if="auth.user" class="work-grid" aria-label="个人事项">
+        <article class="work-agenda" data-testid="work-intervention">
+          <header class="work-section-heading">
+            <h2>今日干预</h2>
+            <p v-if="today?.tasks.length">已完成 <strong>{{ today.summary.completed }} / {{ today.summary.total }} 项</strong></p>
+          </header>
           <template v-if="today?.tasks.length">
-            <p class="service-muted text-sm">已完成 <strong>{{ today.summary.completed }} / {{ today.summary.total }} 项</strong></p>
             <ul class="work-list">
               <li v-for="task in today.tasks.slice(0, 3)" :key="task.id" class="work-intervention-row">
                 <RouterLink :to="task.navigation_path || task.route_path || '/healing'" class="service-link break-words">{{ task.title }}</RouterLink>
@@ -97,27 +106,29 @@ onMounted(load)
               </li>
             </ul>
           </template>
-          <p v-else-if="!loading && !failed.includes('今日干预')" class="service-muted text-sm">今日暂无干预任务。</p>
+          <p v-else-if="loading" class="work-empty">正在加载干预任务…</p>
+          <p v-else-if="!failed.includes('今日干预')" class="work-empty">今日暂无干预任务。</p>
           <RouterLink to="/profile/healing-plan" class="work-action service-link">查看干预计划 <ArrowRight aria-hidden="true" /></RouterLink>
         </article>
 
-        <article class="work-card work-records" data-testid="work-records">
-          <header class="work-card-heading"><span class="service-icon"><FileClock aria-hidden="true" /></span><h2>测评记录</h2></header>
+        <article class="work-records" data-testid="work-records">
+          <header class="work-section-heading"><h2>测评记录</h2></header>
           <ul v-if="records.length" class="work-list">
             <li v-for="record in records" :key="record.id" class="work-record-row">
               <RouterLink :to="{ path: '/scale-assessment', query: { recordId: record.id } }" class="service-link">{{ record.survey_title || record.survey?.title || '量表测评报告' }}</RouterLink>
-              <p class="service-muted mt-1 text-xs">{{ dateLabel(record.completed_at || record.sent_at) }}</p>
+              <p>{{ dateLabel(record.completed_at || record.sent_at) }}</p>
             </li>
           </ul>
-          <p v-else-if="!loading && !failed.includes('测评记录')" class="service-muted text-sm">暂无已完成的量表测评。</p>
+          <p v-else-if="loading" class="work-empty">正在加载测评记录…</p>
+          <p v-else-if="!failed.includes('测评记录')" class="work-empty">暂无已完成的量表测评。</p>
           <RouterLink :to="{ path: '/scale-assessment', query: { tab: 'completed' } }" class="work-action service-link">查看量表记录 <ArrowRight aria-hidden="true" /></RouterLink>
         </article>
-    </section>
+      </section>
 
     <section aria-labelledby="work-services">
       <h2 id="work-services" class="work-services-title">常用服务</h2>
       <div class="work-service-grid">
-        <RouterLink v-for="link in links" :key="link.title" :to="link.to" :data-testid="link.test" class="service-card work-service">
+        <RouterLink v-for="link in links" :key="link.title" :to="link.to" :data-testid="link.test" class="work-service">
           <component :is="link.icon" class="work-service-icon" aria-hidden="true" /><span>{{ link.title }}</span><ArrowRight class="work-service-arrow" aria-hidden="true" />
         </RouterLink>
       </div>
@@ -127,52 +138,58 @@ onMounted(load)
 </template>
 
 <style scoped>
-.workbench-greeting { margin-top: 7px; color: #514345; font-size: 15px; overflow-wrap: anywhere; }
-.workbench-date { display: flex; align-items: center; gap: 6px; margin-top: 7px; color: var(--service-muted); font-size: 13px; }
-.workbench-date svg, .work-action svg { width: 16px; height: 16px; flex-shrink: 0; }
-.workbench-body { display: grid; gap: 28px; padding-block: 24px 40px; }
-.work-grid { display: grid; grid-template-columns: minmax(0, 1.65fr) minmax(0, 1fr); gap: 16px; }
-.work-card { min-width: 0; padding: 20px 24px; }
-.work-primary, .work-secondary { display: flex; flex-direction: column; gap: 12px; }
-.work-primary { border-top-color: var(--service-gold); }
-.work-secondary { background: #fdfbf8; }
-.work-card-heading { display: flex; align-items: center; gap: 9px; }
-.work-card-heading h2 { font-size: 16px; font-weight: 720; }
-.work-card-heading .service-icon { width: 34px; height: 34px; flex-basis: 34px; }
-.work-card-heading .service-icon svg { width: 18px; height: 18px; }
-.work-task-status { margin-left: auto; }
-.work-task-name { margin-block: 2px; font-size: 24px; line-height: 1.4; font-weight: 720; overflow-wrap: anywhere; }
-.work-progress { display: grid; gap: 7px; color: var(--service-muted); font-size: 13px; max-width: 360px; font-variant-numeric: tabular-nums; }
-.work-next { color: var(--service-muted); font-size: 14px; }
-.work-next strong { margin-left: 6px; color: var(--service-deep); }
-.work-continue { margin-top: auto; align-self: flex-start; min-height: 44px; padding-inline: 16px; }
-.work-records { grid-column: 1 / -1; display: grid; grid-template-columns: 132px minmax(0, 1fr) auto; align-items: start; gap: 14px; padding: 14px 0; border-bottom: 1px solid var(--workspace-line); }
-.work-records .work-list { display: grid; grid-template-columns: repeat(auto-fit, minmax(130px, 1fr)); gap: 6px 12px; }
-.work-records .work-list li { border: 0; }
-.work-records > p { align-self: center; }
+.workbench-intro { display: flex; flex-wrap: wrap; align-items: end; justify-content: space-between; gap: 6px 24px; padding-block: 24px 20px; }
+.workbench-intro h1 { font-size: 24px; font-weight: 730; }
+.workbench-intro p { margin-top: 3px; color: var(--service-muted); font-size: 14px; overflow-wrap: anywhere; }
+.workbench-intro .workbench-date { display: flex; align-items: center; gap: 7px; font-size: 13px; }
+.workbench-date svg, .work-action svg { width: 16px; height: 16px; }
+.work-scene { background: #ede4d6; border-block: 1px solid #ccba9e; }
+.work-scene-inner { position: relative; isolation: isolate; }
+.work-scene-art { position: absolute; z-index: -1; right: 0; bottom: 0; width: min(64%, 750px); height: 100%; object-fit: contain; object-position: right bottom; opacity: .92; mask-image: linear-gradient(90deg, transparent, #000 18%, #000 93%, transparent); }
+.work-scene-copy { display: grid; align-content: center; gap: 16px; min-height: 220px; max-width: 52%; padding-block: 30px; }
+.work-scene-meta { display: flex; flex-wrap: wrap; align-items: center; gap: 10px 14px; }
+.work-eyebrow { display: flex; align-items: center; gap: 9px; color: var(--service-deep); font-size: 13px; font-weight: 700; }
+.work-eyebrow::before { content: ''; width: 22px; height: 1px; background: #997043; }
+.work-scene-copy h2 { max-width: 14em; color: #302525; font-size: 43px; font-weight: 760; line-height: 1.24; text-wrap: balance; }
+.work-scene-bar { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, .8fr) auto; align-items: center; gap: 18px 24px; padding: 15px 22px; border-top: 2px solid var(--service-gold); background: #fffdfa; }
+.work-progress { min-width: 0; display: grid; gap: 8px; }
+.work-progress-label { display: flex; flex-wrap: wrap; align-items: baseline; gap: 3px 12px; font-variant-numeric: tabular-nums; }
+.work-progress-label > strong { color: var(--service-deep); font-size: 29px; line-height: 1; }
+.work-progress-label small { color: var(--service-muted); font-size: 17px; font-weight: 550; }
+.work-progress-label > span, .work-next span { color: var(--service-muted); font-size: 12px; }
+.work-next { grid-column: 2; display: grid; gap: 3px; padding-left: 24px; border-left: 1px solid var(--service-border); overflow-wrap: anywhere; }
+.work-next strong { font-size: 16px; }
+.work-continue { grid-column: 3; white-space: nowrap; }
+.workbench-body { display: grid; gap: 24px; padding-block: 24px 40px; }
+.work-feedback { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 10px; font-size: 14px; }
+.work-grid { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 30px; }
+.work-section-heading { display: flex; align-items: baseline; justify-content: space-between; flex-wrap: wrap; gap: 4px 12px; padding-bottom: 9px; border-bottom: 1px solid #bdb1a1; }
+.work-section-heading h2, .work-services-title { font-size: 19px; font-weight: 720; }
+.work-section-heading p, .work-record-row p { color: var(--service-muted); font-size: 13px; font-variant-numeric: tabular-nums; }
 .work-list { font-size: 14px; }
-.work-list li + li { border-top: 1px solid #efe8df; }
-.work-intervention-row { display: grid; grid-template-columns: minmax(0, 1fr) auto; align-items: center; gap: 6px; min-height: 36px; }
-.work-intervention-row a { padding-block: 7px; }
-.work-record-row { padding-block: 6px; overflow-wrap: anywhere; }
-.work-action { display: inline-flex; gap: 6px; align-items: center; align-self: flex-start; min-height: 44px; margin-top: auto; font-size: 14px; }
-.work-services-title { display: flex; align-items: center; gap: 12px; margin-bottom: 12px; font-size: 19px; font-weight: 720; }
-.work-services-title::after { content: ''; height: 1px; flex: 1; background: var(--service-border); }
-.work-service-grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 8px; }
-.work-service { display: flex; align-items: center; gap: 8px; min-height: 48px; min-width: 0; padding: 8px 12px; font-size: 14px; }
-.work-service:hover { color: var(--service-red); border-color: #bf8b8e; }
-.work-service-icon { width: 19px; height: 19px; flex-shrink: 0; color: var(--service-red); stroke-width: 1.7; }
-.work-service-arrow { width: 14px; height: 14px; flex-shrink: 0; margin-left: auto; color: var(--service-muted); }
-@media (max-width: 640px) {
-  .workbench-body { padding-block: 16px 28px; gap: 22px; }
-  .work-grid { grid-template-columns: minmax(0, 1fr); gap: 10px; }
-  .work-card { padding: 16px; }
-  .work-task-name { font-size: 20px; }
-  .work-continue { align-self: stretch; }
-  .work-records { grid-template-columns: minmax(0, 1fr) auto; gap: 2px 8px; padding-inline: 0; }
-  .work-records > :is(ul, p) { grid-row: 2; grid-column: 1 / -1; }
-  .work-records > a { grid-column: 2; grid-row: 1; }
-  .work-service-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
-  .work-service-arrow { display: none; }
+.work-list li { display: grid; grid-template-columns: minmax(0, 1fr) auto; align-items: center; gap: 10px; border-bottom: 1px solid var(--workspace-line); }
+.work-list a { min-height: 44px; padding-block: 12px; overflow-wrap: anywhere; color: var(--service-ink); }
+.work-list a:hover { color: var(--service-red); }
+.work-empty { padding: 14px 0; color: var(--service-muted); font-size: 14px; }
+.work-action { display: inline-flex; gap: 7px; align-items: center; min-height: 44px; font-size: 14px; }
+.work-services-title { margin-bottom: 8px; }
+.work-service-grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 0 18px; border-top: 1px solid #bdb1a1; }
+.work-service { display: flex; align-items: center; gap: 8px; min-height: 46px; padding: 7px 3px; border-bottom: 1px solid var(--workspace-line); overflow-wrap: anywhere; font-size: 14px; }
+.work-service:hover { color: var(--service-red); background: var(--workspace-warm); }
+.work-service-icon { width: 18px; height: 18px; color: var(--service-red); }
+.work-service-arrow { width: 14px; height: 14px; margin-left: auto; color: var(--service-muted); }
+@media (max-width: 760px) {
+  .workbench-intro { padding-block: 16px 13px; }
+  .workbench-intro h1 { font-size: 21px; }
+  .work-scene-art { right: -16px; width: min(100%, 480px); height: auto; bottom: auto; top: 4px; opacity: .49; mask-image: linear-gradient(90deg, transparent 5%, #000 57%), linear-gradient(0deg, transparent, #000 30%); mask-composite: intersect; }
+  .work-scene-copy { min-height: 145px; max-width: none; gap: 10px; padding-block: 16px; }
+  .work-scene-copy h2 { max-width: 12em; font-size: 30px; text-wrap: initial; }
+  .work-scene-bar { grid-template-columns: minmax(0, 1fr); gap: 12px; padding: 12px; }
+  .work-next, .work-continue { grid-column: 1; }
+  .work-next { grid-template-columns: auto minmax(0, 1fr); align-items: baseline; gap: 10px; border-left: 0; padding: 0; }
+  .work-progress-label > strong { font-size: 23px; }
+  .workbench-body { gap: 20px; padding-block: 20px 28px; }
+  .work-grid { grid-template-columns: minmax(0, 1fr); gap: 18px; }
+  .work-service-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0 12px; }
 }
 </style>

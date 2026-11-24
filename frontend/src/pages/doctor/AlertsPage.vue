@@ -1,8 +1,7 @@
 <script setup lang="ts">
-import { AlertTriangle, CheckCircle, Clock3, MessageSquareText } from 'lucide-vue-next'
-import { computed, onMounted, onUnmounted, ref, watch } from 'vue'
-import BaseCard from '@/components/ui/BaseCard.vue'
-import SectionTitle from '@/components/ui/SectionTitle.vue'
+import { AlertTriangle, CheckCircle, MessageSquareText } from 'lucide-vue-next'
+import { computed, nextTick, onMounted, onUnmounted, ref, watch } from 'vue'
+import ServiceStatus from '@/components/ui/ServiceStatus.vue'
 import { useAuthSession } from '@/composables/useAuthSession'
 import { getAllProfiles, getRiskAlerts, handleRiskAlert } from '@/db/api'
 import type { Profile, RiskAlert } from '@/types'
@@ -16,11 +15,15 @@ interface AlertViewModel extends RiskAlert {
 const { state: authState } = useAuthSession()
 
 const loading = ref(true)
+const loadFailed = ref(false)
 const saving = ref(false)
 const activeTab = ref<AlertTab>('pending')
 const pendingAlerts = ref<AlertViewModel[]>([])
 const handledAlerts = ref<AlertViewModel[]>([])
 const selectedAlert = ref<AlertViewModel | null>(null)
+const notesInput = ref<HTMLTextAreaElement | null>(null)
+const pendingTab = ref<HTMLButtonElement | null>(null)
+let handleTrigger: HTMLElement | null = null
 const notes = ref('')
 const statusMessage = ref('')
 const errorMessage = ref('')
@@ -41,23 +44,15 @@ watch(toastMessage, (message) => {
   }, 2200)
 })
 
-const summaryCards = computed(() => [
-  { label: '待处理', value: pendingAlerts.value.length, icon: AlertTriangle, tone: 'text-rose-500' },
-  { label: '已处理', value: handledAlerts.value.length, icon: CheckCircle, tone: 'text-emerald-500' },
-  {
-    label: '最近一条',
-    value: [...pendingAlerts.value, ...handledAlerts.value][0]?.created_at
-      ? new Date([...pendingAlerts.value, ...handledAlerts.value][0]!.created_at).toLocaleString('zh-CN')
-      : '-',
-    icon: Clock3,
-    tone: 'text-primary',
-  },
-])
+const latestAlertDate = computed(() =>
+  [...pendingAlerts.value, ...handledAlerts.value].reduce((latest, item) => item.created_at > latest ? item.created_at : latest, ''),
+)
 
 const currentAlerts = computed(() => (activeTab.value === 'pending' ? pendingAlerts.value : handledAlerts.value))
 
 const loadAlerts = async () => {
   loading.value = true
+  loadFailed.value = false
   errorMessage.value = ''
   try {
     const [unhandled, handled, profiles] = await Promise.all([
@@ -73,21 +68,16 @@ const loadAlerts = async () => {
         patient_name: profile?.full_name || profile?.username || alert.patient_id,
       }
     }
-    pendingAlerts.value = unhandled.map(enrich)
-    handledAlerts.value = handled.map(enrich)
+    pendingAlerts.value = unhandled.map(enrich).sort((a, b) => b.risk_level - a.risk_level || b.created_at.localeCompare(a.created_at))
+    handledAlerts.value = handled.map(enrich).sort((a, b) => (b.handled_at || b.created_at).localeCompare(a.handled_at || a.created_at))
   } catch (error) {
     pendingAlerts.value = []
     handledAlerts.value = []
+    loadFailed.value = true
     errorMessage.value = error instanceof Error ? error.message : '加载预警失败'
   } finally {
     loading.value = false
   }
-}
-
-const riskBadgeClass = (riskLevel: number) => {
-  if (riskLevel >= 8) return 'bg-rose-500 text-white'
-  if (riskLevel >= 5) return 'bg-amber-500 text-white'
-  return 'bg-emerald-500 text-white'
 }
 
 const riskText = (riskLevel: number) => {
@@ -96,16 +86,20 @@ const riskText = (riskLevel: number) => {
   return '低风险'
 }
 
-const openHandleDialog = (alert: AlertViewModel) => {
+const openHandleDialog = async (alert: AlertViewModel, event: MouseEvent) => {
+  handleTrigger = event.currentTarget as HTMLElement
   selectedAlert.value = alert
   notes.value = ''
   statusMessage.value = ''
   errorMessage.value = ''
+  await nextTick()
+  notesInput.value?.focus()
 }
 
-const closeDialog = () => {
+const closeDialog = (handled = false) => {
   selectedAlert.value = null
   notes.value = ''
+  void nextTick(() => (handled ? pendingTab.value : handleTrigger)?.focus())
 }
 
 const markHandled = async () => {
@@ -116,7 +110,7 @@ const markHandled = async () => {
   try {
     await handleRiskAlert(selectedAlert.value.id, authState.user.id, notes.value.trim() || undefined)
     statusMessage.value = '预警已处理'
-    closeDialog()
+    closeDialog(true)
     await loadAlerts()
   } catch (error) {
     errorMessage.value = error instanceof Error ? error.message : '处理失败'
@@ -147,137 +141,85 @@ onUnmounted(() => {
       </div>
     </Transition>
 
-    <SectionTitle title="风险预警" description="查看待处理与已处理预警，及时记录干预备注。" />
+    <header class="alert-queue-title">
+      <h1>风险预警</h1>
+      <p v-if="latestAlertDate">最新预警 · {{ new Date(latestAlertDate).toLocaleString('zh-CN') }}</p>
+    </header>
 
-    <div class="grid gap-4 md:grid-cols-3">
-      <BaseCard v-for="item in summaryCards" :key="item.label">
-        <div class="flex items-center justify-between gap-3">
-          <p class="text-sm text-slate-500">{{ item.label }}</p>
-          <component :is="item.icon" :class="['h-5 w-5', item.tone]" />
-        </div>
-        <p class="mt-4 text-3xl font-bold text-slate-900 dark:text-white">{{ item.value }}</p>
-      </BaseCard>
-    </div>
-
-    <div class="flex gap-3">
+    <div class="service-tabs" role="group" aria-label="预警状态">
       <button
+        ref="pendingTab"
         data-testid="alerts-tab-pending"
-        class="rounded-full px-4 py-2 text-sm font-semibold transition"
-        :class="activeTab === 'pending' ? 'bg-slate-900 text-white dark:bg-white dark:text-slate-900' : 'bg-white text-slate-500 dark:bg-slate-900 dark:text-slate-300'"
+        class="service-tab"
+        :aria-pressed="activeTab === 'pending'"
         type="button"
         @click="activeTab = 'pending'"
       >
         待处理
-        <span
-          v-if="pendingAlerts.length > 0"
-          class="ml-2 inline-flex min-w-5 items-center justify-center rounded-full bg-rose-500 px-1.5 py-0.5 text-[10px] font-bold text-white"
-        >
-          {{ pendingAlerts.length }}
-        </span>
+        <span v-if="!loading && !loadFailed" class="alert-tab-count">{{ pendingAlerts.length }}</span>
       </button>
       <button
         data-testid="alerts-tab-handled"
-        class="rounded-full px-4 py-2 text-sm font-semibold transition"
-        :class="activeTab === 'handled' ? 'bg-slate-900 text-white dark:bg-white dark:text-slate-900' : 'bg-white text-slate-500 dark:bg-slate-900 dark:text-slate-300'"
+        class="service-tab"
+        :aria-pressed="activeTab === 'handled'"
         type="button"
         @click="activeTab = 'handled'"
       >
         已处理
+        <span v-if="!loading && !loadFailed" class="alert-tab-count">{{ handledAlerts.length }}</span>
       </button>
     </div>
 
-    <BaseCard v-if="loading">
-      <p class="text-sm text-slate-500">正在加载预警列表...</p>
-    </BaseCard>
-
-    <div v-else class="grid gap-4">
-      <BaseCard v-if="currentAlerts.length === 0" class="border-dashed">
-        <div class="py-12 text-center">
-          <div class="mx-auto flex h-16 w-16 items-center justify-center rounded-[8px] bg-slate-100 dark:bg-slate-800">
-            <CheckCircle v-if="activeTab === 'pending'" class="h-8 w-8 text-slate-400" />
-            <AlertTriangle v-else class="h-8 w-8 text-slate-400" />
-          </div>
-          <p class="mt-4 text-base font-semibold text-slate-700 dark:text-slate-200">
-            {{ activeTab === 'pending' ? '暂无待处理预警' : '暂无已处理预警' }}
-          </p>
+    <p v-if="loading" role="status" class="alert-queue-state">正在加载预警列表…</p>
+    <div v-else-if="loadFailed" role="alert" class="alert-queue-state">预警列表暂时无法加载。<button class="service-button service-outline" type="button" @click="loadAlerts">重试</button></div>
+    <p v-else-if="!currentAlerts.length" class="alert-queue-state"><CheckCircle v-if="activeTab === 'pending'" aria-hidden="true" /><AlertTriangle v-else aria-hidden="true" />{{ activeTab === 'pending' ? '暂无待处理预警' : '暂无已处理预警' }}</p>
+    <ul v-else class="alert-queue-list" :aria-label="activeTab === 'pending' ? '待处理预警' : '已处理预警'">
+      <li v-for="item in currentAlerts" :key="item.id" class="alert-queue-row">
+        <h2>{{ item.patient_name }}</h2>
+        <div class="alert-queue-status">
+          <ServiceStatus :tone="item.risk_level >= 8 ? 'danger' : item.risk_level >= 5 ? 'attention' : 'idle'">{{ riskText(item.risk_level) }} {{ item.risk_level }}/10</ServiceStatus>
+          <ServiceStatus v-if="item.is_handled" tone="done">已处理</ServiceStatus>
         </div>
-      </BaseCard>
-
-      <BaseCard v-for="item in currentAlerts" :key="item.id">
-        <div class="flex flex-col gap-4">
-          <div class="flex items-start justify-between gap-4">
-            <div class="min-w-0 flex-1">
-              <div class="flex flex-wrap items-center gap-2">
-                <span :class="['rounded-full px-3 py-1 text-xs font-semibold', riskBadgeClass(item.risk_level)]">
-                  风险等级 {{ item.risk_level }}/10
-                </span>
-                <span class="rounded-full bg-slate-100 px-3 py-1 text-xs text-slate-500 dark:bg-slate-800 dark:text-slate-300">
-                  {{ item.alert_type }}
-                </span>
-                <span v-if="item.is_handled" class="rounded-full border border-emerald-200 bg-emerald-50 px-3 py-1 text-xs font-semibold text-emerald-700">
-                  已处理
-                </span>
-              </div>
-
-              <h3 class="mt-4 text-lg font-bold text-slate-900 dark:text-white">{{ item.patient_name }}</h3>
-              <p class="mt-2 text-sm text-slate-500">
-                {{ riskText(item.risk_level) }} · {{ new Date(item.created_at).toLocaleString('zh-CN') }}
-              </p>
-              <p class="mt-4 whitespace-pre-line text-sm leading-7 text-slate-600 dark:text-slate-300">
-                {{ item.description }}
-              </p>
-
-              <div v-if="item.data_source" class="mt-4 rounded-[8px] bg-slate-50 px-4 py-3 text-sm text-slate-500 dark:bg-slate-900">
-                数据来源：{{ item.data_source }}
-              </div>
-              <div v-if="item.is_handled && item.notes" class="mt-4 rounded-[8px] bg-emerald-50 px-4 py-3 text-sm text-emerald-700">
-                处理备注：{{ item.notes }}
-              </div>
-              <div v-if="item.is_handled && item.handled_at" class="mt-3 text-xs text-slate-400">
-                处理时间：{{ new Date(item.handled_at).toLocaleString('zh-CN') }}
-              </div>
-            </div>
-
-            <button
-              v-if="!item.is_handled"
-              data-testid="alert-handle-trigger"
-              class="rounded-[8px] bg-slate-900 px-4 py-3 text-sm font-semibold text-white dark:bg-white dark:text-slate-900"
-              type="button"
-              @click="openHandleDialog(item)"
-            >
-              标记已处理
-            </button>
-          </div>
+        <p class="alert-queue-time">{{ item.alert_type }} · <time :datetime="item.created_at">{{ new Date(item.created_at).toLocaleString('zh-CN') }}</time></p>
+        <div class="alert-queue-detail">
+          <p>{{ item.description }}</p>
+          <p v-if="item.data_source">数据来源：{{ item.data_source }}</p>
+          <p v-if="item.is_handled && item.notes">处理备注：{{ item.notes }}</p>
+          <p v-if="item.is_handled && item.handled_at">处理时间：{{ new Date(item.handled_at).toLocaleString('zh-CN') }}</p>
         </div>
-      </BaseCard>
-    </div>
+        <button v-if="!item.is_handled" data-testid="alert-handle-trigger" class="service-button service-outline alert-queue-action" type="button" @click="openHandleDialog(item, $event)">标记已处理</button>
+      </li>
+    </ul>
 
     <div
       v-if="selectedAlert"
-      class="fixed inset-0 z-50 flex items-center justify-center bg-slate-950/50 px-4"
-      @click.self="closeDialog"
+      class="service-dialog fixed inset-0 z-50 flex justify-center bg-slate-950/50"
+      @click.self="closeDialog()"
+      @keydown.esc.stop="closeDialog()"
     >
-      <div class="w-full max-w-md rounded-[8px] bg-white p-6 shadow-xl dark:bg-slate-900">
+      <div role="dialog" aria-labelledby="alert-handle-title" class="w-full max-w-md rounded-lg bg-white p-5 shadow-xl">
         <div class="flex items-start gap-3">
           <div class="flex h-10 w-10 shrink-0 items-center justify-center rounded-[8px] bg-amber-100 text-amber-600">
             <MessageSquareText class="h-5 w-5" />
           </div>
           <div class="min-w-0 flex-1">
-            <h3 class="text-xl font-bold text-slate-900 dark:text-white">处理预警</h3>
-            <p class="mt-2 text-sm text-slate-500">{{ selectedAlert.patient_name }} · {{ selectedAlert.alert_type }}</p>
+            <h2 id="alert-handle-title" class="text-xl font-bold">处理预警</h2>
+            <p class="mt-2 text-sm service-muted [overflow-wrap:anywhere]">{{ selectedAlert.patient_name }} · {{ selectedAlert.alert_type }}</p>
           </div>
         </div>
 
-        <div class="mt-5 rounded-[8px] bg-slate-50 p-4 text-sm leading-7 text-slate-600 dark:bg-slate-950 dark:text-slate-300">
+        <div class="mt-5 bg-muted p-4 text-sm leading-7 service-muted [overflow-wrap:anywhere]">
           {{ selectedAlert.description }}
         </div>
 
         <div class="mt-5">
-          <label class="mb-2 block text-sm font-semibold text-slate-900 dark:text-white">
+          <label for="alert-notes" class="mb-2 block text-sm font-semibold">
             处理备注
             <span class="font-normal text-slate-400">（可选）</span>
           </label>
           <textarea
+            id="alert-notes"
+            ref="notesInput"
             v-model="notes"
             data-testid="alert-notes-input"
             class="min-h-32 w-full rounded-[8px] border border-slate-200 bg-slate-50 px-4 py-3 text-sm dark:border-slate-700 dark:bg-slate-950"
@@ -288,7 +230,7 @@ onUnmounted(() => {
         <div class="mt-5 flex gap-3">
           <button
             data-testid="alert-confirm-handle"
-            class="flex-1 rounded-[8px] bg-slate-900 px-4 py-3 text-sm font-semibold text-white disabled:cursor-not-allowed disabled:opacity-60 dark:bg-white dark:text-slate-900"
+            class="service-button flex-1"
             :disabled="saving"
             type="button"
             @click="markHandled"
@@ -296,9 +238,9 @@ onUnmounted(() => {
             {{ saving ? '提交中...' : '确认已处理' }}
           </button>
           <button
-            class="rounded-[8px] border border-slate-200 px-4 py-3 text-sm font-semibold text-slate-500 dark:border-slate-700 dark:text-slate-300"
+            class="service-button service-outline"
             type="button"
-            @click="closeDialog"
+            @click="closeDialog()"
           >
             取消
           </button>
@@ -307,3 +249,24 @@ onUnmounted(() => {
     </div>
   </div>
 </template>
+
+<style scoped>
+.alert-queue-title { border-bottom: 1px solid var(--service-gold); padding-bottom: 14px; }
+.alert-queue-title h1 { font-size: 29px; line-height: 1.25; font-weight: 750; }
+.alert-queue-title p { margin-top: 7px; color: var(--service-muted); font-size: 13px; font-variant-numeric: tabular-nums; }
+.alert-tab-count { font-variant-numeric: tabular-nums; }
+.alert-queue-state { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; padding: 15px; background: var(--workspace-warm); color: var(--service-muted); font-size: 14px; }
+.alert-queue-state svg { width: 18px; height: 18px; }
+.alert-queue-list { border-top: 1px solid var(--service-border); }
+.alert-queue-row { display: grid; grid-template-columns: minmax(0, 1fr) auto; align-items: start; gap: 6px 14px; padding: 12px; border-bottom: 1px solid var(--service-border); overflow-wrap: anywhere; }
+.alert-queue-row h2 { font-size: 16px; font-weight: 720; }
+.alert-queue-status { display: flex; flex-wrap: wrap; justify-content: end; gap: 4px; }
+.alert-queue-time, .alert-queue-detail { color: var(--service-muted); font-size: 13px; }
+.alert-queue-time { grid-column: 1 / -1; font-variant-numeric: tabular-nums; }
+.alert-queue-detail { display: grid; gap: 4px; white-space: pre-line; }
+.alert-queue-action { justify-self: end; }
+@media (max-width: 600px) {
+  .alert-queue-title h1 { font-size: 25px; }
+  .alert-queue-detail, .alert-queue-action { grid-column: 1 / -1; }
+}
+</style>

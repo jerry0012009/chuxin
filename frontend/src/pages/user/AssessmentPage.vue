@@ -2,6 +2,7 @@
 import {
   Activity,
   AlertCircle,
+  ArrowRight,
   BarChart3,
   Brain,
   Calendar,
@@ -132,6 +133,8 @@ const scaleResult = ref<ScaleResult | null>(null)
 const scaleMessagesEl = ref<HTMLElement | null>(null)
 const scaleReportEl = ref<HTMLElement | null>(null)
 const scaleHistoryOpen = ref(false)
+const scaleHistoryTrigger = ref<HTMLButtonElement | null>(null)
+const scaleHistoryClose = ref<HTMLButtonElement | null>(null)
 const scaleHistoryDetailOpen = ref(false)
 const scaleHistoryReportOpen = ref(false)
 const selectedScaleHistory = ref<HistoryScaleAssessment | null>(null)
@@ -497,9 +500,9 @@ const voiceStatusLabel = computed(() => {
 })
 
 const steps = [
-  { id: 'scale' as const, label: '对话评估', description: '选择量表，按提示回答', icon: ClipboardList, done: scaleCompleted },
-  { id: 'voice' as const, label: '语音识别', description: '录制或上传一段语音', icon: Mic, done: voiceCompleted },
-  { id: 'expression' as const, label: '表情识别', description: '开启摄像头，按提示完成采集', icon: Video, done: expressionCompleted },
+  { id: 'scale' as const, label: '对话评估', icon: ClipboardList, done: scaleCompleted },
+  { id: 'voice' as const, label: '语音识别', icon: Mic, done: voiceCompleted },
+  { id: 'expression' as const, label: '表情识别', icon: Video, done: expressionCompleted },
 ]
 
 const voiceScore = computed(() => {
@@ -2535,6 +2538,12 @@ watch(toastMessage, (message) => {
   }, errorMessage.value ? 4200 : 2400)
 })
 
+watch(scaleHistoryOpen, async (open) => {
+  await nextTick()
+  if (open) scaleHistoryClose.value?.focus()
+  else if (!scaleHistoryDetailOpen.value && !scaleHistoryReportOpen.value) scaleHistoryTrigger.value?.focus()
+})
+
 onBeforeUnmount(() => {
   clearScaleTyping()
   clearScaleReadTimer()
@@ -2549,7 +2558,7 @@ onBeforeUnmount(() => {
 </script>
 
 <template>
-  <div class="min-h-screen bg-slate-100 dark:bg-slate-950">
+  <div class="assessment-page">
     <div
       v-if="toastMessage"
       class="fixed left-1/2 top-5 z-[90] w-[calc(100%-32px)] max-w-sm -translate-x-1/2 rounded-xl border px-4 py-3 text-sm font-medium shadow-xl backdrop-blur"
@@ -2846,35 +2855,37 @@ onBeforeUnmount(() => {
 
     <div v-else class="service-width py-5 sm:py-7 assessment-workspace">
       <header class="assessment-heading">
-        <div><h1>AI 多模态评估</h1><p class="service-muted text-sm">{{ multimodalTaskMode ? activeMultimodalTaskTitle : '自由测评' }}</p></div>
-        <div class="assessment-report-actions">
-          <span class="service-muted text-sm" role="status">已完成 {{ completedCount }} / 3 项</span>
-          <button class="service-button" :disabled="!allCompleted || taskSyncing" data-testid="generate-fusion-report" @click="buildReport">{{ taskSyncing ? '同步任务中' : '生成综合报告' }}</button>
-        </div>
+        <h1>AI 多模态评估</h1>
+        <p>{{ multimodalTaskMode ? activeMultimodalTaskTitle : '自由测评' }}</p>
       </header>
       <div class="workspace-content">
         <div class="assessment-modules" role="group" aria-label="测评模块" data-testid="assessment-step-navigation">
-          <button v-for="item in steps" :key="item.id" class="assessment-module rounded-none" type="button" :aria-pressed="step === item.id" :aria-controls="`assessment-panel-${item.id}`" :data-testid="'assessment-step-' + item.id" @click="step = item.id">
-            <component :is="item.icon" aria-hidden="true" /><span>{{ item.label }}</span><Check v-if="item.done.value" class="assessment-module-check" role="img" aria-label="已完成" />
+          <button v-for="(item, index) in steps" :key="item.id" class="assessment-module rounded-none" type="button" :aria-pressed="step === item.id" :aria-controls="`assessment-panel-${item.id}`" :data-testid="'assessment-step-' + item.id" @click="step = item.id">
+            <span class="assessment-module-index" aria-hidden="true">0{{ index + 1 }}</span>
+            <span>{{ item.label }}</span>
+            <Check v-if="item.done.value" class="assessment-module-mark assessment-module-check" role="img" aria-label="已完成" />
+            <component :is="item.icon" v-else class="assessment-module-mark" aria-hidden="true" />
           </button>
         </div>
         <section v-show="step === 'scale'" id="assessment-panel-scale" aria-label="对话评估">
           <div class="space-y-4">
-            <div class="flex items-center justify-between gap-3">
-              <div><h2 class="service-sec-title">{{ scaleStarted ? '答题记录' : '选择量表' }}</h2><p v-if="!scaleStarted" class="service-muted mt-1 text-sm">{{ steps[0]?.description }}</p></div>
+            <div class="assessment-panel-heading">
+              <h2>{{ scaleStarted ? '答题记录' : '选择量表' }}</h2>
               <button
-                class="grid h-12 w-12 shrink-0 place-items-center rounded-2xl border border-slate-200 bg-white text-slate-500 shadow-sm transition hover:border-primary/30 hover:text-primary dark:border-slate-800 dark:bg-slate-900"
+                ref="scaleHistoryTrigger"
+                type="button"
+                class="assessment-quiet-action"
                 aria-label="查看历史评估"
                 title="查看历史评估"
                 data-testid="scale-history-trigger"
                 @click="scaleHistoryOpen = true"
               >
-                <History class="h-5 w-5" />
+                <History aria-hidden="true" /> 历史评估
               </button>
             </div>
             <div
               v-if="scaleResumeBanner && !scaleStarted"
-              class="flex items-center gap-3 rounded-2xl border border-primary/20 bg-primary/5 p-4"
+              class="flex flex-wrap items-center gap-3 rounded-md border border-primary/20 bg-primary/5 p-4"
               data-testid="scale-resume-banner"
             >
               <div class="flex h-9 w-9 shrink-0 items-center justify-center rounded-xl bg-primary/10 text-primary">
@@ -2901,33 +2912,29 @@ onBeforeUnmount(() => {
                 </button>
               </div>
             </div>
-            <div v-if="!scaleStarted" class="grid gap-2 sm:grid-cols-2">
+            <div v-if="!scaleStarted" class="assessment-scale-list" role="group" aria-label="量表选项">
               <button
                 v-for="item in scaleCards"
                 :key="item.id"
-                class="rounded-[16px] border p-4 text-left transition"
-                :class="selectedScales.includes(item.id) ? 'border-primary bg-primary/5' : 'border-slate-200 bg-slate-50 dark:border-slate-800 dark:bg-slate-900'"
+                class="assessment-scale-option rounded-none"
+                type="button"
                 :aria-pressed="selectedScales.includes(item.id)"
                 @click="toggleScale(item.id)"
               >
-                <div class="flex items-start justify-between gap-3">
-                  <p class="font-semibold text-slate-900 dark:text-white">{{ item.title }}</p>
-                  <span v-if="selectedScales.includes(item.id)" class="flex h-6 w-6 items-center justify-center rounded-full bg-primary text-white">
-                    <Check class="h-4 w-4" />
-                  </span>
-                </div>
-                <p class="mt-1 text-sm text-slate-500">{{ item.subtitle }}</p>
-                <p class="mt-2 text-xs text-slate-400">{{ item.questions }} 题 · {{ item.duration }}</p>
+                <span class="assessment-option-mark" aria-hidden="true"><Check v-if="selectedScales.includes(item.id)" /></span>
+                <span class="assessment-option-copy"><strong>{{ item.title }}</strong><span>{{ item.subtitle }}</span></span>
+                <span class="assessment-option-meta">{{ item.questions }} 题 · {{ item.duration }}</span>
               </button>
             </div>
 
             <button
               v-if="!scaleStarted"
-              class="w-full rounded-[12px] bg-slate-900 px-4 py-3 text-sm font-semibold text-white dark:bg-white dark:text-slate-900"
+              class="service-button assessment-start"
+              type="button"
               data-testid="start-scale-assessment"
               @click="startScaleAssessment"
             >
-              开始评估
+              开始评估 <ArrowRight aria-hidden="true" />
             </button>
 
             <div v-else class="overflow-hidden rounded-[16px] border border-slate-100 bg-slate-50 dark:border-slate-800 dark:bg-slate-900">
@@ -3074,14 +3081,14 @@ onBeforeUnmount(() => {
                 </button>
               </div>
             </div>
-            <button class="service-button service-outline w-full" @click="openHtp">
-              房树人(HTP)评估
-            </button>
+            <div class="assessment-other">
+              <button class="assessment-quiet-action" type="button" @click="openHtp">房树人（HTP）评估 <ArrowRight aria-hidden="true" /></button>
+            </div>
           </div>
         </section>
         <section v-show="step === 'voice'" id="assessment-panel-voice" aria-label="语音识别">
           <div class="space-y-4">
-            <div><h2 class="service-sec-title">语音识别</h2><p class="service-muted mt-1 text-sm">{{ steps[1]?.description }}，录音上限 {{ voiceMaxDuration }} 秒。</p></div>
+            <div class="assessment-panel-heading"><h2>语音识别</h2><p class="service-muted text-sm">录音上限 {{ voiceMaxDuration }} 秒</p></div>
             <div class="border-b border-border pb-4" data-testid="voice-status-panel">
               <div class="flex h-28 items-center justify-center gap-[2px] px-2">
                 <div
@@ -3160,7 +3167,7 @@ onBeforeUnmount(() => {
         </section>
         <section v-show="step === 'expression'" id="assessment-panel-expression" aria-label="表情识别">
           <div class="space-y-4">
-            <div><h2 class="service-sec-title">表情识别</h2><p class="service-muted mt-1 text-sm">{{ steps[2]?.description }}。</p></div>
+            <div class="assessment-panel-heading"><h2>表情识别</h2></div>
             <div v-if="!expressionCameraStarted" class="camera-standby" data-testid="expression-start-panel"><Video aria-hidden="true" /><span>摄像头未开启</span></div>
             <div v-else data-testid="expression-live-panel">
               <div class="service-camera-frame relative flex h-72 items-center justify-center overflow-hidden rounded-md bg-slate-900 text-white">
@@ -3253,6 +3260,12 @@ onBeforeUnmount(() => {
             </button>
           </div>
         </section>
+        <aside class="assessment-report-actions" aria-labelledby="assessment-report-title">
+          <h2 id="assessment-report-title">综合报告</h2>
+          <p role="status">已完成 <strong>{{ completedCount }} / 3</strong> 项</p>
+          <ProgressBar :value="completedCount / 3 * 100" label="多模态模块完成进度" />
+          <button class="service-button" type="button" :disabled="!allCompleted || taskSyncing" data-testid="generate-fusion-report" @click="buildReport">{{ taskSyncing ? '同步任务中' : '生成综合报告' }}</button>
+        </aside>
       </div>
     </div>
 
@@ -3458,17 +3471,17 @@ onBeforeUnmount(() => {
       </section>
     </div>
 
-    <div v-if="scaleHistoryOpen" class="service-dialog fixed inset-0 z-50 flex justify-center bg-slate-950/60" data-testid="scale-history-dialog">
-      <section class="service-dialog-history flex w-full max-w-2xl flex-col overflow-hidden rounded-[24px] bg-white shadow-xl dark:bg-slate-950">
+    <div v-if="scaleHistoryOpen" class="service-dialog fixed inset-0 z-50 flex justify-center bg-slate-950/60" data-testid="scale-history-dialog" @keydown.esc.stop="scaleHistoryOpen = false">
+      <section role="dialog" aria-labelledby="scale-history-title" class="service-dialog-history flex w-full max-w-2xl flex-col overflow-hidden rounded-lg bg-white shadow-xl dark:bg-slate-950">
         <header class="flex shrink-0 items-start justify-between border-b border-slate-100 px-6 py-5 dark:border-slate-800">
           <div>
-            <h2 class="flex items-center gap-2 text-2xl font-black text-slate-900 dark:text-white">
+            <h2 id="scale-history-title" class="flex items-center gap-2 text-2xl font-black text-slate-900 dark:text-white">
               <History class="h-6 w-6 text-primary" />
               历史评估记录
             </h2>
             <p class="mt-1 text-sm text-slate-500">查看你的过往评估记录和分析报告</p>
           </div>
-          <button class="grid h-9 w-9 place-items-center rounded-full hover:bg-slate-100 dark:hover:bg-slate-900" data-testid="scale-history-close" @click="scaleHistoryOpen = false">
+          <button ref="scaleHistoryClose" type="button" aria-label="关闭历史评估" class="grid h-11 w-11 place-items-center rounded-full hover:bg-slate-100 dark:hover:bg-slate-900" data-testid="scale-history-close" @click="scaleHistoryOpen = false">
             <X class="h-5 w-5 text-slate-400" />
           </button>
         </header>
@@ -3689,3 +3702,67 @@ onBeforeUnmount(() => {
     </div>
   </div>
 </template>
+
+<style scoped>
+.assessment-workspace { padding-bottom: 40px; }
+.assessment-heading { margin-bottom: 20px; }
+.assessment-heading h1 { font-size: 31px; line-height: 1.25; font-weight: 750; }
+.assessment-heading p { margin-top: 6px; color: var(--service-muted); font-size: 14px; overflow-wrap: anywhere; }
+.assessment-workspace .workspace-content { display: grid; align-items: start; grid-template-columns: 192px minmax(0, 1fr) 203px; background: none; border: 0; padding: 0; gap: 0 16px; border-top: 1px solid var(--service-gold); }
+.assessment-workspace .workspace-content > section { min-width: 0; width: 100%; max-width: none; margin-inline: 0; padding: 19px 24px 12px; background: var(--service-panel); border-inline: 1px solid var(--service-border); border-bottom: 1px solid var(--service-border); }
+.assessment-workspace .assessment-modules { grid-template-columns: minmax(0, 1fr); gap: 0; margin: 0; }
+.assessment-workspace .assessment-module { display: grid; grid-template-columns: auto minmax(0, 1fr) auto; gap: 9px; min-width: 0; min-height: 59px; padding: 10px 12px; border: 0; border-left: 3px solid transparent; border-bottom: 1px solid var(--service-border); background: transparent; color: var(--service-muted); font-size: 14px; font-weight: 660; overflow-wrap: anywhere; }
+.assessment-workspace .assessment-module:hover, .assessment-workspace .assessment-module[aria-pressed='true'] { color: var(--service-deep); background: var(--service-tint); }
+.assessment-workspace .assessment-module[aria-pressed='true'] { border-left-color: var(--service-red); }
+.assessment-module:focus-visible, .assessment-scale-option:focus-visible { outline-offset: -3px; }
+.assessment-module-index { font-size: 12px; font-variant-numeric: tabular-nums; }
+.assessment-module .assessment-module-check { color: #216140; }
+.assessment-panel-heading { display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; min-height: 44px; gap: 0 12px; }
+.assessment-panel-heading h2 { font-size: 22px; font-weight: 730; }
+.assessment-quiet-action { display: inline-flex; align-items: center; gap: 7px; min-height: 44px; color: var(--service-deep); font-size: 13px; font-weight: 650; }
+.assessment-quiet-action:hover { text-decoration: underline; }
+.assessment-quiet-action svg { width: 16px; height: 16px; }
+.assessment-scale-list { border-top: 1px solid var(--service-border); }
+.assessment-scale-option { display: grid; grid-template-columns: 20px minmax(0, 1fr) auto; align-items: center; gap: 2px 12px; width: 100%; min-height: 72px; padding: 10px 12px; border-bottom: 1px solid var(--service-border); text-align: left; }
+.assessment-scale-option:hover { background: var(--workspace-warm); }
+.assessment-scale-option[aria-pressed='true'] { background: #f7ecec; }
+.assessment-option-mark { display: grid; width: 20px; height: 20px; place-items: center; border: 1px solid #a79a93; border-radius: 3px; }
+.assessment-scale-option[aria-pressed='true'] .assessment-option-mark { background: var(--service-red); border-color: var(--service-red); color: #fff; }
+.assessment-option-mark svg { width: 15px; height: 15px; }
+.assessment-option-copy { display: grid; gap: 2px; overflow-wrap: anywhere; }
+.assessment-option-copy strong { font-weight: 690; }
+.assessment-option-copy > span, .assessment-option-meta { color: var(--service-muted); font-size: 13px; }
+.assessment-option-meta { font-variant-numeric: tabular-nums; }
+.assessment-start { min-width: 138px; }
+.assessment-other { border-top: 1px solid var(--workspace-line); }
+.assessment-report-actions { padding: 16px 12px; background: var(--workspace-warm); }
+.assessment-report-actions h2 { font-size: 16px; font-weight: 720; }
+.assessment-report-actions p { margin-block: 8px; font-size: 13px; color: var(--service-muted); font-variant-numeric: tabular-nums; }
+.assessment-report-actions strong { color: var(--service-ink); font-size: 19px; }
+.assessment-report-actions button { width: 100%; margin-top: 14px; }
+@media (max-width: 1020px) {
+  .assessment-workspace .workspace-content { grid-template-columns: minmax(0, 1fr) 168px; }
+  .assessment-workspace .assessment-modules { grid-column: 1 / -1; grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  .assessment-workspace .assessment-module { min-height: 48px; border-left: 0; border-bottom: 2px solid var(--service-border); }
+  .assessment-workspace .assessment-module + .assessment-module { border-left: 1px solid var(--service-border); }
+  .assessment-workspace .assessment-module[aria-pressed='true'] { border-bottom-color: var(--service-red); }
+}
+@media (max-width: 680px) {
+  .assessment-heading { margin-bottom: 14px; }
+  .assessment-heading h1 { font-size: 25px; }
+  .assessment-workspace .workspace-content { grid-template-columns: minmax(0, 1fr); }
+  .assessment-workspace .workspace-content > section { padding: 12px; }
+  .assessment-workspace .assessment-module { grid-template-columns: auto minmax(0, auto); justify-content: center; gap: 5px; padding: 6px 4px; font-size: 13px; }
+  .assessment-module-mark { display: none; }
+  .assessment-module-check { grid-column: 2; display: block; }
+  .assessment-panel-heading h2 { font-size: 19px; }
+  .assessment-scale-option { grid-template-columns: 20px minmax(0, 1fr); min-height: 66px; padding: 7px 6px; column-gap: 9px; }
+  .assessment-option-mark { grid-row: span 2; }
+  .assessment-option-meta { grid-column: 2; font-size: 12px; }
+  .assessment-start { width: 100%; }
+  .assessment-report-actions { display: grid; grid-template-columns: minmax(0, 1fr) auto; align-items: center; gap: 4px 8px; margin-top: 12px; padding: 10px 12px; }
+  .assessment-report-actions p { grid-row: 2; margin: 0; }
+  .assessment-report-actions .service-progress { grid-row: 3; }
+  .assessment-report-actions button { grid-row: 1 / 4; grid-column: 2; margin: 0; padding-inline: 8px; }
+}
+</style>
