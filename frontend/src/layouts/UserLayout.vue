@@ -12,7 +12,7 @@ const navigation = [
   { path: '/', label: '我的工作台', icon: Home },
   { path: '/assessment-tasks', label: '测评任务', icon: ListChecks },
   { path: '/scale-assessment', label: '量表测评', icon: ClipboardList },
-  { path: '/assessment', label: '多模态评估', icon: Activity },
+  { path: '/assessment', label: 'AI 多模态评估', icon: Activity },
   { path: '/neuropsych-assessment', label: '神经心理', icon: Brain },
   { path: '/brain-intervention', label: '脑机调控', icon: BrainCircuit },
   { path: '/healing', label: '疗愈', icon: Heart },

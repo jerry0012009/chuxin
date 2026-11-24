@@ -497,9 +497,9 @@ const voiceStatusLabel = computed(() => {
 })
 
 const steps = [
-  { id: 'scale' as const, label: '对话评估', icon: ClipboardList, done: scaleCompleted },
-  { id: 'voice' as const, label: '语音识别', icon: Mic, done: voiceCompleted },
-  { id: 'expression' as const, label: '表情识别', icon: Video, done: expressionCompleted },
+  { id: 'scale' as const, label: '对话评估', description: '选择量表，按提示回答', icon: ClipboardList, done: scaleCompleted },
+  { id: 'voice' as const, label: '语音识别', description: '录制或上传一段语音', icon: Mic, done: voiceCompleted },
+  { id: 'expression' as const, label: '表情识别', description: '开启摄像头，按提示完成采集', icon: Video, done: expressionCompleted },
 ]
 
 const voiceScore = computed(() => {
@@ -2845,14 +2845,14 @@ onBeforeUnmount(() => {
     </div>
 
     <div v-else class="service-width py-5 sm:py-7 assessment-workspace">
+      <div class="assessment-modules" role="group" aria-label="测评模块" data-testid="assessment-step-navigation">
+        <button v-for="item in steps" :key="item.id" class="assessment-module" type="button" :aria-pressed="step === item.id" :data-testid="'assessment-step-' + item.id" @click="step = item.id">
+          <component :is="item.icon" aria-hidden="true" /><span><strong>{{ item.label }}</strong><span aria-hidden="true">｜</span>{{ item.description }}</span><Check v-if="item.done.value" aria-label="已完成" />
+        </button>
+      </div>
       <div class="flex flex-wrap items-center justify-between gap-3 pb-4">
         <div><p class="font-semibold">{{ multimodalTaskMode ? activeMultimodalTaskTitle : '自由测评' }}</p><p class="service-muted text-sm">已完成 {{ completedCount }} / 3 项</p></div>
         <button class="service-button" :disabled="!allCompleted || taskSyncing" data-testid="generate-fusion-report" @click="buildReport">{{ taskSyncing ? '同步任务中' : '生成综合报告' }}</button>
-      </div>
-      <div class="service-tabs" role="group" aria-label="测评模块" data-testid="assessment-step-navigation">
-        <button v-for="item in steps" :key="item.id" class="service-tab flex-1" type="button" :aria-pressed="step === item.id" :data-testid="'assessment-step-' + item.id" @click="step = item.id">
-          <component :is="item.icon" aria-hidden="true" />{{ item.label }}<Check v-if="item.done.value" aria-label="已完成" />
-        </button>
       </div>
       <div class="workspace-content">
         <section v-show="step === 'scale'" aria-label="对话评估">

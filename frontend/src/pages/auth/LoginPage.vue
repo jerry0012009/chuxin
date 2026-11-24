@@ -5,10 +5,9 @@ import { useRouter } from 'vue-router'
 import { useAuthSession } from '@/composables/useAuthSession'
 import { getDepartments } from '@/db/api'
 import type { Department } from '@/types'
-import ServiceHero from '@/components/ui/ServiceHero.vue'
 import ServiceAccountBar from '@/components/ui/ServiceAccountBar.vue'
 import { useAccountActions } from '@/composables/useAccountActions'
-import { systemName } from '@/lib/service-preview'
+import { palaceImage, systemName } from '@/lib/service-preview'
 
 type LoginRole = 'user' | 'doctor'
 type AuthMode = 'login' | 'register'
@@ -163,8 +162,8 @@ async function submitAuth() {
 <template>
   <div class="service-page access-page">
     <ServiceAccountBar v-if="state.user" />
-    <ServiceHero variant="full" :title="systemName" eyebrow="高原身心健康研究" />
-    <main class="service-width py-5 sm:py-7">
+    <main class="service-width access-composition">
+    <header class="access-title"><p class="service-kicker">高原身心健康研究</p><h1>{{ systemName }}</h1></header>
     <div
       v-if="toastMessage"
       class="fixed left-1/2 top-[72px] z-[80] -translate-x-1/2 rounded-full px-4 py-2 text-sm font-semibold text-white shadow-xl"
@@ -175,11 +174,11 @@ async function submitAuth() {
       {{ toastMessage }}
     </div>
 
-    <div v-if="state.user" class="service-card service-card-highlight mx-auto max-w-[460px] p-5">
+    <div v-if="state.user" class="access-form service-card service-card-highlight p-5">
       <h2 class="text-xl font-bold">账号已登录</h2>
       <button class="service-button mt-4" type="button" @click="router.push(staff ? '/admin/dashboard' : '/')">返回当前工作区 <ArrowRight aria-hidden="true" /></button>
     </div>
-    <div v-else class="service-card service-card-highlight mx-auto max-w-[460px]">
+    <div v-else class="access-form service-card service-card-highlight">
       <div class="flex items-center gap-3 border-b px-5 py-5 sm:px-7">
         <h2 class="text-xl font-bold">{{ mode === 'login' ? '账号登录' : '账号注册' }}</h2>
       </div>
@@ -278,6 +277,7 @@ async function submitAuth() {
         </div>
       </div>
     </div>
+    <img class="access-palace" :src="palaceImage" width="1200" height="524" alt="" />
     </main>
   </div>
 </template>

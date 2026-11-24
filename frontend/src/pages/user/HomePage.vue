@@ -25,7 +25,7 @@ const todayLabel = new Intl.DateTimeFormat('zh-CN', { dateStyle: 'full' }).forma
 const dateLabel = (date?: string | null) => date ? new Date(date).toLocaleDateString('zh-CN') : ''
 const links = [
   { title: '量表测评', to: '/scale-assessment', icon: ClipboardList },
-  { title: 'AI多模态评估', to: '/assessment', icon: Activity, test: 'home-feature-assessment' },
+  { title: 'AI 多模态评估', to: '/assessment', icon: Activity, test: 'home-feature-assessment' },
   { title: '神经心理', to: '/neuropsych-assessment', icon: Brain },
   { title: '脑机调控', to: '/brain-intervention', icon: BrainCircuit },
   { title: '情绪记录', to: '/record', icon: NotebookPen, test: 'home-feature-record' },

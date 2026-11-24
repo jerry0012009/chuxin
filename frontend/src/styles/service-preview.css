@@ -22,7 +22,6 @@
 .service-masthead { background: var(--service-red); color: white; border-bottom: 2px solid var(--service-gold); }
 .service-brand { display: flex; min-height: 72px; align-items: center; gap: 10px; padding-block: 10px; }
 .service-brand-link { display: flex; min-width: 0; align-items: center; gap: 12px; }
-.service-brand-mark { display: grid; flex: 0 0 42px; height: 42px; place-items: center; border: 1px solid #ffffff70; border-radius: 6px; }
 .service-brand-title { font-size: 23px; line-height: 1.3; font-weight: 750; }
 .service-brand-caption { font-size: 12px; color: #fae0e1; margin-top: 4px; }
 .service-preview-label { margin-left: auto; border: 1px solid #ffffff65; border-radius: 4px; padding: 4px 8px; color: white; white-space: nowrap; font-size: 12px; }
@@ -48,8 +47,17 @@
 .service-account-actions button:disabled { opacity: .6; }
 .service-main { min-width: 0; }
 .service-page .lucide { stroke-width: 1.7; flex-shrink: 0; }
-.access-page { border-top: 6px solid var(--service-red); }
-.access-page .service-hero-title { max-width: 14em; }
+.access-page { border-top: 2px solid var(--service-gold); }
+.access-composition { min-height: calc(100svh - 2px); display: grid; grid-template-rows: auto minmax(24px, 1fr) auto minmax(24px, 1fr) auto; }
+.access-title { grid-row: 1; padding-top: 32px; }
+.access-title h1 { color: var(--service-deep); font: 700 36px/1.3 'Noto Serif SC', 'Songti SC', SimSun, Georgia, serif; }
+.access-form { grid-row: 3; width: min(440px, 100%); margin-inline: auto; }
+.access-palace { grid-row: 5; display: block; justify-self: center; width: auto; max-width: 100%; height: auto; max-height: 190px; opacity: .58; }
+.assessment-modules { display: grid; grid-template-columns: repeat(3,minmax(0,1fr)); gap: 8px; margin-bottom: 20px; }
+.assessment-module { display: flex; align-items: center; gap: 8px; min-height: 48px; padding: 10px; text-align: left; font-size: 14px; border: 1px solid var(--service-border); background: var(--service-panel); }
+.assessment-module svg { width: 16px; height: 16px; color: var(--service-red); }
+.assessment-module[aria-pressed="true"] { border-color: var(--service-red); color: var(--service-deep); background: var(--service-tint); }
+@media (max-width: 767px) { .assessment-modules { grid-template-columns: 1fr; } }
 .service-tabs { display: flex; gap: 4px; border-bottom: 1px solid var(--service-border); }
 .service-tab { min-width: 0; display: inline-flex; align-items: center; justify-content: center; gap: 6px; min-height: 44px; padding: 8px 12px; color: var(--service-muted); border-bottom: 2px solid transparent; font-weight: 600; font-size: 14px; }
 .service-tab[aria-pressed="true"] { color: var(--service-red); border-bottom-color: var(--service-red); background: var(--service-tint); }
@@ -59,10 +67,9 @@
 .service-list-head { color: var(--service-muted); font-size: 13px; background: #f3f3f2; }
 .service-list-label { display: none; }
 .service-list-row .service-button { justify-self: start; }
-.workspace-content { min-width: 0; background: var(--service-panel); border: 1px solid var(--service-border); border-top: 0; border-radius: 0 0 var(--service-radius) var(--service-radius); padding: 22px; }
+.workspace-content { min-width: 0; background: var(--service-panel); border: 1px solid var(--service-border); border-radius: var(--service-radius); padding: 22px; }
 .workspace-content > section { max-width: 800px; margin-inline: auto; }
 .camera-standby { display: grid; place-content: center; justify-items: center; gap: 8px; min-height: 140px; background: var(--service-paper); border: 1px solid var(--service-border); border-radius: var(--service-radius); color: var(--service-muted); }
-.access-page .service-hero--full .service-palace { right: 0; }
 @media (max-width: 600px) { .workspace-content { padding: 14px; } }
 @media (max-width: 600px) {
   .service-list-head { display: none; }
@@ -163,8 +170,9 @@
 @media (max-width: 640px) {
   .service-width { width: calc(100% - 32px); }
   .service-brand { min-height: 68px; gap: 9px; }
-  .service-brand-mark { flex-basis: 34px; height: 34px; }
-  .service-brand-mark svg { width: 20px; }
+  .access-title { padding-top: 24px; }
+  .access-title h1 { font-size: 27px; }
+  .access-palace { max-height: 135px; }
   .service-brand-title { font-size: 17px; }
   .service-brand-caption { font-size: 11px; }
   .service-preview-label { padding-inline: 5px; font-size: 11px; }
