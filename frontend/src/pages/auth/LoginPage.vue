@@ -7,7 +7,7 @@ import { getDepartments } from '@/db/api'
 import type { Department } from '@/types'
 import ServiceAccountBar from '@/components/ui/ServiceAccountBar.vue'
 import { useAccountActions } from '@/composables/useAccountActions'
-import { palaceImage, systemName } from '@/lib/service-preview'
+import { systemName } from '@/lib/service-preview'
 
 type LoginRole = 'user' | 'doctor'
 type AuthMode = 'login' | 'register'
@@ -15,6 +15,8 @@ type AuthMode = 'login' | 'register'
 const router = useRouter()
 const { signInWithUsername, signUpWithUsername, state } = useAuthSession()
 const { staff } = useAccountActions()
+const palaceMobile = `${import.meta.env.BASE_URL}images/login-potala-mobile.webp`
+const palaceDesktop = `${import.meta.env.BASE_URL}images/login-potala-desktop.webp`
 const mode = ref<AuthMode>('login')
 const role = ref<LoginRole>(new URLSearchParams(window.location.search).get('role') === 'doctor' ? 'doctor' : 'user')
 const username = ref('')
@@ -160,10 +162,10 @@ async function submitAuth() {
 </script>
 
 <template>
-  <div class="service-page access-page">
+  <div class="service-page login-page">
     <ServiceAccountBar v-if="state.user" />
-    <main class="service-width access-composition">
-    <header class="access-title"><p class="service-kicker">高原身心健康研究</p><h1>{{ systemName }}</h1></header>
+    <main class="login-composition">
+    <header class="login-title"><p>高原身心健康研究</p><h1>{{ systemName }}</h1></header>
     <div
       v-if="toastMessage"
       class="fixed left-1/2 top-[72px] z-[80] -translate-x-1/2 rounded-full px-4 py-2 text-sm font-semibold text-white shadow-xl"
@@ -174,21 +176,21 @@ async function submitAuth() {
       {{ toastMessage }}
     </div>
 
-    <div v-if="state.user" class="access-form service-card service-card-highlight p-5">
+    <div v-if="state.user" class="login-panel p-5">
       <h2 class="text-xl font-bold">账号已登录</h2>
       <button class="service-button mt-4" type="button" @click="router.push(staff ? '/admin/dashboard' : '/')">返回当前工作区 <ArrowRight aria-hidden="true" /></button>
     </div>
-    <div v-else class="access-form service-card service-card-highlight">
-      <div class="flex items-center gap-3 border-b px-5 py-5 sm:px-7">
-        <h2 class="text-xl font-bold">{{ mode === 'login' ? '账号登录' : '账号注册' }}</h2>
+    <div v-else class="login-panel" aria-labelledby="login-panel-heading">
+      <div class="login-panel-head">
+        <h2 id="login-panel-heading">{{ mode === 'login' ? '账号登录' : '账号注册' }}</h2>
       </div>
 
-      <div class="px-5 pb-6 pt-5 sm:px-7">
-        <div class="service-tabs mb-4" role="group" aria-label="身份选择">
+      <div class="login-panel-body">
+        <div class="login-roles" role="group" aria-label="身份选择">
           <button
             v-for="item in roleOptions"
             :key="item.value"
-            class="service-tab flex-1"
+            class="login-role rounded-none"
             :aria-pressed="role === item.value"
             :data-testid="`role-${item.value}`"
             type="button"
@@ -198,14 +200,14 @@ async function submitAuth() {
           </button>
         </div>
 
-        <form class="mt-6 space-y-4" @submit.prevent="submitAuth">
-          <div class="space-y-2">
-            <label class="text-sm font-medium text-slate-700 dark:text-slate-200" for="login-username">用户名</label>
+        <form class="login-fields" @submit.prevent="submitAuth">
+          <div class="login-field">
+            <label for="login-username">用户名</label>
             <input
               id="login-username"
               v-model="username"
               autocomplete="username"
-              class="w-full rounded-md border border-slate-200 bg-transparent px-3 py-2 text-base outline-none transition focus:ring-2 focus:ring-primary/20 dark:border-slate-800 md:text-sm"
+              class="login-control"
               data-testid="username-input"
               maxlength="20"
               :placeholder="mode === 'register' ? '支持中文、英文、数字（2-20个字符）' : role === 'doctor' ? '请输入管理员账号用户名' : '请输入用户名'"
@@ -216,25 +218,25 @@ async function submitAuth() {
             </p>
           </div>
 
-          <div class="space-y-2">
-            <label class="text-sm font-medium text-slate-700 dark:text-slate-200" for="login-password">密码</label>
+          <div class="login-field">
+            <label for="login-password">密码</label>
             <input
               id="login-password"
               v-model="password"
               :autocomplete="mode === 'login' ? 'current-password' : 'new-password'"
-              class="w-full rounded-md border border-slate-200 bg-transparent px-3 py-2 text-base outline-none transition focus:ring-2 focus:ring-primary/20 dark:border-slate-800 md:text-sm"
+              class="login-control"
               data-testid="password-input"
               :placeholder="mode === 'register' ? '至少6个字符' : role === 'doctor' ? '管理员端至少6位密码' : '请输入密码'"
               type="password"
             />
           </div>
 
-          <div v-if="mode === 'register' && role === 'doctor'" class="space-y-2">
-            <label class="text-sm font-medium text-slate-700 dark:text-slate-200" for="verification-code">验证码</label>
+          <div v-if="mode === 'register' && role === 'doctor'" class="login-field">
+            <label for="verification-code">验证码</label>
             <input
               id="verification-code"
               v-model="verificationCode"
-              class="w-full rounded-md border border-slate-200 bg-transparent px-3 py-2 text-base outline-none transition focus:ring-2 focus:ring-primary/20 dark:border-slate-800 md:text-sm"
+              class="login-control"
               data-testid="verification-code-input"
               placeholder="请输入管理员端验证码"
               type="text"
@@ -242,12 +244,12 @@ async function submitAuth() {
             <p class="text-xs text-slate-500">管理员端注册需要验证码，请联系管理员获取</p>
           </div>
 
-          <div v-if="mode === 'register' && role === 'user'" class="space-y-2">
-            <label class="text-sm font-medium text-slate-700 dark:text-slate-200" for="department-id">所属部门</label>
+          <div v-if="mode === 'register' && role === 'user'" class="login-field">
+            <label for="department-id">所属部门</label>
             <select
               id="department-id"
               v-model="departmentId"
-              class="w-full rounded-md border border-slate-200 bg-transparent px-3 py-2 text-base outline-none transition focus:ring-2 focus:ring-primary/20 dark:border-slate-800 md:text-sm"
+              class="login-control"
               data-testid="department-select"
               :disabled="departmentsLoading"
             >
@@ -260,24 +262,114 @@ async function submitAuth() {
           </div>
 
           <button
-            class="service-button w-full"
+            class="service-button login-submit"
             :disabled="isSubmitting"
             type="submit"
           >
             <span class="inline-flex items-center gap-2">
               <LoaderCircle v-if="isSubmitting" class="h-4 w-4 animate-spin" aria-hidden="true" />
-              <ArrowRight v-else aria-hidden="true" />
               {{ isSubmitting ? (mode === 'login' ? '登录中' : '注册中') : (mode === 'login' ? '登录' : '注册') }}
             </span>
           </button>
         </form>
-        <div class="mt-3 text-center text-sm">
-          <button v-if="mode === 'login'" type="button" class="service-link py-2" data-testid="mode-register" @click="mode = 'register'">注册账号</button>
-          <button v-else type="button" class="service-link py-2" data-testid="mode-login" @click="mode = 'login'">返回登录</button>
+        <div class="login-switch">
+          <button v-if="mode === 'login'" type="button" class="service-link" data-testid="mode-register" @click="mode = 'register'">注册账号</button>
+          <button v-else type="button" class="service-link" data-testid="mode-login" @click="mode = 'login'">返回登录</button>
         </div>
       </div>
     </div>
-    <img class="access-palace" :src="palaceImage" width="1200" height="524" alt="" />
+    <picture class="login-landscape" aria-hidden="true">
+      <source media="(max-width: 767px)" :srcset="palaceMobile" width="887" height="426" />
+      <img :src="palaceDesktop" width="1536" height="424" alt="" />
+    </picture>
     </main>
   </div>
 </template>
+
+<style scoped>
+@font-face {
+  font-family: 'Chuxin Login Song';
+  src: url('./login-title.woff2') format('woff2');
+  font-weight: 700;
+  font-display: swap;
+}
+
+.login-page {
+  --login-red: #870f21;
+  --login-gold: #b88645;
+  background: #f8f1eb;
+  color: #171719;
+  border-top: 6px solid var(--login-red);
+  font-family: 'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', system-ui, sans-serif;
+}
+.login-composition {
+  position: relative;
+  isolation: isolate;
+  min-height: calc(100svh - 6px);
+  padding-bottom: 24px;
+}
+.login-title {
+  padding: 44px 8px 26px;
+  border-bottom: 1px solid var(--login-gold);
+  text-align: center;
+  color: #691f25;
+  font-family: 'Chuxin Login Song', 'Songti SC', SimSun, serif;
+  font-weight: 700;
+}
+.login-title p { display: flex; justify-content: center; align-items: center; gap: 16px; font-size: 19px; line-height: 28px; }
+.login-title p::before, .login-title p::after { content: ''; width: 34px; height: 1px; background: var(--login-gold); }
+.login-title h1 { margin-top: 10px; font-size: 48px; line-height: 62px; }
+.login-panel {
+  width: min(538px, 88%);
+  margin: 45px auto 0;
+  background: #faf8f6;
+  border: 1px solid #b9b6b5;
+  border-top: 2px solid var(--login-gold);
+  border-radius: 4px;
+}
+.login-panel-head { margin-inline: 19px; padding: 20px 13px 22px; border-bottom: 1px solid #d7d6d6; }
+.login-panel-head h2 { font-size: 25px; font-weight: 700; line-height: 36px; }
+.login-panel-body { padding: 0 32px 22px; }
+.login-roles { display: flex; border-bottom: 1px solid #cbd0d3; }
+.login-role { flex: 1; min-width: 0; min-height: 62px; border-bottom: 2px solid transparent; color: #555b60; font-size: 20px; font-weight: 600; }
+.login-role[aria-pressed='true'] { color: var(--login-red); border-bottom-color: var(--login-red); }
+.login-fields { display: grid; gap: 18px; margin-top: 26px; }
+.login-field { display: grid; gap: 7px; font-size: 18px; line-height: 26px; }
+.login-field label { font-weight: 500; }
+.login-control { width: 100%; min-width: 0; min-height: 43px; padding: 7px 16px; border: 1px solid #cbc2c6; border-radius: 6px; background: transparent; font-size: 17px; }
+.login-control::placeholder { color: #758ba3; opacity: 1; }
+.login-submit { width: 100%; min-height: 49px; margin-top: 10px; border-color: var(--login-red); background: var(--login-red); font-size: 23px; line-height: 30px; font-weight: 600; }
+.login-switch { margin-top: 13px; text-align: center; }
+.login-switch button { min-height: 45px; color: var(--login-red); font-size: 20px; }
+.login-landscape { position: absolute; inset: auto 0 0; z-index: -1; pointer-events: none; }
+.login-landscape img { width: 100%; display: block; mask-image: linear-gradient(transparent, black 4%); }
+
+@media (max-width: 767px) {
+  .login-page { border-top-width: 4px; background: #fdf6f0; }
+  .login-composition {
+    min-height: calc(100svh - 4px);
+    display: grid;
+    grid-template-rows: auto minmax(24px, 1.2fr) auto minmax(19px, .8fr) auto;
+    padding-bottom: 0;
+  }
+  .login-title { grid-row: 1; padding: 32px 8px 16px; }
+  .login-title p { gap: 12px; font-size: 14px; line-height: 20px; }
+  .login-title p::before, .login-title p::after { width: 24px; }
+  .login-title h1 { margin-top: 10px; font-size: 30px; line-height: 38px; }
+  .login-panel { grid-row: 3; width: min(88%, 420px); margin: 0 auto; }
+  .login-panel-head { margin-inline: 13px; padding: 13px 9px 10px; }
+  .login-panel-head h2 { font-size: 20px; line-height: 28px; }
+  .login-panel-body { padding: 0 20px 11px; }
+  .login-role { min-height: 44px; font-size: 16px; }
+  .login-fields { gap: 14px; margin-top: 15px; }
+  .login-field { gap: 4px; font-size: 16px; line-height: 20px; }
+  .login-control { min-height: 32px; padding: 5px 12px; font-size: 16px; }
+  .login-submit { min-height: 44px; margin-top: 4px; font-size: 20px; line-height: 24px; }
+  .login-switch { margin-top: 0; }
+  .login-switch button { min-height: 44px; font-size: 18px; }
+  .login-landscape { position: static; grid-row: 5; }
+  .login-landscape img { mask-image: linear-gradient(transparent, black 6%); }
+}
+
+@media (max-width: 360px) { .login-title h1 { font-size: 27px; } }
+</style>
